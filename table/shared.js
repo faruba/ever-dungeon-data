@@ -75,8 +75,6 @@ RET_LoginByAnotherDevice = 42;
 RET_NewVersionArrived = 43;
 RET_SessionOutOfDate = 44;
 RET_NeedTeammate = 45;
-RET_NeedReceipt = 46;
-RET_InsufficientIngredient = 47;
 
 ErrorMsgs = [
     "操作成功",
@@ -124,9 +122,7 @@ ErrorMsgs = [
     "从另外一个设备登录",
     "有新版本更新，请重新登录",
     "与服务器断开连接",
-    "Need Teammate",
-    "缺少配方",
-    "缺少材料"
+    "Need Teammate"
 ];
 
 /*** ITEM CATEGORY ***/
@@ -196,11 +192,9 @@ RES_GOLD = 12;
 RES_WXP = 13;
 RES_EXP = 14;
 
-LOGIN_ACCOUNT_TYPE_TG = 0;
+LOGIN_ACCOUNT_TYPE_DUMMY0 = 0;
 LOGIN_ACCOUNT_TYPE_AD = 1;
 LOGIN_ACCOUNT_TYPE_PP =  2;
-LOGIN_ACCOUNT_TYPE_91 =  3;
-LOGIN_ACCOUNT_TYPE_KY =  4;
 
 Max_tutorialStage = 3;
 

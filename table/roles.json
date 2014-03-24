@@ -5544,8 +5544,8 @@
         "avatar": "enemy-slimeboss.ccbi",
         "property":
         {
-            "health": 20,
-            "attack": 0.3,
+            "health": 10,
+            "attack": 0.6,
             "critical": 20,
             "strong": 10,
             "accuracy": 60,

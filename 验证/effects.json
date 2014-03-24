@@ -1,0 +1,28 @@
+{
+    "Root":{
+        "type":"array",
+        "sons":{
+            "type":"effects"
+        }
+    },
+    "effects":{
+        "type":"object",
+        "sons":{
+            "effectId":{
+                "type":"number",
+                "check":{
+                    "isInteger":true,
+                    "minRanger":0
+                }
+            },
+            "rotate":{
+                "type":"boolean",
+                "opption":true
+            },
+            "loop":{
+                "type":"boolean",
+                "opption":true
+            }
+        }
+    }
+}

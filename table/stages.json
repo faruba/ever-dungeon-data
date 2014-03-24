@@ -1022,7 +1022,191 @@
                 "event":"event_daily"
             }
         ]
-    }
+    },
+    {
+        "chapterId": 13,
+        "posX": 2,
+        "posY": 7,
+        "gid": 6,
+        "title":"dungeonname1.png",
+        "label":"多姆洞穴",
+        "desc":"似乎是天然形成的洞穴，出没着一些危险的\n野生怪物，让不少旅人有去无回。",
+        "icon":"mapicon2.png",
+
+        "stage":[
+            {
+                "stageId": 96,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 92,
+                "prev": [0]
+            },
+            {
+                "stageId": 97,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 93,
+                "tutorial":3,
+                "prev": [96]
+            },
+            {
+                "stageId": 98,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 94,
+                "prev": [97]
+            },
+            {
+                "stageId": 99,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon":95,
+                "prev": [98]
+            },
+            {
+                "stageId": 100,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 96,
+                "prev": [99]
+            },
+            {
+                "stageId": 101,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 97,
+                "prev": [100]
+            },
+            {
+                "stageId": 102,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 98,
+                "prev": [101]
+            },
+            {
+                "stageId":103,
+                "cost":10,
+                "dungeon":64,
+                "isInfinite":true,
+                "prev":[102]
+            }
+        ]
+    },
+    {
+    "chapterId": 14,
+    "hidden": true,
+    "label":"教程",
+    "stage":[
+        {
+            "stageId": 104,
+            "cost": 0,
+            "team": 1,
+            "hidden":false,
+            "dungeon": 0,
+            "teammate": [
+                {
+                    "class" : 131,
+                    "name" : "约书亚",
+                    "gender" : 1,
+                    "hairStyle" : 5,
+                    "hairColor" : 13,
+                    "xp" : 0
+                },
+                {
+                    "class" : 132,
+                    "name" : "凯瑟琳",
+                    "gender" : 0,
+                    "hairStyle" : 5,
+                    "hairColor" :3 ,
+                    "xp" : 0
+                }
+            ]
+        },
+        {
+            "stageId": 105,
+            "cost": 0,
+            "team": 1,
+            "hidden":false,
+            "dungeon": 0,
+            "teammate": [
+                {
+                    "class" : 131,
+                    "name" : "约书亚",
+                    "gender" : 1,
+                    "hairStyle" : 5,
+                    "hairColor" : 13,
+                    "xp" : 0
+                },
+                {
+                    "class" : 132,
+                    "name" : "凯瑟琳",
+                    "gender" : 0,
+                    "hairStyle" : 5,
+                    "hairColor" :3 ,
+                    "xp" : 0
+                }
+            ]
+        },
+        {
+            "stageId": 106,
+            "cost": 0,
+            "team": 1,
+            "hidden":false,
+            "dungeon": 0,
+            "teammate": [
+                {
+                    "class" : 131,
+                    "name" : "约书亚",
+                    "gender" : 1,
+                    "hairStyle" : 5,
+                    "hairColor" : 13,
+                    "xp" : 0
+                },
+                {
+                    "class" : 132,
+                    "name" : "凯瑟琳",
+                    "gender" : 0,
+                    "hairStyle" : 5,
+                    "hairColor" :3 ,
+                    "xp" : 0
+                }
+            ]
+        },
+        {
+            "stageId": 107,
+            "cost": 0,
+            "team": 1,
+            "hidden":false,
+            "dungeon": 0,
+            "teammate": [
+                {
+                    "class" : 131,
+                    "name" : "约书亚",
+                    "gender" : 1,
+                    "hairStyle" : 5,
+                    "hairColor" : 13,
+                    "xp" : 0
+                },
+                {
+                    "class" : 132,
+                    "name" : "凯瑟琳",
+                    "gender" : 0,
+                    "hairStyle" : 5,
+                    "hairColor" :3 ,
+                    "xp" : 0
+                }
+            ]
+        }
+    ]
+}
 ]
 	
 		

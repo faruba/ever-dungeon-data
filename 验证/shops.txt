@@ -1,0 +1,11 @@
+﻿{"root":{
+	"type":"object",
+	"sons":{
+		"version":{
+			"type"："number"
+		},
+		"expireDate":{
+			"type":"number"
+		},
+		
+}

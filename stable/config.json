@@ -16,7 +16,7 @@
   "Global_Blue_Star_RewardTable" : [ ],
   "Global_Recyclable_Enhancement" : [ 0, 1, 2, 3, 4, 5, 6 ],
   "Global_Recycle_Config" : [
-    {"minimum" : 1, "delta" : 1},
+    {"minimum" : 0, "delta" : 1},
     {"minimum" : 1, "delta" : 1},
     {"minimum" : 2, "delta" : 2},
     {"minimum" : 3, "delta" : 3},
@@ -27,8 +27,6 @@
     {"minimum" : 8, "delta" : 8},
     {"minimum" : 9, "delta" : 9}
   ],
-  "Global_WXP_BOOK": 5,
-  "Global_Material_ID": [558, 559, 560, 561, 562],
   "Global_Enhancement_GEM_Index" : [3, 4, 5, 26, 27, 392, 393],
   "Auth_API_Server": "10.4.2.185",
   "DB_Config_Local" : {
@@ -38,7 +36,7 @@
     "Subscriber": { "IP": "localhost", "PORT": 6379}
   },
   "DB_Config_Develop" : {
-    "Account": { "IP": "localhost", "PORT": 6379 },
+    "Account": { "IP": "10.4.4.188", "PORT": 6380 },
     "Role": { "IP": "localhost", "PORT": 6379},
     "Publisher": { "IP": "localhost", "PORT": 6379},
     "Subscriber": { "IP": "localhost", "PORT": 6379}

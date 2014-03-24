@@ -1,0 +1,14 @@
+{
+    "Root":{
+        "type":"array",
+        "sons":{
+            "type":"items"
+        }
+    },
+    "items":{
+        "type":"object",
+        "sons":{
+
+        }
+    }
+}

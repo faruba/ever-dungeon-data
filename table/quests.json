@@ -38,17 +38,20 @@
             {
                 "type":0,
                 "value":35,
-                "count":1
+                "count":1,
+                "classLimit":[1]
             },
             {
                 "type":0,
                 "value":39,
-                "count":1
+                "count":1,
+                "classLimit":[2]
             },
             {
                 "type":0,
                 "value":43,
-                "count":1
+                "count":1,
+                "classLimit":[0]
             },
             {
                 "type":3,
@@ -73,17 +76,20 @@
                 {
                     "type":0,
                     "value":35,
-                    "count":1
+                    "count":1,
+                    "classLimit":[1]
                 },
                 {
                     "type":0,
                     "value":39,
-                    "count":1
+                    "count":1,
+                    "classLimit":[2]
                 },
                 {
                     "type":0,
                     "value":43,
-                    "count":1
+                    "count":1,
+                    "classLimit":[0]
                 },
                 {
                     "type":3,
@@ -109,17 +115,20 @@
             {
                 "type":0,
                 "value":33,
-                "count":1
+                "count":1,
+                "classLimit":[1]
             },
             {
                 "type":0,
                 "value":37,
-                "count":1
+                "count":1,
+                "classLimit":[2]
             },
             {
                 "type":0,
                 "value":41,
-                "count":1
+                "count":1,
+                "classLimit":[0]
             },
             {
                 "type":3,
@@ -174,17 +183,20 @@
             {
                 "type":0,
                 "value":34,
-                "count":1
+                "count":1,
+                "classLimit":[1]
             },
             {
                 "type":0,
                 "value":38,
-                "count":1
+                "count":1,
+                "classLimit":[2]
             },
             {
                 "type":0,
                 "value":42,
-                "count":1
+                "count":1,
+                "classLimit":[0]
             },
             {
                 "type":3,
@@ -3851,5 +3863,353 @@
             "count":500
         },{ "type":5, "func": "setFlag", "flag": "daily", "value": true } ],
         "prev":[13]
+    },
+    {
+    "questId":153,
+    "title":"劫后逢生",
+    "desc":"传说中的魔龙再次出现，混沌的黑暗将再度降临，做好准备迎接挑战",
+    "objects":[
+        {
+            "type":0,
+            "label":"与魔龙交战，并且死里逃生。",
+            "collect":153001,
+            "count":1
+        }
+    ],
+    "prize":[
+        {
+            "type":0,
+            "value":25,
+            "count":1
+        }
+    ],
+    "endDialogue":-1
+},
+    {
+        "questId":154,
+        "title":"找到汤姆大叔的女儿",
+        "desc":"听说汤姆大叔的女儿去了【多姆洞穴I】，赶紧去看看吧。",
+        "objects":[
+            {
+                "type":0,
+                "label":"找到汤姆大叔的女儿",
+                "collect":154001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":0,
+                "value":35,
+                "count":1,
+                "classLimit":[1]
+            },
+            {
+                "type":0,
+                "value":39,
+                "count":1,
+                "classLimit":[2]
+            },
+            {
+                "type":0,
+                "value":43,
+                "count":1,
+                "classLimit":[0]
+            },
+            {
+                "type":3,
+                "count":250
+            }
+        ],
+        "prev":[0] ,
+        "endDialogue":11
+    },
+    {
+        "questId":155,
+        "title":"为汤姆大叔找回矿石",
+        "desc":"为汤姆大叔找回矿石",
+        "objects":[
+            {
+                "type":0,
+                "label":"击倒黏糊糊史莱姆【BOSS】",
+                "collect":155001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":3,
+                "count":150
+            }
+        ],
+        "prev":[1],
+        "endDialogue":17
+    },
+    {
+        "questId":156,
+        "title":"讨伐没节操史莱姆",
+        "desc":"黏糊糊史莱姆卷土重来，害的村里妹子们都不敢出门，实在太没节操了，赶紧去【多姆洞穴II】干掉它！",
+        "objects":[
+            {
+                "type":0,
+                "label":"击倒黏糊糊史莱姆【BOSS】",
+                "collect":156001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":0,
+                "value":33,
+                "count":1,
+                "classLimit":[1]
+            },
+            {
+                "type":0,
+                "value":37,
+                "count":1,
+                "classLimit":[2]
+            },
+            {
+                "type":0,
+                "value":41,
+                "count":1,
+                "classLimit":[0]
+            },
+            {
+                "type":3,
+                "count":150
+            }
+        ],
+        "prev":[2],
+        "endDialogue":17
+    },
+    {
+        "questId":157,
+        "title":"摊上大事了？！",
+        "desc":"还记得不经意间被你打跑的猥琐哥布林吗？他爸可是酋长哥布林！现在他们要带哥布林村管大队来报仇，目前正在【多姆洞穴III】集结同伴。",
+        "objects":[
+            {
+                "type":0,
+                "label":"击败哥布林酋长【BOSS】",
+                "collect":157001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":0,
+                "value":34,
+                "count":1,
+                "classLimit":[1]
+            },
+            {
+                "type":0,
+                "value":38,
+                "count":1,
+                "classLimit":[2]
+            },
+            {
+                "type":0,
+                "value":42,
+                "count":1,
+                "classLimit":[0]
+            },
+            {
+                "type":3,
+                "count":200
+            }
+        ],
+        "prev":[3],
+        "endDialogue":12
+    },
+    {
+        "questId":158,
+        "title":"汤姆大叔的请求",
+        "desc":"找到强化钥匙",
+        "objects":[
+            {
+                "type":0,
+                "label":"采集3枚卡姆矿石",
+                "collect":158001,
+                "count":3
+            }
+        ],
+        "prize":[
+            {
+                "type":0,
+                "value":0,
+                "count":5
+            },
+            {
+                "type":1,
+                "count":200
+            },
+            {
+                "type":3,
+                "count":50
+            }
+        ],
+        "prev":[4]
+    },
+    {
+        "questId":159,
+        "title":"带上小伙伴",
+        "desc":"组队进行战斗",
+        "objects":[
+            {
+                "type":0,
+                "label":"击败哥布林15只",
+                "collect":159001,
+                "count":15
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":400
+            }
+        ],
+        "prev":[5]
+    },
+    {
+        "questId":160,
+        "title":"剿灭狼骑",
+        "desc":"卡琳为了帮父亲采药去了【多姆洞穴IV】，一直没回来，赶紧去把她找回来吧！",
+        "objects":[
+            {
+                "type":0,
+                "label":"寻找村民卡琳",
+                "collect":160001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":0,
+                "value":32,
+                "count":1,
+                "classLimit":[1]
+            },
+            {
+                "type":0,
+                "value":36,
+                "count":1,
+                "classLimit":[2]
+            },
+            {
+                "type":0,
+                "value":40,
+                "count":1,
+                "classLimit":[0]
+            },
+            {
+                "type":3,
+                "count":100
+            }
+        ],
+        "prev":[6]
+    },
+    {
+        "questId":161,
+        "title":"神秘黑影",
+        "desc":"答应卡琳帮她在【多姆洞穴IV】中，寻找到医治父亲的神奇草药。",
+        "objects":[
+            {
+                "type":0,
+                "label":"采集3株神奇草药",
+                "collect":161001,
+                "count":3
+            }
+        ],
+        "prize":[
+            {
+                "type":0,
+                "value":455,
+                "count":1
+            },
+            {
+                "type":1,
+                "count":200
+            },
+            {
+                "type":3,
+                "count":50
+            }
+        ],
+        "prev":[7]
+    },
+    {
+        "questId":162,
+        "title":"解救村长",
+        "desc":"是时候给他们致命一击了，立刻前往【多姆洞穴IV】击败他们吧",
+        "objects":[
+            {
+                "type":0,
+                "label":"击倒哥布林酋长【BOSS】",
+                "collect":162001,
+                "count":1
+            }
+        ],
+        "prize":[ {
+        "type":1,
+        "count":500
+    },{ "type":5, "func": "setFlag", "flag": "daily", "value": true } ],
+        "prev":[8]
+    },
+    {
+        "questId":163,
+        "title":"多姆村英雄",
+        "desc":"将【多姆洞穴VII】中的史莱姆击倒，给村庄带来安宁。",
+        "objects":[
+            {
+                "type":0,
+                "label":"击倒巨型史莱姆【BOSS】",
+                "collect":163001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            },
+            {
+                "type":1,
+                "count":400
+            },
+            {
+                "type":3,
+                "count":300
+            }
+        ],
+        "prev":[9],
+        "startDialogue":15,
+        "endDialogue":16
+    },
+    {
+        "questId":164,
+        "title":"武器锻造学徒",
+        "desc":"在【多姆洞穴IV】发现卡姆矿石结晶，不过被黏糊糊史莱姆吞下去了，趁被它消化前，赶紧去夺过来！",
+        "objects":[
+            {
+                "type":0,
+                "label":"击倒黏糊糊史莱姆【BOSS】",
+                "count":1 ,
+                "collect":164001
+            }
+        ],
+        "prize":[
+            {
+                "type":0,
+                "value":496,
+                "count":1
+            },
+            {
+                "type":3,
+                "count":50
+            }
+        ],
+        "prev":[-1]
     }
 ]

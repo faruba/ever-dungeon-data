@@ -1416,14 +1416,14 @@
         "label":"召唤小史莱姆",
         "config": {
             "triggerCondition": [
-                {"type": "countDown", "cd": 10 },
+                {"type": "countDown", "cd": 6 },
                 {"type":"visible"},
                 {"type" :"event", "event":"onTurnEnd" }
             ],
             "action": [
                 {"type":"playAction","motion":8,"pos":"self"},
                 {"type": "createMonster","objectCount":4,"randomPos":true,"monsterID":19},
-                {"type": "setMyMutex", "mutex": "shilaimu","effect":21, "count": 5}]
+                {"type": "setMyMutex", "mutex": "shilaimu","effect":21, "count": 3}]
         }
     },
     {
