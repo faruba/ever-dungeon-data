@@ -1069,9 +1069,8 @@
                     {"type":"castSpell","spell":41},
                     {"type": "delay","delay":3},
                     {"type":"castSpell","spell":42},
-                    {"type": "whiteScreen","time":3,"mode":0,"color":1},
+                    {"type": "whiteScreen","time":5,"mode":0,"color":1},
                     {"type":"dialog","dialogId":7},
-                    {"type": "delay","delay":2},
                     {"type": "kill"},
                     {"type": "delay","delay":0.3},
                     {"type": "endDungeon","result":2}
@@ -1840,5 +1839,123 @@
                 "method": "LowHealth"
             }
         }
+    },
+    {
+    "skillId": 78,
+    "label":"boss战1",
+    "config": {
+        "triggerCondition": [
+            {"type":"event", "event":"onEnterLevel" }
+        ],
+        "targetSelection": {
+            "pool": "Self"
+        },
+        "action": [
+            {"type": "delay","delay":0.3},
+            {"type":"chainBlock","source":[0,1,2,3,4,5,6,7,8,9,10,11,13,14],"target":12},
+            {"type": "kill"},
+            {"type":"changeBGM"},
+            {"type": "delay"},
+            {"type":"playSound","sound":"dragon.mp3"},
+            {"type":"dialog","dialogId":3},
+            {"type": "delay","delay":1},
+            {"type":"shock","delay":0,"range":20,"time":0.9},
+            {"type": "delay","delay":0.3},
+            {"type":"shock","delay":0,"range":20,"time":0.2},
+            {"type":"openBlock","block":0},
+            {"type":"openBlock","block":1},
+            {"type":"openBlock","block":2},
+            {"type":"openBlock","block":3},
+            {"type":"openBlock","block":4},
+            {"type": "delay","delay":0.3},
+            {"type":"shock","delay":0,"range":20,"time":0.2},
+            {"type":"openBlock","block":5},
+            {"type":"openBlock","block":6},
+            {"type":"openBlock","block":7},
+            {"type":"openBlock","block":8},
+            {"type":"openBlock","block":9},
+            {"type": "delay","delay":0.3},
+            {"type":"shock","delay":0,"range":20,"time":0.2},
+            {"type":"openBlock","block":10},
+            {"type":"openBlock","block":11},
+            {"type":"openBlock","block":12},
+            {"type":"openBlock","block":13},
+            {"type":"openBlock","block":14},
+            {"type": "delay","delay":0.3},
+            {"type":"shock","delay":0,"range":20,"time":0.2},
+            {"type":"openBlock","block":15},
+            {"type":"openBlock","block":19},
+            {"type": "delay","delay":0.3},
+            {"type":"shock","delay":0,"range":20,"time":0.2},
+            {"type":"openBlock","block":20},
+            {"type":"openBlock","block":21},
+            {"type":"openBlock","block":22},
+            {"type":"openBlock","block":23},
+            {"type":"openBlock","block":24},
+            {"type": "delay","delay":1.5},
+            {"type":"shock","delay":0,"range":20,"time":0.2},
+            {"type":"openBlock","block":25},
+            {"type":"openBlock","block":26},
+            {"type":"openBlock","block":27},
+            {"type":"openBlock","block":28},
+            {"type":"openBlock","block":29},
+            {"type": "delay","delay":1},
+            {"type":"playSound","sound":"dragon.mp3"},
+            {"type": "delay","delay":8},
+            {"type":"createMonster","count":1,"monsterID":166,"pos":12},
+            {"type":"shock","delay":0.8,"range":10,"time":0.3},
+            {"type":"shock","delay":3,"range":10,"time":0.3},
+            {"type":"shock","delay":4.7,"range":10,"time":0.3},
+            {"type":"shock","delay":5.2,"range":10,"time":0.3},
+            {"type":"changeBGM","music":"boss.mp3"},
+            {"type": "delay"},
+            {"type":"dialog","dialogId":4}
+        ]
+    }},
+    {
+    "skillId": 79,
+    "label":"boss战2",
+    "config": {
+        "triggerCondition": [
+            {"type" :"event", "event":"onBeDeathStrike"}
+        ],
+        "targetSelection": {
+            "pool": "Self"
+        },
+        "action":[
+            {"type": "modifyVar", "x": "damage", "formular": {"environment":{"c":0}}},
+            {"type": "delay","delay":0.3},
+            {"type": "delay","delay":2},
+            {"type":"castSpell","spell":40},
+            {"type": "delay","delay":3},
+            {"type":"castSpell","spell":41},
+            {"type": "delay","delay":3},
+            {"type":"castSpell","spell":42},
+            {"type": "whiteScreen","time":3,"mode":0,"color":1},
+            {"type": "delay","delay":2},
+            {"type": "kill"},
+            {"type": "delay","delay":0.3},
+            {"type": "endDungeon","result":2}
+        ]
     }
+    },
+    {
+        "skillId": 80,
+        "label":"全屏落石+",
+        "config": {
+            "basic":{
+                "spellAction": 3
+            },
+            "targetSelection": {
+                "pool": "Block",
+                "blocks":[15,16,17,18,19,20,21,22,23,24,25,26,27,28,29],
+                "count":28,
+                "method": "Rand"
+            },
+            "action":[
+                {"type":"installSpell", "spell": 44,"delay":{"base":1.6,"range":5}},
+                {"type":"shock","delay":1.6,"range":20,"time":8}
+            ]
+        }
+    },
 ]

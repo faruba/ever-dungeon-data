@@ -6273,5 +6273,88 @@
                 "level": 1
             }
         ]
+    },
+    {
+    "classId": 166,
+    "className": "龙",
+    "classType": 1,
+    "bossFlag":true,
+    "avatar": "enemy-dragon.ccbi",
+    "animSpawn":"open",
+    "property":
+    {
+        "health": 40,
+        "attack": 3,
+        "critical": 4,
+        "strong": 600,
+        "accuracy": 40,
+        "reactivity": -1000,
+        "speed": 4,
+        "counterAttack":false,
+        "exp": 0,
+        "gold": 0
+    },
+    "xproperty":
+    {
+        "balance": 0.1,
+        "health": 1,
+        "attack": 0,
+        "critical": 1,
+        "strong": 1,
+        "accuracy": 1,
+        "reactivity": 1,
+        "speed": 1
+    },
+    "skill": [
+        {
+            "id": 79,
+            "level": 1
+        },
+        {
+            "id": 35,
+            "level": 1
+        },
+        {
+            "id": 42,
+            "level": 1
+        }
+    ]
+},
+    {
+        "classId": 167,
+        "className": "导演",
+        "classType": 1,
+        "avatar": "avatar.ccbi",
+        "property":
+        {
+            "health": 1,
+            "attack": 3,
+            "critical": 4,
+            "strong": 6,
+            "accuracy": 15,
+            "reactivity": -15,
+            "speed": 4,
+            "counterAttack": false,
+            "exp": 0,
+            "gold": 0
+        },
+        "xproperty":
+        {
+            "balance": 0.1,
+            "health": 1,
+            "attack": 0,
+            "critical": 1,
+            "strong": 1,
+            "accuracy": 1,
+            "reactivity": 1,
+            "speed": 1
+        },
+        "skill": [
+            {
+
+                "id": 78,
+                "level": 1
+            }
+        ]
     }
 ]

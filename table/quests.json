@@ -58,7 +58,12 @@
                 "count":250
             }
         ],
-        "prev":[0] ,
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.0.state"}, 2 ] }
+        ]
+        }
+        ,
         "endDialogue":11
     },{
             "questId":1,
@@ -96,7 +101,12 @@
                     "count":250
                 }
             ],
-            "prev":[0] ,
+            "cond":
+            { "and": [
+                { "==": [ { "type": "getProperty", "key": "quests.0.state"}, 2 ] }
+            ]
+            }
+            ,
             "endDialogue":11
         }]},
     {
@@ -135,7 +145,12 @@
                 "count":150
             }
         ],
-        "prev":[1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.1.state"}, 2 ] }
+        ]
+        }
+        ,
         "endDialogue":17
     },
     {
@@ -165,7 +180,12 @@
                 "count":50
             }
         ],
-        "prev":[-1]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":4,
@@ -203,7 +223,12 @@
                 "count":200
             }
         ],
-        "prev":[2],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.2.state"}, 2 ] }
+        ]
+        }
+        ,
         "endDialogue":12
     },
     {
@@ -233,7 +258,12 @@
                 "count":50
             }
         ],
-        "prev":[-1]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":6,
@@ -253,7 +283,12 @@
                 "count":400
             }
         ],
-        "prev":[-1]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+
     },
     {
     "questId":7,
@@ -273,7 +308,12 @@
             "count":100
         }
     ],
-    "prev":[-1]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":8,
@@ -302,7 +342,12 @@
                 "count":50
             }
         ],
-        "prev":[-1]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":9,
@@ -337,7 +382,12 @@
                 "count":200
             }
         ],
-        "prev":[4]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.4.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":10,
@@ -366,7 +416,12 @@
                 "count":50
             }
         ],
-        "prev":[-1]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":11,
@@ -391,7 +446,12 @@
                 "count":50
             }
         ],
-        "prev":[-1]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":12,
@@ -415,7 +475,12 @@
                 "count":300
             }
         ],
-        "prev":[9]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.9.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":13,
@@ -444,7 +509,12 @@
                 "count":300
             }
         ],
-        "prev":[12],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.12.state"}, 2 ] }
+        ]
+        }
+        ,
         "startDialogue":13
     },
     {
@@ -469,7 +539,12 @@
                 "count":50
             }
         ],
-        "prev":[-1]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":15,
@@ -497,7 +572,12 @@
                 "count":300
             }
         ],
-        "prev":[13],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.13.state"}, 2 ] }
+        ]
+        }
+        ,
         "startDialogue":15,
         "endDialogue":16
     },
@@ -533,7 +613,12 @@
                 "count":50
             }
         ],
-        "prev":[-1]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":17,
@@ -557,7 +642,12 @@
                 "count":100
             }
         ],
-        "prev":[15]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.15.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":18,
@@ -582,7 +672,12 @@
                 "count":100
             }
         ],
-        "prev":[17]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.17.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":19,
@@ -606,7 +701,12 @@
                 "count":100
             }
         ],
-        "prev":[17]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.17.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":20,
@@ -631,7 +731,12 @@
                 "count":100
             }
         ],
-        "prev":[19]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.19.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":21,
@@ -655,7 +760,12 @@
                 "count":100
             }
         ],
-        "prev":[19]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.19.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":22,
@@ -676,7 +786,12 @@
                 "count":1
             }
         ],
-        "prev":[21]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.21.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":23,
@@ -700,7 +815,12 @@
                 "count":100
             }
         ],
-        "prev":[21]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.21.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":24,
@@ -725,7 +845,12 @@
                 "count":100
             }
         ],
-        "prev":[23]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.23.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":25,
@@ -749,7 +874,12 @@
                 "count":100
             }
         ],
-        "prev":[23]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.23.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":26,
@@ -773,7 +903,12 @@
                 "count":190
             }
         ],
-        "prev":[23]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.23.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":27,
@@ -793,7 +928,12 @@
                 "count":760
             }
         ],
-        "prev":[25]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.25.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":28,
@@ -817,7 +957,12 @@
                 "count":100
             }
         ],
-        "prev":[26]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.26.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":29,
@@ -841,7 +986,12 @@
                 "count":100
             }
         ],
-        "prev":[26]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.26.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":30,
@@ -869,7 +1019,12 @@
                 "count":200
             }
         ],
-        "prev":[29]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.29.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":31,
@@ -904,7 +1059,12 @@
                 "count":1
             }
         ],
-        "prev":[30]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.30.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":32,
@@ -929,7 +1089,12 @@
                 "count":2
             }
         ],
-        "prev":[30]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.30.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":33,
@@ -954,7 +1119,12 @@
                 "count":2
             }
         ],
-        "prev":[32]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.32.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":34,
@@ -974,7 +1144,12 @@
                 "count":480
             }
         ],
-        "prev":[32]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.32.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":35,
@@ -995,7 +1170,12 @@
                 "count":4
             }
         ],
-        "prev":[33]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.33.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":36,
@@ -1019,7 +1199,12 @@
                 "count":120
             }
         ],
-        "prev":[34]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.34.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":37,
@@ -1040,7 +1225,12 @@
                 "count":2
             }
         ],
-        "prev":[34]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.34.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":38,
@@ -1064,7 +1254,12 @@
                 "count":120
             }
         ],
-        "prev":[37]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.37.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":39,
@@ -1107,7 +1302,12 @@
                 "count":10
             }
         ],
-        "prev":[37]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.37.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":40,
@@ -1136,7 +1336,12 @@
                 "count":1
             }
         ],
-        "prev":[37]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.37.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":41,
@@ -1156,7 +1361,12 @@
                 "count":120
             }
         ],
-        "prev":[37]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.37.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":42,
@@ -1180,7 +1390,12 @@
                 "count":120
             }
         ],
-        "prev":[38]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.38.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":43,
@@ -1209,7 +1424,12 @@
                 "count":1
             }
         ],
-        "prev":[42]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.42.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":44,
@@ -1229,7 +1449,12 @@
                 "count":240
             }
         ],
-        "prev":[41]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.41.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":45,
@@ -1254,7 +1479,12 @@
                 "count":1
             }
         ],
-        "prev":[44]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.44.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":46,
@@ -1274,7 +1504,12 @@
                 "count":120
             }
         ],
-        "prev":[44]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.44.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":47,
@@ -1302,7 +1537,12 @@
                 "count":100
             }
         ],
-        "prev":[46]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.46.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":48,
@@ -1337,7 +1577,12 @@
                 "count":1
             }
         ],
-        "prev":[47]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.47.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":49,
@@ -1362,7 +1607,12 @@
                 "count":1
             }
         ],
-        "prev":[47]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.47.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":50,
@@ -1382,7 +1632,12 @@
                 "count":150
             }
         ],
-        "prev":[49]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.49.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":51,
@@ -1411,7 +1666,12 @@
                 "count":1
             }
         ],
-        "prev":[50]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.50.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":52,
@@ -1431,7 +1691,12 @@
                 "count":600
             }
         ],
-        "prev":[49]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.49.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":53,
@@ -1456,7 +1721,12 @@
                 "count":1
             }
         ],
-        "prev":[52]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.52.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":54,
@@ -1476,7 +1746,12 @@
                 "count":150
             }
         ],
-        "prev":[52]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.52.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":55,
@@ -1496,7 +1771,12 @@
                 "count":600
             }
         ],
-        "prev":[54]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.54.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":56,
@@ -1525,7 +1805,12 @@
                 "count":1
             }
         ],
-        "prev":[54]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.54.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":57,
@@ -1549,7 +1834,12 @@
                 "count":150
             }
         ],
-        "prev":[53]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.53.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":58,
@@ -1569,7 +1859,12 @@
                 "count":300
             }
         ],
-        "prev":[57]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.57.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":59,
@@ -1589,7 +1884,12 @@
                 "count":600
             }
         ],
-        "prev":[58]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.58.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":60,
@@ -1609,7 +1909,12 @@
                 "count":600
             }
         ],
-        "prev":[57]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.57.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":61,
@@ -1633,7 +1938,12 @@
                 "count":300
             }
         ],
-        "prev":[60]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.60.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":62,
@@ -1662,7 +1972,12 @@
                 "count":1
             }
         ],
-        "prev":[60]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.60.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":63,
@@ -1690,7 +2005,12 @@
                 "count":100
             }
         ],
-        "prev":[62]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.62.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":64,
@@ -1731,7 +2051,12 @@
                 "count":1
             }
         ],
-        "prev":[63]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.63.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":65,
@@ -1751,7 +2076,12 @@
                 "count":250
             }
         ],
-        "prev":[63]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.63.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":66,
@@ -1780,7 +2110,12 @@
                 "count":1
             }
         ],
-        "prev":[65]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.65.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":67,
@@ -1800,7 +2135,12 @@
                 "count":1000
             }
         ],
-        "prev":[65]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.65.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":68,
@@ -1829,7 +2169,12 @@
                 "count":10
             }
         ],
-        "prev":[67]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.67.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":69,
@@ -1853,7 +2198,12 @@
                 "count":250
             }
         ],
-        "prev":[67]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.67.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":70,
@@ -1873,7 +2223,12 @@
                 "count":500
             }
         ],
-        "prev":[69]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.69.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":71,
@@ -1898,7 +2253,12 @@
                 "count":1
             }
         ],
-        "prev":[69]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.69.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":72,
@@ -1922,7 +2282,12 @@
                 "count":250
             }
         ],
-        "prev":[71]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.71.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":73,
@@ -1943,7 +2308,12 @@
                 "count":1
             }
         ],
-        "prev":[72]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.72.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":74,
@@ -1963,7 +2333,12 @@
                 "count":1000
             }
         ],
-        "prev":[73]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.73.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":75,
@@ -1991,7 +2366,12 @@
                 "count":100
             }
         ],
-        "prev":[74]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.74.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":76,
@@ -2026,7 +2406,12 @@
                 "count":1
             }
         ],
-        "prev":[75]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.75.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":77,
@@ -2046,7 +2431,12 @@
                 "count":260
             }
         ],
-        "prev":[75]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.75.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":78,
@@ -2075,7 +2465,12 @@
                 "count":1
             }
         ],
-        "prev":[77]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.77.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":79,
@@ -2095,7 +2490,12 @@
                 "count":1040
             }
         ],
-        "prev":[77]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.77.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":80,
@@ -2115,7 +2515,12 @@
                 "count":260
             }
         ],
-        "prev":[79]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.79.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":81,
@@ -2139,7 +2544,12 @@
                 "count":260
             }
         ],
-        "prev":[77]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.77.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":82,
@@ -2159,7 +2569,12 @@
                 "count":2080
             }
         ],
-        "prev":[80]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.80.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":83,
@@ -2179,7 +2594,12 @@
                 "count":260
             }
         ],
-        "prev":[81]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.81.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":84,
@@ -2208,7 +2628,12 @@
                 "count":2
             }
         ],
-        "prev":[83]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.83.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":85,
@@ -2232,7 +2657,12 @@
                 "count":260
             }
         ],
-        "prev":[83]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.83.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":86,
@@ -2252,7 +2682,12 @@
                 "count":260
             }
         ],
-        "prev":[85]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.85.state"}, 2 ] }
+        ]
+        }
+
     } ,
     {
         "questId":87,
@@ -2272,7 +2707,12 @@
                 "count":1040
             }
         ],
-        "prev":[85]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.85.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":88,
@@ -2292,7 +2732,12 @@
                 "count":260
             }
         ],
-        "prev":[86]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.86.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":89,
@@ -2318,7 +2763,12 @@
                 "count":1
             }
         ],
-        "prev":[88]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.88.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":90,
@@ -2346,7 +2796,12 @@
                 "count":100
             }
         ],
-        "prev":[87]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.87.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":91,
@@ -2393,7 +2848,12 @@
                 "count":1
             }
         ],
-        "prev":[90]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.90.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":92,
@@ -2417,7 +2877,12 @@
                 "count":320
             }
         ],
-        "prev":[90]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.90.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":93,
@@ -2454,7 +2919,12 @@
                 "count":1
             }
         ],
-        "prev":[92]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.92.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":94,
@@ -2480,7 +2950,12 @@
                 "count":1
             }
         ],
-        "prev":[93]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.93.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":95,
@@ -2500,7 +2975,12 @@
                 "count":1280
             }
         ],
-        "prev":[93]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.93.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":96,
@@ -2524,7 +3004,12 @@
                 "count":640
             }
         ],
-        "prev":[95]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.95.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":97,
@@ -2548,7 +3033,12 @@
                 "count":320
             }
         ],
-        "prev":[93]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.93.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":98,
@@ -2568,7 +3058,12 @@
                 "count":320
             }
         ],
-        "prev":[97]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.97.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":99,
@@ -2588,7 +3083,12 @@
                 "count":1280
             }
         ],
-        "prev":[97]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.97.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":100,
@@ -2624,7 +3124,12 @@
                 "count":1
             }
         ],
-        "prev":[99]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.99.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":101,
@@ -2644,7 +3149,12 @@
                 "count":320
             }
         ],
-        "prev":[99]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.99.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":102,
@@ -2664,7 +3174,12 @@
                 "count":320
             }
         ],
-        "prev":[101]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.101.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":103,
@@ -2692,7 +3207,12 @@
                 "count":100
             }
         ],
-        "prev":[102]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.102.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":104,
@@ -2712,7 +3232,12 @@
                 "count":1600
             }
         ],
-        "prev":[103]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.103.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":105,
@@ -2741,7 +3266,12 @@
                 "count":1
             }
         ],
-        "prev":[104]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.104.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":106,
@@ -2761,7 +3291,12 @@
                 "count":400
             }
         ],
-        "prev":[104]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.104.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":107,
@@ -2798,7 +3333,12 @@
                 "count":1
             }
         ],
-        "prev":[106]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.106.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":108,
@@ -2822,7 +3362,12 @@
                 "count":800
             }
         ],
-        "prev":[107]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.107.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":109,
@@ -2846,7 +3391,12 @@
                 "count":400
             }
         ],
-        "prev":[106]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.106.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":110,
@@ -2866,7 +3416,12 @@
                 "count":1600
             }
         ],
-        "prev":[109]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.109.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":111,
@@ -2890,7 +3445,12 @@
                 "count":800
             }
         ],
-        "prev":[110]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.110.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":112,
@@ -2910,7 +3470,12 @@
                 "count":400
             }
         ],
-        "prev":[111]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.111.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":113,
@@ -2934,7 +3499,12 @@
                 "count":150
             }
         ],
-        "prev":[60]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.60.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":114,
@@ -2963,7 +3533,12 @@
                 "count":1
             }
         ],
-        "prev":[110]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.110.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":115,
@@ -2991,7 +3566,12 @@
                 "count":100
             }
         ],
-        "prev":[112]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.112.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":116,
@@ -3011,7 +3591,12 @@
                 "count":450
             }
         ],
-        "prev":[115]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.115.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":117,
@@ -3040,7 +3625,12 @@
                 "count":3
             }
         ],
-        "prev":[115]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.115.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":118,
@@ -3069,7 +3659,12 @@
                 "count":2
             }
         ],
-        "prev":[117]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.117.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":119,
@@ -3093,7 +3688,12 @@
                 "count":450
             }
         ],
-        "prev":[117]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.117.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":120,
@@ -3113,7 +3713,12 @@
                 "count":450
             }
         ],
-        "prev":[119]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.119.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":121,
@@ -3138,7 +3743,12 @@
                 "count":2
             }
         ],
-        "prev":[120]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.120.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":122,
@@ -3162,7 +3772,12 @@
                 "count":450
             }
         ],
-        "prev":[121]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.121.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":123,
@@ -3182,7 +3797,12 @@
                 "count":450
             }
         ],
-        "prev":[122]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.122.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":124,
@@ -3210,7 +3830,12 @@
                 "count":100
             }
         ],
-        "prev":[123]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.123.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":125,
@@ -3251,7 +3876,12 @@
                 "count":20
             }
         ],
-        "prev":[120]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.120.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":126,
@@ -3280,7 +3910,12 @@
                 "count":1
             }
         ],
-        "prev":[121]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.121.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":127,
@@ -3304,11 +3939,21 @@
                 "count":450
             }
         ],
-        "prev":[123]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.123.state"}, 2 ] }
+        ]
+        }
+
     },
     {
         "questId":128,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"寻找小伙伴的牧师",
         "desc":"新手牧师被困在地牢里，赶紧前去营救",
@@ -3334,7 +3979,12 @@
     },
     {
         "questId":129,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"驱逐野狼",
         "desc":"野狼又到发情期了，整晚叫唤让人怎么睡？！为村民们驱赶野狼吧！",
@@ -3360,7 +4010,12 @@
     },
     {
         "questId":130,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"讨厌的哥布林",
         "desc":"贱贱的哥布林们真让人讨厌，去把他们赶跑吧！",
@@ -3386,7 +4041,12 @@
     },
     {
         "questId":131,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"寻找武器锻造学徒",
         "desc":"汤姆大叔的学徒为了寻找锻造材料一个人去了地下城情况可能非常危险，去把他找回来吧！",
@@ -3408,7 +4068,12 @@
     },
     {
         "questId":132,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"矿石收集之旅",
         "desc":"汤姆大叔需要卡姆矿石，前往收集",
@@ -3430,7 +4095,12 @@
     },
     {
         "questId":133,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"闪灵草采集",
         "desc":"前往地下城采集神奇的闪灵草",
@@ -3452,7 +4122,12 @@
     },
     {
         "questId":134,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"找寻失踪的村民",
         "desc":"好几个村民都失踪了，去把她们找回来吧！",
@@ -3474,7 +4149,11 @@
     },
     {
         "questId":135,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        },
         "hidden": true,
         "title":"击败恶霸山贼",
         "desc":"击杀大恶霸山贼。",
@@ -3496,7 +4175,11 @@
     },
     {
         "questId":136,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        },
         "hidden": true,
         "title":"食人魔的困扰",
         "desc":"地下城冒出一批食人魔，太恐怖了，帮大家击倒这些怪物！",
@@ -3518,7 +4201,12 @@
     },
     {
         "questId":137,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"古老秘宝",
         "desc":"找到失踪已久的古老秘宝！",
@@ -3540,7 +4228,12 @@
     },
     {
         "questId":138,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"击败暗影狼骑",
         "desc":"击杀暗影狼骑。",
@@ -3562,7 +4255,12 @@
     },
     {
         "questId":139,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"考古学家的委托",
         "desc":"将地下城中上古战士骷髅兵击倒，把残骸带给考古学家研究",
@@ -3584,7 +4282,12 @@
     },
     {
         "questId":140,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"寻找古怪的考古学家",
         "desc":"脾气古怪的考古学家一个人走失在地下城中，去救他出来吧",
@@ -3606,7 +4309,12 @@
     },
     {
         "questId":141,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"翡翠史莱姆的逆袭",
         "desc":"打倒两坨让人厌恶的翡翠史莱姆",
@@ -3628,7 +4336,12 @@
     },
     {
         "questId":142,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"城管大队出击",
         "desc":"跟随城管大队一同出击，对盗贼团伙进行扫荡突击！",
@@ -3650,7 +4363,12 @@
     },
     {
         "questId":143,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"除草行动",
         "desc":"最近一种有毒的植物爆发式增长，趁未对人造成影响之前去清除部分。",
@@ -3672,7 +4390,12 @@
     },
     {
         "questId":144,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"击败恐怖剑士",
         "desc":"恐怖剑士四处为害，为村民铲除这个恶棍吧！",
@@ -3694,7 +4417,12 @@
     },
     {
         "questId":145,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"死灰投斧怪的噩梦",
         "desc":"一群死灰投斧怪出现了，非常烦人，击倒它们！",
@@ -3716,7 +4444,12 @@
     },
     {
         "questId":146,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"采集迷之矿石",
         "desc":"汤姆大叔探测到了一种迷之矿石，前去地下城把这种矿石给采集过来",
@@ -3738,7 +4471,12 @@
     },
     {
         "questId":147,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"击败恶霸山贼",
         "desc":"击杀大恶霸山贼。",
@@ -3760,7 +4498,12 @@
     },
     {
         "questId":148,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"恐怖的血蜘蛛",
         "desc":"不少村民被血蜘蛛给袭击，前去击倒血蜘蛛！",
@@ -3782,7 +4525,12 @@
     },
     {
         "questId":149,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"来自商队的求救信号",
         "desc":"商队遭到了袭击，部分商队成员失踪，帮忙去把他们找回来！",
@@ -3804,7 +4552,12 @@
     },
     {
         "questId":150,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"击败地狱哥布林酋长",
         "desc":"将地下城深处的地狱哥布林酋长一举击败",
@@ -3826,7 +4579,12 @@
     },
     {
         "questId":151,
-        "prev": [-1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+        ,
         "hidden": true,
         "title":"黑色旋风",
         "desc":"有黑色旋风之称的黑牙狼在地下城肆虐，击败它们！",
@@ -3862,16 +4620,21 @@
             "type":1,
             "count":500
         },{ "type":5, "func": "setFlag", "flag": "daily", "value": true } ],
-        "prev":[13]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+
     },
     {
     "questId":153,
-    "title":"劫后逢生",
-    "desc":"传说中的魔龙再次出现，混沌的黑暗将再度降临，做好准备迎接挑战",
+    "title":"消灭拦路的怪物",
+    "desc":"在附近有一些游荡的怪物，做好准备迎接挑战",
     "objects":[
         {
             "type":0,
-            "label":"与魔龙交战，并且死里逃生。",
+            "label":"清除游荡的怪物。",
             "collect":153001,
             "count":1
         }
@@ -3882,17 +4645,17 @@
             "value":25,
             "count":1
         }
-    ],
-    "endDialogue":-1
+    ]
+
 },
     {
         "questId":154,
-        "title":"找到汤姆大叔的女儿",
-        "desc":"听说汤姆大叔的女儿去了【多姆洞穴I】，赶紧去看看吧。",
+        "title":"营救阿雅",
+        "desc":"听说铁匠汤姆的女儿去【多姆洞穴I】几天没回来了，赶紧去看看吧。",
         "objects":[
             {
                 "type":0,
-                "label":"找到汤姆大叔的女儿",
+                "label":"找到阿雅",
                 "collect":154001,
                 "count":1
             }
@@ -3921,19 +4684,24 @@
                 "count":250
             }
         ],
-        "prev":[0] ,
-        "endDialogue":11
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.153.state"}, 2 ] }
+        ]
+        }
+        ,
+        "endDialogue":18
     },
     {
         "questId":155,
-        "title":"为汤姆大叔找回矿石",
-        "desc":"为汤姆大叔找回矿石",
+        "title":"铁匠铺重新开业",
+        "desc":"帮助汤姆大叔寻找多姆矿石为铁匠铺重新开业做准备。",
         "objects":[
             {
                 "type":0,
-                "label":"击倒黏糊糊史莱姆【BOSS】",
+                "label":"收集3块多姆矿石",
                 "collect":155001,
-                "count":1
+                "count":3
             }
         ],
         "prize":[
@@ -3942,17 +4710,22 @@
                 "count":150
             }
         ],
-        "prev":[1],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.154.state"}, 2 ] }
+        ]
+        }
+        ,
         "endDialogue":17
     },
     {
         "questId":156,
-        "title":"讨伐没节操史莱姆",
-        "desc":"黏糊糊史莱姆卷土重来，害的村里妹子们都不敢出门，实在太没节操了，赶紧去【多姆洞穴II】干掉它！",
+        "title":"讨伐大型史莱姆",
+        "desc":"大型史莱姆是个麻烦，赶紧去【多姆洞穴II】干掉它！",
         "objects":[
             {
                 "type":0,
-                "label":"击倒黏糊糊史莱姆【BOSS】",
+                "label":"击倒大型史莱姆【BOSS】",
                 "collect":156001,
                 "count":1
             }
@@ -3981,17 +4754,22 @@
                 "count":150
             }
         ],
-        "prev":[2],
-        "endDialogue":17
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.155.state"}, 2 ] }
+        ]
+        }
+
+
     },
     {
         "questId":157,
-        "title":"摊上大事了？！",
-        "desc":"还记得不经意间被你打跑的猥琐哥布林吗？他爸可是酋长哥布林！现在他们要带哥布林村管大队来报仇，目前正在【多姆洞穴III】集结同伴。",
+        "title":"暗箭难防",
+        "desc":"见过哥布林投矛手吗？他们跑得快又扔的远，目前正在【多姆洞穴】。",
         "objects":[
             {
                 "type":0,
-                "label":"击败哥布林酋长【BOSS】",
+                "label":"击败哥布林投矛手【BOSS】",
                 "collect":157001,
                 "count":1
             }
@@ -4020,19 +4798,24 @@
                 "count":200
             }
         ],
-        "prev":[3],
-        "endDialogue":12
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.156.state"}, 2 ] }
+        ]
+        }
+
+
     },
     {
         "questId":158,
         "title":"汤姆大叔的请求",
-        "desc":"找到强化钥匙",
+        "desc":"寻找汤姆大叔的铁匠学徒，重振铁匠铺！",
         "objects":[
             {
                 "type":0,
-                "label":"采集3枚卡姆矿石",
+                "label":"找到汤姆大叔学徒",
                 "collect":158001,
-                "count":3
+                "count":1
             }
         ],
         "prize":[
@@ -4050,7 +4833,13 @@
                 "count":50
             }
         ],
-        "prev":[4]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.157.state"}, 2 ] }
+        ]
+        }
+        ,
+        "startDialogue":12
     },
     {
         "questId":159,
@@ -4059,29 +4848,9 @@
         "objects":[
             {
                 "type":0,
-                "label":"击败哥布林15只",
+                "label":"再次击败不死心的哥布林投矛手",
                 "collect":159001,
                 "count":15
-            }
-        ],
-        "prize":[
-            {
-                "type":1,
-                "count":400
-            }
-        ],
-        "prev":[5]
-    },
-    {
-        "questId":160,
-        "title":"剿灭狼骑",
-        "desc":"卡琳为了帮父亲采药去了【多姆洞穴IV】，一直没回来，赶紧去把她找回来吧！",
-        "objects":[
-            {
-                "type":0,
-                "label":"寻找村民卡琳",
-                "collect":160001,
-                "count":1
             }
         ],
         "prize":[
@@ -4108,16 +4877,46 @@
                 "count":100
             }
         ],
-        "prev":[6]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.158.state"}, 2 ] }
+        ]
+        }
+        ,
+        "startDialogue":23
+
     },
     {
-        "questId":161,
-        "title":"神秘黑影",
-        "desc":"答应卡琳帮她在【多姆洞穴IV】中，寻找到医治父亲的神奇草药。",
+        "questId":160,
+        "title":"训养野狼的哥布林",
+        "desc":"有的哥布林开始养狼了！",
         "objects":[
             {
                 "type":0,
-                "label":"采集3株神奇草药",
+                "label":"消灭哥布林狼骑",
+                "collect":160001,
+                "count":1
+            }
+        ],
+        "prize":[
+
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.159.state"}, 2 ] }
+        ]
+        }
+        ,
+        "endDialogue":19
+    },
+    {
+        "questId":161,
+        "title":"三人行",
+        "desc":"接下来要组成小队外出探险啦。",
+        "objects":[
+            {
+                "type":0,
+                "label":"组成包含三名成员的队伍",
                 "collect":161001,
                 "count":3
             }
@@ -4137,7 +4936,13 @@
                 "count":50
             }
         ],
-        "prev":[7]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.160.state"}, 2 ] }
+        ]
+        }
+        ,
+        "startDialogue":22
     },
     {
         "questId":162,
@@ -4146,7 +4951,7 @@
         "objects":[
             {
                 "type":0,
-                "label":"击倒哥布林酋长【BOSS】",
+                "label":"击倒哥布林狼骑兵【BOSS】并营救村长",
                 "collect":162001,
                 "count":1
             }
@@ -4155,12 +4960,18 @@
         "type":1,
         "count":500
     },{ "type":5, "func": "setFlag", "flag": "daily", "value": true } ],
-        "prev":[8]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.161.state"}, 2 ] }
+        ]
+        }
+        ,
+        "endDialogue":20
     },
     {
         "questId":163,
         "title":"多姆村英雄",
-        "desc":"将【多姆洞穴VII】中的史莱姆击倒，给村庄带来安宁。",
+        "desc":"将【多姆洞穴VII】中的史莱姆大王击倒，给村庄带来安宁。",
         "objects":[
             {
                 "type":0,
@@ -4183,9 +4994,14 @@
                 "count":300
             }
         ],
-        "prev":[9],
-        "startDialogue":15,
-        "endDialogue":16
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.162.state"}, 2 ] }
+        ]
+        }
+        ,
+
+        "endDialogue":21
     },
     {
         "questId":164,
@@ -4210,6 +5026,11 @@
                 "count":50
             }
         ],
-        "prev":[-1]
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.-1.state"}, 2 ] }
+        ]
+        }
+
     }
 ]

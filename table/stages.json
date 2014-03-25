@@ -54,8 +54,13 @@
 				"team": 3,
 				"hidden":false,
 				"dungeon": 1,
-                "prev": [0]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.0.state"}, 2 ] }
+                ]
+                }
+
+            },
             {
                 "stageId": 2,
                 "cost": 15,
@@ -63,7 +68,12 @@
                 "hidden":false,
                 "dungeon": 2,
                 "tutorial":3,
-                "prev": [1]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 3,
@@ -71,7 +81,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 3,
-                "prev": [2]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.2.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 4,
@@ -79,7 +94,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon":4,
-                "prev": [3]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.3.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 5,
@@ -87,7 +107,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 5,
-                "prev": [4]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.4.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 6,
@@ -95,7 +120,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 6,
-                "prev": [5]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.5.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 7,
@@ -103,14 +133,24 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 7,
-                "prev": [6]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.6.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId":78,
                 "cost":10,
                 "dungeon":64,
                 "isInfinite":true,
-                "prev":[7]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.7.state"}, 2 ] }
+                ]
+                }
+
             }
 		]
 	},
@@ -131,7 +171,12 @@
 "team": 1,
 "hidden":false,
 "dungeon": 84,
-"prev": [0]
+    "cond":
+    { "and": [
+        { "==": [ { "type": "getProperty", "key": "stage.0.state"}, 2 ] }
+    ]
+    }
+
 },
 {
 "stageId": 2,
@@ -148,7 +193,12 @@
             "hairColor" : 15,
             "xp" : 0
         }],
-"prev": [1]
+    "cond":
+    { "and": [
+        { "==": [ { "type": "getProperty", "key": "stage.1.state"}, 2 ] }
+    ]
+    }
+
 },
 {
 "stageId": 3,
@@ -164,7 +214,12 @@
             "hairColor" : 15,
             "xp" : 0
         }],
-"prev": [2]
+    "cond":
+    { "and": [
+        { "==": [ { "type": "getProperty", "key": "stage.2.state"}, 2 ] }
+    ]
+    }
+
 },
 {
 "stageId": 4,
@@ -172,7 +227,12 @@
 "team": 2,
 "hidden":false,
 "dungeon":87,
-"prev": [3]
+    "cond":
+    { "and": [
+        { "==": [ { "type": "getProperty", "key": "stage.3.state"}, 2 ] }
+    ]
+    }
+
 },
 {
 "stageId": 5,
@@ -180,7 +240,12 @@
 "team": 2,
 "hidden":false,
 "dungeon": 88,
-"prev": [4]
+    "cond":
+    { "and": [
+        { "==": [ { "type": "getProperty", "key": "stage.4.state"}, 2 ] }
+    ]
+    }
+
 },
 {
 "stageId": 6,
@@ -188,7 +253,12 @@
 "team": 3,
 "hidden":false,
 "dungeon": 89,
-"prev": [5]
+    "cond":
+    { "and": [
+        { "==": [ { "type": "getProperty", "key": "stage.5.state"}, 2 ] }
+    ]
+    }
+
 },
 {
 "stageId": 7,
@@ -196,14 +266,24 @@
 "team": 3,
 "hidden":false,
 "dungeon": 90,
-"prev": [6]
+    "cond":
+    { "and": [
+        { "==": [ { "type": "getProperty", "key": "stage.6.state"}, 2 ] }
+    ]
+    }
+
 },
 {
 "stageId":78,
 "cost":10,
 "dungeon":64,
 "isInfinite":true,
-"prev":[7]
+    "cond":
+    { "and": [
+        { "==": [ { "type": "getProperty", "key": "stage.7.state"}, 2 ] }
+    ]
+    }
+
 }
 ]
 }
@@ -225,7 +305,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 8,
-                "prev": [7]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.7.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 9,
@@ -233,7 +318,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 9,
-                "prev": [8]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.8.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 10,
@@ -241,7 +331,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 10,
-                "prev": [9]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.9.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 11,
@@ -249,7 +344,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon":11,
-                "prev": [10]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.10.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 12,
@@ -257,7 +357,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 12,
-                "prev": [11]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.11.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 13,
@@ -265,7 +370,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 13,
-                "prev": [12]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.12.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 14,
@@ -273,14 +383,24 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 14,
-                "prev": [13]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.13.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId":79,
                 "cost":10,
                 "dungeon":65,
                 "isInfinite":true,
-                "prev":[14]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.14.state"}, 2 ] }
+                ]
+                }
+
             }
 		]
 	},
@@ -300,7 +420,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 15,
-                "prev": [14]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.14.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 16,
@@ -308,7 +433,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 16,
-                "prev": [15]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.15.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 17,
@@ -316,7 +446,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 17,
-                "prev": [16]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.16.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 18,
@@ -324,7 +459,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon":18,
-                "prev": [17]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.17.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 19,
@@ -332,7 +472,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 19,
-                "prev": [18]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.18.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 20,
@@ -340,7 +485,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 20,
-                "prev": [19]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.19.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 21,
@@ -348,14 +498,24 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 21,
-                "prev": [20]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.20.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId":80,
                 "cost":10,
                 "dungeon":66,
                 "isInfinite":true,
-                "prev":[21]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.21.state"}, 2 ] }
+                ]
+                }
+
             }
 		]
 	},
@@ -375,7 +535,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 22,
-                "prev": [21]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.21.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 23,
@@ -383,7 +548,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 23,
-                "prev": [22]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.22.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 24,
@@ -391,7 +561,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 24,
-                "prev": [23]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.23.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 25,
@@ -399,7 +574,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon":25,
-                "prev": [24]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.24.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 26,
@@ -407,7 +587,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 26,
-                "prev": [25]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.25.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 27,
@@ -415,7 +600,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 27,
-                "prev": [26]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.26.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 28,
@@ -423,14 +613,24 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 28,
-                "prev": [27]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.27.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId":81,
                 "cost":10,
                 "dungeon":67,
                 "isInfinite":true,
-                "prev":[28]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.28.state"}, 2 ] }
+                ]
+                }
+
             }
 		]
 	},
@@ -450,47 +650,77 @@
 				"team": 3,
 				"hidden":false,
 				"dungeon": 29,
-				"prev":	[28]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.28.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 30,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 30,
-				"prev": [29]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.29.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 31,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 31,
-				"prev": [30]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.30.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 32,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 32,
-				"prev": [31]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.31.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 33,
 				"cost": 15,
 				"team": 3,
 			    "hidden":false,
 				"dungeon": 33,
-				"prev": [32]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.32.state"}, 2 ] }
+                ]
+                }
+
+            },
             {
                 "stageId": 34,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
                 "dungeon": 34,
-                "prev": [33]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.33.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 35,
@@ -498,14 +728,24 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 35,
-                "prev": [34]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.34.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId":82,
                 "cost":10,
                 "dungeon":68,
                 "isInfinite":true,
-                "prev":[35]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.35.state"}, 2 ] }
+                ]
+                }
+
             }
 		]
 	},
@@ -525,47 +765,77 @@
 				"team": 3,
 				"hidden":false,
 				"dungeon": 36,
-				"prev":	[35]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.35.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 37,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon":37,
-				"prev": [36]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.36.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 38,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 38,
-				"prev": [37]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.37.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 39,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 39,
-				"prev": [38]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.38.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 40,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 40,
-				"prev": [39]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.39.state"}, 2 ] }
+                ]
+                }
+
+            },
             {
                 "stageId": 41,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
                 "dungeon": 41,
-                "prev": [40]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.40.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 42,
@@ -573,14 +843,24 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 42,
-                "prev": [41]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.41.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId":83,
                 "cost":10,
                 "dungeon":69,
                 "isInfinite":true,
-                "prev":[42]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.42.state"}, 2 ] }
+                ]
+                }
+
             }
 		]
 	},
@@ -600,47 +880,77 @@
 				"team": 3,
 				"hidden":false,
 				"dungeon": 43,
-				"prev":	[42]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.42.state"}, 2 ] }
+                ]
+                }
+
+            },
 		    {
 				"stageId": 44,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 44,
-				"prev": [43]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.43.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 45,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 45,
-				"prev": [44]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.44.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 46,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 46,
-				"prev": [45]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.45.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 47,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon":47,
-				"prev": [46]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.46.state"}, 2 ] }
+                ]
+                }
+
+            },
             {
                 "stageId": 48,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
                 "dungeon":48,
-                "prev": [47]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.47.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 49,
@@ -648,14 +958,24 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon":49,
-                "prev": [48]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.48.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId":84,
                 "cost":10,
                 "dungeon":70,
                 "isInfinite":true,
-                "prev":[49]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.49.state"}, 2 ] }
+                ]
+                }
+
             }
 		]
 	},
@@ -675,47 +995,77 @@
 				"team": 3,
 				"hidden":false,
 				"dungeon": 50,
-				"prev":	[49]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.49.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 			    "stageId": 51,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 51,
-				"prev": [50]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.50.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 52,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 52,
-				"prev": [51]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.51.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 53,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 53,
-				"prev": [52]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.52.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 54,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 54,
-				"prev": [53]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.53.state"}, 2 ] }
+                ]
+                }
+
+            },
             {
                 "stageId": 55,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
                 "dungeon": 55,
-                "prev": [54]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.54.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 56,
@@ -723,14 +1073,24 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 56,
-                "prev": [55]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.55.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId":85,
                 "cost":10,
                 "dungeon":71,
                 "isInfinite":true,
-                "prev":[56]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.56.state"}, 2 ] }
+                ]
+                }
+
             }
 		]
 	},
@@ -750,47 +1110,77 @@
 				"team": 3,
 				"hidden":false,
 				"dungeon": 57,
-				"prev":	[56]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.56.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 			    "stageId": 58,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 58,
-				"prev": [57]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.57.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 59,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon":59,
-				"prev": [58]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.58.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 60,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 60,
-				"prev": [59]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.59.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 61,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon":61,
-				"prev": [60]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.60.state"}, 2 ] }
+                ]
+                }
+
+            },
             {
                 "stageId": 62,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
                 "dungeon":62,
-                "prev": [61]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.61.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 63,
@@ -798,14 +1188,24 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon":63,
-                "prev": [62]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.62.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId":86,
                 "cost":10,
                 "dungeon":72,
                 "isInfinite":true,
-                "prev":[63]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.63.state"}, 2 ] }
+                ]
+                }
+
             }
 		]
 	},
@@ -825,47 +1225,77 @@
 				"team": 3,
 				"hidden":false,
 				"dungeon": 76,
-				"prev":[1000]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 65,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 77,
-				"prev": [1000]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 66,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 78,
-				"prev": [1000]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 67,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 79,
-				"prev": [1000]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 68,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 80,
-				"prev": [1000]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                ]
+                }
+
+            },
             {
                 "stageId": 69,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
                 "dungeon":81,
-                "prev": [1000]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 70,
@@ -873,14 +1303,24 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 82,
-                "prev": [1000]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId":87,
                 "cost":10,
                 "dungeon":83,
                 "isInfinite":true,
-                "prev":[1000]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                ]
+                }
+
             }
 		]
 	},
@@ -900,47 +1340,77 @@
 				"team": 3,
 				"hidden":false,
 				"dungeon": 84,
-				"prev":[1000]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 72,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon":85,
-				"prev": [1000]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId": 73,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon":86,
-				"prev": [1000]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 				"stageId":74,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 87,
-				"prev": [1000]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                ]
+                }
+
+            },
 			{
 			    "stageId":75,
 			    "cost": 15,
 			    "team": 3,
 			    "hidden":false,
 			    "dungeon": 88,
-			    "prev": [1000]
-			},
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                ]
+                }
+
+            },
             {
                 "stageId":76,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
                 "dungeon": 89,
-                "prev": [1000]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId":77,
@@ -948,7 +1418,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 90,
-                "prev": [1000]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                ]
+                }
+
             }
         ]
     },
@@ -1037,43 +1512,83 @@
             {
                 "stageId": 96,
                 "cost": 15,
-                "team": 3,
+                "team": 1,
                 "hidden":false,
                 "dungeon": 92,
-                "prev": [0]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.104.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 97,
                 "cost": 15,
-                "team": 3,
+                "team": 1,
                 "hidden":false,
                 "dungeon": 93,
-                "tutorial":3,
-                "prev": [96]
+                "teammate": [
+                {
+                    "class" : 164,
+                    "name" : "阿雅",
+                    "gender" : 0,
+                    "hairColor" : 15,
+                    "xp" : 0
+                }],
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.105.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 98,
                 "cost": 15,
-                "team": 3,
+                "team": 1,
                 "hidden":false,
                 "dungeon": 94,
-                "prev": [97]
+                "teammate": [
+                {
+                    "class" : 164,
+                    "name" : "阿雅",
+                    "gender" : 0,
+                    "hairColor" : 15,
+                    "xp" : 0
+                }],
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 99,
                 "cost": 15,
-                "team": 3,
+                "team": 2,
                 "hidden":false,
                 "dungeon":95,
-                "prev": [98]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.106.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 100,
                 "cost": 15,
-                "team": 3,
+                "team": 2,
                 "hidden":false,
                 "dungeon": 96,
-                "prev": [99]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.99.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 101,
@@ -1081,7 +1596,12 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 97,
-                "prev": [100]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.107.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId": 102,
@@ -1089,14 +1609,24 @@
                 "team": 3,
                 "hidden":false,
                 "dungeon": 98,
-                "prev": [101]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.101.state"}, 2 ] }
+                ]
+                }
+
             },
             {
                 "stageId":103,
                 "cost":10,
                 "dungeon":64,
                 "isInfinite":true,
-                "prev":[102]
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.102.state"}, 2 ] }
+                ]
+                }
+
             }
         ]
     },
@@ -1110,32 +1640,14 @@
             "cost": 0,
             "team": 1,
             "hidden":false,
-            "dungeon": 0,
-            "teammate": [
-                {
-                    "class" : 131,
-                    "name" : "约书亚",
-                    "gender" : 1,
-                    "hairStyle" : 5,
-                    "hairColor" : 13,
-                    "xp" : 0
-                },
-                {
-                    "class" : 132,
-                    "name" : "凯瑟琳",
-                    "gender" : 0,
-                    "hairStyle" : 5,
-                    "hairColor" :3 ,
-                    "xp" : 0
-                }
-            ]
+            "dungeon": 91
         },
         {
             "stageId": 105,
             "cost": 0,
             "team": 1,
             "hidden":false,
-            "dungeon": 0,
+            "dungeon": 99,
             "teammate": [
                 {
                     "class" : 131,
@@ -1144,32 +1656,21 @@
                     "hairStyle" : 5,
                     "hairColor" : 13,
                     "xp" : 0
-                },
-                {
-                    "class" : 132,
-                    "name" : "凯瑟琳",
-                    "gender" : 0,
-                    "hairStyle" : 5,
-                    "hairColor" :3 ,
-                    "xp" : 0
                 }
+            ],
+            "cond":
+            { "and": [
+                { "==": [ { "type": "getProperty", "key": "stage.96.state"}, 2 ] }
             ]
+            }
         },
         {
             "stageId": 106,
             "cost": 0,
             "team": 1,
             "hidden":false,
-            "dungeon": 0,
+            "dungeon": 100,
             "teammate": [
-                {
-                    "class" : 131,
-                    "name" : "约书亚",
-                    "gender" : 1,
-                    "hairStyle" : 5,
-                    "hairColor" : 13,
-                    "xp" : 0
-                },
                 {
                     "class" : 132,
                     "name" : "凯瑟琳",
@@ -1178,14 +1679,19 @@
                     "hairColor" :3 ,
                     "xp" : 0
                 }
+            ],
+            "cond":
+            { "and": [
+                { "==": [ { "type": "getProperty", "key": "stage.98.state"}, 2 ] }
             ]
+            }
         },
         {
             "stageId": 107,
             "cost": 0,
             "team": 1,
             "hidden":false,
-            "dungeon": 0,
+            "dungeon": 101,
             "teammate": [
                 {
                     "class" : 131,
@@ -1203,7 +1709,12 @@
                     "hairColor" :3 ,
                     "xp" : 0
                 }
+            ],
+            "cond":
+            { "and": [
+                { "==": [ { "type": "getProperty", "key": "stage.100.state"}, 2 ] }
             ]
+            }
         }
     ]
 }

@@ -19193,75 +19193,45 @@
     },
     {
     "dungeonId": 91,
-    "levelCount" : 3,
+    "levelCount" : 1,
     "levels" :[
         {
             "objects" : [
                 {
                     "id": 7,
-                    "count":2
+                    "count":1,
+                    "pos":22
                 },
                 {
                     "id": 149,
-                    "count":2
+                    "count":1,
+                    "pos":23
                 },
                 {
-                    "id": 37,
-                    "count":2
+                    "id": 4,
+                    "count":1,
+                    "pos":16
                 },
                 {
-                    "id": 17,
-                    "count":2
+                    "id": 22,
+                    "count":1,
+                    "pos":18,
+                    "keyed":true
                 }
             ],
-            "rank": 26
-        },
-        {
-            "objects" : [
-                {
-                    "id": 75,
-                    "count":2
-                },
-                {
-                    "id": 149,
-                    "count":2
-                },
-                {
-                    "id": 44,
-                    "count":2
-                },
-                {
-                    "id": 73,
-                    "count":2
-                } ,
-                {
-                    "id": 18,
-                    "count":2
-                }
-            ],
-            "rank": 26
-        },
-        {
-            "objects" : [
-                {
-                    "id": 134,
-                    "count":1
-                }
-            ],
-            "entrance": [17,16,18],
-            "exit":-1,
-            "layout":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-            "rank": 26,
-            "collectId":153001,
-            "triggers": ["dungeon:no.reward.no.result"]
+            "rank": 1,
+            "entrance": [10],
+            "exit":13,
+            "layout":[0,0,0,0,0,2,2,2,2,0,19,9,13,29,4,9,12,14,12,4,8,6,3,10,4,0,1,1,1,0],
+            "collectId":153001
         }
     ],
     "prizeWxp":0,
-    "prizeGold": 0,
-    "prizeXp":0,
+    "prizeGold": 100,
+    "prizeXp":100,
     "wxpRate":1,
     "goldRate":0.3,
-    "xpRate":1
+    "xpRate":0.2
 },
     {
 
@@ -19573,7 +19543,7 @@
     {
         "dungeonId": 94,
         "levelCount" : 6,
-        "rank": 4,
+        "rank": 2,
         "levels" :[
             {
                 "objects" :[
@@ -19750,7 +19720,7 @@
     {
         "dungeonId": 95,
         "levelCount" : 6,
-        "rank": 5,
+        "rank": 3,
         "levels" :[
             {
                 "objects" :[
@@ -19937,7 +19907,7 @@
     {
         "dungeonId": 96,
         "levelCount" : 6,
-        "rank": 6,
+        "rank": 3,
         "levels" :[
             {
                 "objects" :[
@@ -20051,6 +20021,20 @@
                 ]
             }
         ],
+        "prize":
+            [
+                {
+                    "rate": 0.8,
+                    "items":
+                        [
+                            {
+                                "weight": 2,
+                                "item": 525
+                            }
+                        ]
+
+                }
+            ],
         "prizeWxp":100,"prizeGold": 400,
         "prizeXp":200,
         "wxpRate":1,"goldRate":0.2,
@@ -20058,7 +20042,7 @@
     },
     {
         "dungeonId": 97,
-        "rank": 7,
+        "rank": 6,
         "levelCount" : 6,
         "levels" :[
             {
@@ -20205,16 +20189,6 @@
                             }
                         ]
 
-                },
-                {
-                    "rate": 0.2,
-                    "items":
-                        [
-                            {
-                                "weight": 2,
-                                "item": 526
-                            }
-                        ]
                 }
             ],
         "prizeWxp":100,"prizeGold": 400,
@@ -20338,12 +20312,6 @@
                     {
                         "id": 149,
                         "count":2
-                    },{
-                        "id": 165,
-                        "count":1,
-                        "collectId":163001,
-                        "keyed":true,
-                        "questOnly":true
                     },
                     {
                         "id": 8,
@@ -20353,7 +20321,7 @@
                         "id": 136,
                         "pos":12,
                         "count":1,
-
+                        "collectId":163001,
                         "keyed":true
                     }
                 ],
@@ -20363,7 +20331,17 @@
         ],
         "prize":
             [
+                {
+                    "rate": 0.8,
+                    "items":
+                        [
+                            {
+                                "weight": 2,
+                                "item": 525
+                            }
+                        ]
 
+                }
             ],
         "prizeWxp":100,
         "prizeGold": 400,
@@ -20374,7 +20352,6 @@
     },
     {
         "dungeonId": 99,
-        "collectId":155000,
         "levelCount" : 3,
         "levels" :[
             {
@@ -20396,7 +20373,7 @@
                         "count":2
                     }
                 ],
-                "rank": 26
+                "rank": 5
             },
             {
                 "objects" : [
@@ -20415,38 +20392,44 @@
                     {
                         "id": 73,
                         "count":2
-                    } ,
+                    },
                     {
                         "id": 18,
                         "count":2
                     }
                 ],
-                "rank": 26
+                "rank": 5
             },
             {
                 "objects" : [
                     {
-                        "id": 134,
-                        "count":1
+                        "id": 73,
+                        "count":2
+                    },
+                    {
+                        "id": 18,
+                        "count":2
+                    },
+                    {
+                        "id": 144,
+                        "count":3,
+                        "collectId":155001,
+                        "questOnly":true,
+                        "keyed":true
                     }
                 ],
-                "entrance": [17,16,18],
-                "exit":-1,
-                "layout":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-                "rank": 26,
-                "triggers": ["dungeon:no.reward.no.result"]
+                "rank": 5
             }
         ],
-        "prizeWxp":0,
-        "prizeGold": 0,
-        "prizeXp":0,
+        "prizeWxp":100,
+        "prizeGold": 400,
+        "prizeXp":200,
         "wxpRate":1,
-        "goldRate":0.3,
-        "xpRate":1
+        "goldRate":0.2,
+        "xpRate":0.1
     },
     {
         "dungeonId": 100,
-        "collectId":158001,
         "levelCount" : 3,
         "levels" :[
             {
@@ -20468,7 +20451,7 @@
                         "count":2
                     }
                 ],
-                "rank": 26
+                "rank": 8
             },
             {
                 "objects" : [
@@ -20493,33 +20476,42 @@
                         "count":2
                     }
                 ],
-                "rank": 26
+                "rank": 8
             },
             {
                 "objects" : [
                     {
-                        "id": 134,
-                        "count":1
+                        "id": 157,
+                        "count":1,
+                        "collectId":158001
+                    },
+                    {
+                        "id": 44,
+                        "count":2
+                    },
+                    {
+                        "id": 73,
+                        "count":2
+                    } ,
+                    {
+                        "id": 18,
+                        "count":2
                     }
                 ],
-                "entrance": [17,16,18],
-                "exit":-1,
-                "layout":[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
-                "rank": 26,
-                "triggers": ["dungeon:no.reward.no.result"]
+                "rank": 8
             }
         ],
-        "prizeWxp":0,
-        "prizeGold": 0,
-        "prizeXp":0,
+        "prizeWxp":100,
+        "prizeGold": 400,
+        "prizeXp":200,
         "wxpRate":1,
-        "goldRate":0.3,
-        "xpRate":1
+        "goldRate":0.2,
+        "xpRate":0.1
     },
     {
         "dungeonId": 101,
         "collectId":161001,
-        "levelCount" : 3,
+        "levelCount" : 2,
         "levels" :[
             {
                 "objects" : [
@@ -20540,37 +20532,12 @@
                         "count":2
                     }
                 ],
-                "rank": 26
+                "rank": 10
             },
             {
                 "objects" : [
                     {
-                        "id": 75,
-                        "count":2
-                    },
-                    {
-                        "id": 149,
-                        "count":2
-                    },
-                    {
-                        "id": 44,
-                        "count":2
-                    },
-                    {
-                        "id": 73,
-                        "count":2
-                    } ,
-                    {
-                        "id": 18,
-                        "count":2
-                    }
-                ],
-                "rank": 26
-            },
-            {
-                "objects" : [
-                    {
-                        "id": 134,
+                        "id": 167,
                         "count":1
                     }
                 ],
