@@ -1,0 +1,14 @@
+{
+    "upgrade":{
+        "tutorialStage": 2,
+        "refuseDialogue": 112
+    },
+    "tutorialTriggers":{
+        "2":{
+            "tutorial": 12
+        },
+        "3":{
+            "stage":15
+        }
+    }
+}
