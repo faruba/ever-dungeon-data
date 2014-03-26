@@ -112,7 +112,8 @@
             ]
             }
             ,
-            "endDialogue":11
+
+            "endDialogue":30
         }]},
     {
         "questId":2,
@@ -4696,7 +4697,7 @@
         ]
         }
         ,
-        "endDialogue":18
+        "endDialogue":27
     },
     {
         "questId":155,
@@ -4722,7 +4723,7 @@
         ]
         }
         ,
-        "endDialogue":17
+        "endDialogue":31
     },
     {
         "questId":156,
@@ -4764,8 +4765,8 @@
         { "and": [
             { "==": [ { "type": "getProperty", "key": "quests.155.state"}, 2 ] }
         ]
-        }
-
+        },
+        "startDialogue" :34
 
     },
     {
@@ -4845,7 +4846,8 @@
         ]
         }
         ,
-        "startDialogue":12
+        "startDialogue":35
+
     },
     {
         "questId":159,
@@ -4889,7 +4891,7 @@
         ]
         }
         ,
-        "startDialogue":23
+        "startDialogue":42
 
     },
     {
@@ -4972,7 +4974,8 @@
         ]
         }
         ,
-        "endDialogue":20
+        "startDialogue":46,
+        "endDialogue":47
     },
     {
         "questId":163,
@@ -5007,7 +5010,7 @@
         }
         ,
 
-        "endDialogue":21
+        "endDialogue":49
     },
     {
         "questId":164,
