@@ -83,6 +83,14 @@
             {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  }
 
         ]
+    },
+    {
+        "tutorialId": 8,
+        "actions":[
+            {"act": "dialogue", "index": 50},
+            {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  }
+
+        ]
     }
 
 
