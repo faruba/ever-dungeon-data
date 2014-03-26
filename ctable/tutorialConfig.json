@@ -3,9 +3,32 @@
         "tutorialStage": 2,
         "refuseDialogue": 112
     },
+    "forge":{
+        "tutorialStage": 2,
+        "refuseDialogue": 112
+    },
+    "enhance":{
+        "tutorialStage": 2,
+        "refuseDialogue": 112
+    },
+    "extract":{
+        "tutorialStage": 2,
+        "refuseDialogue": 112
+    },
+    "friend":{
+        "tutorialStage": 2,
+        "refuseDialogue": 112
+    },
+    "dissolve":{
+        "tutorialStage": 2,
+        "refuseDialogue": 112
+    },
     "tutorialTriggers":{
+        "1":{
+            "tutorial": 0
+        },
         "2":{
-            "tutorial": 12
+            "tutorial": 1
         },
         "3":{
             "stage":15
