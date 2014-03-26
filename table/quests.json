@@ -5003,7 +5003,7 @@
         { "and": [
             { "==": [ { "type": "getProperty", "key": "quests.162.state"}, 2 ] }
         ]
-        },
-        "endDialogue":49
+        }
+
     }
 ]
