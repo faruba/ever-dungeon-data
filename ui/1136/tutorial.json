@@ -18,9 +18,7 @@
         "tutorialId": 2,
         "actions":[
             {"act": "dialogue", "index": 21},
-            {"act": "pressclick", "pos":{"x":470, "y":450}, "rect":{"x":368 , "y":383, "width":160, "height":160}, "trigger":true  },
-            {"act": "dialogue", "index": 22},
-            {"act": "pressslide", "pos":{"x":50, "y":146}, "rect":{"x":0 , "y":64, "width":640, "height":208}, "trigger":true  }
+            {"act": "pressclick", "pos":{"x":470, "y":450}, "rect":{"x":368 , "y":383, "width":160, "height":160}, "trigger":true  }
 
 
         ]
@@ -89,6 +87,15 @@
         "actions":[
             {"act": "dialogue", "index": 50,"ui":"main"},
             {"act": "pressclick", "pos":{"x":230, "y":1072}, "rect":{"x":159 , "y":996, "width":120, "height":140}, "trigger":true  }
+
+        ]
+    },
+    {
+        "tutorialId": 9,
+        "actions":[
+            {"act": "dialogue", "index": 22},
+            {"act": "pressslide", "pos":{"x":50, "y":146}, "rect":{"x":0 , "y":64, "width":640, "height":208}, "trigger":true  }
+
 
         ]
     }
