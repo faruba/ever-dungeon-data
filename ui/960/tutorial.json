@@ -1,7 +1,7 @@
 [    {
     "tutorialId": 0,
     "actions":[
-        {"act": "dialogue", "index": 19},
+        {"act": "dialogue", "index": 19, "ui":"main"},
         {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  }
 
     ]
@@ -9,7 +9,7 @@
     {
         "tutorialId": 1,
         "actions":[
-            {"act": "dialogue", "index": 20},
+            {"act": "dialogue", "index": 20,"ui":"main"},
             {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  }
 
         ]
@@ -17,9 +17,9 @@
     {
         "tutorialId": 2,
         "actions":[
-            {"act": "dialogue", "index": 21},
+            {"act": "dialogue", "index": 21,"ui":"main"},
             {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  },
-            {"act": "dialogue", "index": 22},
+            {"act": "dialogue", "index": 22,"ui":"main"},
             {"act": "press", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  }
 
 
@@ -28,7 +28,7 @@
     {
         "tutorialId": 3,
         "actions":[
-            {"act": "dialogue", "index": 23},
+            {"act": "dialogue", "index": 23,"ui":"main"},
             {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  }
 
         ]
@@ -36,15 +36,15 @@
     {
         "tutorialId": 4,
         "actions":[
-            {"act": "dialogue", "index": 24},
+            {"act": "dialogue", "index": 24,"ui":"main"},
             {"act": "pressclick", "rect":{"x":336, "y":676, "width":282, "height": 136}},
-            {"act": "dialogue", "index": 25},
+            {"act": "dialogue", "index": 25,"ui":"main"},
             {"act": "pressclick", "pos":{"x":93, "y":759}, "rect":{"x":25 , "y":720, "width":100, "height":100}, "trigger":true } ,
-            {"act": "dialogue", "index": 26},
+            {"act": "dialogue", "index": 26,"ui":"main"},
             {"act": "pressclick", "pos":{"x":248, "y":630}, "rect":{"x":22 , "y":582, "width":282, "height":132}, "trigger":true },
-            {"act": "dialogue", "index": 28},
+            {"act": "dialogue", "index": 28,"ui":"main"},
             {"act": "pressclick", "pos":{"x":175, "y":50}, "rect":{"x":114 , "y":0, "width":100, "height":100}, "trigger":true },
-            {"act": "dialogue", "index": 29},
+            {"act": "dialogue", "index": 29,"ui":"main"},
             {"act": "pressclick", "pos":{"x":363, "y":50}, "rect":{"x":230 , "y":0, "width":180, "height":140}, "trigger":true }
         ]
 
@@ -52,7 +52,7 @@
     {
         "tutorialId": 5,
         "actions":[
-            {"act": "dialogue", "index": 30},
+            {"act": "dialogue", "index": 30,"ui":"main"},
             {"act": "pressclick", "pos":{"x":248, "y":630}, "rect":{"x":22 , "y":582, "width":282, "height":132}, "trigger":true  }
 
 
@@ -61,9 +61,9 @@
     {
         "tutorialId": 6,
         "actions":[
-            {"act": "dialogue", "index": 32},
+            {"act": "dialogue", "index": 32,"ui":"main"},
             {"act": "pressclick", "pos":{"x":560, "y":630}, "rect":{"x":336 , "y":582, "width":282, "height":132}, "trigger":true } ,
-            {"act": "dialogue", "index": 33},
+            {"act": "dialogue", "index": 33,"ui":"main"},
             {"act": "pressclick", "pos":{"x":560, "y":630}, "rect":{"x":336 , "y":582, "width":282, "height":132}, "trigger":true }
 
 
@@ -72,14 +72,14 @@
     {
         "tutorialId": 7,
         "actions":[
-            {"act": "dialogue", "index": 36},
+            {"act": "dialogue", "index": 36,"ui":"main"},
             {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  } ,
 
-            {"act": "dialogue", "index": 37},
+            {"act": "dialogue", "index": 37,"ui":"main"},
             {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  } ,
-            {"act": "dialogue", "index": 38},
+            {"act": "dialogue", "index": 38,"ui":"main"},
             {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  } ,
-            {"act": "dialogue", "index": 39},
+            {"act": "dialogue", "index": 39,"ui":"main"},
             {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  }
 
         ]
