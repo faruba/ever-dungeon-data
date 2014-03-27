@@ -1994,7 +1994,7 @@
             "action": [
                 { "type": "dropItem", "dropList": [
 
-                    {"weight":5, "item":7},
+                    {"weight":5, "item":7}
 
                 ]
                 },
