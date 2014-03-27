@@ -35,7 +35,7 @@
         "tutorialId": 4,
         "actions":[
             {"act": "dialogue", "index": 24,"ui":"main"},
-            {"act": "pressclick", "rect":{"x":336, "y":676, "width":282, "height": 136}},
+            {"act": "pressclick", "pos":{"x":248, "y":630},"rect":{"x":336, "y":676, "width":282, "height": 136}},
             {"act": "dialogue", "index": 25,"ui":"main"},
             {"act": "pressclick", "pos":{"x":93, "y":759}, "rect":{"x":25 , "y":720, "width":100, "height":100}, "trigger":true } ,
             {"act": "dialogue", "index": 26,"ui":"main"},
@@ -94,7 +94,7 @@
         "tutorialId": 9,
         "actions":[
             {"act": "dialogue", "index": 22},
-            {"act": "pressslide", "pos":{"x":50, "y":72}, "rect":{"x":0 , "y":0, "width":640, "height":177}, "trigger":true  }
+            {"act": "pressslide", "pos":{"x":90, "y":72}, "rect":{"x":0 , "y":0, "width":640, "height":177}, "trigger":true  }
 
 
         ]
