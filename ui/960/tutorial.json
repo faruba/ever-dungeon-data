@@ -94,7 +94,7 @@
         "tutorialId": 9,
         "actions":[
             {"act": "dialogue", "index": 22},
-            {"act": "pressslide", "pos":{"x":90, "y":72}, "rect":{"x":0 , "y":0, "width":640, "height":177}, "trigger":true  }
+            {"act": "pressslide", "pos":{"x":190, "y":72}, "rect":{"x":0 , "y":0, "width":640, "height":177}, "trigger":true  }
 
 
         ]
