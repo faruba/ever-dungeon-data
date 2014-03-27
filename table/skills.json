@@ -1973,7 +1973,8 @@
                 {"type": "kill"},
                 {"type": "delay","delay":1},
                 {"type":"dialog","dialogId":18},
-                {"type": "whiteScreen","time":2,"mode":1},
+                {"type": "delay","delay":1},
+                {"type": "whiteScreen","time":1,"mode":1},
                 {"type": "delay","delay":2},
                 {"type":"tutorial","tutorialId":0}
             ]
