@@ -1492,7 +1492,24 @@
             }
 
         ]
-    }
+    },
+    {
+    "dialogueId": 50,
+    "roles": [
+        {
+            "avatar": "dialogue-rolemaid.png",
+            "name": "凯特"
+        }
+    ],
+    "talks": [
+        {
+            "role": 0,
+            "text": [
+                "现在可以在好友界面查看你的好友信息了！"
+            ]
+        }
+    ]
+}
 
 
 
