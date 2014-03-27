@@ -27,7 +27,7 @@
         "tutorialId": 3,
         "actions":[
             {"act": "dialogue", "index": 23},
-            {"act": "pressclick", "pos":{"x":470, "y":616}, "rect":{"x":368 , "y":542, "width":160, "height":160}, "trigger":true  }
+            {"act": "pressclick", "pos":{"x":470, "y":718}, "rect":{"x":368 , "y":639, "width":160, "height":160}, "trigger":true  }
 
         ]
     },
