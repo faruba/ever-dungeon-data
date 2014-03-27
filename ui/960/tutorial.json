@@ -20,7 +20,7 @@
             {"act": "dialogue", "index": 21},
             {"act": "pressclick", "pos":{"x":470, "y":355}, "rect":{"x":368 , "y":286, "width":160, "height":160}, "trigger":true  },
             {"act": "dialogue", "index": 22},
-            {"act": "pressclick", "pos":{"x":480, "y":72}, "rect":{"x":0 , "y":0, "width":640, "height":177}, "trigger":true  }
+            {"act": "pressslide", "pos":{"x":50, "y":72}, "rect":{"x":0 , "y":0, "width":640, "height":177}, "trigger":true  }
 
 
         ]
