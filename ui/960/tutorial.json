@@ -35,7 +35,7 @@
         "tutorialId": 4,
         "actions":[
             {"act": "dialogue", "index": 24,"ui":"main"},
-            {"act": "pressclick", "pos":{"x":248, "y":630},"rect":{"x":336, "y":676, "width":282, "height": 136}, "trigger":true},
+            {"act": "pressclick", "pos":{"x":248, "y":630},"rect":{"x":336, "y":676, "width":282, "height": 136}},
             {"act": "dialogue", "index": 25,"ui":"inventory"},
             {"act": "pressclick", "pos":{"x":93, "y":759}, "rect":{"x":25 , "y":720, "width":100, "height":100}, "trigger":true } ,
             {"act": "dialogue", "index": 26,"ui":"inventory"},
@@ -43,7 +43,7 @@
             {"act": "dialogue", "index": 50,"ui":"inventory"},
             {"act": "pressclick", "pos":{"x":248, "y":630}, "rect":{"x":22 , "y":582, "width":282, "height":132}},
             {"act": "dialogue", "index": 51,"ui":"inventory"},
-            {"act": "pressclick", "pos":{"x":248, "y":630}, "rect":{"x":22 , "y":582, "width":282, "height":132}, "trigger":true },
+            {"act": "pressclick", "pos":{"x":248, "y":630}, "rect":{"x":22 , "y":582, "width":282, "height":132}},
             {"act": "dialogue", "index": 27,"ui":"main"},
             {"act": "pressclick", "pos":{"x":175, "y":50}, "rect":{"x":114 , "y":0, "width":100, "height":100}},
             {"act": "dialogue", "index": 29,"ui":"main"},
@@ -55,7 +55,7 @@
         "tutorialId": 5,
         "actions":[
             {"act": "dialogue", "index": 30,"ui":"main"},
-            {"act": "pressclick", "pos":{"x":248, "y":630}, "rect":{"x":22 , "y":582, "width":282, "height":132}, "trigger":true  },
+            {"act": "pressclick", "pos":{"x":248, "y":630}, "rect":{"x":22 , "y":582, "width":282, "height":132}  },
             {"act": "dialogue", "index": 31,"ui":"main"}
 
 
@@ -65,9 +65,9 @@
         "tutorialId": 6,
         "actions":[
             {"act": "dialogue", "index": 32,"ui":"main"},
-            {"act": "pressclick", "pos":{"x":560, "y":630}, "rect":{"x":336 , "y":582, "width":282, "height":132}, "trigger":true } ,
+            {"act": "pressclick", "pos":{"x":560, "y":630}, "rect":{"x":336 , "y":582, "width":282, "height":132}} ,
             {"act": "dialogue", "index": 33,"ui":"forge"},
-            {"act": "pressclick", "pos":{"x":560, "y":630}, "rect":{"x":336 , "y":582, "width":282, "height":132}, "trigger":true },
+            {"act": "pressclick", "pos":{"x":560, "y":630}, "rect":{"x":336 , "y":582, "width":282, "height":132}},
             {"act": "dialogue", "index": 34,"ui":"main"}
 
 
@@ -77,13 +77,13 @@
         "tutorialId": 7,
         "actions":[
             {"act": "dialogue", "index": 36,"ui":"main"},
-            {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  } ,
+            {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140} } ,
             {"act": "dialogue", "index": 37,"ui":"forge"},
             {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  } ,
             {"act": "dialogue", "index": 38,"ui":"forge"},
             {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  } ,
             {"act": "dialogue", "index": 39,"ui":"forge"},
-            {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  },
+            {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}},
             {"act": "dialogue", "index": 40,"ui":"main"}
 
         ]
@@ -91,7 +91,7 @@
     {
         "tutorialId": 8,
         "actions":[
-            {"act": "dialogue", "index": 49,"ui":"main"},
+            {"act": "dialogue", "index": 42,"ui":"main"},
             {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  }
 
         ]

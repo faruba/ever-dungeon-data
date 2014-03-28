@@ -4884,9 +4884,6 @@
             { "==": [ { "type": "getProperty", "key": "quests.158.complete"}, true ] }
         ]
         }
-        ,
-        "startDialogue":42
-
     },
     {
         "questId":160,
