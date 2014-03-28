@@ -63,7 +63,8 @@
             {"act": "dialogue", "index": 32,"ui":"main"},
             {"act": "pressclick", "pos":{"x":560, "y":714}, "rect":{"x":336 , "y":668, "width":282, "height":132}, "trigger":true } ,
             {"act": "dialogue", "index": 33,"ui":"forge"},
-            {"act": "pressclick", "pos":{"x":560, "y":714}, "rect":{"x":336 , "y":668, "width":282, "height":132}, "trigger":true }
+            {"act": "pressclick", "pos":{"x":560, "y":714}, "rect":{"x":336 , "y":668, "width":282, "height":132}, "trigger":true },
+            {"act": "dialogue", "index": 34,"ui":"main"}
 
 
         ]
