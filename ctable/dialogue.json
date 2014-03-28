@@ -999,7 +999,7 @@
         "dialogueId": 30,
         "roles": [
             {
-                "avatar": "？？？.png",
+                "avatar": "dialogue-rolemaid.png",
                 "name": "阿雅"
             },
             {
@@ -1114,7 +1114,7 @@
                 "name": "汤姆大叔"
             },
             {
-                "avatar": "？？？.png",
+                "avatar": "dialogue-rolemaid.png",
                 "name": "阿雅"
             }
 
@@ -1187,7 +1187,7 @@
             } ,
             {   "role":1 ,
                 "text": [
-                    "当然没问题啦，xxx那我们一起走吧~？"
+                    "当然没问题啦，{#N}那我们一起走吧~？"
                 ]
 
 
@@ -1268,7 +1268,7 @@
         "dialogueId": 40,
         "roles": [
             {
-                "avatar": "??.png",
+                "avatar": "dialogue-rolemaid.png",
                 "name": "阿雅"
             }
         ],
@@ -1330,7 +1330,7 @@
 
                 "role":0 ,
                 "text": [
-                    "XXX你在这儿啊，听村民说地下城里又有异动，我和凯瑟琳打算前去调查"
+                    "{#N}你在这儿啊，听村民说地下城里又有异动，我和凯瑟琳打算前去调查"
                 ]
             },
             {
