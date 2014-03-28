@@ -4720,8 +4720,6 @@
             { "==": [ { "type": "getProperty", "key": "quests.154.complete"}, true ] }
         ]
         }
-        ,
-        "endDialogue":31
     },
     {
         "questId":156,
@@ -4763,9 +4761,7 @@
         { "and": [
             { "==": [ { "type": "getProperty", "key": "quests.155.complete"}, true ] }
         ]
-        },
-        "startDialogue" :34
-
+        }
     },
     {
         "questId":157,
