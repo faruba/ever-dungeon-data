@@ -4695,8 +4695,7 @@
         { "and": [
             { "==": [ { "type": "getProperty", "key": "quests.153.complete"}, true ] }
         ]
-        },
-        "startdialogue":27
+        }
     },
     {
         "questId":155,
