@@ -1481,7 +1481,7 @@
     },
 
     {
-        "dialogueId": 49,
+        "dialogueId": 48,
         "roles": [
             {
                 "avatar": "dialogue-roleforge.png",
@@ -1503,7 +1503,7 @@
         ]
     },
     {
-    "dialogueId": 50,
+    "dialogueId": 49,
     "roles": [
         {
             "avatar": "dialogue-rolemaid.png",
@@ -1519,7 +1519,7 @@
         }
     ]
 },{
-        "dialogueId": 51,
+        "dialogueId": 50,
         "talks": [
             {
 
@@ -1531,7 +1531,7 @@
         ]
     },
     {
-        "dialogueId": 52,
+        "dialogueId": 51,
         "talks": [
             {
 
