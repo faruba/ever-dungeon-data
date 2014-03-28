@@ -51,7 +51,7 @@
         "tutorialId": 5,
         "actions":[
             {"act": "dialogue", "index": 30,"ui":"main"},
-            {"act": "pressclick", "pos":{"x":248, "y":714}, "rect":{"x":22 , "y":668, "width":282, "height":132}, "trigger":true }
+            {"act": "pressclick", "pos":{"x":248, "y":714}, "rect":{"x":22 , "y":668, "width":282, "height":132}, "trigger":true },
             {"act": "dialogue", "index": 31,"ui":"main"}
 
 
@@ -80,7 +80,7 @@
             {"act": "dialogue", "index": 38,"ui":"forge"},
             {"act": "pressclick", "pos":{"x":230, "y":1072}, "rect":{"x":159 , "y":996, "width":120, "height":140}, "trigger":true  } ,
             {"act": "dialogue", "index": 39,"ui":"forge"},
-            {"act": "pressclick", "pos":{"x":230, "y":1072}, "rect":{"x":159 , "y":996, "width":120, "height":140}, "trigger":true  }
+            {"act": "pressclick", "pos":{"x":230, "y":1072}, "rect":{"x":159 , "y":996, "width":120, "height":140}, "trigger":true  },
             {"act": "dialogue", "index": 40,"ui":"main"}
 
         ]
