@@ -1113,9 +1113,6 @@
 
                 "text": [
                     "选择可升级的装备，进行升级"
-
-
-
                 ]
             }
 
@@ -1196,7 +1193,7 @@
                 "text": [
                     "凯瑟琳你终于回来啦，之前你和卡尔不在，村子就遭到袭击",
                     "幸亏有{#N}的帮助我们才逐步恢复起来，不过我的助手还没找回来",
-                    "不过你回来了就好，你和xxx一起去把他救出来吧"
+                    "不过你回来了就好，你和{#N}一起去把他救出来吧"
 
                 ]
             } ,
@@ -1204,10 +1201,7 @@
                 "text": [
                     "当然没问题啦，{#N}那我们一起走吧~？"
                 ]
-
-
             }
-
         ]
     },
     {
@@ -1234,15 +1228,17 @@
     },
     {
         "dialogueId": 37,
-
+        "roles": [
+            {
+                "avatar": "dialogue-roleforge.png",
+                "name": "汤姆大叔"
+            }
+        ],
         "talks": [
             {
-
+                "role":0,
                 "text": [
                     "点击强化选项"
-
-
-
                 ]
             }
 
@@ -1250,10 +1246,15 @@
     },
     {
         "dialogueId": 38,
-
+        "roles": [
+            {
+                "avatar": "dialogue-roleforge.png",
+                "name": "汤姆大叔"
+            }
+        ],
         "talks": [
             {
-
+                "role":0,
                 "text": [
                     "选择强化的装备以及七色石，进行强化"
 
@@ -1266,13 +1267,31 @@
     },
     {
         "dialogueId": 39,
-
+        "roles": [
+            {
+                "avatar": "dialogue-roleforge.png",
+                "name": "汤姆大叔"
+            },
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "阿雅"
+            }
+        ],
         "talks": [
             {
-
+                "role":0,
                 "text": [
                     "随着等级提升强化所需要的石头也会越来越多，七色石能够随机强化一项基础属性",
                     "每件装备最多强化4种不同属性，到达上限之后，继续强化将会替换等级最低的属性"
+
+                ]
+            },
+            {
+                "role":1,
+                "text": [
+                    "{#N}谢谢你让村子恢复生气，现在有不少勇者都回到村子里来了"  ,
+                    "之后的地下城我就不和你一起探索了",
+                    "你可以与其他勇者一起组队探索地下城，不同职业会有不同效果哦。"
 
                 ]
             }
@@ -1305,25 +1324,18 @@
         "dialogueId": 41,
         "roles": [
             {
-                "avatar": "dialogue-roleforge.png",
-                "name": "汤姆大叔"
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
             }
-
         ],
         "talks": [
             {
-
                 "role":0 ,
                 "text": [
-                    "看你越来越上手了，地下城获得的宝箱里会有各种奖励，在我这里可以将不用的装备进行分解",
-                    "分解后的材料可以为将来所用，同时还能够提炼七色石" ,
-                    "使其变成稀有的专项属性石，从而能够更进一步强化你的装备哦"
-
-
-
+                    "现在你已经可以和其他玩家组成好友一同探险地下城了",
+                    "在好友界面可以管理你的好友，删除添加以及查看好友信息"
                 ]
             }
-
         ]
     },
     {
@@ -1337,10 +1349,23 @@
                 "avatar": "dialogue-role1-avatar1.png",
                 "name": "凯瑟琳",
                 "right":true
+            },
+            {
+                "avatar": "dialogue-roleforge.png",
+                "name": "汤姆大叔"
             }
 
         ],
         "talks": [
+            {
+
+                "role":3 ,
+                "text": [
+                    "看你越来越上手了，地下城获得的宝箱里会有各种奖励，在我这里可以将不用的装备进行分解",
+                    "分解后的材料可以为将来所用，同时还能够提炼七色石" ,
+                    "使其变成稀有的专项属性石，从而能够更进一步强化你的装备哦"
+                ]
+            },
             {
 
                 "role":0 ,
@@ -1349,7 +1374,6 @@
                 ]
             },
             {
-
                 "role":1 ,
                 "text": [
                     "我们一起组队过去吧，三人一起也有个照应。"
@@ -1399,7 +1423,7 @@
             {
                 "role": 1,
                 "text": [
-                    "管不了那么多了，只能上了！。"
+                    "管不了那么多了，只能上了！"
                 ]
             }
         ]
@@ -1518,11 +1542,18 @@
             ]
         }
     ]
-},{
+},
+    {
         "dialogueId": 50,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
         "talks": [
             {
-
+                "role": 0,
                 "text": [
                     "选择戒指"
                 ]
@@ -1532,31 +1563,222 @@
     },
     {
         "dialogueId": 51,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
         "talks": [
             {
-
+                "role": 0,
                 "text": [
                     "装备该戒指"
                 ]
             }
 
         ]
+    },
+    {
+        "dialogueId": 52,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
+        "talks": [
+            {
+                "role": 0,
+                "text": [
+                    "选择锻造界面"
+                ]
+            }
+
+        ]
+    },
+    {
+        "dialogueId": 53,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
+        "talks": [
+            {
+                "role": 0,
+                "text": [
+                    "选择装备进行锻造"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 54,
+        "roles": [
+            {
+                "avatar": "dialogue-rolevillage.png",
+                "name": "多姆村村长"
+            },
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特",
+                "right":true
+            }
+        ],
+        "talks": [
+            {
+                "role": 0,
+                "text": [
+                    "年轻人干的漂亮，你是多姆村的英雄，多亏有你才能让村子复苏！"
+                ]
+            },
+            {
+                "role": 1,
+                "text": [
+                    "多姆洞穴的怪物已经被打倒了，不过你依然可以反复挑战，同时无尽模式也开启了，里面有丰厚的奖励！",
+                    "村庄的设施还会陆续开放，你也可以集结你的小伙伴向更高级的副本进行挑战！"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 55,
+        "roles": [
+            {
+                "avatar": "dialogue-roleforge.png",
+                "name": "汤姆大叔"
+            }
+        ],
+        "talks": [
+            {
+                "role": 0,
+                "text": [
+                    "铁匠铺暂时还没法恢复生产。"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 56,
+        "roles": [
+            {
+                "avatar": "dialogue-roleforge.png",
+                "name": "汤姆大叔"
+            }
+        ],
+        "talks": [
+            {
+                "role": 0,
+                "text": [
+                    "目前锻造用的设备还没有修好。"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 57,
+        "roles": [
+            {
+                "avatar": "dialogue-roleforge.png",
+                "name": "汤姆大叔"
+            }
+        ],
+        "talks": [
+            {
+                "role": 0,
+                "text": [
+                    "装备强化需要我的助手一同工作，目前还没他的下落。"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 58,
+        "roles": [
+            {
+                "avatar": "dialogue-roleforge.png",
+                "name": "汤姆大叔"
+            }
+        ],
+        "talks": [
+            {
+                "role": 0,
+                "text": [
+                    "提炼用的设备还在维修中。"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 59,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
+        "talks": [
+            {
+                "role": 0,
+                "text": [
+                    "村庄受到破坏，目前无法联络其他勇者。"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 60,
+        "roles": [
+            {
+                "avatar": "dialogue-roleforge.png",
+                "name": "汤姆大叔"
+            }
+        ],
+        "talks": [
+            {
+                "role": 0,
+                "text": [
+                    "暂时还不能够分解装备哦，好好利用装备挑战地下城吧！"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 61,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
+        "talks": [
+            {
+                "role": 0,
+                "text": [
+                    "村里的商人都还没回来，目前不能出售。"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 62,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
+        "talks": [
+            {
+                "role": 0,
+                "text": [
+                    "挑战地下城之前，记得穿上自己获得的新装备以及将老装备进行升级哦！"
+                ]
+            }
+        ]
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

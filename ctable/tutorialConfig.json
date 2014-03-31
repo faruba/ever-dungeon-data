@@ -1,27 +1,31 @@
 {
     "upgrade":{
         "tutorialStage": 3,
-        "refuseDialogue": 112
+        "refuseDialogue": 55
     },
     "forge":{
         "tutorialStage": 8,
-        "refuseDialogue": 112
+        "refuseDialogue": 56
     },
     "enhance":{
         "tutorialStage": 5,
-        "refuseDialogue": 112
+        "refuseDialogue": 57
     },
     "extract":{
         "tutorialStage": 7,
-        "refuseDialogue": 112
+        "refuseDialogue": 58
     },
     "friend":{
         "tutorialStage": 6,
-        "refuseDialogue": 112
+        "refuseDialogue": 59
     },
     "dissolve":{
         "tutorialStage": 7,
-        "refuseDialogue": 112
+        "refuseDialogue": 60
+    },
+    "sell":{
+        "tutorialStage":7,
+        "refuseDialouge":61
     },
     "tutorialTriggers":{
         "1":{
@@ -29,23 +33,35 @@
         },
         "2":{
             "tutorial": 5,
-            "stage":105
+            "stage":105,
+            "powerLimit": 155,
+            "refuseDialouge":62
         },
         "3":{
-            "tutorial": 6
+            "tutorial": 6,
+            "powerLimit": 175,
+            "refuseDialouge":62
+
         },
         "5":{
             "tutorial": 7
         },
         "6":{
-            "tutorial": 8
+            "tutorial": 8,
+            "powerLimit":217 ,
+            "refuseDialouge":62
         },
         "7":{
             "tutorial": 8,
             "stage":107
         },
         "4":{
-            "stage":106
+            "stage":106,
+            "powerLimit":205,
+            "refuseDialouge":62
+        },
+        "8":{
+            "tutorial": 11
         }
     }
 }
