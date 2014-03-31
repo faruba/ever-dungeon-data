@@ -66,7 +66,7 @@
         "actions":[
             {"act": "dialogue", "index": 32,"ui":"main"},
             {"act": "pressclick", "pos":{"x":560, "y":630}, "rect":{"x":336 , "y":582, "width":282, "height":132}} ,
-            {"act": "dialogue", "index": 33,"ui":"upgrade"},
+            {"act": "dialogue", "index": 33,"ui":"forge"},
             {"act": "pressclick", "pos":{"x":0, "y":0}, "rect":{"x":0 , "y":0, "width":960, "height":680}},
             {"act": "dialogue", "index": 34,"ui":"main"}
 
@@ -78,9 +78,9 @@
         "actions":[
             {"act": "dialogue", "index": 36,"ui":"main"},
             {"act": "pressclick", "pos":{"x":560, "y":630}, "rect":{"x":336 , "y":582, "width":282, "height":132} } ,
-            {"act": "dialogue", "index": 37,"ui":"upgrade"},
-            {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}} ,
-            {"act": "dialogue", "index": 38,"ui":"enhance"},
+            {"act": "dialogue", "index": 37,"ui":"forge"},
+            {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true} ,
+            {"act": "dialogue", "index": 38,"ui":"forge"},
             {"act": "pressclick", "pos":{"x":230, "y":900}, "rect":{"x":159 , "y":820, "width":120, "height":140}, "trigger":true  } ,
             {"act": "dialogue", "index": 39,"ui":"main"}
 
@@ -115,8 +115,8 @@
         "actions":[
             {"act": "dialogue", "index": 48,"ui":"main"},
             {"act": "pressclick", "pos":{"x":560, "y":630}, "rect":{"x":336 , "y":582, "width":282, "height":132} } ,
-            {"act": "dialogue", "index": 52,"ui":"upgrade"},
-            {"act": "pressclick", "pos":{"x":350, "y":900}, "rect":{"x":279 , "y":820, "width":120, "height":140} } ,
+            {"act": "dialogue", "index": 52,"ui":"forge"},
+            {"act": "pressclick", "pos":{"x":350, "y":900}, "rect":{"x":279 , "y":820, "width":120, "height":140}, "trigger":true } ,
             {"act": "dialogue", "index": 53,"ui":"forge"},
             {"act": "dialogue", "index": 54,"ui":"main"}
         ]
