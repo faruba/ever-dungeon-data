@@ -25,7 +25,7 @@
     },
     "sell":{
         "tutorialStage":7,
-        "refuseDialouge":61
+        "refuseDialogue":61
     },
     "tutorialTriggers":{
         "1":{
@@ -35,12 +35,12 @@
             "tutorial": 5,
             "stage":105,
             "powerLimit": 155,
-            "refuseDialouge":62
+            "refuseDialogue":62
         },
         "3":{
             "tutorial": 6,
             "powerLimit": 175,
-            "refuseDialouge":62
+            "refuseDialogue":62
 
         },
         "5":{
@@ -49,7 +49,7 @@
         "6":{
             "tutorial": 8,
             "powerLimit":217 ,
-            "refuseDialouge":62
+            "refuseDialogue":62
         },
         "7":{
             "tutorial": 8,
@@ -58,7 +58,7 @@
         "4":{
             "stage":106,
             "powerLimit":205,
-            "refuseDialouge":62
+            "refuseDialogue":62
         },
         "8":{
             "tutorial": 11
