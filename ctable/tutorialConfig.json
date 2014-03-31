@@ -4,7 +4,7 @@
         "refuseDialogue": 55
     },
     "forge":{
-        "tutorialStage": 8,
+        "tutorialStage": 9,
         "refuseDialogue": 56
     },
     "enhance":{
@@ -60,7 +60,7 @@
             "powerLimit":205,
             "refuseDialogue":62
         },
-        "8":{
+        "9":{
             "tutorial": 11
         }
     }

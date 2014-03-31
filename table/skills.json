@@ -1928,7 +1928,7 @@
             {"type":"castSpell","spell":40},
             {"type": "delay","delay":3},
             {"type":"castSpell","spell":80},
-            {"type": "whiteScreen","time":8,"mode":0,"color":1},
+            {"type": "whiteScreen","time":4,"mode":0,"color":1},
             {"type":"dialog","dialogId":45},
             {"type": "delay","delay":2},
             {"type": "kill"},
