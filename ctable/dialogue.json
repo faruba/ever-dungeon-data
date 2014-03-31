@@ -1024,7 +1024,7 @@
         "dialogueId": 30,
         "roles": [
             {
-                "avatar": "dialogue-rolemaid.png",
+                "avatar": "dialogue-rolepriest.png",
                 "name": "阿雅"
             },
             {
@@ -1136,7 +1136,7 @@
                 "name": "汤姆大叔"
             },
             {
-                "avatar": "dialogue-rolemaid.png",
+                "avatar": "dialogue-rolepriest.png",
                 "name": "阿雅"
             }
 
@@ -1283,7 +1283,7 @@
                 "name": "汤姆大叔"
             },
             {
-                "avatar": "dialogue-rolemaid.png",
+                "avatar": "dialogue-rolepriest.png",
                 "name": "阿雅"
             }
         ],
@@ -1312,7 +1312,7 @@
         "dialogueId": 40,
         "roles": [
             {
-                "avatar": "dialogue-rolemaid.png",
+                "avatar": "dialogue-rolepriest.png",
                 "name": "阿雅"
             }
         ],
