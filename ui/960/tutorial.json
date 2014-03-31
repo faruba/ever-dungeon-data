@@ -107,7 +107,6 @@
         "actions":[
             {"act": "dialogue", "index": 41,"ui":"main"},
             {"act": "pressclick", "pos":{"x":248, "y":464}, "rect":{"x":22 , "y":417, "width":282, "height":132}, "trigger":true  }
-
         ]
     },
     {
@@ -121,9 +120,4 @@
             {"act": "dialogue", "index": 54,"ui":"main"}
         ]
     }
-
-
-
-
-
 ]
