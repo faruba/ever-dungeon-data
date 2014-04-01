@@ -4641,7 +4641,7 @@
     "objects":[
         {
             "type":0,
-            "label":"击破地下城",
+            "label":"击破首个地下城",
             "collect":153001,
             "count":1
         }
@@ -4849,7 +4849,7 @@
         "objects":[
             {
                 "type":0,
-                "label":"击败不死心的哥布林投矛手",
+                "label":"击败哥布林投矛手",
                 "collect":159001,
                 "count":1
             }
@@ -4949,7 +4949,7 @@
         "objects":[
             {
                 "type":0,
-                "label":"击倒哥布林狼骑兵【BOSS】并营救村长",
+                "label":"成功营救村长",
                 "collect":162001,
                 "count":1
             }

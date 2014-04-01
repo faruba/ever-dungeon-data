@@ -47,7 +47,7 @@
             {"act": "dialogue", "index": 27,"ui":"main"},
             {"act": "pressclick", "pos":{"x":175, "y":50}, "rect":{"x":114 , "y":0, "width":100, "height":100}},
             {"act": "dialogue", "index": 29,"ui":"main"},
-            {"act": "pressclick", "pos":{"x":363, "y":50}, "rect":{"x":230 , "y":0, "width":180, "height":180}}
+            {"act": "pressclick", "pos":{"x":363, "y":50}, "rect":{"x":230 , "y":0, "width":180, "height":160}}
         ]
 
     },
