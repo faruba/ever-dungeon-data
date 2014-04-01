@@ -4803,9 +4803,8 @@
         { "and": [
             { "==": [ { "type": "getProperty", "key": "quests.156.complete"}, true ] }
         ]
-        }
-
-
+        },
+        "startDialogue":63
     },
     {
         "questId":158,
@@ -4876,7 +4875,7 @@
             },
             {
                 "type":3,
-                "count":150
+                "count":250
             }
         ],
         "cond":
@@ -4934,7 +4933,7 @@
             },
             {
                 "type":3,
-                "count":150
+                "count":250
             }
         ],
         "cond":
