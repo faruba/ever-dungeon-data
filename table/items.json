@@ -15154,8 +15154,8 @@
     {
         "classId":612,
         "label": "天际尊冠",
-        "iconm": "rfasion-helmet2-male.png",
-        "iconf": "rfasion-helmet2-female.png",
+        "iconm": "irfasion-helmet2-male.png",
+        "iconf": "irfasion-helmet2-female.png",
         "category": 1,
         "storeOnly": true,
         "subcategory": 13,
@@ -15176,7 +15176,7 @@
     {
         "classId":613,
         "label": "努力头带",
-        "icon": "rfasion-helmet1.png",
+        "icon": "irfasion-helmet1.png",
         "category": 1,
         "storeOnly": true,
         "subcategory": 13,
