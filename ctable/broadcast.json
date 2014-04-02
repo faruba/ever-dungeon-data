@@ -21,7 +21,12 @@
     },
     {
         "broadcastId": 4,
-        "textFormat": "{N:who}勤学苦练，终于达到了职业的巅峰。升到了10级!",
+        "textFormat": "{N:who}终于达到了职业的巅峰。升到了10级!",
+        "repeat": 3
+    },
+    {
+        "broadcastId": 5,
+        "textFormat": "{N:who}成功打造出了{I:out}！",
         "repeat": 3
     }
 ]
