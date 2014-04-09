@@ -6449,18 +6449,25 @@
     },
     {
         "classId": 170,
-        "className": "特殊全体回血",
+        "className": "我方全体回血",
         "classType": 2,
         "avatar": "npc-village.ccbi",
-        "property":
-        {
-            "health": 5
+            "property":
+            {
+                "health": 5,
+                "strong": 0
+            },
+            "xproperty":
+            {
+                "strong": 0.8
+
         },
         "skill": [
             {
-                "id": 83,
+                "id": 84,
                 "level": 1
-            }
+              },
+                {"id":85}
         ]
     },
       {       "classId": 171,
@@ -6469,30 +6476,161 @@
                   "avatar": "npc-village.ccbi",
                  "property":
                     {
-                    "health": 5
+                    "health": 5,
+                        "strong": 0
+                    },
+                    "xproperty":
+                 {
+              "strong": 0.8
                      },
                   "skill": [
                      {
                      "id": 84,
                      "level": 1
-                     }
+                            },
+                      {"id":86}
                       ]
     },
-                    "classId": 172,
-                "className": "敌方全体回血",
+    {              "classId": 172,
+                "className": "我方全体掉血",
                 "classType": 2,
-                "avatar": "npc-village.ccbi",
+                "avatar": "等美术",
                 "property":
                 {
-                "health": 5
+                "health": 5,
+                    "strong": 0
+                    },
+                    "xproperty":
+                    {
+                    "strong": 0.8
                 },
                 "skill": [
                 {
-                "id": 84,
+                "id": 83,
                 "level": 1
-         }
+         },
+                {"id":85}
         ]
-     }
+     },
+    {              "classId": 173,
+                "className": "我方全体攻击加速",
+                "classType": 2,
+                "avatar": "等美术",
+                "property":
+                {
+                    "health": 5
+                },
+                "skill": [
+                    {
+                        "id": 87
+
+            },
+                       {"id":85}
+        ]
+    },
+    {              "classId": 174,
+                    "className": "我方全体攻击降低",
+                    "classType": 2,
+                    "avatar": "等美术",
+                    "property":
+                    {
+                        "health": 5
+                    },
+                    "skill": [
+                        {
+                            "id": 91
+
+                        },
+                        {"id":85}
+        ]
+    },
+    {              "classId": 175,
+                    "className": "我方全体持续掉血",
+                    "classType": 2,
+                    "avatar": "等美术",
+                    "property":
+                    {
+                        "health": 5
+                    },
+                    "skill": [
+                        {
+                            "id": 93
+
+                        },
+                        {"id":85}
+        ]
+    },
+    {
+        "classId": 176,
+        "className": "我方全体无敌",
+        "classType": 2,
+        "avatar": "等美术",
+        "property":
+        {
+            "health": 5
+        },
+        "skill": [
+            {
+                "id": 95
+
+            },
+            {"id":85}
+        ]
+    },
+    {
+        "classId": 177,
+        "className": "敌方全体无敌",
+        "classType": 2,
+        "avatar": "等美术",
+        "property":
+        {
+            "health": 5
+        },
+        "skill": [
+            {
+                "id": 95
+
+            },
+            {"id":86}
+        ]
+    },
+    {
+        "classId": 178,
+        "className": "我方全体攻击吸收",
+        "classType": 2,
+        "avatar": "等美术",
+        "property":
+        {
+            "health": 5
+        },
+        "skill": [
+            {
+                "id": 97
+
+            },
+            {"id":85}
+        ]
+    },
+    {
+        "classId": 179,
+        "className": "清除我方所有buff",
+        "classType": 2,
+        "avatar": "等美术",
+        "property":
+        {
+            "health": 5
+        },
+        "skill": [
+            {
+                "id": 99
+
+            },
+            {"id":85}
+        ]
+    }
+
+
 
 ]
+
 

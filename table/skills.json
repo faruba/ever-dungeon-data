@@ -2014,10 +2014,9 @@
                 "filter": ["Alive", "Visible"]
             },
             "action":[
-                {"type": "damage", "formular": {"src":{"strong":0.2}}}
-
+                {"type": "damage", "formular": {"src":{"strong":0.5}}}
             ]
-        }
+      }
     },
       {
           "skillId":84,
@@ -2035,7 +2034,7 @@
              "filter": ["Alive", "Visible"]
           },
           "action":[
-            {"type": "heal", "formular": {"src":{"strong":0.2}, "c":5}}
+            {"type": "heal", "formular": {"src":{"strong":0.5}, "c":5}}
           ]
           }
       },
@@ -2108,7 +2107,15 @@
             "buffType":"RoleBuff",
             "availableCondition": [
                 { "type": "event", "event": "onEndBattleTurn", "eventCount": 2 }
-            ]
+            ],
+            "property":
+            {
+                "strong": 0
+            },
+            "xproperty":
+            {
+                "strong": 1
+            }
         }
     },
     {
@@ -2229,10 +2236,10 @@
             "availableCondition": [
                 { "type": "effectCount", "count":3}
             ]
-        }
+            }
     },
     {
-        "skillId": 94,
+        "skillId": 95,
         "label":"无敌",
         "desc":"我方全体无敌",
         "config": {
@@ -2247,13 +2254,13 @@
                 "filter": ["Alive", "Visible"]
             },
             "action":[
-                { "type": "installSpell", "spell": 95}
+                { "type": "installSpell", "spell": 96}
 
             ]
         }
     },
     {
-        "skillId": 95,
+        "skillId": 96,
         "config": {
             "action":[
                 {"type": "ignoreHurt" }
@@ -2274,7 +2281,7 @@
         }
     },
     {
-        "skillId": 96,
+        "skillId": 97,
         "label":"攻击吸收",
         "desc":"我方全体攻击吸收",
         "config": {
@@ -2289,13 +2296,13 @@
                 "filter": ["Alive", "Visible"]
             },
             "action":[
-                { "type": "installSpell", "spell": 97}
+                { "type": "installSpell", "spell": 98}
 
             ]
         }
     },
     {
-        "skillId": 97,
+        "skillId": 98,
         "config": {
            "triggerCondition": [
                    { "type": "event", "event": "onBePhysicalDamage" },
@@ -2311,15 +2318,16 @@
             "buffType":"RoleBuff",
             "action": [
                 {"type": "ignoreHurt"},
-                {"type": "heal", "formular": {"environment":{"damage":1}}},
+                {"type": "heal", "formular": {"environment":{"damage":1}}}
             ],
             "availableCondition": [
                 { "type": "effectCount", "count":1}
            ]
+
         }
     },
     {
-        "skillId": 98,
+        "skillId": 99,
         "label":"清除buff",
         "desc":"清除我方所有buff",
         "config": {
@@ -2336,8 +2344,9 @@
             "action":[
                 {"type":"clearDebuff"},
                 {"type":"clearBuff"}
+             ]
 
-            ]
-        }
+            }
+
     }
 ]
