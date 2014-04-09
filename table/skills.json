@@ -1981,7 +1981,7 @@
         "label": "宝箱",
         "config": {
             "triggerCondition": [
-                { "type": "event", "event": "onBeActivate" }
+                { "type": "event", "event": "onBeActivate"}
             ],
             "targetSelection":{
                 "pool":"Self",
@@ -1989,9 +1989,7 @@
             },
             "action": [
                 { "type": "dropItem", "dropList": [
-
                     {"weight":5, "item":7}
-
                 ]
                 },
                 {"type":"playAction","motion":1,"pos":"self"},
@@ -1999,5 +1997,354 @@
                 {"type":"kill"}
             ]
         }
+    },
+    {
+        "skillId":83,
+        "label":"扣除生命值",
+        "desc":"我方全体掉血",
+        "config": {
+            "basic": {
+                "targetEffect": 19
+            },
+            "triggerCondition": [
+                {"type" :"event","event": "onShow"}
+            ],
+            "targetSelection": {
+                "pool": "Teammate",
+                "filter": ["Alive", "Visible"]
+            },
+            "action":[
+                {"type": "damage", "formular": {"tar":{"strong":0.5}, "c":5}}
+
+            ]
+        }
+    },
+      {
+          "skillId":84,
+          "label":"全体生命值",
+          "desc":"全体回血",
+          "config": {
+                            "basic": {
+                                "targetEffect": 19
+                            },
+                            "triggerCondition": [
+                                {"type" :"event","event": "onShow"}
+                            ],
+                            "targetSelection": {
+                                "pool": "Team",
+                                "filter": ["Alive", "Visible"]
+                            },
+                            "action":[
+
+                                {"type": "heal", "formular": {"tar":{"strong":0.5}, "c":5}}
+
+                            ]
+                        }
+      },
+    {
+        "skillId":85,
+        "label":"转换阵营",
+        "desc":"我方阵营",
+        "config": {
+            "triggerCondition": [
+                {"type" :"event","event": "onEnterLevel"}
+            ],
+            "targetSelection": {
+                "pool": "Self",
+                "filter": ["Alive"]
+            },
+            "action":[
+                {"type":"changeFaction","name":"hero"},
+                {"type":"kill"}
+            ]
+        }
+    },
+    {
+        "skillId":86,
+        "label":"转换阵营",
+        "desc":"敌方阵营",
+        "config": {
+            "triggerCondition": [
+                {"type" :"event","event": "onEnterLevel"}
+            ],
+            "targetSelection": {
+                "pool": "Self",
+                "filter": ["Alive"]
+            },
+            "action":[
+                {"type":"changeFaction","name":"monster"},
+                {"type":"kill"}
+            ]
+        }
+    },
+    {
+        "skillId": 87,
+        "label":"全体加速",
+        "desc":"我方全体攻击加速",
+        "config": {
+            "basic": {
+                "targetEffect": 19
+            },
+            "triggerCondition": [
+                {"type" :"event","event": "onShow"}
+            ],
+            "targetSelection": {
+                "pool": "Teammate",
+                "filter": ["Alive", "Visible"]
+            },
+            "action":[
+                { "type": "installSpell", "spell": 88}
+
+            ]
+        }
+    },
+    {
+        "skillId":88,
+        "config": {
+            "installAction":[
+                { "type": "setProperty",  "modifications": {"speed":{"src":{"speed":3},"c":20}} }
+            ],
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "buffType":"RoleBuff",
+            "availableCondition": [
+                { "type": "event", "event": "onEndBattleTurn", "eventCount": 2 }
+            ]
+        }
+    },
+    {
+        "skillId": 89,
+        "label":"降低攻击力",
+        "desc":"我方全体攻击降低",
+        "config": {
+            "basic": {
+                "targetEffect": 19
+            },
+            "triggerCondition": [
+                {"type" :"event","event": "onShow"}
+            ],
+            "targetSelection": {
+                "pool": "Teammate",
+                "filter": ["Alive", "Visible"]
+            },
+            "action":[
+                { "type": "installSpell", "spell": 90}
+
+            ]
+        }
+    },
+    {
+        "skillId":90,
+        "config": {
+            "installAction":[
+                { "type": "setProperty" }
+            ],
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "buffType":"RoleBuff",
+            "availableCondition": [
+                { "type": "event", "event": "onEndBattleTurn", "eventCount": 2 }
+            ],
+            "levelConfig" : [
+                {"modifications": {"speed":{"src":{"speed":3},"c":20}}}]
+
+        }
+    },
+    {
+        "skillId": 91,
+        "label":"降低攻击力",
+        "desc":"我方全体攻击降低",
+        "config": {
+            "basic": {
+                "targetEffect": 19
+            },
+            "triggerCondition": [
+                {"type" :"event","event": "onShow"}
+            ],
+            "targetSelection": {
+                "pool": "Teammate",
+                "filter": ["Alive", "Visible"]
+            },
+            "action":[
+                { "type": "installSpell", "spell": 92}
+
+            ]
+        }
+    },
+    {
+        "skillId":92,
+        "config": {
+            "installAction":[
+                { "type": "setProperty" }
+            ],
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "buffType":"RoleBuff",
+            "availableCondition": [
+                { "type": "event", "event": "onEndBattleTurn", "eventCount": 2 }
+            ],
+            "levelConfig" : [
+                {"modifications": {"speed":{"src":{"speed":3},"c":20}}}]
+
+        }
+    },
+    {
+        "skillId": 93,
+        "label":"中毒",
+        "desc":"我方全体持续掉血",
+        "config": {
+            "basic": {
+                "targetEffect": 19
+            },
+            "triggerCondition": [
+                {"type" :"event","event": "onShow"}
+            ],
+            "targetSelection": {
+                "pool": "Teammate",
+                "filter": ["Alive", "Visible"]
+            },
+            "action":[
+                { "type": "installSpell", "spell": 94}
+
+            ]
+        }
+    },
+    {
+        "skillId": 94,
+            "config": {
+            "action":[
+                {"type": "damage","damageType":"Bleed","formular": {"src":{"c":10}}}
+            ],
+            "targetSelection":
+            { "pool":"Self",
+                "filter": ["Alive"]},
+            "buffType":"HealthDebuff",
+            "triggerCondition":[
+                    { "type": "event", "event": "onBattleTurnEnd"},
+                { "type": "event", "event": "onMoveTurnEnd"}
+
+            ],
+            "availableCondition": [
+                { "type": "effectCount", "count":3}
+            ]
+        }
+    },
+    {
+        "skillId": 94,
+        "label":"无敌",
+        "desc":"我方全体无敌",
+        "config": {
+            "basic": {
+                "targetEffect": 19
+            },
+            "triggerCondition": [
+                {"type" :"event","event": "onShow"}
+            ],
+            "targetSelection": {
+                "pool": "Teammate",
+                "filter": ["Alive", "Visible"]
+            },
+            "action":[
+                { "type": "installSpell", "spell": 95}
+
+            ]
+        }
+    },
+    {
+        "skillId": 95,
+        "config": {
+            "action":[
+                { "type": "modifyVar", "x": "damage", "formular": {"environment": {"damage":0}} }
+            ],
+            "targetSelection":
+            { "pool":"Teammate",
+                "filter": ["Alive"]},
+            "buffType":"RoleBuff",
+            "triggerCondition": [
+                { "type": "event", "event": "onBePhysicalDamage" },
+                { "type": "event", "event": "onBePhysicalRangeDamage" },
+                { "type": "event", "event": "onBeSpellDamage" },
+                { "type": "event", "event": "onBeSpellRangeDamage" }
+            ],
+                "availableCondition": [
+                { "type": "effectCount", "count":2}
+            ]
+        }
+    },
+    {
+        "skillId": 96,
+        "label":"攻击吸收",
+        "desc":"我方全体攻击吸收",
+        "config": {
+            "basic": {
+                "targetEffect": 19
+            },
+            "triggerCondition": [
+                {"type" :"event","event": "onShow"}
+            ],
+            "targetSelection": {
+                "pool": "Teammate",
+                "filter": ["Alive", "Visible"]
+            },
+            "action":[
+                { "type": "installSpell", "spell": 97}
+
+            ]
+        }
+    },
+
+    {
+        "skillId": 97,
+        "config": {
+           "triggerCondition": [
+                   { "type": "event", "event": "onBePhysicalDamage" },
+                   { "type": "event", "event": "onBePhysicalRangeDamage" },
+                   { "type": "event", "event": "onBeSpellDamage" },
+                   { "type": "event", "event": "onBeSpellRangeDamage" }
+            ],
+            "targetSelection": {
+                "pool": "Target",
+                "filter": ["Alive", "Visible"]
+            },
+
+            "buffType":"RoleBuff",
+            "action": [
+                {"type": "heal", "formular": {"environment":{"damage":1}}},
+                {"type": "modifyVar", "x": "damage", "formular": {"environment":{"c":0}}}
+            ],
+            "availableCondition": [
+                { "type": "effectCount", "count":1}
+           ]
+        }
+    },
+    {
+        "skillId": 98,
+        "label":"清除buff",
+        "desc":"清除我方所有buff",
+        "config": {
+            "basic": {
+                "targetEffect": 19
+            },
+            "triggerCondition": [
+                {"type" :"event","event": "onShow"}
+            ],
+            "targetSelection": {
+                "pool": "Teammate",
+                "filter": ["Alive", "Visible"]
+            },
+            "action":[
+                {"type":"clearDebuff"},
+                {"type":"clearBuff"}
+
+            ]
+        }
     }
+
+
+
+
+
 ]

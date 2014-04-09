@@ -6446,5 +6446,36 @@
                 "level": 1
             }
         ]
+    },
+    {
+        "classId": 170,
+        "className": "特殊全体回血",
+        "classType": 2,
+        "avatar": "npc-village.ccbi",
+        "property":
+        {
+            "health": 5
+        },
+        "skill": [
+            {
+                "id": 83,
+                "level": 1
+            }
+        ]
+    },
+      {       "classId": 171,
+               "className": "敌方全体回血",
+                "classType": 2,
+                  "avatar": "npc-village.ccbi",
+                 "property":
+                    {
+                    "health": 5
+                     },
+                  "skill": [
+                     {
+                     "id": 84,
+                     "level": 1
+                     }
+                      ]
     }
 ]
