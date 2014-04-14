@@ -1846,6 +1846,23 @@
                 ]
             }
         ]
+    },
+    {
+        "dialogueId": 67,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
+        "talks": [
+            {
+                "role":0 ,
+                "text": [
+                    "排行榜功能即将开放！"
+                ]
+            }
+        ]
     }
 
 
