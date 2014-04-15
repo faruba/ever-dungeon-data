@@ -2348,5 +2348,215 @@
 
             }
 
+    },
+    {
+        "skillId": 100,
+        "label":"怒之力",
+        "icon": "问美术",
+        "desc": "使用时当回合命中下降，不能回避攻击,下回合造成300%伤害.",
+        "slotId": 0,
+        "config": {
+            "basic" : {
+                "spellAction": 2,
+                "spellEffect": 4,
+                "targetEffect": 1 ,
+                "spellDelay": 0.3
+            },
+            "targetSelection": {
+                "pool": "Self"
+            },
+            "triggerCondition": [
+                { "type": "countDown", "cd": 10 }
+            ],
+            "action": [
+                { "type": "installSpell", "spell": 1}
+            ],
+            "levelConfig": [
+                {"level": 1},
+                {"level": 2},
+                {"level": 3}
+            ]
+        }
+    },
+    {
+        "skillId": 101,
+        "slotId": -1,
+        "config": {
+            "basic": {
+                "spellAction": 4,
+                "spellEffect": 1,
+                "spellDelay": 0.3
+            },
+            "triggerCondition": [
+                { "type": "event", "event": "onBePhysicalDamage" },
+                { "type": "event", "event": "onBePhysicalRangeDamage" },
+                { "type": "event", "event": "onBeSpellDamage" },
+                { "type": "event", "event": "onBeSpellRangeDamage" }
+            ],
+            "availableCondition": [
+                { "type": "effectCount" }
+            ],
+            "action": [
+                { "type": "modifyVar", "x": "damage", "formular": {"acquisition": {"damage":3}} }
+            ],
+            "levelConfig": [
+                {"count": 1},
+                {"count": 2},
+                {"count": 3}
+            ]
+        }
+    },
+    {
+            "skillId": 102,
+            "label":"血之狂怒",
+            "icon": "等美术",
+            "desc":"血之狂怒 每受到A点伤害,获得A*B的伤害加成。",
+            "slotId":2,
+            "config":{
+            "basic":{
+            "spellEffect": 32,
+            "targetEffect": 10,
+            "spellDelay": 0.3,
+            "targetDelay": 0.3
+            },
+            "triggerCondition": [
+            { "type": "event", "event": "Damage" }
+                        ],
+            "action": [
+            { "type": "damage","damageType":"Spell" }
+            ],
+            "targetSelection": {
+            "pool": "Self",
+            "filter": ["Alive", "Visible"]
+            },
+            "levelConfig":[
+            {"formular": {"src":{"attack":0.2},"c":2}},
+            {"formular": {"src":{"attack":0.3},"c":10}},
+            {"formular": {"src":{"attack":0.4},"c":15}}
+            ]
+            }
+       },
+    {
+        "skillId": 103,
+        "label":"咆哮",
+        "desc":"一定几率降低怪物命中",
+        "config": {
+            "basic": {
+                "targetEffect": 15
+            },
+            "triggerCondition": [
+                {"type" :"card", "id": 6}
+            ],
+            "targetSelection": {
+                "pool": "Team",
+                "filter": ["Alive"]
+            },
+            "action":[
+                {"type": "costCard", "card":6},
+                {"type":"installSpell", "spell": 23}
+            ]
+        }
+    },
+        {
+        "skillId": 104,
+        "label":"复仇之力",
+        "icon": "等美术",
+        "desc":"怪物攻击队伍并造成伤害，狂战士有几率立即复仇该生物。",
+        "slotId": 3 ,
+        "config": {
+            "basic" : {
+                "spellAction":4,
+                "spellEffect": 9,
+                "targetEffect": 1 ,
+                "spellDelay": 0,
+                "targetDelay": 0
+            },
+            "targetSelection": {
+                "pool": "Target",
+                "filter": ["Alive", "Visible"]
+            },
+            "triggerCondition": [
+                { "type": "event", "event": "onTeammateBePhysicalDamage" },
+                { "type": "event", "event": "onTeammateBePhysicalRangeDamage" },
+                { "type": "chance", "chance": 0.45 },
+                { "type": "targetMutex", "mutex": "reinforce" },
+                {"type":"alive"}
+            ],
+            "action": [
+                {"type": "modifyVar", "x": "damage" },
+                {"type": "setTargetMutex", "mutex": "reinforce", "count": 1 },
+                {"type": "setMyMutex", "mutex": "reinforce", "count": 1 },
+                {"type": "replaceTar" },
+                {"type": "ignoreHurt" }
+            ],
+            "levelConfig": [
+                { "formular": {"environment": {"damage":0.8}} },
+                { "formular": {"environment": {"damage":0.7}} },
+                { "formular": {"environment": {"damage":0.5}} }
+            ]
+        }
+    },
+    {
+        "skillId":105,
+        "label":"寒冰箭",
+        "icon": "等美术",
+        "desc":"对场上多个怪物造成伤害。",
+        "slotId": 0,
+        "config": {
+            "basic": {
+                "spellAction": 1,
+                "spellEffect": 4,
+                "targetEffect": 0,
+                "targetDelay": 0.3
+            },
+            "triggerCondition": [
+                { "type": "countDown", "cd": 10 }
+            ],
+            "targetSelection": {
+                "pool": "Enemy",
+                "filter": ["Alive", "Visible"],
+                "method": "Rand"
+            },
+            "action": [
+                { "type": "damage","damageType":"Spell","isRange":true }
+            ],
+            "levelConfig" : [
+                { "formular": {"src":{"attack":0.8}} },
+                { "formular": {"src":{"attack":1}} },
+                { "formular": {"src":{"attack":1.2}} }
+            ]
+        }
+    },
+    {
+        "skillId": 106,
+        "label":"魔力漩涡",
+        "icon": "等美术",
+        "desc":"场上敌人越多,魔导师的攻击力也随之增强。",
+        "slotId":1,
+        "config":{
+            "basic":{
+                "spellEffect": 32,
+                "targetEffect": 10,
+                "spellDelay": 0.3,
+                "targetDelay": 0.3
+            },
+            "triggerCondition": [
+                { "type": "event", "event": "Enemy" }
+            ],
+            "action": [
+                { "type": "modifyVar", "x": "敌人的数量", "formular": {"acquisition": {"damage":4}} }
+            ],
+            "targetSelection": {
+                "pool": "Self",
+                "filter": ["Alive", "Visible"]
+            },
+            "levelConfig":[
+                {"formular": {"src":{"attack":0.2},"c":2}},
+                {"formular": {"src":{"attack":0.3},"c":10}},
+                {"formular": {"src":{"attack":0.4},"c":15}}
+            ]
+        }
     }
+
+
 ]
