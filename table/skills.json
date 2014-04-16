@@ -76,7 +76,7 @@
       },
       "triggerCondition": [
         { "type": "event", "event": "onTeammateBePhysicalDamage" },
-          { "type": "event", "event": "onTeammateBePhysicalRangeDamage" },
+        { "type": "event", "event": "onTeammateBePhysicalRangeDamage" },
         { "type": "chance", "chance": 0.45 },
         { "type": "targetMutex", "mutex": "reinforce" },
           {"type":"alive"}
@@ -863,11 +863,11 @@
       "label":"boss光环",
       "config": {
           "triggerCondition": [
-              { "type": "event","event":"onShow" }
+              { "type": "event","event":"onEnterLevel" }
           ],
           "targetSelection": {
               "pool": "Self",
-              "filter": ["Alive", "Visible"]
+              "filter": ["Alive"]
           },
           "action": [
               {"type": "playEffect","effect":35,"pos":"self"}
