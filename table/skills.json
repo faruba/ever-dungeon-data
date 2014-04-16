@@ -2037,14 +2037,14 @@
               {"type" :"event","event": "onShow"}
             ],
             "targetSelection": {
-             "pool": "Team",
+             "pool": "Teammate",
              "filter": ["Alive", "Visible"]
           },
           "action":[
             {"type": "heal", "formular": {"src":{"strong":0.5}, "c":5}},
             {"type": "playEffect","effect":3,"pos":"target"} ,
-              {"type":"delay"},
-              {"type": "installSpell", "spell": 100}
+            {"type":"delay"},
+            {"type": "installSpell", "spell": 100}
           ]
           }
       },
@@ -2118,15 +2118,7 @@
             "buffType":"RoleBuff",
             "availableCondition": [
                 { "type": "event", "event": "onEndBattleTurn", "eventCount": 2 }
-            ],
-            "property":
-            {
-                "strong": 0
-            },
-            "xproperty":
-            {
-                "strong": 1
-            }
+            ]
         }
     },
     {
