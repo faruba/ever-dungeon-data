@@ -2372,7 +2372,10 @@
             },
             "installAction": [
                 {"type": "kill"}
-            ]
+            ],
+            "availableCondition": [
+                { "type": "event", "event": "onTurnEnd", "eventCount": 1 }
+                ]
         }
     },
     {
