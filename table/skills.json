@@ -814,8 +814,9 @@
               {"type":"event","event":"onShow"}
           ],
           "targetSelection":{
-              "pool":"Target",
-              "filter": ["Alive"]
+              "pool": "Hero",
+              "filter": ["Alive", "Visible"],
+              "method": "Rand"
           },
           "action": [
               {"type": "attack"}
