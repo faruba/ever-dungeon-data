@@ -2391,9 +2391,8 @@
             "action":[
                 {"type": "damage", "formular": {"src":{"strong":0.5}}},
                 {"type": "playEffect"},
-                {"type":"delay"},
-                {"type": "kill","self":true}
-            ],
+                {"type":"delay"}
+              ],
             "levelConfig":[
                 {"effect":9,"pos":"target"},
                 {"effect":34,"pos":"target"}
