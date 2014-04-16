@@ -860,18 +860,17 @@
       }
   },
   { "skillId": 37,
-      "label":"治愈龟",
+      "label":"boss光环",
       "config": {
           "triggerCondition": [
-              { "type": "countDown", "cd": 8 }
+              { "type": "event","event":"onShow" }
           ],
           "targetSelection": {
-              "pool": "RoleId",
-              "filter": ["Alive", "Visible"],
-              "roleId": 600
+              "pool": "Self",
+              "filter": ["Alive", "Visible"]
           },
           "action": [
-              { "type": "heal","formular": {"c": 10}}
+              {"type": "playEffect","effect":35,"pos":"self"}
           ]
       }
   },

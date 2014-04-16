@@ -143,6 +143,11 @@
     {
         "effectId": 34,
         "file": "effect-sszg2.ccbi"
+    },
+    {
+        "effectId": 35,
+        "file": "effect-boss.ccbi" ,
+        "z":-1
     }
 
 

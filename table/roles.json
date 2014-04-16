@@ -992,6 +992,11 @@
             {
                 "id": 28,
                 "level": 1
+            },
+            {
+
+                "id": 37,
+                "level": 2
             }
         ],
         "soundSpawn": "gebulintou.mp3",
@@ -1281,6 +1286,11 @@
             {
 
                 "id": 32,
+                "level": 2
+            },
+            {
+
+                "id": 37,
                 "level": 2
             }
         ],
