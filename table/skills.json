@@ -2015,6 +2015,10 @@
             },
             "action":[
                 {"type": "damage", "formular": {"src":{"strong":0.5}}}
+            ],
+            "levelConfig":[
+                {"type": "playEffect","effect":9,"pos":"target"},
+                {"type": "playEffect","effect":34,"pos":"target"}
             ]
       }
     },
