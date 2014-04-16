@@ -2014,11 +2014,14 @@
                 "filter": ["Alive", "Visible"]
             },
             "action":[
-                {"type": "damage", "formular": {"src":{"strong":0.5}}}
+                {"type": "damage", "formular": {"src":{"strong":0.5}}},
+                {"type": "playEffect"},
+                {"type":"delay"},
+                {"type": "installSpell", "spell": 100}
             ],
             "levelConfig":[
-                {"type": "playEffect","effect":9,"pos":"target"},
-                {"type": "playEffect","effect":34,"pos":"target"}
+                {"effect":9,"pos":"target"},
+                {"effect":34,"pos":"target"}
             ]
       }
     },
@@ -2039,7 +2042,9 @@
           },
           "action":[
             {"type": "heal", "formular": {"src":{"strong":0.5}, "c":5}},
-              {"type": "playEffect","effect":3,"pos":"target"}
+            {"type": "playEffect","effect":3,"pos":"target"} ,
+              {"type":"delay"},
+              {"type": "installSpell", "spell": 100}
           ]
           }
       },
@@ -2056,8 +2061,7 @@
                 "filter": ["Alive"]
             },
             "action":[
-                {"type":"changeFaction","name":"hero"},
-                {"type":"kill"}
+                {"type":"changeFaction","name":"hero"}
             ]
         }
     },
@@ -2074,8 +2078,7 @@
                 "filter": ["Alive"]
             },
             "action":[
-                {"type":"changeFaction","name":"monster"},
-                {"type":"kill"}
+                {"type":"changeFaction","name":"monster"}
             ]
         }
     },
@@ -2095,7 +2098,9 @@
                 "filter": ["Alive", "Visible"]
             },
             "action":[
-                { "type": "installSpell", "spell": 88}
+                { "type": "installSpell", "spell": 88},
+                {"type":"delay"},
+                {"type": "installSpell", "spell": 100}
 
             ]
         }
@@ -2139,7 +2144,9 @@
                 "filter": ["Alive", "Visible"]
             },
             "action":[
-                { "type": "installSpell", "spell": 90}
+                { "type": "installSpell", "spell": 90} ,
+                {"type":"delay"},
+                {"type": "installSpell", "spell": 100}
 
             ]
         }
@@ -2148,7 +2155,7 @@
         "skillId":90,
         "config": {
             "installAction":[
-                { "type": "setProperty" }
+                { "type": "setProperty","modifications": {"attack":{"src":{"attack":1}}} }
             ],
             "uninstallAction": [
                 { "type": "resetProperty" }
@@ -2156,10 +2163,7 @@
             "buffType":"RoleBuff",
             "availableCondition": [
                 { "type": "event", "event": "onEndBattleTurn", "eventCount": 2 }
-            ],
-            "levelConfig" : [
-                {"modifications": {"attack":{"src":{"attack":1}}}}]
-
+            ]
         }
     },
     {
@@ -2178,7 +2182,9 @@
                 "filter": ["Alive", "Visible"]
             },
             "action":[
-                { "type": "installSpell", "spell": 92}
+                { "type": "installSpell", "spell": 92} ,
+                {"type":"delay"},
+                {"type": "installSpell", "spell": 100}
 
             ]
         }
@@ -2187,7 +2193,7 @@
         "skillId":92,
         "config": {
             "installAction":[
-                { "type": "setProperty" }
+                { "type": "setProperty","modifications": {"attack":{"src":{"attack":-0.5}}} }
             ],
             "uninstallAction": [
                 { "type": "resetProperty" }
@@ -2195,10 +2201,7 @@
             "buffType":"RoleDebuff",
             "availableCondition": [
                 { "type": "event", "event": "onEndBattleTurn", "eventCount": 2 }
-            ],
-            "levelConfig" : [
-                {"modifications": {"attack":{"src":{"attack":-0.5}}}}]
-
+            ]
         }
     },
     {
@@ -2217,7 +2220,9 @@
                 "filter": ["Alive", "Visible"]
             },
             "action":[
-                { "type": "installSpell", "spell": 94}
+                { "type": "installSpell", "spell": 94},
+                {"type":"delay"},
+                {"type": "installSpell", "spell": 100}
 
             ]
         }
@@ -2256,7 +2261,9 @@
                 "filter": ["Alive", "Visible"]
             },
             "action":[
-                { "type": "installSpell", "spell": 96}
+                { "type": "installSpell", "spell": 96}  ,
+                {"type":"delay"},
+                {"type": "installSpell", "spell": 100}
 
 
             ]
@@ -2299,7 +2306,9 @@
                 "filter": ["Alive", "Visible"]
             },
             "action":[
-                { "type": "installSpell", "spell": 98}
+                { "type": "installSpell", "spell": 98}  ,
+                {"type":"delay"},
+                {"type": "installSpell", "spell": 100}
 
             ]
         }
@@ -2346,7 +2355,9 @@
             },
             "action":[
                 {"type":"clearDebuff"},
-                {"type":"clearBuff"}
+                {"type":"clearBuff"} ,
+                {"type":"delay"},
+                {"type": "installSpell", "spell": 100}
              ]
 
             }
@@ -2354,6 +2365,18 @@
     },
     {
         "skillId": 100,
+        "config": {
+            "targetSelection": {
+                "pool": "Self",
+                "filter": ["Alive", "Visible"]
+            },
+            "installAction": [
+                {"type": "kill"}
+            ]
+        }
+    },
+    {
+        "skillId": 101,
         "label":"怒之力",
         "icon": "问美术",
         "desc": "使用时当回合命中下降，不能回避攻击,下回合造成300%伤害.",
@@ -2372,7 +2395,7 @@
                 { "type": "countDown", "cd": 10 }
             ],
             "action": [
-                { "type": "installSpell", "spell": 1}
+                { "type": "installSpell", "spell": 102}
             ],
             "levelConfig": [
                 {"level": 1},
@@ -2382,7 +2405,7 @@
         }
     },
     {
-        "skillId": 101,
+        "skillId": 102,
         "slotId": -1,
         "config": {
             "basic": {
@@ -2410,7 +2433,7 @@
         }
     },
     {
-            "skillId": 102,
+            "skillId": 103,
             "label":"血之狂怒",
             "icon": "等美术",
             "desc":"血之狂怒 每受到A点伤害,获得A*B的伤害加成。",
@@ -2440,7 +2463,7 @@
             }
        },
     {
-        "skillId": 103,
+        "skillId": 104,
         "label":"咆哮",
         "desc":"一定几率降低怪物命中",
         "config": {
@@ -2461,7 +2484,7 @@
         }
     },
         {
-        "skillId": 104,
+        "skillId": 105,
         "label":"复仇之力",
         "icon": "等美术",
         "desc":"怪物攻击队伍并造成伤害，狂战士有几率立即复仇该生物。",
@@ -2500,7 +2523,7 @@
         }
     },
     {
-        "skillId":105,
+        "skillId":106,
         "label":"寒冰箭",
         "icon": "等美术",
         "desc":"对场上多个怪物造成伤害。",
@@ -2531,7 +2554,7 @@
         }
     },
     {
-        "skillId": 106,
+        "skillId": 107,
         "label":"魔力漩涡",
         "icon": "等美术",
         "desc":"场上敌人越多,魔导师的攻击力也随之增强。",
