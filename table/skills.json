@@ -2037,7 +2037,7 @@
               {"type" :"event","event": "onShow"}
             ],
             "targetSelection": {
-             "pool": "Team",
+             "pool": "Teammate",
              "filter": ["Alive", "Visible"]
           },
           "action":[
@@ -2118,15 +2118,7 @@
             "buffType":"RoleBuff",
             "availableCondition": [
                 { "type": "event", "event": "onEndBattleTurn", "eventCount": 2 }
-            ],
-            "property":
-            {
-                "strong": 0
-            },
-            "xproperty":
-            {
-                "strong": 1
-            }
+            ]
         }
     },
     {
