@@ -2377,10 +2377,9 @@
         "skillId":101,
         "label":"火元素",
         "desc":"死后自爆",
+        "slotId": 0,
         "config": {
-            "basic": {
-                "targetEffect": 19
-            },
+
             "triggerCondition": [
                 {"type" :"event","event": "onkill"}
             ],
@@ -2392,13 +2391,220 @@
                 {"type": "damage", "formular": {"src":{"strong":0.5}}},
                 {"type": "playEffect"},
                 {"type":"delay"}
-              ],
-            "levelConfig":[
-                {"effect":9,"pos":"target"},
-                {"effect":34,"pos":"target"}
+           ]
+        }
+    },
+       {"skillId":102,
+        "label":"元素",
+        "desc":"死后降低命中",
+        "slotId": 0,
+        "config": {
+                "triggerCondition": [
+                {"type" :"event","event": "onkill"}
+            ],
+            "targetSelection": {
+                "pool": "Enemy",
+                "filter": ["Alive", "Visible"]
+            },
+            "action":[
+                { "type": "installSpell", "spell": 103}
+               ]
+             }
+    },
+        {
+        "skillId":103,
+        "config": {
+            "installAction":[
+                { "type": "setProperty",  "modifications": {"accuracy":{"src":{"accuracy":1},"c":40}} }
+            ],
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "buffType":"DeBuff",
+            "availableCondition": [
+                { "type": "event", "event": "onEndBattleTurn", "eventCount": 2 }
+            ]
+        }
+    },
+    {
+        "skillId": 104,
+        "label":"元素",
+        "desc":"死后全体攻击减速",
+        "slotId": 0,
+        "config": {
+                "triggerCondition": [
+                {"type" :"event","event": "onKill"}
+            ],
+            "targetSelection": {
+                "pool": "Enemy",
+                "filter": ["Alive", "Visible"]
+            },
+            "action":[
+                { "type": "installSpell", "spell": 105}
+              ]
+           }
+    },
+    {
+        "skillId":105,
+        "config": {
+            "installAction":[
+                { "type": "setProperty",  "modifications": {"speed":{"src":{"speed":3},"c":20}} }
+            ],
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "buffType":"DeBuff",
+            "availableCondition": [
+                { "type": "event", "event": "onEndBattleTurn", "eventCount": 2 }
+            ]
+        }
+    },
+    {
+        "skillId": 106,
+        "label":"盾兵",
+        "icon": "待定",
+        "desc":"可以替其他怪物抵挡伤害（援护）。",
+        "slotId": 0 ,
+        "config": {
+            "basic" : {
+                "spellAction":4,
+                "spellEffect": 9,
+                "targetEffect": 1 ,
+                "spellDelay": 0,
+                "targetDelay": 0
+            },
+            "targetSelection": {
+                "pool": "Target",
+                "filter": ["Alive", "Visible"]
+            },
+            "triggerCondition": [
+                { "type": "event", "event": "onTeammateBePhysicalDamage" },
+                { "type": "event", "event": "onTeammateBePhysicalRangeDamage" },
+                { "type": "chance", "chance": 0.45 },
+                { "type": "targetMutex", "mutex": "reinforce" },
+                {"type":"alive"}
+            ],
+            "action": [
+                {"type": "modifyVar", "x": "damage" },
+                {"type": "setTargetMutex", "mutex": "reinforce", "count": 1 },
+                {"type": "setMyMutex", "mutex": "reinforce", "count": 1 },
+                {"type": "replaceTar" },
+                {"type": "ignoreHurt" }
+            ],
+            "levelConfig": [
+                { "formular": {"environment": {"damage":0.8}} },
+                { "formular": {"environment": {"damage":0.7}} },
+                { "formular": {"environment": {"damage":0.5}} }
+            ]
+        }
+    },
+    {
+        "skillId": 107,
+        "label":"回避",
+        "desc":"回避提高",
+        "slotId": 0,
+        "config": {
+            "triggerCondition": [
+                { "type": "event", "event": "onBeEndBattleTurn", "count": 1 },
+                {"type":"visible"}
+            ],
+            "targetSelection": {
+                "pool": "Self",
+                "filter": ["Alive", "Visible"]
+            },
+            "action":[
+                { "type": "installSpell", "spell": 108}
+            ]
+        }
+    },
+    {
+        "skillId": 108,
+        "config": {
+            "installAction":[
+                { "type": "setProperty",  "modifications": {"reactivity":{"src":{"reactivity":1},"c":40}} }
+            ],
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "buffType":"RoleBuff",
+            "availableCondition": [
+                { "type": "event", "event": "onEndBattleTurn", "eventCount": 2 }
+            ]
+        }
+    },
+
+    {
+        "skillId": 109,
+        "label":"降低攻击力",
+        "desc":"降低玩家攻击力",
+        "slotId": 0,
+        "config": {
+            "triggerCondition": [
+                { "type": "event", "event": "onBeEndBattleTurn", "count": 1 },
+                {"type":"visible"}
+            ],
+            "targetSelection": {
+                "pool": "Enemy",
+                "filter": ["Alive", "Visible"]
+            },
+            "action":[
+                { "type": "installSpell", "spell": 110} ,
+                {"type":"delay"}
+
+            ]
+        }
+    },
+    {
+        "skillId":110,
+        "config": {
+            "installAction":[
+                { "type": "setProperty","modifications": {"attack":{"src":{"attack":-0.5}}} }
+            ],
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "buffType":"RoleDebuff",
+            "availableCondition": [
+                { "type": "event", "event": "onEndBattleTurn", "eventCount": 2 }
+            ]
+        }
+    },
+    {"skillId": 111,
+        "label":"食人魔自身加速",
+        "desc":"攻击加速",
+        "slotId": 0,
+        "config": {
+            "triggerCondition": [
+                { "type": "event", "event": "onBeEndBattleTurn", "count": 1 },
+                {"type":"visible"}
+            ],
+            "targetSelection": {
+                "pool": "Self",
+                "filter": ["Alive", "Visible"]
+            },
+            "action":[
+                { "type": "installSpell", "spell": 112}
+           ]
+        }
+    },
+    {
+        "skillId":113,
+        "config": {
+            "installAction":[
+                { "type": "setProperty",  "modifications": {"speed":{"src":{"speed":3},"c":20}} }
+            ],
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "buffType":"RoleBuff",
+            "availableCondition": [
+                { "type": "event", "event": "onEndBattleTurn", "eventCount": 2 }
             ]
         }
     }
+
+
+
 
 
 ]
