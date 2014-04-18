@@ -1,0 +1,17 @@
+ {
+  "hero": {
+    "hero": { "attackable": false, "healable": true },
+    "monster": { "attackable": true, "healable": false },
+    "npc": { "attackable": false, "healable": false }
+  },
+  "monster": {
+    "hero": { "attackable": true, "healable": false },
+    "monster": { "attackable": false, "healable": true },
+    "npc": { "attackable": false, "healable": false }
+  },
+  "npc": {
+    "hero": { "attackable": false, "healable": false },
+    "npc": { "attackable": false, "healable": true },
+    "monster": { "attackable": false, "healable": false }
+  }
+}
