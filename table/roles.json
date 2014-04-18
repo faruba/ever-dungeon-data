@@ -6727,7 +6727,7 @@
         "classId": 184,
         "className": "清除我方所有buff",
         "classType": 2,
-        "avatar": "等美术",
+        "avatar": "effect-buffclean.ccbi",
         "property":
         {
             "health": 5
