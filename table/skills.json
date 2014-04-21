@@ -1996,7 +1996,7 @@
             ],
             "targetSelection": {
                 "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"} ]
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
                 {"type": "damage", "formular": {"src":{"strong":0.5}}},
@@ -2021,7 +2021,7 @@
             ],
             "targetSelection": {
                 "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"} ]
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
           },
           "action":[
             {"type": "heal", "formular": {"src":{"strong":0.5}, "c":5}},
@@ -2076,7 +2076,7 @@
             ],
             "targetSelection": {
                 "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"} ]
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
                 { "type": "installSpell", "spell": 88},
@@ -2113,7 +2113,7 @@
             ],
             "targetSelection": {
                 "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"} ]
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
                 { "type": "installSpell", "spell": 90} ,
@@ -2150,7 +2150,7 @@
             ],
             "targetSelection": {
                 "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"} ]
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
                 { "type": "installSpell", "spell": 92} ,
@@ -2186,7 +2186,7 @@
             ],
             "targetSelection": {
                 "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"} ]
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
                 { "type": "installSpell", "spell": 94},
@@ -2229,7 +2229,7 @@
             ,
             "targetSelection": {
                 "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"} ]
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
                 { "type": "installSpell", "spell": 96}  ,
@@ -2273,7 +2273,7 @@
             ],
             "targetSelection": {
                 "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"} ]
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
                 { "type": "installSpell", "spell": 98}  ,
@@ -2320,7 +2320,7 @@
             ],
             "targetSelection": {
                 "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"} ]
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
                 {"type":"clearDebuff"},
