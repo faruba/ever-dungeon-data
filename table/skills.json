@@ -2002,11 +2002,10 @@
                 {"type": "damage", "formular": {"src":{"strong":0.5}}},
                 {"type": "playEffect"},
                 {"type":"delay"},
-                {"type": "kill","self":true},
-                {"type": "playEffect","effect":10,"pos":"target"}
+                {"type": "kill","self":true}
             ],
             "levelConfig":[
-                {"effect":9,"pos":"target"},
+                {"effect":10,"pos":"target"},
                 {"effect":34,"pos":"target"}
             ]
       }
