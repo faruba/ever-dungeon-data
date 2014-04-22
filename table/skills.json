@@ -2224,9 +2224,9 @@
         "label":"无敌",
         "desc":"我方全体无敌",
         "config":{
-            "triggerCondition":
+            "triggerCondition":[
                 {"type" :"event","event": "onShow"}
-            ,
+            ],
             "targetSelection": {
                 "pool": "objects",
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
