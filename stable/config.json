@@ -1,4 +1,5 @@
 {
+  "ServerID": 0,
   "ServerConfig": [
     {
       "ID": 0,
@@ -57,31 +58,7 @@
     {"minimum" : 8, "delta" : 8},
     {"minimum" : 9, "delta" : 9}
   ],
-<<<<<<< Updated upstream
-    "Global_Material_ID" : [558, 559, 560, 561, 562],
-    "Global_Enhancement_GEM_Index" : [3, 4, 5, 26, 27, 392, 393],
-  "Auth_API_Server": "10.4.2.185",
-  "DB_Config_Local" : {
-    "Account": { "IP": "localhost", "PORT": 6379},
-    "Role": { "IP": "localhost", "PORT": 6379},
-    "Publisher": { "IP": "localhost", "PORT": 6379},
-    "Subscriber": { "IP": "localhost", "PORT": 6379}
-  },
-  "DB_Config_Develop" : {
-    "Account": { "IP": "10.4.4.188", "PORT": 6380 },
-    "Role": { "IP": "localhost", "PORT": 6379},
-    "Publisher": { "IP": "localhost", "PORT": 6379},
-    "Subscriber": { "IP": "localhost", "PORT": 6379}
-  },
-  "DB_Config_Master" : {
-    "Account": { "IP": "10.4.4.188", "PORT": 6380 },
-    "Role": { "IP": "10.4.4.188", "PORT": 6381 },
-    "Publisher": { "IP": "10.4.4.188", "PORT": 6380 },
-    "Subscriber": { "IP": "10.4.4.188", "PORT": 6380 }
-  }
-=======
   "Global_Material_ID" : [558, 559, 560, 561, 562],
   "Global_Enhancement_GEM_Index" : [3, 4, 5, 26, 27, 392, 393],
   "Auth_API_Server": "10.4.2.185"
->>>>>>> Stashed changes
 }
