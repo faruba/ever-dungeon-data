@@ -2028,7 +2028,7 @@
             {"type": "heal", "formular": {"src":{"strong":0.5}, "c":5}},
             {"type": "playEffect","effect":19,"pos":"target"} ,
               {"type":"playAction","motion":1,"pos":"self"},
-              {"type":"delay","delay":1.1},
+              {"type":"delay","delay":1.0},
               {"type":"delay"},
               {"type":"kill","self": true}
           ]
@@ -2084,7 +2084,7 @@
                 { "type": "installSpell", "spell": 88},
                 {"type": "playEffect","effect":37,"pos":"target"} ,
                 {"type":"playAction","motion":1,"pos":"self"},
-                {"type":"delay","delay":1.1},
+                {"type":"delay","delay":1.0},
                 {"type":"delay"},
                 {"type":"kill","self": true}
 
@@ -2122,7 +2122,7 @@
                 { "type": "installSpell", "spell": 90} ,
                 {"type": "playEffect","effect":13,"pos":"target"} ,
                 {"type":"playAction","motion":1,"pos":"self"},
-                {"type":"delay","delay":1.1},
+                {"type":"delay","delay":1.0},
                 {"type":"delay"},
                 {"type":"kill","self": true}
 
@@ -2160,7 +2160,7 @@
                 { "type": "installSpell", "spell": 92} ,
                 {"type": "playEffect","effect":38,"pos":"target"},
                 {"type":"playAction","motion":1,"pos":"self"},
-                {"type":"delay","delay":1.1},
+                {"type":"delay","delay":1.0},
                 {"type":"delay"},
                 {"type":"kill","self": true}
             ]
@@ -2197,7 +2197,7 @@
                 { "type": "installSpell", "spell": 94},
                 {"type": "playEffect","effect":36,"pos":"target"},
                 {"type":"playAction","motion":1,"pos":"self"},
-                {"type":"delay","delay":1.2},
+                {"type":"delay","delay":1.0},
                 {"type":"delay"},
                 {"type":"kill","self": true}
 
@@ -2241,7 +2241,7 @@
                 { "type": "installSpell", "spell": 96}  ,
                {"type": "playEffect","effect":39,"pos":"target"},
                 {"type":"playAction","motion":1,"pos":"self"},
-                {"type":"delay","delay":1.1},
+                {"type":"delay","delay":1.0},
                 {"type":"delay"},
                 {"type":"kill", "self": true}
             ]
@@ -2284,7 +2284,7 @@
                 { "type": "installSpell", "spell": 98}  ,
                {"type": "playEffect","effect":40,"pos":"target"},
                 {"type":"playAction","motion":1,"pos":"self"},
-                {"type":"delay","delay":1.1},
+                {"type":"delay","delay":1.0},
                 {"type":"delay"},
                 {"type":"kill","self": true}
 
@@ -2333,7 +2333,7 @@
                 {"type":"clearBuff"} ,
                 {"type": "playEffect","effect":41,"pos":"target"},
                 {"type":"playAction","motion":1,"pos":"self"},
-                {"type":"delay","delay":1.1},
+                {"type":"delay","delay":1.0},
                 {"type":"delay"},
                 {"type":"kill","self": true}
              ]
