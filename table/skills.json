@@ -1999,6 +1999,7 @@
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
+                {"type":"delay"},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay","delay":1.0},
                 {"type": "damage", "formular": {"src":{"strong":0.5}}},
@@ -2025,6 +2026,7 @@
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
           },
           "action":[
+              {"type":"delay"},
               {"type":"playAction","motion":1,"pos":"self"},
               {"type":"delay","delay":1.0},
             {"type": "heal", "formular": {"src":{"strong":0.5}, "c":5}},
@@ -2081,6 +2083,7 @@
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
+                {"type":"delay"},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay","delay":1.0},
                 { "type": "installSpell", "spell": 88},
@@ -2119,6 +2122,7 @@
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
+                {"type":"delay"},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay","delay":1.0},
                 { "type": "installSpell", "spell": 90} ,
@@ -2157,6 +2161,7 @@
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
+                {"type":"delay"},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay","delay":1.0},
                 { "type": "installSpell", "spell": 92} ,
@@ -2194,6 +2199,7 @@
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
+                {"type":"delay"},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay","delay":1.0},
                 { "type": "installSpell", "spell": 94},
@@ -2238,6 +2244,7 @@
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
+                {"type":"delay"},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay","delay":1.0},
                 { "type": "installSpell", "spell": 96}  ,
@@ -2281,6 +2288,7 @@
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
+                {"type":"delay"},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay","delay":1.0},
                 { "type": "installSpell", "spell": 98}  ,
@@ -2329,6 +2337,7 @@
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
+                {"type":"delay"},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay","delay":1.0},
                 {"type":"clearDebuff"},
