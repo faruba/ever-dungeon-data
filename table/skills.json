@@ -2077,6 +2077,9 @@
         "label":"全体加速",
         "desc":"我方全体攻击加速",
         "config": {
+            "basic" : {
+                 "buffEffect": 37
+            },
                "triggerCondition": [
                 {"type" :"event","event": "onShow"}
             ],
