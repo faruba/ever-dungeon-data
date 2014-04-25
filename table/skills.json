@@ -2256,7 +2256,8 @@
                 {"type":"delay"},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay","delay":1.0},
-                { "type": "installSpell", "spell": 96}  ,
+                { "type": "installSpell", "spell": 96},
+                { "type": "removeSpell", "spell": 98},
                {"type": "playEffect","effect":39,"pos":"target"},
                 {"type":"delay"},
                 {"type":"kill", "self": true}
@@ -2306,6 +2307,7 @@
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay","delay":1.0},
                 { "type": "installSpell", "spell": 98}  ,
+                { "type": "removeSpell", "spell": 96},
                {"type": "playEffect","effect":40,"pos":"target"},
                 {"type":"delay"},
                 {"type":"kill","self": true}
