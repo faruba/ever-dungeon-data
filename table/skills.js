@@ -1,4 +1,4 @@
-[
+exports.data = [
   {
     "skillId": 0,
     "label":"盾墙",

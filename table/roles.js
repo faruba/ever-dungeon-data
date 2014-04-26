@@ -1,4 +1,4 @@
-[
+exports.data = [
     {
         "classId": 0,
         "className": "战士",

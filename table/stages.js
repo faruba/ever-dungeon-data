@@ -1,4 +1,4 @@
-[
+exports.data = [
     {
         "chapterId": 0,
         "hidden":true,

@@ -1,4 +1,4 @@
-{
+exports.data = {
           "resource_version": 100,
           "quest": "0.0.4",
           "stage": "0.1.3",
