@@ -33,6 +33,7 @@
     "slotId": -1,
     "config": {
       "basic": {
+        "buffEffect": 42,
         "spellAction": 4,
         "spellEffect": 1,
         "spellDelay": 0.3
