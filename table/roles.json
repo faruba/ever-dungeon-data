@@ -6800,7 +6800,7 @@
                     "classType": 2,
                     "effectDeath": -1,
                      "filpFlag":false,
-                    "avatar": "effect-xr-1.ccbi",
+                    "avatar": "effect-xr-2x.ccbi",
                     "property":
                     {
                         "health": 5
@@ -6818,7 +6818,7 @@
                     "classType": 2,
                    "effectDeath": -1,
                   "filpFlag":false,
-                    "avatar": "effect-xr-2x.ccbi",
+                    "avatar": "effect-xr-1.ccbi",
                     "property":
                     {
                         "health": 5
