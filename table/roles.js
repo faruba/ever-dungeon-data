@@ -6709,11 +6709,11 @@ exports.data = [
         "property":
         {
             "health": 5,
-            "strong": 0
+            "strong": 4
         },
         "xproperty":
         {
-            "strong": 1.8
+            "strong": 2
         },
         "skill": [
             {
