@@ -2202,7 +2202,7 @@ exports.data = [
             },
             "action":[
                 {"type":"delay"},
-                {"type": "installSpell", "spell": 94,"delay":1.8},
+                {"type": "installSpell", "spell": 94},
                 {"type": "playEffect","effect":36,"pos":"target","delay":2.0},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay"},
@@ -2249,7 +2249,7 @@ exports.data = [
             },
             "action":[
                 {"type":"delay"},
-                { "type": "installSpell", "spell": 96,"delay":1.8},
+                { "type": "installSpell", "spell": 96},
                 { "type": "removeSpell", "spell": 98},
                {"type": "playEffect","effect":39,"pos":"target","delay":1.8},
                 {"type":"playAction","motion":1,"pos":"self"},
@@ -2300,7 +2300,7 @@ exports.data = [
             },
             "action":[
                 {"type":"delay"},
-                { "type": "installSpell", "spell": 98,"delay":1.8}  ,
+                { "type": "installSpell", "spell": 98}  ,
                 { "type": "removeSpell", "spell": 96},
                {"type": "playEffect","effect":40,"pos":"target","delay":1.8},
                 {"type":"playAction","motion":1,"pos":"self"},
