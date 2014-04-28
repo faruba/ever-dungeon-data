@@ -2329,7 +2329,7 @@ exports.data = [
             ],
             "targetSelection": {
                 "pool": "self",
-                "filter": [{"type":"alive"}]}
+                "filter": [{"type":"alive"}]
             },
 
             "buffType":"RoleBuff",
@@ -2341,6 +2341,7 @@ exports.data = [
             "availableCondition": [
                 { "type": "effectCount", "count":1}
            ]
+    }
     },
     {
         "skillId": 99,
