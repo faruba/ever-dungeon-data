@@ -1380,7 +1380,7 @@ exports.data = [
             ],
             "targetSelection":{
                 "pool":"objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"role","roleID":148}]
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"role-id","roleID":148}]
             },
             "action": [
                 {"type":"kill"},
@@ -1433,7 +1433,7 @@ exports.data = [
             ],
             "targetSelection":{
                 "pool":"objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"role","roleID":19}]
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"role-id","roleID":19}]
 
             },
             "action": [
@@ -1553,7 +1553,7 @@ exports.data = [
             ],
             "targetSelection":{
                 "pool":"objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"role","roleID":69}]
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"role-id","roleID":69}]
 
             },
             "action": [
