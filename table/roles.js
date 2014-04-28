@@ -6713,7 +6713,7 @@ exports.data = [
         },
         "xproperty":
         {
-            "strong": 0.8
+            "strong": 1.8
         },
         "skill": [
             {
