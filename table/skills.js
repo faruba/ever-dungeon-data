@@ -2001,7 +2001,7 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
-
+                {"type":"delay"},
                 {"type": "damage","delay":1.8, "formular": {"src":{"strong":0.5}}},
                 {"type": "playEffect","delay":1.8},
                 {"type": "blink","delay":1.8,"time":0.08},
@@ -2029,6 +2029,7 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
           },
           "action":[
+              {"type":"delay"},
             {"type": "heal", "delay":1.8,"formular": {"src":{"strong":0.5}, "c":5}},
             {"type": "playEffect","delay":1.8,"effect":19,"pos":"target"} ,
               {"type":"playAction","motion":1,"pos":"self"},
@@ -2085,6 +2086,7 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
+                {"type":"delay"},
                 { "type": "installSpell", "spell": 88,"delay":1.8},
                 {"type": "playEffect","effect":37,"pos":"target","delay":1.8},
                 {"type":"playAction","motion":1,"pos":"self"},
@@ -2122,6 +2124,7 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
+                {"type":"delay"},
                 { "type": "installSpell", "spell": 90,"delay":1.8} ,
                 {"type": "playEffect","effect":13,"pos":"target","delay":1.8} ,
                 {"type":"playAction","motion":1,"pos":"self"},
@@ -2159,6 +2162,7 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
+                {"type":"delay"},
                 { "type": "installSpell", "spell": 92,"delay":1.8} ,
                 {"type": "playEffect","effect":38,"pos":"target","delay":1.8},
                 {"type":"playAction","motion":1,"pos":"self"},
@@ -2196,7 +2200,8 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
-                { "type": "installSpell", "spell": 94,"delay":1.8},
+                {"type":"delay"},
+                {"type": "installSpell", "spell": 94,"delay":1.8},
                 {"type": "playEffect","effect":36,"pos":"target","delay":1.8},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay"},
@@ -2244,6 +2249,7 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
+                {"type":"delay"},
                 { "type": "installSpell", "spell": 96,"delay":1.8},
                 { "type": "removeSpell", "spell": 98},
                {"type": "playEffect","effect":39,"pos":"target","delay":1.8},
@@ -2293,6 +2299,7 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
+                {"type":"delay"},
                 { "type": "installSpell", "spell": 98,"delay":1.8}  ,
                 { "type": "removeSpell", "spell": 96},
                {"type": "playEffect","effect":40,"pos":"target","delay":1.8},
@@ -2345,6 +2352,7 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
+                {"type":"delay"},
                 {"type":"clearDebuff","delay":1.8},
                 {"type":"clearBuff","delay":1.8} ,
                 {"type": "playEffect","effect":41,"pos":"target","delay":1.8},
