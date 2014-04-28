@@ -2031,8 +2031,8 @@ exports.data = [
           },
           "action":[
               {"type":"delay"},
-            {"type": "heal", "delay":1.8,"formular": {"src":{"strong":0.5}, "c":5}},
-            {"type": "playEffect","delay":1.8,"effect":19,"pos":"target"} ,
+              {"type": "heal", "delay":1.8,"formular": {"src":{"strong":0.5}, "c":5}},
+              {"type": "playEffect","delay":1.8,"effect":19,"pos":"target"} ,
               {"type":"playAction","motion":1,"pos":"self"},
               {"type":"delay"},
               {"type":"kill","self": true}
@@ -2202,7 +2202,7 @@ exports.data = [
             },
             "action":[
                 {"type":"delay"},
-                {"type": "installSpell", "spell": 94,"delay":2.0},
+                {"type": "installSpell", "spell": 94,"delay":1.8},
                 {"type": "playEffect","effect":36,"pos":"target","delay":2.0},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay"},
@@ -2228,8 +2228,7 @@ exports.data = [
             },
             "buffType":"HealthDebuff",
             "triggerCondition":[
-                { "type": "event", "event": "onBattleTurnEnd"},
-                { "type": "event", "event": "onMoveTurnEnd"}
+                { "type": "event", "event": "onEndBattleTurn"}
             ],
             "availableCondition": [
                 { "type": "effectCount", "count":3}
@@ -2282,7 +2281,7 @@ exports.data = [
                 {"type": "targetMutex", "mutex": "dunqiang"}
             ],
                 "availableCondition": [
-                { "type": "effectCount", "count":2}
+                { "type": "effectCount", "count":1}
             ]
         }
     },
