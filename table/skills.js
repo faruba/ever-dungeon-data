@@ -2031,8 +2031,8 @@ exports.data = [
           },
           "action":[
               {"type":"delay"},
-              {"type": "heal", "delay":1.8,"formular": {"src":{"strong":0.5}, "c":5}},
-              {"type": "playEffect","delay":1.8,"effect":19,"pos":"target"} ,
+              {"type": "heal", "delay":1.5,"formular": {"src":{"strong":0.5}, "c":5}},
+              {"type": "playEffect","delay":1.5,"effect":19,"pos":"target"} ,
               {"type":"playAction","motion":1,"pos":"self"},
               {"type":"delay"},
               {"type":"kill","self": true}
@@ -2278,6 +2278,8 @@ exports.data = [
                 { "type": "event", "event": "onBePhysicalRangeDamage" },
                 { "type": "event", "event": "onBeSpellDamage" },
                 { "type": "event", "event": "onBeSpellRangeDamage" },
+                { "type": "targetMutex", "mutex": "reinforce" },
+                { "type": "targetMutex", "mutex": "lightOfMiracel" },
                 {"type": "targetMutex", "mutex": "dunqiang"}
             ],
                 "availableCondition": [
@@ -2322,6 +2324,7 @@ exports.data = [
                    { "type": "event", "event": "onBeSpellDamage" },
                    { "type": "event", "event": "onBeSpellRangeDamage" },
                { "type": "targetMutex", "mutex": "reinforce" },
+               { "type": "targetMutex", "mutex": "lightOfMiracel" },
                {"type": "targetMutex", "mutex": "dunqiang"}
             ],
             "targetSelection": {
