@@ -2249,7 +2249,7 @@ exports.data = [
             },
             "action":[
                 {"type":"delay"},
-                { "type": "installSpell", "spell": 96},
+                { "type": "installSpell", "spell": 96,"delay":0.3},
                 { "type": "removeSpell", "spell": 98},
                {"type": "playEffect","effect":39,"pos":"target","delay":1.8},
                 {"type":"playAction","motion":1,"pos":"self"},
