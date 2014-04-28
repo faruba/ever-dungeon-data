@@ -860,13 +860,14 @@ exports.data = [
       "label":"boss光环",
       "config": {
           "triggerCondition": [
-              { "type": "event","event":"onEnterLevel" }
+              { "type": "event","event":"onShow" }
           ],
           "targetSelection": {
               "pool": "self",
               "filter": [{"type":"alive"}]
           },
           "action": [
+              {"type":"delay" },
               {"type": "playEffect","effect":35,"pos":"self"}
           ]
       }
