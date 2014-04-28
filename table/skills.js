@@ -2002,10 +2002,10 @@ exports.data = [
             },
             "action":[
                 {"type":"delay"},
-                {"type": "damage","delay":1.8, "formular": {"src":{"strong":0.5}}},
-                {"type": "playEffect","delay":1.8},
-                {"type": "blink","delay":1.8,"time":0.08},
-                {"type":"shock","delay":1.8,"range":5,"time":0.2},
+                {"type": "damage","delay":1.6, "formular": {"src":{"strong":0.5}}},
+                {"type": "playEffect","delay":1.6},
+                {"type": "blink","delay":1.6,"time":0.08},
+                {"type":"shock","delay":1.6,"range":5,"time":0.2},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay"},
                 {"type":"kill","self": true}
@@ -2201,8 +2201,8 @@ exports.data = [
             },
             "action":[
                 {"type":"delay"},
-                {"type": "installSpell", "spell": 94,"delay":1.8},
-                {"type": "playEffect","effect":36,"pos":"target","delay":1.8},
+                {"type": "installSpell", "spell": 94,"delay":2.0},
+                {"type": "playEffect","effect":36,"pos":"target","delay":2.0},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay"},
                 {"type":"kill","self": true}
