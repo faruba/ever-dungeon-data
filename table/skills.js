@@ -2218,8 +2218,7 @@ exports.data = [
                     "buffEffect": 36
                 },
             "action":[
-                {"type": "damage","damageType":"poison","formular": {"src":{"health":0.1}}},
-                {"type": "playEffect","effect":36,"pos":"target"}
+                {"type": "damage","damageType":"poison","formular": {"src":{"health":0.1}}}
             ],
             "targetSelection":
             { 
@@ -2267,6 +2266,7 @@ exports.data = [
             },
             "action":[
                 {"type": "ignoreHurt" },
+                {"type": "playEffect","effect":1,"pos":"self"},
                 {"type": "modifyVar", "x": "damage", "formular": {"environment":{"c":0}}}
             ],
             "targetSelection":
