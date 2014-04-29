@@ -6931,7 +6931,7 @@ exports.data = [
         "classType": 2,
         "effectDeath": -1,
         "flipFlag":false,
-        "avatar": "effect-buffclean.ccbi",
+        "avatar": "effect-buffclear.ccbi",
         "property":
         {
             "health": 5
