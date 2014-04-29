@@ -23796,7 +23796,41 @@ exports.data = [
     },
     {
         "dungeonId": 99,
-        "levelCount" : 3,
+        "levelCount" : 4,         "goodPool":[
+        {
+            "id":170,
+            "weight":5
+        },
+        {
+            "id":171,
+            "weight":1
+        },
+        {
+            "id":173,
+            "weight":5
+        },
+        {
+            "id":174,
+            "weight":1
+        },
+        {
+            "id":176,
+            "weight":5
+        },
+        {
+            "id":178,
+            "weight":5
+        },
+        {
+            "id":179,
+            "weight":1
+        },
+        {
+            "id":172,
+            "weight":5
+        }
+    ],
+        "goodCount":5,
         "levels" :[
             {
                 "objects" : [
@@ -23847,6 +23881,24 @@ exports.data = [
             {
                 "objects" : [
                     {
+                        "id": 75,
+                        "count":2
+                    },
+                    {
+                        "id": 149,
+                        "count":2
+                    },
+                    {
+                        "id": 187,
+                        "count":1,
+                        "keyed":true
+                    }
+                ],
+                "rank":8
+            },
+            {
+                "objects" : [
+                    {
                         "id": 73,
                         "count":2
                     },
@@ -23874,7 +23926,42 @@ exports.data = [
     },
     {
         "dungeonId": 100,
-        "levelCount" : 3,
+        "levelCount" : 4,
+        "goodPool":[
+            {
+                "id":170,
+                "weight":5
+            },
+            {
+                "id":171,
+                "weight":1
+            },
+            {
+                "id":173,
+                "weight":5
+            },
+            {
+                "id":174,
+                "weight":1
+            },
+            {
+                "id":176,
+                "weight":5
+            },
+            {
+                "id":178,
+                "weight":5
+            },
+            {
+                "id":179,
+                "weight":1
+            },
+            {
+                "id":172,
+                "weight":5
+            }
+        ],
+        "goodCount":5,
         "levels" :[
             {
                 "objects" : [
@@ -23918,6 +24005,24 @@ exports.data = [
                     {
                         "id": 18,
                         "count":2
+                    }
+                ],
+                "rank": 10
+            },
+            {
+                "objects" : [
+                    {
+                        "id": 7,
+                        "count":2
+                    },
+                    {
+                        "id": 149,
+                        "count":2
+                    },
+                    {
+                        "id": 186,
+                        "count":2,
+                        "keyed":true
                     }
                 ],
                 "rank": 10
