@@ -501,8 +501,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":3,
-                "reactivity":3
+                "health":2,
+                "attack":1,
+                "speed":1,
+                "strong":1,
+                "reactivity":1
             },
         "sellprice": 50
 
@@ -534,8 +537,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":8,
-                "accuracy":3
+                "health":3,
+                "speed":1,
+                "accuracy":1,
+                "critical":1
             },
         "sellprice": 50
 
@@ -559,8 +564,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "critical":6
-            },
+                "health":1,
+                "attack":1,
+                "reactivity":1,
+                 "critical":2
+},
         "sellprice": 50
 
     },
@@ -585,7 +593,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":5
+                "accuracy":1,
+                "attack":2,
+                "critical":1
             },
         "sellprice": 50
 
@@ -613,7 +623,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":4
+                "health":4,
+                "attack":1,
+                "reactivity":1,
+                "speed":1
             },
         "sellprice": 50
 
@@ -645,8 +658,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":16,
-                "accuracy":4
+                "health":5,
+                "strong":1,
+                "accuracy":1,
+                "speed":1
             },
         "sellprice": 50
 
@@ -670,8 +685,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "strong":3,
-                "critical":3
+                "health":2,
+                "critical":1,
+                "strong":1,
+                "accuracy":1,
+                "speed":1
             },
         "sellprice": 50
 
@@ -697,7 +715,8 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":4
+                "health":1,
+                "attack":2
             },
         "sellprice": 50
 
@@ -725,8 +744,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":3,
-                "reactivity":3
+                "speed":1,
+                "reactivity":1,
+                "health":4,
+                "attack":1,
+                "strong":1
             },
         "sellprice": 50
 
@@ -758,8 +780,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":8,
-                "accuracy":3
+                "health":4,
+                "reactivity":1,
+                "strong":1
             },
         "sellprice": 50
 
@@ -783,8 +806,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":12,
-                "strong":6
+                "health":5,
+                "strong":2,
+                "critical":1
             },
         "sellprice": 50
 
@@ -810,7 +834,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":3
+                "health":2,
+                "attack":1,
+                "accuracy":1
             },
         "sellprice": 50
 
@@ -838,8 +864,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":6,
-                "reactivity":6
+                "health":3,
+                "attack":2,
+                "critical":1,
+                "strong":2,
+                "reactivity":2,
+                "speed":2
             },
         "sellprice": 150
 
@@ -871,9 +901,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":15,
-                "accuracy":6
-            },
+                "health":5,
+                "accuracy":2,
+                "speed":2,
+               "critical":2
+},
         "sellprice": 150
 
     },
@@ -896,8 +928,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "critical":12
-            },
+                "health":2,
+                "attack":2,
+                "reactivity":2,
+                "critical":3
+},
         "sellprice": 150
 
     },
@@ -922,7 +957,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":10
+                "critical":2,
+                "attack":4,
+                "accuracy":2
             } ,
         "sellprice": 150
 
@@ -950,7 +987,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":8
+                "health":6,
+                "attack":2,
+                "reactivity":2,
+                "speed":2
             } ,
         "sellprice": 150
 
@@ -982,8 +1022,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":31,
-                "accuracy":8
+                "health":9,
+                "strong":2,
+                "accuracy":2,
+                "speed":2
             } ,
         "sellprice": 150
 
@@ -1007,8 +1049,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "strong":6,
-                "critical":6
+                "health":5,
+                "attack":1,
+                "critical":2,
+                "strong":2,
+                "accuracy":2,
+                "speed":2
             } ,
         "sellprice": 150
 
@@ -1034,7 +1080,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":8
+
+                "health":2,
+                "attack":3
             } ,
         "sellprice": 150
 
@@ -1062,8 +1110,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":6,
-                "reactivity":6
+                "speed":2,
+                "reactivity":2,
+                "health":6,
+                "attack":2,
+                "strong":2
             } ,
         "sellprice": 150
 
@@ -1095,8 +1146,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":21,
-                "accuracy":6
+                "health":9,
+                "critical":1,
+                "strong":2,
+                "reactivity":2
             },
         "sellprice": 150
 
@@ -1120,8 +1173,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":22,
-                "strong":12
+                "health":12,
+                "strong":4,
+                "critical":2
             },
         "sellprice": 150
 
@@ -1147,7 +1201,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":6
+                "health":7,
+                "attack":2,
+                "critical":1,
+                "accuracy":2
             },
         "sellprice": 150
 
@@ -1175,8 +1232,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":9,
-                "reactivity":9
+                "health":4,
+                "attack":3,
+                "critical":2,
+                "strong":3,
+                "reactivity":3,
+                "speed":3
             },
         "sellprice": 500
 
@@ -1208,8 +1269,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":22,
-                "accuracy":9
+                "health":8,
+                "attack":1,
+                "critical":3,
+                "accuracy":3,
+                "speed":3
             },
         "sellprice": 500
 
@@ -1233,7 +1297,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "critical":20
+                "health":3,
+                "attack":3,
+                "critical":6,
+                "reactivity":3
             } ,
         "sellprice": 500
 
@@ -1259,7 +1326,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":16
+                "accuracy":3,
+                "attack":6,
+                "critical":3
             } ,
         "sellprice": 500
 
@@ -1287,7 +1356,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":14
+                "health":9,
+                "attack":3,
+                "reactivity":3,
+                "speed":4
             } ,
         "sellprice": 500
 
@@ -1319,8 +1391,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":46,
-                "accuracy":15
+                "health":11,
+                "attack":1,
+                "strong":3,
+                "accuracy":3,
+                "speed":3
             } ,
         "sellprice": 500
 
@@ -1344,8 +1419,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "strong":9,
-                "critical":9
+                "health":7,
+                "attack":2,
+                "critical":3,
+                "strong":3,
+                "accuracy":3,
+                "speed":3
             } ,
         "sellprice": 500
 
@@ -1371,7 +1450,8 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":12
+                "health":4,
+                "attack":4
             } ,
         "sellprice": 500
 
@@ -1399,8 +1479,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":9,
-                "reactivity":9
+                "speed":3,
+                "reactivity":3,
+                "strong":3,
+                "attack":3,
+                "health":11
             },
         "sellprice": 500
 
@@ -1432,8 +1515,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":32,
-                "accuracy":9
+                "health":14,
+                "critical":2,
+                "strong":3,
+                "reactivity":3
             },
         "sellprice": 500
 
@@ -1457,8 +1542,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":38,
-                "strong":20
+                "health":20,
+                "critical":3,
+                "strong":6
             } ,
         "sellprice": 500
 
@@ -1484,7 +1570,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":9
+                "health":10,
+                "attack":3,
+                "critical":2,
+                "accuracy":3
             } ,
         "sellprice": 500
 
@@ -1512,8 +1601,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":12,
-                "reactivity":12
+                "health":6,
+                "attack":4,
+                "critical":3,
+                "strong":4,
+                "reactivity":4,
+                "speed":4
             },
         "sellprice": 800
 
@@ -1545,8 +1638,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":34,
-                "accuracy":12
+                "health":11,
+                "attack":2,
+                "critical":4,
+                "accuracy":4,
+                "speed":4
             },
         "sellprice": 800
 
@@ -1570,7 +1666,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "critical":28
+                "health":4,
+                "attack":3,
+                "critical":8,
+                "reactivity":4
             } ,
         "sellprice": 800
 
@@ -1596,7 +1695,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":22
+                "accuracy":4,
+                "attack":7,
+                "critical":5
             } ,
         "sellprice": 800
 
@@ -1624,7 +1725,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":20
+                "health":13,
+                "attack":4,
+                "reactivity":4,
+                "speed":5
             } ,
         "sellprice": 800
 
@@ -1656,8 +1760,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":68,
-                "accuracy":22
+                "health":18,
+                "attack":2,
+                "strong":4,
+                "accuracy":5,
+                "speed":4
             },
         "sellprice": 800
 
@@ -1681,8 +1788,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "strong":12,
-                "critical":12
+                "health":10,
+                "attack":3,
+                "critical":4,
+                "strong":4,
+                "accuracy":4,
+                "speed":4
             } ,
         "sellprice": 800
 
@@ -1708,7 +1819,8 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":16
+                "health":7,
+                "attack":5
             },
         "sellprice": 800
 
@@ -1736,8 +1848,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":12,
-                "reactivity":12
+                "health":15,
+                "attack":3,
+                "strong":5,
+                "speed":4,
+                "reactivity":4
             },
         "sellprice": 800
 
@@ -1769,8 +1884,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":45,
-                "accuracy":12
+                "health":20,
+                "attack":1,
+                "critical":3,
+                "strong":5,
+                "reactivity":4
             } ,
         "sellprice": 800
 
@@ -1794,8 +1912,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":55,
-                "strong":28
+                "health":25,
+                "attack":1,
+                "critical":3,
+                "strong":7
             } ,
         "sellprice": 800
 
@@ -1821,7 +1941,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":12
+                "health":13,
+                "attack":4,
+                "critical":2,
+                "accuracy":4
             },
         "sellprice": 800
 
@@ -1859,8 +1982,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":16,
-                "reactivity":16
+                "health":8,
+                "attack":5,
+                "critical":4,
+                "strong":5,
+                "reactivity":5,
+                "speed":5
             } ,
         "sellprice": 1500
 
@@ -1907,8 +2034,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":46,
-                "accuracy":16
+                "health":13,
+                "attack":3,
+                "critical":5,
+                "accuracy":5,
+                "speed":5
             },
         "sellprice": 1500
 
@@ -1932,7 +2062,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "critical":38
+                "health":6,
+                "attack":4,
+                "critical":11,
+                "reactivity":5
             } ,
         "sellprice": 1500
 
@@ -1958,7 +2091,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":29
+                "accuracy":5,
+                "attack":9,
+                "critical":7
             } ,
         "sellprice": 1500
 
@@ -1996,7 +2131,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":28
+                "health":15,
+                "attack":4,
+                "reactivity":5,
+                "speed":8
             } ,
         "sellprice": 1500
 
@@ -2043,8 +2181,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":84,
-                "accuracy":32
+                "health":23,
+                "attack":3,
+                "strong":5,
+                "accuracy":8,
+                "speed":7
             } ,
         "sellprice": 1500
 
@@ -2068,8 +2209,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "strong":16,
-                "critical":16
+                "health":13,
+                "attack":4,
+                "critical":5,
+                "strong":5,
+                "accuracy":6,
+                "speed":6
             } ,
         "sellprice": 1500
 
@@ -2095,7 +2240,8 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":20
+                "health":9,
+                "attack":6
             } ,
         "sellprice": 1500
 
@@ -2123,8 +2269,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":16,
-                "reactivity":16
+                "health":19,
+                "attack":3,
+                "strong":7,
+                "reactivity":5,
+                "speed":5
             } ,
         "sellprice": 1500
 
@@ -2156,8 +2305,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":60,
-                "accuracy":16
+                "health":25,
+                "attack":2,
+                "critical":3,
+                "strong":7,
+                "reactivity":5
             } ,
         "sellprice": 1500
 
@@ -2188,8 +2340,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":70,
-                "strong":38
+                "health":35,
+                "attack":2,
+                "critical":4,
+                "strong":10
             } ,
         "sellprice": 1500
 
@@ -2215,7 +2369,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":16
+                "health":15,
+                "attack":5,
+                "critical":3,
+                "accuracy":5
             },
         "sellprice": 1500
 
@@ -2252,8 +2409,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":20,
-                "reactivity":20
+                "health":10,
+                "attack":7,
+                "critical":6,
+                "strong":6,
+                "reactivity":6,
+                "speed":6
             },
         "sellprice": 2000
 
@@ -2299,8 +2460,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":57,
-                "accuracy":20
+                "health":17,
+                "attack":4,
+                "critical":5,
+                "accuracy":6,
+                "speed":6
             } ,
         "sellprice": 2000
 
@@ -2323,7 +2487,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "critical":48
+                "health":8,
+                "attack":5,
+                "critical":15,
+                "reactivity":6
             } ,
         "sellprice": 2000
 
@@ -2348,7 +2515,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":36
+                "accuracy":6,
+                "attack":11,
+                "critical":9
             } ,
         "sellprice": 2000
 
@@ -2385,7 +2554,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":36
+                "health":17,
+                "attack":5,
+                "reactivity":7,
+                "speed":11
             } ,
         "sellprice": 2000
 
@@ -2431,8 +2603,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":101,
-                "accuracy":42
+                "health":30,
+                "attack":4,
+                "strong":6,
+                "accuracy":10,
+                "speed":9
             } ,
         "sellprice": 2000
 
@@ -2455,8 +2630,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "strong":20,
-                "critical":20
+                "health":15,
+                "attack":4,
+                "critical":6,
+                "strong":6,
+                "accuracy":8,
+                "speed":8
             } ,
         "sellprice": 2000
 
@@ -2481,7 +2660,8 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":25
+                "health":11,
+                "attack":7
             }  ,
         "sellprice": 2000
 
@@ -2508,8 +2688,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":20,
-                "reactivity":20
+                "health":24 ,
+                "attack":4,
+                "strong":9,
+                "reactivity":6,
+                "speed":6
             },
         "sellprice": 2000
 
@@ -2540,8 +2723,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":80,
-                "accuracy":20
+                "health":32,
+                "attack":2,
+                "critical":4,
+                "strong":9,
+                "reactivity":6
             },
         "sellprice": 2000
 
@@ -2571,8 +2757,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":85,
-                "strong":48
+                "health":43,
+                "attack":3,
+                "critical":6,
+                "strong":12
             },
         "sellprice": 2000
 
@@ -2597,7 +2785,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":20
+                "health":20,
+                "attack":6,
+                "critical":4,
+                "reactivity":6
             } ,
         "sellprice": 2000
 
@@ -2625,8 +2816,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":9,
-            "reactivity":9
+            "health":4,
+            "attack":3,
+            "critical":2,
+            "strong":3,
+            "reactivity":3,
+            "speed":3
         },
         "sellprice": 200
 
@@ -2658,8 +2853,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":22,
-            "accuracy":9
+            "health":8,
+            "attack":1,
+            "critical":3,
+            "accuracy":3,
+            "speed":3
         } ,
         "sellprice": 200
 
@@ -2683,7 +2881,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":20
+            "health":3,
+            "attack":3,
+            "critical":6,
+            "reactivity":3
         }    ,
         "sellprice": 200
 
@@ -2709,7 +2910,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":16
+            "accuracy":3,
+            "attack":6,
+            "critical":3
         } ,
         "sellprice": 200
 
@@ -2737,7 +2940,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":14
+            "health":9,
+            "attack":3,
+            "reactivity":3,
+            "speed":4
         } ,
         "sellprice": 200
 
@@ -2769,8 +2975,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":46,
-            "accuracy":15
+            "health":11,
+            "attack":1,
+            "strong":3,
+            "accuracy":3,
+            "speed":3
         }   ,
         "sellprice": 200
 
@@ -2794,8 +3003,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":9,
-            "critical":9
+            "health":7,
+            "attack":2,
+            "critical":3,
+            "strong":3,
+            "accuracy":3,
+            "speed":3
         },
         "sellprice": 200
 
@@ -2821,7 +3034,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":12
+            "health":4,
+            "attack":4
         },
         "sellprice": 200
 
@@ -2849,8 +3063,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":9,
-            "reactivity":9
+            "health":11,
+            "attack":3,
+            "strong":3,
+            "reactivity":3,
+            "speed":3
         },
         "sellprice": 200
 
@@ -2882,8 +3099,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":32,
-            "accuracy":9
+            "health":14,
+            "critical":2,
+            "strong":3,
+            "reactivity":3
         },
         "sellprice": 200
 
@@ -2907,8 +3126,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":38,
-            "strong":20
+            "health":20,
+            "critical":3,
+            "strong":6
         },
         "sellprice": 200
 
@@ -2934,7 +3154,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":9
+            "health":10,
+            "attack":3,
+            "critical":2,
+            "accuracy":3
         },
         "sellprice": 200
 
@@ -2962,8 +3185,13 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":12,
-            "reactivity":12
+
+            "health":6,
+            "attack":4,
+            "critical":3,
+            "strong":4,
+            "reactivity":4,
+            "speed":4
         },
         "sellprice": 600
 
@@ -2995,8 +3223,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":34,
-            "accuracy":12
+            "health":11,
+            "attack":2,
+            "critical":4,
+            "accuracy":4,
+            "speed":4
         },
         "sellprice": 600
 
@@ -3020,7 +3251,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":28
+            "health":4,
+            "attack":3,
+            "critical":8,
+            "reactivity":4
         },
         "sellprice": 600
 
@@ -3046,7 +3280,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":22
+            "accuracy":4,
+            "attack":7,
+            "critical":5
         },
         "sellprice": 600
 
@@ -3074,7 +3310,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":20
+            "health":13,
+            "attack":4,
+            "reactivity":4,
+            "speed":5
         },
         "sellprice": 600
 
@@ -3106,8 +3345,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":68,
-            "accuracy":22
+            "health":18,
+            "attack":2,
+            "strong":4,
+            "accuracy":5,
+            "speed":4
         },
         "sellprice": 600
 
@@ -3131,8 +3373,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":12,
-            "critical":12
+            "health":10,
+            "attack":3,
+            "critical":4,
+            "strong":4,
+            "accuracy":4,
+            "speed":4
         } ,
         "sellprice": 600
 
@@ -3158,7 +3404,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":16
+            "health":7,
+            "attack":5
         },
         "sellprice": 600
 
@@ -3186,8 +3433,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":12,
-            "reactivity":12
+            "health":15,
+            "attack":3,
+            "strong":5,
+            "speed":4,
+            "reactivity":4
         },
         "sellprice": 600
 
@@ -3219,8 +3469,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":45,
-            "accuracy":12
+            "health":20,
+            "attack":1,
+            "critical":3,
+            "strong":5,
+            "reactivity":4
         },
         "sellprice": 600
 
@@ -3244,8 +3497,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":55,
-            "strong":28
+            "health":25,
+            "attack":1,
+            "critical":3,
+            "strong":7
         } ,
         "sellprice": 600
 
@@ -3271,8 +3526,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":12
-        } ,
+            "health":13,
+            "attack":4,
+            "critical":2,
+            "accuracy":4
+         } ,
         "sellprice": 600
 
     },
@@ -3299,8 +3557,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":16,
-            "reactivity":16
+            "health":8,
+            "attack":5,
+            "critical":4,
+            "strong":5,
+            "reactivity":5,
+            "speed":5
         } ,
         "sellprice": 1200
 
@@ -3332,8 +3594,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":46,
-            "accuracy":16
+            "health":13,
+            "attack":3,
+            "critical":5,
+            "accuracy":5,
+            "speed":5
         },
         "sellprice": 1200
 
@@ -3357,7 +3622,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":38
+            "health":6,
+            "attack":4,
+            "critical":11,
+            "reactivity":5
         } ,
         "sellprice": 1200
 
@@ -3383,7 +3651,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":29
+            "accuracy":5,
+            "attack":9,
+            "critical":7
         },
         "sellprice": 1200
 
@@ -3411,7 +3681,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":28
+            "health":15,
+            "attack":4,
+            "reactivity":5,
+            "speed":8
         },
         "sellprice": 1200
 
@@ -3443,8 +3716,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":84,
-            "accuracy":32
+            "health":23,
+            "attack":3,
+            "strong":5,
+            "accuracy":8,
+            "speed":7
         },
         "sellprice": 1200
 
@@ -3468,8 +3744,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":16,
-            "critical":16
+            "health":13,
+            "attack":4,
+            "critical":5,
+            "strong":5,
+            "accuracy":6,
+            "speed":6
         } ,
         "sellprice": 1200
 
@@ -3495,7 +3775,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":20
+            "health":9,
+            "attack":6
         },
         "sellprice": 1200
 
@@ -3523,8 +3804,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":16,
-            "reactivity":16
+            "health":19,
+            "attack":3,
+            "strong":7,
+            "speed":5,
+            "reactivity":5
         } ,
         "sellprice": 1200
 
@@ -3556,8 +3840,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":60,
-            "accuracy":16
+            "health":25,
+            "attack":2,
+            "critical":3,
+            "strong":7,
+            "reactivity":5
         },
         "sellprice": 1200
 
@@ -3581,8 +3868,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":70,
-            "strong":38
+            "health":35,
+            "attack":2,
+            "critical":4,
+            "strong":10
         },
         "sellprice": 1200
 
@@ -3608,7 +3897,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":16
+            "health":15,
+            "attack":5,
+            "critical":3,
+            "accuracy":5
         },
         "sellprice": 1200
 
@@ -3646,8 +3938,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":20,
-            "reactivity":20
+            "health":10,
+            "attack":7,
+            "critical":6,
+            "strong":6,
+            "reactivity":6,
+            "speed":6
         },
         "sellprice": 1800
 
@@ -3694,8 +3990,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":57,
-            "accuracy":20
+            "health":17,
+            "attack":4,
+            "critical":5,
+            "accuracy":6,
+            "speed":6
         },
         "sellprice": 1800
 
@@ -3719,7 +4018,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":48
+            "health":8,
+            "attack":5,
+            "critical":15,
+            "reactivity":6
         } ,
         "sellprice": 1800
 
@@ -3745,7 +4047,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":36
+            "accuracy":6,
+            "attack":11,
+            "critical":9
         } ,
         "sellprice": 1800
 
@@ -3783,7 +4087,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":36
+            "health":17,
+            "attack":5,
+            "reactivity":7,
+            "speed":11
         } ,
         "sellprice": 1800
 
@@ -3830,8 +4137,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":101,
-            "accuracy":42
+            "health":30,
+            "attack":4,
+            "strong":6,
+            "accuracy":10,
+            "speed":9
         } ,
         "sellprice": 1800
 
@@ -3855,8 +4165,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":20,
-            "critical":20
+            "health":15,
+            "attack":4,
+            "critical":6,
+            "strong":6,
+            "accuracy":8,
+            "speed":8
         } ,
         "sellprice": 1800
 
@@ -3882,7 +4196,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":25
+            "health":11,
+            "attack":7
         } ,
         "sellprice": 1800
 
@@ -3910,8 +4225,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":20,
-            "reactivity":20
+            "health":24,
+            "attack":4,
+            "strong":9,
+            "speed":6,
+            "reactivity":6
         },
         "sellprice": 1800
 
@@ -3943,8 +4261,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":80,
-            "accuracy":20
+            "health":32,
+            "attack":2,
+            "critical":4,
+            "strong":9,
+            "reactivity":6
         } ,
         "sellprice": 1800
 
@@ -3975,8 +4296,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":85,
-            "strong":48
+            "health":43,
+            "attack":3,
+            "critical":6,
+            "strong":12
         },
         "sellprice": 1800
 
@@ -4002,7 +4325,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":20
+            "health":20,
+            "attack":6,
+            "critical":4,
+            "accuracy":6
         },
         "sellprice": 1800
 
@@ -4040,8 +4366,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":24,
-            "reactivity":24
+            "health":13,
+            "attack":8,
+            "critical":8,
+            "strong":7,
+            "reactivity":8,
+            "speed":8
         } ,
         "sellprice": 2500
 
@@ -4088,8 +4418,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":74,
-            "accuracy":24
+            "health":22,
+            "attack":5,
+            "critical":7,
+            "accuracy":8,
+            "speed":7
         } ,
         "sellprice": 2500
 
@@ -4139,7 +4472,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":44
+            "health":10,
+            "attack":6,
+            "critical":18,
+            "reactivity":7
         } ,
         "sellprice": 2500
 
@@ -4177,7 +4513,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":46
+            "health":19,
+            "attack":6,
+            "reactivity":8,
+            "speed":14
         }  ,
         "sellprice": 2500
 
@@ -4224,8 +4563,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":126,
-            "accuracy":54
+            "health":37,
+            "attack":5,
+            "strong":8,
+            "accuracy":12,
+            "speed":11
         }  ,
         "sellprice": 2500
 
@@ -4249,8 +4591,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":24,
-            "critical":24
+            "health":19,
+            "attack":4,
+            "critical":7,
+            "strong":7,
+            "accuracy":10,
+            "speed":10
         } ,
         "sellprice": 2500
 
@@ -4276,7 +4622,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":30
+            "health":14,
+            "attack":8
         }  ,
         "sellprice": 2500
 
@@ -4304,8 +4651,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":24,
-            "reactivity":24
+            "health":30,
+            "attack":5,
+            "strong":10,
+            "speed":7,
+            "reactivity":8
         }   ,
         "sellprice": 2500
 
@@ -4337,8 +4687,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":90,
-            "accuracy":24
+            "health":37,
+            "attack":3,
+            "critical":5,
+            "strong":11,
+           "reactivity":7
         } ,
         "sellprice": 2500
 
@@ -4369,8 +4722,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":110,
-            "strong":60
+            "health":50,
+            "attack":3,
+            "critical":7,
+            "strong":16
         } ,
         "sellprice": 2500
 
@@ -4396,7 +4751,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":24
+            "health":25,
+            "attack":8,
+            "critical":4,
+            "reactivity":7
         } ,
         "sellprice": 2500
 
@@ -4433,8 +4791,13 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":29,
-                "reactivity":29
+
+                "health":16,
+                "attack":10,
+                "critical":9,
+                "strong":8,
+                "reactivity":9,
+                "speed":9
             }  ,
         "sellprice": 3000
 
@@ -4480,8 +4843,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":90,
-                "accuracy":29
+
+                "health":28,
+                "attack":6,
+                "critical":9,
+                "accuracy":10,
+                "speed":8
             } ,
         "sellprice": 3000
 
@@ -4504,7 +4871,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "critical":72
+                "health":13,
+                "attack":8,
+                "critical":21,
+                "reactivity":8
             },
         "sellprice": 3000
 
@@ -4529,7 +4899,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":52
+                "accuracy":8,
+                "attack":15,
+                "critical":14
             },
         "sellprice": 3000
 
@@ -4566,7 +4938,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":56
+                "health":23,
+                "attack":7,
+                "reactivity":10,
+                "speed":17
             } ,
         "sellprice": 3000
 
@@ -4612,8 +4987,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":152,
-                "accuracy":66
+                "health":43,
+                "attack":6,
+                "strong":10,
+                "accuracy":15,
+                "speed":13
             },
         "sellprice": 3000
 
@@ -4636,8 +5014,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "strong":29,
-                "critical":29
+                "health":23,
+                "attack":5,
+                "critical":8,
+                "strong":8,
+                "accuracy":12,
+                "speed":12
             },
         "sellprice": 3000
 
@@ -4662,7 +5044,8 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":35
+                "health":17,
+                "attack":9
             },
         "sellprice": 3000
 
@@ -4689,8 +5072,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":29,
-                "reactivity":29
+                "health":37,
+                "attack":5,
+                "strong":12,
+                "speed":8,
+                "reactivity":10
             },
         "sellprice": 3000
 
@@ -4721,8 +5107,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":115,
-                "accuracy":29
+                "health":42,
+                "attack":4,
+                "critical":6,
+                "strong":13,
+                "reactivity":8
             },
         "sellprice": 3000
 
@@ -4752,8 +5141,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":125,
-                "strong":72
+                "health":57,
+                "attack":3,
+                "critical":8,
+                "strong":22
             },
         "sellprice": 3000
 
@@ -4778,7 +5169,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":29
+                "health":32,
+                "attack":10,
+                "critical":5,
+                "accuracy":8
             },
         "sellprice": 3000
 
@@ -4806,8 +5200,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":16,
-            "reactivity":16
+            "health":8,
+            "attack":5,
+            "critical":4,
+            "strong":5,
+            "reactivity":5,
+            "speed":5
         },
         "sellprice": 800
 
@@ -4839,8 +5237,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":46,
-            "accuracy":16
+            "health":13,
+            "attack":3,
+            "critical":5,
+            "accuracy":5,
+            "speed":5
         },
         "sellprice": 800
 
@@ -4864,7 +5265,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":38
+
+            "health":6,
+            "attack":4,
+            "critical":11,
+            "reactivity":5
         },
         "sellprice": 800
 
@@ -4890,7 +5295,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":29
+            "accuracy":5,
+            "attack":9,
+            "critical":7
         },
         "sellprice": 800
 
@@ -4918,7 +5325,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":28
+            "health":15,
+            "attack":4,
+            "reactivity":5,
+            "speed":8
         },
         "sellprice": 800
 
@@ -4950,8 +5360,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":84,
-            "accuracy":32
+            "health":23,
+            "attack":3,
+            "strong":5,
+            "accuracy":8,
+            "speed":7
         },
         "sellprice": 800
 
@@ -4975,8 +5388,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":16,
-            "critical":16
+            "health":13,
+            "attack":4,
+            "critical":5,
+            "strong":5,
+            "accuracy":6,
+            "speed":6
         },
         "sellprice": 800
 
@@ -5002,7 +5419,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":20
+            "health":9,
+            "attack":6
         },
         "sellprice": 800
 
@@ -5030,8 +5448,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":16,
-            "reactivity":16
+            "health":19,
+            "attack":3,
+            "strong":7,
+            "speed":5,
+            "reactivity":5
         },
         "sellprice": 800
 
@@ -5063,8 +5484,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":60,
-            "accuracy":16
+            "health":25,
+            "attack":2,
+            "critical":3,
+            "strong":7,
+            "reactivity":5
         },
         "sellprice": 800
 
@@ -5088,8 +5512,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":70,
-            "strong":38
+            "health":35,
+            "attack":2,
+            "critical":4,
+            "strong":10
         },
         "sellprice": 800
 
@@ -5115,7 +5541,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":16
+            "health":15,
+            "attack":5,
+            "critical":3,
+            "accuracy":5
         },
         "sellprice": 800
 
@@ -5143,8 +5572,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":20,
-            "reactivity":20
+            "health":10,
+            "attack":7,
+            "critical":6,
+            "strong":6,
+            "reactivity":6,
+            "speed":6
         },
         "sellprice": 1500
 
@@ -5176,8 +5609,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":57,
-            "accuracy":20
+            "health":17,
+            "attack":4,
+            "critical":5,
+            "accuracy":6,
+            "speed":6
         },
         "sellprice": 1500
 
@@ -5201,7 +5637,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":48
+            "health":8,
+            "attack":5,
+            "critical":15,
+            "reactivity":6
         },
         "sellprice": 1500
 
@@ -5227,7 +5666,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":36
+            "accuracy":6,
+            "attack":11,
+            "critical":9
         },
         "sellprice": 1500
 
@@ -5255,7 +5696,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":36
+            "health":17,
+            "attack":5,
+            "reactivity":7,
+            "speed":11
         },
         "sellprice": 1500
 
@@ -5287,8 +5731,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":101,
-            "accuracy":42
+            "health":30,
+            "attack":4,
+            "strong":6,
+            "accuracy":10,
+            "speed":9
         },
         "sellprice": 1500
 
@@ -5312,8 +5759,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":20,
-            "critical":20
+            "health":15,
+            "attack":4,
+            "critical":6,
+            "strong":6,
+            "accuracy":8,
+            "speed":8
         },
         "sellprice": 1500
 
@@ -5339,7 +5790,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":25
+            "health":11,
+            "attack":7
         },
         "sellprice": 1500
 
@@ -5367,8 +5819,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":20,
-            "reactivity":20
+            "health":24,
+            "attack":4,
+            "strong":9,
+            "speed":6,
+            "reactivity":6
         },
         "sellprice": 1500
 
@@ -5400,8 +5855,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":80,
-            "accuracy":20
+            "health":32,
+            "attack":2,
+            "critical":4,
+            "strong":9,
+            "reactivity":6
         },
         "sellprice": 1500
 
@@ -5425,8 +5883,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":85,
-            "strong":48
+            "health":43,
+            "attack":3,
+            "critical":6,
+            "strong":12
         },
         "sellprice": 1500
 
@@ -5452,7 +5912,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":20
+            "health":20,
+            "attack":6,
+            "critical":4,
+            "accuracy":6
         },
         "sellprice": 1500
 
@@ -5490,8 +5953,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":24,
-            "reactivity":24
+            "health":13,
+            "attack":8,
+            "critical":8,
+            "strong":7,
+            "reactivity":8,
+            "speed":8
         },
         "sellprice": 2000
 
@@ -5538,8 +6005,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":74,
-            "accuracy":24
+            "health":22,
+            "attack":5,
+            "critical":7,
+            "accuracy":8,
+            "speed":7
         },
         "sellprice": 2000
 
@@ -5563,7 +6033,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":60
+            "health":10,
+            "attack":6,
+            "critical":18,
+            "reactivity":7
         },
         "sellprice": 2000
 
@@ -5589,7 +6062,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":44
+            "accuracy":7,
+            "attack":13,
+            "critical":11
         },
         "sellprice": 2000
 
@@ -5627,7 +6102,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":46
+            "health":19,
+            "attack":6,
+            "reactivity":8,
+            "speed":14
         },
         "sellprice": 2000
 
@@ -5674,8 +6152,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":126,
-            "accuracy":54
+            "health":37,
+            "attack":5,
+            "strong":8,
+            "accuracy":12,
+            "speed":11
         },
         "sellprice": 2000
 
@@ -5699,8 +6180,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":24,
-            "critical":24
+            "health":19,
+            "attack":4,
+            "critical":7,
+            "strong":7,
+            "accuracy":10,
+            "speed":10
         },
         "sellprice": 2000
 
@@ -5726,7 +6211,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":30
+            "health":14,
+            "attack":8
         },
         "sellprice": 2000
 
@@ -5754,8 +6240,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":24,
-            "reactivity":24
+            "health":30,
+            "attack":5,
+            "strong":10,
+            "speed":7,
+            "reactivity":8
         },
         "sellprice": 2000
 
@@ -5787,8 +6276,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":90,
-            "accuracy":24
+            "health":37,
+            "attack":3,
+            "critical":5,
+            "strong":11,
+            "reactivity":7
         },
         "sellprice": 2000
 
@@ -5819,8 +6311,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":110,
-            "strong":60
+            "health":50,
+            "attack":3,
+            "critical":7,
+            "strong":16
         },
         "sellprice": 2000
 
@@ -5846,7 +6340,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":24
+            "health":25,
+            "attack":8,
+            "critical":4,
+            "reactivity":7
         },
         "sellprice": 2000
 
@@ -5884,8 +6381,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":29,
-            "reactivity":29
+            "health":16,
+            "attack":10,
+            "critical":9,
+            "strong":8,
+            "reactivity":9,
+            "speed":9
         },
         "sellprice": 2800
 
@@ -5932,8 +6433,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":90,
-            "accuracy":29
+            "health":28,
+            "attack":6,
+            "critical":9,
+            "accuracy":10,
+            "speed":8
         },
         "sellprice": 2800
 
@@ -5957,7 +6461,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":72
+            "health":13,
+            "attack":8,
+            "critical":21,
+            "reactivity":8
         },
         "sellprice": 2800
 
@@ -5983,7 +6490,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":52
+            "accuracy":8,
+            "attack":15,
+            "critical":14
         },
         "sellprice": 2800
 
@@ -6021,7 +6530,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":56
+            "health":23,
+            "attack":7,
+            "reactivity":10,
+            "speed":17
         },
         "sellprice": 2800
 
@@ -6068,8 +6580,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":152,
-            "accuracy":66
+            "health":43,
+            "attack":6,
+            "strong":10,
+            "accuracy":15,
+            "speed":13
         },
         "sellprice": 2800
 
@@ -6093,8 +6608,13 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":29,
-            "critical":29
+
+            "health":23,
+            "attack":5,
+            "critical":8,
+            "strong":8,
+            "accuracy":12,
+            "speed":12
         },
         "sellprice": 2800
 
@@ -6120,7 +6640,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":35
+            "health":17,
+            "attack":9
         },
         "sellprice": 2800
 
@@ -6148,8 +6669,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":29,
-            "reactivity":29
+            "health":37,
+            "attack":5,
+            "strong":12,
+            "speed":8,
+            "reactivity":10
         },
         "sellprice": 2800
 
@@ -6181,8 +6705,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":115,
-            "accuracy":29
+            "health":42,
+            "attack":4,
+            "critical":6,
+            "strong":13,
+            "reactivity":8
         },
         "sellprice": 2800
 
@@ -6213,8 +6740,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":125,
-            "strong":72
+            "health":57,
+            "attack":3,
+            "critical":8,
+            "strong":22
         },
         "sellprice": 2800
 
@@ -6240,7 +6769,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":29
+            "health":32,
+            "attack":10,
+            "critical":5,
+            "accuracy":8
         },
         "sellprice": 2800
 
@@ -6278,8 +6810,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":34,
-            "reactivity":34
+            "health":19,
+            "attack":12,
+            "critical":11,
+            "strong":10,
+            "reactivity":11,
+            "speed":11
         },
         "sellprice": 3300
 
@@ -6326,8 +6862,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":106,
-            "accuracy":34
+            "health":33,
+            "attack":7,
+            "critical":11,
+            "accuracy":11,
+            "speed":10
         },
         "sellprice": 3300
 
@@ -6351,7 +6890,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":86
+            "health":15,
+            "attack":9,
+            "critical":25,
+            "reactivity":10
         },
         "sellprice": 3300
 
@@ -6377,7 +6919,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":61
+            "accuracy":10,
+            "attack":17,
+            "critical":15
         },
         "sellprice": 3300
 
@@ -6415,7 +6959,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":68
+            "health":27,
+            "attack":8,
+            "reactivity":11,
+            "speed":21
         },
         "sellprice": 3300
 
@@ -6462,8 +7009,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":172,
-            "accuracy":80
+            "health":49,
+            "attack":7,
+            "strong":12,
+            "accuracy":18,
+            "speed":16
         },
         "sellprice": 3300
 
@@ -6487,8 +7037,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":34,
-            "critical":34
+            "health":25,
+            "attack":6,
+            "critical":9,
+            "strong":9,
+            "accuracy":15,
+            "speed":15
         },
         "sellprice": 3300
 
@@ -6514,7 +7068,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":40
+            "health":19,
+            "attack":10
         },
         "sellprice": 3300
 
@@ -6542,8 +7097,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":34,
-            "reactivity":34
+            "health":42,
+            "attack":6,
+            "strong":13,
+            "speed":9,
+            "reactivity":12
         },
         "sellprice": 3300
 
@@ -6575,8 +7133,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":130,
-            "accuracy":34
+            "health":48,
+            "attack":5,
+            "critical":7,
+            "strong":15,
+            "reactivity":10
         },
         "sellprice": 3300
 
@@ -6607,8 +7168,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":150,
-            "strong":86
+            "health":67,
+            "attack":4,
+            "critical":9,
+            "strong":30
         },
         "sellprice": 3300
 
@@ -6634,7 +7197,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":34
+            "health":38,
+            "attack":11,
+            "critical":6,
+             "accuracy":10
         },
         "sellprice": 3300
 
@@ -6671,8 +7237,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":39,
-                "reactivity":39
+                "health":23,
+                "attack":13,
+                "critical":13,
+                "strong":11,
+                "reactivity":13,
+                "speed":13
             },
         "sellprice": 3800
 
@@ -6718,8 +7288,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":127,
-                "accuracy":39
+                "health":39,
+                "attack":9,
+                "critical":13,
+                "accuracy":13,
+                "speed":11
             },
         "sellprice": 3800
 
@@ -6742,7 +7315,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "critical":100
+                "health":18,
+                "attack":11,
+                "critical":28,
+                "reactivity":11
             },
         "sellprice": 3800
 
@@ -6767,7 +7343,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":70
+                "accuracy":11,
+                "attack":19,
+                "critical":17
             },
         "sellprice": 3800
 
@@ -6804,7 +7382,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":80
+                "health":34,
+                "attack":9,
+                "reactivity":12,
+                "speed":24
             },
         "sellprice": 3800
 
@@ -6850,8 +7431,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":201,
-                "accuracy":94
+                "health":54,
+                "attack":8,
+                "strong":14,
+                "accuracy":21,
+                "speed":19
             },
         "sellprice": 3800
 
@@ -6874,8 +7458,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "strong":39,
-                "critical":39
+                "health":30,
+                "attack":7,
+                "critical":10,
+                "strong":10,
+                "accuracy":17,
+                "speed":17
             },
         "sellprice": 3800
 
@@ -6900,7 +7488,8 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":46
+                "health":22,
+                "attack":11
             },
         "sellprice": 3800
 
@@ -6927,8 +7516,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":39,
-                "reactivity":39
+                "health":50,
+                "attack":7,
+                "strong":15,
+                "speed":11,
+                "reactivity":13
             },
         "sellprice": 3800
 
@@ -6959,8 +7551,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":150,
-                "accuracy":39
+                "health":57,
+                "attack":5,
+                "critical":8,
+                "strong":19,
+                "reactivity":12
             },
         "sellprice": 3800
 
@@ -6983,8 +7578,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":175,
-                "strong":100
+                "health":80,
+                "attack":5,
+                "critical":10,
+                "strong":35
             },
         "sellprice": 3800
 
@@ -7009,7 +7606,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":39
+                "health":44,
+                "attack":13,
+                "critical":7,
+                "accuracy":11
             },
         "sellprice": 3800
 
@@ -7037,8 +7637,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":24,
-            "reactivity":24
+            "health":13,
+            "attack":8,
+            "critical":8,
+            "strong":7,
+            "reactivity":8,
+            "speed":8
         },
         "sellprice": 1800
 
@@ -7070,8 +7674,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":74,
-            "accuracy":24
+            "health":22,
+            "attack":5,
+            "critical":7,
+            "accuracy":8,
+            "speed":7
         },
         "sellprice": 1800
 
@@ -7095,7 +7702,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":60
+            "health":10,
+            "attack":6,
+            "critical":18,
+            "reactivity":7
         },
         "sellprice": 1800
 
@@ -7121,7 +7731,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":44
+            "accuracy":7,
+            "attack":13,
+            "critical":11
         },
         "sellprice": 1800
 
@@ -7149,7 +7761,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":46
+            "health":19,
+            "attack":6,
+            "reactivity":8,
+            "speed":14
         },
         "sellprice": 1800
 
@@ -7181,8 +7796,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":126,
-            "accuracy":54
+
+            "health":37,
+            "attack":5,
+            "strong":8,
+            "accuracy":12,
+            "speed":11
         },
         "sellprice": 1800
 
@@ -7206,8 +7825,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":24,
-            "critical":24
+            "health":19,
+            "attack":4,
+            "critical":7,
+            "strong":7,
+            "accuracy":10,
+            "speed":10
         },
         "sellprice": 1800
 
@@ -7233,7 +7856,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":30
+            "health":14,
+            "attack":8
         },
         "sellprice": 1800
 
@@ -7261,8 +7885,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":24,
-            "reactivity":24
+
+            "health":30,
+            "attack":5,
+            "strong":10,
+            "speed":7,
+            "reactivity":8
         },
         "sellprice": 1800
 
@@ -7294,8 +7922,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":90,
-            "accuracy":24
+            "health":37,
+            "attack":3,
+            "critical":5,
+            "strong":11,
+            "reactivity":7
         },
         "sellprice": 1800
 
@@ -7319,8 +7950,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":110,
-            "strong":60
+            "health":50,
+            "attack":3,
+            "critical":7,
+            "strong":16
         },
         "sellprice": 1800
 
@@ -7346,7 +7979,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":24
+            "health":25,
+            "attack":8,
+            "critical":4,
+            "reactivity":7
         },
         "sellprice": 1800
 
@@ -7384,8 +8020,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":29,
-            "reactivity":29
+            "health":16,
+            "attack":10,
+            "critical":9,
+            "strong":8,
+            "reactivity":9,
+            "speed":9
         },
         "sellprice": 2300
 
@@ -7432,8 +8072,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":90,
-            "accuracy":29
+            "health":28,
+            "attack":6,
+            "critical":9,
+            "accuracy":10,
+            "speed":8
         },
         "sellprice": 2300
 
@@ -7457,7 +8100,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":72
+            "health":13,
+            "attack":8,
+            "critical":21,
+            "reactivity":8
         }
 
     },
@@ -7482,7 +8128,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":52
+            "accuracy":8,
+            "attack":15,
+            "critical":14
         },
         "sellprice": 2300
 
@@ -7520,7 +8168,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":56
+
+            "health":23,
+            "attack":7,
+            "reactivity":10,
+            "speed":17
         },
         "sellprice": 2300
 
@@ -7567,8 +8219,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":152,
-            "accuracy":66
+            "health":43,
+            "attack":6,
+            "strong":10,
+            "accuracy":15,
+            "speed":13
         },
         "sellprice": 2300
 
@@ -7592,8 +8247,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":29,
-            "critical":29
+            "health":23,
+            "attack":5,
+            "critical":8,
+            "strong":8,
+            "accuracy":12,
+            "speed":12
         },
         "sellprice": 2300
 
@@ -7619,7 +8278,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":35
+
+            "health":17,
+            "attack":9
         },
         "sellprice": 2300
 
@@ -7647,8 +8308,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":29,
-            "reactivity":29
+            "health":37,
+            "attack":5,
+            "strong":12,
+            "speed":8,
+            "reactivity":10
         },
         "sellprice": 2300
 
@@ -7680,8 +8344,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":115,
-            "accuracy":29
+            "health":42,
+            "attack":4,
+            "critical":6,
+            "strong":13,
+            "reactivity":8
         },
         "sellprice": 2300
 
@@ -7712,8 +8379,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":125,
-            "strong":72
+            "health":57,
+            "attack":3,
+            "critical":8,
+            "strong":22
         },
         "sellprice": 2300
 
@@ -7739,7 +8408,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":29
+            "health":32,
+            "attack":10,
+            "critical":5,
+            "accuracy":8
         },
         "sellprice": 2300
 
@@ -7777,8 +8449,13 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":34,
-            "reactivity":34
+
+            "health":19,
+            "attack":12,
+            "critical":11,
+            "strong":10,
+            "reactivity":11,
+            "speed":11
         },
         "sellprice": 3000
 
@@ -7825,8 +8502,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":106,
-            "accuracy":34
+            "health":33,
+            "attack":7,
+            "critical":11,
+            "accuracy":11,
+            "speed":10
         },
         "sellprice": 3000
 
@@ -7850,7 +8530,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":86
+            "health":15,
+            "attack":9,
+            "critical":25,
+            "reactivity":10
         },
         "sellprice": 3000
 
@@ -7876,7 +8559,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":61
+
+            "accuracy":10,
+            "attack":17,
+            "critical":15
         },
         "sellprice": 3000
 
@@ -7914,7 +8600,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":68
+
+            "health":27,
+            "attack":8,
+            "reactivity":11,
+            "speed":21
         },
         "sellprice": 3000
 
@@ -7961,8 +8651,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":172,
-            "accuracy":80
+            "health":49,
+            "attack":7,
+            "strong":12,
+            "accuracy":18,
+            "speed":16
         },
         "sellprice": 3000
 
@@ -7986,8 +8679,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":34,
-            "critical":34
+            "health":25,
+            "attack":6,
+            "critical":9,
+            "strong":9,
+            "accuracy":15,
+            "speed":15
         },
         "sellprice": 3000
 
@@ -8013,7 +8710,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":40
+            "health":19,
+            "attack":10
         },
         "sellprice": 3000
 
@@ -8041,8 +8739,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":34,
-            "reactivity":34
+            "health":42,
+            "attack":6,
+            "strong":13,
+            "speed":9,
+            "reactivity":12
         },
         "sellprice": 3000
 
@@ -8074,8 +8775,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":130,
-            "accuracy":34
+            "health":48,
+            "attack":5,
+            "critical":7,
+            "strong":15,
+            "reactivity":10
         },
         "sellprice": 3000
 
@@ -8106,8 +8810,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":150,
-            "strong":86
+            "health":67,
+            "attack":4,
+            "critical":9,
+            "strong":30
         },
         "sellprice": 3000
 
@@ -8133,7 +8839,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":34
+            "health":38,
+            "attack":11,
+            "critical":6,
+            "accuracy":10
         },
         "sellprice": 3000
 
@@ -8171,8 +8880,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":39,
-            "reactivity":39
+            "health":23,
+            "attack":13,
+            "critical":13,
+            "strong":11,
+            "reactivity":13,
+            "speed":13
         },
         "sellprice": 3500
 
@@ -8219,8 +8932,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":127,
-            "accuracy":39
+            "health":39,
+            "attack":9,
+            "critical":13,
+            "accuracy":13,
+            "speed":11
         },
         "sellprice": 3500
 
@@ -8244,7 +8960,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":100
+            "health":18,
+            "attack":11,
+            "critical":28,
+            "reactivity":11
         },
         "sellprice": 3500
 
@@ -8270,7 +8989,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":70
+
+            "accuracy":11,
+            "attack":19,
+            "critical":17
         },
         "sellprice": 3500
 
@@ -8308,7 +9030,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":80
+            "health":34,
+            "attack":9,
+            "reactivity":12,
+            "speed":24
         },
         "sellprice": 3500
 
@@ -8355,8 +9080,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":201,
-            "accuracy":94
+            "health":54,
+            "attack":8,
+            "strong":14,
+            "accuracy":21,
+            "speed":19
         },
         "sellprice": 3500
 
@@ -8380,8 +9108,13 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":39,
-            "critical":39
+
+            "health":30,
+            "attack":7,
+            "critical":10,
+            "strong":10,
+            "accuracy":17,
+            "speed":17
         },
         "sellprice": 3500
 
@@ -8407,7 +9140,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":46
+            "health":22,
+            "attack":11
         },
         "sellprice": 3500
 
@@ -8435,8 +9169,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":39,
-            "reactivity":39
+            "health":50,
+            "attack":7,
+            "strong":15,
+            "speed":11,
+            "reactivity":13
         },
         "sellprice": 3500
 
@@ -8468,8 +9205,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":150,
-            "accuracy":39
+            "health":57,
+            "attack":5,
+            "critical":8,
+            "strong":19,
+            "reactivity":12
         },
         "sellprice": 3500
 
@@ -8500,8 +9240,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":175,
-            "strong":100
+            "health":80,
+            "attack":5,
+            "critical":10,
+            "strong":35
         },
         "sellprice": 3500
 
@@ -8527,7 +9269,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":39
+            "health":44,
+            "attack":13,
+            "critical":7,
+            "accuracy":11
         },
         "sellprice": 3500
 
@@ -8565,8 +9310,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":45,
-            "reactivity":45
+            "health":26,
+            "attack":15,
+            "critical":15,
+            "strong":13,
+            "reactivity":14,
+            "speed":14
         },
         "sellprice": 4000
 
@@ -8613,8 +9362,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":148,
-            "accuracy":45
+            "health":48,
+            "attack":11,
+            "critical":15,
+            "accuracy":14,
+            "speed":13
         } ,
         "sellprice": 4000
 
@@ -8638,7 +9390,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":116
+            "health":21,
+            "attack":12,
+            "critical":33,
+            "reactivity":13
         } ,
         "sellprice": 4000
 
@@ -8664,7 +9419,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":80
+            "accuracy":13,
+            "attack":22,
+            "critical":20
         },
         "sellprice": 4000
 
@@ -8702,7 +9459,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":94
+            "health":38,
+            "attack":10,
+            "reactivity":14,
+            "speed":27
         },
         "sellprice": 4000
 
@@ -8749,8 +9509,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":230,
-            "accuracy":110
+            "health":60,
+            "attack":9,
+            "strong":16,
+            "accuracy":25,
+            "speed":22
         },
         "sellprice": 4000
 
@@ -8774,8 +9537,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":45,
-            "critical":45
+            "health":35,
+            "attack":8,
+            "critical":12,
+            "strong":12,
+            "accuracy":21,
+            "speed":20
         },
         "sellprice": 4000
 
@@ -8801,7 +9568,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":52
+            "health":27,
+            "attack":12
         },
         "sellprice": 4000
 
@@ -8829,8 +9597,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":45,
-            "reactivity":45
+            "health":57,
+            "attack":8,
+            "strong":19,
+            "speed":14,
+            "reactivity":15
         },
         "sellprice": 4000
 
@@ -8862,8 +9633,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":170,
-            "accuracy":45
+            "health":67,
+            "attack":6,
+            "critical":9,
+            "strong":22,
+            "reactivity":14
         },
         "sellprice": 4000
 
@@ -8887,8 +9661,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":200,
-            "strong":116
+            "health":85,
+            "attack":6,
+            "critical":12,
+            "strong":40
         },
         "sellprice": 4000
 
@@ -8914,7 +9690,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":45
+            "health":49,
+            "attack":14,
+            "critical":8,
+            "accuracy":13
         },
         "sellprice": 4000
 
@@ -8951,8 +9730,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":51,
-                "reactivity":51
+                "health":28,
+                "attack":17,
+                "critical":17,
+                "strong":14,
+                "reactivity":17,
+                "speed":17
             },
         "sellprice": 4400
 
@@ -8998,8 +9781,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":168,
-                "accuracy":51
+                "health":57,
+                "attack":12,
+                "critical":16,
+                "accuracy":17,
+                "speed":14
             },
         "sellprice": 4400
 
@@ -9022,7 +9808,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "critical":132
+                "health":25,
+                "attack":13,
+                "critical":39,
+                "reactivity":14
             },
         "sellprice": 4400
 
@@ -9047,7 +9836,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":90
+                "accuracy":14,
+                "attack":25,
+                "critical":24
             },
         "sellprice": 4400
 
@@ -9084,7 +9875,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":108
+                "health":43,
+                "attack":11,
+                "reactivity":16,
+                "speed":32
             },
         "sellprice": 4400
 
@@ -9130,8 +9924,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":260,
-                "accuracy":126
+                "health":67,
+                "attack":10,
+                "strong":18,
+                "accuracy":30,
+                "speed":26
             },
         "sellprice": 4400
 
@@ -9154,8 +9951,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "strong":51,
-                "critical":51
+                "health":39,
+                "attack":9,
+                "critical":14,
+                "strong":14,
+                "accuracy":25,
+                "speed":23
             },
         "sellprice": 4400
 
@@ -9180,7 +9981,8 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":58
+                "health":33,
+                "attack":13
             },
         "sellprice": 4400
 
@@ -9207,8 +10009,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":51,
-                "reactivity":51
+                "health":67,
+                "attack":9,
+                "strong":21,
+                "speed":15,
+                "reactivity":17
             },
         "sellprice": 4400
 
@@ -9239,8 +10044,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":185,
-                "accuracy":51
+                "health":76,
+                "attack":7,
+                "critical":10,
+                "strong":26,
+                "reactivity":15
             },
         "sellprice": 4400
 
@@ -9263,8 +10071,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":235,
-                "strong":132
+                "health":95,
+                "attack":7,
+                "critical":13,
+                "strong":46
             },
         "sellprice": 4400
 
@@ -9289,7 +10099,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":51
+                "health":56,
+                "attack":15,
+                "critical":9,
+                "accuracy":14
             },
         "sellprice": 4400
 
@@ -9327,8 +10140,13 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":34,
-            "reactivity":34
+
+            "health":19,
+            "attack":12,
+            "critical":11,
+            "strong":10,
+            "reactivity":11,
+            "speed":11
         },
         "sellprice": 2500
 
@@ -9375,8 +10193,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":106,
-            "accuracy":34
+            "health":33,
+            "attack":7,
+            "critical":11,
+            "accuracy":11,
+            "speed":10
         } ,
         "sellprice": 2500
 
@@ -9400,7 +10221,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":86
+            "health":15,
+            "attack":9,
+            "critical":25,
+            "reactivity":10
         },
         "sellprice": 2500
 
@@ -9426,7 +10250,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":61
+            "accuracy":10,
+            "attack":17,
+            "critical":15
         },
         "sellprice": 2500
 
@@ -9464,7 +10290,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":68
+            "health":27,
+            "attack":8,
+            "reactivity":11,
+            "speed":21
         },
         "sellprice": 2500
 
@@ -9511,8 +10340,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":172,
-            "accuracy":80
+            "health":49,
+            "attack":7,
+            "strong":12,
+            "accuracy":18,
+            "speed":16
         },
         "sellprice": 2500
 
@@ -9536,8 +10368,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":34,
-            "critical":34
+            "health":25,
+            "attack":6,
+            "critical":9,
+            "strong":9,
+            "accuracy":15,
+            "speed":15
         },
         "sellprice": 2500
 
@@ -9563,7 +10399,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":40
+            "health":19,
+            "attack":10
         } ,
         "sellprice": 2500
 
@@ -9591,8 +10428,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":34,
-            "reactivity":34
+            "health":42,
+            "attack":6,
+            "strong":13,
+            "speed":9,
+            "reactivity":12
         },
         "sellprice": 2500
 
@@ -9624,8 +10464,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":130,
-            "accuracy":34
+            "health":48,
+            "attack":5,
+            "critical":7,
+            "strong":15,
+            "reactivity":10
         } ,
         "sellprice": 2500
 
@@ -9656,8 +10499,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":150,
-            "strong":86
+            "health":67,
+            "attack":4,
+            "critical":9,
+            "strong":30
         },
         "sellprice": 2500
 
@@ -9683,7 +10528,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":34
+            "health":38,
+            "attack":11,
+            "critical":6,
+            "accuracy":10
         },
         "sellprice": 2500
 
@@ -9721,8 +10569,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":39,
-            "reactivity":39
+            "health":23,
+            "attack":13,
+            "critical":13,
+            "strong":11,
+            "reactivity":13,
+            "speed":13
         },
         "sellprice": 3300
 
@@ -9769,8 +10621,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":127,
-            "accuracy":39
+
+            "health":39,
+            "attack":9,
+            "critical":13,
+            "accuracy":13,
+            "speed":11
         },
         "sellprice": 3300
 
@@ -9794,7 +10650,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":100
+            "health":18,
+            "attack":11,
+            "critical":28,
+            "reactivity":11
         }
 
     },
@@ -9819,7 +10678,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":70
+
+            "accuracy":11,
+            "attack":19,
+            "critical":17
         },
         "sellprice": 3300
 
@@ -9857,7 +10719,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":80
+            "health":34,
+            "attack":9,
+            "reactivity":12,
+            "speed":24
         },
         "sellprice": 3300
 
@@ -9904,8 +10769,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":201,
-            "accuracy":94
+            "health":54,
+            "attack":8,
+            "strong":14,
+            "accuracy":21,
+            "speed":19
         },
         "sellprice": 3300
 
@@ -9929,8 +10797,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":39,
-            "critical":39
+            "health":30,
+            "attack":7,
+            "critical":10,
+            "strong":10,
+            "accuracy":17,
+            "speed":17
         },
         "sellprice": 3300
 
@@ -9956,7 +10828,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":46
+            "health":22,
+            "attack":11
         },
         "sellprice": 3300
 
@@ -9984,8 +10857,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":39,
-            "reactivity":39
+            "health":50,
+            "attack":7,
+            "strong":15,
+            "speed":11,
+            "reactivity":13
         },
         "sellprice": 3300
 
@@ -10017,8 +10893,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":150,
-            "accuracy":39
+            "health":57,
+            "attack":5,
+            "critical":8,
+            "strong":19,
+            "reactivity":12
         },
         "sellprice": 3300
 
@@ -10049,8 +10928,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":175,
-            "strong":100
+            "health":80,
+            "attack":5,
+            "critical":10,
+            "strong":35
         },
         "sellprice": 3300
 
@@ -10076,7 +10957,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":39
+            "health":44,
+            "attack":13,
+            "critical":7,
+            "accuracy":11
         },
         "sellprice": 3300
 
@@ -10114,8 +10998,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":45,
-            "reactivity":45
+            "health":26,
+            "attack":15,
+            "critical":15,
+            "strong":13,
+            "reactivity":14,
+            "speed":14
         } ,
         "sellprice": 3800
 
@@ -10162,8 +11050,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":148,
-            "accuracy":45
+
+            "health":48,
+            "attack":11,
+            "critical":15,
+            "accuracy":14,
+            "speed":13
         },
         "sellprice": 3800
 
@@ -10187,7 +11079,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":116
+            "health":21,
+            "attack":12,
+            "critical":33,
+            "reactivity":13
         },
         "sellprice": 3800
 
@@ -10213,7 +11108,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":80
+            "accuracy":13,
+            "attack":22,
+            "critical":20
         },
         "sellprice": 3800
 
@@ -10251,7 +11148,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":94
+            "health":38,
+            "attack":10,
+            "reactivity":14,
+            "speed":27
         },
         "sellprice": 3800
 
@@ -10298,8 +11198,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":230,
-            "accuracy":110
+            "health":60,
+            "attack":9,
+            "strong":16,
+            "accuracy":25,
+            "speed":22
         },
         "sellprice": 3800
 
@@ -10323,8 +11226,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":45,
-            "critical":45
+            "health":35,
+            "attack":8,
+            "critical":12,
+            "strong":12,
+            "accuracy":21,
+            "speed":20
         },
         "sellprice": 3800
 
@@ -10350,7 +11257,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":52
+
+            "health":27,
+            "attack":12
         },
         "sellprice": 3800
 
@@ -10378,8 +11287,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":45,
-            "reactivity":45
+            "health":57,
+            "attack":8,
+            "strong":19,
+            "speed":14,
+            "reactivity":15
         },
         "sellprice": 3800
 
@@ -10411,8 +11323,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":170,
-            "accuracy":45
+            "health":67,
+            "attack":6,
+            "critical":9,
+            "strong":22,
+            "reactivity":14
         },
         "sellprice": 3800
 
@@ -10443,8 +11358,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":200,
-            "strong":116
+            "health":85,
+            "attack":6,
+            "critical":12,
+            "strong":40
         },
         "sellprice": 3800
 
@@ -10458,7 +11375,7 @@ exports.data = [
         "subcategory": 0,
         "classLimit": [0],
         "description": "为守护者配备的巨剑，攻守兼备",
-        "quality":3,
+        "quality":4,
         "upgradeTarget":367,
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
@@ -10470,7 +11387,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":45
+            "health":49,
+            "attack":14,
+            "critical":8,
+            "accuracy":13
         },
         "sellprice": 3800
 
@@ -10508,8 +11428,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":51,
-            "reactivity":51
+            "health":28,
+            "attack":17,
+            "critical":17,
+            "strong":14,
+            "reactivity":17,
+            "speed":17
         },
         "sellprice": 4000
 
@@ -10556,8 +11480,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":168,
-            "accuracy":51
+            "health":57,
+            "attack":12,
+            "critical":16,
+            "accuracy":17,
+            "speed":14
         },
         "sellprice": 4000
 
@@ -10581,7 +11508,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":132
+            "health":25,
+            "attack":13,
+            "critical":39,
+            "reactivity":14
         },
         "sellprice": 4000
 
@@ -10607,7 +11537,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":90
+            "accuracy":14,
+            "attack":25,
+            "critical":24
         },
         "sellprice": 4000
 
@@ -10645,7 +11577,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":108
+
+            "health":43,
+            "attack":11,
+            "reactivity":16,
+            "speed":32
         },
         "sellprice": 4000
 
@@ -10692,8 +11628,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":260,
-            "accuracy":126
+            "health":67,
+            "attack":10,
+            "strong":18,
+            "accuracy":30,
+            "speed":26
         },
         "sellprice": 4000
 
@@ -10717,8 +11656,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":51,
-            "critical":51
+            "health":39,
+            "attack":9,
+            "critical":14,
+            "strong":14,
+            "accuracy":25,
+            "speed":23
         },
         "sellprice": 4000
 
@@ -10744,7 +11687,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":58
+            "health":33,
+            "attack":13
         },
         "sellprice": 4000
 
@@ -10772,8 +11716,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":51,
-            "reactivity":51
+            "health":67,
+            "attack":9,
+            "strong":21,
+            "speed":15,
+            "reactivity":17
         },
         "sellprice": 4000
 
@@ -10805,8 +11752,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":185,
-            "accuracy":51
+            "health":76,
+            "attack":7,
+            "critical":10,
+            "strong":26,
+            "reactivity":15
         },
         "sellprice": 4000
 
@@ -10830,8 +11780,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":235,
-            "strong":132
+            "health":95,
+            "attack":7,
+            "critical":13,
+            "strong":46
         },
         "sellprice": 4000
 
@@ -10857,7 +11809,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":51
+            "health":56,
+            "attack":15,
+            "critical":9,
+            "accuracy":14
         },
         "sellprice": 4000
 
@@ -10895,8 +11850,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":57,
-            "reactivity":57
+            "health":31,
+            "attack":19,
+            "critical":19,
+            "strong":16,
+            "reactivity":19,
+            "speed":19
         },
         "sellprice": 4700
 
@@ -10943,8 +11902,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":188,
-            "accuracy":57
+
+            "health":66,
+            "attack":13,
+            "critical":18,
+            "accuracy":19,
+            "speed":16
         } ,
         "sellprice": 4700
 
@@ -10968,7 +11931,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "critical":150
+            "health":27,
+            "attack":14,
+            "critical":45,
+            "reactivity":16
         }  ,
         "sellprice": 4700
 
@@ -10994,7 +11960,9 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":101
+            "accuracy":16,
+            "attack":29,
+            "critical":27
         }   ,
         "sellprice": 4700
 
@@ -11032,7 +12000,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":124
+
+            "health":45,
+            "attack":12,
+            "reactivity":19,
+            "speed":36
         } ,
         "sellprice": 4700
 
@@ -11079,8 +12051,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":290,
-            "accuracy":144
+            "health":75,
+            "attack":11,
+            "strong":20,
+            "accuracy":35,
+            "speed":29
         },
         "sellprice": 4700
 
@@ -11104,8 +12079,12 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "strong":57,
-            "critical":57
+            "health":44,
+            "attack":10,
+            "critical":16,
+            "strong":16,
+            "accuracy":29,
+            "speed":27
         } ,
         "sellprice": 4700
 
@@ -11131,7 +12110,8 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":64
+            "health":36,
+            "attack":14
         } ,
         "sellprice": 4700
 
@@ -11159,8 +12139,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "speed":57,
-            "reactivity":57
+            "health":73,
+            "attack":10,
+            "strong":25,
+            "speed":17,
+            "reactivity":20
         },
         "sellprice": 4700
 
@@ -11192,8 +12175,11 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":205,
-            "accuracy":57
+            "health":85,
+            "attack":8,
+            "critical":11,
+            "strong":29,
+            "reactivity":17
         },
         "sellprice": 4700
 
@@ -11217,8 +12203,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "health":265,
-            "strong":150
+            "health":110,
+            "attack":8,
+            "critical":14,
+            "strong":51
         } ,
         "sellprice": 4700
 
@@ -11244,7 +12232,10 @@ exports.data = [
         ],
         "basic_properties":
         {
-            "attack":57
+            "health":60,
+            "attack":17,
+            "critical":10,
+            "accuracy":16
         } ,
         "sellprice": 4700
 
@@ -11281,8 +12272,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":63,
-                "reactivity":63
+                "health":36,
+                "attack":21,
+                "critical":22,
+                "strong":18,
+                "reactivity":21,
+                "speed":21
             },
         "sellprice": 5000
 
@@ -11328,8 +12323,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":213,
-                "accuracy":168
+                "health":76,
+                "attack":14,
+                "critical":21,
+                "accuracy":21,
+                "speed":18
             },
         "sellprice": 5000
 
@@ -11352,7 +12350,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "critical":168
+                "health":29,
+                "attack":16,
+                "critical":49,
+                "reactivity":18
             },
         "sellprice": 5000
 
@@ -11377,7 +12378,9 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":112
+                "accuracy":18,
+                "attack":32,
+                "critical":29
             },
         "sellprice": 5000
 
@@ -11414,7 +12417,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":140
+                "health":50,
+                "attack":13,
+                "reactivity":21,
+                "speed":42
             },
         "sellprice": 5000
 
@@ -11460,8 +12466,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":323,
-                "accuracy":162
+                "health":83,
+                "attack":12,
+                "strong":22,
+                "accuracy":39,
+                "speed":32
             } ,
         "sellprice": 5000
 
@@ -11484,8 +12493,12 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "strong":63,
-                "critical":63
+                "health":49,
+                "attack":11,
+                "critical":18,
+                "strong":18,
+                "accuracy":32,
+                "speed":31
             },
         "sellprice": 5000
 
@@ -11510,7 +12523,8 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":70
+                "health":41,
+                "attack":15
             },
         "sellprice": 5000
 
@@ -11537,8 +12551,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "speed":63,
-                "reactivity":63
+                "health":83,
+                "attack":11,
+                "strong":27,
+                "reactivity":22,
+                "speed":19
             },
         "sellprice": 5000
 
@@ -11569,8 +12586,11 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":240,
-                "accuracy":63
+                "health":91,
+                "attack":9,
+                "critical":13,
+                "strong":33,
+                "reactivity":19
             },
         "sellprice": 5000
 
@@ -11593,8 +12613,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "health":285,
-                "strong":168
+                "health":125,
+                "attack":9,
+                "critical":15,
+                "strong":57
             },
         "sellprice": 5000
 
@@ -11619,7 +12641,10 @@ exports.data = [
         ],
         "basic_properties":
             {
-                "attack":63
+                "health":70,
+                "attack":19,
+                "critical":12,
+                "accuracy":18
             },
         "sellprice": 5000
     },
