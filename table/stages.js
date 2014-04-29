@@ -1498,9 +1498,9 @@ var data = [
             {
                 "stageId": 96,
                 "cost": 15,
-                "team": 3,
+                "team": 1,
                 "hidden":false,
-                "dungeon": 97,
+                "dungeon": 92,
                 "tutorial":2,
                 "cond":
                 { "and": [

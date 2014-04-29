@@ -23891,10 +23891,13 @@ exports.data = [
                     {
                         "id": 187,
                         "count":1,
-                        "keyed":true
+                        "keyed":true,
+                        "pos":12
                     }
                 ],
-                "rank":8
+                "rank":8,
+                "entrance":0,
+                "exit": 29
             },
             {
                 "objects" : [
@@ -24021,11 +24024,14 @@ exports.data = [
                     },
                     {
                         "id": 186,
-                        "count":2,
-                        "keyed":true
+                        "count":1,
+                        "keyed":true,
+                        "pos":12
                     }
                 ],
-                "rank": 10
+                "rank": 10,
+                "entrance":0,
+                "exit": 29
             },
             {
                 "objects" : [
