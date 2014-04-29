@@ -2748,7 +2748,7 @@ exports.data = [
                 { "type": "effectCount", "count":1}
             ],
             "action":[
-                {"type": "damage","damageType":"Spell","isRange":true,"delay":0.4,"formular": {"c":10}},
+                {"type": "damage","damageType":"Physical","isRange":true,"delay":0.4,"formular": {"c":10}},
                 {"type": "playEffect","effect":30,"pos":"self"}
             ]
         }
