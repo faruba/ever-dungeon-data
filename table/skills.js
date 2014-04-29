@@ -2709,7 +2709,7 @@ exports.data = [
                 {"type":"visible"},
                 {"type" :"event", "event":"onTurnEnd" }
             ],
-            "action": [{"type": "createMonster","objectCount":2,"effect":21,"randomPos":true,"monsterID":7}]
+            "action": [{"type": "createMonster","objectCount":1,"effect":21,"randomPos":true,"monsterID":7}]
         }
     },
     {
