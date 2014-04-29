@@ -192,9 +192,10 @@ exports.data = [
         "spellDelay": 0.6,
         "targetDelay": 0.9
       },
-      "triggerCondition": [{
-        "type": "event", "event": "onCriticalDamage"
-      }],
+      "triggerCondition": [
+          {"type": "event", "event": "onCriticalDamage" },
+          {"type": "chance", "chance": 0.5}
+      ],
       "targetSelection": {
           "pool": "objects",
           "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"}]
@@ -2084,8 +2085,8 @@ exports.data = [
             },
             "action":[
                 {"type":"delay"},
-                { "type": "installSpell", "spell": 88,"delay":1.8},
-                {"type": "playEffect","effect":37,"pos":"target","delay":1.8},
+                { "type": "installSpell", "spell": 88,"delay":1.5},
+                {"type": "playEffect","effect":37,"pos":"target","delay":1.5},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay"},
                 {"type":"kill","self": true}
@@ -2122,8 +2123,8 @@ exports.data = [
             },
             "action":[
                 {"type":"delay"},
-                { "type": "installSpell", "spell": 90,"delay":1.8} ,
-                {"type": "playEffect","effect":13,"pos":"target","delay":1.8} ,
+                { "type": "installSpell", "spell": 90,"delay":1.5} ,
+                {"type": "playEffect","effect":13,"pos":"target","delay":1.5} ,
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay"},
                 {"type":"kill","self": true}
@@ -2161,8 +2162,8 @@ exports.data = [
 
             "action":[
                 {"type":"delay"},
-                { "type": "installSpell", "spell": 92,"delay":1.8} ,
-                {"type": "playEffect","effect":38,"pos":"target","delay":1.8},
+                { "type": "installSpell", "spell": 92,"delay":1.5} ,
+                {"type": "playEffect","effect":38,"pos":"target","delay":1.5},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay"},
                 {"type":"kill","self": true}
@@ -2248,7 +2249,6 @@ exports.data = [
                 {"type":"delay"},
                 { "type": "installSpell", "spell": 96,"delay":0.3},
                 { "type": "removeSpell", "spell": 98},
-               {"type": "playEffect","effect":39,"pos":"target","delay":1.8},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay"},
                 {"type":"kill", "self": true}
@@ -2301,7 +2301,6 @@ exports.data = [
                 {"type":"delay"},
                 { "type": "installSpell", "spell": 98}  ,
                 { "type": "removeSpell", "spell": 96},
-               {"type": "playEffect","effect":40,"pos":"target","delay":1.8},
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay"},
                 {"type":"kill","self": true}

@@ -6942,7 +6942,164 @@ exports.data = [
 
             }
         ]
-    }
+    },
+    {
+        "classId": 186,
+        "className": "食人魔怪教程",
+        "faction":"monster",
+        "classType": 1,
+        "bossFlag":true,
+        "avatar": "enemy-ogreboss.ccbi",
+        "property":
+        {
+            "health": 10,
+            "attack": 0.6,
+            "critical": 40,
+            "strong": 40,
+            "accuracy": 30,
+            "reactivity": -60,
+            "speed": 0,
+            "counterAttack": true,
+            "exp": 0,
+            "gold": 0
+        },
+        "xproperty":
+        {
+            "balance": 0.1,
+            "health": 1,
+            "attack": 0,
+            "critical": 1,
+            "strong": 1,
+            "accuracy": 1,
+            "reactivity": 1,
+            "speed": 1
+        },
+        "skill": [
+            {
+                "id": 45,
+                "level": 1
+            },
+            {
+                "id": 47,
+                "level": 1
+            },
+            {
+                "id": 55,
+                "level": 1
+            }
+        ],
+        "effectAttack": 9,
+        "soundSpawn": "shirenmo.mp3",
+        "soundWound":"shirenmodie.mp3",
+        "soundAttack":"shirenmo.mp3"
+    },
+    {
+        "classId": 187,
+        "className": "游侠头领教程",
+        "faction":"monster",
+        "classType": 1,
+        "bossFlag":true,
+        "avatar": "enemy-archerboss.ccbi",
+        "property":
+        {
+            "health": 10,
+            "attack": 1,
+            "critical": 6,
+            "strong": 105,
+            "accuracy": 60,
+            "reactivity": -10,
+            "speed": 0,
+            "counterAttack":false,
+            "exp": 0,
+            "gold": 0
+        },
+        "xproperty":
+        {
+            "balance": 0.1,
+            "health": 1,
+            "attack": 0,
+            "critical": 1,
+            "strong": 1,
+            "accuracy": 1,
+            "reactivity": 1,
+            "speed": 1
+        },
+        "skill": [
+            {
+                "id": 51,
+                "level": 1
+            },
+            {
+                "id": 53,
+                "level": 1
+            },
+            {
+                "id": 54,
+                "level": 1
+            },
+            {
+                "id": 55,
+                "level": 1
+            }
+        ],
+        "soundWound":"liulangwound.mp3",
+        "soundDie":   "liulangdie.mp3"
+    },
+    {
+        "classId": 188,
+        "className": "狂暴哥布林教程",
+        "faction":"monster",
+        "classType": 1,
+        "bossFlag":true,
+        "avatar": "enemy-goblinboss.ccbi",
+        "property":
+        {
+            "health": 10,
+            "attack": 1,
+            "critical": 60,
+            "strong": 20,
+            "accuracy": 10,
+            "reactivity": -20,
+            "speed": 0,
+            "counterAttack": false,
+            "exp": 0,
+            "gold": 0
+        },
+        "xproperty":
+        {
+            "balance": 0.1,
+            "health": 1,
+            "attack": 0,
+            "critical": 1,
+            "strong": 1,
+            "accuracy": 1,
+            "reactivity": 1,
+            "speed": 1
+        },
+        "skill": [
+            {
+                "id": 55,
+                "level": 1
+            },
+            {
+                "id": 28,
+                "level": 1
+            },
+            {
+                "id": 58,
+                "level": 1
+            },
+            {
+                "id": 59,
+                "level": 1
+            },
+            {
+                "id": 61,
+                "level": 1
+            }
+        ],
+        "soundDie":   "gebulindie.mp3"
+    },
 
 
 
