@@ -23428,10 +23428,6 @@ exports.data = [
                     {
                         "id": 149,
                         "count":1
-                    },
-                     {
-                        "id":136,
-                        "count":1
                     }
                 ]
             },
@@ -23439,10 +23435,6 @@ exports.data = [
                 "objects" :[
                     {
                         "id":137,
-                        "count":1
-                    },
-                    {
-                        "id":138,
                         "count":1
                     },
                     {
@@ -23478,11 +23470,6 @@ exports.data = [
                         "count":1
                     },
                     {
-                        "id": 140,
-                        "count":1
-                    },
-
-                    {
                         "id": 6,
                         "count":2
                     },
@@ -23516,8 +23503,8 @@ exports.data = [
                         "count":2
                     },
                     {
-                        "id": 6,
-                        "count":2
+                        "id":136,
+                        "count":1
                     }
                 ]
             },
@@ -23544,9 +23531,9 @@ exports.data = [
                         "count":2
                     },
                     {
-                        "id": 6,
-                        "count":3
-                    }
+                        "id": 140,
+                        "count":1
+                    },
                 ]
             },
             {
@@ -23558,6 +23545,10 @@ exports.data = [
                     {
                         "id": 6 ,
                         "count":2
+                    },
+                    {
+                        "id":138,
+                        "count":1
                     },
                     {
                         "id":175,

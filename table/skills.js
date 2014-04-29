@@ -1666,8 +1666,7 @@ exports.data = [
             ],
             "targetSelection": {
                 "pool": "blocks",
-                "filter": [{"type":"count","count":1}],
-                "anchor":[{"x":1,"y":0},{"x":-1,"y":0},{"x":0,"y":-1},{"x":0,"y":1},{"x":1,"y":1},{"x":-1,"y":1},{"x":-1,"y":-1},{"x":1,"y":-1}]
+                "filter": [{"type":"count","count":1},{"type":"anchor","anchor":[{"x":1,"y":0},{"x":-1,"y":0},{"x":0,"y":-1},{"x":0,"y":1},{"x":1,"y":1},{"x":-1,"y":1},{"x":-1,"y":-1},{"x":1,"y":-1}]}]
             },
             "action":[
                 {"type":"installSpell", "spell": 70,"delay":0.3}
