@@ -50,7 +50,7 @@ exports.data = [
       ],
       "action": [
         { "type": "modifyVar", "x": "damage", "formular": {"environment": {"damage":0}} },
-        {"type": "setMyMutex", "mutex": "dunqiang", "count": 1 }
+          {"type": "setMyMutex", "mutex": "reinforce", "count": 1 }
       ],
       "levelConfig": [
         {"count": 1},
@@ -2276,8 +2276,7 @@ exports.data = [
                 { "type": "event", "event": "onBeSpellDamage" },
                 { "type": "event", "event": "onBeSpellRangeDamage" },
                 { "type": "targetMutex", "mutex": "reinforce" },
-                { "type": "targetMutex", "mutex": "lightOfMiracel" },
-                {"type": "targetMutex", "mutex": "dunqiang"}
+                { "type": "targetMutex", "mutex": "lightOfMiracel" }
             ],
                 "availableCondition": [
                 { "type": "effectCount", "count":1}
@@ -2320,9 +2319,8 @@ exports.data = [
                    { "type": "event", "event": "onBeSpellDamage" },
                    { "type": "event", "event": "onBeSpellRangeDamage" },
                { "type": "targetMutex", "mutex": "reinforce" },
-               { "type": "targetMutex", "mutex": "lightOfMiracel" },
-               {"type": "targetMutex", "mutex": "dunqiang"}
-            ],
+               { "type": "targetMutex", "mutex": "lightOfMiracel" }
+           ],
             "targetSelection": {
                 "pool": "self",
                 "filter": [{"type":"alive"}]
