@@ -6927,7 +6927,7 @@ exports.data = [
     {
         "classId": 185,
         "className": "清除我方所有buff",
-        "faction":"npcmh",
+        "faction":"npch",
         "classType": 2,
         "effectDeath": -1,
         "flipFlag":false,
