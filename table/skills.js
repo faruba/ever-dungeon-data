@@ -2312,7 +2312,7 @@ exports.data = [
         "skillId": 98,
         "config": {
             "basic" : {
-                "buffEffect": 40
+                "buffEffect": 39
             },
            "triggerCondition": [
                    { "type": "event", "event": "onBePhysicalDamage" },
