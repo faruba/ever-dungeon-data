@@ -16527,5 +16527,23 @@ exports.data = [
                 "file": "fm5-helmet.ccbi"
             }
         ]
-    }
+    },
+    {
+        "classId": 622,
+        "label": "迅敏的祷告之证",
+        "rank":3,
+        "icon": "epn012.png",
+        "category": 1,
+        "subcategory": 5,
+        "classLimit": [2],
+        "description": "提升速度的护身符",
+        "quality":0,
+        "basic_properties":
+        {
+            "speed":9
+        },
+        "sellprice": 200
+
+     }
+
 ]
