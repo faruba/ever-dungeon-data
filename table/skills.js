@@ -2781,7 +2781,7 @@ exports.data = [
             ],
             "targetSelection": {
                 "pool": "self",
-                "filter": [{"type":"alive"},{"type":"visible"} ]
+                "filter": [{"type":"alive"}]
             },
             "action":[
                 {"type":"delay"} ,
