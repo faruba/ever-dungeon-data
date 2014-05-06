@@ -2784,6 +2784,8 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"} ]
             },
             "action":[
+                {"type":"delay"} ,
+                {"type":"playEffect","effect":4,"pos":"self"},
                 {"type": "installSpell", "spell": 123}
 
             ]
