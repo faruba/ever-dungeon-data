@@ -18,16 +18,31 @@ exports.data = [
          "level":[
             {
                 "powerLimit":100,
-                "stage":"114"
+                "stage":"114",
+                "prize":[
+                    {
+                        "type":1
+                    }
+                ]
 
             },
             {
                 "powerLimit":200,
-                "stage":"115"
+                "stage":"115",
+                "prize":[
+                    {
+                        "type":1
+                    }
+                ]
             },
             {
                 "powerLimit":400,
-                "stage":"116"
+                "stage":"116",
+                "prize":[
+                    {
+                        "type":1
+                    }
+                ]
             }
         ]
     }
