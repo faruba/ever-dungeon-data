@@ -13,7 +13,7 @@ exports.data = [
             ]
         },
         "begin":1,
-        "tittlePic":"bounty-icon3.png",
+        "titlePic":"bounty-icon3.png",
         "timePic":"bounty-time3.png",
          "level":[
             {

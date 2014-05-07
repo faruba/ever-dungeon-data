@@ -2810,5 +2810,30 @@ exports.data = [
                 {"type":"kill", "cod": 1}
             ]
         }
+    },
+    {
+        "skillId": 124,
+        "label":"普通传送",
+        "config": {
+            "triggerCondition": [
+                {"type":"event","event":"onBePhysicalDamage"},
+                {"type":"event","event":"onBePhysicalRangeDamage"},
+                {"type":"event","event":"onBeSpellDamage"},
+                {"type":"event","event":"onBeSpellRangeDamage"},
+                {"type":"alive"}
+            ],
+            "targetSelection":{
+                "pool":"self",
+                "filter": [{"type":"alive"}]
+            },
+            "action": [
+                {"type": "delay"},
+                {"type":"playEffect","effect":20,"pos":"self"},
+                {"type": "delay"},
+                {"type": "randTeleport"},
+                {"type": "delay"},
+                {"type":"playEffect","effect":21,"pos":"self"},
+            ]
+        }
     }
 ]
