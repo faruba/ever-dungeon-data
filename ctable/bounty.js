@@ -13,7 +13,7 @@ exports.data = [
             ]
         },
         "begin":1,
-        "tittlePic":"bounty-icon3.png",
+        "titlePic":"bounty-icon3.png",
         "timePic":"bounty-time3.png",
          "level":[
             {
@@ -27,7 +27,7 @@ exports.data = [
 
             },
             {
-                "powerLimit":200,
+                "powerLimit":1000,
                 "stage":"115",
                 "prize":[
                     {
@@ -36,7 +36,7 @@ exports.data = [
                 ]
             },
             {
-                "powerLimit":400,
+                "powerLimit":3000,
                 "stage":"116",
                 "prize":[
                     {
