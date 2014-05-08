@@ -18,7 +18,7 @@ exports.data = [
          "level":[
             {
                 "powerLimit":100,
-                "stage":"114",
+                "stage":114,
                 "prize":[
                     {
                         "type":1
@@ -28,7 +28,7 @@ exports.data = [
             },
             {
                 "powerLimit":1000,
-                "stage":"115",
+                "stage":115,
                 "prize":[
                     {
                         "type":1
@@ -37,7 +37,7 @@ exports.data = [
             },
             {
                 "powerLimit":3000,
-                "stage":"116",
+                "stage":116,
                 "prize":[
                     {
                         "type":1
