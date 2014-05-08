@@ -178,6 +178,6 @@ exports.data = [
     },
     {
         "effectId": 43,
-        "file": "effect-boss.ccbi"
+        "file": "effect-mission.ccbi"
     }
 ]
