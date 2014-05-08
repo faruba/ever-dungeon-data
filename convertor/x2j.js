@@ -92,15 +92,21 @@ function getFileName(path){
 
 function extractRowData(rawRow){
 	var ret = [];
-	var newRow = rawRow.slice(1);
-	for(var k in newRow){
-		if( newRow[k] != null ){
-			ret.push(newRow[k].value);
+	for(var k=1; k<rawRow.length; ++k){
+		if( rawRow[k] != null ){
+			if( rawRow[k].value != rawRow[k].value ){//NaN
+				ret.push(null);
+			}
+			else{
+				ret.push(rawRow[k].value);
+			}
 		}
 		else{
 			ret.push(null);
 		}
 	}
+	console.log("RAW ROW = \n"+JSON.stringify(rawRow, null, "\t"));
+	console.log("EXT ROW = \n"+JSON.stringify(ret, null, "\t"));
 	return ret;
 }
 
