@@ -14176,18 +14176,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "寄宿着生命之力的护身符",
-		"stack": 100,
-		"sellprice": 0,
-		"effectf": 10,
-		"effectm": [
-			2
-		],
-		"effecta": 5,
-		"effectAttack": 3,
-		"soundAttack": "3",
+		"sellprice": 100,
 		"classLimit": [
-			1
-		]
+			0
+		],
+		"quality": 1,
+		"rank": 2,
+		"basic_properties": {
+			"health": 10,
+			"attack": 1,
+			"speed": 3,
+			"strong": 5,
+			"reactivity": 3,
+			"accuracy": 3,
+			"critical": 1
+		}
 	},
 	{
 		"classId": 629,
@@ -14196,18 +14199,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "寄宿着生命之力的护身符",
-		"stack": 200,
-		"sellprice": 0,
-		"effectf": 15,
-		"effectm": [
-			3
-		],
-		"effecta": 7,
-		"effectAttack": 4,
-		"soundAttack": "4",
+		"sellprice": 200,
 		"classLimit": [
-			2
-		]
+			0
+		],
+		"quality": 1,
+		"rank": 3,
+		"basic_properties": {
+			"health": 15,
+			"attack": 1,
+			"speed": 4,
+			"strong": 7,
+			"reactivity": 4,
+			"accuracy": 4,
+			"critical": 2
+		}
 	},
 	{
 		"classId": 630,
@@ -14216,18 +14222,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着大量生命之力的护身符",
-		"stack": 400,
-		"sellprice": 0,
-		"effectf": 19,
-		"effectm": [
-			4
-		],
-		"effecta": 8,
-		"effectAttack": 6,
-		"soundAttack": "5",
+		"sellprice": 400,
 		"classLimit": [
-			3
-		]
+			0
+		],
+		"quality": 1,
+		"rank": 4,
+		"basic_properties": {
+			"health": 19,
+			"attack": 2,
+			"speed": 5,
+			"strong": 8,
+			"reactivity": 6,
+			"accuracy": 5,
+			"critical": 3
+		}
 	},
 	{
 		"classId": 631,
@@ -14236,18 +14245,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着大量生命之力的护身符",
-		"stack": 800,
-		"sellprice": 0,
-		"effectf": 24,
-		"effectm": [
-			5
-		],
-		"effecta": 10,
-		"effectAttack": 8,
-		"soundAttack": "6",
+		"sellprice": 800,
 		"classLimit": [
-			3
-		]
+			0
+		],
+		"quality": 1,
+		"rank": 5,
+		"basic_properties": {
+			"health": 24,
+			"attack": 2,
+			"speed": 6,
+			"strong": 10,
+			"reactivity": 8,
+			"accuracy": 6,
+			"critical": 3
+		}
 	},
 	{
 		"classId": 632,
@@ -14256,18 +14268,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着大量生命之力的护身符",
-		"stack": 1200,
-		"sellprice": 0,
-		"effectf": 31,
-		"effectm": [
-			6
-		],
-		"effecta": 14,
-		"effectAttack": 9,
-		"soundAttack": "8",
+		"sellprice": 1200,
 		"classLimit": [
-			4
-		]
+			0
+		],
+		"quality": 1,
+		"rank": 6,
+		"basic_properties": {
+			"health": 31,
+			"attack": 2,
+			"speed": 8,
+			"strong": 14,
+			"reactivity": 9,
+			"accuracy": 8,
+			"critical": 4
+		}
 	},
 	{
 		"classId": 633,
@@ -14276,18 +14291,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着高阶生命之力的护身符",
-		"stack": 2000,
-		"sellprice": 0,
-		"effectf": 39,
-		"effectm": [
-			7
-		],
-		"effecta": 15,
-		"effectAttack": 11,
-		"soundAttack": "10",
+		"sellprice": 2000,
 		"classLimit": [
-			5
-		]
+			0
+		],
+		"quality": 1,
+		"rank": 7,
+		"basic_properties": {
+			"health": 39,
+			"attack": 3,
+			"speed": 10,
+			"strong": 15,
+			"reactivity": 11,
+			"accuracy": 10,
+			"critical": 5
+		}
 	},
 	{
 		"classId": 634,
@@ -14296,18 +14314,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "寄宿着生命之力的护身符",
-		"stack": 200,
-		"sellprice": 0,
-		"effectf": 19,
-		"effectm": [
-			3
-		],
-		"effecta": 8,
-		"effectAttack": 6,
-		"soundAttack": "5",
+		"sellprice": 200,
 		"classLimit": [
-			3
-		]
+			0
+		],
+		"quality": 2,
+		"rank": 3,
+		"basic_properties": {
+			"health": 19,
+			"attack": 2,
+			"speed": 5,
+			"strong": 8,
+			"reactivity": 6,
+			"accuracy": 5,
+			"critical": 3
+		}
 	},
 	{
 		"classId": 635,
@@ -14316,18 +14337,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着大量生命之力的护身符",
-		"stack": 400,
-		"sellprice": 0,
-		"effectf": 24,
-		"effectm": [
-			4
-		],
-		"effecta": 10,
-		"effectAttack": 8,
-		"soundAttack": "6",
+		"sellprice": 400,
 		"classLimit": [
-			3
-		]
+			0
+		],
+		"quality": 2,
+		"rank": 4,
+		"basic_properties": {
+			"health": 24,
+			"attack": 2,
+			"speed": 6,
+			"strong": 10,
+			"reactivity": 8,
+			"accuracy": 6,
+			"critical": 3
+		}
 	},
 	{
 		"classId": 636,
@@ -14336,18 +14360,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着大量生命之力的护身符",
-		"stack": 800,
-		"sellprice": 0,
-		"effectf": 31,
-		"effectm": [
-			5
-		],
-		"effecta": 14,
-		"effectAttack": 9,
-		"soundAttack": "8",
+		"sellprice": 800,
 		"classLimit": [
-			4
-		]
+			0
+		],
+		"quality": 2,
+		"rank": 5,
+		"basic_properties": {
+			"health": 31,
+			"attack": 2,
+			"speed": 8,
+			"strong": 14,
+			"reactivity": 9,
+			"accuracy": 8,
+			"critical": 4
+		}
 	},
 	{
 		"classId": 637,
@@ -14356,18 +14383,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着大量生命之力的护身符",
-		"stack": 1200,
-		"sellprice": 0,
-		"effectf": 39,
-		"effectm": [
-			6
-		],
-		"effecta": 15,
-		"effectAttack": 11,
-		"soundAttack": "10",
+		"sellprice": 1200,
 		"classLimit": [
-			5
-		]
+			0
+		],
+		"quality": 2,
+		"rank": 6,
+		"basic_properties": {
+			"health": 39,
+			"attack": 3,
+			"speed": 10,
+			"strong": 15,
+			"reactivity": 11,
+			"accuracy": 10,
+			"critical": 5
+		}
 	},
 	{
 		"classId": 638,
@@ -14376,18 +14406,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着高阶生命之力的护身符",
-		"stack": 2000,
-		"sellprice": 0,
-		"effectf": 49,
-		"effectm": [
-			7
-		],
-		"effecta": 16,
-		"effectAttack": 12,
-		"soundAttack": "12",
+		"sellprice": 2000,
 		"classLimit": [
-			6
-		]
+			0
+		],
+		"quality": 2,
+		"rank": 7,
+		"basic_properties": {
+			"health": 49,
+			"attack": 4,
+			"speed": 12,
+			"strong": 16,
+			"reactivity": 12,
+			"accuracy": 12,
+			"critical": 6
+		}
 	},
 	{
 		"classId": 639,
@@ -14396,18 +14429,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着高阶生命之力的护身符",
-		"stack": 2500,
-		"sellprice": 0,
-		"effectf": 51,
-		"effectm": [
-			8
-		],
-		"effecta": 17,
-		"effectAttack": 14,
-		"soundAttack": "15",
+		"sellprice": 2500,
 		"classLimit": [
-			7
-		]
+			0
+		],
+		"quality": 2,
+		"rank": 8,
+		"basic_properties": {
+			"health": 51,
+			"attack": 5,
+			"speed": 13,
+			"strong": 17,
+			"reactivity": 14,
+			"accuracy": 15,
+			"critical": 7
+		}
 	},
 	{
 		"classId": 640,
@@ -14416,18 +14452,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着大量生命之力的护身符",
-		"stack": 400,
-		"sellprice": 0,
-		"effectf": 31,
-		"effectm": [
-			4
-		],
-		"effecta": 14,
-		"effectAttack": 9,
-		"soundAttack": "8",
+		"sellprice": 400,
 		"classLimit": [
-			4
-		]
+			0
+		],
+		"quality": 3,
+		"rank": 4,
+		"basic_properties": {
+			"health": 31,
+			"attack": 2,
+			"speed": 8,
+			"strong": 14,
+			"reactivity": 9,
+			"accuracy": 8,
+			"critical": 4
+		}
 	},
 	{
 		"classId": 641,
@@ -14436,18 +14475,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着大量生命之力的护身符",
-		"stack": 800,
-		"sellprice": 0,
-		"effectf": 39,
-		"effectm": [
-			5
-		],
-		"effecta": 15,
-		"effectAttack": 11,
-		"soundAttack": "10",
+		"sellprice": 800,
 		"classLimit": [
-			5
-		]
+			0
+		],
+		"quality": 3,
+		"rank": 5,
+		"basic_properties": {
+			"health": 39,
+			"attack": 3,
+			"speed": 10,
+			"strong": 15,
+			"reactivity": 11,
+			"accuracy": 10,
+			"critical": 5
+		}
 	},
 	{
 		"classId": 642,
@@ -14456,18 +14498,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着大量生命之力的护身符",
-		"stack": 1200,
-		"sellprice": 0,
-		"effectf": 49,
-		"effectm": [
-			6
-		],
-		"effecta": 16,
-		"effectAttack": 12,
-		"soundAttack": "12",
+		"sellprice": 1200,
 		"classLimit": [
-			6
-		]
+			0
+		],
+		"quality": 3,
+		"rank": 6,
+		"basic_properties": {
+			"health": 49,
+			"attack": 4,
+			"speed": 12,
+			"strong": 16,
+			"reactivity": 12,
+			"accuracy": 12,
+			"critical": 6
+		}
 	},
 	{
 		"classId": 643,
@@ -14476,18 +14521,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着高阶生命之力的护身符",
-		"stack": 2000,
-		"sellprice": 0,
-		"effectf": 51,
-		"effectm": [
-			7
-		],
-		"effecta": 17,
-		"effectAttack": 14,
-		"soundAttack": "15",
+		"sellprice": 2000,
 		"classLimit": [
-			7
-		]
+			0
+		],
+		"quality": 3,
+		"rank": 7,
+		"basic_properties": {
+			"health": 51,
+			"attack": 5,
+			"speed": 13,
+			"strong": 17,
+			"reactivity": 14,
+			"accuracy": 15,
+			"critical": 7
+		}
 	},
 	{
 		"classId": 644,
@@ -14496,18 +14544,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着高阶生命之力的护身符",
-		"stack": 2500,
-		"sellprice": 0,
-		"effectf": 59,
-		"effectm": [
-			8
-		],
-		"effecta": 19,
-		"effectAttack": 16,
-		"soundAttack": "18",
+		"sellprice": 2500,
 		"classLimit": [
-			8
-		]
+			0
+		],
+		"quality": 3,
+		"rank": 8,
+		"basic_properties": {
+			"health": 59,
+			"attack": 6,
+			"speed": 14,
+			"strong": 19,
+			"reactivity": 16,
+			"accuracy": 18,
+			"critical": 8
+		}
 	},
 	{
 		"classId": 645,
@@ -14516,18 +14567,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "凝聚着生命之力的稀有护身符",
-		"stack": 3000,
-		"sellprice": 0,
-		"effectf": 66,
-		"effectm": [
-			9
-		],
-		"effecta": 21,
-		"effectAttack": 19,
-		"soundAttack": "21",
+		"sellprice": 3000,
 		"classLimit": [
-			10
-		]
+			0
+		],
+		"quality": 3,
+		"rank": 9,
+		"basic_properties": {
+			"health": 66,
+			"attack": 7,
+			"speed": 16,
+			"strong": 21,
+			"reactivity": 19,
+			"accuracy": 21,
+			"critical": 10
+		}
 	},
 	{
 		"classId": 646,
@@ -14536,18 +14590,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着大量生命之力的护身符",
-		"stack": 800,
-		"sellprice": 0,
-		"effectf": 49,
-		"effectm": [
-			5
-		],
-		"effecta": 16,
-		"effectAttack": 12,
-		"soundAttack": "12",
+		"sellprice": 800,
 		"classLimit": [
-			6
-		]
+			0
+		],
+		"quality": 4,
+		"rank": 5,
+		"basic_properties": {
+			"health": 49,
+			"attack": 4,
+			"speed": 12,
+			"strong": 16,
+			"reactivity": 12,
+			"accuracy": 12,
+			"critical": 6
+		}
 	},
 	{
 		"classId": 647,
@@ -14556,18 +14613,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着大量生命之力的护身符",
-		"stack": 1200,
-		"sellprice": 0,
-		"effectf": 51,
-		"effectm": [
-			6
-		],
-		"effecta": 17,
-		"effectAttack": 14,
-		"soundAttack": "15",
+		"sellprice": 1200,
 		"classLimit": [
-			7
-		]
+			0
+		],
+		"quality": 4,
+		"rank": 6,
+		"basic_properties": {
+			"health": 51,
+			"attack": 5,
+			"speed": 13,
+			"strong": 17,
+			"reactivity": 14,
+			"accuracy": 15,
+			"critical": 7
+		}
 	},
 	{
 		"classId": 648,
@@ -14576,18 +14636,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着高阶生命之力的护身符",
-		"stack": 2000,
-		"sellprice": 0,
-		"effectf": 59,
-		"effectm": [
-			7
-		],
-		"effecta": 19,
-		"effectAttack": 16,
-		"soundAttack": "18",
+		"sellprice": 2000,
 		"classLimit": [
-			8
-		]
+			0
+		],
+		"quality": 4,
+		"rank": 7,
+		"basic_properties": {
+			"health": 59,
+			"attack": 6,
+			"speed": 14,
+			"strong": 19,
+			"reactivity": 16,
+			"accuracy": 18,
+			"critical": 8
+		}
 	},
 	{
 		"classId": 649,
@@ -14596,18 +14659,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "蕴含着高阶生命之力的护身符",
-		"stack": 2500,
-		"sellprice": 0,
-		"effectf": 66,
-		"effectm": [
-			8
-		],
-		"effecta": 21,
-		"effectAttack": 19,
-		"soundAttack": "21",
+		"sellprice": 2500,
 		"classLimit": [
-			10
-		]
+			0
+		],
+		"quality": 4,
+		"rank": 8,
+		"basic_properties": {
+			"health": 66,
+			"attack": 7,
+			"speed": 16,
+			"strong": 21,
+			"reactivity": 19,
+			"accuracy": 21,
+			"critical": 10
+		}
 	},
 	{
 		"classId": 650,
@@ -14616,18 +14682,21 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "凝聚着生命之力的稀有护身符",
-		"stack": 3000,
-		"sellprice": 0,
-		"effectf": 75,
-		"effectm": [
-			9
-		],
-		"effecta": 24,
-		"effectAttack": 20,
-		"soundAttack": "24",
+		"sellprice": 3000,
 		"classLimit": [
-			11
-		]
+			0
+		],
+		"quality": 4,
+		"rank": 9,
+		"basic_properties": {
+			"health": 75,
+			"attack": 7,
+			"speed": 18,
+			"strong": 24,
+			"reactivity": 20,
+			"accuracy": 24,
+			"critical": 11
+		}
 	},
 	{
 		"classId": 651,
@@ -14636,17 +14705,20 @@ exports.data =[
 		"category": 1,
 		"subcategory": 5,
 		"description": "凝聚生命精华的传奇护身符",
-		"stack": 4000,
-		"sellprice": 0,
-		"effectf": 80,
-		"effectm": [
-			10
-		],
-		"effecta": 27,
-		"effectAttack": 23,
-		"soundAttack": "26",
+		"sellprice": 4000,
 		"classLimit": [
-			11
-		]
+			0
+		],
+		"quality": 4,
+		"rank": 10,
+		"basic_properties": {
+			"health": 80,
+			"attack": 8,
+			"speed": 20,
+			"strong": 27,
+			"reactivity": 23,
+			"accuracy": 26,
+			"critical": 11
+		}
 	}
 ]

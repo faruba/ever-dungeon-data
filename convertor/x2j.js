@@ -105,8 +105,8 @@ function extractRowData(rawRow){
 			ret.push(null);
 		}
 	}
-	console.log("RAW ROW = \n"+JSON.stringify(rawRow, null, "\t"));
-	console.log("EXT ROW = \n"+JSON.stringify(ret, null, "\t"));
+	//console.log("RAW ROW = \n"+JSON.stringify(rawRow, null, "\t"));
+	//console.log("EXT ROW = \n"+JSON.stringify(ret, null, "\t"));
 	return ret;
 }
 
