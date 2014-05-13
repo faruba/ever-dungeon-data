@@ -80,16 +80,16 @@ exports.data =[
 		"classId": 7,
 		"category": 1,
 		"subcategory": 9,
-		"effectf": {
-			"part": "hair2",
-			"file": "avatar-1-hair2.ccbi"
-		},
 		"effectm": [
 			{
 				"part": "hair",
 				"file": "avatar-1-hair-2.ccbi"
 			}
-		]
+		],
+		"effectf": {
+			"part": "hair2",
+			"file": "avatar-1-hair2.ccbi"
+		}
 	},
 	{
 		"classId": 8,
@@ -112,16 +112,16 @@ exports.data =[
 		"classId": 9,
 		"category": 1,
 		"subcategory": 9,
-		"effectf": {
-			"part": "hair3",
-			"file": "avatar-3-hair3.ccbi"
-		},
 		"effectm": [
 			{
 				"part": "hair",
 				"file": "avatar-3-hair-2.ccbi"
 			}
-		]
+		],
+		"effectf": {
+			"part": "hair3",
+			"file": "avatar-3-hair3.ccbi"
+		}
 	},
 	{
 		"classId": 10,
@@ -370,32 +370,32 @@ exports.data =[
 		"classId": 30,
 		"category": 1,
 		"subcategory": 9,
-		"effectf": {
-			"part": "hair3",
-			"file": "avatar-5-hair3.ccbi"
-		},
 		"effectm": [
 			{
 				"part": "hair",
 				"file": "avatar-5-hair-2.ccbi"
 			}
 		],
+		"effectf": {
+			"part": "hair3",
+			"file": "avatar-5-hair3.ccbi"
+		},
 		"quality": 0
 	},
 	{
 		"classId": 31,
 		"category": 1,
 		"subcategory": 9,
-		"effectf": {
-			"part": "hair3",
-			"file": "avatar-6-hair3.ccbi"
-		},
 		"effectm": [
 			{
 				"part": "hair",
 				"file": "avatar-6-hair-2.ccbi"
 			}
 		],
+		"effectf": {
+			"part": "hair3",
+			"file": "avatar-6-hair3.ccbi"
+		},
 		"quality": 0
 	},
 	{
@@ -1688,10 +1688,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg5.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg5-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -1705,6 +1701,10 @@ exports.data =[
 			"strong": 5,
 			"reactivity": 5,
 			"critical": 4
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg5-2.ccbi"
 		}
 	},
 	{
@@ -1715,10 +1715,6 @@ exports.data =[
 		"description": "魔法师代代相传的法袍",
 		"sellprice": 1500,
 		"effectf": {
-			"part": "lefthand",
-			"file": "mage-lefthand5.ccbi"
-		},
-		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
 		},
@@ -1734,6 +1730,10 @@ exports.data =[
 			"speed": 5,
 			"accuracy": 5,
 			"critical": 5
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand5.ccbi"
 		},
 		"iconf": "emchest5.png",
 		"iconm": "emchest5-2.png"
@@ -1805,10 +1805,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg5.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg5-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -1820,6 +1816,10 @@ exports.data =[
 			"attack": 4,
 			"speed": 8,
 			"reactivity": 5
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg5-2.ccbi"
 		}
 	},
 	{
@@ -1833,10 +1833,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand5.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand5-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -1849,6 +1845,10 @@ exports.data =[
 			"speed": 7,
 			"strong": 5,
 			"accuracy": 8
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand5-2.ccbi"
 		},
 		"iconf": "epchest5.png",
 		"iconm": "epchest5-2.png"
@@ -2036,10 +2036,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg6.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg6-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -2052,6 +2048,10 @@ exports.data =[
 			"strong": 6,
 			"reactivity": 6,
 			"critical": 6
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg6-2.ccbi"
 		}
 	},
 	{
@@ -2062,10 +2062,6 @@ exports.data =[
 		"description": "魔法师资历的证明，略显过时但品质不凡",
 		"sellprice": 2000,
 		"effectf": {
-			"part": "lefthand",
-			"file": "mage-lefthand6.ccbi"
-		},
-		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
 		},
@@ -2080,6 +2076,10 @@ exports.data =[
 			"speed": 6,
 			"accuracy": 6,
 			"critical": 5
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand6.ccbi"
 		},
 		"iconf": "emchest6.png",
 		"iconm": "emchest6-2.png"
@@ -2149,10 +2149,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg6.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg6-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -2163,6 +2159,10 @@ exports.data =[
 			"attack": 5,
 			"speed": 11,
 			"reactivity": 7
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg6-2.ccbi"
 		}
 	},
 	{
@@ -2176,10 +2176,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand6.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand6-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -2191,6 +2187,10 @@ exports.data =[
 			"speed": 9,
 			"strong": 6,
 			"accuracy": 10
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand6-2.ccbi"
 		},
 		"iconf": "epchest6.png",
 		"iconm": "epchest6-2.png"
@@ -3339,10 +3339,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg5.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg5-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -3356,6 +3352,10 @@ exports.data =[
 			"strong": 6,
 			"reactivity": 6,
 			"critical": 6
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg5-2.ccbi"
 		}
 	},
 	{
@@ -3366,10 +3366,6 @@ exports.data =[
 		"description": "魔法师代代相传的法袍",
 		"sellprice": 1800,
 		"effectf": {
-			"part": "lefthand",
-			"file": "mage-lefthand5.ccbi"
-		},
-		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
 		},
@@ -3385,6 +3381,10 @@ exports.data =[
 			"speed": 6,
 			"accuracy": 6,
 			"critical": 5
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand5.ccbi"
 		},
 		"iconf": "emchest5.png",
 		"iconm": "emchest5-2.png"
@@ -3456,10 +3456,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg5.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg5-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -3471,6 +3467,10 @@ exports.data =[
 			"attack": 5,
 			"speed": 11,
 			"reactivity": 7
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg5-2.ccbi"
 		}
 	},
 	{
@@ -3484,10 +3484,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand5.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand5-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -3500,6 +3496,10 @@ exports.data =[
 			"speed": 9,
 			"strong": 6,
 			"accuracy": 10
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand5-2.ccbi"
 		},
 		"iconf": "epchest5.png",
 		"iconm": "epchest5-2.png"
@@ -3687,10 +3687,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg6.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg6-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -3704,6 +3700,10 @@ exports.data =[
 			"strong": 7,
 			"reactivity": 8,
 			"critical": 8
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg6-2.ccbi"
 		}
 	},
 	{
@@ -3714,10 +3714,6 @@ exports.data =[
 		"description": "魔法师资历的证明，略显过时但品质不凡",
 		"sellprice": 2500,
 		"effectf": {
-			"part": "lefthand",
-			"file": "mage-lefthand6.ccbi"
-		},
-		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
 		},
@@ -3733,6 +3729,10 @@ exports.data =[
 			"speed": 7,
 			"accuracy": 8,
 			"critical": 7
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand6.ccbi"
 		},
 		"iconf": "emchest6.png",
 		"iconm": "emchest6-2.png"
@@ -3802,10 +3802,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg6.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg6-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -3817,6 +3813,10 @@ exports.data =[
 			"attack": 6,
 			"speed": 14,
 			"reactivity": 8
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg6-2.ccbi"
 		}
 	},
 	{
@@ -3830,10 +3830,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand6.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand6-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -3846,6 +3842,10 @@ exports.data =[
 			"speed": 11,
 			"strong": 8,
 			"accuracy": 12
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand6-2.ccbi"
 		},
 		"iconf": "epchest6.png",
 		"iconm": "epchest6-2.png"
@@ -4033,10 +4033,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg7.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg7-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -4049,6 +4045,10 @@ exports.data =[
 			"strong": 8,
 			"reactivity": 9,
 			"critical": 9
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg7-2.ccbi"
 		}
 	},
 	{
@@ -4062,10 +4062,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "mage-lefthand7.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "mage-lefthand7-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -4077,6 +4073,10 @@ exports.data =[
 			"speed": 8,
 			"accuracy": 10,
 			"critical": 9
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand7-2.ccbi"
 		},
 		"iconf": "emchest7.png",
 		"iconm": "emchest7-2.png"
@@ -4146,10 +4146,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg7.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg7-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -4160,6 +4156,10 @@ exports.data =[
 			"attack": 7,
 			"speed": 17,
 			"reactivity": 10
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg7-2.ccbi"
 		}
 	},
 	{
@@ -4173,10 +4173,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand7.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand7-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -4188,6 +4184,10 @@ exports.data =[
 			"speed": 13,
 			"strong": 10,
 			"accuracy": 15
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand7-2.ccbi"
 		},
 		"iconf": "epchest7.png",
 		"iconm": "epchest7-2.png"
@@ -5015,10 +5015,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg5.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg5-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -5032,6 +5028,10 @@ exports.data =[
 			"strong": 7,
 			"reactivity": 8,
 			"critical": 8
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg5-2.ccbi"
 		}
 	},
 	{
@@ -5042,10 +5042,6 @@ exports.data =[
 		"description": "魔法师代代相传的法袍",
 		"sellprice": 2000,
 		"effectf": {
-			"part": "lefthand",
-			"file": "mage-lefthand5.ccbi"
-		},
-		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
 		},
@@ -5061,6 +5057,10 @@ exports.data =[
 			"speed": 7,
 			"accuracy": 8,
 			"critical": 7
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand5.ccbi"
 		},
 		"iconf": "emchest5.png",
 		"iconm": "emchest5-2.png"
@@ -5132,10 +5132,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg5.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg5-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -5147,6 +5143,10 @@ exports.data =[
 			"attack": 6,
 			"speed": 14,
 			"reactivity": 8
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg5-2.ccbi"
 		}
 	},
 	{
@@ -5160,10 +5160,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand5.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand5-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -5176,6 +5172,10 @@ exports.data =[
 			"speed": 11,
 			"strong": 8,
 			"accuracy": 12
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand5-2.ccbi"
 		},
 		"iconf": "epchest5.png",
 		"iconm": "epchest5-2.png"
@@ -5363,10 +5363,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg6.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg6-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -5380,6 +5376,10 @@ exports.data =[
 			"strong": 8,
 			"reactivity": 9,
 			"critical": 9
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg6-2.ccbi"
 		}
 	},
 	{
@@ -5390,10 +5390,6 @@ exports.data =[
 		"description": "魔法师资历的证明，略显过时但品质不凡",
 		"sellprice": 2800,
 		"effectf": {
-			"part": "lefthand",
-			"file": "mage-lefthand6.ccbi"
-		},
-		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
 		},
@@ -5409,6 +5405,10 @@ exports.data =[
 			"speed": 8,
 			"accuracy": 10,
 			"critical": 9
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand6.ccbi"
 		},
 		"iconf": "emchest6.png",
 		"iconm": "emchest6-2.png"
@@ -5480,10 +5480,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg6.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg6-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -5495,6 +5491,10 @@ exports.data =[
 			"attack": 7,
 			"speed": 17,
 			"reactivity": 10
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg6-2.ccbi"
 		}
 	},
 	{
@@ -5508,10 +5508,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand6.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand6-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -5524,6 +5520,10 @@ exports.data =[
 			"speed": 13,
 			"strong": 10,
 			"accuracy": 15
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand6-2.ccbi"
 		},
 		"iconf": "epchest6.png",
 		"iconm": "epchest6-2.png"
@@ -5711,10 +5711,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg7.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg7-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -5728,6 +5724,10 @@ exports.data =[
 			"strong": 10,
 			"reactivity": 11,
 			"critical": 11
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg7-2.ccbi"
 		}
 	},
 	{
@@ -5741,10 +5741,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "mage-lefthand7.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "mage-lefthand7-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -5757,6 +5753,10 @@ exports.data =[
 			"speed": 10,
 			"accuracy": 11,
 			"critical": 11
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand7-2.ccbi"
 		},
 		"iconf": "emchest7.png",
 		"iconm": "emchest7-2.png"
@@ -5828,10 +5828,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg7.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg7-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -5843,6 +5839,10 @@ exports.data =[
 			"attack": 8,
 			"speed": 21,
 			"reactivity": 11
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg7-2.ccbi"
 		}
 	},
 	{
@@ -5856,10 +5856,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand7.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand7-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -5872,6 +5868,10 @@ exports.data =[
 			"speed": 16,
 			"strong": 12,
 			"accuracy": 18
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand7-2.ccbi"
 		},
 		"iconf": "epchest7.png",
 		"iconm": "epchest7-2.png"
@@ -6059,10 +6059,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg8.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg8-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -6075,6 +6071,10 @@ exports.data =[
 			"strong": 11,
 			"reactivity": 13,
 			"critical": 13
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg8-2.ccbi"
 		}
 	},
 	{
@@ -6088,10 +6088,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "mage-lefthand8.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "mage-lefthand8-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -6103,6 +6099,10 @@ exports.data =[
 			"speed": 11,
 			"accuracy": 13,
 			"critical": 13
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand8-2.ccbi"
 		},
 		"iconf": "emchest8.png",
 		"iconm": "emchest8-2.png"
@@ -6172,10 +6172,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg8.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg8-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -6186,6 +6182,10 @@ exports.data =[
 			"attack": 9,
 			"speed": 24,
 			"reactivity": 12
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg8-2.ccbi"
 		}
 	},
 	{
@@ -6199,10 +6199,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand8.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand8-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -6214,6 +6210,10 @@ exports.data =[
 			"speed": 19,
 			"strong": 14,
 			"accuracy": 21
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand8-2.ccbi"
 		},
 		"iconf": "epchest8.png",
 		"iconm": "epchest8-2.png"
@@ -6711,10 +6711,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg5.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg5-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -6728,6 +6724,10 @@ exports.data =[
 			"strong": 8,
 			"reactivity": 9,
 			"critical": 9
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg5-2.ccbi"
 		}
 	},
 	{
@@ -6738,10 +6738,6 @@ exports.data =[
 		"description": "魔法师代代相传的法袍",
 		"sellprice": 2300,
 		"effectf": {
-			"part": "lefthand",
-			"file": "mage-lefthand5.ccbi"
-		},
-		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
 		},
@@ -6757,6 +6753,10 @@ exports.data =[
 			"speed": 8,
 			"accuracy": 10,
 			"critical": 9
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand5.ccbi"
 		},
 		"iconf": "emchest5.png",
 		"iconm": "emchest5-2.png"
@@ -6827,10 +6827,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg5.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg5-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -6842,6 +6838,10 @@ exports.data =[
 			"attack": 7,
 			"speed": 17,
 			"reactivity": 10
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg5-2.ccbi"
 		}
 	},
 	{
@@ -6855,10 +6855,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand5.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand5-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -6871,6 +6867,10 @@ exports.data =[
 			"speed": 13,
 			"strong": 10,
 			"accuracy": 15
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand5-2.ccbi"
 		},
 		"iconf": "epchest5.png",
 		"iconm": "epchest5-2.png"
@@ -7058,10 +7058,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg6.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg6-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -7075,6 +7071,10 @@ exports.data =[
 			"strong": 10,
 			"reactivity": 11,
 			"critical": 11
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg6-2.ccbi"
 		}
 	},
 	{
@@ -7085,10 +7085,6 @@ exports.data =[
 		"description": "魔法师资历的证明，略显过时但品质不凡",
 		"sellprice": 3000,
 		"effectf": {
-			"part": "lefthand",
-			"file": "mage-lefthand6.ccbi"
-		},
-		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
 		},
@@ -7104,6 +7100,10 @@ exports.data =[
 			"speed": 10,
 			"accuracy": 11,
 			"critical": 11
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand6.ccbi"
 		},
 		"iconf": "emchest6.png",
 		"iconm": "emchest6-2.png"
@@ -7175,10 +7175,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg6.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg6-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -7190,6 +7186,10 @@ exports.data =[
 			"attack": 8,
 			"speed": 21,
 			"reactivity": 11
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg6-2.ccbi"
 		}
 	},
 	{
@@ -7203,10 +7203,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand6.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand6-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -7219,6 +7215,10 @@ exports.data =[
 			"speed": 16,
 			"strong": 12,
 			"accuracy": 18
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand6-2.ccbi"
 		},
 		"iconf": "epchest6.png",
 		"iconm": "epchest6-2.png"
@@ -7406,10 +7406,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg7.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg7-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -7423,6 +7419,10 @@ exports.data =[
 			"strong": 11,
 			"reactivity": 13,
 			"critical": 13
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg7-2.ccbi"
 		}
 	},
 	{
@@ -7436,10 +7436,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "mage-lefthand7.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "mage-lefthand7-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -7452,6 +7448,10 @@ exports.data =[
 			"speed": 11,
 			"accuracy": 13,
 			"critical": 13
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand7-2.ccbi"
 		},
 		"iconf": "emchest7.png",
 		"iconm": "emchest7-2.png"
@@ -7523,10 +7523,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg7.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg7-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -7538,6 +7534,10 @@ exports.data =[
 			"attack": 9,
 			"speed": 24,
 			"reactivity": 12
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg7-2.ccbi"
 		}
 	},
 	{
@@ -7551,10 +7551,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand7.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand7-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -7567,6 +7563,10 @@ exports.data =[
 			"speed": 19,
 			"strong": 14,
 			"accuracy": 21
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand7-2.ccbi"
 		},
 		"iconf": "epchest7.png",
 		"iconm": "epchest7-2.png"
@@ -7754,10 +7754,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg8.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg8-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -7771,6 +7767,10 @@ exports.data =[
 			"strong": 13,
 			"reactivity": 14,
 			"critical": 15
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg8-2.ccbi"
 		}
 	},
 	{
@@ -7784,10 +7784,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "mage-lefthand8.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "mage-lefthand8-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -7800,6 +7796,10 @@ exports.data =[
 			"speed": 13,
 			"accuracy": 14,
 			"critical": 15
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand8-2.ccbi"
 		},
 		"iconf": "emchest8.png",
 		"iconm": "emchest8-2.png"
@@ -7871,10 +7871,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg8.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg8-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -7886,6 +7882,10 @@ exports.data =[
 			"attack": 10,
 			"speed": 27,
 			"reactivity": 14
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg8-2.ccbi"
 		}
 	},
 	{
@@ -7899,10 +7899,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand8.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand8-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -7915,6 +7911,10 @@ exports.data =[
 			"speed": 22,
 			"strong": 16,
 			"accuracy": 25
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand8-2.ccbi"
 		},
 		"iconf": "epchest8.png",
 		"iconm": "epchest8-2.png"
@@ -8095,10 +8095,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg9.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg9-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -8111,6 +8107,10 @@ exports.data =[
 			"strong": 14,
 			"reactivity": 17,
 			"critical": 17
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg9-2.ccbi"
 		}
 	},
 	{
@@ -8124,10 +8124,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "mage-lefthand9.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "mage-lefthand9-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -8139,6 +8135,10 @@ exports.data =[
 			"speed": 14,
 			"accuracy": 17,
 			"critical": 16
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand9-2.ccbi"
 		},
 		"iconf": "emchest9.png",
 		"iconm": "emchest9-2.png"
@@ -8208,10 +8208,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg9.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg9-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -8222,6 +8218,10 @@ exports.data =[
 			"attack": 11,
 			"speed": 32,
 			"reactivity": 16
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg9-2.ccbi"
 		}
 	},
 	{
@@ -8235,10 +8235,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand9.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand9-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -8250,6 +8246,10 @@ exports.data =[
 			"speed": 26,
 			"strong": 18,
 			"accuracy": 30
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand9-2.ccbi"
 		},
 		"iconf": "epchest9.png",
 		"iconm": "epchest9-2.png"
@@ -8423,10 +8423,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg5.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg5-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -8440,6 +8436,10 @@ exports.data =[
 			"strong": 10,
 			"reactivity": 11,
 			"critical": 11
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg5-2.ccbi"
 		}
 	},
 	{
@@ -8450,10 +8450,6 @@ exports.data =[
 		"description": "魔法师代代相传的法袍",
 		"sellprice": 2500,
 		"effectf": {
-			"part": "lefthand",
-			"file": "mage-lefthand5.ccbi"
-		},
-		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
 		},
@@ -8469,6 +8465,10 @@ exports.data =[
 			"speed": 10,
 			"accuracy": 11,
 			"critical": 11
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand5.ccbi"
 		},
 		"iconf": "emchest5.png",
 		"iconm": "emchest5-2.png"
@@ -8540,10 +8540,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg5.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg5-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -8555,6 +8551,10 @@ exports.data =[
 			"attack": 8,
 			"speed": 21,
 			"reactivity": 11
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg5-2.ccbi"
 		}
 	},
 	{
@@ -8568,10 +8568,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand5.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand5-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -8584,6 +8580,10 @@ exports.data =[
 			"speed": 16,
 			"strong": 12,
 			"accuracy": 18
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand5-2.ccbi"
 		},
 		"iconf": "epchest5.png",
 		"iconm": "epchest5-2.png"
@@ -8771,10 +8771,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg6.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg6-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -8788,6 +8784,10 @@ exports.data =[
 			"strong": 11,
 			"reactivity": 13,
 			"critical": 13
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg6-2.ccbi"
 		}
 	},
 	{
@@ -8798,10 +8798,6 @@ exports.data =[
 		"description": "魔法师资历的证明，略显过时但品质不凡",
 		"sellprice": 3300,
 		"effectf": {
-			"part": "lefthand",
-			"file": "mage-lefthand6.ccbi"
-		},
-		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
 		},
@@ -8817,6 +8813,10 @@ exports.data =[
 			"speed": 11,
 			"accuracy": 13,
 			"critical": 13
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand6.ccbi"
 		},
 		"iconf": "emchest6.png",
 		"iconm": "emchest6-2.png"
@@ -8887,10 +8887,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg6.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg6-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -8902,6 +8898,10 @@ exports.data =[
 			"attack": 9,
 			"speed": 24,
 			"reactivity": 12
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg6-2.ccbi"
 		}
 	},
 	{
@@ -8915,10 +8915,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand6.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand6-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -8931,6 +8927,10 @@ exports.data =[
 			"speed": 19,
 			"strong": 14,
 			"accuracy": 21
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand6-2.ccbi"
 		},
 		"iconf": "epchest6.png",
 		"iconm": "epchest6-2.png"
@@ -9118,10 +9118,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg7.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg7-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -9135,6 +9131,10 @@ exports.data =[
 			"strong": 13,
 			"reactivity": 14,
 			"critical": 15
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg7-2.ccbi"
 		}
 	},
 	{
@@ -9148,10 +9148,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "mage-lefthand7.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "mage-lefthand7-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -9164,6 +9160,10 @@ exports.data =[
 			"speed": 13,
 			"accuracy": 14,
 			"critical": 15
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand7-2.ccbi"
 		},
 		"iconf": "emchest7.png",
 		"iconm": "emchest7-2.png"
@@ -9235,10 +9235,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg7.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg7-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -9250,6 +9246,10 @@ exports.data =[
 			"attack": 10,
 			"speed": 27,
 			"reactivity": 14
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg7-2.ccbi"
 		}
 	},
 	{
@@ -9263,10 +9263,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand7.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand7-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -9279,6 +9275,10 @@ exports.data =[
 			"speed": 22,
 			"strong": 16,
 			"accuracy": 25
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand7-2.ccbi"
 		},
 		"iconf": "epchest7.png",
 		"iconm": "epchest7-2.png"
@@ -9466,10 +9466,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg8.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg8-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -9483,6 +9479,10 @@ exports.data =[
 			"strong": 14,
 			"reactivity": 17,
 			"critical": 17
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg8-2.ccbi"
 		}
 	},
 	{
@@ -9496,10 +9496,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "mage-lefthand8.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "mage-lefthand8-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -9512,6 +9508,10 @@ exports.data =[
 			"speed": 14,
 			"accuracy": 17,
 			"critical": 16
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand8-2.ccbi"
 		},
 		"iconf": "emchest8.png",
 		"iconm": "emchest8-2.png"
@@ -9583,10 +9583,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg8.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg8-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -9598,6 +9594,10 @@ exports.data =[
 			"attack": 11,
 			"speed": 32,
 			"reactivity": 16
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg8-2.ccbi"
 		}
 	},
 	{
@@ -9611,10 +9611,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand8.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand8-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -9627,6 +9623,10 @@ exports.data =[
 			"speed": 26,
 			"strong": 18,
 			"accuracy": 30
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand8-2.ccbi"
 		},
 		"iconf": "epchest8.png",
 		"iconm": "epchest8-2.png"
@@ -9807,10 +9807,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg9.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg9-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -9824,6 +9820,10 @@ exports.data =[
 			"strong": 16,
 			"reactivity": 19,
 			"critical": 19
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg9-2.ccbi"
 		}
 	},
 	{
@@ -9837,10 +9837,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "mage-lefthand9.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "mage-lefthand9-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -9853,6 +9849,10 @@ exports.data =[
 			"speed": 16,
 			"accuracy": 19,
 			"critical": 18
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand9-2.ccbi"
 		},
 		"iconf": "emchest9.png",
 		"iconm": "emchest9-2.png"
@@ -9924,10 +9924,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg9.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg9-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -9939,6 +9935,10 @@ exports.data =[
 			"attack": 12,
 			"speed": 36,
 			"reactivity": 19
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg9-2.ccbi"
 		}
 	},
 	{
@@ -9952,10 +9952,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand9.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand9-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -9968,6 +9964,10 @@ exports.data =[
 			"speed": 29,
 			"strong": 20,
 			"accuracy": 35
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand9-2.ccbi"
 		},
 		"iconf": "epchest9.png",
 		"iconm": "epchest9-2.png"
@@ -10147,10 +10147,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "mage-rightleg10.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "mage-rightleg10-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -10163,6 +10159,10 @@ exports.data =[
 			"strong": 18,
 			"reactivity": 21,
 			"critical": 22
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "mage-rightleg10-2.ccbi"
 		}
 	},
 	{
@@ -10176,10 +10176,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "mage-lefthand10.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "mage-lefthand10-2.ccbi"
-		},
 		"classLimit": [
 			1
 		],
@@ -10191,6 +10187,10 @@ exports.data =[
 			"speed": 18,
 			"accuracy": 21,
 			"critical": 21
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "mage-lefthand10-2.ccbi"
 		},
 		"iconf": "emchest10.png",
 		"iconm": "emchest10-2.png"
@@ -10260,10 +10260,6 @@ exports.data =[
 			"part": "rightleg",
 			"file": "priest-rightleg10.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "priest-rightleg10-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -10274,6 +10270,10 @@ exports.data =[
 			"attack": 13,
 			"speed": 42,
 			"reactivity": 21
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "priest-rightleg10-2.ccbi"
 		}
 	},
 	{
@@ -10287,10 +10287,6 @@ exports.data =[
 			"part": "lefthand",
 			"file": "priest-lefthand10.ccbi"
 		},
-		"effectm": {
-			"part": "lefthand",
-			"file": "priest-lefthand10-2.ccbi"
-		},
 		"classLimit": [
 			2
 		],
@@ -10302,6 +10298,10 @@ exports.data =[
 			"speed": 32,
 			"strong": 22,
 			"accuracy": 39
+		},
+		"effectm": {
+			"part": "lefthand",
+			"file": "priest-lefthand10-2.ccbi"
 		},
 		"iconf": "epchest10.png",
 		"iconm": "epchest10-2.png"
@@ -12837,13 +12837,13 @@ exports.data =[
 			"part": "rightleg",
 			"file": "ff1-rightleg-c.ccbi"
 		},
-		"effectm": {
-			"part": "rightleg",
-			"file": "fm1-rightleg-c.ccbi"
-		},
 		"basic_properties": {
 			"health": 30,
 			"attack": 8
+		},
+		"effectm": {
+			"part": "rightleg",
+			"file": "fm1-rightleg-c.ccbi"
 		},
 		"iconf": "rfasion-female1-cloth.png",
 		"iconm": "rfasion-male1-cloth.png",
@@ -12883,14 +12883,14 @@ exports.data =[
 		"subcategory": 0,
 		"description": "内含金块X10（每日限购1个）",
 		"quality": 1,
+		"storeOnly": true,
 		"prize": [
 			{
 				"type": 0,
 				"value": 28,
 				"count": 10
 			}
-		],
-		"storeOnly": true
+		]
 	},
 	{
 		"classId": 554,
@@ -14720,5 +14720,3184 @@ exports.data =[
 			"accuracy": 26,
 			"critical": 11
 		}
+	},
+	{
+		"classId": 652,
+		"label": "法师护符",
+		"icon": "emn011.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够提升法术伤害的护身符",
+		"sellprice": 50,
+		"classLimit": [
+			1
+		],
+		"quality": 0,
+		"rank": 1,
+		"basic_properties": {
+			"health": 1,
+			"speed": 1,
+			"strong": 1,
+			"accuracy": 1,
+			"critical": 1
+		}
+	},
+	{
+		"classId": 653,
+		"label": "初阶护符",
+		"icon": "emn011.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够提升法术伤害的护身符",
+		"sellprice": 100,
+		"classLimit": [
+			1
+		],
+		"quality": 0,
+		"rank": 2,
+		"basic_properties": {
+			"health": 3,
+			"attack": 1,
+			"speed": 2,
+			"strong": 2,
+			"accuracy": 2,
+			"critical": 2
+		}
+	},
+	{
+		"classId": 654,
+		"label": "见习护符",
+		"icon": "emn011.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够提升法术伤害的护身符",
+		"sellprice": 200,
+		"classLimit": [
+			1
+		],
+		"quality": 0,
+		"rank": 3,
+		"basic_properties": {
+			"health": 4,
+			"attack": 1,
+			"speed": 3,
+			"strong": 3,
+			"accuracy": 3,
+			"critical": 3
+		}
+	},
+	{
+		"classId": 655,
+		"label": "魔力护符",
+		"icon": "emn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升伤害的魔法护符",
+		"sellprice": 400,
+		"classLimit": [
+			1
+		],
+		"quality": 0,
+		"rank": 4,
+		"basic_properties": {
+			"health": 6,
+			"attack": 3,
+			"speed": 4,
+			"strong": 4,
+			"accuracy": 4,
+			"critical": 4
+		}
+	},
+	{
+		"classId": 656,
+		"label": "魔导护符",
+		"icon": "emn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升伤害的魔法护符",
+		"sellprice": 800,
+		"classLimit": [
+			1
+		],
+		"quality": 0,
+		"rank": 5,
+		"basic_properties": {
+			"health": 8,
+			"attack": 4,
+			"speed": 6,
+			"strong": 5,
+			"accuracy": 6,
+			"critical": 6
+		}
+	},
+	{
+		"classId": 657,
+		"label": "长者护符",
+		"icon": "emn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升伤害的魔法护符",
+		"sellprice": 1200,
+		"classLimit": [
+			1
+		],
+		"quality": 0,
+		"rank": 6,
+		"basic_properties": {
+			"health": 10,
+			"attack": 5,
+			"speed": 8,
+			"strong": 6,
+			"accuracy": 8,
+			"critical": 7
+		}
+	},
+	{
+		"classId": 658,
+		"label": "初阶护符（优质）",
+		"icon": "emn011.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够提升法术伤害的护身符",
+		"sellprice": 100,
+		"classLimit": [
+			1
+		],
+		"quality": 1,
+		"rank": 2,
+		"basic_properties": {
+			"health": 4,
+			"attack": 1,
+			"speed": 3,
+			"strong": 3,
+			"accuracy": 3,
+			"critical": 3
+		}
+	},
+	{
+		"classId": 659,
+		"label": "见习护符（优质）",
+		"icon": "emn011.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够提升法术伤害的护身符",
+		"sellprice": 200,
+		"classLimit": [
+			1
+		],
+		"quality": 1,
+		"rank": 3,
+		"basic_properties": {
+			"health": 6,
+			"attack": 3,
+			"speed": 4,
+			"strong": 4,
+			"accuracy": 4,
+			"critical": 4
+		}
+	},
+	{
+		"classId": 660,
+		"label": "魔力护符（优质）",
+		"icon": "emn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升伤害的魔法护符",
+		"sellprice": 400,
+		"classLimit": [
+			1
+		],
+		"quality": 1,
+		"rank": 4,
+		"basic_properties": {
+			"health": 8,
+			"attack": 4,
+			"speed": 6,
+			"strong": 5,
+			"accuracy": 6,
+			"critical": 6
+		}
+	},
+	{
+		"classId": 661,
+		"label": "魔导护符（优质）",
+		"icon": "emn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升伤害的魔法护符",
+		"sellprice": 800,
+		"classLimit": [
+			1
+		],
+		"quality": 1,
+		"rank": 5,
+		"basic_properties": {
+			"health": 10,
+			"attack": 5,
+			"speed": 8,
+			"strong": 6,
+			"accuracy": 8,
+			"critical": 7
+		}
+	},
+	{
+		"classId": 662,
+		"label": "长者护符（优质）",
+		"icon": "emn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升伤害的魔法护符",
+		"sellprice": 1200,
+		"classLimit": [
+			1
+		],
+		"quality": 1,
+		"rank": 6,
+		"basic_properties": {
+			"health": 13,
+			"attack": 6,
+			"speed": 9,
+			"strong": 8,
+			"accuracy": 9,
+			"critical": 9
+		}
+	},
+	{
+		"classId": 663,
+		"label": "驱魔护符（优质）",
+		"icon": "emn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "拥有法术之力的强力魔法护符",
+		"sellprice": 2000,
+		"classLimit": [
+			1
+		],
+		"quality": 1,
+		"rank": 7,
+		"basic_properties": {
+			"health": 15,
+			"attack": 7,
+			"speed": 12,
+			"strong": 10,
+			"accuracy": 11,
+			"critical": 11
+		}
+	},
+	{
+		"classId": 664,
+		"label": "见习护符（稀有）",
+		"icon": "emn011.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够提升法术伤害的护身符",
+		"sellprice": 200,
+		"classLimit": [
+			1
+		],
+		"quality": 2,
+		"rank": 3,
+		"basic_properties": {
+			"health": 8,
+			"attack": 4,
+			"speed": 6,
+			"strong": 5,
+			"accuracy": 6,
+			"critical": 6
+		}
+	},
+	{
+		"classId": 665,
+		"label": "魔力护符（稀有）",
+		"icon": "emn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升伤害的魔法护符",
+		"sellprice": 400,
+		"classLimit": [
+			1
+		],
+		"quality": 2,
+		"rank": 4,
+		"basic_properties": {
+			"health": 10,
+			"attack": 5,
+			"speed": 8,
+			"strong": 6,
+			"accuracy": 8,
+			"critical": 7
+		}
+	},
+	{
+		"classId": 666,
+		"label": "魔导护符（稀有）",
+		"icon": "emn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升伤害的魔法护符",
+		"sellprice": 800,
+		"classLimit": [
+			1
+		],
+		"quality": 2,
+		"rank": 5,
+		"basic_properties": {
+			"health": 13,
+			"attack": 6,
+			"speed": 9,
+			"strong": 8,
+			"accuracy": 9,
+			"critical": 9
+		}
+	},
+	{
+		"classId": 667,
+		"label": "长者护符（稀有）",
+		"icon": "emn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升伤害的魔法护符",
+		"sellprice": 1200,
+		"classLimit": [
+			1
+		],
+		"quality": 2,
+		"rank": 6,
+		"basic_properties": {
+			"health": 15,
+			"attack": 7,
+			"speed": 12,
+			"strong": 10,
+			"accuracy": 11,
+			"critical": 11
+		}
+	},
+	{
+		"classId": 668,
+		"label": "驱魔护符（稀有）",
+		"icon": "emn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "拥有法术之力的强力魔法护符",
+		"sellprice": 2000,
+		"classLimit": [
+			1
+		],
+		"quality": 2,
+		"rank": 7,
+		"basic_properties": {
+			"health": 18,
+			"attack": 8,
+			"speed": 13,
+			"strong": 11,
+			"accuracy": 13,
+			"critical": 13
+		}
+	},
+	{
+		"classId": 669,
+		"label": "精灵护符（稀有）",
+		"icon": "emn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "拥有法术之力的强力魔法护符",
+		"sellprice": 2500,
+		"classLimit": [
+			1
+		],
+		"quality": 2,
+		"rank": 8,
+		"basic_properties": {
+			"health": 22,
+			"attack": 9,
+			"speed": 15,
+			"strong": 13,
+			"accuracy": 15,
+			"critical": 15
+		}
+	},
+	{
+		"classId": 670,
+		"label": "魔力护符（史诗）",
+		"icon": "emn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升伤害的魔法护符",
+		"sellprice": 400,
+		"classLimit": [
+			1
+		],
+		"quality": 3,
+		"rank": 4,
+		"basic_properties": {
+			"health": 13,
+			"attack": 6,
+			"speed": 9,
+			"strong": 8,
+			"accuracy": 9,
+			"critical": 9
+		}
+	},
+	{
+		"classId": 671,
+		"label": "魔导护符（史诗）",
+		"icon": "emn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升伤害的魔法护符",
+		"sellprice": 800,
+		"classLimit": [
+			1
+		],
+		"quality": 3,
+		"rank": 5,
+		"basic_properties": {
+			"health": 15,
+			"attack": 7,
+			"speed": 12,
+			"strong": 10,
+			"accuracy": 11,
+			"critical": 11
+		}
+	},
+	{
+		"classId": 672,
+		"label": "长者护符（史诗）",
+		"icon": "emn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升伤害的魔法护符",
+		"sellprice": 1200,
+		"classLimit": [
+			1
+		],
+		"quality": 3,
+		"rank": 6,
+		"basic_properties": {
+			"health": 18,
+			"attack": 8,
+			"speed": 13,
+			"strong": 11,
+			"accuracy": 13,
+			"critical": 13
+		}
+	},
+	{
+		"classId": 673,
+		"label": "驱魔护符（史诗）",
+		"icon": "emn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "拥有法术之力的强力魔法护符",
+		"sellprice": 2000,
+		"classLimit": [
+			1
+		],
+		"quality": 3,
+		"rank": 7,
+		"basic_properties": {
+			"health": 22,
+			"attack": 9,
+			"speed": 15,
+			"strong": 13,
+			"accuracy": 15,
+			"critical": 15
+		}
+	},
+	{
+		"classId": 674,
+		"label": "精灵护符（史诗）",
+		"icon": "emn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "拥有法术之力的强力魔法护符",
+		"sellprice": 2500,
+		"classLimit": [
+			1
+		],
+		"quality": 3,
+		"rank": 8,
+		"basic_properties": {
+			"health": 25,
+			"attack": 10,
+			"speed": 18,
+			"strong": 14,
+			"accuracy": 18,
+			"critical": 16
+		}
+	},
+	{
+		"classId": 675,
+		"label": "幽冥护符（史诗）",
+		"icon": "emn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "寄宿着巨大法术力量的稀有护身符",
+		"sellprice": 3000,
+		"classLimit": [
+			1
+		],
+		"quality": 3,
+		"rank": 9,
+		"basic_properties": {
+			"health": 28,
+			"attack": 12,
+			"speed": 20,
+			"strong": 17,
+			"accuracy": 20,
+			"critical": 17
+		}
+	},
+	{
+		"classId": 676,
+		"label": "魔导护符（传奇）",
+		"icon": "emn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升伤害的魔法护符",
+		"sellprice": 800,
+		"classLimit": [
+			1
+		],
+		"quality": 4,
+		"rank": 5,
+		"basic_properties": {
+			"health": 18,
+			"attack": 8,
+			"speed": 13,
+			"strong": 11,
+			"accuracy": 13,
+			"critical": 13
+		}
+	},
+	{
+		"classId": 677,
+		"label": "长者护符（传奇）",
+		"icon": "emn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升伤害的魔法护符",
+		"sellprice": 1200,
+		"classLimit": [
+			1
+		],
+		"quality": 4,
+		"rank": 6,
+		"basic_properties": {
+			"health": 22,
+			"attack": 9,
+			"speed": 15,
+			"strong": 13,
+			"accuracy": 15,
+			"critical": 15
+		}
+	},
+	{
+		"classId": 678,
+		"label": "驱魔护符（传奇）",
+		"icon": "emn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "拥有法术之力的强力魔法护符",
+		"sellprice": 2000,
+		"classLimit": [
+			1
+		],
+		"quality": 4,
+		"rank": 7,
+		"basic_properties": {
+			"health": 25,
+			"attack": 10,
+			"speed": 18,
+			"strong": 14,
+			"accuracy": 18,
+			"critical": 16
+		}
+	},
+	{
+		"classId": 679,
+		"label": "精灵护符（传奇）",
+		"icon": "emn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "拥有法术之力的强力魔法护符",
+		"sellprice": 2500,
+		"classLimit": [
+			1
+		],
+		"quality": 4,
+		"rank": 8,
+		"basic_properties": {
+			"health": 28,
+			"attack": 12,
+			"speed": 20,
+			"strong": 17,
+			"accuracy": 20,
+			"critical": 17
+		}
+	},
+	{
+		"classId": 680,
+		"label": "幽冥护符（传奇）",
+		"icon": "emn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "寄宿着巨大法术力量的稀有护身符",
+		"sellprice": 3000,
+		"classLimit": [
+			1
+		],
+		"quality": 4,
+		"rank": 9,
+		"basic_properties": {
+			"health": 31,
+			"attack": 14,
+			"speed": 22,
+			"strong": 19,
+			"accuracy": 22,
+			"critical": 19
+		}
+	},
+	{
+		"classId": 681,
+		"label": "混沌护符（传奇）",
+		"icon": "emn041.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "拥有能够媲美暗影之王的传奇护身符",
+		"sellprice": 4000,
+		"classLimit": [
+			1
+		],
+		"quality": 4,
+		"rank": 10,
+		"basic_properties": {
+			"health": 37,
+			"attack": 16,
+			"speed": 24,
+			"strong": 21,
+			"accuracy": 24,
+			"critical": 22
+		}
+	},
+	{
+		"classId": 682,
+		"label": "牧师之证",
+		"icon": "epn011.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "提升命中的护身符",
+		"sellprice": 50,
+		"classLimit": [
+			2
+		],
+		"quality": 0,
+		"rank": 1,
+		"basic_properties": {
+			"health": 2,
+			"strong": 1,
+			"reactivity": 1,
+			"accuracy": 1,
+			"critical": 1
+		}
+	},
+	{
+		"classId": 683,
+		"label": "救赎之证",
+		"icon": "epn011.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "提升命中的护身符",
+		"sellprice": 100,
+		"classLimit": [
+			2
+		],
+		"quality": 0,
+		"rank": 2,
+		"basic_properties": {
+			"health": 6,
+			"attack": 1,
+			"strong": 2,
+			"reactivity": 2,
+			"accuracy": 2,
+			"critical": 2
+		}
+	},
+	{
+		"classId": 684,
+		"label": "祷告之证",
+		"icon": "epn011.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "提升命中的护身符",
+		"sellprice": 200,
+		"classLimit": [
+			2
+		],
+		"quality": 0,
+		"rank": 3,
+		"basic_properties": {
+			"health": 8,
+			"attack": 1,
+			"strong": 3,
+			"reactivity": 3,
+			"accuracy": 4,
+			"critical": 3
+		}
+	},
+	{
+		"classId": 685,
+		"label": "祈愿之证",
+		"icon": "epn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升命中的护身符",
+		"sellprice": 400,
+		"classLimit": [
+			2
+		],
+		"quality": 0,
+		"rank": 4,
+		"basic_properties": {
+			"health": 11,
+			"attack": 1,
+			"strong": 4,
+			"reactivity": 4,
+			"accuracy": 6,
+			"critical": 4
+		}
+	},
+	{
+		"classId": 686,
+		"label": "侍僧之证",
+		"icon": "epn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升命中的护身符",
+		"sellprice": 800,
+		"classLimit": [
+			2
+		],
+		"quality": 0,
+		"rank": 5,
+		"basic_properties": {
+			"health": 13,
+			"attack": 2,
+			"strong": 6,
+			"reactivity": 5,
+			"accuracy": 8,
+			"critical": 5
+		}
+	},
+	{
+		"classId": 687,
+		"label": "预言之证",
+		"icon": "epn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升命中的护身符",
+		"sellprice": 1200,
+		"classLimit": [
+			2
+		],
+		"quality": 0,
+		"rank": 6,
+		"basic_properties": {
+			"health": 15,
+			"attack": 3,
+			"strong": 8,
+			"reactivity": 7,
+			"accuracy": 11,
+			"critical": 6
+		}
+	},
+	{
+		"classId": 688,
+		"label": "救赎之证（优质）",
+		"icon": "epn011.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "提升命中的护身符",
+		"sellprice": 100,
+		"classLimit": [
+			2
+		],
+		"quality": 1,
+		"rank": 2,
+		"basic_properties": {
+			"health": 8,
+			"attack": 1,
+			"strong": 3,
+			"reactivity": 3,
+			"accuracy": 4,
+			"critical": 3
+		}
+	},
+	{
+		"classId": 689,
+		"label": "祷告之证（优质）",
+		"icon": "epn011.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "提升命中的护身符",
+		"sellprice": 200,
+		"classLimit": [
+			2
+		],
+		"quality": 1,
+		"rank": 3,
+		"basic_properties": {
+			"health": 11,
+			"attack": 1,
+			"strong": 4,
+			"reactivity": 4,
+			"accuracy": 6,
+			"critical": 4
+		}
+	},
+	{
+		"classId": 690,
+		"label": "祈愿之证（优质）",
+		"icon": "epn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升命中的护身符",
+		"sellprice": 400,
+		"classLimit": [
+			2
+		],
+		"quality": 1,
+		"rank": 4,
+		"basic_properties": {
+			"health": 13,
+			"attack": 2,
+			"strong": 6,
+			"reactivity": 5,
+			"accuracy": 8,
+			"critical": 5
+		}
+	},
+	{
+		"classId": 691,
+		"label": "侍僧之证（优质）",
+		"icon": "epn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升命中的护身符",
+		"sellprice": 800,
+		"classLimit": [
+			2
+		],
+		"quality": 1,
+		"rank": 5,
+		"basic_properties": {
+			"health": 15,
+			"attack": 3,
+			"strong": 8,
+			"reactivity": 7,
+			"accuracy": 11,
+			"critical": 6
+		}
+	},
+	{
+		"classId": 692,
+		"label": "预言之证（优质）",
+		"icon": "epn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升命中的护身符",
+		"sellprice": 1200,
+		"classLimit": [
+			2
+		],
+		"quality": 1,
+		"rank": 6,
+		"basic_properties": {
+			"health": 21,
+			"attack": 4,
+			"strong": 9,
+			"reactivity": 9,
+			"accuracy": 14,
+			"critical": 8
+		}
+	},
+	{
+		"classId": 693,
+		"label": "神官之证（优质）",
+		"icon": "epn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能让人具备异常集中力的强力护身符",
+		"sellprice": 2000,
+		"classLimit": [
+			2
+		],
+		"quality": 1,
+		"rank": 7,
+		"basic_properties": {
+			"health": 25,
+			"attack": 5,
+			"strong": 11,
+			"reactivity": 10,
+			"accuracy": 18,
+			"critical": 10
+		}
+	},
+	{
+		"classId": 694,
+		"label": "祷告之证（稀有）",
+		"icon": "epn011.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "提升命中的护身符",
+		"sellprice": 200,
+		"classLimit": [
+			2
+		],
+		"quality": 2,
+		"rank": 3,
+		"basic_properties": {
+			"health": 13,
+			"attack": 2,
+			"strong": 6,
+			"reactivity": 5,
+			"accuracy": 8,
+			"critical": 5
+		}
+	},
+	{
+		"classId": 695,
+		"label": "祈愿之证（稀有）",
+		"icon": "epn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升命中的护身符",
+		"sellprice": 400,
+		"classLimit": [
+			2
+		],
+		"quality": 2,
+		"rank": 4,
+		"basic_properties": {
+			"health": 15,
+			"attack": 3,
+			"strong": 8,
+			"reactivity": 7,
+			"accuracy": 11,
+			"critical": 6
+		}
+	},
+	{
+		"classId": 696,
+		"label": "侍僧之证（稀有）",
+		"icon": "epn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升命中的护身符",
+		"sellprice": 800,
+		"classLimit": [
+			2
+		],
+		"quality": 2,
+		"rank": 5,
+		"basic_properties": {
+			"health": 21,
+			"attack": 4,
+			"strong": 9,
+			"reactivity": 9,
+			"accuracy": 14,
+			"critical": 8
+		}
+	},
+	{
+		"classId": 697,
+		"label": "预言之证（稀有）",
+		"icon": "epn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升命中的护身符",
+		"sellprice": 1200,
+		"classLimit": [
+			2
+		],
+		"quality": 2,
+		"rank": 6,
+		"basic_properties": {
+			"health": 25,
+			"attack": 5,
+			"strong": 11,
+			"reactivity": 10,
+			"accuracy": 18,
+			"critical": 10
+		}
+	},
+	{
+		"classId": 698,
+		"label": "神官之证（稀有）",
+		"icon": "epn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能让人具备异常集中力的强力护身符",
+		"sellprice": 2000,
+		"classLimit": [
+			2
+		],
+		"quality": 2,
+		"rank": 7,
+		"basic_properties": {
+			"health": 28,
+			"attack": 6,
+			"strong": 13,
+			"reactivity": 12,
+			"accuracy": 22,
+			"critical": 12
+		}
+	},
+	{
+		"classId": 699,
+		"label": "圣职之证（稀有）",
+		"icon": "epn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能让人具备异常集中力的强力护身符",
+		"sellprice": 2500,
+		"classLimit": [
+			2
+		],
+		"quality": 2,
+		"rank": 8,
+		"basic_properties": {
+			"health": 35,
+			"attack": 7,
+			"strong": 15,
+			"reactivity": 14,
+			"accuracy": 26,
+			"critical": 14
+		}
+	},
+	{
+		"classId": 700,
+		"label": "祈愿之证（史诗）",
+		"icon": "epn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升命中的护身符",
+		"sellprice": 400,
+		"classLimit": [
+			2
+		],
+		"quality": 3,
+		"rank": 4,
+		"basic_properties": {
+			"health": 21,
+			"attack": 4,
+			"strong": 9,
+			"reactivity": 9,
+			"accuracy": 14,
+			"critical": 8
+		}
+	},
+	{
+		"classId": 701,
+		"label": "侍僧之证（史诗）",
+		"icon": "epn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升命中的护身符",
+		"sellprice": 800,
+		"classLimit": [
+			2
+		],
+		"quality": 3,
+		"rank": 5,
+		"basic_properties": {
+			"health": 25,
+			"attack": 5,
+			"strong": 11,
+			"reactivity": 10,
+			"accuracy": 18,
+			"critical": 10
+		}
+	},
+	{
+		"classId": 702,
+		"label": "预言之证（史诗）",
+		"icon": "epn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升命中的护身符",
+		"sellprice": 1200,
+		"classLimit": [
+			2
+		],
+		"quality": 3,
+		"rank": 6,
+		"basic_properties": {
+			"health": 28,
+			"attack": 6,
+			"strong": 13,
+			"reactivity": 12,
+			"accuracy": 22,
+			"critical": 12
+		}
+	},
+	{
+		"classId": 703,
+		"label": "神官之证（史诗）",
+		"icon": "epn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能让人具备异常集中力的强力护身符",
+		"sellprice": 2000,
+		"classLimit": [
+			2
+		],
+		"quality": 3,
+		"rank": 7,
+		"basic_properties": {
+			"health": 35,
+			"attack": 7,
+			"strong": 15,
+			"reactivity": 14,
+			"accuracy": 26,
+			"critical": 14
+		}
+	},
+	{
+		"classId": 704,
+		"label": "圣职之证（史诗）",
+		"icon": "epn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能让人具备异常集中力的强力护身符",
+		"sellprice": 2500,
+		"classLimit": [
+			2
+		],
+		"quality": 3,
+		"rank": 8,
+		"basic_properties": {
+			"health": 40,
+			"attack": 8,
+			"strong": 17,
+			"reactivity": 16,
+			"accuracy": 30,
+			"critical": 16
+		}
+	},
+	{
+		"classId": 705,
+		"label": "光明之证（史诗）",
+		"icon": "epn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "寄宿着神秘专注力量的稀有护符",
+		"sellprice": 3000,
+		"classLimit": [
+			2
+		],
+		"quality": 3,
+		"rank": 9,
+		"basic_properties": {
+			"health": 45,
+			"attack": 9,
+			"strong": 19,
+			"reactivity": 18,
+			"accuracy": 34,
+			"critical": 18
+		}
+	},
+	{
+		"classId": 706,
+		"label": "侍僧之证（传奇）",
+		"icon": "epn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升命中的护身符",
+		"sellprice": 800,
+		"classLimit": [
+			2
+		],
+		"quality": 4,
+		"rank": 5,
+		"basic_properties": {
+			"health": 28,
+			"attack": 6,
+			"strong": 13,
+			"reactivity": 12,
+			"accuracy": 22,
+			"critical": 12
+		}
+	},
+	{
+		"classId": 707,
+		"label": "预言之证（传奇）",
+		"icon": "epn021.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能够大幅提升命中的护身符",
+		"sellprice": 1200,
+		"classLimit": [
+			2
+		],
+		"quality": 4,
+		"rank": 6,
+		"basic_properties": {
+			"health": 35,
+			"attack": 7,
+			"strong": 15,
+			"reactivity": 14,
+			"accuracy": 26,
+			"critical": 14
+		}
+	},
+	{
+		"classId": 708,
+		"label": "神官之证（传奇）",
+		"icon": "epn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能让人具备异常集中力的强力护身符",
+		"sellprice": 2000,
+		"classLimit": [
+			2
+		],
+		"quality": 4,
+		"rank": 7,
+		"basic_properties": {
+			"health": 40,
+			"attack": 8,
+			"strong": 17,
+			"reactivity": 16,
+			"accuracy": 30,
+			"critical": 16
+		}
+	},
+	{
+		"classId": 709,
+		"label": "圣职之证（传奇）",
+		"icon": "epn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "能让人具备异常集中力的强力护身符",
+		"sellprice": 2500,
+		"classLimit": [
+			2
+		],
+		"quality": 4,
+		"rank": 8,
+		"basic_properties": {
+			"health": 45,
+			"attack": 9,
+			"strong": 19,
+			"reactivity": 18,
+			"accuracy": 34,
+			"critical": 18
+		}
+	},
+	{
+		"classId": 710,
+		"label": "光明之证（传奇）",
+		"icon": "epn031.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "寄宿着神秘专注力量的稀有护符",
+		"sellprice": 3000,
+		"classLimit": [
+			2
+		],
+		"quality": 4,
+		"rank": 9,
+		"basic_properties": {
+			"health": 49,
+			"attack": 10,
+			"strong": 21,
+			"reactivity": 20,
+			"accuracy": 38,
+			"critical": 20
+		}
+	},
+	{
+		"classId": 711,
+		"label": "圣灵之证（传奇）",
+		"icon": "epn041.png",
+		"category": 1,
+		"subcategory": 5,
+		"description": "凝聚着神圣加护之力的传奇护身符",
+		"sellprice": 4000,
+		"classLimit": [
+			2
+		],
+		"quality": 4,
+		"rank": 10,
+		"basic_properties": {
+			"health": 56,
+			"attack": 11,
+			"strong": 23,
+			"reactivity": 22,
+			"accuracy": 41,
+			"critical": 22
+		}
+	},
+	{
+		"classId": 712,
+		"label": "吊丝的战士之戒",
+		"icon": "er011.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "非常吊丝的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 0,
+		"rank": 1,
+		"basic_properties": {
+			"health": 2,
+			"attack": 1,
+			"speed": 1,
+			"strong": 1,
+			"accuracy": 1,
+			"critical": 1
+		}
+	},
+	{
+		"classId": 713,
+		"label": "路人的战士之戒",
+		"icon": "er011.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "犹如路人一般的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 0,
+		"rank": 2,
+		"basic_properties": {
+			"health": 5,
+			"attack": 1,
+			"speed": 2,
+			"strong": 2,
+			"accuracy": 2,
+			"critical": 1
+		}
+	},
+	{
+		"classId": 714,
+		"label": "小清新的战士之戒",
+		"icon": "er011.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "微微小清新的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 0,
+		"rank": 3,
+		"basic_properties": {
+			"health": 5,
+			"attack": 2,
+			"speed": 3,
+			"strong": 3,
+			"accuracy": 3,
+			"critical": 1
+		}
+	},
+	{
+		"classId": 715,
+		"label": "微爽的战士之戒",
+		"icon": "er021.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "感受一下还是微爽的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 0,
+		"rank": 4,
+		"basic_properties": {
+			"health": 12,
+			"attack": 2,
+			"speed": 4,
+			"strong": 4,
+			"accuracy": 4,
+			"critical": 2
+		}
+	},
+	{
+		"classId": 716,
+		"label": "欢乐的战士之戒",
+		"icon": "er021.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "小欢乐的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 0,
+		"rank": 5,
+		"basic_properties": {
+			"health": 17,
+			"attack": 2,
+			"speed": 6,
+			"strong": 6,
+			"accuracy": 6,
+			"critical": 3
+		}
+	},
+	{
+		"classId": 717,
+		"label": "给力的战士之戒",
+		"icon": "er021.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "特给力的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 0,
+		"rank": 6,
+		"basic_properties": {
+			"health": 22,
+			"attack": 3,
+			"speed": 8,
+			"strong": 8,
+			"accuracy": 8,
+			"critical": 3
+		}
+	},
+	{
+		"classId": 718,
+		"label": "路人的战士之戒（优质）",
+		"icon": "er011.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "犹如路人一般的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 1,
+		"rank": 2,
+		"basic_properties": {
+			"health": 5,
+			"attack": 2,
+			"speed": 3,
+			"strong": 3,
+			"accuracy": 3,
+			"critical": 1
+		}
+	},
+	{
+		"classId": 719,
+		"label": "小清新的战士之戒（优质）",
+		"icon": "er011.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "微微小清新的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 1,
+		"rank": 3,
+		"basic_properties": {
+			"health": 12,
+			"attack": 2,
+			"speed": 4,
+			"strong": 4,
+			"accuracy": 4,
+			"critical": 2
+		}
+	},
+	{
+		"classId": 720,
+		"label": "微爽的战士之戒（优质）",
+		"icon": "er021.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "感受一下还是微爽的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 1,
+		"rank": 4,
+		"basic_properties": {
+			"health": 17,
+			"attack": 2,
+			"speed": 6,
+			"strong": 6,
+			"accuracy": 6,
+			"critical": 3
+		}
+	},
+	{
+		"classId": 721,
+		"label": "欢乐的战士之戒（优质）",
+		"icon": "er021.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "小欢乐的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 1,
+		"rank": 5,
+		"basic_properties": {
+			"health": 22,
+			"attack": 3,
+			"speed": 8,
+			"strong": 8,
+			"accuracy": 8,
+			"critical": 3
+		}
+	},
+	{
+		"classId": 722,
+		"label": "给力的战士之戒（优质）",
+		"icon": "er021.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "特给力的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 1,
+		"rank": 6,
+		"basic_properties": {
+			"health": 27,
+			"attack": 3,
+			"speed": 9,
+			"strong": 9,
+			"accuracy": 9,
+			"critical": 4
+		}
+	},
+	{
+		"classId": 723,
+		"label": "高端的战士之戒（优质）",
+		"icon": "er031.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "十分高端的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 1,
+		"rank": 7,
+		"basic_properties": {
+			"health": 33,
+			"attack": 4,
+			"speed": 11,
+			"strong": 10,
+			"accuracy": 11,
+			"critical": 5
+		}
+	},
+	{
+		"classId": 724,
+		"label": "小清新的战士之戒（稀有）",
+		"icon": "er011.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "微微小清新的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 2,
+		"rank": 3,
+		"basic_properties": {
+			"health": 17,
+			"attack": 2,
+			"speed": 6,
+			"strong": 6,
+			"accuracy": 6,
+			"critical": 3
+		}
+	},
+	{
+		"classId": 725,
+		"label": "微爽的战士之戒（稀有）",
+		"icon": "er021.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "感受一下还是微爽的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 2,
+		"rank": 4,
+		"basic_properties": {
+			"health": 22,
+			"attack": 3,
+			"speed": 8,
+			"strong": 8,
+			"accuracy": 8,
+			"critical": 3
+		}
+	},
+	{
+		"classId": 726,
+		"label": "欢乐的战士之戒（稀有）",
+		"icon": "er021.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "小欢乐的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 2,
+		"rank": 5,
+		"basic_properties": {
+			"health": 27,
+			"attack": 3,
+			"speed": 9,
+			"strong": 9,
+			"accuracy": 9,
+			"critical": 4
+		}
+	},
+	{
+		"classId": 727,
+		"label": "给力的战士之戒（稀有）",
+		"icon": "er021.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "特给力的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 2,
+		"rank": 6,
+		"basic_properties": {
+			"health": 33,
+			"attack": 4,
+			"speed": 11,
+			"strong": 10,
+			"accuracy": 11,
+			"critical": 5
+		}
+	},
+	{
+		"classId": 728,
+		"label": "高端的战士之戒（稀有）",
+		"icon": "er031.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "十分高端的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 2,
+		"rank": 7,
+		"basic_properties": {
+			"health": 36,
+			"attack": 4,
+			"speed": 13,
+			"strong": 12,
+			"accuracy": 12,
+			"critical": 6
+		}
+	},
+	{
+		"classId": 729,
+		"label": "大气的战士之戒（稀有）",
+		"icon": "er031.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "大气又上档次的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 2,
+		"rank": 8,
+		"basic_properties": {
+			"health": 43,
+			"attack": 4,
+			"speed": 15,
+			"strong": 14,
+			"accuracy": 13,
+			"critical": 7
+		}
+	},
+	{
+		"classId": 730,
+		"label": "微爽的战士之戒（史诗）",
+		"icon": "er021.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "感受一下还是微爽的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 3,
+		"rank": 4,
+		"basic_properties": {
+			"health": 27,
+			"attack": 3,
+			"speed": 9,
+			"strong": 9,
+			"accuracy": 9,
+			"critical": 4
+		}
+	},
+	{
+		"classId": 731,
+		"label": "欢乐的战士之戒（史诗）",
+		"icon": "er021.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "小欢乐的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 3,
+		"rank": 5,
+		"basic_properties": {
+			"health": 33,
+			"attack": 4,
+			"speed": 11,
+			"strong": 10,
+			"accuracy": 11,
+			"critical": 5
+		}
+	},
+	{
+		"classId": 732,
+		"label": "给力的战士之戒（史诗）",
+		"icon": "er021.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "特给力的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 3,
+		"rank": 6,
+		"basic_properties": {
+			"health": 36,
+			"attack": 4,
+			"speed": 13,
+			"strong": 12,
+			"accuracy": 12,
+			"critical": 6
+		}
+	},
+	{
+		"classId": 733,
+		"label": "高端的战士之戒（史诗）",
+		"icon": "er031.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "十分高端的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 3,
+		"rank": 7,
+		"basic_properties": {
+			"health": 43,
+			"attack": 4,
+			"speed": 15,
+			"strong": 14,
+			"accuracy": 13,
+			"critical": 7
+		}
+	},
+	{
+		"classId": 734,
+		"label": "大气的战士之戒（史诗）",
+		"icon": "er031.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "大气又上档次的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 3,
+		"rank": 8,
+		"basic_properties": {
+			"health": 53,
+			"attack": 5,
+			"speed": 17,
+			"strong": 16,
+			"accuracy": 14,
+			"critical": 8
+		}
+	},
+	{
+		"classId": 735,
+		"label": "酷炫的战士之戒（史诗）",
+		"icon": "er031.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "酷炫无比的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 3,
+		"rank": 9,
+		"basic_properties": {
+			"health": 60,
+			"attack": 6,
+			"speed": 20,
+			"strong": 18,
+			"accuracy": 16,
+			"critical": 9
+		}
+	},
+	{
+		"classId": 736,
+		"label": "欢乐的战士之戒（传奇）",
+		"icon": "er021.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "小欢乐的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 4,
+		"rank": 5,
+		"basic_properties": {
+			"health": 36,
+			"attack": 4,
+			"speed": 13,
+			"strong": 12,
+			"accuracy": 12,
+			"critical": 6
+		}
+	},
+	{
+		"classId": 737,
+		"label": "给力的战士之戒（传奇）",
+		"icon": "er021.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "特给力的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 4,
+		"rank": 6,
+		"basic_properties": {
+			"health": 43,
+			"attack": 4,
+			"speed": 15,
+			"strong": 14,
+			"accuracy": 13,
+			"critical": 7
+		}
+	},
+	{
+		"classId": 738,
+		"label": "高端的战士之戒（传奇）",
+		"icon": "er031.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "十分高端的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 4,
+		"rank": 7,
+		"basic_properties": {
+			"health": 53,
+			"attack": 5,
+			"speed": 17,
+			"strong": 16,
+			"accuracy": 14,
+			"critical": 8
+		}
+	},
+	{
+		"classId": 739,
+		"label": "大气的战士之戒（传奇）",
+		"icon": "er031.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "大气又上档次的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 4,
+		"rank": 8,
+		"basic_properties": {
+			"health": 60,
+			"attack": 6,
+			"speed": 20,
+			"strong": 18,
+			"accuracy": 16,
+			"critical": 9
+		}
+	},
+	{
+		"classId": 740,
+		"label": "酷炫的战士之戒（传奇）",
+		"icon": "er031.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "酷炫无比的战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 4,
+		"rank": 9,
+		"basic_properties": {
+			"health": 67,
+			"attack": 7,
+			"speed": 22,
+			"strong": 21,
+			"accuracy": 17,
+			"critical": 11
+		}
+	},
+	{
+		"classId": 741,
+		"label": "碉堡的战士之戒（传奇）",
+		"icon": "er041.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "碉堡威武的传奇战士戒指",
+		"classLimit": [
+			0
+		],
+		"quality": 4,
+		"rank": 10,
+		"basic_properties": {
+			"health": 76,
+			"attack": 7,
+			"speed": 23,
+			"strong": 24,
+			"accuracy": 19,
+			"critical": 12
+		}
+	},
+	{
+		"classId": 742,
+		"label": "吊丝的法师之戒",
+		"icon": "er012.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "非常吊丝的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 0,
+		"rank": 1,
+		"basic_properties": {
+			"health": 1,
+			"attack": 1,
+			"strong": 1,
+			"reactivity": 1,
+			"critical": 1
+		}
+	},
+	{
+		"classId": 743,
+		"label": "路人的法师之戒",
+		"icon": "er012.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "犹如路人一般的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 0,
+		"rank": 2,
+		"basic_properties": {
+			"health": 2,
+			"attack": 2,
+			"strong": 2,
+			"reactivity": 2,
+			"critical": 2
+		}
+	},
+	{
+		"classId": 744,
+		"label": "小清新的法师之戒",
+		"icon": "er012.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "微微小清新的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 0,
+		"rank": 3,
+		"basic_properties": {
+			"health": 3,
+			"attack": 3,
+			"strong": 3,
+			"reactivity": 3,
+			"critical": 3
+		}
+	},
+	{
+		"classId": 745,
+		"label": "微爽的法师之戒",
+		"icon": "er022.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "感受一下还是微爽的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 0,
+		"rank": 4,
+		"basic_properties": {
+			"health": 7,
+			"attack": 4,
+			"strong": 4,
+			"reactivity": 4,
+			"critical": 4
+		}
+	},
+	{
+		"classId": 746,
+		"label": "欢乐的法师之戒",
+		"icon": "er022.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "小欢乐的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 0,
+		"rank": 5,
+		"basic_properties": {
+			"health": 11,
+			"attack": 5,
+			"strong": 6,
+			"reactivity": 6,
+			"critical": 5
+		}
+	},
+	{
+		"classId": 747,
+		"label": "给力的法师之戒",
+		"icon": "er022.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "特给力的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 0,
+		"rank": 6,
+		"basic_properties": {
+			"health": 12,
+			"attack": 6,
+			"strong": 8,
+			"reactivity": 8,
+			"critical": 6
+		}
+	},
+	{
+		"classId": 748,
+		"label": "路人的法师之戒（优质）",
+		"icon": "er012.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "犹如路人一般的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 1,
+		"rank": 2,
+		"basic_properties": {
+			"health": 3,
+			"attack": 3,
+			"strong": 3,
+			"reactivity": 3,
+			"critical": 3
+		}
+	},
+	{
+		"classId": 749,
+		"label": "小清新的法师之戒（优质）",
+		"icon": "er012.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "微微小清新的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 1,
+		"rank": 3,
+		"basic_properties": {
+			"health": 7,
+			"attack": 4,
+			"strong": 4,
+			"reactivity": 4,
+			"critical": 4
+		}
+	},
+	{
+		"classId": 750,
+		"label": "微爽的法师之戒（优质）",
+		"icon": "er022.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "感受一下还是微爽的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 1,
+		"rank": 4,
+		"basic_properties": {
+			"health": 11,
+			"attack": 5,
+			"strong": 6,
+			"reactivity": 6,
+			"critical": 5
+		}
+	},
+	{
+		"classId": 751,
+		"label": "欢乐的法师之戒（优质）",
+		"icon": "er022.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "小欢乐的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 1,
+		"rank": 5,
+		"basic_properties": {
+			"health": 12,
+			"attack": 6,
+			"strong": 8,
+			"reactivity": 8,
+			"critical": 6
+		}
+	},
+	{
+		"classId": 752,
+		"label": "给力的法师之戒（优质）",
+		"icon": "er022.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "特给力的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 1,
+		"rank": 6,
+		"basic_properties": {
+			"health": 16,
+			"attack": 7,
+			"strong": 9,
+			"reactivity": 9,
+			"critical": 7
+		}
+	},
+	{
+		"classId": 753,
+		"label": "高端的法师之戒（优质）",
+		"icon": "er032.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "十分高端的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 1,
+		"rank": 7,
+		"basic_properties": {
+			"health": 18,
+			"attack": 8,
+			"strong": 11,
+			"reactivity": 12,
+			"critical": 8
+		}
+	},
+	{
+		"classId": 754,
+		"label": "小清新的法师之戒（稀有）",
+		"icon": "er012.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "微微小清新的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 2,
+		"rank": 3,
+		"basic_properties": {
+			"health": 11,
+			"attack": 5,
+			"strong": 6,
+			"reactivity": 6,
+			"critical": 5
+		}
+	},
+	{
+		"classId": 755,
+		"label": "微爽的法师之戒（稀有）",
+		"icon": "er022.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "感受一下还是微爽的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 2,
+		"rank": 4,
+		"basic_properties": {
+			"health": 12,
+			"attack": 6,
+			"strong": 8,
+			"reactivity": 8,
+			"critical": 6
+		}
+	},
+	{
+		"classId": 756,
+		"label": "欢乐的法师之戒（稀有）",
+		"icon": "er022.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "小欢乐的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 2,
+		"rank": 5,
+		"basic_properties": {
+			"health": 16,
+			"attack": 7,
+			"strong": 9,
+			"reactivity": 9,
+			"critical": 7
+		}
+	},
+	{
+		"classId": 757,
+		"label": "给力的法师之戒（稀有）",
+		"icon": "er022.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "特给力的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 2,
+		"rank": 6,
+		"basic_properties": {
+			"health": 18,
+			"attack": 8,
+			"strong": 11,
+			"reactivity": 12,
+			"critical": 8
+		}
+	},
+	{
+		"classId": 758,
+		"label": "高端的法师之戒（稀有）",
+		"icon": "er032.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "十分高端的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 2,
+		"rank": 7,
+		"basic_properties": {
+			"health": 21,
+			"attack": 10,
+			"strong": 13,
+			"reactivity": 13,
+			"critical": 11
+		}
+	},
+	{
+		"classId": 759,
+		"label": "大气的法师之戒（稀有）",
+		"icon": "er032.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "大气又上档次的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 2,
+		"rank": 8,
+		"basic_properties": {
+			"health": 25,
+			"attack": 11,
+			"strong": 15,
+			"reactivity": 15,
+			"critical": 14
+		}
+	},
+	{
+		"classId": 760,
+		"label": "微爽的法师之戒（史诗）",
+		"icon": "er022.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "感受一下还是微爽的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 3,
+		"rank": 4,
+		"basic_properties": {
+			"health": 16,
+			"attack": 7,
+			"strong": 9,
+			"reactivity": 9,
+			"critical": 7
+		}
+	},
+	{
+		"classId": 761,
+		"label": "欢乐的法师之戒（史诗）",
+		"icon": "er022.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "小欢乐的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 3,
+		"rank": 5,
+		"basic_properties": {
+			"health": 18,
+			"attack": 8,
+			"strong": 11,
+			"reactivity": 12,
+			"critical": 8
+		}
+	},
+	{
+		"classId": 762,
+		"label": "给力的法师之戒（史诗）",
+		"icon": "er022.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "特给力的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 3,
+		"rank": 6,
+		"basic_properties": {
+			"health": 21,
+			"attack": 10,
+			"strong": 13,
+			"reactivity": 13,
+			"critical": 11
+		}
+	},
+	{
+		"classId": 763,
+		"label": "高端的法师之戒（史诗）",
+		"icon": "er032.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "十分高端的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 3,
+		"rank": 7,
+		"basic_properties": {
+			"health": 25,
+			"attack": 11,
+			"strong": 15,
+			"reactivity": 15,
+			"critical": 14
+		}
+	},
+	{
+		"classId": 764,
+		"label": "大气的法师之戒（史诗）",
+		"icon": "er032.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "大气又上档次的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 3,
+		"rank": 8,
+		"basic_properties": {
+			"health": 28,
+			"attack": 12,
+			"strong": 18,
+			"reactivity": 18,
+			"critical": 17
+		}
+	},
+	{
+		"classId": 765,
+		"label": "酷炫的法师之戒（史诗）",
+		"icon": "er032.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "酷炫无比的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 3,
+		"rank": 9,
+		"basic_properties": {
+			"health": 30,
+			"attack": 14,
+			"strong": 20,
+			"reactivity": 20,
+			"critical": 19
+		}
+	},
+	{
+		"classId": 766,
+		"label": "欢乐的法师之戒（传奇）",
+		"icon": "er022.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "小欢乐的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 4,
+		"rank": 5,
+		"basic_properties": {
+			"health": 21,
+			"attack": 10,
+			"strong": 13,
+			"reactivity": 13,
+			"critical": 11
+		}
+	},
+	{
+		"classId": 767,
+		"label": "给力的法师之戒（传奇）",
+		"icon": "er022.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "特给力的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 4,
+		"rank": 6,
+		"basic_properties": {
+			"health": 25,
+			"attack": 11,
+			"strong": 15,
+			"reactivity": 15,
+			"critical": 14
+		}
+	},
+	{
+		"classId": 768,
+		"label": "高端的法师之戒（传奇）",
+		"icon": "er032.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "十分高端的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 4,
+		"rank": 7,
+		"basic_properties": {
+			"health": 28,
+			"attack": 12,
+			"strong": 18,
+			"reactivity": 18,
+			"critical": 17
+		}
+	},
+	{
+		"classId": 769,
+		"label": "大气的法师之戒（传奇）",
+		"icon": "er032.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "大气又上档次的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 4,
+		"rank": 8,
+		"basic_properties": {
+			"health": 30,
+			"attack": 14,
+			"strong": 20,
+			"reactivity": 20,
+			"critical": 19
+		}
+	},
+	{
+		"classId": 770,
+		"label": "酷炫的法师之戒（传奇）",
+		"icon": "er032.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "酷炫无比的法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 4,
+		"rank": 9,
+		"basic_properties": {
+			"health": 33,
+			"attack": 15,
+			"strong": 22,
+			"reactivity": 22,
+			"critical": 22
+		}
+	},
+	{
+		"classId": 771,
+		"label": "碉堡的法师之戒（传奇）",
+		"icon": "er042.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "碉堡威武的传奇法师戒指",
+		"classLimit": [
+			1
+		],
+		"quality": 4,
+		"rank": 10,
+		"basic_properties": {
+			"health": 35,
+			"attack": 16,
+			"strong": 24,
+			"reactivity": 24,
+			"critical": 25
+		}
+	},
+	{
+		"classId": 772,
+		"label": "吊丝的牧师之戒",
+		"icon": "er013.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "非常吊丝的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 0,
+		"rank": 1,
+		"basic_properties": {
+			"health": 2,
+			"attack": 1,
+			"speed": 1,
+			"reactivity": 1,
+			"accuracy": 1,
+			"critical": 1
+		}
+	},
+	{
+		"classId": 773,
+		"label": "路人的牧师之戒",
+		"icon": "er013.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "犹如路人一般的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 0,
+		"rank": 2,
+		"basic_properties": {
+			"health": 6,
+			"attack": 2,
+			"speed": 2,
+			"reactivity": 2,
+			"accuracy": 2,
+			"critical": 2
+		}
+	},
+	{
+		"classId": 774,
+		"label": "小清新的牧师之戒",
+		"icon": "er013.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "微微小清新的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 0,
+		"rank": 3,
+		"basic_properties": {
+			"health": 7,
+			"attack": 2,
+			"speed": 4,
+			"reactivity": 3,
+			"accuracy": 5,
+			"critical": 3
+		}
+	},
+	{
+		"classId": 775,
+		"label": "微爽的牧师之戒",
+		"icon": "er023.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "感受一下还是微爽的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 0,
+		"rank": 4,
+		"basic_properties": {
+			"health": 9,
+			"attack": 2,
+			"speed": 7,
+			"reactivity": 4,
+			"accuracy": 6,
+			"critical": 4
+		}
+	},
+	{
+		"classId": 776,
+		"label": "欢乐的牧师之戒",
+		"icon": "er023.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "小欢乐的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 0,
+		"rank": 5,
+		"basic_properties": {
+			"health": 11,
+			"attack": 3,
+			"speed": 7,
+			"reactivity": 6,
+			"accuracy": 9,
+			"critical": 6
+		}
+	},
+	{
+		"classId": 777,
+		"label": "给力的牧师之戒",
+		"icon": "er023.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "特给力的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 0,
+		"rank": 6,
+		"basic_properties": {
+			"health": 13,
+			"attack": 4,
+			"speed": 8,
+			"reactivity": 8,
+			"accuracy": 12,
+			"critical": 8
+		}
+	},
+	{
+		"classId": 778,
+		"label": "路人的牧师之戒（优质）",
+		"icon": "er013.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "犹如路人一般的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 1,
+		"rank": 2,
+		"basic_properties": {
+			"health": 7,
+			"attack": 2,
+			"speed": 4,
+			"reactivity": 3,
+			"accuracy": 5,
+			"critical": 3
+		}
+	},
+	{
+		"classId": 779,
+		"label": "小清新的牧师之戒（优质）",
+		"icon": "er013.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "微微小清新的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 1,
+		"rank": 3,
+		"basic_properties": {
+			"health": 9,
+			"attack": 2,
+			"speed": 7,
+			"reactivity": 4,
+			"accuracy": 6,
+			"critical": 4
+		}
+	},
+	{
+		"classId": 780,
+		"label": "微爽的牧师之戒（优质）",
+		"icon": "er023.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "感受一下还是微爽的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 1,
+		"rank": 4,
+		"basic_properties": {
+			"health": 11,
+			"attack": 3,
+			"speed": 7,
+			"reactivity": 6,
+			"accuracy": 9,
+			"critical": 6
+		}
+	},
+	{
+		"classId": 781,
+		"label": "欢乐的牧师之戒（优质）",
+		"icon": "er023.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "小欢乐的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 1,
+		"rank": 5,
+		"basic_properties": {
+			"health": 13,
+			"attack": 4,
+			"speed": 8,
+			"reactivity": 8,
+			"accuracy": 12,
+			"critical": 8
+		}
+	},
+	{
+		"classId": 782,
+		"label": "给力的牧师之戒（优质）",
+		"icon": "er023.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "特给力的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 1,
+		"rank": 6,
+		"basic_properties": {
+			"health": 16,
+			"attack": 5,
+			"speed": 9,
+			"reactivity": 9,
+			"accuracy": 15,
+			"critical": 9
+		}
+	},
+	{
+		"classId": 783,
+		"label": "高端的牧师之戒（优质）",
+		"icon": "er033.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "十分高端的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 1,
+		"rank": 7,
+		"basic_properties": {
+			"health": 21,
+			"attack": 5,
+			"speed": 12,
+			"reactivity": 12,
+			"accuracy": 19,
+			"critical": 11
+		}
+	},
+	{
+		"classId": 784,
+		"label": "小清新的牧师之戒（稀有）",
+		"icon": "er013.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "微微小清新的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 2,
+		"rank": 3,
+		"basic_properties": {
+			"health": 11,
+			"attack": 3,
+			"speed": 7,
+			"reactivity": 6,
+			"accuracy": 9,
+			"critical": 6
+		}
+	},
+	{
+		"classId": 785,
+		"label": "微爽的牧师之戒（稀有）",
+		"icon": "er023.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "感受一下还是微爽的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 2,
+		"rank": 4,
+		"basic_properties": {
+			"health": 13,
+			"attack": 4,
+			"speed": 8,
+			"reactivity": 8,
+			"accuracy": 12,
+			"critical": 8
+		}
+	},
+	{
+		"classId": 786,
+		"label": "欢乐的牧师之戒（稀有）",
+		"icon": "er023.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "小欢乐的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 2,
+		"rank": 5,
+		"basic_properties": {
+			"health": 16,
+			"attack": 5,
+			"speed": 9,
+			"reactivity": 9,
+			"accuracy": 15,
+			"critical": 9
+		}
+	},
+	{
+		"classId": 787,
+		"label": "给力的牧师之戒（稀有）",
+		"icon": "er023.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "特给力的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 2,
+		"rank": 6,
+		"basic_properties": {
+			"health": 21,
+			"attack": 5,
+			"speed": 12,
+			"reactivity": 12,
+			"accuracy": 19,
+			"critical": 11
+		}
+	},
+	{
+		"classId": 788,
+		"label": "高端的牧师之戒（稀有）",
+		"icon": "er033.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "十分高端的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 2,
+		"rank": 7,
+		"basic_properties": {
+			"health": 24,
+			"attack": 6,
+			"speed": 14,
+			"reactivity": 14,
+			"accuracy": 23,
+			"critical": 13
+		}
+	},
+	{
+		"classId": 789,
+		"label": "大气的牧师之戒（稀有）",
+		"icon": "er033.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "大气又上档次的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 2,
+		"rank": 8,
+		"basic_properties": {
+			"health": 26,
+			"attack": 7,
+			"speed": 17,
+			"reactivity": 16,
+			"accuracy": 27,
+			"critical": 15
+		}
+	},
+	{
+		"classId": 790,
+		"label": "微爽的牧师之戒（史诗）",
+		"icon": "er023.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "感受一下还是微爽的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 3,
+		"rank": 4,
+		"basic_properties": {
+			"health": 16,
+			"attack": 5,
+			"speed": 9,
+			"reactivity": 9,
+			"accuracy": 15,
+			"critical": 9
+		}
+	},
+	{
+		"classId": 791,
+		"label": "欢乐的牧师之戒（史诗）",
+		"icon": "er023.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "小欢乐的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 3,
+		"rank": 5,
+		"basic_properties": {
+			"health": 21,
+			"attack": 5,
+			"speed": 12,
+			"reactivity": 12,
+			"accuracy": 19,
+			"critical": 11
+		}
+	},
+	{
+		"classId": 792,
+		"label": "给力的牧师之戒（史诗）",
+		"icon": "er023.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "特给力的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 3,
+		"rank": 6,
+		"basic_properties": {
+			"health": 24,
+			"attack": 6,
+			"speed": 14,
+			"reactivity": 14,
+			"accuracy": 23,
+			"critical": 13
+		}
+	},
+	{
+		"classId": 793,
+		"label": "高端的牧师之戒（史诗）",
+		"icon": "er033.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "十分高端的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 3,
+		"rank": 7,
+		"basic_properties": {
+			"health": 26,
+			"attack": 7,
+			"speed": 17,
+			"reactivity": 16,
+			"accuracy": 27,
+			"critical": 15
+		}
+	},
+	{
+		"classId": 794,
+		"label": "大气的牧师之戒（史诗）",
+		"icon": "er033.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "大气又上档次的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 3,
+		"rank": 8,
+		"basic_properties": {
+			"health": 30,
+			"attack": 8,
+			"speed": 22,
+			"reactivity": 18,
+			"accuracy": 31,
+			"critical": 17
+		}
+	},
+	{
+		"classId": 795,
+		"label": "酷炫的牧师之戒（史诗）",
+		"icon": "er033.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "酷炫无比的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 3,
+		"rank": 9,
+		"basic_properties": {
+			"health": 33,
+			"attack": 9,
+			"speed": 24,
+			"reactivity": 21,
+			"accuracy": 35,
+			"critical": 19
+		}
+	},
+	{
+		"classId": 796,
+		"label": "欢乐的牧师之戒（传奇）",
+		"icon": "er023.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "小欢乐的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 4,
+		"rank": 5,
+		"basic_properties": {
+			"health": 24,
+			"attack": 6,
+			"speed": 14,
+			"reactivity": 14,
+			"accuracy": 23,
+			"critical": 13
+		}
+	},
+	{
+		"classId": 797,
+		"label": "给力的牧师之戒（传奇）",
+		"icon": "er023.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "特给力的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 4,
+		"rank": 6,
+		"basic_properties": {
+			"health": 26,
+			"attack": 7,
+			"speed": 17,
+			"reactivity": 16,
+			"accuracy": 27,
+			"critical": 15
+		}
+	},
+	{
+		"classId": 798,
+		"label": "高端的牧师之戒（传奇）",
+		"icon": "er033.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "十分高端的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 4,
+		"rank": 7,
+		"basic_properties": {
+			"health": 30,
+			"attack": 8,
+			"speed": 22,
+			"reactivity": 18,
+			"accuracy": 31,
+			"critical": 17
+		}
+	},
+	{
+		"classId": 799,
+		"label": "大气的牧师之戒（传奇）",
+		"icon": "er033.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "大气又上档次的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 4,
+		"rank": 8,
+		"basic_properties": {
+			"health": 33,
+			"attack": 9,
+			"speed": 24,
+			"reactivity": 21,
+			"accuracy": 35,
+			"critical": 19
+		}
+	},
+	{
+		"classId": 800,
+		"label": "酷炫的牧师之戒（传奇）",
+		"icon": "er033.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "酷炫无比的牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 4,
+		"rank": 9,
+		"basic_properties": {
+			"health": 41,
+			"attack": 10,
+			"speed": 29,
+			"reactivity": 22,
+			"accuracy": 40,
+			"critical": 21
+		}
+	},
+	{
+		"classId": 801,
+		"label": "碉堡的牧师之戒（传奇）",
+		"icon": "er043.png",
+		"category": 1,
+		"subcategory": 3,
+		"description": "碉堡威武的传奇牧师戒指",
+		"classLimit": [
+			2
+		],
+		"quality": 4,
+		"rank": 10,
+		"basic_properties": {
+			"health": 44,
+			"attack": 11,
+			"speed": 32,
+			"reactivity": 25,
+			"accuracy": 48,
+			"critical": 23
+		},
+        "autoUse":true
 	}
 ]
