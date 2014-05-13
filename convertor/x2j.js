@@ -36,14 +36,14 @@ function linkObject(target, value, path, type){
 		if( parent[key] == null ){
 			if( k < compos.length-1 ){
 				if( typeof(compos[Number(k)+1])=="number" ){
-					console.log("+ "+key+"[]");
+					//console.log("+ "+key+"[]");
 					parent[key] = [];
 					lastParent = parent[key];
 					lastKey = key;
 					parent = parent[key];
 				}
 				else{
-					console.log("+ "+key);
+					//console.log("+ "+key);
 					parent[key] = {};
 					parent = parent[key];
 				}
