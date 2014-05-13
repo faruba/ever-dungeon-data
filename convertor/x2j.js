@@ -92,11 +92,33 @@ function getFileName(path){
 
 function extractRowData(rawRow){
 	var ret = [];
-	var newRow = rawRow.slice(1);
-	for(var k in newRow){
-		ret.push(newRow[k].value);
+	for(var k=1; k<rawRow.length; ++k){
+		if( rawRow[k] != null ){
+			if( rawRow[k].value != rawRow[k].value ){//NaN
+				ret.push(null);
+			}
+			else{
+				ret.push(rawRow[k].value);
+			}
+		}
+		else{
+			ret.push(null);
+		}
 	}
+	//console.log("RAW ROW = \n"+JSON.stringify(rawRow, null, "\t"));
+	//console.log("EXT ROW = \n"+JSON.stringify(ret, null, "\t"));
 	return ret;
+}
+
+function isEmpityRow(rawRow){
+	if( rawRow == null ) return true;
+	for(var k in rawRow){
+		var column = rawRow[k];
+		if( column != null && column.value != null && !(column.value!=column.value) ){
+			return false;
+		}
+	}
+	return true;
 }
 
 function main(){
@@ -115,28 +137,32 @@ function main(){
 	var table = [];
 	var head = null;
 	var foot = null;
+
 	//process data
 	var rawData = data.worksheets[0].data;
+	//console.log("RAW = \n"+JSON.stringify(rawData, null, "\t"));
 	var headed = false;
 	for(var i in rawData){
 		var row = rawData[i];
-		if( row[0].value == "#head" ){
+		if( row[0] !=null && row[0].value == "#head" ){
 			head = String(row[1].value);
 			continue;
 		}
-		if( row[0].value == "#foot" ){
+		if( row[0] !=null && row[0].value == "#foot" ){
 			foot = String(row[1].value);
 			continue;
 		}
 		if( !headed ){
-			if( row[0].value == "#path" ){
+			if( row[0] !=null && row[0].value == "#path" ){
 				table.push(extractRowData(row));
 				headed = true;
 			}
 		}
 		else{
-			if( row[0].value == "#note" ) continue;
-			table.push(extractRowData(row));
+			if( row[0] !=null && row[0].value == "#note" ) continue;
+			if( !isEmpityRow(row) ){
+				table.push(extractRowData(row));
+			}
 		}
 	}
 	var v1 = JSON.stringify(table);
