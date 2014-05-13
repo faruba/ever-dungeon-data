@@ -25,15 +25,19 @@ function linkObject(target, value, path, type){
 		}
 		lastKey = key;
 		lastParent = parent;
+		//console.log("* key = "+key+" ("+isArray+")");
 		if( parent[key] == null ){
 			if( isArray ){
 				parent[key] = [];
+				//console.log("+ "+key+": array");
 				lastParent = parent[key];
 				lastKey = index;
+				parent[key][index] = {};
 				parent = parent[key][index];
 			}
 			else{
 				parent[key] = {};
+				//console.log("+ "+key+": object");
 				parent = parent[key];
 			}
 		}
@@ -132,6 +136,9 @@ function main(){
 	else{
 		indent = 4;
 	}
+
+	console.log("> "+srcFile+" -> "+dstFile);
+
 	//--- load src file ---
 	var data = xlsx.parse(srcFile);
 	var table = [];
