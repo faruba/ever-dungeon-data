@@ -161,8 +161,8 @@ function xlsxBuilder(grids, config){
 	{
 		var row = [];
 		row.push({
-				value: "#head",
-				formatCode: "General"});
+			value: "#head",
+			formatCode: "General"});
 		row.push({
 			value: "exports.data = ",
 			formatCode: "General"});
