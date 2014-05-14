@@ -8,13 +8,13 @@ exports.data =[
 		"description": "随机强化生命、攻击、暴击、韧性、命中、反应、速度7项基础属性的宝石。",
 		"stack": 99,
 		"sellprice": 50,
-        "transPrize":[
-            {
-                "type":0,
-                "value":853,
-                "count":1
-            }
-        ]
+		"transPrize": [
+			{
+				"type": 0,
+				"value": 853,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1,
@@ -25,13 +25,13 @@ exports.data =[
 		"description": "随机强化吸血、暴击伤害、连击、反伤、击晕5项高阶属性的稀有宝石。",
 		"stack": 99,
 		"sellprice": 800,
-        "transPrize":[
-            {
-                "type":0,
-                "value":853,
-                "count":2
-            }
-        ]
+		"transPrize": [
+			{
+				"type": 0,
+				"value": 853,
+				"count": 2
+			}
+		]
 	},
 	{
 		"classId": 2,
@@ -42,13 +42,13 @@ exports.data =[
 		"description": "随机强化经验、熟练、金币3项特殊属性的宝石。",
 		"stack": 99,
 		"sellprice": 300,
-        "transPrize":[
-            {
-                "type":0,
-                "value":853,
-                "count":2
-            }
-        ]
+		"transPrize": [
+			{
+				"type": 0,
+				"value": 853,
+				"count": 2
+			}
+		]
 	},
 	{
 		"classId": 3,
@@ -59,13 +59,13 @@ exports.data =[
 		"description": "能够强化攻击属性的宝石。",
 		"stack": 99,
 		"sellprice": 300,
-        "transPrize":[
-            {
-                "type":0,
-                "value":853,
-                "count":2
-            }
-        ]
+		"transPrize": [
+			{
+				"type": 0,
+				"value": 853,
+				"count": 2
+			}
+		]
 	},
 	{
 		"classId": 4,
@@ -76,13 +76,13 @@ exports.data =[
 		"description": "能够强化生命属性的宝石。",
 		"stack": 99,
 		"sellprice": 300,
-        "transPrize":[
-            {
-                "type":0,
-                "value":853,
-                "count":2
-            }
-        ]
+		"transPrize": [
+			{
+				"type": 0,
+				"value": 853,
+				"count": 2
+			}
+		]
 	},
 	{
 		"classId": 5,
@@ -93,13 +93,13 @@ exports.data =[
 		"description": "能够强化速度属性的宝石",
 		"stack": 99,
 		"sellprice": 300,
-        "transPrize":[
-            {
-                "type":0,
-                "value":853,
-                "count":2
-            }
-        ]
+		"transPrize": [
+			{
+				"type": 0,
+				"value": 853,
+				"count": 2
+			}
+		]
 	},
 	{
 		"classId": 6,
@@ -369,13 +369,13 @@ exports.data =[
 		"description": "能够强化暴击属性的宝石",
 		"stack": 99,
 		"sellprice": 300,
-        "transPrize":[
-            {
-                "type":0,
-                "value":853,
-                "count":2
-            }
-        ]
+		"transPrize": [
+			{
+				"type": 0,
+				"value": 853,
+				"count": 2
+			}
+		]
 	},
 	{
 		"classId": 27,
@@ -386,13 +386,13 @@ exports.data =[
 		"description": "能够强化韧性属性的宝石",
 		"stack": 99,
 		"sellprice": 300,
-        "transPrize":[
-            {
-                "type":0,
-                "value":853,
-                "count":2
-            }
-        ]
+		"transPrize": [
+			{
+				"type": 0,
+				"value": 853,
+				"count": 2
+			}
+		]
 	},
 	{
 		"classId": 28,
@@ -461,6 +461,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "比较破旧，但依旧能穿的长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "mage-rightleg1.ccbi"
@@ -480,7 +486,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 5
+		"sellGem": 5,
+		"enhanceID": 1,
+		"forgeID": 17
 	},
 	{
 		"classId": 33,
@@ -489,6 +497,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "残破的法袍，几乎没有任何抵御攻击的能力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "mage-lefthand1.ccbi"
@@ -507,7 +521,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 5
+		"sellGem": 5,
+		"enhanceID": 1,
+		"forgeID": 18
 	},
 	{
 		"classId": 34,
@@ -516,6 +532,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "残破的魔法书，内容几乎看不清了",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -536,7 +558,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 5
+		"sellGem": 5,
+		"enhanceID": 1,
+		"forgeID": 19
 	},
 	{
 		"classId": 35,
@@ -545,6 +569,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "几乎已经不能用的法杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -566,7 +596,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 5
+		"sellGem": 5,
+		"enhanceID": 1,
+		"forgeID": 20
 	},
 	{
 		"classId": 36,
@@ -575,6 +607,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "非常粗糙穿着不舒服的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "priest-rightleg1.ccbi"
@@ -593,7 +631,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 5
+		"sellGem": 5,
+		"enhanceID": 2,
+		"forgeID": 17
 	},
 	{
 		"classId": 37,
@@ -602,6 +642,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "粗布制成的衣服，不耐穿",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "priest-lefthand1.ccbi"
@@ -620,7 +666,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 5
+		"sellGem": 5,
+		"enhanceID": 2,
+		"forgeID": 18
 	},
 	{
 		"classId": 38,
@@ -629,6 +677,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "用树枝削成的十字架。",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -650,7 +704,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 5
+		"sellGem": 5,
+		"enhanceID": 2,
+		"forgeID": 19
 	},
 	{
 		"classId": 39,
@@ -659,6 +715,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "比较粗糙的权杖，几乎不能用",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -679,7 +741,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 5
+		"sellGem": 5,
+		"enhanceID": 2,
+		"forgeID": 20
 	},
 	{
 		"classId": 40,
@@ -688,6 +752,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "已经残破不堪的铁靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg1.ccbi"
@@ -707,7 +777,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 5
+		"sellGem": 5,
+		"enhanceID": 0,
+		"forgeID": 17
 	},
 	{
 		"classId": 41,
@@ -716,6 +788,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "破破烂烂，几乎无法抵挡伤害",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand1.ccbi"
@@ -733,7 +811,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 5
+		"sellGem": 5,
+		"enhanceID": 0,
+		"forgeID": 18
 	},
 	{
 		"classId": 42,
@@ -742,6 +822,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "握手都已经松动的旧盾牌",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -761,7 +847,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 5
+		"sellGem": 5,
+		"enhanceID": 0,
+		"forgeID": 19
 	},
 	{
 		"classId": 43,
@@ -770,6 +858,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "粗糙且不锋利的剑",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -791,7 +885,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 5
+		"sellGem": 5,
+		"enhanceID": 0,
+		"forgeID": 20
 	},
 	{
 		"classId": 44,
@@ -800,6 +896,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "最基础的长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "mage-rightleg2.ccbi"
@@ -820,7 +922,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 10
+		"sellGem": 10,
+		"enhanceID": 1,
+		"forgeID": 17,
+		"forgeTarget": 104
 	},
 	{
 		"classId": 45,
@@ -829,6 +934,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "法师的基础法袍",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "mage-lefthand2.ccbi"
@@ -847,7 +958,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 10
+		"sellGem": 10,
+		"enhanceID": 1,
+		"forgeID": 18,
+		"forgeTarget": 105
 	},
 	{
 		"classId": 46,
@@ -856,6 +970,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "记录了一些初级的魔法",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -876,7 +996,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 10
+		"sellGem": 10,
+		"enhanceID": 1,
+		"forgeID": 19,
+		"forgeTarget": 106
 	},
 	{
 		"classId": 47,
@@ -885,6 +1008,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "蕴含一定魔力的法杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -906,7 +1035,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 10
+		"sellGem": 10,
+		"enhanceID": 1,
+		"forgeID": 20,
+		"forgeTarget": 107
 	},
 	{
 		"classId": 48,
@@ -915,6 +1047,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "穿着非常轻巧的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "priest-rightleg2.ccbi"
@@ -933,7 +1071,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 10
+		"sellGem": 10,
+		"enhanceID": 2,
+		"forgeID": 17,
+		"forgeTarget": 108
 	},
 	{
 		"classId": 49,
@@ -942,6 +1083,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "非常轻巧，所以抵挡不了多少伤害",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "priest-lefthand2.ccbi"
@@ -960,7 +1107,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 10
+		"sellGem": 10,
+		"enhanceID": 2,
+		"forgeID": 18,
+		"forgeTarget": 109
 	},
 	{
 		"classId": 50,
@@ -969,6 +1119,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "制作工艺还算过的去的十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -991,7 +1147,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 10
+		"sellGem": 10,
+		"enhanceID": 2,
+		"forgeID": 19,
+		"forgeTarget": 110
 	},
 	{
 		"classId": 51,
@@ -1000,6 +1159,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "稍有精修的权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -1020,7 +1185,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 10
+		"sellGem": 10,
+		"enhanceID": 2,
+		"forgeID": 20,
+		"forgeTarget": 111
 	},
 	{
 		"classId": 52,
@@ -1029,6 +1197,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "学徒标配的战靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg2.ccbi"
@@ -1048,7 +1222,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 10
+		"sellGem": 10,
+		"enhanceID": 0,
+		"forgeID": 17,
+		"forgeTarget": 112
 	},
 	{
 		"classId": 53,
@@ -1057,6 +1234,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "学徒标配的铠甲",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand2.ccbi"
@@ -1075,7 +1258,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 10
+		"sellGem": 10,
+		"enhanceID": 0,
+		"forgeID": 18,
+		"forgeTarget": 113
 	},
 	{
 		"classId": 54,
@@ -1084,6 +1270,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "学徒也能轻易驾驭的盾牌",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -1103,7 +1295,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 10
+		"sellGem": 10,
+		"enhanceID": 0,
+		"forgeID": 19,
+		"forgeTarget": 114
 	},
 	{
 		"classId": 55,
@@ -1112,6 +1307,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "学徒练习用的长剑，杀伤力就那样",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -1134,7 +1335,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 10
+		"sellGem": 10,
+		"enhanceID": 0,
+		"forgeID": 20,
+		"forgeTarget": 115
 	},
 	{
 		"classId": 56,
@@ -1143,6 +1347,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "穿上它，你就是见习法师了",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "mage-rightleg3.ccbi"
@@ -1163,7 +1373,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 1,
+		"forgeID": 17,
+		"forgeTarget": 116
 	},
 	{
 		"classId": 57,
@@ -1172,6 +1385,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "见习法师身份的证明",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "mage-lefthand3.ccbi"
@@ -1191,7 +1410,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 1,
+		"forgeID": 18,
+		"forgeTarget": 117
 	},
 	{
 		"classId": 58,
@@ -1200,6 +1422,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "大概是小学生级别的魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -1220,7 +1448,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 1,
+		"forgeID": 19,
+		"forgeTarget": 118
 	},
 	{
 		"classId": 59,
@@ -1229,6 +1460,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "虽说是见习，其实还是挺带感的法杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -1250,7 +1487,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 1,
+		"forgeID": 20,
+		"forgeTarget": 119
 	},
 	{
 		"classId": 60,
@@ -1259,6 +1499,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "牧师祷告时的穿着",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "priest-rightleg3.ccbi"
@@ -1277,7 +1523,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 2,
+		"forgeID": 17,
+		"forgeTarget": 120
 	},
 	{
 		"classId": 61,
@@ -1286,6 +1535,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "牧师祷告时的衣着",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "priest-lefthand3.ccbi"
@@ -1305,7 +1560,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 2,
+		"forgeID": 18,
+		"forgeTarget": 121
 	},
 	{
 		"classId": 62,
@@ -1314,6 +1572,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "祷告用的神圣十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -1336,7 +1600,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 2,
+		"forgeID": 19,
+		"forgeTarget": 122
 	},
 	{
 		"classId": 63,
@@ -1345,6 +1612,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "被祝福过的祷告用权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -1365,7 +1638,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 2,
+		"forgeID": 20,
+		"forgeTarget": 123
 	},
 	{
 		"classId": 64,
@@ -1374,6 +1650,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "战士们最爱的铁靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg3.ccbi"
@@ -1393,7 +1675,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 0,
+		"forgeID": 17,
+		"forgeTarget": 124
 	},
 	{
 		"classId": 65,
@@ -1402,6 +1687,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "最适合作战用的铠甲",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand3.ccbi"
@@ -1420,7 +1711,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 0,
+		"forgeID": 18,
+		"forgeTarget": 125
 	},
 	{
 		"classId": 66,
@@ -1429,6 +1723,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "战斗盾牌，重量与防护效果都恰到好处",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -1448,7 +1748,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 0,
+		"forgeID": 19,
+		"forgeTarget": 126
 	},
 	{
 		"classId": 67,
@@ -1457,6 +1760,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "握感极佳，能将战斗力完全引发出来",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -1479,7 +1788,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 0,
+		"forgeID": 20,
+		"forgeTarget": 127
 	},
 	{
 		"classId": 68,
@@ -1488,6 +1800,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "用上好材料与工艺制作的长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "mage-rightleg4.ccbi"
@@ -1508,7 +1826,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 1,
+		"forgeID": 17,
+		"forgeTarget": 128
 	},
 	{
 		"classId": 69,
@@ -1517,6 +1838,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "用上好材料与工艺制作的法袍",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "mage-lefthand4.ccbi"
@@ -1536,7 +1863,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 1,
+		"forgeID": 18,
+		"forgeTarget": 129
 	},
 	{
 		"classId": 70,
@@ -1545,6 +1875,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "镶有金边，几代高级法师传承下来的魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -1565,7 +1901,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 1,
+		"forgeID": 19,
+		"forgeTarget": 130
 	},
 	{
 		"classId": 71,
@@ -1574,6 +1913,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "精心打造的法杖，蕴含强大的魔力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -1595,7 +1940,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 1,
+		"forgeID": 20,
+		"forgeTarget": 131
 	},
 	{
 		"classId": 72,
@@ -1604,6 +1952,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "蕴含着美好祝福的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "priest-rightleg4.ccbi"
@@ -1622,7 +1976,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 2,
+		"forgeID": 17,
+		"forgeTarget": 132
 	},
 	{
 		"classId": 73,
@@ -1631,6 +1988,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "拥有神圣力量的长衣",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "priest-lefthand4.ccbi"
@@ -1650,7 +2013,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 2,
+		"forgeID": 18,
+		"forgeTarget": 133
 	},
 	{
 		"classId": 74,
@@ -1659,6 +2025,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "愿我主给我带来力量",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -1681,7 +2053,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 2,
+		"forgeID": 19,
+		"forgeTarget": 134
 	},
 	{
 		"classId": 75,
@@ -1690,6 +2065,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "具备引发奇迹可能的权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -1710,7 +2091,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 2,
+		"forgeID": 20,
+		"forgeTarget": 135
 	},
 	{
 		"classId": 76,
@@ -1719,6 +2103,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "城堡卫兵的标准配备",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg4.ccbi"
@@ -1738,7 +2128,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 0,
+		"forgeID": 17,
+		"forgeTarget": 136
 	},
 	{
 		"classId": 77,
@@ -1747,6 +2140,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "一个卫兵的身份证明",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand4.ccbi"
@@ -1766,7 +2165,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 0,
+		"forgeID": 18,
+		"forgeTarget": 137
 	},
 	{
 		"classId": 78,
@@ -1775,6 +2177,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "符合卫兵身份的圆盾",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -1795,7 +2203,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 0,
+		"forgeID": 19,
+		"forgeTarget": 138
 	},
 	{
 		"classId": 79,
@@ -1804,6 +2215,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "坚实耐用不失皇家典范的长剑",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -1826,7 +2243,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 0,
+		"forgeID": 20,
+		"forgeTarget": 139
 	},
 	{
 		"classId": 80,
@@ -1835,6 +2255,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "经过几代传承的魔力长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg5.ccbi"
@@ -1856,10 +2282,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 25,
+		"enhanceID": 1,
+		"forgeID": 17,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg5-2.ccbi"
-		}
+		},
+		"forgeTarget": 140
 	},
 	{
 		"classId": 81,
@@ -1867,6 +2296,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "魔法师代代相传的法袍",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
@@ -1887,12 +2322,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 25,
+		"enhanceID": 1,
+		"forgeID": 18,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
 		},
 		"iconf": "emchest5.png",
-		"iconm": "emchest5-2.png"
+		"iconm": "emchest5-2.png",
+		"forgeTarget": 141
 	},
 	{
 		"classId": 82,
@@ -1901,6 +2339,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "拥有一定历史的魔法书，记载着一些不为人知的魔法",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -1921,7 +2365,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 1,
+		"forgeID": 19,
+		"forgeTarget": 142
 	},
 	{
 		"classId": 83,
@@ -1930,6 +2377,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "稀有木材制造成的法杖，蕴含着强大魔力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -1951,7 +2404,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 1,
+		"forgeID": 20,
+		"forgeTarget": 143
 	},
 	{
 		"classId": 84,
@@ -1960,6 +2416,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "侍僧们穿着的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg5.ccbi"
@@ -1979,10 +2441,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 25,
+		"enhanceID": 2,
+		"forgeID": 17,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg5-2.ccbi"
-		}
+		},
+		"forgeTarget": 144
 	},
 	{
 		"classId": 85,
@@ -1990,6 +2455,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "长久岁月间侍僧们的标准着装",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand5.ccbi"
@@ -2010,12 +2481,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 25,
+		"enhanceID": 2,
+		"forgeID": 18,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand5-2.ccbi"
 		},
 		"iconf": "epchest5.png",
-		"iconm": "epchest5-2.png"
+		"iconm": "epchest5-2.png",
+		"forgeTarget": 145
 	},
 	{
 		"classId": 86,
@@ -2024,6 +2498,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "侍僧们常年累月祈祷所用的十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -2046,7 +2526,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 2,
+		"forgeID": 19,
+		"forgeTarget": 146
 	},
 	{
 		"classId": 87,
@@ -2055,6 +2538,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "代表着神圣的权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -2075,7 +2564,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 2,
+		"forgeID": 20,
+		"forgeTarget": 147
 	},
 	{
 		"classId": 88,
@@ -2084,6 +2576,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "用特殊材质制成的鞋子，异常灵巧",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg5.ccbi"
@@ -2103,7 +2601,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 0,
+		"forgeID": 17,
+		"forgeTarget": 148
 	},
 	{
 		"classId": 89,
@@ -2112,6 +2613,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "经过多重工艺制成的铁甲，坚不可摧",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand5.ccbi"
@@ -2131,7 +2638,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 0,
+		"forgeID": 18,
+		"forgeTarget": 149
 	},
 	{
 		"classId": 90,
@@ -2139,6 +2649,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "用上好的素材制成的坚固且耐用的圆盾",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effectf": [
 			{
 				"part": "secondaryweapon",
@@ -2166,8 +2682,11 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 25,
+		"enhanceID": 0,
+		"forgeID": 19,
 		"iconf": "ewsubweapon5.png",
-		"iconm": "ewsubweapon5-2.png"
+		"iconm": "ewsubweapon5-2.png",
+		"forgeTarget": 150
 	},
 	{
 		"classId": 91,
@@ -2176,6 +2695,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "锋利耐用的长剑，让人爱不释手",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -2198,7 +2723,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 0,
+		"forgeID": 20,
+		"forgeTarget": 151
 	},
 	{
 		"classId": 92,
@@ -2207,6 +2735,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "只有资深的长者才有资格拥有的长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg6.ccbi"
@@ -2227,10 +2761,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 30,
+		"enhanceID": 1,
+		"forgeID": 17,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg6-2.ccbi"
-		}
+		},
+		"forgeTarget": 152
 	},
 	{
 		"classId": 93,
@@ -2238,6 +2775,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "魔法师资历的证明，略显过时但品质不凡",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
@@ -2257,12 +2800,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 30,
+		"enhanceID": 1,
+		"forgeID": 18,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
 		},
 		"iconf": "emchest6.png",
-		"iconm": "emchest6-2.png"
+		"iconm": "emchest6-2.png",
+		"forgeTarget": 153
 	},
 	{
 		"classId": 94,
@@ -2271,6 +2817,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "记录着资深法师阅历的魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -2290,7 +2842,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 30
+		"sellGem": 30,
+		"enhanceID": 1,
+		"forgeID": 19,
+		"forgeTarget": 154
 	},
 	{
 		"classId": 95,
@@ -2299,6 +2854,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "布满岁月痕迹，但积攒了大量魔力的法杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -2319,7 +2880,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 30
+		"sellGem": 30,
+		"enhanceID": 1,
+		"forgeID": 20,
+		"forgeTarget": 155
 	},
 	{
 		"classId": 96,
@@ -2328,6 +2892,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "神的预言家曾经穿过的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg6.ccbi"
@@ -2346,10 +2916,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 30,
+		"enhanceID": 2,
+		"forgeID": 17,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg6-2.ccbi"
-		}
+		},
+		"forgeTarget": 156
 	},
 	{
 		"classId": 97,
@@ -2357,6 +2930,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "预言者神圣的外衣",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand6.ccbi"
@@ -2376,12 +2955,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 30,
+		"enhanceID": 2,
+		"forgeID": 18,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand6-2.ccbi"
 		},
 		"iconf": "epchest6.png",
-		"iconm": "epchest6-2.png"
+		"iconm": "epchest6-2.png",
+		"forgeTarget": 157
 	},
 	{
 		"classId": 98,
@@ -2390,6 +2972,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "寄宿预言力量的十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -2411,7 +2999,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 30
+		"sellGem": 30,
+		"enhanceID": 2,
+		"forgeID": 19,
+		"forgeTarget": 158
 	},
 	{
 		"classId": 99,
@@ -2420,6 +3011,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "预言者手持的权杖，伴随着圣神的力量",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -2439,7 +3036,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 30
+		"sellGem": 30,
+		"enhanceID": 2,
+		"forgeID": 20,
+		"forgeTarget": 159
 	},
 	{
 		"classId": 100,
@@ -2448,6 +3048,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "沉重的钢靴，能够践踏一切阻挡前进的敌人",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg6.ccbi"
@@ -2466,7 +3072,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 30
+		"sellGem": 30,
+		"enhanceID": 0,
+		"forgeID": 17,
+		"forgeTarget": 160
 	},
 	{
 		"classId": 101,
@@ -2475,6 +3084,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "重装的铠甲，甚至能够抵挡住古老的魔法",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand6.ccbi"
@@ -2493,7 +3108,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 30
+		"sellGem": 30,
+		"enhanceID": 0,
+		"forgeID": 18,
+		"forgeTarget": 161
 	},
 	{
 		"classId": 102,
@@ -2501,6 +3119,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "工艺与用料都非常上乘，能够为战士提供最强大的保护",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effectf": [
 			{
 				"part": "secondaryweapon",
@@ -2527,8 +3151,11 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 30,
+		"enhanceID": 0,
+		"forgeID": 19,
 		"iconf": "ewsubweapon6.png",
-		"iconm": "ewsubweapon6-2.png"
+		"iconm": "ewsubweapon6-2.png",
+		"forgeTarget": 162
 	},
 	{
 		"classId": 103,
@@ -2537,6 +3164,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "分量相当沉，普通人难以驾驭，但却拥有巨大的破坏力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -2558,7 +3191,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 30
+		"sellGem": 30,
+		"enhanceID": 0,
+		"forgeID": 20,
+		"forgeTarget": 163
 	},
 	{
 		"classId": 104,
@@ -2567,6 +3203,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "最基础的长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "mage-rightleg2.ccbi"
@@ -2587,7 +3229,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 1,
+		"forgeID": 23
 	},
 	{
 		"classId": 105,
@@ -2596,6 +3240,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "法师的基础法袍",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "mage-lefthand2.ccbi"
@@ -2615,7 +3265,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 1,
+		"forgeID": 24
 	},
 	{
 		"classId": 106,
@@ -2624,6 +3276,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "记录了一些初级的魔法",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -2644,7 +3302,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 1,
+		"forgeID": 25
 	},
 	{
 		"classId": 107,
@@ -2653,6 +3313,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "蕴含一定魔力的法杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -2674,7 +3340,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 1,
+		"forgeID": 26
 	},
 	{
 		"classId": 108,
@@ -2683,6 +3351,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "穿着非常轻巧的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "priest-rightleg2.ccbi"
@@ -2701,7 +3375,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 2,
+		"forgeID": 23
 	},
 	{
 		"classId": 109,
@@ -2710,6 +3386,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "非常轻巧，所以抵挡不了多少伤害",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "priest-lefthand2.ccbi"
@@ -2729,7 +3411,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 2,
+		"forgeID": 24
 	},
 	{
 		"classId": 110,
@@ -2738,6 +3422,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "制作工艺还算过的去的十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -2760,7 +3450,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 2,
+		"forgeID": 25
 	},
 	{
 		"classId": 111,
@@ -2769,6 +3461,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "稍有精修的权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -2789,7 +3487,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 2,
+		"forgeID": 26
 	},
 	{
 		"classId": 112,
@@ -2798,6 +3498,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "学徒标配的战靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg2.ccbi"
@@ -2817,7 +3523,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 0,
+		"forgeID": 23
 	},
 	{
 		"classId": 113,
@@ -2826,6 +3534,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "学徒标配的铠甲",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand2.ccbi"
@@ -2844,7 +3558,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 0,
+		"forgeID": 24
 	},
 	{
 		"classId": 114,
@@ -2853,6 +3569,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "学徒也能轻易驾驭的盾牌",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -2872,7 +3594,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 0,
+		"forgeID": 25
 	},
 	{
 		"classId": 115,
@@ -2881,6 +3605,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "学徒练习用的长剑，杀伤力就那样",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -2903,7 +3633,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 15
+		"sellGem": 15,
+		"enhanceID": 0,
+		"forgeID": 26
 	},
 	{
 		"classId": 116,
@@ -2912,6 +3644,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "穿上它，你就是见习法师了",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "mage-rightleg3.ccbi"
@@ -2932,7 +3670,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 1,
+		"forgeID": 23,
+		"forgeTarget": 176
 	},
 	{
 		"classId": 117,
@@ -2941,6 +3682,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "见习法师身份的证明",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "mage-lefthand3.ccbi"
@@ -2960,7 +3707,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 1,
+		"forgeID": 24,
+		"forgeTarget": 177
 	},
 	{
 		"classId": 118,
@@ -2969,6 +3719,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "大概是小学生级别的魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -2989,7 +3745,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 1,
+		"forgeID": 25,
+		"forgeTarget": 178
 	},
 	{
 		"classId": 119,
@@ -2998,6 +3757,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "虽说是见习，其实还是挺带感的法杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -3019,7 +3784,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 1,
+		"forgeID": 26,
+		"forgeTarget": 179
 	},
 	{
 		"classId": 120,
@@ -3028,6 +3796,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "牧师祷告时的穿着",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "priest-rightleg3.ccbi"
@@ -3046,7 +3820,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 2,
+		"forgeID": 23,
+		"forgeTarget": 180
 	},
 	{
 		"classId": 121,
@@ -3055,6 +3832,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "牧师祷告时的衣着",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "priest-lefthand3.ccbi"
@@ -3074,7 +3857,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 2,
+		"forgeID": 24,
+		"forgeTarget": 181
 	},
 	{
 		"classId": 122,
@@ -3083,6 +3869,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "祷告用的神圣十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -3105,7 +3897,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 2,
+		"forgeID": 25,
+		"forgeTarget": 182
 	},
 	{
 		"classId": 123,
@@ -3114,6 +3909,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "被祝福过的祷告用权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -3134,7 +3935,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 2,
+		"forgeID": 26,
+		"forgeTarget": 183
 	},
 	{
 		"classId": 124,
@@ -3143,6 +3947,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "战士们最爱的铁靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg3.ccbi"
@@ -3162,7 +3972,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 0,
+		"forgeID": 23,
+		"forgeTarget": 184
 	},
 	{
 		"classId": 125,
@@ -3171,6 +3984,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "最适合作战用的铠甲",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand3.ccbi"
@@ -3190,7 +4009,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 0,
+		"forgeID": 24,
+		"forgeTarget": 185
 	},
 	{
 		"classId": 126,
@@ -3199,6 +4021,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "战斗盾牌，重量与防护效果都恰到好处",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -3219,7 +4047,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 0,
+		"forgeID": 25,
+		"forgeTarget": 186
 	},
 	{
 		"classId": 127,
@@ -3228,6 +4059,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "握感极佳，能将战斗力完全引发出来",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -3250,7 +4087,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 20
+		"sellGem": 20,
+		"enhanceID": 0,
+		"forgeID": 26,
+		"forgeTarget": 187
 	},
 	{
 		"classId": 128,
@@ -3259,6 +4099,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "用上好材料与工艺制作的长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "mage-rightleg4.ccbi"
@@ -3279,7 +4125,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 1,
+		"forgeID": 23,
+		"forgeTarget": 188
 	},
 	{
 		"classId": 129,
@@ -3288,6 +4137,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "用上好材料与工艺制作的法袍",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "mage-lefthand4.ccbi"
@@ -3307,7 +4162,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 1,
+		"forgeID": 24,
+		"forgeTarget": 189
 	},
 	{
 		"classId": 130,
@@ -3316,6 +4174,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "镶有金边，几代高级法师传承下来的魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -3336,7 +4200,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 1,
+		"forgeID": 25,
+		"forgeTarget": 190
 	},
 	{
 		"classId": 131,
@@ -3345,6 +4212,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "精心打造的法杖，蕴含强大的魔力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -3366,7 +4239,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 1,
+		"forgeID": 26,
+		"forgeTarget": 191
 	},
 	{
 		"classId": 132,
@@ -3375,6 +4251,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "蕴含着美好祝福的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "priest-rightleg4.ccbi"
@@ -3393,7 +4275,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 2,
+		"forgeID": 23,
+		"forgeTarget": 192
 	},
 	{
 		"classId": 133,
@@ -3402,6 +4287,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "拥有神圣力量的长衣",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "priest-lefthand4.ccbi"
@@ -3421,7 +4312,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 2,
+		"forgeID": 24,
+		"forgeTarget": 193
 	},
 	{
 		"classId": 134,
@@ -3430,6 +4324,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "愿我主给我带来力量",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -3452,7 +4352,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 2,
+		"forgeID": 25,
+		"forgeTarget": 194
 	},
 	{
 		"classId": 135,
@@ -3461,6 +4364,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "具备引发奇迹可能的权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -3481,7 +4390,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 2,
+		"forgeID": 26,
+		"forgeTarget": 195
 	},
 	{
 		"classId": 136,
@@ -3490,6 +4402,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "城堡卫兵的标准配备",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg4.ccbi"
@@ -3509,7 +4427,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 0,
+		"forgeID": 23,
+		"forgeTarget": 196
 	},
 	{
 		"classId": 137,
@@ -3518,6 +4439,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "一个卫兵的身份证明",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand4.ccbi"
@@ -3537,7 +4464,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 0,
+		"forgeID": 24,
+		"forgeTarget": 197
 	},
 	{
 		"classId": 138,
@@ -3546,6 +4476,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "符合卫兵身份的圆盾",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -3566,7 +4502,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 0,
+		"forgeID": 25,
+		"forgeTarget": 198
 	},
 	{
 		"classId": 139,
@@ -3575,6 +4514,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "坚实耐用不失皇家典范的长剑",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -3597,7 +4542,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 25
+		"sellGem": 25,
+		"enhanceID": 0,
+		"forgeID": 26,
+		"forgeTarget": 199
 	},
 	{
 		"classId": 140,
@@ -3606,6 +4554,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "经过几代传承的魔力长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg5.ccbi"
@@ -3627,10 +4581,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 30,
+		"enhanceID": 1,
+		"forgeID": 23,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg5-2.ccbi"
-		}
+		},
+		"forgeTarget": 200
 	},
 	{
 		"classId": 141,
@@ -3638,6 +4595,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "魔法师代代相传的法袍",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
@@ -3658,12 +4621,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 30,
+		"enhanceID": 1,
+		"forgeID": 24,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
 		},
 		"iconf": "emchest5.png",
-		"iconm": "emchest5-2.png"
+		"iconm": "emchest5-2.png",
+		"forgeTarget": 201
 	},
 	{
 		"classId": 142,
@@ -3672,6 +4638,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "拥有一定历史的魔法书，记载着一些不为人知的魔法",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -3692,7 +4664,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 30
+		"sellGem": 30,
+		"enhanceID": 1,
+		"forgeID": 25,
+		"forgeTarget": 202
 	},
 	{
 		"classId": 143,
@@ -3701,6 +4676,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "稀有木材制造成的法杖，蕴含着强大魔力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -3722,7 +4703,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 30
+		"sellGem": 30,
+		"enhanceID": 1,
+		"forgeID": 26,
+		"forgeTarget": 203
 	},
 	{
 		"classId": 144,
@@ -3731,6 +4715,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "侍僧们穿着的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg5.ccbi"
@@ -3750,10 +4740,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 30,
+		"enhanceID": 2,
+		"forgeID": 23,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg5-2.ccbi"
-		}
+		},
+		"forgeTarget": 204
 	},
 	{
 		"classId": 145,
@@ -3761,6 +4754,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "长久岁月间侍僧们的标准着装",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand5.ccbi"
@@ -3781,12 +4780,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 30,
+		"enhanceID": 2,
+		"forgeID": 24,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand5-2.ccbi"
 		},
 		"iconf": "epchest5.png",
-		"iconm": "epchest5-2.png"
+		"iconm": "epchest5-2.png",
+		"forgeTarget": 205
 	},
 	{
 		"classId": 146,
@@ -3795,6 +4797,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "侍僧们常年累月祈祷所用的十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -3817,7 +4825,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 30
+		"sellGem": 30,
+		"enhanceID": 2,
+		"forgeID": 25,
+		"forgeTarget": 206
 	},
 	{
 		"classId": 147,
@@ -3826,6 +4837,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "代表着神圣的权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -3846,7 +4863,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 30
+		"sellGem": 30,
+		"enhanceID": 2,
+		"forgeID": 26,
+		"forgeTarget": 207
 	},
 	{
 		"classId": 148,
@@ -3855,6 +4875,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "用特殊材质制成的鞋子，异常灵巧",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg5.ccbi"
@@ -3874,7 +4900,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 30
+		"sellGem": 30,
+		"enhanceID": 0,
+		"forgeID": 23,
+		"forgeTarget": 208
 	},
 	{
 		"classId": 149,
@@ -3883,6 +4912,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "经过多重工艺制成的铁甲，坚不可摧",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand5.ccbi"
@@ -3902,7 +4937,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 30
+		"sellGem": 30,
+		"enhanceID": 0,
+		"forgeID": 24,
+		"forgeTarget": 209
 	},
 	{
 		"classId": 150,
@@ -3910,6 +4948,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "用上好的素材制成的坚固且耐用的圆盾",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effectf": [
 			{
 				"part": "secondaryweapon",
@@ -3937,8 +4981,11 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 30,
+		"enhanceID": 0,
+		"forgeID": 25,
 		"iconf": "ewsubweapon5.png",
-		"iconm": "ewsubweapon5-2.png"
+		"iconm": "ewsubweapon5-2.png",
+		"forgeTarget": 210
 	},
 	{
 		"classId": 151,
@@ -3947,6 +4994,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "锋利耐用的长剑，让人爱不释手",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -3969,7 +5022,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 30
+		"sellGem": 30,
+		"enhanceID": 0,
+		"forgeID": 26,
+		"forgeTarget": 211
 	},
 	{
 		"classId": 152,
@@ -3978,6 +5034,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "只有资深的长者才有资格拥有的长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg6.ccbi"
@@ -3999,10 +5061,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 35,
+		"enhanceID": 1,
+		"forgeID": 23,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg6-2.ccbi"
-		}
+		},
+		"forgeTarget": 212
 	},
 	{
 		"classId": 153,
@@ -4010,6 +5075,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "魔法师资历的证明，略显过时但品质不凡",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
@@ -4030,12 +5101,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 35,
+		"enhanceID": 1,
+		"forgeID": 24,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
 		},
 		"iconf": "emchest6.png",
-		"iconm": "emchest6-2.png"
+		"iconm": "emchest6-2.png",
+		"forgeTarget": 213
 	},
 	{
 		"classId": 154,
@@ -4044,6 +5118,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "记录着资深法师阅历的魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -4058,10 +5138,13 @@ exports.data =[
 		"upgradeTarget": 166,
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 35,
+		"enhanceID": 1,
+		"forgeID": 25,
 		"basic_properties": {
 			"critical": 60
 		},
-		"sellGem": 35
+		"forgeTarget": 214
 	},
 	{
 		"classId": 155,
@@ -4070,6 +5153,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "布满岁月痕迹，但积攒了大量魔力的法杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -4092,7 +5181,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 1,
+		"forgeID": 26,
+		"forgeTarget": 215
 	},
 	{
 		"classId": 156,
@@ -4101,6 +5193,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "神的预言家曾经穿过的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg6.ccbi"
@@ -4120,10 +5218,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 35,
+		"enhanceID": 2,
+		"forgeID": 23,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg6-2.ccbi"
-		}
+		},
+		"forgeTarget": 216
 	},
 	{
 		"classId": 157,
@@ -4131,6 +5232,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "预言者神圣的外衣",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand6.ccbi"
@@ -4151,12 +5258,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 35,
+		"enhanceID": 2,
+		"forgeID": 24,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand6-2.ccbi"
 		},
 		"iconf": "epchest6.png",
-		"iconm": "epchest6-2.png"
+		"iconm": "epchest6-2.png",
+		"forgeTarget": 217
 	},
 	{
 		"classId": 158,
@@ -4165,6 +5275,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "寄宿预言力量的十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -4187,7 +5303,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 2,
+		"forgeID": 25,
+		"forgeTarget": 218
 	},
 	{
 		"classId": 159,
@@ -4196,6 +5315,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "预言者手持的权杖，伴随着圣神的力量",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -4216,7 +5341,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 2,
+		"forgeID": 26,
+		"forgeTarget": 219
 	},
 	{
 		"classId": 160,
@@ -4225,6 +5353,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "沉重的钢靴，能够践踏一切阻挡前进的敌人",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg6.ccbi"
@@ -4244,7 +5378,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 0,
+		"forgeID": 23,
+		"forgeTarget": 220
 	},
 	{
 		"classId": 161,
@@ -4253,6 +5390,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "重装的铠甲，甚至能够抵挡住古老的魔法",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand6.ccbi"
@@ -4272,7 +5415,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 0,
+		"forgeID": 24,
+		"forgeTarget": 221
 	},
 	{
 		"classId": 162,
@@ -4280,6 +5426,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "工艺与用料都非常上乘，能够为战士提供最强大的保护",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effectf": [
 			{
 				"part": "secondaryweapon",
@@ -4307,8 +5459,11 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 35,
+		"enhanceID": 0,
+		"forgeID": 25,
 		"iconf": "ewsubweapon6.png",
-		"iconm": "ewsubweapon6-2.png"
+		"iconm": "ewsubweapon6-2.png",
+		"forgeTarget": 222
 	},
 	{
 		"classId": 163,
@@ -4317,6 +5472,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "分量相当沉，普通人难以驾驭，但却拥有巨大的破坏力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -4339,7 +5500,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 0,
+		"forgeID": 26,
+		"forgeTarget": 223
 	},
 	{
 		"classId": 164,
@@ -4348,6 +5512,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "拥有驱散之力的高级长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg7.ccbi"
@@ -4368,10 +5538,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 40,
+		"enhanceID": 1,
+		"forgeID": 23,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg7-2.ccbi"
-		}
+		},
+		"forgeTarget": 224
 	},
 	{
 		"classId": 165,
@@ -4379,6 +5552,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "寄宿驱魔之力的神秘法袍",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand7.ccbi"
@@ -4398,12 +5577,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 40,
+		"enhanceID": 1,
+		"forgeID": 24,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand7-2.ccbi"
 		},
 		"iconf": "emchest7.png",
-		"iconm": "emchest7-2.png"
+		"iconm": "emchest7-2.png",
+		"forgeTarget": 225
 	},
 	{
 		"classId": 166,
@@ -4412,6 +5594,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "存在驱魔之力的古老魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -4431,7 +5619,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 40
+		"sellGem": 40,
+		"enhanceID": 1,
+		"forgeID": 25,
+		"forgeTarget": 226
 	},
 	{
 		"classId": 167,
@@ -4440,6 +5631,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "能够驱散一切的危险法杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -4460,7 +5657,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 40
+		"sellGem": 40,
+		"enhanceID": 1,
+		"forgeID": 26,
+		"forgeTarget": 227
 	},
 	{
 		"classId": 168,
@@ -4469,6 +5669,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "神官们才能够有资格穿着的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg7.ccbi"
@@ -4487,10 +5693,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 40,
+		"enhanceID": 2,
+		"forgeID": 23,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg7-2.ccbi"
-		}
+		},
+		"forgeTarget": 228
 	},
 	{
 		"classId": 169,
@@ -4498,6 +5707,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "神官们的衣服，威严与神圣并重",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand7.ccbi"
@@ -4517,12 +5732,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 40,
+		"enhanceID": 2,
+		"forgeID": 24,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand7-2.ccbi"
 		},
 		"iconf": "epchest7.png",
-		"iconm": "epchest7-2.png"
+		"iconm": "epchest7-2.png",
+		"forgeTarget": 229
 	},
 	{
 		"classId": 170,
@@ -4531,6 +5749,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "具备神圣之力的大型十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -4552,7 +5776,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 40
+		"sellGem": 40,
+		"enhanceID": 2,
+		"forgeID": 25,
+		"forgeTarget": 230
 	},
 	{
 		"classId": 171,
@@ -4561,6 +5788,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "神圣的权杖，是神之代言人的证明",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -4580,7 +5813,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 40
+		"sellGem": 40,
+		"enhanceID": 2,
+		"forgeID": 26,
+		"forgeTarget": 231
 	},
 	{
 		"classId": 172,
@@ -4589,6 +5825,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "赐予守护力量的重靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg7.ccbi"
@@ -4607,7 +5849,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 40
+		"sellGem": 40,
+		"enhanceID": 0,
+		"forgeID": 23,
+		"forgeTarget": 232
 	},
 	{
 		"classId": 173,
@@ -4616,6 +5861,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "给你守护一切力量的战甲",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand7.ccbi"
@@ -4634,7 +5885,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 40
+		"sellGem": 40,
+		"enhanceID": 0,
+		"forgeID": 24,
+		"forgeTarget": 233
 	},
 	{
 		"classId": 174,
@@ -4642,6 +5896,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "为守护者配备的战盾，能够抵御各种伤害",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"effectf": [
 			{
 				"part": "secondaryweapon",
@@ -4668,8 +5928,11 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 40,
+		"enhanceID": 0,
+		"forgeID": 25,
 		"iconf": "ewsubweapon7.png",
-		"iconm": "ewsubweapon7-2.png"
+		"iconm": "ewsubweapon7-2.png",
+		"forgeTarget": 234
 	},
 	{
 		"classId": 175,
@@ -4678,6 +5941,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "为守护者配备的巨剑，攻守兼备",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -4699,7 +5968,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 40
+		"sellGem": 40,
+		"enhanceID": 0,
+		"forgeID": 26,
+		"forgeTarget": 235
 	},
 	{
 		"classId": 176,
@@ -4708,6 +5980,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "穿上它，你就是见习法师了",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "mage-rightleg3.ccbi"
@@ -4728,7 +6006,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 1,
+		"forgeID": 29
 	},
 	{
 		"classId": 177,
@@ -4737,6 +6017,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "见习法师身份的证明",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "mage-lefthand3.ccbi"
@@ -4756,7 +6042,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 1,
+		"forgeID": 30
 	},
 	{
 		"classId": 178,
@@ -4765,6 +6053,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "大概是小学生级别的魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -4785,7 +6079,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 1,
+		"forgeID": 31
 	},
 	{
 		"classId": 179,
@@ -4794,6 +6090,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "虽说是见习，其实还是挺带感的法杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -4815,7 +6117,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 1,
+		"forgeID": 32
 	},
 	{
 		"classId": 180,
@@ -4824,6 +6128,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "牧师祷告时的穿着",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "priest-rightleg3.ccbi"
@@ -4842,7 +6152,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 2,
+		"forgeID": 29
 	},
 	{
 		"classId": 181,
@@ -4851,6 +6163,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "牧师祷告时的衣着",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "priest-lefthand3.ccbi"
@@ -4870,7 +6188,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 2,
+		"forgeID": 30
 	},
 	{
 		"classId": 182,
@@ -4879,6 +6199,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "祷告用的神圣十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -4901,7 +6227,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 2,
+		"forgeID": 31
 	},
 	{
 		"classId": 183,
@@ -4910,6 +6238,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "被祝福过的祷告用权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -4930,7 +6264,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 2,
+		"forgeID": 32
 	},
 	{
 		"classId": 184,
@@ -4939,6 +6275,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "战士们最爱的铁靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg3.ccbi"
@@ -4958,7 +6300,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 0,
+		"forgeID": 29
 	},
 	{
 		"classId": 185,
@@ -4967,6 +6311,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "最适合作战用的铠甲",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand3.ccbi"
@@ -4986,7 +6336,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 0,
+		"forgeID": 30
 	},
 	{
 		"classId": 186,
@@ -4995,6 +6347,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "战斗盾牌，重量与防护效果都恰到好处",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -5015,7 +6373,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 0,
+		"forgeID": 31
 	},
 	{
 		"classId": 187,
@@ -5024,6 +6384,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "握感极佳，能将战斗力完全引发出来",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -5046,7 +6412,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 35
+		"sellGem": 35,
+		"enhanceID": 0,
+		"forgeID": 32
 	},
 	{
 		"classId": 188,
@@ -5055,6 +6423,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "用上好材料与工艺制作的长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 50
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "mage-rightleg4.ccbi"
@@ -5075,7 +6449,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 50
+		"sellGem": 50,
+		"enhanceID": 1,
+		"forgeID": 29,
+		"forgeTarget": 248
 	},
 	{
 		"classId": 189,
@@ -5084,6 +6461,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "用上好材料与工艺制作的法袍",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 50
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "mage-lefthand4.ccbi"
@@ -5103,7 +6486,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 50
+		"sellGem": 50,
+		"enhanceID": 1,
+		"forgeID": 30,
+		"forgeTarget": 249
 	},
 	{
 		"classId": 190,
@@ -5112,6 +6498,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "镶有金边，几代高级法师传承下来的魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 50
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -5132,7 +6524,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 50
+		"sellGem": 50,
+		"enhanceID": 1,
+		"forgeID": 31,
+		"forgeTarget": 250
 	},
 	{
 		"classId": 191,
@@ -5141,6 +6536,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "精心打造的法杖，蕴含强大的魔力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 50
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -5162,7 +6563,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 50
+		"sellGem": 50,
+		"enhanceID": 1,
+		"forgeID": 32,
+		"forgeTarget": 251
 	},
 	{
 		"classId": 192,
@@ -5171,6 +6575,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "蕴含着美好祝福的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 50
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "priest-rightleg4.ccbi"
@@ -5189,7 +6599,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 50
+		"sellGem": 50,
+		"enhanceID": 2,
+		"forgeID": 29,
+		"forgeTarget": 252
 	},
 	{
 		"classId": 193,
@@ -5198,6 +6611,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "拥有神圣力量的长衣",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 50
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "priest-lefthand4.ccbi"
@@ -5217,7 +6636,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 50
+		"sellGem": 50,
+		"enhanceID": 2,
+		"forgeID": 30,
+		"forgeTarget": 253
 	},
 	{
 		"classId": 194,
@@ -5226,6 +6648,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "愿我主给我带来力量",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 50
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -5248,7 +6676,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 50
+		"sellGem": 50,
+		"enhanceID": 2,
+		"forgeID": 31,
+		"forgeTarget": 254
 	},
 	{
 		"classId": 195,
@@ -5257,6 +6688,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "具备引发奇迹可能的权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 50
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -5277,7 +6714,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 50
+		"sellGem": 50,
+		"enhanceID": 2,
+		"forgeID": 32,
+		"forgeTarget": 255
 	},
 	{
 		"classId": 196,
@@ -5286,6 +6726,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "城堡卫兵的标准配备",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 50
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg4.ccbi"
@@ -5305,7 +6751,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 50
+		"sellGem": 50,
+		"enhanceID": 0,
+		"forgeID": 29,
+		"forgeTarget": 256
 	},
 	{
 		"classId": 197,
@@ -5314,6 +6763,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "一个卫兵的身份证明",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 50
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand4.ccbi"
@@ -5333,7 +6788,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 50
+		"sellGem": 50,
+		"enhanceID": 0,
+		"forgeID": 30,
+		"forgeTarget": 257
 	},
 	{
 		"classId": 198,
@@ -5342,6 +6800,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "符合卫兵身份的圆盾",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 50
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -5362,7 +6826,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 50
+		"sellGem": 50,
+		"enhanceID": 0,
+		"forgeID": 31,
+		"forgeTarget": 258
 	},
 	{
 		"classId": 199,
@@ -5371,6 +6838,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "坚实耐用不失皇家典范的长剑",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 50
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -5393,7 +6866,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 50
+		"sellGem": 50,
+		"enhanceID": 0,
+		"forgeID": 32,
+		"forgeTarget": 259
 	},
 	{
 		"classId": 200,
@@ -5402,6 +6878,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "经过几代传承的魔力长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg5.ccbi"
@@ -5423,10 +6905,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 60,
+		"enhanceID": 1,
+		"forgeID": 29,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg5-2.ccbi"
-		}
+		},
+		"forgeTarget": 260
 	},
 	{
 		"classId": 201,
@@ -5434,6 +6919,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "魔法师代代相传的法袍",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
@@ -5454,12 +6945,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 60,
+		"enhanceID": 1,
+		"forgeID": 30,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
 		},
 		"iconf": "emchest5.png",
-		"iconm": "emchest5-2.png"
+		"iconm": "emchest5-2.png",
+		"forgeTarget": 261
 	},
 	{
 		"classId": 202,
@@ -5468,6 +6962,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "拥有一定历史的魔法书，记载着一些不为人知的魔法",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -5488,7 +6988,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 1,
+		"forgeID": 31,
+		"forgeTarget": 262
 	},
 	{
 		"classId": 203,
@@ -5497,6 +7000,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "稀有木材制造成的法杖，蕴含着强大魔力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -5518,7 +7027,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 1,
+		"forgeID": 32,
+		"forgeTarget": 263
 	},
 	{
 		"classId": 204,
@@ -5527,6 +7039,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "侍僧们穿着的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg5.ccbi"
@@ -5546,10 +7064,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 60,
+		"enhanceID": 2,
+		"forgeID": 29,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg5-2.ccbi"
-		}
+		},
+		"forgeTarget": 264
 	},
 	{
 		"classId": 205,
@@ -5557,6 +7078,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "长久岁月间侍僧们的标准着装",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand5.ccbi"
@@ -5577,12 +7104,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 60,
+		"enhanceID": 2,
+		"forgeID": 30,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand5-2.ccbi"
 		},
 		"iconf": "epchest5.png",
-		"iconm": "epchest5-2.png"
+		"iconm": "epchest5-2.png",
+		"forgeTarget": 265
 	},
 	{
 		"classId": 206,
@@ -5591,6 +7121,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "侍僧们常年累月祈祷所用的十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -5613,7 +7149,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 2,
+		"forgeID": 31,
+		"forgeTarget": 266
 	},
 	{
 		"classId": 207,
@@ -5622,6 +7161,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "代表着神圣的权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -5642,7 +7187,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 2,
+		"forgeID": 32,
+		"forgeTarget": 267
 	},
 	{
 		"classId": 208,
@@ -5651,6 +7199,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "用特殊材质制成的鞋子，异常灵巧",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg5.ccbi"
@@ -5670,7 +7224,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 0,
+		"forgeID": 29,
+		"forgeTarget": 268
 	},
 	{
 		"classId": 209,
@@ -5679,6 +7236,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "经过多重工艺制成的铁甲，坚不可摧",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand5.ccbi"
@@ -5698,7 +7261,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 0,
+		"forgeID": 30,
+		"forgeTarget": 269
 	},
 	{
 		"classId": 210,
@@ -5706,6 +7272,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "用上好的素材制成的坚固且耐用的圆盾",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effectf": [
 			{
 				"part": "secondaryweapon",
@@ -5733,8 +7305,11 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 60,
+		"enhanceID": 0,
+		"forgeID": 31,
 		"iconf": "ewsubweapon5.png",
-		"iconm": "ewsubweapon5-2.png"
+		"iconm": "ewsubweapon5-2.png",
+		"forgeTarget": 270
 	},
 	{
 		"classId": 211,
@@ -5743,6 +7318,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "锋利耐用的长剑，让人爱不释手",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -5765,7 +7346,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 0,
+		"forgeID": 32,
+		"forgeTarget": 271
 	},
 	{
 		"classId": 212,
@@ -5774,6 +7358,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "只有资深的长者才有资格拥有的长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 75
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg6.ccbi"
@@ -5795,10 +7385,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 75,
+		"enhanceID": 1,
+		"forgeID": 29,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg6-2.ccbi"
-		}
+		},
+		"forgeTarget": 272
 	},
 	{
 		"classId": 213,
@@ -5806,6 +7399,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "魔法师资历的证明，略显过时但品质不凡",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 75
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
@@ -5826,12 +7425,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 75,
+		"enhanceID": 1,
+		"forgeID": 30,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
 		},
 		"iconf": "emchest6.png",
-		"iconm": "emchest6-2.png"
+		"iconm": "emchest6-2.png",
+		"forgeTarget": 273
 	},
 	{
 		"classId": 214,
@@ -5840,6 +7442,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "记录着资深法师阅历的魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 75
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -5860,7 +7468,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 75
+		"sellGem": 75,
+		"enhanceID": 1,
+		"forgeID": 31,
+		"forgeTarget": 274
 	},
 	{
 		"classId": 215,
@@ -5869,6 +7480,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "布满岁月痕迹，但积攒了大量魔力的法杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 75
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -5890,7 +7507,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 75
+		"sellGem": 75,
+		"enhanceID": 1,
+		"forgeID": 32,
+		"forgeTarget": 275
 	},
 	{
 		"classId": 216,
@@ -5899,6 +7519,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "神的预言家曾经穿过的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 75
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg6.ccbi"
@@ -5918,10 +7544,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 75,
+		"enhanceID": 2,
+		"forgeID": 29,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg6-2.ccbi"
-		}
+		},
+		"forgeTarget": 276
 	},
 	{
 		"classId": 217,
@@ -5929,6 +7558,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "预言者神圣的外衣",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 75
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand6.ccbi"
@@ -5949,12 +7584,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 75,
+		"enhanceID": 2,
+		"forgeID": 30,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand6-2.ccbi"
 		},
 		"iconf": "epchest6.png",
-		"iconm": "epchest6-2.png"
+		"iconm": "epchest6-2.png",
+		"forgeTarget": 277
 	},
 	{
 		"classId": 218,
@@ -5963,6 +7601,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "寄宿预言力量的十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 75
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -5985,7 +7629,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 75
+		"sellGem": 75,
+		"enhanceID": 2,
+		"forgeID": 31,
+		"forgeTarget": 278
 	},
 	{
 		"classId": 219,
@@ -5994,6 +7641,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "预言者手持的权杖，伴随着圣神的力量",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 75
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -6014,7 +7667,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 75
+		"sellGem": 75,
+		"enhanceID": 2,
+		"forgeID": 32,
+		"forgeTarget": 279
 	},
 	{
 		"classId": 220,
@@ -6023,6 +7679,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "沉重的钢靴，能够践踏一切阻挡前进的敌人",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 75
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg6.ccbi"
@@ -6042,7 +7704,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 75
+		"sellGem": 75,
+		"enhanceID": 0,
+		"forgeID": 29,
+		"forgeTarget": 280
 	},
 	{
 		"classId": 221,
@@ -6051,6 +7716,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "重装的铠甲，甚至能够抵挡住古老的魔法",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 75
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand6.ccbi"
@@ -6070,7 +7741,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 75
+		"sellGem": 75,
+		"enhanceID": 0,
+		"forgeID": 30,
+		"forgeTarget": 281
 	},
 	{
 		"classId": 222,
@@ -6078,6 +7752,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "工艺与用料都非常上乘，能够为战士提供最强大的保护",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 75
+			}
+		],
 		"effectf": [
 			{
 				"part": "secondaryweapon",
@@ -6105,8 +7785,11 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 75,
+		"enhanceID": 0,
+		"forgeID": 31,
 		"iconf": "ewsubweapon6.png",
-		"iconm": "ewsubweapon6-2.png"
+		"iconm": "ewsubweapon6-2.png",
+		"forgeTarget": 282
 	},
 	{
 		"classId": 223,
@@ -6115,6 +7798,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "分量相当沉，普通人难以驾驭，但却拥有巨大的破坏力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 75
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -6137,7 +7826,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 75
+		"sellGem": 75,
+		"enhanceID": 0,
+		"forgeID": 32,
+		"forgeTarget": 283
 	},
 	{
 		"classId": 224,
@@ -6146,6 +7838,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "拥有驱散之力的高级长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg7.ccbi"
@@ -6167,10 +7865,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 90,
+		"enhanceID": 1,
+		"forgeID": 29,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg7-2.ccbi"
-		}
+		},
+		"forgeTarget": 284
 	},
 	{
 		"classId": 225,
@@ -6178,6 +7879,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "寄宿驱魔之力的神秘法袍",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand7.ccbi"
@@ -6198,12 +7905,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 90,
+		"enhanceID": 1,
+		"forgeID": 30,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand7-2.ccbi"
 		},
 		"iconf": "emchest7.png",
-		"iconm": "emchest7-2.png"
+		"iconm": "emchest7-2.png",
+		"forgeTarget": 285
 	},
 	{
 		"classId": 226,
@@ -6212,6 +7922,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "存在驱魔之力的古老魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -6232,7 +7948,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 90
+		"sellGem": 90,
+		"enhanceID": 1,
+		"forgeID": 31,
+		"forgeTarget": 286
 	},
 	{
 		"classId": 227,
@@ -6241,6 +7960,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "能够驱散一切的危险法杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -6262,7 +7987,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 90
+		"sellGem": 90,
+		"enhanceID": 1,
+		"forgeID": 32,
+		"forgeTarget": 287
 	},
 	{
 		"classId": 228,
@@ -6271,6 +7999,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "神官们才能够有资格穿着的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg7.ccbi"
@@ -6290,10 +8024,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 90,
+		"enhanceID": 2,
+		"forgeID": 29,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg7-2.ccbi"
-		}
+		},
+		"forgeTarget": 288
 	},
 	{
 		"classId": 229,
@@ -6301,6 +8038,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "神官们的衣服，威严与神圣并重",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand7.ccbi"
@@ -6321,12 +8064,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 90,
+		"enhanceID": 2,
+		"forgeID": 30,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand7-2.ccbi"
 		},
 		"iconf": "epchest7.png",
-		"iconm": "epchest7-2.png"
+		"iconm": "epchest7-2.png",
+		"forgeTarget": 289
 	},
 	{
 		"classId": 230,
@@ -6335,6 +8081,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "具备神圣之力的大型十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -6357,7 +8109,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 90
+		"sellGem": 90,
+		"enhanceID": 2,
+		"forgeID": 31,
+		"forgeTarget": 290
 	},
 	{
 		"classId": 231,
@@ -6366,6 +8121,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "神圣的权杖，是神之代言人的证明",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -6386,7 +8147,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 90
+		"sellGem": 90,
+		"enhanceID": 2,
+		"forgeID": 32,
+		"forgeTarget": 291
 	},
 	{
 		"classId": 232,
@@ -6395,6 +8159,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "赐予守护力量的重靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg7.ccbi"
@@ -6414,7 +8184,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 90
+		"sellGem": 90,
+		"enhanceID": 0,
+		"forgeID": 29,
+		"forgeTarget": 292
 	},
 	{
 		"classId": 233,
@@ -6423,6 +8196,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "给你守护一切力量的战甲",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand7.ccbi"
@@ -6442,7 +8221,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 90
+		"sellGem": 90,
+		"enhanceID": 0,
+		"forgeID": 30,
+		"forgeTarget": 293
 	},
 	{
 		"classId": 234,
@@ -6450,6 +8232,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "为守护者配备的战盾，能够抵御各种伤害",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effectf": [
 			{
 				"part": "secondaryweapon",
@@ -6477,8 +8265,11 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 90,
+		"enhanceID": 0,
+		"forgeID": 31,
 		"iconf": "ewsubweapon7.png",
-		"iconm": "ewsubweapon7-2.png"
+		"iconm": "ewsubweapon7-2.png",
+		"forgeTarget": 294
 	},
 	{
 		"classId": 235,
@@ -6487,6 +8278,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "为守护者配备的巨剑，攻守兼备",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -6509,7 +8306,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 90
+		"sellGem": 90,
+		"enhanceID": 0,
+		"forgeID": 32,
+		"forgeTarget": 295
 	},
 	{
 		"classId": 236,
@@ -6518,6 +8318,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "由精灵制造的稀有长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 110
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg8.ccbi"
@@ -6538,10 +8344,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 110,
+		"enhanceID": 1,
+		"forgeID": 29,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg8-2.ccbi"
-		}
+		},
+		"forgeTarget": 296
 	},
 	{
 		"classId": 237,
@@ -6549,6 +8358,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "由精灵亲手缝制的法袍，极其珍贵",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 110
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand8.ccbi"
@@ -6568,12 +8383,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 110,
+		"enhanceID": 1,
+		"forgeID": 30,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand8-2.ccbi"
 		},
 		"iconf": "emchest8.png",
-		"iconm": "emchest8-2.png"
+		"iconm": "emchest8-2.png",
+		"forgeTarget": 297
 	},
 	{
 		"classId": 238,
@@ -6582,6 +8400,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "记录着古老精灵魔法的魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 110
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -6601,7 +8425,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 110
+		"sellGem": 110,
+		"enhanceID": 1,
+		"forgeID": 31,
+		"forgeTarget": 298
 	},
 	{
 		"classId": 239,
@@ -6610,6 +8437,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "精灵们所使用的法杖，人类没有办法制造",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 110
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -6630,7 +8463,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 110
+		"sellGem": 110,
+		"enhanceID": 1,
+		"forgeID": 32,
+		"forgeTarget": 299
 	},
 	{
 		"classId": 240,
@@ -6639,6 +8475,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "最接近神的圣职者才有资格穿的圣鞋",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 110
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg8.ccbi"
@@ -6657,10 +8499,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 110,
+		"enhanceID": 2,
+		"forgeID": 29,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg8-2.ccbi"
-		}
+		},
+		"forgeTarget": 300
 	},
 	{
 		"classId": 241,
@@ -6668,6 +8513,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "圣洁无暇的外衣，有神之力的加护",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 110
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand8.ccbi"
@@ -6687,12 +8538,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 110,
+		"enhanceID": 2,
+		"forgeID": 30,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand8-2.ccbi"
 		},
 		"iconf": "epchest8.png",
-		"iconm": "epchest8-2.png"
+		"iconm": "epchest8-2.png",
+		"forgeTarget": 301
 	},
 	{
 		"classId": 242,
@@ -6701,6 +8555,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "充满光之力的神圣十字架，能够扫清一切黑暗",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 110
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -6722,7 +8582,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 110
+		"sellGem": 110,
+		"enhanceID": 2,
+		"forgeID": 31,
+		"forgeTarget": 302
 	},
 	{
 		"classId": 243,
@@ -6731,6 +8594,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "神圣庇佑的权杖，代表着至高无上的神",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 110
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -6750,7 +8619,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 110
+		"sellGem": 110,
+		"enhanceID": 2,
+		"forgeID": 32,
+		"forgeTarget": 303
 	},
 	{
 		"classId": 244,
@@ -6759,6 +8631,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "联盟勇者才有资格拥有的厚重钢靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 110
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg8.ccbi"
@@ -6777,7 +8655,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 110
+		"sellGem": 110,
+		"enhanceID": 0,
+		"forgeID": 29,
+		"forgeTarget": 304
 	},
 	{
 		"classId": 245,
@@ -6786,6 +8667,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "战斗联盟的最高身份象征，霸气袭人",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 110
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand8.ccbi"
@@ -6804,7 +8691,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 110
+		"sellGem": 110,
+		"enhanceID": 0,
+		"forgeID": 30,
+		"forgeTarget": 305
 	},
 	{
 		"classId": 246,
@@ -6813,6 +8703,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "刻有联盟徽章的巨大盾牌，任何伤害在它面前都显得毫无威胁",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 110
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -6832,7 +8728,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 110
+		"sellGem": 110,
+		"enhanceID": 0,
+		"forgeID": 31,
+		"forgeTarget": 306
 	},
 	{
 		"classId": 247,
@@ -6841,6 +8740,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "被联盟承认的勇者所佩戴的大剑，威力惊人",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 110
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -6862,7 +8767,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 110
+		"sellGem": 110,
+		"enhanceID": 0,
+		"forgeID": 32,
+		"forgeTarget": 307
 	},
 	{
 		"classId": 248,
@@ -6871,6 +8779,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "用上好材料与工艺制作的长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "mage-rightleg4.ccbi"
@@ -6891,7 +8805,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 1,
+		"forgeID": 35
 	},
 	{
 		"classId": 249,
@@ -6900,6 +8816,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "用上好材料与工艺制作的法袍",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "mage-lefthand4.ccbi"
@@ -6919,7 +8841,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 1,
+		"forgeID": 36
 	},
 	{
 		"classId": 250,
@@ -6928,6 +8852,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "镶有金边，几代高级法师传承下来的魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -6948,7 +8878,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 1,
+		"forgeID": 37
 	},
 	{
 		"classId": 251,
@@ -6957,6 +8889,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "精心打造的法杖，蕴含强大的魔力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -6978,7 +8916,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 1,
+		"forgeID": 38
 	},
 	{
 		"classId": 252,
@@ -6987,6 +8927,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "蕴含着美好祝福的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "priest-rightleg4.ccbi"
@@ -7005,7 +8951,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 2,
+		"forgeID": 35
 	},
 	{
 		"classId": 253,
@@ -7014,6 +8962,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "拥有神圣力量的长衣",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "priest-lefthand4.ccbi"
@@ -7033,7 +8987,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 2,
+		"forgeID": 36
 	},
 	{
 		"classId": 254,
@@ -7042,6 +8998,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "愿我主给我带来力量",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -7064,7 +9026,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 2,
+		"forgeID": 37
 	},
 	{
 		"classId": 255,
@@ -7073,6 +9037,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "具备引发奇迹可能的权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -7093,7 +9063,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 2,
+		"forgeID": 38
 	},
 	{
 		"classId": 256,
@@ -7102,6 +9074,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "城堡卫兵的标准配备",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg4.ccbi"
@@ -7121,7 +9099,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 0,
+		"forgeID": 35
 	},
 	{
 		"classId": 257,
@@ -7130,6 +9110,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "一个卫兵的身份证明",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand4.ccbi"
@@ -7149,7 +9135,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 0,
+		"forgeID": 36
 	},
 	{
 		"classId": 258,
@@ -7158,6 +9146,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "符合卫兵身份的圆盾",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -7178,7 +9172,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 0,
+		"forgeID": 37
 	},
 	{
 		"classId": 259,
@@ -7187,6 +9183,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "坚实耐用不失皇家典范的长剑",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -7209,7 +9211,9 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 60
+		"sellGem": 60,
+		"enhanceID": 0,
+		"forgeID": 38
 	},
 	{
 		"classId": 260,
@@ -7218,6 +9222,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "经过几代传承的魔力长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg5.ccbi"
@@ -7239,10 +9249,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 90,
+		"enhanceID": 1,
+		"forgeID": 35,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg5-2.ccbi"
-		}
+		},
+		"forgeTarget": 320
 	},
 	{
 		"classId": 261,
@@ -7250,6 +9263,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "魔法师代代相传的法袍",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
@@ -7270,12 +9289,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 90,
+		"enhanceID": 1,
+		"forgeID": 36,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
 		},
 		"iconf": "emchest5.png",
-		"iconm": "emchest5-2.png"
+		"iconm": "emchest5-2.png",
+		"forgeTarget": 321
 	},
 	{
 		"classId": 262,
@@ -7284,6 +9306,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "拥有一定历史的魔法书，记载着一些不为人知的魔法",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -7304,7 +9332,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 90
+		"sellGem": 90,
+		"enhanceID": 1,
+		"forgeID": 37,
+		"forgeTarget": 322
 	},
 	{
 		"classId": 263,
@@ -7313,6 +9344,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "稀有木材制造成的法杖，蕴含着强大魔力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -7334,7 +9371,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 90
+		"sellGem": 90,
+		"enhanceID": 1,
+		"forgeID": 38,
+		"forgeTarget": 323
 	},
 	{
 		"classId": 264,
@@ -7343,6 +9383,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "侍僧们穿着的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg5.ccbi"
@@ -7362,10 +9408,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 90,
+		"enhanceID": 2,
+		"forgeID": 35,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg5-2.ccbi"
-		}
+		},
+		"forgeTarget": 324
 	},
 	{
 		"classId": 265,
@@ -7373,6 +9422,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "长久岁月间侍僧们的标准着装",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand5.ccbi"
@@ -7393,12 +9448,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 90,
+		"enhanceID": 2,
+		"forgeID": 36,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand5-2.ccbi"
 		},
 		"iconf": "epchest5.png",
-		"iconm": "epchest5-2.png"
+		"iconm": "epchest5-2.png",
+		"forgeTarget": 325
 	},
 	{
 		"classId": 266,
@@ -7407,6 +9465,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "侍僧们常年累月祈祷所用的十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -7429,7 +9493,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 90
+		"sellGem": 90,
+		"enhanceID": 2,
+		"forgeID": 37,
+		"forgeTarget": 326
 	},
 	{
 		"classId": 267,
@@ -7438,6 +9505,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "代表着神圣的权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -7458,7 +9531,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 90
+		"sellGem": 90,
+		"enhanceID": 2,
+		"forgeID": 38,
+		"forgeTarget": 327
 	},
 	{
 		"classId": 268,
@@ -7467,6 +9543,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "用特殊材质制成的鞋子，异常灵巧",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg5.ccbi"
@@ -7486,7 +9568,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 90
+		"sellGem": 90,
+		"enhanceID": 0,
+		"forgeID": 35,
+		"forgeTarget": 328
 	},
 	{
 		"classId": 269,
@@ -7495,6 +9580,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "经过多重工艺制成的铁甲，坚不可摧",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand5.ccbi"
@@ -7514,7 +9605,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 90
+		"sellGem": 90,
+		"enhanceID": 0,
+		"forgeID": 36,
+		"forgeTarget": 329
 	},
 	{
 		"classId": 270,
@@ -7522,6 +9616,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "用上好的素材制成的坚固且耐用的圆盾",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effectf": [
 			{
 				"part": "secondaryweapon",
@@ -7549,8 +9649,11 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 90,
+		"enhanceID": 0,
+		"forgeID": 37,
 		"iconf": "ewsubweapon5.png",
-		"iconm": "ewsubweapon5-2.png"
+		"iconm": "ewsubweapon5-2.png",
+		"forgeTarget": 330
 	},
 	{
 		"classId": 271,
@@ -7559,6 +9662,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "锋利耐用的长剑，让人爱不释手",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 90
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -7581,7 +9690,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 90
+		"sellGem": 90,
+		"enhanceID": 0,
+		"forgeID": 38,
+		"forgeTarget": 331
 	},
 	{
 		"classId": 272,
@@ -7590,6 +9702,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "只有资深的长者才有资格拥有的长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg6.ccbi"
@@ -7611,10 +9729,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 120,
+		"enhanceID": 1,
+		"forgeID": 35,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg6-2.ccbi"
-		}
+		},
+		"forgeTarget": 332
 	},
 	{
 		"classId": 273,
@@ -7622,6 +9743,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "魔法师资历的证明，略显过时但品质不凡",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
@@ -7642,12 +9769,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 120,
+		"enhanceID": 1,
+		"forgeID": 36,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
 		},
 		"iconf": "emchest6.png",
-		"iconm": "emchest6-2.png"
+		"iconm": "emchest6-2.png",
+		"forgeTarget": 333
 	},
 	{
 		"classId": 274,
@@ -7656,6 +9786,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "记录着资深法师阅历的魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -7676,7 +9812,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 120
+		"sellGem": 120,
+		"enhanceID": 1,
+		"forgeID": 37,
+		"forgeTarget": 334
 	},
 	{
 		"classId": 275,
@@ -7685,6 +9824,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "布满岁月痕迹，但积攒了大量魔力的法杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -7706,7 +9851,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 120
+		"sellGem": 120,
+		"enhanceID": 1,
+		"forgeID": 38,
+		"forgeTarget": 335
 	},
 	{
 		"classId": 276,
@@ -7715,6 +9863,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "神的预言家曾经穿过的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg6.ccbi"
@@ -7734,10 +9888,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 120,
+		"enhanceID": 2,
+		"forgeID": 35,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg6-2.ccbi"
-		}
+		},
+		"forgeTarget": 336
 	},
 	{
 		"classId": 277,
@@ -7745,6 +9902,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "预言者神圣的外衣",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand6.ccbi"
@@ -7765,12 +9928,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 120,
+		"enhanceID": 2,
+		"forgeID": 36,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand6-2.ccbi"
 		},
 		"iconf": "epchest6.png",
-		"iconm": "epchest6-2.png"
+		"iconm": "epchest6-2.png",
+		"forgeTarget": 337
 	},
 	{
 		"classId": 278,
@@ -7779,6 +9945,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "寄宿预言力量的十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -7801,7 +9973,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 120
+		"sellGem": 120,
+		"enhanceID": 2,
+		"forgeID": 37,
+		"forgeTarget": 338
 	},
 	{
 		"classId": 279,
@@ -7810,6 +9985,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "预言者手持的权杖，伴随着圣神的力量",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -7830,7 +10011,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 120
+		"sellGem": 120,
+		"enhanceID": 2,
+		"forgeID": 38,
+		"forgeTarget": 339
 	},
 	{
 		"classId": 280,
@@ -7839,6 +10023,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "沉重的钢靴，能够践踏一切阻挡前进的敌人",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg6.ccbi"
@@ -7858,7 +10048,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 120
+		"sellGem": 120,
+		"enhanceID": 0,
+		"forgeID": 35,
+		"forgeTarget": 340
 	},
 	{
 		"classId": 281,
@@ -7867,6 +10060,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "重装的铠甲，甚至能够抵挡住古老的魔法",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand6.ccbi"
@@ -7886,7 +10085,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 120
+		"sellGem": 120,
+		"enhanceID": 0,
+		"forgeID": 36,
+		"forgeTarget": 341
 	},
 	{
 		"classId": 282,
@@ -7894,6 +10096,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "工艺与用料都非常上乘，能够为战士提供最强大的保护",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"effectf": [
 			{
 				"part": "secondaryweapon",
@@ -7921,8 +10129,11 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 120,
+		"enhanceID": 0,
+		"forgeID": 37,
 		"iconf": "ewsubweapon6.png",
-		"iconm": "ewsubweapon6-2.png"
+		"iconm": "ewsubweapon6-2.png",
+		"forgeTarget": 342
 	},
 	{
 		"classId": 283,
@@ -7931,6 +10142,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "分量相当沉，普通人难以驾驭，但却拥有巨大的破坏力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -7953,7 +10170,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 120
+		"sellGem": 120,
+		"enhanceID": 0,
+		"forgeID": 38,
+		"forgeTarget": 343
 	},
 	{
 		"classId": 284,
@@ -7962,6 +10182,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "拥有驱散之力的高级长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg7.ccbi"
@@ -7983,10 +10209,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 150,
+		"enhanceID": 1,
+		"forgeID": 35,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg7-2.ccbi"
-		}
+		},
+		"forgeTarget": 344
 	},
 	{
 		"classId": 285,
@@ -7994,6 +10223,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "寄宿驱魔之力的神秘法袍",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand7.ccbi"
@@ -8014,12 +10249,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 150,
+		"enhanceID": 1,
+		"forgeID": 36,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand7-2.ccbi"
 		},
 		"iconf": "emchest7.png",
-		"iconm": "emchest7-2.png"
+		"iconm": "emchest7-2.png",
+		"forgeTarget": 345
 	},
 	{
 		"classId": 286,
@@ -8028,6 +10266,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "存在驱魔之力的古老魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -8048,7 +10292,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 150
+		"sellGem": 150,
+		"enhanceID": 1,
+		"forgeID": 37,
+		"forgeTarget": 346
 	},
 	{
 		"classId": 287,
@@ -8057,6 +10304,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "能够驱散一切的危险法杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -8078,7 +10331,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 150
+		"sellGem": 150,
+		"enhanceID": 1,
+		"forgeID": 38,
+		"forgeTarget": 347
 	},
 	{
 		"classId": 288,
@@ -8087,6 +10343,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "神官们才能够有资格穿着的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg7.ccbi"
@@ -8106,10 +10368,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 150,
+		"enhanceID": 2,
+		"forgeID": 35,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg7-2.ccbi"
-		}
+		},
+		"forgeTarget": 348
 	},
 	{
 		"classId": 289,
@@ -8117,6 +10382,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "神官们的衣服，威严与神圣并重",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand7.ccbi"
@@ -8137,12 +10408,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 150,
+		"enhanceID": 2,
+		"forgeID": 36,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand7-2.ccbi"
 		},
 		"iconf": "epchest7.png",
-		"iconm": "epchest7-2.png"
+		"iconm": "epchest7-2.png",
+		"forgeTarget": 349
 	},
 	{
 		"classId": 290,
@@ -8151,6 +10425,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "具备神圣之力的大型十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -8173,7 +10453,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 150
+		"sellGem": 150,
+		"enhanceID": 2,
+		"forgeID": 37,
+		"forgeTarget": 350
 	},
 	{
 		"classId": 291,
@@ -8182,6 +10465,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "神圣的权杖，是神之代言人的证明",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -8202,7 +10491,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 150
+		"sellGem": 150,
+		"enhanceID": 2,
+		"forgeID": 38,
+		"forgeTarget": 351
 	},
 	{
 		"classId": 292,
@@ -8211,6 +10503,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "赐予守护力量的重靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg7.ccbi"
@@ -8230,7 +10528,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 150
+		"sellGem": 150,
+		"enhanceID": 0,
+		"forgeID": 35,
+		"forgeTarget": 352
 	},
 	{
 		"classId": 293,
@@ -8239,6 +10540,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "给你守护一切力量的战甲",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand7.ccbi"
@@ -8258,7 +10565,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 150
+		"sellGem": 150,
+		"enhanceID": 0,
+		"forgeID": 36,
+		"forgeTarget": 353
 	},
 	{
 		"classId": 294,
@@ -8266,6 +10576,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "为守护者配备的战盾，能够抵御各种伤害",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effectf": [
 			{
 				"part": "secondaryweapon",
@@ -8293,8 +10609,11 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 150,
+		"enhanceID": 0,
+		"forgeID": 37,
 		"iconf": "ewsubweapon7.png",
-		"iconm": "ewsubweapon7-2.png"
+		"iconm": "ewsubweapon7-2.png",
+		"forgeTarget": 354
 	},
 	{
 		"classId": 295,
@@ -8303,6 +10622,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "为守护者配备的巨剑，攻守兼备",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -8325,7 +10650,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 150
+		"sellGem": 150,
+		"enhanceID": 0,
+		"forgeID": 38,
+		"forgeTarget": 355
 	},
 	{
 		"classId": 296,
@@ -8334,6 +10662,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "由精灵制造的稀有长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg8.ccbi"
@@ -8355,10 +10689,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 180,
+		"enhanceID": 1,
+		"forgeID": 35,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg8-2.ccbi"
-		}
+		},
+		"forgeTarget": 356
 	},
 	{
 		"classId": 297,
@@ -8366,6 +10703,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "由精灵亲手缝制的法袍，极其珍贵",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand8.ccbi"
@@ -8386,12 +10729,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 180,
+		"enhanceID": 1,
+		"forgeID": 36,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand8-2.ccbi"
 		},
 		"iconf": "emchest8.png",
-		"iconm": "emchest8-2.png"
+		"iconm": "emchest8-2.png",
+		"forgeTarget": 357
 	},
 	{
 		"classId": 298,
@@ -8400,6 +10746,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "记录着古老精灵魔法的魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -8420,7 +10772,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 180
+		"sellGem": 180,
+		"enhanceID": 1,
+		"forgeID": 37,
+		"forgeTarget": 358
 	},
 	{
 		"classId": 299,
@@ -8429,6 +10784,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "精灵们所使用的法杖，人类没有办法制造",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -8450,7 +10811,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 180
+		"sellGem": 180,
+		"enhanceID": 1,
+		"forgeID": 38,
+		"forgeTarget": 359
 	},
 	{
 		"classId": 300,
@@ -8459,6 +10823,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "最接近神的圣职者才有资格穿的圣鞋",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg8.ccbi"
@@ -8478,10 +10848,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 180,
+		"enhanceID": 2,
+		"forgeID": 35,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg8-2.ccbi"
-		}
+		},
+		"forgeTarget": 360
 	},
 	{
 		"classId": 301,
@@ -8489,6 +10862,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "圣洁无暇的外衣，有神之力的加护",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand8.ccbi"
@@ -8509,12 +10888,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 180,
+		"enhanceID": 2,
+		"forgeID": 36,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand8-2.ccbi"
 		},
 		"iconf": "epchest8.png",
-		"iconm": "epchest8-2.png"
+		"iconm": "epchest8-2.png",
+		"forgeTarget": 361
 	},
 	{
 		"classId": 302,
@@ -8523,6 +10905,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "充满光之力的神圣十字架，能够扫清一切黑暗",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -8545,7 +10933,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 180
+		"sellGem": 180,
+		"enhanceID": 2,
+		"forgeID": 37,
+		"forgeTarget": 362
 	},
 	{
 		"classId": 303,
@@ -8554,6 +10945,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "神圣庇佑的权杖，代表着至高无上的神",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -8574,7 +10971,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 180
+		"sellGem": 180,
+		"enhanceID": 2,
+		"forgeID": 38,
+		"forgeTarget": 363
 	},
 	{
 		"classId": 304,
@@ -8583,6 +10983,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "联盟勇者才有资格拥有的厚重钢靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg8.ccbi"
@@ -8602,7 +11008,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 180
+		"sellGem": 180,
+		"enhanceID": 0,
+		"forgeID": 35,
+		"forgeTarget": 364
 	},
 	{
 		"classId": 305,
@@ -8611,6 +11020,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "战斗联盟的最高身份象征，霸气袭人",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand8.ccbi"
@@ -8630,7 +11045,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 180
+		"sellGem": 180,
+		"enhanceID": 0,
+		"forgeID": 36,
+		"forgeTarget": 365
 	},
 	{
 		"classId": 306,
@@ -8639,6 +11057,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "刻有联盟徽章的巨大盾牌，任何伤害在它面前都显得毫无威胁",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -8659,7 +11083,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 180
+		"sellGem": 180,
+		"enhanceID": 0,
+		"forgeID": 37,
+		"forgeTarget": 366
 	},
 	{
 		"classId": 307,
@@ -8668,6 +11095,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "被联盟承认的勇者所佩戴的大剑，威力惊人",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -8690,7 +11123,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 180
+		"sellGem": 180,
+		"enhanceID": 0,
+		"forgeID": 38,
+		"forgeTarget": 367
 	},
 	{
 		"classId": 308,
@@ -8699,6 +11135,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "蕴含黑暗破坏之力的长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 210
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg9.ccbi"
@@ -8719,10 +11161,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 210,
+		"enhanceID": 1,
+		"forgeID": 35,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg9-2.ccbi"
-		}
+		},
+		"forgeTarget": 368
 	},
 	{
 		"classId": 309,
@@ -8730,6 +11175,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "黑暗力量环绕的法袍，给人一种无形的压迫感",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 210
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand9.ccbi"
@@ -8749,12 +11200,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 210,
+		"enhanceID": 1,
+		"forgeID": 36,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand9-2.ccbi"
 		},
 		"iconf": "emchest9.png",
-		"iconm": "emchest9-2.png"
+		"iconm": "emchest9-2.png",
+		"forgeTarget": 369
 	},
 	{
 		"classId": 310,
@@ -8763,6 +11217,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "记载着禁断魔法的黑魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 210
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -8782,7 +11242,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 210
+		"sellGem": 210,
+		"enhanceID": 1,
+		"forgeID": 37,
+		"forgeTarget": 370
 	},
 	{
 		"classId": 311,
@@ -8791,6 +11254,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "寄宿着黑暗力量的魔杖，破坏力相当惊人",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 210
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -8811,7 +11280,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 210
+		"sellGem": 210,
+		"enhanceID": 1,
+		"forgeID": 38,
+		"forgeTarget": 371
 	},
 	{
 		"classId": 312,
@@ -8820,6 +11292,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "凝聚光明力量的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 210
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg9.ccbi"
@@ -8838,10 +11316,13 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 210,
+		"enhanceID": 2,
+		"forgeID": 35,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg9-2.ccbi"
-		}
+		},
+		"forgeTarget": 372
 	},
 	{
 		"classId": 313,
@@ -8849,6 +11330,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "凝聚光明力量的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 210
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand9.ccbi"
@@ -8868,12 +11355,15 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 210,
+		"enhanceID": 2,
+		"forgeID": 36,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand9-2.ccbi"
 		},
 		"iconf": "epchest9.png",
-		"iconm": "epchest9-2.png"
+		"iconm": "epchest9-2.png",
+		"forgeTarget": 373
 	},
 	{
 		"classId": 314,
@@ -8881,6 +11371,12 @@ exports.data =[
 		"icon": "epsubweapon9.png",
 		"category": 1,
 		"subcategory": 1,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 210
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -8902,7 +11398,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 210
+		"sellGem": 210,
+		"enhanceID": 2,
+		"forgeID": 37,
+		"forgeTarget": 374
 	},
 	{
 		"classId": 315,
@@ -8911,6 +11410,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "永远都能给黑暗带来光明的圣神权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 210
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -8930,7 +11435,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 210
+		"sellGem": 210,
+		"enhanceID": 2,
+		"forgeID": 38,
+		"forgeTarget": 375
 	},
 	{
 		"classId": 316,
@@ -8939,6 +11447,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "代表着战士最高荣耀的战靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 210
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg9.ccbi"
@@ -8957,7 +11471,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 210
+		"sellGem": 210,
+		"enhanceID": 0,
+		"forgeID": 35,
+		"forgeTarget": 376
 	},
 	{
 		"classId": 317,
@@ -8966,6 +11483,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "受到远古英灵誓言庇佑的神圣铠甲",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 210
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand9.ccbi"
@@ -8984,7 +11507,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 210
+		"sellGem": 210,
+		"enhanceID": 0,
+		"forgeID": 36,
+		"forgeTarget": 377
 	},
 	{
 		"classId": 318,
@@ -8993,6 +11519,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "神圣的巨大盾牌，闪耀着圣灵们的光芒",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 210
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -9012,7 +11544,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 210
+		"sellGem": 210,
+		"enhanceID": 0,
+		"forgeID": 37,
+		"forgeTarget": 378
 	},
 	{
 		"classId": 319,
@@ -9021,6 +11556,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "勇气与荣耀的证明，寄宿着千军万马的力量",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 210
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -9042,7 +11583,10 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 210
+		"sellGem": 210,
+		"enhanceID": 0,
+		"forgeID": 38,
+		"forgeTarget": 379
 	},
 	{
 		"classId": 320,
@@ -9051,6 +11595,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "经过几代传承的魔力长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 100
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg5.ccbi"
@@ -9072,6 +11622,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 100,
+		"enhanceID": 1,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg5-2.ccbi"
@@ -9083,6 +11634,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "魔法师代代相传的法袍",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 100
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
@@ -9103,6 +11660,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 100,
+		"enhanceID": 1,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
@@ -9117,6 +11675,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "拥有一定历史的魔法书，记载着一些不为人知的魔法",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 100
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -9137,7 +11701,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 100
+		"sellGem": 100,
+		"enhanceID": 1
 	},
 	{
 		"classId": 323,
@@ -9146,6 +11711,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "稀有木材制造成的法杖，蕴含着强大魔力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 100
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -9167,7 +11738,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 100
+		"sellGem": 100,
+		"enhanceID": 1
 	},
 	{
 		"classId": 324,
@@ -9176,6 +11748,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "侍僧们穿着的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 100
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg5.ccbi"
@@ -9195,6 +11773,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 100,
+		"enhanceID": 2,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg5-2.ccbi"
@@ -9206,6 +11785,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "长久岁月间侍僧们的标准着装",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 100
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand5.ccbi"
@@ -9226,6 +11811,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 100,
+		"enhanceID": 2,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand5-2.ccbi"
@@ -9240,6 +11826,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "侍僧们常年累月祈祷所用的十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 100
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -9262,7 +11854,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 100
+		"sellGem": 100,
+		"enhanceID": 2
 	},
 	{
 		"classId": 327,
@@ -9271,6 +11864,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "代表着神圣的权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 100
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -9291,7 +11890,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 100
+		"sellGem": 100,
+		"enhanceID": 2
 	},
 	{
 		"classId": 328,
@@ -9300,6 +11900,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "用特殊材质制成的鞋子，异常灵巧",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 100
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg5.ccbi"
@@ -9319,7 +11925,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 100
+		"sellGem": 100,
+		"enhanceID": 0
 	},
 	{
 		"classId": 329,
@@ -9328,6 +11935,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "经过多重工艺制成的铁甲，坚不可摧",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 100
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand5.ccbi"
@@ -9347,7 +11960,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 100
+		"sellGem": 100,
+		"enhanceID": 0
 	},
 	{
 		"classId": 330,
@@ -9355,6 +11969,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "用上好的素材制成的坚固且耐用的圆盾",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 100
+			}
+		],
 		"effectf": [
 			{
 				"part": "secondaryweapon",
@@ -9382,6 +12002,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 100,
+		"enhanceID": 0,
 		"iconf": "ewsubweapon5.png",
 		"iconm": "ewsubweapon5-2.png"
 	},
@@ -9392,6 +12013,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "锋利耐用的长剑，让人爱不释手",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 100
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -9414,7 +12041,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 100
+		"sellGem": 100,
+		"enhanceID": 0
 	},
 	{
 		"classId": 332,
@@ -9423,6 +12051,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "只有资深的长者才有资格拥有的长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg6.ccbi"
@@ -9444,6 +12078,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 150,
+		"enhanceID": 1,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg6-2.ccbi"
@@ -9455,6 +12090,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "魔法师资历的证明，略显过时但品质不凡",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
@@ -9475,6 +12116,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 150,
+		"enhanceID": 1,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
@@ -9489,6 +12131,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "记录着资深法师阅历的魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -9509,7 +12157,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 150
+		"sellGem": 150,
+		"enhanceID": 1
 	},
 	{
 		"classId": 335,
@@ -9518,6 +12167,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "布满岁月痕迹，但积攒了大量魔力的法杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -9539,7 +12194,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 150
+		"sellGem": 150,
+		"enhanceID": 1
 	},
 	{
 		"classId": 336,
@@ -9548,6 +12204,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "神的预言家曾经穿过的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg6.ccbi"
@@ -9567,6 +12229,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 150,
+		"enhanceID": 2,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg6-2.ccbi"
@@ -9578,6 +12241,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "预言者神圣的外衣",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand6.ccbi"
@@ -9598,6 +12267,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 150,
+		"enhanceID": 2,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand6-2.ccbi"
@@ -9612,6 +12282,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "寄宿预言力量的十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -9634,7 +12310,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 150
+		"sellGem": 150,
+		"enhanceID": 2
 	},
 	{
 		"classId": 339,
@@ -9643,6 +12320,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "预言者手持的权杖，伴随着圣神的力量",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -9663,7 +12346,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 150
+		"sellGem": 150,
+		"enhanceID": 2
 	},
 	{
 		"classId": 340,
@@ -9672,6 +12356,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "沉重的钢靴，能够践踏一切阻挡前进的敌人",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg6.ccbi"
@@ -9691,7 +12381,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 150
+		"sellGem": 150,
+		"enhanceID": 0
 	},
 	{
 		"classId": 341,
@@ -9700,6 +12391,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "重装的铠甲，甚至能够抵挡住古老的魔法",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand6.ccbi"
@@ -9719,7 +12416,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 150
+		"sellGem": 150,
+		"enhanceID": 0
 	},
 	{
 		"classId": 342,
@@ -9727,6 +12425,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "工艺与用料都非常上乘，能够为战士提供最强大的保护",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effectf": [
 			{
 				"part": "secondaryweapon",
@@ -9754,6 +12458,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 150,
+		"enhanceID": 0,
 		"iconf": "ewsubweapon6.png",
 		"iconm": "ewsubweapon6-2.png"
 	},
@@ -9764,6 +12469,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "分量相当沉，普通人难以驾驭，但却拥有巨大的破坏力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -9786,7 +12497,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 150
+		"sellGem": 150,
+		"enhanceID": 0
 	},
 	{
 		"classId": 344,
@@ -9795,6 +12507,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "拥有驱散之力的高级长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 200
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg7.ccbi"
@@ -9816,6 +12534,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 200,
+		"enhanceID": 1,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg7-2.ccbi"
@@ -9827,6 +12546,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "寄宿驱魔之力的神秘法袍",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 200
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand7.ccbi"
@@ -9847,6 +12572,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 200,
+		"enhanceID": 1,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand7-2.ccbi"
@@ -9861,6 +12587,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "存在驱魔之力的古老魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 200
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -9881,7 +12613,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 200
+		"sellGem": 200,
+		"enhanceID": 1
 	},
 	{
 		"classId": 347,
@@ -9890,6 +12623,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "能够驱散一切的危险法杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 200
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -9911,7 +12650,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 200
+		"sellGem": 200,
+		"enhanceID": 1
 	},
 	{
 		"classId": 348,
@@ -9920,6 +12660,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "神官们才能够有资格穿着的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 200
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg7.ccbi"
@@ -9939,6 +12685,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 200,
+		"enhanceID": 2,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg7-2.ccbi"
@@ -9950,6 +12697,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "神官们的衣服，威严与神圣并重",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 200
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand7.ccbi"
@@ -9970,6 +12723,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 200,
+		"enhanceID": 2,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand7-2.ccbi"
@@ -9984,6 +12738,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "具备神圣之力的大型十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 200
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -10006,7 +12766,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 200
+		"sellGem": 200,
+		"enhanceID": 2
 	},
 	{
 		"classId": 351,
@@ -10015,6 +12776,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "神圣的权杖，是神之代言人的证明",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 200
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -10035,7 +12802,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 200
+		"sellGem": 200,
+		"enhanceID": 2
 	},
 	{
 		"classId": 352,
@@ -10044,6 +12812,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "赐予守护力量的重靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 200
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg7.ccbi"
@@ -10063,7 +12837,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 200
+		"sellGem": 200,
+		"enhanceID": 0
 	},
 	{
 		"classId": 353,
@@ -10072,6 +12847,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "给你守护一切力量的战甲",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 200
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand7.ccbi"
@@ -10091,7 +12872,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 200
+		"sellGem": 200,
+		"enhanceID": 0
 	},
 	{
 		"classId": 354,
@@ -10099,6 +12881,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "为守护者配备的战盾，能够抵御各种伤害",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 200
+			}
+		],
 		"effectf": [
 			{
 				"part": "secondaryweapon",
@@ -10126,6 +12914,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 200,
+		"enhanceID": 0,
 		"iconf": "ewsubweapon7.png",
 		"iconm": "ewsubweapon7-2.png"
 	},
@@ -10136,6 +12925,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "为守护者配备的巨剑，攻守兼备",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 200
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -10158,7 +12953,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 200
+		"sellGem": 200,
+		"enhanceID": 0
 	},
 	{
 		"classId": 356,
@@ -10167,6 +12963,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "由精灵制造的稀有长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 250
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg8.ccbi"
@@ -10188,6 +12990,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 250,
+		"enhanceID": 1,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg8-2.ccbi"
@@ -10199,6 +13002,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "由精灵亲手缝制的法袍，极其珍贵",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 250
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand8.ccbi"
@@ -10219,6 +13028,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 250,
+		"enhanceID": 1,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand8-2.ccbi"
@@ -10233,6 +13043,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "记录着古老精灵魔法的魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 250
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -10253,7 +13069,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 250
+		"sellGem": 250,
+		"enhanceID": 1
 	},
 	{
 		"classId": 359,
@@ -10262,6 +13079,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "精灵们所使用的法杖，人类没有办法制造",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 250
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -10283,7 +13106,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 250
+		"sellGem": 250,
+		"enhanceID": 1
 	},
 	{
 		"classId": 360,
@@ -10292,6 +13116,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "最接近神的圣职者才有资格穿的圣鞋",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 250
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg8.ccbi"
@@ -10311,6 +13141,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 250,
+		"enhanceID": 2,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg8-2.ccbi"
@@ -10322,6 +13153,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "圣洁无暇的外衣，有神之力的加护",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 250
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand8.ccbi"
@@ -10342,6 +13179,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 250,
+		"enhanceID": 2,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand8-2.ccbi"
@@ -10356,6 +13194,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "充满光之力的神圣十字架，能够扫清一切黑暗",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 250
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -10378,7 +13222,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 250
+		"sellGem": 250,
+		"enhanceID": 2
 	},
 	{
 		"classId": 363,
@@ -10387,6 +13232,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "神圣庇佑的权杖，代表着至高无上的神",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 250
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -10407,7 +13258,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 250
+		"sellGem": 250,
+		"enhanceID": 2
 	},
 	{
 		"classId": 364,
@@ -10416,6 +13268,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "联盟勇者才有资格拥有的厚重钢靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 250
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg8.ccbi"
@@ -10435,7 +13293,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 250
+		"sellGem": 250,
+		"enhanceID": 0
 	},
 	{
 		"classId": 365,
@@ -10444,6 +13303,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "战斗联盟的最高身份象征，霸气袭人",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 250
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand8.ccbi"
@@ -10463,7 +13328,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 250
+		"sellGem": 250,
+		"enhanceID": 0
 	},
 	{
 		"classId": 366,
@@ -10472,6 +13338,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "刻有联盟徽章的巨大盾牌，任何伤害在它面前都显得毫无威胁",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 250
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -10492,7 +13364,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 250
+		"sellGem": 250,
+		"enhanceID": 0
 	},
 	{
 		"classId": 367,
@@ -10501,6 +13374,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "被联盟承认的勇者所佩戴的大剑，威力惊人",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 250
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -10523,7 +13402,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 250
+		"sellGem": 250,
+		"enhanceID": 0
 	},
 	{
 		"classId": 368,
@@ -10532,6 +13412,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "蕴含黑暗破坏之力的长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 300
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg9.ccbi"
@@ -10553,6 +13439,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 300,
+		"enhanceID": 1,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg9-2.ccbi"
@@ -10564,6 +13451,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "黑暗力量环绕的法袍，给人一种无形的压迫感",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 300
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand9.ccbi"
@@ -10584,6 +13477,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 300,
+		"enhanceID": 1,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand9-2.ccbi"
@@ -10598,6 +13492,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "记载着禁断魔法的黑魔法书",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 300
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -10618,7 +13518,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 300
+		"sellGem": 300,
+		"enhanceID": 1
 	},
 	{
 		"classId": 371,
@@ -10627,6 +13528,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "寄宿着黑暗力量的魔杖，破坏力相当惊人",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 300
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -10648,7 +13555,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 300
+		"sellGem": 300,
+		"enhanceID": 1
 	},
 	{
 		"classId": 372,
@@ -10657,6 +13565,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "凝聚光明力量的鞋子",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 300
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg9.ccbi"
@@ -10676,6 +13590,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 300,
+		"enhanceID": 2,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg9-2.ccbi"
@@ -10687,6 +13602,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "注入了圣神之光的外衣",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 300
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand9.ccbi"
@@ -10707,6 +13628,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 300,
+		"enhanceID": 2,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand9-2.ccbi"
@@ -10721,6 +13643,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "寄宿着光明之神力量的传奇十字架",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 300
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -10743,7 +13671,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 300
+		"sellGem": 300,
+		"enhanceID": 2
 	},
 	{
 		"classId": 375,
@@ -10752,6 +13681,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "永远都能给黑暗带来光明的圣神权杖",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 300
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -10772,7 +13707,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 300
+		"sellGem": 300,
+		"enhanceID": 2
 	},
 	{
 		"classId": 376,
@@ -10781,6 +13717,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "代表着战士最高荣耀的战靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 300
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg9.ccbi"
@@ -10800,7 +13742,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 300
+		"sellGem": 300,
+		"enhanceID": 0
 	},
 	{
 		"classId": 377,
@@ -10809,6 +13752,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "受到远古英灵誓言庇佑的神圣铠甲",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 300
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand9.ccbi"
@@ -10828,7 +13777,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 300
+		"sellGem": 300,
+		"enhanceID": 0
 	},
 	{
 		"classId": 378,
@@ -10837,6 +13787,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "神圣的巨大盾牌，闪耀着圣灵们的光芒",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 300
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -10857,7 +13813,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 300
+		"sellGem": 300,
+		"enhanceID": 0
 	},
 	{
 		"classId": 379,
@@ -10865,6 +13822,12 @@ exports.data =[
 		"icon": "ewmainweapon9.png",
 		"category": 1,
 		"subcategory": 0,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 300
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -10887,7 +13850,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 300
+		"sellGem": 300,
+		"enhanceID": 0
 	},
 	{
 		"classId": 380,
@@ -10896,6 +13860,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "力量来自上古混沌的长靴",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 400
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "mage-rightleg10.ccbi"
@@ -10916,6 +13886,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 400,
+		"enhanceID": 1,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg10-2.ccbi"
@@ -10927,6 +13898,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "暗影世界的遗产，闪烁着黑曜石般的光芒",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 400
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "mage-lefthand10.ccbi"
@@ -10946,6 +13923,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 400,
+		"enhanceID": 1,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand10-2.ccbi"
@@ -10960,6 +13938,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "来自于暗影世界的终极魔法书，具备毁灭性的破坏力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 400
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -10979,7 +13963,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 400
+		"sellGem": 400,
+		"enhanceID": 1
 	},
 	{
 		"classId": 383,
@@ -10988,6 +13973,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "寄宿着混沌的黑暗魔杖，非常的危险，使用不当会导致不堪设想的后果",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 400
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -11008,7 +13999,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 400
+		"sellGem": 400,
+		"enhanceID": 1
 	},
 	{
 		"classId": 384,
@@ -11017,6 +14009,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "光辉圣灵所穿的鞋子，蕴含着强大的神圣之力",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 400
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "priest-rightleg10.ccbi"
@@ -11035,6 +14033,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 400,
+		"enhanceID": 2,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg10-2.ccbi"
@@ -11046,6 +14045,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "圣灵们编制的衣服，所穿之人会受到神的庇佑",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 400
+			}
+		],
 		"effectf": {
 			"part": "lefthand",
 			"file": "priest-lefthand10.ccbi"
@@ -11065,6 +14070,7 @@ exports.data =[
 		"storeOnly": true,
 		"autoUse": true,
 		"sellGem": 400,
+		"enhanceID": 2,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand10-2.ccbi"
@@ -11079,6 +14085,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "能够召唤圣灵的十字架，能够破除一切黑暗",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 400
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -11100,7 +14112,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 400
+		"sellGem": 400,
+		"enhanceID": 2
 	},
 	{
 		"classId": 387,
@@ -11109,6 +14122,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "寄宿圣灵之力的权杖，威力异常强大",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 400
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -11128,7 +14147,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 400
+		"sellGem": 400,
+		"enhanceID": 2
 	},
 	{
 		"classId": 388,
@@ -11137,6 +14157,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 4,
 		"description": "怒意聚集的战靴，能够发挥神一般的力量",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 400
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "warrior-rightleg10.ccbi"
@@ -11155,7 +14181,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 400
+		"sellGem": 400,
+		"enhanceID": 0
 	},
 	{
 		"classId": 389,
@@ -11164,6 +14191,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 2,
 		"description": "传说中的圣甲，汇聚神圣力量，将一切伤害化为无形",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 400
+			}
+		],
 		"effecta": {
 			"part": "lefthand",
 			"file": "warrior-lefthand10.ccbi"
@@ -11182,7 +14215,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 400
+		"sellGem": 400,
+		"enhanceID": 0
 	},
 	{
 		"classId": 390,
@@ -11191,6 +14225,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 1,
 		"description": "骇人的巨盾，集结了众神之怒，让一切敌人闻风丧胆",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 400
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon",
@@ -11210,7 +14250,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 400
+		"sellGem": 400,
+		"enhanceID": 0
 	},
 	{
 		"classId": 391,
@@ -11219,6 +14260,12 @@ exports.data =[
 		"category": 1,
 		"subcategory": 0,
 		"description": "神之怒罚化成的利刃，能够撕裂一切阻挡在前面的敌人",
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 400
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -11240,7 +14287,8 @@ exports.data =[
 		},
 		"storeOnly": true,
 		"autoUse": true,
-		"sellGem": 400
+		"sellGem": 400,
+		"enhanceID": 0
 	},
 	{
 		"classId": 392,
@@ -11250,7 +14298,12 @@ exports.data =[
 		"subcategory": 8,
 		"description": "能够强化命中属性的宝石",
 		"stack": 99,
-		"sellprice": 300
+		"sellprice": 300,
+		"transPrize": [
+			{
+				"type": 2
+			}
+		]
 	},
 	{
 		"classId": 393,
@@ -11260,7 +14313,12 @@ exports.data =[
 		"subcategory": 9,
 		"description": "能够强化反应属性的宝石",
 		"stack": 99,
-		"sellprice": 300
+		"sellprice": 300,
+		"transPrize": [
+			{
+				"type": 2
+			}
+		]
 	},
 	{
 		"classId": 394,
@@ -11270,7 +14328,12 @@ exports.data =[
 		"subcategory": 10,
 		"description": "能够将装备中强化等级最高一项属性转化成另一项属性的宝石",
 		"stack": 99,
-		"sellprice": 50
+		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2
+			}
+		]
 	},
 	{
 		"classId": 395,
@@ -11280,6 +14343,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "寄宿着生命之力的护身符",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11298,6 +14367,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "寄宿着生命之力的护身符",
 		"sellprice": 100,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11316,6 +14391,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "寄宿着生命之力的护身符",
 		"sellprice": 200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11334,6 +14415,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "蕴含着大量生命之力的护身符",
 		"sellprice": 400,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11352,6 +14439,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "蕴含着大量生命之力的护身符",
 		"sellprice": 800,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11370,6 +14463,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "蕴含着大量生命之力的护身符",
 		"sellprice": 1200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11388,6 +14487,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "蕴含着高阶生命之力的护身符",
 		"sellprice": 2000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11406,6 +14511,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "蕴含着高阶生命之力的护身符",
 		"sellprice": 2500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 80
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11424,6 +14535,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "凝聚着生命之力的稀有护身符",
 		"sellprice": 3000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11442,6 +14559,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "凝聚生命精华的传奇护身符",
 		"sellprice": 4000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11460,6 +14583,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "提升韧性的护身符",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11478,6 +14607,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "提升韧性的护身符",
 		"sellprice": 100,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11496,6 +14631,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "提升韧性的护身符",
 		"sellprice": 200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11514,6 +14655,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "蕴含坚韧力量的强力护身符",
 		"sellprice": 400,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11532,6 +14679,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "蕴含坚韧力量的强力护身符",
 		"sellprice": 800,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11550,6 +14703,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "蕴含坚韧力量的强力护身符",
 		"sellprice": 1200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11568,6 +14727,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够大幅提升坚韧力量的优质护身符",
 		"sellprice": 2000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11586,6 +14751,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够大幅提升坚韧力量的优质护身符",
 		"sellprice": 2500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 80
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11604,6 +14775,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "集中神之守护的坚韧稀有护身符",
 		"sellprice": 3000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11622,6 +14799,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "蕴含神之力的传奇坚韧护身符",
 		"sellprice": 4000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"classLimit": [
 			0
 		],
@@ -11640,6 +14823,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够提升法术伤害的护身符",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"classLimit": [
 			1
 		],
@@ -11658,6 +14847,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够提升法术伤害的护身符",
 		"sellprice": 100,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"classLimit": [
 			1
 		],
@@ -11676,6 +14871,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够提升法术伤害的护身符",
 		"sellprice": 200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"classLimit": [
 			1
 		],
@@ -11694,6 +14895,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够大幅提升伤害的魔法护符",
 		"sellprice": 400,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"classLimit": [
 			1
 		],
@@ -11712,6 +14919,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够大幅提升伤害的魔法护符",
 		"sellprice": 800,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"classLimit": [
 			1
 		],
@@ -11730,6 +14943,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够大幅提升伤害的魔法护符",
 		"sellprice": 1200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"classLimit": [
 			1
 		],
@@ -11748,6 +14967,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "拥有法术之力的强力魔法护符",
 		"sellprice": 2000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"classLimit": [
 			1
 		],
@@ -11766,6 +14991,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "拥有法术之力的强力魔法护符",
 		"sellprice": 2500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 80
+			}
+		],
 		"classLimit": [
 			1
 		],
@@ -11784,6 +15015,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "寄宿着巨大法术力量的稀有护身符",
 		"sellprice": 3000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"classLimit": [
 			1
 		],
@@ -11802,6 +15039,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "拥有能够媲美暗影之王的传奇护身符",
 		"sellprice": 4000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"classLimit": [
 			1
 		],
@@ -11820,15 +15063,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够提升暴击的破坏护身符",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"classLimit": [
 			1
 		],
 		"quality": 0,
 		"rank": 1,
+		"sellGem": 5,
 		"basic_properties": {
 			"critical": 3
-		},
-		"sellGem": 5
+		}
 	},
 	{
 		"classId": 426,
@@ -11838,15 +15087,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够提升暴击的破坏护身符",
 		"sellprice": 100,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"classLimit": [
 			1
 		],
 		"quality": 0,
 		"rank": 2,
+		"sellGem": 10,
 		"basic_properties": {
 			"critical": 6
-		},
-		"sellGem": 10
+		}
 	},
 	{
 		"classId": 427,
@@ -11856,15 +15111,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够提升暴击的破坏护身符",
 		"sellprice": 200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"classLimit": [
 			1
 		],
 		"quality": 0,
 		"rank": 3,
+		"sellGem": 15,
 		"basic_properties": {
 			"critical": 9
-		},
-		"sellGem": 15
+		}
 	},
 	{
 		"classId": 428,
@@ -11874,15 +15135,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够大幅提升暴击的破坏护符",
 		"sellprice": 400,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"classLimit": [
 			1
 		],
 		"quality": 1,
 		"rank": 4,
+		"sellGem": 20,
 		"basic_properties": {
 			"critical": 12
-		},
-		"sellGem": 20
+		}
 	},
 	{
 		"classId": 429,
@@ -11892,15 +15159,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够大幅提升暴击的破坏护符",
 		"sellprice": 800,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"classLimit": [
 			1
 		],
 		"quality": 1,
 		"rank": 5,
+		"sellGem": 30,
 		"basic_properties": {
 			"critical": 15
-		},
-		"sellGem": 30
+		}
 	},
 	{
 		"classId": 430,
@@ -11910,15 +15183,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够大幅提升暴击的破坏护符",
 		"sellprice": 1200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"classLimit": [
 			1
 		],
 		"quality": 1,
 		"rank": 6,
+		"sellGem": 40,
 		"basic_properties": {
 			"critical": 18
-		},
-		"sellGem": 40
+		}
 	},
 	{
 		"classId": 431,
@@ -11928,15 +15207,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "拥有强大破坏力的强力护身符",
 		"sellprice": 2000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"classLimit": [
 			1
 		],
 		"quality": 2,
 		"rank": 7,
+		"sellGem": 60,
 		"basic_properties": {
 			"critical": 21
-		},
-		"sellGem": 60
+		}
 	},
 	{
 		"classId": 432,
@@ -11946,15 +15231,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "拥有强大破坏力的强力护身符",
 		"sellprice": 2500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 80
+			}
+		],
 		"classLimit": [
 			1
 		],
 		"quality": 2,
 		"rank": 8,
+		"sellGem": 80,
 		"basic_properties": {
 			"critical": 24
-		},
-		"sellGem": 80
+		}
 	},
 	{
 		"classId": 433,
@@ -11964,15 +15255,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "蕴含着巨大破坏力的稀有护符",
 		"sellprice": 3000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"classLimit": [
 			1
 		],
 		"quality": 3,
 		"rank": 9,
+		"sellGem": 120,
 		"basic_properties": {
 			"critical": 27
-		},
-		"sellGem": 120
+		}
 	},
 	{
 		"classId": 434,
@@ -11982,15 +15279,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "凝聚着破坏神之力的传奇护符",
 		"sellprice": 4000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"classLimit": [
 			1
 		],
 		"quality": 4,
 		"rank": 10,
+		"sellGem": 180,
 		"basic_properties": {
 			"critical": 30
-		},
-		"sellGem": 180
+		}
 	},
 	{
 		"classId": 435,
@@ -12000,15 +15303,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "提升命中的护身符",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"classLimit": [
 			2
 		],
 		"quality": 0,
 		"rank": 1,
+		"sellGem": 5,
 		"basic_properties": {
 			"accuracy": 3
-		},
-		"sellGem": 5
+		}
 	},
 	{
 		"classId": 436,
@@ -12018,15 +15327,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "提升命中的护身符",
 		"sellprice": 100,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"classLimit": [
 			2
 		],
 		"quality": 0,
 		"rank": 2,
+		"sellGem": 10,
 		"basic_properties": {
 			"accuracy": 6
-		},
-		"sellGem": 10
+		}
 	},
 	{
 		"classId": 437,
@@ -12036,15 +15351,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "提升命中的护身符",
 		"sellprice": 200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"classLimit": [
 			2
 		],
 		"quality": 0,
 		"rank": 3,
+		"sellGem": 15,
 		"basic_properties": {
 			"accuracy": 9
-		},
-		"sellGem": 15
+		}
 	},
 	{
 		"classId": 438,
@@ -12054,15 +15375,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够大幅提升命中的护身符",
 		"sellprice": 400,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"classLimit": [
 			2
 		],
 		"quality": 1,
 		"rank": 4,
+		"sellGem": 20,
 		"basic_properties": {
 			"accuracy": 12
-		},
-		"sellGem": 20
+		}
 	},
 	{
 		"classId": 439,
@@ -12072,15 +15399,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够大幅提升命中的护身符",
 		"sellprice": 800,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"classLimit": [
 			2
 		],
 		"quality": 1,
 		"rank": 5,
+		"sellGem": 30,
 		"basic_properties": {
 			"accuracy": 15
-		},
-		"sellGem": 30
+		}
 	},
 	{
 		"classId": 440,
@@ -12090,15 +15423,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够大幅提升命中的护身符",
 		"sellprice": 1200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"classLimit": [
 			2
 		],
 		"quality": 1,
 		"rank": 6,
+		"sellGem": 40,
 		"basic_properties": {
 			"accuracy": 18
-		},
-		"sellGem": 40
+		}
 	},
 	{
 		"classId": 441,
@@ -12108,15 +15447,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能让人具备异常集中力的强力护身符",
 		"sellprice": 2000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"classLimit": [
 			2
 		],
 		"quality": 2,
 		"rank": 7,
+		"sellGem": 60,
 		"basic_properties": {
 			"accuracy": 21
-		},
-		"sellGem": 60
+		}
 	},
 	{
 		"classId": 442,
@@ -12126,15 +15471,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能让人具备异常集中力的强力护身符",
 		"sellprice": 2500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 80
+			}
+		],
 		"classLimit": [
 			2
 		],
 		"quality": 2,
 		"rank": 8,
+		"sellGem": 80,
 		"basic_properties": {
 			"accuracy": 24
-		},
-		"sellGem": 80
+		}
 	},
 	{
 		"classId": 443,
@@ -12144,15 +15495,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "寄宿着神秘专注力量的稀有护符",
 		"sellprice": 3000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"classLimit": [
 			2
 		],
 		"quality": 3,
 		"rank": 9,
+		"sellGem": 120,
 		"basic_properties": {
 			"accuracy": 27
-		},
-		"sellGem": 120
+		}
 	},
 	{
 		"classId": 444,
@@ -12162,15 +15519,21 @@ exports.data =[
 		"subcategory": 5,
 		"description": "凝聚着神圣加护之力的传奇护身符",
 		"sellprice": 4000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"classLimit": [
 			2
 		],
 		"quality": 4,
 		"rank": 10,
+		"sellGem": 180,
 		"basic_properties": {
 			"accuracy": 30
-		},
-		"sellGem": 180
+		}
 	},
 	{
 		"classId": 445,
@@ -12180,6 +15543,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "提升速度的护身符",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"classLimit": [
 			2
 		],
@@ -12198,6 +15567,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "提升速度的护身符",
 		"sellprice": 100,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"classLimit": [
 			2
 		],
@@ -12216,6 +15591,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "提升速度的护身符",
 		"sellprice": 200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"classLimit": [
 			2
 		],
@@ -12234,6 +15615,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够大幅提升速度的护身符",
 		"sellprice": 400,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"classLimit": [
 			2
 		],
@@ -12252,6 +15639,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够大幅提升速度的护身符",
 		"sellprice": 800,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"classLimit": [
 			2
 		],
@@ -12270,6 +15663,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "能够大幅提升速度的护身符",
 		"sellprice": 1200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"classLimit": [
 			2
 		],
@@ -12288,6 +15687,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "具备神圣力量的速度护符",
 		"sellprice": 2000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"classLimit": [
 			2
 		],
@@ -12306,6 +15711,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "具备神圣力量的速度护符",
 		"sellprice": 2500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 80
+			}
+		],
 		"classLimit": [
 			2
 		],
@@ -12324,6 +15735,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "犹如插上天使之翼的速度护符",
 		"sellprice": 3000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"classLimit": [
 			2
 		],
@@ -12342,6 +15759,12 @@ exports.data =[
 		"subcategory": 5,
 		"description": "圣灵庇佑的神速传奇护符",
 		"sellprice": 4000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"classLimit": [
 			2
 		],
@@ -12360,6 +15783,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "非常吊丝的生命戒指",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 0,
 		"rank": 1,
 		"basic_properties": {
@@ -12375,6 +15804,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "犹如路人一般的生命戒指",
 		"sellprice": 100,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 0,
 		"rank": 2,
 		"basic_properties": {
@@ -12390,6 +15825,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "微微小清新的生命戒指",
 		"sellprice": 200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 0,
 		"rank": 3,
 		"basic_properties": {
@@ -12405,6 +15846,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "感受一下还是微微爽的生命戒指",
 		"sellprice": 400,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"quality": 1,
 		"rank": 4,
 		"basic_properties": {
@@ -12420,6 +15867,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "小欢乐的生命戒指",
 		"sellprice": 800,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"quality": 1,
 		"rank": 5,
 		"basic_properties": {
@@ -12435,6 +15888,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "特给力的生命戒指",
 		"sellprice": 1200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"quality": 1,
 		"rank": 6,
 		"basic_properties": {
@@ -12450,6 +15909,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "十分高端的生命戒指",
 		"sellprice": 2000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"quality": 2,
 		"rank": 7,
 		"basic_properties": {
@@ -12465,6 +15930,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "大气又上档次的生命戒指",
 		"sellprice": 2500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 80
+			}
+		],
 		"quality": 2,
 		"rank": 8,
 		"basic_properties": {
@@ -12480,6 +15951,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "酷炫无比的生命戒指",
 		"sellprice": 3000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"quality": 3,
 		"rank": 9,
 		"basic_properties": {
@@ -12495,6 +15972,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "碉堡威武的传奇生命戒指",
 		"sellprice": 4000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"quality": 4,
 		"rank": 10,
 		"basic_properties": {
@@ -12510,6 +15993,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "非常吊丝的力量戒指",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 0,
 		"rank": 1,
 		"basic_properties": {
@@ -12525,6 +16014,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "犹如路人一般的的力量戒指",
 		"sellprice": 100,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 0,
 		"rank": 2,
 		"basic_properties": {
@@ -12540,6 +16035,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "微微小清新的力量戒指",
 		"sellprice": 200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 0,
 		"rank": 3,
 		"basic_properties": {
@@ -12555,6 +16056,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "感受一下还是微微爽的力量的戒指",
 		"sellprice": 400,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"quality": 1,
 		"rank": 4,
 		"basic_properties": {
@@ -12570,6 +16077,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "小欢乐的力量戒指",
 		"sellprice": 800,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"quality": 1,
 		"rank": 5,
 		"basic_properties": {
@@ -12585,6 +16098,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "特给力的力量戒指",
 		"sellprice": 1200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"quality": 1,
 		"rank": 6,
 		"basic_properties": {
@@ -12600,6 +16119,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "十分高端的力量戒指",
 		"sellprice": 2000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"quality": 2,
 		"rank": 7,
 		"basic_properties": {
@@ -12615,6 +16140,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "大气又上档次的力量戒指",
 		"sellprice": 2500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 80
+			}
+		],
 		"quality": 2,
 		"rank": 8,
 		"basic_properties": {
@@ -12630,6 +16161,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "酷炫无比的力量戒指",
 		"sellprice": 3000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"quality": 3,
 		"rank": 9,
 		"basic_properties": {
@@ -12645,6 +16182,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "碉堡威武的传奇力量戒指",
 		"sellprice": 4000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"quality": 4,
 		"rank": 10,
 		"basic_properties": {
@@ -12660,12 +16203,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "非常吊丝的暴击戒指",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 0,
 		"rank": 1,
+		"sellGem": 5,
 		"basic_properties": {
 			"critical": 3
-		},
-		"sellGem": 5
+		}
 	},
 	{
 		"classId": 476,
@@ -12675,12 +16224,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "犹如路人一般的暴击戒指",
 		"sellprice": 100,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 0,
 		"rank": 2,
+		"sellGem": 10,
 		"basic_properties": {
 			"critical": 6
-		},
-		"sellGem": 10
+		}
 	},
 	{
 		"classId": 477,
@@ -12690,12 +16245,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "微微小清新的暴击戒指",
 		"sellprice": 200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 0,
 		"rank": 3,
+		"sellGem": 15,
 		"basic_properties": {
 			"critical": 9
-		},
-		"sellGem": 15
+		}
 	},
 	{
 		"classId": 478,
@@ -12705,12 +16266,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "感受一下还是微微爽的暴击戒指",
 		"sellprice": 400,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"quality": 1,
 		"rank": 4,
+		"sellGem": 20,
 		"basic_properties": {
 			"critical": 15
-		},
-		"sellGem": 20
+		}
 	},
 	{
 		"classId": 479,
@@ -12720,12 +16287,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "小欢乐的暴击戒指",
 		"sellprice": 800,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"quality": 1,
 		"rank": 5,
+		"sellGem": 30,
 		"basic_properties": {
 			"critical": 21
-		},
-		"sellGem": 30
+		}
 	},
 	{
 		"classId": 480,
@@ -12735,12 +16308,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "特给力的暴击戒指",
 		"sellprice": 1200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"quality": 1,
 		"rank": 6,
+		"sellGem": 40,
 		"basic_properties": {
 			"critical": 27
-		},
-		"sellGem": 40
+		}
 	},
 	{
 		"classId": 481,
@@ -12750,12 +16329,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "十分高端的暴击戒指",
 		"sellprice": 2000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"quality": 2,
 		"rank": 7,
+		"sellGem": 60,
 		"basic_properties": {
 			"critical": 36
-		},
-		"sellGem": 60
+		}
 	},
 	{
 		"classId": 482,
@@ -12765,12 +16350,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "大气又上档次的暴击戒指",
 		"sellprice": 2500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 80
+			}
+		],
 		"quality": 2,
 		"rank": 8,
+		"sellGem": 80,
 		"basic_properties": {
 			"critical": 45
-		},
-		"sellGem": 80
+		}
 	},
 	{
 		"classId": 483,
@@ -12780,12 +16371,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "酷炫无比的暴击戒指",
 		"sellprice": 3000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"quality": 3,
 		"rank": 9,
+		"sellGem": 120,
 		"basic_properties": {
 			"critical": 54
-		},
-		"sellGem": 120
+		}
 	},
 	{
 		"classId": 484,
@@ -12795,12 +16392,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "碉堡威武的传奇暴击戒指",
 		"sellprice": 4000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"quality": 4,
 		"rank": 10,
+		"sellGem": 180,
 		"basic_properties": {
 			"critical": 66
-		},
-		"sellGem": 180
+		}
 	},
 	{
 		"classId": 485,
@@ -12810,6 +16413,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "非常吊丝的韧性戒指",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 0,
 		"rank": 1,
 		"basic_properties": {
@@ -12825,6 +16434,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "犹如路人一般的韧性戒指",
 		"sellprice": 100,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 0,
 		"rank": 2,
 		"basic_properties": {
@@ -12840,6 +16455,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "微微小清新的韧性戒指",
 		"sellprice": 200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 0,
 		"rank": 3,
 		"basic_properties": {
@@ -12855,6 +16476,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "感受一下还是微微爽的韧性戒指",
 		"sellprice": 400,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"quality": 1,
 		"rank": 4,
 		"basic_properties": {
@@ -12870,6 +16497,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "小欢乐的韧性戒指",
 		"sellprice": 800,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"quality": 1,
 		"rank": 5,
 		"basic_properties": {
@@ -12885,6 +16518,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "特给力的韧性戒指",
 		"sellprice": 1200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"quality": 1,
 		"rank": 6,
 		"basic_properties": {
@@ -12900,6 +16539,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "十分高端的韧性戒指",
 		"sellprice": 2000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"quality": 2,
 		"rank": 7,
 		"basic_properties": {
@@ -12915,6 +16560,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "韧性戒指",
 		"sellprice": 2500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 80
+			}
+		],
 		"quality": 2,
 		"rank": 8,
 		"basic_properties": {
@@ -12930,6 +16581,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "酷炫无比的韧性戒指",
 		"sellprice": 3000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"quality": 3,
 		"rank": 9,
 		"basic_properties": {
@@ -12945,6 +16602,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "碉堡威武的传奇韧性戒指",
 		"sellprice": 4000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"quality": 4,
 		"rank": 10,
 		"basic_properties": {
@@ -12960,12 +16623,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "非常吊丝的命中戒指",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 0,
 		"rank": 1,
+		"sellGem": 5,
 		"basic_properties": {
 			"accuracy": 3
-		},
-		"sellGem": 5
+		}
 	},
 	{
 		"classId": 496,
@@ -12975,12 +16644,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "犹如路人一般的命中戒指",
 		"sellprice": 100,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 0,
 		"rank": 2,
+		"sellGem": 10,
 		"basic_properties": {
 			"accuracy": 6
-		},
-		"sellGem": 10
+		}
 	},
 	{
 		"classId": 497,
@@ -12990,12 +16665,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "微微小清新的命中戒指",
 		"sellprice": 200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 0,
 		"rank": 3,
+		"sellGem": 15,
 		"basic_properties": {
 			"accuracy": 9
-		},
-		"sellGem": 15
+		}
 	},
 	{
 		"classId": 498,
@@ -13005,12 +16686,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "感受一下还是微微爽的命中戒指",
 		"sellprice": 400,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"quality": 1,
 		"rank": 4,
+		"sellGem": 20,
 		"basic_properties": {
 			"accuracy": 15
-		},
-		"sellGem": 20
+		}
 	},
 	{
 		"classId": 499,
@@ -13020,12 +16707,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "小欢乐的命中戒指",
 		"sellprice": 800,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"quality": 1,
 		"rank": 5,
+		"sellGem": 30,
 		"basic_properties": {
 			"accuracy": 21
-		},
-		"sellGem": 30
+		}
 	},
 	{
 		"classId": 500,
@@ -13035,12 +16728,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "特给力的命中戒指",
 		"sellprice": 1200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"quality": 1,
 		"rank": 6,
+		"sellGem": 40,
 		"basic_properties": {
 			"accuracy": 27
-		},
-		"sellGem": 40
+		}
 	},
 	{
 		"classId": 501,
@@ -13050,12 +16749,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "十分高端的命中戒指",
 		"sellprice": 2000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"quality": 2,
 		"rank": 7,
+		"sellGem": 60,
 		"basic_properties": {
 			"accuracy": 36
-		},
-		"sellGem": 60
+		}
 	},
 	{
 		"classId": 502,
@@ -13065,12 +16770,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "大气又上档次的命中戒指",
 		"sellprice": 2500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 80
+			}
+		],
 		"quality": 2,
 		"rank": 8,
+		"sellGem": 80,
 		"basic_properties": {
 			"accuracy": 45
-		},
-		"sellGem": 80
+		}
 	},
 	{
 		"classId": 503,
@@ -13080,12 +16791,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "酷炫无比的命中戒指",
 		"sellprice": 3000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"quality": 3,
 		"rank": 9,
+		"sellGem": 120,
 		"basic_properties": {
 			"accuracy": 54
-		},
-		"sellGem": 120
+		}
 	},
 	{
 		"classId": 504,
@@ -13095,12 +16812,18 @@ exports.data =[
 		"subcategory": 3,
 		"description": "碉堡威武的传奇命中戒指",
 		"sellprice": 4000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"quality": 4,
 		"rank": 10,
+		"sellGem": 180,
 		"basic_properties": {
 			"accuracy": 66
-		},
-		"sellGem": 180
+		}
 	},
 	{
 		"classId": 505,
@@ -13110,6 +16833,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "非常吊丝的反应戒指",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 0,
 		"rank": 1,
 		"basic_properties": {
@@ -13125,6 +16854,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "犹如路人一般的反应戒指",
 		"sellprice": 100,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 0,
 		"rank": 2,
 		"basic_properties": {
@@ -13140,6 +16875,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "微微小清新的反应戒指",
 		"sellprice": 200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 0,
 		"rank": 3,
 		"basic_properties": {
@@ -13155,6 +16896,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "感受一下还是微微爽的反应戒指",
 		"sellprice": 400,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"quality": 1,
 		"rank": 4,
 		"basic_properties": {
@@ -13170,6 +16917,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "小欢乐的反应戒指",
 		"sellprice": 800,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"quality": 1,
 		"rank": 5,
 		"basic_properties": {
@@ -13185,6 +16938,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "特给力的反应戒指",
 		"sellprice": 1200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"quality": 1,
 		"rank": 6,
 		"basic_properties": {
@@ -13200,6 +16959,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "十分高端的反应戒指",
 		"sellprice": 2000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"quality": 2,
 		"rank": 7,
 		"basic_properties": {
@@ -13215,6 +16980,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "大气又上档次的反应戒指",
 		"sellprice": 2500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 80
+			}
+		],
 		"quality": 2,
 		"rank": 8,
 		"basic_properties": {
@@ -13230,6 +17001,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "酷炫无比的反应戒指",
 		"sellprice": 3000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"quality": 3,
 		"rank": 9,
 		"basic_properties": {
@@ -13245,6 +17022,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "碉堡威武的传奇反应戒指",
 		"sellprice": 4000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"quality": 4,
 		"rank": 10,
 		"basic_properties": {
@@ -13260,6 +17043,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "非常吊丝的速度戒指",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 0,
 		"rank": 1,
 		"basic_properties": {
@@ -13275,6 +17064,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "犹如路人一般的速度戒指",
 		"sellprice": 100,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 0,
 		"rank": 2,
 		"basic_properties": {
@@ -13290,6 +17085,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "微微小清新的速度戒指",
 		"sellprice": 200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 0,
 		"rank": 3,
 		"basic_properties": {
@@ -13305,6 +17106,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "感受一下还是微微爽的速度戒指",
 		"sellprice": 400,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"quality": 1,
 		"rank": 4,
 		"basic_properties": {
@@ -13320,6 +17127,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "小欢乐的速度戒指",
 		"sellprice": 800,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"quality": 1,
 		"rank": 5,
 		"basic_properties": {
@@ -13335,6 +17148,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "特给力的速度戒指",
 		"sellprice": 1200,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"quality": 1,
 		"rank": 6,
 		"basic_properties": {
@@ -13350,6 +17169,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "十分高端的速度戒指",
 		"sellprice": 2000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 60
+			}
+		],
 		"quality": 2,
 		"rank": 7,
 		"basic_properties": {
@@ -13365,6 +17190,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "大气又上档次的速度戒指",
 		"sellprice": 2500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 80
+			}
+		],
 		"quality": 2,
 		"rank": 8,
 		"basic_properties": {
@@ -13380,6 +17211,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "酷炫无比的速度戒指",
 		"sellprice": 3000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 120
+			}
+		],
 		"quality": 3,
 		"rank": 9,
 		"basic_properties": {
@@ -13395,6 +17232,12 @@ exports.data =[
 		"subcategory": 3,
 		"description": "碉堡威武的传奇速度戒指",
 		"sellprice": 4000,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 180
+			}
+		],
 		"quality": 4,
 		"rank": 10,
 		"basic_properties": {
@@ -13411,6 +17254,12 @@ exports.data =[
 		"description": "普通的箱子，里面装有各式的装备",
 		"stack": 99,
 		"sellprice": 10,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 0,
 		"sellGem": 5,
 		"dropId": 0
@@ -13424,6 +17273,12 @@ exports.data =[
 		"description": "青铜打造的宝箱，需要一把青铜钥匙才能打开。",
 		"stack": 99,
 		"sellprice": 20,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 1,
 		"sellGem": 10,
 		"dropId": 1,
@@ -13438,6 +17293,12 @@ exports.data =[
 		"description": "纯银打造的宝箱，需要一把纯银钥匙才能打开。",
 		"stack": 99,
 		"sellprice": 30,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 20
+			}
+		],
 		"quality": 2,
 		"sellGem": 20,
 		"dropId": 2,
@@ -13452,6 +17313,12 @@ exports.data =[
 		"description": "黄金色的宝箱，能够开出稀有装备。需要一把黄金钥匙才能打开。",
 		"stack": 99,
 		"sellprice": 40,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 30
+			}
+		],
 		"quality": 3,
 		"sellGem": 30,
 		"dropId": 3,
@@ -13466,6 +17333,12 @@ exports.data =[
 		"description": "宝箱周围镶满了稀有的钻石，只有最珍贵的财宝才会放在这里面。需要一把镶钻钥匙才能打开。",
 		"stack": 99,
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 40
+			}
+		],
 		"quality": 4,
 		"sellGem": 40,
 		"dropId": 4,
@@ -13479,6 +17352,12 @@ exports.data =[
 		"subcategory": 2,
 		"description": "里面通常包着比较精致的东西。",
 		"stack": 99,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 1,
 		"sellGem": 15,
 		"dropId": 1
@@ -13491,6 +17370,12 @@ exports.data =[
 		"subcategory": 2,
 		"description": "通常包着稀有的东西。",
 		"stack": 99,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 75
+			}
+		],
 		"quality": 2,
 		"sellGem": 75,
 		"dropId": 2
@@ -13503,6 +17388,12 @@ exports.data =[
 		"subcategory": 2,
 		"description": "里面通常包裹着极其稀有的东西。",
 		"stack": 99,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 225
+			}
+		],
 		"quality": 3,
 		"sellGem": 225,
 		"dropId": 3
@@ -13515,6 +17406,12 @@ exports.data =[
 		"subcategory": 2,
 		"description": "只有最珍贵的财宝才能配的上这样的包装。",
 		"stack": 99,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 450
+			}
+		],
 		"quality": 4,
 		"sellGem": 450,
 		"dropId": 4
@@ -13527,6 +17424,12 @@ exports.data =[
 		"description": "青铜打造的钥匙，可以打开铜质宝箱。",
 		"stack": 99,
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 1,
 		"sellGem": 5
 	},
@@ -13538,6 +17441,12 @@ exports.data =[
 		"description": "纯银打造的钥匙，可以打开银质宝箱。",
 		"stack": 99,
 		"sellprice": 250,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 25
+			}
+		],
 		"quality": 2,
 		"sellGem": 25
 	},
@@ -13549,6 +17458,12 @@ exports.data =[
 		"description": "黄金打造的钥匙，可以打开金质宝箱。",
 		"stack": 99,
 		"sellprice": 750,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 75
+			}
+		],
 		"quality": 3,
 		"sellGem": 75
 	},
@@ -13560,6 +17475,12 @@ exports.data =[
 		"description": "镶有钻石的钥匙，可以打开镶钻宝箱。",
 		"stack": 99,
 		"sellprice": 1500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 150
+			}
+		],
 		"quality": 4,
 		"sellGem": 150
 	},
@@ -13572,6 +17493,11 @@ exports.data =[
 		"description": "饮用后可以立即恢复50点精力值。",
 		"stack": 10,
 		"sellprice": 450,
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"storeOnly": true,
 		"autoUse": true,
 		"function": "recoverEnergy",
@@ -13586,6 +17512,11 @@ exports.data =[
 		"description": "饮用后可以立即恢复100点精力值，斗志满满！",
 		"stack": 10,
 		"sellprice": 800,
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"storeOnly": true,
 		"autoUse": true,
 		"function": "recoverEnergy",
@@ -13599,6 +17530,11 @@ exports.data =[
 		"description": "在战斗中可以使全队复活的神奇药水。",
 		"stack": 25,
 		"sellprice": 300,
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"storeOnly": true
 	},
 	{
@@ -13607,6 +17543,11 @@ exports.data =[
 		"category": 1,
 		"subcategory": 12,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "ff1-rightleg-c.ccbi"
@@ -13622,6 +17563,11 @@ exports.data =[
 		"category": 1,
 		"subcategory": 11,
 		"description": "寄宿着光明之神力量的传奇十字架",
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -13636,6 +17582,11 @@ exports.data =[
 		"icon": "epmainweapon9.png",
 		"category": 1,
 		"subcategory": 10,
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -13652,6 +17603,11 @@ exports.data =[
 		"category": 1,
 		"subcategory": 13,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"effecta": [
 			{
 				"part": "helmet",
@@ -13668,6 +17624,11 @@ exports.data =[
 		"category": 1,
 		"subcategory": 14,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"effecta": {
 			"part": "hair3",
 			"file": "avatar-7-hair3.ccbi"
@@ -13682,6 +17643,11 @@ exports.data =[
 		"category": 1,
 		"subcategory": 15,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"effecta": {
 			"part": "brow",
 			"file": "avatar-2-brow.ccbi"
@@ -13696,6 +17662,11 @@ exports.data =[
 		"category": 1,
 		"subcategory": 12,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "fm1-rightleg-c.ccbi"
@@ -13710,6 +17681,11 @@ exports.data =[
 		"category": 1,
 		"subcategory": 14,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"effecta": [
 			{
 				"part": "hair",
@@ -13726,6 +17702,11 @@ exports.data =[
 		"category": 1,
 		"subcategory": 15,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"effecta": {
 			"part": "brow",
 			"file": "avatar-2-brow-2.ccbi"
@@ -13741,6 +17722,11 @@ exports.data =[
 		"category": 0,
 		"subcategory": 0,
 		"description": "内含金块X3，七色宝石X10，小瓶活力药剂X1（每日限购1个）",
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"quality": 1,
 		"prize": {
 			"type": 0,
@@ -13756,6 +17742,11 @@ exports.data =[
 		"subcategory": 12,
 		"description": "兼顾外形与力量，是荣誉的象征。",
 		"sellprice": 1500,
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "ff1-rightleg-c.ccbi"
@@ -13779,6 +17770,11 @@ exports.data =[
 		"subcategory": 13,
 		"description": "荣誉的象征，并且拥有专注力量的祝福。",
 		"sellprice": 500,
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"effectf": [
 			{
 				"part": "helmet",
@@ -13805,6 +17801,11 @@ exports.data =[
 		"category": 0,
 		"subcategory": 0,
 		"description": "内含金块X10（每日限购1个）",
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"quality": 1,
 		"storeOnly": true,
 		"prize": [
@@ -13821,6 +17822,11 @@ exports.data =[
 		"category": 1,
 		"subcategory": 12,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "ff2-rightleg.ccbi"
@@ -13835,6 +17841,11 @@ exports.data =[
 		"category": 1,
 		"subcategory": 13,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"effecta": [
 			{
 				"part": "helmet",
@@ -13851,6 +17862,11 @@ exports.data =[
 		"category": 1,
 		"subcategory": 14,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"effecta": {
 			"part": "hair3",
 			"file": "avatar-8-hair3.ccbi"
@@ -13865,6 +17881,11 @@ exports.data =[
 		"category": 1,
 		"subcategory": 15,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
+		"transPrize": [
+			{
+				"type": 2
+			}
+		],
 		"effecta": {
 			"part": "brow",
 			"file": "avatar-2-brow.ccbi"
@@ -13881,6 +17902,12 @@ exports.data =[
 		"description": "基础素材，用来锻造优质装备",
 		"stack": 99,
 		"sellprice": 15,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 2
+			}
+		],
 		"quality": 0,
 		"sellGem": 2
 	},
@@ -13892,6 +17919,12 @@ exports.data =[
 		"description": "锻造材料，用于锻造稀有装备",
 		"stack": 99,
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 6
+			}
+		],
 		"quality": 1,
 		"sellGem": 6
 	},
@@ -13903,6 +17936,12 @@ exports.data =[
 		"description": "用于锻造史诗装备的珍贵魔晶",
 		"stack": 99,
 		"sellprice": 150,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 2,
 		"sellGem": 15
 	},
@@ -13914,6 +17953,12 @@ exports.data =[
 		"description": "蕴含强大魔力的符文，用于锻造橙色装备",
 		"stack": 99,
 		"sellprice": 500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 35
+			}
+		],
 		"quality": 3,
 		"sellGem": 35
 	},
@@ -13924,6 +17969,12 @@ exports.data =[
 		"description": "暂未开放",
 		"stack": 99,
 		"sellprice": 1500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 4,
 		"sellGem": 5
 	},
@@ -13934,6 +17985,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作初阶长靴的方法",
 		"sellprice": 15,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 1,
 		"sellGem": 5,
 		"recipeTarget": 104,
@@ -13952,6 +18009,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作学徒长剑的方法",
 		"sellprice": 15,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 1,
 		"sellGem": 5,
 		"recipeTarget": 115,
@@ -13970,6 +18033,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作学徒小盾的方法",
 		"sellprice": 15,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 1,
 		"sellGem": 5,
 		"recipeTarget": 114,
@@ -13988,6 +18057,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作学徒铠甲的方法",
 		"sellprice": 15,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 1,
 		"sellGem": 5,
 		"recipeTarget": 113,
@@ -14006,6 +18081,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作学徒战靴的方法",
 		"sellprice": 15,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 1,
 		"sellGem": 5,
 		"recipeTarget": 112,
@@ -14024,6 +18105,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作初阶法杖的方法",
 		"sellprice": 15,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 1,
 		"sellGem": 5,
 		"recipeTarget": 107,
@@ -14042,6 +18129,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作初阶魔法书的方法",
 		"sellprice": 15,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 1,
 		"sellGem": 5,
 		"recipeTarget": 106,
@@ -14060,6 +18153,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作初阶法师袍的方法",
 		"sellprice": 15,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 1,
 		"sellGem": 5,
 		"recipeTarget": 105,
@@ -14078,6 +18177,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作精巧权杖的方法",
 		"sellprice": 15,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 1,
 		"sellGem": 5,
 		"recipeTarget": 111,
@@ -14096,6 +18201,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作精巧十字架的方法",
 		"sellprice": 15,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 1,
 		"sellGem": 5,
 		"recipeTarget": 110,
@@ -14114,6 +18225,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作轻巧外衣的方法",
 		"sellprice": 15,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 1,
 		"sellGem": 5,
 		"recipeTarget": 109,
@@ -14132,6 +18249,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作轻盈鞋子的方法",
 		"sellprice": 15,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 5
+			}
+		],
 		"quality": 1,
 		"sellGem": 5,
 		"recipeTarget": 108,
@@ -14150,6 +18273,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作战斗长剑的方法",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 2,
 		"sellGem": 10,
 		"recipeTarget": 187,
@@ -14168,6 +18297,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作战斗盾的方法",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 2,
 		"sellGem": 10,
 		"recipeTarget": 186,
@@ -14186,6 +18321,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作战斗铠甲的方法",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 2,
 		"sellGem": 10,
 		"recipeTarget": 185,
@@ -14204,6 +18345,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作战斗铁靴的方法",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 2,
 		"sellGem": 10,
 		"recipeTarget": 184,
@@ -14222,6 +18369,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作见习法杖的方法",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 2,
 		"sellGem": 10,
 		"recipeTarget": 179,
@@ -14240,6 +18393,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作见习魔法书的方法",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 2,
 		"sellGem": 10,
 		"recipeTarget": 178,
@@ -14258,6 +18417,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作见习法袍的方法",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 2,
 		"sellGem": 10,
 		"recipeTarget": 177,
@@ -14276,6 +18441,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作见习长靴的方法",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 2,
 		"sellGem": 10,
 		"recipeTarget": 176,
@@ -14294,6 +18465,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作祷告权杖的方法",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 2,
 		"sellGem": 10,
 		"recipeTarget": 183,
@@ -14312,6 +18489,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作祷告十字架的方法",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 2,
 		"sellGem": 10,
 		"recipeTarget": 182,
@@ -14330,6 +18513,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作祷告之衣的方法",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 2,
 		"sellGem": 10,
 		"recipeTarget": 181,
@@ -14348,6 +18537,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作祷告之鞋的方法",
 		"sellprice": 50,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 10
+			}
+		],
 		"quality": 2,
 		"sellGem": 10,
 		"recipeTarget": 180,
@@ -14366,6 +18561,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作卫兵长剑的方法",
 		"sellprice": 150,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 3,
 		"sellGem": 15,
 		"recipeTarget": 259,
@@ -14384,6 +18585,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作卫兵圆盾的方法",
 		"sellprice": 150,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 3,
 		"sellGem": 15,
 		"recipeTarget": 258,
@@ -14402,6 +18609,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作卫兵铁甲的方法",
 		"sellprice": 150,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 3,
 		"sellGem": 15,
 		"recipeTarget": 257,
@@ -14420,6 +18633,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作卫兵铁靴的方法",
 		"sellprice": 150,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 3,
 		"sellGem": 15,
 		"recipeTarget": 256,
@@ -14438,6 +18657,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作精致法杖的方法",
 		"sellprice": 150,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 3,
 		"sellGem": 15,
 		"recipeTarget": 251,
@@ -14456,6 +18681,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作金边魔法书的方法",
 		"sellprice": 150,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 3,
 		"sellGem": 15,
 		"recipeTarget": 250,
@@ -14474,6 +18705,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作精致法袍的方法",
 		"sellprice": 150,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 3,
 		"sellGem": 15,
 		"recipeTarget": 249,
@@ -14492,6 +18729,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作精致长靴的方法",
 		"sellprice": 150,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 3,
 		"sellGem": 15,
 		"recipeTarget": 248,
@@ -14510,6 +18753,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作祈愿权杖的方法",
 		"sellprice": 150,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 3,
 		"sellGem": 15,
 		"recipeTarget": 255,
@@ -14528,6 +18777,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作祈愿十字架的方法",
 		"sellprice": 150,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 3,
 		"sellGem": 15,
 		"recipeTarget": 254,
@@ -14546,6 +18801,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作祈愿之衣的方法",
 		"sellprice": 150,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 3,
 		"sellGem": 15,
 		"recipeTarget": 253,
@@ -14564,6 +18825,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作祈愿之鞋的方法",
 		"sellprice": 150,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 15
+			}
+		],
 		"quality": 3,
 		"sellGem": 15,
 		"recipeTarget": 252,
@@ -14582,6 +18849,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作锋利长剑的方法",
 		"sellprice": 500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 750
+			}
+		],
 		"quality": 4,
 		"sellGem": 750,
 		"recipeTarget": 331,
@@ -14600,6 +18873,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作坚固圆盾的方法",
 		"sellprice": 500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 750
+			}
+		],
 		"quality": 4,
 		"sellGem": 750,
 		"recipeTarget": 330,
@@ -14618,6 +18897,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作坚固铁甲的方法",
 		"sellprice": 500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 750
+			}
+		],
 		"quality": 4,
 		"sellGem": 750,
 		"recipeTarget": 329,
@@ -14636,6 +18921,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作轻巧战靴的方法",
 		"sellprice": 500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 750
+			}
+		],
 		"quality": 4,
 		"sellGem": 750,
 		"recipeTarget": 328,
@@ -14654,6 +18945,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作桦木杖的方法",
 		"sellprice": 500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 750
+			}
+		],
 		"quality": 4,
 		"sellGem": 750,
 		"recipeTarget": 323,
@@ -14672,6 +18969,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作古旧魔法书的方法",
 		"sellprice": 500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 750
+			}
+		],
 		"quality": 4,
 		"sellGem": 750,
 		"recipeTarget": 322,
@@ -14690,6 +18993,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作传承法袍的方法",
 		"sellprice": 500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 750
+			}
+		],
 		"quality": 4,
 		"sellGem": 750,
 		"recipeTarget": 321,
@@ -14708,6 +19017,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作传承长靴的方法",
 		"sellprice": 500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 750
+			}
+		],
 		"quality": 4,
 		"sellGem": 750,
 		"recipeTarget": 320,
@@ -14726,6 +19041,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作侍僧权杖的方法",
 		"sellprice": 500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 750
+			}
+		],
 		"quality": 4,
 		"sellGem": 750,
 		"recipeTarget": 327,
@@ -14744,6 +19065,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作侍僧十字架的方法",
 		"sellprice": 500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 750
+			}
+		],
 		"quality": 4,
 		"sellGem": 750,
 		"recipeTarget": 326,
@@ -14762,6 +19089,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作侍僧外衣的方法",
 		"sellprice": 500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 750
+			}
+		],
 		"quality": 4,
 		"sellGem": 750,
 		"recipeTarget": 325,
@@ -14780,6 +19113,12 @@ exports.data =[
 		"category": 3,
 		"description": "记录了制作侍僧之鞋的方法",
 		"sellprice": 500,
+		"transPrize": [
+			{
+				"type": 2,
+				"count": 750
+			}
+		],
 		"quality": 4,
 		"sellGem": 750,
 		"recipeTarget": 324,
@@ -15020,6 +19359,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 1,
+		"upgradeTarget": 623,
 		"basic_properties": {
 			"health": 3,
 			"speed": 1,
@@ -15029,7 +19369,9 @@ exports.data =[
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 21
 	},
 	{
 		"classId": 623,
@@ -15043,6 +19385,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 2,
+		"upgradeTarget": 624,
 		"basic_properties": {
 			"health": 6,
 			"attack": 1,
@@ -15053,7 +19396,10 @@ exports.data =[
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 21,
+		"forgeTarget": 631
 	},
 	{
 		"classId": 624,
@@ -15067,6 +19413,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 3,
+		"upgradeTarget": 625,
 		"basic_properties": {
 			"health": 10,
 			"attack": 1,
@@ -15077,7 +19424,10 @@ exports.data =[
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 21,
+		"forgeTarget": 632
 	},
 	{
 		"classId": 625,
@@ -15091,6 +19441,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 4,
+		"upgradeTarget": 626,
 		"basic_properties": {
 			"health": 15,
 			"attack": 1,
@@ -15101,7 +19452,10 @@ exports.data =[
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 21,
+		"forgeTarget": 633
 	},
 	{
 		"classId": 626,
@@ -15115,6 +19469,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 5,
+		"upgradeTarget": 627,
 		"basic_properties": {
 			"health": 19,
 			"attack": 2,
@@ -15125,7 +19480,10 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 21,
+		"forgeTarget": 634
 	},
 	{
 		"classId": 627,
@@ -15149,7 +19507,10 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 21,
+		"forgeTarget": 635
 	},
 	{
 		"classId": 628,
@@ -15163,6 +19524,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 2,
+		"upgradeTarget": 629,
 		"basic_properties": {
 			"health": 10,
 			"attack": 1,
@@ -15173,7 +19535,9 @@ exports.data =[
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 27
 	},
 	{
 		"classId": 629,
@@ -15187,6 +19551,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 3,
+		"upgradeTarget": 630,
 		"basic_properties": {
 			"health": 15,
 			"attack": 1,
@@ -15197,7 +19562,10 @@ exports.data =[
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 27,
+		"forgeTarget": 637
 	},
 	{
 		"classId": 630,
@@ -15211,6 +19579,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 4,
+		"upgradeTarget": 631,
 		"basic_properties": {
 			"health": 19,
 			"attack": 2,
@@ -15221,7 +19590,10 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 27,
+		"forgeTarget": 638
 	},
 	{
 		"classId": 631,
@@ -15235,6 +19607,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 5,
+		"upgradeTarget": 632,
 		"basic_properties": {
 			"health": 24,
 			"attack": 2,
@@ -15245,7 +19618,10 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 27,
+		"forgeTarget": 639
 	},
 	{
 		"classId": 632,
@@ -15259,6 +19635,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 6,
+		"upgradeTarget": 633,
 		"basic_properties": {
 			"health": 31,
 			"attack": 2,
@@ -15269,7 +19646,10 @@ exports.data =[
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 27,
+		"forgeTarget": 640
 	},
 	{
 		"classId": 633,
@@ -15293,7 +19673,10 @@ exports.data =[
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 27,
+		"forgeTarget": 641
 	},
 	{
 		"classId": 634,
@@ -15307,6 +19690,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 3,
+		"upgradeTarget": 635,
 		"basic_properties": {
 			"health": 19,
 			"attack": 2,
@@ -15317,7 +19701,9 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 33
 	},
 	{
 		"classId": 635,
@@ -15331,6 +19717,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 4,
+		"upgradeTarget": 636,
 		"basic_properties": {
 			"health": 24,
 			"attack": 2,
@@ -15341,7 +19728,10 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 33,
+		"forgeTarget": 643
 	},
 	{
 		"classId": 636,
@@ -15355,6 +19745,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 5,
+		"upgradeTarget": 637,
 		"basic_properties": {
 			"health": 31,
 			"attack": 2,
@@ -15365,7 +19756,10 @@ exports.data =[
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 33,
+		"forgeTarget": 644
 	},
 	{
 		"classId": 637,
@@ -15379,6 +19773,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 6,
+		"upgradeTarget": 638,
 		"basic_properties": {
 			"health": 39,
 			"attack": 3,
@@ -15389,7 +19784,10 @@ exports.data =[
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 33,
+		"forgeTarget": 645
 	},
 	{
 		"classId": 638,
@@ -15403,6 +19801,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 7,
+		"upgradeTarget": 639,
 		"basic_properties": {
 			"health": 49,
 			"attack": 4,
@@ -15413,7 +19812,10 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 33,
+		"forgeTarget": 646
 	},
 	{
 		"classId": 639,
@@ -15437,7 +19839,10 @@ exports.data =[
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 33,
+		"forgeTarget": 647
 	},
 	{
 		"classId": 640,
@@ -15451,6 +19856,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 4,
+		"upgradeTarget": 641,
 		"basic_properties": {
 			"health": 31,
 			"attack": 2,
@@ -15461,7 +19867,9 @@ exports.data =[
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 39
 	},
 	{
 		"classId": 641,
@@ -15475,6 +19883,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 5,
+		"upgradeTarget": 642,
 		"basic_properties": {
 			"health": 39,
 			"attack": 3,
@@ -15485,7 +19894,10 @@ exports.data =[
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 39,
+		"forgeTarget": 649
 	},
 	{
 		"classId": 642,
@@ -15499,6 +19911,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 6,
+		"upgradeTarget": 643,
 		"basic_properties": {
 			"health": 49,
 			"attack": 4,
@@ -15509,7 +19922,10 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 39,
+		"forgeTarget": 650
 	},
 	{
 		"classId": 643,
@@ -15523,6 +19939,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 7,
+		"upgradeTarget": 644,
 		"basic_properties": {
 			"health": 51,
 			"attack": 5,
@@ -15533,7 +19950,10 @@ exports.data =[
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 39,
+		"forgeTarget": 651
 	},
 	{
 		"classId": 644,
@@ -15547,6 +19967,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 8,
+		"upgradeTarget": 645,
 		"basic_properties": {
 			"health": 59,
 			"attack": 6,
@@ -15557,7 +19978,10 @@ exports.data =[
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 39,
+		"forgeTarget": 652
 	},
 	{
 		"classId": 645,
@@ -15581,7 +20005,10 @@ exports.data =[
 			"critical": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 39,
+		"forgeTarget": 653
 	},
 	{
 		"classId": 646,
@@ -15595,6 +20022,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 5,
+		"upgradeTarget": 647,
 		"basic_properties": {
 			"health": 49,
 			"attack": 4,
@@ -15605,7 +20033,8 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0
 	},
 	{
 		"classId": 647,
@@ -15619,6 +20048,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 6,
+		"upgradeTarget": 648,
 		"basic_properties": {
 			"health": 51,
 			"attack": 5,
@@ -15629,7 +20059,8 @@ exports.data =[
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0
 	},
 	{
 		"classId": 648,
@@ -15643,6 +20074,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 7,
+		"upgradeTarget": 649,
 		"basic_properties": {
 			"health": 59,
 			"attack": 6,
@@ -15653,7 +20085,8 @@ exports.data =[
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0
 	},
 	{
 		"classId": 649,
@@ -15667,6 +20100,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 8,
+		"upgradeTarget": 650,
 		"basic_properties": {
 			"health": 66,
 			"attack": 7,
@@ -15677,7 +20111,8 @@ exports.data =[
 			"critical": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0
 	},
 	{
 		"classId": 650,
@@ -15691,6 +20126,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 9,
+		"upgradeTarget": 651,
 		"basic_properties": {
 			"health": 75,
 			"attack": 7,
@@ -15701,7 +20137,8 @@ exports.data =[
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0
 	},
 	{
 		"classId": 651,
@@ -15725,7 +20162,8 @@ exports.data =[
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0
 	},
 	{
 		"classId": 652,
@@ -15739,6 +20177,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 1,
+		"upgradeTarget": 653,
 		"basic_properties": {
 			"health": 1,
 			"speed": 1,
@@ -15747,7 +20186,9 @@ exports.data =[
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 21
 	},
 	{
 		"classId": 653,
@@ -15761,6 +20202,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 2,
+		"upgradeTarget": 654,
 		"basic_properties": {
 			"health": 3,
 			"attack": 1,
@@ -15770,7 +20212,10 @@ exports.data =[
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 21,
+		"forgeTarget": 661
 	},
 	{
 		"classId": 654,
@@ -15784,6 +20229,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 3,
+		"upgradeTarget": 655,
 		"basic_properties": {
 			"health": 4,
 			"attack": 1,
@@ -15793,7 +20239,10 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 21,
+		"forgeTarget": 662
 	},
 	{
 		"classId": 655,
@@ -15807,6 +20256,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 4,
+		"upgradeTarget": 656,
 		"basic_properties": {
 			"health": 6,
 			"attack": 3,
@@ -15816,7 +20266,10 @@ exports.data =[
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 21,
+		"forgeTarget": 663
 	},
 	{
 		"classId": 656,
@@ -15830,6 +20283,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 5,
+		"upgradeTarget": 657,
 		"basic_properties": {
 			"health": 8,
 			"attack": 4,
@@ -15839,7 +20293,10 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 21,
+		"forgeTarget": 664
 	},
 	{
 		"classId": 657,
@@ -15862,7 +20319,10 @@ exports.data =[
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 21,
+		"forgeTarget": 665
 	},
 	{
 		"classId": 658,
@@ -15876,6 +20336,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 2,
+		"upgradeTarget": 659,
 		"basic_properties": {
 			"health": 4,
 			"attack": 1,
@@ -15885,7 +20346,9 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 27
 	},
 	{
 		"classId": 659,
@@ -15899,6 +20362,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 3,
+		"upgradeTarget": 660,
 		"basic_properties": {
 			"health": 6,
 			"attack": 3,
@@ -15908,7 +20372,10 @@ exports.data =[
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 27,
+		"forgeTarget": 667
 	},
 	{
 		"classId": 660,
@@ -15922,6 +20389,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 4,
+		"upgradeTarget": 661,
 		"basic_properties": {
 			"health": 8,
 			"attack": 4,
@@ -15931,7 +20399,10 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 27,
+		"forgeTarget": 668
 	},
 	{
 		"classId": 661,
@@ -15945,6 +20416,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 5,
+		"upgradeTarget": 662,
 		"basic_properties": {
 			"health": 10,
 			"attack": 5,
@@ -15954,7 +20426,10 @@ exports.data =[
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 27,
+		"forgeTarget": 669
 	},
 	{
 		"classId": 662,
@@ -15968,6 +20443,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 6,
+		"upgradeTarget": 663,
 		"basic_properties": {
 			"health": 13,
 			"attack": 6,
@@ -15977,7 +20453,10 @@ exports.data =[
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 27,
+		"forgeTarget": 670
 	},
 	{
 		"classId": 663,
@@ -16000,7 +20479,10 @@ exports.data =[
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 27,
+		"forgeTarget": 671
 	},
 	{
 		"classId": 664,
@@ -16014,6 +20496,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 3,
+		"upgradeTarget": 665,
 		"basic_properties": {
 			"health": 8,
 			"attack": 4,
@@ -16023,7 +20506,9 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 33
 	},
 	{
 		"classId": 665,
@@ -16037,6 +20522,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 4,
+		"upgradeTarget": 666,
 		"basic_properties": {
 			"health": 10,
 			"attack": 5,
@@ -16046,7 +20532,10 @@ exports.data =[
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 33,
+		"forgeTarget": 673
 	},
 	{
 		"classId": 666,
@@ -16060,6 +20549,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 5,
+		"upgradeTarget": 667,
 		"basic_properties": {
 			"health": 13,
 			"attack": 6,
@@ -16069,7 +20559,10 @@ exports.data =[
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 33,
+		"forgeTarget": 674
 	},
 	{
 		"classId": 667,
@@ -16083,6 +20576,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 6,
+		"upgradeTarget": 668,
 		"basic_properties": {
 			"health": 15,
 			"attack": 7,
@@ -16092,7 +20586,10 @@ exports.data =[
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 33,
+		"forgeTarget": 675
 	},
 	{
 		"classId": 668,
@@ -16106,6 +20603,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 7,
+		"upgradeTarget": 669,
 		"basic_properties": {
 			"health": 18,
 			"attack": 8,
@@ -16115,7 +20613,10 @@ exports.data =[
 			"critical": 13
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 33,
+		"forgeTarget": 676
 	},
 	{
 		"classId": 669,
@@ -16138,7 +20639,10 @@ exports.data =[
 			"critical": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 33,
+		"forgeTarget": 677
 	},
 	{
 		"classId": 670,
@@ -16152,6 +20656,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 4,
+		"upgradeTarget": 671,
 		"basic_properties": {
 			"health": 13,
 			"attack": 6,
@@ -16161,7 +20666,9 @@ exports.data =[
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 39
 	},
 	{
 		"classId": 671,
@@ -16175,6 +20682,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 5,
+		"upgradeTarget": 672,
 		"basic_properties": {
 			"health": 15,
 			"attack": 7,
@@ -16184,7 +20692,10 @@ exports.data =[
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 39,
+		"forgeTarget": 679
 	},
 	{
 		"classId": 672,
@@ -16198,6 +20709,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 6,
+		"upgradeTarget": 673,
 		"basic_properties": {
 			"health": 18,
 			"attack": 8,
@@ -16207,7 +20719,10 @@ exports.data =[
 			"critical": 13
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 39,
+		"forgeTarget": 680
 	},
 	{
 		"classId": 673,
@@ -16221,6 +20736,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 7,
+		"upgradeTarget": 674,
 		"basic_properties": {
 			"health": 22,
 			"attack": 9,
@@ -16230,7 +20746,10 @@ exports.data =[
 			"critical": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 39,
+		"forgeTarget": 681
 	},
 	{
 		"classId": 674,
@@ -16244,6 +20763,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 8,
+		"upgradeTarget": 675,
 		"basic_properties": {
 			"health": 25,
 			"attack": 10,
@@ -16253,7 +20773,10 @@ exports.data =[
 			"critical": 16
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 39,
+		"forgeTarget": 682
 	},
 	{
 		"classId": 675,
@@ -16276,7 +20799,10 @@ exports.data =[
 			"critical": 17
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 39,
+		"forgeTarget": 683
 	},
 	{
 		"classId": 676,
@@ -16290,6 +20816,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 5,
+		"upgradeTarget": 677,
 		"basic_properties": {
 			"health": 18,
 			"attack": 8,
@@ -16299,7 +20826,8 @@ exports.data =[
 			"critical": 13
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1
 	},
 	{
 		"classId": 677,
@@ -16313,6 +20841,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 6,
+		"upgradeTarget": 678,
 		"basic_properties": {
 			"health": 22,
 			"attack": 9,
@@ -16322,7 +20851,8 @@ exports.data =[
 			"critical": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1
 	},
 	{
 		"classId": 678,
@@ -16336,6 +20866,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 7,
+		"upgradeTarget": 679,
 		"basic_properties": {
 			"health": 25,
 			"attack": 10,
@@ -16345,7 +20876,8 @@ exports.data =[
 			"critical": 16
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1
 	},
 	{
 		"classId": 679,
@@ -16359,6 +20891,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 8,
+		"upgradeTarget": 680,
 		"basic_properties": {
 			"health": 28,
 			"attack": 12,
@@ -16368,7 +20901,8 @@ exports.data =[
 			"critical": 17
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1
 	},
 	{
 		"classId": 680,
@@ -16382,6 +20916,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 9,
+		"upgradeTarget": 681,
 		"basic_properties": {
 			"health": 31,
 			"attack": 14,
@@ -16391,7 +20926,8 @@ exports.data =[
 			"critical": 19
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1
 	},
 	{
 		"classId": 681,
@@ -16414,7 +20950,8 @@ exports.data =[
 			"critical": 22
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1
 	},
 	{
 		"classId": 682,
@@ -16428,6 +20965,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 1,
+		"upgradeTarget": 683,
 		"basic_properties": {
 			"health": 2,
 			"strong": 1,
@@ -16436,7 +20974,9 @@ exports.data =[
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 21
 	},
 	{
 		"classId": 683,
@@ -16450,6 +20990,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 2,
+		"upgradeTarget": 684,
 		"basic_properties": {
 			"health": 6,
 			"attack": 1,
@@ -16459,7 +21000,10 @@ exports.data =[
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 21,
+		"forgeTarget": 691
 	},
 	{
 		"classId": 684,
@@ -16473,6 +21017,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 3,
+		"upgradeTarget": 685,
 		"basic_properties": {
 			"health": 8,
 			"attack": 1,
@@ -16482,7 +21027,10 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 21,
+		"forgeTarget": 692
 	},
 	{
 		"classId": 685,
@@ -16496,6 +21044,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 4,
+		"upgradeTarget": 686,
 		"basic_properties": {
 			"health": 11,
 			"attack": 1,
@@ -16505,7 +21054,10 @@ exports.data =[
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 21,
+		"forgeTarget": 693
 	},
 	{
 		"classId": 686,
@@ -16519,6 +21071,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 5,
+		"upgradeTarget": 687,
 		"basic_properties": {
 			"health": 13,
 			"attack": 2,
@@ -16528,7 +21081,10 @@ exports.data =[
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 21,
+		"forgeTarget": 694
 	},
 	{
 		"classId": 687,
@@ -16551,7 +21107,10 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 21,
+		"forgeTarget": 695
 	},
 	{
 		"classId": 688,
@@ -16565,6 +21124,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 2,
+		"upgradeTarget": 689,
 		"basic_properties": {
 			"health": 8,
 			"attack": 1,
@@ -16574,7 +21134,9 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 27
 	},
 	{
 		"classId": 689,
@@ -16588,6 +21150,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 3,
+		"upgradeTarget": 690,
 		"basic_properties": {
 			"health": 11,
 			"attack": 1,
@@ -16597,7 +21160,10 @@ exports.data =[
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 27,
+		"forgeTarget": 697
 	},
 	{
 		"classId": 690,
@@ -16611,6 +21177,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 4,
+		"upgradeTarget": 691,
 		"basic_properties": {
 			"health": 13,
 			"attack": 2,
@@ -16620,7 +21187,10 @@ exports.data =[
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 27,
+		"forgeTarget": 698
 	},
 	{
 		"classId": 691,
@@ -16634,6 +21204,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 5,
+		"upgradeTarget": 692,
 		"basic_properties": {
 			"health": 15,
 			"attack": 3,
@@ -16643,7 +21214,10 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 27,
+		"forgeTarget": 699
 	},
 	{
 		"classId": 692,
@@ -16657,6 +21231,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 6,
+		"upgradeTarget": 693,
 		"basic_properties": {
 			"health": 21,
 			"attack": 4,
@@ -16666,7 +21241,10 @@ exports.data =[
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 27,
+		"forgeTarget": 700
 	},
 	{
 		"classId": 693,
@@ -16689,7 +21267,10 @@ exports.data =[
 			"critical": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 27,
+		"forgeTarget": 701
 	},
 	{
 		"classId": 694,
@@ -16703,6 +21284,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 3,
+		"upgradeTarget": 695,
 		"basic_properties": {
 			"health": 13,
 			"attack": 2,
@@ -16712,7 +21294,9 @@ exports.data =[
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 33
 	},
 	{
 		"classId": 695,
@@ -16726,6 +21310,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 4,
+		"upgradeTarget": 696,
 		"basic_properties": {
 			"health": 15,
 			"attack": 3,
@@ -16735,7 +21320,10 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 33,
+		"forgeTarget": 703
 	},
 	{
 		"classId": 696,
@@ -16749,6 +21337,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 5,
+		"upgradeTarget": 697,
 		"basic_properties": {
 			"health": 21,
 			"attack": 4,
@@ -16758,7 +21347,10 @@ exports.data =[
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 33,
+		"forgeTarget": 704
 	},
 	{
 		"classId": 697,
@@ -16772,6 +21364,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 6,
+		"upgradeTarget": 698,
 		"basic_properties": {
 			"health": 25,
 			"attack": 5,
@@ -16781,7 +21374,10 @@ exports.data =[
 			"critical": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 33,
+		"forgeTarget": 705
 	},
 	{
 		"classId": 698,
@@ -16795,6 +21391,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 7,
+		"upgradeTarget": 699,
 		"basic_properties": {
 			"health": 28,
 			"attack": 6,
@@ -16804,7 +21401,10 @@ exports.data =[
 			"critical": 12
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 33,
+		"forgeTarget": 706
 	},
 	{
 		"classId": 699,
@@ -16827,7 +21427,10 @@ exports.data =[
 			"critical": 14
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 33,
+		"forgeTarget": 707
 	},
 	{
 		"classId": 700,
@@ -16841,6 +21444,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 4,
+		"upgradeTarget": 701,
 		"basic_properties": {
 			"health": 21,
 			"attack": 4,
@@ -16850,7 +21454,9 @@ exports.data =[
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 39
 	},
 	{
 		"classId": 701,
@@ -16864,6 +21470,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 5,
+		"upgradeTarget": 702,
 		"basic_properties": {
 			"health": 25,
 			"attack": 5,
@@ -16873,7 +21480,10 @@ exports.data =[
 			"critical": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 39,
+		"forgeTarget": 709
 	},
 	{
 		"classId": 702,
@@ -16887,6 +21497,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 6,
+		"upgradeTarget": 703,
 		"basic_properties": {
 			"health": 28,
 			"attack": 6,
@@ -16896,7 +21507,10 @@ exports.data =[
 			"critical": 12
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 39,
+		"forgeTarget": 710
 	},
 	{
 		"classId": 703,
@@ -16910,6 +21524,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 7,
+		"upgradeTarget": 704,
 		"basic_properties": {
 			"health": 35,
 			"attack": 7,
@@ -16919,7 +21534,10 @@ exports.data =[
 			"critical": 14
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 39,
+		"forgeTarget": 711
 	},
 	{
 		"classId": 704,
@@ -16933,6 +21551,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 8,
+		"upgradeTarget": 705,
 		"basic_properties": {
 			"health": 40,
 			"attack": 8,
@@ -16942,7 +21561,10 @@ exports.data =[
 			"critical": 16
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 39,
+		"forgeTarget": 712
 	},
 	{
 		"classId": 705,
@@ -16965,7 +21587,10 @@ exports.data =[
 			"critical": 18
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 39,
+		"forgeTarget": 713
 	},
 	{
 		"classId": 706,
@@ -16979,6 +21604,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 5,
+		"upgradeTarget": 707,
 		"basic_properties": {
 			"health": 28,
 			"attack": 6,
@@ -16988,7 +21614,8 @@ exports.data =[
 			"critical": 12
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2
 	},
 	{
 		"classId": 707,
@@ -17002,6 +21629,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 6,
+		"upgradeTarget": 708,
 		"basic_properties": {
 			"health": 35,
 			"attack": 7,
@@ -17011,7 +21639,8 @@ exports.data =[
 			"critical": 14
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2
 	},
 	{
 		"classId": 708,
@@ -17025,6 +21654,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 7,
+		"upgradeTarget": 709,
 		"basic_properties": {
 			"health": 40,
 			"attack": 8,
@@ -17034,7 +21664,8 @@ exports.data =[
 			"critical": 16
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2
 	},
 	{
 		"classId": 709,
@@ -17048,6 +21679,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 8,
+		"upgradeTarget": 710,
 		"basic_properties": {
 			"health": 45,
 			"attack": 9,
@@ -17057,7 +21689,8 @@ exports.data =[
 			"critical": 18
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2
 	},
 	{
 		"classId": 710,
@@ -17071,6 +21704,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 9,
+		"upgradeTarget": 711,
 		"basic_properties": {
 			"health": 49,
 			"attack": 10,
@@ -17080,7 +21714,8 @@ exports.data =[
 			"critical": 20
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2
 	},
 	{
 		"classId": 711,
@@ -17103,7 +21738,8 @@ exports.data =[
 			"critical": 22
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2
 	},
 	{
 		"classId": 712,
@@ -17117,6 +21753,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 1,
+		"upgradeTarget": 713,
 		"basic_properties": {
 			"health": 2,
 			"attack": 1,
@@ -17126,7 +21763,9 @@ exports.data =[
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 22
 	},
 	{
 		"classId": 713,
@@ -17140,6 +21779,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 2,
+		"upgradeTarget": 714,
 		"basic_properties": {
 			"health": 5,
 			"attack": 1,
@@ -17149,7 +21789,10 @@ exports.data =[
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 22,
+		"forgeTarget": 721
 	},
 	{
 		"classId": 714,
@@ -17163,6 +21806,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 3,
+		"upgradeTarget": 715,
 		"basic_properties": {
 			"health": 5,
 			"attack": 2,
@@ -17172,7 +21816,10 @@ exports.data =[
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 22,
+		"forgeTarget": 722
 	},
 	{
 		"classId": 715,
@@ -17186,6 +21833,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 4,
+		"upgradeTarget": 716,
 		"basic_properties": {
 			"health": 12,
 			"attack": 2,
@@ -17195,7 +21843,10 @@ exports.data =[
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 22,
+		"forgeTarget": 723
 	},
 	{
 		"classId": 716,
@@ -17209,6 +21860,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 5,
+		"upgradeTarget": 717,
 		"basic_properties": {
 			"health": 17,
 			"attack": 2,
@@ -17218,7 +21870,10 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 22,
+		"forgeTarget": 724
 	},
 	{
 		"classId": 717,
@@ -17241,7 +21896,10 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 22,
+		"forgeTarget": 725
 	},
 	{
 		"classId": 718,
@@ -17255,6 +21913,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 2,
+		"upgradeTarget": 719,
 		"basic_properties": {
 			"health": 5,
 			"attack": 2,
@@ -17264,7 +21923,9 @@ exports.data =[
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 28
 	},
 	{
 		"classId": 719,
@@ -17278,6 +21939,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 3,
+		"upgradeTarget": 720,
 		"basic_properties": {
 			"health": 12,
 			"attack": 2,
@@ -17287,7 +21949,10 @@ exports.data =[
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 28,
+		"forgeTarget": 727
 	},
 	{
 		"classId": 720,
@@ -17301,6 +21966,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 4,
+		"upgradeTarget": 721,
 		"basic_properties": {
 			"health": 17,
 			"attack": 2,
@@ -17310,7 +21976,10 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 28,
+		"forgeTarget": 728
 	},
 	{
 		"classId": 721,
@@ -17324,6 +21993,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 5,
+		"upgradeTarget": 722,
 		"basic_properties": {
 			"health": 22,
 			"attack": 3,
@@ -17333,7 +22003,10 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 28,
+		"forgeTarget": 729
 	},
 	{
 		"classId": 722,
@@ -17347,6 +22020,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 6,
+		"upgradeTarget": 723,
 		"basic_properties": {
 			"health": 27,
 			"attack": 3,
@@ -17356,7 +22030,10 @@ exports.data =[
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 28,
+		"forgeTarget": 730
 	},
 	{
 		"classId": 723,
@@ -17379,7 +22056,10 @@ exports.data =[
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 28,
+		"forgeTarget": 731
 	},
 	{
 		"classId": 724,
@@ -17393,6 +22073,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 3,
+		"upgradeTarget": 725,
 		"basic_properties": {
 			"health": 17,
 			"attack": 2,
@@ -17402,7 +22083,9 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 34
 	},
 	{
 		"classId": 725,
@@ -17416,6 +22099,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 4,
+		"upgradeTarget": 726,
 		"basic_properties": {
 			"health": 22,
 			"attack": 3,
@@ -17425,7 +22109,10 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 34,
+		"forgeTarget": 733
 	},
 	{
 		"classId": 726,
@@ -17439,6 +22126,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 5,
+		"upgradeTarget": 727,
 		"basic_properties": {
 			"health": 27,
 			"attack": 3,
@@ -17448,7 +22136,10 @@ exports.data =[
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 34,
+		"forgeTarget": 734
 	},
 	{
 		"classId": 727,
@@ -17462,6 +22153,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 6,
+		"upgradeTarget": 728,
 		"basic_properties": {
 			"health": 33,
 			"attack": 4,
@@ -17471,7 +22163,10 @@ exports.data =[
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 34,
+		"forgeTarget": 735
 	},
 	{
 		"classId": 728,
@@ -17485,6 +22180,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 7,
+		"upgradeTarget": 729,
 		"basic_properties": {
 			"health": 36,
 			"attack": 4,
@@ -17494,7 +22190,10 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 34,
+		"forgeTarget": 736
 	},
 	{
 		"classId": 729,
@@ -17517,7 +22216,10 @@ exports.data =[
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 34,
+		"forgeTarget": 737
 	},
 	{
 		"classId": 730,
@@ -17531,6 +22233,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 4,
+		"upgradeTarget": 731,
 		"basic_properties": {
 			"health": 27,
 			"attack": 3,
@@ -17540,7 +22243,9 @@ exports.data =[
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 40
 	},
 	{
 		"classId": 731,
@@ -17554,6 +22259,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 5,
+		"upgradeTarget": 732,
 		"basic_properties": {
 			"health": 33,
 			"attack": 4,
@@ -17563,7 +22269,10 @@ exports.data =[
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 40,
+		"forgeTarget": 739
 	},
 	{
 		"classId": 732,
@@ -17577,6 +22286,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 6,
+		"upgradeTarget": 733,
 		"basic_properties": {
 			"health": 36,
 			"attack": 4,
@@ -17586,7 +22296,10 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 40,
+		"forgeTarget": 740
 	},
 	{
 		"classId": 733,
@@ -17600,6 +22313,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 7,
+		"upgradeTarget": 734,
 		"basic_properties": {
 			"health": 43,
 			"attack": 4,
@@ -17609,7 +22323,10 @@ exports.data =[
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 40,
+		"forgeTarget": 741
 	},
 	{
 		"classId": 734,
@@ -17623,6 +22340,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 8,
+		"upgradeTarget": 735,
 		"basic_properties": {
 			"health": 53,
 			"attack": 5,
@@ -17632,7 +22350,10 @@ exports.data =[
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 40,
+		"forgeTarget": 742
 	},
 	{
 		"classId": 735,
@@ -17655,7 +22376,10 @@ exports.data =[
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0,
+		"forgeID": 40,
+		"forgeTarget": 743
 	},
 	{
 		"classId": 736,
@@ -17669,6 +22393,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 5,
+		"upgradeTarget": 737,
 		"basic_properties": {
 			"health": 36,
 			"attack": 4,
@@ -17678,7 +22403,8 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0
 	},
 	{
 		"classId": 737,
@@ -17692,6 +22418,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 6,
+		"upgradeTarget": 738,
 		"basic_properties": {
 			"health": 43,
 			"attack": 4,
@@ -17701,7 +22428,8 @@ exports.data =[
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0
 	},
 	{
 		"classId": 738,
@@ -17715,6 +22443,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 7,
+		"upgradeTarget": 739,
 		"basic_properties": {
 			"health": 53,
 			"attack": 5,
@@ -17724,7 +22453,8 @@ exports.data =[
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0
 	},
 	{
 		"classId": 739,
@@ -17738,6 +22468,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 8,
+		"upgradeTarget": 740,
 		"basic_properties": {
 			"health": 60,
 			"attack": 6,
@@ -17747,7 +22478,8 @@ exports.data =[
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0
 	},
 	{
 		"classId": 740,
@@ -17761,6 +22493,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 9,
+		"upgradeTarget": 741,
 		"basic_properties": {
 			"health": 67,
 			"attack": 7,
@@ -17770,7 +22503,8 @@ exports.data =[
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0
 	},
 	{
 		"classId": 741,
@@ -17793,7 +22527,8 @@ exports.data =[
 			"critical": 12
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 0
 	},
 	{
 		"classId": 742,
@@ -17807,6 +22542,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 1,
+		"upgradeTarget": 743,
 		"basic_properties": {
 			"health": 1,
 			"attack": 1,
@@ -17815,7 +22551,9 @@ exports.data =[
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 22
 	},
 	{
 		"classId": 743,
@@ -17829,6 +22567,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 2,
+		"upgradeTarget": 744,
 		"basic_properties": {
 			"health": 2,
 			"attack": 2,
@@ -17837,7 +22576,10 @@ exports.data =[
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 22,
+		"forgeTarget": 751
 	},
 	{
 		"classId": 744,
@@ -17851,6 +22593,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 3,
+		"upgradeTarget": 745,
 		"basic_properties": {
 			"health": 3,
 			"attack": 3,
@@ -17859,7 +22602,10 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 22,
+		"forgeTarget": 752
 	},
 	{
 		"classId": 745,
@@ -17873,6 +22619,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 4,
+		"upgradeTarget": 746,
 		"basic_properties": {
 			"health": 7,
 			"attack": 4,
@@ -17881,7 +22628,10 @@ exports.data =[
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 22,
+		"forgeTarget": 753
 	},
 	{
 		"classId": 746,
@@ -17895,6 +22645,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 5,
+		"upgradeTarget": 747,
 		"basic_properties": {
 			"health": 11,
 			"attack": 5,
@@ -17903,7 +22654,10 @@ exports.data =[
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 22,
+		"forgeTarget": 754
 	},
 	{
 		"classId": 747,
@@ -17925,7 +22679,10 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 22,
+		"forgeTarget": 755
 	},
 	{
 		"classId": 748,
@@ -17939,6 +22696,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 2,
+		"upgradeTarget": 749,
 		"basic_properties": {
 			"health": 3,
 			"attack": 3,
@@ -17947,7 +22705,9 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 28
 	},
 	{
 		"classId": 749,
@@ -17961,6 +22721,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 3,
+		"upgradeTarget": 750,
 		"basic_properties": {
 			"health": 7,
 			"attack": 4,
@@ -17969,7 +22730,10 @@ exports.data =[
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 28,
+		"forgeTarget": 757
 	},
 	{
 		"classId": 750,
@@ -17983,6 +22747,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 4,
+		"upgradeTarget": 751,
 		"basic_properties": {
 			"health": 11,
 			"attack": 5,
@@ -17991,7 +22756,10 @@ exports.data =[
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 28,
+		"forgeTarget": 758
 	},
 	{
 		"classId": 751,
@@ -18005,6 +22773,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 5,
+		"upgradeTarget": 752,
 		"basic_properties": {
 			"health": 12,
 			"attack": 6,
@@ -18013,7 +22782,10 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 28,
+		"forgeTarget": 759
 	},
 	{
 		"classId": 752,
@@ -18027,6 +22799,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 6,
+		"upgradeTarget": 753,
 		"basic_properties": {
 			"health": 16,
 			"attack": 7,
@@ -18035,7 +22808,10 @@ exports.data =[
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 28,
+		"forgeTarget": 760
 	},
 	{
 		"classId": 753,
@@ -18057,7 +22833,10 @@ exports.data =[
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 28,
+		"forgeTarget": 761
 	},
 	{
 		"classId": 754,
@@ -18071,6 +22850,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 3,
+		"upgradeTarget": 755,
 		"basic_properties": {
 			"health": 11,
 			"attack": 5,
@@ -18079,7 +22859,9 @@ exports.data =[
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 34
 	},
 	{
 		"classId": 755,
@@ -18093,6 +22875,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 4,
+		"upgradeTarget": 756,
 		"basic_properties": {
 			"health": 12,
 			"attack": 6,
@@ -18101,7 +22884,10 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 34,
+		"forgeTarget": 763
 	},
 	{
 		"classId": 756,
@@ -18115,6 +22901,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 5,
+		"upgradeTarget": 757,
 		"basic_properties": {
 			"health": 16,
 			"attack": 7,
@@ -18123,7 +22910,10 @@ exports.data =[
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 34,
+		"forgeTarget": 764
 	},
 	{
 		"classId": 757,
@@ -18137,6 +22927,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 6,
+		"upgradeTarget": 758,
 		"basic_properties": {
 			"health": 18,
 			"attack": 8,
@@ -18145,7 +22936,10 @@ exports.data =[
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 34,
+		"forgeTarget": 765
 	},
 	{
 		"classId": 758,
@@ -18159,6 +22953,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 7,
+		"upgradeTarget": 759,
 		"basic_properties": {
 			"health": 21,
 			"attack": 10,
@@ -18167,7 +22962,10 @@ exports.data =[
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 34,
+		"forgeTarget": 766
 	},
 	{
 		"classId": 759,
@@ -18189,7 +22987,10 @@ exports.data =[
 			"critical": 14
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 34,
+		"forgeTarget": 767
 	},
 	{
 		"classId": 760,
@@ -18203,6 +23004,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 4,
+		"upgradeTarget": 761,
 		"basic_properties": {
 			"health": 16,
 			"attack": 7,
@@ -18211,7 +23013,9 @@ exports.data =[
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 40
 	},
 	{
 		"classId": 761,
@@ -18225,6 +23029,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 5,
+		"upgradeTarget": 762,
 		"basic_properties": {
 			"health": 18,
 			"attack": 8,
@@ -18233,7 +23038,10 @@ exports.data =[
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 40,
+		"forgeTarget": 769
 	},
 	{
 		"classId": 762,
@@ -18247,6 +23055,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 6,
+		"upgradeTarget": 763,
 		"basic_properties": {
 			"health": 21,
 			"attack": 10,
@@ -18255,7 +23064,10 @@ exports.data =[
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 40,
+		"forgeTarget": 770
 	},
 	{
 		"classId": 763,
@@ -18269,6 +23081,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 7,
+		"upgradeTarget": 764,
 		"basic_properties": {
 			"health": 25,
 			"attack": 11,
@@ -18277,7 +23090,10 @@ exports.data =[
 			"critical": 14
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 40,
+		"forgeTarget": 771
 	},
 	{
 		"classId": 764,
@@ -18291,6 +23107,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 8,
+		"upgradeTarget": 765,
 		"basic_properties": {
 			"health": 28,
 			"attack": 12,
@@ -18299,7 +23116,10 @@ exports.data =[
 			"critical": 17
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 40,
+		"forgeTarget": 772
 	},
 	{
 		"classId": 765,
@@ -18321,7 +23141,10 @@ exports.data =[
 			"critical": 19
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1,
+		"forgeID": 40,
+		"forgeTarget": 773
 	},
 	{
 		"classId": 766,
@@ -18335,6 +23158,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 5,
+		"upgradeTarget": 767,
 		"basic_properties": {
 			"health": 21,
 			"attack": 10,
@@ -18343,7 +23167,8 @@ exports.data =[
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1
 	},
 	{
 		"classId": 767,
@@ -18357,6 +23182,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 6,
+		"upgradeTarget": 768,
 		"basic_properties": {
 			"health": 25,
 			"attack": 11,
@@ -18365,7 +23191,8 @@ exports.data =[
 			"critical": 14
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1
 	},
 	{
 		"classId": 768,
@@ -18379,6 +23206,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 7,
+		"upgradeTarget": 769,
 		"basic_properties": {
 			"health": 28,
 			"attack": 12,
@@ -18387,7 +23215,8 @@ exports.data =[
 			"critical": 17
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1
 	},
 	{
 		"classId": 769,
@@ -18401,6 +23230,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 8,
+		"upgradeTarget": 770,
 		"basic_properties": {
 			"health": 30,
 			"attack": 14,
@@ -18409,7 +23239,8 @@ exports.data =[
 			"critical": 19
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1
 	},
 	{
 		"classId": 770,
@@ -18423,6 +23254,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 9,
+		"upgradeTarget": 771,
 		"basic_properties": {
 			"health": 33,
 			"attack": 15,
@@ -18431,7 +23263,8 @@ exports.data =[
 			"critical": 22
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1
 	},
 	{
 		"classId": 771,
@@ -18453,7 +23286,8 @@ exports.data =[
 			"critical": 25
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 1
 	},
 	{
 		"classId": 772,
@@ -18467,6 +23301,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 1,
+		"upgradeTarget": 773,
 		"basic_properties": {
 			"health": 2,
 			"attack": 1,
@@ -18476,7 +23311,9 @@ exports.data =[
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 22
 	},
 	{
 		"classId": 773,
@@ -18490,6 +23327,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 2,
+		"upgradeTarget": 774,
 		"basic_properties": {
 			"health": 6,
 			"attack": 2,
@@ -18499,7 +23337,10 @@ exports.data =[
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 22,
+		"forgeTarget": 781
 	},
 	{
 		"classId": 774,
@@ -18513,6 +23354,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 3,
+		"upgradeTarget": 775,
 		"basic_properties": {
 			"health": 7,
 			"attack": 2,
@@ -18522,7 +23364,10 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 22,
+		"forgeTarget": 782
 	},
 	{
 		"classId": 775,
@@ -18536,6 +23381,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 4,
+		"upgradeTarget": 776,
 		"basic_properties": {
 			"health": 9,
 			"attack": 2,
@@ -18545,7 +23391,10 @@ exports.data =[
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 22,
+		"forgeTarget": 783
 	},
 	{
 		"classId": 776,
@@ -18559,6 +23408,7 @@ exports.data =[
 		],
 		"quality": 0,
 		"rank": 5,
+		"upgradeTarget": 777,
 		"basic_properties": {
 			"health": 11,
 			"attack": 3,
@@ -18568,7 +23418,10 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 22,
+		"forgeTarget": 784
 	},
 	{
 		"classId": 777,
@@ -18591,7 +23444,10 @@ exports.data =[
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 22,
+		"forgeTarget": 785
 	},
 	{
 		"classId": 778,
@@ -18605,6 +23461,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 2,
+		"upgradeTarget": 779,
 		"basic_properties": {
 			"health": 7,
 			"attack": 2,
@@ -18614,7 +23471,9 @@ exports.data =[
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 28
 	},
 	{
 		"classId": 779,
@@ -18628,6 +23487,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 3,
+		"upgradeTarget": 780,
 		"basic_properties": {
 			"health": 9,
 			"attack": 2,
@@ -18637,7 +23497,10 @@ exports.data =[
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 28,
+		"forgeTarget": 787
 	},
 	{
 		"classId": 780,
@@ -18651,6 +23514,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 4,
+		"upgradeTarget": 781,
 		"basic_properties": {
 			"health": 11,
 			"attack": 3,
@@ -18660,7 +23524,10 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 28,
+		"forgeTarget": 788
 	},
 	{
 		"classId": 781,
@@ -18674,6 +23541,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 5,
+		"upgradeTarget": 782,
 		"basic_properties": {
 			"health": 13,
 			"attack": 4,
@@ -18683,7 +23551,10 @@ exports.data =[
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 28,
+		"forgeTarget": 789
 	},
 	{
 		"classId": 782,
@@ -18697,6 +23568,7 @@ exports.data =[
 		],
 		"quality": 1,
 		"rank": 6,
+		"upgradeTarget": 783,
 		"basic_properties": {
 			"health": 16,
 			"attack": 5,
@@ -18706,7 +23578,10 @@ exports.data =[
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 28,
+		"forgeTarget": 790
 	},
 	{
 		"classId": 783,
@@ -18729,7 +23604,10 @@ exports.data =[
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 28,
+		"forgeTarget": 791
 	},
 	{
 		"classId": 784,
@@ -18743,6 +23621,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 3,
+		"upgradeTarget": 785,
 		"basic_properties": {
 			"health": 11,
 			"attack": 3,
@@ -18752,7 +23631,9 @@ exports.data =[
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 34
 	},
 	{
 		"classId": 785,
@@ -18766,6 +23647,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 4,
+		"upgradeTarget": 786,
 		"basic_properties": {
 			"health": 13,
 			"attack": 4,
@@ -18775,7 +23657,10 @@ exports.data =[
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 34,
+		"forgeTarget": 793
 	},
 	{
 		"classId": 786,
@@ -18789,6 +23674,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 5,
+		"upgradeTarget": 787,
 		"basic_properties": {
 			"health": 16,
 			"attack": 5,
@@ -18798,7 +23684,10 @@ exports.data =[
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 34,
+		"forgeTarget": 794
 	},
 	{
 		"classId": 787,
@@ -18812,6 +23701,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 6,
+		"upgradeTarget": 788,
 		"basic_properties": {
 			"health": 21,
 			"attack": 5,
@@ -18821,7 +23711,10 @@ exports.data =[
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 34,
+		"forgeTarget": 795
 	},
 	{
 		"classId": 788,
@@ -18835,6 +23728,7 @@ exports.data =[
 		],
 		"quality": 2,
 		"rank": 7,
+		"upgradeTarget": 789,
 		"basic_properties": {
 			"health": 24,
 			"attack": 6,
@@ -18844,7 +23738,10 @@ exports.data =[
 			"critical": 13
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 34,
+		"forgeTarget": 796
 	},
 	{
 		"classId": 789,
@@ -18867,7 +23764,10 @@ exports.data =[
 			"critical": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 34,
+		"forgeTarget": 797
 	},
 	{
 		"classId": 790,
@@ -18881,6 +23781,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 4,
+		"upgradeTarget": 791,
 		"basic_properties": {
 			"health": 16,
 			"attack": 5,
@@ -18890,7 +23791,9 @@ exports.data =[
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 40
 	},
 	{
 		"classId": 791,
@@ -18904,6 +23807,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 5,
+		"upgradeTarget": 792,
 		"basic_properties": {
 			"health": 21,
 			"attack": 5,
@@ -18913,7 +23817,10 @@ exports.data =[
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 40,
+		"forgeTarget": 799
 	},
 	{
 		"classId": 792,
@@ -18927,6 +23834,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 6,
+		"upgradeTarget": 793,
 		"basic_properties": {
 			"health": 24,
 			"attack": 6,
@@ -18936,7 +23844,10 @@ exports.data =[
 			"critical": 13
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 40,
+		"forgeTarget": 800
 	},
 	{
 		"classId": 793,
@@ -18950,6 +23861,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 7,
+		"upgradeTarget": 794,
 		"basic_properties": {
 			"health": 26,
 			"attack": 7,
@@ -18959,7 +23871,10 @@ exports.data =[
 			"critical": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 40,
+		"forgeTarget": 801
 	},
 	{
 		"classId": 794,
@@ -18973,6 +23888,7 @@ exports.data =[
 		],
 		"quality": 3,
 		"rank": 8,
+		"upgradeTarget": 795,
 		"basic_properties": {
 			"health": 30,
 			"attack": 8,
@@ -18982,7 +23898,10 @@ exports.data =[
 			"critical": 17
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 40,
+		"forgeTarget": 802
 	},
 	{
 		"classId": 795,
@@ -19005,7 +23924,10 @@ exports.data =[
 			"critical": 19
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2,
+		"forgeID": 40,
+		"forgeTarget": 803
 	},
 	{
 		"classId": 796,
@@ -19019,6 +23941,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 5,
+		"upgradeTarget": 797,
 		"basic_properties": {
 			"health": 24,
 			"attack": 6,
@@ -19028,7 +23951,8 @@ exports.data =[
 			"critical": 13
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2
 	},
 	{
 		"classId": 797,
@@ -19042,6 +23966,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 6,
+		"upgradeTarget": 798,
 		"basic_properties": {
 			"health": 26,
 			"attack": 7,
@@ -19051,7 +23976,8 @@ exports.data =[
 			"critical": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2
 	},
 	{
 		"classId": 798,
@@ -19065,6 +23991,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 7,
+		"upgradeTarget": 799,
 		"basic_properties": {
 			"health": 30,
 			"attack": 8,
@@ -19074,7 +24001,8 @@ exports.data =[
 			"critical": 17
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2
 	},
 	{
 		"classId": 799,
@@ -19088,6 +24016,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 8,
+		"upgradeTarget": 800,
 		"basic_properties": {
 			"health": 33,
 			"attack": 9,
@@ -19097,7 +24026,8 @@ exports.data =[
 			"critical": 19
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2
 	},
 	{
 		"classId": 800,
@@ -19111,6 +24041,7 @@ exports.data =[
 		],
 		"quality": 4,
 		"rank": 9,
+		"upgradeTarget": 801,
 		"basic_properties": {
 			"health": 41,
 			"attack": 10,
@@ -19120,7 +24051,8 @@ exports.data =[
 			"critical": 21
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2
 	},
 	{
 		"classId": 801,
@@ -19143,7 +24075,8 @@ exports.data =[
 			"critical": 23
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"enhanceID": 2
 	},
 	{
 		"classId": 802,
