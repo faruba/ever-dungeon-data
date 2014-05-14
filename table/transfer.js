@@ -1739,6 +1739,4 @@ exports.data = {
             "classLimit":[2]
         }
     ]
-
-
 };
