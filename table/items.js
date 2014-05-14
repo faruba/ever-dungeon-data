@@ -1,4 +1,4 @@
-exports.data = [
+exports.data =[
 	{
 		"classId": 0,
 		"label": "七色宝石",
@@ -7,7 +7,14 @@ exports.data = [
 		"subcategory": 0,
 		"description": "随机强化生命、攻击、暴击、韧性、命中、反应、速度7项基础属性的宝石。",
 		"stack": 99,
-		"sellprice": 50
+		"sellprice": 50,
+        "transPrize":[
+            {
+                "type":0,
+                "value":853,
+                "count":1
+            }
+        ]
 	},
 	{
 		"classId": 1,
@@ -17,7 +24,14 @@ exports.data = [
 		"subcategory": 1,
 		"description": "随机强化吸血、暴击伤害、连击、反伤、击晕5项高阶属性的稀有宝石。",
 		"stack": 99,
-		"sellprice": 800
+		"sellprice": 800,
+        "transPrize":[
+            {
+                "type":0,
+                "value":853,
+                "count":2
+            }
+        ]
 	},
 	{
 		"classId": 2,
@@ -27,7 +41,14 @@ exports.data = [
 		"subcategory": 2,
 		"description": "随机强化经验、熟练、金币3项特殊属性的宝石。",
 		"stack": 99,
-		"sellprice": 300
+		"sellprice": 300,
+        "transPrize":[
+            {
+                "type":0,
+                "value":853,
+                "count":2
+            }
+        ]
 	},
 	{
 		"classId": 3,
@@ -37,7 +58,14 @@ exports.data = [
 		"subcategory": 3,
 		"description": "能够强化攻击属性的宝石。",
 		"stack": 99,
-		"sellprice": 300
+		"sellprice": 300,
+        "transPrize":[
+            {
+                "type":0,
+                "value":853,
+                "count":2
+            }
+        ]
 	},
 	{
 		"classId": 4,
@@ -47,7 +75,14 @@ exports.data = [
 		"subcategory": 4,
 		"description": "能够强化生命属性的宝石。",
 		"stack": 99,
-		"sellprice": 300
+		"sellprice": 300,
+        "transPrize":[
+            {
+                "type":0,
+                "value":853,
+                "count":2
+            }
+        ]
 	},
 	{
 		"classId": 5,
@@ -57,7 +92,14 @@ exports.data = [
 		"subcategory": 5,
 		"description": "能够强化速度属性的宝石",
 		"stack": 99,
-		"sellprice": 300
+		"sellprice": 300,
+        "transPrize":[
+            {
+                "type":0,
+                "value":853,
+                "count":2
+            }
+        ]
 	},
 	{
 		"classId": 6,
@@ -326,7 +368,14 @@ exports.data = [
 		"subcategory": 6,
 		"description": "能够强化暴击属性的宝石",
 		"stack": 99,
-		"sellprice": 300
+		"sellprice": 300,
+        "transPrize":[
+            {
+                "type":0,
+                "value":853,
+                "count":2
+            }
+        ]
 	},
 	{
 		"classId": 27,
@@ -336,7 +385,14 @@ exports.data = [
 		"subcategory": 7,
 		"description": "能够强化韧性属性的宝石",
 		"stack": 99,
-		"sellprice": 300
+		"sellprice": 300,
+        "transPrize":[
+            {
+                "type":0,
+                "value":853,
+                "count":2
+            }
+        ]
 	},
 	{
 		"classId": 28,
@@ -423,7 +479,8 @@ exports.data = [
 			"reactivity": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 5
 	},
 	{
 		"classId": 33,
@@ -449,7 +506,8 @@ exports.data = [
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 5
 	},
 	{
 		"classId": 34,
@@ -477,7 +535,8 @@ exports.data = [
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 5
 	},
 	{
 		"classId": 35,
@@ -506,7 +565,8 @@ exports.data = [
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 5
 	},
 	{
 		"classId": 36,
@@ -532,7 +592,8 @@ exports.data = [
 			"reactivity": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 5
 	},
 	{
 		"classId": 37,
@@ -558,7 +619,8 @@ exports.data = [
 			"accuracy": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 5
 	},
 	{
 		"classId": 38,
@@ -587,7 +649,8 @@ exports.data = [
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 5
 	},
 	{
 		"classId": 39,
@@ -615,7 +678,8 @@ exports.data = [
 			"attack": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 5
 	},
 	{
 		"classId": 40,
@@ -642,7 +706,8 @@ exports.data = [
 			"reactivity": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 5
 	},
 	{
 		"classId": 41,
@@ -667,7 +732,8 @@ exports.data = [
 			"reactivity": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 5
 	},
 	{
 		"classId": 42,
@@ -694,7 +760,8 @@ exports.data = [
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 5
 	},
 	{
 		"classId": 43,
@@ -723,7 +790,8 @@ exports.data = [
 			"accuracy": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 5
 	},
 	{
 		"classId": 44,
@@ -751,7 +819,8 @@ exports.data = [
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 10
 	},
 	{
 		"classId": 45,
@@ -777,7 +846,8 @@ exports.data = [
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 10
 	},
 	{
 		"classId": 46,
@@ -805,7 +875,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 10
 	},
 	{
 		"classId": 47,
@@ -834,7 +905,8 @@ exports.data = [
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 10
 	},
 	{
 		"classId": 48,
@@ -860,7 +932,8 @@ exports.data = [
 			"reactivity": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 10
 	},
 	{
 		"classId": 49,
@@ -886,7 +959,8 @@ exports.data = [
 			"accuracy": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 10
 	},
 	{
 		"classId": 50,
@@ -916,7 +990,8 @@ exports.data = [
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 10
 	},
 	{
 		"classId": 51,
@@ -944,7 +1019,8 @@ exports.data = [
 			"attack": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 10
 	},
 	{
 		"classId": 52,
@@ -971,7 +1047,8 @@ exports.data = [
 			"reactivity": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 10
 	},
 	{
 		"classId": 53,
@@ -997,7 +1074,8 @@ exports.data = [
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 10
 	},
 	{
 		"classId": 54,
@@ -1024,7 +1102,8 @@ exports.data = [
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 10
 	},
 	{
 		"classId": 55,
@@ -1054,7 +1133,8 @@ exports.data = [
 			"critical": 1
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 10
 	},
 	{
 		"classId": 56,
@@ -1082,7 +1162,8 @@ exports.data = [
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 57,
@@ -1109,7 +1190,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 58,
@@ -1137,7 +1219,8 @@ exports.data = [
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 59,
@@ -1166,7 +1249,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 60,
@@ -1192,7 +1276,8 @@ exports.data = [
 			"reactivity": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 61,
@@ -1219,7 +1304,8 @@ exports.data = [
 			"accuracy": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 62,
@@ -1249,7 +1335,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 63,
@@ -1277,7 +1364,8 @@ exports.data = [
 			"attack": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 64,
@@ -1304,7 +1392,8 @@ exports.data = [
 			"reactivity": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 65,
@@ -1330,7 +1419,8 @@ exports.data = [
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 66,
@@ -1357,7 +1447,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 67,
@@ -1387,7 +1478,8 @@ exports.data = [
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 68,
@@ -1415,7 +1507,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 69,
@@ -1442,7 +1535,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 70,
@@ -1470,7 +1564,8 @@ exports.data = [
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 71,
@@ -1499,7 +1594,8 @@ exports.data = [
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 72,
@@ -1525,7 +1621,8 @@ exports.data = [
 			"reactivity": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 73,
@@ -1552,7 +1649,8 @@ exports.data = [
 			"accuracy": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 74,
@@ -1582,7 +1680,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 75,
@@ -1610,7 +1709,8 @@ exports.data = [
 			"attack": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 76,
@@ -1637,7 +1737,8 @@ exports.data = [
 			"reactivity": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 77,
@@ -1664,7 +1765,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 78,
@@ -1692,7 +1794,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 79,
@@ -1722,7 +1825,8 @@ exports.data = [
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 80,
@@ -1751,6 +1855,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 25,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg5-2.ccbi"
@@ -1781,6 +1886,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 25,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
@@ -1814,7 +1920,8 @@ exports.data = [
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 83,
@@ -1843,7 +1950,8 @@ exports.data = [
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 84,
@@ -1870,6 +1978,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 25,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg5-2.ccbi"
@@ -1900,6 +2009,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 25,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand5-2.ccbi"
@@ -1935,7 +2045,8 @@ exports.data = [
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 87,
@@ -1963,7 +2074,8 @@ exports.data = [
 			"attack": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 88,
@@ -1990,7 +2102,8 @@ exports.data = [
 			"reactivity": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 89,
@@ -2017,7 +2130,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 90,
@@ -2051,6 +2165,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 25,
 		"iconf": "ewsubweapon5.png",
 		"iconm": "ewsubweapon5-2.png"
 	},
@@ -2082,7 +2197,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 92,
@@ -2110,6 +2226,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 30,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg6-2.ccbi"
@@ -2139,6 +2256,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 30,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
@@ -2171,7 +2289,8 @@ exports.data = [
 			"critical": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 30
 	},
 	{
 		"classId": 95,
@@ -2199,7 +2318,8 @@ exports.data = [
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 30
 	},
 	{
 		"classId": 96,
@@ -2225,6 +2345,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 30,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg6-2.ccbi"
@@ -2254,6 +2375,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 30,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand6-2.ccbi"
@@ -2288,7 +2410,8 @@ exports.data = [
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 30
 	},
 	{
 		"classId": 99,
@@ -2315,7 +2438,8 @@ exports.data = [
 			"attack": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 30
 	},
 	{
 		"classId": 100,
@@ -2341,7 +2465,8 @@ exports.data = [
 			"reactivity": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 30
 	},
 	{
 		"classId": 101,
@@ -2367,7 +2492,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 30
 	},
 	{
 		"classId": 102,
@@ -2400,6 +2526,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 30,
 		"iconf": "ewsubweapon6.png",
 		"iconm": "ewsubweapon6-2.png"
 	},
@@ -2430,7 +2557,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 30
 	},
 	{
 		"classId": 104,
@@ -2458,7 +2586,8 @@ exports.data = [
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 105,
@@ -2485,7 +2614,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 106,
@@ -2513,7 +2643,8 @@ exports.data = [
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 107,
@@ -2542,7 +2673,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 108,
@@ -2568,7 +2700,8 @@ exports.data = [
 			"reactivity": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 109,
@@ -2595,7 +2728,8 @@ exports.data = [
 			"accuracy": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 110,
@@ -2625,7 +2759,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 111,
@@ -2653,7 +2788,8 @@ exports.data = [
 			"attack": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 112,
@@ -2680,7 +2816,8 @@ exports.data = [
 			"reactivity": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 113,
@@ -2706,7 +2843,8 @@ exports.data = [
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 114,
@@ -2733,7 +2871,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 115,
@@ -2763,7 +2902,8 @@ exports.data = [
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 15
 	},
 	{
 		"classId": 116,
@@ -2791,7 +2931,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 117,
@@ -2818,7 +2959,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 118,
@@ -2846,7 +2988,8 @@ exports.data = [
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 119,
@@ -2875,7 +3018,8 @@ exports.data = [
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 120,
@@ -2901,7 +3045,8 @@ exports.data = [
 			"reactivity": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 121,
@@ -2928,7 +3073,8 @@ exports.data = [
 			"accuracy": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 122,
@@ -2958,7 +3104,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 123,
@@ -2986,7 +3133,8 @@ exports.data = [
 			"attack": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 124,
@@ -3013,7 +3161,8 @@ exports.data = [
 			"reactivity": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 125,
@@ -3040,7 +3189,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 126,
@@ -3068,7 +3218,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 127,
@@ -3098,7 +3249,8 @@ exports.data = [
 			"critical": 2
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 20
 	},
 	{
 		"classId": 128,
@@ -3126,7 +3278,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 129,
@@ -3153,7 +3306,8 @@ exports.data = [
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 130,
@@ -3181,7 +3335,8 @@ exports.data = [
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 131,
@@ -3210,7 +3365,8 @@ exports.data = [
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 132,
@@ -3236,7 +3392,8 @@ exports.data = [
 			"reactivity": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 133,
@@ -3263,7 +3420,8 @@ exports.data = [
 			"accuracy": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 134,
@@ -3293,7 +3451,8 @@ exports.data = [
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 135,
@@ -3321,7 +3480,8 @@ exports.data = [
 			"attack": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 136,
@@ -3348,7 +3508,8 @@ exports.data = [
 			"reactivity": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 137,
@@ -3375,7 +3536,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 138,
@@ -3403,7 +3565,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 139,
@@ -3433,7 +3596,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 25
 	},
 	{
 		"classId": 140,
@@ -3462,6 +3626,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 30,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg5-2.ccbi"
@@ -3492,6 +3657,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 30,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
@@ -3525,7 +3691,8 @@ exports.data = [
 			"critical": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 30
 	},
 	{
 		"classId": 143,
@@ -3554,7 +3721,8 @@ exports.data = [
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 30
 	},
 	{
 		"classId": 144,
@@ -3581,6 +3749,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 30,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg5-2.ccbi"
@@ -3611,6 +3780,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 30,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand5-2.ccbi"
@@ -3646,7 +3816,8 @@ exports.data = [
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 30
 	},
 	{
 		"classId": 147,
@@ -3674,7 +3845,8 @@ exports.data = [
 			"attack": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 30
 	},
 	{
 		"classId": 148,
@@ -3701,7 +3873,8 @@ exports.data = [
 			"reactivity": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 30
 	},
 	{
 		"classId": 149,
@@ -3728,7 +3901,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 30
 	},
 	{
 		"classId": 150,
@@ -3762,6 +3936,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 30,
 		"iconf": "ewsubweapon5.png",
 		"iconm": "ewsubweapon5-2.png"
 	},
@@ -3793,7 +3968,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 30
 	},
 	{
 		"classId": 152,
@@ -3822,6 +3998,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 35,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg6-2.ccbi"
@@ -3852,6 +4029,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 35,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
@@ -3882,7 +4060,8 @@ exports.data = [
 		"autoUse": true,
 		"basic_properties": {
 			"critical": 60
-		}
+		},
+		"sellGem": 35
 	},
 	{
 		"classId": 155,
@@ -3912,7 +4091,8 @@ exports.data = [
 			"critical": 18
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 156,
@@ -3939,6 +4119,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 35,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg6-2.ccbi"
@@ -3969,6 +4150,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 35,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand6-2.ccbi"
@@ -4004,7 +4186,8 @@ exports.data = [
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 159,
@@ -4032,7 +4215,8 @@ exports.data = [
 			"attack": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 160,
@@ -4059,7 +4243,8 @@ exports.data = [
 			"reactivity": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 161,
@@ -4086,7 +4271,8 @@ exports.data = [
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 162,
@@ -4120,6 +4306,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 35,
 		"iconf": "ewsubweapon6.png",
 		"iconm": "ewsubweapon6-2.png"
 	},
@@ -4151,7 +4338,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 164,
@@ -4179,6 +4367,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 40,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg7-2.ccbi"
@@ -4208,6 +4397,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 40,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand7-2.ccbi"
@@ -4240,7 +4430,8 @@ exports.data = [
 			"critical": 21
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 40
 	},
 	{
 		"classId": 167,
@@ -4268,7 +4459,8 @@ exports.data = [
 			"critical": 14
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 40
 	},
 	{
 		"classId": 168,
@@ -4294,6 +4486,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 40,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg7-2.ccbi"
@@ -4323,6 +4516,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 40,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand7-2.ccbi"
@@ -4357,7 +4551,8 @@ exports.data = [
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 40
 	},
 	{
 		"classId": 171,
@@ -4384,7 +4579,8 @@ exports.data = [
 			"attack": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 40
 	},
 	{
 		"classId": 172,
@@ -4410,7 +4606,8 @@ exports.data = [
 			"reactivity": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 40
 	},
 	{
 		"classId": 173,
@@ -4436,7 +4633,8 @@ exports.data = [
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 40
 	},
 	{
 		"classId": 174,
@@ -4469,6 +4667,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 40,
 		"iconf": "ewsubweapon7.png",
 		"iconm": "ewsubweapon7-2.png"
 	},
@@ -4499,7 +4698,8 @@ exports.data = [
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 40
 	},
 	{
 		"classId": 176,
@@ -4527,7 +4727,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 177,
@@ -4554,7 +4755,8 @@ exports.data = [
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 178,
@@ -4582,7 +4784,8 @@ exports.data = [
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 179,
@@ -4611,7 +4814,8 @@ exports.data = [
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 180,
@@ -4637,7 +4841,8 @@ exports.data = [
 			"reactivity": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 181,
@@ -4664,7 +4869,8 @@ exports.data = [
 			"accuracy": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 182,
@@ -4694,7 +4900,8 @@ exports.data = [
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 183,
@@ -4722,7 +4929,8 @@ exports.data = [
 			"attack": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 184,
@@ -4749,7 +4957,8 @@ exports.data = [
 			"reactivity": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 185,
@@ -4776,7 +4985,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 186,
@@ -4804,7 +5014,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 187,
@@ -4834,7 +5045,8 @@ exports.data = [
 			"critical": 3
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 35
 	},
 	{
 		"classId": 188,
@@ -4862,7 +5074,8 @@ exports.data = [
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 50
 	},
 	{
 		"classId": 189,
@@ -4889,7 +5102,8 @@ exports.data = [
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 50
 	},
 	{
 		"classId": 190,
@@ -4917,7 +5131,8 @@ exports.data = [
 			"critical": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 50
 	},
 	{
 		"classId": 191,
@@ -4946,7 +5161,8 @@ exports.data = [
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 50
 	},
 	{
 		"classId": 192,
@@ -4972,7 +5188,8 @@ exports.data = [
 			"reactivity": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 50
 	},
 	{
 		"classId": 193,
@@ -4999,7 +5216,8 @@ exports.data = [
 			"accuracy": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 50
 	},
 	{
 		"classId": 194,
@@ -5029,7 +5247,8 @@ exports.data = [
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 50
 	},
 	{
 		"classId": 195,
@@ -5057,7 +5276,8 @@ exports.data = [
 			"attack": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 50
 	},
 	{
 		"classId": 196,
@@ -5084,7 +5304,8 @@ exports.data = [
 			"reactivity": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 50
 	},
 	{
 		"classId": 197,
@@ -5111,7 +5332,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 50
 	},
 	{
 		"classId": 198,
@@ -5139,7 +5361,8 @@ exports.data = [
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 50
 	},
 	{
 		"classId": 199,
@@ -5169,7 +5392,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 50
 	},
 	{
 		"classId": 200,
@@ -5198,6 +5422,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 60,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg5-2.ccbi"
@@ -5228,6 +5453,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 60,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
@@ -5261,7 +5487,8 @@ exports.data = [
 			"critical": 18
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 203,
@@ -5290,7 +5517,8 @@ exports.data = [
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 204,
@@ -5317,6 +5545,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 60,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg5-2.ccbi"
@@ -5347,6 +5576,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 60,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand5-2.ccbi"
@@ -5382,7 +5612,8 @@ exports.data = [
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 207,
@@ -5410,7 +5641,8 @@ exports.data = [
 			"attack": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 208,
@@ -5437,7 +5669,8 @@ exports.data = [
 			"reactivity": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 209,
@@ -5464,7 +5697,8 @@ exports.data = [
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 210,
@@ -5498,6 +5732,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 60,
 		"iconf": "ewsubweapon5.png",
 		"iconm": "ewsubweapon5-2.png"
 	},
@@ -5529,7 +5764,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 212,
@@ -5558,6 +5794,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 75,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg6-2.ccbi"
@@ -5588,6 +5825,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 75,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
@@ -5621,7 +5859,8 @@ exports.data = [
 			"critical": 21
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 75
 	},
 	{
 		"classId": 215,
@@ -5650,7 +5889,8 @@ exports.data = [
 			"critical": 14
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 75
 	},
 	{
 		"classId": 216,
@@ -5677,6 +5917,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 75,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg6-2.ccbi"
@@ -5707,6 +5948,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 75,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand6-2.ccbi"
@@ -5742,7 +5984,8 @@ exports.data = [
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 75
 	},
 	{
 		"classId": 219,
@@ -5770,7 +6013,8 @@ exports.data = [
 			"attack": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 75
 	},
 	{
 		"classId": 220,
@@ -5797,7 +6041,8 @@ exports.data = [
 			"reactivity": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 75
 	},
 	{
 		"classId": 221,
@@ -5824,7 +6069,8 @@ exports.data = [
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 75
 	},
 	{
 		"classId": 222,
@@ -5858,6 +6104,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 75,
 		"iconf": "ewsubweapon6.png",
 		"iconm": "ewsubweapon6-2.png"
 	},
@@ -5889,7 +6136,8 @@ exports.data = [
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 75
 	},
 	{
 		"classId": 224,
@@ -5918,6 +6166,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 90,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg7-2.ccbi"
@@ -5948,6 +6197,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 90,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand7-2.ccbi"
@@ -5981,7 +6231,8 @@ exports.data = [
 			"critical": 25
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 90
 	},
 	{
 		"classId": 227,
@@ -6010,7 +6261,8 @@ exports.data = [
 			"critical": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 90
 	},
 	{
 		"classId": 228,
@@ -6037,6 +6289,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 90,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg7-2.ccbi"
@@ -6067,6 +6320,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 90,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand7-2.ccbi"
@@ -6102,7 +6356,8 @@ exports.data = [
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 90
 	},
 	{
 		"classId": 231,
@@ -6130,7 +6385,8 @@ exports.data = [
 			"attack": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 90
 	},
 	{
 		"classId": 232,
@@ -6157,7 +6413,8 @@ exports.data = [
 			"reactivity": 12
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 90
 	},
 	{
 		"classId": 233,
@@ -6184,7 +6441,8 @@ exports.data = [
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 90
 	},
 	{
 		"classId": 234,
@@ -6218,6 +6476,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 90,
 		"iconf": "ewsubweapon7.png",
 		"iconm": "ewsubweapon7-2.png"
 	},
@@ -6249,7 +6508,8 @@ exports.data = [
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 90
 	},
 	{
 		"classId": 236,
@@ -6277,6 +6537,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 110,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg8-2.ccbi"
@@ -6306,6 +6567,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 110,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand8-2.ccbi"
@@ -6338,7 +6600,8 @@ exports.data = [
 			"critical": 28
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 110
 	},
 	{
 		"classId": 239,
@@ -6366,7 +6629,8 @@ exports.data = [
 			"critical": 17
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 110
 	},
 	{
 		"classId": 240,
@@ -6392,6 +6656,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 110,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg8-2.ccbi"
@@ -6421,6 +6686,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 110,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand8-2.ccbi"
@@ -6455,7 +6721,8 @@ exports.data = [
 			"critical": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 110
 	},
 	{
 		"classId": 243,
@@ -6482,7 +6749,8 @@ exports.data = [
 			"attack": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 110
 	},
 	{
 		"classId": 244,
@@ -6508,7 +6776,8 @@ exports.data = [
 			"reactivity": 13
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 110
 	},
 	{
 		"classId": 245,
@@ -6534,7 +6803,8 @@ exports.data = [
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 110
 	},
 	{
 		"classId": 246,
@@ -6561,7 +6831,8 @@ exports.data = [
 			"critical": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 110
 	},
 	{
 		"classId": 247,
@@ -6590,7 +6861,8 @@ exports.data = [
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 110
 	},
 	{
 		"classId": 248,
@@ -6618,7 +6890,8 @@ exports.data = [
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 249,
@@ -6645,7 +6918,8 @@ exports.data = [
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 250,
@@ -6673,7 +6947,8 @@ exports.data = [
 			"critical": 18
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 251,
@@ -6702,7 +6977,8 @@ exports.data = [
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 252,
@@ -6728,7 +7004,8 @@ exports.data = [
 			"reactivity": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 253,
@@ -6755,7 +7032,8 @@ exports.data = [
 			"accuracy": 12
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 254,
@@ -6785,7 +7063,8 @@ exports.data = [
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 255,
@@ -6813,7 +7092,8 @@ exports.data = [
 			"attack": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 256,
@@ -6840,7 +7120,8 @@ exports.data = [
 			"reactivity": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 257,
@@ -6867,7 +7148,8 @@ exports.data = [
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 258,
@@ -6895,7 +7177,8 @@ exports.data = [
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 259,
@@ -6925,7 +7208,8 @@ exports.data = [
 			"critical": 4
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 60
 	},
 	{
 		"classId": 260,
@@ -6954,6 +7238,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 90,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg5-2.ccbi"
@@ -6984,6 +7269,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 90,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
@@ -7017,7 +7303,8 @@ exports.data = [
 			"critical": 21
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 90
 	},
 	{
 		"classId": 263,
@@ -7046,7 +7333,8 @@ exports.data = [
 			"critical": 14
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 90
 	},
 	{
 		"classId": 264,
@@ -7073,6 +7361,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 90,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg5-2.ccbi"
@@ -7103,6 +7392,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 90,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand5-2.ccbi"
@@ -7138,7 +7428,8 @@ exports.data = [
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 90
 	},
 	{
 		"classId": 267,
@@ -7166,7 +7457,8 @@ exports.data = [
 			"attack": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 90
 	},
 	{
 		"classId": 268,
@@ -7193,7 +7485,8 @@ exports.data = [
 			"reactivity": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 90
 	},
 	{
 		"classId": 269,
@@ -7220,7 +7513,8 @@ exports.data = [
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 90
 	},
 	{
 		"classId": 270,
@@ -7254,6 +7548,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 90,
 		"iconf": "ewsubweapon5.png",
 		"iconm": "ewsubweapon5-2.png"
 	},
@@ -7285,7 +7580,8 @@ exports.data = [
 			"critical": 5
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 90
 	},
 	{
 		"classId": 272,
@@ -7314,6 +7610,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 120,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg6-2.ccbi"
@@ -7344,6 +7641,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 120,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
@@ -7377,7 +7675,8 @@ exports.data = [
 			"critical": 25
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 120
 	},
 	{
 		"classId": 275,
@@ -7406,7 +7705,8 @@ exports.data = [
 			"critical": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 120
 	},
 	{
 		"classId": 276,
@@ -7433,6 +7733,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 120,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg6-2.ccbi"
@@ -7463,6 +7764,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 120,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand6-2.ccbi"
@@ -7498,7 +7800,8 @@ exports.data = [
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 120
 	},
 	{
 		"classId": 279,
@@ -7526,7 +7829,8 @@ exports.data = [
 			"attack": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 120
 	},
 	{
 		"classId": 280,
@@ -7553,7 +7857,8 @@ exports.data = [
 			"reactivity": 12
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 120
 	},
 	{
 		"classId": 281,
@@ -7580,7 +7885,8 @@ exports.data = [
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 120
 	},
 	{
 		"classId": 282,
@@ -7614,6 +7920,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 120,
 		"iconf": "ewsubweapon6.png",
 		"iconm": "ewsubweapon6-2.png"
 	},
@@ -7645,7 +7952,8 @@ exports.data = [
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 120
 	},
 	{
 		"classId": 284,
@@ -7674,6 +7982,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 150,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg7-2.ccbi"
@@ -7704,6 +8013,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 150,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand7-2.ccbi"
@@ -7737,7 +8047,8 @@ exports.data = [
 			"critical": 28
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 150
 	},
 	{
 		"classId": 287,
@@ -7766,7 +8077,8 @@ exports.data = [
 			"critical": 17
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 150
 	},
 	{
 		"classId": 288,
@@ -7793,6 +8105,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 150,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg7-2.ccbi"
@@ -7823,6 +8136,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 150,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand7-2.ccbi"
@@ -7858,7 +8172,8 @@ exports.data = [
 			"critical": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 150
 	},
 	{
 		"classId": 291,
@@ -7886,7 +8201,8 @@ exports.data = [
 			"attack": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 150
 	},
 	{
 		"classId": 292,
@@ -7913,7 +8229,8 @@ exports.data = [
 			"reactivity": 13
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 150
 	},
 	{
 		"classId": 293,
@@ -7940,7 +8257,8 @@ exports.data = [
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 150
 	},
 	{
 		"classId": 294,
@@ -7974,6 +8292,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 150,
 		"iconf": "ewsubweapon7.png",
 		"iconm": "ewsubweapon7-2.png"
 	},
@@ -8005,7 +8324,8 @@ exports.data = [
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 150
 	},
 	{
 		"classId": 296,
@@ -8034,6 +8354,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 180,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg8-2.ccbi"
@@ -8064,6 +8385,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 180,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand8-2.ccbi"
@@ -8097,7 +8419,8 @@ exports.data = [
 			"critical": 33
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 180
 	},
 	{
 		"classId": 299,
@@ -8126,7 +8449,8 @@ exports.data = [
 			"critical": 20
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 180
 	},
 	{
 		"classId": 300,
@@ -8153,6 +8477,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 180,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg8-2.ccbi"
@@ -8183,6 +8508,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 180,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand8-2.ccbi"
@@ -8218,7 +8544,8 @@ exports.data = [
 			"critical": 12
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 180
 	},
 	{
 		"classId": 303,
@@ -8246,7 +8573,8 @@ exports.data = [
 			"attack": 12
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 180
 	},
 	{
 		"classId": 304,
@@ -8273,7 +8601,8 @@ exports.data = [
 			"reactivity": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 180
 	},
 	{
 		"classId": 305,
@@ -8300,7 +8629,8 @@ exports.data = [
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 180
 	},
 	{
 		"classId": 306,
@@ -8328,7 +8658,8 @@ exports.data = [
 			"critical": 12
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 180
 	},
 	{
 		"classId": 307,
@@ -8358,7 +8689,8 @@ exports.data = [
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 180
 	},
 	{
 		"classId": 308,
@@ -8386,6 +8718,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 210,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg9-2.ccbi"
@@ -8415,6 +8748,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 210,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand9-2.ccbi"
@@ -8447,7 +8781,8 @@ exports.data = [
 			"critical": 39
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 210
 	},
 	{
 		"classId": 311,
@@ -8475,7 +8810,8 @@ exports.data = [
 			"critical": 24
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 210
 	},
 	{
 		"classId": 312,
@@ -8501,6 +8837,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 210,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg9-2.ccbi"
@@ -8530,6 +8867,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 210,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand9-2.ccbi"
@@ -8563,7 +8901,8 @@ exports.data = [
 			"critical": 14
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 210
 	},
 	{
 		"classId": 315,
@@ -8590,7 +8929,8 @@ exports.data = [
 			"attack": 13
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 210
 	},
 	{
 		"classId": 316,
@@ -8616,7 +8956,8 @@ exports.data = [
 			"reactivity": 17
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 210
 	},
 	{
 		"classId": 317,
@@ -8642,7 +8983,8 @@ exports.data = [
 			"critical": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 210
 	},
 	{
 		"classId": 318,
@@ -8669,7 +9011,8 @@ exports.data = [
 			"critical": 13
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 210
 	},
 	{
 		"classId": 319,
@@ -8698,7 +9041,8 @@ exports.data = [
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 210
 	},
 	{
 		"classId": 320,
@@ -8727,6 +9071,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 100,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg5-2.ccbi"
@@ -8757,6 +9102,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 100,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand5.ccbi"
@@ -8790,7 +9136,8 @@ exports.data = [
 			"critical": 25
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 100
 	},
 	{
 		"classId": 323,
@@ -8819,7 +9166,8 @@ exports.data = [
 			"critical": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 100
 	},
 	{
 		"classId": 324,
@@ -8846,6 +9194,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 100,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg5-2.ccbi"
@@ -8876,6 +9225,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 100,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand5-2.ccbi"
@@ -8911,7 +9261,8 @@ exports.data = [
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 100
 	},
 	{
 		"classId": 327,
@@ -8939,7 +9290,8 @@ exports.data = [
 			"attack": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 100
 	},
 	{
 		"classId": 328,
@@ -8966,7 +9318,8 @@ exports.data = [
 			"reactivity": 12
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 100
 	},
 	{
 		"classId": 329,
@@ -8993,7 +9346,8 @@ exports.data = [
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 100
 	},
 	{
 		"classId": 330,
@@ -9027,6 +9381,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 100,
 		"iconf": "ewsubweapon5.png",
 		"iconm": "ewsubweapon5-2.png"
 	},
@@ -9058,7 +9413,8 @@ exports.data = [
 			"critical": 6
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 100
 	},
 	{
 		"classId": 332,
@@ -9087,6 +9443,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 150,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg6-2.ccbi"
@@ -9117,6 +9474,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 150,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand6.ccbi"
@@ -9150,7 +9508,8 @@ exports.data = [
 			"critical": 28
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 150
 	},
 	{
 		"classId": 335,
@@ -9179,7 +9538,8 @@ exports.data = [
 			"critical": 17
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 150
 	},
 	{
 		"classId": 336,
@@ -9206,6 +9566,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 150,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg6-2.ccbi"
@@ -9236,6 +9597,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 150,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand6-2.ccbi"
@@ -9271,7 +9633,8 @@ exports.data = [
 			"critical": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 150
 	},
 	{
 		"classId": 339,
@@ -9299,7 +9662,8 @@ exports.data = [
 			"attack": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 150
 	},
 	{
 		"classId": 340,
@@ -9326,7 +9690,8 @@ exports.data = [
 			"reactivity": 13
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 150
 	},
 	{
 		"classId": 341,
@@ -9353,7 +9718,8 @@ exports.data = [
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 150
 	},
 	{
 		"classId": 342,
@@ -9387,6 +9753,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 150,
 		"iconf": "ewsubweapon6.png",
 		"iconm": "ewsubweapon6-2.png"
 	},
@@ -9418,7 +9785,8 @@ exports.data = [
 			"critical": 7
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 150
 	},
 	{
 		"classId": 344,
@@ -9447,6 +9815,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 200,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg7-2.ccbi"
@@ -9477,6 +9846,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 200,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand7-2.ccbi"
@@ -9510,7 +9880,8 @@ exports.data = [
 			"critical": 33
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 200
 	},
 	{
 		"classId": 347,
@@ -9539,7 +9910,8 @@ exports.data = [
 			"critical": 20
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 200
 	},
 	{
 		"classId": 348,
@@ -9566,6 +9938,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 200,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg7-2.ccbi"
@@ -9596,6 +9969,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 200,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand7-2.ccbi"
@@ -9631,7 +10005,8 @@ exports.data = [
 			"critical": 12
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 200
 	},
 	{
 		"classId": 351,
@@ -9659,7 +10034,8 @@ exports.data = [
 			"attack": 12
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 200
 	},
 	{
 		"classId": 352,
@@ -9686,7 +10062,8 @@ exports.data = [
 			"reactivity": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 200
 	},
 	{
 		"classId": 353,
@@ -9713,7 +10090,8 @@ exports.data = [
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 200
 	},
 	{
 		"classId": 354,
@@ -9747,6 +10125,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 200,
 		"iconf": "ewsubweapon7.png",
 		"iconm": "ewsubweapon7-2.png"
 	},
@@ -9778,7 +10157,8 @@ exports.data = [
 			"critical": 8
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 200
 	},
 	{
 		"classId": 356,
@@ -9807,6 +10187,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 250,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg8-2.ccbi"
@@ -9837,6 +10218,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 250,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand8-2.ccbi"
@@ -9870,7 +10252,8 @@ exports.data = [
 			"critical": 39
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 250
 	},
 	{
 		"classId": 359,
@@ -9899,7 +10282,8 @@ exports.data = [
 			"critical": 24
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 250
 	},
 	{
 		"classId": 360,
@@ -9926,6 +10310,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 250,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg8-2.ccbi"
@@ -9956,6 +10341,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 250,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand8-2.ccbi"
@@ -9991,7 +10377,8 @@ exports.data = [
 			"critical": 14
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 250
 	},
 	{
 		"classId": 363,
@@ -10019,7 +10406,8 @@ exports.data = [
 			"attack": 13
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 250
 	},
 	{
 		"classId": 364,
@@ -10046,7 +10434,8 @@ exports.data = [
 			"reactivity": 17
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 250
 	},
 	{
 		"classId": 365,
@@ -10073,7 +10462,8 @@ exports.data = [
 			"critical": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 250
 	},
 	{
 		"classId": 366,
@@ -10101,7 +10491,8 @@ exports.data = [
 			"critical": 13
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 250
 	},
 	{
 		"classId": 367,
@@ -10131,7 +10522,8 @@ exports.data = [
 			"critical": 9
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 250
 	},
 	{
 		"classId": 368,
@@ -10160,6 +10552,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 300,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg9-2.ccbi"
@@ -10190,6 +10583,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 300,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand9-2.ccbi"
@@ -10223,7 +10617,8 @@ exports.data = [
 			"critical": 45
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 300
 	},
 	{
 		"classId": 371,
@@ -10252,7 +10647,8 @@ exports.data = [
 			"critical": 27
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 300
 	},
 	{
 		"classId": 372,
@@ -10279,6 +10675,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 300,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg9-2.ccbi"
@@ -10309,6 +10706,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 300,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand9-2.ccbi"
@@ -10344,7 +10742,8 @@ exports.data = [
 			"critical": 16
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 300
 	},
 	{
 		"classId": 375,
@@ -10372,7 +10771,8 @@ exports.data = [
 			"attack": 14
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 300
 	},
 	{
 		"classId": 376,
@@ -10399,7 +10799,8 @@ exports.data = [
 			"reactivity": 20
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 300
 	},
 	{
 		"classId": 377,
@@ -10426,7 +10827,8 @@ exports.data = [
 			"critical": 11
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 300
 	},
 	{
 		"classId": 378,
@@ -10454,7 +10856,8 @@ exports.data = [
 			"critical": 14
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 300
 	},
 	{
 		"classId": 379,
@@ -10483,7 +10886,8 @@ exports.data = [
 			"critical": 10
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 300
 	},
 	{
 		"classId": 380,
@@ -10511,6 +10915,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 400,
 		"effectm": {
 			"part": "rightleg",
 			"file": "mage-rightleg10-2.ccbi"
@@ -10540,6 +10945,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 400,
 		"effectm": {
 			"part": "lefthand",
 			"file": "mage-lefthand10-2.ccbi"
@@ -10572,7 +10978,8 @@ exports.data = [
 			"critical": 49
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 400
 	},
 	{
 		"classId": 383,
@@ -10600,7 +11007,8 @@ exports.data = [
 			"critical": 29
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 400
 	},
 	{
 		"classId": 384,
@@ -10626,6 +11034,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 400,
 		"effectm": {
 			"part": "rightleg",
 			"file": "priest-rightleg10-2.ccbi"
@@ -10655,6 +11064,7 @@ exports.data = [
 		},
 		"storeOnly": true,
 		"autoUse": true,
+		"sellGem": 400,
 		"effectm": {
 			"part": "lefthand",
 			"file": "priest-lefthand10-2.ccbi"
@@ -10689,7 +11099,8 @@ exports.data = [
 			"critical": 18
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 400
 	},
 	{
 		"classId": 387,
@@ -10716,7 +11127,8 @@ exports.data = [
 			"attack": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 400
 	},
 	{
 		"classId": 388,
@@ -10742,7 +11154,8 @@ exports.data = [
 			"reactivity": 22
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 400
 	},
 	{
 		"classId": 389,
@@ -10768,7 +11181,8 @@ exports.data = [
 			"critical": 13
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 400
 	},
 	{
 		"classId": 390,
@@ -10795,7 +11209,8 @@ exports.data = [
 			"critical": 15
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 400
 	},
 	{
 		"classId": 391,
@@ -10824,7 +11239,8 @@ exports.data = [
 			"critical": 12
 		},
 		"storeOnly": true,
-		"autoUse": true
+		"autoUse": true,
+		"sellGem": 400
 	},
 	{
 		"classId": 392,
@@ -10871,7 +11287,8 @@ exports.data = [
 		"rank": 1,
 		"basic_properties": {
 			"health": 6
-		}
+		},
+		"sellGem": 5
 	},
 	{
 		"classId": 396,
@@ -10888,7 +11305,8 @@ exports.data = [
 		"rank": 2,
 		"basic_properties": {
 			"health": 12
-		}
+		},
+		"sellGem": 10
 	},
 	{
 		"classId": 397,
@@ -10905,7 +11323,8 @@ exports.data = [
 		"rank": 3,
 		"basic_properties": {
 			"health": 18
-		}
+		},
+		"sellGem": 15
 	},
 	{
 		"classId": 398,
@@ -10922,7 +11341,8 @@ exports.data = [
 		"rank": 4,
 		"basic_properties": {
 			"health": 24
-		}
+		},
+		"sellGem": 20
 	},
 	{
 		"classId": 399,
@@ -10939,7 +11359,8 @@ exports.data = [
 		"rank": 5,
 		"basic_properties": {
 			"health": 30
-		}
+		},
+		"sellGem": 30
 	},
 	{
 		"classId": 400,
@@ -10956,7 +11377,8 @@ exports.data = [
 		"rank": 6,
 		"basic_properties": {
 			"health": 36
-		}
+		},
+		"sellGem": 40
 	},
 	{
 		"classId": 401,
@@ -10973,7 +11395,8 @@ exports.data = [
 		"rank": 7,
 		"basic_properties": {
 			"health": 42
-		}
+		},
+		"sellGem": 60
 	},
 	{
 		"classId": 402,
@@ -10990,7 +11413,8 @@ exports.data = [
 		"rank": 8,
 		"basic_properties": {
 			"health": 48
-		}
+		},
+		"sellGem": 80
 	},
 	{
 		"classId": 403,
@@ -11007,7 +11431,8 @@ exports.data = [
 		"rank": 9,
 		"basic_properties": {
 			"health": 54
-		}
+		},
+		"sellGem": 120
 	},
 	{
 		"classId": 404,
@@ -11024,7 +11449,8 @@ exports.data = [
 		"rank": 10,
 		"basic_properties": {
 			"health": 60
-		}
+		},
+		"sellGem": 180
 	},
 	{
 		"classId": 405,
@@ -11041,7 +11467,8 @@ exports.data = [
 		"rank": 1,
 		"basic_properties": {
 			"strong": 3
-		}
+		},
+		"sellGem": 5
 	},
 	{
 		"classId": 406,
@@ -11058,7 +11485,8 @@ exports.data = [
 		"rank": 2,
 		"basic_properties": {
 			"strong": 6
-		}
+		},
+		"sellGem": 10
 	},
 	{
 		"classId": 407,
@@ -11075,7 +11503,8 @@ exports.data = [
 		"rank": 3,
 		"basic_properties": {
 			"strong": 9
-		}
+		},
+		"sellGem": 15
 	},
 	{
 		"classId": 408,
@@ -11092,7 +11521,8 @@ exports.data = [
 		"rank": 4,
 		"basic_properties": {
 			"strong": 12
-		}
+		},
+		"sellGem": 20
 	},
 	{
 		"classId": 409,
@@ -11109,7 +11539,8 @@ exports.data = [
 		"rank": 5,
 		"basic_properties": {
 			"strong": 15
-		}
+		},
+		"sellGem": 30
 	},
 	{
 		"classId": 410,
@@ -11126,7 +11557,8 @@ exports.data = [
 		"rank": 6,
 		"basic_properties": {
 			"strong": 18
-		}
+		},
+		"sellGem": 40
 	},
 	{
 		"classId": 411,
@@ -11143,7 +11575,8 @@ exports.data = [
 		"rank": 7,
 		"basic_properties": {
 			"strong": 21
-		}
+		},
+		"sellGem": 60
 	},
 	{
 		"classId": 412,
@@ -11160,7 +11593,8 @@ exports.data = [
 		"rank": 8,
 		"basic_properties": {
 			"strong": 24
-		}
+		},
+		"sellGem": 80
 	},
 	{
 		"classId": 413,
@@ -11177,7 +11611,8 @@ exports.data = [
 		"rank": 9,
 		"basic_properties": {
 			"strong": 27
-		}
+		},
+		"sellGem": 120
 	},
 	{
 		"classId": 414,
@@ -11194,7 +11629,8 @@ exports.data = [
 		"rank": 10,
 		"basic_properties": {
 			"strong": 30
-		}
+		},
+		"sellGem": 180
 	},
 	{
 		"classId": 415,
@@ -11211,7 +11647,8 @@ exports.data = [
 		"rank": 1,
 		"basic_properties": {
 			"attack": 1
-		}
+		},
+		"sellGem": 5
 	},
 	{
 		"classId": 416,
@@ -11228,7 +11665,8 @@ exports.data = [
 		"rank": 2,
 		"basic_properties": {
 			"attack": 2
-		}
+		},
+		"sellGem": 10
 	},
 	{
 		"classId": 417,
@@ -11245,7 +11683,8 @@ exports.data = [
 		"rank": 3,
 		"basic_properties": {
 			"attack": 3
-		}
+		},
+		"sellGem": 15
 	},
 	{
 		"classId": 418,
@@ -11262,7 +11701,8 @@ exports.data = [
 		"rank": 4,
 		"basic_properties": {
 			"attack": 4
-		}
+		},
+		"sellGem": 20
 	},
 	{
 		"classId": 419,
@@ -11279,7 +11719,8 @@ exports.data = [
 		"rank": 5,
 		"basic_properties": {
 			"attack": 5
-		}
+		},
+		"sellGem": 30
 	},
 	{
 		"classId": 420,
@@ -11296,7 +11737,8 @@ exports.data = [
 		"rank": 6,
 		"basic_properties": {
 			"attack": 6
-		}
+		},
+		"sellGem": 40
 	},
 	{
 		"classId": 421,
@@ -11313,7 +11755,8 @@ exports.data = [
 		"rank": 7,
 		"basic_properties": {
 			"attack": 7
-		}
+		},
+		"sellGem": 60
 	},
 	{
 		"classId": 422,
@@ -11330,7 +11773,8 @@ exports.data = [
 		"rank": 8,
 		"basic_properties": {
 			"attack": 8
-		}
+		},
+		"sellGem": 80
 	},
 	{
 		"classId": 423,
@@ -11347,7 +11791,8 @@ exports.data = [
 		"rank": 9,
 		"basic_properties": {
 			"attack": 30
-		}
+		},
+		"sellGem": 120
 	},
 	{
 		"classId": 424,
@@ -11364,7 +11809,8 @@ exports.data = [
 		"rank": 10,
 		"basic_properties": {
 			"attack": 10
-		}
+		},
+		"sellGem": 180
 	},
 	{
 		"classId": 425,
@@ -11381,7 +11827,8 @@ exports.data = [
 		"rank": 1,
 		"basic_properties": {
 			"critical": 3
-		}
+		},
+		"sellGem": 5
 	},
 	{
 		"classId": 426,
@@ -11398,7 +11845,8 @@ exports.data = [
 		"rank": 2,
 		"basic_properties": {
 			"critical": 6
-		}
+		},
+		"sellGem": 10
 	},
 	{
 		"classId": 427,
@@ -11415,7 +11863,8 @@ exports.data = [
 		"rank": 3,
 		"basic_properties": {
 			"critical": 9
-		}
+		},
+		"sellGem": 15
 	},
 	{
 		"classId": 428,
@@ -11432,7 +11881,8 @@ exports.data = [
 		"rank": 4,
 		"basic_properties": {
 			"critical": 12
-		}
+		},
+		"sellGem": 20
 	},
 	{
 		"classId": 429,
@@ -11449,7 +11899,8 @@ exports.data = [
 		"rank": 5,
 		"basic_properties": {
 			"critical": 15
-		}
+		},
+		"sellGem": 30
 	},
 	{
 		"classId": 430,
@@ -11466,7 +11917,8 @@ exports.data = [
 		"rank": 6,
 		"basic_properties": {
 			"critical": 18
-		}
+		},
+		"sellGem": 40
 	},
 	{
 		"classId": 431,
@@ -11483,7 +11935,8 @@ exports.data = [
 		"rank": 7,
 		"basic_properties": {
 			"critical": 21
-		}
+		},
+		"sellGem": 60
 	},
 	{
 		"classId": 432,
@@ -11500,7 +11953,8 @@ exports.data = [
 		"rank": 8,
 		"basic_properties": {
 			"critical": 24
-		}
+		},
+		"sellGem": 80
 	},
 	{
 		"classId": 433,
@@ -11517,7 +11971,8 @@ exports.data = [
 		"rank": 9,
 		"basic_properties": {
 			"critical": 27
-		}
+		},
+		"sellGem": 120
 	},
 	{
 		"classId": 434,
@@ -11534,7 +11989,8 @@ exports.data = [
 		"rank": 10,
 		"basic_properties": {
 			"critical": 30
-		}
+		},
+		"sellGem": 180
 	},
 	{
 		"classId": 435,
@@ -11551,7 +12007,8 @@ exports.data = [
 		"rank": 1,
 		"basic_properties": {
 			"accuracy": 3
-		}
+		},
+		"sellGem": 5
 	},
 	{
 		"classId": 436,
@@ -11568,7 +12025,8 @@ exports.data = [
 		"rank": 2,
 		"basic_properties": {
 			"accuracy": 6
-		}
+		},
+		"sellGem": 10
 	},
 	{
 		"classId": 437,
@@ -11585,7 +12043,8 @@ exports.data = [
 		"rank": 3,
 		"basic_properties": {
 			"accuracy": 9
-		}
+		},
+		"sellGem": 15
 	},
 	{
 		"classId": 438,
@@ -11602,7 +12061,8 @@ exports.data = [
 		"rank": 4,
 		"basic_properties": {
 			"accuracy": 12
-		}
+		},
+		"sellGem": 20
 	},
 	{
 		"classId": 439,
@@ -11619,7 +12079,8 @@ exports.data = [
 		"rank": 5,
 		"basic_properties": {
 			"accuracy": 15
-		}
+		},
+		"sellGem": 30
 	},
 	{
 		"classId": 440,
@@ -11636,7 +12097,8 @@ exports.data = [
 		"rank": 6,
 		"basic_properties": {
 			"accuracy": 18
-		}
+		},
+		"sellGem": 40
 	},
 	{
 		"classId": 441,
@@ -11653,7 +12115,8 @@ exports.data = [
 		"rank": 7,
 		"basic_properties": {
 			"accuracy": 21
-		}
+		},
+		"sellGem": 60
 	},
 	{
 		"classId": 442,
@@ -11670,7 +12133,8 @@ exports.data = [
 		"rank": 8,
 		"basic_properties": {
 			"accuracy": 24
-		}
+		},
+		"sellGem": 80
 	},
 	{
 		"classId": 443,
@@ -11687,7 +12151,8 @@ exports.data = [
 		"rank": 9,
 		"basic_properties": {
 			"accuracy": 27
-		}
+		},
+		"sellGem": 120
 	},
 	{
 		"classId": 444,
@@ -11704,7 +12169,8 @@ exports.data = [
 		"rank": 10,
 		"basic_properties": {
 			"accuracy": 30
-		}
+		},
+		"sellGem": 180
 	},
 	{
 		"classId": 445,
@@ -11721,7 +12187,8 @@ exports.data = [
 		"rank": 1,
 		"basic_properties": {
 			"speed": 3
-		}
+		},
+		"sellGem": 5
 	},
 	{
 		"classId": 446,
@@ -11738,7 +12205,8 @@ exports.data = [
 		"rank": 2,
 		"basic_properties": {
 			"speed": 6
-		}
+		},
+		"sellGem": 10
 	},
 	{
 		"classId": 447,
@@ -11755,7 +12223,8 @@ exports.data = [
 		"rank": 3,
 		"basic_properties": {
 			"speed": 9
-		}
+		},
+		"sellGem": 15
 	},
 	{
 		"classId": 448,
@@ -11772,7 +12241,8 @@ exports.data = [
 		"rank": 4,
 		"basic_properties": {
 			"speed": 12
-		}
+		},
+		"sellGem": 20
 	},
 	{
 		"classId": 449,
@@ -11789,7 +12259,8 @@ exports.data = [
 		"rank": 5,
 		"basic_properties": {
 			"speed": 15
-		}
+		},
+		"sellGem": 30
 	},
 	{
 		"classId": 450,
@@ -11806,7 +12277,8 @@ exports.data = [
 		"rank": 6,
 		"basic_properties": {
 			"speed": 18
-		}
+		},
+		"sellGem": 40
 	},
 	{
 		"classId": 451,
@@ -11823,7 +12295,8 @@ exports.data = [
 		"rank": 7,
 		"basic_properties": {
 			"speed": 21
-		}
+		},
+		"sellGem": 60
 	},
 	{
 		"classId": 452,
@@ -11840,7 +12313,8 @@ exports.data = [
 		"rank": 8,
 		"basic_properties": {
 			"speed": 24
-		}
+		},
+		"sellGem": 80
 	},
 	{
 		"classId": 453,
@@ -11857,7 +12331,8 @@ exports.data = [
 		"rank": 9,
 		"basic_properties": {
 			"speed": 27
-		}
+		},
+		"sellGem": 120
 	},
 	{
 		"classId": 454,
@@ -11874,7 +12349,8 @@ exports.data = [
 		"rank": 10,
 		"basic_properties": {
 			"speed": 30
-		}
+		},
+		"sellGem": 180
 	},
 	{
 		"classId": 455,
@@ -11888,7 +12364,8 @@ exports.data = [
 		"rank": 1,
 		"basic_properties": {
 			"health": 6
-		}
+		},
+		"sellGem": 5
 	},
 	{
 		"classId": 456,
@@ -11902,7 +12379,8 @@ exports.data = [
 		"rank": 2,
 		"basic_properties": {
 			"health": 12
-		}
+		},
+		"sellGem": 10
 	},
 	{
 		"classId": 457,
@@ -11916,7 +12394,8 @@ exports.data = [
 		"rank": 3,
 		"basic_properties": {
 			"health": 18
-		}
+		},
+		"sellGem": 15
 	},
 	{
 		"classId": 458,
@@ -11930,7 +12409,8 @@ exports.data = [
 		"rank": 4,
 		"basic_properties": {
 			"health": 30
-		}
+		},
+		"sellGem": 20
 	},
 	{
 		"classId": 459,
@@ -11944,7 +12424,8 @@ exports.data = [
 		"rank": 5,
 		"basic_properties": {
 			"health": 42
-		}
+		},
+		"sellGem": 30
 	},
 	{
 		"classId": 460,
@@ -11958,7 +12439,8 @@ exports.data = [
 		"rank": 6,
 		"basic_properties": {
 			"health": 54
-		}
+		},
+		"sellGem": 40
 	},
 	{
 		"classId": 461,
@@ -11972,7 +12454,8 @@ exports.data = [
 		"rank": 7,
 		"basic_properties": {
 			"health": 72
-		}
+		},
+		"sellGem": 60
 	},
 	{
 		"classId": 462,
@@ -11986,7 +12469,8 @@ exports.data = [
 		"rank": 8,
 		"basic_properties": {
 			"health": 90
-		}
+		},
+		"sellGem": 80
 	},
 	{
 		"classId": 463,
@@ -12000,7 +12484,8 @@ exports.data = [
 		"rank": 9,
 		"basic_properties": {
 			"health": 108
-		}
+		},
+		"sellGem": 120
 	},
 	{
 		"classId": 464,
@@ -12014,7 +12499,8 @@ exports.data = [
 		"rank": 10,
 		"basic_properties": {
 			"health": 132
-		}
+		},
+		"sellGem": 180
 	},
 	{
 		"classId": 465,
@@ -12028,7 +12514,8 @@ exports.data = [
 		"rank": 1,
 		"basic_properties": {
 			"attack": 1
-		}
+		},
+		"sellGem": 5
 	},
 	{
 		"classId": 466,
@@ -12042,7 +12529,8 @@ exports.data = [
 		"rank": 2,
 		"basic_properties": {
 			"attack": 2
-		}
+		},
+		"sellGem": 10
 	},
 	{
 		"classId": 467,
@@ -12056,7 +12544,8 @@ exports.data = [
 		"rank": 3,
 		"basic_properties": {
 			"attack": 3
-		}
+		},
+		"sellGem": 15
 	},
 	{
 		"classId": 468,
@@ -12070,7 +12559,8 @@ exports.data = [
 		"rank": 4,
 		"basic_properties": {
 			"attack": 5
-		}
+		},
+		"sellGem": 20
 	},
 	{
 		"classId": 469,
@@ -12084,7 +12574,8 @@ exports.data = [
 		"rank": 5,
 		"basic_properties": {
 			"attack": 7
-		}
+		},
+		"sellGem": 30
 	},
 	{
 		"classId": 470,
@@ -12098,7 +12589,8 @@ exports.data = [
 		"rank": 6,
 		"basic_properties": {
 			"attack": 9
-		}
+		},
+		"sellGem": 40
 	},
 	{
 		"classId": 471,
@@ -12112,7 +12604,8 @@ exports.data = [
 		"rank": 7,
 		"basic_properties": {
 			"attack": 12
-		}
+		},
+		"sellGem": 60
 	},
 	{
 		"classId": 472,
@@ -12126,7 +12619,8 @@ exports.data = [
 		"rank": 8,
 		"basic_properties": {
 			"attack": 15
-		}
+		},
+		"sellGem": 80
 	},
 	{
 		"classId": 473,
@@ -12140,7 +12634,8 @@ exports.data = [
 		"rank": 9,
 		"basic_properties": {
 			"attack": 18
-		}
+		},
+		"sellGem": 120
 	},
 	{
 		"classId": 474,
@@ -12154,7 +12649,8 @@ exports.data = [
 		"rank": 10,
 		"basic_properties": {
 			"attack": 22
-		}
+		},
+		"sellGem": 180
 	},
 	{
 		"classId": 475,
@@ -12168,7 +12664,8 @@ exports.data = [
 		"rank": 1,
 		"basic_properties": {
 			"critical": 3
-		}
+		},
+		"sellGem": 5
 	},
 	{
 		"classId": 476,
@@ -12182,7 +12679,8 @@ exports.data = [
 		"rank": 2,
 		"basic_properties": {
 			"critical": 6
-		}
+		},
+		"sellGem": 10
 	},
 	{
 		"classId": 477,
@@ -12196,7 +12694,8 @@ exports.data = [
 		"rank": 3,
 		"basic_properties": {
 			"critical": 9
-		}
+		},
+		"sellGem": 15
 	},
 	{
 		"classId": 478,
@@ -12210,7 +12709,8 @@ exports.data = [
 		"rank": 4,
 		"basic_properties": {
 			"critical": 15
-		}
+		},
+		"sellGem": 20
 	},
 	{
 		"classId": 479,
@@ -12224,7 +12724,8 @@ exports.data = [
 		"rank": 5,
 		"basic_properties": {
 			"critical": 21
-		}
+		},
+		"sellGem": 30
 	},
 	{
 		"classId": 480,
@@ -12238,7 +12739,8 @@ exports.data = [
 		"rank": 6,
 		"basic_properties": {
 			"critical": 27
-		}
+		},
+		"sellGem": 40
 	},
 	{
 		"classId": 481,
@@ -12252,7 +12754,8 @@ exports.data = [
 		"rank": 7,
 		"basic_properties": {
 			"critical": 36
-		}
+		},
+		"sellGem": 60
 	},
 	{
 		"classId": 482,
@@ -12266,7 +12769,8 @@ exports.data = [
 		"rank": 8,
 		"basic_properties": {
 			"critical": 45
-		}
+		},
+		"sellGem": 80
 	},
 	{
 		"classId": 483,
@@ -12280,7 +12784,8 @@ exports.data = [
 		"rank": 9,
 		"basic_properties": {
 			"critical": 54
-		}
+		},
+		"sellGem": 120
 	},
 	{
 		"classId": 484,
@@ -12294,7 +12799,8 @@ exports.data = [
 		"rank": 10,
 		"basic_properties": {
 			"critical": 66
-		}
+		},
+		"sellGem": 180
 	},
 	{
 		"classId": 485,
@@ -12308,7 +12814,8 @@ exports.data = [
 		"rank": 1,
 		"basic_properties": {
 			"strong": 3
-		}
+		},
+		"sellGem": 5
 	},
 	{
 		"classId": 486,
@@ -12322,7 +12829,8 @@ exports.data = [
 		"rank": 2,
 		"basic_properties": {
 			"strong": 6
-		}
+		},
+		"sellGem": 10
 	},
 	{
 		"classId": 487,
@@ -12336,7 +12844,8 @@ exports.data = [
 		"rank": 3,
 		"basic_properties": {
 			"strong": 9
-		}
+		},
+		"sellGem": 15
 	},
 	{
 		"classId": 488,
@@ -12350,7 +12859,8 @@ exports.data = [
 		"rank": 4,
 		"basic_properties": {
 			"strong": 15
-		}
+		},
+		"sellGem": 20
 	},
 	{
 		"classId": 489,
@@ -12364,7 +12874,8 @@ exports.data = [
 		"rank": 5,
 		"basic_properties": {
 			"strong": 21
-		}
+		},
+		"sellGem": 30
 	},
 	{
 		"classId": 490,
@@ -12378,7 +12889,8 @@ exports.data = [
 		"rank": 6,
 		"basic_properties": {
 			"strong": 27
-		}
+		},
+		"sellGem": 40
 	},
 	{
 		"classId": 491,
@@ -12392,7 +12904,8 @@ exports.data = [
 		"rank": 7,
 		"basic_properties": {
 			"strong": 36
-		}
+		},
+		"sellGem": 60
 	},
 	{
 		"classId": 492,
@@ -12406,7 +12919,8 @@ exports.data = [
 		"rank": 8,
 		"basic_properties": {
 			"strong": 45
-		}
+		},
+		"sellGem": 80
 	},
 	{
 		"classId": 493,
@@ -12420,7 +12934,8 @@ exports.data = [
 		"rank": 9,
 		"basic_properties": {
 			"strong": 54
-		}
+		},
+		"sellGem": 120
 	},
 	{
 		"classId": 494,
@@ -12434,7 +12949,8 @@ exports.data = [
 		"rank": 10,
 		"basic_properties": {
 			"strong": 66
-		}
+		},
+		"sellGem": 180
 	},
 	{
 		"classId": 495,
@@ -12448,7 +12964,8 @@ exports.data = [
 		"rank": 1,
 		"basic_properties": {
 			"accuracy": 3
-		}
+		},
+		"sellGem": 5
 	},
 	{
 		"classId": 496,
@@ -12462,7 +12979,8 @@ exports.data = [
 		"rank": 2,
 		"basic_properties": {
 			"accuracy": 6
-		}
+		},
+		"sellGem": 10
 	},
 	{
 		"classId": 497,
@@ -12476,7 +12994,8 @@ exports.data = [
 		"rank": 3,
 		"basic_properties": {
 			"accuracy": 9
-		}
+		},
+		"sellGem": 15
 	},
 	{
 		"classId": 498,
@@ -12490,7 +13009,8 @@ exports.data = [
 		"rank": 4,
 		"basic_properties": {
 			"accuracy": 15
-		}
+		},
+		"sellGem": 20
 	},
 	{
 		"classId": 499,
@@ -12504,7 +13024,8 @@ exports.data = [
 		"rank": 5,
 		"basic_properties": {
 			"accuracy": 21
-		}
+		},
+		"sellGem": 30
 	},
 	{
 		"classId": 500,
@@ -12518,7 +13039,8 @@ exports.data = [
 		"rank": 6,
 		"basic_properties": {
 			"accuracy": 27
-		}
+		},
+		"sellGem": 40
 	},
 	{
 		"classId": 501,
@@ -12532,7 +13054,8 @@ exports.data = [
 		"rank": 7,
 		"basic_properties": {
 			"accuracy": 36
-		}
+		},
+		"sellGem": 60
 	},
 	{
 		"classId": 502,
@@ -12546,7 +13069,8 @@ exports.data = [
 		"rank": 8,
 		"basic_properties": {
 			"accuracy": 45
-		}
+		},
+		"sellGem": 80
 	},
 	{
 		"classId": 503,
@@ -12560,7 +13084,8 @@ exports.data = [
 		"rank": 9,
 		"basic_properties": {
 			"accuracy": 54
-		}
+		},
+		"sellGem": 120
 	},
 	{
 		"classId": 504,
@@ -12574,7 +13099,8 @@ exports.data = [
 		"rank": 10,
 		"basic_properties": {
 			"accuracy": 66
-		}
+		},
+		"sellGem": 180
 	},
 	{
 		"classId": 505,
@@ -12588,7 +13114,8 @@ exports.data = [
 		"rank": 1,
 		"basic_properties": {
 			"reactivity": 3
-		}
+		},
+		"sellGem": 5
 	},
 	{
 		"classId": 506,
@@ -12602,7 +13129,8 @@ exports.data = [
 		"rank": 2,
 		"basic_properties": {
 			"reactivity": 6
-		}
+		},
+		"sellGem": 10
 	},
 	{
 		"classId": 507,
@@ -12616,7 +13144,8 @@ exports.data = [
 		"rank": 3,
 		"basic_properties": {
 			"reactivity": 9
-		}
+		},
+		"sellGem": 15
 	},
 	{
 		"classId": 508,
@@ -12630,7 +13159,8 @@ exports.data = [
 		"rank": 4,
 		"basic_properties": {
 			"reactivity": 15
-		}
+		},
+		"sellGem": 20
 	},
 	{
 		"classId": 509,
@@ -12644,7 +13174,8 @@ exports.data = [
 		"rank": 5,
 		"basic_properties": {
 			"reactivity": 21
-		}
+		},
+		"sellGem": 30
 	},
 	{
 		"classId": 510,
@@ -12658,7 +13189,8 @@ exports.data = [
 		"rank": 6,
 		"basic_properties": {
 			"reactivity": 27
-		}
+		},
+		"sellGem": 40
 	},
 	{
 		"classId": 511,
@@ -12672,7 +13204,8 @@ exports.data = [
 		"rank": 7,
 		"basic_properties": {
 			"reactivity": 36
-		}
+		},
+		"sellGem": 60
 	},
 	{
 		"classId": 512,
@@ -12686,7 +13219,8 @@ exports.data = [
 		"rank": 8,
 		"basic_properties": {
 			"reactivity": 45
-		}
+		},
+		"sellGem": 80
 	},
 	{
 		"classId": 513,
@@ -12700,7 +13234,8 @@ exports.data = [
 		"rank": 9,
 		"basic_properties": {
 			"reactivity": 54
-		}
+		},
+		"sellGem": 120
 	},
 	{
 		"classId": 514,
@@ -12714,7 +13249,8 @@ exports.data = [
 		"rank": 10,
 		"basic_properties": {
 			"reactivity": 66
-		}
+		},
+		"sellGem": 180
 	},
 	{
 		"classId": 515,
@@ -12728,7 +13264,8 @@ exports.data = [
 		"rank": 1,
 		"basic_properties": {
 			"speed": 3
-		}
+		},
+		"sellGem": 5
 	},
 	{
 		"classId": 516,
@@ -12742,7 +13279,8 @@ exports.data = [
 		"rank": 2,
 		"basic_properties": {
 			"speed": 6
-		}
+		},
+		"sellGem": 10
 	},
 	{
 		"classId": 517,
@@ -12756,7 +13294,8 @@ exports.data = [
 		"rank": 3,
 		"basic_properties": {
 			"speed": 9
-		}
+		},
+		"sellGem": 15
 	},
 	{
 		"classId": 518,
@@ -12770,7 +13309,8 @@ exports.data = [
 		"rank": 4,
 		"basic_properties": {
 			"speed": 15
-		}
+		},
+		"sellGem": 20
 	},
 	{
 		"classId": 519,
@@ -12784,7 +13324,8 @@ exports.data = [
 		"rank": 5,
 		"basic_properties": {
 			"speed": 21
-		}
+		},
+		"sellGem": 30
 	},
 	{
 		"classId": 520,
@@ -12798,7 +13339,8 @@ exports.data = [
 		"rank": 6,
 		"basic_properties": {
 			"speed": 27
-		}
+		},
+		"sellGem": 40
 	},
 	{
 		"classId": 521,
@@ -12812,7 +13354,8 @@ exports.data = [
 		"rank": 7,
 		"basic_properties": {
 			"speed": 36
-		}
+		},
+		"sellGem": 60
 	},
 	{
 		"classId": 522,
@@ -12826,7 +13369,8 @@ exports.data = [
 		"rank": 8,
 		"basic_properties": {
 			"speed": 45
-		}
+		},
+		"sellGem": 80
 	},
 	{
 		"classId": 523,
@@ -12840,7 +13384,8 @@ exports.data = [
 		"rank": 9,
 		"basic_properties": {
 			"speed": 54
-		}
+		},
+		"sellGem": 120
 	},
 	{
 		"classId": 524,
@@ -12854,7 +13399,8 @@ exports.data = [
 		"rank": 10,
 		"basic_properties": {
 			"speed": 66
-		}
+		},
+		"sellGem": 180
 	},
 	{
 		"classId": 525,
@@ -12866,6 +13412,7 @@ exports.data = [
 		"stack": 99,
 		"sellprice": 10,
 		"quality": 0,
+		"sellGem": 5,
 		"dropId": 0
 	},
 	{
@@ -12878,6 +13425,7 @@ exports.data = [
 		"stack": 99,
 		"sellprice": 20,
 		"quality": 1,
+		"sellGem": 10,
 		"dropId": 1,
 		"dropKey": 534
 	},
@@ -12891,6 +13439,7 @@ exports.data = [
 		"stack": 99,
 		"sellprice": 30,
 		"quality": 2,
+		"sellGem": 20,
 		"dropId": 2,
 		"dropKey": 535
 	},
@@ -12904,6 +13453,7 @@ exports.data = [
 		"stack": 99,
 		"sellprice": 40,
 		"quality": 3,
+		"sellGem": 30,
 		"dropId": 3,
 		"dropKey": 536
 	},
@@ -12917,6 +13467,7 @@ exports.data = [
 		"stack": 99,
 		"sellprice": 50,
 		"quality": 4,
+		"sellGem": 40,
 		"dropId": 4,
 		"dropKey": 537
 	},
@@ -12929,6 +13480,7 @@ exports.data = [
 		"description": "里面通常包着比较精致的东西。",
 		"stack": 99,
 		"quality": 1,
+		"sellGem": 15,
 		"dropId": 1
 	},
 	{
@@ -12940,6 +13492,7 @@ exports.data = [
 		"description": "通常包着稀有的东西。",
 		"stack": 99,
 		"quality": 2,
+		"sellGem": 75,
 		"dropId": 2
 	},
 	{
@@ -12951,6 +13504,7 @@ exports.data = [
 		"description": "里面通常包裹着极其稀有的东西。",
 		"stack": 99,
 		"quality": 3,
+		"sellGem": 225,
 		"dropId": 3
 	},
 	{
@@ -12962,6 +13516,7 @@ exports.data = [
 		"description": "只有最珍贵的财宝才能配的上这样的包装。",
 		"stack": 99,
 		"quality": 4,
+		"sellGem": 450,
 		"dropId": 4
 	},
 	{
@@ -12972,7 +13527,8 @@ exports.data = [
 		"description": "青铜打造的钥匙，可以打开铜质宝箱。",
 		"stack": 99,
 		"sellprice": 50,
-		"quality": 1
+		"quality": 1,
+		"sellGem": 5
 	},
 	{
 		"classId": 535,
@@ -12982,7 +13538,8 @@ exports.data = [
 		"description": "纯银打造的钥匙，可以打开银质宝箱。",
 		"stack": 99,
 		"sellprice": 250,
-		"quality": 2
+		"quality": 2,
+		"sellGem": 25
 	},
 	{
 		"classId": 536,
@@ -12992,7 +13549,8 @@ exports.data = [
 		"description": "黄金打造的钥匙，可以打开金质宝箱。",
 		"stack": 99,
 		"sellprice": 750,
-		"quality": 3
+		"quality": 3,
+		"sellGem": 75
 	},
 	{
 		"classId": 537,
@@ -13002,7 +13560,8 @@ exports.data = [
 		"description": "镶有钻石的钥匙，可以打开镶钻宝箱。",
 		"stack": 99,
 		"sellprice": 1500,
-		"quality": 4
+		"quality": 4,
+		"sellGem": 150
 	},
 	{
 		"classId": 538,
@@ -13322,7 +13881,8 @@ exports.data = [
 		"description": "基础素材，用来锻造优质装备",
 		"stack": 99,
 		"sellprice": 15,
-		"quality": 0
+		"quality": 0,
+		"sellGem": 2
 	},
 	{
 		"classId": 559,
@@ -13332,7 +13892,8 @@ exports.data = [
 		"description": "锻造材料，用于锻造稀有装备",
 		"stack": 99,
 		"sellprice": 50,
-		"quality": 1
+		"quality": 1,
+		"sellGem": 6
 	},
 	{
 		"classId": 560,
@@ -13342,7 +13903,8 @@ exports.data = [
 		"description": "用于锻造史诗装备的珍贵魔晶",
 		"stack": 99,
 		"sellprice": 150,
-		"quality": 2
+		"quality": 2,
+		"sellGem": 15
 	},
 	{
 		"classId": 561,
@@ -13352,7 +13914,8 @@ exports.data = [
 		"description": "蕴含强大魔力的符文，用于锻造橙色装备",
 		"stack": 99,
 		"sellprice": 500,
-		"quality": 3
+		"quality": 3,
+		"sellGem": 35
 	},
 	{
 		"classId": 562,
@@ -13361,7 +13924,8 @@ exports.data = [
 		"description": "暂未开放",
 		"stack": 99,
 		"sellprice": 1500,
-		"quality": 4
+		"quality": 4,
+		"sellGem": 5
 	},
 	{
 		"classId": 563,
@@ -13371,6 +13935,7 @@ exports.data = [
 		"description": "记录了制作初阶长靴的方法",
 		"sellprice": 15,
 		"quality": 1,
+		"sellGem": 5,
 		"recipeTarget": 104,
 		"recipeIngredient": [
 			{
@@ -13388,6 +13953,7 @@ exports.data = [
 		"description": "记录了制作学徒长剑的方法",
 		"sellprice": 15,
 		"quality": 1,
+		"sellGem": 5,
 		"recipeTarget": 115,
 		"recipeIngredient": [
 			{
@@ -13405,6 +13971,7 @@ exports.data = [
 		"description": "记录了制作学徒小盾的方法",
 		"sellprice": 15,
 		"quality": 1,
+		"sellGem": 5,
 		"recipeTarget": 114,
 		"recipeIngredient": [
 			{
@@ -13422,6 +13989,7 @@ exports.data = [
 		"description": "记录了制作学徒铠甲的方法",
 		"sellprice": 15,
 		"quality": 1,
+		"sellGem": 5,
 		"recipeTarget": 113,
 		"recipeIngredient": [
 			{
@@ -13439,6 +14007,7 @@ exports.data = [
 		"description": "记录了制作学徒战靴的方法",
 		"sellprice": 15,
 		"quality": 1,
+		"sellGem": 5,
 		"recipeTarget": 112,
 		"recipeIngredient": [
 			{
@@ -13456,6 +14025,7 @@ exports.data = [
 		"description": "记录了制作初阶法杖的方法",
 		"sellprice": 15,
 		"quality": 1,
+		"sellGem": 5,
 		"recipeTarget": 107,
 		"recipeIngredient": [
 			{
@@ -13473,6 +14043,7 @@ exports.data = [
 		"description": "记录了制作初阶魔法书的方法",
 		"sellprice": 15,
 		"quality": 1,
+		"sellGem": 5,
 		"recipeTarget": 106,
 		"recipeIngredient": [
 			{
@@ -13490,6 +14061,7 @@ exports.data = [
 		"description": "记录了制作初阶法师袍的方法",
 		"sellprice": 15,
 		"quality": 1,
+		"sellGem": 5,
 		"recipeTarget": 105,
 		"recipeIngredient": [
 			{
@@ -13507,6 +14079,7 @@ exports.data = [
 		"description": "记录了制作精巧权杖的方法",
 		"sellprice": 15,
 		"quality": 1,
+		"sellGem": 5,
 		"recipeTarget": 111,
 		"recipeIngredient": [
 			{
@@ -13524,6 +14097,7 @@ exports.data = [
 		"description": "记录了制作精巧十字架的方法",
 		"sellprice": 15,
 		"quality": 1,
+		"sellGem": 5,
 		"recipeTarget": 110,
 		"recipeIngredient": [
 			{
@@ -13541,6 +14115,7 @@ exports.data = [
 		"description": "记录了制作轻巧外衣的方法",
 		"sellprice": 15,
 		"quality": 1,
+		"sellGem": 5,
 		"recipeTarget": 109,
 		"recipeIngredient": [
 			{
@@ -13558,6 +14133,7 @@ exports.data = [
 		"description": "记录了制作轻盈鞋子的方法",
 		"sellprice": 15,
 		"quality": 1,
+		"sellGem": 5,
 		"recipeTarget": 108,
 		"recipeIngredient": [
 			{
@@ -13575,6 +14151,7 @@ exports.data = [
 		"description": "记录了制作战斗长剑的方法",
 		"sellprice": 50,
 		"quality": 2,
+		"sellGem": 10,
 		"recipeTarget": 187,
 		"recipeIngredient": [
 			{
@@ -13592,6 +14169,7 @@ exports.data = [
 		"description": "记录了制作战斗盾的方法",
 		"sellprice": 50,
 		"quality": 2,
+		"sellGem": 10,
 		"recipeTarget": 186,
 		"recipeIngredient": [
 			{
@@ -13609,6 +14187,7 @@ exports.data = [
 		"description": "记录了制作战斗铠甲的方法",
 		"sellprice": 50,
 		"quality": 2,
+		"sellGem": 10,
 		"recipeTarget": 185,
 		"recipeIngredient": [
 			{
@@ -13626,6 +14205,7 @@ exports.data = [
 		"description": "记录了制作战斗铁靴的方法",
 		"sellprice": 50,
 		"quality": 2,
+		"sellGem": 10,
 		"recipeTarget": 184,
 		"recipeIngredient": [
 			{
@@ -13643,6 +14223,7 @@ exports.data = [
 		"description": "记录了制作见习法杖的方法",
 		"sellprice": 50,
 		"quality": 2,
+		"sellGem": 10,
 		"recipeTarget": 179,
 		"recipeIngredient": [
 			{
@@ -13660,6 +14241,7 @@ exports.data = [
 		"description": "记录了制作见习魔法书的方法",
 		"sellprice": 50,
 		"quality": 2,
+		"sellGem": 10,
 		"recipeTarget": 178,
 		"recipeIngredient": [
 			{
@@ -13677,6 +14259,7 @@ exports.data = [
 		"description": "记录了制作见习法袍的方法",
 		"sellprice": 50,
 		"quality": 2,
+		"sellGem": 10,
 		"recipeTarget": 177,
 		"recipeIngredient": [
 			{
@@ -13694,6 +14277,7 @@ exports.data = [
 		"description": "记录了制作见习长靴的方法",
 		"sellprice": 50,
 		"quality": 2,
+		"sellGem": 10,
 		"recipeTarget": 176,
 		"recipeIngredient": [
 			{
@@ -13711,6 +14295,7 @@ exports.data = [
 		"description": "记录了制作祷告权杖的方法",
 		"sellprice": 50,
 		"quality": 2,
+		"sellGem": 10,
 		"recipeTarget": 183,
 		"recipeIngredient": [
 			{
@@ -13728,6 +14313,7 @@ exports.data = [
 		"description": "记录了制作祷告十字架的方法",
 		"sellprice": 50,
 		"quality": 2,
+		"sellGem": 10,
 		"recipeTarget": 182,
 		"recipeIngredient": [
 			{
@@ -13745,6 +14331,7 @@ exports.data = [
 		"description": "记录了制作祷告之衣的方法",
 		"sellprice": 50,
 		"quality": 2,
+		"sellGem": 10,
 		"recipeTarget": 181,
 		"recipeIngredient": [
 			{
@@ -13762,6 +14349,7 @@ exports.data = [
 		"description": "记录了制作祷告之鞋的方法",
 		"sellprice": 50,
 		"quality": 2,
+		"sellGem": 10,
 		"recipeTarget": 180,
 		"recipeIngredient": [
 			{
@@ -13779,6 +14367,7 @@ exports.data = [
 		"description": "记录了制作卫兵长剑的方法",
 		"sellprice": 150,
 		"quality": 3,
+		"sellGem": 15,
 		"recipeTarget": 259,
 		"recipeIngredient": [
 			{
@@ -13796,6 +14385,7 @@ exports.data = [
 		"description": "记录了制作卫兵圆盾的方法",
 		"sellprice": 150,
 		"quality": 3,
+		"sellGem": 15,
 		"recipeTarget": 258,
 		"recipeIngredient": [
 			{
@@ -13813,6 +14403,7 @@ exports.data = [
 		"description": "记录了制作卫兵铁甲的方法",
 		"sellprice": 150,
 		"quality": 3,
+		"sellGem": 15,
 		"recipeTarget": 257,
 		"recipeIngredient": [
 			{
@@ -13830,6 +14421,7 @@ exports.data = [
 		"description": "记录了制作卫兵铁靴的方法",
 		"sellprice": 150,
 		"quality": 3,
+		"sellGem": 15,
 		"recipeTarget": 256,
 		"recipeIngredient": [
 			{
@@ -13847,6 +14439,7 @@ exports.data = [
 		"description": "记录了制作精致法杖的方法",
 		"sellprice": 150,
 		"quality": 3,
+		"sellGem": 15,
 		"recipeTarget": 251,
 		"recipeIngredient": [
 			{
@@ -13864,6 +14457,7 @@ exports.data = [
 		"description": "记录了制作金边魔法书的方法",
 		"sellprice": 150,
 		"quality": 3,
+		"sellGem": 15,
 		"recipeTarget": 250,
 		"recipeIngredient": [
 			{
@@ -13881,6 +14475,7 @@ exports.data = [
 		"description": "记录了制作精致法袍的方法",
 		"sellprice": 150,
 		"quality": 3,
+		"sellGem": 15,
 		"recipeTarget": 249,
 		"recipeIngredient": [
 			{
@@ -13898,6 +14493,7 @@ exports.data = [
 		"description": "记录了制作精致长靴的方法",
 		"sellprice": 150,
 		"quality": 3,
+		"sellGem": 15,
 		"recipeTarget": 248,
 		"recipeIngredient": [
 			{
@@ -13915,6 +14511,7 @@ exports.data = [
 		"description": "记录了制作祈愿权杖的方法",
 		"sellprice": 150,
 		"quality": 3,
+		"sellGem": 15,
 		"recipeTarget": 255,
 		"recipeIngredient": [
 			{
@@ -13932,6 +14529,7 @@ exports.data = [
 		"description": "记录了制作祈愿十字架的方法",
 		"sellprice": 150,
 		"quality": 3,
+		"sellGem": 15,
 		"recipeTarget": 254,
 		"recipeIngredient": [
 			{
@@ -13949,6 +14547,7 @@ exports.data = [
 		"description": "记录了制作祈愿之衣的方法",
 		"sellprice": 150,
 		"quality": 3,
+		"sellGem": 15,
 		"recipeTarget": 253,
 		"recipeIngredient": [
 			{
@@ -13966,6 +14565,7 @@ exports.data = [
 		"description": "记录了制作祈愿之鞋的方法",
 		"sellprice": 150,
 		"quality": 3,
+		"sellGem": 15,
 		"recipeTarget": 252,
 		"recipeIngredient": [
 			{
@@ -13983,6 +14583,7 @@ exports.data = [
 		"description": "记录了制作锋利长剑的方法",
 		"sellprice": 500,
 		"quality": 4,
+		"sellGem": 750,
 		"recipeTarget": 331,
 		"recipeIngredient": [
 			{
@@ -14000,6 +14601,7 @@ exports.data = [
 		"description": "记录了制作坚固圆盾的方法",
 		"sellprice": 500,
 		"quality": 4,
+		"sellGem": 750,
 		"recipeTarget": 330,
 		"recipeIngredient": [
 			{
@@ -14017,6 +14619,7 @@ exports.data = [
 		"description": "记录了制作坚固铁甲的方法",
 		"sellprice": 500,
 		"quality": 4,
+		"sellGem": 750,
 		"recipeTarget": 329,
 		"recipeIngredient": [
 			{
@@ -14034,6 +14637,7 @@ exports.data = [
 		"description": "记录了制作轻巧战靴的方法",
 		"sellprice": 500,
 		"quality": 4,
+		"sellGem": 750,
 		"recipeTarget": 328,
 		"recipeIngredient": [
 			{
@@ -14051,6 +14655,7 @@ exports.data = [
 		"description": "记录了制作桦木杖的方法",
 		"sellprice": 500,
 		"quality": 4,
+		"sellGem": 750,
 		"recipeTarget": 323,
 		"recipeIngredient": [
 			{
@@ -14068,6 +14673,7 @@ exports.data = [
 		"description": "记录了制作古旧魔法书的方法",
 		"sellprice": 500,
 		"quality": 4,
+		"sellGem": 750,
 		"recipeTarget": 322,
 		"recipeIngredient": [
 			{
@@ -14085,6 +14691,7 @@ exports.data = [
 		"description": "记录了制作传承法袍的方法",
 		"sellprice": 500,
 		"quality": 4,
+		"sellGem": 750,
 		"recipeTarget": 321,
 		"recipeIngredient": [
 			{
@@ -14102,6 +14709,7 @@ exports.data = [
 		"description": "记录了制作传承长靴的方法",
 		"sellprice": 500,
 		"quality": 4,
+		"sellGem": 750,
 		"recipeTarget": 320,
 		"recipeIngredient": [
 			{
@@ -14119,6 +14727,7 @@ exports.data = [
 		"description": "记录了制作侍僧权杖的方法",
 		"sellprice": 500,
 		"quality": 4,
+		"sellGem": 750,
 		"recipeTarget": 327,
 		"recipeIngredient": [
 			{
@@ -14136,6 +14745,7 @@ exports.data = [
 		"description": "记录了制作侍僧十字架的方法",
 		"sellprice": 500,
 		"quality": 4,
+		"sellGem": 750,
 		"recipeTarget": 326,
 		"recipeIngredient": [
 			{
@@ -14153,6 +14763,7 @@ exports.data = [
 		"description": "记录了制作侍僧外衣的方法",
 		"sellprice": 500,
 		"quality": 4,
+		"sellGem": 750,
 		"recipeTarget": 325,
 		"recipeIngredient": [
 			{
@@ -14170,6 +14781,7 @@ exports.data = [
 		"description": "记录了制作侍僧之鞋的方法",
 		"sellprice": 500,
 		"quality": 4,
+		"sellGem": 750,
 		"recipeTarget": 324,
 		"recipeIngredient": [
 			{
