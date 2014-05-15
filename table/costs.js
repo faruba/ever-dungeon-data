@@ -45,14 +45,14 @@ exports.data = [
         "costId":7,
         "material":[
             { "type": 1, "count":100},
-            { "type":0,"value":853,"count":2}
+            { "type":0,"value":853,"count":1}
         ]
     },
     {
         "costId":8,
         "material":[
             { "type": 1, "count":300},
-            { "type":0,"value":853,"count":4}
+            { "type":0,"value":853,"count":2}
         ]
     },
     {
@@ -66,7 +66,7 @@ exports.data = [
         "costId":10,
         "material":[
             { "type": 1, "count":1500},
-            { "type":0,"value":854,"count":4}
+            { "type":0,"value":854,"count":3}
         ]
     },
     {
@@ -87,7 +87,7 @@ exports.data = [
         "costId":13,
         "material":[
             { "type": 1, "count":5000},
-            { "type":0,"value":856,"count":2}
+            { "type":0,"value":856,"count":3}
         ]
     },
     {
@@ -101,14 +101,14 @@ exports.data = [
         "costId":15,
         "material":[
             { "type": 1, "count":9000},
-            { "type":0,"value":857,"count":2}
+            { "type":0,"value":857,"count":3}
         ]
     },
     {
         "costId":16,
         "material":[
             { "type": 1, "count":11000},
-            { "type":0,"value":857,"count":4}
+            { "type":0,"value":857,"count":5}
         ]
     },
     {
