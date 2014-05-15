@@ -1,4 +1,4 @@
-exports.data =[
+exports.data = [
 	{
 		"classId": 0,
 		"label": "七色宝石",
