@@ -1,5 +1,10 @@
 exports.data = [
-	[
+	[],
+    [],
+    [],
+    [],
+    [],
+    [
 		{
 			"rate": 1,
 			"prize": [
@@ -18,7 +23,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 1,
-					"count": 300
+					"count": 400
 				}
 			]
 		}
@@ -30,7 +35,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 1,
-					"count": 700
+					"count": 1000
 				}
 			]
 		}
