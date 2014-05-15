@@ -17493,11 +17493,6 @@ exports.data =[
 		"description": "饮用后可以立即恢复50点精力值。",
 		"stack": 10,
 		"sellprice": 450,
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"storeOnly": true,
 		"autoUse": true,
 		"function": "recoverEnergy",
@@ -17512,11 +17507,6 @@ exports.data =[
 		"description": "饮用后可以立即恢复100点精力值，斗志满满！",
 		"stack": 10,
 		"sellprice": 800,
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"storeOnly": true,
 		"autoUse": true,
 		"function": "recoverEnergy",
@@ -17530,11 +17520,6 @@ exports.data =[
 		"description": "在战斗中可以使全队复活的神奇药水。",
 		"stack": 25,
 		"sellprice": 300,
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"storeOnly": true
 	},
 	{
@@ -17543,11 +17528,6 @@ exports.data =[
 		"category": 1,
 		"subcategory": 12,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "ff1-rightleg-c.ccbi"
@@ -17563,11 +17543,6 @@ exports.data =[
 		"category": 1,
 		"subcategory": 11,
 		"description": "寄宿着光明之神力量的传奇十字架",
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"effecta": [
 			{
 				"part": "secondaryweapon2",
@@ -17582,11 +17557,6 @@ exports.data =[
 		"icon": "epmainweapon9.png",
 		"category": 1,
 		"subcategory": 10,
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"effecta": [
 			{
 				"part": "mainweapon",
@@ -17603,11 +17573,6 @@ exports.data =[
 		"category": 1,
 		"subcategory": 13,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"effecta": [
 			{
 				"part": "helmet",
@@ -17624,11 +17589,6 @@ exports.data =[
 		"category": 1,
 		"subcategory": 14,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"effecta": {
 			"part": "hair3",
 			"file": "avatar-7-hair3.ccbi"
@@ -17643,11 +17603,6 @@ exports.data =[
 		"category": 1,
 		"subcategory": 15,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"effecta": {
 			"part": "brow",
 			"file": "avatar-2-brow.ccbi"
@@ -17662,11 +17617,6 @@ exports.data =[
 		"category": 1,
 		"subcategory": 12,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "fm1-rightleg-c.ccbi"
@@ -17681,11 +17631,6 @@ exports.data =[
 		"category": 1,
 		"subcategory": 14,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"effecta": [
 			{
 				"part": "hair",
@@ -17702,11 +17647,6 @@ exports.data =[
 		"category": 1,
 		"subcategory": 15,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"effecta": {
 			"part": "brow",
 			"file": "avatar-2-brow-2.ccbi"
@@ -17722,11 +17662,6 @@ exports.data =[
 		"category": 0,
 		"subcategory": 0,
 		"description": "内含金块X3，七色宝石X10，小瓶活力药剂X1（每日限购1个）",
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"quality": 1,
 		"prize": {
 			"type": 0,
@@ -17742,11 +17677,6 @@ exports.data =[
 		"subcategory": 12,
 		"description": "兼顾外形与力量，是荣誉的象征。",
 		"sellprice": 1500,
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"effectf": {
 			"part": "rightleg",
 			"file": "ff1-rightleg-c.ccbi"
@@ -17770,11 +17700,6 @@ exports.data =[
 		"subcategory": 13,
 		"description": "荣誉的象征，并且拥有专注力量的祝福。",
 		"sellprice": 500,
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"effectf": [
 			{
 				"part": "helmet",
@@ -17801,11 +17726,6 @@ exports.data =[
 		"category": 0,
 		"subcategory": 0,
 		"description": "内含金块X10（每日限购1个）",
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"quality": 1,
 		"storeOnly": true,
 		"prize": [
@@ -17822,11 +17742,6 @@ exports.data =[
 		"category": 1,
 		"subcategory": 12,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"effecta": {
 			"part": "rightleg",
 			"file": "ff2-rightleg.ccbi"
@@ -17841,11 +17756,6 @@ exports.data =[
 		"category": 1,
 		"subcategory": 13,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"effecta": [
 			{
 				"part": "helmet",
@@ -17862,11 +17772,6 @@ exports.data =[
 		"category": 1,
 		"subcategory": 14,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"effecta": {
 			"part": "hair3",
 			"file": "avatar-8-hair3.ccbi"
@@ -17881,11 +17786,6 @@ exports.data =[
 		"category": 1,
 		"subcategory": 15,
 		"description": "光明的意思是会发光的，不是透明的的⋯⋯",
-		"transPrize": [
-			{
-				"type": 2
-			}
-		],
 		"effecta": {
 			"part": "brow",
 			"file": "avatar-2-brow.ccbi"
