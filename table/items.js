@@ -19054,7 +19054,7 @@ exports.data = [
 		"label": "天际尊冠",
 		"category": 1,
 		"subcategory": 13,
-		"description": "战斗力突破天际的身份证明。",
+		"description": "战斗力突破3000的身份证明。",
 		"effectf": [
 			{
 				"part": "helmet",
