@@ -17661,14 +17661,21 @@ exports.data = [
 		"icon": "item-vipbox1.png",
 		"category": 0,
 		"subcategory": 0,
-		"description": "内含金块X3，七色宝石X10，小瓶活力药剂X1（每日限购1个）",
+		"description": "内含金块X3，小瓶活力药剂X1（每日限购1个）",
 		"quality": 1,
-		"prize": {
-			"type": 0,
-			"value": 28,
-			"count": 3
-		},
-		"storeOnly": true
+		"storeOnly": true,
+		"prize": [
+			{
+				"type": 0,
+				"value": 28,
+				"count": 3
+			},
+			{
+				"type": 0,
+				"value": 538,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 551,
