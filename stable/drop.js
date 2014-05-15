@@ -1859,15 +1859,49 @@ exports.data = [
             "prize":
                 [
                     {
-                        "weight": 2,
+                        "weight": 1,
                         "type":1,
                         "count": 700
-                    },
+                    }
+                ]
+        },
+        {
+            "rate": 1,
+            "prize":
+                [
                     {
                         "weight": 2,
                         "type":1,
                         "count": 700
-                    },
+                    }
+                ]
+        },
+        {
+            "rate": 1,
+            "prize":
+                [
+                    {
+                        "weight": 2,
+                        "type":1,
+                        "count": 700
+                    }
+                ]
+        },
+        {
+            "rate": 1,
+            "prize":
+                [
+                    {
+                        "weight": 2,
+                        "type":1,
+                        "count": 700
+                    }
+                ]
+        },
+        {
+            "rate": 1,
+            "prize":
+                [
                     {
                         "weight": 2,
                         "type":1,
