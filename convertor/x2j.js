@@ -74,6 +74,7 @@ function linkObject(target, value, path, type){
 function table2object(table){
 	var root = [];
 	var headers = [];
+	var isArray = true;
 	//parse headers
 	for(var k in table[0]){
 		var col = table[0][k];
@@ -83,11 +84,17 @@ function table2object(table){
 			type: strs[1]
 		};
 		headers.push(head);
+		if( head.path[0] != "[" ){
+			isArray = false;
+		}
 	}
 	//parse data
 	for(var i=1; i<table.length; ++i){
 		var row = table[i];
 		var obj = {};
+		if( isArray ){
+			obj = [];
+		}
 		for(var j=0; j<row.length; ++j){
 			if( row[j] != null ){
 				linkObject(obj, row[j], headers[j].path, headers[j].type);
