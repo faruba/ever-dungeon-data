@@ -179,5 +179,9 @@ exports.data = [
     {
         "effectId": 43,
         "file": "effect-mission.ccbi"
+    },
+    {
+        "effectId":44,
+        "file":"effect-lingting2.ccbi"
     }
 ]

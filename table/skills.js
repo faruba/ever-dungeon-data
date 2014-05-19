@@ -159,9 +159,7 @@ exports.data = [
     "config": {
       "basic": {
         "spellAction": 1,
-        "spellEffect": 4,
-        "targetEffect": 0,
-        "targetDelay": 0.3
+        "targetDelay": 0.6
       },
       "triggerCondition": [
         { "type": "countDown", "cd": 10 }
@@ -171,7 +169,9 @@ exports.data = [
         "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"shuffle"},{"type":"count","count":1}]
       },
       "action": [
-        { "type": "damage","damageType":"Spell","isRange":true }
+        { "type": "damage","damageType":"Spell","isRange":true},
+        {"type": "playEffect","effect":44,"pos":"self"},
+        {"type": "playEffect","effect":0,"pos":"target","delay":0.5}
       ],
       "levelConfig" : [
         { "formular": {"src":{"attack":0.8}} },
