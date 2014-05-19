@@ -158,8 +158,7 @@ exports.data = [
     "slotId": 0,
     "config": {
       "basic": {
-        "spellAction": 1,
-        "targetDelay": 0.8
+        "spellAction": 1
       },
       "triggerCondition": [
         { "type": "countDown", "cd": 10 }
@@ -169,9 +168,11 @@ exports.data = [
         "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"shuffle"},{"type":"count","count":1}]
       },
       "action": [
-        { "type": "damage","damageType":"Spell","isRange":true},
+        { "type": "damage","damageType":"Spell","isRange":true,"delay":0.8},
         {"type": "playEffect","effect":44,"pos":"self"},
-        {"type": "playEffect","effect":0,"pos":"target","delay":0.4}
+        {"type": "playEffect","effect":0,"pos":"target","delay":0.6},
+          {"type": "blink","delay":0.6,"time":0.08},
+          {"type":"shock","delay":0.6,"range":5,"time":0.2}
       ],
       "levelConfig" : [
         { "formular": {"src":{"attack":0.8}} },
