@@ -16,6 +16,17 @@ function fixObject(oldObject, newObject, key){
 	var typeOld = getType(oldObject[key]);
 	var typeNew = getType(newObject[key]);
 	if( typeNew == typeOld ){
+		if( typeOld == "array" ){
+			var sizeOld = oldObject[key].length;
+			var sizeNew = newObject[key].length;
+			if( sizeOld != sizeNew ){
+				console.log("ARRAY LEN FIXED: "+key);
+				console.log("FROM = "+JSON.stringify(newObject[key], null, "\t"));
+				console.log("TO   = "+JSON.stringify(oldObject[key], null, "\t"));
+				newObject[key] = oldObject[key];
+				return;
+			}
+		}
 		for(var k in oldObject[key]){
 			if( newObject[key][k] != null ){
 				var kOldType = typeof(oldObject[key][k]);
