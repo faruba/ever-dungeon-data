@@ -15,6 +15,7 @@ function getType(value){
 function fixObject(oldObject, newObject, key){
 	var typeOld = getType(oldObject[key]);
 	var typeNew = getType(newObject[key]);
+
 	if( typeNew == typeOld ){
 		if( typeOld == "array" ){
 			var sizeOld = oldObject[key].length;
@@ -46,6 +47,7 @@ function fixObject(oldObject, newObject, key){
 }
 
 for(var id=0; id<oldTable.length; ++id){
+	//console.log("-------[ "+id+" ]-------");
 	var oldObject = oldTable[id];
 	var newObject = newTable[id];
 	if( newObject == null ){
@@ -54,8 +56,9 @@ for(var id=0; id<oldTable.length; ++id){
 	else{
 		for(var k in oldObject){
 			if( newObject[k] != null ){
-				var kOldType = typeof(oldObject[k]);
-				var kNewType = typeof(newObject[k]);
+				var kOldType = getType(oldObject[k]);
+				var kNewType = getType(newObject[k]);
+				//console.log("->"+k+" "+kOldType+":"+kNewType);
 				if( kOldType != kNewType ){
 					fixObject(oldObject, newObject, k);
 				}
