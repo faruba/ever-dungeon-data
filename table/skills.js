@@ -159,7 +159,7 @@ exports.data = [
     "config": {
       "basic": {
         "spellAction": 1,
-        "targetDelay": 0.6
+        "targetDelay": 0.8
       },
       "triggerCondition": [
         { "type": "countDown", "cd": 10 }
@@ -171,7 +171,7 @@ exports.data = [
       "action": [
         { "type": "damage","damageType":"Spell","isRange":true},
         {"type": "playEffect","effect":44,"pos":"self"},
-        {"type": "playEffect","effect":0,"pos":"target","delay":0.5}
+        {"type": "playEffect","effect":0,"pos":"target","delay":0.4}
       ],
       "levelConfig" : [
         { "formular": {"src":{"attack":0.8}} },
