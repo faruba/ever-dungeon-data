@@ -1,4 +1,4 @@
-exports.data =[
+exports.data = [
 	{
 		"enhanceId": 0,
 		"costList": [
@@ -445,22 +445,22 @@ exports.data =[
 		],
 		"property": [
 			{
-				"attack": 1,
-				"critical": 1
+				"critical": 1,
+				"attack": 1
 			},
 			{
 				"health": 1,
-				"attack": 1,
 				"critical": 1,
-				"strong": 1
+				"strong": 1,
+				"attack": 1
 			},
 			{
 				"health": 3,
-				"attack": 1,
 				"critical": 1,
 				"strong": 1,
 				"accuracy": 1,
-				"speed": 1
+				"speed": 1,
+				"attack": 1
 			},
 			{
 				"health": 3,
