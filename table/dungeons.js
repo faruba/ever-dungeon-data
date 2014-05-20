@@ -14416,7 +14416,8 @@ exports.data = [
                 {
                     "id":16,
                     "weight":1
-                },]
+                }
+            ]
         },
         "levels" :[
             {
