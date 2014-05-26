@@ -93,18 +93,7 @@ exports.data = {
         "count": 6,
         "award": [
             {"type":1, "count":6000 },
-            { "type":0,"value":0, "count":50 },
-            { "type":0,"value":460, "count":1 },
-            { "type":0,"value":239, "count":1 ,"classLimit":[1]},
-            { "type":0,"value":243, "count":1 ,"classLimit":[2]},
-            { "type":0,"value":247, "count":1 ,"classLimit":[0]},
-            { "type":0,"value":603, "count":1 ,"classLimit":[1]},
-            { "type":0,"value":607, "count":1 ,"classLimit":[2]},
-            { "type":0,"value":599, "count":1 ,"classLimit":[0]},
-            { "type":0,"value":593, "count":1 ,"classLimit":[1]},
-            { "type":0,"value":597, "count":1 ,"classLimit":[2]},
-            { "type":0,"value":589, "count":1 ,"classLimit":[0]},
-            { "type":0,"value":560, "count":40 }
+            { "type":2,"count":150 }
         ]
       }
     ]
