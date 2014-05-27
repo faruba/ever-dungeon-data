@@ -22649,6 +22649,701 @@ exports.data = [
         "dropID":[ ],
         "prizeWxp":0,"prizeGold":0, "prizeXp":0,
         "wxpRate":1,"goldRate":0.2, "xpRate":0.1
+    },
+    {
+        "dungeonId": 105,
+        "rank": 8,
+        "levelCount" : 3,
+        "pool":{
+            "normalPool":[
+                {
+                    "id":170,
+                    "weight":1
+                },
+                {
+                    "id":171,
+                    "weight":5
+                },
+                {
+                    "id":172,
+                    "weight":5
+                },
+                {
+                    "id":173,
+                    "weight":1
+                },
+                {
+                    "id":174,
+                    "weight":5
+                },
+                {
+                    "id":175,
+                    "weight":5
+                },
+                {
+                    "id":176,
+                    "weight":1
+                },
+                {
+                    "id":177,
+                    "weight":5
+                },
+                {
+                    "id":178,
+                    "weight":1
+                },
+                {
+                    "id":179,
+                    "weight":3
+                }
+            ]
+        },
+        "levels" :[
+            {
+                "objects" :[{"pool":"normalPool","from":0,to:2},
+                    {
+                        "id": 35,
+                        "count":2
+                    },
+                    {
+                        "id": 36 ,
+                        "count":2
+                    },
+                    {
+                        "id": 37,
+                        "count":2
+                    },
+                    {
+                        "id": 149,
+                        "count":2
+                    },
+                    {
+                        "id": 16,
+                        "count":1
+                    }
+                ]
+            },
+            {
+                "objects" :[{"pool":"normalPool","from":0,to:2},
+                    {
+                        "id": 35,
+                        "count":2
+                    },
+                    {
+                        "id": 36 ,
+                        "count":3
+                    },
+                    {
+                        "id": 37,
+                        "count":2
+                    }
+                ]
+            },
+            {
+                "objects" :[{"pool":"normalPool","from":0,to:2},
+                    {
+                        "id": 35,
+                        "count":2
+                    },
+                    {
+                        "id": 36 ,
+                        "count":2
+                    },
+                    {
+                        "id": 37,
+                        "count":2
+                    },
+                    {
+                        "id": 149,
+                        "count":2
+                    },
+                    {
+                        "id": 135,
+                        "count":1,
+                        "pos":12,
+                        "keyed":true
+                    }
+                ],
+                "exit": 29,
+                "entrance":0
+            }
+        ],
+        "dropID":[ 70
+        ],
+        "prizeWxp":170,"prizeGold":680,
+        "prizeXp":340,
+        "wxpRate":1,"goldRate":0.2,
+        "xpRate":0.1
+    },
+    {
+        "dungeonId": 106,
+        "rank": 22,
+        "levelCount" : 3,
+        "pool":{
+            "normalPool":[
+                {
+                    "id":170,
+                    "weight":1
+                },
+                {
+                    "id":171,
+                    "weight":5
+                },
+                {
+                    "id":172,
+                    "weight":5
+                },
+                {
+                    "id":173,
+                    "weight":1
+                },
+                {
+                    "id":174,
+                    "weight":5
+                },
+                {
+                    "id":175,
+                    "weight":5
+                },
+                {
+                    "id":176,
+                    "weight":1
+                },
+                {
+                    "id":177,
+                    "weight":5
+                },
+                {
+                    "id":178,
+                    "weight":1
+                },
+                {
+                    "id":179,
+                    "weight":3
+                }
+            ]
+        },
+
+        "levels" :[
+            {
+                "objects" :[{"pool":"normalPool","from":0,to:2},
+                    {
+                        "id": 17,
+                        "count":1
+                    },
+                    {
+                        "id": 10,
+                        "count":2
+                    },
+                    {
+                        "id": 149,
+                        "count":2
+                    },
+                    {
+                        "id": 13,
+                        "count":1
+                    },
+                    {
+                        "id": 9,
+                        "count":1
+                    },
+                    {
+                        "id": 38,
+                        "count":1
+                    }
+                ]
+            },
+            {
+                "objects" :[{"pool":"normalPool","from":0,to:2},
+                    {
+                        "id": 17,
+                        "count":1
+                    },
+                    {
+                        "id": 149,
+                        "count":2
+                    },
+                    {
+                        "id": 10,
+                        "count":2
+                    },
+                    {
+                        "id": 9,
+                        "count":1
+                    },
+                    {
+                        "id": 38,
+                        "count":2
+                    }
+                ]
+            },
+            {
+                "objects" :[{"pool":"normalPool","from":0,to:2},
+                    {
+                        "id": 17,
+                        "count":2
+                    },
+                    {
+                        "id": 149,
+                        "count":2
+                    },
+                    {
+                        "id": 10,
+                        "count":1
+                    },
+                    {
+                        "id": 137,
+                        "count":1,
+                        "pos":12,
+                        "keyed":true
+                    },
+                    {
+                        "id": 13,
+                        "count":2
+                    },
+                    {
+                        "id": 38,
+                        "count":1
+                    }
+                ],
+                "exit": 29,
+                "entrance":0
+            }
+        ],
+        "dropID":[ 71
+        ],
+        "prizeWxp":235,"prizeGold": 940,
+        "prizeXp":470,
+        "wxpRate":1,"goldRate":0.2,
+        "xpRate":0.1
+    },
+    {
+        "dungeonId": 107,
+        "rank": 58,
+        "levelCount" : 3,
+        "pool":{
+            "normalPool":[
+                {
+                    "id":170,
+                    "weight":1
+                },
+                {
+                    "id":171,
+                    "weight":5
+                },
+                {
+                    "id":172,
+                    "weight":5
+                },
+                {
+                    "id":173,
+                    "weight":1
+                },
+                {
+                    "id":174,
+                    "weight":5
+                },
+                {
+                    "id":175,
+                    "weight":5
+                },
+                {
+                    "id":176,
+                    "weight":1
+                },
+                {
+                    "id":177,
+                    "weight":5
+                },
+                {
+                    "id":178,
+                    "weight":1
+                },
+                {
+                    "id":179,
+                    "weight":3
+                }
+            ]
+        },
+
+        "levels" :[
+            {
+                "objects" :[{"pool":"normalPool","from":0,to:2},
+                    {
+                        "id": 18,
+                        "count":4
+                    },
+                    {
+                        "id": 39,
+                        "count":2
+                    },
+                    {
+                        "id": 11,
+                        "count":2
+                    },
+                    {
+                        "id": 38,
+                        "count":2
+                    }
+                ]
+            },
+            {
+                "objects" :[{"pool":"normalPool","from":0,to:2},
+                    {
+                        "id": 18,
+                        "count":5
+                    },
+                    {
+                        "id": 40,
+                        "count":1
+                    },
+                    {
+                        "id": 39,
+                        "count":1
+                    },
+                    {
+                        "id": 11,
+                        "count":1
+                    },
+                    {
+                        "id": 149,
+                        "count":3
+                    },
+                    {
+                        "id": 38,
+                        "count":1
+                    }
+                ]
+            },
+            {
+                "objects" :[{"pool":"normalPool","from":0,to:2},
+                    {
+                        "id": 18,
+                        "count":5
+                    },
+                    {
+                        "id": 40,
+                        "count":1
+                    },
+                    {
+                        "id": 39,
+                        "count":1
+                    },
+                    {
+                        "id": 11,
+                        "count":1
+                    },
+                    {
+                        "id": 149,
+                        "count":3
+                    },
+                    {
+                        "id": 38,
+                        "count":1
+                    },
+                    {
+                        "id": 138,
+                        "count":1,
+                        "pos":12,
+                        "keyed":true
+                    }
+                ],
+                "exit": 29,
+                "entrance":0
+            }
+        ],
+        "dropID":[  72
+        ],
+        "prizeWxp":300,"prizeGold": 1200,
+        "prizeXp":600,
+        "wxpRate":1,"goldRate":0.2,
+        "xpRate":0.1
+    },
+    {
+        "dungeonId": 108,
+        "rank": 101,
+        "levelCount" : 3,
+        "pool":{
+            "normalPool":[
+                {
+                    "id":170,
+                    "weight":1
+                },
+                {
+                    "id":171,
+                    "weight":5
+                },
+                {
+                    "id":172,
+                    "weight":5
+                },
+                {
+                    "id":173,
+                    "weight":1
+                },
+                {
+                    "id":174,
+                    "weight":5
+                },
+                {
+                    "id":175,
+                    "weight":5
+                },
+                {
+                    "id":176,
+                    "weight":1
+                },
+                {
+                    "id":177,
+                    "weight":5
+                },
+                {
+                    "id":178,
+                    "weight":1
+                },
+                {
+                    "id":179,
+                    "weight":3
+                }
+            ]
+        },
+
+        "levels" :[
+            {
+                "objects" :[{"pool":"normalPool","from":0,to:2},
+                    {
+                        "id": 42,
+                        "count":2
+                    },
+                    {
+                        "id": 43,
+                        "count":1
+                    },
+                    {
+                        "id": 47 ,
+                        "count":1
+                    },
+                    {
+                        "id": 46,
+                        "count":1
+                    }
+                ]
+            },
+            {
+                "objects" :[{"pool":"normalPool","from":0,to:2},
+                    {
+                        "id": 42,
+                        "count":2
+                    },
+                    {
+                        "id": 43,
+                        "count":1
+                    },
+                    {
+                        "id": 47 ,
+                        "count":2
+                    },
+                    {
+                        "id": 46,
+                        "count":2
+                    },
+                    {
+                        "id": 45,
+                        "count":1
+                    }
+                ]
+            },
+            {
+                "objects" :[{"pool":"normalPool","from":0,to:2},
+                    {
+                        "id": 42,
+                        "count":2
+                    },
+                    {
+                        "id": 47 ,
+                        "count":2
+                    },
+                    {
+                        "id": 149,
+                        "count":3
+                    },
+                    {
+                        "id": 43,
+                        "count":1
+                    },
+                    {
+                        "id": 46,
+                        "count":2
+                    },
+                    {
+                        "id": 139,
+                        "count":1,
+                        "pos":12,
+                        "keyed":true
+                    }
+                ],
+                "exit": 29,
+                "entrance":0
+            }
+        ],
+        "dropID":[73
+
+        ],
+        "prizeWxp":368,"prizeGold":1450,
+        "prizeXp":735,
+        "wxpRate":1,"goldRate":0.2,
+        "xpRate":0.1
+    },
+    {
+        "dungeonId": 109,
+        "rank": 130,
+        "levelCount" : 3,
+        "pool":{
+            "normalPool":[
+                {
+                    "id":170,
+                    "weight":1
+                },
+                {
+                    "id":171,
+                    "weight":5
+                },
+                {
+                    "id":172,
+                    "weight":5
+                },
+                {
+                    "id":173,
+                    "weight":1
+                },
+                {
+                    "id":174,
+                    "weight":5
+                },
+                {
+                    "id":175,
+                    "weight":5
+                },
+                {
+                    "id":176,
+                    "weight":1
+                },
+                {
+                    "id":177,
+                    "weight":5
+                },
+                {
+                    "id":178,
+                    "weight":1
+                },
+                {
+                    "id":179,
+                    "weight":3
+                }
+            ]
+        },
+
+        "levels" :[
+            {
+                "objects" :[{"pool":"normalPool","from":0,to:2},
+                    {
+                        "id": 48,
+                        "count":1
+                    },
+                    {
+                        "id": 50,
+                        "count":4
+                    },
+                    {
+                        "id": 149,
+                        "count":2
+                    },
+                    {
+                        "id": 79,
+                        "count":1
+                    },
+                    {
+                        "id": 81 ,
+                        "count":1
+                    },
+                    {
+                        "id": 71 ,
+                        "count":2
+                    }
+                ]
+            },
+            {
+                "objects" :[{"pool":"normalPool","from":0,to:2},
+                    {
+                        "id": 48,
+                        "count":2
+                    },
+                    {
+                        "id": 50,
+                        "count":3
+                    },
+                    {
+                        "id": 149,
+                        "count":2
+                    },
+                    {
+                        "id": 79,
+                        "count":1
+                    },
+                    {
+                        "id": 81 ,
+                        "count":2
+                    },
+                    {
+                        "id": 71 ,
+                        "count":1
+                    }
+                ]
+            },
+            {
+                "objects" :[{"pool":"normalPool","from":0,to:2},
+                    {
+                        "id": 48,
+                        "count":2
+                    },
+                    {
+                        "id": 50,
+                        "count":3
+                    },
+                    {
+                        "id": 149,
+                        "count":2
+                    },
+                    {
+                        "id": 79,
+                        "count":1
+                    },
+                    {
+                        "id": 81 ,
+                        "count":2
+                    },
+                    {
+                        "id": 71 ,
+                        "count":1
+                    },
+                    {
+                        "id": 140,
+                        "count":1,
+                        "pos":12,
+                        "keyed":true
+                    }
+                ],
+                "exit": 29,
+                "entrance":0
+            }
+        ],
+        "dropID":[    74
+
+        ],
+        "prizeWxp":435,"prizeGold":1740,
+        "prizeXp":870,
+        "wxpRate":1,"goldRate":0.2,
+        "xpRate":0.1
     }
 
 ];
