@@ -120,7 +120,7 @@ exports.data = [
                         "value":857
                     }
                 ]
-            },
+            }
         ]
     }
 
