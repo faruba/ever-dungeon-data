@@ -53,12 +53,12 @@ exports.data = [
         "bountyId":1,
         "title":"邪恶头领讨伐令",
         "desc":"邪恶头领聚集起来，讨伐它们获得大量强化石！",
-        "count":3,
+        "count":13,
         "date":{
             "day":[0,2,4,6],
             "segment":[
                 {
-                    "start":"18:00",
+                    "start":"10:00",
                     "end":"23:59"
                 }
             ]
