@@ -72,7 +72,7 @@ exports.data = [
         "level":[
             {
                 "powerLimit":100,
-                "stage":114,
+                "stage":108,
                 "prize":[
                     {
                         "type":0,
@@ -83,7 +83,7 @@ exports.data = [
             },
             {
                 "powerLimit":400,
-                "stage":115,
+                "stage":109,
                 "prize":[
                     {
                         "type":0,
@@ -93,7 +93,7 @@ exports.data = [
             },
             {
                 "powerLimit":1700,
-                "stage":116,
+                "stage":110,
                 "prize":[
                     {
                         "type":0,
@@ -102,7 +102,7 @@ exports.data = [
                 ]
             },{
                 "powerLimit":3800,
-                "stage":114,
+                "stage":111,
                 "prize":[
                     {
                         "type":0,
@@ -113,7 +113,7 @@ exports.data = [
             },
             {
                 "powerLimit":5300,
-                "stage":115,
+                "stage":112,
                 "prize":[
                     {
                         "type":0,
