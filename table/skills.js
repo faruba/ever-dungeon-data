@@ -346,6 +346,7 @@ exports.data = [
       "triggerCondition": [
         { "type": "event", "event": "onTeammateBeDeathStrike" },
         { "type": "event", "event": "onBeDeathStrike" },
+          {"type":"alive"},
         { "type": "chance", "chance": 0.4 },
         { "type": "targetMutex", "mutex": "lightOfMiracel" }
       ],

@@ -16,7 +16,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[//6
+=======
+	[ //6
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -35,12 +39,16 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 1,
-					"count": 1000
+					"count": 800
 				}
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[//8
+=======
+	[ //8
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -260,7 +268,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //12
+=======
+	[//12
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -370,7 +382,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[//14
+=======
+	[ //14
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -502,7 +518,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[//16
+=======
+	[ //16
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -656,7 +676,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //18
+=======
+	[//18
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -733,7 +757,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[//19
+=======
+	[ //19
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -810,7 +838,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[//20
+=======
+	[ //20
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -1041,7 +1073,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //23
+=======
+	[//23
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -1118,7 +1154,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //24
+=======
+	[//24
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -1426,7 +1466,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //28
+=======
+	[//28
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -1503,7 +1547,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[//29
+=======
+	[ //29
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -1811,7 +1859,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //33
+=======
+	[//33
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -1965,7 +2017,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[//35
+=======
+	[ //35
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -2042,7 +2098,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //36
+=======
+	[//36
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -2273,7 +2333,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //39
+=======
+	[//39
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -2427,7 +2491,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //41
+=======
+	[//41
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -2581,7 +2649,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[//43
+=======
+	[ //43
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -2658,7 +2730,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[//44
+=======
+	[ //44
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -2735,7 +2811,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[//45
+=======
+	[ //45
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -2812,7 +2892,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //46
+=======
+	[//46
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -2889,7 +2973,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //47
+=======
+	[//47
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -2966,7 +3054,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //48
+=======
+	[//48
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -3351,7 +3443,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //53
+=======
+	[//53
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -3428,7 +3524,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[  //54
+=======
+	[ //54
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -3505,7 +3605,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[  //55
+=======
+	[ //55
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -3582,7 +3686,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //56
+=======
+	[//56
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -3659,7 +3767,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[//57
+=======
+	[ //57
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -3813,7 +3925,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[//59
+=======
+	[ //59
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -4044,7 +4160,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[//62
+=======
+	[ //62
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -4121,7 +4241,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[  //63
+=======
+	[ //63
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -4198,7 +4322,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //64
+=======
+	[//64
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -4275,7 +4403,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //65
+=======
+	[//65
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -4352,7 +4484,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //66
+=======
+	[//66
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -4429,7 +4565,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //67
+=======
+	[//67
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -4506,7 +4646,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[//68
+=======
+	[ //68
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -4583,7 +4727,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //69
+=======
+	[//69
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -4785,7 +4933,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[ //75
+=======
+	[//75
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -4809,7 +4961,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[  //77
+=======
+	[ //77
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -4833,7 +4989,11 @@ exports.data = [
 			]
 		}
 	],
+<<<<<<< HEAD:stable/drop.js
 	[  //79
+=======
+	[ //79
+>>>>>>> origin/develop:table/drop.js
 		{
 			"rate": 1,
 			"prize": [
@@ -4844,5 +5004,290 @@ exports.data = [
 				}
 			]
 		}
-	]
+	],
+    [ //80
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 18,
+                    "type": 0,
+                    "value": 853,
+                    "count": 3
+                },
+                {
+                    "weight": 6,
+                    "type": 0,
+                    "value": 853,
+                    "count": 5
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 853,
+                    "count":8
+                }
+            ]
+        }
+    ],
+    [ //81
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 18,
+                    "type": 0,
+                    "value": 854,
+                    "count": 3
+                },
+                {
+                    "weight": 6,
+                    "type": 0,
+                    "value": 854,
+                    "count": 5
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 854,
+                    "count":8
+                }
+            ]
+        }
+    ],
+    [ //82
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 18,
+                    "type": 0,
+                    "value": 855,
+                    "count": 4
+                },
+                {
+                    "weight": 6,
+                    "type": 0,
+                    "value": 855,
+                    "count": 6
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 855,
+                    "count":9
+                }
+            ]
+        }
+    ],
+    [ //83
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 18,
+                    "type": 0,
+                    "value": 856,
+                    "count": 4
+                },
+                {
+                    "weight": 6,
+                    "type": 0,
+                    "value": 856,
+                    "count": 6
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 856,
+                    "count":9
+                }
+            ]
+        }
+    ],
+    [ //84
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 18,
+                    "type": 0,
+                    "value": 857,
+                    "count": 5
+                },
+                {
+                    "weight": 6,
+                    "type": 0,
+                    "value": 857,
+                    "count": 7
+                },
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 857,
+                    "count":10
+                }
+            ]
+        }
+    ],
+    [//85
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 18,
+                    "type": 0,
+                    "value":853 ,
+                   "count": 1
+                },
+                {
+                    "weight": 18,
+                    "type": 0,
+                    "value": 854,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 855,
+                    "count":1
+                },
+                {
+                    "weight": 18,
+                    "type": 0,
+                    "value": 858,
+                    "count":1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 859,
+                    "count":1
+                }
+            ]
+        },
+        {
+            "rate": 0.2,
+            "prize": [
+                {
+                    "weight": 18,
+                    "type": 0,
+                    "value":538 ,
+                    "count": 1
+                },
+                {
+                    "weight": 6,
+                    "type": 0,
+                    "value": 538,
+                    "count": 2
+                },
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 538,
+                    "count":3
+                }
+            ]
+        },
+        {
+            "rate": 0.08,
+            "prize": [
+                {
+                    "weight": 18,
+                    "type": 2,
+                    "count": 10
+                },
+                {
+                    "weight": 6,
+                    "type": 2,
+                    "count": 20
+                },
+                {
+                    "weight": 2,
+                    "type": 2,
+                    "count":40
+                }
+            ]
+        }
+    ],
+    [ //86
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 18,
+                    "type": 0,
+                    "value":856 ,
+                    "count": 2
+                },
+                {
+                    "weight": 18,
+                    "type": 0,
+                    "value": 857,
+                    "count": 2
+                },
+                {
+                    "weight": 18,
+                    "type": 0,
+                    "value": 855,
+                    "count":2
+                },
+                {
+                    "weight": 18,
+                    "type": 0,
+                    "value": 859,
+                    "count":2
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 860,
+                    "count":2
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 18,
+                    "type": 0,
+                    "value":538 ,
+                    "count": 1
+                },
+                {
+                    "weight": 6,
+                    "type": 0,
+                    "value": 538,
+                    "count": 2
+                },
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 538,
+                    "count":3
+                }
+            ]
+        },
+        {
+            "rate": 0.08,
+            "prize": [
+                {
+                    "weight": 18,
+                    "type": 2,
+                    "count": 20
+                },
+                {
+                    "weight": 6,
+                    "type": 2,
+                    "count": 40
+                },
+                {
+                    "weight": 2,
+                    "type": 2,
+                    "count":80
+                }
+            ]
+        }
+    ]
 ]
