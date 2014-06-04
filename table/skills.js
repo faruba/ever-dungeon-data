@@ -9,7 +9,7 @@ exports.data = [
       "basic" : {
         "spellAction": 2,
         "spellEffect": 45,
-        "targetEffect": 1 ,
+        "targetEffect": 45 ,
         "spellDelay": 0.3
       },
       "targetSelection": {
