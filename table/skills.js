@@ -8,7 +8,7 @@ exports.data = [
     "config": {
       "basic" : {
         "spellAction": 2,
-        "spellEffect": 4,
+        "spellEffect": 45,
         "targetEffect": 1 ,
         "spellDelay": 0.3
       },
@@ -35,7 +35,7 @@ exports.data = [
       "basic": {
         "buffEffect": 42,
         "spellAction": 4,
-        "spellEffect": 1,
+        "spellEffect": 46,
         "spellDelay": 0.3
       },
       "triggerCondition": [
@@ -247,8 +247,8 @@ exports.data = [
     "config": {
       "basic": {
         "spellAction":1,
-        "spellEffect": 4,
-        "targetEffect": 3,
+        "spellEffect": 47,
+        "targetEffect": 48,
         "spellDelay": 0.3,
         "targetDelay": 0.3
       },
