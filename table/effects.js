@@ -186,7 +186,7 @@ exports.data = [
     },
     {
         "effectId":45,
-        "file":"effect-zsyhz.ccbi"
+        "file":"effect-zsyh2.ccbi"
     },
     {
         "effectId":46,
