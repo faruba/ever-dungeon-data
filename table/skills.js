@@ -250,7 +250,7 @@ exports.data = [
         "spellEffect": 47,
         "targetEffect": 48,
         "spellDelay": 0.3,
-        "targetDelay": 0.3
+        "targetDelay": 0.7
       },
       "triggerCondition": [
         { "type": "countDown", "cd": 10 }
