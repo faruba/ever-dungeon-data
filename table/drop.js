@@ -4969,5 +4969,45 @@ exports.data = [
                 }
             ]
         }
+    ],
+    [
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 858,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 859,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 860,
+                    "count": 1
+                }
+            ]
+        }
     ]
+
 ]
