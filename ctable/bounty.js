@@ -48,8 +48,6 @@ exports.data = [
                 ]
             }
         ]
-<<<<<<< HEAD
-=======
     } ,
     {
         "bountyId":1,
@@ -209,29 +207,41 @@ exports.data = [
                     }
                 ]
 
-            },
+            }
+        ]
+    },
+    {
+        "bountyId":4,
+        "title":"地牢狩猎",
+        "desc":"地牢狩猎活动开启，捉拿悬赏怪物，成为最强地牢猎人！",
+        "count":13,
+        "date":{
+            "segment":[
+                {
+                    "start":"10:00",
+                    "end":"23:59"
+                }
+            ]
+        },
+        "begin":1,
+        "titlePic":"bounty-icon5.png",
+        "timePic":"bounty-time5.png",
+        "notify":1,
+        "notifyButton":"加入",
+        "notifyText":"地牢狩猎全面开启，赶紧加入最强猎人排行！",
+        "level":[
             {
-                "powerLimit":3800,
-                "stage":111,
+                "powerLimit":100,
+                "stage":108,
                 "prize":[
                     {
                         "type":0,
-                        "value":856
+                        "value":853
                     }
                 ]
 
-            },
-            {
-                "powerLimit":5300,
-                "stage":112,
-                "prize":[
-                    {
-                        "type":0,
-                        "value":857
-                    }
-                ]
             }
+
         ]
->>>>>>> origin/bounty
     }
 ]

@@ -4970,45 +4970,6 @@ exports.data = [
             ]
         }
     ],
-    [
-        {
-            "rate": 1,
-            "prize": [
-                {
-                    "weight": 10,
-                    "type": 0,
-                    "value": 858,
-                    "count": 1
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "rate": 1,
-            "prize": [
-                {
-                    "weight": 10,
-                    "type": 0,
-                    "value": 859,
-                    "count": 1
-                }
-            ]
-        }
-    ],
-    [
-        {
-            "rate": 1,
-            "prize": [
-                {
-                    "weight": 10,
-                    "type": 0,
-                    "value": 860,
-                    "count": 1
-                }
-            ]
-        }
-    ],
     [//85
         {
             "rate": 1,
@@ -5168,6 +5129,45 @@ exports.data = [
                 }
             ]
         }
-    ]
+    ],
+    [ //87
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 858,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //88
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 859,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //89
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 860,
+                    "count": 1
+                }
+            ]
+        }
+    ],
 
 ]
