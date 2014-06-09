@@ -6835,6 +6835,10 @@ exports.data = [
             {
                 "id": 125,
                 "level": 1
+            },
+            {
+                "id": 34,
+                "level": 1
             }
         ],
         "dropInfo": [
@@ -6881,6 +6885,10 @@ exports.data = [
             {
                 "id": 125,
                 "level": 1
+            },
+            {
+                "id": 34,
+                "level": 1
             }
         ],
         "dropInfo": [
@@ -6926,6 +6934,10 @@ exports.data = [
             },
             {
                 "id": 125,
+                "level": 1
+            },
+            {
+                "id": 34,
                 "level": 1
             }
         ],
