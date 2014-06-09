@@ -181,7 +181,6 @@ exports.data = [
         "bountyId":3,
         "title":"铁人试炼状",
         "desc":"强大且变幻莫测的无尽地牢已经开启，谁才能够获得地下城勇者铁人的称号？",
-        "count":13,
         "date":{
             "segment":[
                 {
@@ -214,7 +213,6 @@ exports.data = [
         "bountyId":4,
         "title":"地牢狩猎",
         "desc":"地牢狩猎活动开启，捉拿悬赏怪物，成为最强地牢猎人！",
-        "count":13,
         "date":{
             "segment":[
                 {
