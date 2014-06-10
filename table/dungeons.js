@@ -27876,6 +27876,119 @@ exports.data = [
 
             ],
         "rank":15
+    },
+   {
+        "dungeonId": 118,
+        "levelCount" :1,
+        "pool":{
+            "rangePool":[
+                { "id":8, "weight":2 },
+                {
+                    "id":13,
+                    "weight":2
+                },
+                {
+                    "id":16,
+                    "weight":2
+                },
+                {
+                    "id":40,
+                    "weight":2
+                },
+                {
+                    "id":45,
+                    "weight":2
+                },
+                {
+                    "id":48,
+                    "weight":2
+                },
+                {
+                    "id":72,
+                    "weight":2
+                },
+                {
+                    "id":77,
+                    "weight":2
+                },
+                {
+                    "id":80,
+                    "weight":2
+                },
+                {
+                    "id":114,
+                    "weight":2
+                },
+                {
+                    "id":109,
+                    "weight":2
+                },
+                {
+                    "id":112,
+                    "weight":2
+                }
+
+            ],
+            "normalPool":[
+                {
+                    "id":170,
+                    "weight":3
+                },
+                {
+                    "id":171,
+                    "weight":3
+                },
+                {
+                    "id":172,
+                    "weight":3
+                },
+                {
+                    "id":173,
+                    "weight":3
+                },
+                {
+                    "id":174,
+                    "weight":3
+                },
+                {
+                    "id":175,
+                    "weight":3
+                },
+                {
+                    "id":176,
+                    "weight":3
+                },
+                {
+                    "id":177,
+                    "weight":3
+                },
+                {
+                    "id":178,
+                    "weight":3
+                },
+                {
+                    "id":179,
+                    "weight":3
+                }
+            ]
+        },
+        "levels" :[
+            {
+                "objects" :[
+                    {"pool":"normalPool","from":0,to:3},
+                    {"pool":"rangePool","from":0,to:1},
+                    {"pool":"PVP","count":1},
+                    {"id": 149,"from":0,to:2},
+                    {"id": 197,"count":1,"keyed":true}
+
+                ]
+            }
+        ],
+        "dropID":
+            [
+
+            ],
+        "rank":15
     }
 
 ];
