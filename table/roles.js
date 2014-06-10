@@ -7066,5 +7066,74 @@ exports.data = [
         "dropInfo": [
             90
         ]
+    },
+    {
+        "classId": 197,
+        "className": "pk战士",
+        "faction": "monster",
+        "classType": 1,
+        "avatar": "avatar.ccbi",
+        "emblem": [
+            "emblem-warrior.png",
+            "emblem-warrior2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            40,
+            41,
+            42,
+            43,
+            662,
+            712
+        ],
+        "levelId": 4
+    },
+    {
+        "classId": 198,
+        "className": "法师",
+        "faction": "hero",
+        "classType": 1,
+        "avatar": "avatar.ccbi",
+        "emblem": [
+            "emblem-mage.png",
+            "emblem-mage2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            32,
+            33,
+            34,
+            35,,
+            652,
+            742
+        ],
+        "levelId": 1
+    },
+    {
+        "classId": 199,
+        "className": "牧师",
+        "faction": "monster",
+        "classType": 1,
+        "avatar": "avatar.ccbi",
+        "emblem": [
+            "emblem-priest.png",
+            "emblem-priest2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            36,
+            37,
+            38,
+            39,
+            682,
+            772
+        ],
+        "levelId": 2
     }
 ]
