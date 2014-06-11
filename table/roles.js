@@ -6804,6 +6804,7 @@ exports.data = [
         "className": "装备达人",
         "faction": "monster",
         "classType": 1,
+        "counterAttack": true,
         "avatar": "enemy-zbdr1.ccbi",
         "property": {
             "health": 2,
@@ -6853,6 +6854,7 @@ exports.data = [
         "className": "强劲装备达人",
         "faction": "monster",
         "classType": 1,
+        "counterAttack": true,
         "avatar": "enemy-zbdr2.ccbi",
         "property": {
             "health": 1,
@@ -6902,6 +6904,7 @@ exports.data = [
         "className": "威力装备达人",
         "faction": "monster",
         "classType": 1,
+        "counterAttack": true,
         "avatar": "enemy-zbdr3.ccbi",
         "property": {
             "health": 3,
