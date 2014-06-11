@@ -3509,5 +3509,5 @@ exports.data = [
                 {"type": "heal","self":true,"formular": {"c":180}}
             ]
         }
-    },
+    }
 ]
