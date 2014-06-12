@@ -201,8 +201,19 @@ exports.data = [
                 "stage":120,
                 "prize":[
                     {
+                        "type":2
+                    },
+                    {
                         "type":0,
-                        "value":853
+                        "value":867
+                    },
+                    {
+                        "type":0,
+                        "value":868
+                    },
+                    {
+                        "type":0,
+                        "value":869
                     }
                 ]
 
@@ -233,9 +244,21 @@ exports.data = [
                 "stage":121,
                 "prize":[
                     {
+                        "type":0
+                    },
+                    {
                         "type":0,
-                        "value":853
+                        "value":864
+                    },
+                    {
+                        "type":0,
+                        "value":865
+                    },
+                    {
+                        "type":0,
+                        "value":866
                     }
+
                 ]
 
             }
