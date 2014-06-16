@@ -16365,7 +16365,7 @@ exports.data = [
         "prizeXp":885,
         "wxpRate":1,"goldRate":0.3,
         "xpRate":0.4,
-        "rank":178
+        "rank":458
     },
     {
         "dungeonId": 73,
