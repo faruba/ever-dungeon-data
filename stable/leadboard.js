@@ -18,7 +18,7 @@ exports.data = [
     },
     {
         "name":"Arena",
-        "key":"counters.trophy",
+        "key":"counters.arena",
         "reverse": true,
         "initialValue": 'length',
         "type":"player",
