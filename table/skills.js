@@ -3020,12 +3020,8 @@ exports.data = [
         "config": {
             "basic" : { },
             "triggerCondition": [
-<<<<<<< HEAD
-                { "type": "event", "event": "onTurnBegin", "count": 14 }
-=======
                 { "type":"event","event":"onTurnBegin", "eventCount": 5 },
                 { "type": "chance", "chance": 0.3}
->>>>>>> 9f184261d585e27ef316ee4099d4ed6a48352b77
             ],
             "targetSelection": {
                 "pool": "self",
@@ -3134,12 +3130,8 @@ exports.data = [
                 "targetDelay": 0.3
             },
             "triggerCondition": [
-<<<<<<< HEAD
-                { "type": "event", "event": "onTurnBegin", "eventCount": 14 }
-=======
                 { "type":"event","event":"onTurnBegin", "eventCount": 3 },
                 { "type": "chance", "chance": 0.5}
->>>>>>> 9f184261d585e27ef316ee4099d4ed6a48352b77
             ],
             "targetSelection": {
                 "pool": "objects",
@@ -3527,4 +3519,4 @@ exports.data = [
             ]
         }
     }
-]
+];
