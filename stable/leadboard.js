@@ -17,6 +17,14 @@ exports.data = [
         "availableCondition":true
     },
     {
+        "name":"Arena",
+        "key":"counters.trophy",
+        "reverse": true,
+        "initialValue": 'length',
+        "type":"player",
+        "availableCondition":true
+    },
+    {
         "name":"killMonster",
         "key":"counters.monster",
         "resetTime": { day: 1},
