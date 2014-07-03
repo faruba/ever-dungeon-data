@@ -3441,13 +3441,13 @@ exports.data = [
                 "type":0,
                 "label":"收集炼制结晶I",
                 "collect":125001,
-                "count":5
+                "count":2
             },
             {
                 "type":0,
                 "label":"收集炼制结晶II",
                 "collect":125002,
-                "count":5
+                "count":2
             },
             {
                 "type":0,
@@ -3504,7 +3504,7 @@ exports.data = [
                 "type":0,
                 "label":"营救村民",
                 "collect":127001,
-                "count":5
+                "count":3
             }
         ],
         "prize":[
