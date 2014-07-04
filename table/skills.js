@@ -1808,7 +1808,7 @@ exports.data = [
         "label":"暴击特效",
         "config": {
             "triggerCondition": [
-                { "type": "event", "event": "onCriticalDamage" }
+                { "type": "event", "event": "onPhysicalDamage" }
             ],
         "action":[
             { "type": "shock", "delay":0.3, "range":5, "time":0.2 }
