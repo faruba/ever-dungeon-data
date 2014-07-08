@@ -4,21 +4,39 @@ exports.data = [
         "levelData":[
             {
                 "xp":0,
-                "skill": [{"id":0, "level": 1},
+                "skill": [
+                    {"id":0, "level": 1,"classLimit":0},
+                    {"id":5, "level": 1,"classLimit":1},
+                    {"id":8, "level": 1,"classLimit":2},
                     {"id":76}]
             },
             {
-                "xp":250,
+                "xp":100,
                 "property":{
-                    "health": 6,
+                    "health": 2,
                     "attack": 1,
                     "critical": 1,
-                    "strong": 2,
+                    "strong": 0,
                     "accuracy": 1,
-                    "reactivity": 1,
+                    "reactivity": 0,
                     "speed": 1
                 },
                 "skill": [{"id":2, "level": 1}]
+            },
+            {
+                "xp":100,
+                "property":{
+                    "health": 2,
+                    "attack": 1,
+                    "critical": 1,
+                    "strong": 0,
+                    "accuracy": 1,
+                    "reactivity": 0,
+                    "speed": 1
+                },
+                "skill": [
+                    {"id":2, "level": 1}
+                ]
             },
             {
                 "xp":1600,
