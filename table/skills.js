@@ -3607,5 +3607,271 @@ exports.data = [
                 {"type":"delay"},
                 {"type":"kill"}]
         }
+    },
+    {
+        "skillId": 156,
+        "label":"每回合传送",
+        "config": {
+            "triggerCondition": [
+                {"type" :"event", "event":"onTurnEnd" },
+                {"type":"alive"}
+            ],
+            "targetSelection":{
+                "pool":"self",
+                "filter": [{"type":"alive"},{"type": "visible"}]
+            },
+            "action": [
+                {"type": "delay"},
+                {"type":"playEffect","effect":20,"pos":"self"},
+                {"type":"playAction","motion":6,"pos":"self"},
+                {"type": "delay"},
+                {"type": "randTeleport"},
+                {"type": "delay"},
+                {"type":"playEffect","effect":21,"pos":"self"},
+                {"type":"playAction","motion":5,"pos":"self"}
+            ]
+        }
+    },
+    {
+        "skillId": 156,
+        "label":"闪避特效",
+        "config": {
+            "triggerCondition": [
+                {"type" :"event", "event":"Dodge" },
+                {"type":"alive"}
+            ],
+            "targetSelection":{
+                "pool":"self",
+                "filter": [{"type":"alive"},{"type": "visible"}]
+            },
+            "action": [
+                {"type":"playEffect","effect":20,"pos":"self"}
+            ]
+        }
+    },
+    {
+        "skillId": 157,
+        "label":"吸血",
+        "config": {
+            "basic": {
+                "targetEffect": 3,
+                "targetDelay": 0.3
+            },
+            "triggerCondition": [
+                {"type" :"event", "event":"onPhysicalDamage" },
+                {"type":"alive"}
+            ],
+            "targetSelection":{
+                "pool":"self",
+                "filter": [{"type":"alive"},{"type": "visible"}]
+            },
+            "action": [
+                {"type": "heal","formular":{"src":{"attack":0.1},"c": 5}}
+            ]
+        }
+    },
+    {
+        "skillId": 158,
+        "label":"减速",
+        "config": {
+            "basic": {
+                "targetEffect": 17,
+                "targetDelay": 0.3
+            },
+            "triggerCondition": [
+                {"type" :"event", "event":"onPhysicalDamage" },
+                { "type": "chance", "chance": 0.3 },
+                {"type":"alive"}
+            ],
+            "targetSelection":{
+                "pool":"target",
+                "filter": [{"type":"alive"},{"type": "visible"}]
+            },
+            "action": [
+                {"type": "installSpell","spell": 160}
+            ]
+        }
+    },
+    {
+        "skillId": 159,
+        "label":"中毒",
+        "config": {
+            "triggerCondition": [
+                {"type" :"event", "event":"onPhysicalDamage" },
+                { "type": "chance", "chance": 0.3 },
+                {"type":"alive"}
+            ],
+            "targetSelection":{
+                "pool":"target",
+                "filter": [{"type":"alive"},{"type": "visible"}]
+            },
+            "action":[
+                {"type":"delay"},
+                {"type": "installSpell", "spell": 94},
+                {"type": "playEffect","effect":36,"pos":"target","delay":2.0},
+                {"type":"playAction","motion":1,"pos":"self"},
+                {"type":"delay"},
+                {"type":"kill","self": true}
+
+            ]
+        }
+    },
+    {
+        "skillId": 160,
+        "config": {
+            "installAction":[
+                {
+                    "type": "setProperty","modifications": {"speed":{"src":{"speed":-0.5}}}
+                }
+            ],
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "buffType":"RoleDebuff",
+            "availableCondition": [
+                { "type": "event", "event": "onEndBattleTurn", "eventCount": 2 }
+            ]
+        }
+    },
+    {
+        "skillId": 161,
+        "label":"蓄力暴击",
+        "slotId": 1,
+        "config":{
+            "targetSelection": { "pool": "self" },
+            "triggerCondition": [
+                { "type": "event", "event": "onBeEndBattleTurn", "count": 1 },
+                {"type":"visible"},
+                {"type":"alive"}
+            ],
+            "installAction": [
+                { "type": "removeSpell", "spell": 162},
+                { "type": "installSpell", "spell": 162}
+            ],
+            "action": [
+                {"type": "setMyMutex", "mutex": "xuli", "count": 1},
+                { "type": "removeSpell", "spell": 162},
+                { "type": "installSpell", "spell": 162}
+            ]
+        }
+    },
+    {
+        "skillId": 162,
+        "config": {
+            "action":[
+                {"type": "playEffect","effect":28,"pos":"self"},
+                { "type": "setProperty","modifications": {"critical":{"c":15}}}
+            ],
+            "targetSelection":{ "pool":"self" },
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "triggerCondition": [
+                { "type":"event", "event":"onBattleTurnEnd" },
+                { "type":"event", "event":"onMoveTurnEnd" },
+                {"type":"visible"},
+                {"type": "myMutex", "mutex": "xuli" }
+            ]
+        }
+    },
+    {
+        "skillId": 163,
+        "label":"蓄力速度",
+        "slotId": 1,
+        "config":{
+            "targetSelection": { "pool": "self" },
+            "triggerCondition": [
+                { "type": "event", "event": "onBeEndBattleTurn", "count": 1 },
+                {"type":"visible"},
+                {"type":"alive"}
+            ],
+            "installAction": [
+                { "type": "removeSpell", "spell": 164},
+                { "type": "installSpell", "spell": 164}
+            ],
+            "action": [
+                {"type": "setMyMutex", "mutex": "xuli", "count": 1},
+                { "type": "removeSpell", "spell": 164},
+                { "type": "installSpell", "spell": 164}
+            ]
+        }
+    },
+    {
+        "skillId": 164,
+        "config": {
+            "action":[
+                {"type": "playEffect","effect":28,"pos":"self"},
+                { "type": "setProperty","modifications": {"speed":{"c":5}}}
+            ],
+            "targetSelection":{ "pool":"self" },
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "triggerCondition": [
+                { "type":"event", "event":"onBattleTurnEnd" },
+                { "type":"event", "event":"onMoveTurnEnd" },
+                {"type":"visible"},
+                {"type": "myMutex", "mutex": "xuli" }
+            ]
+        }
+    },
+    {
+        "skillId": 165,
+        "label":"蓄力攻击",
+        "slotId": 1,
+        "config":{
+            "targetSelection": { "pool": "self" },
+            "triggerCondition": [
+                { "type": "event", "event": "onBeEndBattleTurn", "count": 1 },
+                {"type":"visible"},
+                {"type":"alive"}
+            ],
+            "installAction": [
+                { "type": "removeSpell", "spell": 166},
+                { "type": "installSpell", "spell": 166}
+            ],
+            "action": [
+                {"type": "setMyMutex", "mutex": "xuli", "count": 1},
+                { "type": "removeSpell", "spell": 166},
+                { "type": "installSpell", "spell": 166}
+            ]
+        }
+    },
+    {
+        "skillId": 166,
+        "config": {
+            "action":[
+                {"type": "playEffect","effect":28,"pos":"self"},
+                { "type": "setProperty","modifications": {"attack":{"c":25}}}
+            ],
+            "targetSelection":{ "pool":"self" },
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "triggerCondition": [
+                { "type":"event", "event":"onBattleTurnEnd" },
+                { "type":"event", "event":"onMoveTurnEnd" },
+                {"type":"visible"},
+                {"type": "myMutex", "mutex": "xuli" }
+            ]
+        }
+    },
+    {
+        "skillId": 167,
+        "label":"减攻加血",
+        "config":{
+            "triggerCondition": [
+                {"type" :"event","event": "onShow"}
+            ],
+            "targetSelection":{
+                "pool": "objects",
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"monster"}]
+            },
+            "action": [
+                {"type": "setMyMutex", "mutex": "xuli", "count": 1},
+                { "type": "removeSpell", "spell": 166},
+                { "type": "installSpell", "spell": 166}
+            ]
+        }
     }
 ];

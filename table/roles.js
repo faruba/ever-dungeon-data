@@ -7674,5 +7674,46 @@ exports.data = [
                 "level": 1
             }
         ]
+    },
+    {
+        "classId": 212,
+        "className": "xxx",
+        "faction": "monster",
+        "classType": 1,
+        "avatar": "xxx.ccbi",
+        "property": {
+            "health": 1,
+            "attack": 1,
+            "critical": 1,
+            "strong": 1,
+            "accuracy": 1,
+            "reactivity": 1,
+            "speed": 1,
+            "counterAttack": true,
+            "exp": 0,
+            "gold": 0
+        },
+        "xproperty": {
+            "balance": 0.2,
+            "health": 0.2,
+            "attack": 0.2,
+            "critical": 0.2,
+            "strong": 0.2,
+            "accuracy": 0.2,
+            "reactivity": 0.2,
+            "speed": 0.2
+        },
+        "soundSpawn": "xxx.mp3",
+        "soundWound": "xxxwound.mp3",
+        "soundAttack": "xxxattack.mp3",
+        "soundDie": "xxxdie.mp3",
+        "effectAttack": 9,
+        "scale": 1,
+        "skill": [
+            {
+                "id": 156,
+                "level": 1
+            }
+        ]
     }
 ]
