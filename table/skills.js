@@ -1192,7 +1192,6 @@ exports.data = [
           },
           "buffType":"RoleBuff"
       }
-
   },
   {
       "skillId": 46,
@@ -3861,11 +3860,12 @@ exports.data = [
         "label":"减攻加血",
         "config":{
             "triggerCondition": [
-                {"type" :"event","event": "onShow"}
+                {"type": "property", "property":"health","to": 60 },
+                {"type":"event","event":"onBattleTurnEnd"}
             ],
             "targetSelection":{
-                "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
+                "pool": "self",
+                "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "action": [
                 {"type":"delay"},
@@ -3883,11 +3883,12 @@ exports.data = [
         "label":"减血加攻",
         "config":{
             "triggerCondition": [
-                {"type" :"event","event": "onShow"}
+                {"type": "property", "property":"health","to": 60 },
+                {"type":"event","event":"onBattleTurnEnd"}
             ],
             "targetSelection":{
-                "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
+                "pool": "self",
+                "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "action": [
                 {"type":"delay"},
@@ -3907,11 +3908,12 @@ exports.data = [
         "label":"加攻加血",
         "config":{
             "triggerCondition": [
-                {"type" :"event","event": "onShow"}
+                {"type": "property", "property":"health","to": 60 },
+                {"type":"event","event":"onBattleTurnEnd"}
             ],
             "targetSelection":{
-                "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
+                "pool": "self",
+                "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "action": [
                 {"type":"delay"},
@@ -4064,10 +4066,34 @@ exports.data = [
             },
             "action":[
                 {"type":"delay"},
-                { "type": "installSpell", "spell": 178,"delay":1.5} ,
                 {"type": "playEffect","effect":13,"pos":"self","delay":1.5} ,
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type": "setProperty","modifications": {"attack":{"src":{"attack":0.5},"c":2}}}
+            ]
+        }
+    },
+    {
+        "skillId": 178,
+        "label":"传送2",
+        "config": {
+            "triggerCondition": [
+                {"type" :"event", "event":"onTurnEnd" },
+                {"type":"alive"},
+                { "type": "chance", "chance":0.5 }
+            ],
+            "targetSelection":{
+                "pool":"self",
+                "filter": [{"type":"alive"},{"type": "visible"}]
+            },
+            "action": [
+                {"type": "delay"},
+                {"type":"playEffect","effect":20,"pos":"self"},
+                {"type":"playAction","motion":6,"pos":"self"},
+                {"type": "delay"},
+                {"type": "randTeleport"},
+                {"type": "delay"},
+                {"type":"playEffect","effect":21,"pos":"self"},
+                {"type":"playAction","motion":5,"pos":"self"}
             ]
         }
     },
@@ -4135,11 +4161,11 @@ exports.data = [
         "slotId": 0,
         "config": {
             "triggerCondition": [
-                {"type" :"event","event": "onKill"}
+                {"type" :"event","event": "onBeDeathStrike"}
             ],
             "targetSelection": {
-                "pool": "Enemy",
-                "filter": ["alive", "visible"]
+                "pool": "objects",
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"} ]
             },
             "action":[
                 { "type": "installSpell", "spell": 183}
@@ -4218,6 +4244,86 @@ exports.data = [
             ],
             "levelConfig": [
                 { "formular": {"environment": {"damage":0.8}} }
+            ]
+        }
+    },
+    {
+        "skillId": 186,
+        "label":"分裂",
+        "config": {
+            "triggerCondition": [
+                {"type" :"event", "event":"onTurnEnd" },
+                {"type":"alive"},
+                { "type": "chance", "chance":0.5 }
+            ],
+            "targetSelection":{
+                "pool":"self",
+                "filter": [{"type":"alive"},{"type": "visible"}]
+            },
+            "action": [{"type": "createMonster","effect":21,"randomPos":true}] ,
+            "levelConfig" : [
+                { "objectCount":2,"monsterID":19},
+                { "objectCount":4,"monsterID":19,"withKey":true},
+                { "objectCount":2,"monsterID":51},
+                { "objectCount":4,"monsterID":51,"withKey":true},
+                { "objectCount":2,"monsterID":83},
+                { "objectCount":4,"monsterID":83,"withKey":true},
+                { "objectCount":2,"monsterID":115},
+                { "objectCount":4,"monsterID":115,"withKey":true}
+            ]
+        }
+    },
+    {
+        "skillId": 187,
+        "label":"弱变强",
+        "config":{
+            "triggerCondition":[
+                {"type":"countDown","cd":10},
+                {"type":"event","event":"onTurnEnd"}
+            ],
+            "targetSelection":{
+                "pool":"self",
+                "filter":[{"type":"alive"},{"type":"visible"}]
+            },
+            "action":[
+                {"type":"delay"},
+                {"type": "playEffect","effect":13,"pos":"self","delay":1.5} ,
+                {"type":"playAction","motion":1,"pos":"self"},
+                {"type": "setProperty","modifications": {"health":{"src":{"health":0.5}}} },
+                {"type": "setProperty","modifications": {"attack":{"src":{"attack":0.5}}} },
+                {"type": "setProperty","modifications": {"critical":{"src":{"critical":0.5}}} },
+                {"type": "setProperty","modifications": {"strong":{"src":{"strong":0.5}}} },
+                {"type": "setProperty","modifications": {"accuracy":{"src":{"accuracy":0.5}}} },
+                {"type": "setProperty","modifications": {"reactivity":{"src":{"reactivity":0.5}}} },
+                {"type": "setProperty","modifications": {"speed":{"src":{"speed":0.5}}} },
+                {"type": "setScale","modifications": {"scale":{"src":{"scale":0.1}}} }
+            ]
+        }
+    },
+    {
+        "skillId": 188,
+        "label":"强变弱",
+        "config":{
+            "triggerCondition":[
+                {"type":"countDown","cd":10},
+                {"type":"event","event":"onTurnEnd"}
+            ],
+            "targetSelection":{
+                "pool":"self",
+                "filter":[{"type":"alive"},{"type":"visible"}]
+            },
+            "action":[
+                {"type":"delay"},
+                {"type": "playEffect","effect":13,"pos":"self","delay":1.5} ,
+                {"type":"playAction","motion":1,"pos":"self"},
+                {"type": "setProperty","modifications": {"health":{"src":{"health":-0.5}}} },
+                {"type": "setProperty","modifications": {"attack":{"src":{"attack":-0.5}}} },
+                {"type": "setProperty","modifications": {"critical":{"src":{"critical":-0.5}}} },
+                {"type": "setProperty","modifications": {"strong":{"src":{"strong":-0.5}}} },
+                {"type": "setProperty","modifications": {"accuracy":{"src":{"accuracy":-0.5}}} },
+                {"type": "setProperty","modifications": {"reactivity":{"src":{"reactivity":-0.5}}} },
+                {"type": "setProperty","modifications": {"speed":{"src":{"speed":-0.5}}} },
+                {"type": "setScale","modifications": {"scale":{"src":{"scale":-0.1}}} }
             ]
         }
     }
