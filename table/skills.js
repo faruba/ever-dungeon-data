@@ -4106,5 +4106,119 @@ exports.data = [
                 {"type": "damage","damageType":"poison","formular": {"src":{"health":0.1}}}
             ]
         }
+    },
+    {
+        "skillId": 181,
+        "label":"死后复活一次",
+        "config": {
+            "basic": {
+                "targetEffect": 22
+            },
+            "triggerCondition": [
+                {"type" :"event", "event": "onBeKill"}
+            ],
+            "targetSelection": {
+                "pool": "self"
+            },
+            "action":[
+                {"type": "resurrect"}
+            ],
+            "availableCondition": [
+                { "type": "event", "event": "onEndBattleTurn", "eventCount": 1 }
+            ]
+        }
+    },
+    {
+        "skillId": 182,
+        "label":"元素",
+        "desc":"死后全体加无敌",
+        "slotId": 0,
+        "config": {
+            "triggerCondition": [
+                {"type" :"event","event": "onKill"}
+            ],
+            "targetSelection": {
+                "pool": "Enemy",
+                "filter": ["alive", "visible"]
+            },
+            "action":[
+                { "type": "installSpell", "spell": 183}
+            ]
+        }
+    },
+    {
+        "skillId": 183,
+        "config": {
+            "basic": {
+                "spellEffect": 1,
+                "spellDelay": 0.3
+            },
+            "triggerCondition": [
+                { "type": "event", "event": "onBePhysicalDamage" },
+                { "type": "event", "event": "onBePhysicalRangeDamage" },
+                { "type": "event", "event": "onBeSpellDamage" },
+                { "type": "event", "event": "onBeSpellRangeDamage" }
+            ],
+            "availableCondition": [
+                { "type": "effectCount","count":6 }
+            ],
+            "action": [
+                { "type": "modifyVar", "x": "damage", "formular": {"environment": {"damage":0}} }
+            ]
+        }
+    },
+    {
+        "skillId": 184,
+        "label":"嗜血",
+        "config": {
+            "basic" : {
+                "spellEffect": 28
+            },
+            "installAction":[
+                { "type": "setProperty",  "modifications": {"attack":{"c":6}} },
+                { "type": "setProperty",  "modifications": {"speed":{"src":{"speed":3},"c":20}} }
+            ],
+            "triggerCondition": [
+                {"type":"event","event":"onShow"}
+            ],
+            "targetSelection": {
+                "pool": "self"
+            },
+            "buffType":"RoleBuff"
+        }
+    },
+    {
+        "skillId": 185,
+        "label":"援护2",
+        "config": {
+            "basic" : {
+                "spellAction":4,
+                "spellEffect": 9,
+                "targetEffect": 1 ,
+                "spellDelay": 0,
+                "targetDelay": 0
+            },
+            "targetSelection": {
+                "pool": "target",
+                "filter": [{"type":"alive"},{"type":"visible"}]
+            },
+            "triggerCondition": [
+                { "type": "event", "event": "onTeammateBePhysicalDamage" },
+                { "type": "event", "event": "onTeammateBePhysicalRangeDamage" },
+                { "type": "chance", "chance": 0.45 },
+                { "type": "targetMutex", "mutex": "reinforce" },
+                {"type":"alive"}
+            ],
+            "action": [
+                {"type": "modifyVar", "x": "damage" },
+                {"type": "setTargetMutex", "mutex": "reinforce", "count": 1 },
+                {"type": "setMyMutex", "mutex": "reinforce", "count": 1 },
+                {"type": "replaceTar" },
+                {"type": "ignoreHurt" }
+            ],
+            "levelConfig": [
+                { "formular": {"environment": {"damage":0.8}} }
+            ]
+        }
     }
 ];
