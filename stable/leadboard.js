@@ -36,4 +36,13 @@ exports.data = [
         "availableCondition":true,
         "event":"",
     },
+    {
+        "name":"WorldBoss",
+        "key":"counters.worldBoss",
+        "reverse": false,
+        "type":"player",
+        "availableCondition":true,
+        "event":"",
+    },
+
 ];
