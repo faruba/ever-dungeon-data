@@ -4326,5 +4326,203 @@ exports.data = [
                 {"type": "setScale","modifications": {"scale":{"src":{"scale":-0.1}}} }
             ]
         }
+    },
+    {
+        "skillId": 189,
+        "label":"怒之力",
+        "icon": "skill-warrior1.png",
+        "desc": "降低命中1回合，提高攻击力2回合。",
+        "slotId": 0,
+        "config": {
+            "basic" : {
+                "spellAction": 2,
+                "spellEffect": 45,
+                "spellDelay": 0.3
+            },
+            "targetSelection": {
+                "pool": "self"
+            },
+            "triggerCondition": [
+                { "type": "countDown", "cd": 10 }
+            ],
+            "action": [
+                { "type": "installSpell", "spell": 190},
+                { "type": "installSpell", "spell": 191}
+            ],
+            "levelConfig": [
+                {"level": 1},
+                {"level": 2},
+                {"level": 3}
+            ]
+        }
+    },
+    {
+        "skillId": 190,
+        "config": {
+            "installAction":[
+                { "type": "setProperty" }
+            ],
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "buffType":"AttackDebuff",
+            "availableCondition": [
+                { "type": "event", "event": "onEndBattleTurn", "eventCount": 2 }
+            ],
+            "levelConfig":[
+                { "modifications": {"attack":{"src":{"attack":1}}}, "level": 1},
+                { "modifications": {"attack":{"src":{"attack":1}}}, "level": 1.5},
+                { "modifications": {"attack":{"src":{"attack":1}}}, "level": 2.5}
+            ]
+        }
+    },
+    {
+        "skillId": 191,
+        "config": {
+            "installAction":[
+                { "type": "setProperty","modifications": {"accuracy":{"src":{"accuracy":-0.95}}} }
+            ],
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "buffType":"DeBuff",
+            "availableCondition": [
+                { "type": "event", "event": "onEndBattleTurn", "eventCount": 1 }
+            ]
+        }
+    },
+    {
+        "skillId": 192,
+        "label":"血之狂怒",
+        "icon": "skill-warrior2.png",
+        "desc":"狂战士将累积受到的伤害在下一轮攻击中反馈给敌人。",
+        "slotId": 1 ,
+        "config": {
+            "basic" : {
+                "spellAction":4,
+                "spellEffect": 9,
+                "targetEffect": 1 ,
+                "spellDelay": 0,
+                "targetDelay": 0
+            },
+            "targetSelection": {
+                "pool": "target",
+                "filter": [{"type":"alive"},{"type":"visible"}]
+            },
+            "triggerCondition": [
+                { "type": "event", "event": "onPhysicalDamage" },
+                {"type":"alive"}
+            ],
+            "action": [
+                { "type": "modifyVar", "x": "damage" },
+                {"type": "blink","delay":0.3,"time":0.08},
+                {"type":"shock","delay":0.3,"range":5,"time":0.2}
+            ],
+            "levelConfig": [
+                { "formular": {"src": {"health":0.5,"attack":1}}  },
+                { "formular": {"src": {"health":0.8,"attack":1}}  },
+                { "formular": {"src": {"health":1.2,"attack":1}}  }
+            ]
+        }
+    },
+    {
+        "skillId": 193,
+        "label":"咆哮",
+        "icon": "skill-warrior2.png",
+        "desc":"几率降低怪物命中。",
+        "slotId": 2 ,
+        "config": {
+            "basic" : {
+                "spellAction":4,
+                "spellEffect": 9,
+                "targetEffect": 1 ,
+                "spellDelay": 0,
+                "targetDelay": 0
+            },
+            "targetSelection": {
+                "pool": "Enemy",
+                "filter": [{"type":"alive"},{"type":"visible"}]
+            },
+            "triggerCondition": [
+                { "type": "event", "event": "onPhysicalDamage" },
+                {"type":"alive"}
+            ],
+            "action": [
+                { "type": "resetProperty" }
+            ],
+            "levelConfig": [
+                { "chance":0.3,"modifications": {"accuracy":{"c":-10}}, "level": 1},
+                { "chance":0.4,"modifications": {"accuracy":{"c":10}}, "level": 2},
+                { "chance":0.4,"modifications": {"accuracy":{"c":-15}}, "level": 3}
+            ]
+        }
+    },
+    {
+        "skillId": 194,
+        "label":"复仇之力",
+        "icon": "skill-warrior2.png",
+        "desc":"怪物攻击队友并造成伤害时，狂战士有几率立即报复攻击该生物。",
+        "slotId": 3 ,
+        "config": {
+            "basic" : {
+                "spellAction":4,
+                "spellEffect": 9,
+                "targetEffect": 1 ,
+                "spellDelay": 0,
+                "targetDelay": 0
+            },
+            "targetSelection": {
+                "pool": "target",
+                "filter": [{"type":"alive"},{"type":"visible"}]
+            },
+            "triggerCondition": [
+                { "type": "event", "event": "onTeammateBePhysicalDamage" },
+                { "type": "event", "event": "onTeammateBePhysicalRangeDamage" },
+                {"type":"alive"}
+            ],
+            "action": [
+                { "type": "damage","damageType":"Spell","isRange":true,"delay":0.8},
+                {"type": "playEffect","effect":44,"act":"self"},
+                {"type": "playEffect","effect":0,"act":"target","delay":0.6},
+                {"type": "blink","delay":0.6,"time":0.08},
+                {"type":"shock","delay":0.6,"range":5,"time":0.2}
+            ],
+            "levelConfig": [
+                { "chance":0.2,"formular": {"src":{"attack":0.5}}, "level": 1},
+                { "chance":0.25,"formular": {"src":{"attack":0.7}}, "level": 2},
+                { "chance":0.3,"formular": {"src":{"attack":0.9}}, "level": 3}
+            ]
+        }
+    },
+    {
+        "skillId": 195,
+        "label":"寒冰箭",
+        "icon": "skill-mage1.png",
+        "desc":"对场上多个怪物造成伤害。",
+        "slotId": 0,
+        "config": {
+            "basic": {
+                "spellAction": 1
+            },
+            "triggerCondition": [
+                { "type": "countDown", "cd": 10 }
+            ],
+            "targetSelection": {
+                "pool": "objects",
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"shuffle"}]
+            },
+            "action": [
+                { "type": "damage","damageType":"Spell","isRange":true,"delay":0.8},
+                {"type": "playEffect","effect":44,"act":"self"},
+                {"type": "playEffect","effect":0,"act":"target","delay":0.6},
+                {"type": "blink","delay":0.6,"time":0.08},
+                {"type":"shock","delay":0.6,"range":5,"time":0.2}
+            ],
+            "levelConfig" : [
+                { "count":2,"formular": {"src":{"attack":0.4}}, "level": 1},
+                { "count":3,"formular": {"src":{"attack":0.4}}, "level": 2},
+                { "count":4,"formular": {"src":{"attack":0.55}}, "level": 3}
+            ]
+        }
     }
 ];
