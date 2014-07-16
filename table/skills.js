@@ -3418,7 +3418,8 @@ exports.data = [
                 { "type":"event", "event":"onBattleTurnEnd" },
                 { "type":"event", "event":"onMoveTurnEnd" },
                 {"type":"visible"},
-                {"type": "myMutex", "mutex": "xuli" }
+                {"type": "myMutex", "mutex": "xuli" },
+                {"type":"alive"}
             ]
         }
     },
@@ -3649,5 +3650,5 @@ exports.data = [
                 {"type":"kill"}
             ]
         }
-    },
+    }
 ];
