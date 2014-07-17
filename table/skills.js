@@ -3706,9 +3706,10 @@ exports.data = [
                     { "type": "effectCount","count":1 }
                 ],
                 "action":[
-                    {"type": "createMonster","objectCount":2,"effect":21,"randomPos":true,"monsterID":214},
+                    {"type": "modifyVar", "x": "damage", "formular": {"environment":{"c":0}}},
+                    {"type": "delay","delay":1},
                     { "type": "heal" ,"formular":{"c": 300} },
-                    {"type": "modifyVar", "x": "damage", "formular": {"environment":{"c":0}}}
+                    {"type": "createMonster","objectCount":2,"effect":21,"randomPos":true,"monsterID":214}
                 ]
             }
         }
