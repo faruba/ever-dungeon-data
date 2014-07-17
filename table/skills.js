@@ -1537,7 +1537,6 @@ exports.data = [
         "label":"召唤狼群",
         "config": {
             "basic":{
-            "spellEffect": 3
         },
             "triggerCondition": [
                 {"type": "countDown", "cd": 4 },
@@ -3664,6 +3663,7 @@ exports.data = [
                 {"type":"alive"}
             ],
             "action": [
+                {"type": "playEffect","effect":1,"act":"self"},
                 {"type": "modifyVar", "x": "damage","formular": {"environment": {"damage":0.8}} },
                 {"type": "setTargetMutex", "mutex": "reinforce", "count": 1 },
                 {"type": "setMyMutex", "mutex": "reinforce", "count": 1 },
@@ -3683,6 +3683,7 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type": "visible"}]
             },
             "action": [
+                {"type": "playEffect","effect":1,"act":"self"},
                 {"type": "modifyVar", "x": "damage","formular": {"environment": {"damage":0.7}} }
             ]
         }

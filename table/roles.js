@@ -7711,7 +7711,7 @@ exports.data = [
         "className": "邪恶法师",
         "faction": "monster",
         "classType": 1,
-        "avatar": "enemy-robber33.ccbi",
+        "avatar": "enemy-wlfs1.ccbi",
         "property": {
             "health": 0.7,
             "attack": 0.54,
@@ -7763,7 +7763,7 @@ exports.data = [
         "className": "邪恶守护者",
         "faction": "monster",
         "classType": 1,
-        "avatar": "enemy-robber33.ccbi",
+        "avatar": "enemy-db1.ccbi",
         "property": {
             "health": 0.7,
             "attack": 0.54,
