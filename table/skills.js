@@ -3707,7 +3707,9 @@ exports.data = [
                 ],
                 "action":[
                     {"type": "createMonster","objectCount":2,"effect":21,"randomPos":true,"monsterID":214},
-                    { "type": "heal" ,"formular":{"c": 300} }
+                    { "type": "heal" ,"formular":{"c": 300} },
+                    {"type": "modifyVar", "x": "damage", "formular": {"environment":{"c":0}}},
+                    {"type": "setTargetMutex", "mutex": "lightOfMiracel", "count": 1 }
                 ]
             }
         }
