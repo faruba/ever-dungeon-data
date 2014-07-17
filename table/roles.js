@@ -7757,7 +7757,6 @@ exports.data = [
 
         ]
     },
-    ,
     {
         "classId": 214,
         "className": "邪恶守护者",
