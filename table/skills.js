@@ -3697,7 +3697,6 @@ exports.data = [
     {
         "skillId": 159,
         "label": "盾兵召唤",
-        "config": {
             "config": {
                 "basic" : {
                     "spellEffect": 3
@@ -3719,5 +3718,4 @@ exports.data = [
                 ]
             }
         }
-    }
 ];
