@@ -31105,7 +31105,7 @@ exports.data = [
                 "objects" :[
                     {"pool":"normalPool","from":0,to:4},
                     {"pool":"soldierPool","from":8,to:14},
-                    {"pool":"rangePool","from":0,to:3},
+                    {"pool":"rangePool","from":0,to:2},
                     {"pool":"bossPool","count":1},
                     {"id": 149,"from":0,to:2},
                     {

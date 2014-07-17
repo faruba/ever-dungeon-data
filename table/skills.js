@@ -3660,7 +3660,7 @@ exports.data = [
                 { "type": "event", "event": "onTeammateBePhysicalDamage" },
                 { "type": "event", "event": "onTeammateBePhysicalRangeDamage" },
                 { "type": "targetMutex", "mutex": "reinforce" },
-                {"type":"alive"}
+                {"type":"alive"},{"type":"visible"}
             ],
             "action": [
                 {"type": "playEffect","effect":1,"act":"self"},
