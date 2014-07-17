@@ -3676,7 +3676,7 @@ exports.data = [
         "label": "盾兵减伤",
         "config": {
             "triggerCondition": [
-                { "type": "event", "event": "onBeActivate" }
+                { "type": "event", "event": "onBeDamage" }
             ],
             "targetSelection":{
                 "pool":"self",
@@ -3705,8 +3705,10 @@ exports.data = [
                 "availableCondition": [
                     { "type": "effectCount","count":1 }
                 ],
-                "action":
-                    [{"type": "createMonster","objectCount":2,"effect":21,"randomPos":true,"monsterID":214}]
+                "action":[
+                    {"type": "createMonster","objectCount":2,"effect":21,"randomPos":true,"monsterID":214},
+                    { "type": "heal" ,"formular":{"c": 300} }
+                ]
             }
         }
     }
