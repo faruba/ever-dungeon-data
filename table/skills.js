@@ -3620,7 +3620,6 @@ exports.data = [
                 {"type":"kill"}]
         }
     },
-    ,
     { "skillId": 156,
         "label": "pk宝箱",
         "config": {
@@ -3650,5 +3649,65 @@ exports.data = [
                 {"type":"kill"}
             ]
         }
+    },
+    { "skillId": 157,
+        "label": "盾兵盾墙",
+        "config": {
+            "targetSelection": {
+                "pool": "target",
+                "filter": [{"type":"alive"},{"type":"visible"}]
+            },
+            "triggerCondition": [
+                { "type": "event", "event": "onTeammateBePhysicalDamage" },
+                { "type": "event", "event": "onTeammateBePhysicalRangeDamage" },
+                { "type": "targetMutex", "mutex": "reinforce" },
+                {"type":"alive"}
+            ],
+            "action": [
+                {"type": "modifyVar", "x": "damage","formular": {"environment": {"damage":0.8}} },
+                {"type": "setTargetMutex", "mutex": "reinforce", "count": 1 },
+                {"type": "setMyMutex", "mutex": "reinforce", "count": 1 },
+                {"type": "replaceTar" },
+                {"type": "ignoreHurt" }
+            ]
+        }
+    },
+    { "skillId": 158,
+        "label": "盾兵减伤",
+        "config": {
+            "triggerCondition": [
+                { "type": "event", "event": "onBeActivate" }
+            ],
+            "targetSelection":{
+                "pool":"self",
+                "filter": [{"type":"alive"},{"type": "visible"}]
+            },
+            "action": [
+                {"type": "modifyVar", "x": "damage","formular": {"environment": {"damage":0.7}} }
+            ]
+        }
+    },
+    {
+        "skillId": 159,
+        "label": "盾兵召唤",
+        "config": {
+            "config": {
+                "basic" : {
+                    "spellEffect": 3
+                },
+                "triggerCondition": [
+                    {"type" :"event", "event":"onBeDeathStrike"}
+                ],
+                "targetSelection": {
+                    "pool": "self"
+                },
+                "availableCondition": [
+                    { "type": "effectCount","count":1 }
+                ],
+                "action":
+                    [{"type": "createMonster","objectCount":2,"effect":21,"randomPos":true,"monsterID":214}]
+            }
+        }
     }
+
 ];
