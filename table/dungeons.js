@@ -31128,5 +31128,5 @@ exports.data = [
             ],
         "prizeWxp":0,"prizeGold":0, "prizeXp":0,
         "wxpRate":1,"goldRate":0.5, "xpRate":1,
-        "rank":500}
+        "rank":400}
 ];
