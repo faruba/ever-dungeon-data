@@ -1,4 +1,4 @@
-var data = [
+    var data = [
     {
         "chapterId": 0,
         "hidden":true,

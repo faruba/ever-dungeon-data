@@ -3697,7 +3697,7 @@ exports.data = [
         "config": {
             "triggerCondition": [
                 {"type" :"event", "event":"onPhysicalDamage" },
-                { "type": "chance", "chance": 0.3 },
+                { "type": "chance", "chance": 1 },
                 {"type":"alive"}
             ],
             "targetSelection":{

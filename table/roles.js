@@ -171,7 +171,7 @@ exports.data = [
 		"effectAttack": 9,
 		"skill": [
 			{
-				"id": 29,
+				"id": 159,
 				"level": 1
 			}
 		]
@@ -329,7 +329,7 @@ exports.data = [
 				"level": 1
 			},
 			{
-				"id": 28,
+				"id": 156,
 				"level": 1
 			}
 		]
@@ -7255,6 +7255,10 @@ exports.data = [
             },
             {
                 "id": 146,
+                "level": 1
+            },
+            {
+                "id": 201,
                 "level": 1
             },
             {
