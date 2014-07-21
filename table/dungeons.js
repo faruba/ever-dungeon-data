@@ -16447,12 +16447,12 @@ exports.data = [
             },
             {
                 "objects" :[
-                    {"id": 213,"count":1,skill:[{id:157}]}
+                    {"id": 201,"count":1}
                 ]
             },
             {
                 "objects" :[
-                    {"id": 213,"count":1,skill:[{id:159}]}
+                    {"id": 213,"count":1}
                 ]
             },
             {
