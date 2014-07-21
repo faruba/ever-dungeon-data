@@ -3632,7 +3632,7 @@ exports.data = [
         }
     },
     {
-        "skillId": 156,
+        "skillId": 222,
         "label":"闪避特效",
         "config": {
             "triggerCondition": [
@@ -3697,7 +3697,7 @@ exports.data = [
         "config": {
             "triggerCondition": [
                 {"type" :"event", "event":"onPhysicalDamage" },
-                { "type": "chance", "chance": 1 },
+                { "type": "chance", "chance": 0.5 },
                 {"type":"alive"}
             ],
             "targetSelection":{
