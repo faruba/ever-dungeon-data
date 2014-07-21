@@ -4008,7 +4008,7 @@ exports.data = [
         "config": {
             "triggerCondition": [
                 {"type" :"event", "event":"onPhysicalDamage" },
-                { "type": "chance", "chance": 0.3 }
+                { "type": "chance", "chance": 0.8 }
             ],
             "targetSelection":{
                 "pool": "target",
@@ -4057,7 +4057,7 @@ exports.data = [
         "label":"X回合加一次攻击力",
         "config": {
             "triggerCondition": [
-                {"type": "countDown", "cd": 6 },
+                {"type": "countDown", "cd": 2 },
                 {"type" :"event", "event":"onTurnEnd" }
             ],
             "targetSelection": {
