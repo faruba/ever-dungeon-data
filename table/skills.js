@@ -3854,6 +3854,9 @@ exports.data = [
         "skillId": 167,
         "label":"减攻加血",
         "config":{
+            "basic" : {
+                "spellEffect": 28
+            },
             "triggerCondition": [
                 {"type": "property", "property":"health","to": 60 },
                 {"type":"event","event":"onBattleTurnEnd"}
@@ -3862,21 +3865,20 @@ exports.data = [
                 "pool": "self",
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
-            "action": [
-                {"type":"delay"},
-                { "type": "installSpell", "spell": 92,"delay":1.5} ,
-                {"type": "heal", "delay":1.3,"formular": {"src":{"strong":0.5}, "c":5}},
-                {"type": "playEffect","delay":1.3,"effect":19,"pos":"target"} ,
-                {"type":"playAction","motion":1,"pos":"self"},
-                {"type":"delay"},
-                {"type":"kill","self": true}
-            ]
+            "installAction":[
+                { "type": "setProperty",  "modifications": {"attack":{"c":-3}} },
+                {"type": "heal", "delay":1.3,"formular": {"src":{"strong":0.5}, "c":5}}
+            ],
+            "buffType":"RoleBuff"
         }
     },
     {
         "skillId": 168,
         "label":"减血加攻",
         "config":{
+            "basic" : {
+                "spellEffect": 28
+            },
             "triggerCondition": [
                 {"type": "property", "property":"health","to": 60 },
                 {"type":"event","event":"onBattleTurnEnd"}
@@ -3885,23 +3887,20 @@ exports.data = [
                 "pool": "self",
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
-            "action": [
-                {"type":"delay"},
-                {"type":"installSpell", "spell": 24},
-                {"type": "damage","delay":1, "formular": {"src":{"strong":0.5}}},
-                {"type": "playEffect","delay":1},
-                {"type": "blink","delay":1,"time":0.08},
-                {"type":"shock","delay":1,"range":5,"time":0.2},
-                {"type":"playAction","motion":1,"pos":"self"},
-                {"type":"delay"},
-                {"type":"kill","self": true}
-            ]
+            "installAction":[
+                { "type": "setProperty",  "modifications": {"attack":{"c":6}} },
+                {"type": "damage","delay":1, "formular": {"src":{"health":0.5}}}
+            ],
+            "buffType":"RoleBuff"
         }
     },
     {
         "skillId": 169,
         "label":"加攻加血",
         "config":{
+            "basic" : {
+                "spellEffect": 28
+            },
             "triggerCondition": [
                 {"type": "property", "property":"health","to": 60 },
                 {"type":"event","event":"onBattleTurnEnd"}
@@ -3910,15 +3909,11 @@ exports.data = [
                 "pool": "self",
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
-            "action": [
-                {"type":"delay"},
-                {"type":"installSpell", "spell": 24},
+            "installAction":[
                 {"type": "heal", "delay":1.3,"formular": {"src":{"strong":0.5}, "c":5}},
-                {"type": "playEffect","delay":1.3,"effect":19,"pos":"target"} ,
-                {"type":"playAction","motion":1,"pos":"self"},
-                {"type":"delay"},
-                {"type":"kill","self": true}
-            ]
+                { "type": "setProperty",  "modifications": {"attack":{"c":6}} }
+            ],
+            "buffType":"RoleBuff"
         }
     },
     { "skillId": 170,
