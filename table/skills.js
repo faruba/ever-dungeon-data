@@ -3657,16 +3657,14 @@ exports.data = [
                 "targetDelay": 0.3
             },
             "triggerCondition": [
-                {"type" :"event", "event":"onPhysicalDamage" },
-                {"type" :"event", "event":"onPhysicalRangeDamage" },
-                {"type":"alive"}
+                {"type" :"event", "event":"onPhysicalDamage" }
             ],
             "targetSelection":{
                 "pool":"self",
                 "filter": [{"type":"alive"},{"type": "visible"}]
             },
             "action": [
-                {"type": "heal","formular":{"src":{"attack":0.1},"c": 5}}
+                {"type": "heal","formular":{"src":{"attack":1}}}
             ]
         }
     },
@@ -3698,7 +3696,6 @@ exports.data = [
         "config": {
             "triggerCondition": [
                 {"type" :"event", "event":"onPhysicalDamage" },
-                {"type" :"event", "event":"onPhysicalRangeDamage" },
                 { "type": "chance", "chance": 0.5 },
                 {"type":"alive"}
             ],
@@ -3709,11 +3706,7 @@ exports.data = [
             "action":[
                 {"type":"delay"},
                 {"type": "installSpell", "spell": 94},
-                {"type": "playEffect","effect":36,"pos":"target","delay":2.0},
-                {"type":"playAction","motion":1,"pos":"self"},
-                {"type":"delay"},
-                {"type":"kill","self": true}
-
+                {"type": "playEffect","effect":36,"pos":"target","delay":2.0}
             ]
         }
     },
