@@ -39455,13 +39455,13 @@ exports.data = [
                     {
                         "id": 213,
                         "count":1,
-                        "pos":12,
                         "keyed":true
                     },
                     {
                         "id": 214,
                         "count":2,
-                        skill:[{id:27}]
+                        skill:[{id:27}],
+                        "keyed":true
                     }
                 ],
                 "exit": 29,
