@@ -3998,14 +3998,14 @@ exports.data = [
         "config": {
             "triggerCondition": [
                 {"type" :"event", "event":"onPhysicalDamage" },
-                {"type" :"event", "event":"onPhysicalRangeDamage" },
                 { "type": "chance", "chance": 0.8 }
             ],
             "targetSelection":{
-                "pool": "target",
-                "filter": [{"type":"alive"},{"type":"visible"}]
+                "pool": "objects",
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"shuffle"},{"type":"count","count":1}]
             },
             "action": [
+                {"type": "delay","delay":0.5},
                 {"type": "attack"}
             ]
         }
