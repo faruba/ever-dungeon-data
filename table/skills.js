@@ -4129,16 +4129,21 @@ exports.data = [
         "label":"死后复活一次",
         "config": {
             "basic": {
-                "targetEffect": 22
+                "spellAction": 1,
+                "spellEffect": 4,
+                "targetEffect": 1,
+                "spellDelay": 0.3,
+                "targetDelay": 0.3
             },
             "triggerCondition": [
-                {"type" :"event", "event": "onBeKill"}
+                {"type" :"event", "event": "onBeDeathStrike"}
             ],
             "targetSelection": {
                 "pool": "self"
             },
             "action":[
-                {"type": "resurrect"}
+                { "type": "modifyVar", "x": "damage", "formular": {"environment": {"damage":0}} },
+                {"type": "heal","self":true,"formular": {"tar":{"strong":1}}}
             ],
             "availableCondition": [
                 { "type": "event", "event": "onEndBattleTurn", "eventCount": 1 }
