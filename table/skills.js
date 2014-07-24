@@ -3811,7 +3811,7 @@ exports.data = [
             },
             "triggerCondition": [
                 {"type" :"event", "event":"onPhysicalDamage" },
-                { "type": "chance", "chance": 0.3 },
+                { "type": "chance", "chance": 0.8 },
                 {"type":"alive"}
             ],
             "targetSelection":{
@@ -3846,6 +3846,7 @@ exports.data = [
     {
         "skillId": 166,
         "config": {
+            "buffEffect": 36,
             "installAction":[
                 {
                     "type": "setProperty","modifications": {"speed":{"src":{"speed":-0.5}}}
@@ -3998,7 +3999,7 @@ exports.data = [
                 "pool": "self",
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
-            "installAction":[
+            "Action":[
                 { "type": "setProperty",  "modifications": {"attack":{"c":-30}} },
                 {"type": "heal", "delay":1.3,"formular": {"src":{"strong":1}, "c":5}}
             ],
