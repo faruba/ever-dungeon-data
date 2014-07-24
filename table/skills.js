@@ -3991,7 +3991,7 @@ exports.data = [
                 "spellEffect": 28
             },
             "triggerCondition": [
-                {"type": "property", "property":"health","to": 60 },
+                {"type": "property", "property":"health","to": 600 },
                 {"type":"event","event":"onBattleTurnEnd"}
             ],
             "targetSelection":{
@@ -3999,8 +3999,8 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "installAction":[
-                { "type": "setProperty",  "modifications": {"attack":{"c":-3}} },
-                {"type": "heal", "delay":1.3,"formular": {"src":{"strong":0.5}, "c":5}}
+                { "type": "setProperty",  "modifications": {"attack":{"c":-30}} },
+                {"type": "heal", "delay":1.3,"formular": {"src":{"strong":1}, "c":5}}
             ],
             "buffType":"RoleBuff"
         }
@@ -4316,7 +4316,7 @@ exports.data = [
                 { "type": "event", "event": "onBeSpellRangeDamage" }
             ],
             "availableCondition": [
-                { "type": "effectCount","count":6 }
+                { "type": "effectCount","count":3 }
             ],
             "action": [
                 { "type": "modifyVar", "x": "damage", "formular": {"environment": {"damage":0}} }

@@ -7736,11 +7736,11 @@ exports.data = [
         "effectAttack": 9,
         "skill": [
             {
-                "id": 165,
+                "id": 164,
                 "level": 1
             },
             {
-                "id": 187,
+                "id": 189,
                 "level": 1
             },
             {
