@@ -3735,8 +3735,7 @@ exports.data = [
                 {"type": "attack","isRange":true},
                 {"type": "playEffect","effect":10},
                 {"type": "delay","delay":0.5},
-                {"type": "attack","isRange":true},
-                {"type": "playEffect","effect":10}
+                {"type": "castSpell","spell":214}
             ]
         }
     },
@@ -4957,6 +4956,7 @@ exports.data = [
     },
     {
         "skillId": 213,
+        "label":"加血减攻II",
         "config": {
             "installAction":[
                 { "type": "setProperty",  "modifications": {"attack":{"c":-30}} },
@@ -4969,6 +4969,20 @@ exports.data = [
             "buffType":"RoleBuff",
             "availableCondition": [
                 { "type": "event", "event": "onEndBattleTurn"}
+            ]
+        }
+    },
+    {
+        "skillId": 214,
+        "label":"远程攻击2二次攻击",
+        "config": {
+            "targetSelection": {
+                "pool": "objects",
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"shuffle"},{"type":"count","count":1}]
+            },
+            "action":[
+                {"type": "attack","isRange":true},
+                {"type": "playEffect","effect":10}
             ]
         }
     }
