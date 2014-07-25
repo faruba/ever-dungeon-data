@@ -3726,7 +3726,8 @@ exports.data = [
         "config": {
             "triggerCondition": [
                 {"type" :"event", "event":"onBattleTurnEnd" },
-                {"type" :"event", "event":"onMoveTurnEnd" }
+                {"type" :"event", "event":"onMoveTurnEnd" },
+                {"type":"alive"}
             ],
             "targetSelection": {
                 "pool": "objects",
