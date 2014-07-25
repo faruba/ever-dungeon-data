@@ -3669,7 +3669,6 @@ exports.data = [
             ],
             "action": [
                 {"type": "playEffect","effect":1,"pos":"target"},
-                {"type":"playAction","motion":1,"pos":"self"},
                 {"type": "modifyVar", "x": "damage","formular": {"environment": {"damage":0.8}} },
                 {"type": "setTargetMutex", "mutex": "reinforce", "count": 1 },
                 {"type": "setMyMutex", "mutex": "reinforce", "count": 1 },
@@ -4099,8 +4098,8 @@ exports.data = [
                 {"type":"alive"}
             ],
             "targetSelection":{
-                "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"shuffle"},{"type":"count","count":1}]
+                "pool": "sources",
+                "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "action": [
                 {"type": "attack"}
