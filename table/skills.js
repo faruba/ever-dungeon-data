@@ -1187,19 +1187,19 @@ exports.data = [
           "basic" : {
               "spellEffect": 28
           },
-          "installAction":[
-              { "type": "setProperty",  "modifications": {"attack":{"c":6}} }
-          ],
           "triggerCondition": [
               {"type": "property", "property":"health","to": 60 },
-              {"type":"event","event":"onBattleTurnEnd"}
+              {"type":"event","event":"onBattleTurnEnd"},
+              {"type": "myMutex", "mutex": "kuangbao" }
           ],
           "targetSelection": {
               "pool": "self"
           },
-          "buffType":"RoleBuff"
+          "action": [
+              {"type": "setMyMutex", "mutex": "kuangbao", "count": 9999},
+              { "type": "installSpell", "spell": 217}
+          ]
       }
-
   },
   {
       "skillId": 46,
@@ -3668,7 +3668,8 @@ exports.data = [
                 {"type":"alive"},{"type":"visible"}
             ],
             "action": [
-                {"type": "playEffect","effect":1,"act":"self"},
+                {"type": "playEffect","effect":1,"pos":"target"},
+                {"type":"playAction","motion":1,"pos":"self"},
                 {"type": "modifyVar", "x": "damage","formular": {"environment": {"damage":0.8}} },
                 {"type": "setTargetMutex", "mutex": "reinforce", "count": 1 },
                 {"type": "setMyMutex", "mutex": "reinforce", "count": 1 },
@@ -4012,18 +4013,17 @@ exports.data = [
                 "spellEffect": 28
             },
             "triggerCondition": [
-                {"type": "property", "property":"health","to": 60 },
-                {"type":"event","event":"onBattleTurnEnd"}
+                {"type": "property", "property":"health","to": 2000 },
+                {"type":"event","event":"onBattleTurnEnd"},
+                {"type": "myMutex", "mutex": "jianxuejiagong" }
             ],
-            "targetSelection":{
-                "pool": "self",
-                "filter": [{"type":"alive"},{"type":"visible"}]
+            "targetSelection": {
+                "pool": "self"
             },
-            "installAction":[
-                { "type": "setProperty",  "modifications": {"attack":{"c":6}} },
-                {"type": "damage","delay":1, "formular": {"src":{"health":0.5}}}
-            ],
-            "buffType":"RoleBuff"
+            "action": [
+                {"type": "setMyMutex", "mutex": "jianxuejiagong", "count": 9999},
+                { "type": "installSpell", "spell": 215}
+            ]
         }
     },
     {
@@ -4034,18 +4034,17 @@ exports.data = [
                 "spellEffect": 28
             },
             "triggerCondition": [
-                {"type": "property", "property":"health","to": 60 },
-                {"type":"event","event":"onBattleTurnEnd"}
+                {"type": "property", "property":"health","to": 2000 },
+                {"type":"event","event":"onBattleTurnEnd"},
+                {"type": "myMutex", "mutex": "jiaxuejiagong" }
             ],
-            "targetSelection":{
-                "pool": "self",
-                "filter": [{"type":"alive"},{"type":"visible"}]
+            "targetSelection": {
+                "pool": "self"
             },
-            "installAction":[
-                {"type": "heal", "delay":1.3,"formular": {"src":{"strong":0.5}, "c":5}},
-                { "type": "setProperty",  "modifications": {"attack":{"c":6}} }
-            ],
-            "buffType":"RoleBuff"
+            "action": [
+                {"type": "setMyMutex", "mutex": "jiaxuejiagong", "count": 9999},
+                { "type": "installSpell", "spell": 216}
+            ]
         }
     },
     { "skillId": 176,
@@ -4983,6 +4982,59 @@ exports.data = [
             "action":[
                 {"type": "attack","isRange":true},
                 {"type": "playEffect","effect":10}
+            ]
+        }
+    },
+    {
+        "skillId": 215,
+        "label":"减血加攻II",
+        "config": {
+            "installAction":[
+                { "type": "setProperty",  "modifications": {"attack":{"c":50}} },
+                {"type": "damage", "delay":1.3,"formular": { "c":300}}
+            ],
+            "targetSelection": {
+                "pool": "self",
+                "filter": [{"type":"alive"},{"type":"visible"}]
+            },
+            "buffType":"RoleBuff",
+            "availableCondition": [
+                { "type": "event", "event": "onEndBattleTurn"}
+            ]
+        }
+    },
+    {
+        "skillId": 216,
+        "label":"加血加攻II",
+        "config": {
+            "installAction":[
+                { "type": "setProperty",  "modifications": {"attack":{"c":30}} },
+                {"type": "heal", "delay":1.3,"formular": { "c":300}}
+            ],
+            "targetSelection": {
+                "pool": "self",
+                "filter": [{"type":"alive"},{"type":"visible"}]
+            },
+            "buffType":"RoleBuff",
+            "availableCondition": [
+                { "type": "event", "event": "onEndBattleTurn"}
+            ]
+        }
+    },
+    {
+        "skillId": 217,
+        "label":"狂暴II",
+        "config": {
+            "installAction":[
+                { "type": "setProperty",  "modifications": {"attack":{"c":6}} }
+            ],
+            "targetSelection": {
+                "pool": "self",
+                "filter": [{"type":"alive"},{"type":"visible"}]
+            },
+            "buffType":"RoleBuff",
+            "availableCondition": [
+                { "type": "event", "event": "onEndBattleTurn"}
             ]
         }
     }

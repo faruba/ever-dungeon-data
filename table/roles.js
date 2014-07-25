@@ -7711,7 +7711,7 @@ exports.data = [
             "critical": 10,
             "strong": 20,
             "accuracy": 100,
-            "reactivity": -40,
+            "reactivity": 100,
             "speed": 20,
             "counterAttack": true,
             "exp": 0,
@@ -7738,11 +7738,11 @@ exports.data = [
                 "level": 1
             },
             {
-                "id": 188,
+                "id": 190,
                 "level": 1
             },
             {
-                "id": 173,
+                "id": 174,
                 "level": 1
             }
         ]
