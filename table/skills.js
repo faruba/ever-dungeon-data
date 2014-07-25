@@ -4316,7 +4316,7 @@ exports.data = [
                 { "type": "event", "event": "onBeSpellRangeDamage" }
             ],
             "availableCondition": [
-                { "type": "effectCount","count": 5}
+                { "type": "effectCount","count":3 }
             ],
             "action": [
                 { "type": "modifyVar", "x": "damage", "formular": {"environment": {"damage":0}} }
@@ -4960,8 +4960,12 @@ exports.data = [
         "config": {
             "installAction":[
                 { "type": "setProperty",  "modifications": {"attack":{"c":-30}} },
-                {"type": "heal", "delay":1.3,"formular": {"src":{"strong":1}, "c":5}}
+                {"type": "heal", "delay":1.3,"formular": { "c":300}}
             ],
+            "targetSelection": {
+                "pool": "self",
+                "filter": [{"type":"alive"},{"type":"visible"}]
+            },
             "buffType":"RoleBuff",
             "availableCondition": [
                 { "type": "event", "event": "onEndBattleTurn"}
