@@ -4190,7 +4190,7 @@ exports.data = [
                 {"type":"delay"},
                 {"type": "playEffect","effect":13,"pos":"self","delay":1.5} ,
                 {"type":"playAction","motion":1,"pos":"self"},
-                {"type": "setProperty","modifications": {"attack":{"src":{"attack":0.5},"c":2}}}
+                {"type": "setProperty","modifications": {"attack":{"src":{"attack":0.5}}}}
             ]
         }
     },
