@@ -4259,7 +4259,7 @@ exports.data = [
                 { "type": "effectCount", "count":1}
             ],
             "action":[
-                {"type": "damage","damageType":"poison","formular": {"src":{"health":0.1}}}
+                { "type": "modifyVar", "x": "damage", "formular": {"environment": {"damage":0.5}} }
             ]
         }
     },
