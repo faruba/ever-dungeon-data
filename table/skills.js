@@ -663,7 +663,7 @@ exports.data = [
           },
           "action":[
               {"type": "rangeAttack"},
-              {"type": "playEffect","delay":1}
+              {"type": "rangeAttackEff","delay":1}
           ],
         "levelConfig":[
             {"effect":50},
