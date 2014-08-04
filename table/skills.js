@@ -662,7 +662,7 @@ exports.data = [
               "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"shuffle"},{"type":"count","count":1}]
           },
           "action":[
-              {"type": "rangeAttack", "hurtDelay": 0.5, "effDelay": 0.3}
+              {"type": "rangeAttack", "hurtDelay": 0.6, "effDelay": 0.3}
           ],
         "levelConfig":[
             {"effect":50},
