@@ -6055,5 +6055,22 @@ exports.data = [
                 "filter": [{"type":"same-block"},{"type":"alive"},{"type":"visible"}]
             }
         }
+    },
+    {
+        "skillId": 265,
+        "label":"守门怪提示",
+        "config": {
+            "triggerCondition": [
+                { "type": "event","event":"onShow" }
+            ],
+            "targetSelection": {
+                "pool": "self",
+                "filter": [{"type":"alive"}]
+            },
+            "action": [
+                {"type":"delay" },
+                {"type": "playEffect","effect":54,"pos":"self"}
+            ]
+        }
     }
 ];
