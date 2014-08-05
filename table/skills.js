@@ -4112,8 +4112,8 @@ exports.data = [
                 {"type":"alive"}
             ],
             "targetSelection":{
-                "pool": "sources",
-                "filter": [{"type":"alive"},{"type":"visible"}]
+                "pool": "object",
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"count","count":1}]
             },
             "action": [
                 {"type": "attack"}
@@ -4243,7 +4243,7 @@ exports.data = [
             ],
             "targetSelection":{
                 "pool": "object",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"not-target"}]
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"}]
             },
             "action": [
                 {"type": "playEffect","effect":0,"act":"target","delay":0.6},
@@ -4422,7 +4422,7 @@ exports.data = [
         "label":"弱变强",
         "config":{
             "triggerCondition":[
-                {"type":"countDown","cd":3},
+                {"type":"countDown","cd":10},
                 {"type":"event","event":"onTurnEnd"}
             ],
             "targetSelection":{
