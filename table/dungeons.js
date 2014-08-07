@@ -38655,7 +38655,6 @@ exports.data = [
                         "id": 214,
                         "count":2,
                         skill:[{id:27}],
-                        "pos": Math.floor(Math.random()*25+5),
                         "keyed":true
                     }
                 ],
