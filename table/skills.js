@@ -2826,7 +2826,6 @@ exports.data = [
             },
             "action":[
                 {"type":"delay"} ,
-                {"type":"playEffect","effect":4,"pos":"self"},
                 {"type":"shock","delay":0.3,"range":5,"time":0.2},
                 {"type": "installSpell", "spell": 123}
 
