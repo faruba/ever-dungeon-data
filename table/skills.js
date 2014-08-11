@@ -195,8 +195,8 @@ exports.data = [
         "targetDelay": 0.9
       },
       "triggerCondition": [
-          {"type": "event", "event": "onCriticalDamage" },
-          {"type": "chance", "chance": 0.8}
+          {"type": "event", "event": "onPhysicalDamage" },
+          {"type": "chance", "chance": 1}
       ],
       "targetSelection": {
           "pool": "objects",
