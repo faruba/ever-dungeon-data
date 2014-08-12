@@ -4572,7 +4572,7 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "triggerCondition": [
-                { "type": "event", "event": "onMonsterShow" },
+                { "type": "event", "event": "onTurnBegin" },
                 {"type":"alive"}
             ],
             "action": [
