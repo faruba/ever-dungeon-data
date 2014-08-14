@@ -2,20 +2,21 @@ exports.data = {
   "VIP": {
     "requirement": [ 
       {
-          "rmb": 0,
-          "privilege":[
-              {
-                "name":"pvp_count",
-                "data":5
-              }
-        ]
+          "rmb": 0
       },
       {
           "rmb": 30,
           "privilege":[
               {
-                  "name":"pvp_count",
-                  "data":5
+                  "name":"chest_vip",
+                  "data":1
+              },
+              {
+                  "name":"revive",
+                  "data":3
+              }
+              {
+                  "name":
               }
           ]
       },
@@ -83,6 +84,7 @@ exports.data = {
             ]
         }
     ],
+
     "levels": [
       { "desc":"无权限"},
       { "desc":"1.可购买vip1宝箱\n2.赠送复活药水3瓶\n3.赠送大精力药水1瓶\n4.赠送额外宝石100个"},
