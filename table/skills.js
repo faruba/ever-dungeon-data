@@ -174,7 +174,7 @@ exports.data = [
         {"type": "playEffect","effect":0,"act":"target","delay":0.6},
         {"type":"showBubble","bubbleType":1,effect:56,"content":"fuck you","act":"self"},
         {"type": "blink","delay":0.6,"time":0.08},
-        {"type":"shock","delay":0.6,"range":5,"time":0.2},
+        {"type":"shock","delay":0.6,"range":5,"time":0.2}
 
       ],
       "levelConfig" : [
