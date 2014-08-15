@@ -5426,7 +5426,7 @@ exports.data = [
     {
         "dungeonId": 42,
         "rank": 163,
-        "levelCount" : 6,
+        "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
                 {
@@ -6133,7 +6133,7 @@ exports.data = [
         "dungeonId": 48,
         "rank":240,
         "collectId":102001,
-        "levelCount" : 6,
+        "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
                 {
@@ -7557,7 +7557,7 @@ exports.data = [
     {
         "dungeonId": 61,
         "rank": 360,
-        "levelCount" : 6,
+        "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
                 {
