@@ -60,11 +60,11 @@ exports.data = [
 			32,
 			33,
 			34,
-            35,,
+            35,
 			652,
             742
 		],
-		"levelId": 1,
+		"levelId": 0,
         "transId":198
 
 	},
@@ -99,7 +99,7 @@ exports.data = [
             682,
             772
 		],
-		"levelId": 2,
+		"levelId": 0,
         "transId":199
 	},
 	{
@@ -322,7 +322,7 @@ exports.data = [
 		"skill": [
 			{
 				"id": 26,
-				"level": 1
+				"level": 2
 			},
 			{
 				"id": 27,
@@ -437,14 +437,7 @@ exports.data = [
 		"soundDie": "shanzeitoumudie.mp3",
 		"effectAttack": 8,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			},
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		]
 	},
 	{
@@ -480,10 +473,7 @@ exports.data = [
 		"soundDie": "liulangdie.mp3",
 		"effectAttack": 8,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		],
 		"collectId": 66001
 	},
@@ -644,7 +634,7 @@ exports.data = [
 			},
 			{
 				"id": 26,
-				"level": 1
+				"level": 3
 			}
 		]
 	},
@@ -681,10 +671,7 @@ exports.data = [
 		"soundAttack": "shirenmo.mp3",
 		"effectAttack": 9,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		],
 		"collectId": 36001
 	},
@@ -787,7 +774,13 @@ exports.data = [
 		"soundAttack": "bianfuattack.mp3",
 		"soundDie": "bianfudie.mp3",
 		"effectAttack": 9,
-		"scale": 1.2
+		"scale": 1.2,
+        "skill": [
+            {
+                "id": 163,
+                "level": 1
+            }
+        ]
 	},
 	{
 		"classId": 21,
@@ -978,7 +971,7 @@ exports.data = [
 		"skill": [
 			{
 				"id": 26,
-				"level": 1
+				"level": 2
 			},
 			{
 				"id": 27,
@@ -1100,14 +1093,7 @@ exports.data = [
 		"effectAttack": 8,
 		"scale": 1.2,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			},
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		]
 	},
 	{
@@ -1143,10 +1129,7 @@ exports.data = [
 		"soundDie": "liulangdie.mp3",
 		"effectAttack": 8,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		],
 		"scale": 1.2
 	},
@@ -1305,7 +1288,7 @@ exports.data = [
 		"skill": [
 			{
 				"id": 26,
-				"level": 1
+				"level": 3
 			},
 			{
 				"id": 27,
@@ -1346,10 +1329,7 @@ exports.data = [
 		"soundAttack": "shirenmo.mp3",
 		"effectAttack": 9,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		],
 		"scale": 1.3
 	},
@@ -1574,7 +1554,7 @@ exports.data = [
 		"skill": [
 			{
 				"id": 26,
-				"level": 1
+				"level": 2
 			},
 			{
 				"id": 27,
@@ -1693,14 +1673,7 @@ exports.data = [
 		"soundDie": "shanzeitoumudie.mp3",
 		"effectAttack": 8,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			},
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		]
 	},
 	{
@@ -1737,8 +1710,7 @@ exports.data = [
 		"effectAttack": 8,
 		"skill": [
 			{
-				"id": 48,
-				"level": 1
+
 			}
 		]
 	},
@@ -1894,7 +1866,7 @@ exports.data = [
 		"skill": [
 			{
 				"id": 26,
-				"level": 1
+				"level": 3
 			},
 			{
 				"id": 27,
@@ -1935,10 +1907,7 @@ exports.data = [
 		"soundAttack": "shirenmo.mp3",
 		"effectAttack": 9,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		]
 	},
 	{
@@ -2040,7 +2009,13 @@ exports.data = [
 		"soundAttack": "bianfuattack.mp3",
 		"soundDie": "bianfudie.mp3",
 		"effectAttack": 9,
-		"scale": 1.2
+		"scale": 1.2,
+        "skill": [
+            {
+                "id": 163,
+                "level": 1
+            }
+        ]
 	},
 	{
 		"classId": 53,
@@ -2231,7 +2206,7 @@ exports.data = [
 		"skill": [
 			{
 				"id": 26,
-				"level": 1
+				"level": 2
 			},
 			{
 				"id": 27,
@@ -2353,14 +2328,7 @@ exports.data = [
 		"effectAttack": 8,
 		"scale": 1.2,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			},
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		]
 	},
 	{
@@ -2396,10 +2364,7 @@ exports.data = [
 		"soundDie": "liulangdie.mp3",
 		"effectAttack": 8,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		],
 		"scale": 1.2
 	},
@@ -2558,7 +2523,7 @@ exports.data = [
 		"skill": [
 			{
 				"id": 26,
-				"level": 1
+				"level": 3
 			},
 			{
 				"id": 27,
@@ -2599,10 +2564,7 @@ exports.data = [
 		"soundAttack": "shirenmo.mp3",
 		"effectAttack": 9,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		],
 		"scale": 1.3
 	},
@@ -2826,7 +2788,7 @@ exports.data = [
 		"skill": [
 			{
 				"id": 26,
-				"level": 1
+				"level": 2
 			},
 			{
 				"id": 27,
@@ -2945,14 +2907,7 @@ exports.data = [
 		"soundDie": "shanzeitoumudie.mp3",
 		"effectAttack": 8,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			},
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		]
 	},
 	{
@@ -2988,10 +2943,7 @@ exports.data = [
 		"soundDie": "liulangdie.mp3",
 		"effectAttack": 8,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		]
 	},
 	{
@@ -3146,7 +3098,7 @@ exports.data = [
 		"skill": [
 			{
 				"id": 26,
-				"level": 1
+				"level": 3
 			},
 			{
 				"id": 27,
@@ -3187,10 +3139,7 @@ exports.data = [
 		"soundAttack": "shirenmo.mp3",
 		"effectAttack": 9,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		]
 	},
 	{
@@ -3291,7 +3240,13 @@ exports.data = [
 		"soundAttack": "bianfuattack.mp3",
 		"soundDie": "bianfudie.mp3",
 		"effectAttack": 9,
-		"scale": 1.2
+		"scale": 1.2,
+        "skill": [
+            {
+                "id": 163,
+                "level": 1
+            }
+        ]
 	},
 	{
 		"classId": 85,
@@ -3482,7 +3437,7 @@ exports.data = [
 		"skill": [
 			{
 				"id": 26,
-				"level": 1
+				"level": 2
 			},
 			{
 				"id": 27,
@@ -3604,14 +3559,7 @@ exports.data = [
 		"effectAttack": 8,
 		"scale": 1.2,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			},
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		]
 	},
 	{
@@ -3647,10 +3595,7 @@ exports.data = [
 		"soundDie": "liulangdie.mp3",
 		"effectAttack": 8,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		],
 		"scale": 1.2
 	},
@@ -3809,7 +3754,7 @@ exports.data = [
 		"skill": [
 			{
 				"id": 26,
-				"level": 1
+				"level": 3
 			},
 			{
 				"id": 27,
@@ -3850,10 +3795,7 @@ exports.data = [
 		"soundAttack": "shirenmo.mp3",
 		"effectAttack": 9,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		],
 		"scale": 1.3
 	},
@@ -4077,7 +4019,7 @@ exports.data = [
 		"skill": [
 			{
 				"id": 26,
-				"level": 1
+				"level": 2
 			},
 			{
 				"id": 27,
@@ -4196,14 +4138,7 @@ exports.data = [
 		"soundDie": "shanzeitoumudie.mp3",
 		"effectAttack": 8,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			},
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		]
 	},
 	{
@@ -4239,10 +4174,7 @@ exports.data = [
 		"soundDie": "liulangdie.mp3",
 		"effectAttack": 8,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		]
 	},
 	{
@@ -4397,7 +4329,7 @@ exports.data = [
 		"skill": [
 			{
 				"id": 26,
-				"level": 1
+				"level": 3
 			},
 			{
 				"id": 27,
@@ -4438,10 +4370,7 @@ exports.data = [
 		"soundAttack": "shirenmo.mp3",
 		"effectAttack": 9,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		]
 	},
 	{
@@ -4542,7 +4471,13 @@ exports.data = [
 		"soundAttack": "bianfuattack.mp3",
 		"soundDie": "bianfudie.mp3",
 		"effectAttack": 9,
-		"scale": 1.2
+		"scale": 1.2,
+        "skill": [
+            {
+                "id": 163,
+                "level": 1
+            }
+        ]
 	},
 	{
 		"classId": 117,
@@ -4733,7 +4668,7 @@ exports.data = [
 		"skill": [
 			{
 				"id": 26,
-				"level": 1
+				"level":2
 			},
 			{
 				"id": 27,
@@ -4855,14 +4790,7 @@ exports.data = [
 		"effectAttack": 8,
 		"scale": 1.2,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			},
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		]
 	},
 	{
@@ -4898,10 +4826,7 @@ exports.data = [
 		"soundDie": "liulangdie.mp3",
 		"effectAttack": 8,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		],
 		"scale": 1.2
 	},
@@ -5060,7 +4985,7 @@ exports.data = [
 		"skill": [
 			{
 				"id": 26,
-				"level": 1
+				"level": 3
 			},
 			{
 				"id": 27,
@@ -5101,10 +5026,7 @@ exports.data = [
 		"soundAttack": "shirenmo.mp3",
 		"effectAttack": 9,
 		"skill": [
-			{
-				"id": 48,
-				"level": 1
-			}
+
 		],
 		"scale": 1.3
 	},
@@ -7058,10 +6980,7 @@ exports.data = [
         "soundAttack": "shirenmo.mp3",
         "effectAttack": 9,
         "skill": [
-            {
-                "id": 48,
-                "level": 1
-            }
+
         ],
         "dropInfo": [
             90
@@ -7111,7 +7030,7 @@ exports.data = [
             32,
             33,
             34,
-            35,,
+            35,
             652,
             742
         ],
@@ -7627,14 +7546,7 @@ exports.data = [
         "soundDie": "shanzeitoumudie.mp3",
         "effectAttack": 8,
         "skill": [
-            {
-                "id": 48,
-                "level": 1
-            },
-            {
-                "id": 48,
-                "level": 1
-            }
+
         ],
         "dropInfo": [
             90
@@ -7677,6 +7589,7 @@ exports.data = [
     },
     {
         "classId": 212,
+<<<<<<< HEAD
         "className": "xxx",
         "faction": "monster",
         "classType": 1,
@@ -7690,10 +7603,26 @@ exports.data = [
             "reactivity": 1,
             "speed": 1,
             "counterAttack": true,
+=======
+        "className": "pk宝箱",
+        "faction": "npc",
+        "classType": 2,
+        "avatar": "enemy-treasurebox.ccbi",
+        "property": {
+            "health": 1.5,
+            "attack": 3,
+            "critical": 6,
+            "strong": 13,
+            "accuracy": 10,
+            "reactivity": -100,
+            "speed": 0,
+            "counterAttack": false,
+>>>>>>> origin/develop
             "exp": 0,
             "gold": 0
         },
         "xproperty": {
+<<<<<<< HEAD
             "balance": 0.2,
             "health": 0.2,
             "attack": 0.2,
@@ -7709,6 +7638,17 @@ exports.data = [
         "soundDie": "xxxdie.mp3",
         "effectAttack": 9,
         "scale": 1,
+=======
+            "balance": 0.1,
+            "health": 1.5,
+            "attack": 0.4,
+            "critical": 1,
+            "strong": 1,
+            "accuracy": 1,
+            "reactivity": 1,
+            "speed": 1
+        },
+>>>>>>> origin/develop
         "skill": [
             {
                 "id": 156,
@@ -7718,6 +7658,7 @@ exports.data = [
     },
     {
         "classId": 213,
+<<<<<<< HEAD
         "className": "哥布林投矛手x",
         "faction": "monster",
         "classType": 1,
@@ -7729,6 +7670,20 @@ exports.data = [
             "strong": 2,
             "accuracy": 20,
             "reactivity": -90,
+=======
+        "className": "邪恶法师",
+        "faction": "monster",
+        "classType": 1,
+        "avatar": "enemy-wlfs1.ccbi",
+        "bossFlag": true,
+        "property": {
+            "health": 1.3,
+            "attack": 0.7,
+            "critical": 0,
+            "strong": -10,
+            "accuracy": 20,
+            "reactivity": -50,
+>>>>>>> origin/develop
             "speed": 0,
             "counterAttack": false,
             "exp": 0,
@@ -7736,6 +7691,7 @@ exports.data = [
         },
         "xproperty": {
             "balance": 0.1,
+<<<<<<< HEAD
             "health": 2.0,
             "attack": 0.1,
             "critical": 1,
@@ -7752,6 +7708,26 @@ exports.data = [
         "skill": [
             {
                 "id": 26,
+=======
+            "health": 1.5,
+            "attack": 0.4,
+            "critical": 1,
+            "strong": 1,
+            "accuracy": 1,
+            "reactivity": 1,
+            "speed": 1
+        },
+        "soundWound": "shanzeiroumuwound.mp3",
+        "soundDie": "shanzeitoumudie.mp3",
+        "effectAttack": 10,
+        "skill": [
+            {
+                "id":159,
+                "level": 1
+            },
+            {
+                "id": 160,
+>>>>>>> origin/develop
                 "level": 1
             },
             {
@@ -7759,9 +7735,220 @@ exports.data = [
                 "level": 1
             },
             {
+<<<<<<< HEAD
                 "id": 159,
                 "level": 1
             }
         ]
     },
+=======
+                "id": 55,
+                "level": 1
+            }
+        ],
+        "dropInfo": [ 148
+
+        ]
+    },
+    {
+        "classId": 214,
+        "className": "邪恶守护者",
+        "faction": "monster",
+        "classType": 1,
+        "avatar": "enemy-db1.ccbi",
+        "property": {
+            "health": 3.5,
+            "attack": 0.1,
+            "critical": -20,
+            "strong": -10,
+            "accuracy": 20,
+            "reactivity": -50,
+            "speed": 0,
+            "counterAttack": true,
+            "exp": 0,
+            "gold": 0
+        },
+        "xproperty": {
+            "balance": 0.1,
+            "health": 1.5,
+            "attack": 0.4,
+            "critical": 1,
+            "strong": 1,
+            "accuracy": 1,
+            "reactivity": 1,
+            "speed": 1
+        },
+        "soundSpawn": "shanzeitoumu.mp3",
+        "soundWound": "shanzeiroumuwound.mp3",
+        "soundAttack": "shanzeitoumuattack.mp3",
+        "soundDie": "shanzeitoumudie.mp3",
+        "effectAttack": 8,
+        "skill": [
+            {
+                "id": 157,
+                "level": 1
+            },
+            {
+                "id": 158,
+                "level": 1
+            }
+        ],
+        "dropInfo": [
+
+        ]
+    },
+    {
+        "classId": 215,
+        "className": "测试流浪剑士",
+        "faction": "monster",
+        "classType": 1,
+        "avatar": "enemy-sword2.ccbi",
+        "property": {
+            "health": 5,
+            "attack": 0.5,
+            "critical": 0,
+            "strong": 20,
+            "accuracy": 170,
+            "reactivity": 170,
+            "speed": 0,
+            "counterAttack": true,
+            "exp": 0,
+            "gold": 0
+        },
+        "xproperty": {
+            "balance": 0.1,
+            "health": 5,
+            "attack": 0.5,
+            "critical": 1,
+            "strong": 1,
+            "accuracy": 1,
+            "reactivity": 3,
+            "speed": 1
+        },
+        "soundWound": "liulangwound.mp3",
+        "soundAttack": "liulangattack.mp3",
+        "soundDie": "liulangdie.mp3",
+        "effectAttack": 8,
+        "skill": [
+            {
+                "id": 185,
+                "level": 1
+            },
+            {
+                "id": 183,
+                "level": 1
+            },
+            {
+                "id": 27,
+                "level": 1
+            }
+        ],
+        "scale": 1.2
+    },
+    {
+        "classId": 216,
+        "className": "狂战士",
+        "faction": "hero",
+        "classType": 0,
+        "avatar": "avatar1.ccbi",
+        "emblem": [
+            "emblem-warrior.png",
+            "emblem-warrior2.png"
+        ],
+        "property": {
+            "health": 35,
+            "attack": 3,
+            "critical": 2,
+            "strong": 4,
+            "accuracy": 2,
+            "reactivity": 1,
+            "speed": 2,
+            "activeSpell": 0
+        },
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            879,
+            880,
+            881,
+            882,
+            662,
+            712,
+            883
+        ],
+        "levelId": 0,
+        "transId":197
+    },
+    {
+        "classId": 217,
+        "className": "魔导师",
+        "faction": "hero",
+        "classType": 0,
+        "avatar": "avatar2.ccbi",
+        "emblem": [
+            "emblem-mage.png",
+            "emblem-mage2.png"
+        ],
+        "property": {
+            "health": 21,
+            "attack": 5,
+            "critical": 4,
+            "strong": 2,
+            "accuracy": 2,
+            "reactivity": 2,
+            "speed": 2,
+            "activeSpell": 5
+        },
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            884,
+            885,
+            886,
+            887,
+            652,
+            742,
+            888
+        ],
+        "levelId": 0,
+        "transId":198
+    },
+    {
+        "classId": 218,
+        "className": "主教",
+        "faction": "hero",
+        "classType": 0,
+        "avatar": "avatar3.ccbi",
+        "emblem": [
+            "emblem-priest.png",
+            "emblem-priest2.png"
+        ],
+        "property": {
+            "health": 25,
+            "attack": 2,
+            "critical": 2,
+            "strong": 4,
+            "accuracy": 4,
+            "reactivity": 3,
+            "speed": 6,
+            "activeSpell": 8
+        },
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            889,
+            890,
+            891,
+            892,
+            682,
+            772,
+            893
+        ],
+        "levelId": 0,
+        "transId":199
+    }
+>>>>>>> origin/develop
 ]
