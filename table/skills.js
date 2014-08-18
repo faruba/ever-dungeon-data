@@ -6067,5 +6067,42 @@ exports.data = [
                 { "type": "event", "event": "onBeginBattleTurn", "eventCount": 9999 }
             ]
         }
+    },
+    {
+        "skillId": 266,
+        "label":"暴击特效(狂战士)",
+        "config": {
+            "triggerCondition": [
+                {"type" :"event", "event":"onCriticalDamage" }
+            ],
+            "action": [
+                {"type":"playEffect","effect":60,"act":"self"}
+            ]
+        }
+    },
+    {
+        "skillId": 267,
+        "label":"暴击特效(魔导师)",
+        "config": {
+            "triggerCondition": [
+                {"type" :"event", "event":"onCriticalDamage" }
+            ],
+            "action": [
+                {"type":"playEffect","effect":61,"act":"self"}
+            ]
+        }
+    },
+    {
+        "skillId": 268,
+        "label":"暴击特效(主教)",
+        "config": {
+            "triggerCondition": [
+                {"type" :"event", "event":"onCriticalDamage" }
+            ],
+            "action": [
+                {"type": "playEffect","effect":63,"pos":"target"},
+                {"type":"playEffect","effect":62,"act":"self"}
+            ]
+        }
     }
 ];
