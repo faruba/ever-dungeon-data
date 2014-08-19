@@ -172,8 +172,9 @@ exports.data = [
         { "type": "damage","damageType":"Spell","isRange":true,"delay":0.8},
         {"type": "playEffect","effect":44,"act":"self"},
         {"type": "playEffect","effect":0,"act":"target","delay":0.6},
-          {"type": "blink","delay":0.6,"time":0.08},
-          {"type":"shock","delay":0.6,"range":5,"time":0.2}
+        {"type": "blink","delay":0.6,"time":0.08},
+        {"type":"shock","delay":0.6,"range":5,"time":0.2}
+
       ],
       "levelConfig" : [
         { "formular": {"src":{"attack":0.8}} },
@@ -2204,7 +2205,7 @@ exports.data = [
         "skillId":92,
         "config": {
             "installAction":[
-                { "type": "setProperty","modifications": {"attack":{"src":{"attack":-0.5}}} }
+                { "type": "setProperty","modifications": {"attack":{"src":{"attack":-0.4}}} }
             ],
             "uninstallAction": [
                 { "type": "resetProperty" }
@@ -2825,10 +2826,8 @@ exports.data = [
                 "filter": [{"type":"alive"}]
             },
             "action":[
-                {"type":"delay"} ,
-                {"type":"shock","delay":0.3,"range":5,"time":0.2},
+                {"type":"delay"},
                 {"type": "installSpell", "spell": 123}
-
             ]
         }
     },
@@ -4192,17 +4191,17 @@ exports.data = [
         "label":"X回合加一次攻击力",
         "config": {
             "triggerCondition": [
-                {"type": "countDown", "cd": 2 },
-                {"type":"event", "event":"onBeginBattleTurn" }
+                {"type": "countDown", "cd": 5 },
+                {"type":"event", "event":"onTurnEnd" }
             ],
             "targetSelection": {
                 "pool": "self",
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "action":[
-                {"type":"delay"},
-                {"type": "playEffect","effect":13,"pos":"self","delay":1.5} ,
-                {"type":"playAction","motion":1,"pos":"self"},
+                {"type": "playEffect","effect":4,"act":"self"},
+                {"type":"shock","delay":0.3,"range":5,"time":0.2},
+                {"type": "delay","delay":0.4},
                 { "type": "installSpell", "spell": 265}
             ]
         }
@@ -4236,15 +4235,25 @@ exports.data = [
         "skillId": 185,
         "label":"溅射",
         "config": {
+            "basic":{
+                "targetEffect": 7,
+                "spellDelay": 0.3,
+                "targetDelay": 0.3
+            },
             "triggerCondition": [
-                {"type" :"event", "event":"onPhysicalDamage" }
+                {"type" :"event", "event": "onPhysicalDamage"}
             ],
-            "targetSelection":{
-                "pool": "target",
-                "filter": [{"type":"alive"},{"type":"visible"}]
+            "targetSelection": {
+                "pool": "objects",
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"count","count":3}]
             },
             "action": [
-                { "type": "installSpell", "spell": 186}
+                { "type": "modifyVar", "x": "damage", "formular": {"environment": {"damage":0}} },
+                {"type": "delay","delay":0.4},
+                {"type": "playEffect","effect":4,"act":"self"},
+                {"type": "damage","damageType":"Physical","isRange":true,"formular": {"src":{"attack":1}}},
+                {"type": "blink","delay":0.3,"time":0.08},
+                {"type":"shock","delay":0.3,"range":5,"time":0.2}
             ]
         }
     },
@@ -4534,22 +4543,23 @@ exports.data = [
                 "targetDelay": 0
             },
             "targetSelection": {
-                "pool": "target",
-                "filter": [{"type":"alive"},{"type":"visible"}]
+                "pool": "self"
             },
             "triggerCondition": [
-                { "type": "event", "event": "onPhysicalDamage" },
-                {"type":"alive"}
+                { "type": "event", "event": "onPhysicalDamage", "count": 1 }
+            ],
+            "installAction": [
+                { "type": "removeSpell", "spell": 269},
+                { "type": "installSpell", "spell": 269}
             ],
             "action": [
-                { "type": "modifyVar", "x": "damage" },
-                {"type": "blink","delay":0.3,"time":0.08},
-                {"type":"shock","delay":0.3,"range":5,"time":0.2}
+                { "type": "removeSpell", "spell": 269},
+                { "type": "installSpell", "spell": 269}
             ],
             "levelConfig": [
-                { "formular": {"src": {"health":0.5,"attack":1}}  },
-                { "formular": {"src": {"health":0.8,"attack":1}}  },
-                { "formular": {"src": {"health":1.2,"attack":1}}  }
+                {"level": 1},
+                {"level": 2},
+                {"level": 3}
             ]
         }
     },
@@ -4699,9 +4709,9 @@ exports.data = [
                 {"type":"visible"}
             ],
             "levelConfig":[
-                { "modifications": {"attack":{"src":{"attack":1}}}, "level": 1},
-                { "modifications": {"attack":{"src":{"attack":1}}}, "level": 2},
-                { "modifications": {"attack":{"src":{"attack":1}}}, "level": 3}
+                { "modifications": {"attack":{"src":{"attack":{"visibleMonster":0.03}}}}, "level": 1},
+                { "modifications": {"attack":{"src":{"attack":{"visibleMonster":0.05}}}}, "level": 2},
+                { "modifications": {"attack":{"src":{"attack":{"visibleMonster":0.08}}}}, "level": 3}
             ]
         }
     },
@@ -4714,7 +4724,6 @@ exports.data = [
         "config": {
             "triggerCondition": [
                 { "type": "event", "event": "onPhysicalDamage" },
-                { "type": "chance", "chance": 0.3 },
                 {"type":"alive"}
             ],
             "targetSelection": {
@@ -4740,26 +4749,29 @@ exports.data = [
             "basic" : {
                 "buffEffect": 36
             },
+            "triggerCondition": [
+                { "type": "event", "event": "onBePhysicalDamage" },
+                { "type": "event", "event": "onBePhysicalRangeDamage" },
+                { "type": "event", "event": "onBeSpellDamage" },
+                { "type": "event", "event": "onBeSpellRangeDamage" },
+                {"type":"alive"}
+            ],
             "targetSelection":
             {
                 "pool":"self",
                 "filter": [{"type":"alive"}]
             },
-            "installAction":[
-                { "type": "setProperty" }
-            ],
-            "uninstallAction": [
-                { "type": "resetProperty" }
-            ],
-            "buffType":"DeDebuff",
             "availableCondition": [
                 { "type":"event", "event":"onBattleTurnEnd" ,"count":1},
-                {"type":"visible"}
+                {"type":"alive"},{"type":"visible"}
+            ],
+            "action": [
+                { "type": "modifyVar", "x": "damage" }
             ],
             "levelConfig":[
-                { "modifications": {"attack":{"src":{"attack":1}}}, "level": 1},
-                { "modifications": {"attack":{"src":{"attack":1}}}, "level": 2},
-                { "modifications": {"attack":{"src":{"attack":1}}}, "level": 3}
+                { "formular": {"environment": {"damage":1.2}}, "chance":0.25, "level": 1},
+                { "formular": {"environment": {"damage":1.3}}, "chance":0.3, "level": 2},
+                { "formular": {"environment": {"damage":1.35}}, "chance":0.5, "level": 3}
             ]
         }
     },
@@ -6044,14 +6056,79 @@ exports.data = [
     {
         "skillId": 265,
         "config": {
-            "installAction":[
+            "installAction": [
                 { "type": "setProperty","modifications": {"attack":{"src":{"attack":0.1}}} }
             ],
             "targetSelection": {
                 "pool": "self",
-                "filter": [{"type":"alive"},{"type":"visible"}],
-            "buffType":"AttackBuff"
-            }
+                "filter": [{"type":"alive"},{"type":"visible"}]
+            },
+            "buffType":"AttackBuff",
+            "availableCondition": [
+                { "type": "event", "event": "onBeginBattleTurn", "eventCount": 9999 }
+            ]
+        }
+    },
+    {
+        "skillId": 266,
+        "label":"暴击特效(狂战士)",
+        "config": {
+            "triggerCondition": [
+                {"type" :"event", "event":"onCriticalDamage" }
+            ],
+            "action": [
+                {"type":"playEffect","effect":60,"act":"self"}
+            ]
+        }
+    },
+    {
+        "skillId": 267,
+        "label":"暴击特效(魔导师)",
+        "config": {
+            "triggerCondition": [
+                {"type" :"event", "event":"onCriticalDamage" }
+            ],
+            "action": [
+                {"type":"playEffect","effect":61,"act":"self"}
+            ]
+        }
+    },
+    {
+        "skillId": 268,
+        "label":"暴击特效(主教)",
+        "config": {
+            "triggerCondition": [
+                {"type" :"event", "event":"onCriticalDamage" }
+            ],
+            "action": [
+                {"type": "playEffect","effect":63,"pos":"target"},
+                {"type":"playEffect","effect":62,"act":"self"}
+            ]
+        }
+    },
+    {
+        "skillId": 269,
+        "label":"198-血之狂怒",
+        "config": {
+            "action":[
+                { "type": "setProperty"}
+            ],
+            "targetSelection":{ "pool":"Self" },
+            "uninstallAction": [
+                { "type": "resetProperty" },
+                { "type": "shock", "delay":0.3, "range":5, "time":0.2 }
+            ],
+            "triggerCondition": [
+                { "type": "event", "event": "onBePhysicalDamage" },
+                { "type": "event", "event": "onBePhysicalRangeDamage" },
+                { "type": "event", "event": "onBeSpellDamage" },
+                { "type": "event", "event": "onBeSpellRangeDamage" }
+            ],
+            "levelConfig":[
+                { "modifications": {"attack":{"c":{"environment":{"damage":0.5}}}}, "level": 1},
+                { "modifications": {"attack":{"c":{"environment":{"damage":0.8}}}}, "level": 2},
+                { "modifications": {"attack":{"c":{"environment":{"damage":1.2}}}}, "level": 3}
+            ]
         }
     }
 ];
