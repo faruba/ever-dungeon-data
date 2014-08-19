@@ -237,5 +237,33 @@ exports.data = [
     {
         "effectId": 56,
         "file": "effect-emoticon.ccbi"
+    },
+    {
+        "effectId": 57,
+        "file": "f-warriorn-mainweapontx.ccbi"
+    },
+    {
+        "effectId": 58,
+        "file": "f-magen-mainweapontx.ccbi"
+    },
+    {
+        "effectId": 59,
+        "file": "f-priestn-mainweapontx.ccbi"
+    },
+    {
+        "effectId": 60,
+        "file": "f-warriorn-mainweapontxb.ccbi"
+    },
+    {
+        "effectId": 61,
+        "file": "f-magen-mainweapontxb.ccbi"
+    },
+    {
+        "effectId": 62,
+        "file": "f-priestn-mainweapontxb.ccbi"
+    },
+    {
+        "effectId": 63,
+        "file": "effect-priestn-attack.ccbi"
     }
 ]
