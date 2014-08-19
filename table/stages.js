@@ -1,9 +1,5 @@
-<<<<<<< HEAD
-    var data = [
-=======
 var MAX_BATTLE_TIMES = 200;
 var data = [
->>>>>>> origin/develop
     {
         "chapterId": 0,
         "hidden":true,

@@ -171,7 +171,7 @@ exports.data = [
 		"effectAttack": 9,
 		"skill": [
 			{
-				"id": 159,
+				"id": 29,
 				"level": 1
 			}
 		]
@@ -326,6 +326,10 @@ exports.data = [
 			},
 			{
 				"id": 27,
+				"level": 1
+			},
+			{
+				"id": 28,
 				"level": 1
 			}
 		]
@@ -7173,10 +7177,6 @@ exports.data = [
                 "level": 1
             },
             {
-                "id": 157,
-                "level": 1
-            },
-            {
                 "id": 55,
                 "level": 1
             }
@@ -7589,21 +7589,6 @@ exports.data = [
     },
     {
         "classId": 212,
-<<<<<<< HEAD
-        "className": "xxx",
-        "faction": "monster",
-        "classType": 1,
-        "avatar": "xxx.ccbi",
-        "property": {
-            "health": 1,
-            "attack": 1,
-            "critical": 1,
-            "strong": 1,
-            "accuracy": 1,
-            "reactivity": 1,
-            "speed": 1,
-            "counterAttack": true,
-=======
         "className": "pk宝箱",
         "faction": "npc",
         "classType": 2,
@@ -7617,28 +7602,10 @@ exports.data = [
             "reactivity": -100,
             "speed": 0,
             "counterAttack": false,
->>>>>>> origin/develop
             "exp": 0,
             "gold": 0
         },
         "xproperty": {
-<<<<<<< HEAD
-            "balance": 0.2,
-            "health": 0.2,
-            "attack": 0.2,
-            "critical": 0.2,
-            "strong": 0.2,
-            "accuracy": 0.2,
-            "reactivity": 0.2,
-            "speed": 0.2
-        },
-        "soundSpawn": "xxx.mp3",
-        "soundWound": "xxxwound.mp3",
-        "soundAttack": "xxxattack.mp3",
-        "soundDie": "xxxdie.mp3",
-        "effectAttack": 9,
-        "scale": 1,
-=======
             "balance": 0.1,
             "health": 1.5,
             "attack": 0.4,
@@ -7648,7 +7615,6 @@ exports.data = [
             "reactivity": 1,
             "speed": 1
         },
->>>>>>> origin/develop
         "skill": [
             {
                 "id": 156,
@@ -7658,19 +7624,6 @@ exports.data = [
     },
     {
         "classId": 213,
-<<<<<<< HEAD
-        "className": "哥布林投矛手x",
-        "faction": "monster",
-        "classType": 1,
-        "avatar": "enemy-goblin2.ccbi",
-        "property": {
-            "health": 2.0,
-            "attack": 0.01,
-            "critical": 2,
-            "strong": 2,
-            "accuracy": 20,
-            "reactivity": -90,
-=======
         "className": "邪恶法师",
         "faction": "monster",
         "classType": 1,
@@ -7683,7 +7636,6 @@ exports.data = [
             "strong": -10,
             "accuracy": 20,
             "reactivity": -50,
->>>>>>> origin/develop
             "speed": 0,
             "counterAttack": false,
             "exp": 0,
@@ -7691,24 +7643,6 @@ exports.data = [
         },
         "xproperty": {
             "balance": 0.1,
-<<<<<<< HEAD
-            "health": 2.0,
-            "attack": 0.1,
-            "critical": 1,
-            "strong": 1,
-            "accuracy": 10,
-            "reactivity": 1,
-            "speed": 1
-        },
-        "soundSpawn": "gebulintou.mp3",
-        "soundWound": "gebulinwound.mp3",
-        "soundAttack": "shouren.mp3",
-        "soundDie": "gebulindie.mp3",
-        "effectAttack": 9,
-        "skill": [
-            {
-                "id": 26,
-=======
             "health": 1.5,
             "attack": 0.4,
             "critical": 1,
@@ -7727,7 +7661,6 @@ exports.data = [
             },
             {
                 "id": 160,
->>>>>>> origin/develop
                 "level": 1
             },
             {
@@ -7735,13 +7668,6 @@ exports.data = [
                 "level": 1
             },
             {
-<<<<<<< HEAD
-                "id": 159,
-                "level": 1
-            }
-        ]
-    },
-=======
                 "id": 55,
                 "level": 1
             }
@@ -7950,5 +7876,4 @@ exports.data = [
         "levelId": 0,
         "transId":199
     }
->>>>>>> origin/develop
 ]

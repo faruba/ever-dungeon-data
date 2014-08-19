@@ -24,18 +24,6 @@ exports.data = [
                 }
             },
             {
-                "xp":100,
-                "property":{
-                    "health": 2,
-                    "attack": 1,
-                    "critical": 1,
-                    "strong": 0,
-                    "accuracy": 1,
-                    "reactivity": 0,
-                    "speed": 0
-                }
-            },
-            {
                 "xp":250,
                 "property":{
                     "health": 2,
@@ -45,16 +33,12 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 0,
                     "speed": 0
-<<<<<<< HEAD
-                }
-=======
                 },
                 "skill": [
                     {"id":2, "level": 1,"classLimit":0},
                     {"id":12, "level": 1,"classLimit":1},
                     {"id":9, "level": 1,"classLimit":2}
                 ]
->>>>>>> origin/develop
             },
             {
                 "xp":450,
@@ -126,16 +110,12 @@ exports.data = [
                     "accuracy": 0,
                     "reactivity": 1,
                     "speed": 1
-<<<<<<< HEAD
-                }
-=======
                 },
                 "skill": [
                     {"id":0, "level": 2,"classLimit":0},
                     {"id":5, "level": 2,"classLimit":1},
                     {"id":8, "level": 2,"classLimit":2}
                 ]
->>>>>>> origin/develop
             },
             {
                 "xp":1900,
@@ -183,16 +163,12 @@ exports.data = [
                     "accuracy": 0,
                     "reactivity": 1,
                     "speed": 1
-<<<<<<< HEAD
-                }
-=======
                 },
                 "skill": [
                     {"id":3, "level": 1,"classLimit":0},
                     {"id":7, "level": 1,"classLimit":1},
                     {"id":10, "level": 1,"classLimit":2}
                 ]
->>>>>>> origin/develop
             },
             {
                 "xp":3300,
@@ -225,35 +201,6 @@ exports.data = [
                     "attack": 0,
                     "critical": 1,
                     "strong": 0,
-<<<<<<< HEAD
-                    "accuracy": 1,
-                    "reactivity": 0,
-                    "speed": 0
-                }
-            },
-            {
-                "xp":4700,
-                "property":{
-                    "health": 2,
-                    "attack": 1,
-                    "critical": 0,
-                    "strong": 1,
-                    "accuracy": 0,
-                    "reactivity": 1,
-                    "speed": 1
-                }
-            },
-            {
-                "xp":5200,
-                "property":{
-                    "health": 2,
-                    "attack": 0,
-                    "critical": 1,
-                    "strong": 0,
-                    "accuracy": 1,
-                    "reactivity": 0,
-                    "speed": 0
-=======
                     "accuracy": 1,
                     "reactivity": 0,
                     "speed": 0
@@ -286,7 +233,6 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 0,
                     "speed": 0
->>>>>>> origin/develop
                 }
             },
             {
@@ -347,16 +293,12 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 1,
                     "speed": 1
-<<<<<<< HEAD
-                }
-=======
                 },
                 "skill": [
                     {"id":4, "level": 1,"classLimit":0},
                     {"id":6, "level": 1,"classLimit":1},
                     {"id":11, "level": 1,"classLimit":2}
                 ]
->>>>>>> origin/develop
             },
             {
                 "xp":8650,
@@ -428,16 +370,12 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 1,
                     "speed": 1
-<<<<<<< HEAD
-                }
-=======
                 },
                 "skill": [
                     {"id":3, "level": 2,"classLimit":0},
                     {"id":7, "level": 2,"classLimit":1},
                     {"id":10, "level": 2,"classLimit":2}
                 ]
->>>>>>> origin/develop
             },
             {
                 "xp":12900,
@@ -497,16 +435,12 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 1,
                     "speed": 1
-<<<<<<< HEAD
-                }
-=======
                 },
                 "skill": [
                     {"id":0, "level": 3,"classLimit":0},
                     {"id":5, "level": 3,"classLimit":1},
                     {"id":8, "level": 3,"classLimit":2}
                 ]
->>>>>>> origin/develop
             },
             {
                 "xp":18400,
@@ -566,16 +500,12 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 1,
                     "speed": 1
-<<<<<<< HEAD
-                }
-=======
                 },
                 "skill": [
                     {"id":2, "level": 3,"classLimit":0},
                     {"id":12, "level": 3,"classLimit":1},
                     {"id":9, "level":3,"classLimit":2}
                 ]
->>>>>>> origin/develop
             },
             {
                 "xp":28100,
@@ -647,16 +577,12 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 1,
                     "speed": 1
-<<<<<<< HEAD
-                }
-=======
                 },
                 "skill": [
                     {"id":3, "level": 3,"classLimit":0},
                     {"id":7, "level": 3,"classLimit":1},
                     {"id":10, "level": 3,"classLimit":2}
                 ]
->>>>>>> origin/develop
             },
             {
                 "xp":45000,

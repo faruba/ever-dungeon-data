@@ -9,11 +9,11 @@ exports.data = [
 		"stack": 99,
 		"sellprice": 50,
 		"transPrize": [
-            {
-                "type": 0,
-                "value": 853,
-                "count": 1
-            }
+			{
+				"type": 0,
+				"value": 853,
+				"count": 1
+			}
 		]
 	},
 	{
@@ -10668,7 +10668,7 @@ exports.data = [
 		"basic_properties": {
 			"health": 25,
 			"attack": 8,
-			"reactivity": 7,
+			"accuracy": 7,
 			"critical": 4
 		},
 		"storeOnly": true,
@@ -27937,37 +27937,6 @@ exports.data = [
     },
     {
         "classId": 878,
-<<<<<<< HEAD
-        "label": "xxx",
-        "icon": "xxx.png",
-        "category": 1,
-        "subcategory": 1,
-        "description": "侍僧们常年累月祈祷所用的xxx",
-        "effecta":[
-            {
-                "part": "secondaryweapon2",
-                "file": "xxx.ccbi"
-            }
-        ],
-        "classLimit": [
-            2
-        ],
-        "quality": 0,
-        "rank": 1,
-        "upgradeTarget": 98,
-        "basic_properties": {
-            "health": 1,
-            "attack": 1,
-            "speed": 1,
-            "strong": 1,
-            "accuracy": 1,
-            "critical": 1
-        },
-        "autoUse": true,
-        "enhanceID": 2,
-        "forgeID": 19,
-        "forgeTarget": 146
-=======
         "label": "圣光之翼",
         "icon": "item-wing.png",
         "category": 1,
@@ -28242,6 +28211,5 @@ exports.data = [
                 "file": "f-priestn-helmet1.ccbi"
             }
         ]
->>>>>>> origin/develop
     }
 ]
