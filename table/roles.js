@@ -1,7 +1,7 @@
 exports.data = [
     {
         "classId": 0,
-        "className": "狂战士",
+        "className": "战士",
         "faction": "hero",
         "classType": 0,
         "avatar": "avatar1.ccbi",
@@ -36,7 +36,7 @@ exports.data = [
     },
     {
         "classId": 1,
-        "className": "魔导师",
+        "className": "法师",
         "faction": "hero",
         "classType": 0,
         "avatar": "avatar2.ccbi",
@@ -71,7 +71,7 @@ exports.data = [
     },
     {
         "classId": 2,
-        "className": "主教",
+        "className": "牧师",
         "faction": "hero",
         "classType": 0,
         "avatar": "avatar3.ccbi",
