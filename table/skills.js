@@ -4576,7 +4576,8 @@ exports.data = [
             },
             "triggerCondition": [
                 { "type": "event", "event": "onMonsterShow" },
-                {"type":"alive"}
+                { "type": "chance" },
+                { "type": "alive" }
             ],
             "action": [
                 { "type": "resetProperty" }
@@ -4609,6 +4610,7 @@ exports.data = [
             "triggerCondition": [
                 { "type": "event", "event": "onTeammateBePhysicalDamage" },
                 { "type": "event", "event": "onTeammateBePhysicalRangeDamage" },
+                { "type": "chance" },
                 {"type":"alive"}
             ],
             "action": [
@@ -4781,7 +4783,8 @@ exports.data = [
             },
             "triggerCondition": [
                 {"type": "event", "event": "onAttack" },
-                {"type": "event", "event": "onSpell" }
+                {"type": "event", "event": "onSpell" },
+                { "type": "chance" }
             ],
             "targetSelection": {
                 "pool": "objects",
@@ -4842,7 +4845,8 @@ exports.data = [
                 "targetDelay": 0.3
             },
             "triggerCondition": [
-                { "type": "event", "event": "onKill" }
+                { "type": "event", "event": "onKill" },
+                { "type": "chance" }
             ],
             "action": [
                 {"type": "playEffect","effect":4,"act":"self"},
@@ -4933,6 +4937,7 @@ exports.data = [
             "triggerCondition": [
                 { "type": "event", "event": "onBePhysicalDamage" },
                 { "type": "event", "event": "onBePhysicalRangeDamage" },
+                { "type": "chance" },
                 {"type":"alive"}
             ],
             "action": [
