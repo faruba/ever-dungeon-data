@@ -4584,7 +4584,7 @@ exports.data = [
             ],
             "levelConfig": [
                 { "chance":0.3,"modifications": {"accuracy":{"c":-10}}, "level": 1},
-                { "chance":0.4,"modifications": {"accuracy":{"c":10}}, "level": 2},
+                { "chance":0.4,"modifications": {"accuracy":{"c":-10}}, "level": 2},
                 { "chance":0.4,"modifications": {"accuracy":{"c":-15}}, "level": 3}
             ]
         }
