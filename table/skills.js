@@ -4536,19 +4536,15 @@ exports.data = [
         "slotId": 1 ,
         "config": {
             "targetSelection": {
-                "pool": "self"
+                "pool": "self",
+                "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "triggerCondition": [
                 { "type": "event", "event": "onPhysicalDamage" }
             ],
-            "installAction": [
-                { "type": "removeSpell", "spell": 269},
-                { "type": "installSpell", "spell": 269}
-            ],
             "action": [
-                { "type": "removeSpell", "spell": 269},
-                { "type": "installSpell", "spell": 269},
-                {"type":"delay"}
+                {"type":"delay"},
+                { "type": "installSpell", "spell": 269}
             ],
             "levelConfig": [
                 {"level": 1},
@@ -4725,8 +4721,7 @@ exports.data = [
             "action": [
                 {"type":"delay"},
                 { "type": "installSpell", "spell": 205},
-                {"type": "playEffect","effect":36,"pos":"target","delay":2.0},
-                {"type":"playAction","motion":1,"pos":"self"}
+                {"type": "playEffect","effect":36,"pos":"target","delay":2.0}
             ],
             "levelConfig" : [
                 { "chance":0.25 },
