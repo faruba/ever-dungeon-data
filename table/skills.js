@@ -4663,7 +4663,7 @@ exports.data = [
         "slotId": 1,
         "config": {
             "triggerCondition": [
-                { "type": "event", "event": "onTurnEnd" },
+                { "type": "event", "event": "onTarget" },
                 {"type":"alive"}
             ],
             "targetSelection": {
@@ -4692,8 +4692,7 @@ exports.data = [
             ],
             "buffType":"AttackBuff",
             "availableCondition": [
-                { "type": "effectCount","count":1 },
-                {"type":"visible"}
+                { "type": "effectCount","count":1 }
             ],
             "levelConfig":[
                 { "modifications": {"attack":{"environment":{"visibleMonsterCount":15}}}, "level": 1},
@@ -4775,8 +4774,7 @@ exports.data = [
                 "targetDelay": 0.9
             },
             "triggerCondition": [
-                {"type": "event", "event": "onAttack" },
-                {"type": "event", "event": "onSpell" },
+                {"type": "event", "event": "onTarget" },
                 { "type": "chance" }
             ],
             "targetSelection": {
