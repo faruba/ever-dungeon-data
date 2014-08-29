@@ -4671,7 +4671,6 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "action": [
-                { "type": "removeSpell", "spell": 203},
                 { "type": "installSpell", "spell": 203}
             ],
             "levelConfig" : [
@@ -4720,7 +4719,7 @@ exports.data = [
             "action": [
                 {"type":"delay"},
                 { "type": "installSpell", "spell": 205},
-                {"type": "playEffect","effect":36,"pos":"target","delay":2.0}
+                {"type": "playEffect","effect":36,"act":"target"}
             ],
             "levelConfig" : [
                 { "chance":0.25 },
@@ -4855,9 +4854,9 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"}]
             },
             "levelConfig" : [
-                { "chance":0.1,"level": 1 },
-                { "chance":0.15,"level": 2 },
-                { "chance":0.2,"level": 3 }
+                { "level": 1 },
+                { "level": 2 },
+                { "level": 3 }
             ]
         }
     },
@@ -4875,9 +4874,9 @@ exports.data = [
                 { "type": "event", "event": "onBeginBattleTurn", "eventCount": 2 }
             ],
             "levelConfig" : [
-                { "modifications": {"attack":{"src":{"attack":0.3}},"speed":{"src":{"c":10}}}},
-                { "modifications": {"attack":{"src":{"attack":0.4}},"speed":{"src":{"c":15}}}},
-                { "modifications": {"attack":{"src":{"attack":0.5}},"speed":{"src":{"c":25}}}}
+                { "chance":0.1,"modifications": {"attack":{"src":{"attack":0.3}},"speed":{"src":{"c":10}}}},
+                { "chance":0.15,"modifications": {"attack":{"src":{"attack":0.4}},"speed":{"src":{"c":15}}}},
+                { "chance":0.2,"modifications": {"attack":{"src":{"attack":0.5}},"speed":{"src":{"c":25}}}}
             ]
         }
     },
