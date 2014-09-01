@@ -4727,7 +4727,7 @@ exports.data = [
             "action": [
                 {"type":"delay"},
                 { "type": "installSpell", "spell": 205},
-                {"type": "playEffect","effect":36,"act":"target"}
+                {"type": "playEffect","effect":36,"pos":"target"}
             ],
             "levelConfig" : [
                 { "chance":0.25, "level": 1 },
