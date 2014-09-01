@@ -4540,10 +4540,17 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "triggerCondition": [
-                { "type": "event", "event": "onPhysicalDamage" }
+                { "type": "event", "event": "onPhysicalDamage" },
+                { "type": "event", "event": "onSpellDamage"  },
+                { "type": "event", "event": "onSpellRangeDamage" },
+                { "type":"effectCount","count":1 }
+            ],
+            "installAction": [
+                { "type": "removeSpell", "spell": 269},
+                { "type": "installSpell", "spell": 269}
             ],
             "action": [
-                {"type":"delay"},
+                { "type": "removeSpell", "spell": 269},
                 { "type": "installSpell", "spell": 269}
             ],
             "levelConfig": [
@@ -4576,6 +4583,7 @@ exports.data = [
                 { "type": "chance" },
                 { "type": "alive" }
             ],
+            "buffType":"DeBuff",
             "action": [
                 { "type": "resetProperty" }
             ],
@@ -4663,7 +4671,7 @@ exports.data = [
         "slotId": 1,
         "config": {
             "triggerCondition": [
-                { "type": "event", "event": "onTarget" },
+                { "type": "event", "event": "onTurnBegin" },
                 {"type":"alive"}
             ],
             "targetSelection": {
@@ -6114,8 +6122,9 @@ exports.data = [
         "label":"198-血之狂怒",
         "config": {
             "action":[
-                {"type": "playEffect","effect":13,"act":"self"},
-                { "type": "setProperty"}
+                { "type":"delay" },
+                { "type": "playEffect","effect":13,"act":"self" },
+                { "type": "setProperty" }
             ],
             "targetSelection":{ "pool":"Self" },
             "uninstallAction": [
@@ -6127,14 +6136,11 @@ exports.data = [
                 { "type": "event", "event": "onBeSpellDamage" },
                 { "type": "event", "event": "onBeSpellRangeDamage" }
             ],
-            "availableCondition": [
-                { "type": "effectCount","count":1 }
-            ],
             "buffType":"AttackBuff",
             "levelConfig":[
-                { "modifications": {"attack":{"environment":{"damage":0.5}}}, "level": 1},
-                { "modifications": {"attack":{"environment":{"damage":0.8}}}, "level": 2},
-                { "modifications": {"attack":{"environment":{"damage":1.2}}}, "level": 3}
+                { "modifications": {"attack":{"environment":{"damage":0.5}}}, "level": 1 },
+                { "modifications": {"attack":{"environment":{"damage":0.8}}}, "level": 2 },
+                { "modifications": {"attack":{"environment":{"damage":1.2}}}, "level": 3 }
             ]
         }
     }
