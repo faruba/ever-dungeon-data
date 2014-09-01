@@ -4722,9 +4722,9 @@ exports.data = [
                 {"type": "playEffect","effect":36,"act":"target"}
             ],
             "levelConfig" : [
-                { "chance":0.25 },
-                { "chance":0.3 },
-                { "chance":0.5 }
+                { "chance":0.25, "level": 1 },
+                { "chance":0.3, "level": 2 },
+                { "chance":0.5, "level": 3 }
             ]
         }
     },
@@ -4754,9 +4754,9 @@ exports.data = [
                 { "type": "modifyVar", "x": "damage" }
             ],
             "levelConfig":[
-                { "formular": {"environment": {"damage":1.2}}},
-                { "formular": {"environment": {"damage":1.3}}},
-                { "formular": {"environment": {"damage":1.35}}}
+                { "formular": {"environment": {"damage":1.2}}, "level": 1 },
+                { "formular": {"environment": {"damage":1.3}}, "level": 2 },
+                { "formular": {"environment": {"damage":1.35}}, "level": 3 }
             ]
         }
     },
@@ -4821,8 +4821,8 @@ exports.data = [
             ],
             "levelConfig" : [
                 {"formular": { "src":{"accuracy":0.1}}},
-                {"formular": { "src":{"accuracy":0.15} }},
-                {"formular": { "src":{"accuracy":0.25} }}
+                {"formular": { "src":{"accuracy":0.15}}},
+                {"formular": { "src":{"accuracy":0.25}}}
             ]
         }
     },
@@ -4854,9 +4854,9 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"}]
             },
             "levelConfig" : [
-                { "level": 1 },
-                { "level": 2 },
-                { "level": 3 }
+                { "chance":0.1,"level": 1 },
+                { "chance":0.15,"level": 2 },
+                { "chance":0.2,"level": 3 }
             ]
         }
     },
@@ -4874,9 +4874,9 @@ exports.data = [
                 { "type": "event", "event": "onBeginBattleTurn", "eventCount": 2 }
             ],
             "levelConfig" : [
-                { "chance":0.1,"modifications": {"attack":{"src":{"attack":0.3}},"speed":{"src":{"c":10}}}},
-                { "chance":0.15,"modifications": {"attack":{"src":{"attack":0.4}},"speed":{"src":{"c":15}}}},
-                { "chance":0.2,"modifications": {"attack":{"src":{"attack":0.5}},"speed":{"src":{"c":25}}}}
+                { "modifications": {"attack":{"src":{"attack":0.3}},"speed":{"src":{"c":10}}}, "level": 1 },
+                { "modifications": {"attack":{"src":{"attack":0.4}},"speed":{"src":{"c":15}}}, "level": 2 },
+                { "modifications": {"attack":{"src":{"attack":0.5}},"speed":{"src":{"c":25}}}, "level": 3 }
             ]
         }
     },
