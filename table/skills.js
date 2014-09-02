@@ -4699,7 +4699,7 @@ exports.data = [
             ],
             "buffType":"AttackBuff",
             "availableCondition": [
-                { "type": "effectCount","count":1 }
+                { "type": "event", "event": "onEndBattleTurn", "eventCount": 1 }
             ],
             "levelConfig":[
                 { "modifications": {"attack":{"environment":{"visibleMonsterCount":15}}}, "level": 1},
