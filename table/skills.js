@@ -4730,9 +4730,9 @@ exports.data = [
                 {"type": "playEffect","effect":36,"pos":"target"}
             ],
             "levelConfig" : [
-                { "chance":0.25, "level": 1 },
-                { "chance":0.3, "level": 2 },
-                { "chance":0.5, "level": 3 }
+                { "chance":0, "level": 1 },
+                { "chance":0, "level": 2 },
+                { "chance":0, "level": 3 }
             ]
         }
     },
