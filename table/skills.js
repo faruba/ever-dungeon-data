@@ -4781,12 +4781,14 @@ exports.data = [
                 "targetDelay": 0.9
             },
             "triggerCondition": [
-                {"type": "event", "event": "onTarget" },
+                { "type": "event", "event": "onPhysicalDamage" },
+                { "type": "event", "event": "onSpellDamage"  },
+                { "type": "event", "event": "onSpellRangeDamage" },
                 { "type": "chance" }
             ],
             "targetSelection": {
                 "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"count","count":2}]
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"}]
             },
             "action": [
                 { "type": "delay"},
