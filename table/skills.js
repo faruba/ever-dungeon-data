@@ -4671,8 +4671,8 @@ exports.data = [
         "slotId": 1,
         "config": {
             "triggerCondition": [
-                { "type": "event", "event": "onTurnBegin" },
-                {"type":"alive"}
+                { "type": "event", "event": "onTurnEnd" },
+                { "type":"alive" }
             ],
             "targetSelection": {
                 "pool": "self",
@@ -6136,7 +6136,6 @@ exports.data = [
                 { "type": "event", "event": "onBeSpellDamage" },
                 { "type": "event", "event": "onBeSpellRangeDamage" }
             ],
-            "buffType":"AttackBuff",
             "levelConfig":[
                 { "modifications": {"attack":{"environment":{"damage":0.5}}}, "level": 1 },
                 { "modifications": {"attack":{"environment":{"damage":0.8}}}, "level": 2 },
