@@ -272,7 +272,10 @@ exports.data = [
     },
     {
         "effectId": 65,
-        "file": "effect-bingjian.ccbi"
+        "file": "effect-bingjian.ccbi",
+        "radian":0,
+        "dirfix":true,
+        "flytime":0.3
     },
     {
         "effectId": 66,

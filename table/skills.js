@@ -4650,8 +4650,8 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"shuffle"},{"type":"count","count":3}]
             },
             "action": [
-                { "type": "damage","damageType":"Spell","isRange":true,"delay":0.8},
-                {"type": "playEffect","effect":65,"pos":"target"},
+                {"type": "rangeAttack", "hurtDelay": 0.6, "effDelay": 0.3,"effect":65},
+                {"type": "playEffect","effect":44,"act":"self"},
                 {"type": "blink","delay":0.6,"time":0.08},
                 {"type":"shock","delay":0.6,"range":5,"time":0.2}
             ],
@@ -4678,8 +4678,7 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "action": [
-                { "type": "installSpell", "spell": 203},
-                {"type": "playEffect","effect":69,"act":"self"}
+                { "type": "installSpell", "spell": 203}
             ],
             "levelConfig" : [
                 {"level": 1},
@@ -4797,9 +4796,9 @@ exports.data = [
                 { "type": "shock","delay":0.6,"range":5,"time":0.2}
             ],
             "levelConfig":[
-                { "chance":0.1,"formular": {"src":{"attack":0.3}}, "level": 1},
-                { "chance":0.2,"formular": {"src":{"attack":0.45}}, "level": 2},
-                { "chance":0.3,"formular": {"src":{"attack":0.6}}, "level": 3}
+                { "chance":0,"formular": {"src":{"attack":0.3}}, "level": 1},
+                { "chance":0,"formular": {"src":{"attack":0.45}}, "level": 2},
+                { "chance":0,"formular": {"src":{"attack":0.6}}, "level": 3}
             ]
         }
     },
@@ -4843,7 +4842,7 @@ exports.data = [
         "config":{
             "basic":{
                 "spellAction": 1,
-                "targetEffect": 13,
+                "targetEffect": 71,
                 "spellDelay": 0.3,
                 "targetDelay": 0.3
             },
@@ -4852,7 +4851,7 @@ exports.data = [
                 { "type": "chance" }
             ],
             "action": [
-                {"type": "playEffect","effect":71,"act":"self"},
+                {"type": "playEffect","effect":4,"act":"self"},
                 {"type":"shock","delay":0.3,"range":5,"time":0.2},
                 {"type":"delay","delay":0.4},
                 {"type": "installSpell", "spell": 209 }
@@ -4897,8 +4896,8 @@ exports.data = [
         "config": {
             "basic": {
                 "spellAction":1,
-                "spellEffect": 47,
-                "targetEffect": 64,
+                "spellEffect": 64,
+                "targetEffect": 48,
                 "spellDelay": 0.3,
                 "targetDelay": 0.7
             },
