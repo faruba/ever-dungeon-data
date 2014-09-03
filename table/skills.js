@@ -4651,8 +4651,7 @@ exports.data = [
             },
             "action": [
                 { "type": "damage","damageType":"Spell","isRange":true,"delay":0.8},
-                {"type": "playEffect","effect":44,"act":"self"},
-                {"type": "playEffect","effect":65,"act":"target","delay":0.6},
+                {"type": "playEffect","effect":65,"pos":"target"},
                 {"type": "blink","delay":0.6,"time":0.08},
                 {"type":"shock","delay":0.6,"range":5,"time":0.2}
             ],
@@ -4671,7 +4670,7 @@ exports.data = [
         "slotId": 1,
         "config": {
             "triggerCondition": [
-                { "type": "event", "event": "onTurnBegin" },
+                { "type": "event", "event": "onTurnEnd" },
                 { "type":"alive" }
             ],
             "targetSelection": {
@@ -4898,8 +4897,8 @@ exports.data = [
         "config": {
             "basic": {
                 "spellAction":1,
-                "spellEffect": 64,
-                "targetEffect": 48,
+                "spellEffect": 47,
+                "targetEffect": 64,
                 "spellDelay": 0.3,
                 "targetDelay": 0.7
             },
@@ -4929,8 +4928,8 @@ exports.data = [
         "config": {
             "basic" : {
                 "spellAction":4,
-                "spellEffect": 67,
-                "targetEffect": 1 ,
+                "spellEffect": 9,
+                "targetEffect": 67 ,
                 "spellDelay": 0,
                 "targetDelay": 0
             },
