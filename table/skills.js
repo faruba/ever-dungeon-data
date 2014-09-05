@@ -4650,8 +4650,10 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"shuffle"},{"type":"count","count":3}]
             },
             "action": [
-                { "type": "rangeAttack", "hurtDelay": 0.6, "effDelay": 0.3,"effect":65 },
-                { "type": "modifyVar", "x": "damage" }
+                { "type": "damage","damageType":"Spell","isRange":true,"delay":0.8},
+                {"type": "playEffect","effect":65,"act":"target","delay":0.6},
+                {"type": "blink","delay":0.6,"time":0.08},
+                {"type":"shock","delay":0.6,"range":5,"time":0.2}
             ],
             "levelConfig" : [
                 { "formular": {"src":{"attack":0.3}}, "level": 1},
