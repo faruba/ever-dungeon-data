@@ -280,7 +280,7 @@ exports.data = [
     },
     {
         "effectId": 67,
-        "file": "effect-fangzu.ccbi"
+        "file": "effect-fangzhu.ccbi"
     },
     {
         "effectId": 68,
