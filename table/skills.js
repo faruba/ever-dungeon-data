@@ -4926,11 +4926,7 @@ exports.data = [
         "slotId": 3 ,
         "config": {
             "basic" : {
-                "spellAction":4,
-                "spellEffect": 9,
-                "targetEffect": 67 ,
-                "spellDelay": 0,
-                "targetDelay": 0
+                "spellAction": 1
             },
             "targetSelection": {
                 "pool": "source",
@@ -4943,7 +4939,8 @@ exports.data = [
                 {"type":"alive"}
             ],
             "action": [
-                { "type": "installSpell", "spell": 212}
+                { "type": "installSpell", "spell": 212},
+                { "type": "playEffect","effect":67,"act":"target","delay":0.6}
             ],
             "levelConfig":[
                 { "chance":0.15, "level": 1},
