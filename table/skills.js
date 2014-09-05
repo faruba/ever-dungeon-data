@@ -4647,7 +4647,7 @@ exports.data = [
             ],
             "targetSelection": {
                 "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"shuffle"},{"type":"count","count":3}]
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"shuffle"},{"type":"count","count":1}]
             },
             "action": [
                 { "type": "damage","damageType":"Spell","isRange":true,"delay":0.8 },
