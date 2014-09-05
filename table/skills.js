@@ -4939,13 +4939,14 @@ exports.data = [
                 {"type":"alive"}
             ],
             "action": [
+                { "type":"delay" },
                 { "type": "installSpell", "spell": 212},
                 { "type": "playEffect","effect":67,"act":"target","delay":0.6}
             ],
             "levelConfig":[
                 { "chance":0.15, "level": 1},
                 { "chance":0.15, "level": 2},
-                { "chance":0.25, "level": 3}
+                { "chance":1, "level": 3}
             ]
         }
     },
