@@ -1,141 +1,141 @@
 exports.data = {
-  "VIP": {
-    "requirement": [ 
-      {
-          "rmb": 0
-      },
-      {
-          "rmb": 30,
-          "privilege":[
-              {
-                  "name":"chest_vip",
-                  "data":1
-              }
-          ]
-      },
-      {
-          "rmb": 100,
-          "privilege":[
-              {
-                  "name":"chest_vip",
-                  "data":2
-              }
-          ]
-      },
-        {
-            "rmb": 150,
-            "privilege":[
-                {
-                    "name":"chest_vip",
-                    "data":3
-                },
-                {
-                    "name":"ContinuousRaids",
-                    "data":true
-                }
-            ]
-        },
-        {
-            "rmb": 250,
-            "privilege":[
-                {
-                    "name":"chest_vip",
-                    "data":4
-                },
-                {
-                    "name":"pkCount",
-                    "data":6
-                }
-            ]
-        },
-        {
-            "rmb": 400,
-            "privilege":[
-                {
-                    "name":"chest_vip",
-                    "data":5
-                },
-                {
-                    "name":"pkCount",
-                    "data":7
-                },
-                {
-                    "name":"tuHaoCount",
-                    "data":4
-                }
-            ]
-        },
-        {
-            "rmb": 850,
-            "privilege":[
-                {
-                    "name":"chest_vip",
-                    "data":6
-                },
-                {
-                    "name":"pkCount",
-                    "data":8
-                },
-                {
-                    "name":"EquipmentRobbers",
-                    "data":4
-                },
-                {
-                    "name":"EvilChieftains",
-                    "data":4
-                }
-            ]
-        },
-        {
-            "rmb": 1400,
-            "privilege":[
-                {
-                    "name":"chest_vip",
-                    "data":7
-                },
-                {
-                    "name":"pkCount",
-                    "data":9
-                },
-                {
-                    "name":"EquipmentRobbers",
-                    "data":5
-                },
-                {
-                    "name":"EvilChieftains",
-                    "data":5
-                }
-            ]
-        },
-        {
-            "rmb": 2500,
-            "privilege":[
-                {
-                    "name":"chest_vip",
-                    "data":8
-                },
-                {
-                    "name":"pkCount",
-                    "data":10
-                },
-                {
-                    "name":"tuHaoCount",
-                    "data":5
-                }
-            ]
-        }
-    ],
+    "VIP": {
+        "requirement": [
+            {
+                "rmb": 0
+            },
+            {
+                "rmb": 30,
+                "privilege":[
+                    {
+                        "name":"chest_vip",
+                        "data":1
+                    }
+                ]
+            },
+            {
+                "rmb": 100,
+                "privilege":[
+                    {
+                        "name":"chest_vip",
+                        "data":2
+                    }
+                ]
+            },
+            {
+                "rmb": 150,
+                "privilege":[
+                    {
+                        "name":"chest_vip",
+                        "data":3
+                    },
+                    {
+                        "name":"ContinuousRaids",
+                        "data":true
+                    }
+                ]
+            },
+            {
+                "rmb": 250,
+                "privilege":[
+                    {
+                        "name":"chest_vip",
+                        "data":4
+                    },
+                    {
+                        "name":"pkCount",
+                        "data":6
+                    }
+                ]
+            },
+            {
+                "rmb": 400,
+                "privilege":[
+                    {
+                        "name":"chest_vip",
+                        "data":5
+                    },
+                    {
+                        "name":"pkCount",
+                        "data":7
+                    },
+                    {
+                        "name":"tuHaoCount",
+                        "data":4
+                    }
+                ]
+            },
+            {
+                "rmb": 850,
+                "privilege":[
+                    {
+                        "name":"chest_vip",
+                        "data":6
+                    },
+                    {
+                        "name":"pkCount",
+                        "data":8
+                    },
+                    {
+                        "name":"EquipmentRobbers",
+                        "data":4
+                    },
+                    {
+                        "name":"EvilChieftains",
+                        "data":4
+                    }
+                ]
+            },
+            {
+                "rmb": 1400,
+                "privilege":[
+                    {
+                        "name":"chest_vip",
+                        "data":7
+                    },
+                    {
+                        "name":"pkCount",
+                        "data":9
+                    },
+                    {
+                        "name":"EquipmentRobbers",
+                        "data":5
+                    },
+                    {
+                        "name":"EvilChieftains",
+                        "data":5
+                    }
+                ]
+            },
+            {
+                "rmb": 2500,
+                "privilege":[
+                    {
+                        "name":"chest_vip",
+                        "data":8
+                    },
+                    {
+                        "name":"pkCount",
+                        "data":10
+                    },
+                    {
+                        "name":"tuHaoCount",
+                        "data":5
+                    }
+                ]
+            }
+        ],
 
-    "levels": [
-      { "desc":"无权限"},
-      { "desc":"1.可购买vip1宝箱\n2.赠送复活药水3瓶\n3.赠送大精力药水1瓶\n4.赠送额外宝石100个"},
-      { "desc":"1.可购买vip2宝箱\n2.赠送复活药水3瓶\n3.赠送大精力药水1瓶\n4.赠送额外宝石300个"},
-        { "desc":"1.可购买vip3宝箱\n2.开启连续扫荡功能\n3.赠送复活药水3瓶\n4.赠送大精力药水1瓶\n5.赠送扫荡卷轴10个"},
-        { "desc":"1.可购买vip4宝箱\n2.每日竞技场挑战增加至6次\n3.赠送复活药水3瓶\n4.赠送大精力药水1瓶\n5.赠送扫荡卷轴20个"},
-        { "desc":"1.可购买vip5宝箱\n2.每日竞技场挑战增加至7次\n3.土豪哥布林悬赏增加至4次\n4.赠送复活药水3瓶\n5.赠送扫荡卷轴30个"},
-        { "desc":"1.可购买vip6宝箱\n2.每日竞技场挑战增加至8次\n3.装备劫匪悬赏增加至4次\n3.邪恶头领讨伐悬赏增加至4次\n5.复活药水3瓶"},
-        { "desc":"1.可购买vip7宝箱\n2.每日竞技场挑战增加至9次\n3.装备劫匪悬赏增加至5次\n3.邪恶头领讨伐悬赏增加至5次\n5.复活药水3瓶"},
-        { "desc":"1.可购买vip8宝箱\n2.每日竞技场挑战增加至10次\n3.土豪哥布林悬赏增加至5次\n4.装备劫匪悬赏增加至5次\n5.邪恶头领讨伐悬赏增加至5次"}
-    ]
-  }
+        "levels": [
+            { "desc":"無許可權"},
+            { "desc":"1.可購買vip1寶箱\n2.贈送復活藥水3瓶\n3.贈送大精力藥水1瓶\n4.贈送額外寶石100個"},
+            { "desc":"1.可購買vip2寶箱\n2.贈送復活藥水3瓶\n3.贈送大精力藥水1瓶\n4.贈送額外寶石300個"},
+            { "desc":"1.可購買vip3寶箱\n2.開啟連續掃蕩功能\n3.贈送復活藥水3瓶\n4.贈送大精力藥水1瓶\n5.贈送掃蕩卷軸10個"},
+            { "desc":"1.可購買vip4寶箱\n2.每日競技場挑戰增加至6次\n3.贈送復活藥水3瓶\n4.贈送大精力藥水1瓶\n5.贈送掃蕩卷軸20個"},
+            { "desc":"1.可購買vip5寶箱\n2.每日競技場挑戰增加至7次\n3.土豪哥布林懸賞增加至4次\n4.贈送復活藥水3瓶\n5.贈送掃蕩卷軸30個"},
+            { "desc":"1.可購買vip6寶箱\n2.每日競技場挑戰增加至8次\n3.裝備劫匪懸賞增加至4次\n3.邪惡頭領討伐懸賞增加至4次\n5.復活藥水3瓶"},
+            { "desc":"1.可購買vip7寶箱\n2.每日競技場挑戰增加至9次\n3.裝備劫匪懸賞增加至5次\n3.邪惡頭領討伐懸賞增加至5次\n5.復活藥水3瓶"},
+            { "desc":"1.可購買vip8寶箱\n2.每日競技場挑戰增加至10次\n3.土豪哥布林懸賞增加至5次\n4.裝備劫匪懸賞增加至5次\n5.邪惡頭領討伐懸賞增加至5次"}
+        ]
+    }
 }
