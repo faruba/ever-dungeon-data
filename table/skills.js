@@ -4651,7 +4651,7 @@ exports.data = [
             },
             "action": [
                 { "type": "damage","damageType":"Spell","isRange":true,"delay":0.8 },
-                {"type": "playEffect","effect":65,"act":"target","delay":0.6},
+                {"type": "playEffect","effect":65,"pos":"target"},
                 {"type": "blink","delay":0.6,"time":0.08},
                 {"type":"shock","delay":0.6,"range":5,"time":0.2}
             ],
