@@ -28081,20 +28081,12 @@ exports.data = [
             {
                 "part": "mainweapon",
                 "file": "f-warriorn-mainweapon1.ccbi"
-            },
-            {
-                "part": "mainweapontx",
-                "file": "f-warriorn-mainweapontx.ccbi"
             }
         ],
         "effectm": [
             {
                 "part": "mainweapon",
                 "file": "m-warriorn-mainweapon1.ccbi"
-            },
-            {
-                "part": "mainweapontx",
-                "file": "m-warriorn-mainweapontx.ccbi"
             }
         ],
         "soundAttack": "attackzhanshi.mp3"
