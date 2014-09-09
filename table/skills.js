@@ -4902,13 +4902,15 @@ exports.data = [
                 "targetDelay": 0.7
             },
             "triggerCondition": [
-                { "type": "event", "event":"onMonsterShow"  }
+                { "type": "event", "event":"onMonsterShow"  },
+                {"type": "myMutex", "mutex": "biyou" }
             ],
             "targetSelection": {
                 "pool": "objects",
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"sort","by":"health"},{"type":"count","count":1}]
             },
             "action": [
+                {"type": "setMyMutex", "mutex": "biyou", "count": 1 },
                 { "type": "heal" }
             ],
             "levelConfig" : [
