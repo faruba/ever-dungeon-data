@@ -4678,7 +4678,8 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "action": [
-                { "type": "installSpell", "spell": 203}
+                { "type": "installSpell", "spell": 203},
+                {"type": "playEffect","effect":69,"act":"target"}
             ],
             "levelConfig" : [
                 {"level": 1},
