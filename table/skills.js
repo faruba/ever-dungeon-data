@@ -4670,7 +4670,7 @@ exports.data = [
         "slotId": 1,
         "config": {
             "triggerCondition": [
-                { "type": "event", "event": "onMonsterShow" },
+                { "type": "event", "event": "onBeginBattleTurn" },
                 { "type":"alive" }
             ],
             "targetSelection": {
@@ -4678,8 +4678,9 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "action": [
-                { "type": "installSpell", "spell": 203},
-                {"type": "playEffect","effect":69,"act":"target"}
+                { "type": "installSpell", "spell": 203 },
+                { "type": "playEffect","effect":69,"act":"target" },
+                { "type": "delay" }
             ],
             "levelConfig" : [
                 {"level": 1},
@@ -4699,7 +4700,7 @@ exports.data = [
             ],
             "buffType":"AttackBuff",
             "availableCondition": [
-                { "type": "event", "event": "onBattleTurnEnd", "eventCount": 1 }
+                { "type": "event", "event": "onEndBattleTurn", "eventCount": 1 }
             ],
             "levelConfig":[
                 { "modifications": {"attack":{"src":{"attack":0.03}}}, "level": 1},
