@@ -4574,7 +4574,7 @@ exports.data = [
                 "targetDelay": 0
             },
             "targetSelection": {
-                "pool": "target",
+                "pool": "source",
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "triggerCondition": [
