@@ -4574,7 +4574,7 @@ exports.data = [
                 "targetDelay": 0
             },
             "targetSelection": {
-                "pool": "source",
+                "pool": "target",
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "triggerCondition": [
@@ -4590,7 +4590,7 @@ exports.data = [
             "levelConfig": [
                 { "chance":0.3,"modifications": {"accuracy":{"c":-10}}, "level": 1},
                 { "chance":0.4,"modifications": {"accuracy":{"c":-10}}, "level": 2},
-                { "chance":0.4,"modifications": {"accuracy":{"c":-15}}, "level": 3}
+                { "chance":1,"modifications": {"attack":{"c":-15}}, "level": 3}
             ]
         }
     },
@@ -4701,7 +4701,8 @@ exports.data = [
             ],
             "buffType":"AttackBuff",
             "availableCondition": [
-                { "type": "event", "event": "onEndBattleTurn", "eventCount": 1 }
+                { "type": "event", "event": "onEndBattleTurn", "eventCount": 1 },
+                { "type": "event", "event": "onEndSpellTurn", "eventCount": 1 }
             ],
             "levelConfig":[
                 { "modifications": {"attack":{"environment":{"visibleMonsterCount":15}}}, "level": 1},
