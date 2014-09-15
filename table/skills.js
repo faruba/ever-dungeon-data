@@ -4570,7 +4570,7 @@ exports.data = [
             "basic" : {
                 "spellAction":4,
                 "spellEffect": 68,
-                "targetEffect": 15,
+                "targetEffect": 17,
                 "spellDelay": 0,
                 "targetDelay": 0
             },
@@ -4670,7 +4670,7 @@ exports.data = [
         "slotId": 1,
         "config": {
             "triggerCondition": [
-                { "type": "event", "event": "onTurnEnd" },
+                { "type": "event", "event": "onMonsterShow" },
                 { "type":"alive" }
             ],
             "targetSelection": {
@@ -4699,12 +4699,12 @@ exports.data = [
             ],
             "buffType":"AttackBuff",
             "availableCondition": [
-                { "type": "event", "event": "onEndBattleTurn", "eventCount": 1 }
+                { "type": "event", "event": "onBattleTurnEnd", "eventCount": 1 }
             ],
             "levelConfig":[
-                { "modifications": {"attack":{"environment":{"visibleMonsterCount":15}}}, "level": 1},
-                { "modifications": {"attack":{"environment":{"visibleMonsterCount":30}}}, "level": 2},
-                { "modifications": {"attack":{"environment":{"visibleMonsterCount":50}}}, "level": 3}
+                { "modifications": {"attack":{"src":{"attack":0.03}}}, "level": 1},
+                { "modifications": {"attack":{"src":{"attack":0.05}}}, "level": 2},
+                { "modifications": {"attack":{"src":{"attack":0.08}}}, "level": 3}
             ]
         }
     },
@@ -4716,7 +4716,7 @@ exports.data = [
         "slotId": 2,
         "config": {
             "triggerCondition": [
-                { "type": "event", "event": "onPhysicalDamage" },
+                { "type": "event", "event": "onTarget" },
                 { "type": "chance" },
                 { "type":"alive" }
             ],
@@ -4725,9 +4725,9 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "action": [
-                {"type":"delay"},
+                { "type": "playEffect","effect":70,"pos":"target"},
                 { "type": "installSpell", "spell": 205},
-                {"type": "playEffect","effect":70,"pos":"target"}
+                { "type": "delay" }
             ],
             "levelConfig" : [
                 { "chance":0.25, "level": 1 },
@@ -4761,6 +4761,7 @@ exports.data = [
             "action": [
                 { "type": "modifyVar", "x": "damage" }
             ],
+            "buffType":"DeBuff",
             "levelConfig":[
                 { "formular": {"environment": {"damage":1.2}}, "level": 1 },
                 { "formular": {"environment": {"damage":1.3}}, "level": 2 },
@@ -4938,18 +4939,22 @@ exports.data = [
             "triggerCondition": [
                 { "type": "event", "event": "onBePhysicalDamage" },
                 { "type": "event", "event": "onBePhysicalRangeDamage" },
+                {"type": "targetMutex", "mutex": "fangzhu" },
                 { "type": "chance" },
                 {"type":"alive"}
+
             ],
             "action": [
+                { "type":"delay" },
                 { "type": "playEffect","effect":67,"act":"target"},
                 { "type":"delay" },
-                { "type": "installSpell", "spell": 212}
+                { "type": "installSpell", "spell": 212},
+                {"type": "setTargetMutex", "mutex": "fangzhu", "count": 3 }
             ],
             "levelConfig":[
                 { "chance":0.15, "level": 1},
                 { "chance":0.15, "level": 2},
-                { "chance":1, "level": 3}
+                { "chance":0.25, "level": 3}
             ]
         }
     },
