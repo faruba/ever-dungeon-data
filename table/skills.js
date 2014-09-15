@@ -4570,7 +4570,6 @@ exports.data = [
             "basic" : {
                 "spellAction":4,
                 "spellEffect": 68,
-                "targetEffect": 17,
                 "spellDelay": 0,
                 "targetDelay": 0
             },
@@ -4585,6 +4584,7 @@ exports.data = [
             ],
             "buffType":"DeBuff",
             "action": [
+                { "type": "playEffect","effect":17,"pos":"target"},
                 { "type": "resetProperty" }
             ],
             "levelConfig": [
@@ -4671,6 +4671,7 @@ exports.data = [
         "config": {
             "triggerCondition": [
                 { "type": "event", "event": "onBeginBattleTurn" },
+                { "type": "event", "event": "onBeginSpellTurn" },
                 { "type":"alive" }
             ],
             "targetSelection": {
@@ -4703,9 +4704,9 @@ exports.data = [
                 { "type": "event", "event": "onEndBattleTurn", "eventCount": 1 }
             ],
             "levelConfig":[
-                { "modifications": {"attack":{"src":{"attack":0.03}}}, "level": 1},
-                { "modifications": {"attack":{"src":{"attack":0.05}}}, "level": 2},
-                { "modifications": {"attack":{"src":{"attack":0.08}}}, "level": 3}
+                { "modifications": {"attack":{"environment":{"visibleMonsterCount":15}}}, "level": 1},
+                { "modifications": {"attack":{"environment":{"visibleMonsterCount":30}}}, "level": 2},
+                { "modifications": {"attack":{"environment":{"visibleMonsterCount":50}}}, "level": 3}
             ]
         }
     },
