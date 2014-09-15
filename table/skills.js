@@ -4570,27 +4570,29 @@ exports.data = [
             "basic" : {
                 "spellAction":4,
                 "spellEffect": 68,
+                "targetEffect":17,
                 "spellDelay": 0,
                 "targetDelay": 0
             },
             "targetSelection": {
-                "pool": "source",
-                "filter": [{"type":"alive"},{"type":"visible"}]
+                "pool": "object",
+                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"}]
             },
             "triggerCondition": [
                 { "type": "event", "event": "onMonsterShow" },
+                { "type":"targetMutex","mutex":"paoxiao"},
                 { "type": "chance" },
                 { "type": "alive" }
             ],
             "buffType":"DeBuff",
             "action": [
-                { "type": "playEffect","effect":17,"pos":"target"},
+                {"type": "setTargetMutex", "mutex": "paoxiao", "count": 9999 },
                 { "type": "resetProperty" }
             ],
             "levelConfig": [
                 { "chance":0.3,"modifications": {"accuracy":{"c":-10}}, "level": 1},
                 { "chance":0.4,"modifications": {"accuracy":{"c":-10}}, "level": 2},
-                { "chance":1,"modifications": {"attack":{"c":-15}}, "level": 3}
+                { "chance":0.4,"modifications": {"attack":{"c":-15}}, "level": 3}
             ]
         }
     },
