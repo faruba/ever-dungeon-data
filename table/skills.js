@@ -4569,7 +4569,6 @@ exports.data = [
         "config": {
             "basic" : {
                 "spellAction":4,
-                "targetEffect":1,
                 "spellDelay": 0,
                 "targetDelay": 0
             },
@@ -4579,21 +4578,17 @@ exports.data = [
             },
             "triggerCondition": [
                 { "type": "event", "event": "onMonsterShow" },
-                { "type":"targetMutex","mutex":"paoxiao"},
                 { "type": "chance" },
                 { "type": "alive" }
             ],
-            "buffType":"DeBuff",
             "action": [
                 { "type":"playEffect","effect":68,"act":"self"},
-                { "type":"playEffect","effect":17,"pos":"target","delay":0.6},
-                { "type": "setTargetMutex", "mutex": "paoxiao", "count": 9999 },
-                { "type": "resetProperty" }
+                { "type": "installSpell", "spell": 270}
             ],
             "levelConfig": [
-                { "chance":0.3,"modifications": {"accuracy":{"c":-10}}, "level": 1},
-                { "chance":0.4,"modifications": {"accuracy":{"c":-10}}, "level": 2},
-                { "chance":0.4,"modifications": {"accuracy":{"c":-15}}, "level": 3}
+                { "chance":0.3, "level": 1},
+                { "chance":0.4, "level": 2},
+                { "chance":0.4, "level": 3}
             ]
         }
     },
@@ -4618,15 +4613,17 @@ exports.data = [
             "triggerCondition": [
                 { "type": "event", "event": "onTeammateBePhysicalDamage" },
                 { "type": "event", "event": "onTeammateBePhysicalRangeDamage" },
+                { "type": "targetMutex","mutex":"revenge" },
                 { "type": "chance" },
-                {"type":"alive"}
+                { "type": "alive" }
             ],
             "action": [
                 { "type": "damage","damageType":"Spell","isRange":true,"delay":0.8},
-                {"type": "playEffect","effect":44,"act":"self"},
-                {"type": "playEffect","effect":0,"act":"target","delay":0.6},
-                {"type": "blink","delay":0.6,"time":0.08},
-                {"type":"shock","delay":0.6,"range":5,"time":0.2}
+                { "type": "playEffect","effect":44,"act":"self"},
+                { "type": "playEffect","effect":0,"act":"target","delay":0.6},
+                { "type": "setTargetMutex","mutex":"revenge","count":1},
+                { "type": "blink","delay":0.6,"time":0.08},
+                { "type": "shock","delay":0.6,"range":5,"time":0.2}
             ],
             "levelConfig": [
                 { "chance":0.2,"formular": {"src":{"attack":0.5}}, "level": 1},
@@ -6011,7 +6008,6 @@ exports.data = [
                 {"type":"playAction","motion":1,"pos":"self"},
                 {"type":"delay"},
                 {"type":"kill","self": true}
-
             ]
         }
     },
@@ -6151,6 +6147,30 @@ exports.data = [
                 { "modifications": {"attack":{"environment":{"damage":0.5}}}, "level": 1 },
                 { "modifications": {"attack":{"environment":{"damage":0.8}}}, "level": 2 },
                 { "modifications": {"attack":{"environment":{"damage":1.2}}}, "level": 3 }
+            ]
+        }
+    },
+    {
+        "skillId": 270,
+        "label":"199-咆哮",
+        "config": {
+            "triggerCondition": [
+                { "type":"myMutex","mutex":"paoxiao"}
+            ],
+            "targetSelection": {
+                "pool": "self",
+                "filter": [{"type":"alive"},{"type":"visible"}]
+            },
+            "buffType":"RoleDebuff",
+            "action":[
+                { "type": "setMyMutex", "mutex": "paoxiao", "count": 9999 },
+                { "type":"playEffect","effect":17,"pos":"self","delay":0.6},
+                { "type": "setProperty" }
+            ],
+            "levelConfig": [
+                { "modifications": {"accuracy":{"c":-10}}, "level": 1},
+                { "modifications": {"accuracy":{"c":-10}}, "level": 2},
+                { "modifications": {"accuracy":{"c":-15}}, "level": 3}
             ]
         }
     }
