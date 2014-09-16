@@ -4577,13 +4577,13 @@ exports.data = [
             },
             "triggerCondition": [
                 { "type": "event", "event": "onMonsterShow" },
-                { "type": "targetMutex", "Mutex": "paoxiao" },
+                { "type": "targetMutex", "mutex": "paoxiao" },
                 { "type": "chance" },
                 { "type": "alive" }
             ],
             "action": [
                 { "type": "playEffect","effect":68,"act":"self"},
-                { "type": "setTargetMutex", "mutex":"paoxiao"},
+                { "type": "setTargetMutex", "mutex":"paoxiao","count":9999},
                 { "type": "installSpell", "spell": 270}
             ],
             "levelConfig": [
