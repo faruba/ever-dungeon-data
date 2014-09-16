@@ -4573,16 +4573,17 @@ exports.data = [
                 "targetDelay": 0
             },
             "targetSelection": {
-                "pool": "target",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"}]
+                "pool": "target"
             },
             "triggerCondition": [
                 { "type": "event", "event": "onMonsterShow" },
+                { "type": "targetMutex", "Mutex": "paoxiao" },
                 { "type": "chance" },
                 { "type": "alive" }
             ],
             "action": [
-                { "type":"playEffect","effect":68,"act":"self"},
+                { "type": "playEffect","effect":68,"act":"self"},
+                { "type": "setTargetMutex", "mutex":"paoxiao"},
                 { "type": "installSpell", "spell": 270}
             ],
             "levelConfig": [
@@ -6154,17 +6155,13 @@ exports.data = [
         "skillId": 270,
         "label":"199-咆哮",
         "config": {
-            "triggerCondition": [
-                { "type":"myMutex","mutex":"paoxiao"}
-            ],
             "targetSelection": {
                 "pool": "self",
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "buffType":"RoleDebuff",
-            "action":[
-                { "type": "setMyMutex", "mutex": "paoxiao", "count": 9999 },
-                { "type":"playEffect","effect":17,"pos":"self","delay":0.6},
+            "installAction":[
+                { "type": "playEffect","effect":17,"act":"self","delay":0.6},
                 { "type": "setProperty" }
             ],
             "levelConfig": [
