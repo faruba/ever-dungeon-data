@@ -4573,7 +4573,7 @@ exports.data = [
                 "targetDelay": 0
             },
             "targetSelection": {
-                "pool": "source",
+                "pool": "target",
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"}]
             },
             "triggerCondition": [
