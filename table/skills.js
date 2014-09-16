@@ -4579,7 +4579,6 @@ exports.data = [
             },
             "triggerCondition": [
                 { "type": "event", "event": "onMonsterShow" },
-                { "type":"targetMutex","mutex":"paoxiao"},
                 { "type": "chance" },
                 { "type": "alive" }
             ],
@@ -4587,7 +4586,6 @@ exports.data = [
             "action": [
                 { "type":"playEffect","effect":68,"act":"self"},
                 { "type":"playEffect","effect":17,"pos":"target","delay":0.6},
-                { "type": "setTargetMutex", "mutex": "paoxiao", "count": 9999 },
                 { "type": "resetProperty" }
             ],
             "levelConfig": [
