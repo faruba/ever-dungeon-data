@@ -4569,8 +4569,7 @@ exports.data = [
         "config": {
             "basic" : {
                 "spellAction":4,
-                "spellEffect": 68,
-                "targetEffect":17,
+                "targetEffect":1,
                 "spellDelay": 0,
                 "targetDelay": 0
             },
@@ -4586,7 +4585,9 @@ exports.data = [
             ],
             "buffType":"DeBuff",
             "action": [
-                {"type": "setTargetMutex", "mutex": "paoxiao", "count": 9999 },
+                { "type":"playEffect","effect":68,"act":"self"},
+                { "type":"playEffect","effect":17,"pos":"target","delay":0.6},
+                { "type": "setTargetMutex", "mutex": "paoxiao", "count": 9999 },
                 { "type": "resetProperty" }
             ],
             "levelConfig": [
