@@ -3593,7 +3593,7 @@ exports.data = [
             },
             "action": [
                 {"type":"delay"},
-                {"type": "dropPrize", "showPrize":true, "effect":49,"pos":"self"}
+                {"type": "dropPrize", "showPrize":true, "effect":49,"pos":"self"},
             ]
         }
     },
@@ -4285,16 +4285,23 @@ exports.data = [
         "label":"死后复活一次",
         "config": {
             "basic": {
-                "targetEffect": 22
+                "spellAction": 1,
+                "targetEffect": 1,
+                "spellDelay": 0.3,
+                "targetDelay": 0.3
             },
             "triggerCondition": [
-                {"type" :"event", "event": "onBeKill"}
+                {"type" :"event", "event": "onBeDeathStrike"}
             ],
             "targetSelection": {
-                "pool": "target"
+                "pool": "self"
             },
             "action":[
-                {"type": "resurrect"}
+                {"type": "playEffect","effect":4,"act":"self"},
+                {"type":"delay","delay":0.4},
+                { "type": "modifyVar", "x": "damage", "formular": {"environment": {"damage":0}} },
+                {"type": "heal","self":true,"formular": {"tar":{"strong":1}}},
+                {"type":"shock","delay":0.3,"range":5,"time":0.2}
             ],
             "availableCondition": [
                 { "type": "effectCount","count":1 }
