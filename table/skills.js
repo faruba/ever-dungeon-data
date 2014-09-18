@@ -4671,18 +4671,26 @@ exports.data = [
         "slotId": 1,
         "config": {
             "triggerCondition": [
-                { "type": "event", "event": "onBeginBattleTurn" },
-                { "type": "event", "event": "onBeginSpellTurn" },
-                { "type":"alive" }
+                { "type": "event", "event": "onKill" },
+                { "type": "event", "event": "onTeammateKill" },
+                { "type": "event", "event": "onMonsterShow" },
+                { "type": "myMutex", "mutex":"swirl"},
+                { "type": "alive" }
             ],
             "targetSelection": {
                 "pool": "self",
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
+            "installAction": [
+                { "type": "removeSpell", "spell": 203},
+                { "type": "installSpell", "spell": 203}
+            ],
             "action": [
-                { "type": "installSpell", "spell": 203 },
+                { "type": "delay"},
                 { "type": "playEffect","effect":69,"act":"target" },
-                { "type": "delay" }
+                { "type": "removeSpell", "spell": 203},
+                { "type": "installSpell", "spell": 203 },
+                { "type": "setMyMutex", "mutex":"swirl","count":1}
             ],
             "levelConfig" : [
                 {"level": 1},
@@ -4697,14 +4705,11 @@ exports.data = [
             "installAction":[
                 { "type": "setProperty" }
             ],
+            "targetSelection":{ "pool":"Self" },
             "uninstallAction": [
                 { "type": "resetProperty" }
             ],
             "buffType":"AttackBuff",
-            "availableCondition": [
-                { "type": "event", "event": "onEndBattleTurn", "eventCount": 1 },
-                { "type": "event", "event": "onEndSpellTurn", "eventCount": 1 }
-            ],
             "levelConfig":[
                 { "modifications": {"attack":{"environment":{"visibleMonsterCount":15}}}, "level": 1},
                 { "modifications": {"attack":{"environment":{"visibleMonsterCount":30}}}, "level": 2},
