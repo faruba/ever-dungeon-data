@@ -4259,19 +4259,24 @@ exports.data = [
     },
     {
         "skillId": 186,
+        "label": "202-魔力漩涡",
         "config": {
-            "basic" : {
-                "buffEffect": 36
-            },
-            "targetSelection":{
-                "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"},{"type":"not-me"}]
-            },
-            "availableCondition": [
-                { "type": "effectCount", "count":1}
+            "triggerCondition": [
+                { "type": "event", "event": "onKill" },
+                { "type": "event", "event": "onTeammateKill" },
+                { "type": "alive" }
             ],
-            "action":[
-                { "type": "damage","formular": {"c": 120}}
+            "targetSelection": {
+                "pool": "self",
+                "filter": [{"type":"alive"},{"type":"visible"}]
+            },
+            "action": [
+                { "type": "installSpell", "spell": 203 }
+            ],
+            "levelConfig" : [
+                {"level": 1},
+                {"level": 2},
+                {"level": 3}
             ]
         }
     },
@@ -4671,10 +4676,7 @@ exports.data = [
         "slotId": 1,
         "config": {
             "triggerCondition": [
-                { "type": "event", "event": "onKill" },
-                { "type": "event", "event": "onTeammateKill" },
                 { "type": "event", "event": "onMonsterShow" },
-                { "type": "myMutex", "mutex":"swirl"},
                 { "type": "alive" }
             ],
             "targetSelection": {
@@ -4682,15 +4684,13 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "installAction": [
-                { "type": "removeSpell", "spell": 203},
-                { "type": "installSpell", "spell": 203}
+                { "type": "removeSpell", "spell": 186},
+                { "type": "installSpell", "spell": 186}
             ],
             "action": [
                 { "type": "delay"},
                 { "type": "playEffect","effect":69,"act":"target" },
-                { "type": "removeSpell", "spell": 203},
-                { "type": "installSpell", "spell": 203 },
-                { "type": "setMyMutex", "mutex":"swirl","count":1}
+                { "type": "installSpell", "spell": 203 }
             ],
             "levelConfig" : [
                 {"level": 1},
@@ -4711,9 +4711,9 @@ exports.data = [
             ],
             "buffType":"AttackBuff",
             "levelConfig":[
-                { "modifications": {"attack":{"environment":{"visibleMonsterCount":15}}}, "level": 1},
-                { "modifications": {"attack":{"environment":{"visibleMonsterCount":30}}}, "level": 2},
-                { "modifications": {"attack":{"environment":{"visibleMonsterCount":50}}}, "level": 3}
+                { "modifications": {"attack":{"src":{"originAttack":0.03}}}, "level": 1},
+                { "modifications": {"attack":{"src":{"originAttack":0.05}}}, "level": 2},
+                { "modifications": {"attack":{"src":{"originAttack":0.08}}}, "level": 3}
             ]
         }
     },
@@ -6173,6 +6173,24 @@ exports.data = [
                 { "modifications": {"accuracy":{"c":-10}}, "level": 1},
                 { "modifications": {"accuracy":{"c":-10}}, "level": 2},
                 { "modifications": {"accuracy":{"c":-15}}, "level": 3}
+            ]
+        }
+    },
+    {
+        "skillId": 271,
+        "config": {
+            "installAction":[
+                { "type": "setProperty" }
+            ],
+            "targetSelection":{ "pool":"Self" },
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "buffType":"AttackBuff",
+            "levelConfig":[
+                { "modifications": {"attack":{"src":{"originAttack":-0.03}}}, "level": 1},
+                { "modifications": {"attack":{"src":{"originAttack":-0.05}}}, "level": 2},
+                { "modifications": {"attack":{"src":{"originAttack":-0.08}}}, "level": 3}
             ]
         }
     }
