@@ -658,10 +658,11 @@ exports.data = [
     "label":"远程攻击",
     "config": {
           "triggerCondition": [
-              {"type" :"event", "event":"onBattleTurnEnd" },
-              {"type" :"event", "event":"onMoveTurnEnd" },
+              { "type": "event", "event":"onBattleTurnEnd" },
+              { "type": "event", "event":"onMoveTurnEnd" },
               { "type": "chance", "chance": 0.8 },
-              { "type": "targetMutex", "mutex": "range" }
+              { "type": "targetMutex", "mutex": "range" },
+              { "type": "alive"}
           ],
           "targetSelection": {
               "pool": "objects",
@@ -3808,7 +3809,7 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type": "visible"}]
             },
             "action": [
-                {"type": "heal","formular":{"src":{"attack":1}}}
+                {"type": "heal","formular":{"environment": {"damage":1}}}
             ]
         }
     },
