@@ -4670,27 +4670,15 @@ exports.data = [
         "desc":"场上敌人越多,魔导师的攻击力也随之增强。",
         "slotId": 1,
         "config": {
-            "triggerCondition": [
-                { "type": "event", "event": "onKill" },
-                { "type": "event", "event": "onTeammateKill" },
-                { "type": "event", "event": "onMonsterShow" },
-                { "type": "myMutex", "mutex":"swirl"},
-                { "type": "alive" }
-            ],
             "targetSelection": {
                 "pool": "self",
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "installAction": [
                 { "type": "removeSpell", "spell": 203},
-                { "type": "installSpell", "spell": 203}
-            ],
-            "action": [
-                { "type": "delay"},
-                { "type": "playEffect","effect":69,"act":"target" },
-                { "type": "removeSpell", "spell": 203},
-                { "type": "installSpell", "spell": 203 },
-                { "type": "setMyMutex", "mutex":"swirl","count":1}
+                { "type": "installSpell", "spell": 203},
+                { "type": "removeSpell", "spell": 271},
+                { "type": "installSpell", "spell": 271}
             ],
             "levelConfig" : [
                 {"level": 1},
@@ -4702,7 +4690,12 @@ exports.data = [
     {
         "skillId": 203,
         "config": {
-            "installAction":[
+            "triggerCondition": [
+                { "type": "event", "event": "onMonsterShow" },
+                { "type": "alive" }
+            ],
+            "action":[
+                { "type": "playEffect","effect":69,"act":"target" },
                 { "type": "setProperty" }
             ],
             "targetSelection":{ "pool":"Self" },
@@ -4711,9 +4704,9 @@ exports.data = [
             ],
             "buffType":"AttackBuff",
             "levelConfig":[
-                { "modifications": {"attack":{"environment":{"visibleMonsterCount":15}}}, "level": 1},
-                { "modifications": {"attack":{"environment":{"visibleMonsterCount":30}}}, "level": 2},
-                { "modifications": {"attack":{"environment":{"visibleMonsterCount":50}}}, "level": 3}
+                { "modifications": {"attack":{"src":{"originAttack":0.03}}}, "level": 1},
+                { "modifications": {"attack":{"src":{"originAttack":0.05}}}, "level": 2},
+                { "modifications": {"attack":{"src":{"originAttack":0.08}}}, "level": 3}
             ]
         }
     },
@@ -6173,6 +6166,30 @@ exports.data = [
                 { "modifications": {"accuracy":{"c":-10}}, "level": 1},
                 { "modifications": {"accuracy":{"c":-10}}, "level": 2},
                 { "modifications": {"accuracy":{"c":-15}}, "level": 3}
+            ]
+        }
+    },
+    {
+        "skillId": 271,
+        "label":"202-魔力漩涡",
+        "config": {
+            "triggerCondition": [
+                { "type": "event", "event": "onKill" },
+                { "type": "event", "event": "onTeammateKill" },
+                { "type": "alive" }
+            ],
+            "action":[
+                { "type": "setProperty" }
+            ],
+            "targetSelection":{ "pool":"Self" },
+            "uninstallAction": [
+                { "type": "resetProperty" }
+            ],
+            "buffType":"AttackBuff",
+            "levelConfig":[
+                { "modifications": {"attack":{"src":{"originAttack":-0.03}}}, "level": 1},
+                { "modifications": {"attack":{"src":{"originAttack":-0.05}}}, "level": 2},
+                { "modifications": {"attack":{"src":{"originAttack":-0.08}}}, "level": 3}
             ]
         }
     }
