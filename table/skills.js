@@ -4271,7 +4271,7 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "action": [
-                { "type": "castSpell", "spell": 271 }
+                { "type": "installSpell", "spell": 271 }
             ],
             "levelConfig" : [
                 {"level": 1},
@@ -4689,7 +4689,7 @@ exports.data = [
             "action": [
                 { "type": "delay"},
                 { "type": "playEffect","effect":69,"act":"target" },
-                { "type": "castSpell", "spell": 203 }
+                { "type": "installSpell", "spell": 203 }
             ],
             "levelConfig" : [
                 {"level": 1},
