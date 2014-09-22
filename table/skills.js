@@ -4271,7 +4271,7 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "action": [
-                { "type": "installSpell", "spell": 271 }
+                { "type": "castSpell", "spell": 271 }
             ],
             "levelConfig" : [
                 {"level": 1},
@@ -4689,7 +4689,7 @@ exports.data = [
             "action": [
                 { "type": "delay"},
                 { "type": "playEffect","effect":69,"act":"target" },
-                { "type": "installSpell", "spell": 203 }
+                { "type": "castSpell", "spell": 203 }
             ],
             "levelConfig" : [
                 {"level": 1},
@@ -4701,13 +4701,10 @@ exports.data = [
     {
         "skillId": 203,
         "config": {
-            "installAction":[
+            "action":[
                 { "type": "setProperty" }
             ],
             "targetSelection":{ "pool":"Self" },
-            "uninstallAction": [
-                { "type": "resetProperty" }
-            ],
             "buffType":"AttackBuff",
             "levelConfig":[
                 { "modifications": {"attack":{"src":{"originAttack":0.03}}}, "level": 1},
@@ -6178,13 +6175,10 @@ exports.data = [
     {
         "skillId": 271,
         "config": {
-            "installAction":[
+            "action":[
                 { "type": "setProperty" }
             ],
             "targetSelection":{ "pool":"Self" },
-            "uninstallAction": [
-                { "type": "resetProperty" }
-            ],
             "buffType":"AttackBuff",
             "levelConfig":[
                 { "modifications": {"attack":{"src":{"originAttack":-0.03}}}, "level": 1},
