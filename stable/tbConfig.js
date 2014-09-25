@@ -51,15 +51,15 @@ exports.data = {
   "PayMethod": "PP",
   "Enhance_Rate" : [1, 0.75, 0.70, 0.65, 0.6, 0.55, 0.50, 0.45, 0.40, 0.35],
   "Product_List": [
-    {"rmb":6,"diamond":60},
-    {"rmb":12,"diamond":130},
-    {"rmb":30,"diamond":330},
-    {"rmb":68,"diamond":760},
-    {"rmb":128,"diamond":1460},
-    {"rmb":198,"diamond":2260},
-    {"rmb":328,"diamond":3760},
-    {"rmb":648,"diamond":7480},
-    {"rmb":25,"diamond":0}
+    {"rmb":0.99,"diamond":120},
+    {"rmb":1.99,"diamond":258},
+    {"rmb":4.99,"diamond":650},
+    {"rmb":9.99,"diamond":1310},
+    {"rmb":19.99,"diamond":2650},
+    {"rmb":29.99,"diamond":4340},
+    {"rmb":49.99,"diamond":7400},
+    {"rmb":99.99,"diamond":15420},
+    {"rmb":3.99,"diamond":0}
   ],
 
     "InitialEquipment":{
