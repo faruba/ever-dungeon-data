@@ -13,7 +13,7 @@ exports.data = {
       },
       "Gate": [
         {"ip": "192.168.128.9", "port": 7756},
-        {"ip": "192.168.128.10", "port": 7756}
+        {"ip": "192.168.128.10", "port": 7756},
         {"ip": "192.168.128.11", "port": 7756}
       ]
     }
@@ -30,7 +30,7 @@ exports.data = {
     {"rmb":29.99,"diamond":4340},
     {"rmb":49.99,"diamond":7400},
     {"rmb":99.99,"diamond":15420},
-    {"rmb":3.99,"diamond":0}
+    {"rmb":3.99,"diamond":2500}
   ],
 
     "InitialEquipment":{
