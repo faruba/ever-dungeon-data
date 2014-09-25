@@ -1,5 +1,6 @@
 exports.data = {
   "ServerID": 0,
+  "ServerName": "Develop",
   "ServerConfig": [
     {
       "ID": 0,
@@ -29,25 +30,7 @@ exports.data = {
         {"ip": "10.4.2.185", "port": 7756}
       ]
     },
-    {
-      "ID": 2,
-      "Name": "Master",
-      "DB": {
-        "Account": { "IP": "148.251.128.9", "PORT": 6380 },
-        "Role": { "IP": "148.251.128.10", "PORT": 6380 },
-        "Publisher": { "IP": "148.251.128.9", "PORT": 6380 },
-        "Subscriber": { "IP": "148.251.128.9", "PORT": 6380 }
-      },
-      "Gate": [
-        {"ip": "148.251.128.9", "port": 7756},
-        {"ip": "148.251.128.10", "port": 7756}
-        {"ip": "148.251.128.11", "port": 7756}
-      ]
-    }
-
   ],
-  "ServerName": "Develop",
-  "ServerID": "0",
   "PayMethod": "PP",
   "Enhance_Rate" : [1, 0.75, 0.70, 0.65, 0.6, 0.55, 0.50, 0.45, 0.40, 0.35],
   "Product_List": [
