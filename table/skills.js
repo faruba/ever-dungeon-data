@@ -1834,7 +1834,7 @@ exports.data = [
             ],
         "action":[
             { "type": "shock", "delay":0.3, "range":5, "time":0.2 },
-            {"type":"playAction","motion":9,"pos":"self"}
+            {"type":"playAction","motion":"bj","pos":"self"}
         ]
         }
     },
