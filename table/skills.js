@@ -1831,14 +1831,14 @@ exports.data = [
         "label":"暴击特效",
         "config": {
             "basic": {
-                "spellAction": "bj"
+                "spellAction": "bj" ,
+                "spellEffect": 64,
+                "spellDelay": 0.3
             },
             "triggerCondition": [
                 { "type": "event", "event": "onTarget" }
             ],
         "action":[
-            { "type": "delay"},
-            { "type": "playEffect","effect":64,"pos":"self"},
             { "type": "shock", "delay":0.3, "range":5, "time":0.2 }
         ]
         }
