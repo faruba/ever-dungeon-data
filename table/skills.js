@@ -1838,6 +1838,9 @@ exports.data = [
             "triggerCondition": [
                 { "type": "event", "event": "onTarget" }
             ],
+            "targetSelection":{
+                "pool":"target"
+            },
         "action":[
             { "type": "shock", "delay":0.3, "range":5, "time":0.2 }
         ]
