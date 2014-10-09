@@ -1832,8 +1832,8 @@ exports.data = [
         "config": {
             "basic": {
                 "spellAction": "bj" ,
-                "spellEffect": 64,
-                "spellDelay": 0.3
+                "targetEffect": 64,
+                "targetDelay": 0.3
             },
             "triggerCondition": [
                 { "type": "event", "event": "onTarget" }
