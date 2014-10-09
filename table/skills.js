@@ -1838,7 +1838,7 @@ exports.data = [
             ],
         "action":[
             { "type": "delay"},
-            { "type": "playEffect","effect":64,"pos":"target"},
+            { "type": "playEffect","effect":64,"pos":"self"},
             { "type": "shock", "delay":0.3, "range":5, "time":0.2 }
         ]
         }
