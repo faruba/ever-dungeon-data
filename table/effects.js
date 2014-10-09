@@ -268,6 +268,6 @@ exports.data = [
     },
     {
         "effectId": 64,
-        "file": "effect-baoji-attack.ccbi"
+        "file": "effect-baoji.ccbi"
     }
 ]
