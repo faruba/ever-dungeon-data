@@ -1834,7 +1834,7 @@ exports.data = [
                 "spellAction": "bj"
             },
             "triggerCondition": [
-                { "type": "event", "event": "onKill" }
+                { "type": "event", "event": "onTarget" }
             ],
             "targetSelection":{
                 "pool":"target"
