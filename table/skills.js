@@ -1831,7 +1831,10 @@ exports.data = [
         "label":"暴击特效",
         "config": {
             "basic": {
-                "spellAction": "bj"
+                "spellAction": "bj",
+                "targetEffect": 64,
+                "spellDelay": 0.3,
+                "targetDelay": 0.3
             },
             "triggerCondition": [
                 { "type": "event", "event": "onTarget" }
@@ -1840,8 +1843,9 @@ exports.data = [
                 "pool":"target"
             },
         "action":[
-            { "type": "shock", "delay":0.3, "range":5, "time":0.2 },
-            { "type": "playEffect","effect":64,"pos":"target"}
+            {"type": "delay","delay":0.4},
+            {"type": "modifyVar", "x": "damage", "formular": {"c": 1} },
+            { "type": "shock", "delay":0.3, "range":5, "time":0.2 }
         ]
         }
     },
