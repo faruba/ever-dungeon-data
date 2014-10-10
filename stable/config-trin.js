@@ -1,5 +1,6 @@
 exports.data = {
   "ServerID": 0,
+  "ServerName": "Develop",
   "ServerConfig": [
     {
       "ID": 0,
@@ -28,10 +29,8 @@ exports.data = {
         {"ip": "10.4.4.188", "port": 7756},
         {"ip": "10.4.2.185", "port": 7756}
       ]
-    }
+    },
   ],
-  "ServerName": "Develop",
-  "ServerID": "0",
   "PayMethod": "PP",
   "Enhance_Rate" : [1, 0.75, 0.70, 0.65, 0.6, 0.55, 0.50, 0.45, 0.40, 0.35],
   "Product_List": [
