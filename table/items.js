@@ -27980,9 +27980,1150 @@ exports.data = [
     },
     {
         "classId": 879,
-        "label": "狂战士下身",
+        "label": "勇者战靴",
         "category": 1,
         "subcategory": 4,
+        "description": "勇者战靴lv1",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 880,
+        "basic_properties": {
+            "health": 300,
+            "attack": 40,
+            "speed": 100,
+            "strong": 110,
+            "reactivity": 120
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 880,
+        "label": "勇者战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "勇者战靴lv2",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 881,
+        "basic_properties": {
+            "health": 306,
+            "attack": 41,
+            "speed": 102,
+            "strong": 113,
+            "reactivity": 123
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 17,
+        "forgeTarget": 885,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 881,
+        "label": "勇者战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "勇者战靴lv3",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 882,
+        "basic_properties": {
+            "health": 312,
+            "attack": 42,
+            "speed": 104,
+            "strong": 115,
+            "reactivity": 126
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 17,
+        "forgeTarget": 886,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 882,
+        "label": "勇者战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "勇者战靴lv4",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 883,
+        "basic_properties": {
+            "health": 318,
+            "attack": 43,
+            "speed": 106,
+            "strong": 118,
+            "reactivity": 129
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 17,
+        "forgeTarget": 887,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 883,
+        "label": "勇者战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "勇者战靴lv5",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 884,
+        "basic_properties": {
+            "health": 324,
+            "attack": 44,
+            "speed": 108,
+            "strong": 121,
+            "reactivity": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 17,
+        "forgeTarget": 888,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 884,
+        "label": "勇者战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "勇者战靴lv6",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 330,
+            "attack": 45,
+            "speed": 110,
+            "strong": 124,
+            "reactivity": 135
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 17,
+        "forgeTarget": 889,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 885,
+        "label": "角斗士战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "角斗士战靴lv2",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 886,
+        "basic_properties": {
+            "health": 312,
+            "attack": 42,
+            "speed": 104,
+            "strong": 115,
+            "reactivity": 126
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 886,
+        "label": "角斗士战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "角斗士战靴lv3",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 887,
+        "basic_properties": {
+            "health": 318,
+            "attack": 43,
+            "speed": 106,
+            "strong": 118,
+            "reactivity": 129
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 23,
+        "forgeTarget": 891,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 887,
+        "label": "角斗士战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "角斗士战靴lv4",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 888,
+        "basic_properties": {
+            "health": 324,
+            "attack": 44,
+            "speed": 108,
+            "strong": 121,
+            "reactivity": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 23,
+        "forgeTarget": 892,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 888,
+        "label": "角斗士战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "角斗士战靴lv5",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 889,
+        "basic_properties": {
+            "health": 330,
+            "attack": 45,
+            "speed": 110,
+            "strong": 124,
+            "reactivity": 135
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 23,
+        "forgeTarget": 893,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 889,
+        "label": "角斗士战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "角斗士战靴lv6",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 890,
+        "basic_properties": {
+            "health": 336,
+            "attack": 46,
+            "speed": 112,
+            "strong": 127,
+            "reactivity": 138
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 23,
+        "forgeTarget": 894,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 890,
+        "label": "角斗士战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "角斗士战靴lv7",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 342,
+            "attack": 47,
+            "speed": 114,
+            "strong": 130,
+            "reactivity": 141
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 23,
+        "forgeTarget": 895,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 891,
+        "label": "深渊战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "深渊战靴lv3",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 892,
+        "basic_properties": {
+            "health": 324,
+            "attack": 44,
+            "speed": 108,
+            "strong": 121,
+            "reactivity": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 892,
+        "label": "深渊战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "深渊战靴lv4",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 893,
+        "basic_properties": {
+            "health": 330,
+            "attack": 45,
+            "speed": 110,
+            "strong": 124,
+            "reactivity": 135
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 29,
+        "forgeTarget": 897,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 893,
+        "label": "深渊战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "深渊战靴lv5",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 894,
+        "basic_properties": {
+            "health": 336,
+            "attack": 46,
+            "speed": 112,
+            "strong": 127,
+            "reactivity": 138
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 29,
+        "forgeTarget": 898,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 894,
+        "label": "深渊战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "深渊战靴lv6",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 895,
+        "basic_properties": {
+            "health": 342,
+            "attack": 47,
+            "speed": 114,
+            "strong": 130,
+            "reactivity": 141
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 29,
+        "forgeTarget": 899,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 895,
+        "label": "深渊战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "深渊战靴lv7",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 896,
+        "basic_properties": {
+            "health": 348,
+            "attack": 48,
+            "speed": 116,
+            "strong": 133,
+            "reactivity": 144
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 29,
+        "forgeTarget": 900,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 896,
+        "label": "深渊战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "深渊战靴lv8",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 354,
+            "attack": 49,
+            "speed": 118,
+            "strong": 136,
+            "reactivity": 147
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 29,
+        "forgeTarget": 901,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 897,
+        "label": "屠龙者战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "屠龙者战靴lv4",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 898,
+        "basic_properties": {
+            "health": 336,
+            "attack": 46,
+            "speed": 112,
+            "strong": 127,
+            "reactivity": 138
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 898,
+        "label": "屠龙者战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "屠龙者战靴lv5",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 899,
+        "basic_properties": {
+            "health": 342,
+            "attack": 47,
+            "speed": 114,
+            "strong": 130,
+            "reactivity": 141
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 35,
+        "forgeTarget": 903,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 899,
+        "label": "屠龙者战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "屠龙者战靴lv6",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 900,
+        "basic_properties": {
+            "health": 348,
+            "attack": 48,
+            "speed": 116,
+            "strong": 133,
+            "reactivity": 144
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 35,
+        "forgeTarget": 904,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 900,
+        "label": "屠龙者战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "屠龙者战靴lv7",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 901,
+        "basic_properties": {
+            "health": 354,
+            "attack": 49,
+            "speed": 118,
+            "strong": 136,
+            "reactivity": 147
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 35,
+        "forgeTarget": 905,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 901,
+        "label": "屠龙者战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "屠龙者战靴lv8",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 902,
+        "basic_properties": {
+            "health": 360,
+            "attack": 50,
+            "speed": 120,
+            "strong": 139,
+            "reactivity": 150
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 35,
+        "forgeTarget": 906,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 902,
+        "label": "屠龙者战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "屠龙者战靴lv9",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 366,
+            "attack": 51,
+            "speed": 122,
+            "strong": 142,
+            "reactivity": 153
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 35,
+        "forgeTarget": 907,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 903,
+        "label": "凯旋之翼战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "凯旋之翼战靴lv5",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28002,13 +29143,2172 @@ exports.data = [
                 "part": "rightleg",
                 "file": "m-warriorn-rightleg1.ccbi"
             }
-        ]
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 904,
+        "basic_properties": {
+            "health": 348,
+            "attack": 48,
+            "speed": 116,
+            "strong": 133,
+            "reactivity": 144
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
     },
     {
-        "classId": 880,
-        "label": "狂战士上身",
+        "classId": 904,
+        "label": "凯旋之翼战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "凯旋之翼战靴lv6",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 905,
+        "basic_properties": {
+            "health": 354,
+            "attack": 49,
+            "speed": 118,
+            "strong": 136,
+            "reactivity": 147
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 905,
+        "label": "凯旋之翼战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "凯旋之翼战靴lv7",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 906,
+        "basic_properties": {
+            "health": 360,
+            "attack": 50,
+            "speed": 120,
+            "strong": 139,
+            "reactivity": 150
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 906,
+        "label": "凯旋之翼战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "凯旋之翼战靴lv8",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 907,
+        "basic_properties": {
+            "health": 366,
+            "attack": 51,
+            "speed": 122,
+            "strong": 142,
+            "reactivity": 153
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 907,
+        "label": "凯旋之翼战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "凯旋之翼战靴lv9",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 908,
+        "basic_properties": {
+            "health": 372,
+            "attack": 52,
+            "speed": 124,
+            "strong": 145,
+            "reactivity": 156
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 908,
+        "label": "凯旋之翼战靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "凯旋之翼战靴lv10",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-warriorn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-warriorn-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-warriorn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-warriorn-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 378,
+            "attack": 53,
+            "speed": 126,
+            "strong": 148,
+            "reactivity": 159
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 909,
+        "label": "勇者战甲",
         "category": 1,
         "subcategory": 2,
+        "description": "勇者战甲lv1",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 910,
+        "basic_properties": {
+            "health": 500,
+            "attack": 30,
+            "strong": 150,
+            "reactivity": 120,
+            "critical": 80
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 910,
+        "label": "勇者战甲",
+        "category": 1,
+        "subcategory": 2,
+        "description": "勇者战甲lv2",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 911,
+        "basic_properties": {
+            "health": 508,
+            "attack": 31,
+            "strong": 154,
+            "reactivity": 122,
+            "critical": 82
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 18,
+        "forgeTarget": 915,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 911,
+        "label": "勇者战甲",
+        "category": 1,
+        "subcategory": 2,
+        "description": "勇者战甲lv3",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 912,
+        "basic_properties": {
+            "health": 516,
+            "attack": 32,
+            "strong": 158,
+            "reactivity": 124,
+            "critical": 84
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 18,
+        "forgeTarget": 916,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 912,
+        "label": "勇者战甲",
+        "category": 1,
+        "subcategory": 2,
+        "description": "勇者战甲lv4",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 913,
+        "basic_properties": {
+            "health": 524,
+            "attack": 33,
+            "strong": 162,
+            "reactivity": 126,
+            "critical": 86
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 18,
+        "forgeTarget": 917,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 913,
+        "label": "勇者战甲",
+        "category": 1,
+        "subcategory": 2,
+        "description": "勇者战甲lv5",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 914,
+        "basic_properties": {
+            "health": 532,
+            "attack": 34,
+            "strong": 166,
+            "reactivity": 128,
+            "critical": 88
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 18,
+        "forgeTarget": 918,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 914,
+        "label": "勇者战甲",
+        "category": 1,
+        "subcategory": 2,
+        "description": "勇者战甲lv6",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 540,
+            "attack": 35,
+            "strong": 170,
+            "reactivity": 130,
+            "critical": 90
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 18,
+        "forgeTarget": 919,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 915,
+        "label": "角斗士战甲",
+        "category": 1,
+        "subcategory": 2,
+        "description": "角斗士战甲lv2",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 916,
+        "basic_properties": {
+            "health": 516,
+            "attack": 32,
+            "strong": 158,
+            "reactivity": 124,
+            "critical": 84
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 916,
+        "label": "角斗士战甲",
+        "category": 1,
+        "subcategory": 2,
+        "description": "角斗士战甲lv3",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 917,
+        "basic_properties": {
+            "health": 524,
+            "attack": 33,
+            "strong": 162,
+            "reactivity": 126,
+            "critical": 86
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 921,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 917,
+        "label": "角斗士战甲",
+        "category": 1,
+        "subcategory": 2,
+        "description": "角斗士战甲lv4",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 918,
+        "basic_properties": {
+            "health": 532,
+            "attack": 34,
+            "strong": 166,
+            "reactivity": 128,
+            "critical": 88
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 922,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 918,
+        "label": "角斗士战甲",
+        "category": 1,
+        "subcategory": 2,
+        "description": "角斗士战甲lv5",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 919,
+        "basic_properties": {
+            "health": 540,
+            "attack": 35,
+            "strong": 170,
+            "reactivity": 130,
+            "critical": 90
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 923,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 919,
+        "label": "角斗士战甲",
+        "category": 1,
+        "subcategory": 2,
+        "description": "角斗士战甲lv6",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 920,
+        "basic_properties": {
+            "health": 548,
+            "attack": 35,
+            "strong": 174,
+            "reactivity": 132,
+            "critical": 92
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 924,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 920,
+        "label": "角斗士战甲",
+        "category": 1,
+        "subcategory": 2,
+        "description": "角斗士战甲lv7",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 556,
+            "attack": 36,
+            "strong": 177,
+            "reactivity": 134,
+            "critical": 93
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 925,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 921,
+        "label": "深渊战铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "深渊战铠lv3",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 922,
+        "basic_properties": {
+            "health": 532,
+            "attack": 34,
+            "strong": 166,
+            "reactivity": 128,
+            "critical": 88
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 921,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 922,
+        "label": "深渊战铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "深渊战铠lv4",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 923,
+        "basic_properties": {
+            "health": 540,
+            "attack": 35,
+            "strong": 170,
+            "reactivity": 130,
+            "critical": 90
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 30,
+        "forgeTarget": 927,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 923,
+        "label": "深渊战铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "深渊战铠lv5",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 924,
+        "basic_properties": {
+            "health": 548,
+            "attack": 35,
+            "strong": 174,
+            "reactivity": 132,
+            "critical": 92
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 30,
+        "forgeTarget": 928,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 924,
+        "label": "深渊战铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "深渊战铠lv6",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 925,
+        "basic_properties": {
+            "health": 556,
+            "attack": 36,
+            "strong": 177,
+            "reactivity": 134,
+            "critical": 93
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 30,
+        "forgeTarget": 929,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 925,
+        "label": "深渊战铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "深渊战铠lv7",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 926,
+        "basic_properties": {
+            "health": 564,
+            "attack": 37,
+            "strong": 181,
+            "reactivity": 136,
+            "critical": 95
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 30,
+        "forgeTarget": 930,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 926,
+        "label": "深渊战铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "深渊战铠lv8",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 572,
+            "attack": 37,
+            "strong": 185,
+            "reactivity": 138,
+            "critical": 97
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 30,
+        "forgeTarget": 931,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 927,
+        "label": "屠龙者战铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "屠龙者战铠lv4",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 928,
+        "basic_properties": {
+            "health": 548,
+            "attack": 35,
+            "strong": 174,
+            "reactivity": 132,
+            "critical": 92
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 928,
+        "label": "屠龙者战铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "屠龙者战铠lv5",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 929,
+        "basic_properties": {
+            "health": 556,
+            "attack": 36,
+            "strong": 177,
+            "reactivity": 134,
+            "critical": 93
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 36,
+        "forgeTarget": 933,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 929,
+        "label": "屠龙者战铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "屠龙者战铠lv6",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 930,
+        "basic_properties": {
+            "health": 564,
+            "attack": 37,
+            "strong": 181,
+            "reactivity": 136,
+            "critical": 95
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 36,
+        "forgeTarget": 934,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 930,
+        "label": "屠龙者战铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "屠龙者战铠lv7",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 931,
+        "basic_properties": {
+            "health": 572,
+            "attack": 37,
+            "strong": 185,
+            "reactivity": 138,
+            "critical": 97
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 36,
+        "forgeTarget": 935,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 931,
+        "label": "屠龙者战铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "屠龙者战铠lv8",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 932,
+        "basic_properties": {
+            "health": 580,
+            "attack": 38,
+            "strong": 189,
+            "reactivity": 140,
+            "critical": 99
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 36,
+        "forgeTarget": 936,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 932,
+        "label": "屠龙者战铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "屠龙者战铠lv9",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 588,
+            "attack": 39,
+            "strong": 193,
+            "reactivity": 142,
+            "critical": 101
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 36,
+        "forgeTarget": 937,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 933,
+        "label": "凯旋之翼圣铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "凯旋之翼圣铠lv5",
         "effectf": [
             {
                 "part": "chest",
@@ -28025,6 +31325,14 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -28043,11 +31351,427 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
             }
-        ]
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 934,
+        "basic_properties": {
+            "health": 564,
+            "attack": 37,
+            "strong": 181,
+            "reactivity": 136,
+            "critical": 95
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
     },
     {
-        "classId": 881,
+        "classId": 934,
+        "label": "凯旋之翼圣铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "凯旋之翼圣铠lv6",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 935,
+        "basic_properties": {
+            "health": 572,
+            "attack": 37,
+            "strong": 185,
+            "reactivity": 138,
+            "critical": 97
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 935,
+        "label": "凯旋之翼圣铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "凯旋之翼圣铠lv7",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 936,
+        "basic_properties": {
+            "health": 580,
+            "attack": 38,
+            "strong": 189,
+            "reactivity": 140,
+            "critical": 99
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 936,
+        "label": "凯旋之翼圣铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "凯旋之翼圣铠lv8",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 937,
+        "basic_properties": {
+            "health": 588,
+            "attack": 39,
+            "strong": 193,
+            "reactivity": 142,
+            "critical": 101
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 937,
+        "label": "凯旋之翼圣铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "凯旋之翼圣铠lv9",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 938,
+        "basic_properties": {
+            "health": 596,
+            "attack": 40,
+            "strong": 197,
+            "reactivity": 144,
+            "critical": 103
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 938,
+        "label": "凯旋之翼圣铠",
+        "category": 1,
+        "subcategory": 2,
+        "description": "凯旋之翼圣铠lv10",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-warriorn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-warriorn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-warriorn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-warriorn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-warriorn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 604,
+            "attack": 41,
+            "strong": 200,
+            "reactivity": 146,
+            "critical": 105
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 939,
         "label": "狂战士副手",
         "category": 1,
         "subcategory": 1,
