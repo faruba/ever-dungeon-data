@@ -31772,49 +31772,1965 @@ exports.data = [
     },
     {
         "classId": 939,
-        "label": "狂战士副手",
+        "label": "勇士利斧",
         "category": 1,
         "subcategory": 1,
+        "description": "勇士利斧lv1",
         "effectf": [
             {
                 "part": "secondaryweapon2",
-                "file": "f-warriorn-weapon21.ccbi"
+                "file": "f-warriorn5-weapon21.ccbi"
             },
             {
                 "part": "secondaryweapon2-2",
-                "file": "f-warriorn-weapon21.ccbi"
+                "file": "f-warriorn5-weapon21.ccbi"
             }
         ],
         "effectm": [
             {
                 "part": "secondaryweapon2",
-                "file": "m-warriorn-weapon21.ccbi"
+                "file": "m-warriorn5-weapon21.ccbi"
             },
             {
                 "part": "secondaryweapon2-2",
-                "file": "m-warriorn-weapon21.ccbi"
+                "file": "m-warriorn5-weapon21.ccbi"
             }
-        ]
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 940,
+        "basic_properties": {
+            "health": 300,
+            "attack": 60,
+            "critical": 150
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
     },
     {
-        "classId": 882,
-        "label": "狂战士主手",
+        "classId": 940,
+        "label": "勇士利斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "勇士利斧lv2",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn5-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn5-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn5-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn5-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 941,
+        "basic_properties": {
+            "health": 306,
+            "attack": 62,
+            "critical": 153
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 19,
+        "forgeTarget": 945,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 941,
+        "label": "勇士利斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "勇士利斧lv3",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn5-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn5-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn5-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn5-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 942,
+        "basic_properties": {
+            "health": 312,
+            "attack": 63,
+            "critical": 156
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 19,
+        "forgeTarget": 946,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 942,
+        "label": "勇士利斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "勇士利斧lv4",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn5-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn5-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn5-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn5-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 943,
+        "basic_properties": {
+            "health": 318,
+            "attack": 65,
+            "critical": 159
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 19,
+        "forgeTarget": 947,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 943,
+        "label": "勇士利斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "勇士利斧lv5",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn5-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn5-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn5-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn5-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 944,
+        "basic_properties": {
+            "health": 324,
+            "attack": 66,
+            "critical": 162
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 19,
+        "forgeTarget": 948,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 944,
+        "label": "勇士利斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "勇士利斧lv6",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn5-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn5-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn5-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn5-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 330,
+            "attack": 68,
+            "critical": 165
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 19,
+        "forgeTarget": 949,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 945,
+        "label": "角斗士巨斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "角斗士巨斧lv2",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn4-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn4-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn4-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn4-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 946,
+        "basic_properties": {
+            "health": 312,
+            "attack": 63,
+            "critical": 156
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 946,
+        "label": "角斗士巨斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "角斗士巨斧lv3",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn4-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn4-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn4-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn4-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 947,
+        "basic_properties": {
+            "health": 318,
+            "attack": 65,
+            "critical": 159
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 25,
+        "forgeTarget": 951,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 947,
+        "label": "角斗士巨斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "角斗士巨斧lv4",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn4-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn4-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn4-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn4-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 948,
+        "basic_properties": {
+            "health": 324,
+            "attack": 66,
+            "critical": 162
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 25,
+        "forgeTarget": 952,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 948,
+        "label": "角斗士巨斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "角斗士巨斧lv5",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn4-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn4-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn4-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn4-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 949,
+        "basic_properties": {
+            "health": 330,
+            "attack": 68,
+            "critical": 165
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 25,
+        "forgeTarget": 953,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 949,
+        "label": "角斗士巨斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "角斗士巨斧lv6",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn4-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn4-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn4-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn4-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 950,
+        "basic_properties": {
+            "health": 336,
+            "attack": 70,
+            "critical": 168
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 25,
+        "forgeTarget": 954,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 950,
+        "label": "角斗士巨斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "角斗士巨斧lv7",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn4-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn4-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn4-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn4-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 342,
+            "attack": 71,
+            "critical": 171
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 25,
+        "forgeTarget": 955,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 951,
+        "label": "深渊之镰",
+        "category": 1,
+        "subcategory": 1,
+        "description": "深渊之镰lv3",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn3-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn3-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn3-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn3-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 952,
+        "basic_properties": {
+            "health": 324,
+            "attack": 66,
+            "critical": 162
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 952,
+        "label": "深渊之镰",
+        "category": 1,
+        "subcategory": 1,
+        "description": "深渊之镰lv4",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn3-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn3-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn3-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn3-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 953,
+        "basic_properties": {
+            "health": 330,
+            "attack": 68,
+            "critical": 165
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 31,
+        "forgeTarget": 957,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 953,
+        "label": "深渊之镰",
+        "category": 1,
+        "subcategory": 1,
+        "description": "深渊之镰lv5",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn3-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn3-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn3-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn3-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 954,
+        "basic_properties": {
+            "health": 336,
+            "attack": 70,
+            "critical": 168
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 31,
+        "forgeTarget": 958,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 954,
+        "label": "深渊之镰",
+        "category": 1,
+        "subcategory": 1,
+        "description": "深渊之镰lv6",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn3-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn3-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn3-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn3-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 955,
+        "basic_properties": {
+            "health": 342,
+            "attack": 71,
+            "critical": 171
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 31,
+        "forgeTarget": 959,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 955,
+        "label": "深渊之镰",
+        "category": 1,
+        "subcategory": 1,
+        "description": "深渊之镰lv7",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn3-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn3-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn3-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn3-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 956,
+        "basic_properties": {
+            "health": 348,
+            "attack": 73,
+            "critical": 174
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 31,
+        "forgeTarget": 960,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 956,
+        "label": "深渊之镰",
+        "category": 1,
+        "subcategory": 1,
+        "description": "深渊之镰lv8",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn3-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn3-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn3-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn3-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 354,
+            "attack": 75,
+            "critical": 177
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 31,
+        "forgeTarget": 961,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 957,
+        "label": "屠龙巨斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "屠龙巨斧lv4",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn2-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn2-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn2-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn2-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 958,
+        "basic_properties": {
+            "health": 336,
+            "attack": 70,
+            "critical": 168
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 958,
+        "label": "屠龙巨斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "屠龙巨斧lv5",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn2-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn2-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn2-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn2-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 959,
+        "basic_properties": {
+            "health": 342,
+            "attack": 71,
+            "critical": 171
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 37,
+        "forgeTarget": 963,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 959,
+        "label": "屠龙巨斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "屠龙巨斧lv6",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn2-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn2-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn2-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn2-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 960,
+        "basic_properties": {
+            "health": 348,
+            "attack": 73,
+            "critical": 174
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 37,
+        "forgeTarget": 964,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 960,
+        "label": "屠龙巨斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "屠龙巨斧lv7",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn2-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn2-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn2-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn2-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 961,
+        "basic_properties": {
+            "health": 354,
+            "attack": 75,
+            "critical": 177
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 37,
+        "forgeTarget": 965,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 961,
+        "label": "屠龙巨斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "屠龙巨斧lv8",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn2-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn2-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn2-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn2-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 962,
+        "basic_properties": {
+            "health": 360,
+            "attack": 76,
+            "critical": 180
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 37,
+        "forgeTarget": 966,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 962,
+        "label": "屠龙巨斧",
+        "category": 1,
+        "subcategory": 1,
+        "description": "屠龙巨斧lv9",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn2-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn2-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn2-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn2-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 366,
+            "attack": 78,
+            "critical": 183
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 37,
+        "forgeTarget": 967,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 963,
+        "label": "战争撕裂者",
+        "category": 1,
+        "subcategory": 1,
+        "description": "战争撕裂者lv5",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 964,
+        "basic_properties": {
+            "health": 348,
+            "attack": 73,
+            "critical": 174
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 964,
+        "label": "战争撕裂者",
+        "category": 1,
+        "subcategory": 1,
+        "description": "战争撕裂者lv6",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 965,
+        "basic_properties": {
+            "health": 354,
+            "attack": 75,
+            "critical": 177
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 965,
+        "label": "战争撕裂者",
+        "category": 1,
+        "subcategory": 1,
+        "description": "战争撕裂者lv7",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 966,
+        "basic_properties": {
+            "health": 360,
+            "attack": 76,
+            "critical": 180
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 966,
+        "label": "战争撕裂者",
+        "category": 1,
+        "subcategory": 1,
+        "description": "战争撕裂者lv8",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 967,
+        "basic_properties": {
+            "health": 366,
+            "attack": 78,
+            "critical": 183
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 967,
+        "label": "战争撕裂者",
+        "category": 1,
+        "subcategory": 1,
+        "description": "战争撕裂者lv9",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 968,
+        "basic_properties": {
+            "health": 372,
+            "attack": 80,
+            "critical": 186
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 968,
+        "label": "战争撕裂者",
+        "category": 1,
+        "subcategory": 1,
+        "description": "战争撕裂者lv10",
+        "effectf": [
+            {
+                "part": "secondaryweapon2",
+                "file": "f-warriorn-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "f-warriorn-weapon21.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "secondaryweapon2",
+                "file": "m-warriorn-weapon21.ccbi"
+            },
+            {
+                "part": "secondaryweapon2-2",
+                "file": "m-warriorn-weapon21.ccbi"
+            }
+        ],
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 378,
+            "attack": 81,
+            "critical": 189
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 969,
+        "label": "勇者大剑",
         "category": 1,
         "subcategory": 0,
+        "description": "勇者大剑lv1",
         "effectf": [
             {
                 "part": "mainweapon",
-                "file": "f-warriorn-mainweapon1.ccbi"
+                "file": "f-warriorn5-mainweapon1.ccbi"
             }
         ],
         "effectm": [
             {
                 "part": "mainweapon",
-                "file": "m-warriorn-mainweapon1.ccbi"
+                "file": "m-warriorn5-mainweapon1.ccbi"
             }
         ],
         "effectAttack": 8,
-        "soundAttack": "attackzhanshi.mp3"
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 970,
+        "basic_properties": {
+            "health": 300,
+            "attack": 80,
+            "accuracy": 130,
+            "critical": 120
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 970,
+        "label": "勇者大剑",
+        "category": 1,
+        "subcategory": 0,
+        "description": "勇者大剑lv2",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 971,
+        "basic_properties": {
+            "health": 306,
+            "attack": 82,
+            "accuracy": 133,
+            "critical": 122
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 20,
+        "forgeTarget": 975,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 971,
+        "label": "勇者大剑",
+        "category": 1,
+        "subcategory": 0,
+        "description": "勇者大剑lv3",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 972,
+        "basic_properties": {
+            "health": 312,
+            "attack": 84,
+            "accuracy": 136,
+            "critical": 124
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 20,
+        "forgeTarget": 976,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 972,
+        "label": "勇者大剑",
+        "category": 1,
+        "subcategory": 0,
+        "description": "勇者大剑lv4",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 973,
+        "basic_properties": {
+            "health": 318,
+            "attack": 86,
+            "accuracy": 139,
+            "critical": 126
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 20,
+        "forgeTarget": 977,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 973,
+        "label": "勇者大剑",
+        "category": 1,
+        "subcategory": 0,
+        "description": "勇者大剑lv5",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 974,
+        "basic_properties": {
+            "health": 324,
+            "attack": 88,
+            "accuracy": 142,
+            "critical": 128
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 20,
+        "forgeTarget": 978,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 974,
+        "label": "勇者大剑",
+        "category": 1,
+        "subcategory": 0,
+        "description": "勇者大剑lv6",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 330,
+            "attack": 90,
+            "accuracy": 145,
+            "critical": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 20,
+        "forgeTarget": 979,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 975,
+        "label": "角斗士大剑",
+        "category": 1,
+        "subcategory": 0,
+        "description": "角斗士大剑lv2",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 976,
+        "basic_properties": {
+            "health": 312,
+            "attack": 84,
+            "accuracy": 136,
+            "critical": 124
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 976,
+        "label": "角斗士大剑",
+        "category": 1,
+        "subcategory": 0,
+        "description": "角斗士大剑lv3",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 977,
+        "basic_properties": {
+            "health": 318,
+            "attack": 86,
+            "accuracy": 139,
+            "critical": 126
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 26,
+        "forgeTarget": 981,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 977,
+        "label": "角斗士大剑",
+        "category": 1,
+        "subcategory": 0,
+        "description": "角斗士大剑lv4",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 978,
+        "basic_properties": {
+            "health": 324,
+            "attack": 88,
+            "accuracy": 142,
+            "critical": 128
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 26,
+        "forgeTarget": 982,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 978,
+        "label": "角斗士大剑",
+        "category": 1,
+        "subcategory": 0,
+        "description": "角斗士大剑lv5",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 979,
+        "basic_properties": {
+            "health": 330,
+            "attack": 90,
+            "accuracy": 145,
+            "critical": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 26,
+        "forgeTarget": 983,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 979,
+        "label": "角斗士大剑",
+        "category": 1,
+        "subcategory": 0,
+        "description": "角斗士大剑lv6",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 980,
+        "basic_properties": {
+            "health": 336,
+            "attack": 92,
+            "accuracy": 148,
+            "critical": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 26,
+        "forgeTarget": 984,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 980,
+        "label": "角斗士大剑",
+        "category": 1,
+        "subcategory": 0,
+        "description": "角斗士大剑lv7",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 342,
+            "attack": 94,
+            "accuracy": 150,
+            "critical": 135
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 26,
+        "forgeTarget": 985,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 981,
+        "label": "深渊之刃",
+        "category": 1,
+        "subcategory": 0,
+        "description": "深渊之刃lv3",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 982,
+        "basic_properties": {
+            "health": 324,
+            "attack": 88,
+            "accuracy": 142,
+            "critical": 128
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 982,
+        "label": "深渊之刃",
+        "category": 1,
+        "subcategory": 0,
+        "description": "深渊之刃lv4",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 983,
+        "basic_properties": {
+            "health": 330,
+            "attack": 90,
+            "accuracy": 145,
+            "critical": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 32,
+        "forgeTarget": 987,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 983,
+        "label": "深渊之刃",
+        "category": 1,
+        "subcategory": 0,
+        "description": "深渊之刃lv5",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 984,
+        "basic_properties": {
+            "health": 336,
+            "attack": 92,
+            "accuracy": 148,
+            "critical": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 32,
+        "forgeTarget": 988,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
     },
     {
         "classId": 883,
