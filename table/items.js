@@ -34332,29 +34332,1663 @@ exports.data = [
     },
     {
         "classId": 999,
-        "label": "狂战士头盔",
+        "label": "勇者指环",
+        "icon": "er011.png",
         "category": 1,
-        "subcategory": 13,
-        "effectf": [
-            {
-                "part": "helmet",
-                "file": "f-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn-helmet1-2.ccbi"
-            }
+        "subcategory": 3,
+        "description": "勇者指环lv1",
+        "classLimit": [
+            0
         ],
-        "effectm": [
-            {
-                "part": "helmet",
-                "file": "m-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn-helmet1-2.ccbi"
-            }
-        ]
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 1000,
+        "basic_properties": {
+            "health": 300,
+            "attack": 30,
+            "speed": 100,
+            "strong": 80,
+            "accuracy": 100,
+            "critical": 80
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1000,
+        "label": "勇者指环",
+        "icon": "er011.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "勇者指环lv2",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 1001,
+        "basic_properties": {
+            "health": 306,
+            "attack": 31,
+            "speed": 102,
+            "strong": 81,
+            "accuracy": 102,
+            "critical": 82
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 22,
+        "forgeTarget": 1005
+    },
+    {
+        "classId": 1001,
+        "label": "勇者指环",
+        "icon": "er011.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "勇者指环lv3",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 1002,
+        "basic_properties": {
+            "health": 312,
+            "attack": 32,
+            "speed": 104,
+            "strong": 82,
+            "accuracy": 104,
+            "critical": 84
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 22,
+        "forgeTarget": 1006
+    },
+    {
+        "classId": 1002,
+        "label": "勇者指环",
+        "icon": "er011.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "勇者指环lv4",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 1003,
+        "basic_properties": {
+            "health": 318,
+            "attack": 33,
+            "speed": 106,
+            "strong": 83,
+            "accuracy": 106,
+            "critical": 86
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 22,
+        "forgeTarget": 1007
+    },
+    {
+        "classId": 1003,
+        "label": "勇者指环",
+        "icon": "er011.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "勇者指环lv5",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 1004,
+        "basic_properties": {
+            "health": 324,
+            "attack": 34,
+            "speed": 108,
+            "strong": 84,
+            "accuracy": 108,
+            "critical": 88
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 22,
+        "forgeTarget": 1008
+    },
+    {
+        "classId": 1004,
+        "label": "勇者指环",
+        "icon": "er011.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "勇者指环lv6",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 330,
+            "attack": 35,
+            "speed": 110,
+            "strong": 85,
+            "accuracy": 110,
+            "critical": 90
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 22,
+        "forgeTarget": 1009
+    },
+    {
+        "classId": 1005,
+        "label": "角斗士指环",
+        "icon": "er021.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "角斗士指环lv2",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 1006,
+        "basic_properties": {
+            "health": 312,
+            "attack": 32,
+            "speed": 104,
+            "strong": 82,
+            "accuracy": 104,
+            "critical": 84
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1006,
+        "label": "角斗士指环",
+        "icon": "er021.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "角斗士指环lv3",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 1007,
+        "basic_properties": {
+            "health": 318,
+            "attack": 33,
+            "speed": 106,
+            "strong": 83,
+            "accuracy": 106,
+            "critical": 86
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 28,
+        "forgeTarget": 1011
+    },
+    {
+        "classId": 1007,
+        "label": "角斗士指环",
+        "icon": "er021.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "角斗士指环lv4",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 1008,
+        "basic_properties": {
+            "health": 324,
+            "attack": 34,
+            "speed": 108,
+            "strong": 84,
+            "accuracy": 108,
+            "critical": 88
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 28,
+        "forgeTarget": 1012
+    },
+    {
+        "classId": 1008,
+        "label": "角斗士指环",
+        "icon": "er021.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "角斗士指环lv5",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 1009,
+        "basic_properties": {
+            "health": 330,
+            "attack": 35,
+            "speed": 110,
+            "strong": 85,
+            "accuracy": 110,
+            "critical": 90
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 28,
+        "forgeTarget": 1013
+    },
+    {
+        "classId": 1009,
+        "label": "角斗士指环",
+        "icon": "er021.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "角斗士指环lv6",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 1010,
+        "basic_properties": {
+            "health": 336,
+            "attack": 36,
+            "speed": 112,
+            "strong": 86,
+            "accuracy": 112,
+            "critical": 92
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 28,
+        "forgeTarget": 1014
+    },
+    {
+        "classId": 1010,
+        "label": "角斗士指环",
+        "icon": "er021.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "角斗士指环lv7",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 342,
+            "attack": 37,
+            "speed": 114,
+            "strong": 87,
+            "accuracy": 114,
+            "critical": 94
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 28,
+        "forgeTarget": 1015
+    },
+    {
+        "classId": 1011,
+        "label": "深渊指环",
+        "icon": "er031.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "深渊指环lv3",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 1012,
+        "basic_properties": {
+            "health": 324,
+            "attack": 34,
+            "speed": 108,
+            "strong": 84,
+            "accuracy": 108,
+            "critical": 88
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1012,
+        "label": "深渊指环",
+        "icon": "er031.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "深渊指环lv4",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 1013,
+        "basic_properties": {
+            "health": 330,
+            "attack": 35,
+            "speed": 110,
+            "strong": 85,
+            "accuracy": 110,
+            "critical": 90
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 34,
+        "forgeTarget": 1017
+    },
+    {
+        "classId": 1013,
+        "label": "深渊指环",
+        "icon": "er031.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "深渊指环lv5",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 1014,
+        "basic_properties": {
+            "health": 336,
+            "attack": 36,
+            "speed": 112,
+            "strong": 86,
+            "accuracy": 112,
+            "critical": 92
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 34,
+        "forgeTarget": 1018
+    },
+    {
+        "classId": 1014,
+        "label": "深渊指环",
+        "icon": "er031.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "深渊指环lv6",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 1015,
+        "basic_properties": {
+            "health": 342,
+            "attack": 37,
+            "speed": 114,
+            "strong": 87,
+            "accuracy": 114,
+            "critical": 94
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 34,
+        "forgeTarget": 1019
+    },
+    {
+        "classId": 1015,
+        "label": "深渊指环",
+        "icon": "er031.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "深渊指环lv7",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 1016,
+        "basic_properties": {
+            "health": 348,
+            "attack": 38,
+            "speed": 116,
+            "strong": 88,
+            "accuracy": 116,
+            "critical": 96
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 34,
+        "forgeTarget": 1020
+    },
+    {
+        "classId": 1016,
+        "label": "深渊指环",
+        "icon": "er031.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "深渊指环lv8",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 354,
+            "attack": 39,
+            "speed": 118,
+            "strong": 89,
+            "accuracy": 118,
+            "critical": 98
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 34,
+        "forgeTarget": 1021
+    },
+    {
+        "classId": 1017,
+        "label": "屠龙指环",
+        "icon": "er041.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "屠龙指环lv4",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 1018,
+        "basic_properties": {
+            "health": 336,
+            "attack": 36,
+            "speed": 112,
+            "strong": 86,
+            "accuracy": 112,
+            "critical": 92
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1018,
+        "label": "屠龙指环",
+        "icon": "er041.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "屠龙指环lv5",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 1019,
+        "basic_properties": {
+            "health": 342,
+            "attack": 37,
+            "speed": 114,
+            "strong": 87,
+            "accuracy": 114,
+            "critical": 94
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 40,
+        "forgeTarget": 1023
+    },
+    {
+        "classId": 1019,
+        "label": "屠龙指环",
+        "icon": "er041.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "屠龙指环lv6",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 1020,
+        "basic_properties": {
+            "health": 348,
+            "attack": 38,
+            "speed": 116,
+            "strong": 88,
+            "accuracy": 116,
+            "critical": 96
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 40,
+        "forgeTarget": 1024
+    },
+    {
+        "classId": 1020,
+        "label": "屠龙指环",
+        "icon": "er041.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "屠龙指环lv7",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 1021,
+        "basic_properties": {
+            "health": 354,
+            "attack": 39,
+            "speed": 118,
+            "strong": 89,
+            "accuracy": 118,
+            "critical": 98
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 40,
+        "forgeTarget": 1025
+    },
+    {
+        "classId": 1021,
+        "label": "屠龙指环",
+        "icon": "er041.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "屠龙指环lv8",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 1022,
+        "basic_properties": {
+            "health": 360,
+            "attack": 40,
+            "speed": 120,
+            "strong": 90,
+            "accuracy": 120,
+            "critical": 100
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 40,
+        "forgeTarget": 1026
+    },
+    {
+        "classId": 1022,
+        "label": "屠龙指环",
+        "icon": "er041.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "屠龙指环lv9",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 366,
+            "attack": 40,
+            "speed": 122,
+            "strong": 91,
+            "accuracy": 122,
+            "critical": 102
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 40,
+        "forgeTarget": 1027
+    },
+    {
+        "classId": 1023,
+        "label": "撕裂者玺戒",
+        "icon": "er041.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "撕裂者玺戒lv5",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 1024,
+        "basic_properties": {
+            "health": 348,
+            "attack": 38,
+            "speed": 116,
+            "strong": 88,
+            "accuracy": 116,
+            "critical": 96
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1024,
+        "label": "撕裂者玺戒",
+        "icon": "er041.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "撕裂者玺戒lv6",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 1025,
+        "basic_properties": {
+            "health": 354,
+            "attack": 39,
+            "speed": 118,
+            "strong": 89,
+            "accuracy": 118,
+            "critical": 98
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1025,
+        "label": "撕裂者玺戒",
+        "icon": "er041.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "撕裂者玺戒lv7",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 1026,
+        "basic_properties": {
+            "health": 360,
+            "attack": 40,
+            "speed": 120,
+            "strong": 90,
+            "accuracy": 120,
+            "critical": 100
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1026,
+        "label": "撕裂者玺戒",
+        "icon": "er041.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "撕裂者玺戒lv8",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 1027,
+        "basic_properties": {
+            "health": 366,
+            "attack": 40,
+            "speed": 122,
+            "strong": 91,
+            "accuracy": 122,
+            "critical": 102
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1027,
+        "label": "撕裂者玺戒",
+        "icon": "er041.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "撕裂者玺戒lv9",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 1028,
+        "basic_properties": {
+            "health": 372,
+            "attack": 41,
+            "speed": 124,
+            "strong": 92,
+            "accuracy": 124,
+            "critical": 104
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1028,
+        "label": "撕裂者玺戒",
+        "icon": "er041.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "撕裂者玺戒lv10",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 378,
+            "attack": 42,
+            "speed": 126,
+            "strong": 94,
+            "accuracy": 126,
+            "critical": 106
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1029,
+        "label": "勇者之心",
+        "icon": "ewn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "勇者之心lv1",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 1030,
+        "basic_properties": {
+            "health": 300,
+            "attack": 30,
+            "speed": 90,
+            "strong": 110,
+            "reactivity": 120,
+            "accuracy": 120,
+            "critical": 60
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1030,
+        "label": "勇者之心",
+        "icon": "ewn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "勇者之心lv2",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 1031,
+        "basic_properties": {
+            "health": 306,
+            "attack": 30,
+            "speed": 92,
+            "strong": 112,
+            "reactivity": 122,
+            "accuracy": 122,
+            "critical": 61
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 21,
+        "forgeTarget": 1035
+    },
+    {
+        "classId": 1031,
+        "label": "勇者之心",
+        "icon": "ewn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "勇者之心lv3",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 1032,
+        "basic_properties": {
+            "health": 312,
+            "attack": 31,
+            "speed": 94,
+            "strong": 115,
+            "reactivity": 124,
+            "accuracy": 124,
+            "critical": 62
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 21,
+        "forgeTarget": 1036
+    },
+    {
+        "classId": 1032,
+        "label": "勇者之心",
+        "icon": "ewn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "勇者之心lv4",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 1033,
+        "basic_properties": {
+            "health": 318,
+            "attack": 31,
+            "speed": 96,
+            "strong": 117,
+            "reactivity": 126,
+            "accuracy": 126,
+            "critical": 63
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 21,
+        "forgeTarget": 1037
+    },
+    {
+        "classId": 1033,
+        "label": "勇者之心",
+        "icon": "ewn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "勇者之心lv5",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 1034,
+        "basic_properties": {
+            "health": 324,
+            "attack": 32,
+            "speed": 98,
+            "strong": 119,
+            "reactivity": 128,
+            "accuracy": 128,
+            "critical": 64
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 21,
+        "forgeTarget": 1038
+    },
+    {
+        "classId": 1034,
+        "label": "勇者之心",
+        "icon": "ewn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "勇者之心lv6",
+        "classLimit": [
+            0
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 330,
+            "attack": 32,
+            "speed": 100,
+            "strong": 121,
+            "reactivity": 130,
+            "accuracy": 130,
+            "critical": 65
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 21,
+        "forgeTarget": 1039
+    },
+    {
+        "classId": 1035,
+        "label": "角斗士之心",
+        "icon": "ewn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "角斗士之心lv2",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 1036,
+        "basic_properties": {
+            "health": 312,
+            "attack": 31,
+            "speed": 94,
+            "strong": 115,
+            "reactivity": 124,
+            "accuracy": 124,
+            "critical": 62
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1036,
+        "label": "角斗士之心",
+        "icon": "ewn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "角斗士之心lv3",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 1037,
+        "basic_properties": {
+            "health": 318,
+            "attack": 31,
+            "speed": 96,
+            "strong": 117,
+            "reactivity": 126,
+            "accuracy": 126,
+            "critical": 63
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 27,
+        "forgeTarget": 1041
+    },
+    {
+        "classId": 1037,
+        "label": "角斗士之心",
+        "icon": "ewn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "角斗士之心lv4",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 1038,
+        "basic_properties": {
+            "health": 324,
+            "attack": 32,
+            "speed": 98,
+            "strong": 119,
+            "reactivity": 128,
+            "accuracy": 128,
+            "critical": 64
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 27,
+        "forgeTarget": 1042
+    },
+    {
+        "classId": 1038,
+        "label": "角斗士之心",
+        "icon": "ewn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "角斗士之心lv5",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 1039,
+        "basic_properties": {
+            "health": 330,
+            "attack": 32,
+            "speed": 100,
+            "strong": 121,
+            "reactivity": 130,
+            "accuracy": 130,
+            "critical": 65
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 27,
+        "forgeTarget": 1043
+    },
+    {
+        "classId": 1039,
+        "label": "角斗士之心",
+        "icon": "ewn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "角斗士之心lv6",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 1040,
+        "basic_properties": {
+            "health": 336,
+            "attack": 33,
+            "speed": 102,
+            "strong": 123,
+            "reactivity": 132,
+            "accuracy": 132,
+            "critical": 66
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 27,
+        "forgeTarget": 1044
+    },
+    {
+        "classId": 1040,
+        "label": "角斗士之心",
+        "icon": "ewn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "角斗士之心lv7",
+        "classLimit": [
+            0
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 342,
+            "attack": 34,
+            "speed": 104,
+            "strong": 126,
+            "reactivity": 134,
+            "accuracy": 135,
+            "critical": 67
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 27,
+        "forgeTarget": 1045
+    },
+    {
+        "classId": 1041,
+        "label": "深渊之心",
+        "icon": "ewn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "深渊之心lv3",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 1042,
+        "basic_properties": {
+            "health": 324,
+            "attack": 32,
+            "speed": 98,
+            "strong": 119,
+            "reactivity": 128,
+            "accuracy": 128,
+            "critical": 64
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1042,
+        "label": "深渊之心",
+        "icon": "ewn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "深渊之心lv4",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 1043,
+        "basic_properties": {
+            "health": 330,
+            "attack": 32,
+            "speed": 100,
+            "strong": 121,
+            "reactivity": 130,
+            "accuracy": 130,
+            "critical": 65
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 33,
+        "forgeTarget": 1047
+    },
+    {
+        "classId": 1043,
+        "label": "深渊之心",
+        "icon": "ewn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "深渊之心lv5",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 1044,
+        "basic_properties": {
+            "health": 336,
+            "attack": 33,
+            "speed": 102,
+            "strong": 123,
+            "reactivity": 132,
+            "accuracy": 132,
+            "critical": 66
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 33,
+        "forgeTarget": 1048
+    },
+    {
+        "classId": 1044,
+        "label": "深渊之心",
+        "icon": "ewn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "深渊之心lv6",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 1045,
+        "basic_properties": {
+            "health": 342,
+            "attack": 34,
+            "speed": 104,
+            "strong": 126,
+            "reactivity": 134,
+            "accuracy": 135,
+            "critical": 67
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 33,
+        "forgeTarget": 1049
+    },
+    {
+        "classId": 1045,
+        "label": "深渊之心",
+        "icon": "ewn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "深渊之心lv7",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 1046,
+        "basic_properties": {
+            "health": 348,
+            "attack": 34,
+            "speed": 106,
+            "strong": 128,
+            "reactivity": 136,
+            "accuracy": 137,
+            "critical": 68
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 33,
+        "forgeTarget": 1050
+    },
+    {
+        "classId": 1046,
+        "label": "深渊之心",
+        "icon": "ewn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "深渊之心lv8",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 354,
+            "attack": 35,
+            "speed": 108,
+            "strong": 130,
+            "reactivity": 138,
+            "accuracy": 139,
+            "critical": 69
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 33,
+        "forgeTarget": 1051
+    },
+    {
+        "classId": 1047,
+        "label": "屠龙之心",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "屠龙之心lv4",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 1048,
+        "basic_properties": {
+            "health": 336,
+            "attack": 33,
+            "speed": 102,
+            "strong": 123,
+            "reactivity": 132,
+            "accuracy": 132,
+            "critical": 66
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1048,
+        "label": "屠龙之心",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "屠龙之心lv5",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 1049,
+        "basic_properties": {
+            "health": 342,
+            "attack": 34,
+            "speed": 104,
+            "strong": 126,
+            "reactivity": 134,
+            "accuracy": 135,
+            "critical": 67
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 39,
+        "forgeTarget": 1053
+    },
+    {
+        "classId": 1049,
+        "label": "屠龙之心",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "屠龙之心lv6",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 1050,
+        "basic_properties": {
+            "health": 348,
+            "attack": 34,
+            "speed": 106,
+            "strong": 128,
+            "reactivity": 136,
+            "accuracy": 137,
+            "critical": 68
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 39,
+        "forgeTarget": 1054
+    },
+    {
+        "classId": 1050,
+        "label": "屠龙之心",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "屠龙之心lv7",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 1051,
+        "basic_properties": {
+            "health": 354,
+            "attack": 35,
+            "speed": 108,
+            "strong": 130,
+            "reactivity": 138,
+            "accuracy": 139,
+            "critical": 69
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 39,
+        "forgeTarget": 1055
+    },
+    {
+        "classId": 1051,
+        "label": "屠龙之心",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "屠龙之心lv8",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 1052,
+        "basic_properties": {
+            "health": 360,
+            "attack": 36,
+            "speed": 110,
+            "strong": 132,
+            "reactivity": 140,
+            "accuracy": 141,
+            "critical": 70
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 39,
+        "forgeTarget": 1056
+    },
+    {
+        "classId": 1052,
+        "label": "屠龙之心",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "屠龙之心lv9",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 366,
+            "attack": 37,
+            "speed": 112,
+            "strong": 134,
+            "reactivity": 142,
+            "accuracy": 143,
+            "critical": 71
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 39,
+        "forgeTarget": 1057
+    },
+    {
+        "classId": 1053,
+        "label": "阿瑞斯之心",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "阿瑞斯之心lv5",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 1054,
+        "basic_properties": {
+            "health": 348,
+            "attack": 34,
+            "speed": 106,
+            "strong": 128,
+            "reactivity": 136,
+            "accuracy": 137,
+            "critical": 68
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1054,
+        "label": "阿瑞斯之心",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "阿瑞斯之心lv6",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 1055,
+        "basic_properties": {
+            "health": 354,
+            "attack": 35,
+            "speed": 108,
+            "strong": 130,
+            "reactivity": 138,
+            "accuracy": 139,
+            "critical": 69
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1055,
+        "label": "阿瑞斯之心",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "阿瑞斯之心lv7",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 1056,
+        "basic_properties": {
+            "health": 360,
+            "attack": 36,
+            "speed": 110,
+            "strong": 132,
+            "reactivity": 140,
+            "accuracy": 141,
+            "critical": 70
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1056,
+        "label": "阿瑞斯之心",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "阿瑞斯之心lv8",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 1057,
+        "basic_properties": {
+            "health": 366,
+            "attack": 37,
+            "speed": 112,
+            "strong": 134,
+            "reactivity": 142,
+            "accuracy": 143,
+            "critical": 71
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1057,
+        "label": "阿瑞斯之心",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "阿瑞斯之心lv9",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 1058,
+        "basic_properties": {
+            "health": 372,
+            "attack": 37,
+            "speed": 114,
+            "strong": 136,
+            "reactivity": 144,
+            "accuracy": 145,
+            "critical": 72
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1058,
+        "label": "阿瑞斯之心",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "阿瑞斯之心lv10",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 378,
+            "attack": 38,
+            "speed": 116,
+            "strong": 138,
+            "reactivity": 146,
+            "accuracy": 147,
+            "critical": 73
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
     },
     {
         "classId": 884,
