@@ -33733,7 +33733,605 @@ exports.data = [
         "iconm": "ewsubweapon5-2.png"
     },
     {
-        "classId": 883,
+        "classId": 984,
+        "label": "深渊之刃",
+        "category": 1,
+        "subcategory": 0,
+        "description": "深渊之刃lv6",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 985,
+        "basic_properties": {
+            "health": 342,
+            "attack": 94,
+            "accuracy": 150,
+            "critical": 135
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 32,
+        "forgeTarget": 989,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 985,
+        "label": "深渊之刃",
+        "category": 1,
+        "subcategory": 0,
+        "description": "深渊之刃lv7",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 986,
+        "basic_properties": {
+            "health": 348,
+            "attack": 96,
+            "accuracy": 153,
+            "critical": 137
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 32,
+        "forgeTarget": 990,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 986,
+        "label": "深渊之刃",
+        "category": 1,
+        "subcategory": 0,
+        "description": "深渊之刃lv8",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 354,
+            "attack": 98,
+            "accuracy": 156,
+            "critical": 139
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 32,
+        "forgeTarget": 991,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 987,
+        "label": "屠龙之刃",
+        "category": 1,
+        "subcategory": 0,
+        "description": "屠龙之刃lv4",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 988,
+        "basic_properties": {
+            "health": 336,
+            "attack": 92,
+            "accuracy": 148,
+            "critical": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 988,
+        "label": "屠龙之刃",
+        "category": 1,
+        "subcategory": 0,
+        "description": "屠龙之刃lv5",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 989,
+        "basic_properties": {
+            "health": 342,
+            "attack": 94,
+            "accuracy": 150,
+            "critical": 135
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 38,
+        "forgeTarget": 993,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 989,
+        "label": "屠龙之刃",
+        "category": 1,
+        "subcategory": 0,
+        "description": "屠龙之刃lv6",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 990,
+        "basic_properties": {
+            "health": 348,
+            "attack": 96,
+            "accuracy": 153,
+            "critical": 137
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 38,
+        "forgeTarget": 994,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 990,
+        "label": "屠龙之刃",
+        "category": 1,
+        "subcategory": 0,
+        "description": "屠龙之刃lv7",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 991,
+        "basic_properties": {
+            "health": 354,
+            "attack": 98,
+            "accuracy": 156,
+            "critical": 139
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 38,
+        "forgeTarget": 995,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 991,
+        "label": "屠龙之刃",
+        "category": 1,
+        "subcategory": 0,
+        "description": "屠龙之刃lv8",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 992,
+        "basic_properties": {
+            "health": 360,
+            "attack": 100,
+            "accuracy": 159,
+            "critical": 141
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 38,
+        "forgeTarget": 996,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 992,
+        "label": "屠龙之刃",
+        "category": 1,
+        "subcategory": 0,
+        "description": "屠龙之刃lv9",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 366,
+            "attack": 102,
+            "accuracy": 162,
+            "critical": 143
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 38,
+        "forgeTarget": 997,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 993,
+        "label": "阿瑞斯之力",
+        "category": 1,
+        "subcategory": 0,
+        "description": "阿瑞斯之力lv5",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 994,
+        "basic_properties": {
+            "health": 348,
+            "attack": 96,
+            "accuracy": 153,
+            "critical": 137
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 994,
+        "label": "阿瑞斯之力",
+        "category": 1,
+        "subcategory": 0,
+        "description": "阿瑞斯之力lv6",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 995,
+        "basic_properties": {
+            "health": 354,
+            "attack": 98,
+            "accuracy": 156,
+            "critical": 139
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 995,
+        "label": "阿瑞斯之力",
+        "category": 1,
+        "subcategory": 0,
+        "description": "阿瑞斯之力lv7",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 996,
+        "basic_properties": {
+            "health": 360,
+            "attack": 100,
+            "accuracy": 159,
+            "critical": 141
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 996,
+        "label": "阿瑞斯之力",
+        "category": 1,
+        "subcategory": 0,
+        "description": "阿瑞斯之力lv8",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 997,
+        "basic_properties": {
+            "health": 366,
+            "attack": 102,
+            "accuracy": 162,
+            "critical": 143
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 997,
+        "label": "阿瑞斯之力",
+        "category": 1,
+        "subcategory": 0,
+        "description": "阿瑞斯之力lv9",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 998,
+        "basic_properties": {
+            "health": 372,
+            "attack": 104,
+            "accuracy": 165,
+            "critical": 145
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 998,
+        "label": "阿瑞斯之力",
+        "category": 1,
+        "subcategory": 0,
+        "description": "阿瑞斯之力lv10",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-warriorn-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-warriorn-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 8,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            0
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 378,
+            "attack": 106,
+            "accuracy": 168,
+            "critical": 147
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 999,
         "label": "狂战士头盔",
         "category": 1,
         "subcategory": 13,
