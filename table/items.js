@@ -35991,10 +35991,1175 @@ exports.data = [
         "hide": true
     },
     {
-        "classId": 884,
-        "label": "魔导师下身",
+        "classId": 1059,
+        "label": "奥术长靴",
         "category": 1,
         "subcategory": 4,
+        "description": "奥术长靴lv1",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 1060,
+        "basic_properties": {
+            "health": 250,
+            "attack": 50,
+            "speed": 140,
+            "strong": 100,
+            "reactivity": 120,
+            "critical": 70
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1060,
+        "label": "奥术长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "奥术长靴lv2",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 1061,
+        "basic_properties": {
+            "health": 255,
+            "attack": 51,
+            "speed": 143,
+            "strong": 102,
+            "reactivity": 122,
+            "critical": 71
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 17,
+        "forgeTarget": 1065,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1061,
+        "label": "奥术长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "奥术长靴lv3",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 1062,
+        "basic_properties": {
+            "health": 260,
+            "attack": 53,
+            "speed": 146,
+            "strong": 104,
+            "reactivity": 124,
+            "critical": 72
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 17,
+        "forgeTarget": 1066,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1062,
+        "label": "奥术长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "奥术长靴lv4",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 1063,
+        "basic_properties": {
+            "health": 265,
+            "attack": 54,
+            "speed": 149,
+            "strong": 106,
+            "reactivity": 126,
+            "critical": 73
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 17,
+        "forgeTarget": 1067,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1063,
+        "label": "奥术长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "奥术长靴lv5",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 1064,
+        "basic_properties": {
+            "health": 270,
+            "attack": 55,
+            "speed": 152,
+            "strong": 108,
+            "reactivity": 128,
+            "critical": 74
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 17,
+        "forgeTarget": 1068,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1064,
+        "label": "奥术长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "奥术长靴lv6",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 275,
+            "attack": 56,
+            "speed": 155,
+            "strong": 110,
+            "reactivity": 130,
+            "critical": 75
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 17,
+        "forgeTarget": 1069,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1065,
+        "label": "燃灵长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "燃灵长靴lv2",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 1066,
+        "basic_properties": {
+            "health": 260,
+            "attack": 53,
+            "speed": 146,
+            "strong": 104,
+            "reactivity": 124,
+            "critical": 72
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1066,
+        "label": "燃灵长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "燃灵长靴lv3",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 1067,
+        "basic_properties": {
+            "health": 265,
+            "attack": 54,
+            "speed": 149,
+            "strong": 106,
+            "reactivity": 126,
+            "critical": 73
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 23,
+        "forgeTarget": 1071,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1067,
+        "label": "燃灵长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "燃灵长靴lv4",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 1068,
+        "basic_properties": {
+            "health": 270,
+            "attack": 55,
+            "speed": 152,
+            "strong": 108,
+            "reactivity": 128,
+            "critical": 74
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 23,
+        "forgeTarget": 1072,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1068,
+        "label": "燃灵长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "燃灵长靴lv5",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 1069,
+        "basic_properties": {
+            "health": 275,
+            "attack": 56,
+            "speed": 155,
+            "strong": 110,
+            "reactivity": 130,
+            "critical": 75
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 23,
+        "forgeTarget": 1073,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1069,
+        "label": "燃灵长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "燃灵长靴lv6",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 1070,
+        "basic_properties": {
+            "health": 280,
+            "attack": 58,
+            "speed": 158,
+            "strong": 112,
+            "reactivity": 132,
+            "critical": 76
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 23,
+        "forgeTarget": 1074,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1070,
+        "label": "燃灵长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "燃灵长靴lv7",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 285,
+            "attack": 59,
+            "speed": 160,
+            "strong": 114,
+            "reactivity": 135,
+            "critical": 77
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 23,
+        "forgeTarget": 1075,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1071,
+        "label": "湮灭长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "湮灭长靴lv3",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 1072,
+        "basic_properties": {
+            "health": 270,
+            "attack": 55,
+            "speed": 152,
+            "strong": 108,
+            "reactivity": 128,
+            "critical": 74
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1072,
+        "label": "湮灭长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "湮灭长靴lv4",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 1073,
+        "basic_properties": {
+            "health": 275,
+            "attack": 56,
+            "speed": 155,
+            "strong": 110,
+            "reactivity": 130,
+            "critical": 75
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 29,
+        "forgeTarget": 1077,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1073,
+        "label": "湮灭长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "湮灭长靴lv5",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 1074,
+        "basic_properties": {
+            "health": 280,
+            "attack": 58,
+            "speed": 158,
+            "strong": 112,
+            "reactivity": 132,
+            "critical": 76
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 29,
+        "forgeTarget": 1078,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1074,
+        "label": "湮灭长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "湮灭长靴lv6",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 1075,
+        "basic_properties": {
+            "health": 285,
+            "attack": 59,
+            "speed": 160,
+            "strong": 114,
+            "reactivity": 135,
+            "critical": 77
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 29,
+        "forgeTarget": 1079,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1075,
+        "label": "湮灭长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "湮灭长靴lv7",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 1076,
+        "basic_properties": {
+            "health": 290,
+            "attack": 60,
+            "speed": 163,
+            "strong": 116,
+            "reactivity": 137,
+            "critical": 78
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 29,
+        "forgeTarget": 1080,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1076,
+        "label": "湮灭长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "湮灭长靴lv8",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 295,
+            "attack": 61,
+            "speed": 166,
+            "strong": 118,
+            "reactivity": 139,
+            "critical": 80
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 29,
+        "forgeTarget": 1081,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1077,
+        "label": "落日长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "落日长靴lv4",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 1078,
+        "basic_properties": {
+            "health": 280,
+            "attack": 58,
+            "speed": 158,
+            "strong": 112,
+            "reactivity": 132,
+            "critical": 76
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1078,
+        "label": "落日长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "落日长靴lv5",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 1079,
+        "basic_properties": {
+            "health": 285,
+            "attack": 59,
+            "speed": 160,
+            "strong": 114,
+            "reactivity": 135,
+            "critical": 77
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 35,
+        "forgeTarget": 1083,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1079,
+        "label": "落日长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "落日长靴lv6",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 1080,
+        "basic_properties": {
+            "health": 290,
+            "attack": 60,
+            "speed": 163,
+            "strong": 116,
+            "reactivity": 137,
+            "critical": 78
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 35,
+        "forgeTarget": 1084,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1080,
+        "label": "落日长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "落日长靴lv7",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 1081,
+        "basic_properties": {
+            "health": 295,
+            "attack": 61,
+            "speed": 166,
+            "strong": 118,
+            "reactivity": 139,
+            "critical": 80
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 35,
+        "forgeTarget": 1085,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1081,
+        "label": "落日长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "落日长靴lv8",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 1082,
+        "basic_properties": {
+            "health": 300,
+            "attack": 63,
+            "speed": 169,
+            "strong": 120,
+            "reactivity": 141,
+            "critical": 81
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 35,
+        "forgeTarget": 1086,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1082,
+        "label": "落日长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "落日长靴lv9",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 305,
+            "attack": 64,
+            "speed": 172,
+            "strong": 122,
+            "reactivity": 143,
+            "critical": 82
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 35,
+        "forgeTarget": 1087,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1083,
+        "label": "缚龙长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "缚龙长靴lv5",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36014,13 +37179,2176 @@ exports.data = [
                 "part": "rightleg",
                 "file": "m-magen-rightleg1.ccbi"
             }
-        ]
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 1084,
+        "basic_properties": {
+            "health": 290,
+            "attack": 60,
+            "speed": 163,
+            "strong": 116,
+            "reactivity": 137,
+            "critical": 78
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
     },
     {
-        "classId": 885,
-        "label": "魔导师上身",
+        "classId": 1084,
+        "label": "缚龙长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "缚龙长靴lv6",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 1085,
+        "basic_properties": {
+            "health": 295,
+            "attack": 61,
+            "speed": 166,
+            "strong": 118,
+            "reactivity": 139,
+            "critical": 80
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1085,
+        "label": "缚龙长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "缚龙长靴lv7",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 1086,
+        "basic_properties": {
+            "health": 300,
+            "attack": 63,
+            "speed": 169,
+            "strong": 120,
+            "reactivity": 141,
+            "critical": 81
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1086,
+        "label": "缚龙长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "缚龙长靴lv8",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 1087,
+        "basic_properties": {
+            "health": 305,
+            "attack": 64,
+            "speed": 172,
+            "strong": 122,
+            "reactivity": 143,
+            "critical": 82
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1087,
+        "label": "缚龙长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "缚龙长靴lv9",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 1088,
+        "basic_properties": {
+            "health": 310,
+            "attack": 65,
+            "speed": 175,
+            "strong": 124,
+            "reactivity": 145,
+            "critical": 83
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1088,
+        "label": "缚龙长靴",
+        "category": 1,
+        "subcategory": 4,
+        "description": "缚龙长靴lv10",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-magen-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-magen-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-magen-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-magen-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 315,
+            "attack": 66,
+            "speed": 178,
+            "strong": 126,
+            "reactivity": 147,
+            "critical": 84
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1089,
+        "label": "奥术法袍",
         "category": 1,
         "subcategory": 2,
+        "description": "奥术法袍lv1",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 1090,
+        "basic_properties": {
+            "health": 320,
+            "attack": 50,
+            "speed": 120,
+            "accuracy": 130,
+            "critical": 60
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1090,
+        "label": "奥术法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "奥术法袍lv2",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 1091,
+        "basic_properties": {
+            "health": 325,
+            "attack": 52,
+            "speed": 122,
+            "accuracy": 132,
+            "critical": 61
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 18,
+        "forgeTarget": 1095,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1091,
+        "label": "奥术法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "奥术法袍lv3",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 1092,
+        "basic_properties": {
+            "health": 330,
+            "attack": 53,
+            "speed": 124,
+            "accuracy": 134,
+            "critical": 62
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 18,
+        "forgeTarget": 1096,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1092,
+        "label": "奥术法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "奥术法袍lv4",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 1093,
+        "basic_properties": {
+            "health": 335,
+            "attack": 54,
+            "speed": 126,
+            "accuracy": 136,
+            "critical": 63
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 18,
+        "forgeTarget": 1097,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1093,
+        "label": "奥术法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "奥术法袍lv5",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 1094,
+        "basic_properties": {
+            "health": 340,
+            "attack": 55,
+            "speed": 128,
+            "accuracy": 138,
+            "critical": 64
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 18,
+        "forgeTarget": 1098,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1094,
+        "label": "奥术法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "奥术法袍lv6",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 345,
+            "attack": 57,
+            "speed": 130,
+            "accuracy": 140,
+            "critical": 65
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 18,
+        "forgeTarget": 1099,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1095,
+        "label": "燃灵法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "燃灵法袍lv2",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 1096,
+        "basic_properties": {
+            "health": 330,
+            "attack": 53,
+            "speed": 124,
+            "accuracy": 134,
+            "critical": 62
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1096,
+        "label": "燃灵法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "燃灵法袍lv3",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 1097,
+        "basic_properties": {
+            "health": 335,
+            "attack": 54,
+            "speed": 126,
+            "accuracy": 136,
+            "critical": 63
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 1101,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1097,
+        "label": "燃灵法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "燃灵法袍lv4",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 1098,
+        "basic_properties": {
+            "health": 340,
+            "attack": 55,
+            "speed": 128,
+            "accuracy": 138,
+            "critical": 64
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 1102,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1098,
+        "label": "燃灵法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "燃灵法袍lv5",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 1099,
+        "basic_properties": {
+            "health": 345,
+            "attack": 57,
+            "speed": 130,
+            "accuracy": 140,
+            "critical": 65
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 1103,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1099,
+        "label": "燃灵法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "燃灵法袍lv6",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 1100,
+        "basic_properties": {
+            "health": 350,
+            "attack": 58,
+            "speed": 132,
+            "accuracy": 142,
+            "critical": 66
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 1104,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1100,
+        "label": "燃灵法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "燃灵法袍lv7",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 355,
+            "attack": 59,
+            "speed": 134,
+            "accuracy": 144,
+            "critical": 67
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 1105,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1101,
+        "label": "湮灭法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "湮灭法袍lv3",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 1102,
+        "basic_properties": {
+            "health": 340,
+            "attack": 55,
+            "speed": 128,
+            "accuracy": 138,
+            "critical": 64
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1102,
+        "label": "湮灭法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "湮灭法袍lv4",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 1103,
+        "basic_properties": {
+            "health": 345,
+            "attack": 57,
+            "speed": 130,
+            "accuracy": 140,
+            "critical": 65
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 30,
+        "forgeTarget": 1107,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1103,
+        "label": "湮灭法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "湮灭法袍lv5",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 1104,
+        "basic_properties": {
+            "health": 350,
+            "attack": 58,
+            "speed": 132,
+            "accuracy": 142,
+            "critical": 66
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 30,
+        "forgeTarget": 1108,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1104,
+        "label": "湮灭法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "湮灭法袍lv6",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 1105,
+        "basic_properties": {
+            "health": 355,
+            "attack": 59,
+            "speed": 134,
+            "accuracy": 144,
+            "critical": 67
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 30,
+        "forgeTarget": 1109,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1105,
+        "label": "湮灭法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "湮灭法袍lv7",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 1106,
+        "basic_properties": {
+            "health": 360,
+            "attack": 60,
+            "speed": 136,
+            "accuracy": 146,
+            "critical": 68
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 30,
+        "forgeTarget": 1110,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1106,
+        "label": "湮灭法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "湮灭法袍lv8",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 365,
+            "attack": 62,
+            "speed": 138,
+            "accuracy": 148,
+            "critical": 69
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 30,
+        "forgeTarget": 1111,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1107,
+        "label": "落日法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "落日法袍lv4",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 1108,
+        "basic_properties": {
+            "health": 350,
+            "attack": 58,
+            "speed": 132,
+            "accuracy": 142,
+            "critical": 66
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1108,
+        "label": "落日法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "落日法袍lv5",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 1109,
+        "basic_properties": {
+            "health": 355,
+            "attack": 59,
+            "speed": 134,
+            "accuracy": 144,
+            "critical": 67
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 36,
+        "forgeTarget": 1113,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1109,
+        "label": "落日法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "落日法袍lv6",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 1110,
+        "basic_properties": {
+            "health": 360,
+            "attack": 60,
+            "speed": 136,
+            "accuracy": 146,
+            "critical": 68
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 36,
+        "forgeTarget": 1114,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1110,
+        "label": "落日法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "落日法袍lv7",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 1111,
+        "basic_properties": {
+            "health": 365,
+            "attack": 62,
+            "speed": 138,
+            "accuracy": 148,
+            "critical": 69
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 36,
+        "forgeTarget": 1115,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1111,
+        "label": "落日法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "落日法袍lv8",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 1112,
+        "basic_properties": {
+            "health": 370,
+            "attack": 63,
+            "speed": 140,
+            "accuracy": 150,
+            "critical": 70
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 36,
+        "forgeTarget": 1116,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1112,
+        "label": "落日法袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "落日法袍lv9",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 375,
+            "attack": 64,
+            "speed": 142,
+            "accuracy": 152,
+            "critical": 71
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 36,
+        "forgeTarget": 1117,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1113,
+        "label": "龙炎守护",
+        "category": 1,
+        "subcategory": 2,
+        "description": "龙炎守护lv5",
         "effectf": [
             {
                 "part": "chest",
@@ -36037,6 +39365,14 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -36055,8 +39391,424 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
             }
-        ]
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 1114,
+        "basic_properties": {
+            "health": 360,
+            "attack": 60,
+            "speed": 136,
+            "accuracy": 146,
+            "critical": 68
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1114,
+        "label": "龙炎守护",
+        "category": 1,
+        "subcategory": 2,
+        "description": "龙炎守护lv6",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 1115,
+        "basic_properties": {
+            "health": 365,
+            "attack": 62,
+            "speed": 138,
+            "accuracy": 148,
+            "critical": 69
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1115,
+        "label": "龙炎守护",
+        "category": 1,
+        "subcategory": 2,
+        "description": "龙炎守护lv7",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 1116,
+        "basic_properties": {
+            "health": 370,
+            "attack": 63,
+            "speed": 140,
+            "accuracy": 150,
+            "critical": 70
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1116,
+        "label": "龙炎守护",
+        "category": 1,
+        "subcategory": 2,
+        "description": "龙炎守护lv8",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 1117,
+        "basic_properties": {
+            "health": 375,
+            "attack": 64,
+            "speed": 142,
+            "accuracy": 152,
+            "critical": 71
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1117,
+        "label": "龙炎守护",
+        "category": 1,
+        "subcategory": 2,
+        "description": "龙炎守护lv9",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 1118,
+        "basic_properties": {
+            "health": 380,
+            "attack": 65,
+            "speed": 144,
+            "accuracy": 154,
+            "critical": 72
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1118,
+        "label": "龙炎守护",
+        "category": 1,
+        "subcategory": 2,
+        "description": "龙炎守护lv10",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-magen-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-magen-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-magen-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-magen-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-magen-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 385,
+            "attack": 66,
+            "speed": 146,
+            "accuracy": 156,
+            "critical": 73
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
     },
     {
         "classId": 886,
@@ -36095,32 +39847,6 @@ exports.data = [
     ],
         "effectAttack": 10,
         "soundAttack": "attackzhanshi.mp3"
-    },
-    {
-        "classId": 888,
-        "label": "魔导师头盔",
-        "category": 1,
-        "subcategory": 13,
-        "effectf": [
-            {
-                "part": "helmet",
-                "file": "f-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen-helmet1-3.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "helmet",
-                "file": "m-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen-helmet1-3.ccbi"
-            }
-        ]
     },
     {
         "classId": 889,
