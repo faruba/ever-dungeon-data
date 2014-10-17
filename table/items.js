@@ -39811,10 +39811,935 @@ exports.data = [
         "iconm": "ewsubweapon5-2.png"
     },
     {
-        "classId": 886,
-        "label": "魔导师副手",
+        "classId": 1119,
+        "label": "奥术之魂",
         "category": 1,
         "subcategory": 1,
+        "description": "奥术之魂lv1",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen5-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen5-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 1120,
+        "basic_properties": {
+            "health": 180,
+            "attack": 60,
+            "reactivity": 110,
+            "critical": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1120,
+        "label": "奥术之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "奥术之魂lv2",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen5-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen5-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 1121,
+        "basic_properties": {
+            "health": 184,
+            "attack": 62,
+            "reactivity": 112,
+            "critical": 133
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 19,
+        "forgeTarget": 1125,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1121,
+        "label": "奥术之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "奥术之魂lv3",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen5-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen5-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 1122,
+        "basic_properties": {
+            "health": 188,
+            "attack": 64,
+            "reactivity": 114,
+            "critical": 136
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 19,
+        "forgeTarget": 1126,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1122,
+        "label": "奥术之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "奥术之魂lv4",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen5-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen5-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 1123,
+        "basic_properties": {
+            "health": 192,
+            "attack": 66,
+            "reactivity": 116,
+            "critical": 139
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 19,
+        "forgeTarget": 1127,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1123,
+        "label": "奥术之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "奥术之魂lv5",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen5-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen5-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 1124,
+        "basic_properties": {
+            "health": 196,
+            "attack": 68,
+            "reactivity": 118,
+            "critical": 142
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 19,
+        "forgeTarget": 1128,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1124,
+        "label": "奥术之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "奥术之魂lv6",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen5-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen5-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 200,
+            "attack": 70,
+            "reactivity": 120,
+            "critical": 145
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 19,
+        "forgeTarget": 1129,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1125,
+        "label": "燃灵之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "燃灵之魂lv2",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen4-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen4-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 1126,
+        "basic_properties": {
+            "health": 188,
+            "attack": 64,
+            "reactivity": 114,
+            "critical": 136
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1126,
+        "label": "燃灵之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "燃灵之魂lv3",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen4-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen4-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 1127,
+        "basic_properties": {
+            "health": 192,
+            "attack": 66,
+            "reactivity": 116,
+            "critical": 139
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 25,
+        "forgeTarget": 1131,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1127,
+        "label": "燃灵之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "燃灵之魂lv4",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen4-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen4-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 1128,
+        "basic_properties": {
+            "health": 196,
+            "attack": 68,
+            "reactivity": 118,
+            "critical": 142
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 25,
+        "forgeTarget": 1132,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1128,
+        "label": "燃灵之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "燃灵之魂lv5",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen4-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen4-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 1129,
+        "basic_properties": {
+            "health": 200,
+            "attack": 70,
+            "reactivity": 120,
+            "critical": 145
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 25,
+        "forgeTarget": 1133,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1129,
+        "label": "燃灵之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "燃灵之魂lv6",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen4-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen4-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 1130,
+        "basic_properties": {
+            "health": 204,
+            "attack": 72,
+            "reactivity": 122,
+            "critical": 148
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 25,
+        "forgeTarget": 1134,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1130,
+        "label": "燃灵之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "燃灵之魂lv7",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen4-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen4-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 208,
+            "attack": 74,
+            "reactivity": 124,
+            "critical": 151
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 25,
+        "forgeTarget": 1135,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1131,
+        "label": "湮灭之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "湮灭之魂lv3",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen3-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen3-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 1132,
+        "basic_properties": {
+            "health": 196,
+            "attack": 68,
+            "reactivity": 118,
+            "critical": 142
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1132,
+        "label": "湮灭之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "湮灭之魂lv4",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen3-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen3-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 1133,
+        "basic_properties": {
+            "health": 200,
+            "attack": 70,
+            "reactivity": 120,
+            "critical": 145
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 31,
+        "forgeTarget": 1137,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1133,
+        "label": "湮灭之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "湮灭之魂lv5",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen3-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen3-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 1134,
+        "basic_properties": {
+            "health": 204,
+            "attack": 72,
+            "reactivity": 122,
+            "critical": 148
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 31,
+        "forgeTarget": 1138,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1134,
+        "label": "湮灭之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "湮灭之魂lv6",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen3-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen3-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 1135,
+        "basic_properties": {
+            "health": 208,
+            "attack": 74,
+            "reactivity": 124,
+            "critical": 151
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 31,
+        "forgeTarget": 1139,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1135,
+        "label": "湮灭之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "湮灭之魂lv7",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen3-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen3-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 1136,
+        "basic_properties": {
+            "health": 212,
+            "attack": 76,
+            "reactivity": 126,
+            "critical": 154
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 31,
+        "forgeTarget": 1140,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1136,
+        "label": "湮灭之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "湮灭之魂lv8",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen3-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen3-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 216,
+            "attack": 78,
+            "reactivity": 128,
+            "critical": 157
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 31,
+        "forgeTarget": 1141,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1137,
+        "label": "落日之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "落日之魂lv4",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen2-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen2-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 1138,
+        "basic_properties": {
+            "health": 204,
+            "attack": 72,
+            "reactivity": 122,
+            "critical": 148
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1138,
+        "label": "落日之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "落日之魂lv5",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen2-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen2-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 1139,
+        "basic_properties": {
+            "health": 208,
+            "attack": 74,
+            "reactivity": 124,
+            "critical": 151
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 37,
+        "forgeTarget": 1143,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1139,
+        "label": "落日之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "落日之魂lv6",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen2-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen2-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 1140,
+        "basic_properties": {
+            "health": 212,
+            "attack": 76,
+            "reactivity": 126,
+            "critical": 154
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 37,
+        "forgeTarget": 1144,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1140,
+        "label": "落日之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "落日之魂lv7",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen2-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen2-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 1141,
+        "basic_properties": {
+            "health": 216,
+            "attack": 78,
+            "reactivity": 128,
+            "critical": 157
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 37,
+        "forgeTarget": 1145,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1141,
+        "label": "落日之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "落日之魂lv8",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen2-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen2-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 1142,
+        "basic_properties": {
+            "health": 220,
+            "attack": 80,
+            "reactivity": 130,
+            "critical": 160
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 37,
+        "forgeTarget": 1146,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1142,
+        "label": "落日之魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "落日之魂lv9",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen2-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen2-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 224,
+            "attack": 82,
+            "reactivity": 132,
+            "critical": 163
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "forgeID": 37,
+        "forgeTarget": 1147,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1143,
+        "label": "龙灵战魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "龙灵战魂lv5",
         "effectf": [
             {
                 "part": "weapon4",
@@ -39826,13 +40751,1092 @@ exports.data = [
                 "part": "weapon4",
                 "file": "m-magen-weapon41.ccbi"
             }
-        ]
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 1144,
+        "basic_properties": {
+            "health": 212,
+            "attack": 76,
+            "reactivity": 126,
+            "critical": 154
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
     },
     {
-        "classId": 887,
-        "label": "魔导师主手",
+        "classId": 1144,
+        "label": "龙灵战魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "龙灵战魂lv6",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 1145,
+        "basic_properties": {
+            "health": 216,
+            "attack": 78,
+            "reactivity": 128,
+            "critical": 157
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1145,
+        "label": "龙灵战魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "龙灵战魂lv7",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 1146,
+        "basic_properties": {
+            "health": 220,
+            "attack": 80,
+            "reactivity": 130,
+            "critical": 160
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1146,
+        "label": "龙灵战魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "龙灵战魂lv8",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 1147,
+        "basic_properties": {
+            "health": 224,
+            "attack": 82,
+            "reactivity": 132,
+            "critical": 163
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1147,
+        "label": "龙灵战魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "龙灵战魂lv9",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 1148,
+        "basic_properties": {
+            "health": 228,
+            "attack": 84,
+            "reactivity": 134,
+            "critical": 166
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1148,
+        "label": "龙灵战魂",
+        "category": 1,
+        "subcategory": 1,
+        "description": "龙灵战魂lv10",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-magen-weapon41.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-magen-weapon41.ccbi"
+            }
+        ],
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 232,
+            "attack": 86,
+            "reactivity": 136,
+            "critical": 169
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 1,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1149,
+        "label": "奥术法杖",
         "category": 1,
         "subcategory": 0,
+        "description": "奥术法杖lv1",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen5-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen5-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 1150,
+        "basic_properties": {
+            "attack": 120,
+            "accuracy": 120,
+            "critical": 100
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1150,
+        "label": "奥术法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "奥术法杖lv2",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen5-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen5-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 1151,
+        "basic_properties": {
+            "attack": 123,
+            "accuracy": 122,
+            "critical": 102
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 20,
+        "forgeTarget": 1155,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1151,
+        "label": "奥术法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "奥术法杖lv3",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen5-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen5-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 1152,
+        "basic_properties": {
+            "attack": 126,
+            "accuracy": 124,
+            "critical": 104
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 20,
+        "forgeTarget": 1156,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1152,
+        "label": "奥术法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "奥术法杖lv4",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen5-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen5-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 1153,
+        "basic_properties": {
+            "attack": 129,
+            "accuracy": 126,
+            "critical": 106
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 20,
+        "forgeTarget": 1157,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1153,
+        "label": "奥术法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "奥术法杖lv5",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen5-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen5-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 1154,
+        "basic_properties": {
+            "attack": 132,
+            "accuracy": 128,
+            "critical": 108
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 20,
+        "forgeTarget": 1158,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1154,
+        "label": "奥术法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "奥术法杖lv6",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen5-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen5-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "attack": 135,
+            "accuracy": 130,
+            "critical": 110
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 20,
+        "forgeTarget": 1159,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1155,
+        "label": "燃灵法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "燃灵法杖lv2",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 1156,
+        "basic_properties": {
+            "attack": 126,
+            "accuracy": 124,
+            "critical": 104
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1156,
+        "label": "燃灵法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "燃灵法杖lv3",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 1157,
+        "basic_properties": {
+            "attack": 129,
+            "accuracy": 126,
+            "critical": 106
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 26,
+        "forgeTarget": 1161,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1157,
+        "label": "燃灵法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "燃灵法杖lv4",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 1158,
+        "basic_properties": {
+            "attack": 132,
+            "accuracy": 128,
+            "critical": 108
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 26,
+        "forgeTarget": 1162,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1158,
+        "label": "燃灵法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "燃灵法杖lv5",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 1159,
+        "basic_properties": {
+            "attack": 135,
+            "accuracy": 130,
+            "critical": 110
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 26,
+        "forgeTarget": 1163,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1159,
+        "label": "燃灵法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "燃灵法杖lv6",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 1160,
+        "basic_properties": {
+            "attack": 138,
+            "accuracy": 132,
+            "critical": 112
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 26,
+        "forgeTarget": 1164,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1160,
+        "label": "燃灵法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "燃灵法杖lv7",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "attack": 141,
+            "accuracy": 134,
+            "critical": 114
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 26,
+        "forgeTarget": 1165,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1161,
+        "label": "湮灭法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "湮灭法杖lv3",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 1162,
+        "basic_properties": {
+            "attack": 132,
+            "accuracy": 128,
+            "critical": 108
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1162,
+        "label": "湮灭法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "湮灭法杖lv4",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 1163,
+        "basic_properties": {
+            "attack": 135,
+            "accuracy": 130,
+            "critical": 110
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 32,
+        "forgeTarget": 1167,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1163,
+        "label": "湮灭法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "湮灭法杖lv5",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 1164,
+        "basic_properties": {
+            "attack": 138,
+            "accuracy": 132,
+            "critical": 112
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 32,
+        "forgeTarget": 1168,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1164,
+        "label": "湮灭法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "湮灭法杖lv6",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 1165,
+        "basic_properties": {
+            "attack": 141,
+            "accuracy": 134,
+            "critical": 114
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 32,
+        "forgeTarget": 1169,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1165,
+        "label": "湮灭法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "湮灭法杖lv7",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 1166,
+        "basic_properties": {
+            "attack": 144,
+            "accuracy": 136,
+            "critical": 116
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 32,
+        "forgeTarget": 1170,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1166,
+        "label": "湮灭法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "湮灭法杖lv8",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "attack": 147,
+            "accuracy": 138,
+            "critical": 118
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 32,
+        "forgeTarget": 1171,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1167,
+        "label": "落日法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "落日法杖lv4",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 1168,
+        "basic_properties": {
+            "attack": 138,
+            "accuracy": 132,
+            "critical": 112
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1168,
+        "label": "落日法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "落日法杖lv5",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 1169,
+        "basic_properties": {
+            "attack": 141,
+            "accuracy": 134,
+            "critical": 114
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 38,
+        "forgeTarget": 1173,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1169,
+        "label": "落日法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "落日法杖lv6",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 1170,
+        "basic_properties": {
+            "attack": 144,
+            "accuracy": 136,
+            "critical": 116
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 38,
+        "forgeTarget": 1174,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1170,
+        "label": "落日法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "落日法杖lv7",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 1171,
+        "basic_properties": {
+            "attack": 147,
+            "accuracy": 138,
+            "critical": 118
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 38,
+        "forgeTarget": 1175,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1171,
+        "label": "落日法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "落日法杖lv8",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 1172,
+        "basic_properties": {
+            "attack": 150,
+            "accuracy": 140,
+            "critical": 120
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 38,
+        "forgeTarget": 1176,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1172,
+        "label": "落日法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "落日法杖lv9",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "attack": 153,
+            "accuracy": 142,
+            "critical": 122
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 38,
+        "forgeTarget": 1177,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1173,
+        "label": "缚龙法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "缚龙法杖lv5",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -39840,39 +41844,1987 @@ exports.data = [
             }
         ],
         "effectm": [
-        {
-            "part": "mainweapon",
-            "file": "m-magen-mainweapon1.ccbi"
-        }
-    ],
+            {
+                "part": "mainweapon",
+                "file": "m-magen-mainweapon1.ccbi"
+            }
+        ],
         "effectAttack": 10,
-        "soundAttack": "attackzhanshi.mp3"
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 1174,
+        "basic_properties": {
+            "attack": 144,
+            "accuracy": 136,
+            "critical": 116
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
     },
     {
-        "classId": 889,
-        "label": "主教下身",
+        "classId": 1174,
+        "label": "缚龙法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "缚龙法杖lv6",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 1175,
+        "basic_properties": {
+            "attack": 147,
+            "accuracy": 138,
+            "critical": 118
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1175,
+        "label": "缚龙法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "缚龙法杖lv7",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 1176,
+        "basic_properties": {
+            "attack": 150,
+            "accuracy": 140,
+            "critical": 120
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1176,
+        "label": "缚龙法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "缚龙法杖lv8",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 1177,
+        "basic_properties": {
+            "attack": 153,
+            "accuracy": 142,
+            "critical": 122
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1177,
+        "label": "缚龙法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "缚龙法杖lv9",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 1178,
+        "basic_properties": {
+            "attack": 156,
+            "accuracy": 144,
+            "critical": 124
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1178,
+        "label": "缚龙法杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "缚龙法杖lv10",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-magen-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-magen-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 10,
+        "soundAttack": "attackzhanshi.mp3",
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "attack": 160,
+            "accuracy": 145,
+            "critical": 126
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1179,
+        "label": "奥术戒指",
+        "icon": "er012.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "奥术戒指lv1",
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 1180,
+        "basic_properties": {
+            "health": 220,
+            "attack": 50,
+            "strong": 120,
+            "reactivity": 130,
+            "critical": 80
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1180,
+        "label": "奥术戒指",
+        "icon": "er012.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "奥术戒指lv2",
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 1181,
+        "basic_properties": {
+            "health": 225,
+            "attack": 51,
+            "strong": 123,
+            "reactivity": 133,
+            "critical": 82
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 22,
+        "forgeTarget": 1185
+    },
+    {
+        "classId": 1181,
+        "label": "奥术戒指",
+        "icon": "er012.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "奥术戒指lv3",
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 1182,
+        "basic_properties": {
+            "health": 230,
+            "attack": 52,
+            "strong": 126,
+            "reactivity": 136,
+            "critical": 84
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 22,
+        "forgeTarget": 1186
+    },
+    {
+        "classId": 1182,
+        "label": "奥术戒指",
+        "icon": "er012.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "奥术戒指lv4",
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 1183,
+        "basic_properties": {
+            "health": 235,
+            "attack": 53,
+            "strong": 129,
+            "reactivity": 139,
+            "critical": 86
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 22,
+        "forgeTarget": 1187
+    },
+    {
+        "classId": 1183,
+        "label": "奥术戒指",
+        "icon": "er012.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "奥术戒指lv5",
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 1184,
+        "basic_properties": {
+            "health": 240,
+            "attack": 55,
+            "strong": 132,
+            "reactivity": 142,
+            "critical": 88
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 22,
+        "forgeTarget": 1188
+    },
+    {
+        "classId": 1184,
+        "label": "奥术戒指",
+        "icon": "er012.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "奥术戒指lv6",
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 245,
+            "attack": 56,
+            "strong": 135,
+            "reactivity": 145,
+            "critical": 90
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 22,
+        "forgeTarget": 1189
+    },
+    {
+        "classId": 1185,
+        "label": "燃灵戒指",
+        "icon": "er022.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "燃灵戒指lv2",
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 1186,
+        "basic_properties": {
+            "health": 230,
+            "attack": 52,
+            "strong": 126,
+            "reactivity": 136,
+            "critical": 84
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1186,
+        "label": "燃灵戒指",
+        "icon": "er022.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "燃灵戒指lv3",
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 1187,
+        "basic_properties": {
+            "health": 235,
+            "attack": 53,
+            "strong": 129,
+            "reactivity": 139,
+            "critical": 86
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 28,
+        "forgeTarget": 1191
+    },
+    {
+        "classId": 1187,
+        "label": "燃灵戒指",
+        "icon": "er022.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "燃灵戒指lv4",
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 1188,
+        "basic_properties": {
+            "health": 240,
+            "attack": 55,
+            "strong": 132,
+            "reactivity": 142,
+            "critical": 88
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 28,
+        "forgeTarget": 1192
+    },
+    {
+        "classId": 1188,
+        "label": "燃灵戒指",
+        "icon": "er022.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "燃灵戒指lv5",
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 1189,
+        "basic_properties": {
+            "health": 245,
+            "attack": 56,
+            "strong": 135,
+            "reactivity": 145,
+            "critical": 90
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 28,
+        "forgeTarget": 1193
+    },
+    {
+        "classId": 1189,
+        "label": "燃灵戒指",
+        "icon": "er022.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "燃灵戒指lv6",
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 1190,
+        "basic_properties": {
+            "health": 250,
+            "attack": 57,
+            "strong": 138,
+            "reactivity": 148,
+            "critical": 92
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 28,
+        "forgeTarget": 1194
+    },
+    {
+        "classId": 1190,
+        "label": "燃灵戒指",
+        "icon": "er022.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "燃灵戒指lv7",
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 255,
+            "attack": 58,
+            "strong": 140,
+            "reactivity": 150,
+            "critical": 94
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 28,
+        "forgeTarget": 1195
+    },
+    {
+        "classId": 1191,
+        "label": "湮灭戒指",
+        "icon": "er032.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "湮灭戒指lv3",
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 1192,
+        "basic_properties": {
+            "health": 240,
+            "attack": 55,
+            "strong": 132,
+            "reactivity": 142,
+            "critical": 88
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1192,
+        "label": "湮灭戒指",
+        "icon": "er032.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "湮灭戒指lv4",
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 1193,
+        "basic_properties": {
+            "health": 245,
+            "attack": 56,
+            "strong": 135,
+            "reactivity": 145,
+            "critical": 90
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 34,
+        "forgeTarget": 1197
+    },
+    {
+        "classId": 1193,
+        "label": "湮灭戒指",
+        "icon": "er032.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "湮灭戒指lv5",
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 1194,
+        "basic_properties": {
+            "health": 250,
+            "attack": 57,
+            "strong": 138,
+            "reactivity": 148,
+            "critical": 92
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 34,
+        "forgeTarget": 1198
+    },
+    {
+        "classId": 1194,
+        "label": "湮灭戒指",
+        "icon": "er032.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "湮灭戒指lv6",
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 1195,
+        "basic_properties": {
+            "health": 255,
+            "attack": 58,
+            "strong": 140,
+            "reactivity": 150,
+            "critical": 94
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 34,
+        "forgeTarget": 1199
+    },
+    {
+        "classId": 1195,
+        "label": "湮灭戒指",
+        "icon": "er032.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "湮灭戒指lv4",
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 1196,
+        "basic_properties": {
+            "health": 260,
+            "attack": 60,
+            "strong": 143,
+            "reactivity": 153,
+            "critical": 96
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 34,
+        "forgeTarget": 1200
+    },
+    {
+        "classId": 1196,
+        "label": "湮灭戒指",
+        "icon": "er032.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "湮灭戒指lv4",
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 265,
+            "attack": 61,
+            "strong": 146,
+            "reactivity": 156,
+            "critical": 97
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 34,
+        "forgeTarget": 1201
+    },
+    {
+        "classId": 1197,
+        "label": "落日戒指",
+        "icon": "er042.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "落日戒指lv4",
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 1198,
+        "basic_properties": {
+            "health": 250,
+            "attack": 57,
+            "strong": 138,
+            "reactivity": 148,
+            "critical": 92
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1198,
+        "label": "落日戒指",
+        "icon": "er042.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "落日戒指lv5",
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 1199,
+        "basic_properties": {
+            "health": 255,
+            "attack": 58,
+            "strong": 140,
+            "reactivity": 150,
+            "critical": 94
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 40,
+        "forgeTarget": 1203
+    },
+    {
+        "classId": 1199,
+        "label": "落日戒指",
+        "icon": "er042.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "落日戒指lv6",
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 1200,
+        "basic_properties": {
+            "health": 260,
+            "attack": 60,
+            "strong": 143,
+            "reactivity": 153,
+            "critical": 96
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 40,
+        "forgeTarget": 1204
+    },
+    {
+        "classId": 1200,
+        "label": "落日戒指",
+        "icon": "er042.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "落日戒指lv7",
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 1201,
+        "basic_properties": {
+            "health": 265,
+            "attack": 61,
+            "strong": 146,
+            "reactivity": 156,
+            "critical": 97
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 40,
+        "forgeTarget": 1205
+    },
+    {
+        "classId": 1201,
+        "label": "落日戒指",
+        "icon": "er042.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "落日戒指lv8",
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 1202,
+        "basic_properties": {
+            "health": 270,
+            "attack": 62,
+            "strong": 149,
+            "reactivity": 159,
+            "critical": 99
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 40,
+        "forgeTarget": 1206
+    },
+    {
+        "classId": 1202,
+        "label": "落日戒指",
+        "icon": "er042.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "落日戒指lv9",
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 275,
+            "attack": 63,
+            "strong": 152,
+            "reactivity": 162,
+            "critical": 101
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 40,
+        "forgeTarget": 1207
+    },
+    {
+        "classId": 1203,
+        "label": "龙灵法戒",
+        "icon": "er042.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "龙灵法戒lv5",
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 1204,
+        "basic_properties": {
+            "health": 260,
+            "attack": 60,
+            "strong": 143,
+            "reactivity": 153,
+            "critical": 96
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1204,
+        "label": "龙灵法戒",
+        "icon": "er042.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "龙灵法戒lv6",
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 1205,
+        "basic_properties": {
+            "health": 265,
+            "attack": 61,
+            "strong": 146,
+            "reactivity": 156,
+            "critical": 97
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1205,
+        "label": "龙灵法戒",
+        "icon": "er042.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "龙灵法戒lv7",
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 1206,
+        "basic_properties": {
+            "health": 270,
+            "attack": 62,
+            "strong": 149,
+            "reactivity": 159,
+            "critical": 99
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1206,
+        "label": "龙灵法戒",
+        "icon": "er042.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "龙灵法戒lv8",
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 1207,
+        "basic_properties": {
+            "health": 275,
+            "attack": 63,
+            "strong": 152,
+            "reactivity": 162,
+            "critical": 101
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1207,
+        "label": "龙灵法戒",
+        "icon": "er042.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "龙灵法戒lv9",
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 1208,
+        "basic_properties": {
+            "health": 280,
+            "attack": 65,
+            "strong": 155,
+            "reactivity": 165,
+            "critical": 103
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1208,
+        "label": "龙灵法戒",
+        "icon": "er042.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "龙灵法戒lv10",
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 285,
+            "attack": 66,
+            "strong": 158,
+            "reactivity": 168,
+            "critical": 105
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1209,
+        "label": "奥术护符",
+        "icon": "ewn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "奥术护符lv1",
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 1210,
+        "basic_properties": {
+            "health": 250,
+            "attack": 50,
+            "speed": 130,
+            "strong": 120,
+            "accuracy": 150,
+            "critical": 70
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1210,
+        "label": "奥术护符",
+        "icon": "ewn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "奥术护符lv2",
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 1211,
+        "basic_properties": {
+            "health": 255,
+            "attack": 51,
+            "speed": 132,
+            "strong": 122,
+            "accuracy": 153,
+            "critical": 71
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 21,
+        "forgeTarget": 1215
+    },
+    {
+        "classId": 1211,
+        "label": "奥术护符",
+        "icon": "ewn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "奥术护符lv3",
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 1212,
+        "basic_properties": {
+            "health": 260,
+            "attack": 52,
+            "speed": 134,
+            "strong": 124,
+            "accuracy": 156,
+            "critical": 72
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 21,
+        "forgeTarget": 1216
+    },
+    {
+        "classId": 1212,
+        "label": "奥术护符",
+        "icon": "ewn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "奥术护符lv4",
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 1213,
+        "basic_properties": {
+            "health": 265,
+            "attack": 54,
+            "speed": 136,
+            "strong": 126,
+            "accuracy": 159,
+            "critical": 73
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 21,
+        "forgeTarget": 1217
+    },
+    {
+        "classId": 1213,
+        "label": "奥术护符",
+        "icon": "ewn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "奥术护符lv5",
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 1214,
+        "basic_properties": {
+            "health": 270,
+            "attack": 55,
+            "speed": 138,
+            "strong": 128,
+            "accuracy": 162,
+            "critical": 74
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 21,
+        "forgeTarget": 1218
+    },
+    {
+        "classId": 1214,
+        "label": "奥术护符",
+        "icon": "ewn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "奥术护符lv6",
+        "classLimit": [
+            1
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 275,
+            "attack": 56,
+            "speed": 140,
+            "strong": 130,
+            "accuracy": 165,
+            "critical": 75
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 21,
+        "forgeTarget": 1219
+    },
+    {
+        "classId": 1215,
+        "label": "燃灵护符",
+        "icon": "ewn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "燃灵护符lv2",
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 1216,
+        "basic_properties": {
+            "health": 260,
+            "attack": 52,
+            "speed": 134,
+            "strong": 124,
+            "accuracy": 156,
+            "critical": 72
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1216,
+        "label": "燃灵护符",
+        "icon": "ewn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "燃灵护符lv3",
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 1217,
+        "basic_properties": {
+            "health": 265,
+            "attack": 54,
+            "speed": 136,
+            "strong": 126,
+            "accuracy": 159,
+            "critical": 73
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 27,
+        "forgeTarget": 1221
+    },
+    {
+        "classId": 1217,
+        "label": "燃灵护符",
+        "icon": "ewn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "燃灵护符lv4",
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 1218,
+        "basic_properties": {
+            "health": 270,
+            "attack": 55,
+            "speed": 138,
+            "strong": 128,
+            "accuracy": 162,
+            "critical": 74
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 27,
+        "forgeTarget": 1222
+    },
+    {
+        "classId": 1218,
+        "label": "燃灵护符",
+        "icon": "ewn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "燃灵护符lv5",
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 1219,
+        "basic_properties": {
+            "health": 275,
+            "attack": 56,
+            "speed": 140,
+            "strong": 130,
+            "accuracy": 165,
+            "critical": 75
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 27,
+        "forgeTarget": 1223
+    },
+    {
+        "classId": 1219,
+        "label": "燃灵护符",
+        "icon": "ewn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "燃灵护符lv6",
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 1220,
+        "basic_properties": {
+            "health": 280,
+            "attack": 57,
+            "speed": 142,
+            "strong": 132,
+            "accuracy": 168,
+            "critical": 76
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 27,
+        "forgeTarget": 1224
+    },
+    {
+        "classId": 1220,
+        "label": "燃灵护符",
+        "icon": "ewn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "燃灵护符lv7",
+        "classLimit": [
+            1
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 285,
+            "attack": 59,
+            "speed": 145,
+            "strong": 135,
+            "accuracy": 171,
+            "critical": 77
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 27,
+        "forgeTarget": 1225
+    },
+    {
+        "classId": 1221,
+        "label": "湮灭护符",
+        "icon": "ewn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "湮灭护符lv3",
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 1222,
+        "basic_properties": {
+            "health": 270,
+            "attack": 55,
+            "speed": 138,
+            "strong": 128,
+            "accuracy": 162,
+            "critical": 74
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1222,
+        "label": "湮灭护符",
+        "icon": "ewn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "湮灭护符lv4",
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 1223,
+        "basic_properties": {
+            "health": 275,
+            "attack": 56,
+            "speed": 140,
+            "strong": 130,
+            "accuracy": 165,
+            "critical": 75
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 33,
+        "forgeTarget": 1227
+    },
+    {
+        "classId": 1223,
+        "label": "湮灭护符",
+        "icon": "ewn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "湮灭护符lv5",
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 1224,
+        "basic_properties": {
+            "health": 280,
+            "attack": 57,
+            "speed": 142,
+            "strong": 132,
+            "accuracy": 168,
+            "critical": 76
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 33,
+        "forgeTarget": 1228
+    },
+    {
+        "classId": 1224,
+        "label": "湮灭护符",
+        "icon": "ewn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "湮灭护符lv6",
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 1225,
+        "basic_properties": {
+            "health": 285,
+            "attack": 59,
+            "speed": 145,
+            "strong": 135,
+            "accuracy": 171,
+            "critical": 77
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 33,
+        "forgeTarget": 1229
+    },
+    {
+        "classId": 1225,
+        "label": "湮灭护符",
+        "icon": "ewn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "湮灭护符lv7",
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 1226,
+        "basic_properties": {
+            "health": 290,
+            "attack": 60,
+            "speed": 147,
+            "strong": 137,
+            "accuracy": 174,
+            "critical": 78
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 33,
+        "forgeTarget": 1230
+    },
+    {
+        "classId": 1226,
+        "label": "湮灭护符",
+        "icon": "ewn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "湮灭护符lv8",
+        "classLimit": [
+            1
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 295,
+            "attack": 61,
+            "speed": 149,
+            "strong": 139,
+            "accuracy": 177,
+            "critical": 79
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 33,
+        "forgeTarget": 1231
+    },
+    {
+        "classId": 1227,
+        "label": "落日护符",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "落日护符lv4",
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 1228,
+        "basic_properties": {
+            "health": 280,
+            "attack": 57,
+            "speed": 142,
+            "strong": 132,
+            "accuracy": 168,
+            "critical": 76
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1228,
+        "label": "落日护符",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "落日护符lv5",
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 1229,
+        "basic_properties": {
+            "health": 285,
+            "attack": 59,
+            "speed": 145,
+            "strong": 135,
+            "accuracy": 171,
+            "critical": 77
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 39,
+        "forgeTarget": 1233
+    },
+    {
+        "classId": 1229,
+        "label": "落日护符",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "落日护符lv6",
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 1230,
+        "basic_properties": {
+            "health": 290,
+            "attack": 60,
+            "speed": 147,
+            "strong": 137,
+            "accuracy": 174,
+            "critical": 78
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 39,
+        "forgeTarget": 1234
+    },
+    {
+        "classId": 1230,
+        "label": "落日护符",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "落日护符lv7",
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 1231,
+        "basic_properties": {
+            "health": 295,
+            "attack": 61,
+            "speed": 149,
+            "strong": 139,
+            "accuracy": 177,
+            "critical": 79
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 39,
+        "forgeTarget": 1235
+    },
+    {
+        "classId": 1231,
+        "label": "落日护符",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "落日护符lv8",
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 1232,
+        "basic_properties": {
+            "health": 300,
+            "attack": 62,
+            "speed": 151,
+            "strong": 141,
+            "accuracy": 180,
+            "critical": 80
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 39,
+        "forgeTarget": 1236
+    },
+    {
+        "classId": 1232,
+        "label": "落日护符",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "落日护符lv9",
+        "classLimit": [
+            1
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 305,
+            "attack": 64,
+            "speed": 153,
+            "strong": 143,
+            "accuracy": 183,
+            "critical": 81
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 39,
+        "forgeTarget": 1237
+    },
+    {
+        "classId": 1233,
+        "label": "龙灵护符",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "龙灵护符lv5",
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 1234,
+        "basic_properties": {
+            "health": 290,
+            "attack": 60,
+            "speed": 147,
+            "strong": 137,
+            "accuracy": 174,
+            "critical": 78
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1234,
+        "label": "龙灵护符",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "龙灵护符lv6",
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 1235,
+        "basic_properties": {
+            "health": 295,
+            "attack": 61,
+            "speed": 149,
+            "strong": 139,
+            "accuracy": 177,
+            "critical": 79
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1235,
+        "label": "龙灵护符",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "龙灵护符lv7",
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 1236,
+        "basic_properties": {
+            "health": 300,
+            "attack": 62,
+            "speed":  151,
+            "strong": 141,
+            "accuracy": 180,
+            "critical": 80
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1236,
+        "label": "龙灵护符",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "龙灵护符lv8",
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 1237,
+        "basic_properties": {
+            "health": 305,
+            "attack": 64,
+            "speed": 153,
+            "strong": 143,
+            "accuracy": 183,
+            "critical": 81
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1237,
+        "label": "龙灵护符",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "龙灵护符lv9",
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 1238,
+        "basic_properties": {
+            "health": 310,
+            "attack": 65,
+            "speed": 155,
+            "strong": 145,
+            "accuracy": 186,
+            "critical": 82
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1238,
+        "label": "龙灵护符",
+        "icon": "ewn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "龙灵护符lv10",
+        "classLimit": [
+            1
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 315,
+            "attack": 66,
+            "speed": 157,
+            "strong": 147,
+            "accuracy": 190,
+            "critical": 83
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1239,
+        "label": "圣徒之鞋",
         "category": 1,
         "subcategory": 4,
+        "description": "圣徒之鞋lv1",
         "effectf": [
             {
                 "part": "leftleg",
-                "file": "f-priestn-leftleg1.ccbi"
+                "file": "f-priestn5-leftleg1.ccbi"
             },
             {
                 "part": "rightleg",
-                "file": "f-priestn-rightleg1.ccbi"
+                "file": "f-priestn5-rightleg1.ccbi"
             }
         ],
         "effectm": [
             {
                 "part": "leftleg",
-                "file": "m-priestn-leftleg1.ccbi"
+                "file": "m-priestn5-leftleg1.ccbi"
             },
             {
                 "part": "rightleg",
-                "file": "m-priestn-rightleg1.ccbi"
+                "file": "m-priestn5-rightleg1.ccbi"
             }
-        ]
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 1240,
+        "basic_properties": {
+            "health": 260,
+            "attack": 45,
+            "speed": 120,
+            "reactivity": 120
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1240,
+        "label": "圣徒之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "圣徒之鞋lv2",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 1241,
+        "basic_properties": {
+            "health": 265,
+            "attack": 47,
+            "speed": 122,
+            "reactivity": 122
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 17,
+        "forgeTarget": 1245,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1241,
+        "label": "圣徒之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "圣徒之鞋lv3",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 1242,
+        "basic_properties": {
+            "health": 270,
+            "attack": 48,
+            "speed": 124,
+            "reactivity": 125
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 17,
+        "forgeTarget": 1246,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1242,
+        "label": "圣徒之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "圣徒之鞋lv4",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 1243,
+        "basic_properties": {
+            "health": 275,
+            "attack": 50,
+            "speed": 126,
+            "reactivity": 127
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 17,
+        "forgeTarget": 1247,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
     },
     {
         "classId": 890,
