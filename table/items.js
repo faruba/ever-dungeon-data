@@ -43827,1600 +43827,11 @@ exports.data = [
         "iconm": "ewsubweapon5-2.png"
     },
     {
-        "classId": 890,
-        "label": "主教上身",
-        "category": 1,
-        "subcategory": 2,
-        "effectf": [
-            {
-                "part": "chest",
-                "file": "f-priestn-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "f-priestn-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "f-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "f-priestn-lefthand1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "chest",
-                "file": "m-priestn-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "m-priestn-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "m-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "m-priestn-lefthand1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 891,
-        "label": "主教副手",
-        "category": 1,
-        "subcategory": 1,
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn-weapon41-2.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 892,
-        "label": "主教主手",
-        "category": 1,
-        "subcategory": 0,
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn-mainweapon1.ccbi"
-            }
-        ],
-        "effectAttack": 9,
-        "soundAttack": "attackzhanshi.mp3"
-    },
-    {
-        "classId": 893,
-        "label": "主教头盔",
-        "category": 1,
-        "subcategory": 13,
-        "effectf": [
-            {
-                "part": "helmet",
-                "file": "f-priestn-helmet1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "helmet",
-                "file": "m-priestn-helmet1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 894,
-        "label": "狂战士下身2",
+        "classId": 1243,
+        "label": "圣徒之鞋",
         "category": 1,
         "subcategory": 4,
-        "effectf": [
-            {
-                "part": "leftleg",
-                "file": "f-warriorn2-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "f-warriorn2-rightleg1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "leftleg",
-                "file": "m-warriorn2-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "m-warriorn2-rightleg1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 895,
-        "label": "狂战士上身2",
-        "category": 1,
-        "subcategory": 2,
-        "effectf": [
-            {
-                "part": "chest",
-                "file": "f-warriorn2-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "f-warriorn2-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "f-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "f-warriorn2-lefthand1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "chest",
-                "file": "m-warriorn2-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "m-warriorn2-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "m-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "m-warriorn2-lefthand1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 896,
-        "label": "狂战士副手2",
-        "category": 1,
-        "subcategory": 1,
-        "effectf": [
-            {
-                "part": "secondaryweapon2",
-                "file": "f-warriorn2-weapon21.ccbi"
-            },
-            {
-                "part": "secondaryweapon2-2",
-                "file": "f-warriorn2-weapon21.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "secondaryweapon2",
-                "file": "m-warriorn2-weapon21.ccbi"
-            },
-            {
-                "part": "secondaryweapon2-2",
-                "file": "m-warriorn2-weapon21.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 897,
-        "label": "狂战士主手2",
-        "category": 1,
-        "subcategory": 0,
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-        {
-            "part": "mainweapon",
-            "file": "m-warriorn2-mainweapon1.ccbi"
-        }
-    ],
-        "effectAttack": 8,
-        "soundAttack": "attackzhanshi.mp3"
-    },
-    {
-        "classId": 898,
-        "label": "狂战士头盔2",
-        "category": 1,
-        "subcategory": 13,
-        "effectf": [
-            {
-                "part": "helmet",
-                "file": "f-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn2-helmet1-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "helmet",
-                "file": "m-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 899,
-        "label": "魔导师下身2",
-        "category": 1,
-        "subcategory": 4,
-        "effectf": [
-            {
-                "part": "leftleg",
-                "file": "f-magen2-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "f-magen2-rightleg1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "leftleg",
-                "file": "m-magen2-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "m-magen2-rightleg1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 900,
-        "label": "魔导师上身2",
-        "category": 1,
-        "subcategory": 2,
-        "effectf": [
-            {
-                "part": "chest",
-                "file": "f-magen2-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "f-magen2-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "f-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "f-magen2-lefthand1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "chest",
-                "file": "m-magen2-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "m-magen2-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "m-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "m-magen2-lefthand1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 901,
-        "label": "魔导师副手2",
-        "category": 1,
-        "subcategory": 1,
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen2-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen2-weapon41.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 902,
-        "label": "魔导师主手2",
-        "category": 1,
-        "subcategory": 0,
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen2-mainweapon1.ccbi"
-            }
-        ],
-        "effectAttack": 10,
-        "soundAttack": "attackzhanshi.mp3"
-    },
-    {
-        "classId": 903,
-        "label": "魔导师头盔2",
-        "category": 1,
-        "subcategory": 13,
-        "effectf": [
-            {
-                "part": "helmet",
-                "file": "f-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen2-helmet1-3.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "helmet",
-                "file": "m-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen2-helmet1-3.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 904,
-        "label": "主教下身2",
-        "category": 1,
-        "subcategory": 4,
-        "effectf": [
-            {
-                "part": "leftleg",
-                "file": "f-priestn2-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "f-priestn2-rightleg1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "leftleg",
-                "file": "m-priestn2-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "m-priestn2-rightleg1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 905,
-        "label": "主教上身2",
-        "category": 1,
-        "subcategory": 2,
-        "effectf": [
-            {
-                "part": "chest",
-                "file": "f-priestn2-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "f-priestn2-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "f-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "f-priestn2-lefthand1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "chest",
-                "file": "m-priestn2-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "m-priestn2-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "m-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "m-priestn2-lefthand1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 906,
-        "label": "主教副手2",
-        "category": 1,
-        "subcategory": 1,
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn2-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn2-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn2-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn2-weapon41-2.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 907,
-        "label": "主教主手2",
-        "category": 1,
-        "subcategory": 0,
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn2-mainweapon1.ccbi"
-            }
-        ],
-        "effectAttack": 9,
-        "soundAttack": "attackzhanshi.mp3"
-    },
-    {
-        "classId": 908,
-        "label": "主教头盔2",
-        "category": 1,
-        "subcategory": 13,
-        "effectf": [
-            {
-                "part": "helmet",
-                "file": "f-priestn2-helmet1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "helmet",
-                "file": "m-priestn2-helmet1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 909,
-        "label": "狂战士下身3",
-        "category": 1,
-        "subcategory": 4,
-        "effectf": [
-            {
-                "part": "leftleg",
-                "file": "f-warriorn3-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "f-warriorn3-rightleg1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "leftleg",
-                "file": "m-warriorn3-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "m-warriorn3-rightleg1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 910,
-        "label": "狂战士上身3",
-        "category": 1,
-        "subcategory": 2,
-        "effectf": [
-            {
-                "part": "chest",
-                "file": "f-warriorn3-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "f-warriorn3-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "f-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "f-warriorn3-lefthand1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "chest",
-                "file": "m-warriorn3-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "m-warriorn3-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "m-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "m-warriorn3-lefthand1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 911,
-        "label": "狂战士副手3",
-        "category": 1,
-        "subcategory": 1,
-        "effectf": [
-            {
-                "part": "secondaryweapon2",
-                "file": "f-warriorn3-weapon21.ccbi"
-            },
-            {
-                "part": "secondaryweapon2-2",
-                "file": "f-warriorn3-weapon21.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "secondaryweapon2",
-                "file": "m-warriorn3-weapon21.ccbi"
-            },
-            {
-                "part": "secondaryweapon2-2",
-                "file": "m-warriorn3-weapon21.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 912,
-        "label": "狂战士主手3",
-        "category": 1,
-        "subcategory": 0,
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectAttack": 8,
-        "soundAttack": "attackzhanshi.mp3"
-    },
-    {
-        "classId": 913,
-        "label": "狂战士头盔3",
-        "category": 1,
-        "subcategory": 13,
-        "effectf": [
-            {
-                "part": "helmet",
-                "file": "f-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn3-helmet1-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "helmet",
-                "file": "m-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn3-helmet1-2.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 914,
-        "label": "魔导师下身3",
-        "category": 1,
-        "subcategory": 4,
-        "effectf": [
-            {
-                "part": "leftleg",
-                "file": "f-magen3-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "f-magen3-rightleg1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "leftleg",
-                "file": "m-magen3-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "m-magen3-rightleg1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 915,
-        "label": "魔导师上身3",
-        "category": 1,
-        "subcategory": 2,
-        "effectf": [
-            {
-                "part": "chest",
-                "file": "f-magen3-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "f-magen3-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "f-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "f-magen3-lefthand1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "chest",
-                "file": "m-magen3-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "m-magen3-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "m-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "m-magen3-lefthand1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 916,
-        "label": "魔导师副手3",
-        "category": 1,
-        "subcategory": 1,
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen3-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen3-weapon41.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 917,
-        "label": "魔导师主手3",
-        "category": 1,
-        "subcategory": 0,
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen3-mainweapon1.ccbi"
-            }
-        ],
-        "effectAttack": 10,
-        "soundAttack": "attackzhanshi.mp3"
-    },
-    {
-        "classId": 918,
-        "label": "魔导师头盔3",
-        "category": 1,
-        "subcategory": 13,
-        "effectf": [
-            {
-                "part": "helmet",
-                "file": "f-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen3-helmet1-3.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "helmet",
-                "file": "m-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen3-helmet1-3.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 919,
-        "label": "主教下身3",
-        "category": 1,
-        "subcategory": 4,
-        "effectf": [
-            {
-                "part": "leftleg",
-                "file": "f-priestn3-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "f-priestn3-rightleg1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "leftleg",
-                "file": "m-priestn3-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "m-priestn3-rightleg1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 920,
-        "label": "主教上身3",
-        "category": 1,
-        "subcategory": 2,
-        "effectf": [
-            {
-                "part": "chest",
-                "file": "f-priestn3-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "f-priestn3-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "f-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "f-priestn3-lefthand1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "chest",
-                "file": "m-priestn3-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "m-priestn3-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "m-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "m-priestn3-lefthand1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 921,
-        "label": "主教副手3",
-        "category": 1,
-        "subcategory": 1,
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn3-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn3-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn3-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn3-weapon41-2.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 922,
-        "label": "主教主手3",
-        "category": 1,
-        "subcategory": 0,
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectAttack": 9,
-        "soundAttack": "attackzhanshi.mp3"
-    },
-    {
-        "classId": 923,
-        "label": "主教头盔3",
-        "category": 1,
-        "subcategory": 13,
-        "effectf": [
-            {
-                "part": "helmet",
-                "file": "f-priestn3-helmet1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "helmet",
-                "file": "m-priestn3-helmet1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 924,
-        "label": "狂战士下身4",
-        "category": 1,
-        "subcategory": 4,
-        "effectf": [
-            {
-                "part": "leftleg",
-                "file": "f-warriorn4-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "f-warriorn4-rightleg1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "leftleg",
-                "file": "m-warriorn4-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "m-warriorn4-rightleg1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 925,
-        "label": "狂战士上身4",
-        "category": 1,
-        "subcategory": 2,
-        "effectf": [
-            {
-                "part": "chest",
-                "file": "f-warriorn4-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "f-warriorn4-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "f-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "f-warriorn4-lefthand1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "chest",
-                "file": "m-warriorn4-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "m-warriorn4-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "m-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "m-warriorn4-lefthand1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 926,
-        "label": "狂战士副手4",
-        "category": 1,
-        "subcategory": 1,
-        "effectf": [
-            {
-                "part": "secondaryweapon2",
-                "file": "f-warriorn4-weapon21.ccbi"
-            },
-            {
-                "part": "secondaryweapon2-2",
-                "file": "f-warriorn4-weapon21.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "secondaryweapon2",
-                "file": "m-warriorn4-weapon21.ccbi"
-            },
-            {
-                "part": "secondaryweapon2-2",
-                "file": "m-warriorn4-weapon21.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 927,
-        "label": "狂战士主手4",
-        "category": 1,
-        "subcategory": 0,
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectAttack": 8,
-        "soundAttack": "attackzhanshi.mp3"
-    },
-    {
-        "classId": 928,
-        "label": "狂战士头盔4",
-        "category": 1,
-        "subcategory": 13,
-        "effectf": [
-            {
-                "part": "helmet",
-                "file": "f-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn4-helmet1-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "helmet",
-                "file": "m-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn4-helmet1-2.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 929,
-        "label": "魔导师下身4",
-        "category": 1,
-        "subcategory": 4,
-        "effectf": [
-            {
-                "part": "leftleg",
-                "file": "f-magen4-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "f-magen4-rightleg1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "leftleg",
-                "file": "m-magen4-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "m-magen4-rightleg1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 930,
-        "label": "魔导师上身4",
-        "category": 1,
-        "subcategory": 2,
-        "effectf": [
-            {
-                "part": "chest",
-                "file": "f-magen4-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "f-magen4-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "f-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "f-magen4-lefthand1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "chest",
-                "file": "m-magen4-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "m-magen4-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "m-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "m-magen4-lefthand1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 931,
-        "label": "魔导师副手4",
-        "category": 1,
-        "subcategory": 1,
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen4-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen4-weapon41.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 932,
-        "label": "魔导师主手4",
-        "category": 1,
-        "subcategory": 0,
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen4-mainweapon1.ccbi"
-            }
-        ],
-        "effectAttack": 10,
-        "soundAttack": "attackzhanshi.mp3"
-    },
-    {
-        "classId": 933,
-        "label": "魔导师头盔4",
-        "category": 1,
-        "subcategory": 13,
-        "effectf": [
-            {
-                "part": "helmet",
-                "file": "f-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen4-helmet1-3.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "helmet",
-                "file": "m-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen4-helmet1-3.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 934,
-        "label": "主教下身4",
-        "category": 1,
-        "subcategory": 4,
-        "effectf": [
-            {
-                "part": "leftleg",
-                "file": "f-priestn4-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "f-priestn4-rightleg1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "leftleg",
-                "file": "m-priestn4-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "m-priestn4-rightleg1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 935,
-        "label": "主教上身4",
-        "category": 1,
-        "subcategory": 2,
-        "effectf": [
-            {
-                "part": "chest",
-                "file": "f-priestn4-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "f-priestn4-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "f-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "f-priestn4-lefthand1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "chest",
-                "file": "m-priestn4-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "m-priestn4-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "m-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "m-priestn4-lefthand1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 936,
-        "label": "主教副手4",
-        "category": 1,
-        "subcategory": 1,
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn4-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn4-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn4-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn4-weapon41-2.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 937,
-        "label": "主教主手4",
-        "category": 1,
-        "subcategory": 0,
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectAttack": 9,
-        "soundAttack": "attackzhanshi.mp3"
-    },
-    {
-        "classId": 938,
-        "label": "主教头盔4",
-        "category": 1,
-        "subcategory": 13,
-        "effectf": [
-            {
-                "part": "helmet",
-                "file": "f-priestn4-helmet1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "helmet",
-                "file": "m-priestn4-helmet1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 939,
-        "label": "狂战士下身5",
-        "category": 1,
-        "subcategory": 4,
-        "effectf": [
-            {
-                "part": "leftleg",
-                "file": "f-warriorn5-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "f-warriorn5-rightleg1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "leftleg",
-                "file": "m-warriorn5-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "m-warriorn5-rightleg1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 940,
-        "label": "狂战士上身5",
-        "category": 1,
-        "subcategory": 2,
-        "effectf": [
-            {
-                "part": "chest",
-                "file": "f-warriorn5-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "f-warriorn5-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "f-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "f-warriorn5-lefthand1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "chest",
-                "file": "m-warriorn5-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "m-warriorn5-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "m-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "m-warriorn5-lefthand1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 941,
-        "label": "狂战士副手5",
-        "category": 1,
-        "subcategory": 1,
-        "effectf": [
-            {
-                "part": "secondaryweapon2",
-                "file": "f-warriorn5-weapon21.ccbi"
-            },
-            {
-                "part": "secondaryweapon2-2",
-                "file": "f-warriorn5-weapon21.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "secondaryweapon2",
-                "file": "m-warriorn5-weapon21.ccbi"
-            },
-            {
-                "part": "secondaryweapon2-2",
-                "file": "m-warriorn5-weapon21.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 942,
-        "label": "狂战士主手5",
-        "category": 1,
-        "subcategory": 0,
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn5-mainweapon1.ccbi"
-            }
-        ],
-        "effectAttack": 8,
-        "soundAttack": "attackzhanshi.mp3"
-    },
-    {
-        "classId": 943,
-        "label": "狂战士头盔5",
-        "category": 1,
-        "subcategory": 13,
-        "effectf": [
-            {
-                "part": "helmet",
-                "file": "f-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn5-helmet1-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "helmet",
-                "file": "m-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn5-helmet1-2.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 944,
-        "label": "魔导师下身5",
-        "category": 1,
-        "subcategory": 4,
-        "effectf": [
-            {
-                "part": "leftleg",
-                "file": "f-magen5-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "f-magen5-rightleg1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "leftleg",
-                "file": "m-magen5-leftleg1.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "m-magen5-rightleg1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 945,
-        "label": "魔导师上身5",
-        "category": 1,
-        "subcategory": 2,
-        "effectf": [
-            {
-                "part": "chest",
-                "file": "f-magen5-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "f-magen5-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "f-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "f-magen5-lefthand1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "chest",
-                "file": "m-magen5-chest1.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "m-magen5-righthand1.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "m-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "lefthand2",
-                "file": "m-magen5-lefthand1.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 946,
-        "label": "魔导师副手5",
-        "category": 1,
-        "subcategory": 1,
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen5-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen5-weapon41.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 947,
-        "label": "魔导师主手5",
-        "category": 1,
-        "subcategory": 0,
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen5-mainweapon1.ccbi"
-            }
-        ],
-        "effectAttack": 10,
-        "soundAttack": "attackzhanshi.mp3"
-    },
-    {
-        "classId": 948,
-        "label": "魔导师头盔5",
-        "category": 1,
-        "subcategory": 13,
-        "effectf": [
-            {
-                "part": "helmet",
-                "file": "f-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen5-helmet1-3.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "helmet",
-                "file": "m-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen5-helmet1-3.ccbi"
-            }
-        ]
-    },
-    {
-        "classId": 949,
-        "label": "主教下身5",
-        "category": 1,
-        "subcategory": 4,
+        "description": "圣徒之鞋lv5",
         "effectf": [
             {
                 "part": "leftleg",
@@ -45440,13 +43851,1186 @@ exports.data = [
                 "part": "rightleg",
                 "file": "m-priestn5-rightleg1.ccbi"
             }
-        ]
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 1244,
+        "basic_properties": {
+            "health": 280,
+            "attack": 51,
+            "speed": 128,
+            "reactivity": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 17,
+        "forgeTarget": 1248,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
     },
     {
-        "classId": 950,
-        "label": "主教上身5",
+        "classId": 1244,
+        "label": "圣徒之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "圣徒之鞋lv6",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn5-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn5-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn5-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 285,
+            "attack": 53,
+            "speed": 130,
+            "reactivity": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 17,
+        "forgeTarget": 1249,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1245,
+        "label": "祈求者之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "祈求者之鞋lv2",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 1246,
+        "basic_properties": {
+            "health": 270,
+            "attack": 48,
+            "speed": 124,
+            "reactivity": 125
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1246,
+        "label": "祈求者之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "祈求者之鞋lv3",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 1247,
+        "basic_properties": {
+            "health": 275,
+            "attack": 50,
+            "speed": 126,
+            "reactivity": 127
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 23,
+        "forgeTarget": 1251,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1247,
+        "label": "祈求者之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "祈求者之鞋lv4",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 1248,
+        "basic_properties": {
+            "health": 280,
+            "attack": 51,
+            "speed": 128,
+            "reactivity": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 23,
+        "forgeTarget": 1252,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1248,
+        "label": "祈求者之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "祈求者之鞋lv5",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 1249,
+        "basic_properties": {
+            "health": 285,
+            "attack": 53,
+            "speed": 130,
+            "reactivity": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 23,
+        "forgeTarget": 1253,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1249,
+        "label": "祈求者之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "祈求者之鞋lv6",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 1250,
+        "basic_properties": {
+            "health": 290,
+            "attack": 54,
+            "speed": 132,
+            "reactivity": 135
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 23,
+        "forgeTarget": 1254,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1250,
+        "label": "祈求者之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "祈求者之鞋lv7",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn4-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn4-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn4-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 295,
+            "attack": 56,
+            "speed": 134,
+            "reactivity": 137
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 23,
+        "forgeTarget": 1255,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1251,
+        "label": "神谕者之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "神谕者之鞋lv3",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 1252,
+        "basic_properties": {
+            "health": 280,
+            "attack": 51,
+            "speed": 128,
+            "reactivity": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1252,
+        "label": "神谕者之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "神谕者之鞋lv4",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 1253,
+        "basic_properties": {
+            "health": 285,
+            "attack": 53,
+            "speed": 130,
+            "reactivity": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 29,
+        "forgeTarget": 1257,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1253,
+        "label": "神谕者之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "神谕者之鞋lv5",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 1254,
+        "basic_properties": {
+            "health": 290,
+            "attack": 54,
+            "speed": 132,
+            "reactivity": 135
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 29,
+        "forgeTarget": 1258,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1254,
+        "label": "神谕者之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "神谕者之鞋lv6",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 1255,
+        "basic_properties": {
+            "health": 295,
+            "attack": 56,
+            "speed": 134,
+            "reactivity": 137
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 29,
+        "forgeTarget": 1259,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1255,
+        "label": "神谕者之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "神谕者之鞋lv7",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 1256,
+        "basic_properties": {
+            "health": 300,
+            "attack": 57,
+            "speed": 136,
+            "reactivity": 139
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 29,
+        "forgeTarget": 1260,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1256,
+        "label": "神谕者之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "神谕者之鞋lv8",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn3-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn3-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn3-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 305,
+            "attack": 59,
+            "speed": 138,
+            "reactivity": 142
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 29,
+        "forgeTarget": 1261,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1257,
+        "label": "神圣之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "神圣之鞋lv4",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 1258,
+        "basic_properties": {
+            "health": 290,
+            "attack": 54,
+            "speed": 132,
+            "reactivity": 135
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1258,
+        "label": "神圣之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "神圣之鞋lv5",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 1259,
+        "basic_properties": {
+            "health": 295,
+            "attack": 56,
+            "speed": 134,
+            "reactivity": 137
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 35,
+        "forgeTarget": 1263,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1259,
+        "label": "神圣之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "神圣之鞋lv6",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 1260,
+        "basic_properties": {
+            "health": 300,
+            "attack": 57,
+            "speed": 136,
+            "reactivity": 139
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 35,
+        "forgeTarget": 1264,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1260,
+        "label": "神圣之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "神圣之鞋lv7",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 1261,
+        "basic_properties": {
+            "health": 305,
+            "attack": 59,
+            "speed": 138,
+            "reactivity": 142
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 35,
+        "forgeTarget": 1265,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1261,
+        "label": "神圣之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "神圣之鞋lv8",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 1262,
+        "basic_properties": {
+            "health": 310,
+            "attack": 60,
+            "speed": 140,
+            "reactivity": 144
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 35,
+        "forgeTarget": 1266,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1262,
+        "label": "神圣之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "神圣之鞋lv9",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn2-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn2-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn2-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 315,
+            "attack": 62,
+            "speed": 142,
+            "reactivity": 146
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 35,
+        "forgeTarget": 1267,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1263,
+        "label": "光辉之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "光辉之鞋lv5",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 1264,
+        "basic_properties": {
+            "health": 300,
+            "attack": 57,
+            "speed": 136,
+            "reactivity": 139
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1264,
+        "label": "光辉之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "光辉之鞋lv6",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 1265,
+        "basic_properties": {
+            "health": 305,
+            "attack": 59,
+            "speed": 138,
+            "reactivity": 142
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1265,
+        "label": "光辉之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "光辉之鞋lv7",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 1266,
+        "basic_properties": {
+            "health": 310,
+            "attack": 60,
+            "speed": 140,
+            "reactivity": 144
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1266,
+        "label": "光辉之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "光辉之鞋lv8",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 1267,
+        "basic_properties": {
+            "health": 315,
+            "attack": 62,
+            "speed": 142,
+            "reactivity": 146
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1267,
+        "label": "光辉之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "光辉之鞋lv9",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 1268,
+        "basic_properties": {
+            "health": 320,
+            "attack": 63,
+            "speed": 144,
+            "reactivity": 148
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1268,
+        "label": "光辉之鞋",
+        "category": 1,
+        "subcategory": 4,
+        "description": "光辉之鞋lv10",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "f-priestn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "f-priestn-rightleg1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "m-priestn-leftleg1.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "m-priestn-rightleg1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 325,
+            "attack": 65,
+            "speed": 146,
+            "reactivity": 150
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1269,
+        "label": "圣徒长袍",
         "category": 1,
         "subcategory": 2,
+        "description": "圣徒长袍lv1",
         "effectf": [
             {
                 "part": "chest",
@@ -45463,6 +45047,10 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45481,14 +45069,2103 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
             }
-        ]
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 1270,
+        "basic_properties": {
+            "health": 380,
+            "attack": 40,
+            "speed": 110,
+            "strong": 130,
+            "accuracy": 100
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
     },
     {
-        "classId": 951,
-        "label": "主教副手5",
+        "classId": 1270,
+        "label": "圣徒长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "圣徒长袍lv2",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 1271,
+        "basic_properties": {
+            "health": 387,
+            "attack": 41,
+            "speed": 112,
+            "strong": 133,
+            "accuracy": 102
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 18,
+        "forgeTarget": 1275,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1271,
+        "label": "圣徒长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "圣徒长袍lv3",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 1272,
+        "basic_properties": {
+            "health": 394,
+            "attack": 42,
+            "speed": 114,
+            "strong": 136,
+            "accuracy": 104
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 18,
+        "forgeTarget": 1276,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1272,
+        "label": "圣徒长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "圣徒长袍lv4",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 1273,
+        "basic_properties": {
+            "health": 401,
+            "attack": 43,
+            "speed": 116,
+            "strong": 139,
+            "accuracy": 106
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 18,
+        "forgeTarget": 1277,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1273,
+        "label": "圣徒长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "圣徒长袍lv5",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 1274,
+        "basic_properties": {
+            "health": 408,
+            "attack": 44,
+            "speed": 118,
+            "strong": 142,
+            "accuracy": 108
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 18,
+        "forgeTarget": 1278,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1274,
+        "label": "圣徒长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "圣徒长袍lv6",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn5-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn5-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn5-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 415,
+            "attack": 45,
+            "speed": 120,
+            "strong": 145,
+            "accuracy": 110
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 18,
+        "forgeTarget": 1279,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1275,
+        "label": "祈求者长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "祈求者长袍lv2",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 1276,
+        "basic_properties": {
+            "health": 394,
+            "attack": 42,
+            "speed": 114,
+            "strong": 136,
+            "accuracy": 104
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1276,
+        "label": "祈求者长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "祈求者长袍lv3",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 1277,
+        "basic_properties": {
+            "health": 401,
+            "attack": 43,
+            "speed": 116,
+            "strong": 139,
+            "accuracy": 106
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 1281,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1277,
+        "label": "祈求者长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "祈求者长袍lv4",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 1278,
+        "basic_properties": {
+            "health": 408,
+            "attack": 44,
+            "speed": 118,
+            "strong": 142,
+            "accuracy": 108
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 1282,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1278,
+        "label": "祈求者长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "祈求者长袍lv5",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 1279,
+        "basic_properties": {
+            "health": 415,
+            "attack": 45,
+            "speed": 120,
+            "strong": 145,
+            "accuracy": 110
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 1283,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1279,
+        "label": "祈求者长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "祈求者长袍lv6",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 1280,
+        "basic_properties": {
+            "health": 422,
+            "attack": 46,
+            "speed": 122,
+            "strong": 148,
+            "accuracy": 112
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 1284,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1280,
+        "label": "祈求者长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "祈求者长袍lv7",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn4-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn4-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn4-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 429,
+            "attack": 47,
+            "speed": 124,
+            "strong": 151,
+            "accuracy": 114
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 24,
+        "forgeTarget": 1285,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1281,
+        "label": "神谕者长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "神谕者长袍lv3",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 1282,
+        "basic_properties": {
+            "health": 408,
+            "attack": 44,
+            "speed": 118,
+            "strong": 142,
+            "accuracy": 108
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1282,
+        "label": "神谕者长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "神谕者长袍lv4",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 1283,
+        "basic_properties": {
+            "health": 415,
+            "attack": 45,
+            "speed": 120,
+            "strong": 145,
+            "accuracy": 110
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 30,
+        "forgeTarget": 1287,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1283,
+        "label": "神谕者长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "神谕者长袍lv5",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 1284,
+        "basic_properties": {
+            "health": 422,
+            "attack": 46,
+            "speed": 122,
+            "strong": 148,
+            "accuracy": 112
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 30,
+        "forgeTarget": 1288,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1284,
+        "label": "神谕者长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "神谕者长袍lv6",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 1285,
+        "basic_properties": {
+            "health": 429,
+            "attack": 47,
+            "speed": 124,
+            "strong": 151,
+            "accuracy": 114
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 30,
+        "forgeTarget": 1289,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1285,
+        "label": "神谕者长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "神谕者长袍lv7",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 1286,
+        "basic_properties": {
+            "health": 436,
+            "attack": 48,
+            "speed": 126,
+            "strong": 154,
+            "accuracy": 116
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 30,
+        "forgeTarget": 1290,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1286,
+        "label": "神谕者长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "神谕者长袍lv8",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn3-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn3-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn3-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 443,
+            "attack": 49,
+            "speed": 128,
+            "strong": 157,
+            "accuracy": 118
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 30,
+        "forgeTarget": 1291,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1287,
+        "label": "神圣长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "神圣长袍lv4",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 1288,
+        "basic_properties": {
+            "health": 422,
+            "attack": 46,
+            "speed": 122,
+            "strong": 148,
+            "accuracy": 112
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1288,
+        "label": "神圣长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "神圣长袍lv5",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 1289,
+        "basic_properties": {
+            "health": 429,
+            "attack": 47,
+            "speed": 124,
+            "strong": 151,
+            "accuracy": 114
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 36,
+        "forgeTarget": 1293,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1289,
+        "label": "神圣长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "神圣长袍lv6",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 1290,
+        "basic_properties": {
+            "health": 436,
+            "attack": 48,
+            "speed": 126,
+            "strong": 154,
+            "accuracy": 116
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 36,
+        "forgeTarget": 1294,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1290,
+        "label": "神圣长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "神圣长袍lv7",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 1291,
+        "basic_properties": {
+            "health": 443,
+            "attack": 49,
+            "speed": 128,
+            "strong": 157,
+            "accuracy": 118
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 36,
+        "forgeTarget": 1295,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1291,
+        "label": "神圣长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "神圣长袍lv8",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 1292,
+        "basic_properties": {
+            "health": 450,
+            "attack": 50,
+            "speed": 130,
+            "strong": 160,
+            "accuracy": 120
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 36,
+        "forgeTarget": 1296,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1292,
+        "label": "神圣长袍",
+        "category": 1,
+        "subcategory": 2,
+        "description": "神圣长袍lv9",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn2-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn2-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn2-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 457,
+            "attack": 51,
+            "speed": 132,
+            "strong": 163,
+            "accuracy": 122
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 36,
+        "forgeTarget": 1297,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1293,
+        "label": "光辉圣衣",
+        "category": 1,
+        "subcategory": 2,
+        "description": "光辉圣衣lv5",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 1294,
+        "basic_properties": {
+            "health": 436,
+            "attack": 48,
+            "speed": 126,
+            "strong": 154,
+            "accuracy": 116
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1294,
+        "label": "光辉圣衣",
+        "category": 1,
+        "subcategory": 2,
+        "description": "光辉圣衣lv6",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 1295,
+        "basic_properties": {
+            "health": 443,
+            "attack": 49,
+            "speed": 128,
+            "strong": 157,
+            "accuracy": 118
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1295,
+        "label": "光辉圣衣",
+        "category": 1,
+        "subcategory": 2,
+        "description": "光辉圣衣lv7",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 1296,
+        "basic_properties": {
+            "health": 450,
+            "attack": 50,
+            "speed": 130,
+            "strong": 160,
+            "accuracy": 120
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1296,
+        "label": "光辉圣衣",
+        "category": 1,
+        "subcategory": 2,
+        "description": "光辉圣衣lv8",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 1297,
+        "basic_properties": {
+            "health": 457,
+            "attack": 51,
+            "speed": 132,
+            "strong": 163,
+            "accuracy": 122
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1297,
+        "label": "光辉圣衣",
+        "category": 1,
+        "subcategory": 2,
+        "description": "光辉圣衣lv9",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 1298,
+        "basic_properties": {
+            "health": 464,
+            "attack": 52,
+            "speed": 134,
+            "strong": 166,
+            "accuracy": 124
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1298,
+        "label": "光辉圣衣",
+        "category": 1,
+        "subcategory": 2,
+        "description": "光辉圣衣lv10",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "f-priestn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "f-priestn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "f-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "f-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "m-priestn-chest1.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "m-priestn-righthand1.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "m-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "lefthand2",
+                "file": "m-priestn-lefthand1.ccbi"
+            },
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 471,
+            "attack": 53,
+            "speed": 136,
+            "strong": 169,
+            "accuracy": 126
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1299,
+        "label": "圣徒宝典",
         "category": 1,
         "subcategory": 1,
+        "description": "圣徒宝典lv1",
         "effectf": [
             {
                 "part": "weapon4",
@@ -45508,13 +47185,1432 @@ exports.data = [
                 "part": "weapon4-2",
                 "file": "m-priestn5-weapon41-2.ccbi"
             }
-        ]
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 1300,
+        "basic_properties": {
+            "health": 250,
+            "attack": 40,
+            "speed": 110,
+            "strong": 120,
+            "accuracy": 100,
+            "critical": 120
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
     },
     {
-        "classId": 952,
-        "label": "主教主手5",
+        "classId": 1300,
+        "label": "圣徒宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "圣徒宝典lv2",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn5-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn5-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn5-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn5-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 1301,
+        "basic_properties": {
+            "health": 255,
+            "attack": 41,
+            "speed": 112,
+            "strong": 122,
+            "accuracy": 102,
+            "critical": 122
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 19,
+        "forgeTarget": 1305,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1301,
+        "label": "圣徒宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "圣徒宝典lv3",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn5-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn5-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn5-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn5-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 1302,
+        "basic_properties": {
+            "health": 260,
+            "attack": 42,
+            "speed": 114,
+            "strong": 124,
+            "accuracy": 104,
+            "critical": 124
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 19,
+        "forgeTarget": 1306,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1302,
+        "label": "圣徒宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "圣徒宝典lv4",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn5-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn5-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn5-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn5-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 1303,
+        "basic_properties": {
+            "health": 265,
+            "attack": 43,
+            "speed": 116,
+            "strong": 126,
+            "accuracy": 106,
+            "critical": 126
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 19,
+        "forgeTarget": 1307,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1303,
+        "label": "圣徒宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "圣徒宝典lv5",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn5-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn5-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn5-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn5-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 1304,
+        "basic_properties": {
+            "health": 270,
+            "attack": 44,
+            "speed": 118,
+            "strong": 128,
+            "accuracy": 108,
+            "critical": 128
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 19,
+        "forgeTarget": 1308,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1304,
+        "label": "圣徒宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "圣徒宝典lv6",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn5-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn5-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn5-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn5-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 275,
+            "attack": 45,
+            "speed": 120,
+            "strong": 130,
+            "accuracy": 110,
+            "critical": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 19,
+        "forgeTarget": 1309,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1305,
+        "label": "祈求者宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "祈求者宝典lv2",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn4-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn4-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn4-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn4-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 1306,
+        "basic_properties": {
+            "health": 260,
+            "attack": 42,
+            "speed": 114,
+            "strong": 124,
+            "accuracy": 104,
+            "critical": 124
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1306,
+        "label": "祈求者宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "祈求者宝典lv3",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn4-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn4-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn4-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn4-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 1307,
+        "basic_properties": {
+            "health": 265,
+            "attack": 43,
+            "speed": 116,
+            "strong": 126,
+            "accuracy": 106,
+            "critical": 126
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 25,
+        "forgeTarget": 1311,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1307,
+        "label": "祈求者宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "祈求者宝典lv4",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn4-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn4-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn4-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn4-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 1308,
+        "basic_properties": {
+            "health": 270,
+            "attack": 44,
+            "speed": 118,
+            "strong": 128,
+            "accuracy": 108,
+            "critical": 128
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 25,
+        "forgeTarget": 1312,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1308,
+        "label": "祈求者宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "祈求者宝典lv5",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn4-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn4-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn4-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn4-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 1309,
+        "basic_properties": {
+            "health": 275,
+            "attack": 45,
+            "speed": 120,
+            "strong": 130,
+            "accuracy": 110,
+            "critical": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 25,
+        "forgeTarget": 1313,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1309,
+        "label": "祈求者宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "祈求者宝典lv6",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn4-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn4-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn4-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn4-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 1310,
+        "basic_properties": {
+            "health": 280,
+            "attack": 46,
+            "speed": 122,
+            "strong": 132,
+            "accuracy": 112,
+            "critical": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 25,
+        "forgeTarget": 1314,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1310,
+        "label": "祈求者宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "祈求者宝典lv7",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn4-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn4-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn4-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn4-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 285,
+            "attack": 47,
+            "speed": 124,
+            "strong": 134,
+            "accuracy": 114,
+            "critical": 134
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 25,
+        "forgeTarget": 1315,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1311,
+        "label": "神谕者宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "神谕者宝典lv3",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn3-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn3-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn3-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn3-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 1312,
+        "basic_properties": {
+            "health": 270,
+            "attack": 44,
+            "speed": 118,
+            "strong": 128,
+            "accuracy": 108,
+            "critical": 128
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1312,
+        "label": "神谕者宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "神谕者宝典lv4",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn3-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn3-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn3-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn3-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 1313,
+        "basic_properties": {
+            "health": 275,
+            "attack": 45,
+            "speed": 120,
+            "strong": 130,
+            "accuracy": 110,
+            "critical": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 31,
+        "forgeTarget": 1317,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1313,
+        "label": "神谕者宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "神谕者宝典lv5",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn3-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn3-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn3-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn3-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 1314,
+        "basic_properties": {
+            "health": 280,
+            "attack": 46,
+            "speed": 122,
+            "strong": 132,
+            "accuracy": 112,
+            "critical": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 31,
+        "forgeTarget": 1318,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1314,
+        "label": "神谕者宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "神谕者宝典lv6",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn3-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn3-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn3-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn3-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 1315,
+        "basic_properties": {
+            "health": 285,
+            "attack": 47,
+            "speed": 124,
+            "strong": 134,
+            "accuracy": 114,
+            "critical": 134
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 31,
+        "forgeTarget": 1319,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1315,
+        "label": "神谕者宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "神谕者宝典lv7",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn3-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn3-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn3-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn3-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 1316,
+        "basic_properties": {
+            "health": 290,
+            "attack": 48,
+            "speed": 126,
+            "strong": 136,
+            "accuracy": 116,
+            "critical": 136
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 31,
+        "forgeTarget": 1320,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1316,
+        "label": "神谕者宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "神谕者宝典lv8",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn3-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn3-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn3-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn3-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 295,
+            "attack": 49,
+            "speed": 128,
+            "strong": 138,
+            "accuracy": 118,
+            "critical": 138
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 31,
+        "forgeTarget": 1321,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1317,
+        "label": "神圣宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "神圣宝典lv4",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn2-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn2-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn2-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn2-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 1318,
+        "basic_properties": {
+            "health": 280,
+            "attack": 46,
+            "speed": 122,
+            "strong": 132,
+            "accuracy": 112,
+            "critical": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1318,
+        "label": "神圣宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "神圣宝典lv5",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn2-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn2-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn2-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn2-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 1319,
+        "basic_properties": {
+            "health": 285,
+            "attack": 47,
+            "speed": 124,
+            "strong": 134,
+            "accuracy": 114,
+            "critical": 134
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 37,
+        "forgeTarget": 1323,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1319,
+        "label": "神圣宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "神圣宝典lv6",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn2-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn2-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn2-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn2-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 1320,
+        "basic_properties": {
+            "health": 290,
+            "attack": 48,
+            "speed": 126,
+            "strong": 136,
+            "accuracy": 116,
+            "critical": 136
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 37,
+        "forgeTarget": 1324,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1320,
+        "label": "神圣宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "神圣宝典lv7",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn2-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn2-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn2-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn2-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 1321,
+        "basic_properties": {
+            "health": 295,
+            "attack": 49,
+            "speed": 128,
+            "strong": 138,
+            "accuracy": 118,
+            "critical": 138
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 37,
+        "forgeTarget": 1325,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1321,
+        "label": "神圣宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "神圣宝典lv8",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn2-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn2-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn2-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn2-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 1322,
+        "basic_properties": {
+            "health": 300,
+            "attack": 50,
+            "speed": 130,
+            "strong": 140,
+            "accuracy": 120,
+            "critical": 140
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 37,
+        "forgeTarget": 1326,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1322,
+        "label": "神圣宝典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "神圣宝典lv9",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn2-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn2-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn2-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn2-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 305,
+            "attack": 51,
+            "speed": 132,
+            "strong": 142,
+            "accuracy": 122,
+            "critical": 142
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 37,
+        "forgeTarget": 1327,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1323,
+        "label": "命运圣典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "命运圣典lv5",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 1324,
+        "basic_properties": {
+            "health": 290,
+            "attack": 48,
+            "speed": 126,
+            "strong": 136,
+            "accuracy": 116,
+            "critical": 136
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1324,
+        "label": "命运圣典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "命运圣典lv6",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 1325,
+        "basic_properties": {
+            "health": 295,
+            "attack": 49,
+            "speed": 128,
+            "strong": 138,
+            "accuracy": 118,
+            "critical": 138
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1325,
+        "label": "命运圣典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "命运圣典lv7",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 1326,
+        "basic_properties": {
+            "health": 300,
+            "attack": 50,
+            "speed": 130,
+            "strong": 140,
+            "accuracy": 120,
+            "critical": 140
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1326,
+        "label": "命运圣典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "命运圣典lv8",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 1327,
+        "basic_properties": {
+            "health": 305,
+            "attack": 51,
+            "speed": 132,
+            "strong": 142,
+            "accuracy": 122,
+            "critical": 142
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1327,
+        "label": "命运圣典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "命运圣典lv9",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 1328,
+        "basic_properties": {
+            "health": 310,
+            "attack": 52,
+            "speed": 134,
+            "strong": 144,
+            "accuracy": 124,
+            "critical": 144
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1328,
+        "label": "命运圣典",
+        "category": 1,
+        "subcategory": 1,
+        "description": "命运圣典lv10",
+        "effectf": [
+            {
+                "part": "weapon4",
+                "file": "f-priestn-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "f-priestn-weapon41-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "weapon4",
+                "file": "m-priestn-weapon41.ccbi"
+            },
+            {
+                "part": "weapon4-2",
+                "file": "m-priestn-weapon41-2.ccbi"
+            }
+        ],
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 315,
+            "attack": 53,
+            "speed": 136,
+            "strong": 146,
+            "accuracy": 126,
+            "critical": 146
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1329,
+        "label": "圣徒权杖",
         "category": 1,
         "subcategory": 0,
+        "description": "圣徒权杖lv1",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -45528,24 +48624,63 @@ exports.data = [
             }
         ],
         "effectAttack": 9,
-        "soundAttack": "attackzhanshi.mp3"
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 1330,
+        "basic_properties": {
+            "health": 200,
+            "attack": 80,
+            "accuracy": 110
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
     },
     {
-        "classId": 953,
-        "label": "主教头盔5",
+        "classId": 1330,
+        "label": "圣徒权杖",
         "category": 1,
-        "subcategory": 13,
+        "subcategory": 0,
+        "description": "圣徒权杖lv2",
         "effectf": [
             {
-                "part": "helmet",
-                "file": "f-priestn5-helmet1.ccbi"
+                "part": "mainweapon",
+                "file": "f-priestn5-mainweapon1.ccbi"
             }
         ],
         "effectm": [
             {
-                "part": "helmet",
-                "file": "m-priestn5-helmet1.ccbi"
+                "part": "mainweapon",
+                "file": "m-priestn5-mainweapon1.ccbi"
             }
-        ]
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 1331,
+        "basic_properties": {
+            "health": 205,
+            "attack": 82,
+            "accuracy": 112
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 20,
+        "forgeTarget": 1335,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
     }
 ]
