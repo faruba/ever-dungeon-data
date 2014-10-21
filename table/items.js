@@ -48682,5 +48682,2732 @@ exports.data = [
         "forgeTarget": 1335,
         "iconf": "ewsubweapon5.png",
         "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1331,
+        "label": "圣徒权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "圣徒权杖lv3",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 1332,
+        "basic_properties": {
+            "health": 210,
+            "attack": 85,
+            "accuracy": 114
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 20,
+        "forgeTarget": 1336,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1332,
+        "label": "圣徒权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "圣徒权杖lv4",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 1333,
+        "basic_properties": {
+            "health": 215,
+            "attack": 87,
+            "accuracy": 116
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 20,
+        "forgeTarget": 1337,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1333,
+        "label": "圣徒权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "圣徒权杖lv5",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 1334,
+        "basic_properties": {
+            "health": 220,
+            "attack": 90,
+            "accuracy": 118
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 20,
+        "forgeTarget": 1338,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1334,
+        "label": "圣徒权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "圣徒权杖lv6",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn5-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 225,
+            "attack": 92,
+            "accuracy": 120
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 20,
+        "forgeTarget": 1339,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1335,
+        "label": "祈求者权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "祈求者权杖lv2",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 1336,
+        "basic_properties": {
+            "health": 210,
+            "attack": 85,
+            "accuracy": 114
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1336,
+        "label": "祈求者权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "祈求者权杖lv3",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 1337,
+        "basic_properties": {
+            "health": 215,
+            "attack": 87,
+            "accuracy": 116
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 26,
+        "forgeTarget": 1341,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1337,
+        "label": "祈求者权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "祈求者权杖lv4",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 1338,
+        "basic_properties": {
+            "health": 220,
+            "attack": 90,
+            "accuracy": 118
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 26,
+        "forgeTarget": 1342,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1338,
+        "label": "祈求者权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "祈求者权杖lv5",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 1339,
+        "basic_properties": {
+            "health": 225,
+            "attack": 92,
+            "accuracy": 120
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 26,
+        "forgeTarget": 1343,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1339,
+        "label": "祈求者权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "祈求者权杖lv6",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 1340,
+        "basic_properties": {
+            "health": 230,
+            "attack": 95,
+            "accuracy": 122
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 26,
+        "forgeTarget": 1344,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1340,
+        "label": "祈求者权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "祈求者权杖lv7",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn4-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 235,
+            "attack": 97,
+            "accuracy": 124
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 26,
+        "forgeTarget": 1345,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1341,
+        "label": "神谕者权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "神谕者权杖lv3",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 1342,
+        "basic_properties": {
+            "health": 220,
+            "attack": 90,
+            "accuracy": 118
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1342,
+        "label": "神谕者权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "神谕者权杖lv4",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 1343,
+        "basic_properties": {
+            "health": 225,
+            "attack": 92,
+            "accuracy": 120
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 32,
+        "forgeTarget": 1347,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1343,
+        "label": "神谕者权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "神谕者权杖lv5",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 1344,
+        "basic_properties": {
+            "health": 230,
+            "attack": 95,
+            "accuracy": 122
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 32,
+        "forgeTarget": 1348,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1344,
+        "label": "神谕者权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "神谕者权杖lv6",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 1345,
+        "basic_properties": {
+            "health": 235,
+            "attack": 97,
+            "accuracy": 124
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 32,
+        "forgeTarget": 1349,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1345,
+        "label": "神谕者权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "神谕者权杖lv7",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 1346,
+        "basic_properties": {
+            "health": 240,
+            "attack": 100,
+            "accuracy": 126
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 32,
+        "forgeTarget": 1350,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1346,
+        "label": "神谕者权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "神谕者权杖lv8",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn3-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 245,
+            "attack": 102,
+            "accuracy": 128
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 32,
+        "forgeTarget": 1351,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1347,
+        "label": "神圣权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "神圣权杖lv4",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 1348,
+        "basic_properties": {
+            "health": 230,
+            "attack": 95,
+            "accuracy": 122
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1348,
+        "label": "神圣权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "神圣权杖lv5",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 1349,
+        "basic_properties": {
+            "health": 235,
+            "attack": 97,
+            "accuracy": 124
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 38,
+        "forgeTarget": 1353,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1349,
+        "label": "神圣权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "神圣权杖lv6",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 1350,
+        "basic_properties": {
+            "health": 240,
+            "attack": 100,
+            "accuracy": 126
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 38,
+        "forgeTarget": 1354,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1350,
+        "label": "神圣权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "神圣权杖lv7",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 1351,
+        "basic_properties": {
+            "health": 245,
+            "attack": 102,
+            "accuracy": 128
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 38,
+        "forgeTarget": 1355,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    } ,
+    {
+        "classId": 1351,
+        "label": "神圣权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "神圣权杖lv8",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 1352,
+        "basic_properties": {
+            "health": 250,
+            "attack": 105,
+            "accuracy": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 38,
+        "forgeTarget": 1356,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1352,
+        "label": "神圣权杖",
+        "category": 1,
+        "subcategory": 0,
+        "description": "神圣权杖lv9",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn2-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 255,
+            "attack": 107,
+            "accuracy": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 38,
+        "forgeTarget": 1357,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1353,
+        "label": "生命之树",
+        "category": 1,
+        "subcategory": 0,
+        "description": "生命之树lv5",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 1354,
+        "basic_properties": {
+            "health": 240,
+            "attack": 100,
+            "accuracy": 126
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1354,
+        "label": "生命之树",
+        "category": 1,
+        "subcategory": 0,
+        "description": "生命之树lv6",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 1355,
+        "basic_properties": {
+            "health": 245,
+            "attack": 102,
+            "accuracy": 128
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1355,
+        "label": "生命之树",
+        "category": 1,
+        "subcategory": 0,
+        "description": "生命之树lv7",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 1356,
+        "basic_properties": {
+            "health": 250,
+            "attack": 105,
+            "accuracy": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1356,
+        "label": "生命之树",
+        "category": 1,
+        "subcategory": 0,
+        "description": "生命之树lv8",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 1357,
+        "basic_properties": {
+            "health": 255,
+            "attack": 107,
+            "accuracy": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1357,
+        "label": "生命之树",
+        "category": 1,
+        "subcategory": 0,
+        "description": "生命之树lv9",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 1358,
+        "basic_properties": {
+            "health": 260,
+            "attack": 110,
+            "accuracy": 134
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1358,
+        "label": "生命之树",
+        "category": 1,
+        "subcategory": 0,
+        "description": "生命之树lv10",
+        "effectf": [
+            {
+                "part": "mainweapon",
+                "file": "f-priestn-mainweapon1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "mainweapon",
+                "file": "m-priestn-mainweapon1.ccbi"
+            }
+        ],
+        "effectAttack": 9,
+        "soundAttack": "attackzhanshi.mp3",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 265,
+            "attack": 112,
+            "accuracy": 136
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "iconf": "ewsubweapon5.png",
+        "iconm": "ewsubweapon5-2.png"
+    },
+    {
+        "classId": 1359,
+        "label": "圣徒之戒",
+        "icon": "er013.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "圣徒之戒lv1",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 1360,
+        "basic_properties": {
+            "health": 240,
+            "attack": 40,
+            "speed": 120,
+            "reactivity": 130,
+            "accuracy": 100,
+            "critical": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1360,
+        "label": "圣徒之戒",
+        "icon": "er013.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "圣徒之戒lv2",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 1361,
+        "basic_properties": {
+            "health": 245,
+            "attack": 41,
+            "speed": 122,
+            "reactivity": 133,
+            "accuracy": 102,
+            "critical": 133
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 22,
+        "forgeTarget": 1365
+    },
+    {
+        "classId": 1361,
+        "label": "圣徒之戒",
+        "icon": "er013.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "圣徒之戒lv3",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 1362,
+        "basic_properties": {
+            "health": 250,
+            "attack": 42,
+            "speed": 124,
+            "reactivity": 136,
+            "accuracy": 104,
+            "critical": 136
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 22,
+        "forgeTarget": 1366
+    },
+    {
+        "classId": 1362,
+        "label": "圣徒之戒",
+        "icon": "er013.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "圣徒之戒lv4",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 1363,
+        "basic_properties": {
+            "health": 255,
+            "attack": 43,
+            "speed": 126,
+            "reactivity": 138,
+            "accuracy": 106,
+            "critical": 139
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 22,
+        "forgeTarget": 1367
+    },
+    {
+        "classId": 1363,
+        "label": "圣徒之戒",
+        "icon": "er013.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "圣徒之戒lv5",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 1364,
+        "basic_properties": {
+            "health": 260,
+            "attack": 44,
+            "speed": 128,
+            "reactivity": 141,
+            "accuracy": 108,
+            "critical": 142
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 22,
+        "forgeTarget": 1368
+    },
+    {
+        "classId": 1364,
+        "label": "圣徒之戒",
+        "icon": "er013.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "圣徒之戒lv6",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 265,
+            "attack": 45,
+            "speed": 130,
+            "reactivity": 144,
+            "accuracy": 110,
+            "critical": 145
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 22,
+        "forgeTarget": 1369
+    },
+    {
+        "classId": 1365,
+        "label": "祈求者之戒",
+        "icon": "er023.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "祈求者之戒lv2",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 1366,
+        "basic_properties": {
+            "health": 250,
+            "attack": 42,
+            "speed": 124,
+            "reactivity": 136,
+            "accuracy": 104,
+            "critical": 136
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1366,
+        "label": "祈求者之戒",
+        "icon": "er023.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "祈求者之戒lv3",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 1367,
+        "basic_properties": {
+            "health": 255,
+            "attack": 43,
+            "speed": 126,
+            "reactivity": 138,
+            "accuracy": 106,
+            "critical": 139
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 28,
+        "forgeTarget": 1371
+    },
+    {
+        "classId": 1367,
+        "label": "祈求者之戒",
+        "icon": "er023.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "祈求者之戒lv4",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 1368,
+        "basic_properties": {
+            "health": 260,
+            "attack": 44,
+            "speed": 128,
+            "reactivity": 141,
+            "accuracy": 108,
+            "critical": 142
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 28,
+        "forgeTarget": 1372
+    },
+    {
+        "classId": 1368,
+        "label": "祈求者之戒",
+        "icon": "er023.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "祈求者之戒lv5",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 1369,
+        "basic_properties": {
+            "health": 265,
+            "attack": 45,
+            "speed": 130,
+            "reactivity": 144,
+            "accuracy": 110,
+            "critical": 145
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 28,
+        "forgeTarget": 1373
+    },
+    {
+        "classId": 1369,
+        "label": "祈求者之戒",
+        "icon": "er023.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "祈求者之戒lv6",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 1370,
+        "basic_properties": {
+            "health": 270,
+            "attack": 46,
+            "speed": 132,
+            "reactivity": 147,
+            "accuracy": 112,
+            "critical": 148
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 28,
+        "forgeTarget": 1374
+    },
+    {
+        "classId": 1370,
+        "label": "祈求者之戒",
+        "icon": "er023.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "祈求者之戒lv7",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 275,
+            "attack": 47,
+            "speed": 134,
+            "reactivity": 150,
+            "accuracy": 114,
+            "critical": 151
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 28,
+        "forgeTarget": 1375
+    },
+    {
+        "classId": 1371,
+        "label": "神谕者之戒",
+        "icon": "er033.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "祈求者之戒lv3",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 1372,
+        "basic_properties": {
+            "health": 260,
+            "attack": 44,
+            "speed": 128,
+            "reactivity": 141,
+            "accuracy": 108,
+            "critical": 142
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1372,
+        "label": "神谕者之戒",
+        "icon": "er033.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "祈求者之戒lv4",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 1373,
+        "basic_properties": {
+            "health": 265,
+            "attack": 45,
+            "speed": 130,
+            "reactivity": 144,
+            "accuracy": 110,
+            "critical": 145
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 34,
+        "forgeTarget": 1377
+    },
+    {
+        "classId": 1373,
+        "label": "神谕者之戒",
+        "icon": "er033.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "祈求者之戒lv5",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 1374,
+        "basic_properties": {
+            "health": 270,
+            "attack": 46,
+            "speed": 132,
+            "reactivity": 147,
+            "accuracy": 112,
+            "critical": 148
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 34,
+        "forgeTarget": 1378
+    },
+    {
+        "classId": 1374,
+        "label": "神谕者之戒",
+        "icon": "er033.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "祈求者之戒lv6",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 1375,
+        "basic_properties": {
+            "health": 275,
+            "attack": 47,
+            "speed": 134,
+            "reactivity": 150,
+            "accuracy": 114,
+            "critical": 151
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 34,
+        "forgeTarget": 1379
+    },
+    {
+        "classId": 1375,
+        "label": "神谕者之戒",
+        "icon": "er033.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "祈求者之戒lv7",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 1376,
+        "basic_properties": {
+            "health": 280,
+            "attack": 48,
+            "speed": 136,
+            "reactivity": 153,
+            "accuracy": 116,
+            "critical": 154
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 34,
+        "forgeTarget": 1380
+    },
+    {
+        "classId": 1376,
+        "label": "神谕者之戒",
+        "icon": "er033.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "祈求者之戒lv8",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 285,
+            "attack": 49,
+            "speed": 138,
+            "reactivity": 155,
+            "accuracy": 118,
+            "critical": 157
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 34,
+        "forgeTarget": 1381
+    },
+    {
+        "classId": 1377,
+        "label": "神圣之戒",
+        "icon": "er043.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "神圣之戒lv4",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 1378,
+        "basic_properties": {
+            "health": 270,
+            "attack": 46,
+            "speed": 132,
+            "reactivity": 147,
+            "accuracy": 112,
+            "critical": 148
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1378,
+        "label": "神圣之戒",
+        "icon": "er043.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "神圣之戒lv5",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 1379,
+        "basic_properties": {
+            "health": 275,
+            "attack": 47,
+            "speed": 134,
+            "reactivity": 150,
+            "accuracy": 114,
+            "critical": 151
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 40,
+        "forgeTarget": 1383
+    },
+    {
+        "classId": 1379,
+        "label": "神圣之戒",
+        "icon": "er043.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "神圣之戒lv6",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 1380,
+        "basic_properties": {
+            "health": 280,
+            "attack": 48,
+            "speed": 136,
+            "reactivity": 153,
+            "accuracy": 116,
+            "critical": 154
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 40,
+        "forgeTarget": 1384
+    },
+    {
+        "classId": 1380,
+        "label": "神圣之戒",
+        "icon": "er043.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "神圣之戒lv7",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 1381,
+        "basic_properties": {
+            "health": 285,
+            "attack": 49,
+            "speed": 138,
+            "reactivity": 155,
+            "accuracy": 118,
+            "critical": 157
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 40,
+        "forgeTarget": 1385
+    },
+    {
+        "classId": 1381,
+        "label": "神圣之戒",
+        "icon": "er043.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "神圣之戒lv8",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 1382,
+        "basic_properties": {
+            "health": 290,
+            "attack": 50,
+            "speed": 140,
+            "reactivity": 158,
+            "accuracy": 120,
+            "critical": 160
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 40,
+        "forgeTarget": 1386
+    },
+    {
+        "classId": 1382,
+        "label": "神圣之戒",
+        "icon": "er043.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "神圣之戒lv9",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 295,
+            "attack": 51,
+            "speed": 142,
+            "reactivity": 161,
+            "accuracy": 122,
+            "critical": 163
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 40,
+        "forgeTarget": 1387
+    },
+    {
+        "classId": 1383,
+        "label": "生命指轮",
+        "icon": "er043.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "生命指轮lv5",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 1384,
+        "basic_properties": {
+            "health": 280,
+            "attack": 48,
+            "speed": 136,
+            "reactivity": 153,
+            "accuracy": 116,
+            "critical": 154
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1384,
+        "label": "生命指轮",
+        "icon": "er043.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "生命指轮lv6",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 1385,
+        "basic_properties": {
+            "health": 285,
+            "attack": 49,
+            "speed": 138,
+            "reactivity": 155,
+            "accuracy": 118,
+            "critical": 157
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1385,
+        "label": "生命指轮",
+        "icon": "er043.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "生命指轮lv7",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 1386,
+        "basic_properties": {
+            "health": 290,
+            "attack": 50,
+            "speed": 140,
+            "reactivity": 158,
+            "accuracy": 120,
+            "critical": 160
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1386,
+        "label": "生命指轮",
+        "icon": "er043.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "生命指轮lv8",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 1387,
+        "basic_properties": {
+            "health": 295,
+            "attack": 51,
+            "speed": 142,
+            "reactivity": 161,
+            "accuracy": 122,
+            "critical": 163
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1387,
+        "label": "生命指轮",
+        "icon": "er043.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "生命指轮lv9",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 1388,
+        "basic_properties": {
+            "health": 300,
+            "attack": 52,
+            "speed": 144,
+            "reactivity": 164,
+            "accuracy": 124,
+            "critical": 166
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1388,
+        "label": "生命指轮",
+        "icon": "er043.png",
+        "category": 1,
+        "subcategory": 3,
+        "description": "生命指轮lv10",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 305,
+            "attack": 53,
+            "speed": 146,
+            "reactivity": 167,
+            "accuracy": 126,
+            "critical": 169
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1389,
+        "label": "圣徒之证",
+        "icon": "epn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "圣徒之证lv1",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 1,
+        "upgradeTarget": 1390,
+        "basic_properties": {
+            "health": 280,
+            "attack": 40,
+            "strong": 130,
+            "reactivity": 120,
+            "accuracy": 100,
+            "critical": 120
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1390,
+        "label": "圣徒之证",
+        "icon": "epn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "圣徒之证lv2",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 2,
+        "upgradeTarget": 1391,
+        "basic_properties": {
+            "health": 285,
+            "attack": 41,
+            "strong": 133,
+            "reactivity": 122,
+            "accuracy": 102,
+            "critical": 122
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 21,
+        "forgeTarget": 1395
+    },
+    {
+        "classId": 1391,
+        "label": "圣徒之证",
+        "icon": "epn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "圣徒之证lv3",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 3,
+        "upgradeTarget": 1392,
+        "basic_properties": {
+            "health": 290,
+            "attack": 42,
+            "strong": 135,
+            "reactivity": 124,
+            "accuracy": 104,
+            "critical": 124
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 21,
+        "forgeTarget": 1396
+    },
+    {
+        "classId": 1392,
+        "label": "圣徒之证",
+        "icon": "epn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "圣徒之证lv4",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 4,
+        "upgradeTarget": 1393,
+        "basic_properties": {
+            "health": 295,
+            "attack": 43,
+            "strong": 138,
+            "reactivity": 127,
+            "accuracy": 106,
+            "critical": 126
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 21,
+        "forgeTarget": 1397
+    },
+    {
+        "classId": 1393,
+        "label": "圣徒之证",
+        "icon": "epn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "圣徒之证lv5",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 5,
+        "upgradeTarget": 1394,
+        "basic_properties": {
+            "health": 300,
+            "attack": 44,
+            "strong": 140,
+            "reactivity": 129,
+            "accuracy": 108,
+            "critical": 128
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 21,
+        "forgeTarget": 1398
+    },
+    {
+        "classId": 1394,
+        "label": "圣徒之证",
+        "icon": "epn011.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "圣徒之证lv6",
+        "classLimit": [
+            2
+        ],
+        "quality": 0,
+        "rank": 6,
+        "basic_properties": {
+            "health": 305,
+            "attack": 45,
+            "strong": 143,
+            "reactivity": 131,
+            "accuracy": 110,
+            "critical": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 21,
+        "forgeTarget": 1399
+    },
+    {
+        "classId": 1395,
+        "label": "祈求者之证",
+        "icon": "epn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "祈求者之证lv2",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 2,
+        "upgradeTarget": 1396,
+        "basic_properties": {
+            "health": 290,
+            "attack": 42,
+            "strong": 135,
+            "reactivity": 124,
+            "accuracy": 104,
+            "critical": 124
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1396,
+        "label": "祈求者之证",
+        "icon": "epn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "祈求者之证lv3",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 3,
+        "upgradeTarget": 1397,
+        "basic_properties": {
+            "health": 295,
+            "attack": 43,
+            "strong": 138,
+            "reactivity": 127,
+            "accuracy": 106,
+            "critical": 126
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 27,
+        "forgeTarget": 1401
+    },
+    {
+        "classId": 1397,
+        "label": "祈求者之证",
+        "icon": "epn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "祈求者之证lv4",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 4,
+        "upgradeTarget": 1398,
+        "basic_properties": {
+            "health": 300,
+            "attack": 44,
+            "strong": 140,
+            "reactivity": 129,
+            "accuracy": 108,
+            "critical": 128
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 27,
+        "forgeTarget": 1402
+    },
+    {
+        "classId": 1398,
+        "label": "祈求者之证",
+        "icon": "epn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "祈求者之证lv5",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 5,
+        "upgradeTarget": 1399,
+        "basic_properties": {
+            "health": 305,
+            "attack": 45,
+            "strong": 143,
+            "reactivity": 131,
+            "accuracy": 110,
+            "critical": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 27,
+        "forgeTarget": 1403
+    },
+    {
+        "classId": 1399,
+        "label": "祈求者之证",
+        "icon": "epn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "祈求者之证lv6",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 6,
+        "upgradeTarget": 1400,
+        "basic_properties": {
+            "health": 310,
+            "attack": 46,
+            "strong": 145,
+            "reactivity": 133,
+            "accuracy": 112,
+            "critical": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 27,
+        "forgeTarget": 1404
+    },
+    {
+        "classId": 1400,
+        "label": "祈求者之证",
+        "icon": "epn021.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "祈求者之证lv7",
+        "classLimit": [
+            2
+        ],
+        "quality": 1,
+        "rank": 7,
+        "basic_properties": {
+            "health": 315,
+            "attack": 47,
+            "strong": 148,
+            "reactivity": 135,
+            "accuracy": 114,
+            "critical": 134
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 27,
+        "forgeTarget": 1405
+    },
+    {
+        "classId": 1401,
+        "label": "神谕者之证",
+        "icon": "epn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "神谕者之证lv3",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 3,
+        "upgradeTarget": 1402,
+        "basic_properties": {
+            "health": 300,
+            "attack": 44,
+            "strong": 140,
+            "reactivity": 129,
+            "accuracy": 108,
+            "critical": 128
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1402,
+        "label": "神谕者之证",
+        "icon": "epn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "神谕者之证lv4",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 4,
+        "upgradeTarget": 1403,
+        "basic_properties": {
+            "health": 305,
+            "attack": 45,
+            "strong": 143,
+            "reactivity": 131,
+            "accuracy": 110,
+            "critical": 130
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 33,
+        "forgeTarget": 1407
+    },
+    {
+        "classId": 1403,
+        "label": "神谕者之证",
+        "icon": "epn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "神谕者之证lv5",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 5,
+        "upgradeTarget": 1404,
+        "basic_properties": {
+            "health": 310,
+            "attack": 46,
+            "strong": 145,
+            "reactivity": 133,
+            "accuracy": 112,
+            "critical": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 33,
+        "forgeTarget": 1408
+    },
+    {
+        "classId": 1404,
+        "label": "神谕者之证",
+        "icon": "epn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "神谕者之证lv6",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 6,
+        "upgradeTarget": 1405,
+        "basic_properties": {
+            "health": 315,
+            "attack": 47,
+            "strong": 148,
+            "reactivity": 135,
+            "accuracy": 114,
+            "critical": 134
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 33,
+        "forgeTarget": 1409
+    },
+    {
+        "classId": 1405,
+        "label": "神谕者之证",
+        "icon": "epn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "神谕者之证lv7",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 7,
+        "upgradeTarget": 1406,
+        "basic_properties": {
+            "health": 320,
+            "attack": 48,
+            "strong": 151,
+            "reactivity": 137,
+            "accuracy": 116,
+            "critical": 136
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 33,
+        "forgeTarget": 1410
+    },
+    {
+        "classId": 1406,
+        "label": "神谕者之证",
+        "icon": "epn031.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "神谕者之证lv8",
+        "classLimit": [
+            2
+        ],
+        "quality": 2,
+        "rank": 8,
+        "basic_properties": {
+            "health": 325,
+            "attack": 49,
+            "strong": 153,
+            "reactivity": 140,
+            "accuracy": 118,
+            "critical": 138
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 33,
+        "forgeTarget": 1411
+    },
+    {
+        "classId": 1407,
+        "label": "神圣之证",
+        "icon": "epn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "神圣之证lv4",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 4,
+        "upgradeTarget": 1408,
+        "basic_properties": {
+            "health": 310,
+            "attack": 46,
+            "strong": 145,
+            "reactivity": 133,
+            "accuracy": 112,
+            "critical": 132
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1408,
+        "label": "神圣之证",
+        "icon": "epn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "神圣之证lv5",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 5,
+        "upgradeTarget": 1409,
+        "basic_properties": {
+            "health": 315,
+            "attack": 47,
+            "strong": 148,
+            "reactivity": 135,
+            "accuracy": 114,
+            "critical": 134
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 39,
+        "forgeTarget": 1413
+    },
+    {
+        "classId": 1409,
+        "label": "神圣之证",
+        "icon": "epn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "神圣之证lv6",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 6,
+        "upgradeTarget": 1410,
+        "basic_properties": {
+            "health": 320,
+            "attack": 48,
+            "strong": 151,
+            "reactivity": 137,
+            "accuracy": 116,
+            "critical": 136
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 39,
+        "forgeTarget": 1414
+    },
+    {
+        "classId": 1410,
+        "label": "神圣之证",
+        "icon": "epn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "神圣之证lv7",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 7,
+        "upgradeTarget": 1411,
+        "basic_properties": {
+            "health": 325,
+            "attack": 49,
+            "strong": 153,
+            "reactivity": 140,
+            "accuracy": 118,
+            "critical": 138
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 39,
+        "forgeTarget": 1415
+    },
+    {
+        "classId": 1411,
+        "label": "神圣之证",
+        "icon": "epn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "神圣之证lv8",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 8,
+        "upgradeTarget": 1412,
+        "basic_properties": {
+            "health": 330,
+            "attack": 50,
+            "strong": 156,
+            "reactivity": 142,
+            "accuracy": 120,
+            "critical": 140
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 39,
+        "forgeTarget": 1416
+    },
+    {
+        "classId": 1412,
+        "label": "神圣之证",
+        "icon": "epn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "神圣之证lv9",
+        "classLimit": [
+            2
+        ],
+        "quality": 3,
+        "rank": 9,
+        "basic_properties": {
+            "health": 335,
+            "attack": 51,
+            "strong": 159,
+            "reactivity": 144,
+            "accuracy": 122,
+            "critical": 142
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true,
+        "forgeID": 39,
+        "forgeTarget": 1417
+    },
+    {
+        "classId": 1413,
+        "label": "黎明的曙光",
+        "icon": "epn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "黎明的曙光lv5",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 5,
+        "upgradeTarget": 1414,
+        "basic_properties": {
+            "health": 320,
+            "attack": 48,
+            "strong": 151,
+            "reactivity": 137,
+            "accuracy": 116,
+            "critical": 136
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1414,
+        "label": "黎明的曙光",
+        "icon": "epn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "黎明的曙光lv6",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 6,
+        "upgradeTarget": 1415,
+        "basic_properties": {
+            "health": 325,
+            "attack": 49,
+            "strong": 153,
+            "reactivity": 140,
+            "accuracy": 118,
+            "critical": 138
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1415,
+        "label": "黎明的曙光",
+        "icon": "epn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "黎明的曙光lv7",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 7,
+        "upgradeTarget": 1416,
+        "basic_properties": {
+            "health": 330,
+            "attack": 50,
+            "strong": 156,
+            "reactivity": 142,
+            "accuracy": 120,
+            "critical": 140
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1416,
+        "label": "黎明的曙光",
+        "icon": "epn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "黎明的曙光lv8",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 8,
+        "upgradeTarget": 1417,
+        "basic_properties": {
+            "health": 335,
+            "attack": 51,
+            "strong": 159,
+            "reactivity": 144,
+            "accuracy": 122,
+            "critical": 142
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1417,
+        "label": "黎明的曙光",
+        "icon": "epn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "黎明的曙光lv9",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 9,
+        "upgradeTarget": 1418,
+        "basic_properties": {
+            "health": 340,
+            "attack": 52,
+            "strong": 162,
+            "reactivity": 146,
+            "accuracy": 124,
+            "critical": 144
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
+    },
+    {
+        "classId": 1418,
+        "label": "黎明的曙光",
+        "icon": "epn041.png",
+        "category": 1,
+        "subcategory": 5,
+        "description": "黎明的曙光lv10",
+        "classLimit": [
+            2
+        ],
+        "quality": 4,
+        "rank": 10,
+        "basic_properties": {
+            "health": 345,
+            "attack": 53,
+            "strong": 165,
+            "reactivity": 148,
+            "accuracy": 126,
+            "critical": 146
+        },
+        "storeOnly": true,
+        "autoUse": true,
+        "enhanceID": 0,
+        "hide": true
     }
 ]
