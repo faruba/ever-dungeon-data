@@ -28021,8 +28021,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot5.png",
+        "iconm": "m-w-foot5.png"
     },
     {
         "classId": 880,
@@ -28069,8 +28069,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 885,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot5.png",
+        "iconm": "m-w-foot5.png"
     },
     {
         "classId": 881,
@@ -28117,8 +28117,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 886,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot5.png",
+        "iconm": "m-w-foot5.png"
     },
     {
         "classId": 882,
@@ -28165,8 +28165,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 887,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot5.png",
+        "iconm": "m-w-foot5.png"
     },
     {
         "classId": 883,
@@ -28213,8 +28213,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 888,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot5.png",
+        "iconm": "m-w-foot5.png"
     },
     {
         "classId": 884,
@@ -28260,8 +28260,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 889,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot5.png",
+        "iconm": "m-w-foot5.png"
     },
     {
         "classId": 885,
@@ -28306,8 +28306,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot4.png",
+        "iconm": "m-w-foot4.png"
     },
     {
         "classId": 886,
@@ -28354,8 +28354,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 891,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot4.png",
+        "iconm": "m-w-foot4.png"
     },
     {
         "classId": 887,
@@ -28402,8 +28402,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 892,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot4.png",
+        "iconm": "m-w-foot4.png"
     },
     {
         "classId": 888,
@@ -28450,8 +28450,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 893,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot4.png",
+        "iconm": "m-w-foot4.png"
     },
     {
         "classId": 889,
@@ -28498,8 +28498,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 894,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot4.png",
+        "iconm": "m-w-foot4.png"
     },
     {
         "classId": 890,
@@ -28545,8 +28545,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 895,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot4.png",
+        "iconm": "m-w-foot4.png"
     },
     {
         "classId": 891,
@@ -28591,8 +28591,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot3.png",
+        "iconm": "m-w-foot3.png"
     },
     {
         "classId": 892,
@@ -28639,8 +28639,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 897,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot3.png",
+        "iconm": "m-w-foot3.png"
     },
     {
         "classId": 893,
@@ -28687,8 +28687,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 898,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot3.png",
+        "iconm": "m-w-foot3.png"
     },
     {
         "classId": 894,
@@ -28735,8 +28735,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 899,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot3.png",
+        "iconm": "m-w-foot3.png"
     },
     {
         "classId": 895,
@@ -28783,8 +28783,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 900,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot3.png",
+        "iconm": "m-w-foot3.png"
     },
     {
         "classId": 896,
@@ -28830,8 +28830,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 901,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot3.png",
+        "iconm": "m-w-foot3.png"
     },
     {
         "classId": 897,
@@ -28876,8 +28876,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot2.png",
+        "iconm": "m-w-foot2.png"
     },
     {
         "classId": 898,
@@ -28924,8 +28924,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 903,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot2.png",
+        "iconm": "m-w-foot2.png"
     },
     {
         "classId": 899,
@@ -28972,8 +28972,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 904,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot2.png",
+        "iconm": "m-w-foot2.png"
     },
     {
         "classId": 900,
@@ -29020,8 +29020,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 905,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot2.png",
+        "iconm": "m-w-foot2.png"
     },
     {
         "classId": 901,
@@ -29068,8 +29068,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 906,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot2.png",
+        "iconm": "m-w-foot2.png"
     },
     {
         "classId": 902,
@@ -29115,8 +29115,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 907,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot2.png",
+        "iconm": "m-w-foot2.png"
     },
     {
         "classId": 903,
@@ -29161,8 +29161,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot1.png",
+        "iconm": "m-w-foot1.png"
     },
     {
         "classId": 904,
@@ -29207,8 +29207,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot1.png",
+        "iconm": "m-w-foot1.png"
     },
     {
         "classId": 905,
@@ -29253,8 +29253,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot1.png",
+        "iconm": "m-w-foot1.png"
     },
     {
         "classId": 906,
@@ -29299,8 +29299,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot1.png",
+        "iconm": "m-w-foot1.png"
     },
     {
         "classId": 907,
@@ -29345,8 +29345,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot1.png",
+        "iconm": "m-w-foot1.png"
     },
     {
         "classId": 908,
@@ -29390,8 +29390,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-foot1.png",
+        "iconm": "m-w-foot1.png"
     },
     {
         "classId": 909,
@@ -29468,8 +29468,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest5.png",
+        "iconm": "m-w-chest5.png"
     },
     {
         "classId": 910,
@@ -29548,8 +29548,8 @@ exports.data = [
         "hide": true,
         "forgeID": 18,
         "forgeTarget": 915,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest5.png",
+        "iconm": "m-w-chest5.png"
     },
     {
         "classId": 911,
@@ -29628,8 +29628,8 @@ exports.data = [
         "hide": true,
         "forgeID": 18,
         "forgeTarget": 916,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest5.png",
+        "iconm": "m-w-chest5.png"
     },
     {
         "classId": 912,
@@ -29708,8 +29708,8 @@ exports.data = [
         "hide": true,
         "forgeID": 18,
         "forgeTarget": 917,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest5.png",
+        "iconm": "m-w-chest5.png"
     },
     {
         "classId": 913,
@@ -29788,8 +29788,8 @@ exports.data = [
         "hide": true,
         "forgeID": 18,
         "forgeTarget": 918,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest5.png",
+        "iconm": "m-w-chest5.png"
     },
     {
         "classId": 914,
@@ -29867,8 +29867,8 @@ exports.data = [
         "hide": true,
         "forgeID": 18,
         "forgeTarget": 919,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest5.png",
+        "iconm": "m-w-chest5.png"
     },
     {
         "classId": 915,
@@ -29945,8 +29945,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest4.png",
+        "iconm": "m-w-chest4.png"
     },
     {
         "classId": 916,
@@ -30025,8 +30025,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 921,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest4.png",
+        "iconm": "m-w-chest4.png"
     },
     {
         "classId": 917,
@@ -30105,8 +30105,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 922,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest4.png",
+        "iconm": "m-w-chest4.png"
     },
     {
         "classId": 918,
@@ -30185,8 +30185,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 923,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest4.png",
+        "iconm": "m-w-chest4.png"
     },
     {
         "classId": 919,
@@ -30265,8 +30265,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 924,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest4.png",
+        "iconm": "m-w-chest4.png"
     },
     {
         "classId": 920,
@@ -30344,8 +30344,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 925,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest4.png",
+        "iconm": "m-w-chest4.png"
     },
     {
         "classId": 921,
@@ -30424,8 +30424,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 921,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest3.png",
+        "iconm": "m-w-chest3.png"
     },
     {
         "classId": 922,
@@ -30504,8 +30504,8 @@ exports.data = [
         "hide": true,
         "forgeID": 30,
         "forgeTarget": 927,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest3.png",
+        "iconm": "m-w-chest3.png"
     },
     {
         "classId": 923,
@@ -30584,8 +30584,8 @@ exports.data = [
         "hide": true,
         "forgeID": 30,
         "forgeTarget": 928,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest3.png",
+        "iconm": "m-w-chest3.png"
     },
     {
         "classId": 924,
@@ -30664,8 +30664,8 @@ exports.data = [
         "hide": true,
         "forgeID": 30,
         "forgeTarget": 929,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest3.png",
+        "iconm": "m-w-chest3.png"
     },
     {
         "classId": 925,
@@ -30744,8 +30744,8 @@ exports.data = [
         "hide": true,
         "forgeID": 30,
         "forgeTarget": 930,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest3.png",
+        "iconm": "m-w-chest3.png"
     },
     {
         "classId": 926,
@@ -30823,8 +30823,8 @@ exports.data = [
         "hide": true,
         "forgeID": 30,
         "forgeTarget": 931,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest3.png",
+        "iconm": "m-w-chest3.png"
     },
     {
         "classId": 927,
@@ -30901,8 +30901,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest2.png",
+        "iconm": "m-w-chest2.png"
     },
     {
         "classId": 928,
@@ -30981,8 +30981,8 @@ exports.data = [
         "hide": true,
         "forgeID": 36,
         "forgeTarget": 933,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest2.png",
+        "iconm": "m-w-chest2.png"
     },
     {
         "classId": 929,
@@ -31061,8 +31061,8 @@ exports.data = [
         "hide": true,
         "forgeID": 36,
         "forgeTarget": 934,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest2.png",
+        "iconm": "m-w-chest2.png"
     },
     {
         "classId": 930,
@@ -31141,8 +31141,8 @@ exports.data = [
         "hide": true,
         "forgeID": 36,
         "forgeTarget": 935,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest2.png",
+        "iconm": "m-w-chest2.png"
     },
     {
         "classId": 931,
@@ -31221,8 +31221,8 @@ exports.data = [
         "hide": true,
         "forgeID": 36,
         "forgeTarget": 936,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest2.png",
+        "iconm": "m-w-chest2.png"
     },
     {
         "classId": 932,
@@ -31300,8 +31300,8 @@ exports.data = [
         "hide": true,
         "forgeID": 36,
         "forgeTarget": 937,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest2.png",
+        "iconm": "m-w-chest2.png"
     },
     {
         "classId": 933,
@@ -31378,8 +31378,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest1.png",
+        "iconm": "m-w-chest1.png"
     },
     {
         "classId": 934,
@@ -31456,8 +31456,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest1.png",
+        "iconm": "m-w-chest1.png"
     },
     {
         "classId": 935,
@@ -31534,8 +31534,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest1.png",
+        "iconm": "m-w-chest1.png"
     },
     {
         "classId": 936,
@@ -31612,8 +31612,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest1.png",
+        "iconm": "m-w-chest1.png"
     },
     {
         "classId": 937,
@@ -31690,8 +31690,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest1.png",
+        "iconm": "m-w-chest1.png"
     },
     {
         "classId": 938,
@@ -31767,8 +31767,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-chest1.png",
+        "iconm": "m-w-chest1.png"
     },
     {
         "classId": 939,
@@ -31811,8 +31811,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-5.png",
+        "iconm": "m-w-mainweapon2-5.png"
     },
     {
         "classId": 940,
@@ -31857,8 +31857,8 @@ exports.data = [
         "hide": true,
         "forgeID": 19,
         "forgeTarget": 945,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-5.png",
+        "iconm": "m-w-mainweapon2-5.png"
     },
     {
         "classId": 941,
@@ -31903,8 +31903,8 @@ exports.data = [
         "hide": true,
         "forgeID": 19,
         "forgeTarget": 946,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-5.png",
+        "iconm": "m-w-mainweapon2-5.png"
     },
     {
         "classId": 942,
@@ -31949,8 +31949,8 @@ exports.data = [
         "hide": true,
         "forgeID": 19,
         "forgeTarget": 947,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-5.png",
+        "iconm": "m-w-mainweapon2-5.png"
     },
     {
         "classId": 943,
@@ -31995,8 +31995,8 @@ exports.data = [
         "hide": true,
         "forgeID": 19,
         "forgeTarget": 948,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-5.png",
+        "iconm": "m-w-mainweapon2-5.png"
     },
     {
         "classId": 944,
@@ -32040,8 +32040,8 @@ exports.data = [
         "hide": true,
         "forgeID": 19,
         "forgeTarget": 949,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-5.png",
+        "iconm": "m-w-mainweapon2-5.png"
     },
     {
         "classId": 945,
@@ -32084,8 +32084,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-4.png",
+        "iconm": "m-w-mainweapon2-4.png"
     },
     {
         "classId": 946,
@@ -32130,8 +32130,8 @@ exports.data = [
         "hide": true,
         "forgeID": 25,
         "forgeTarget": 951,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-4.png",
+        "iconm": "m-w-mainweapon2-4.png"
     },
     {
         "classId": 947,
@@ -32176,8 +32176,8 @@ exports.data = [
         "hide": true,
         "forgeID": 25,
         "forgeTarget": 952,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-4.png",
+        "iconm": "m-w-mainweapon2-4.png"
     },
     {
         "classId": 948,
@@ -32222,8 +32222,8 @@ exports.data = [
         "hide": true,
         "forgeID": 25,
         "forgeTarget": 953,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-4.png",
+        "iconm": "m-w-mainweapon2-4.png"
     },
     {
         "classId": 949,
@@ -32268,8 +32268,8 @@ exports.data = [
         "hide": true,
         "forgeID": 25,
         "forgeTarget": 954,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-4.png",
+        "iconm": "m-w-mainweapon2-4.png"
     },
     {
         "classId": 950,
@@ -32313,8 +32313,8 @@ exports.data = [
         "hide": true,
         "forgeID": 25,
         "forgeTarget": 955,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-4.png",
+        "iconm": "m-w-mainweapon2-4.png"
     },
     {
         "classId": 951,
@@ -32357,8 +32357,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-3.png",
+        "iconm": "m-w-mainweapon2-3.png"
     },
     {
         "classId": 952,
@@ -32403,8 +32403,8 @@ exports.data = [
         "hide": true,
         "forgeID": 31,
         "forgeTarget": 957,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-3.png",
+        "iconm": "m-w-mainweapon2-3.png"
     },
     {
         "classId": 953,
@@ -32449,8 +32449,8 @@ exports.data = [
         "hide": true,
         "forgeID": 31,
         "forgeTarget": 958,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-3.png",
+        "iconm": "m-w-mainweapon2-3.png"
     },
     {
         "classId": 954,
@@ -32495,8 +32495,8 @@ exports.data = [
         "hide": true,
         "forgeID": 31,
         "forgeTarget": 959,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-3.png",
+        "iconm": "m-w-mainweapon2-3.png"
     },
     {
         "classId": 955,
@@ -32541,8 +32541,8 @@ exports.data = [
         "hide": true,
         "forgeID": 31,
         "forgeTarget": 960,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-3.png",
+        "iconm": "m-w-mainweapon2-3.png"
     },
     {
         "classId": 956,
@@ -32586,8 +32586,8 @@ exports.data = [
         "hide": true,
         "forgeID": 31,
         "forgeTarget": 961,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-3.png",
+        "iconm": "m-w-mainweapon2-3.png"
     },
     {
         "classId": 957,
@@ -32630,8 +32630,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-2.png",
+        "iconm": "m-w-mainweapon2-2.png"
     },
     {
         "classId": 958,
@@ -32676,8 +32676,8 @@ exports.data = [
         "hide": true,
         "forgeID": 37,
         "forgeTarget": 963,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-2.png",
+        "iconm": "m-w-mainweapon2-2.png"
     },
     {
         "classId": 959,
@@ -32722,8 +32722,8 @@ exports.data = [
         "hide": true,
         "forgeID": 37,
         "forgeTarget": 964,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-2.png",
+        "iconm": "m-w-mainweapon2-2.png"
     },
     {
         "classId": 960,
@@ -32768,8 +32768,8 @@ exports.data = [
         "hide": true,
         "forgeID": 37,
         "forgeTarget": 965,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-2.png",
+        "iconm": "m-w-mainweapon2-2.png"
     },
     {
         "classId": 961,
@@ -32814,8 +32814,8 @@ exports.data = [
         "hide": true,
         "forgeID": 37,
         "forgeTarget": 966,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-2.png",
+        "iconm": "m-w-mainweapon2-2.png"
     },
     {
         "classId": 962,
@@ -32859,8 +32859,8 @@ exports.data = [
         "hide": true,
         "forgeID": 37,
         "forgeTarget": 967,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2-2.png",
+        "iconm": "m-w-mainweapon2-2.png"
     },
     {
         "classId": 963,
@@ -32903,8 +32903,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2.png",
+        "iconm": "m-w-mainweapon2.png"
     },
     {
         "classId": 964,
@@ -32947,8 +32947,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2.png",
+        "iconm": "m-w-mainweapon2.png"
     },
     {
         "classId": 965,
@@ -32991,8 +32991,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2.png",
+        "iconm": "m-w-mainweapon2.png"
     },
     {
         "classId": 966,
@@ -33035,8 +33035,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2.png",
+        "iconm": "m-w-mainweapon2.png"
     },
     {
         "classId": 967,
@@ -33079,8 +33079,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2.png",
+        "iconm": "m-w-mainweapon2.png"
     },
     {
         "classId": 968,
@@ -33122,8 +33122,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon2.png",
+        "iconm": "m-w-mainweapon2.png"
     },
     {
         "classId": 969,
@@ -33161,8 +33161,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-5.png",
+        "iconm": "m-w-mainweapon1-5.png"
     },
     {
         "classId": 970,
@@ -33202,8 +33202,8 @@ exports.data = [
         "hide": true,
         "forgeID": 20,
         "forgeTarget": 975,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-5.png",
+        "iconm": "m-w-mainweapon1-5.png"
     },
     {
         "classId": 971,
@@ -33243,8 +33243,8 @@ exports.data = [
         "hide": true,
         "forgeID": 20,
         "forgeTarget": 976,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-5.png",
+        "iconm": "m-w-mainweapon1-5.png"
     },
     {
         "classId": 972,
@@ -33284,8 +33284,8 @@ exports.data = [
         "hide": true,
         "forgeID": 20,
         "forgeTarget": 977,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-5.png",
+        "iconm": "m-w-mainweapon1-5.png"
     },
     {
         "classId": 973,
@@ -33325,8 +33325,8 @@ exports.data = [
         "hide": true,
         "forgeID": 20,
         "forgeTarget": 978,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-5.png",
+        "iconm": "m-w-mainweapon1-5.png"
     },
     {
         "classId": 974,
@@ -33365,8 +33365,8 @@ exports.data = [
         "hide": true,
         "forgeID": 20,
         "forgeTarget": 979,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-5.png",
+        "iconm": "m-w-mainweapon1-5.png"
     },
     {
         "classId": 975,
@@ -33404,8 +33404,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-4.png",
+        "iconm": "m-w-mainweapon1-4.png"
     },
     {
         "classId": 976,
@@ -33445,8 +33445,8 @@ exports.data = [
         "hide": true,
         "forgeID": 26,
         "forgeTarget": 981,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-4.png",
+        "iconm": "m-w-mainweapon1-4.png"
     },
     {
         "classId": 977,
@@ -33486,8 +33486,8 @@ exports.data = [
         "hide": true,
         "forgeID": 26,
         "forgeTarget": 982,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-4.png",
+        "iconm": "m-w-mainweapon1-4.png"
     },
     {
         "classId": 978,
@@ -33527,8 +33527,8 @@ exports.data = [
         "hide": true,
         "forgeID": 26,
         "forgeTarget": 983,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-4.png",
+        "iconm": "m-w-mainweapon1-4.png"
     },
     {
         "classId": 979,
@@ -33568,8 +33568,8 @@ exports.data = [
         "hide": true,
         "forgeID": 26,
         "forgeTarget": 984,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-4.png",
+        "iconm": "m-w-mainweapon1-4.png"
     },
     {
         "classId": 980,
@@ -33608,8 +33608,8 @@ exports.data = [
         "hide": true,
         "forgeID": 26,
         "forgeTarget": 985,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-4.png",
+        "iconm": "m-w-mainweapon1-4.png"
     },
     {
         "classId": 981,
@@ -33647,8 +33647,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-3.png",
+        "iconm": "m-w-mainweapon1-3.png"
     },
     {
         "classId": 982,
@@ -33688,8 +33688,8 @@ exports.data = [
         "hide": true,
         "forgeID": 32,
         "forgeTarget": 987,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-3.png",
+        "iconm": "m-w-mainweapon1-3.png"
     },
     {
         "classId": 983,
@@ -33729,8 +33729,8 @@ exports.data = [
         "hide": true,
         "forgeID": 32,
         "forgeTarget": 988,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-3.png",
+        "iconm": "m-w-mainweapon1-3.png"
     },
     {
         "classId": 984,
@@ -33770,8 +33770,8 @@ exports.data = [
         "hide": true,
         "forgeID": 32,
         "forgeTarget": 989,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-3.png",
+        "iconm": "m-w-mainweapon1-3.png"
     },
     {
         "classId": 985,
@@ -33811,8 +33811,8 @@ exports.data = [
         "hide": true,
         "forgeID": 32,
         "forgeTarget": 990,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-3.png",
+        "iconm": "m-w-mainweapon1-3.png"
     },
     {
         "classId": 986,
@@ -33851,8 +33851,8 @@ exports.data = [
         "hide": true,
         "forgeID": 32,
         "forgeTarget": 991,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-3.png",
+        "iconm": "m-w-mainweapon1-3.png"
     },
     {
         "classId": 987,
@@ -33890,8 +33890,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-2.png",
+        "iconm": "m-w-mainweapon1-2.png"
     },
     {
         "classId": 988,
@@ -33931,8 +33931,8 @@ exports.data = [
         "hide": true,
         "forgeID": 38,
         "forgeTarget": 993,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-2.png",
+        "iconm": "m-w-mainweapon1-2.png"
     },
     {
         "classId": 989,
@@ -33972,8 +33972,8 @@ exports.data = [
         "hide": true,
         "forgeID": 38,
         "forgeTarget": 994,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-2.png",
+        "iconm": "m-w-mainweapon1-2.png"
     },
     {
         "classId": 990,
@@ -34013,8 +34013,8 @@ exports.data = [
         "hide": true,
         "forgeID": 38,
         "forgeTarget": 995,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-2.png",
+        "iconm": "m-w-mainweapon1-2.png"
     },
     {
         "classId": 991,
@@ -34054,8 +34054,8 @@ exports.data = [
         "hide": true,
         "forgeID": 38,
         "forgeTarget": 996,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-2.png",
+        "iconm": "m-w-mainweapon1-2.png"
     },
     {
         "classId": 992,
@@ -34094,8 +34094,8 @@ exports.data = [
         "hide": true,
         "forgeID": 38,
         "forgeTarget": 997,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1-2.png",
+        "iconm": "m-w-mainweapon1-2.png"
     },
     {
         "classId": 993,
@@ -34133,8 +34133,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1.png",
+        "iconm": "m-w-mainweapon1.png"
     },
     {
         "classId": 994,
@@ -34172,8 +34172,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1.png",
+        "iconm": "m-w-mainweapon1.png"
     },
     {
         "classId": 995,
@@ -34211,8 +34211,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1.png",
+        "iconm": "m-w-mainweapon1.png"
     },
     {
         "classId": 996,
@@ -34250,8 +34250,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1.png",
+        "iconm": "m-w-mainweapon1.png"
     },
     {
         "classId": 997,
@@ -34289,8 +34289,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1.png",
+        "iconm": "m-w-mainweapon1.png"
     },
     {
         "classId": 998,
@@ -34327,8 +34327,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-w-mainweapon1.png",
+        "iconm": "m-w-mainweapon1.png"
     },
     {
         "classId": 999,
@@ -36034,8 +36034,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot5.png",
+        "iconm": "m-m-fooot5.png"
     },
     {
         "classId": 1060,
@@ -36083,8 +36083,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 1065,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot5.png",
+        "iconm": "m-m-fooot5.png"
     },
     {
         "classId": 1061,
@@ -36132,8 +36132,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 1066,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot5.png",
+        "iconm": "m-m-fooot5.png"
     },
     {
         "classId": 1062,
@@ -36181,8 +36181,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 1067,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot5.png",
+        "iconm": "m-m-fooot5.png"
     },
     {
         "classId": 1063,
@@ -36230,8 +36230,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 1068,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot5.png",
+        "iconm": "m-m-fooot5.png"
     },
     {
         "classId": 1064,
@@ -36278,8 +36278,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 1069,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot5.png",
+        "iconm": "m-m-fooot5.png"
     },
     {
         "classId": 1065,
@@ -36325,8 +36325,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot4.png",
+        "iconm": "m-m-fooot4.png"
     },
     {
         "classId": 1066,
@@ -36374,8 +36374,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 1071,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot4.png",
+        "iconm": "m-m-fooot4.png"
     },
     {
         "classId": 1067,
@@ -36423,8 +36423,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 1072,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot4.png",
+        "iconm": "m-m-fooot4.png"
     },
     {
         "classId": 1068,
@@ -36472,8 +36472,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 1073,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot4.png",
+        "iconm": "m-m-fooot4.png"
     },
     {
         "classId": 1069,
@@ -36521,8 +36521,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 1074,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot4.png",
+        "iconm": "m-m-fooot4.png"
     },
     {
         "classId": 1070,
@@ -36569,8 +36569,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 1075,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot4.png",
+        "iconm": "m-m-fooot4.png"
     },
     {
         "classId": 1071,
@@ -36616,8 +36616,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot3.png",
+        "iconm": "m-m-fooot3.png"
     },
     {
         "classId": 1072,
@@ -36665,8 +36665,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 1077,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot3.png",
+        "iconm": "m-m-fooot3.png"
     },
     {
         "classId": 1073,
@@ -36714,8 +36714,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 1078,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot3.png",
+        "iconm": "m-m-fooot3.png"
     },
     {
         "classId": 1074,
@@ -36763,8 +36763,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 1079,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot3.png",
+        "iconm": "m-m-fooot3.png"
     },
     {
         "classId": 1075,
@@ -36812,8 +36812,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 1080,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot3.png",
+        "iconm": "m-m-fooot3.png"
     },
     {
         "classId": 1076,
@@ -36860,8 +36860,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 1081,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot3.png",
+        "iconm": "m-m-fooot3.png"
     },
     {
         "classId": 1077,
@@ -36907,8 +36907,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot2.png",
+        "iconm": "m-m-fooot2.png"
     },
     {
         "classId": 1078,
@@ -36956,8 +36956,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 1083,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot2.png",
+        "iconm": "m-m-fooot2.png"
     },
     {
         "classId": 1079,
@@ -37005,8 +37005,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 1084,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot2.png",
+        "iconm": "m-m-fooot2.png"
     },
     {
         "classId": 1080,
@@ -37054,8 +37054,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 1085,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot2.png",
+        "iconm": "m-m-fooot2.png"
     },
     {
         "classId": 1081,
@@ -37103,8 +37103,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 1086,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot2.png",
+        "iconm": "m-m-fooot2.png"
     },
     {
         "classId": 1082,
@@ -37151,8 +37151,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 1087,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot2.png",
+        "iconm": "m-m-fooot2.png"
     },
     {
         "classId": 1083,
@@ -37198,8 +37198,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot1.png",
+        "iconm": "m-m-fooot1.png"
     },
     {
         "classId": 1084,
@@ -37245,8 +37245,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot1.png",
+        "iconm": "m-m-fooot1.png"
     },
     {
         "classId": 1085,
@@ -37292,8 +37292,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot1.png",
+        "iconm": "m-m-fooot1.png"
     },
     {
         "classId": 1086,
@@ -37339,8 +37339,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot1.png",
+        "iconm": "m-m-fooot1.png"
     },
     {
         "classId": 1087,
@@ -37386,8 +37386,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot1.png",
+        "iconm": "m-m-fooot1.png"
     },
     {
         "classId": 1088,
@@ -37432,8 +37432,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-fooot1.png",
+        "iconm": "m-m-fooot1.png"
     },
     {
         "classId": 1089,
@@ -37510,8 +37510,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest5.png",
+        "iconm": "m-m-chest5.png"
     },
     {
         "classId": 1090,
@@ -37590,8 +37590,8 @@ exports.data = [
         "hide": true,
         "forgeID": 18,
         "forgeTarget": 1095,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest5.png",
+        "iconm": "m-m-chest5.png"
     },
     {
         "classId": 1091,
@@ -37670,8 +37670,8 @@ exports.data = [
         "hide": true,
         "forgeID": 18,
         "forgeTarget": 1096,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest5.png",
+        "iconm": "m-m-chest5.png"
     },
     {
         "classId": 1092,
@@ -37750,8 +37750,8 @@ exports.data = [
         "hide": true,
         "forgeID": 18,
         "forgeTarget": 1097,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest5.png",
+        "iconm": "m-m-chest5.png"
     },
     {
         "classId": 1093,
@@ -37830,8 +37830,8 @@ exports.data = [
         "hide": true,
         "forgeID": 18,
         "forgeTarget": 1098,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest5.png",
+        "iconm": "m-m-chest5.png"
     },
     {
         "classId": 1094,
@@ -37909,8 +37909,8 @@ exports.data = [
         "hide": true,
         "forgeID": 18,
         "forgeTarget": 1099,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest5.png",
+        "iconm": "m-m-chest5.png"
     },
     {
         "classId": 1095,
@@ -37987,8 +37987,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest4.png",
+        "iconm": "m-m-chest4.png"
     },
     {
         "classId": 1096,
@@ -38067,8 +38067,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 1101,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest4.png",
+        "iconm": "m-m-chest4.png"
     },
     {
         "classId": 1097,
@@ -38147,8 +38147,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 1102,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest4.png",
+        "iconm": "m-m-chest4.png"
     },
     {
         "classId": 1098,
@@ -38227,8 +38227,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 1103,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest4.png",
+        "iconm": "m-m-chest4.png"
     },
     {
         "classId": 1099,
@@ -38307,8 +38307,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 1104,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest4.png",
+        "iconm": "m-m-chest4.png"
     },
     {
         "classId": 1100,
@@ -38386,8 +38386,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 1105,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest4.png",
+        "iconm": "m-m-chest4.png"
     },
     {
         "classId": 1101,
@@ -38464,8 +38464,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest3.png",
+        "iconm": "m-m-chest3.png"
     },
     {
         "classId": 1102,
@@ -38544,8 +38544,8 @@ exports.data = [
         "hide": true,
         "forgeID": 30,
         "forgeTarget": 1107,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest3.png",
+        "iconm": "m-m-chest3.png"
     },
     {
         "classId": 1103,
@@ -38624,8 +38624,8 @@ exports.data = [
         "hide": true,
         "forgeID": 30,
         "forgeTarget": 1108,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest3.png",
+        "iconm": "m-m-chest3.png"
     },
     {
         "classId": 1104,
@@ -38704,8 +38704,8 @@ exports.data = [
         "hide": true,
         "forgeID": 30,
         "forgeTarget": 1109,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest3.png",
+        "iconm": "m-m-chest3.png"
     },
     {
         "classId": 1105,
@@ -38784,8 +38784,8 @@ exports.data = [
         "hide": true,
         "forgeID": 30,
         "forgeTarget": 1110,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest3.png",
+        "iconm": "m-m-chest3.png"
     },
     {
         "classId": 1106,
@@ -38863,8 +38863,8 @@ exports.data = [
         "hide": true,
         "forgeID": 30,
         "forgeTarget": 1111,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest3.png",
+        "iconm": "m-m-chest3.png"
     },
     {
         "classId": 1107,
@@ -38941,8 +38941,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest2.png",
+        "iconm": "m-m-chest2.png"
     },
     {
         "classId": 1108,
@@ -39021,8 +39021,8 @@ exports.data = [
         "hide": true,
         "forgeID": 36,
         "forgeTarget": 1113,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest2.png",
+        "iconm": "m-m-chest2.png"
     },
     {
         "classId": 1109,
@@ -39101,8 +39101,8 @@ exports.data = [
         "hide": true,
         "forgeID": 36,
         "forgeTarget": 1114,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest2.png",
+        "iconm": "m-m-chest2.png"
     },
     {
         "classId": 1110,
@@ -39181,8 +39181,8 @@ exports.data = [
         "hide": true,
         "forgeID": 36,
         "forgeTarget": 1115,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest2.png",
+        "iconm": "m-m-chest2.png"
     },
     {
         "classId": 1111,
@@ -39261,8 +39261,8 @@ exports.data = [
         "hide": true,
         "forgeID": 36,
         "forgeTarget": 1116,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest2.png",
+        "iconm": "m-m-chest2.png"
     },
     {
         "classId": 1112,
@@ -39340,8 +39340,8 @@ exports.data = [
         "hide": true,
         "forgeID": 36,
         "forgeTarget": 1117,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest2.png",
+        "iconm": "m-m-chest2.png"
     },
     {
         "classId": 1113,
@@ -39418,8 +39418,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest1.png",
+        "iconm": "m-m-chest1.png"
     },
     {
         "classId": 1114,
@@ -39496,8 +39496,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest1.png",
+        "iconm": "m-m-chest1.png"
     },
     {
         "classId": 1115,
@@ -39574,8 +39574,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest1.png",
+        "iconm": "m-m-chest1.png"
     },
     {
         "classId": 1116,
@@ -39652,8 +39652,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest1.png",
+        "iconm": "m-m-chest1.png"
     },
     {
         "classId": 1117,
@@ -39730,8 +39730,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest1.png",
+        "iconm": "m-m-chest1.png"
     },
     {
         "classId": 1118,
@@ -39807,8 +39807,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-chest1.png",
+        "iconm": "m-m-chest1.png"
     },
     {
         "classId": 1119,
@@ -39844,8 +39844,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-5.png",
+        "iconm": "m-m-mainweapon2-5.png"
     },
     {
         "classId": 1120,
@@ -39883,8 +39883,8 @@ exports.data = [
         "hide": true,
         "forgeID": 19,
         "forgeTarget": 1125,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-5.png",
+        "iconm": "m-m-mainweapon2-5.png"
     },
     {
         "classId": 1121,
@@ -39922,8 +39922,8 @@ exports.data = [
         "hide": true,
         "forgeID": 19,
         "forgeTarget": 1126,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-5.png",
+        "iconm": "m-m-mainweapon2-5.png"
     },
     {
         "classId": 1122,
@@ -39961,8 +39961,8 @@ exports.data = [
         "hide": true,
         "forgeID": 19,
         "forgeTarget": 1127,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-5.png",
+        "iconm": "m-m-mainweapon2-5.png"
     },
     {
         "classId": 1123,
@@ -40000,8 +40000,8 @@ exports.data = [
         "hide": true,
         "forgeID": 19,
         "forgeTarget": 1128,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-5.png",
+        "iconm": "m-m-mainweapon2-5.png"
     },
     {
         "classId": 1124,
@@ -40038,8 +40038,8 @@ exports.data = [
         "hide": true,
         "forgeID": 19,
         "forgeTarget": 1129,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-5.png",
+        "iconm": "m-m-mainweapon2-5.png"
     },
     {
         "classId": 1125,
@@ -40075,8 +40075,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-4.png",
+        "iconm": "m-m-mainweapon2-4.png"
     },
     {
         "classId": 1126,
@@ -40114,8 +40114,8 @@ exports.data = [
         "hide": true,
         "forgeID": 25,
         "forgeTarget": 1131,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-4.png",
+        "iconm": "m-m-mainweapon2-4.png"
     },
     {
         "classId": 1127,
@@ -40153,8 +40153,8 @@ exports.data = [
         "hide": true,
         "forgeID": 25,
         "forgeTarget": 1132,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-4.png",
+        "iconm": "m-m-mainweapon2-4.png"
     },
     {
         "classId": 1128,
@@ -40192,8 +40192,8 @@ exports.data = [
         "hide": true,
         "forgeID": 25,
         "forgeTarget": 1133,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-4.png",
+        "iconm": "m-m-mainweapon2-4.png"
     },
     {
         "classId": 1129,
@@ -40231,8 +40231,8 @@ exports.data = [
         "hide": true,
         "forgeID": 25,
         "forgeTarget": 1134,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-4.png",
+        "iconm": "m-m-mainweapon2-4.png"
     },
     {
         "classId": 1130,
@@ -40269,8 +40269,8 @@ exports.data = [
         "hide": true,
         "forgeID": 25,
         "forgeTarget": 1135,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-4.png",
+        "iconm": "m-m-mainweapon2-4.png"
     },
     {
         "classId": 1131,
@@ -40306,8 +40306,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-3.png",
+        "iconm": "m-m-mainweapon2-3.png"
     },
     {
         "classId": 1132,
@@ -40345,8 +40345,8 @@ exports.data = [
         "hide": true,
         "forgeID": 31,
         "forgeTarget": 1137,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-3.png",
+        "iconm": "m-m-mainweapon2-3.png"
     },
     {
         "classId": 1133,
@@ -40384,8 +40384,8 @@ exports.data = [
         "hide": true,
         "forgeID": 31,
         "forgeTarget": 1138,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-3.png",
+        "iconm": "m-m-mainweapon2-3.png"
     },
     {
         "classId": 1134,
@@ -40423,8 +40423,8 @@ exports.data = [
         "hide": true,
         "forgeID": 31,
         "forgeTarget": 1139,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-3.png",
+        "iconm": "m-m-mainweapon2-3.png"
     },
     {
         "classId": 1135,
@@ -40462,8 +40462,8 @@ exports.data = [
         "hide": true,
         "forgeID": 31,
         "forgeTarget": 1140,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-3.png",
+        "iconm": "m-m-mainweapon2-3.png"
     },
     {
         "classId": 1136,
@@ -40500,8 +40500,8 @@ exports.data = [
         "hide": true,
         "forgeID": 31,
         "forgeTarget": 1141,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-3.png",
+        "iconm": "m-m-mainweapon2-3.png"
     },
     {
         "classId": 1137,
@@ -40537,8 +40537,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-2.png",
+        "iconm": "m-m-mainweapon2-2.png"
     },
     {
         "classId": 1138,
@@ -40576,8 +40576,8 @@ exports.data = [
         "hide": true,
         "forgeID": 37,
         "forgeTarget": 1143,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-2.png",
+        "iconm": "m-m-mainweapon2-2.png"
     },
     {
         "classId": 1139,
@@ -40615,8 +40615,8 @@ exports.data = [
         "hide": true,
         "forgeID": 37,
         "forgeTarget": 1144,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-2.png",
+        "iconm": "m-m-mainweapon2-2.png"
     },
     {
         "classId": 1140,
@@ -40654,8 +40654,8 @@ exports.data = [
         "hide": true,
         "forgeID": 37,
         "forgeTarget": 1145,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-2.png",
+        "iconm": "m-m-mainweapon2-2.png"
     },
     {
         "classId": 1141,
@@ -40693,8 +40693,8 @@ exports.data = [
         "hide": true,
         "forgeID": 37,
         "forgeTarget": 1146,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-2.png",
+        "iconm": "m-m-mainweapon2-2.png"
     },
     {
         "classId": 1142,
@@ -40731,8 +40731,8 @@ exports.data = [
         "hide": true,
         "forgeID": 37,
         "forgeTarget": 1147,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2-2.png",
+        "iconm": "m-m-mainweapon2-2.png"
     },
     {
         "classId": 1143,
@@ -40768,8 +40768,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2.png",
+        "iconm": "m-m-mainweapon2.png"
     },
     {
         "classId": 1144,
@@ -40805,8 +40805,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2.png",
+        "iconm": "m-m-mainweapon2.png"
     },
     {
         "classId": 1145,
@@ -40842,8 +40842,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2.png",
+        "iconm": "m-m-mainweapon2.png"
     },
     {
         "classId": 1146,
@@ -40879,8 +40879,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2.png",
+        "iconm": "m-m-mainweapon2.png"
     },
     {
         "classId": 1147,
@@ -40916,8 +40916,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2.png",
+        "iconm": "m-m-mainweapon2.png"
     },
     {
         "classId": 1148,
@@ -40952,8 +40952,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon2.png",
+        "iconm": "m-m-mainweapon2.png"
     },
     {
         "classId": 1149,
@@ -40987,8 +40987,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-5.png",
+        "iconm": "m-m-mainweapon1-5.png"
     },
     {
         "classId": 1150,
@@ -41024,8 +41024,8 @@ exports.data = [
         "hide": true,
         "forgeID": 20,
         "forgeTarget": 1155,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-5.png",
+        "iconm": "m-m-mainweapon1-5.png"
     },
     {
         "classId": 1151,
@@ -41061,8 +41061,8 @@ exports.data = [
         "hide": true,
         "forgeID": 20,
         "forgeTarget": 1156,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-5.png",
+        "iconm": "m-m-mainweapon1-5.png"
     },
     {
         "classId": 1152,
@@ -41098,8 +41098,8 @@ exports.data = [
         "hide": true,
         "forgeID": 20,
         "forgeTarget": 1157,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-5.png",
+        "iconm": "m-m-mainweapon1-5.png"
     },
     {
         "classId": 1153,
@@ -41135,8 +41135,8 @@ exports.data = [
         "hide": true,
         "forgeID": 20,
         "forgeTarget": 1158,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-5.png",
+        "iconm": "m-m-mainweapon1-5.png"
     },
     {
         "classId": 1154,
@@ -41171,8 +41171,8 @@ exports.data = [
         "hide": true,
         "forgeID": 20,
         "forgeTarget": 1159,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-5.png",
+        "iconm": "m-m-mainweapon1-5.png"
     },
     {
         "classId": 1155,
@@ -41206,8 +41206,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-4.png",
+        "iconm": "m-m-mainweapon1-4.png"
     },
     {
         "classId": 1156,
@@ -41243,8 +41243,8 @@ exports.data = [
         "hide": true,
         "forgeID": 26,
         "forgeTarget": 1161,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-4.png",
+        "iconm": "m-m-mainweapon1-4.png"
     },
     {
         "classId": 1157,
@@ -41280,8 +41280,8 @@ exports.data = [
         "hide": true,
         "forgeID": 26,
         "forgeTarget": 1162,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-4.png",
+        "iconm": "m-m-mainweapon1-4.png"
     },
     {
         "classId": 1158,
@@ -41317,8 +41317,8 @@ exports.data = [
         "hide": true,
         "forgeID": 26,
         "forgeTarget": 1163,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-4.png",
+        "iconm": "m-m-mainweapon1-4.png"
     },
     {
         "classId": 1159,
@@ -41354,8 +41354,8 @@ exports.data = [
         "hide": true,
         "forgeID": 26,
         "forgeTarget": 1164,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-4.png",
+        "iconm": "m-m-mainweapon1-4.png"
     },
     {
         "classId": 1160,
@@ -41390,8 +41390,8 @@ exports.data = [
         "hide": true,
         "forgeID": 26,
         "forgeTarget": 1165,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-4.png",
+        "iconm": "m-m-mainweapon1-4.png"
     },
     {
         "classId": 1161,
@@ -41425,8 +41425,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-3.png",
+        "iconm": "m-m-mainweapon1-3.png"
     },
     {
         "classId": 1162,
@@ -41462,8 +41462,8 @@ exports.data = [
         "hide": true,
         "forgeID": 32,
         "forgeTarget": 1167,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-3.png",
+        "iconm": "m-m-mainweapon1-3.png"
     },
     {
         "classId": 1163,
@@ -41499,8 +41499,8 @@ exports.data = [
         "hide": true,
         "forgeID": 32,
         "forgeTarget": 1168,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-3.png",
+        "iconm": "m-m-mainweapon1-3.png"
     },
     {
         "classId": 1164,
@@ -41536,8 +41536,8 @@ exports.data = [
         "hide": true,
         "forgeID": 32,
         "forgeTarget": 1169,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-3.png",
+        "iconm": "m-m-mainweapon1-3.png"
     },
     {
         "classId": 1165,
@@ -41573,8 +41573,8 @@ exports.data = [
         "hide": true,
         "forgeID": 32,
         "forgeTarget": 1170,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-3.png",
+        "iconm": "m-m-mainweapon1-3.png"
     },
     {
         "classId": 1166,
@@ -41609,8 +41609,8 @@ exports.data = [
         "hide": true,
         "forgeID": 32,
         "forgeTarget": 1171,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-3.png",
+        "iconm": "m-m-mainweapon1-3.png"
     },
     {
         "classId": 1167,
@@ -41644,8 +41644,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-2.png",
+        "iconm": "m-m-mainweapon1-2.png"
     },
     {
         "classId": 1168,
@@ -41681,8 +41681,8 @@ exports.data = [
         "hide": true,
         "forgeID": 38,
         "forgeTarget": 1173,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-2.png",
+        "iconm": "m-m-mainweapon1-2.png"
     },
     {
         "classId": 1169,
@@ -41718,8 +41718,8 @@ exports.data = [
         "hide": true,
         "forgeID": 38,
         "forgeTarget": 1174,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-2.png",
+        "iconm": "m-m-mainweapon1-2.png"
     },
     {
         "classId": 1170,
@@ -41755,8 +41755,8 @@ exports.data = [
         "hide": true,
         "forgeID": 38,
         "forgeTarget": 1175,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-2.png",
+        "iconm": "m-m-mainweapon1-2.png"
     },
     {
         "classId": 1171,
@@ -41792,8 +41792,8 @@ exports.data = [
         "hide": true,
         "forgeID": 38,
         "forgeTarget": 1176,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-2.png",
+        "iconm": "m-m-mainweapon1-2.png"
     },
     {
         "classId": 1172,
@@ -41828,8 +41828,8 @@ exports.data = [
         "hide": true,
         "forgeID": 38,
         "forgeTarget": 1177,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1-2.png",
+        "iconm": "m-m-mainweapon1-2.png"
     },
     {
         "classId": 1173,
@@ -41863,8 +41863,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1.png",
+        "iconm": "m-m-mainweapon1.png"
     },
     {
         "classId": 1174,
@@ -41898,8 +41898,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1.png",
+        "iconm": "m-m-mainweapon1.png"
     },
     {
         "classId": 1175,
@@ -41933,8 +41933,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1.png",
+        "iconm": "m-m-mainweapon1.png"
     },
     {
         "classId": 1176,
@@ -41968,8 +41968,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1.png",
+        "iconm": "m-m-mainweapon1.png"
     },
     {
         "classId": 1177,
@@ -42003,8 +42003,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1.png",
+        "iconm": "m-m-mainweapon1.png"
     },
     {
         "classId": 1178,
@@ -42037,8 +42037,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-m-mainweapon1.png",
+        "iconm": "m-m-mainweapon1.png"
     },
     {
         "classId": 1179,
@@ -43682,8 +43682,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot5.png",
+        "iconm": "m-p-foot5.png"
     },
     {
         "classId": 1240,
@@ -43729,8 +43729,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 1245,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot5.png",
+        "iconm": "m-p-foot5.png"
     },
     {
         "classId": 1241,
@@ -43776,8 +43776,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 1246,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot5.png",
+        "iconm": "m-p-foot5.png"
     },
     {
         "classId": 1242,
@@ -43823,8 +43823,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 1247,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot5.png",
+        "iconm": "m-p-foot5.png"
     },
     {
         "classId": 1243,
@@ -43870,8 +43870,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 1248,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot5.png",
+        "iconm": "m-p-foot5.png"
     },
     {
         "classId": 1244,
@@ -43916,8 +43916,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 1249,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot5.png",
+        "iconm": "m-p-foot5.png"
     },
     {
         "classId": 1245,
@@ -43961,8 +43961,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot4.png",
+        "iconm": "m-p-foot4.png"
     },
     {
         "classId": 1246,
@@ -44008,8 +44008,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 1251,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot4.png",
+        "iconm": "m-p-foot4.png"
     },
     {
         "classId": 1247,
@@ -44055,8 +44055,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 1252,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot4.png",
+        "iconm": "m-p-foot4.png"
     },
     {
         "classId": 1248,
@@ -44102,8 +44102,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 1253,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot4.png",
+        "iconm": "m-p-foot4.png"
     },
     {
         "classId": 1249,
@@ -44149,8 +44149,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 1254,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot4.png",
+        "iconm": "m-p-foot4.png"
     },
     {
         "classId": 1250,
@@ -44195,8 +44195,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 1255,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot4.png",
+        "iconm": "m-p-foot4.png"
     },
     {
         "classId": 1251,
@@ -44240,8 +44240,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot3.png",
+        "iconm": "m-p-foot3.png"
     },
     {
         "classId": 1252,
@@ -44287,8 +44287,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 1257,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot3.png",
+        "iconm": "m-p-foot3.png"
     },
     {
         "classId": 1253,
@@ -44334,8 +44334,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 1258,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot3.png",
+        "iconm": "m-p-foot3.png"
     },
     {
         "classId": 1254,
@@ -44381,8 +44381,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 1259,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot3.png",
+        "iconm": "m-p-foot3.png"
     },
     {
         "classId": 1255,
@@ -44428,8 +44428,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 1260,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot3.png",
+        "iconm": "m-p-foot3.png"
     },
     {
         "classId": 1256,
@@ -44474,8 +44474,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 1261,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot3.png",
+        "iconm": "m-p-foot3.png"
     },
     {
         "classId": 1257,
@@ -44519,8 +44519,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot2.png",
+        "iconm": "m-p-foot2.png"
     },
     {
         "classId": 1258,
@@ -44566,8 +44566,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 1263,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot2.png",
+        "iconm": "m-p-foot2.png"
     },
     {
         "classId": 1259,
@@ -44613,8 +44613,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 1264,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot2.png",
+        "iconm": "m-p-foot2.png"
     },
     {
         "classId": 1260,
@@ -44660,8 +44660,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 1265,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot2.png",
+        "iconm": "m-p-foot2.png"
     },
     {
         "classId": 1261,
@@ -44707,8 +44707,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 1266,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot2.png",
+        "iconm": "m-p-foot2.png"
     },
     {
         "classId": 1262,
@@ -44753,8 +44753,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 1267,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot2.png",
+        "iconm": "m-p-foot2.png"
     },
     {
         "classId": 1263,
@@ -44798,8 +44798,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot1.png",
+        "iconm": "m-p-foot1.png"
     },
     {
         "classId": 1264,
@@ -44843,8 +44843,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot1.png",
+        "iconm": "m-p-foot1.png"
     },
     {
         "classId": 1265,
@@ -44888,8 +44888,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot1.png",
+        "iconm": "m-p-foot1.png"
     },
     {
         "classId": 1266,
@@ -44933,8 +44933,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot1.png",
+        "iconm": "m-p-foot1.png"
     },
     {
         "classId": 1267,
@@ -44978,8 +44978,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot1.png",
+        "iconm": "m-p-foot1.png"
     },
     {
         "classId": 1268,
@@ -45022,8 +45022,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-foot1.png",
+        "iconm": "m-p-foot1.png"
     },
     {
         "classId": 1269,
@@ -45092,8 +45092,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest5.png",
+        "iconm": "m-p-chest5.png"
     },
     {
         "classId": 1270,
@@ -45164,8 +45164,8 @@ exports.data = [
         "hide": true,
         "forgeID": 18,
         "forgeTarget": 1275,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest5.png",
+        "iconm": "m-p-chest5.png"
     },
     {
         "classId": 1271,
@@ -45236,8 +45236,8 @@ exports.data = [
         "hide": true,
         "forgeID": 18,
         "forgeTarget": 1276,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest5.png",
+        "iconm": "m-p-chest5.png"
     },
     {
         "classId": 1272,
@@ -45308,8 +45308,8 @@ exports.data = [
         "hide": true,
         "forgeID": 18,
         "forgeTarget": 1277,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest5.png",
+        "iconm": "m-p-chest5.png"
     },
     {
         "classId": 1273,
@@ -45380,8 +45380,8 @@ exports.data = [
         "hide": true,
         "forgeID": 18,
         "forgeTarget": 1278,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest5.png",
+        "iconm": "m-p-chest5.png"
     },
     {
         "classId": 1274,
@@ -45451,8 +45451,8 @@ exports.data = [
         "hide": true,
         "forgeID": 18,
         "forgeTarget": 1279,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest5.png",
+        "iconm": "m-p-chest5.png"
     },
     {
         "classId": 1275,
@@ -45521,8 +45521,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest4.png",
+        "iconm": "m-p-chest4.png"
     },
     {
         "classId": 1276,
@@ -45593,8 +45593,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 1281,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest4.png",
+        "iconm": "m-p-chest4.png"
     },
     {
         "classId": 1277,
@@ -45665,8 +45665,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 1282,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest4.png",
+        "iconm": "m-p-chest4.png"
     },
     {
         "classId": 1278,
@@ -45737,8 +45737,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 1283,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest4.png",
+        "iconm": "m-p-chest4.png"
     },
     {
         "classId": 1279,
@@ -45809,8 +45809,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 1284,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest4.png",
+        "iconm": "m-p-chest4.png"
     },
     {
         "classId": 1280,
@@ -45880,8 +45880,8 @@ exports.data = [
         "hide": true,
         "forgeID": 24,
         "forgeTarget": 1285,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest4.png",
+        "iconm": "m-p-chest4.png"
     },
     {
         "classId": 1281,
@@ -45950,8 +45950,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest3.png",
+        "iconm": "m-p-chest3.png"
     },
     {
         "classId": 1282,
@@ -46022,8 +46022,8 @@ exports.data = [
         "hide": true,
         "forgeID": 30,
         "forgeTarget": 1287,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest3.png",
+        "iconm": "m-p-chest3.png"
     },
     {
         "classId": 1283,
@@ -46094,8 +46094,8 @@ exports.data = [
         "hide": true,
         "forgeID": 30,
         "forgeTarget": 1288,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest3.png",
+        "iconm": "m-p-chest3.png"
     },
     {
         "classId": 1284,
@@ -46166,8 +46166,8 @@ exports.data = [
         "hide": true,
         "forgeID": 30,
         "forgeTarget": 1289,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest3.png",
+        "iconm": "m-p-chest3.png"
     },
     {
         "classId": 1285,
@@ -46238,8 +46238,8 @@ exports.data = [
         "hide": true,
         "forgeID": 30,
         "forgeTarget": 1290,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest3.png",
+        "iconm": "m-p-chest3.png"
     },
     {
         "classId": 1286,
@@ -46309,8 +46309,8 @@ exports.data = [
         "hide": true,
         "forgeID": 30,
         "forgeTarget": 1291,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest3.png",
+        "iconm": "m-p-chest3.png"
     },
     {
         "classId": 1287,
@@ -46379,8 +46379,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest2.png",
+        "iconm": "m-p-chest2.png"
     },
     {
         "classId": 1288,
@@ -46451,8 +46451,8 @@ exports.data = [
         "hide": true,
         "forgeID": 36,
         "forgeTarget": 1293,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest2.png",
+        "iconm": "m-p-chest2.png"
     },
     {
         "classId": 1289,
@@ -46523,8 +46523,8 @@ exports.data = [
         "hide": true,
         "forgeID": 36,
         "forgeTarget": 1294,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest2.png",
+        "iconm": "m-p-chest2.png"
     },
     {
         "classId": 1290,
@@ -46595,8 +46595,8 @@ exports.data = [
         "hide": true,
         "forgeID": 36,
         "forgeTarget": 1295,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest2.png",
+        "iconm": "m-p-chest2.png"
     },
     {
         "classId": 1291,
@@ -46667,8 +46667,8 @@ exports.data = [
         "hide": true,
         "forgeID": 36,
         "forgeTarget": 1296,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest2.png",
+        "iconm": "m-p-chest2.png"
     },
     {
         "classId": 1292,
@@ -46738,8 +46738,8 @@ exports.data = [
         "hide": true,
         "forgeID": 36,
         "forgeTarget": 1297,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest2.png",
+        "iconm": "m-p-chest2.png"
     },
     {
         "classId": 1293,
@@ -46808,8 +46808,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest1.png",
+        "iconm": "m-p-chest1.png"
     },
     {
         "classId": 1294,
@@ -46878,8 +46878,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest1.png",
+        "iconm": "m-p-chest1.png"
     },
     {
         "classId": 1295,
@@ -46948,8 +46948,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest1.png",
+        "iconm": "m-p-chest1.png"
     },
     {
         "classId": 1296,
@@ -47018,8 +47018,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest1.png",
+        "iconm": "m-p-chest1.png"
     },
     {
         "classId": 1297,
@@ -47088,8 +47088,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest1.png",
+        "iconm": "m-p-chest1.png"
     },
     {
         "classId": 1298,
@@ -47157,8 +47157,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-chest1.png",
+        "iconm": "m-p-chest1.png"
     },
     {
         "classId": 1299,
@@ -47204,8 +47204,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-5.png",
+        "iconm": "m-p-mainweapon2-5.png"
     },
     {
         "classId": 1300,
@@ -47253,8 +47253,8 @@ exports.data = [
         "hide": true,
         "forgeID": 19,
         "forgeTarget": 1305,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-5.png",
+        "iconm": "m-p-mainweapon2-5.png"
     },
     {
         "classId": 1301,
@@ -47302,8 +47302,8 @@ exports.data = [
         "hide": true,
         "forgeID": 19,
         "forgeTarget": 1306,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-5.png",
+        "iconm": "m-p-mainweapon2-5.png"
     },
     {
         "classId": 1302,
@@ -47351,8 +47351,8 @@ exports.data = [
         "hide": true,
         "forgeID": 19,
         "forgeTarget": 1307,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-5.png",
+        "iconm": "m-p-mainweapon2-5.png"
     },
     {
         "classId": 1303,
@@ -47400,8 +47400,8 @@ exports.data = [
         "hide": true,
         "forgeID": 19,
         "forgeTarget": 1308,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-5.png",
+        "iconm": "m-p-mainweapon2-5.png"
     },
     {
         "classId": 1304,
@@ -47448,8 +47448,8 @@ exports.data = [
         "hide": true,
         "forgeID": 19,
         "forgeTarget": 1309,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-5.png",
+        "iconm": "m-p-mainweapon2-5.png"
     },
     {
         "classId": 1305,
@@ -47495,8 +47495,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-4.png",
+        "iconm": "m-p-mainweapon2-4.png"
     },
     {
         "classId": 1306,
@@ -47544,8 +47544,8 @@ exports.data = [
         "hide": true,
         "forgeID": 25,
         "forgeTarget": 1311,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-4.png",
+        "iconm": "m-p-mainweapon2-4.png"
     },
     {
         "classId": 1307,
@@ -47593,8 +47593,8 @@ exports.data = [
         "hide": true,
         "forgeID": 25,
         "forgeTarget": 1312,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-4.png",
+        "iconm": "m-p-mainweapon2-4.png"
     },
     {
         "classId": 1308,
@@ -47642,8 +47642,8 @@ exports.data = [
         "hide": true,
         "forgeID": 25,
         "forgeTarget": 1313,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-4.png",
+        "iconm": "m-p-mainweapon2-4.png"
     },
     {
         "classId": 1309,
@@ -47691,8 +47691,8 @@ exports.data = [
         "hide": true,
         "forgeID": 25,
         "forgeTarget": 1314,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-4.png",
+        "iconm": "m-p-mainweapon2-4.png"
     },
     {
         "classId": 1310,
@@ -47739,8 +47739,8 @@ exports.data = [
         "hide": true,
         "forgeID": 25,
         "forgeTarget": 1315,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-4.png",
+        "iconm": "m-p-mainweapon2-4.png"
     },
     {
         "classId": 1311,
@@ -47786,8 +47786,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-3.png",
+        "iconm": "m-p-mainweapon2-3.png"
     },
     {
         "classId": 1312,
@@ -47835,8 +47835,8 @@ exports.data = [
         "hide": true,
         "forgeID": 31,
         "forgeTarget": 1317,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-3.png",
+        "iconm": "m-p-mainweapon2-3.png"
     },
     {
         "classId": 1313,
@@ -47884,8 +47884,8 @@ exports.data = [
         "hide": true,
         "forgeID": 31,
         "forgeTarget": 1318,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-3.png",
+        "iconm": "m-p-mainweapon2-3.png"
     },
     {
         "classId": 1314,
@@ -47933,8 +47933,8 @@ exports.data = [
         "hide": true,
         "forgeID": 31,
         "forgeTarget": 1319,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-3.png",
+        "iconm": "m-p-mainweapon2-3.png"
     },
     {
         "classId": 1315,
@@ -47982,8 +47982,8 @@ exports.data = [
         "hide": true,
         "forgeID": 31,
         "forgeTarget": 1320,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-3.png",
+        "iconm": "m-p-mainweapon2-3.png"
     },
     {
         "classId": 1316,
@@ -48030,8 +48030,8 @@ exports.data = [
         "hide": true,
         "forgeID": 31,
         "forgeTarget": 1321,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-3.png",
+        "iconm": "m-p-mainweapon2-3.png"
     },
     {
         "classId": 1317,
@@ -48077,8 +48077,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-2.png",
+        "iconm": "m-p-mainweapon2-2.png"
     },
     {
         "classId": 1318,
@@ -48126,8 +48126,8 @@ exports.data = [
         "hide": true,
         "forgeID": 37,
         "forgeTarget": 1323,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-2.png",
+        "iconm": "m-p-mainweapon2-2.png"
     },
     {
         "classId": 1319,
@@ -48175,8 +48175,8 @@ exports.data = [
         "hide": true,
         "forgeID": 37,
         "forgeTarget": 1324,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-2.png",
+        "iconm": "m-p-mainweapon2-2.png"
     },
     {
         "classId": 1320,
@@ -48224,8 +48224,8 @@ exports.data = [
         "hide": true,
         "forgeID": 37,
         "forgeTarget": 1325,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-2.png",
+        "iconm": "m-p-mainweapon2-2.png"
     },
     {
         "classId": 1321,
@@ -48273,8 +48273,8 @@ exports.data = [
         "hide": true,
         "forgeID": 37,
         "forgeTarget": 1326,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-2.png",
+        "iconm": "m-p-mainweapon2-2.png"
     },
     {
         "classId": 1322,
@@ -48321,8 +48321,8 @@ exports.data = [
         "hide": true,
         "forgeID": 37,
         "forgeTarget": 1327,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2-2.png",
+        "iconm": "m-p-mainweapon2-2.png"
     },
     {
         "classId": 1323,
@@ -48368,8 +48368,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2.png",
+        "iconm": "m-p-mainweapon2.png"
     },
     {
         "classId": 1324,
@@ -48415,8 +48415,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2.png",
+        "iconm": "m-p-mainweapon2.png"
     },
     {
         "classId": 1325,
@@ -48462,8 +48462,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2.png",
+        "iconm": "m-p-mainweapon2.png"
     },
     {
         "classId": 1326,
@@ -48509,8 +48509,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2.png",
+        "iconm": "m-p-mainweapon2.png"
     },
     {
         "classId": 1327,
@@ -48556,8 +48556,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2.png",
+        "iconm": "m-p-mainweapon2.png"
     },
     {
         "classId": 1328,
@@ -48602,8 +48602,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon2.png",
+        "iconm": "m-p-mainweapon2.png"
     },
     {
         "classId": 1329,
@@ -48640,8 +48640,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-5.png",
+        "iconm": "m-p-mainweapon1-5.png"
     },
     {
         "classId": 1330,
@@ -48680,8 +48680,8 @@ exports.data = [
         "hide": true,
         "forgeID": 20,
         "forgeTarget": 1335,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-5.png",
+        "iconm": "m-p-mainweapon1-5.png"
     },
     {
         "classId": 1331,
@@ -48720,8 +48720,8 @@ exports.data = [
         "hide": true,
         "forgeID": 20,
         "forgeTarget": 1336,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-5.png",
+        "iconm": "m-p-mainweapon1-5.png"
     },
     {
         "classId": 1332,
@@ -48760,8 +48760,8 @@ exports.data = [
         "hide": true,
         "forgeID": 20,
         "forgeTarget": 1337,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-5.png",
+        "iconm": "m-p-mainweapon1-5.png"
     },
     {
         "classId": 1333,
@@ -48800,8 +48800,8 @@ exports.data = [
         "hide": true,
         "forgeID": 20,
         "forgeTarget": 1338,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-5.png",
+        "iconm": "m-p-mainweapon1-5.png"
     },
     {
         "classId": 1334,
@@ -48839,8 +48839,8 @@ exports.data = [
         "hide": true,
         "forgeID": 20,
         "forgeTarget": 1339,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-5.png",
+        "iconm": "m-p-mainweapon1-5.png"
     },
     {
         "classId": 1335,
@@ -48877,8 +48877,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-4.png",
+        "iconm": "m-p-mainweapon1-4.png"
     },
     {
         "classId": 1336,
@@ -48917,8 +48917,8 @@ exports.data = [
         "hide": true,
         "forgeID": 26,
         "forgeTarget": 1341,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-4.png",
+        "iconm": "m-p-mainweapon1-4.png"
     },
     {
         "classId": 1337,
@@ -48957,8 +48957,8 @@ exports.data = [
         "hide": true,
         "forgeID": 26,
         "forgeTarget": 1342,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-4.png",
+        "iconm": "m-p-mainweapon1-4.png"
     },
     {
         "classId": 1338,
@@ -48997,8 +48997,8 @@ exports.data = [
         "hide": true,
         "forgeID": 26,
         "forgeTarget": 1343,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-4.png",
+        "iconm": "m-p-mainweapon1-4.png"
     },
     {
         "classId": 1339,
@@ -49037,8 +49037,8 @@ exports.data = [
         "hide": true,
         "forgeID": 26,
         "forgeTarget": 1344,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-4.png",
+        "iconm": "m-p-mainweapon1-4.png"
     },
     {
         "classId": 1340,
@@ -49076,8 +49076,8 @@ exports.data = [
         "hide": true,
         "forgeID": 26,
         "forgeTarget": 1345,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-4.png",
+        "iconm": "m-p-mainweapon1-4.png"
     },
     {
         "classId": 1341,
@@ -49114,8 +49114,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-3.png",
+        "iconm": "m-p-mainweapon1-3.png"
     },
     {
         "classId": 1342,
@@ -49154,8 +49154,8 @@ exports.data = [
         "hide": true,
         "forgeID": 32,
         "forgeTarget": 1347,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-3.png",
+        "iconm": "m-p-mainweapon1-3.png"
     },
     {
         "classId": 1343,
@@ -49194,8 +49194,8 @@ exports.data = [
         "hide": true,
         "forgeID": 32,
         "forgeTarget": 1348,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-3.png",
+        "iconm": "m-p-mainweapon1-3.png"
     },
     {
         "classId": 1344,
@@ -49234,8 +49234,8 @@ exports.data = [
         "hide": true,
         "forgeID": 32,
         "forgeTarget": 1349,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-3.png",
+        "iconm": "m-p-mainweapon1-3.png"
     },
     {
         "classId": 1345,
@@ -49274,8 +49274,8 @@ exports.data = [
         "hide": true,
         "forgeID": 32,
         "forgeTarget": 1350,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-3.png",
+        "iconm": "m-p-mainweapon1-3.png"
     },
     {
         "classId": 1346,
@@ -49313,8 +49313,8 @@ exports.data = [
         "hide": true,
         "forgeID": 32,
         "forgeTarget": 1351,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-3.png",
+        "iconm": "m-p-mainweapon1-3.png"
     },
     {
         "classId": 1347,
@@ -49351,8 +49351,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-2.png",
+        "iconm": "m-p-mainweapon1-2.png"
     },
     {
         "classId": 1348,
@@ -49391,8 +49391,8 @@ exports.data = [
         "hide": true,
         "forgeID": 38,
         "forgeTarget": 1353,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-2.png",
+        "iconm": "m-p-mainweapon1-2.png"
     },
     {
         "classId": 1349,
@@ -49431,8 +49431,8 @@ exports.data = [
         "hide": true,
         "forgeID": 38,
         "forgeTarget": 1354,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-2.png",
+        "iconm": "m-p-mainweapon1-2.png"
     },
     {
         "classId": 1350,
@@ -49471,8 +49471,8 @@ exports.data = [
         "hide": true,
         "forgeID": 38,
         "forgeTarget": 1355,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-2.png",
+        "iconm": "m-p-mainweapon1-2.png"
     } ,
     {
         "classId": 1351,
@@ -49511,8 +49511,8 @@ exports.data = [
         "hide": true,
         "forgeID": 38,
         "forgeTarget": 1356,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-2.png",
+        "iconm": "m-p-mainweapon1-2.png"
     },
     {
         "classId": 1352,
@@ -49550,8 +49550,8 @@ exports.data = [
         "hide": true,
         "forgeID": 38,
         "forgeTarget": 1357,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1-2.png",
+        "iconm": "m-p-mainweapon1-2.png"
     },
     {
         "classId": 1353,
@@ -49588,8 +49588,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1.png",
+        "iconm": "m-p-mainweapon1.png"
     },
     {
         "classId": 1354,
@@ -49626,8 +49626,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1.png",
+        "iconm": "m-p-mainweapon1.png"
     },
     {
         "classId": 1355,
@@ -49664,8 +49664,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1.png",
+        "iconm": "m-p-mainweapon1.png"
     },
     {
         "classId": 1356,
@@ -49702,8 +49702,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1.png",
+        "iconm": "m-p-mainweapon1.png"
     },
     {
         "classId": 1357,
@@ -49740,8 +49740,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1.png",
+        "iconm": "m-p-mainweapon1.png"
     },
     {
         "classId": 1358,
@@ -49777,8 +49777,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "ewsubweapon5.png",
-        "iconm": "ewsubweapon5-2.png"
+        "iconf": "f-p-mainweapon1.png",
+        "iconm": "m-p-mainweapon1.png"
     },
     {
         "classId": 1359,
