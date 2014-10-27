@@ -4778,30 +4778,27 @@ exports.data = [
     },
     {
         "skillId": 206,
-        "label":"法术大师",
+        "label":"元素崩塌",
         "icon": "skill-mage2.png",
-        "desc":"大法师释放的法术和攻击有几率攻击复数敌人。",
+        "desc":"提升暴击伤害。",
         "slotId": 3,
         "config":{
             "triggerCondition": [
-                { "type": "event", "event": "onTarget" },
-                { "type": "event", "event": "onBeginSpellTurn"},
-                { "type": "chance" }
+                { "type": "event", "event": "onCriticalDamage" }
             ],
             "targetSelection": {
-                "pool": "objects",
-                "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"attackable"},{"type":"count","count":2}]
+                "pool": "target",
+                "filter": [{"type":"alive"},{"type":"visible"}]
             },
             "action": [
-                { "type": "damage","damageType":"Spell","isRange":true,"delay":0.8},
-                { "type": "playEffect","effect":65,"act":"target","delay":0.6},
-                { "type": "blink","delay":0.6,"time":0.08},
-                { "type": "shock","delay":0.6,"range":5,"time":0.2}
+                {"type": "modifyVar", "x": "damage" },
+                {"type": "blink","delay":0.3,"time":0.08},
+                {"type":"shock","delay":0.3,"range":5,"time":0.2}
             ],
             "levelConfig":[
-                { "chance":0.2,"formular": {"src":{"attack":0.3}}, "level": 1},
-                { "chance":0.25,"formular": {"src":{"attack":0.45}}, "level": 2},
-                { "chance":0.3,"formular": {"src":{"attack":0.6}}, "level": 3}
+                { "formular": {"src":{"attack":2.3}}, "level": 1},
+                { "formular": {"src":{"attack":2.7}}, "level": 2},
+                { "formular": {"src":{"attack":3.0}}, "level": 3}
             ]
         }
     },
