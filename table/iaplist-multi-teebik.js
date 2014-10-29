@@ -37,7 +37,7 @@ exports.data = {
         },
         {
             "price": 3.99,
-            "gem": 180,
+            "gem": 0,
             "enable": true
         }
     ]
