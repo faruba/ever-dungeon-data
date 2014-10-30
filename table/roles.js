@@ -7853,15 +7853,14 @@ exports.data = [
             10,
             11,
             879,
-            880,
-            881,
-            882,
-            662,
-            712,
-            883
+            909,
+            939,
+            969,
+            999,
+            1029
         ],
         "levelId": 0,
-        "transId":197
+        "transId":219
     },
     {
         "classId": 217,
@@ -7887,16 +7886,15 @@ exports.data = [
             6,
             10,
             11,
-            884,
-            885,
-            886,
-            887,
-            652,
-            742,
-            888
+            1059,
+            1089,
+            1119,
+            1149,
+            1179,
+            1209
         ],
         "levelId": 0,
-        "transId":198
+        "transId":220
     },
     {
         "classId": 218,
@@ -7922,15 +7920,95 @@ exports.data = [
             6,
             10,
             11,
-            889,
-            890,
-            891,
-            892,
-            682,
-            772,
-            893
+            1239,
+            1269,
+            1299,
+            1329,
+            1359,
+            1389
         ],
         "levelId": 0,
-        "transId":199
+        "transId":221
+    },
+    {
+        "classId": 219,
+        "className": "pk狂战士",
+        "faction": "monster",
+        "classType": 4,
+        "avatar": "avatar1.ccbi",
+        "emblem": [
+            "emblem-warrior.png",
+            "emblem-warrior2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            879,
+            909,
+            939,
+            969,
+            999,
+            1029
+        ],
+        "property": {
+            "keyd":true,
+            "counterAttack": true
+        },
+        "levelId": 4
+    },
+    {
+        "classId": 220,
+        "className": "pk魔导师",
+        "faction": "monster",
+        "classType": 4,
+        "avatar": "avatar2.ccbi",
+        "emblem": [
+            "emblem-mage.png",
+            "emblem-mage2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            1059,
+            1089,
+            1119,
+            1149,
+            1179,
+            1209
+        ],
+        "property": {
+            "keyd":true,
+            "counterAttack": true
+        },
+        "levelId": 5
+    },
+    {
+        "classId": 221,
+        "className": "pk主教",
+        "faction": "monster",
+        "classType": 4,
+        "avatar": "avatar3.ccbi",
+        "emblem": [
+            "emblem-priest.png",
+            "emblem-priest2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            1239,
+            1269,
+            1299,
+            1329,
+            1359,
+            1389
+        ],
+        "property": {
+            "keyd":true,
+            "counterAttack": true
+        },
+        "levelId": 6
     }
 ]
