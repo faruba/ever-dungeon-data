@@ -3568,6 +3568,7 @@ exports.data = [
         "config": {
             "triggerCondition": [
                 {"type":"event","event":"onBeEndBattleTurn"},
+                { "type": "chance", "chance": 0.35 },
                 {"type":"alive"}
             ],
             "targetSelection":{
