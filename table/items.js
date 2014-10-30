@@ -27983,7 +27983,7 @@ exports.data = [
         "label": "勇者战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "勇者战靴lv1",
+        "description": "赐予勇敢的战士敏捷动作的战靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28029,7 +28029,7 @@ exports.data = [
         "label": "勇者战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "勇者战靴lv2",
+        "description": "赐予勇敢的战士敏捷动作的战靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28077,7 +28077,7 @@ exports.data = [
         "label": "勇者战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "勇者战靴lv3",
+        "description": "赐予勇敢的战士敏捷动作的战靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28125,7 +28125,7 @@ exports.data = [
         "label": "勇者战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "勇者战靴lv4",
+        "description": "赐予勇敢的战士敏捷动作的战靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28173,7 +28173,7 @@ exports.data = [
         "label": "勇者战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "勇者战靴lv5",
+        "description": "赐予勇敢的战士敏捷动作的战靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28221,7 +28221,7 @@ exports.data = [
         "label": "勇者战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "勇者战靴lv6",
+        "description": "赐予勇敢的战士敏捷动作的战靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -29398,7 +29398,7 @@ exports.data = [
         "label": "勇者战甲",
         "category": 1,
         "subcategory": 2,
-        "description": "勇者战甲lv1",
+        "description": "为lv1",
         "effectf": [
             {
                 "part": "chest",
@@ -34336,7 +34336,7 @@ exports.data = [
         "icon": "er011.png",
         "category": 1,
         "subcategory": 3,
-        "description": "勇者指环lv1",
+        "description": "勇者的象征",
         "classLimit": [
             0
         ],
@@ -34362,7 +34362,7 @@ exports.data = [
         "icon": "er011.png",
         "category": 1,
         "subcategory": 3,
-        "description": "勇者指环lv2",
+        "description": "勇者的象征",
         "classLimit": [
             0
         ],
@@ -34390,7 +34390,7 @@ exports.data = [
         "icon": "er011.png",
         "category": 1,
         "subcategory": 3,
-        "description": "勇者指环lv3",
+        "description": "勇者的象征",
         "classLimit": [
             0
         ],
@@ -34418,7 +34418,7 @@ exports.data = [
         "icon": "er011.png",
         "category": 1,
         "subcategory": 3,
-        "description": "勇者指环lv4",
+        "description": "勇者的象征",
         "classLimit": [
             0
         ],
@@ -34446,7 +34446,7 @@ exports.data = [
         "icon": "er011.png",
         "category": 1,
         "subcategory": 3,
-        "description": "勇者指环lv5",
+        "description": "勇者的象征",
         "classLimit": [
             0
         ],
@@ -34474,7 +34474,7 @@ exports.data = [
         "icon": "er011.png",
         "category": 1,
         "subcategory": 3,
-        "description": "勇者指环lv6",
+        "description": "勇者的象征",
         "classLimit": [
             0
         ],
@@ -35151,7 +35151,7 @@ exports.data = [
         "icon": "ewn011.png",
         "category": 1,
         "subcategory": 5,
-        "description": "勇者之心lv1",
+        "description": "为消灭怪物的狂战士带来无穷的勇气",
         "classLimit": [
             0
         ],
@@ -35178,7 +35178,7 @@ exports.data = [
         "icon": "ewn011.png",
         "category": 1,
         "subcategory": 5,
-        "description": "勇者之心lv2",
+        "description": "为消灭怪物的狂战士带来无穷的勇气",
         "classLimit": [
             0
         ],
@@ -35207,7 +35207,7 @@ exports.data = [
         "icon": "ewn011.png",
         "category": 1,
         "subcategory": 5,
-        "description": "勇者之心lv3",
+        "description": "为消灭怪物的狂战士带来无穷的勇气",
         "classLimit": [
             0
         ],
@@ -35236,7 +35236,7 @@ exports.data = [
         "icon": "ewn011.png",
         "category": 1,
         "subcategory": 5,
-        "description": "勇者之心lv4",
+        "description": "为消灭怪物的狂战士带来无穷的勇气",
         "classLimit": [
             0
         ],
@@ -35265,7 +35265,7 @@ exports.data = [
         "icon": "ewn011.png",
         "category": 1,
         "subcategory": 5,
-        "description": "勇者之心lv5",
+        "description": "为消灭怪物的狂战士带来无穷的勇气",
         "classLimit": [
             0
         ],
@@ -35294,7 +35294,7 @@ exports.data = [
         "icon": "ewn011.png",
         "category": 1,
         "subcategory": 5,
-        "description": "勇者之心lv6",
+        "description": "为消灭怪物的狂战士带来无穷的勇气",
         "classLimit": [
             0
         ],
