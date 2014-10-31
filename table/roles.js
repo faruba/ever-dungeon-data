@@ -7785,7 +7785,22 @@ exports.data = [
         "className": "测试流浪剑士",
         "faction": "monster",
         "classType": 1,
-        "avatar": "enemy-sword2.ccbi",
+        "avatar": "avatar.ccbi",
+        "emblem": [
+            "emblem-warrior.png",
+            "emblem-warrior2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            40,
+            41,
+            42,
+            43,
+            662,
+            712
+        ],
         "property": {
             "health": 5,
             "attack": 0.5,
@@ -7814,19 +7829,30 @@ exports.data = [
         "effectAttack": 8,
         "skill": [
             {
-                "id": 185,
+                "id": 132,
                 "level": 1
             },
             {
-                "id": 183,
+                "id": 128,
                 "level": 1
             },
             {
                 "id": 27,
                 "level": 1
+            },
+            {
+                "id": 132,
+                "level": 1
+            },
+            {
+                "id": 134,
+                "level": 1
+            },
+            {
+                "id": 135,
+                "level": 1
             }
-        ],
-        "scale": 1.2
+        ]
     },
     {
         "classId": 216,
