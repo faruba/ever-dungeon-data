@@ -28268,7 +28268,7 @@ exports.data = [
         "label": "角斗士战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "角斗士战靴lv2",
+        "description": "沉重的铁靴，角斗士们的最爱",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28314,7 +28314,7 @@ exports.data = [
         "label": "角斗士战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "角斗士战靴lv3",
+        "description": "沉重的铁靴，角斗士们的最爱",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28362,7 +28362,7 @@ exports.data = [
         "label": "角斗士战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "角斗士战靴lv4",
+        "description": "沉重的铁靴，角斗士们的最爱",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28410,7 +28410,7 @@ exports.data = [
         "label": "角斗士战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "角斗士战靴lv5",
+        "description": "沉重的铁靴，角斗士们的最爱",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28458,7 +28458,7 @@ exports.data = [
         "label": "角斗士战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "角斗士战靴lv6",
+        "description": "沉重的铁靴，角斗士们的最爱",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28506,7 +28506,7 @@ exports.data = [
         "label": "角斗士战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "角斗士战靴lv7",
+        "description": "沉重的铁靴，角斗士们的最爱",
         "effectf": [
             {
                 "part": "leftleg",
@@ -29875,7 +29875,7 @@ exports.data = [
         "label": "角斗士战甲",
         "category": 1,
         "subcategory": 2,
-        "description": "角斗士战甲lv2",
+        "description": "厚重的战甲，在战场上角斗士们的生存保障",
         "effectf": [
             {
                 "part": "chest",
@@ -29953,7 +29953,7 @@ exports.data = [
         "label": "角斗士战甲",
         "category": 1,
         "subcategory": 2,
-        "description": "角斗士战甲lv3",
+        "description": "厚重的战甲，在战场上角斗士们的生存保障",
         "effectf": [
             {
                 "part": "chest",
@@ -30033,7 +30033,7 @@ exports.data = [
         "label": "角斗士战甲",
         "category": 1,
         "subcategory": 2,
-        "description": "角斗士战甲lv4",
+        "description": "厚重的战甲，在战场上角斗士们的生存保障",
         "effectf": [
             {
                 "part": "chest",
@@ -30113,7 +30113,7 @@ exports.data = [
         "label": "角斗士战甲",
         "category": 1,
         "subcategory": 2,
-        "description": "角斗士战甲lv5",
+        "description": "厚重的战甲，在战场上角斗士们的生存保障",
         "effectf": [
             {
                 "part": "chest",
@@ -30193,7 +30193,7 @@ exports.data = [
         "label": "角斗士战甲",
         "category": 1,
         "subcategory": 2,
-        "description": "角斗士战甲lv6",
+        "description": "厚重的战甲，在战场上角斗士们的生存保障",
         "effectf": [
             {
                 "part": "chest",
@@ -30273,7 +30273,7 @@ exports.data = [
         "label": "角斗士战甲",
         "category": 1,
         "subcategory": 2,
-        "description": "角斗士战甲lv7",
+        "description": "厚重的战甲，在战场上角斗士们的生存保障",
         "effectf": [
             {
                 "part": "chest",
