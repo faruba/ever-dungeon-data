@@ -32048,7 +32048,7 @@ exports.data = [
         "label": "角斗士巨斧",
         "category": 1,
         "subcategory": 1,
-        "description": "角斗士巨斧lv2",
+        "description": "挥舞起来，能撕碎敌人",
         "effectf": [
             {
                 "part": "secondaryweapon2",
@@ -32092,7 +32092,7 @@ exports.data = [
         "label": "角斗士巨斧",
         "category": 1,
         "subcategory": 1,
-        "description": "角斗士巨斧lv3",
+        "description": "挥舞起来，能撕碎敌人",
         "effectf": [
             {
                 "part": "secondaryweapon2",
@@ -32138,7 +32138,7 @@ exports.data = [
         "label": "角斗士巨斧",
         "category": 1,
         "subcategory": 1,
-        "description": "角斗士巨斧lv4",
+        "description": "挥舞起来，能撕碎敌人",
         "effectf": [
             {
                 "part": "secondaryweapon2",
@@ -32184,7 +32184,7 @@ exports.data = [
         "label": "角斗士巨斧",
         "category": 1,
         "subcategory": 1,
-        "description": "角斗士巨斧lv5",
+        "description": "挥舞起来，能撕碎敌人",
         "effectf": [
             {
                 "part": "secondaryweapon2",
@@ -32230,7 +32230,7 @@ exports.data = [
         "label": "角斗士巨斧",
         "category": 1,
         "subcategory": 1,
-        "description": "角斗士巨斧lv6",
+        "description": "挥舞起来，能撕碎敌人",
         "effectf": [
             {
                 "part": "secondaryweapon2",
@@ -32276,7 +32276,7 @@ exports.data = [
         "label": "角斗士巨斧",
         "category": 1,
         "subcategory": 1,
-        "description": "角斗士巨斧lv7",
+        "description": "挥舞起来，能撕碎敌人",
         "effectf": [
             {
                 "part": "secondaryweapon2",
@@ -33373,7 +33373,7 @@ exports.data = [
         "label": "角斗士大剑",
         "category": 1,
         "subcategory": 0,
-        "description": "角斗士大剑lv2",
+        "description": "角斗士不可缺少的利器，能斩破一切阻碍",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -33412,7 +33412,7 @@ exports.data = [
         "label": "角斗士大剑",
         "category": 1,
         "subcategory": 0,
-        "description": "角斗士大剑lv3",
+        "description": "角斗士不可缺少的利器，能斩破一切阻碍",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -33453,7 +33453,7 @@ exports.data = [
         "label": "角斗士大剑",
         "category": 1,
         "subcategory": 0,
-        "description": "角斗士大剑lv4",
+        "description": "角斗士不可缺少的利器，能斩破一切阻碍",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -33494,7 +33494,7 @@ exports.data = [
         "label": "角斗士大剑",
         "category": 1,
         "subcategory": 0,
-        "description": "角斗士大剑lv5",
+        "description": "角斗士不可缺少的利器，能斩破一切阻碍",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -33535,7 +33535,7 @@ exports.data = [
         "label": "角斗士大剑",
         "category": 1,
         "subcategory": 0,
-        "description": "角斗士大剑lv6",
+        "description": "角斗士不可缺少的利器，能斩破一切阻碍",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -33576,7 +33576,7 @@ exports.data = [
         "label": "角斗士大剑",
         "category": 1,
         "subcategory": 0,
-        "description": "角斗士大剑lv7",
+        "description": "角斗士不可缺少的利器，能斩破一切阻碍",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -34501,7 +34501,7 @@ exports.data = [
         "icon": "er021.png",
         "category": 1,
         "subcategory": 3,
-        "description": "角斗士指环lv2",
+        "description": "勇猛角斗士的标志，见证了角斗士的杀戮",
         "classLimit": [
             0
         ],
@@ -34527,7 +34527,7 @@ exports.data = [
         "icon": "er021.png",
         "category": 1,
         "subcategory": 3,
-        "description": "角斗士指环lv3",
+        "description": "勇猛角斗士的标志，见证了角斗士的杀戮",
         "classLimit": [
             0
         ],
@@ -34555,7 +34555,7 @@ exports.data = [
         "icon": "er021.png",
         "category": 1,
         "subcategory": 3,
-        "description": "角斗士指环lv4",
+        "description": "勇猛角斗士的标志，见证了角斗士的杀戮",
         "classLimit": [
             0
         ],
@@ -34583,7 +34583,7 @@ exports.data = [
         "icon": "er021.png",
         "category": 1,
         "subcategory": 3,
-        "description": "角斗士指环lv5",
+        "description": "勇猛角斗士的标志，见证了角斗士的杀戮",
         "classLimit": [
             0
         ],
@@ -34611,7 +34611,7 @@ exports.data = [
         "icon": "er021.png",
         "category": 1,
         "subcategory": 3,
-        "description": "角斗士指环lv6",
+        "description": "勇猛角斗士的标志，见证了角斗士的杀戮",
         "classLimit": [
             0
         ],
@@ -34639,7 +34639,7 @@ exports.data = [
         "icon": "er021.png",
         "category": 1,
         "subcategory": 3,
-        "description": "角斗士指环lv7",
+        "description": "勇猛角斗士的标志，见证了角斗士的杀戮",
         "classLimit": [
             0
         ],
@@ -35322,7 +35322,7 @@ exports.data = [
         "icon": "ewn021.png",
         "category": 1,
         "subcategory": 5,
-        "description": "角斗士之心lv2",
+        "description": "角斗士的信念和力量的源泉",
         "classLimit": [
             0
         ],
@@ -35349,7 +35349,7 @@ exports.data = [
         "icon": "ewn021.png",
         "category": 1,
         "subcategory": 5,
-        "description": "角斗士之心lv3",
+        "description": "角斗士的信念和力量的源泉",
         "classLimit": [
             0
         ],
@@ -35378,7 +35378,7 @@ exports.data = [
         "icon": "ewn021.png",
         "category": 1,
         "subcategory": 5,
-        "description": "角斗士之心lv4",
+        "description": "角斗士的信念和力量的源泉",
         "classLimit": [
             0
         ],
@@ -35407,7 +35407,7 @@ exports.data = [
         "icon": "ewn021.png",
         "category": 1,
         "subcategory": 5,
-        "description": "角斗士之心lv5",
+        "description": "角斗士的信念和力量的源泉",
         "classLimit": [
             0
         ],
@@ -35436,7 +35436,7 @@ exports.data = [
         "icon": "ewn021.png",
         "category": 1,
         "subcategory": 5,
-        "description": "角斗士之心lv6",
+        "description": "角斗士的信念和力量的源泉",
         "classLimit": [
             0
         ],
@@ -35465,7 +35465,7 @@ exports.data = [
         "icon": "ewn021.png",
         "category": 1,
         "subcategory": 5,
-        "description": "角斗士之心lv7",
+        "description": "角斗士的信念和力量的源泉",
         "classLimit": [
             0
         ],
