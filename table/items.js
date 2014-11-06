@@ -29123,7 +29123,7 @@ exports.data = [
         "label": "凯旋之翼战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "凯旋之翼战靴lv5",
+        "description": "战争女神赐予的战靴，能带来胜利",
         "effectf": [
             {
                 "part": "leftleg",
@@ -29169,7 +29169,7 @@ exports.data = [
         "label": "凯旋之翼战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "凯旋之翼战靴lv6",
+        "description": "战争女神赐予的战靴，能带来胜利",
         "effectf": [
             {
                 "part": "leftleg",
@@ -29215,7 +29215,7 @@ exports.data = [
         "label": "凯旋之翼战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "凯旋之翼战靴lv7",
+        "description": "战争女神赐予的战靴，能带来胜利",
         "effectf": [
             {
                 "part": "leftleg",
@@ -29261,7 +29261,7 @@ exports.data = [
         "label": "凯旋之翼战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "凯旋之翼战靴lv8",
+        "description": "战争女神赐予的战靴，能带来胜利",
         "effectf": [
             {
                 "part": "leftleg",
@@ -29307,7 +29307,7 @@ exports.data = [
         "label": "凯旋之翼战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "凯旋之翼战靴lv9",
+        "description": "战争女神赐予的战靴，能带来胜利",
         "effectf": [
             {
                 "part": "leftleg",
@@ -29353,7 +29353,7 @@ exports.data = [
         "label": "凯旋之翼战靴",
         "category": 1,
         "subcategory": 4,
-        "description": "凯旋之翼战靴lv10",
+        "description": "战争女神赐予的战靴，能带来胜利",
         "effectf": [
             {
                 "part": "leftleg",
@@ -31308,7 +31308,7 @@ exports.data = [
         "label": "凯旋之翼圣铠",
         "category": 1,
         "subcategory": 2,
-        "description": "凯旋之翼圣铠lv5",
+        "description": "荣耀的光辉凝聚而成的神圣铠甲",
         "effectf": [
             {
                 "part": "chest",
@@ -31386,7 +31386,7 @@ exports.data = [
         "label": "凯旋之翼圣铠",
         "category": 1,
         "subcategory": 2,
-        "description": "凯旋之翼圣铠lv6",
+        "description": "荣耀的光辉凝聚而成的神圣铠甲",
         "effectf": [
             {
                 "part": "chest",
@@ -31464,7 +31464,7 @@ exports.data = [
         "label": "凯旋之翼圣铠",
         "category": 1,
         "subcategory": 2,
-        "description": "凯旋之翼圣铠lv7",
+        "description": "荣耀的光辉凝聚而成的神圣铠甲",
         "effectf": [
             {
                 "part": "chest",
@@ -31542,7 +31542,7 @@ exports.data = [
         "label": "凯旋之翼圣铠",
         "category": 1,
         "subcategory": 2,
-        "description": "凯旋之翼圣铠lv8",
+        "description": "荣耀的光辉凝聚而成的神圣铠甲",
         "effectf": [
             {
                 "part": "chest",
@@ -31620,7 +31620,7 @@ exports.data = [
         "label": "凯旋之翼圣铠",
         "category": 1,
         "subcategory": 2,
-        "description": "凯旋之翼圣铠lv9",
+        "description": "荣耀的光辉凝聚而成的神圣铠甲",
         "effectf": [
             {
                 "part": "chest",
@@ -31698,7 +31698,7 @@ exports.data = [
         "label": "凯旋之翼圣铠",
         "category": 1,
         "subcategory": 2,
-        "description": "凯旋之翼圣铠lv10",
+        "description": "荣耀的光辉凝聚而成的神圣铠甲",
         "effectf": [
             {
                 "part": "chest",
@@ -32867,7 +32867,7 @@ exports.data = [
         "label": "战争撕裂者",
         "category": 1,
         "subcategory": 1,
-        "description": "战争撕裂者lv5",
+        "description": "充满毁灭气息的杀戮工具",
         "effectf": [
             {
                 "part": "secondaryweapon2",
@@ -32911,7 +32911,7 @@ exports.data = [
         "label": "战争撕裂者",
         "category": 1,
         "subcategory": 1,
-        "description": "战争撕裂者lv6",
+        "description": "充满毁灭气息的杀戮工具",
         "effectf": [
             {
                 "part": "secondaryweapon2",
@@ -32955,7 +32955,7 @@ exports.data = [
         "label": "战争撕裂者",
         "category": 1,
         "subcategory": 1,
-        "description": "战争撕裂者lv7",
+        "description": "充满毁灭气息的杀戮工具",
         "effectf": [
             {
                 "part": "secondaryweapon2",
@@ -32999,7 +32999,7 @@ exports.data = [
         "label": "战争撕裂者",
         "category": 1,
         "subcategory": 1,
-        "description": "战争撕裂者lv8",
+        "description": "充满毁灭气息的杀戮工具",
         "effectf": [
             {
                 "part": "secondaryweapon2",
@@ -33043,7 +33043,7 @@ exports.data = [
         "label": "战争撕裂者",
         "category": 1,
         "subcategory": 1,
-        "description": "战争撕裂者lv9",
+        "description": "充满毁灭气息的杀戮工具",
         "effectf": [
             {
                 "part": "secondaryweapon2",
@@ -33087,7 +33087,7 @@ exports.data = [
         "label": "战争撕裂者",
         "category": 1,
         "subcategory": 1,
-        "description": "战争撕裂者lv10",
+        "description": "充满毁灭气息的杀戮工具",
         "effectf": [
             {
                 "part": "secondaryweapon2",
@@ -34102,7 +34102,7 @@ exports.data = [
         "label": "阿瑞斯之力",
         "category": 1,
         "subcategory": 0,
-        "description": "阿瑞斯之力lv5",
+        "description": "附有传说中战神力量的神器",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -34141,7 +34141,7 @@ exports.data = [
         "label": "阿瑞斯之力",
         "category": 1,
         "subcategory": 0,
-        "description": "阿瑞斯之力lv6",
+        "description": "附有传说中战神力量的神器",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -34180,7 +34180,7 @@ exports.data = [
         "label": "阿瑞斯之力",
         "category": 1,
         "subcategory": 0,
-        "description": "阿瑞斯之力lv7",
+        "description": "附有传说中战神力量的神器",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -34219,7 +34219,7 @@ exports.data = [
         "label": "阿瑞斯之力",
         "category": 1,
         "subcategory": 0,
-        "description": "阿瑞斯之力lv8",
+        "description": "附有传说中战神力量的神器",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -34258,7 +34258,7 @@ exports.data = [
         "label": "阿瑞斯之力",
         "category": 1,
         "subcategory": 0,
-        "description": "阿瑞斯之力lv9",
+        "description": "附有传说中战神力量的神器",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -34297,7 +34297,7 @@ exports.data = [
         "label": "阿瑞斯之力",
         "category": 1,
         "subcategory": 0,
-        "description": "阿瑞斯之力lv10",
+        "description": "附有传说中战神力量的神器",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -34996,7 +34996,7 @@ exports.data = [
         "icon": "er041.png",
         "category": 1,
         "subcategory": 3,
-        "description": "撕裂者玺戒lv5",
+        "description": "充满杀戮气息的艺术品",
         "classLimit": [
             216
         ],
@@ -35022,7 +35022,7 @@ exports.data = [
         "icon": "er041.png",
         "category": 1,
         "subcategory": 3,
-        "description": "撕裂者玺戒lv6",
+        "description": "充满杀戮气息的艺术品",
         "classLimit": [
             216
         ],
@@ -35048,7 +35048,7 @@ exports.data = [
         "icon": "er041.png",
         "category": 1,
         "subcategory": 3,
-        "description": "撕裂者玺戒lv7",
+        "description": "充满杀戮气息的艺术品",
         "classLimit": [
             216
         ],
@@ -35074,7 +35074,7 @@ exports.data = [
         "icon": "er041.png",
         "category": 1,
         "subcategory": 3,
-        "description": "撕裂者玺戒lv8",
+        "description": "充满杀戮气息的艺术品",
         "classLimit": [
             216
         ],
@@ -35100,7 +35100,7 @@ exports.data = [
         "icon": "er041.png",
         "category": 1,
         "subcategory": 3,
-        "description": "撕裂者玺戒lv9",
+        "description": "充满杀戮气息的艺术品",
         "classLimit": [
             216
         ],
@@ -35126,7 +35126,7 @@ exports.data = [
         "icon": "er041.png",
         "category": 1,
         "subcategory": 3,
-        "description": "撕裂者玺戒lv10",
+        "description": "充满杀戮气息的艺术品",
         "classLimit": [
             216
         ],
@@ -35664,7 +35664,7 @@ exports.data = [
         "icon": "ewn041.png",
         "category": 1,
         "subcategory": 5,
-        "description": "屠龙之心lv4",
+        "description": "力量的源泉，屠龙的保障",
         "classLimit": [
             216
         ],
@@ -35691,7 +35691,7 @@ exports.data = [
         "icon": "ewn041.png",
         "category": 1,
         "subcategory": 5,
-        "description": "屠龙之心lv5",
+        "description": "力量的源泉，屠龙的保障",
         "classLimit": [
             216
         ],
@@ -35720,7 +35720,7 @@ exports.data = [
         "icon": "ewn041.png",
         "category": 1,
         "subcategory": 5,
-        "description": "屠龙之心lv6",
+        "description": "力量的源泉，屠龙的保障",
         "classLimit": [
             216
         ],
@@ -35749,7 +35749,7 @@ exports.data = [
         "icon": "ewn041.png",
         "category": 1,
         "subcategory": 5,
-        "description": "屠龙之心lv7",
+        "description": "力量的源泉，屠龙的保障",
         "classLimit": [
             216
         ],
@@ -35778,7 +35778,7 @@ exports.data = [
         "icon": "ewn041.png",
         "category": 1,
         "subcategory": 5,
-        "description": "屠龙之心lv8",
+        "description": "力量的源泉，屠龙的保障",
         "classLimit": [
             216
         ],
@@ -35807,7 +35807,7 @@ exports.data = [
         "icon": "ewn041.png",
         "category": 1,
         "subcategory": 5,
-        "description": "屠龙之心lv9",
+        "description": "力量的源泉，屠龙的保障",
         "classLimit": [
             216
         ],
@@ -35835,7 +35835,7 @@ exports.data = [
         "icon": "ewn041.png",
         "category": 1,
         "subcategory": 5,
-        "description": "阿瑞斯之心lv5",
+        "description": "戴上它，你就能战神附体了",
         "classLimit": [
             216
         ],
@@ -35862,7 +35862,7 @@ exports.data = [
         "icon": "ewn041.png",
         "category": 1,
         "subcategory": 5,
-        "description": "阿瑞斯之心lv6",
+        "description": "戴上它，你就能战神附体了",
         "classLimit": [
             216
         ],
@@ -35889,7 +35889,7 @@ exports.data = [
         "icon": "ewn041.png",
         "category": 1,
         "subcategory": 5,
-        "description": "阿瑞斯之心lv7",
+        "description": "戴上它，你就能战神附体了",
         "classLimit": [
             216
         ],
@@ -35916,7 +35916,7 @@ exports.data = [
         "icon": "ewn041.png",
         "category": 1,
         "subcategory": 5,
-        "description": "阿瑞斯之心lv8",
+        "description": "戴上它，你就能战神附体了",
         "classLimit": [
             216
         ],
@@ -35943,7 +35943,7 @@ exports.data = [
         "icon": "ewn041.png",
         "category": 1,
         "subcategory": 5,
-        "description": "阿瑞斯之心lv9",
+        "description": "戴上它，你就能战神附体了",
         "classLimit": [
             216
         ],
@@ -35970,7 +35970,7 @@ exports.data = [
         "icon": "ewn041.png",
         "category": 1,
         "subcategory": 5,
-        "description": "阿瑞斯之心lv10",
+        "description": "戴上它，你就能战神附体了",
         "classLimit": [
             216
         ],
@@ -36034,8 +36034,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "f-m-fooot5.png",
-        "iconm": "m-m-fooot5.png"
+        "iconf": "f-m-foot5.png",
+        "iconm": "m-m-foot5.png"
     },
     {
         "classId": 1060,
@@ -36083,8 +36083,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 1065,
-        "iconf": "f-m-fooot5.png",
-        "iconm": "m-m-fooot5.png"
+        "iconf": "f-m-foot5.png",
+        "iconm": "m-m-foot5.png"
     },
     {
         "classId": 1061,
@@ -36132,8 +36132,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 1066,
-        "iconf": "f-m-fooot5.png",
-        "iconm": "m-m-fooot5.png"
+        "iconf": "f-m-foot5.png",
+        "iconm": "m-m-foot5.png"
     },
     {
         "classId": 1062,
@@ -36181,8 +36181,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 1067,
-        "iconf": "f-m-fooot5.png",
-        "iconm": "m-m-fooot5.png"
+        "iconf": "f-m-foot5.png",
+        "iconm": "m-m-foot5.png"
     },
     {
         "classId": 1063,
@@ -36230,8 +36230,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 1068,
-        "iconf": "f-m-fooot5.png",
-        "iconm": "m-m-fooot5.png"
+        "iconf": "f-m-foot5.png",
+        "iconm": "m-m-foot5.png"
     },
     {
         "classId": 1064,
@@ -36278,8 +36278,8 @@ exports.data = [
         "hide": true,
         "forgeID": 17,
         "forgeTarget": 1069,
-        "iconf": "f-m-fooot5.png",
-        "iconm": "m-m-fooot5.png"
+        "iconf": "f-m-foot5.png",
+        "iconm": "m-m-foot5.png"
     },
     {
         "classId": 1065,
@@ -36325,8 +36325,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "f-m-fooot4.png",
-        "iconm": "m-m-fooot4.png"
+        "iconf": "f-m-foot4.png",
+        "iconm": "m-m-foot4.png"
     },
     {
         "classId": 1066,
@@ -36374,8 +36374,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 1071,
-        "iconf": "f-m-fooot4.png",
-        "iconm": "m-m-fooot4.png"
+        "iconf": "f-m-foot4.png",
+        "iconm": "m-m-foot4.png"
     },
     {
         "classId": 1067,
@@ -36423,8 +36423,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 1072,
-        "iconf": "f-m-fooot4.png",
-        "iconm": "m-m-fooot4.png"
+        "iconf": "f-m-foot4.png",
+        "iconm": "m-m-foot4.png"
     },
     {
         "classId": 1068,
@@ -36472,8 +36472,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 1073,
-        "iconf": "f-m-fooot4.png",
-        "iconm": "m-m-fooot4.png"
+        "iconf": "f-m-foot4.png",
+        "iconm": "m-m-foot4.png"
     },
     {
         "classId": 1069,
@@ -36521,8 +36521,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 1074,
-        "iconf": "f-m-fooot4.png",
-        "iconm": "m-m-fooot4.png"
+        "iconf": "f-m-foot4.png",
+        "iconm": "m-m-foot4.png"
     },
     {
         "classId": 1070,
@@ -36569,8 +36569,8 @@ exports.data = [
         "hide": true,
         "forgeID": 23,
         "forgeTarget": 1075,
-        "iconf": "f-m-fooot4.png",
-        "iconm": "m-m-fooot4.png"
+        "iconf": "f-m-foot4.png",
+        "iconm": "m-m-foot4.png"
     },
     {
         "classId": 1071,
@@ -36616,8 +36616,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "f-m-fooot3.png",
-        "iconm": "m-m-fooot3.png"
+        "iconf": "f-m-foot3.png",
+        "iconm": "m-m-foot3.png"
     },
     {
         "classId": 1072,
@@ -36665,8 +36665,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 1077,
-        "iconf": "f-m-fooot3.png",
-        "iconm": "m-m-fooot3.png"
+        "iconf": "f-m-foot3.png",
+        "iconm": "m-m-foot3.png"
     },
     {
         "classId": 1073,
@@ -36714,8 +36714,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 1078,
-        "iconf": "f-m-fooot3.png",
-        "iconm": "m-m-fooot3.png"
+        "iconf": "f-m-foot3.png",
+        "iconm": "m-m-foot3.png"
     },
     {
         "classId": 1074,
@@ -36763,8 +36763,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 1079,
-        "iconf": "f-m-fooot3.png",
-        "iconm": "m-m-fooot3.png"
+        "iconf": "f-m-foot3.png",
+        "iconm": "m-m-foot3.png"
     },
     {
         "classId": 1075,
@@ -36812,8 +36812,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 1080,
-        "iconf": "f-m-fooot3.png",
-        "iconm": "m-m-fooot3.png"
+        "iconf": "f-m-foot3.png",
+        "iconm": "m-m-foot3.png"
     },
     {
         "classId": 1076,
@@ -36860,8 +36860,8 @@ exports.data = [
         "hide": true,
         "forgeID": 29,
         "forgeTarget": 1081,
-        "iconf": "f-m-fooot3.png",
-        "iconm": "m-m-fooot3.png"
+        "iconf": "f-m-foot3.png",
+        "iconm": "m-m-foot3.png"
     },
     {
         "classId": 1077,
@@ -36907,8 +36907,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "f-m-fooot2.png",
-        "iconm": "m-m-fooot2.png"
+        "iconf": "f-m-foot2.png",
+        "iconm": "m-m-foot2.png"
     },
     {
         "classId": 1078,
@@ -36956,8 +36956,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 1083,
-        "iconf": "f-m-fooot2.png",
-        "iconm": "m-m-fooot2.png"
+        "iconf": "f-m-foot2.png",
+        "iconm": "m-m-foot2.png"
     },
     {
         "classId": 1079,
@@ -37005,8 +37005,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 1084,
-        "iconf": "f-m-fooot2.png",
-        "iconm": "m-m-fooot2.png"
+        "iconf": "f-m-foot2.png",
+        "iconm": "m-m-foot2.png"
     },
     {
         "classId": 1080,
@@ -37054,8 +37054,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 1085,
-        "iconf": "f-m-fooot2.png",
-        "iconm": "m-m-fooot2.png"
+        "iconf": "f-m-foot2.png",
+        "iconm": "m-m-foot2.png"
     },
     {
         "classId": 1081,
@@ -37103,8 +37103,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 1086,
-        "iconf": "f-m-fooot2.png",
-        "iconm": "m-m-fooot2.png"
+        "iconf": "f-m-foot2.png",
+        "iconm": "m-m-foot2.png"
     },
     {
         "classId": 1082,
@@ -37151,8 +37151,8 @@ exports.data = [
         "hide": true,
         "forgeID": 35,
         "forgeTarget": 1087,
-        "iconf": "f-m-fooot2.png",
-        "iconm": "m-m-fooot2.png"
+        "iconf": "f-m-foot2.png",
+        "iconm": "m-m-foot2.png"
     },
     {
         "classId": 1083,
@@ -37198,8 +37198,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "f-m-fooot1.png",
-        "iconm": "m-m-fooot1.png"
+        "iconf": "f-m-foot1.png",
+        "iconm": "m-m-foot1.png"
     },
     {
         "classId": 1084,
@@ -37245,8 +37245,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "f-m-fooot1.png",
-        "iconm": "m-m-fooot1.png"
+        "iconf": "f-m-foot1.png",
+        "iconm": "m-m-foot1.png"
     },
     {
         "classId": 1085,
@@ -37292,8 +37292,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "f-m-fooot1.png",
-        "iconm": "m-m-fooot1.png"
+        "iconf": "f-m-foot1.png",
+        "iconm": "m-m-foot1.png"
     },
     {
         "classId": 1086,
@@ -37339,8 +37339,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "f-m-fooot1.png",
-        "iconm": "m-m-fooot1.png"
+        "iconf": "f-m-foot1.png",
+        "iconm": "m-m-foot1.png"
     },
     {
         "classId": 1087,
@@ -37386,8 +37386,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "f-m-fooot1.png",
-        "iconm": "m-m-fooot1.png"
+        "iconf": "f-m-foot1.png",
+        "iconm": "m-m-foot1.png"
     },
     {
         "classId": 1088,
@@ -37432,8 +37432,8 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "iconf": "f-m-fooot1.png",
-        "iconm": "m-m-fooot1.png"
+        "iconf": "f-m-foot1.png",
+        "iconm": "m-m-foot1.png"
     },
     {
         "classId": 1089,
