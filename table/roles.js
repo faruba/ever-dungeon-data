@@ -27,9 +27,17 @@ exports.data = [
 			41,
 			42,
 			43,
-            662,
+            622,
             712
 		],
+        "initialEquipment":[
+            {"type":0,"value":43,"count":1},
+            {"type":0,"value":42,"count":1},
+            {"type":0,"value":41,"count":1},
+            {"type":0,"value":712,"count":1},
+            {"type":0,"value":40,"count":1},
+            {"type":0,"value":622,"count":1}
+        ],
 		"levelId": 0,
         "transId":197
 	},
@@ -64,6 +72,14 @@ exports.data = [
 			652,
             742
 		],
+        "initialEquipment":[
+            {"type":0,"value":35,"count":1},
+            {"type":0,"value":34,"count":1},
+            {"type":0,"value":33,"count":1},
+            {"type":0,"value":742,"count":1},
+            {"type":0,"value":32,"count":1},
+            {"type":0,"value":652,"count":1}
+        ],
 		"levelId": 0,
         "transId":198
 
@@ -99,6 +115,14 @@ exports.data = [
             682,
             772
 		],
+        "initialEquipment":[
+            {"type":0,"value":39, "count":1},
+            {"type":0,"value":38,"count":1},
+            {"type":0,"value":37,"count":1},
+            {"type":0,"value":772,"count":1},
+            {"type":0,"value":36,"count":1},
+            {"type":0,"value":682,"count":1}
+        ],
 		"levelId": 0,
         "transId":199
 	},
@@ -7785,7 +7809,22 @@ exports.data = [
         "className": "测试流浪剑士",
         "faction": "monster",
         "classType": 1,
-        "avatar": "enemy-sword2.ccbi",
+        "avatar": "avatar.ccbi",
+        "emblem": [
+            "emblem-warrior.png",
+            "emblem-warrior2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            40,
+            41,
+            42,
+            43,
+            662,
+            712
+        ],
         "property": {
             "health": 5,
             "attack": 0.5,
@@ -7814,19 +7853,30 @@ exports.data = [
         "effectAttack": 8,
         "skill": [
             {
-                "id": 185,
+                "id": 132,
                 "level": 1
             },
             {
-                "id": 183,
+                "id": 128,
                 "level": 1
             },
             {
                 "id": 27,
                 "level": 1
+            },
+            {
+                "id": 132,
+                "level": 1
+            },
+            {
+                "id": 134,
+                "level": 1
+            },
+            {
+                "id": 135,
+                "level": 1
             }
-        ],
-        "scale": 1.2
+        ]
     },
     {
         "classId": 216,
@@ -7846,22 +7896,29 @@ exports.data = [
             "accuracy": 2,
             "reactivity": 1,
             "speed": 2,
-            "activeSpell": 0
+            "activeSpell": 195
         },
         "defaultArmors": [
             6,
             10,
             11,
             879,
-            880,
-            881,
-            882,
-            662,
-            712,
-            883
+            909,
+            939,
+            969,
+            999,
+            1029
+        ],
+        "initialEquipment":[
+            {"type":0,"value":969,"count":1},
+            {"type":0,"value":939,"count":1},
+            {"type":0,"value":909,"count":1},
+            {"type":0,"value":999,"count":1},
+            {"type":0,"value":879,"count":1},
+            {"type":0,"value":1029,"count":1}
         ],
         "levelId": 0,
-        "transId":197
+        "transId":219
     },
     {
         "classId": 217,
@@ -7881,22 +7938,29 @@ exports.data = [
             "accuracy": 2,
             "reactivity": 2,
             "speed": 2,
-            "activeSpell": 5
+            "activeSpell": 201
         },
         "defaultArmors": [
             6,
             10,
             11,
-            884,
-            885,
-            886,
-            887,
-            652,
-            742,
-            888
+            1059,
+            1089,
+            1119,
+            1149,
+            1179,
+            1209
+        ],
+        "initialEquipment":[
+            {"type":0,"value":1149,"count":1},
+            {"type":0,"value":1119,"count":1},
+            {"type":0,"value":1089,"count":1},
+            {"type":0,"value":1179,"count":1},
+            {"type":0,"value":1059,"count":1},
+            {"type":0,"value":1209,"count":1}
         ],
         "levelId": 0,
-        "transId":198
+        "transId":220
     },
     {
         "classId": 218,
@@ -7916,21 +7980,109 @@ exports.data = [
             "accuracy": 4,
             "reactivity": 3,
             "speed": 6,
-            "activeSpell": 8
+            "activeSpell": 207
         },
         "defaultArmors": [
             6,
             10,
             11,
-            889,
-            890,
-            891,
-            892,
-            682,
-            772,
-            893
+            1239,
+            1269,
+            1299,
+            1329,
+            1359,
+            1389
+        ],
+        "initialEquipment":[
+            {"type":0,"value":1329,"count":1},
+            {"type":0,"value":1299,"count":1},
+            {"type":0,"value":1269,"count":1},
+            {"type":0,"value":1359,"count":1},
+            {"type":0,"value":1239,"count":1},
+            {"type":0,"value":1389,"count":1}
         ],
         "levelId": 0,
-        "transId":199
+        "transId":221
+    },
+    {
+        "classId": 219,
+        "className": "pk狂战士",
+        "faction": "monster",
+        "classType": 4,
+        "avatar": "avatar1.ccbi",
+        "emblem": [
+            "emblem-warrior.png",
+            "emblem-warrior2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            879,
+            909,
+            939,
+            969,
+            999,
+            1029
+        ],
+        "property": {
+            "keyd":true,
+            "counterAttack": true
+        },
+        "levelId": 4
+    },
+    {
+        "classId": 220,
+        "className": "pk魔导师",
+        "faction": "monster",
+        "classType": 4,
+        "avatar": "avatar2.ccbi",
+        "emblem": [
+            "emblem-mage.png",
+            "emblem-mage2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            1059,
+            1089,
+            1119,
+            1149,
+            1179,
+            1209
+        ],
+        "property": {
+            "keyd":true,
+            "counterAttack": true
+        },
+        "levelId": 5
+    },
+    {
+        "classId": 221,
+        "className": "pk主教",
+        "faction": "monster",
+        "classType": 4,
+        "avatar": "avatar3.ccbi",
+        "emblem": [
+            "emblem-priest.png",
+            "emblem-priest2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            1239,
+            1269,
+            1299,
+            1329,
+            1359,
+            1389
+        ],
+        "property": {
+            "keyd":true,
+            "counterAttack": true
+        },
+        "levelId": 6
     }
 ]
