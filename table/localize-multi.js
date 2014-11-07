@@ -252,10 +252,10 @@ exports.data = {
         "xitemDiamond":"宝石",
         "xitemExp":"经验",
         "xitemProficiency":"熟练",
-        "showCommentTitle": "评价",
-        "showCommentContent": "跳转到商店页面对我们的游戏进行评价吧，评价完成后可免费获得{#1}宝石哦！",
+        "showCommentTitle": "评分送宝石",
+        "showCommentContent": "跳转到商店页面对我们的游戏进行\n评价吧，评价完成之后可以免费获\n得{#1}宝石哦！！",
         "showCommentBtnCancel": "下次再说",
-        "showCommentBtnGo": "现在就去评价！",
+        "showCommentBtnGo": "　现在就去评价！",
         "showCommentBtnNever": "很残忍地拒绝"
     }
 };
