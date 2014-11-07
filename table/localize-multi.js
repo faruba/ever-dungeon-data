@@ -251,6 +251,11 @@ exports.data = {
         "xitemCoin":"金币",
         "xitemDiamond":"宝石",
         "xitemExp":"经验",
-        "xitemProficiency":"熟练"
+        "xitemProficiency":"熟练",
+        "showCommentTitle": "评价",
+        "showCommentContent": "跳转到商店页面对我们的游戏进行评价吧，评价完成后可免费获得{#1}宝石哦！",
+        "showCommentBtnCancel": "下次再说",
+        "showCommentBtnGo": "现在就去评价！",
+        "showCommentBtnNever": "很残忍地拒绝"
     }
 };
