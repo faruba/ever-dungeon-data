@@ -196,7 +196,7 @@ exports.data = [
 	},
 	{
 		"classId": 11,
-		"category": 10,
+		"category": 1,
 		"subcategory": 6,
 		"effecta": [
 			{
@@ -35995,7 +35995,7 @@ exports.data = [
         "label": "奥术长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "奥术长靴lv1",
+        "description": "带有玄奥气息的长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36042,7 +36042,7 @@ exports.data = [
         "label": "奥术长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "奥术长靴lv2",
+        "description": "带有玄奥气息的长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36091,7 +36091,7 @@ exports.data = [
         "label": "奥术长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "奥术长靴lv3",
+        "description": "带有玄奥气息的长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36140,7 +36140,7 @@ exports.data = [
         "label": "奥术长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "奥术长靴lv4",
+        "description": "带有玄奥气息的长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36189,7 +36189,7 @@ exports.data = [
         "label": "奥术长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "奥术长靴lv5",
+        "description": "带有玄奥气息的长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36238,7 +36238,7 @@ exports.data = [
         "label": "奥术长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "奥术长靴lv6",
+        "description": "带有玄奥气息的长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37440,7 +37440,7 @@ exports.data = [
         "label": "奥术法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "奥术法袍lv1",
+        "description": "尊贵的魔导师身份的象征",
         "effectf": [
             {
                 "part": "chest",
@@ -37518,7 +37518,7 @@ exports.data = [
         "label": "奥术法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "奥术法袍lv2",
+        "description": "尊贵的魔导师身份的象征",
         "effectf": [
             {
                 "part": "chest",
@@ -37598,7 +37598,7 @@ exports.data = [
         "label": "奥术法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "奥术法袍lv3",
+        "description": "尊贵的魔导师身份的象征",
         "effectf": [
             {
                 "part": "chest",
@@ -37678,7 +37678,7 @@ exports.data = [
         "label": "奥术法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "奥术法袍lv4",
+        "description": "尊贵的魔导师身份的象征",
         "effectf": [
             {
                 "part": "chest",
@@ -37758,7 +37758,7 @@ exports.data = [
         "label": "奥术法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "奥术法袍lv5",
+        "description": "尊贵的魔导师身份的象征",
         "effectf": [
             {
                 "part": "chest",
@@ -37838,7 +37838,7 @@ exports.data = [
         "label": "奥术法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "奥术法袍lv6",
+        "description": "尊贵的魔导师身份的象征",
         "effectf": [
             {
                 "part": "chest",
@@ -39815,7 +39815,7 @@ exports.data = [
         "label": "奥术之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "奥术之魂lv1",
+        "description": "能凝聚魔力的小精灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -39852,7 +39852,7 @@ exports.data = [
         "label": "奥术之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "奥术之魂lv2",
+        "description": "能凝聚魔力的小精灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -39891,7 +39891,7 @@ exports.data = [
         "label": "奥术之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "奥术之魂lv3",
+        "description": "能凝聚魔力的小精灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -39930,7 +39930,7 @@ exports.data = [
         "label": "奥术之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "奥术之魂lv4",
+        "description": "能凝聚魔力的小精灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -39969,7 +39969,7 @@ exports.data = [
         "label": "奥术之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "奥术之魂lv5",
+        "description": "能凝聚魔力的小精灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40008,7 +40008,7 @@ exports.data = [
         "label": "奥术之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "奥术之魂lv6",
+        "description": "能凝聚魔力的小精灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40960,7 +40960,7 @@ exports.data = [
         "label": "奥术法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "奥术法杖lv1",
+        "description": "蕴含魔法奥义的精致法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -40998,7 +40998,7 @@ exports.data = [
         "label": "奥术法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "奥术法杖lv2",
+        "description": "蕴含魔法奥义的精致法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41038,7 +41038,7 @@ exports.data = [
         "label": "奥术法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "奥术法杖lv3",
+        "description": "蕴含魔法奥义的精致法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41078,7 +41078,7 @@ exports.data = [
         "label": "奥术法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "奥术法杖lv4",
+        "description": "蕴含魔法奥义的精致法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41118,7 +41118,7 @@ exports.data = [
         "label": "奥术法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "奥术法杖lv5",
+        "description": "蕴含魔法奥义的精致法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41158,7 +41158,7 @@ exports.data = [
         "label": "奥术法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "奥术法杖lv6",
+        "description": "蕴含魔法奥义的精致法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -42136,7 +42136,7 @@ exports.data = [
         "icon": "er012.png",
         "category": 1,
         "subcategory": 3,
-        "description": "奥术戒指lv1",
+        "description": "制作精良的工艺品，蕴含魔力",
         "classLimit": [
             217
         ],
@@ -42161,7 +42161,7 @@ exports.data = [
         "icon": "er012.png",
         "category": 1,
         "subcategory": 3,
-        "description": "奥术戒指lv2",
+        "description": "制作精良的工艺品，蕴含魔力",
         "classLimit": [
             217
         ],
@@ -42188,7 +42188,7 @@ exports.data = [
         "icon": "er012.png",
         "category": 1,
         "subcategory": 3,
-        "description": "奥术戒指lv3",
+        "description": "制作精良的工艺品，蕴含魔力",
         "classLimit": [
             217
         ],
@@ -42215,7 +42215,7 @@ exports.data = [
         "icon": "er012.png",
         "category": 1,
         "subcategory": 3,
-        "description": "奥术戒指lv4",
+        "description": "制作精良的工艺品，蕴含魔力",
         "classLimit": [
             217
         ],
@@ -42242,7 +42242,7 @@ exports.data = [
         "icon": "er012.png",
         "category": 1,
         "subcategory": 3,
-        "description": "奥术戒指lv5",
+        "description": "制作精良的工艺品，蕴含魔力",
         "classLimit": [
             217
         ],
@@ -42269,7 +42269,7 @@ exports.data = [
         "icon": "er012.png",
         "category": 1,
         "subcategory": 3,
-        "description": "奥术戒指lv6",
+        "description": "制作精良的工艺品，蕴含魔力",
         "classLimit": [
             217
         ],
@@ -42921,7 +42921,7 @@ exports.data = [
         "icon": "ewn011.png",
         "category": 1,
         "subcategory": 5,
-        "description": "奥术护符lv1",
+        "description": "描绘着玄奥符文的护符",
         "classLimit": [
             217
         ],
@@ -42947,7 +42947,7 @@ exports.data = [
         "icon": "ewn011.png",
         "category": 1,
         "subcategory": 5,
-        "description": "奥术护符lv2",
+        "description": "描绘着玄奥符文的护符",
         "classLimit": [
             217
         ],
@@ -42975,7 +42975,7 @@ exports.data = [
         "icon": "ewn011.png",
         "category": 1,
         "subcategory": 5,
-        "description": "奥术护符lv3",
+        "description": "描绘着玄奥符文的护符",
         "classLimit": [
             217
         ],
@@ -43003,7 +43003,7 @@ exports.data = [
         "icon": "ewn011.png",
         "category": 1,
         "subcategory": 5,
-        "description": "奥术护符lv4",
+        "description": "描绘着玄奥符文的护符",
         "classLimit": [
             217
         ],
@@ -43031,7 +43031,7 @@ exports.data = [
         "icon": "ewn011.png",
         "category": 1,
         "subcategory": 5,
-        "description": "奥术护符lv5",
+        "description": "描绘着玄奥符文的护符",
         "classLimit": [
             217
         ],
@@ -43059,7 +43059,7 @@ exports.data = [
         "icon": "ewn011.png",
         "category": 1,
         "subcategory": 5,
-        "description": "奥术护符lv6",
+        "description": "描绘着玄奥符文的护符",
         "classLimit": [
             217
         ],
