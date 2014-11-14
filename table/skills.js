@@ -6225,7 +6225,7 @@ exports.data = [
             },
             "triggerCondition": [
                 { "type":"event","event":"onTurnEnd", "eventCount": 5,"reset":true },
-                { "type": "chance", "chance": 0.3},
+                { "type": "chance", "chance": 1},
                 {"type":"alive"}
             ],
             "action": [
@@ -6298,8 +6298,8 @@ exports.data = [
                 { "type": "installSpell", "spell": 277}
             ],
             "levelConfig": [
-                { "chance":0.3, "level": 1},
-                { "chance":0.4, "level": 2}
+                { "chance":1, "level": 1},
+                { "chance":1, "level": 2}
             ]
         }
     },
@@ -6358,8 +6358,8 @@ exports.data = [
                 { "type": "shock","delay":0.6,"range":5,"time":0.2}
             ],
             "levelConfig": [
-                { "chance":0.2,"formular": {"src":{"attack":0.5}}, "level": 1},
-                { "chance":0.25,"formular": {"src":{"attack":0.7}}, "level": 2}
+                { "chance":1,"formular": {"src":{"attack":0.5}}, "level": 1},
+                { "chance":1,"formular": {"src":{"attack":0.7}}, "level": 2}
             ]
         }
     },
@@ -6375,7 +6375,7 @@ exports.data = [
             },
             "triggerCondition": [
                 { "type":"event","event":"onTurnEnd", "eventCount": 5,"reset":true },
-                { "type": "chance", "chance": 0.3},
+                { "type": "chance", "chance": 1},
                 {"type":"alive"}
             ],
             "targetSelection": {
@@ -6484,7 +6484,7 @@ exports.data = [
         "slotId": 3,
         "config":{
             "triggerCondition": [
-                { "type": "event", "event": "onCriticalDamage" }
+                { "type": "event", "event": "onTarget" }
             ],
             "targetSelection": {
                 "pool": "target",
@@ -6548,7 +6548,7 @@ exports.data = [
             },
             "triggerCondition": [
                 { "type":"event","event":"onTurnEnd", "eventCount": 8,"reset":true },
-                { "type": "chance", "chance": 0.3},
+                { "type": "chance"},
                 {"type":"alive"}
             ],
             "action": [
@@ -6562,8 +6562,8 @@ exports.data = [
                 "filter": [{"type":"alive"},{"type":"visible"},{"type":"target-faction-with-flag","flag":"healable"}]
             },
             "levelConfig" : [
-                { "chance":0.1,"level": 1 },
-                { "chance":0.15,"level": 2 }
+                { "chance":1,"level": 1 },
+                { "chance":1,"level": 2 }
             ]
         }
     },
@@ -6616,8 +6616,8 @@ exports.data = [
                 {"type": "setTargetMutex", "mutex": "fangzhu", "count": 3 }
             ],
             "levelConfig":[
-                { "chance":0.15, "level": 1},
-                { "chance":0.15, "level": 2}
+                { "chance":1, "level": 1},
+                { "chance":1, "level": 2}
             ]
         }
     },
