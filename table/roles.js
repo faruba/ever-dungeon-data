@@ -8090,7 +8090,8 @@ exports.data = [
         "className": "小恶魔",
         "faction": "monster",
         "classType": 1,
-        "avatar": "enemy-bat1.ccbi",
+        "skeleton": "newboss7.json",
+        "atlas": "newboss7.atlas",
         "property": {
             "health": 1.5,
             "attack": 0.27,
@@ -8105,7 +8106,7 @@ exports.data = [
         },
         "xproperty": {
             "balance": 0.2,
-            "health": 0.5,
+            "health": 2,
             "attack": 0.4,
             "critical": 0.2,
             "strong": 0.2,
@@ -8135,7 +8136,8 @@ exports.data = [
         "className": "恶灵骑士",
         "faction": "monster",
         "classType": 1,
-        "avatar": "enemy-wolf1.ccbi",
+        "skeleton": "newboss5.json",
+        "atlas": "newboss5.atlas",
         "property": {
             "health": 3.5,
             "attack": 0.54,
@@ -8150,7 +8152,7 @@ exports.data = [
         },
         "xproperty": {
             "balance": 0.1,
-            "health": 1.5,
+            "health": 2,
             "attack": 0.4,
             "critical": 1,
             "strong": 1,
@@ -8176,7 +8178,8 @@ exports.data = [
         "className": "蜥蜴人弓箭手",
         "faction": "monster",
         "classType": 1,
-        "avatar": "enemy-orcs1.ccbi",
+        "skeleton": "newenemy1.json",
+        "atlas": "newenemy1.atlas",
         "property": {
             "health": 2.5,
             "attack": 0.45,
@@ -8191,7 +8194,7 @@ exports.data = [
         },
         "xproperty": {
             "balance": 0.1,
-            "health": 1.5,
+            "health": 2,
             "attack": 0.4,
             "critical": 1,
             "strong": 1,
@@ -8228,7 +8231,8 @@ exports.data = [
         "className": "岩石巨人",
         "faction": "monster",
         "classType": 1,
-        "avatar": "enemy-ogre1.ccbi",
+        "skeleton": "newboss3.json",
+        "atlas": "newboss3.atlas",
         "property": {
             "health": 4,
             "attack": 0.72,
@@ -8243,7 +8247,7 @@ exports.data = [
         },
         "xproperty": {
             "balance": 0.1,
-            "health": 1.5,
+            "health": 2,
             "attack": 0.4,
             "critical": 1,
             "strong": 1,
@@ -8276,7 +8280,8 @@ exports.data = [
         "className": "宫廷弩手",
         "faction": "monster",
         "classType": 1,
-        "avatar": "enemy-wlfs1.ccbi",
+        "skeleton": "newenemy2.json",
+        "atlas": "newenemy2.atlas",
         "property": {
             "health": 1.3,
             "attack": 0.7,
@@ -8291,7 +8296,7 @@ exports.data = [
         },
         "xproperty": {
             "balance": 0.1,
-            "health": 1.5,
+            "health": 2,
             "attack": 0.4,
             "critical": 1,
             "strong": 1,
@@ -8318,7 +8323,8 @@ exports.data = [
         "className": "地狱三头犬",
         "faction": "monster",
         "classType": 1,
-        "avatar": "enemy-wolfboss.ccbi",
+        "skeleton": "newboss8.json",
+        "atlas": "newboss8.atlas",
         "property": {
             "health": 10,
             "attack": 0.6,
@@ -8371,7 +8377,8 @@ exports.data = [
         "className": "恶魔领主",
         "faction": "monster",
         "classType": 1,
-        "avatar": "enemy-robber3.ccbi",
+        "skeleton": "newboss4.json",
+        "atlas": "newboss4.atlas",
         "property": {
             "health": 3.5,
             "attack": 0.81,
@@ -8386,7 +8393,7 @@ exports.data = [
         },
         "xproperty": {
             "balance": 0.1,
-            "health": 1.5,
+            "health": 2,
             "attack": 0.4,
             "critical": 1,
             "strong": 1,
@@ -8420,7 +8427,8 @@ exports.data = [
         "className": "堕落天使",
         "faction": "monster",
         "classType": 1,
-        "avatar": "enemy-sword24.ccbi",
+        "skeleton": "newboss6.json",
+        "atlas": "newboss6.atlas",
         "property": {
             "health": 3.5,
             "attack": 0.45,
@@ -8435,7 +8443,7 @@ exports.data = [
         },
         "xproperty": {
             "balance": 0.1,
-            "health": 1.5,
+            "health": 2,
             "attack": 0.4,
             "critical": 1,
             "strong": 1,
@@ -8464,7 +8472,54 @@ exports.data = [
         "className": "骷髅王",
         "faction": "monster",
         "classType": 1,
-        "avatar": "enemy-skeleton1.ccbi",
+        "skeleton": "newboss2.json",
+        "atlas": "newboss2.atlas",
+        "property": {
+            "health": 3.5,
+            "attack": 0.06,
+            "critical": 0,
+            "strong": 0,
+            "accuracy": 40,
+            "reactivity": -40,
+            "speed": 0,
+            "counterAttack": true,
+            "exp": 0,
+            "gold": 0
+        },
+        "xproperty": {
+            "balance": 0.1,
+            "health": 2,
+            "attack": 0.4,
+            "critical": 1,
+            "strong": 1,
+            "accuracy": 1,
+            "reactivity": 1,
+            "speed": 1
+        },
+        "effectAttack": 8,
+        "skill": [
+            {
+                "id": 318,
+                "level": 1
+            },
+            {
+                "id": 318,
+                "level": 1
+            },
+            {
+                "id": 295,
+                "level": 1
+            }
+        ],
+        "scale": 1.2
+    },
+    {
+        "classId": 231,
+        "className": "骑士长",
+        "faction": "monster",
+        "classType": 1,
+        "skeleton": "newboss1.json",
+        "atlas": "newboss1.atlas",
         "property": {
             "health": 1.5,
             "attack": 0.06,
@@ -8488,7 +8543,6 @@ exports.data = [
             "speed": 1
         },
         "effectAttack": 8,
-        "collectId": 51001,
         "skill": [
             {
                 "id": 318,
