@@ -6751,12 +6751,10 @@ exports.data = [
             "action": [
                 {"type": "delay"},
                 {"type":"playEffect","effect":20,"pos":"self"},
-                {"type":"playAction","motion":6,"pos":"self"},
                 {"type": "delay"},
                 {"type": "randTeleport"},
                 {"type": "delay"},
-                {"type":"playEffect","effect":21,"pos":"self"},
-                {"type":"playAction","motion":5,"pos":"self"}
+                {"type":"playEffect","effect":21,"pos":"self"}
             ]
         }
     },
@@ -6809,7 +6807,7 @@ exports.data = [
         "desc": "大幅提升伤害与暴击，命中降低",
         "config": {
             "basic" : {
-                "spellAction": 2,
+                "spellAction": 1,
                 "spellEffect": 66,
                 "spellDelay": 0.3
             },
@@ -6823,10 +6821,6 @@ exports.data = [
             ],
             "action": [
                 { "type": "installSpell", "spell": 299}
-            ],
-            "levelConfig": [
-                {"level": 1},
-                {"level": 2}
             ]
         }
     },

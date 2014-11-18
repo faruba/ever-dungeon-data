@@ -8170,8 +8170,7 @@ exports.data = [
                 "id": 293,
                 "level": 2
             }
-        ],
-        "scale": 1.2
+        ]
     },
     {
         "classId": 224,
@@ -8272,8 +8271,7 @@ exports.data = [
                 "id": 303,
                 "level": 3
             }
-        ],
-        "scale": 1.3
+        ]
     },
     {
         "classId": 226,
@@ -8464,8 +8462,7 @@ exports.data = [
                 "id": 317,
                 "level": 1
             }
-        ],
-        "scale": 1.2
+        ]
     },
     {
         "classId": 230,
@@ -8503,15 +8500,14 @@ exports.data = [
                 "level": 1
             },
             {
-                "id": 318,
+                "id": 320,
                 "level": 1
             },
             {
                 "id": 295,
                 "level": 1
             }
-        ],
-        "scale": 1.2
+        ]
     },
     {
         "classId": 231,
@@ -8549,14 +8545,9 @@ exports.data = [
                 "level": 1
             },
             {
-                "id": 318,
-                "level": 1
-            },
-            {
                 "id": 295,
                 "level": 1
             }
-        ],
-        "scale": 1.2
+        ]
     }
 ]
