@@ -1830,17 +1830,9 @@ exports.data = [
         "skillId": 76,
         "label":"暴击特效",
         "config": {
-            "basic": {
-                "targetEffect": 72,
-                "spellDelay": 0.5,
-                "targetDelay": 0.5
-            },
             "triggerCondition": [
                 { "type": "event", "event": "onCriticalDamage" }
             ],
-            "targetSelection":{
-                "pool":"target"
-            },
             "action":[
                 { "type": "shock", "delay":0.3, "range":5, "time":0.2 }
             ]
@@ -6749,7 +6741,8 @@ exports.data = [
             "triggerCondition": [
                 {"type" :"event", "event":"onBattleTurnEnd" },
                 {"type":"alive"},
-                { "type": "chance", "chance":0.5 }
+                { "type": "chance", "chance":0.5 },
+                {"type":"visible"}
             ],
             "targetSelection":{
                 "pool":"self",
@@ -6865,7 +6858,8 @@ exports.data = [
             "triggerCondition": [
                 { "type":"event","event":"onTurnEnd", "eventCount": 5,"reset":true },
                 { "type": "chance", "chance": 0.3},
-                {"type":"alive"}
+                {"type":"alive"},
+                {"type":"visible"}
             ],
             "targetSelection": {
                 "pool": "objects",
@@ -6932,7 +6926,8 @@ exports.data = [
             "triggerCondition": [
                 { "type":"event","event":"onTurnEnd", "eventCount": 5,"reset":true },
                 { "type": "chance", "chance": 0.3},
-                {"type":"alive"}
+                {"type":"alive"},
+                {"type":"visible"}
             ],
             "targetSelection": {
                 "pool": "self",
@@ -7108,7 +7103,8 @@ exports.data = [
             "triggerCondition": [
                 { "type":"event","event":"onTurnEnd", "eventCount": 5,"reset":true },
                 { "type": "chance", "chance": 0.3},
-                {"type":"alive"}
+                {"type":"alive"},
+                {"type":"visible"}
             ],
             "targetSelection": {
                 "pool": "objects",
@@ -7260,7 +7256,8 @@ exports.data = [
             "triggerCondition": [
                 { "type":"event","event":"onTurnEnd", "eventCount": 5,"reset":true },
                 { "type": "chance", "chance": 0.3},
-                {"type":"alive"}
+                {"type":"alive"},
+                {"type":"visible"}
             ],
             "targetSelection":{
                 "pool": "objects",
@@ -7295,7 +7292,8 @@ exports.data = [
             "triggerCondition": [
                 { "type":"event","event":"onTurnEnd", "eventCount": 5,"reset":true },
                 { "type": "chance", "chance": 0.3},
-                {"type":"alive"}
+                {"type":"alive"},
+                {"type":"visible"}
             ],
             "targetSelection": {
                 "pool": "objects",

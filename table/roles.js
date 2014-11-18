@@ -8273,7 +8273,7 @@ exports.data = [
     },
     {
         "classId": 226,
-        "className": "邪恶法师",
+        "className": "宫廷弩手",
         "faction": "monster",
         "classType": 1,
         "avatar": "enemy-wlfs1.ccbi",

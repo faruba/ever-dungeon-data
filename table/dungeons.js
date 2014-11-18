@@ -38679,7 +38679,9 @@ exports.data = [
             ],
         "prizeWxp":0,"prizeGold":1000, "prizeXp":0,
         "wxpRate":1,"goldRate":1, "xpRate":1,
-        "rank":230},
+        "rank":230
+
+    },
     {
         "dungeonId": 128,
         "rank": 100,
@@ -38689,27 +38691,27 @@ exports.data = [
                 "objects" :[
                     {
                         "id": 222,
-                        "count":2,
+                        "count":1,
                         "keyed":true
                     },
                     {
                         "id": 223,
-                        "count":2,
+                        "count":1,
                         "keyed":true
                     },
                     {
                         "id": 224,
-                        "count":2,
+                        "count":1,
                         "keyed":true
                     },
                     {
                         "id": 225,
-                        "count":2,
+                        "count":1,
                         "keyed":true
                     },
                     {
                         "id": 226,
-                        "count":2,
+                        "count":1,
                         "keyed":true
                     },
                     {
@@ -38728,7 +38730,7 @@ exports.data = [
                         "keyed":true
                     },
                     {
-                        "id": 300,
+                        "id": 230,
                         "count":1,
                         "keyed":true
                     }
