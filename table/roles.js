@@ -8097,7 +8097,7 @@ exports.data = [
             "attack": 0.1,
             "critical": 40,
             "strong": -20,
-            "accuracy": 50,
+            "accuracy": 100,
             "reactivity": 0,
             "speed": 0,
             "counterAttack": true,
@@ -8110,7 +8110,7 @@ exports.data = [
             "attack": 0.4,
             "critical": 0.2,
             "strong": 0.2,
-            "accuracy": 0.3,
+            "accuracy": 1,
             "reactivity": 0.2,
             "speed": 0.3
         },
@@ -8119,7 +8119,6 @@ exports.data = [
         "soundAttack": "bianfuattack.mp3",
         "soundDie": "bianfudie.mp3",
         "effectAttack": 9,
-        "scale": 1.2,
         "skill": [
             {
                 "id": 290,
@@ -8143,7 +8142,7 @@ exports.data = [
             "attack": 0.1,
             "critical": -20,
             "strong": 0,
-            "accuracy": 50,
+            "accuracy": 100,
             "reactivity": -70,
             "speed": 20,
             "counterAttack": true,
@@ -8205,7 +8204,6 @@ exports.data = [
         "soundAttack": "shourenattack.mp3",
         "soundDie": "shourendie.mp3",
         "effectAttack": 9,
-        "scale": 1.2,
         "skill": [
             {
                 "id": 26,
@@ -8237,7 +8235,7 @@ exports.data = [
             "attack": 0.1,
             "critical": 10,
             "strong": -10,
-            "accuracy": 20,
+            "accuracy": 100,
             "reactivity": -60,
             "speed": -20,
             "counterAttack": true,
@@ -8328,7 +8326,7 @@ exports.data = [
             "attack": 0.2,
             "critical": 10,
             "strong": 20,
-            "accuracy": 60,
+            "accuracy": 100,
             "reactivity": -40,
             "speed": 20,
             "counterAttack": true,
@@ -8350,7 +8348,6 @@ exports.data = [
         "soundAttack": "tulangattack.mp3",
         "soundDie": "tulangdie.mp3",
         "effectAttack": 31,
-        "scale": 1.2,
         "skill": [
             {
                 "id": 306,
@@ -8382,7 +8379,7 @@ exports.data = [
             "attack": 0.25,
             "critical": -20,
             "strong": 10,
-            "accuracy": 20,
+            "accuracy": 100,
             "reactivity": -50,
             "speed": 0,
             "counterAttack": true,
@@ -8404,7 +8401,6 @@ exports.data = [
         "soundAttack": "shanzeitoumuattack.mp3",
         "soundDie": "shanzeitoumudie.mp3",
         "effectAttack": 8,
-        "scale": 1.2,
         "skill": [
             {
                 "id": 311,
@@ -8432,7 +8428,7 @@ exports.data = [
             "attack": 0.22,
             "critical": 0,
             "strong": 20,
-            "accuracy": 40,
+            "accuracy": 100,
             "reactivity": -40,
             "speed": 0,
             "counterAttack": true,
@@ -8476,7 +8472,7 @@ exports.data = [
             "attack": 0.15,
             "critical": 0,
             "strong": 0,
-            "accuracy": 40,
+            "accuracy": 100,
             "reactivity": -40,
             "speed": 0,
             "counterAttack": true,

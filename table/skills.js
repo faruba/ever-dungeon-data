@@ -7296,8 +7296,7 @@ exports.data = [
             "action":[
                 {"type":"delay"},
                 {"type":"clearBuff","delay":1.8} ,
-                {"type": "playEffect","effect":41,"pos":"target","delay":1.8},
-                {"type":"playAction","motion":1,"pos":"self"}
+                {"type": "playEffect","effect":41,"pos":"target","delay":1.8}
             ]
         }
     }
