@@ -6807,7 +6807,7 @@ exports.data = [
         "desc": "大幅提升伤害与暴击，命中降低",
         "config": {
             "basic" : {
-                "spellAction": 1,
+//                "spellAction": 1,
                 "spellEffect": 66,
                 "spellDelay": 0.3
             },
@@ -6846,9 +6846,9 @@ exports.data = [
         "label":"大地一击",
         "desc":"对全体造成伤害",
         "config": {
-            "basic": {
-                "spellAction": 1
-            },
+//            "basic": {
+//                "spellAction": 1
+//            },
             "triggerCondition": [
                 { "type":"event","event":"onTurnEnd", "eventCount": 5,"reset":true },
                 { "type": "chance", "chance": 0.3},
@@ -6911,7 +6911,7 @@ exports.data = [
         "slotId": 0,
         "config": {
             "basic": {
-                "spellAction":1,
+//                "spellAction":1,
                 "spellEffect": 47,
                 "targetEffect": 48,
                 "spellDelay": 0.3,
@@ -7091,9 +7091,9 @@ exports.data = [
         "label":"熔岩喷射",
         "desc":"从地底召唤出熔岩，对全屏造成多段伤害",
         "config": {
-            "basic": {
-                "spellAction": 1
-            },
+//            "basic": {
+//                "spellAction": 1
+//            },
             "triggerCondition": [
                 { "type":"event","event":"onTurnEnd", "eventCount": 5,"reset":true },
                 { "type": "chance", "chance": 0.3},

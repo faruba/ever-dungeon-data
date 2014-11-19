@@ -8093,8 +8093,8 @@ exports.data = [
         "skeleton": "newboss7.json",
         "atlas": "newboss7.atlas",
         "property": {
-            "health": 1.5,
-            "attack": 0.27,
+            "health": 3,
+            "attack": 0.1,
             "critical": 40,
             "strong": -20,
             "accuracy": 50,
@@ -8140,7 +8140,7 @@ exports.data = [
         "atlas": "newboss5.atlas",
         "property": {
             "health": 3.5,
-            "attack": 0.54,
+            "attack": 0.1,
             "critical": -20,
             "strong": 0,
             "accuracy": 50,
@@ -8181,7 +8181,7 @@ exports.data = [
         "atlas": "newenemy1.atlas",
         "property": {
             "health": 2.5,
-            "attack": 0.45,
+            "attack": 0.1,
             "critical": 10,
             "strong": 20,
             "accuracy": 40,
@@ -8209,7 +8209,7 @@ exports.data = [
         "skill": [
             {
                 "id": 26,
-                "level": 3
+                "level": 1
             },
             {
                 "id": 27,
@@ -8234,7 +8234,7 @@ exports.data = [
         "atlas": "newboss3.atlas",
         "property": {
             "health": 4,
-            "attack": 0.72,
+            "attack": 0.1,
             "critical": 10,
             "strong": -10,
             "accuracy": 20,
@@ -8282,7 +8282,7 @@ exports.data = [
         "atlas": "newenemy2.atlas",
         "property": {
             "health": 1.3,
-            "attack": 0.7,
+            "attack": 0.1,
             "critical": 0,
             "strong": -10,
             "accuracy": 20,
@@ -8325,7 +8325,7 @@ exports.data = [
         "atlas": "newboss8.atlas",
         "property": {
             "health": 10,
-            "attack": 0.6,
+            "attack": 0.2,
             "critical": 10,
             "strong": 20,
             "accuracy": 60,
@@ -8379,7 +8379,7 @@ exports.data = [
         "atlas": "newboss4.atlas",
         "property": {
             "health": 3.5,
-            "attack": 0.81,
+            "attack": 0.25,
             "critical": -20,
             "strong": 10,
             "accuracy": 20,
@@ -8429,7 +8429,7 @@ exports.data = [
         "atlas": "newboss6.atlas",
         "property": {
             "health": 3.5,
-            "attack": 0.45,
+            "attack": 0.22,
             "critical": 0,
             "strong": 20,
             "accuracy": 40,
@@ -8473,7 +8473,7 @@ exports.data = [
         "atlas": "newboss2.atlas",
         "property": {
             "health": 3.5,
-            "attack": 0.06,
+            "attack": 0.15,
             "critical": 0,
             "strong": 0,
             "accuracy": 40,

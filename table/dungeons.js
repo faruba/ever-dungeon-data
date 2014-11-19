@@ -38734,7 +38734,9 @@ exports.data = [
                         "count":1,
                         "keyed":true
                     }
-                ]
+                ],
+                "exit": 29,
+                "entrance":0
             }
         ],
         "dropID":[
