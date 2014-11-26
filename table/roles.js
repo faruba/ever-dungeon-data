@@ -7806,32 +7806,18 @@ exports.data = [
     },
     {
         "classId": 215,
-        "className": "测试流浪剑士",
+        "className": "大宗师",
         "faction": "monster",
         "classType": 1,
-        "avatar": "avatar.ccbi",
-        "emblem": [
-            "emblem-warrior.png",
-            "emblem-warrior2.png"
-        ],
-        "defaultArmors": [
-            6,
-            10,
-            11,
-            40,
-            41,
-            42,
-            43,
-            662,
-            712
-        ],
+        "skeleton": "master.json",
+        "atlas": "master.atlas",
         "property": {
             "health": 5,
-            "attack": 0.5,
-            "critical": 0,
-            "strong": 20,
-            "accuracy": 170,
-            "reactivity": 170,
+            "attack": 0.6,
+            "critical": 30,
+            "strong": 0,
+            "accuracy": 70,
+            "reactivity": -40,
             "speed": 0,
             "counterAttack": true,
             "exp": 0,
@@ -7839,12 +7825,12 @@ exports.data = [
         },
         "xproperty": {
             "balance": 0.1,
-            "health": 5,
-            "attack": 0.5,
+            "health": 1.5,
+            "attack": 0.4,
             "critical": 1,
             "strong": 1,
             "accuracy": 1,
-            "reactivity": 3,
+            "reactivity": 1,
             "speed": 1
         },
         "soundWound": "liulangwound.mp3",
@@ -7853,11 +7839,11 @@ exports.data = [
         "effectAttack": 8,
         "skill": [
             {
-                "id": 132,
+                "id": 321,
                 "level": 1
             },
             {
-                "id": 128,
+                "id": 323,
                 "level": 1
             },
             {
@@ -7865,15 +7851,19 @@ exports.data = [
                 "level": 1
             },
             {
-                "id": 132,
+                "id": 324,
                 "level": 1
             },
             {
-                "id": 134,
+                "id": 325,
                 "level": 1
             },
             {
-                "id": 135,
+                "id": 326,
+                "level": 1
+            },
+            {
+                "id": 328,
                 "level": 1
             }
         ]
@@ -8093,26 +8083,26 @@ exports.data = [
         "skeleton": "newboss7.json",
         "atlas": "newboss7.atlas",
         "property": {
-            "health": 3,
-            "attack": 0.1,
-            "critical": 40,
+            "health": 2,
+            "attack": 0.45,
+            "critical": 20,
             "strong": -20,
-            "accuracy": 100,
-            "reactivity": 0,
-            "speed": 0,
+            "accuracy": 80,
+            "reactivity": -10,
+            "speed": -10,
             "counterAttack": true,
             "exp": 0,
             "gold": 0
         },
         "xproperty": {
             "balance": 0.2,
-            "health": 2,
+            "health": 1.5,
             "attack": 0.4,
-            "critical": 0.2,
-            "strong": 0.2,
+            "critical": 1,
+            "strong": 1,
             "accuracy": 1,
-            "reactivity": 0.2,
-            "speed": 0.3
+            "reactivity": 1,
+            "speed": 1
         },
         "soundSpawn": "bianfu.mp3",
         "soundWound": "bianfuwound.mp3",
@@ -8279,20 +8269,20 @@ exports.data = [
         "skeleton": "newenemy2.json",
         "atlas": "newenemy2.atlas",
         "property": {
-            "health": 1.3,
-            "attack": 0.1,
-            "critical": 0,
-            "strong": -10,
-            "accuracy": 20,
-            "reactivity": -50,
-            "speed": 0,
+            "health": 0.3,
+            "attack": 0.07,
+            "critical": 10,
+            "strong": -30,
+            "accuracy": 70,
+            "reactivity": -40,
+            "speed": -20,
             "counterAttack": false,
             "exp": 0,
             "gold": 0
         },
         "xproperty": {
             "balance": 0.1,
-            "health": 2,
+            "health": 1.5,
             "attack": 0.4,
             "critical": 1,
             "strong": 1,
@@ -8542,6 +8532,162 @@ exports.data = [
             },
             {
                 "id": 295,
+                "level": 1
+            }
+        ]
+    },
+    {
+        "classId": 232,
+        "className": "剑兵1",
+        "faction": "monster",
+        "classType": 1,
+        "avatar": "enemy-sword1.ccbi",
+        "property": {
+            "health": 0.6,
+            "attack": 0.35,
+            "critical": 20,
+            "strong": -20,
+            "accuracy": 40,
+            "reactivity": -50,
+            "speed": -20,
+            "counterAttack": true,
+            "exp": 0,
+            "gold": 0
+        },
+        "xproperty": {
+            "balance": 0.1,
+            "health": 1.5,
+            "attack": 0.4,
+            "critical": 1,
+            "strong": 1,
+            "accuracy": 1,
+            "reactivity": 1,
+            "speed": 1
+        },
+        "soundWound": "liulangwound.mp3",
+        "soundAttack": "liulangattack.mp3",
+        "soundDie": "liulangdie.mp3",
+        "effectAttack": 8,
+        "skill": [
+            {
+                "id": 185,
+                "level": 1
+            }
+        ]
+    },
+    {
+        "classId": 233,
+        "className": "剑兵2",
+        "faction": "monster",
+        "classType": 1,
+        "avatar": "enemy-sword12.ccbi",
+        "property": {
+            "health": 0.6,
+            "attack": 0.35,
+            "critical": 20,
+            "strong": -20,
+            "accuracy": 40,
+            "reactivity": -50,
+            "speed": -20,
+            "counterAttack": true,
+            "exp": 0,
+            "gold": 0
+        },
+        "xproperty": {
+            "balance": 0.1,
+            "health": 1.5,
+            "attack": 0.4,
+            "critical": 1,
+            "strong": 1,
+            "accuracy": 1,
+            "reactivity": 1,
+            "speed": 1
+        },
+        "soundWound": "liulangwound.mp3",
+        "soundAttack": "liulangattack.mp3",
+        "soundDie": "liulangdie.mp3",
+        "effectAttack": 8,
+        "skill": [
+            {
+                "id": 185,
+                "level": 1
+            }
+        ]
+    },
+    {
+        "classId": 234,
+        "className": "剑兵3",
+        "faction": "monster",
+        "classType": 1,
+        "avatar": "enemy-sword13.ccbi",
+        "property": {
+            "health": 0.6,
+            "attack": 0.35,
+            "critical": 20,
+            "strong": -20,
+            "accuracy": 40,
+            "reactivity": -50,
+            "speed": -20,
+            "counterAttack": true,
+            "exp": 0,
+            "gold": 0
+        },
+        "xproperty": {
+            "balance": 0.1,
+            "health": 1.5,
+            "attack": 0.4,
+            "critical": 1,
+            "strong": 1,
+            "accuracy": 1,
+            "reactivity": 1,
+            "speed": 1
+        },
+        "soundWound": "liulangwound.mp3",
+        "soundAttack": "liulangattack.mp3",
+        "soundDie": "liulangdie.mp3",
+        "effectAttack": 8,
+        "skill": [
+            {
+                "id": 185,
+                "level": 1
+            }
+        ]
+    },
+    {
+        "classId": 235,
+        "className": "剑兵4",
+        "faction": "monster",
+        "classType": 1,
+        "avatar": "enemy-sword14.ccbi",
+        "property": {
+            "health": 0.6,
+            "attack": 0.35,
+            "critical": 20,
+            "strong": -20,
+            "accuracy": 40,
+            "reactivity": -50,
+            "speed": -20,
+            "counterAttack": true,
+            "exp": 0,
+            "gold": 0
+        },
+        "xproperty": {
+            "balance": 0.1,
+            "health": 1.5,
+            "attack": 0.4,
+            "critical": 1,
+            "strong": 1,
+            "accuracy": 1,
+            "reactivity": 1,
+            "speed": 1
+        },
+        "soundWound": "liulangwound.mp3",
+        "soundAttack": "liulangattack.mp3",
+        "soundDie": "liulangdie.mp3",
+        "effectAttack": 8,
+        "skill": [
+            {
+                "id": 185,
                 "level": 1
             }
         ]

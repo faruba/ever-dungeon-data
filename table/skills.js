@@ -17145,6 +17145,487 @@ exports.data = [
         }
       ]
     }
-  }
+  },
+    {
+        "skillId": 321,
+        "label": "宗师盾墙",
+        "config": {
+            "targetSelection": {
+                "pool": "self"
+            },
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onTurnEnd",
+                    "eventCount": 5,
+                    "reset": true
+                },
+                {
+                    "type": "targetMutex",
+                    "mutex": "zs"
+                },
+                {
+                    "type": "chance",
+                    "chance": 0.3
+                }
+            ],
+            "action": [
+                {
+                    "type": "installSpell",
+                    "spell": 322
+                },
+                {
+                    "type": "playAction",
+                    "motion": "1",
+                    "pos": "self"
+                },
+                {
+                    "type": "setMyMutex",
+                    "mutex": "zs",
+                    "count": 1
+                },
+                {
+                    "type": "shock",
+                    "delay": 0.3,
+                    "range": 5,
+                    "time": 0.2
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 322,
+        "slotId": -1,
+        "config": {
+            "basic": {
+                "buffEffect": 42
+            },
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onBePhysicalDamage"
+                },
+                {
+                    "type": "event",
+                    "event": "onBePhysicalRangeDamage"
+                },
+                {
+                    "type": "event",
+                    "event": "onBeSpellDamage"
+                },
+                {
+                    "type": "event",
+                    "event": "onBeSpellRangeDamage"
+                },
+                {
+                    "type": "targetMutex",
+                    "mutex": "reinforce"
+                },
+                {
+                    "type": "alive"
+                }
+            ],
+            "availableCondition": [
+                {
+                    "type": "effectCount",
+                    "count": 3
+                }
+            ],
+            "action": [
+                {
+                    "type": "modifyVar",
+                    "x": "damage",
+                    "formular": {
+                        "environment": {
+                            "damage": 0
+                        }
+                    }
+                },
+                {
+                    "type": "setMyMutex",
+                    "mutex": "reinforce",
+                    "count": 1
+                },
+                {
+                    "type": "playAction",
+                    "motion": "gd",
+                    "pos": "self"
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 323,
+        "label": "宗师闪电",
+        "config": {
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onTurnEnd",
+                    "eventCount": 5,
+                    "reset": true
+                },
+                {
+                    "type": "targetMutex",
+                    "mutex": "zs"
+                },
+                {
+                    "type": "chance",
+                    "chance": 0.3
+                },
+                {
+                    "type": "alive"
+                }
+            ],
+            "targetSelection": {
+                "pool": "objects",
+                "filter": [
+                    {
+                        "type": "alive"
+                    },
+                    {
+                        "type": "visible"
+                    },
+                    {
+                        "type": "target-faction-with-flag",
+                        "flag": "attackable"
+                    },
+                    {
+                        "type": "shuffle"
+                    },
+                    {
+                        "type": "count",
+                        "count": 1
+                    }
+                ]
+            },
+            "action": [
+                {
+                    "type": "damage",
+                    "damageType": "Spell",
+                    "isRange": true,
+                    "delay": 0.8,
+                    "formular": [
+                        {
+                            "src": {
+                                "attack": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "playAction",
+                    "motion": "1",
+                    "pos": "self"
+                },
+                {
+                    "type": "playEffect",
+                    "effect": 44,
+                    "act": "self"
+                },
+                {
+                    "type": "playEffect",
+                    "effect": 0,
+                    "act": "target",
+                    "delay": 0.6
+                },
+                {
+                    "type": "setMyMutex",
+                    "mutex": "zs",
+                    "count": 1
+                },
+                {
+                    "type": "blink",
+                    "delay": 0.6,
+                    "time": 0.08
+                },
+                {
+                    "type": "shock",
+                    "delay": 0.6,
+                    "range": 5,
+                    "time": 0.2
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 324,
+        "label": "宗师炎甲",
+        "config": {
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onBePhysicalDamage"
+                },
+                {
+                    "type": "chance",
+                    "chance": 0.3
+                }
+            ],
+            "action": [
+                {
+                    "type": "playAction",
+                    "motion": "yj",
+                    "pos": "self"
+                },
+                {
+                    "type": "playEffect",
+                    "effect": 10,
+                    "act": "target",
+                    "delay": 0.6
+                },
+                {
+                    "type": "damage",
+                    "damageType": "Spell",
+                    "formular": [
+                        {
+                            "src": {
+                                "attack": 0.3
+                            },
+                            "c": 10
+                        }
+                    ]
+                }
+            ],
+            "targetSelection": {
+                "pool": "source",
+                "filter": [
+                    {
+                        "type": "alive"
+                    },
+                    {
+                        "type": "visible"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "skillId": 325,
+        "label": "宗师治愈pk",
+        "config": {
+            "basic": {
+                "spellAction": 1,
+                "spellEffect": 47,
+                "targetEffect": 48,
+                "spellDelay": 0.3,
+                "targetDelay": 0.7
+            },
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onTurnEnd",
+                    "eventCount": 8,
+                    "reset": true
+                },
+                {
+                    "type": "targetMutex",
+                    "mutex": "zs"
+                },
+                {
+                    "type": "chance",
+                    "chance": 0.3
+                },
+                {
+                    "type": "alive"
+                }
+            ],
+            "targetSelection": {
+                "pool": "objects",
+                "filter": [
+                    {
+                        "type": "alive"
+                    },
+                    {
+                        "type": "visible"
+                    },
+                    {
+                        "type": "target-faction-with-flag",
+                        "flag": "healable"
+                    },
+                    {
+                        "type": "shuffle"
+                    },
+                    {
+                        "type": "count",
+                        "count": 1
+                    }
+                ]
+            },
+            "action": [
+                {
+                    "type": "heal",
+                    "formular": [
+                        {
+                            "src": {
+                                "accuracy": 0.25
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "setMyMutex",
+                    "mutex": "zs",
+                    "count": 1
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 326,
+        "label": "宗师救赎",
+        "config": {
+            "basic": {
+                "spellAction": 1,
+                "targetEffect": 13,
+                "spellDelay": 0.3,
+                "targetDelay": 0.3
+            },
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onTurnEnd",
+                    "eventCount": 8,
+                    "reset": true
+                },
+                {
+                    "type": "targetMutex",
+                    "mutex": "zs"
+                },
+                {
+                    "type": "chance",
+                    "chance": 0.3
+                },
+                {
+                    "type": "alive"
+                }
+            ],
+            "action": [
+                {
+                    "type": "playEffect",
+                    "effect": 4,
+                    "act": "self"
+                },
+                {
+                    "type": "setMyMutex",
+                    "mutex": "zs",
+                    "count": 1
+                },
+                {
+                    "type": "shock",
+                    "delay": 0.3,
+                    "range": 5,
+                    "time": 0.2
+                },
+                {
+                    "type": "delay",
+                    "delay": 0.4
+                },
+                {
+                    "type": "installSpell",
+                    "spell": 327
+                }
+            ],
+            "targetSelection": {
+                "pool": "objects",
+                "filter": [
+                    {
+                        "type": "alive"
+                    },
+                    {
+                        "type": "visible"
+                    },
+                    {
+                        "type": "target-faction-with-flag",
+                        "flag": "healable"
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "skillId": 327,
+        "config": {
+            "installAction": [
+                {
+                    "type": "setProperty",
+                    "modifications": [
+                        {
+                            "attack": {
+                                "src": {
+                                    "attack": 0.5
+                                },
+                                "c": 15
+                            }
+                        }
+                    ]
+                }
+            ],
+            "uninstallAction": [
+                {
+                    "type": "resetProperty"
+                }
+            ],
+            "buffType": "AttackBuff",
+            "availableCondition": [
+                {
+                    "type": "event",
+                    "event": "onBeginBattleTurn",
+                    "eventCount": 1
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 328,
+        "label": "BOSS传送",
+        "config": {
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onBeEndBattleTurn"
+                },
+                {
+                    "type": "chance",
+                    "chance": 0.45
+                },
+                {
+                    "type": "alive"
+                }
+            ],
+            "targetSelection": {
+                "pool": "self",
+                "filter": [
+                    {
+                        "type": "alive"
+                    }
+                ]
+            },
+            "action": [
+                {
+                    "type": "delay"
+                },
+                {
+                    "type": "playEffect",
+                    "effect": 20,
+                    "pos": "self"
+                },
+                {
+                    "type": "delay"
+                },
+                {
+                    "type": "randTeleport"
+                },
+                {
+                    "type": "delay"
+                },
+                {
+                    "type": "playEffect",
+                    "effect": 21,
+                    "pos": "self"
+                }
+            ]
+        }
+    }
 ]
 
