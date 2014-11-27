@@ -28009,6 +28009,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 880,
         "basic_properties": {
             "health": 300,
@@ -28055,6 +28056,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 881,
         "basic_properties": {
             "health": 306,
@@ -28103,6 +28105,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 882,
         "basic_properties": {
             "health": 312,
@@ -28151,6 +28154,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 883,
         "basic_properties": {
             "health": 318,
@@ -28199,6 +28203,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 884,
         "basic_properties": {
             "health": 324,
@@ -28247,6 +28252,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 330,
             "attack": 45,
@@ -28294,6 +28300,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 886,
         "basic_properties": {
             "health": 312,
@@ -28340,6 +28347,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 887,
         "basic_properties": {
             "health": 318,
@@ -28388,6 +28396,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 888,
         "basic_properties": {
             "health": 324,
@@ -28436,6 +28445,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 889,
         "basic_properties": {
             "health": 330,
@@ -28484,6 +28494,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 890,
         "basic_properties": {
             "health": 336,
@@ -28532,6 +28543,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 342,
             "attack": 47,
@@ -28579,6 +28591,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 892,
         "basic_properties": {
             "health": 324,
@@ -28625,6 +28638,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 893,
         "basic_properties": {
             "health": 330,
@@ -28673,6 +28687,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 894,
         "basic_properties": {
             "health": 336,
@@ -28721,6 +28736,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 895,
         "basic_properties": {
             "health": 342,
@@ -28769,6 +28785,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 896,
         "basic_properties": {
             "health": 348,
@@ -28817,6 +28834,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 354,
             "attack": 49,
@@ -28864,6 +28882,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 898,
         "basic_properties": {
             "health": 336,
@@ -28910,6 +28929,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 899,
         "basic_properties": {
             "health": 342,
@@ -28958,6 +28978,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 900,
         "basic_properties": {
             "health": 348,
@@ -29006,6 +29027,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 901,
         "basic_properties": {
             "health": 354,
@@ -29054,6 +29076,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 902,
         "basic_properties": {
             "health": 360,
@@ -29102,6 +29125,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 366,
             "attack": 51,
@@ -29149,6 +29173,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 904,
         "basic_properties": {
             "health": 348,
@@ -29195,6 +29220,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 905,
         "basic_properties": {
             "health": 354,
@@ -29241,6 +29267,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 906,
         "basic_properties": {
             "health": 360,
@@ -29287,6 +29314,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 907,
         "basic_properties": {
             "health": 366,
@@ -29333,6 +29361,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 908,
         "basic_properties": {
             "health": 372,
@@ -29456,6 +29485,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 910,
         "basic_properties": {
             "health": 500,
@@ -29534,6 +29564,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 911,
         "basic_properties": {
             "health": 508,
@@ -29614,6 +29645,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 912,
         "basic_properties": {
             "health": 516,
@@ -29694,6 +29726,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 913,
         "basic_properties": {
             "health": 524,
@@ -29774,6 +29807,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 914,
         "basic_properties": {
             "health": 532,
@@ -29854,6 +29888,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 540,
             "attack": 35,
@@ -29933,6 +29968,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 916,
         "basic_properties": {
             "health": 516,
@@ -30011,6 +30047,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 917,
         "basic_properties": {
             "health": 524,
@@ -30091,6 +30128,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 918,
         "basic_properties": {
             "health": 532,
@@ -30171,6 +30209,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 919,
         "basic_properties": {
             "health": 540,
@@ -30251,6 +30290,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 920,
         "basic_properties": {
             "health": 548,
@@ -30331,6 +30371,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 556,
             "attack": 36,
@@ -30410,6 +30451,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 922,
         "basic_properties": {
             "health": 532,
@@ -30488,6 +30530,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 923,
         "basic_properties": {
             "health": 540,
@@ -30568,6 +30611,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 924,
         "basic_properties": {
             "health": 548,
@@ -30648,6 +30692,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 925,
         "basic_properties": {
             "health": 556,
@@ -30728,6 +30773,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 926,
         "basic_properties": {
             "health": 564,
@@ -30808,6 +30854,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 572,
             "attack": 37,
@@ -30887,6 +30934,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 928,
         "basic_properties": {
             "health": 548,
@@ -30965,6 +31013,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 929,
         "basic_properties": {
             "health": 556,
@@ -31045,6 +31094,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 930,
         "basic_properties": {
             "health": 564,
@@ -31125,6 +31175,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 931,
         "basic_properties": {
             "health": 572,
@@ -31205,6 +31256,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 932,
         "basic_properties": {
             "health": 580,
@@ -31285,6 +31337,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 588,
             "attack": 39,
@@ -31364,6 +31417,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 934,
         "basic_properties": {
             "health": 564,
@@ -31442,6 +31496,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 935,
         "basic_properties": {
             "health": 572,
@@ -31520,6 +31575,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 936,
         "basic_properties": {
             "health": 580,
@@ -31598,6 +31654,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 937,
         "basic_properties": {
             "health": 588,
@@ -31676,6 +31733,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 938,
         "basic_properties": {
             "health": 596,
@@ -31799,6 +31857,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 940,
         "basic_properties": {
             "health": 300,
@@ -31843,6 +31902,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 941,
         "basic_properties": {
             "health": 306,
@@ -31889,6 +31949,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 942,
         "basic_properties": {
             "health": 312,
@@ -31935,6 +31996,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 943,
         "basic_properties": {
             "health": 318,
@@ -31981,6 +32043,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 944,
         "basic_properties": {
             "health": 324,
@@ -32027,6 +32090,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 330,
             "attack": 68,
@@ -32072,6 +32136,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 946,
         "basic_properties": {
             "health": 312,
@@ -32116,6 +32181,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 947,
         "basic_properties": {
             "health": 318,
@@ -32162,6 +32228,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 948,
         "basic_properties": {
             "health": 324,
@@ -32208,6 +32275,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 949,
         "basic_properties": {
             "health": 330,
@@ -32254,6 +32322,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 950,
         "basic_properties": {
             "health": 336,
@@ -32300,6 +32369,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 342,
             "attack": 71,
@@ -32345,6 +32415,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 952,
         "basic_properties": {
             "health": 324,
@@ -32389,6 +32460,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 953,
         "basic_properties": {
             "health": 330,
@@ -32435,6 +32507,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 954,
         "basic_properties": {
             "health": 336,
@@ -32481,6 +32554,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 955,
         "basic_properties": {
             "health": 342,
@@ -32527,6 +32601,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 956,
         "basic_properties": {
             "health": 348,
@@ -32573,6 +32648,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 354,
             "attack": 75,
@@ -32618,6 +32694,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 958,
         "basic_properties": {
             "health": 336,
@@ -32662,6 +32739,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 959,
         "basic_properties": {
             "health": 342,
@@ -32708,6 +32786,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 960,
         "basic_properties": {
             "health": 348,
@@ -32754,6 +32833,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 961,
         "basic_properties": {
             "health": 354,
@@ -32800,6 +32880,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 962,
         "basic_properties": {
             "health": 360,
@@ -32846,6 +32927,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 366,
             "attack": 78,
@@ -32891,6 +32973,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 964,
         "basic_properties": {
             "health": 348,
@@ -32935,6 +33018,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 965,
         "basic_properties": {
             "health": 354,
@@ -32979,6 +33063,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 966,
         "basic_properties": {
             "health": 360,
@@ -33023,6 +33108,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 967,
         "basic_properties": {
             "health": 366,
@@ -33067,6 +33153,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 968,
         "basic_properties": {
             "health": 372,
@@ -33148,6 +33235,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 970,
         "basic_properties": {
             "health": 300,
@@ -33187,6 +33275,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 971,
         "basic_properties": {
             "health": 306,
@@ -33228,6 +33317,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 972,
         "basic_properties": {
             "health": 312,
@@ -33269,6 +33359,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 973,
         "basic_properties": {
             "health": 318,
@@ -33310,6 +33401,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 974,
         "basic_properties": {
             "health": 324,
@@ -33351,6 +33443,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 330,
             "attack": 90,
@@ -33391,6 +33484,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 976,
         "basic_properties": {
             "health": 312,
@@ -33430,6 +33524,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 977,
         "basic_properties": {
             "health": 318,
@@ -33471,6 +33566,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 978,
         "basic_properties": {
             "health": 324,
@@ -33512,6 +33608,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 979,
         "basic_properties": {
             "health": 330,
@@ -33553,6 +33650,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 980,
         "basic_properties": {
             "health": 336,
@@ -33594,6 +33692,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 342,
             "attack": 94,
@@ -33634,6 +33733,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 982,
         "basic_properties": {
             "health": 324,
@@ -33673,6 +33773,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 983,
         "basic_properties": {
             "health": 330,
@@ -33714,6 +33815,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 984,
         "basic_properties": {
             "health": 336,
@@ -33755,6 +33857,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 985,
         "basic_properties": {
             "health": 342,
@@ -33796,6 +33899,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 986,
         "basic_properties": {
             "health": 348,
@@ -33837,6 +33941,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 354,
             "attack": 98,
@@ -33877,6 +33982,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 988,
         "basic_properties": {
             "health": 336,
@@ -33916,6 +34022,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 989,
         "basic_properties": {
             "health": 342,
@@ -33957,6 +34064,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 990,
         "basic_properties": {
             "health": 348,
@@ -33998,6 +34106,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 991,
         "basic_properties": {
             "health": 354,
@@ -34039,6 +34148,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 992,
         "basic_properties": {
             "health": 360,
@@ -34080,6 +34190,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 366,
             "attack": 102,
@@ -34120,6 +34231,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 994,
         "basic_properties": {
             "health": 348,
@@ -34159,6 +34271,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 995,
         "basic_properties": {
             "health": 354,
@@ -34198,6 +34311,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 996,
         "basic_properties": {
             "health": 360,
@@ -34237,6 +34351,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 997,
         "basic_properties": {
             "health": 366,
@@ -34276,6 +34391,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 998,
         "basic_properties": {
             "health": 372,
@@ -34340,6 +34456,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1000,
         "basic_properties": {
             "health": 300,
@@ -34366,6 +34483,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1001,
         "basic_properties": {
             "health": 306,
@@ -34394,6 +34512,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1002,
         "basic_properties": {
             "health": 312,
@@ -34422,6 +34541,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1003,
         "basic_properties": {
             "health": 318,
@@ -34450,6 +34570,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1004,
         "basic_properties": {
             "health": 324,
@@ -34478,6 +34599,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 330,
             "attack": 35,
@@ -34505,6 +34627,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1006,
         "basic_properties": {
             "health": 312,
@@ -34531,6 +34654,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1007,
         "basic_properties": {
             "health": 318,
@@ -34559,6 +34683,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1008,
         "basic_properties": {
             "health": 324,
@@ -34587,6 +34712,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1009,
         "basic_properties": {
             "health": 330,
@@ -34615,6 +34741,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1010,
         "basic_properties": {
             "health": 336,
@@ -34643,6 +34770,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 342,
             "attack": 37,
@@ -34670,6 +34798,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1012,
         "basic_properties": {
             "health": 324,
@@ -34696,6 +34825,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1013,
         "basic_properties": {
             "health": 330,
@@ -34724,6 +34854,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1014,
         "basic_properties": {
             "health": 336,
@@ -34752,6 +34883,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1015,
         "basic_properties": {
             "health": 342,
@@ -34780,6 +34912,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1016,
         "basic_properties": {
             "health": 348,
@@ -34808,6 +34941,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 354,
             "attack": 39,
@@ -34835,6 +34969,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1018,
         "basic_properties": {
             "health": 336,
@@ -34861,6 +34996,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1019,
         "basic_properties": {
             "health": 342,
@@ -34889,6 +35025,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1020,
         "basic_properties": {
             "health": 348,
@@ -34917,6 +35054,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1021,
         "basic_properties": {
             "health": 354,
@@ -34945,6 +35083,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1022,
         "basic_properties": {
             "health": 360,
@@ -34973,6 +35112,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 366,
             "attack": 40,
@@ -35000,6 +35140,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1024,
         "basic_properties": {
             "health": 348,
@@ -35026,6 +35167,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1025,
         "basic_properties": {
             "health": 354,
@@ -35052,6 +35194,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1026,
         "basic_properties": {
             "health": 360,
@@ -35078,6 +35221,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1027,
         "basic_properties": {
             "health": 366,
@@ -35104,6 +35248,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1028,
         "basic_properties": {
             "health": 372,
@@ -35155,6 +35300,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1030,
         "basic_properties": {
             "health": 300,
@@ -35182,6 +35328,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1031,
         "basic_properties": {
             "health": 306,
@@ -35211,6 +35358,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1032,
         "basic_properties": {
             "health": 312,
@@ -35240,6 +35388,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1033,
         "basic_properties": {
             "health": 318,
@@ -35269,6 +35418,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1034,
         "basic_properties": {
             "health": 324,
@@ -35298,6 +35448,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 330,
             "attack": 32,
@@ -35326,6 +35477,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1036,
         "basic_properties": {
             "health": 312,
@@ -35353,6 +35505,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1037,
         "basic_properties": {
             "health": 318,
@@ -35382,6 +35535,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1038,
         "basic_properties": {
             "health": 324,
@@ -35411,6 +35565,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1039,
         "basic_properties": {
             "health": 330,
@@ -35440,6 +35595,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1040,
         "basic_properties": {
             "health": 336,
@@ -35469,6 +35625,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 342,
             "attack": 34,
@@ -35497,6 +35654,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1042,
         "basic_properties": {
             "health": 324,
@@ -35524,6 +35682,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1043,
         "basic_properties": {
             "health": 330,
@@ -35553,6 +35712,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1044,
         "basic_properties": {
             "health": 336,
@@ -35582,6 +35742,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1045,
         "basic_properties": {
             "health": 342,
@@ -35611,6 +35772,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1046,
         "basic_properties": {
             "health": 348,
@@ -35640,6 +35802,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 354,
             "attack": 35,
@@ -35668,6 +35831,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1048,
         "basic_properties": {
             "health": 336,
@@ -35695,6 +35859,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1049,
         "basic_properties": {
             "health": 342,
@@ -35724,6 +35889,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1050,
         "basic_properties": {
             "health": 348,
@@ -35753,6 +35919,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1051,
         "basic_properties": {
             "health": 354,
@@ -35782,6 +35949,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1052,
         "basic_properties": {
             "health": 360,
@@ -35811,6 +35979,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 366,
             "attack": 37,
@@ -35839,6 +36008,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1054,
         "basic_properties": {
             "health": 348,
@@ -35866,6 +36036,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1055,
         "basic_properties": {
             "health": 354,
@@ -35893,6 +36064,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1056,
         "basic_properties": {
             "health": 360,
@@ -35920,6 +36092,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1057,
         "basic_properties": {
             "health": 366,
@@ -35947,6 +36120,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1058,
         "basic_properties": {
             "health": 372,
@@ -36019,6 +36193,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1060,
         "basic_properties": {
             "health": 250,
@@ -36066,6 +36241,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1061,
         "basic_properties": {
             "health": 255,
@@ -36115,6 +36291,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1062,
         "basic_properties": {
             "health": 260,
@@ -36164,6 +36341,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1063,
         "basic_properties": {
             "health": 265,
@@ -36213,6 +36391,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1064,
         "basic_properties": {
             "health": 270,
@@ -36262,6 +36441,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 275,
             "attack": 56,
@@ -36310,6 +36490,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1066,
         "basic_properties": {
             "health": 260,
@@ -36357,6 +36538,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1067,
         "basic_properties": {
             "health": 265,
@@ -36406,6 +36588,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1068,
         "basic_properties": {
             "health": 270,
@@ -36455,6 +36638,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1069,
         "basic_properties": {
             "health": 275,
@@ -36504,6 +36688,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1070,
         "basic_properties": {
             "health": 280,
@@ -36553,6 +36738,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 285,
             "attack": 59,
@@ -36601,6 +36787,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1072,
         "basic_properties": {
             "health": 270,
@@ -36648,6 +36835,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1073,
         "basic_properties": {
             "health": 275,
@@ -36697,6 +36885,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1074,
         "basic_properties": {
             "health": 280,
@@ -36746,6 +36935,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1075,
         "basic_properties": {
             "health": 285,
@@ -36795,6 +36985,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1076,
         "basic_properties": {
             "health": 290,
@@ -36844,6 +37035,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 295,
             "attack": 61,
@@ -36892,6 +37084,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1078,
         "basic_properties": {
             "health": 280,
@@ -36939,6 +37132,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1079,
         "basic_properties": {
             "health": 285,
@@ -36988,6 +37182,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1080,
         "basic_properties": {
             "health": 290,
@@ -37037,6 +37232,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1081,
         "basic_properties": {
             "health": 295,
@@ -37086,6 +37282,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1082,
         "basic_properties": {
             "health": 300,
@@ -37135,6 +37332,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 305,
             "attack": 64,
@@ -37183,6 +37381,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1084,
         "basic_properties": {
             "health": 290,
@@ -37230,6 +37429,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1085,
         "basic_properties": {
             "health": 295,
@@ -37277,6 +37477,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1086,
         "basic_properties": {
             "health": 300,
@@ -37324,6 +37525,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1087,
         "basic_properties": {
             "health": 305,
@@ -37371,6 +37573,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1088,
         "basic_properties": {
             "health": 310,
@@ -37496,6 +37699,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1090,
         "basic_properties": {
             "health": 320,
@@ -37574,6 +37778,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1091,
         "basic_properties": {
             "health": 325,
@@ -37654,6 +37859,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1092,
         "basic_properties": {
             "health": 330,
@@ -37734,6 +37940,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1093,
         "basic_properties": {
             "health": 335,
@@ -37814,6 +38021,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1094,
         "basic_properties": {
             "health": 340,
@@ -37894,6 +38102,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 345,
             "attack": 57,
@@ -37973,6 +38182,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1096,
         "basic_properties": {
             "health": 330,
@@ -38051,6 +38261,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1097,
         "basic_properties": {
             "health": 335,
@@ -38131,6 +38342,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1098,
         "basic_properties": {
             "health": 340,
@@ -38211,6 +38423,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1099,
         "basic_properties": {
             "health": 345,
@@ -38291,6 +38504,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1100,
         "basic_properties": {
             "health": 350,
@@ -38371,6 +38585,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 355,
             "attack": 59,
@@ -38450,6 +38665,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1102,
         "basic_properties": {
             "health": 340,
@@ -38528,6 +38744,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1103,
         "basic_properties": {
             "health": 345,
@@ -38608,6 +38825,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1104,
         "basic_properties": {
             "health": 350,
@@ -38688,6 +38906,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1105,
         "basic_properties": {
             "health": 355,
@@ -38768,6 +38987,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1106,
         "basic_properties": {
             "health": 360,
@@ -38848,6 +39068,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 365,
             "attack": 62,
@@ -38927,6 +39148,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1108,
         "basic_properties": {
             "health": 350,
@@ -39005,6 +39227,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1109,
         "basic_properties": {
             "health": 355,
@@ -39085,6 +39308,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1110,
         "basic_properties": {
             "health": 360,
@@ -39165,6 +39389,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1111,
         "basic_properties": {
             "health": 365,
@@ -39245,6 +39470,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1112,
         "basic_properties": {
             "health": 370,
@@ -39325,6 +39551,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 375,
             "attack": 64,
@@ -39404,6 +39631,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1114,
         "basic_properties": {
             "health": 360,
@@ -39482,6 +39710,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1115,
         "basic_properties": {
             "health": 365,
@@ -39560,6 +39789,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1116,
         "basic_properties": {
             "health": 370,
@@ -39638,6 +39868,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1117,
         "basic_properties": {
             "health": 375,
@@ -39716,6 +39947,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1118,
         "basic_properties": {
             "health": 380,
@@ -39831,6 +40063,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1120,
         "basic_properties": {
             "health": 180,
@@ -39868,6 +40101,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1121,
         "basic_properties": {
             "health": 184,
@@ -39907,6 +40141,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1122,
         "basic_properties": {
             "health": 188,
@@ -39946,6 +40181,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1123,
         "basic_properties": {
             "health": 192,
@@ -39985,6 +40221,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1124,
         "basic_properties": {
             "health": 196,
@@ -40024,6 +40261,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 200,
             "attack": 70,
@@ -40062,6 +40300,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1126,
         "basic_properties": {
             "health": 188,
@@ -40099,6 +40338,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1127,
         "basic_properties": {
             "health": 192,
@@ -40138,6 +40378,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1128,
         "basic_properties": {
             "health": 196,
@@ -40177,6 +40418,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1129,
         "basic_properties": {
             "health": 200,
@@ -40216,6 +40458,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1130,
         "basic_properties": {
             "health": 204,
@@ -40255,6 +40498,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 208,
             "attack": 74,
@@ -40293,6 +40537,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1132,
         "basic_properties": {
             "health": 196,
@@ -40330,6 +40575,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1133,
         "basic_properties": {
             "health": 200,
@@ -40369,6 +40615,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1134,
         "basic_properties": {
             "health": 204,
@@ -40408,6 +40655,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1135,
         "basic_properties": {
             "health": 208,
@@ -40447,6 +40695,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1136,
         "basic_properties": {
             "health": 212,
@@ -40486,6 +40735,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 216,
             "attack": 78,
@@ -40524,6 +40774,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1138,
         "basic_properties": {
             "health": 204,
@@ -40561,6 +40812,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1139,
         "basic_properties": {
             "health": 208,
@@ -40600,6 +40852,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1140,
         "basic_properties": {
             "health": 212,
@@ -40639,6 +40892,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1141,
         "basic_properties": {
             "health": 216,
@@ -40678,6 +40932,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1142,
         "basic_properties": {
             "health": 220,
@@ -40717,6 +40972,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 224,
             "attack": 82,
@@ -40755,6 +41011,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1144,
         "basic_properties": {
             "health": 212,
@@ -40792,6 +41049,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1145,
         "basic_properties": {
             "health": 216,
@@ -40829,6 +41087,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1146,
         "basic_properties": {
             "health": 220,
@@ -40866,6 +41125,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1147,
         "basic_properties": {
             "health": 224,
@@ -40903,6 +41163,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1148,
         "basic_properties": {
             "health": 228,
@@ -40978,6 +41239,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1150,
         "basic_properties": {
             "attack": 120,
@@ -41016,6 +41278,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1151,
         "basic_properties": {
             "attack": 123,
@@ -41056,6 +41319,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1152,
         "basic_properties": {
             "attack": 126,
@@ -41096,6 +41360,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1153,
         "basic_properties": {
             "attack": 129,
@@ -41136,6 +41401,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1154,
         "basic_properties": {
             "attack": 132,
@@ -41176,6 +41442,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "attack": 135,
             "accuracy": 130,
@@ -41215,6 +41482,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1156,
         "basic_properties": {
             "attack": 126,
@@ -41253,6 +41521,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1157,
         "basic_properties": {
             "attack": 129,
@@ -41290,6 +41559,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1158,
         "basic_properties": {
             "attack": 132,
@@ -41333,6 +41603,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1159,
         "basic_properties": {
             "attack": 135,
@@ -41373,6 +41644,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1160,
         "basic_properties": {
             "attack": 138,
@@ -41413,6 +41685,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "attack": 141,
             "accuracy": 134,
@@ -41452,6 +41725,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1162,
         "basic_properties": {
             "attack": 132,
@@ -41490,6 +41764,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1163,
         "basic_properties": {
             "attack": 135,
@@ -41530,6 +41805,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1164,
         "basic_properties": {
             "attack": 138,
@@ -41570,6 +41846,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1165,
         "basic_properties": {
             "attack": 141,
@@ -41610,6 +41887,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1166,
         "basic_properties": {
             "attack": 144,
@@ -41650,6 +41928,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "attack": 147,
             "accuracy": 138,
@@ -41689,6 +41968,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1168,
         "basic_properties": {
             "attack": 138,
@@ -41727,6 +42007,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1169,
         "basic_properties": {
             "attack": 141,
@@ -41767,6 +42048,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1170,
         "basic_properties": {
             "attack": 144,
@@ -41807,6 +42089,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1171,
         "basic_properties": {
             "attack": 147,
@@ -41847,6 +42130,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1172,
         "basic_properties": {
             "attack": 150,
@@ -41887,6 +42171,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "attack": 153,
             "accuracy": 142,
@@ -41926,6 +42211,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1174,
         "basic_properties": {
             "attack": 144,
@@ -41964,6 +42250,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1175,
         "basic_properties": {
             "attack": 147,
@@ -42002,6 +42289,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1176,
         "basic_properties": {
             "attack": 150,
@@ -42040,6 +42328,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1177,
         "basic_properties": {
             "attack": 153,
@@ -42078,6 +42367,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1178,
         "basic_properties": {
             "attack": 156,
@@ -42140,6 +42430,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1180,
         "basic_properties": {
             "health": 220,
@@ -42165,6 +42456,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1181,
         "basic_properties": {
             "health": 225,
@@ -42192,6 +42484,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1182,
         "basic_properties": {
             "health": 230,
@@ -42219,6 +42512,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1183,
         "basic_properties": {
             "health": 235,
@@ -42246,6 +42540,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1184,
         "basic_properties": {
             "health": 240,
@@ -42273,6 +42568,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 245,
             "attack": 56,
@@ -42299,6 +42595,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1186,
         "basic_properties": {
             "health": 230,
@@ -42324,6 +42621,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1187,
         "basic_properties": {
             "health": 235,
@@ -42351,6 +42649,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1188,
         "basic_properties": {
             "health": 240,
@@ -42378,6 +42677,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1189,
         "basic_properties": {
             "health": 245,
@@ -42405,6 +42705,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1190,
         "basic_properties": {
             "health": 250,
@@ -42432,6 +42733,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 255,
             "attack": 58,
@@ -42458,6 +42760,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1192,
         "basic_properties": {
             "health": 240,
@@ -42483,6 +42786,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1193,
         "basic_properties": {
             "health": 245,
@@ -42510,6 +42814,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1194,
         "basic_properties": {
             "health": 250,
@@ -42537,6 +42842,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1195,
         "basic_properties": {
             "health": 255,
@@ -42564,6 +42870,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1196,
         "basic_properties": {
             "health": 260,
@@ -42591,6 +42898,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 265,
             "attack": 61,
@@ -42617,6 +42925,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1198,
         "basic_properties": {
             "health": 250,
@@ -42642,6 +42951,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1199,
         "basic_properties": {
             "health": 255,
@@ -42669,6 +42979,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1200,
         "basic_properties": {
             "health": 260,
@@ -42696,6 +43007,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1201,
         "basic_properties": {
             "health": 265,
@@ -42723,6 +43035,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1202,
         "basic_properties": {
             "health": 270,
@@ -42750,6 +43063,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 275,
             "attack": 63,
@@ -42776,6 +43090,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1204,
         "basic_properties": {
             "health": 260,
@@ -42801,6 +43116,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1205,
         "basic_properties": {
             "health": 265,
@@ -42826,6 +43142,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1206,
         "basic_properties": {
             "health": 270,
@@ -42851,6 +43168,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1207,
         "basic_properties": {
             "health": 275,
@@ -42876,6 +43194,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1208,
         "basic_properties": {
             "health": 280,
@@ -42925,6 +43244,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1210,
         "basic_properties": {
             "health": 250,
@@ -42951,6 +43271,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1211,
         "basic_properties": {
             "health": 255,
@@ -42979,6 +43300,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1212,
         "basic_properties": {
             "health": 260,
@@ -43007,6 +43329,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1213,
         "basic_properties": {
             "health": 265,
@@ -43035,6 +43358,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1214,
         "basic_properties": {
             "health": 270,
@@ -43063,6 +43387,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 275,
             "attack": 56,
@@ -43090,6 +43415,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1216,
         "basic_properties": {
             "health": 260,
@@ -43116,6 +43442,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1217,
         "basic_properties": {
             "health": 265,
@@ -43144,6 +43471,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1218,
         "basic_properties": {
             "health": 270,
@@ -43172,6 +43500,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1219,
         "basic_properties": {
             "health": 275,
@@ -43200,6 +43529,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1220,
         "basic_properties": {
             "health": 280,
@@ -43228,6 +43558,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 285,
             "attack": 59,
@@ -43255,6 +43586,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1222,
         "basic_properties": {
             "health": 270,
@@ -43281,6 +43613,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1223,
         "basic_properties": {
             "health": 275,
@@ -43309,6 +43642,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1224,
         "basic_properties": {
             "health": 280,
@@ -43337,6 +43671,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1225,
         "basic_properties": {
             "health": 285,
@@ -43365,6 +43700,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1226,
         "basic_properties": {
             "health": 290,
@@ -43393,6 +43729,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 295,
             "attack": 61,
@@ -43420,6 +43757,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1228,
         "basic_properties": {
             "health": 280,
@@ -43446,6 +43784,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1229,
         "basic_properties": {
             "health": 285,
@@ -43474,6 +43813,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1230,
         "basic_properties": {
             "health": 290,
@@ -43502,6 +43842,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1231,
         "basic_properties": {
             "health": 295,
@@ -43530,6 +43871,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1232,
         "basic_properties": {
             "health": 300,
@@ -43558,6 +43900,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 305,
             "attack": 64,
@@ -43585,6 +43928,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1234,
         "basic_properties": {
             "health": 290,
@@ -43611,6 +43955,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1235,
         "basic_properties": {
             "health": 295,
@@ -43637,6 +43982,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1236,
         "basic_properties": {
             "health": 300,
@@ -43663,6 +44009,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1237,
         "basic_properties": {
             "health": 305,
@@ -43689,6 +44036,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1238,
         "basic_properties": {
             "health": 310,
@@ -43759,6 +44107,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1240,
         "basic_properties": {
             "health": 260,
@@ -43804,6 +44153,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1241,
         "basic_properties": {
             "health": 265,
@@ -43851,6 +44201,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1242,
         "basic_properties": {
             "health": 270,
@@ -43898,6 +44249,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1243,
         "basic_properties": {
             "health": 275,
@@ -43945,6 +44297,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1244,
         "basic_properties": {
             "health": 280,
@@ -43992,6 +44345,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 285,
             "attack": 53,
@@ -44038,6 +44392,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1246,
         "basic_properties": {
             "health": 270,
@@ -44083,6 +44438,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1247,
         "basic_properties": {
             "health": 275,
@@ -44130,6 +44486,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1248,
         "basic_properties": {
             "health": 280,
@@ -44177,6 +44534,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1249,
         "basic_properties": {
             "health": 285,
@@ -44224,6 +44582,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1250,
         "basic_properties": {
             "health": 290,
@@ -44271,6 +44630,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 295,
             "attack": 56,
@@ -44317,6 +44677,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1252,
         "basic_properties": {
             "health": 280,
@@ -44362,6 +44723,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1253,
         "basic_properties": {
             "health": 285,
@@ -44409,6 +44771,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1254,
         "basic_properties": {
             "health": 290,
@@ -44456,6 +44819,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1255,
         "basic_properties": {
             "health": 295,
@@ -44503,6 +44867,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1256,
         "basic_properties": {
             "health": 300,
@@ -44550,6 +44915,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 305,
             "attack": 59,
@@ -44596,6 +44962,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1258,
         "basic_properties": {
             "health": 290,
@@ -44641,6 +45008,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1259,
         "basic_properties": {
             "health": 295,
@@ -44688,6 +45056,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1260,
         "basic_properties": {
             "health": 300,
@@ -44735,6 +45104,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1261,
         "basic_properties": {
             "health": 305,
@@ -44782,6 +45152,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1262,
         "basic_properties": {
             "health": 310,
@@ -44829,6 +45200,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 315,
             "attack": 62,
@@ -44875,6 +45247,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1264,
         "basic_properties": {
             "health": 300,
@@ -44920,6 +45293,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1265,
         "basic_properties": {
             "health": 305,
@@ -44965,6 +45339,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1266,
         "basic_properties": {
             "health": 310,
@@ -45010,6 +45385,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1267,
         "basic_properties": {
             "health": 315,
@@ -45055,6 +45431,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1268,
         "basic_properties": {
             "health": 320,
@@ -45168,6 +45545,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1270,
         "basic_properties": {
             "health": 380,
@@ -45238,6 +45616,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1271,
         "basic_properties": {
             "health": 387,
@@ -45310,6 +45689,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1272,
         "basic_properties": {
             "health": 394,
@@ -45382,6 +45762,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1273,
         "basic_properties": {
             "health": 401,
@@ -45454,6 +45835,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1274,
         "basic_properties": {
             "health": 408,
@@ -45526,6 +45908,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 415,
             "attack": 45,
@@ -45597,6 +45980,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1276,
         "basic_properties": {
             "health": 394,
@@ -45667,6 +46051,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1277,
         "basic_properties": {
             "health": 401,
@@ -45739,6 +46124,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1278,
         "basic_properties": {
             "health": 408,
@@ -45811,6 +46197,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1279,
         "basic_properties": {
             "health": 415,
@@ -45883,6 +46270,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1280,
         "basic_properties": {
             "health": 422,
@@ -45955,6 +46343,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 429,
             "attack": 47,
@@ -46026,6 +46415,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1282,
         "basic_properties": {
             "health": 408,
@@ -46096,6 +46486,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1283,
         "basic_properties": {
             "health": 415,
@@ -46168,6 +46559,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1284,
         "basic_properties": {
             "health": 422,
@@ -46240,6 +46632,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1285,
         "basic_properties": {
             "health": 429,
@@ -46312,6 +46705,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1286,
         "basic_properties": {
             "health": 436,
@@ -46384,6 +46778,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 443,
             "attack": 49,
@@ -46455,6 +46850,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1288,
         "basic_properties": {
             "health": 422,
@@ -46525,6 +46921,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1289,
         "basic_properties": {
             "health": 429,
@@ -46597,6 +46994,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1290,
         "basic_properties": {
             "health": 436,
@@ -46669,6 +47067,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1291,
         "basic_properties": {
             "health": 443,
@@ -46741,6 +47140,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1292,
         "basic_properties": {
             "health": 450,
@@ -46813,6 +47213,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 457,
             "attack": 51,
@@ -46884,6 +47285,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1294,
         "basic_properties": {
             "health": 436,
@@ -46954,6 +47356,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1295,
         "basic_properties": {
             "health": 443,
@@ -47024,6 +47427,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1296,
         "basic_properties": {
             "health": 450,
@@ -47094,6 +47498,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1297,
         "basic_properties": {
             "health": 457,
@@ -47164,6 +47569,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1298,
         "basic_properties": {
             "health": 464,
@@ -47279,6 +47685,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1300,
         "basic_properties": {
             "health": 250,
@@ -47326,6 +47733,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1301,
         "basic_properties": {
             "health": 255,
@@ -47375,6 +47783,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1302,
         "basic_properties": {
             "health": 260,
@@ -47424,6 +47833,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1303,
         "basic_properties": {
             "health": 265,
@@ -47473,6 +47883,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1304,
         "basic_properties": {
             "health": 270,
@@ -47522,6 +47933,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 275,
             "attack": 45,
@@ -47570,6 +47982,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1306,
         "basic_properties": {
             "health": 260,
@@ -47617,6 +48030,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1307,
         "basic_properties": {
             "health": 265,
@@ -47666,6 +48080,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1308,
         "basic_properties": {
             "health": 270,
@@ -47715,6 +48130,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1309,
         "basic_properties": {
             "health": 275,
@@ -47764,6 +48180,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1310,
         "basic_properties": {
             "health": 280,
@@ -47813,6 +48230,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 285,
             "attack": 47,
@@ -47861,6 +48279,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1312,
         "basic_properties": {
             "health": 270,
@@ -47908,6 +48327,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1313,
         "basic_properties": {
             "health": 275,
@@ -47957,6 +48377,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1314,
         "basic_properties": {
             "health": 280,
@@ -48006,6 +48427,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1315,
         "basic_properties": {
             "health": 285,
@@ -48055,6 +48477,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1316,
         "basic_properties": {
             "health": 290,
@@ -48104,6 +48527,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 295,
             "attack": 49,
@@ -48152,6 +48576,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1318,
         "basic_properties": {
             "health": 280,
@@ -48199,6 +48624,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1319,
         "basic_properties": {
             "health": 285,
@@ -48248,6 +48674,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1320,
         "basic_properties": {
             "health": 290,
@@ -48297,6 +48724,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1321,
         "basic_properties": {
             "health": 295,
@@ -48346,6 +48774,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1322,
         "basic_properties": {
             "health": 300,
@@ -48395,6 +48824,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 305,
             "attack": 51,
@@ -48443,6 +48873,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1324,
         "basic_properties": {
             "health": 290,
@@ -48490,6 +48921,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1325,
         "basic_properties": {
             "health": 295,
@@ -48537,6 +48969,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1326,
         "basic_properties": {
             "health": 300,
@@ -48584,6 +49017,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1327,
         "basic_properties": {
             "health": 305,
@@ -48631,6 +49065,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1328,
         "basic_properties": {
             "health": 310,
@@ -48718,6 +49153,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1330,
         "basic_properties": {
             "health": 200,
@@ -48756,6 +49192,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1331,
         "basic_properties": {
             "health": 205,
@@ -48796,6 +49233,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1332,
         "basic_properties": {
             "health": 210,
@@ -48836,6 +49274,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1333,
         "basic_properties": {
             "health": 215,
@@ -48876,6 +49315,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1334,
         "basic_properties": {
             "health": 220,
@@ -48916,6 +49356,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 225,
             "attack": 92,
@@ -48955,6 +49396,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1336,
         "basic_properties": {
             "health": 210,
@@ -48993,6 +49435,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1337,
         "basic_properties": {
             "health": 215,
@@ -49033,6 +49476,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1338,
         "basic_properties": {
             "health": 220,
@@ -49073,6 +49517,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1339,
         "basic_properties": {
             "health": 225,
@@ -49113,6 +49558,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1340,
         "basic_properties": {
             "health": 230,
@@ -49153,6 +49599,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 235,
             "attack": 97,
@@ -49192,6 +49639,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1342,
         "basic_properties": {
             "health": 220,
@@ -49230,6 +49678,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1343,
         "basic_properties": {
             "health": 225,
@@ -49270,6 +49719,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1344,
         "basic_properties": {
             "health": 230,
@@ -49310,6 +49760,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1345,
         "basic_properties": {
             "health": 235,
@@ -49350,6 +49801,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1346,
         "basic_properties": {
             "health": 240,
@@ -49390,6 +49842,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 245,
             "attack": 102,
@@ -49429,6 +49882,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1348,
         "basic_properties": {
             "health": 230,
@@ -49467,6 +49921,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1349,
         "basic_properties": {
             "health": 235,
@@ -49507,6 +49962,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1350,
         "basic_properties": {
             "health": 240,
@@ -49547,6 +50003,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1351,
         "basic_properties": {
             "health": 245,
@@ -49587,6 +50044,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1352,
         "basic_properties": {
             "health": 250,
@@ -49627,6 +50085,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 255,
             "attack": 107,
@@ -49666,6 +50125,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1354,
         "basic_properties": {
             "health": 240,
@@ -49704,6 +50164,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1355,
         "basic_properties": {
             "health": 245,
@@ -49742,6 +50203,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1356,
         "basic_properties": {
             "health": 250,
@@ -49780,6 +50242,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1357,
         "basic_properties": {
             "health": 255,
@@ -49818,6 +50281,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1358,
         "basic_properties": {
             "health": 260,
@@ -49880,6 +50344,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1360,
         "basic_properties": {
             "health": 240,
@@ -49906,6 +50371,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1361,
         "basic_properties": {
             "health": 245,
@@ -49934,6 +50400,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1362,
         "basic_properties": {
             "health": 250,
@@ -49962,6 +50429,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1363,
         "basic_properties": {
             "health": 255,
@@ -49990,6 +50458,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1364,
         "basic_properties": {
             "health": 260,
@@ -50018,6 +50487,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 265,
             "attack": 45,
@@ -50045,6 +50515,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1366,
         "basic_properties": {
             "health": 250,
@@ -50071,6 +50542,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1367,
         "basic_properties": {
             "health": 255,
@@ -50099,6 +50571,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1368,
         "basic_properties": {
             "health": 260,
@@ -50127,6 +50600,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1369,
         "basic_properties": {
             "health": 265,
@@ -50155,6 +50629,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1370,
         "basic_properties": {
             "health": 270,
@@ -50183,6 +50658,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 275,
             "attack": 47,
@@ -50210,6 +50686,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1372,
         "basic_properties": {
             "health": 260,
@@ -50236,6 +50713,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1373,
         "basic_properties": {
             "health": 265,
@@ -50264,6 +50742,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1374,
         "basic_properties": {
             "health": 270,
@@ -50292,6 +50771,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1375,
         "basic_properties": {
             "health": 275,
@@ -50320,6 +50800,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1376,
         "basic_properties": {
             "health": 280,
@@ -50348,6 +50829,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 285,
             "attack": 49,
@@ -50375,6 +50857,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1378,
         "basic_properties": {
             "health": 270,
@@ -50401,6 +50884,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1379,
         "basic_properties": {
             "health": 275,
@@ -50429,6 +50913,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1380,
         "basic_properties": {
             "health": 280,
@@ -50457,6 +50942,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1381,
         "basic_properties": {
             "health": 285,
@@ -50485,6 +50971,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1382,
         "basic_properties": {
             "health": 290,
@@ -50513,6 +51000,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 295,
             "attack": 51,
@@ -50540,6 +51028,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1384,
         "basic_properties": {
             "health": 280,
@@ -50566,6 +51055,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1385,
         "basic_properties": {
             "health": 285,
@@ -50592,6 +51082,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1386,
         "basic_properties": {
             "health": 290,
@@ -50618,6 +51109,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1387,
         "basic_properties": {
             "health": 295,
@@ -50644,6 +51136,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1388,
         "basic_properties": {
             "health": 300,
@@ -50695,6 +51188,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1390,
         "basic_properties": {
             "health": 280,
@@ -50721,6 +51215,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1391,
         "basic_properties": {
             "health": 285,
@@ -50749,6 +51244,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1392,
         "basic_properties": {
             "health": 290,
@@ -50777,6 +51273,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1393,
         "basic_properties": {
             "health": 295,
@@ -50805,6 +51302,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1394,
         "basic_properties": {
             "health": 300,
@@ -50833,6 +51331,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 305,
             "attack": 45,
@@ -50860,6 +51359,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1396,
         "basic_properties": {
             "health": 290,
@@ -50886,6 +51386,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1397,
         "basic_properties": {
             "health": 295,
@@ -50914,6 +51415,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1398,
         "basic_properties": {
             "health": 300,
@@ -50942,6 +51444,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1399,
         "basic_properties": {
             "health": 305,
@@ -50970,6 +51473,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1400,
         "basic_properties": {
             "health": 310,
@@ -50998,6 +51502,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 315,
             "attack": 47,
@@ -51025,6 +51530,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1402,
         "basic_properties": {
             "health": 300,
@@ -51051,6 +51557,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1403,
         "basic_properties": {
             "health": 305,
@@ -51079,6 +51586,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1404,
         "basic_properties": {
             "health": 310,
@@ -51107,6 +51615,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1405,
         "basic_properties": {
             "health": 315,
@@ -51135,6 +51644,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1406,
         "basic_properties": {
             "health": 320,
@@ -51163,6 +51673,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 325,
             "attack": 49,
@@ -51190,6 +51701,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1408,
         "basic_properties": {
             "health": 310,
@@ -51216,6 +51728,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1409,
         "basic_properties": {
             "health": 315,
@@ -51244,6 +51757,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1410,
         "basic_properties": {
             "health": 320,
@@ -51272,6 +51786,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1411,
         "basic_properties": {
             "health": 325,
@@ -51300,6 +51815,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1412,
         "basic_properties": {
             "health": 330,
@@ -51328,6 +51844,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 335,
             "attack": 51,
@@ -51355,6 +51872,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1414,
         "basic_properties": {
             "health": 320,
@@ -51381,6 +51899,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1415,
         "basic_properties": {
             "health": 325,
@@ -51407,6 +51926,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1416,
         "basic_properties": {
             "health": 330,
@@ -51433,6 +51953,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1417,
         "basic_properties": {
             "health": 335,
@@ -51459,6 +51980,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1418,
         "basic_properties": {
             "health": 340,
