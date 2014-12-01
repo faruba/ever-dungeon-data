@@ -1896,7 +1896,152 @@ exports.data = [
                 ]
             }
         ]
+    },
+    {
+        "dialogueId": 68,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
+        "talks": [
+            {
+                "role":0 ,
+                "text": [
+                    "你需要拥有宗师之证才能进行转职。"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 69,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
+        "talks": [
+            {
+                "role":0 ,
+                "text": [
+                    "目前无法进阶，需满足LV60,战斗力达到7000，并且拥有勇者之心。"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 70,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
+        "talks": [
+            {
+                "role":0 ,
+                "text": [
+                    "有勇者从死灵洞穴回来，说遇到了一个实力强大的神秘人，不知是敌是友，拜托你前去一查究竟吧。"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 71,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
+        "talks": [
+            {
+                "role":0 ,
+                "text": [
+                    "你竟然拥有勇者之力，能把我逼到这个地步。难道你就是被选中的勇者？",
+                    "我是一直守护着这片大陆的守护者，人们都叫我为宗师。",
+                    "这里的邪恶之力正在苏醒，因此我也被唤醒，前来一查究竟。",
+                    "从现在看来，应该是那个叫卡塔的领主，召唤了不该召唤的东西。",
+                    "年轻的勇者，这片大陆需要像你这样的人，我认可你的力量。",
+                    "我把宗师之证交给你，这能够让你最大化的发挥每个职业的能力。",
+                    "前去讨伐卡塔的任务就交给你了，我们后会有期。"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 72,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
+        "talks": [
+            {
+                "role":0 ,
+                "text": [
+                    "你竟然遇到了传说中的守护者宗师，实在太厉害了。",
+                    "你已经获得了宗师之证，现在你可以进行职业之间互相转职了。"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 73,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
+        "talks": [
+            {
+                "role":0 ,
+                "text": [
+                    "可恶的勇者，竟然敢来我这里捣乱，今天我要把你们彻底消灭。"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 74,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
+        "talks": [
+            {
+                "role":0 ,
+                "text": [
+                    "别以为能够这么轻易的打倒我，来吧，我的奴仆们！"
+                ]
+            }
+        ]
+    },
+    {
+        "dialogueId": 75,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
+        "talks": [
+            {
+                "role":0 ,
+                "text": [
+                    "感谢你把卡塔打倒，你获得的勇者之心能够让你学习远古的圣职。从而获得更强大的力量。",
+                    "为了能与未知的邪恶之力战斗，你需要这些力量，赶紧去转职吧。"
+                ]
+            }
+        ]
     }
+
 
 
 

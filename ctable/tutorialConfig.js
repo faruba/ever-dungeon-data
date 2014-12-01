@@ -31,6 +31,14 @@ exports.data = {
         "flag":"daily",
         "refuseDialogue":66
     },
+    "horizonChange":{
+        "flag":"horizonChange",
+        "refuseDialogue":68
+    },
+    "verticalChange":{
+        "flag":"verticalChange",
+        "refuseDialogue":69
+    },
     "tutorialTriggers":{
         "1":{
             "tutorial": 4

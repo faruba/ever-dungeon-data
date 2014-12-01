@@ -5995,7 +5995,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "event",
-          "event": "onkill"
+          "event": "onBeDeathStrike"
         }
       ],
       "targetSelection": {
@@ -6006,6 +6006,11 @@ exports.data = [
         ]
       },
       "action": [
+        {
+          "type": "playAction",
+          "motion": "dead",
+          "pos": "self"
+        },
         {
           "type": "installSpell",
           "spell": 103
@@ -9126,7 +9131,7 @@ exports.data = [
     "label": "吸血",
     "config": {
       "basic": {
-        "targetEffect": 3,
+        "targetEffect": 73,
         "targetDelay": 0.3
       },
       "triggerCondition": [
@@ -10358,7 +10363,7 @@ exports.data = [
     "label": "援护2",
     "config": {
       "basic": {
-        "spellAction": 4,
+        "spellAction": 1,
         "spellEffect": 9,
         "targetEffect": 1,
         "spellDelay": 0,
@@ -14770,7 +14775,7 @@ exports.data = [
   },
   {
     "skillId": 273,
-    "label": "怒之力",
+    "label": "pk怒之力",
     "icon": "skill-warrior1.png",
     "desc": "降低命中1回合，提高攻击力2回合。",
     "slotId": 0,
@@ -14792,7 +14797,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 1
+          "chance": 0.3
         },
         {
           "type": "alive"
@@ -14916,8 +14921,8 @@ exports.data = [
         {
           "type": "chance",
           "#chance": [
-            1,
-            1
+            0.3,
+            0.4
           ]
         },
         {
@@ -15029,8 +15034,8 @@ exports.data = [
         {
           "type": "chance",
           "#chance": [
-            1,
-            1
+            0.2,
+            0.25
           ]
         },
         {
@@ -15105,7 +15110,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 1
+          "chance": 0.3
         },
         {
           "type": "alive"
@@ -15129,7 +15134,7 @@ exports.data = [
           },
           {
             "type": "count",
-            "count": 1
+            "count": 3
           }
         ]
       },
@@ -15148,6 +15153,11 @@ exports.data = [
             {
               "src": {
                 "attack": 1
+              }
+            },
+            {
+              "src": {
+                "attack": 0.45
               }
             }
           ]
@@ -15345,7 +15355,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "event",
-          "event": "onTarget"
+          "event": "onCriticalDamage"
         }
       ],
       "targetSelection": {
@@ -15475,10 +15485,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "#chance": [
-            1,
-            1
-          ]
+          "chance": 0.3
         },
         {
           "type": "alive"
@@ -15607,10 +15614,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "#chance": [
-            1,
-            1
-          ]
+          "chance": 0.15
         },
         {
           "type": "alive"
@@ -17623,6 +17627,183 @@ exports.data = [
                     "type": "playEffect",
                     "effect": 21,
                     "pos": "self"
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 329,
+        "label": "卡塔召唤",
+        "config": {
+            "basic": {
+                "spellAction": 1,
+                "spellEffect": 3
+            },
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onBeDeathStrike"
+                }
+            ],
+            "targetSelection": {
+                "pool": "self"
+            },
+            "availableCondition": [
+                {
+                    "type": "effectCount",
+                    "count": 1
+                }
+            ],
+            "action": [
+                {
+                    "type": "modifyVar",
+                    "x": "damage",
+                    "formular": {
+                        "environment": {
+                            "c": 0
+                        }
+                    }
+                },
+                {
+                    "type": "delay",
+                    "delay": 1
+                },
+                {
+                    "type": "heal",
+                    "formular": {
+                        "c": 300
+                    }
+                },
+                {
+                    "type": "createMonster",
+                    "objectCount": 1,
+                    "effect": 21,
+                    "randomPos": true,
+                    "monsterID": 247
+                },
+                {
+                    "type": "createMonster",
+                    "objectCount": 1,
+                    "effect": 21,
+                    "randomPos": true,
+                    "monsterID": 248
+                },
+                {
+                    "type": "createMonster",
+                    "objectCount": 1,
+                    "effect": 21,
+                    "randomPos": true,
+                    "monsterID": 249
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 330,
+        "label": "守护卡塔",
+        "config": {
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onTurnEnd"
+                },
+                {
+                    "type": "targetMutex",
+                    "mutex": "reinforce"
+                },
+                {
+                    "type": "visible"
+                },
+                {
+                    "type": "alive"
+                }
+            ],
+            "targetSelection": {
+                "pool": "objects",
+                "filter": [
+                    {
+                        "type": "alive"
+                    },
+                    {
+                        "type": "visible"
+                    },
+                    {
+                        "type": "role-id",
+                        "roleID": 246
+                    }
+                ]
+            },
+            "action": [
+                {
+                    "type": "installSpell",
+                    "spell": 331
+                },
+                {
+                    "type": "setTargetMutex",
+                    "mutex": "reinforce",
+                    "count": 1
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 331,
+        "config": {
+            "basic": {
+                "buffEffect": 42
+            },
+            "action": [
+                {
+                    "type": "ignoreHurt"
+                },
+                {
+                    "type": "playEffect",
+                    "delay": 0.3,
+                    "effect": 1,
+                    "pos": "self"
+                },
+                {
+                    "type": "modifyVar",
+                    "x": "damage",
+                    "formular": {
+                        "environment": {
+                            "c": 0
+                        }
+                    }
+                }
+            ],
+            "targetSelection": {
+                "pool": "self",
+                "filter": [
+                    {
+                        "type": "alive"
+                    }
+                ]
+            },
+            "buffType": "RoleBuff",
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onBePhysicalDamage"
+                },
+                {
+                    "type": "event",
+                    "event": "onBePhysicalRangeDamage"
+                },
+                {
+                    "type": "event",
+                    "event": "onBeSpellDamage"
+                },
+                {
+                    "type": "event",
+                    "event": "onBeSpellRangeDamage"
+                }
+            ],
+            "availableCondition": [
+                {
+                    "type": "event",
+                    "event": "onTurnEnd",
+                    "eventCount": 1
                 }
             ]
         }
