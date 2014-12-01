@@ -8024,7 +8024,7 @@ exports.data = [
             "keyd":true,
             "counterAttack": true
         },
-        "levelId": 4
+        "levelId": 7
     },
     {
         "classId": 220,
@@ -8051,7 +8051,7 @@ exports.data = [
             "keyd":true,
             "counterAttack": true
         },
-        "levelId": 5
+        "levelId": 8
     },
     {
         "classId": 221,
@@ -8078,7 +8078,7 @@ exports.data = [
             "keyd":true,
             "counterAttack": true
         },
-        "levelId": 6
+        "levelId": 9
     },
     {
         "classId": 222,
@@ -8827,8 +8827,8 @@ exports.data = [
         "className": "盾兵",
         "faction": "monster",
         "classType": 1,
-        "skeleton": "newboss5.json",
-        "atlas": "newboss5.atlas",
+        "skeleton": "shield.json",
+        "atlas": "shield.atlas",
         "property": {
             "health": 0.7,
             "attack": 0.25,

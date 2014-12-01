@@ -17406,7 +17406,7 @@ exports.data = [
     },
     {
         "skillId": 325,
-        "label": "宗师治愈pk",
+        "label": "宗师治愈",
         "config": {
             "basic": {
                 "spellAction": 1,

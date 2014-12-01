@@ -52583,61 +52583,62 @@ exports.data = [
     },
     {
         "classId": 1470,
-        "label": "强化宝石",
+        "label": "进阶强化宝珠",
         "icon": "stone1.png",
         "category": 2,
         "subcategory": 1,
-        "description": "能够强化白色普通装备的石头",
+        "description": "能够强化白色普通进阶装备的宝珠",
         "stack": 99,
-        "sellprice": 50,
-        "quality": 0
+        "sellprice": 400,
+        "quality": 5,
+        "synthesizeID": 73
     },
     {
         "classId": 1471,
-        "label": "进阶强化石",
+        "label": "强化宝石",
         "icon": "stone2.png",
         "category": 2,
         "subcategory": 1,
-        "description": "能够强化绿色优质装备的石头",
+        "description": "能够强化绿色优质进阶装备的宝石",
         "stack": 99,
-        "sellprice": 100,
-        "quality": 1,
-        "synthesizeID": 41
+        "sellprice": 500,
+        "quality": 6,
+        "synthesizeID": 69
     },
     {
         "classId": 1472,
-        "label": "强化结晶",
+        "label": "进阶强化宝石",
         "icon": "stone3.png",
         "category": 2,
         "subcategory": 1,
-        "description": "能够强化蓝色稀有装备的结晶",
+        "description": "能够强化蓝色稀有进阶装备的宝石",
         "stack": 99,
-        "sellprice": 150,
-        "quality": 2,
-        "synthesizeID": 42
+        "sellprice": 600,
+        "quality": 7,
+        "synthesizeID": 70
     },
     {
         "classId": 1473,
-        "label": "进阶强化结晶",
+        "label": "强化宝晶",
         "icon": "stone4.png",
         "category": 2,
         "subcategory": 1,
-        "description": "能够强化紫色史诗装备的结晶",
+        "description": "能够强化紫色史诗进阶装备的宝晶",
         "stack": 99,
-        "sellprice": 200,
-        "quality": 3,
-        "synthesizeID": 43
+        "sellprice": 700,
+        "quality": 8,
+        "synthesizeID": 71
     },
     {
         "classId": 1474,
-        "label": "强化宝珠",
+        "label": "进阶强化宝晶",
         "icon": "stone5.png",
         "category": 2,
         "subcategory": 1,
-        "description": "能够强化橙色传奇装备的宝珠",
+        "description": "能够强化橙色传奇进阶装备的宝晶",
         "stack": 99,
-        "sellprice": 250,
-        "quality": 4,
-        "synthesizeID": 44
+        "sellprice": 800,
+        "quality": 9,
+        "synthesizeID": 72
     }
 ]
