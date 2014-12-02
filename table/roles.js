@@ -8889,8 +8889,8 @@ exports.data = [
         "className": "吸血鬼",
         "faction": "monster",
         "classType": 1,
-        "skeleton": "newboss5.json",
-        "atlas": "newboss5.atlas",
+        "skeleton": "vamp1.json",
+        "atlas": "vamp1.atlas",
         "property": {
             "health": 0.45,
             "attack": 0.3,
@@ -8920,7 +8920,11 @@ exports.data = [
         "effectAttack": 9,
         "skill": [
             {
-                "id": 163,
+                "id": 332,
+                "level": 1
+            },
+            {
+                "id": 162,
                 "level": 1
             }
         ]
@@ -9060,8 +9064,8 @@ exports.data = [
         "className": "吸血鬼BOSS",
         "faction": "monster",
         "classType": 1,
-        "skeleton": "newboss5.json",
-        "atlas": "newboss5.atlas",
+        "skeleton": "vamp1.json",
+        "atlas": "vamp1.atlas",
         "property": {
             "health": 2.5,
             "attack": 0.5,
@@ -9091,7 +9095,11 @@ exports.data = [
         "effectAttack": 9,
         "skill": [
             {
-                "id": 163,
+                "id": 332,
+                "level": 1
+            },
+            {
+                "id": 162,
                 "level": 1
             }
         ],
@@ -9232,8 +9240,8 @@ exports.data = [
         "className": "盾兵BOSS",
         "faction": "monster",
         "classType": 1,
-        "skeleton": "newboss5.json",
-        "atlas": "newboss5.atlas",
+        "skeleton": "shield.json",
+        "atlas": "shield.atlas",
         "property": {
             "health": 3.5,
             "attack": 0.45,
