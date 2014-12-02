@@ -8975,8 +8975,8 @@ exports.data = [
         "className": "盾兵",
         "faction": "monster",
         "classType": 1,
-        "skeleton": "shield.json",
-        "atlas": "shield.atlas",
+        "skeleton": "shield1.json",
+        "atlas": "shield1.atlas",
         "property": {
             "health": 0.7,
             "attack": 0.25,
@@ -9240,8 +9240,8 @@ exports.data = [
         "className": "盾兵BOSS",
         "faction": "monster",
         "classType": 1,
-        "skeleton": "shield.json",
-        "atlas": "shield.atlas",
+        "skeleton": "shield1.json",
+        "atlas": "shield1.atlas",
         "property": {
             "health": 3.5,
             "attack": 0.45,

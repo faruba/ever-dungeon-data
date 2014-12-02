@@ -17810,7 +17810,7 @@ exports.data = [
     },
     {
         "skillId": 332,
-        "label": "吸血",
+        "label": "吸血鬼吸血",
         "config": {
             "basic": {
                 "targetEffect": 74,
@@ -17819,7 +17819,7 @@ exports.data = [
             "triggerCondition": [
                 {
                     "type": "event",
-                    "event": "onTarget"
+                    "event": "onPhysicalDamage"
                 },
                 {
                     "type": "chance",
