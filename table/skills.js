@@ -17750,7 +17750,7 @@ exports.data = [
         "skillId": 331,
         "config": {
             "basic": {
-                "buffEffect": 42
+                "buffEffect": 75
             },
             "action": [
                 {

@@ -8958,10 +8958,10 @@ exports.data = [
             "reactivity": 1,
             "speed": 1
         },
-        "soundSpawn": "tulang.mp3",
-        "soundWound": "tulangwound.mp3",
-        "soundAttack": "tulangattack.mp3",
-        "soundDie": "tulangdie.mp3",
+        "soundSpawn": "shilaimu.mp3",
+        "soundWound": "shilaimuwound.mp3",
+        "soundAttack": "shilaimuattack.mp3",
+        "soundDie": "shilaimudie.mp3",
         "effectAttack": 9,
         "skill": [
             {
@@ -9222,10 +9222,10 @@ exports.data = [
             "reactivity": 1,
             "speed": 1
         },
-        "soundSpawn": "tulang.mp3",
-        "soundWound": "tulangwound.mp3",
-        "soundAttack": "tulangattack.mp3",
-        "soundDie": "tulangdie.mp3",
+        "soundSpawn": "shilaimu.mp3",
+        "soundWound": "shilaimuwound.mp3",
+        "soundAttack": "shilaimuattack.mp3",
+        "soundDie": "shilaimudie.mp3",
         "effectAttack": 9,
         "skill": [
             {
