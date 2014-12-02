@@ -14,7 +14,7 @@ exports.data = {
       "Gate": [
         {"ip": "localhost", "port": 7790},
       ],
-      "gateListenPort ":7799,
+      "gateListenPort":7799,
     },
   ],
   "PayMethod": "PP",
