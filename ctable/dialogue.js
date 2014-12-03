@@ -1952,8 +1952,8 @@ exports.data = [
         "dialogueId": 71,
         "roles": [
             {
-                "avatar": "dialogue-rolemaid.png",
-                "name": "凯特"
+                "avatar": "dialogue-rolezs.png",
+                "name": "宗师"
             }
         ],
         "talks": [
@@ -1993,8 +1993,8 @@ exports.data = [
         "dialogueId": 73,
         "roles": [
             {
-                "avatar": "dialogue-rolemaid.png",
-                "name": "凯特"
+                "avatar": "dialogue-roletkboss.png",
+                "name": "卡塔"
             }
         ],
         "talks": [
@@ -2010,8 +2010,8 @@ exports.data = [
         "dialogueId": 74,
         "roles": [
             {
-                "avatar": "dialogue-rolemaid.png",
-                "name": "凯特"
+                "avatar": "dialogue-roletkboss.png",
+                "name": "卡塔"
             }
         ],
         "talks": [
