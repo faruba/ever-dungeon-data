@@ -9131,13 +9131,16 @@ exports.data = [
     "label": "吸血",
     "config": {
       "basic": {
-        "targetEffect": 73,
-        "targetDelay": 0.3
+        "spellAction": 1
       },
       "triggerCondition": [
         {
           "type": "event",
           "event": "onPhysicalDamage"
+        },
+        {
+          "type": "chance",
+          "chance": 0.3
         }
       ],
       "targetSelection": {
@@ -9152,6 +9155,9 @@ exports.data = [
         ]
       },
       "action": [
+        {
+          "type": "ignoreAttack"
+        },
         {
           "type": "heal",
           "formular": {
@@ -10399,6 +10405,9 @@ exports.data = [
         },
         {
           "type": "alive"
+        },
+        {
+          "type": "visible"
         }
       ],
       "action": [
@@ -17309,13 +17318,11 @@ exports.data = [
                     "damageType": "Spell",
                     "isRange": true,
                     "delay": 0.8,
-                    "formular": [
-                        {
+                    "formular":{
                             "src": {
                                 "attack": 1
                             }
                         }
-                    ]
                 },
                 {
                     "type": "playAction",
@@ -17381,14 +17388,13 @@ exports.data = [
                 {
                     "type": "damage",
                     "damageType": "Spell",
-                    "formular": [
+                    "formular":
                         {
                             "src": {
                                 "attack": 0.3
                             },
                             "c": 10
                         }
-                    ]
                 }
             ],
             "targetSelection": {
@@ -17459,13 +17465,12 @@ exports.data = [
             "action": [
                 {
                     "type": "heal",
-                    "formular": [
+                    "formular":
                         {
                             "src": {
                                 "accuracy": 0.25
                             }
                         }
-                    ]
                 },
                 {
                     "type": "setMyMutex",
@@ -17665,6 +17670,10 @@ exports.data = [
                     }
                 },
                 {
+                    "type": "dialog",
+                    "dialogId": 74
+                },
+                {
                     "type": "delay",
                     "delay": 1
                 },
@@ -17813,8 +17822,7 @@ exports.data = [
         "label": "吸血鬼吸血",
         "config": {
             "basic": {
-                "targetEffect": 74,
-                "targetDelay": 0.3
+                "targetEffect": 74
             },
             "triggerCondition": [
                 {
@@ -17839,6 +17847,9 @@ exports.data = [
             },
             "action": [
                 {
+                    "type": "ignoreAttack"
+                },
+                {
                     "type": "playAction",
                     "motion": "xx",
                     "pos": "self"
@@ -17850,6 +17861,62 @@ exports.data = [
                             "damage": 1
                         }
                     }
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 333,
+        "label": "宗师被击倒对话",
+        "config": {
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onBeDeathStrike"
+                }
+            ],
+            "targetSelection": {
+                "pool": "self"
+            },
+            "action": [
+                {
+                    "type": "delay"
+                },
+                {
+                    "type": "dialog",
+                    "dialogId": 71
+                },
+                {
+                    "type": "delay",
+                    "delay": 0.3
+                },
+                {
+                    "type": "endDungeon",
+                    "result": 2
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 334,
+        "label": "卡塔登场",
+        "config": {
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onShow"
+                }
+            ],
+            "targetSelection": {
+                "pool": "self"
+            },
+            "action": [
+                {
+                    "type": "delay"
+                },
+                {
+                    "type": "dialog",
+                    "dialogId": 73
                 }
             ]
         }
