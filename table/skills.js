@@ -17866,7 +17866,7 @@ exports.data = [
                         }
                     },
                     "target": {
-                        "pool": "target",
+                        "pool": "self",
                         "filter": [
                             {
                                 "type": "alive"
