@@ -10091,7 +10091,7 @@ exports.data = [
     "label": "溅射",
     "config": {
       "basic": {
-        "targetEffect": 7,
+        "targetEffect": 8,
         "spellDelay": 0.3,
         "targetDelay": 0.3
       },
@@ -10099,6 +10099,10 @@ exports.data = [
         {
           "type": "event",
           "event": "onPhysicalDamage"
+        },
+        {
+          "type": "chance",
+          "chance": 0.3
         }
       ],
       "targetSelection": {
@@ -17835,7 +17839,7 @@ exports.data = [
                 }
             ],
             "targetSelection": {
-                "pool": "self",
+                "pool": "target",
                 "filter": [
                     {
                         "type": "alive"
@@ -17860,6 +17864,17 @@ exports.data = [
                         "environment": {
                             "damage": 1
                         }
+                    },
+                    "target": {
+                        "pool": "target",
+                        "filter": [
+                            {
+                                "type": "alive"
+                            },
+                            {
+                                "type": "visible"
+                            }
+                        ]
                     }
                 }
             ]
@@ -17885,14 +17900,6 @@ exports.data = [
                 {
                     "type": "dialog",
                     "dialogId": 71
-                },
-                {
-                    "type": "delay",
-                    "delay": 0.3
-                },
-                {
-                    "type": "endDungeon",
-                    "result": 2
                 }
             ]
         }
