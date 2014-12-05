@@ -7166,6 +7166,9 @@ exports.data = [
         {
           "type": "chance",
           "chance": 0.3
+        },
+        {
+          "type": "alive"
         }
       ],
       "action": [
@@ -9105,7 +9108,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "event",
-          "event": "Dodge"
+          "event": "onDodge"
         },
         {
           "type": "alive"
@@ -9808,7 +9811,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "event",
-          "event": "Dodge"
+          "event": "onDodge"
         },
         {
           "type": "alive"
@@ -17183,6 +17186,9 @@ exports.data = [
                 {
                     "type": "chance",
                     "chance": 0.3
+                },
+                {
+                    "type": "alive"
                 }
             ],
             "action": [
