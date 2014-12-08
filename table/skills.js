@@ -9101,39 +9101,39 @@ exports.data = [
       ]
     }
   },
-  {
-    "skillId": 162,
-    "label": "闪避特效",
-    "config": {
-      "triggerCondition": [
-        {
-          "type": "event",
-          "event": "onDodge"
-        },
-        {
-          "type": "alive"
-        }
-      ],
-      "targetSelection": {
-        "pool": "self",
-        "filter": [
-          {
-            "type": "alive"
-          },
-          {
-            "type": "visible"
-          }
-        ]
-      },
-      "action": [
-        {
-          "type": "playAction",
-          "motion": "sb",
-          "pos": "self"
-        }
-      ]
-    }
-  },
+//  {
+//    "skillId": 162,
+//    "label": "闪避特效",
+//    "config": {
+//      "triggerCondition": [
+//        {
+//          "type": "event",
+//          "event": "onDodge"
+//        },
+//        {
+//          "type": "alive"
+//        }
+//      ],
+//      "targetSelection": {
+//        "pool": "self",
+//        "filter": [
+//          {
+//            "type": "alive"
+//          },
+//          {
+//            "type": "visible"
+//          }
+//        ]
+//      },
+//      "action": [
+//        {
+//          "type": "playAction",
+//          "motion": "sb",
+//          "pos": "self"
+//        }
+//      ]
+//    }
+//  },
   {
     "skillId": 163,
     "label": "吸血",
@@ -10182,11 +10182,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "event",
-          "event": "onKill"
-        },
-        {
-          "type": "event",
-          "event": "onTeammateKill"
+          "event": "onTurnEnd"
         },
         {
           "type": "alive"
@@ -10205,8 +10201,12 @@ exports.data = [
       },
       "action": [
         {
+          "type": "removeSpell",
+          "spell": 203
+        },
+        {
           "type": "installSpell",
-          "spell": 271,
+          "spell": 203,
           "#level": [
             1,
             2,
@@ -11093,6 +11093,15 @@ exports.data = [
       ],
       "action": [
         {
+          "type": "playEffect",
+          "effect": 69,
+          "act": "self"
+        },
+        {
+          "type": "removeSpell",
+          "spell": 203
+        },
+        {
           "type": "installSpell",
           "spell": 203,
           "#level": [
@@ -11109,45 +11118,35 @@ exports.data = [
     "config": {
       "installAction": [
         {
-          "type": "playEffect",
-          "effect": 69,
-          "act": "target"
-        },
-        {
           "type": "setProperty",
           "#modifications": [
             {
               "attack": {
-                "src": {
-                  "originAttack": 0.03
+                func:function(env,source,target,cons) {
+                  return env.visibleMonsterCount*source.attack*0.03
                 }
               }
             },
             {
               "attack": {
-                "src": {
-                  "originAttack": 0.05
+                func:function(env,source,target,cons) {
+                  return env.visibleMonsterCount*source.attack*0.05
                 }
               }
             },
             {
               "attack": {
-                "src": {
-                  "originAttack": 0.08
+                func:function(env,source,target,cons) {
+                  return env.visibleMonsterCount*source.attack*0.08
                 }
               }
             }
           ]
         }
       ],
-      "targetSelection": {
-        "pool": "Self"
-      },
-      "availableCondition": [
+      "uninstallAction": [
         {
-          "type": "event",
-          "event": "onBeginBattleTurn",
-          "eventCount": 9999
+          "type": "resetProperty"
         }
       ],
       "buffType": "AttackBuff"
@@ -14719,50 +14718,50 @@ exports.data = [
       ]
     }
   },
-  {
-    "skillId": 271,
-    "config": {
-      "installAction": [
-        {
-          "type": "setProperty",
-          "#modifications": [
-            {
-              "attack": {
-                "src": {
-                  "originAttack": -0.03
-                }
-              }
-            },
-            {
-              "attack": {
-                "src": {
-                  "originAttack": -0.05
-                }
-              }
-            },
-            {
-              "attack": {
-                "src": {
-                  "originAttack": -0.08
-                }
-              }
-            }
-          ]
-        }
-      ],
-      "targetSelection": {
-        "pool": "Self"
-      },
-      "availableCondition": [
-        {
-          "type": "event",
-          "event": "onBeginBattleTurn",
-          "eventCount": 9999
-        }
-      ],
-      "buffType": "AttackBuff"
-    }
-  },
+//  {
+//    "skillId": 271,
+//    "config": {
+//      "installAction": [
+//        {
+//          "type": "setProperty",
+//          "#modifications": [
+//            {
+//              "attack": {
+//                "src": {
+//                  "originAttack": -0.03
+//                }
+//              }
+//            },
+//            {
+//              "attack": {
+//                "src": {
+//                  "originAttack": -0.05
+//                }
+//              }
+//            },
+//            {
+//              "attack": {
+//                "src": {
+//                  "originAttack": -0.08
+//                }
+//              }
+//            }
+//          ]
+//        }
+//      ],
+//      "targetSelection": {
+//        "pool": "Self"
+//      },
+//      "availableCondition": [
+//        {
+//          "type": "event",
+//          "event": "onBeginBattleTurn",
+//          "eventCount": 9999
+//        }
+//      ],
+//      "buffType": "AttackBuff"
+//    }
+//  },
   {
     "skillId": 272,
     "label": "26远程攻击",
@@ -15210,6 +15209,10 @@ exports.data = [
           "event": "onMonsterShow"
         },
         {
+          "type": "event",
+          "event": "onShow"
+        },
+        {
           "type": "alive"
         }
       ],
@@ -15236,6 +15239,15 @@ exports.data = [
       ],
       "action": [
         {
+          "type": "playEffect",
+          "effect": 69,
+          "act": "target"
+        },
+        {
+          "type": "removeSpell",
+          "spell": 281
+        },
+        {
           "type": "installSpell",
           "spell": 281,
           "#level": [
@@ -15251,38 +15263,28 @@ exports.data = [
     "config": {
       "installAction": [
         {
-          "type": "playEffect",
-          "effect": 69,
-          "act": "target"
-        },
-        {
           "type": "setProperty",
           "#modifications": [
             {
               "attack": {
-                "src": {
-                  "originAttack": 0.03
+                func:function(env,source,target,cons) {
+                  return env.visibleMonsterCount*source.attack*0.03
                 }
               }
             },
             {
               "attack": {
-                "src": {
-                  "originAttack": 0.05
+                func:function(env,source,target,cons) {
+                  return env.visibleMonsterCount*source.attack*0.05
                 }
               }
             }
           ]
         }
       ],
-      "targetSelection": {
-        "pool": "Self"
-      },
-      "availableCondition": [
+      "uninstallAction": [
         {
-          "type": "event",
-          "event": "onBeginBattleTurn",
-          "eventCount": 9999
+          "type": "resetProperty"
         }
       ],
       "buffType": "AttackBuff"
@@ -15294,7 +15296,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "event",
-          "event": "onTeammateBeKill"
+          "event": "onTurnEnd"
         },
         {
           "type": "alive"
@@ -15313,8 +15315,12 @@ exports.data = [
       },
       "action": [
         {
+          "type": "removeSpell",
+          "spell": 281
+        },
+        {
           "type": "installSpell",
-          "spell": 283,
+          "spell": 281,
           "#level": [
             1,
             2
@@ -15323,43 +15329,43 @@ exports.data = [
       ]
     }
   },
-  {
-    "skillId": 283,
-    "config": {
-      "installAction": [
-        {
-          "type": "setProperty",
-          "#modifications": [
-            {
-              "attack": {
-                "src": {
-                  "originAttack": -0.03
-                }
-              }
-            },
-            {
-              "attack": {
-                "src": {
-                  "originAttack": -0.05
-                }
-              }
-            }
-          ]
-        }
-      ],
-      "targetSelection": {
-        "pool": "Self"
-      },
-      "availableCondition": [
-        {
-          "type": "event",
-          "event": "onBeginBattleTurn",
-          "eventCount": 9999
-        }
-      ],
-      "buffType": "AttackBuff"
-    }
-  },
+//  {
+//    "skillId": 283,
+//    "config": {
+//      "installAction": [
+//        {
+//          "type": "setProperty",
+//          "#modifications": [
+//            {
+//              "attack": {
+//                "src": {
+//                  "originAttack": -0.03
+//                }
+//              }
+//            },
+//            {
+//              "attack": {
+//                "src": {
+//                  "originAttack": -0.05
+//                }
+//              }
+//            }
+//          ]
+//        }
+//      ],
+//      "targetSelection": {
+//        "pool": "Self"
+//      },
+//      "availableCondition": [
+//        {
+//          "type": "event",
+//          "event": "onBeginBattleTurn",
+//          "eventCount": 9999
+//        }
+//      ],
+//      "buffType": "AttackBuff"
+//    }
+//  },
   {
     "skillId": 284,
     "label": "pk元素崩塌",
@@ -16377,8 +16383,10 @@ exports.data = [
       },
       "action": [
         {
-          "type": "attack",
-          "isRange": true
+          "type": "rangeAttack",
+          "hurtDelay": 0.6,
+          "effDelay": 0.3,
+          "effect": 50
         },
         {
           "type": "delay",
@@ -16418,8 +16426,10 @@ exports.data = [
       },
       "action": [
         {
-          "type": "attack",
-          "isRange": true
+          "type": "rangeAttack",
+          "hurtDelay": 0.6,
+          "effDelay": 0.3,
+          "effect": 50
         }
       ]
     }
