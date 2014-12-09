@@ -5962,10 +5962,18 @@ exports.data = [
         }
       ],
       "targetSelection": {
-        "pool": "Enemy",
+        "pool": "objects",
         "filter": [
-          "alive",
-          "visible"
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "attackable"
+          }
         ]
       },
       "action": [
@@ -5999,10 +6007,18 @@ exports.data = [
         }
       ],
       "targetSelection": {
-        "pool": "Enemy",
+        "pool": "objects",
         "filter": [
-          "alive",
-          "visible"
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "attackable"
+          }
         ]
       },
       "action": [
@@ -6010,6 +6026,12 @@ exports.data = [
           "type": "playAction",
           "motion": "dead",
           "pos": "self"
+        },
+        {
+          "type": "playEffect",
+          "effect": 73,
+          "pos": "target",
+          "delay": 0.6
         },
         {
           "type": "installSpell",
@@ -6022,12 +6044,6 @@ exports.data = [
     "skillId": 103,
     "config": {
       "installAction": [
-         {
-           "type": "playEffect",
-           "effect": 73,
-           "act": "self",
-           "delay": 0.6
-         },
         {
           "type": "setProperty",
           "modifications": {
@@ -9103,17 +9119,8 @@ exports.data = [
   },
   {
     "skillId": 162,
-    "label": "闪避特效",
+    "label": "201冰箭",
     "config": {
-      "triggerCondition": [
-        {
-          "type": "event",
-          "event": "onDodge"
-        },
-        {
-          "type": "alive"
-        }
-      ],
       "targetSelection": {
         "pool": "self",
         "filter": [
@@ -9125,12 +9132,43 @@ exports.data = [
           }
         ]
       },
-      "action": [
-        {
-          "type": "playAction",
-          "motion": "sb",
-          "pos": "self"
-        }
+      "installAction": [
+          {
+              "type": "damage",
+              "damageType": "Spell",
+              "isRange": true,
+              "delay": 0.8,
+              "#formular": [
+                  {
+                      "src": {
+                          "attack": 0.3
+                      }
+                  },
+                  {
+                      "src": {
+                          "attack": 0.45
+                      }
+                  },
+                  {
+                      "src": {
+                          "attack": 0.6
+                      }
+                  }
+              ]
+          },
+          {
+              "type": "playEffect",
+              "effect": 65,
+              "act": "self",
+              "delay": 0.6
+          }
+      ],
+      "availableCondition": [
+          {
+              "type": "event",
+              "event": "onTurnEnd",
+              "effectCount": 1
+          }
       ]
     }
   },
@@ -11011,33 +11049,12 @@ exports.data = [
       },
       "action": [
         {
-          "type": "damage",
-          "damageType": "Spell",
-          "isRange": true,
-          "delay": 0.8,
-          "#formular": [
-            {
-              "src": {
-                "attack": 0.3
-              }
-            },
-            {
-              "src": {
-                "attack": 0.45
-              }
-            },
-            {
-              "src": {
-                "attack": 0.6
-              }
-            }
-          ]
-        },
-        {
-          "type": "playEffect",
-          "effect": 65,
-          "act": "target",
-          "delay": 0.6
+          "type": "installSpell",
+          "spell": 162,
+          "delay": {
+            "base": 1.0,
+            "range": 3
+          }
         },
         {
           "type": "blink",
@@ -11048,7 +11065,7 @@ exports.data = [
           "type": "shock",
           "delay": 0.6,
           "range": 5,
-          "time": 0.2
+          "time": 0.5
         }
       ]
     }
@@ -14922,10 +14939,18 @@ exports.data = [
         "targetDelay": 0
       },
       "targetSelection": {
-        "pool": "Enemy",
+        "pool": "objects",
         "filter": [
-          "alive",
-          "visible"
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "attackable"
+          }
         ]
       },
       "triggerCondition": [
@@ -15191,7 +15216,7 @@ exports.data = [
           "type": "shock",
           "delay": 0.6,
           "range": 5,
-          "time": 0.2
+          "time": 0.5
         }
       ]
     }
@@ -16848,10 +16873,18 @@ exports.data = [
         }
       ],
       "targetSelection": {
-        "pool": "Enemy",
+        "pool": "objects",
         "filter": [
-          "alive",
-          "visible"
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "attackable"
+          }
         ]
       },
       "action": [
