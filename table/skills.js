@@ -7166,6 +7166,9 @@ exports.data = [
         {
           "type": "chance",
           "chance": 0.3
+        },
+        {
+          "type": "alive"
         }
       ],
       "action": [
@@ -9105,7 +9108,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "event",
-          "event": "Dodge"
+          "event": "onDodge"
         },
         {
           "type": "alive"
@@ -9808,7 +9811,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "event",
-          "event": "Dodge"
+          "event": "onDodge"
         },
         {
           "type": "alive"
@@ -10179,11 +10182,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "event",
-          "event": "onKill"
-        },
-        {
-          "type": "event",
-          "event": "onTeammateKill"
+          "event": "onTurnEnd"
         },
         {
           "type": "alive"
@@ -10202,8 +10201,12 @@ exports.data = [
       },
       "action": [
         {
+          "type": "removeSpell",
+          "spell": 203
+        },
+        {
           "type": "installSpell",
-          "spell": 271,
+          "spell": 203,
           "#level": [
             1,
             2,
@@ -11090,6 +11093,15 @@ exports.data = [
       ],
       "action": [
         {
+          "type": "playEffect",
+          "effect": 69,
+          "act": "self"
+        },
+        {
+          "type": "removeSpell",
+          "spell": 203
+        },
+        {
           "type": "installSpell",
           "spell": 203,
           "#level": [
@@ -11106,45 +11118,35 @@ exports.data = [
     "config": {
       "installAction": [
         {
-          "type": "playEffect",
-          "effect": 69,
-          "act": "target"
-        },
-        {
           "type": "setProperty",
           "#modifications": [
             {
               "attack": {
-                "src": {
-                  "originAttack": 0.03
+                func:function(env,source,target,cons) {
+                  return env.visibleMonsterCount*source.attack*0.03
                 }
               }
             },
             {
               "attack": {
-                "src": {
-                  "originAttack": 0.05
+                func:function(env,source,target,cons) {
+                  return env.visibleMonsterCount*source.attack*0.05
                 }
               }
             },
             {
               "attack": {
-                "src": {
-                  "originAttack": 0.08
+                func:function(env,source,target,cons) {
+                  return env.visibleMonsterCount*source.attack*0.08
                 }
               }
             }
           ]
         }
       ],
-      "targetSelection": {
-        "pool": "Self"
-      },
-      "availableCondition": [
+      "uninstallAction": [
         {
-          "type": "event",
-          "event": "onBeginBattleTurn",
-          "eventCount": 9999
+          "type": "resetProperty"
         }
       ],
       "buffType": "AttackBuff"
@@ -15207,6 +15209,10 @@ exports.data = [
           "event": "onMonsterShow"
         },
         {
+          "type": "event",
+          "event": "onShow"
+        },
+        {
           "type": "alive"
         }
       ],
@@ -15233,6 +15239,15 @@ exports.data = [
       ],
       "action": [
         {
+          "type": "playEffect",
+          "effect": 69,
+          "act": "target"
+        },
+        {
+          "type": "removeSpell",
+          "spell": 281
+        },
+        {
           "type": "installSpell",
           "spell": 281,
           "#level": [
@@ -15248,38 +15263,28 @@ exports.data = [
     "config": {
       "installAction": [
         {
-          "type": "playEffect",
-          "effect": 69,
-          "act": "target"
-        },
-        {
           "type": "setProperty",
           "#modifications": [
             {
               "attack": {
-                "src": {
-                  "originAttack": 0.03
+                func:function(env,source,target,cons) {
+                  return env.visibleMonsterCount*source.attack*0.03
                 }
               }
             },
             {
               "attack": {
-                "src": {
-                  "originAttack": 0.05
+                func:function(env,source,target,cons) {
+                  return env.visibleMonsterCount*source.attack*0.05
                 }
               }
             }
           ]
         }
       ],
-      "targetSelection": {
-        "pool": "Self"
-      },
-      "availableCondition": [
+      "uninstallAction": [
         {
-          "type": "event",
-          "event": "onBeginBattleTurn",
-          "eventCount": 9999
+          "type": "resetProperty"
         }
       ],
       "buffType": "AttackBuff"
@@ -15291,7 +15296,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "event",
-          "event": "onTeammateBeKill"
+          "event": "onTurnEnd"
         },
         {
           "type": "alive"
@@ -15310,8 +15315,12 @@ exports.data = [
       },
       "action": [
         {
+          "type": "removeSpell",
+          "spell": 281
+        },
+        {
           "type": "installSpell",
-          "spell": 283,
+          "spell": 281,
           "#level": [
             1,
             2
@@ -16374,8 +16383,10 @@ exports.data = [
       },
       "action": [
         {
-          "type": "attack",
-          "isRange": true
+          "type": "rangeAttack",
+          "hurtDelay": 0.6,
+          "effDelay": 0.3,
+          "effect": 50
         },
         {
           "type": "delay",
@@ -16415,8 +16426,10 @@ exports.data = [
       },
       "action": [
         {
-          "type": "attack",
-          "isRange": true
+          "type": "rangeAttack",
+          "hurtDelay": 0.6,
+          "effDelay": 0.3,
+          "effect": 50
         }
       ]
     }
@@ -17183,6 +17196,9 @@ exports.data = [
                 {
                     "type": "chance",
                     "chance": 0.3
+                },
+                {
+                    "type": "alive"
                 }
             ],
             "action": [
