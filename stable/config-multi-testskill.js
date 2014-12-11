@@ -6,10 +6,10 @@ exports.data = {
       "ID": 0,
       "Name": "Develop",
       "DB": {
-        "Account": { "IP": "localhost", "PORT": 6380 },
-        "Role": { "IP": "localhost", "PORT": 6380},
-        "Publisher": { "IP": "localhost", "PORT": 6380},
-        "Subscriber": { "IP": "localhost", "PORT": 6380}
+        "Account": { "IP": "10.4.3.41", "PORT": 6380 },
+        "Role": { "IP": "10.4.3.41", "PORT": 6380},
+        "Publisher": { "IP": "10.4.3.41", "PORT": 6380},
+        "Subscriber": { "IP": "10.4.3.41", "PORT": 6380}
       },
       "Gate": [
         {"ip": "localhost", "port": 7790},
