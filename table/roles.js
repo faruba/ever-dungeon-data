@@ -8914,11 +8914,11 @@ exports.data = [
         "effectAttack": 10,
         "skill": [
             {
-                "id": 304,
+                "id": 160,
                 "level": 1
             },
             {
-                "id": 305,
+                "id": 214,
                 "level": 1
             },
             {
@@ -9084,11 +9084,11 @@ exports.data = [
         "effectAttack": 10,
         "skill": [
             {
-                "id": 304,
+                "id": 160,
                 "level": 1
             },
             {
-                "id": 305,
+                "id": 214,
                 "level": 1
             },
             {
