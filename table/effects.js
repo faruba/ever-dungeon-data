@@ -325,5 +325,11 @@ exports.data = [
         "loop": true,
         "skeleton": "effect-invincible.json",
         "atlas": "effect-invincible.atlas"
+    },
+    {
+        "effectId": 76,
+        "loop": true,
+        "skeleton": "effect-paoxiao2.json",
+        "atlas": "effect-paoxiao2.atlas"
     }
 ]

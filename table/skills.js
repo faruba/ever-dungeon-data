@@ -6049,7 +6049,7 @@ exports.data = [
           "modifications": {
             "accuracy": {
               "src": {
-                "accuracy": -0.5
+                "accuracy": -0.1
               }
             }
           }
@@ -6060,7 +6060,7 @@ exports.data = [
           "type": "resetProperty"
         }
       ],
-      "buffType": "DeBuff",
+      "buffType": "roleDeBuff",
       "availableCondition": [
         {
           "type": "event",
@@ -11574,7 +11574,7 @@ exports.data = [
     "skillId": 210,
     "label": "庇佑",
     "icon": "skill-dzj3.png",
-    "desc": "发现怪物后给生命值最低的队友补XX点HP。",
+    "desc": "发现怪物后给生命值最低的队友补血。",
     "slotId": 2,
     "config": {
       "basic": {
@@ -11658,7 +11658,7 @@ exports.data = [
     "skillId": 211,
     "label": "放逐",
     "icon": "skill-dzj4.png",
-    "desc": "攻击牧师的敌人有几率减少攻击力 持续X回合。",
+    "desc": "攻击牧师的敌人有几率减少攻击力 持续一定回合。",
     "slotId": 3,
     "config": {
       "basic": {
@@ -14729,7 +14729,7 @@ exports.data = [
       "installAction": [
         {
           "type": "playEffect",
-          "effect": 73,
+          "effect": 76,
           "act": "self",
           "delay": 0.6
         },
@@ -15026,7 +15026,7 @@ exports.data = [
       "installAction": [
         {
           "type": "playEffect",
-          "effect": 73,
+          "effect": 76,
           "act": "self",
           "delay": 0.6
         },
@@ -15118,7 +15118,6 @@ exports.data = [
           "type": "damage",
           "damageType": "Spell",
           "isRange": true,
-          "delay": 0.8,
           "#formular": [
             {
               "src": {
@@ -15649,7 +15648,7 @@ exports.data = [
     "skillId": 288,
     "label": "pk放逐",
     "icon": "skill-dzj4.png",
-    "desc": "攻击牧师的敌人有几率减少攻击力 持续X回合。",
+    "desc": "攻击牧师的敌人有几率减少攻击力 持续一定回合。",
     "slotId": 3,
     "config": {
       "basic": {
@@ -17832,17 +17831,13 @@ exports.data = [
         "skillId": 331,
         "config": {
             "basic": {
-                "buffEffect": 75
+                "buffEffect": 75,
+                "spellEffect": 46,
+                "spellDelay": 0.3
             },
             "action": [
                 {
                     "type": "ignoreHurt"
-                },
-                {
-                    "type": "playEffect",
-                    "delay": 0.3,
-                    "effect": 1,
-                    "pos": "self"
                 },
                 {
                     "type": "modifyVar",
