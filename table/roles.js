@@ -8134,7 +8134,7 @@ exports.data = [
     },
     {
         "classId": 218,
-        "className": "主教",
+        "className": "大主教",
         "faction": "hero",
         "classType": 0,
         "avatar": "avatar3.ccbi",
@@ -8230,7 +8230,7 @@ exports.data = [
     },
     {
         "classId": 221,
-        "className": "pk主教",
+        "className": "pk大主教",
         "faction": "monster",
         "classType": 4,
         "avatar": "avatar3.ccbi",

@@ -6060,7 +6060,7 @@ exports.data = [
           "type": "resetProperty"
         }
       ],
-      "buffType": "roleDeBuff",
+      "buffType": "RoleDebuff",
       "availableCondition": [
         {
           "type": "event",
@@ -9119,56 +9119,27 @@ exports.data = [
   },
   {
     "skillId": 162,
-    "label": "无用",
     "config": {
+      "action": [
+        {
+          "type": "removeSpell",
+          "spell": 331
+        }
+      ],
       "targetSelection": {
         "pool": "self",
         "filter": [
           {
             "type": "alive"
-          },
-          {
-            "type": "visible"
           }
         ]
       },
-      "installAction": [
-        {
-          "type": "damage",
-          "damageType": "Spell",
-          "isRange": true,
-          "delay": 0.8,
-          "#formular": [
-            {
-              "src": {
-                "attack": 0.3
-              }
-            },
-            {
-              "src": {
-                "attack": 0.45
-              }
-            },
-            {
-              "src": {
-                "attack": 0.6
-              }
-            }
-          ]
-        },
-        {
-          "type": "playEffect",
-          "effect": 65,
-          "act": "self",
-          "delay": 0.6
-        }
-      ],
       "availableCondition": [
-          {
-              "type": "event",
-              "event": "onTurnEnd",
-              "effectCount": 1
-          }
+        {
+          "type": "event",
+          "event": "onTurnEnd",
+          "eventCount": 1
+        }
       ]
     }
   },
@@ -10701,6 +10672,17 @@ exports.data = [
             2,
             3
           ]
+        },
+        {
+          "type": "blink",
+          "delay": 0.6,
+          "time": 0.08
+        },
+        {
+          "type": "shock",
+          "delay": 0.6,
+          "range": 5,
+          "time": 0.2
         }
       ]
     }
@@ -10964,14 +10946,9 @@ exports.data = [
           "act": "self"
         },
         {
-          "type": "delay",
-          "delay": 0.4
-        },
-        {
           "type": "damage",
           "damageType": "Spell",
           "isRange": true,
-          "delay": 0.8,
           "#formular": [
             {
               "src": {
@@ -15005,6 +14982,17 @@ exports.data = [
             1,
             2
           ]
+        },
+        {
+          "type": "blink",
+          "delay": 0.6,
+          "time": 0.08
+        },
+        {
+          "type": "shock",
+          "delay": 0.6,
+          "range": 5,
+          "time": 0.2
         }
       ]
     }
@@ -15047,6 +15035,11 @@ exports.data = [
         }
       ],
       "buffType": "RoleDebuff",
+      "uninstallAction": [
+        {
+          "type": "resetProperty"
+        }
+      ],
       "availableCondition": [
         {
           "type": "event",
@@ -15109,10 +15102,6 @@ exports.data = [
           "type": "playEffect",
           "effect": 4,
           "act": "self"
-        },
-        {
-          "type": "delay",
-          "delay": 0.4
         },
         {
           "type": "damage",
@@ -17786,7 +17775,7 @@ exports.data = [
             "triggerCondition": [
                 {
                     "type": "event",
-                    "event": "onTurnEnd"
+                    "event": "onTurnBegin"
                 },
                 {
                     "type": "targetMutex",
@@ -17818,6 +17807,10 @@ exports.data = [
                 {
                     "type": "installSpell",
                     "spell": 331
+                },
+                {
+                    "type": "installSpell",
+                    "spell": 162
                 },
                 {
                     "type": "setTargetMutex",
@@ -17874,13 +17867,6 @@ exports.data = [
                 {
                     "type": "event",
                     "event": "onBeSpellRangeDamage"
-                }
-            ],
-            "availableCondition": [
-                {
-                    "type": "event",
-                    "event": "onTurnEnd",
-                    "eventCount": 1
                 }
             ]
         }

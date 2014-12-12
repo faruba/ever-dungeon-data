@@ -269,42 +269,50 @@ exports.data = [
     {
         "effectId": 64,
         "skeleton": "effect-bihu.json",
-        "atlas": "effect-bihu.atlas"
+        "atlas": "effect-bihu.atlas",
+        "sound": "effectbihu.map3"
     },
     {
         "effectId": 65,
         "skeleton": "effect-bingjian.json",
-        "atlas": "effect-bingjian.atlas"
+        "atlas": "effect-bingjian.atlas" ,
+        "sound": "effectbbingjian.map3"
     },
     {
         "effectId": 66,
         "skeleton": "effect-fennuzhiyan.json",
-        "atlas": "effect-fennuzhiyan.atlas"
+        "atlas": "effect-fennuzhiyan.atlas",
+        "sound": "effectkuangre.map3"
     },
     {
         "effectId": 67,
         "skeleton": "effect-fangzhu.json",
-        "atlas": "effect-fangzhu.atlas"
+        "atlas": "effect-fangzhu.atlas",
+        "sound": "effectfangzhu.map3"
     },
     {
         "effectId": 68,
         "skeleton": "effect-paoxiao.json",
-        "atlas": "effect-paoxiao.atlas"
+        "atlas": "effect-paoxiao.atlas",
+        "sound": "effectpaoxiao.map3"
     },
     {
         "effectId": 69,
         "skeleton": "effect-xuli.json",
-        "atlas": "effect-xuli.atlas"
+        "atlas": "effect-xuli.atlas",
+        "sound": "effectxuli.map3"
     },
     {
         "effectId": 70,
         "skeleton": "effect-siwangzuzhou.json",
-        "atlas": "effect-siwangzuzhou.atlas"
+        "atlas": "effect-siwangzuzhou.atlas",
+        "sound": "effectsiwangzuzhou.map3"
     },
     {
         "effectId": 71,
         "skeleton": "effect-kuangre.json",
-        "atlas": "effect-kuangre.atlas"
+        "atlas": "effect-kuangre.atlas",
+        "sound": "effectkuangre.map3"
     },
     {
         "effectId": 72,
@@ -318,7 +326,8 @@ exports.data = [
     {
         "effectId": 74,
         "skeleton": "effect-xx.json",
-        "atlas": "effect-xx.atlas"
+        "atlas": "effect-xx.atlas",
+        "sound": "effectxixue.map3"
     },
     {
         "effectId": 75,
@@ -328,8 +337,7 @@ exports.data = [
     },
     {
         "effectId": 76,
-        "loop": true,
         "skeleton": "effect-paoxiao2.json",
-        "atlas": "effect-paoxiao2.atlas"
+        "atlas": "effect-paoxiao2.atlas",
     }
 ]
