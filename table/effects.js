@@ -270,49 +270,49 @@ exports.data = [
         "effectId": 64,
         "skeleton": "effect-bihu.json",
         "atlas": "effect-bihu.atlas",
-        "sound": "effectbihu.map3"
+        "sound": "effectbihu.mp3"
     },
     {
         "effectId": 65,
         "skeleton": "effect-bingjian.json",
         "atlas": "effect-bingjian.atlas" ,
-        "sound": "effectbbingjian.map3"
+        "sound": "effectbingjian.mp3"
     },
     {
         "effectId": 66,
         "skeleton": "effect-fennuzhiyan.json",
         "atlas": "effect-fennuzhiyan.atlas",
-        "sound": "effectkuangre.map3"
+        "sound": "effectkuangre.mp3"
     },
     {
         "effectId": 67,
         "skeleton": "effect-fangzhu.json",
         "atlas": "effect-fangzhu.atlas",
-        "sound": "effectfangzhu.map3"
+        "sound": "effectfangzhu.mp3"
     },
     {
         "effectId": 68,
         "skeleton": "effect-paoxiao.json",
         "atlas": "effect-paoxiao.atlas",
-        "sound": "effectpaoxiao.map3"
+        "sound": "effectpaoxiao.mp3"
     },
     {
         "effectId": 69,
         "skeleton": "effect-xuli.json",
         "atlas": "effect-xuli.atlas",
-        "sound": "effectxuli.map3"
+        "sound": "effectxuli.mp3"
     },
     {
         "effectId": 70,
         "skeleton": "effect-siwangzuzhou.json",
         "atlas": "effect-siwangzuzhou.atlas",
-        "sound": "effectsiwangzuzhou.map3"
+        "sound": "effectsiwangzuzhou.mp3"
     },
     {
         "effectId": 71,
         "skeleton": "effect-kuangre.json",
         "atlas": "effect-kuangre.atlas",
-        "sound": "effectkuangre.map3"
+        "sound": "effectkuangre.mp3"
     },
     {
         "effectId": 72,
@@ -327,7 +327,7 @@ exports.data = [
         "effectId": 74,
         "skeleton": "effect-xx.json",
         "atlas": "effect-xx.atlas",
-        "sound": "effectxixue.map3"
+        "sound": "effectxixue.mp3"
     },
     {
         "effectId": 75,
