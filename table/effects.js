@@ -321,7 +321,8 @@ exports.data = [
     {
         "effectId": 73,
         "skeleton": "effect-mzxj.json",
-        "atlas": "effect-mzxj.atlas"
+        "atlas": "effect-mzxj.atlas",
+        "sound": "buff.mp3"
     },
     {
         "effectId": 74,
@@ -338,6 +339,6 @@ exports.data = [
     {
         "effectId": 76,
         "skeleton": "effect-paoxiao2.json",
-        "atlas": "effect-paoxiao2.atlas",
+        "atlas": "effect-paoxiao2.atlas"
     }
 ]

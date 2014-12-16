@@ -8474,8 +8474,8 @@ exports.data = [
             "reactivity": 1,
             "speed": 1
         },
-        "soundWound": "shanzeiroumuwound.mp3",
-        "soundDie": "shanzeitoumudie.mp3",
+        "soundWound": "youxiawound.mp3",
+        "soundDie": "youxiadie.mp3",
         "effectAttack": 9,
         "skill": [
             {
@@ -8484,6 +8484,10 @@ exports.data = [
             },
             {
                 "id": 305,
+                "level": 1
+            },
+            {
+                "id": 272,
                 "level": 1
             },
             {
@@ -8914,11 +8918,15 @@ exports.data = [
         "effectAttack": 10,
         "skill": [
             {
-                "id": 160,
+                "id": 271,
                 "level": 1
             },
             {
                 "id": 214,
+                "level": 1
+            },
+            {
+                "id": 272,
                 "level": 1
             },
             {
@@ -8956,10 +8964,9 @@ exports.data = [
             "reactivity": 1,
             "speed": 1
         },
-        "soundSpawn": "tulang.mp3",
-        "soundWound": "tulangwound.mp3",
-        "soundAttack": "tulangattack.mp3",
-        "soundDie": "tulangdie.mp3",
+        "soundWound": "liulangwound.mp3",
+        "soundAttack": "liulangattack.mp3",
+        "soundDie": "liulangdie.mp3",
         "effectAttack": 9,
         "skill": [
             {
@@ -9084,11 +9091,15 @@ exports.data = [
         "effectAttack": 10,
         "skill": [
             {
-                "id": 160,
+                "id": 271,
                 "level": 1
             },
             {
                 "id": 214,
+                "level": 1
+            },
+            {
+                "id": 272,
                 "level": 1
             },
             {
@@ -9127,10 +9138,9 @@ exports.data = [
             "reactivity": 1,
             "speed": 1
         },
-        "soundSpawn": "tulang.mp3",
-        "soundWound": "tulangwound.mp3",
-        "soundAttack": "tulangattack.mp3",
-        "soundDie": "tulangdie.mp3",
+        "soundWound": "liulangwound.mp3",
+        "soundAttack": "liulangattack.mp3",
+        "soundDie": "liulangdie.mp3",
         "effectAttack": 9,
         "skill": [
             {
@@ -9169,8 +9179,8 @@ exports.data = [
             "reactivity": 1,
             "speed": 1
         },
-        "soundWound": "shanzeiroumuwound.mp3",
-        "soundDie": "shanzeitoumudie.mp3",
+        "soundWound": "youxiawound.mp3",
+        "soundDie": "youxiadie.mp3",
         "effectAttack": 9,
         "skill": [
             {
@@ -9179,6 +9189,10 @@ exports.data = [
             },
             {
                 "id": 305,
+                "level": 1
+            },
+            {
+                "id": 272,
                 "level": 1
             },
             {
@@ -9418,6 +9432,9 @@ exports.data = [
             "reactivity": 1,
             "speed": 1
         },
+        "soundWound": "liulangwound.mp3",
+        "soundAttack": "attackcut.mp3",
+        "soundDie": "liulangdie.mp3",
         "skill": [
             {
                 "id": 273,
@@ -9480,6 +9497,9 @@ exports.data = [
             "reactivity": 1,
             "speed": 1
         },
+        "soundWound": "liulangwound.mp3",
+        "soundAttack": "attackfire.mp3",
+        "soundDie": "liulangdie.mp3",
         "skill": [
             {
                 "id": 279,
@@ -9542,6 +9562,9 @@ exports.data = [
             "reactivity": 1,
             "speed": 1
         },
+        "soundWound": "liulangwound.mp3",
+        "soundAttack": "attackhit.mp3",
+        "soundDie": "liulangdie.mp3",
         "skill": [
             {
                 "id": 285,

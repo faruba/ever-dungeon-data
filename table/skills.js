@@ -14628,11 +14628,6 @@ exports.data = [
           "type": "delay"
         },
         {
-          "type": "playEffect",
-          "effect": 13,
-          "act": "self"
-        },
-        {
           "type": "setProperty",
           "#modifications": [
             {
@@ -14733,50 +14728,77 @@ exports.data = [
       ]
     }
   },
-  {
-    "skillId": 271,
-    "config": {
-      "installAction": [
-        {
-          "type": "setProperty",
-          "#modifications": [
-            {
-              "attack": {
-                "src": {
-                  "originAttack": -0.03
+    {
+        "skillId": 271,
+        "label": "连击（火）",
+        "config": {
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onBattleTurnEnd"
+                },
+                {
+                    "type": "event",
+                    "event": "onMoveTurnEnd"
+                },
+                {
+                    "type": "chance",
+                    "chance": 0.8
+                },
+                {
+                    "type": "targetMutex",
+                    "mutex": "range"
+                },
+                {
+                    "type": "alive"
                 }
-              }
+            ],
+            "targetSelection": {
+                "pool": "objects",
+                "filter": [
+                    {
+                        "type": "alive"
+                    },
+                    {
+                        "type": "visible"
+                    },
+                    {
+                        "type": "target-faction-with-flag",
+                        "flag": "attackable"
+                    },
+                    {
+                        "type": "shuffle"
+                    },
+                    {
+                        "type": "count",
+                        "count": 1
+                    }
+                ]
             },
-            {
-              "attack": {
-                "src": {
-                  "originAttack": -0.05
+            "action": [
+                {
+                    "type": "attack",
+                    "isRange": true
+                },
+                {
+                    "type": "playEffect",
+                    "effect": 10
+                },
+                {
+                    "type": "delay",
+                    "delay": 0.5
+                },
+                {
+                    "type": "castSpell",
+                    "spell": 214
+                },
+                {
+                    "type": "castSpell",
+                    "spell": 272
                 }
-              }
-            },
-            {
-              "attack": {
-                "src": {
-                  "originAttack": -0.08
-                }
-              }
-            }
-          ]
+            ]
         }
-      ],
-      "targetSelection": {
-        "pool": "Self"
-      },
-      "availableCondition": [
-        {
-          "type": "event",
-          "event": "onBeginBattleTurn",
-          "eventCount": 9999
-        }
-      ],
-      "buffType": "AttackBuff"
-    }
-  },
+    },
   {
     "skillId": 272,
     "label": "26远程攻击",
@@ -15255,9 +15277,6 @@ exports.data = [
         "filter": [
           {
             "type": "alive"
-          },
-          {
-            "type": "visible"
           }
         ]
       },
@@ -16390,6 +16409,14 @@ exports.data = [
           "event": "onMoveTurnEnd"
         },
         {
+          "type": "chance",
+          "chance": 0.8
+        },
+        {
+          "type": "targetMutex",
+          "mutex": "range"
+        },
+        {
           "type": "alive"
         }
       ],
@@ -16429,6 +16456,10 @@ exports.data = [
         {
           "type": "castSpell",
           "spell": 305
+        },
+        {
+          "type": "castSpell",
+          "spell": 272
         }
       ]
     }
@@ -17775,7 +17806,7 @@ exports.data = [
             "triggerCondition": [
                 {
                     "type": "event",
-                    "event": "onTurnBegin"
+                    "event": "onTurnEnd"
                 },
                 {
                     "type": "targetMutex",

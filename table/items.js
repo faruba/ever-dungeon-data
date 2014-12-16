@@ -14781,7 +14781,7 @@ exports.data = [
 		"classLimit": [
 			1
 		],
-		"quality": 3,
+		"quality": 4,
 		"rank": 7,
 		"upgradeTarget": 359,
 		"basic_properties": {
