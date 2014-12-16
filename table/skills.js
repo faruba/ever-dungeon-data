@@ -10637,7 +10637,7 @@ exports.data = [
     "skillId": 195,
     "label": "怒之力",
     "icon": "skill-kzs1.png",
-    "desc": "降低命中1回合，提高攻击力2回合。",
+    "desc": "狂战士进入狂怒状态，降低命中1回合，提高攻击力2回合。",
     "slotId": 0,
     "config": {
       "basic": {
@@ -10835,7 +10835,7 @@ exports.data = [
     "skillId": 199,
     "label": "咆哮",
     "icon": "skill-kzs3.png",
-    "desc": "几率降低怪物命中。",
+    "desc": "当怪物出现时，狂战士有一定几率降低它的命中。",
     "slotId": 2,
     "config": {
       "basic": {
@@ -10990,7 +10990,7 @@ exports.data = [
     "skillId": 201,
     "label": "寒冰箭",
     "icon": "skill-mds1.png",
-    "desc": "对场上多个怪物造成伤害。",
+    "desc": "魔导师释放寒冰箭对场上多个敌人造成伤害，伤害值与攻击力相关",
     "slotId": 0,
     "config": {
       "basic": {
@@ -11171,7 +11171,7 @@ exports.data = [
     "skillId": 204,
     "label": "死亡诅咒",
     "icon": "skill-mds3.png",
-    "desc": "被大法师攻击的目标，承受额外的伤害，一回合。",
+    "desc": "被魔导师攻击的目标，有几率会承受额外的伤害一回合。",
     "slotId": 2,
     "config": {
       "triggerCondition": [
@@ -11301,7 +11301,7 @@ exports.data = [
     "skillId": 206,
     "label": "元素崩塌",
     "icon": "skill-mds4.png",
-    "desc": "提升暴击伤害。",
+    "desc": "当魔导师对敌人造成暴击时，能够提升暴击伤害值。",
     "slotId": 3,
     "config": {
       "triggerCondition": [
@@ -11361,7 +11361,7 @@ exports.data = [
     "skillId": 207,
     "label": "祈祷",
     "icon": "skill-dzj1.png",
-    "desc": "群体治疗。",
+    "desc": "大主教对队伍中全体成员的生命值进行回复，回复值与命中值相关。",
     "slotId": 0,
     "config": {
       "basic": {
@@ -11420,7 +11420,7 @@ exports.data = [
     "skillId": 208,
     "label": "狂热",
     "icon": "skill-dzj2.png",
-    "desc": "当主教击杀一个单位时,速度与攻击提升。",
+    "desc": "当大主教击杀一个单位时,有一定几率对全体成员的速度与攻击提升。",
     "slotId": 1,
     "config": {
       "basic": {
@@ -11551,7 +11551,7 @@ exports.data = [
     "skillId": 210,
     "label": "庇佑",
     "icon": "skill-dzj3.png",
-    "desc": "发现怪物后给生命值最低的队友补血。",
+    "desc": "发现怪物后，大主教有一定几率会对生命值最低的队友补血。",
     "slotId": 2,
     "config": {
       "basic": {
@@ -11635,7 +11635,7 @@ exports.data = [
     "skillId": 211,
     "label": "放逐",
     "icon": "skill-dzj4.png",
-    "desc": "攻击牧师的敌人有几率减少攻击力 持续一定回合。",
+    "desc": "当大主教受到攻击时，有一定几率会降低伤害来源的攻击力，持续一定回合。",
     "slotId": 3,
     "config": {
       "basic": {
