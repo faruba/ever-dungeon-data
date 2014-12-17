@@ -11683,6 +11683,11 @@ exports.data = [
         },
         {
           "type": "playEffect",
+          "effect": 77,
+          "act": "self"
+        },
+        {
+          "type": "playEffect",
           "effect": 67,
           "act": "target"
         },
@@ -15697,6 +15702,11 @@ exports.data = [
       "action": [
         {
           "type": "delay"
+        },
+        {
+          "type": "playEffect",
+          "effect": 77,
+          "act": "self"
         },
         {
           "type": "playEffect",

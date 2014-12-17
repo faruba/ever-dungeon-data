@@ -9432,9 +9432,7 @@ exports.data = [
             "reactivity": 1,
             "speed": 1
         },
-        "soundWound": "liulangwound.mp3",
         "soundAttack": "attackcut.mp3",
-        "soundDie": "liulangdie.mp3",
         "skill": [
             {
                 "id": 273,
@@ -9497,9 +9495,7 @@ exports.data = [
             "reactivity": 1,
             "speed": 1
         },
-        "soundWound": "liulangwound.mp3",
         "soundAttack": "attackfire.mp3",
-        "soundDie": "liulangdie.mp3",
         "skill": [
             {
                 "id": 279,
@@ -9562,9 +9558,7 @@ exports.data = [
             "reactivity": 1,
             "speed": 1
         },
-        "soundWound": "liulangwound.mp3",
         "soundAttack": "attackhit.mp3",
-        "soundDie": "liulangdie.mp3",
         "skill": [
             {
                 "id": 285,
