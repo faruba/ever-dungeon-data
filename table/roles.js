@@ -9577,5 +9577,45 @@ exports.data = [
                 "level": 1
             }
         ]
+    },
+    {
+        "classId": 250,
+        "className": "剑兵2BOSS",
+        "faction": "monster",
+        "classType": 1,
+        "avatar": "enemy-sword12.ccbi",
+        "property": {
+            "health": 3,
+            "attack": 0.45,
+            "critical": 20,
+            "strong": 0,
+            "accuracy": 50,
+            "reactivity": -50,
+            "speed": -20,
+            "counterAttack": true,
+            "exp": 0,
+            "gold": 0
+        },
+        "xproperty": {
+            "balance": 0.1,
+            "health": 1.5,
+            "attack": 0.4,
+            "critical": 1,
+            "strong": 1,
+            "accuracy": 1,
+            "reactivity": 1,
+            "speed": 1
+        },
+        "soundWound": "liulangwound.mp3",
+        "soundAttack": "liulangattack.mp3",
+        "soundDie": "liulangdie.mp3",
+        "effectAttack": 8,
+        "skill": [
+            {
+                "id": 185,
+                "level": 1
+            }
+        ],
+        "scale": 1.2
     }
 ]
