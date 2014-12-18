@@ -46,12 +46,14 @@ exports.data = {
         {
             "productID":"com.tringame.pocketdungeon.pay25x",
             "price": 25,
-            "gem": 0
+            "gem": 0,
+            "enable": false
         },
         {
             "productID":"com.tringame.pocketdungeon.pay25",
             "price": 25,
-            "gem": 0
+            "gem": 0,
+            "enable": false
         }
  
     ]
