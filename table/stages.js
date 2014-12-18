@@ -1403,7 +1403,7 @@ var data = [
                 "isInfinite":true,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.70.state"}, 2 ] }
                 ]
                 }
 
@@ -1506,6 +1506,18 @@ var data = [
                 "cond":
                 { "and": [
                     { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId":135,
+                "cost":10,
+                "dungeon": 143,
+                "isInfinite":true,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.77.state"}, 2 ] }
                 ]
                 }
 
@@ -2198,7 +2210,7 @@ var data = [
         "label":"测试副本",
         "stage":[
             {
-                "stageId": 134,
+                "stageId": 135,
                 "cost": 0,
                 "team": 3,
                 "hidden":false,

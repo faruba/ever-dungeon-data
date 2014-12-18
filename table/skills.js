@@ -6003,7 +6003,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "event",
-          "event": "onBeDeathStrike"
+          "event": "onBeKill"
         }
       ],
       "targetSelection": {
@@ -6028,10 +6028,12 @@ exports.data = [
           "pos": "self"
         },
         {
+          "type": "delay"
+        },
+        {
           "type": "playEffect",
           "effect": 73,
-          "pos": "target",
-          "delay": 1
+          "pos": "target"
         },
         {
           "type": "installSpell",
@@ -10675,12 +10677,10 @@ exports.data = [
         },
         {
           "type": "blink",
-          "delay": 0.6,
           "time": 0.08
         },
         {
           "type": "shock",
-          "delay": 0.6,
           "range": 5,
           "time": 0.2
         }
