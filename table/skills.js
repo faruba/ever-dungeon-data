@@ -10274,7 +10274,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "event",
-          "event": "onBeDeathStrike"
+          "event": "onBeKill"
         }
       ],
       "targetSelection": {
@@ -11051,7 +11051,7 @@ exports.data = [
         {
           "type": "playEffect",
           "effect": 65,
-          "act": "target",
+          "pos": "target",
           "delay": 0.6
         },
         {
@@ -18015,6 +18015,90 @@ exports.data = [
                 {
                     "type": "dialog",
                     "dialogId": 73
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 335,
+        "label": "鳄鱼怒击",
+        "config": {
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onCriticalDamage"
+                }
+            ],
+            "targetSelection": {
+                "pool": "target",
+                "filter": [
+                    {
+                        "type": "alive"
+                    },
+                    {
+                        "type": "visible"
+                    }
+                ]
+            },
+            "action": [
+                {
+                    "type": "modifyVar",
+                    "x": "damage",
+                    "formular":{
+                        "src": {
+                            "attack": 2.5
+                        }
+                    }
+                },
+                {
+                    "type": "blink",
+                    "delay": 0.3,
+                    "time": 0.08
+                },
+                {
+                    "type": "shock",
+                    "delay": 0.3,
+                    "range": 5,
+                    "time": 0.2
+                }
+            ]
+        }
+    },
+    {
+
+        "skillId": 336,
+        "label": "鳄鱼格挡",
+        "config": {
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onBePhysicalDamage"
+                },
+                {
+                    "type": "event",
+                    "event": "onBePhysicalRangeDamage"
+                }
+            ],
+            "targetSelection": {
+                "pool": "self",
+                "filter": [
+                    {
+                        "type": "alive"
+                    },
+                    {
+                        "type": "visible"
+                    }
+                ]
+            },
+            "action": [
+                {
+                    "type": "modifyVar",
+                    "x": "damage",
+                    "formular": {
+                        "environment": {
+                            "damage": 0.7
+                        }
+                    }
                 }
             ]
         }
