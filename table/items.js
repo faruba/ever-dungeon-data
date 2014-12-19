@@ -47699,7 +47699,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2-5.png",
+        "iconf": "m-p-mainweapon2-5.png",
         "iconm": "m-p-mainweapon2-5.png"
     },
     {
@@ -47749,7 +47749,7 @@ exports.data = [
         "hide": true,
         "forgeID": 47,
         "forgeTarget": 1305,
-        "iconf": "f-p-mainweapon2-5.png",
+        "iconf": "m-p-mainweapon2-5.png",
         "iconm": "m-p-mainweapon2-5.png"
     },
     {
@@ -47799,7 +47799,7 @@ exports.data = [
         "hide": true,
         "forgeID": 47,
         "forgeTarget": 1306,
-        "iconf": "f-p-mainweapon2-5.png",
+        "iconf": "m-p-mainweapon2-5.png",
         "iconm": "m-p-mainweapon2-5.png"
     },
     {
@@ -47849,7 +47849,7 @@ exports.data = [
         "hide": true,
         "forgeID": 47,
         "forgeTarget": 1307,
-        "iconf": "f-p-mainweapon2-5.png",
+        "iconf": "m-p-mainweapon2-5.png",
         "iconm": "m-p-mainweapon2-5.png"
     },
     {
@@ -47899,7 +47899,7 @@ exports.data = [
         "hide": true,
         "forgeID": 47,
         "forgeTarget": 1308,
-        "iconf": "f-p-mainweapon2-5.png",
+        "iconf": "m-p-mainweapon2-5.png",
         "iconm": "m-p-mainweapon2-5.png"
     },
     {
@@ -47948,7 +47948,7 @@ exports.data = [
         "hide": true,
         "forgeID": 47,
         "forgeTarget": 1309,
-        "iconf": "f-p-mainweapon2-5.png",
+        "iconf": "m-p-mainweapon2-5.png",
         "iconm": "m-p-mainweapon2-5.png"
     },
     {
@@ -47996,7 +47996,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2-4.png",
+        "iconf": "m-p-mainweapon2-4.png",
         "iconm": "m-p-mainweapon2-4.png"
     },
     {
@@ -48046,7 +48046,7 @@ exports.data = [
         "hide": true,
         "forgeID": 53,
         "forgeTarget": 1311,
-        "iconf": "f-p-mainweapon2-4.png",
+        "iconf": "m-p-mainweapon2-4.png",
         "iconm": "m-p-mainweapon2-4.png"
     },
     {
@@ -48096,7 +48096,7 @@ exports.data = [
         "hide": true,
         "forgeID": 53,
         "forgeTarget": 1312,
-        "iconf": "f-p-mainweapon2-4.png",
+        "iconf": "m-p-mainweapon2-4.png",
         "iconm": "m-p-mainweapon2-4.png"
     },
     {
@@ -48146,7 +48146,7 @@ exports.data = [
         "hide": true,
         "forgeID": 53,
         "forgeTarget": 1313,
-        "iconf": "f-p-mainweapon2-4.png",
+        "iconf": "m-p-mainweapon2-4.png",
         "iconm": "m-p-mainweapon2-4.png"
     },
     {
@@ -48196,7 +48196,7 @@ exports.data = [
         "hide": true,
         "forgeID": 53,
         "forgeTarget": 1314,
-        "iconf": "f-p-mainweapon2-4.png",
+        "iconf": "m-p-mainweapon2-4.png",
         "iconm": "m-p-mainweapon2-4.png"
     },
     {
@@ -48245,7 +48245,7 @@ exports.data = [
         "hide": true,
         "forgeID": 53,
         "forgeTarget": 1315,
-        "iconf": "f-p-mainweapon2-4.png",
+        "iconf": "m-p-mainweapon2-4.png",
         "iconm": "m-p-mainweapon2-4.png"
     },
     {
@@ -48293,7 +48293,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2-3.png",
+        "iconf": "m-p-mainweapon2-3.png",
         "iconm": "m-p-mainweapon2-3.png"
     },
     {
@@ -48343,7 +48343,7 @@ exports.data = [
         "hide": true,
         "forgeID": 59,
         "forgeTarget": 1317,
-        "iconf": "f-p-mainweapon2-3.png",
+        "iconf": "m-p-mainweapon2-3.png",
         "iconm": "m-p-mainweapon2-3.png"
     },
     {
@@ -48393,7 +48393,7 @@ exports.data = [
         "hide": true,
         "forgeID": 59,
         "forgeTarget": 1318,
-        "iconf": "f-p-mainweapon2-3.png",
+        "iconf": "m-p-mainweapon2-3.png",
         "iconm": "m-p-mainweapon2-3.png"
     },
     {
@@ -48443,7 +48443,7 @@ exports.data = [
         "hide": true,
         "forgeID": 59,
         "forgeTarget": 1319,
-        "iconf": "f-p-mainweapon2-3.png",
+        "iconf": "m-p-mainweapon2-3.png",
         "iconm": "m-p-mainweapon2-3.png"
     },
     {
@@ -48493,7 +48493,7 @@ exports.data = [
         "hide": true,
         "forgeID": 59,
         "forgeTarget": 1320,
-        "iconf": "f-p-mainweapon2-3.png",
+        "iconf": "m-p-mainweapon2-3.png",
         "iconm": "m-p-mainweapon2-3.png"
     },
     {
@@ -48542,7 +48542,7 @@ exports.data = [
         "hide": true,
         "forgeID": 59,
         "forgeTarget": 1321,
-        "iconf": "f-p-mainweapon2-3.png",
+        "iconf": "m-p-mainweapon2-3.png",
         "iconm": "m-p-mainweapon2-3.png"
     },
     {
@@ -48590,7 +48590,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2-2.png",
+        "iconf": "m-p-mainweapon2-2.png",
         "iconm": "m-p-mainweapon2-2.png"
     },
     {
@@ -48640,7 +48640,7 @@ exports.data = [
         "hide": true,
         "forgeID": 65,
         "forgeTarget": 1323,
-        "iconf": "f-p-mainweapon2-2.png",
+        "iconf": "m-p-mainweapon2-2.png",
         "iconm": "m-p-mainweapon2-2.png"
     },
     {
@@ -48690,7 +48690,7 @@ exports.data = [
         "hide": true,
         "forgeID": 65,
         "forgeTarget": 1324,
-        "iconf": "f-p-mainweapon2-2.png",
+        "iconf": "m-p-mainweapon2-2.png",
         "iconm": "m-p-mainweapon2-2.png"
     },
     {
@@ -48740,7 +48740,7 @@ exports.data = [
         "hide": true,
         "forgeID": 65,
         "forgeTarget": 1325,
-        "iconf": "f-p-mainweapon2-2.png",
+        "iconf": "m-p-mainweapon2-2.png",
         "iconm": "m-p-mainweapon2-2.png"
     },
     {
@@ -48790,7 +48790,7 @@ exports.data = [
         "hide": true,
         "forgeID": 65,
         "forgeTarget": 1326,
-        "iconf": "f-p-mainweapon2-2.png",
+        "iconf": "m-p-mainweapon2-2.png",
         "iconm": "m-p-mainweapon2-2.png"
     },
     {
@@ -48839,7 +48839,7 @@ exports.data = [
         "hide": true,
         "forgeID": 65,
         "forgeTarget": 1327,
-        "iconf": "f-p-mainweapon2-2.png",
+        "iconf": "m-p-mainweapon2-2.png",
         "iconm": "m-p-mainweapon2-2.png"
     },
     {
@@ -48887,7 +48887,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2.png",
+        "iconf": "m-p-mainweapon2.png",
         "iconm": "m-p-mainweapon2.png"
     },
     {
@@ -48935,7 +48935,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2.png",
+        "iconf": "m-p-mainweapon2.png",
         "iconm": "m-p-mainweapon2.png"
     },
     {
@@ -48983,7 +48983,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2.png",
+        "iconf": "m-p-mainweapon2.png",
         "iconm": "m-p-mainweapon2.png"
     },
     {
@@ -49031,7 +49031,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2.png",
+        "iconf": "m-p-mainweapon2.png",
         "iconm": "m-p-mainweapon2.png"
     },
     {
@@ -49079,7 +49079,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2.png",
+        "iconf": "m-p-mainweapon2.png",
         "iconm": "m-p-mainweapon2.png"
     },
     {
@@ -49125,7 +49125,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2.png",
+        "iconf": "m-p-mainweapon2.png",
         "iconm": "m-p-mainweapon2.png"
     },
     {
