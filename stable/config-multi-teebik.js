@@ -30,7 +30,7 @@ exports.data = {
     {"rmb":29.99,"diamond":4340},
     {"rmb":49.99,"diamond":7400},
     {"rmb":99.99,"diamond":15420},
-    {"rmb":3.99,"diamond":2500}
+    {"rmb":3.99,"diamond":0}
   ],
   "Global_Blue_Star_RewardTable" : [ ],
   "Global_Recyclable_Enhancement" : [ 0, 1, 2, 3, 4, 5, 6 ],
