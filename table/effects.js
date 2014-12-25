@@ -345,5 +345,21 @@ exports.data = [
         "skeleton": "effect-fangzhu2.json",
         "atlas": "effect-fangzhu2.atlas",
         "sound": "effectfangzhu.mp3"
+    },
+    {
+        "effectId": 78,
+        "loop": true,
+        "skeleton": "effect-xuanyun.json",
+        "atlas": "effect-xuanyun.atlas"
+    },
+    {
+        "effectId": 79,
+        "skeleton": "effect-lockbox.json",
+        "atlas": "effect-lockbox.atlas"
+    },
+    {
+        "effectId": 80,
+        "skeleton": "effect-zdb.json",
+        "atlas": "effect-zdb.atlas"
     }
 ]

@@ -277,6 +277,6 @@ exports.data = {
         "date": "2016/12/25",
         "dateDescription": "截止日期2016年12月25日24时",
         // iaplist.list will modify by initCampaignTable =>{award:[{type:2,count:60}}
-        "objective" : iaplist,
+        "objective" : iaplist
     }
 };
