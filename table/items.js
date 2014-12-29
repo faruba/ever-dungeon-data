@@ -52640,5 +52640,143 @@ exports.data = [
         "sellprice": 800,
         "quality": 4,
         "synthesizeID": 72
+    },
+    {
+        "classId": 1475,
+        "label": "头饰图纸",
+        "icon": "pmage-subweapon4.png",
+        "category": 2,
+        "subcategory": 0,
+        "description": "能合成头饰的图纸",
+        "sellprice": 15,
+        "quality": 1,
+        "recipeTarget": 1476,
+        "recipeCost": 84
+    },
+    {
+        "classId": 1476,
+        "label": "头饰",
+        "category": 1,
+        "subcategory": 13,
+        "suitId": 1,
+        "description": "注重礼仪，设计考究的头饰。",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff3-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm3-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "iconf": "rfasion-female3-helmet.png",
+        "iconm": "rfasion-male3-helmet.png",
+        "recipePrize": [
+            {
+                "type": 0,
+                "value": 1477,
+                "count": 3
+            }
+        ]
+    },
+    {
+        "classId": 1477,
+        "label": "头饰碎片",
+        "icon": "stone7.png",
+        "category": 2,
+        "subcategory": 1,
+        "description": "能过合成头饰的碎片",
+        "stack": 99,
+        "sellprice": 500,
+        "quality": 1
+    },
+    {
+        "classId": 1478,
+        "label": "衣服图纸",
+        "icon": "pmage-chest4.png",
+        "category": 2,
+        "subcategory": 0,
+        "description": "能合成衣服的图纸",
+        "sellprice": 15,
+        "quality": 1,
+        "recipeTarget": 1479,
+        "recipeCost": 85
+    },
+    {
+        "classId": 1479,
+        "label": "衣服",
+        "category": 1,
+        "subcategory": 12,
+        "suitId": 1,
+        "description": "注重礼仪的服饰，能够给人舒心的感觉。",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff3-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "ff3-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff3-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "ff3-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff3-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm3-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "fm3-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm3-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "fm3-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm3-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "iconf": "rfasion-female3-cloth.png",
+        "iconm": "rfasion-male3-cloth.png",
+        "recipePrize": [
+            {
+                "type": 0,
+                "value": 1480,
+                "count": 3
+            }
+        ]
+    },
+    {
+        "classId": 1480,
+        "label": "衣服碎片",
+        "icon": "stone9.png",
+        "category": 2,
+        "subcategory": 1,
+        "description": "能过合成衣服的碎片",
+        "stack": 99,
+        "sellprice": 500,
+        "quality": 1
     }
 ]
