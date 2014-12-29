@@ -361,5 +361,10 @@ exports.data = [
         "effectId": 80,
         "skeleton": "effect-zdb.json",
         "atlas": "effect-zdb.atlas"
+    },
+    {
+        "effectId": 81,
+        "skeleton": "effect-kj.json",
+        "atlas": "effect-kj.atlas"
     }
 ]

@@ -10315,6 +10315,7 @@ exports.data = [
     "skillId": 189,
     "config": {
       "basic": {
+        "buffEffect": 42,
         "spellEffect": 1,
         "spellDelay": 0.3
       },
@@ -15937,6 +15938,16 @@ exports.data = [
       },
       "action": [
         {
+          "type": "playAction",
+          "motion": "kj",
+          "pos": "self"
+        },
+        {
+          "type": "playEffect",
+          "effect": 81,
+          "act": "target"
+        },
+        {
           "type": "installSpell",
           "spell": 294
         }
@@ -16205,7 +16216,7 @@ exports.data = [
       "availableCondition": [
         {
           "type": "event",
-          "event": "onEndBattleTurn",
+          "event": "onTurnEnd",
           "eventCount": 2
         }
       ]
@@ -18035,7 +18046,7 @@ exports.data = [
                 {
                     "type": "playAction",
                     "motion": 1,
-                    "pos": "target"
+                    "pos": "self"
                 },
                 {
                     "type": "modifyVar",
@@ -18713,6 +18724,14 @@ exports.data = [
                     "delay": 1
                 },
                 {
+                    "type": "heal",
+                    "formular": {
+                        "src": {
+                            "speed": 10
+                        }
+                    }
+                },
+                {
                     "type": "installSpell",
                     "spell": 347
                 }
@@ -18778,11 +18797,6 @@ exports.data = [
                     "type": "visible"
                 },
                 {
-                    "type": "property",
-                    "property": "health",
-                    "to": 150
-                },
-                {
                     "type": "alive"
                 }
             ],
@@ -18843,7 +18857,8 @@ exports.data = [
                 },
                 {
                     "type": "playAction",
-                    "action": "zdb"
+                    "action": "zdb",
+                    "pos": "self"
                 },
                 {
                     "type": "playEffect",

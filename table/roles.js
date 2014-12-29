@@ -8307,6 +8307,7 @@ exports.data = [
         "classType": 1,
         "skeleton": "newboss5.json",
         "atlas": "newboss5.atlas",
+        "bossFlag": true,
         "property": {
             "health": 5,
             "attack": 0.65,
@@ -9698,11 +9699,11 @@ exports.data = [
     },
     {
         "classId": 252,
-        "className": "鳄鱼怪",
+        "className": "鳄鱼怪1",
         "faction": "monster",
         "classType": 1,
-        "skeleton": "crocodile.json",
-        "atlas": "crocodile.atlas",
+        "skeleton": "crocodile1.json",
+        "atlas": "crocodile1.atlas",
         "property": {
             "health": 0.7,
             "attack": 0.37,
@@ -9784,11 +9785,11 @@ exports.data = [
     },
     {
         "classId": 254,
-        "className": "鳄鱼怪BOSS",
+        "className": "鳄鱼怪1BOSS",
         "faction": "monster",
         "classType": 1,
-        "skeleton": "crocodile.json",
-        "atlas": "crocodile.atlas",
+        "skeleton": "crocodile1.json",
+        "atlas": "crocodile1.atlas",
         "property": {
             "health": 3.5,
             "attack": 0.6,
