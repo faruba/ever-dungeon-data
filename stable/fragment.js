@@ -26,14 +26,14 @@ exports.data = [
                     {
                         "weight": 18,
                         "type": 0,
-                        "value":1478,
+                        "value":1475,
                         "count": 1
                     },
                     {
                         "weight": 18,
                         "type": 0,
                         "value": 1478,
-                        "count": 2
+                        "count": 1
                     }
                 ]
             }
@@ -45,14 +45,14 @@ exports.data = [
                     {
                         "weight": 18,
                         "type": 0,
-                        "value":1478,
+                        "value":1475,
                         "count": 1
                     },
                     {
                         "weight": 18,
                         "type": 0,
                         "value": 1478,
-                        "count": 2
+                        "count": 1
                     }
                 ]
             },

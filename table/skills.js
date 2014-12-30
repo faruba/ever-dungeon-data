@@ -18684,7 +18684,6 @@ exports.data = [
             ]
         }
     },
-    ,
     {
         "skillId": 346,
         "label": "巨石护体",
@@ -18722,14 +18721,6 @@ exports.data = [
                 {
                     "type": "delay",
                     "delay": 1
-                },
-                {
-                    "type": "heal",
-                    "formular": {
-                        "src": {
-                            "speed": 10
-                        }
-                    }
                 },
                 {
                     "type": "installSpell",
@@ -18857,13 +18848,13 @@ exports.data = [
                 },
                 {
                     "type": "playAction",
-                    "action": "zdb",
+                    "motion": "zdb",
                     "pos": "self"
                 },
                 {
                     "type": "playEffect",
                     "effect": 80,
-                    "pos": "target"
+                    "pos": "self"
                 }
             ]
         }
