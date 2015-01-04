@@ -18690,37 +18690,35 @@ exports.data = [
         "config": {
             "triggerCondition": [
                 {
+                    "type": "property",
+                    "property": "health",
+                    "to": 1500
+                },
+                {
                     "type": "event",
-                    "event": "onBeDeathStrike"
+                    "event": "onBattleTurnEnd"
+                },
+                {
+                    "type": "myMutex",
+                    "mutex": "hugeRock"
                 }
             ],
             "targetSelection": {
                 "pool": "self"
             },
-            "availableCondition": [
-                {
-                    "type": "effectCount",
-                    "count": 1
-                }
-            ],
             "action": [
-                {
-                    "type": "modifyVar",
-                    "x": "damage",
-                    "formular": {
-                        "environment": {
-                            "c": 0
-                        }
-                    }
-                },
                 {
                     "type": "playAction",
                     "motion": "jsht",
                     "pos": "self"
                 },
                 {
-                    "type": "delay",
-                    "delay": 1
+                    "type": "delay"
+                },
+                {
+                    "type": "setMyMutex",
+                    "mutex": "hugeRock",
+                    "count": 9999
                 },
                 {
                     "type": "installSpell",
@@ -18733,6 +18731,7 @@ exports.data = [
         "skillId": 347,
         "config": {
             "basic": {
+                "buffEffect": 83,
                 "spellEffect": 1,
                 "spellDelay": 0.3
             },
@@ -18744,14 +18743,6 @@ exports.data = [
                 {
                     "type": "event",
                     "event": "onBePhysicalRangeDamage"
-                },
-                {
-                    "type": "event",
-                    "event": "onBeSpellDamage"
-                },
-                {
-                    "type": "event",
-                    "event": "onBeSpellRangeDamage"
                 }
             ],
             "availableCondition": [
@@ -18864,29 +18855,32 @@ exports.data = [
         "label": "恶灵护体",
         "config": {
             "basic": {
-                "spellAction": 2,
-                "spellEffect": 66,
-                "spellDelay": 0.3
+                "spellAction": "elht"
             },
             "targetSelection": {
                 "pool": "self"
             },
             "triggerCondition": [
                 {
+                    "type": "property",
+                    "property": "health",
+                    "to": 1500
+                },
+                {
                     "type": "event",
-                    "event": "onTurnEnd",
-                    "eventCount": 10,
-                    "reset": true
+                    "event": "onBattleTurnEnd"
                 },
                 {
-                    "type": "chance",
-                    "chance": 0.5
-                },
-                {
-                    "type": "alive"
+                    "type": "myMutex",
+                    "mutex": "Ahriman"
                 }
             ],
             "action": [
+                {
+                    "type": "setMyMutex",
+                    "mutex": "Ahriman",
+                    "count": 9999
+                },
                 {
                     "type": "installSpell",
                     "spell": 350
@@ -18897,6 +18891,11 @@ exports.data = [
     {
         "skillId": 350,
         "config": {
+            "basic": {
+                "targetEffect": 48,
+                "buffEffect": 82
+            },
+
             "installAction": [
                 {
                     "type": "setProperty",
@@ -18924,8 +18923,8 @@ exports.data = [
             "availableCondition": [
                 {
                     "type": "event",
-                    "event": "onEndBattleTurn",
-                    "eventCount": 3
+                    "event": "onTurnEnd",
+                    "eventCount": 9999
                 }
             ]
         }

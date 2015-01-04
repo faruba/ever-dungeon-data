@@ -366,5 +366,16 @@ exports.data = [
         "effectId": 81,
         "skeleton": "effect-kj.json",
         "atlas": "effect-kj.atlas"
+    },
+    {
+        "effectId": 82,
+        "skeleton": "effect-elht.json",
+        "atlas": "effect-elht.atlas",
+        "onGround":true
+    },
+    {
+        "effectId": 83,
+        "skeleton": "effect-jyht.json",
+        "atlas": "effect-jyht.atlas"
     }
 ]
