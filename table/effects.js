@@ -355,7 +355,8 @@ exports.data = [
     {
         "effectId": 79,
         "skeleton": "effect-lockbox.json",
-        "atlas": "effect-lockbox.atlas"
+        "atlas": "effect-lockbox.atlas",
+        "onGround":true
     },
     {
         "effectId": 80,
@@ -369,13 +370,15 @@ exports.data = [
     },
     {
         "effectId": 82,
+        "loop": true,
         "skeleton": "effect-elht.json",
         "atlas": "effect-elht.atlas",
         "onGround":true
     },
     {
         "effectId": 83,
-        "skeleton": "effect-jyht.json",
-        "atlas": "effect-jyht.atlas"
+        "loop": true,
+        "skeleton": "effect-jsht.json",
+        "atlas": "effect-jsht.atlas"
     }
 ]

@@ -18830,9 +18830,8 @@ exports.data = [
             },
             "action": [
                 {
-                    "type": "playEffect",
-                    "effect": 79,
-                    "pos": "target"
+                    "type": "installSpell",
+                    "spell": 349
                 },
                 {
                     "type": "delay"
@@ -18852,6 +18851,51 @@ exports.data = [
     },
     {
         "skillId": 349,
+        "config": {
+            "installAction": [
+                {
+                    "type": "playEffect",
+                    "effect": 79,
+                    "pos": "self"
+                },
+                {
+                    "type": "damage",
+                    "damageType": "Spell",
+                    "isRange": true,
+                    "delay": 0.4,
+                    "formular": {
+                        "c": 300
+                    }
+                }
+            ],
+            "targetSelection": {
+                "pool": "objects",
+                "filter": [
+                    {
+                        "type": "same-block"
+                    },
+                    {
+                        "type": "same-faction",
+                        "faction": "hero"
+                    },
+                    {
+                        "type": "alive"
+                    },
+                    {
+                        "type": "visible"
+                    }
+                ]
+            },
+            "availableCondition": [
+                {
+                    "type": "effectCount",
+                    "count": 1
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 350,
         "label": "恶灵护体",
         "config": {
             "basic": {
@@ -18883,13 +18927,13 @@ exports.data = [
                 },
                 {
                     "type": "installSpell",
-                    "spell": 350
+                    "spell": 351
                 }
             ]
         }
     },
     {
-        "skillId": 350,
+        "skillId": 351,
         "config": {
             "basic": {
                 "targetEffect": 48,
