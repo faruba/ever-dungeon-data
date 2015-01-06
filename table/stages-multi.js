@@ -590,7 +590,7 @@ var data = [
             },
             {
                 "stageId": 23,
-                "sweepPower":1500,
+                "sweepPower":1400,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -604,7 +604,7 @@ var data = [
             },
             {
                 "stageId": 24,
-                "sweepPower":1700,
+                "sweepPower":1500,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -618,7 +618,7 @@ var data = [
             },
             {
                 "stageId": 25,
-                "sweepPower":1900,
+                "sweepPower":1600,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -632,7 +632,7 @@ var data = [
             },
             {
                 "stageId": 26,
-                "sweepPower":2100,
+                "sweepPower":1700,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -646,7 +646,7 @@ var data = [
             },
             {
                 "stageId": 27,
-                "sweepPower":2300,
+                "sweepPower":1800,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -660,7 +660,7 @@ var data = [
             },
             {
                 "stageId": 28,
-                "sweepPower":2500,
+                "sweepPower":1900,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -698,7 +698,7 @@ var data = [
 		"stage":[
 		    {
 				"stageId": 29,
-                "sweepPower":2800,
+                "sweepPower":2200,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -712,7 +712,7 @@ var data = [
             },
 			{
 				"stageId": 30,
-                "sweepPower":3100,
+                "sweepPower":2400,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -726,7 +726,7 @@ var data = [
             },
 			{
 				"stageId": 31,
-                "sweepPower":3400,
+                "sweepPower":2600,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -740,7 +740,7 @@ var data = [
             },
 			{
 				"stageId": 32,
-                "sweepPower":3700,
+                "sweepPower":2800,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -754,7 +754,7 @@ var data = [
             },
 			{
 				"stageId": 33,
-                "sweepPower":4000,
+                "sweepPower":3000,
 				"cost": 15,
 				"team": 3,
 			    "hidden":false,
@@ -768,7 +768,7 @@ var data = [
             },
             {
                 "stageId": 34,
-                "sweepPower":4300,
+                "sweepPower":3200,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -782,7 +782,7 @@ var data = [
             },
             {
                 "stageId": 35,
-                "sweepPower":4600,
+                "sweepPower":3400,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -820,7 +820,7 @@ var data = [
 		"stage":[
 			{
 			    "stageId": 36,
-                "sweepPower":5000,
+                "sweepPower":3800,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -834,7 +834,7 @@ var data = [
             },
 			{
 				"stageId": 37,
-                "sweepPower":5300,
+                "sweepPower":4000,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -848,7 +848,7 @@ var data = [
             },
 			{
 				"stageId": 38,
-                "sweepPower":5600,
+                "sweepPower":4200,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -862,7 +862,7 @@ var data = [
             },
 			{
 				"stageId": 39,
-                "sweepPower":5900,
+                "sweepPower":4400,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -876,7 +876,7 @@ var data = [
             },
 			{
 				"stageId": 40,
-                "sweepPower":6200,
+                "sweepPower":4600,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -890,7 +890,7 @@ var data = [
             },
             {
                 "stageId": 41,
-                "sweepPower":6500,
+                "sweepPower":4800,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -904,7 +904,7 @@ var data = [
             },
             {
                 "stageId": 42,
-                "sweepPower":6800,
+                "sweepPower":5000,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -942,7 +942,7 @@ var data = [
 		"stage":[
 			{
 				"stageId": 43,
-                "sweepPower":7100,
+                "sweepPower":5400,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -956,7 +956,7 @@ var data = [
             },
 		    {
 				"stageId": 44,
-                "sweepPower":7400,
+                "sweepPower":5500,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -970,7 +970,7 @@ var data = [
             },
 			{
 				"stageId": 45,
-                "sweepPower":7700,
+                "sweepPower":5600,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -984,7 +984,7 @@ var data = [
             },
 			{
 				"stageId": 46,
-                "sweepPower":8000,
+                "sweepPower":5700,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -998,7 +998,7 @@ var data = [
             },
 			{
 				"stageId": 47,
-                "sweepPower":8100,
+                "sweepPower":5800,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -1012,7 +1012,7 @@ var data = [
             },
             {
                 "stageId": 48,
-                "sweepPower":8200,
+                "sweepPower":5900,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -1026,7 +1026,7 @@ var data = [
             },
             {
                 "stageId": 49,
-                "sweepPower":8300,
+                "sweepPower":6000,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -1064,7 +1064,7 @@ var data = [
 		"stage":[
 		    {
 				"stageId": 50,
-                "sweepPower":8400,
+                "sweepPower":6400,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -1078,7 +1078,7 @@ var data = [
             },
 			{
 			    "stageId": 51,
-                "sweepPower":8500,
+                "sweepPower":6500,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -1092,7 +1092,7 @@ var data = [
             },
 			{
 				"stageId": 52,
-                "sweepPower":8600,
+                "sweepPower":6600,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -1106,7 +1106,7 @@ var data = [
             },
 			{
 				"stageId": 53,
-                "sweepPower":8700,
+                "sweepPower":6700,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -1120,7 +1120,7 @@ var data = [
             },
 			{
 				"stageId": 54,
-                "sweepPower":8800,
+                "sweepPower":6800,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -1134,7 +1134,7 @@ var data = [
             },
             {
                 "stageId": 55,
-                "sweepPower":8900,
+                "sweepPower":6900,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -1148,7 +1148,7 @@ var data = [
             },
             {
                 "stageId": 56,
-                "sweepPower":9000,
+                "sweepPower":7000,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -1184,9 +1184,9 @@ var data = [
 		"icon":"mapicon5.png",
         "theme":2,
 		"stage":[
-    {
+            {
 				"stageId": 57,
-        "sweepPower":9500,
+                "sweepPower":7400,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -1199,8 +1199,8 @@ var data = [
 
             },
 			{
-        "stageId": 58,
-                "sweepPower":9600,
+                "stageId": 58,
+                "sweepPower":7500,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -1214,7 +1214,7 @@ var data = [
             },
 			{
 				"stageId": 59,
-                "sweepPower":9700,
+                "sweepPower":7600,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -1228,7 +1228,7 @@ var data = [
             },
 			{
 				"stageId": 60,
-                "sweepPower":9800,
+                "sweepPower":7700,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -1242,7 +1242,7 @@ var data = [
             },
 			{
 				"stageId": 61,
-                "sweepPower":9900,
+                "sweepPower":7800,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
@@ -1256,7 +1256,7 @@ var data = [
             },
             {
                 "stageId": 62,
-                "sweepPower":10000,
+                "sweepPower":7900,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -1270,7 +1270,7 @@ var data = [
             },
             {
                 "stageId": 63,
-                "sweepPower":10100,
+                "sweepPower":8000,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
@@ -1305,93 +1305,100 @@ var data = [
 		"desc":"盘踞着未知力量的洞穴，据说这股力量来自\n遥远的上古，是人类无法探知的境地。",
 		"icon":"mapicon2.png",
 		"stage":[
-    {
+            {
 				"stageId": 64,
+                "sweepPower":8300,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 128,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
                 ]
                 }
 
             },
 			{
 				"stageId": 65,
+                "sweepPower":8400,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 129,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
                 ]
                 }
 
             },
 			{
 				"stageId": 66,
+                "sweepPower":8500,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 130,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
                 ]
                 }
 
             },
 			{
 				"stageId": 67,
+                "sweepPower":8600,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 131,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
                 ]
                 }
 
             },
 			{
 				"stageId": 68,
+                "sweepPower":8700,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 132,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
                 ]
                 }
 
             },
             {
                 "stageId": 69,
+                "sweepPower":8800,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
                 "dungeon":133,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
                 ]
                 }
 
             },
             {
                 "stageId": 70,
+                "sweepPower":8900,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
                 "dungeon": 134,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
                 ]
                 }
 
@@ -1403,7 +1410,7 @@ var data = [
                 "isInfinite":true,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.70.state"}, 2 ] }
                 ]
                 }
 
@@ -1421,91 +1428,110 @@ var data = [
 		"stage":[
 		    {
 			    "stageId": 71,
+                "sweepPower":9200,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 136,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
                 ]
                 }
 
             },
 			{
 				"stageId": 72,
+                "sweepPower":9300,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 137,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
                 ]
                 }
 
             },
 			{
 				"stageId": 73,
+                "sweepPower":9400,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 138,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
                 ]
                 }
 
             },
 			{
 				"stageId": 74,
+                "sweepPower":9500,
 				"cost": 15,
 				"team": 3,
 				"hidden":false,
 				"dungeon": 139,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
                 ]
                 }
 
             },
 			{
 			    "stageId": 75,
+                "sweepPower":9600,
 			    "cost": 15,
 			    "team": 3,
 			    "hidden":false,
 			    "dungeon": 140,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
                 ]
                 }
 
             },
             {
                 "stageId": 76,
+                "sweepPower":9700,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
                 "dungeon": 141,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
                 ]
                 }
 
             },
             {
                 "stageId": 77,
+                "sweepPower":9800,
                 "cost": 15,
                 "team": 3,
                 "hidden":false,
                 "dungeon": 142,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.1000.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 134,
+                "cost":10,
+                "dungeon": 143,
+                "isInfinite":true,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.77.state"}, 2 ] }
                 ]
                 }
 
@@ -2194,22 +2220,243 @@ var data = [
     },
     {
         "chapterId": 17,
-        "hidden": true,
-        "label":"测试副本",
+        "idx": 11,
+        "style": "map-dungeon11",
+        "title":"dungeonname11.png",
+        "label":"2-1",
+        "desc":"领主塔卡的宫殿，卡塔不仅拥有强大的佣兵\n军团，据称他已经掌握了未知力量。",
+        "icon":"mapicon6.png",
         "stage":[
             {
-                "stageId": 134,
-                "cost": 0,
+                "stageId": 135,
+                "sweepPower":10000,
+                "cost": 15,
                 "team": 3,
                 "hidden":false,
-                "dungeon": 143,
-                "condition": function (obj, util) {
-                    if (util.serverObj.counters['133'] == undefined
-                        || util.serverObj.counters['133'] < MAX_BATTLE_TIMES) {
-                        return true;
-                    }
-                    return false;
+                "dungeon": 144,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
                 }
+
+            },
+            {
+                "stageId": 136,
+                "sweepPower":10200,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 145,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 137,
+                "sweepPower":10400,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 146,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 138,
+                "sweepPower":10600,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 147,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 139,
+                "sweepPower":10800,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 148,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 140,
+                "sweepPower":11000,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 149,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 141,
+                "sweepPower":11200,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 150,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 142,
+                "cost":10,
+                "dungeon": 151,
+                "isInfinite":true,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.141.state"}, 2 ] }
+                ]
+                }
+
+            }
+        ]
+    },
+    {
+        "chapterId": 18,
+        "idx": 12,
+        "style": "map-dungeon11",
+        "title":"dungeonname11.png",
+        "label":"2-2",
+        "desc":"领主塔卡的宫殿，卡塔不仅拥有强大的佣兵\n军团，据称他已经掌握了未知力量。",
+        "icon":"mapicon6.png",
+        "stage":[
+            {
+                "stageId": 143,
+                "sweepPower":11600,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 152,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 144,
+                "sweepPower":11800,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 153,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 145,
+                "sweepPower":12000,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 154,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 146,
+                "sweepPower":12200,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 155,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 147,
+                "sweepPower":12400,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 156,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 148,
+                "sweepPower":12600,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 157,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 149,
+                "sweepPower":12800,
+                "cost": 15,
+                "team": 3,
+                "hidden":false,
+                "dungeon": 158,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId":150,
+                "cost":10,
+                "dungeon": 159,
+                "isInfinite":true,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.149.state"}, 2 ] }
+                ]
+                }
+
             }
         ]
     }
