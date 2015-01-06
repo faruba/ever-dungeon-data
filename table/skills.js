@@ -9139,7 +9139,7 @@ exports.data = [
       "availableCondition": [
         {
           "type": "event",
-          "event": "onTurnEnd",
+          "event": "onTurnBegin",
           "eventCount": 1
         }
       ]
@@ -10306,7 +10306,8 @@ exports.data = [
         },
         {
           "type": "installSpell",
-          "spell": 189
+          "spell": 189,
+          "delay": 0.3
         }
       ]
     }
@@ -15913,19 +15914,15 @@ exports.data = [
           "event": "onBePhysicalRangeDamage"
         },
         {
-          "type": "event",
-          "event": "onBeSpellDamage"
-        },
-        {
-          "type": "event",
-          "event": "onBeSpellRangeDamage"
-        },
-        {
           "type": "chance",
           "chance": 0.6
         },
         {
           "type": "alive"
+        },
+        {
+          "type": "targetMutex",
+          "mutex": "fear"
         }
       ],
       "targetSelection": {
@@ -15950,6 +15947,10 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 294
+        },
+        {
+          "type": "setTargetMutex",
+          "mutex": "fear"
         }
       ]
     }
@@ -16153,7 +16154,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.2
         },
         {
           "type": "alive"
@@ -17815,7 +17816,7 @@ exports.data = [
             "triggerCondition": [
                 {
                     "type": "event",
-                    "event": "onTurnEnd"
+                    "event": "onTurnBegin"
                 },
                 {
                     "type": "targetMutex",
@@ -18099,16 +18100,11 @@ exports.data = [
             },
             "action": [
                 {
-                    "type": "playAction",
-                    "motion": 2,
-                    "pos": "self"
-                },
-                {
                     "type": "modifyVar",
                     "x": "damage",
                     "formular": {
                         "environment": {
-                            "damage": 0.7
+                            "damage": 0.8
                         }
                     }
                 }
@@ -18936,31 +18932,18 @@ exports.data = [
         "skillId": 351,
         "config": {
             "basic": {
-                "targetEffect": 48,
                 "buffEffect": 82
             },
-
             "installAction": [
                 {
                     "type": "setProperty",
-                    "#modifications": {
+                    "modifications": {
                         "attack": {
                             "src": {
                                 "attack": 1
                             }
                         }
                     }
-                },
-                {
-                    "type": "heal",
-                    "formular": {
-                        "c": 300
-                    }
-                }
-            ],
-            "uninstallAction": [
-                {
-                    "type": "resetProperty"
                 }
             ],
             "buffType": "AttackBuff",
@@ -18969,6 +18952,29 @@ exports.data = [
                     "type": "event",
                     "event": "onTurnEnd",
                     "eventCount": 9999
+                }
+            ],
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onTurnEnd",
+                    "eventCount": 1
+                }
+            ],
+            "targetSelection": {
+                "pool": "self"
+            },
+            "action": [
+                {
+                    "type": "heal",
+                    "formular": {
+                        "c": 300
+                    }
+                },
+                {
+                    "type": "playEffect",
+                    "effect": 48,
+                    "pos": "self"
                 }
             ]
         }

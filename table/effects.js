@@ -361,7 +361,8 @@ exports.data = [
     {
         "effectId": 80,
         "skeleton": "effect-zdb.json",
-        "atlas": "effect-zdb.atlas"
+        "atlas": "effect-zdb.atlas",
+        "onGround":true
     },
     {
         "effectId": 81,
@@ -373,7 +374,7 @@ exports.data = [
         "loop": true,
         "skeleton": "effect-elht.json",
         "atlas": "effect-elht.atlas",
-        "onGround":true
+        "onBack":true
     },
     {
         "effectId": 83,
