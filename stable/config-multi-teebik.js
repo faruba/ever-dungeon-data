@@ -11,17 +11,32 @@ exports.data = {
     },
 
     Server_Config: {
-        "Develop": {
+        "Develop.9": {
             ID: 0,
             Name: "Develop",
             DB: "SEAsia",
-            IP: "10.4.3.41",
+            DB_Prefix: "Develop"
+        },
+ 
+        "Develop.10": {
+            ID: 0,
+            Name: "Develop",
+            DB: "SEAsia",
+            DB_Prefix: "Develop"
+        },
+		"Develop.11": {
+            ID: 0,
+            Name: "Develop",
+            DB: "SEAsia",
             DB_Prefix: "Develop"
         }
+ 
     },
 
     IP_Config : {
-        "192.168.128.9": [ { Server: "Develop", Port: 7756 } ],
+        "192.168.128.9": [ { Server: "Develop.9", Port: 7756 } ],
+        "192.168.128.10": [ { Server: "Develop.10", Port: 7756 } ],
+        "192.168.128.11": [ { Server: "Develop.11", Port: 7756 } ],
     },
 	Gate_Config:{
 		"192.168.128.10": [

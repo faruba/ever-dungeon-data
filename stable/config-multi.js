@@ -53,7 +53,6 @@ exports.data = {
             Name: "Master",
             DB: "10.4.4.188",
             DB_Prefix: "Master",
-            Gate: [ {ip: "10.4.2.185", port: 7756} ]
         }
     },
 
@@ -67,11 +66,16 @@ exports.data = {
         } ],
         "10.4.4.188": [ {
             Server: "Master",
-            Port: 7757
+            Port: 7756
         } ],
-        "10.3.4.41": [ {
+        "10.4.3.41": [ {
             Server: "Develop",
-            Port: 7757
+            Port: 7756
         } ],
-    }
+    },
+	Gate_Config:{
+		"10.4.3.41":[
+			{ip:"10.4.3.41", port:7756},
+		]
+	}
 }
