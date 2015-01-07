@@ -18547,7 +18547,7 @@ exports.data = [
                     {
                         "type": "anchor",
 						"shape": 3,
-						"length": 2,
+						"length": 3,
 						"startDistance": 1,
 						"anchorPos": {
 							"pool": "self",
@@ -18558,6 +18558,25 @@ exports.data = [
 							}
 							]
 						},
+                        "anchorDirPos":{
+                            "pool": "objects",
+                            "filter": [
+                            {
+                                "type": "alive"
+                            },
+                            {
+                                "type": "visible"
+                            },
+                            {
+                                "type": "target-faction-with-flag",
+                                "flag": "attackable"
+                            },
+                            {
+                                "type": "count",
+                                "count": 1
+                            }
+                            ]
+                        }
                     }
                 ]
             },
