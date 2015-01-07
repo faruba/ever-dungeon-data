@@ -18547,7 +18547,7 @@ exports.data = [
                     {
                         "type": "anchor",
 						"shape": 3,
-						"length": 3,
+						"length": 2,
 						"startDistance": 1,
 						"anchorPos": {
 							"pool": "self",
