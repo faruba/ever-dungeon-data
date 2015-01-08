@@ -17,7 +17,7 @@ exports.data = [
 			"accuracy": 2,
 			"reactivity": 1,
 			"speed": 2,
-			"activeSpell": 0
+			"activeSpell": [0]
 		},
 		"defaultArmors": [
 			6,
@@ -39,7 +39,8 @@ exports.data = [
             {"type":0,"value":622,"count":1}
         ],
 		"levelId": 0,
-        "transId":197
+        "pkTransId":197,
+        "teammateTransId":197
 	},
 	{
 		"classId": 1,
@@ -59,7 +60,7 @@ exports.data = [
 			"accuracy": 2,
 			"reactivity": 2,
 			"speed": 2,
-			"activeSpell": 5
+			"activeSpell": [5,0]
 		},
 		"defaultArmors": [
 			6,
@@ -81,7 +82,8 @@ exports.data = [
             {"type":0,"value":652,"count":1}
         ],
 		"levelId": 0,
-        "transId":198
+        "TransId":198,
+        "teammateTransId":198
 
 	},
 	{
@@ -102,7 +104,7 @@ exports.data = [
 			"accuracy": 4,
 			"reactivity": 3,
 			"speed": 6,
-			"activeSpell": 8
+			"activeSpell": [8]
 		},
 		"defaultArmors": [
 			6,
@@ -124,7 +126,8 @@ exports.data = [
             {"type":0,"value":682,"count":1}
         ],
 		"levelId": 0,
-        "transId":199
+        "pkTransId":199,
+        "teammateTransId":199
 	},
 	{
 		"classId": 3,
@@ -8067,7 +8070,7 @@ exports.data = [
             "accuracy": 2,
             "reactivity": 1,
             "speed": 2,
-            "activeSpell": 195
+            "activeSpell": [195]
         },
         "defaultArmors": [
             6,
@@ -8089,7 +8092,8 @@ exports.data = [
             {"type":0,"value":1029,"count":1}
         ],
         "levelId": 0,
-        "transId":219
+        "pkTransId":219,
+        "teammateTransId":219
     },
     {
         "classId": 217,
@@ -8109,7 +8113,7 @@ exports.data = [
             "accuracy": 2,
             "reactivity": 2,
             "speed": 2,
-            "activeSpell": 201
+            "activeSpell": [201]
         },
         "defaultArmors": [
             6,
@@ -8131,7 +8135,8 @@ exports.data = [
             {"type":0,"value":1209,"count":1}
         ],
         "levelId": 0,
-        "transId":220
+        "pkTransId":220,
+        "teammateTransId":220
     },
     {
         "classId": 218,
@@ -8151,7 +8156,7 @@ exports.data = [
             "accuracy": 4,
             "reactivity": 3,
             "speed": 6,
-            "activeSpell": 207
+            "activeSpell": [207]
         },
         "defaultArmors": [
             6,
@@ -8173,7 +8178,8 @@ exports.data = [
             {"type":0,"value":1389,"count":1}
         ],
         "levelId": 0,
-        "transId":221
+        "pkTransId":221,
+        "teammateTransId":221
     },
     {
         "classId": 219,
