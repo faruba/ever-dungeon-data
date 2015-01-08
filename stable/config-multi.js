@@ -25,6 +25,12 @@ exports.data = {
             Role: { IP: "10.4.4.188", PORT: 6381 },
             Publisher: { IP: "10.4.4.188", PORT: 6380 },
             Subscriber: { IP: "10.4.4.188", PORT: 6380 }
+        },
+        "192.168.199.153": {
+            Account: { IP: "192.168.199.153", PORT: 6380 },
+            Role: { IP: "192.168.199.153", PORT: 6380 },
+            Publisher: { IP: "192.168.199.153", PORT: 6380 },
+            Subscriber: { IP: "192.168.199.153", PORT: 6380 }
         }
     },
 
@@ -53,6 +59,12 @@ exports.data = {
             Name: "Master",
             DB: "10.4.4.188",
             DB_Prefix: "Master",
+        },
+        "Dh-local": {
+            ID: 0,
+            Name: "Dh-local",
+            DB: "192.168.199.153",
+            DB_Prefix: "Develop",
         }
     },
 
@@ -72,10 +84,17 @@ exports.data = {
             Server: "Develop",
             Port: 7756
         } ],
+        "192.168.199.205": [ {
+            Server: "Dh-local",
+            Port: 7756
+        } ],
     },
-	Gate_Config:{
-		"10.4.3.41":[
-			{ip:"10.4.3.41", port:7756},
-		]
-	}
+    Gate_Config:{
+        "10.4.3.41":[
+            {ip:"10.4.3.41", port:7756},
+        ],
+        "192.168.199.205":[
+            {ip:"92.168.199.205", port:7756},
+        ],
+    }
 }
