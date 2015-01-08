@@ -4,7 +4,7 @@ exports.data = [
     "label": "盾墙",
     "icon": "skill-warrior1.png",
     "desc": "用坚实的盾牌来格挡攻击，抵消伤害，格挡次数随等级增加。",
-    "slotId": 1,
+    "slotId": 0,
     "config": {
       "basic": {
         "spellAction": 2,
