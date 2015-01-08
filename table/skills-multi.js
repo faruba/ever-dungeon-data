@@ -4,7 +4,7 @@ exports.data = [
     "label": "盾墙",
     "icon": "skill-warrior1.png",
     "desc": "用坚实的盾牌来格挡攻击，抵消伤害，格挡次数随等级增加。",
-    "slotId": 0,
+    "slotId": 1,
     "config": {
       "basic": {
         "spellAction": 2,
@@ -3601,37 +3601,21 @@ exports.data = [
       "targetSelection": {
         "pool": "blocks",
         "filter": [
-          {
-            "type": "shuffle"
-          },
-          {
-            "type": "count",
-            "count": 1
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 0,
-                "y": 0
-              }
-            ]
+		  {
+			 "type": "anchor",
+			 "shape" :1,//line:0 cross :1 square:2 trangle:3
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "blocks",
+			     "filter": [
+			     {
+			   	  "type": "shuffle"
+			     },
+			     {
+			   	  "type": "count",
+			   	  "count": 1
+			     },
+			     ]}
           }
         ]
       },
@@ -3734,38 +3718,22 @@ exports.data = [
       "targetSelection": {
         "pool": "blocks",
         "filter": [
-          {
-            "type": "shuffle"
-          },
-          {
-            "type": "count",
-            "count": 3
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 0,
-                "y": 0
-              }
-            ]
-          }
+            {
+			  "type": "anchor",
+			  "shape" :1,
+			  "length": 1,
+			  "anchorPos" : {
+				  "pool": "blocks",
+				  "filter": [
+					  {
+						  "type": "shuffle"
+					  },
+					  {
+						  "type": "count",
+						  "count": 3
+					  },
+					  ]}
+			}
         ]
       },
       "action": [
@@ -4113,48 +4081,21 @@ exports.data = [
         }
       ],
       "targetSelection": {
-        "pool": "self",
+        "pool": "blocks",
         "filter": [
           {
-            "type": "count",
-            "count": 1
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": -1
-              },
-              {
-                "x": 1,
-                "y": -1
-              }
-            ]
+			 "type": "anchor",
+			 "shape" :2,
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "self",
+			     "filter": [
+			     {
+			   	  "type": "count",
+			   	  "count": 1
+			     }
+			     ]
+			 }
           }
         ]
       },
@@ -6695,37 +6636,22 @@ exports.data = [
       "targetSelection": {
         "pool": "blocks",
         "filter": [
-          {
-            "type": "shuffle"
-          },
-          {
-            "type": "count",
-            "count": 1
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 0,
-                "y": 0
-              }
-            ]
+		  {
+			 "type": "anchor",
+			 "shape" :1,
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "blocks",
+			     "filter": [
+				 {
+					 "type": "shuffle"
+				 },
+			     {
+			   	  "type": "count",
+			   	  "count": 1
+			     }
+			     ]
+			 }
           }
         ]
       },
@@ -6828,37 +6754,22 @@ exports.data = [
       "targetSelection": {
         "pool": "blocks",
         "filter": [
-          {
-            "type": "shuffle"
-          },
-          {
-            "type": "count",
-            "count": 3
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 0,
-                "y": 0
-              }
-            ]
+		  {
+			 "type": "anchor",
+			 "shape" :1,
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "blocks",
+			     "filter": [
+				 {
+					 "type": "shuffle"
+				 },
+			     {
+			   	  "type": "count",
+			   	  "count": 3
+			     }
+			     ]
+			 }
           }
         ]
       },
@@ -7948,37 +7859,22 @@ exports.data = [
       "targetSelection": {
         "pool": "blocks",
         "filter": [
-          {
-            "type": "shuffle"
-          },
-          {
-            "type": "count",
-            "count": 1
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 0,
-                "y": 0
-              }
-            ]
+		  {
+			 "type": "anchor",
+			 "shape" :1,
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "blocks",
+			     "filter": [
+				 {
+					 "type": "shuffle"
+				 },
+			     {
+			   	  "type": "count",
+			   	  "count": 1
+			     }
+			     ]
+			 }
           }
         ]
       },
@@ -8081,37 +7977,22 @@ exports.data = [
       "targetSelection": {
         "pool": "blocks",
         "filter": [
-          {
-            "type": "shuffle"
-          },
-          {
-            "type": "count",
-            "count": 3
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 0,
-                "y": 0
-              }
-            ]
+		  {
+			 "type": "anchor",
+			 "shape" :1,
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "blocks",
+			     "filter": [
+				 {
+					 "type": "shuffle"
+				 },
+			     {
+			   	  "type": "count",
+			   	  "count": 3
+			     }
+			     ]
+			 }
           }
         ]
       },
@@ -8416,48 +8297,21 @@ exports.data = [
         }
       ],
       "targetSelection": {
-        "pool": "self",
+        "pool": "blocks",
         "filter": [
-          {
-            "type": "count",
-            "count": 1
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": -1
-              },
-              {
-                "x": 1,
-                "y": -1
-              }
-            ]
+		  {
+			 "type": "anchor",
+			 "shape" :2,
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "self",
+			     "filter": [
+				 {
+			   	  "type": "count",
+			   	  "count": 1
+			     }
+			     ]
+			 }
           }
         ]
       },
@@ -13446,48 +13300,21 @@ exports.data = [
         }
       ],
       "targetSelection": {
-        "pool": "self",
+        "pool": "blocks",
         "filter": [
-          {
-            "type": "count",
-            "count": 1
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": -1
-              },
-              {
-                "x": 1,
-                "y": -1
-              }
-            ]
+		  {
+			 "type": "anchor",
+			 "shape" :2,
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "self",
+			     "filter": [
+				 {
+			   	  "type": "count",
+			   	  "count": 1
+			     }
+			     ]
+			 }
           }
         ]
       },
@@ -13573,46 +13400,12 @@ exports.data = [
       ],
       "targetSelection": {
         "pool": "blocks",
-        "blocks": [
-          21
-        ],
         "filter": [
           {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": -1
-              },
-              {
-                "x": 1,
-                "y": -1
-              }
-            ]
+			 "type": "anchor",
+			 "shape" :2,
+			 "length": 1,
+			 "anchorPos" : [21]
           }
         ]
       },
@@ -14419,46 +14212,12 @@ exports.data = [
       ],
       "targetSelection": {
         "pool": "blocks",
-        "blocks": [
-          14
-        ],
         "filter": [
           {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": -1
-              },
-              {
-                "x": 1,
-                "y": -1
-              }
-            ]
+			 "type": "anchor",
+			 "shape" :2,//square
+			 "length": 1,
+			 "anchorPos" : [14]
           }
         ]
       },
@@ -18779,48 +18538,41 @@ exports.data = [
                 }
             ],
             "targetSelection": {
-                "pool": "self",
+                "pool": "blocks",
                 "filter": [
                     {
-                        "type": "count",
-                        "count": 1
-                    },
-                    {
                         "type": "anchor",
-                        "anchor": [
+						"shape": 3,
+						"length": 2,
+						"startDistance": 1,
+						"anchorPos": {
+							"pool": "self",
+							"filter": [
+							{
+								"type": "count",
+								"count": 1
+							}
+							]
+						},
+                        "anchorDirPos":{
+                            "pool": "objects",
+                            "filter": [
                             {
-                                "x": -1,
-                                "y": 0
+                                "type": "alive"
                             },
                             {
-                                "x": -1,
-                                "y": 1
+                                "type": "visible"
                             },
                             {
-                                "x": -1,
-                                "y": -1
+                                "type": "target-faction-with-flag",
+                                "flag": "attackable"
                             },
                             {
-                                "x": -2,
-                                "y": 0
-                            },
-                            {
-                                "x": -2,
-                                "y": 1
-                            },
-                            {
-                                "x": -2,
-                                "y": -1
-                            },
-                            {
-                                "x": -2,
-                                "y": 2
-                            },
-                            {
-                                "x": -2,
-                                "y": -2
+                                "type": "count",
+                                "count": 1
                             }
-                        ]
+                            ]
+                        }
                     }
                 ]
             },
