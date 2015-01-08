@@ -62,7 +62,7 @@ exports.data = {
         },
         "Dh-local": {
             ID: 0,
-            Name: "Dh-local",
+            Name: "Develop",
             DB: "192.168.199.153",
             DB_Prefix: "Develop",
         }
@@ -94,7 +94,7 @@ exports.data = {
             {ip:"10.4.3.41", port:7756},
         ],
         "192.168.199.205":[
-            {ip:"92.168.199.205", port:7756},
+            {ip:"192.168.199.205", port:7756},
         ],
     }
 }
