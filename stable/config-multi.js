@@ -77,6 +77,7 @@ exports.data = {
             Name: "Develop",
             DB: "192.168.199.248",
             DB_Prefix: "Develop",
+			Debug:true, // set this flag, don't check something
         }
  
     },
