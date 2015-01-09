@@ -9,26 +9,14 @@ exports.data = [
                     {
                         "weight": 18,
                         "type": 0,
-                        "value":810 ,
+                        "value":1477 ,
                         "count": 1
                     },
                     {
                         "weight": 18,
                         "type": 0,
-                        "value": 811,
+                        "value": 1480,
                         "count": 1
-                    },
-                    {
-                        "weight": 10,
-                        "type": 0,
-                        "value": 812,
-                        "count":1
-                    },
-                    {
-                        "weight": 18,
-                        "type": 0,
-                        "value": 1475,
-                        "count":1
                     }
                 ]
             },
@@ -38,20 +26,14 @@ exports.data = [
                     {
                         "weight": 18,
                         "type": 0,
-                        "value":813,
+                        "value":1475,
                         "count": 1
                     },
                     {
-                        "weight": 6,
+                        "weight": 18,
                         "type": 0,
-                        "value": 814,
-                        "count": 2
-                    },
-                    {
-                        "weight": 2,
-                        "type": 0,
-                        "value": 815,
-                        "count":3
+                        "value": 1478,
+                        "count": 1
                     }
                 ]
             }
@@ -62,7 +44,14 @@ exports.data = [
                 "prize": [
                     {
                         "weight": 18,
-                        "type": 1,
+                        "type": 0,
+                        "value":1475,
+                        "count": 1
+                    },
+                    {
+                        "weight": 18,
+                        "type": 0,
+                        "value": 1478,
                         "count": 1
                     }
                 ]
@@ -72,8 +61,15 @@ exports.data = [
                 "prize": [
                     {
                         "weight": 18,
-                        "type": 1,
-                        "count": 2
+                        "type": 0,
+                        "value":1477 ,
+                        "count": 5
+                    },
+                    {
+                        "weight": 18,
+                        "type": 0,
+                        "value": 1480,
+                        "count": 5
                     }
                 ]
             }

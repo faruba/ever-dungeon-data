@@ -3601,37 +3601,21 @@ exports.data = [
       "targetSelection": {
         "pool": "blocks",
         "filter": [
-          {
-            "type": "shuffle"
-          },
-          {
-            "type": "count",
-            "count": 1
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 0,
-                "y": 0
-              }
-            ]
+		  {
+			 "type": "anchor",
+			 "shape" :1,//line:0 cross :1 square:2 trangle:3
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "blocks",
+			     "filter": [
+			     {
+			   	  "type": "shuffle"
+			     },
+			     {
+			   	  "type": "count",
+			   	  "count": 1
+			     },
+			     ]}
           }
         ]
       },
@@ -3734,38 +3718,22 @@ exports.data = [
       "targetSelection": {
         "pool": "blocks",
         "filter": [
-          {
-            "type": "shuffle"
-          },
-          {
-            "type": "count",
-            "count": 3
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 0,
-                "y": 0
-              }
-            ]
-          }
+            {
+			  "type": "anchor",
+			  "shape" :1,
+			  "length": 1,
+			  "anchorPos" : {
+				  "pool": "blocks",
+				  "filter": [
+					  {
+						  "type": "shuffle"
+					  },
+					  {
+						  "type": "count",
+						  "count": 3
+					  },
+					  ]}
+			}
         ]
       },
       "action": [
@@ -4113,48 +4081,21 @@ exports.data = [
         }
       ],
       "targetSelection": {
-        "pool": "self",
+        "pool": "blocks",
         "filter": [
           {
-            "type": "count",
-            "count": 1
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": -1
-              },
-              {
-                "x": 1,
-                "y": -1
-              }
-            ]
+			 "type": "anchor",
+			 "shape" :2,
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "self",
+			     "filter": [
+			     {
+			   	  "type": "count",
+			   	  "count": 1
+			     }
+			     ]
+			 }
           }
         ]
       },
@@ -6695,37 +6636,22 @@ exports.data = [
       "targetSelection": {
         "pool": "blocks",
         "filter": [
-          {
-            "type": "shuffle"
-          },
-          {
-            "type": "count",
-            "count": 1
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 0,
-                "y": 0
-              }
-            ]
+		  {
+			 "type": "anchor",
+			 "shape" :1,
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "blocks",
+			     "filter": [
+				 {
+					 "type": "shuffle"
+				 },
+			     {
+			   	  "type": "count",
+			   	  "count": 1
+			     }
+			     ]
+			 }
           }
         ]
       },
@@ -6828,37 +6754,22 @@ exports.data = [
       "targetSelection": {
         "pool": "blocks",
         "filter": [
-          {
-            "type": "shuffle"
-          },
-          {
-            "type": "count",
-            "count": 3
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 0,
-                "y": 0
-              }
-            ]
+		  {
+			 "type": "anchor",
+			 "shape" :1,
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "blocks",
+			     "filter": [
+				 {
+					 "type": "shuffle"
+				 },
+			     {
+			   	  "type": "count",
+			   	  "count": 3
+			     }
+			     ]
+			 }
           }
         ]
       },
@@ -7948,37 +7859,22 @@ exports.data = [
       "targetSelection": {
         "pool": "blocks",
         "filter": [
-          {
-            "type": "shuffle"
-          },
-          {
-            "type": "count",
-            "count": 1
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 0,
-                "y": 0
-              }
-            ]
+		  {
+			 "type": "anchor",
+			 "shape" :1,
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "blocks",
+			     "filter": [
+				 {
+					 "type": "shuffle"
+				 },
+			     {
+			   	  "type": "count",
+			   	  "count": 1
+			     }
+			     ]
+			 }
           }
         ]
       },
@@ -8081,37 +7977,22 @@ exports.data = [
       "targetSelection": {
         "pool": "blocks",
         "filter": [
-          {
-            "type": "shuffle"
-          },
-          {
-            "type": "count",
-            "count": 3
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 0,
-                "y": 0
-              }
-            ]
+		  {
+			 "type": "anchor",
+			 "shape" :1,
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "blocks",
+			     "filter": [
+				 {
+					 "type": "shuffle"
+				 },
+			     {
+			   	  "type": "count",
+			   	  "count": 3
+			     }
+			     ]
+			 }
           }
         ]
       },
@@ -8416,48 +8297,21 @@ exports.data = [
         }
       ],
       "targetSelection": {
-        "pool": "self",
+        "pool": "blocks",
         "filter": [
-          {
-            "type": "count",
-            "count": 1
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": -1
-              },
-              {
-                "x": 1,
-                "y": -1
-              }
-            ]
+		  {
+			 "type": "anchor",
+			 "shape" :2,
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "self",
+			     "filter": [
+				 {
+			   	  "type": "count",
+			   	  "count": 1
+			     }
+			     ]
+			 }
           }
         ]
       },
@@ -9139,7 +8993,7 @@ exports.data = [
       "availableCondition": [
         {
           "type": "event",
-          "event": "onTurnEnd",
+          "event": "onTurnBegin",
           "eventCount": 1
         }
       ]
@@ -10306,7 +10160,8 @@ exports.data = [
         },
         {
           "type": "installSpell",
-          "spell": 189
+          "spell": 189,
+          "delay": 0.3
         }
       ]
     }
@@ -10315,6 +10170,7 @@ exports.data = [
     "skillId": 189,
     "config": {
       "basic": {
+        "buffEffect": 42,
         "spellEffect": 1,
         "spellDelay": 0.3
       },
@@ -13444,48 +13300,21 @@ exports.data = [
         }
       ],
       "targetSelection": {
-        "pool": "self",
+        "pool": "blocks",
         "filter": [
-          {
-            "type": "count",
-            "count": 1
-          },
-          {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": -1
-              },
-              {
-                "x": 1,
-                "y": -1
-              }
-            ]
+		  {
+			 "type": "anchor",
+			 "shape" :2,
+			 "length": 1,
+			 "anchorPos" : {
+			     "pool": "self",
+			     "filter": [
+				 {
+			   	  "type": "count",
+			   	  "count": 1
+			     }
+			     ]
+			 }
           }
         ]
       },
@@ -13571,46 +13400,12 @@ exports.data = [
       ],
       "targetSelection": {
         "pool": "blocks",
-        "blocks": [
-          21
-        ],
         "filter": [
           {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": -1
-              },
-              {
-                "x": 1,
-                "y": -1
-              }
-            ]
+			 "type": "anchor",
+			 "shape" :2,
+			 "length": 1,
+			 "anchorPos" : [21]
           }
         ]
       },
@@ -14417,46 +14212,12 @@ exports.data = [
       ],
       "targetSelection": {
         "pool": "blocks",
-        "blocks": [
-          14
-        ],
         "filter": [
           {
-            "type": "anchor",
-            "anchor": [
-              {
-                "x": 1,
-                "y": 0
-              },
-              {
-                "x": -1,
-                "y": 0
-              },
-              {
-                "x": 0,
-                "y": -1
-              },
-              {
-                "x": 0,
-                "y": 1
-              },
-              {
-                "x": 1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": 1
-              },
-              {
-                "x": -1,
-                "y": -1
-              },
-              {
-                "x": 1,
-                "y": -1
-              }
-            ]
+			 "type": "anchor",
+			 "shape" :2,//square
+			 "length": 1,
+			 "anchorPos" : [14]
           }
         ]
       },
@@ -15912,19 +15673,15 @@ exports.data = [
           "event": "onBePhysicalRangeDamage"
         },
         {
-          "type": "event",
-          "event": "onBeSpellDamage"
-        },
-        {
-          "type": "event",
-          "event": "onBeSpellRangeDamage"
-        },
-        {
           "type": "chance",
           "chance": 0.6
         },
         {
           "type": "alive"
+        },
+        {
+          "type": "targetMutex",
+          "mutex": "fear"
         }
       ],
       "targetSelection": {
@@ -15937,8 +15694,22 @@ exports.data = [
       },
       "action": [
         {
+          "type": "playAction",
+          "motion": "kj",
+          "pos": "self"
+        },
+        {
+          "type": "playEffect",
+          "effect": 81,
+          "act": "target"
+        },
+        {
           "type": "installSpell",
           "spell": 294
+        },
+        {
+          "type": "setTargetMutex",
+          "mutex": "fear"
         }
       ]
     }
@@ -16142,7 +15913,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.2
         },
         {
           "type": "alive"
@@ -16205,7 +15976,7 @@ exports.data = [
       "availableCondition": [
         {
           "type": "event",
-          "event": "onEndBattleTurn",
+          "event": "onTurnEnd",
           "eventCount": 2
         }
       ]
@@ -17804,7 +17575,7 @@ exports.data = [
             "triggerCondition": [
                 {
                     "type": "event",
-                    "event": "onTurnEnd"
+                    "event": "onTurnBegin"
                 },
                 {
                     "type": "targetMutex",
@@ -18035,7 +17806,7 @@ exports.data = [
                 {
                     "type": "playAction",
                     "motion": 1,
-                    "pos": "target"
+                    "pos": "self"
                 },
                 {
                     "type": "modifyVar",
@@ -18088,16 +17859,11 @@ exports.data = [
             },
             "action": [
                 {
-                    "type": "playAction",
-                    "motion": 2,
-                    "pos": "self"
-                },
-                {
                     "type": "modifyVar",
                     "x": "damage",
                     "formular": {
                         "environment": {
-                            "damage": 0.7
+                            "damage": 0.8
                         }
                     }
                 }
@@ -18673,44 +18439,41 @@ exports.data = [
             ]
         }
     },
-    ,
     {
         "skillId": 346,
         "label": "巨石护体",
         "config": {
             "triggerCondition": [
                 {
+                    "type": "property",
+                    "property": "health",
+                    "to": 1500
+                },
+                {
                     "type": "event",
-                    "event": "onBeDeathStrike"
+                    "event": "onBattleTurnEnd"
+                },
+                {
+                    "type": "myMutex",
+                    "mutex": "hugeRock"
                 }
             ],
             "targetSelection": {
                 "pool": "self"
             },
-            "availableCondition": [
-                {
-                    "type": "effectCount",
-                    "count": 1
-                }
-            ],
             "action": [
-                {
-                    "type": "modifyVar",
-                    "x": "damage",
-                    "formular": {
-                        "environment": {
-                            "c": 0
-                        }
-                    }
-                },
                 {
                     "type": "playAction",
                     "motion": "jsht",
                     "pos": "self"
                 },
                 {
-                    "type": "delay",
-                    "delay": 1
+                    "type": "delay"
+                },
+                {
+                    "type": "setMyMutex",
+                    "mutex": "hugeRock",
+                    "count": 9999
                 },
                 {
                     "type": "installSpell",
@@ -18723,6 +18486,7 @@ exports.data = [
         "skillId": 347,
         "config": {
             "basic": {
+                "buffEffect": 83,
                 "spellEffect": 1,
                 "spellDelay": 0.3
             },
@@ -18734,14 +18498,6 @@ exports.data = [
                 {
                     "type": "event",
                     "event": "onBePhysicalRangeDamage"
-                },
-                {
-                    "type": "event",
-                    "event": "onBeSpellDamage"
-                },
-                {
-                    "type": "event",
-                    "event": "onBeSpellRangeDamage"
                 }
             ],
             "availableCondition": [
@@ -18778,151 +18534,202 @@ exports.data = [
                     "type": "visible"
                 },
                 {
-                    "type": "property",
-                    "property": "health",
-                    "to": 150
-                },
-                {
                     "type": "alive"
                 }
             ],
             "targetSelection": {
-                "pool": "self",
+                "pool": "blocks",
                 "filter": [
                     {
-                        "type": "count",
-                        "count": 1
-                    },
-                    {
                         "type": "anchor",
-                        "anchor": [
+						"shape": 3,
+						"length": 2,
+						"startDistance": 1,
+						"anchorPos": {
+							"pool": "self",
+							"filter": [
+							{
+								"type": "count",
+								"count": 1
+							}
+							]
+						},
+                        "anchorDirPos":{
+                            "pool": "objects",
+                            "filter": [
                             {
-                                "x": -1,
-                                "y": 0
+                                "type": "alive"
                             },
                             {
-                                "x": -1,
-                                "y": 1
+                                "type": "visible"
                             },
                             {
-                                "x": -1,
-                                "y": -1
+                                "type": "target-faction-with-flag",
+                                "flag": "attackable"
                             },
                             {
-                                "x": -2,
-                                "y": 0
-                            },
-                            {
-                                "x": -2,
-                                "y": 1
-                            },
-                            {
-                                "x": -2,
-                                "y": -1
-                            },
-                            {
-                                "x": -2,
-                                "y": 2
-                            },
-                            {
-                                "x": -2,
-                                "y": -2
+                                "type": "count",
+                                "count": 1
                             }
-                        ]
+                            ]
+                        }
                     }
                 ]
             },
             "action": [
                 {
-                    "type": "playEffect",
-                    "effect": 79,
-                    "pos": "target"
+                    "type": "installSpell",
+                    "spell": 349
                 },
                 {
                     "type": "delay"
                 },
                 {
                     "type": "playAction",
-                    "action": "zdb"
+                    "motion": "zdb",
+                    "pos": "self"
                 },
                 {
                     "type": "playEffect",
                     "effect": 80,
-                    "pos": "target"
+                    "pos": "self"
                 }
             ]
         }
     },
     {
         "skillId": 349,
-        "label": "恶灵护体",
         "config": {
-            "basic": {
-                "spellAction": 2,
-                "spellEffect": 66,
-                "spellDelay": 0.3
-            },
-            "targetSelection": {
-                "pool": "self"
-            },
-            "triggerCondition": [
+            "installAction": [
                 {
-                    "type": "event",
-                    "event": "onTurnEnd",
-                    "eventCount": 10,
-                    "reset": true
+                    "type": "playEffect",
+                    "effect": 79,
+                    "pos": "self"
                 },
                 {
-                    "type": "chance",
-                    "chance": 0.5
-                },
-                {
-                    "type": "alive"
+                    "type": "damage",
+                    "damageType": "Spell",
+                    "isRange": true,
+                    "delay": 0.4,
+                    "formular": {
+                        "c": 300
+                    }
                 }
             ],
-            "action": [
+            "targetSelection": {
+                "pool": "objects",
+                "filter": [
+                    {
+                        "type": "same-block"
+                    },
+                    {
+                        "type": "same-faction",
+                        "faction": "hero"
+                    },
+                    {
+                        "type": "alive"
+                    },
+                    {
+                        "type": "visible"
+                    }
+                ]
+            },
+            "availableCondition": [
                 {
-                    "type": "installSpell",
-                    "spell": 350
+                    "type": "effectCount",
+                    "count": 1
                 }
             ]
         }
     },
     {
         "skillId": 350,
+        "label": "恶灵护体",
         "config": {
+            "basic": {
+                "spellAction": "elht"
+            },
+            "targetSelection": {
+                "pool": "self"
+            },
+            "triggerCondition": [
+                {
+                    "type": "property",
+                    "property": "health",
+                    "to": 1500
+                },
+                {
+                    "type": "event",
+                    "event": "onBattleTurnEnd"
+                },
+                {
+                    "type": "myMutex",
+                    "mutex": "Ahriman"
+                }
+            ],
+            "action": [
+                {
+                    "type": "setMyMutex",
+                    "mutex": "Ahriman",
+                    "count": 9999
+                },
+                {
+                    "type": "installSpell",
+                    "spell": 351
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 351,
+        "config": {
+            "basic": {
+                "buffEffect": 82
+            },
             "installAction": [
                 {
                     "type": "setProperty",
-                    "#modifications": {
+                    "modifications": {
                         "attack": {
                             "src": {
                                 "attack": 1
                             }
                         }
                     }
-                },
-                {
-                    "type": "heal",
-                    "formular": {
-                        "c": 300
-                    }
-                }
-            ],
-            "uninstallAction": [
-                {
-                    "type": "resetProperty"
                 }
             ],
             "buffType": "AttackBuff",
             "availableCondition": [
                 {
                     "type": "event",
-                    "event": "onEndBattleTurn",
-                    "eventCount": 3
+                    "event": "onTurnEnd",
+                    "eventCount": 9999
+                }
+            ],
+            "triggerCondition": [
+                {
+                    "type": "event",
+                    "event": "onTurnEnd",
+                    "eventCount": 1
+                }
+            ],
+            "targetSelection": {
+                "pool": "self"
+            },
+            "action": [
+                {
+                    "type": "heal",
+                    "formular": {
+                        "c": 300
+                    }
+                },
+                {
+                    "type": "playEffect",
+                    "effect": 48,
+                    "pos": "self"
                 }
             ]
         }
-    },
+    }
 ]
 

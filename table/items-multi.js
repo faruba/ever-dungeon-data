@@ -27982,7 +27982,7 @@ exports.data = [
         "classId": 879,
         "label": "勇者战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "赐予勇敢的战士敏捷动作的战靴",
         "effectf": [
             {
@@ -28029,7 +28029,7 @@ exports.data = [
         "classId": 880,
         "label": "勇者战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "赐予勇敢的战士敏捷动作的战靴",
         "effectf": [
             {
@@ -28078,7 +28078,7 @@ exports.data = [
         "classId": 881,
         "label": "勇者战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "赐予勇敢的战士敏捷动作的战靴",
         "effectf": [
             {
@@ -28127,7 +28127,7 @@ exports.data = [
         "classId": 882,
         "label": "勇者战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "赐予勇敢的战士敏捷动作的战靴",
         "effectf": [
             {
@@ -28176,7 +28176,7 @@ exports.data = [
         "classId": 883,
         "label": "勇者战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "赐予勇敢的战士敏捷动作的战靴",
         "effectf": [
             {
@@ -28225,7 +28225,7 @@ exports.data = [
         "classId": 884,
         "label": "勇者战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "赐予勇敢的战士敏捷动作的战靴",
         "effectf": [
             {
@@ -28273,7 +28273,7 @@ exports.data = [
         "classId": 885,
         "label": "角斗士战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "沉重的铁靴，角斗士们的最爱",
         "effectf": [
             {
@@ -28320,7 +28320,7 @@ exports.data = [
         "classId": 886,
         "label": "角斗士战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "沉重的铁靴，角斗士们的最爱",
         "effectf": [
             {
@@ -28369,7 +28369,7 @@ exports.data = [
         "classId": 887,
         "label": "角斗士战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "沉重的铁靴，角斗士们的最爱",
         "effectf": [
             {
@@ -28418,7 +28418,7 @@ exports.data = [
         "classId": 888,
         "label": "角斗士战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "沉重的铁靴，角斗士们的最爱",
         "effectf": [
             {
@@ -28467,7 +28467,7 @@ exports.data = [
         "classId": 889,
         "label": "角斗士战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "沉重的铁靴，角斗士们的最爱",
         "effectf": [
             {
@@ -28516,7 +28516,7 @@ exports.data = [
         "classId": 890,
         "label": "角斗士战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "沉重的铁靴，角斗士们的最爱",
         "effectf": [
             {
@@ -28564,7 +28564,7 @@ exports.data = [
         "classId": 891,
         "label": "深渊战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
             "description": "工艺精良，设计华丽，且不失实用",
         "effectf": [
             {
@@ -28611,7 +28611,7 @@ exports.data = [
         "classId": 892,
         "label": "深渊战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "工艺精良，设计华丽，且不失实用",
         "effectf": [
             {
@@ -28660,7 +28660,7 @@ exports.data = [
         "classId": 893,
         "label": "深渊战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "工艺精良，设计华丽，且不失实用",
         "effectf": [
             {
@@ -28709,7 +28709,7 @@ exports.data = [
         "classId": 894,
         "label": "深渊战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "工艺精良，设计华丽，且不失实用",
         "effectf": [
             {
@@ -28758,7 +28758,7 @@ exports.data = [
         "classId": 895,
         "label": "深渊战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "工艺精良，设计华丽，且不失实用",
         "effectf": [
             {
@@ -28807,7 +28807,7 @@ exports.data = [
         "classId": 896,
         "label": "深渊战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "工艺精良，设计华丽，且不失实用",
         "effectf": [
             {
@@ -28855,7 +28855,7 @@ exports.data = [
         "classId": 897,
         "label": "屠龙者战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "穿上它，才能拥有与巨龙相抗衡的速度",
         "effectf": [
             {
@@ -28902,7 +28902,7 @@ exports.data = [
         "classId": 898,
         "label": "屠龙者战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "穿上它，才能拥有与巨龙相抗衡的速度",
         "effectf": [
             {
@@ -28951,7 +28951,7 @@ exports.data = [
         "classId": 899,
         "label": "屠龙者战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "穿上它，才能拥有与巨龙相抗衡的速度",
         "effectf": [
             {
@@ -29000,7 +29000,7 @@ exports.data = [
         "classId": 900,
         "label": "屠龙者战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "穿上它，才能拥有与巨龙相抗衡的速度",
         "effectf": [
             {
@@ -29049,7 +29049,7 @@ exports.data = [
         "classId": 901,
         "label": "屠龙者战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "穿上它，才能拥有与巨龙相抗衡的速度",
         "effectf": [
             {
@@ -29098,7 +29098,7 @@ exports.data = [
         "classId": 902,
         "label": "屠龙者战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "穿上它，才能拥有与巨龙相抗衡的速度",
         "effectf": [
             {
@@ -29146,7 +29146,7 @@ exports.data = [
         "classId": 903,
         "label": "凯旋之翼战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "战争女神赐予的战靴，能带来胜利",
         "effectf": [
             {
@@ -29193,7 +29193,7 @@ exports.data = [
         "classId": 904,
         "label": "凯旋之翼战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "战争女神赐予的战靴，能带来胜利",
         "effectf": [
             {
@@ -29240,7 +29240,7 @@ exports.data = [
         "classId": 905,
         "label": "凯旋之翼战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "战争女神赐予的战靴，能带来胜利",
         "effectf": [
             {
@@ -29287,7 +29287,7 @@ exports.data = [
         "classId": 906,
         "label": "凯旋之翼战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "战争女神赐予的战靴，能带来胜利",
         "effectf": [
             {
@@ -29334,7 +29334,7 @@ exports.data = [
         "classId": 907,
         "label": "凯旋之翼战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "战争女神赐予的战靴，能带来胜利",
         "effectf": [
             {
@@ -29381,7 +29381,7 @@ exports.data = [
         "classId": 908,
         "label": "凯旋之翼战靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "战争女神赐予的战靴，能带来胜利",
         "effectf": [
             {
@@ -29426,7 +29426,7 @@ exports.data = [
         "classId": 909,
         "label": "勇者战甲",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "被世人所认可的勇者穿戴的铠甲",
         "effectf": [
             {
@@ -29444,14 +29444,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn5-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -29470,14 +29462,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn5-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -29505,7 +29489,7 @@ exports.data = [
         "classId": 910,
         "label": "勇者战甲",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "被世人所认可的勇者穿戴的铠甲",
         "effectf": [
             {
@@ -29523,14 +29507,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn5-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -29549,14 +29525,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn5-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -29586,7 +29554,7 @@ exports.data = [
         "classId": 911,
         "label": "勇者战甲",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "被世人所认可的勇者穿戴的铠甲",
         "effectf": [
             {
@@ -29604,14 +29572,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn5-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -29630,14 +29590,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn5-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -29667,7 +29619,7 @@ exports.data = [
         "classId": 912,
         "label": "勇者战甲",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "被世人所认可的勇者穿戴的铠甲",
         "effectf": [
             {
@@ -29685,14 +29637,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn5-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -29711,14 +29655,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn5-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -29748,7 +29684,7 @@ exports.data = [
         "classId": 913,
         "label": "勇者战甲",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "被世人所认可的勇者穿戴的铠甲",
         "effectf": [
             {
@@ -29766,14 +29702,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn5-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -29792,14 +29720,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn5-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -29829,7 +29749,7 @@ exports.data = [
         "classId": 914,
         "label": "勇者战甲",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "被世人所认可的勇者穿戴的铠甲",
         "effectf": [
             {
@@ -29847,14 +29767,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn5-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -29873,14 +29785,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn5-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -29909,7 +29813,7 @@ exports.data = [
         "classId": 915,
         "label": "角斗士战甲",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "厚重的战甲，在战场上角斗士们的生存保障",
         "effectf": [
             {
@@ -29927,14 +29831,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn4-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -29953,14 +29849,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn4-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -29988,7 +29876,7 @@ exports.data = [
         "classId": 916,
         "label": "角斗士战甲",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "厚重的战甲，在战场上角斗士们的生存保障",
         "effectf": [
             {
@@ -30006,14 +29894,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn4-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30032,14 +29912,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn4-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30069,7 +29941,7 @@ exports.data = [
         "classId": 917,
         "label": "角斗士战甲",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "厚重的战甲，在战场上角斗士们的生存保障",
         "effectf": [
             {
@@ -30087,14 +29959,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn4-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30113,14 +29977,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn4-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30150,7 +30006,7 @@ exports.data = [
         "classId": 918,
         "label": "角斗士战甲",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "厚重的战甲，在战场上角斗士们的生存保障",
         "effectf": [
             {
@@ -30168,14 +30024,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn4-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30194,14 +30042,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn4-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30231,7 +30071,7 @@ exports.data = [
         "classId": 919,
         "label": "角斗士战甲",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "厚重的战甲，在战场上角斗士们的生存保障",
         "effectf": [
             {
@@ -30249,14 +30089,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn4-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30275,14 +30107,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn4-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30312,7 +30136,7 @@ exports.data = [
         "classId": 920,
         "label": "角斗士战甲",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "厚重的战甲，在战场上角斗士们的生存保障",
         "effectf": [
             {
@@ -30330,14 +30154,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn4-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30356,14 +30172,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn4-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30392,7 +30200,7 @@ exports.data = [
         "classId": 921,
         "label": "深渊战铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "未知的深渊材料打造，质量优异，可以应对各种战斗",
         "effectf": [
             {
@@ -30410,14 +30218,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn3-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30436,14 +30236,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn3-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30471,7 +30263,7 @@ exports.data = [
         "classId": 922,
         "label": "深渊战铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "未知的深渊材料打造，质量优异，可以应对各种战斗",
         "effectf": [
             {
@@ -30489,14 +30281,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn3-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30515,14 +30299,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn3-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30552,7 +30328,7 @@ exports.data = [
         "classId": 923,
         "label": "深渊战铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "未知的深渊材料打造，质量优异，可以应对各种战斗",
         "effectf": [
             {
@@ -30570,14 +30346,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn3-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30596,14 +30364,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn3-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30633,7 +30393,7 @@ exports.data = [
         "classId": 924,
         "label": "深渊战铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "未知的深渊材料打造，质量优异，可以应对各种战斗",
         "effectf": [
             {
@@ -30651,14 +30411,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn3-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30677,14 +30429,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn3-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30714,7 +30458,7 @@ exports.data = [
         "classId": 925,
         "label": "深渊战铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "未知的深渊材料打造，质量优异，可以应对各种战斗",
         "effectf": [
             {
@@ -30732,14 +30476,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn3-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30758,14 +30494,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn3-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30795,7 +30523,7 @@ exports.data = [
         "classId": 926,
         "label": "深渊战铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "未知的深渊材料打造，质量优异，可以应对各种战斗",
         "effectf": [
             {
@@ -30813,14 +30541,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn3-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30839,14 +30559,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn3-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30875,7 +30587,7 @@ exports.data = [
         "classId": 927,
         "label": "屠龙者战铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "威武非凡，屠龙者的身份证明",
         "effectf": [
             {
@@ -30893,14 +30605,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn2-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30919,14 +30623,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30954,7 +30650,7 @@ exports.data = [
         "classId": 928,
         "label": "屠龙者战铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "威武非凡，屠龙者的身份证明",
         "effectf": [
             {
@@ -30972,14 +30668,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn2-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30998,14 +30686,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31035,7 +30715,7 @@ exports.data = [
         "classId": 929,
         "label": "屠龙者战铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "威武非凡，屠龙者的身份证明",
         "effectf": [
             {
@@ -31053,14 +30733,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn2-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31079,14 +30751,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31116,7 +30780,7 @@ exports.data = [
         "classId": 930,
         "label": "屠龙者战铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "威武非凡，屠龙者的身份证明",
         "effectf": [
             {
@@ -31134,14 +30798,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn2-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31160,14 +30816,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31197,7 +30845,7 @@ exports.data = [
         "classId": 931,
         "label": "屠龙者战铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "威武非凡，屠龙者的身份证明",
         "effectf": [
             {
@@ -31215,14 +30863,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn2-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31241,14 +30881,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31278,7 +30910,7 @@ exports.data = [
         "classId": 932,
         "label": "屠龙者战铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "威武非凡，屠龙者的身份证明",
         "effectf": [
             {
@@ -31296,14 +30928,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn2-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31322,14 +30946,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31358,7 +30974,7 @@ exports.data = [
         "classId": 933,
         "label": "凯旋之翼圣铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "荣耀的光辉凝聚而成的神圣铠甲",
         "effectf": [
             {
@@ -31376,14 +30992,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31402,14 +31010,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31437,7 +31037,7 @@ exports.data = [
         "classId": 934,
         "label": "凯旋之翼圣铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "荣耀的光辉凝聚而成的神圣铠甲",
         "effectf": [
             {
@@ -31455,14 +31055,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31481,14 +31073,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31516,7 +31100,7 @@ exports.data = [
         "classId": 935,
         "label": "凯旋之翼圣铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "荣耀的光辉凝聚而成的神圣铠甲",
         "effectf": [
             {
@@ -31534,14 +31118,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31560,14 +31136,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31595,7 +31163,7 @@ exports.data = [
         "classId": 936,
         "label": "凯旋之翼圣铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "荣耀的光辉凝聚而成的神圣铠甲",
         "effectf": [
             {
@@ -31613,14 +31181,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31639,14 +31199,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31674,7 +31226,7 @@ exports.data = [
         "classId": 937,
         "label": "凯旋之翼圣铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "荣耀的光辉凝聚而成的神圣铠甲",
         "effectf": [
             {
@@ -31692,14 +31244,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31718,14 +31262,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31753,7 +31289,7 @@ exports.data = [
         "classId": 938,
         "label": "凯旋之翼圣铠",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "荣耀的光辉凝聚而成的神圣铠甲",
         "effectf": [
             {
@@ -31771,14 +31307,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31797,14 +31325,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31830,7 +31350,7 @@ exports.data = [
         "classId": 939,
         "label": "勇士利斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "只有勇敢的战士才能挥舞的斧头",
         "effectf": [
             {
@@ -31875,7 +31395,7 @@ exports.data = [
         "classId": 940,
         "label": "勇士利斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "只有勇敢的战士才能挥舞的斧头",
         "effectf": [
             {
@@ -31922,7 +31442,7 @@ exports.data = [
         "classId": 941,
         "label": "勇士利斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "只有勇敢的战士才能挥舞的斧头",
         "effectf": [
             {
@@ -31969,7 +31489,7 @@ exports.data = [
         "classId": 942,
         "label": "勇士利斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "只有勇敢的战士才能挥舞的斧头",
         "effectf": [
             {
@@ -32016,7 +31536,7 @@ exports.data = [
         "classId": 943,
         "label": "勇士利斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "只有勇敢的战士才能挥舞的斧头",
         "effectf": [
             {
@@ -32063,7 +31583,7 @@ exports.data = [
         "classId": 944,
         "label": "勇士利斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "只有勇敢的战士才能挥舞的斧头",
         "effectf": [
             {
@@ -32109,7 +31629,7 @@ exports.data = [
         "classId": 945,
         "label": "角斗士巨斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "挥舞起来，能撕碎敌人",
         "effectf": [
             {
@@ -32154,7 +31674,7 @@ exports.data = [
         "classId": 946,
         "label": "角斗士巨斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "挥舞起来，能撕碎敌人",
         "effectf": [
             {
@@ -32201,7 +31721,7 @@ exports.data = [
         "classId": 947,
         "label": "角斗士巨斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "挥舞起来，能撕碎敌人",
         "effectf": [
             {
@@ -32248,7 +31768,7 @@ exports.data = [
         "classId": 948,
         "label": "角斗士巨斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "挥舞起来，能撕碎敌人",
         "effectf": [
             {
@@ -32295,7 +31815,7 @@ exports.data = [
         "classId": 949,
         "label": "角斗士巨斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "挥舞起来，能撕碎敌人",
         "effectf": [
             {
@@ -32342,7 +31862,7 @@ exports.data = [
         "classId": 950,
         "label": "角斗士巨斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "挥舞起来，能撕碎敌人",
         "effectf": [
             {
@@ -32388,7 +31908,7 @@ exports.data = [
         "classId": 951,
         "label": "深渊之镰",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "收割生命的利器",
         "effectf": [
             {
@@ -32433,7 +31953,7 @@ exports.data = [
         "classId": 952,
         "label": "深渊之镰",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "收割生命的利器",
         "effectf": [
             {
@@ -32480,7 +32000,7 @@ exports.data = [
         "classId": 953,
         "label": "深渊之镰",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "收割生命的利器",
         "effectf": [
             {
@@ -32527,7 +32047,7 @@ exports.data = [
         "classId": 954,
         "label": "深渊之镰",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "收割生命的利器",
         "effectf": [
             {
@@ -32574,7 +32094,7 @@ exports.data = [
         "classId": 955,
         "label": "深渊之镰",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "收割生命的利器",
         "effectf": [
             {
@@ -32621,7 +32141,7 @@ exports.data = [
         "classId": 956,
         "label": "深渊之镰",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "收割生命的利器",
         "effectf": [
             {
@@ -32667,7 +32187,7 @@ exports.data = [
         "classId": 957,
         "label": "屠龙巨斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "令巨龙都感到害怕的恐怖巨斧",
         "effectf": [
             {
@@ -32712,7 +32232,7 @@ exports.data = [
         "classId": 958,
         "label": "屠龙巨斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "令巨龙都感到害怕的恐怖巨斧",
         "effectf": [
             {
@@ -32759,7 +32279,7 @@ exports.data = [
         "classId": 959,
         "label": "屠龙巨斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "令巨龙都感到害怕的恐怖巨斧",
         "effectf": [
             {
@@ -32806,7 +32326,7 @@ exports.data = [
         "classId": 960,
         "label": "屠龙巨斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "令巨龙都感到害怕的恐怖巨斧",
         "effectf": [
             {
@@ -32853,7 +32373,7 @@ exports.data = [
         "classId": 961,
         "label": "屠龙巨斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "令巨龙都感到害怕的恐怖巨斧",
         "effectf": [
             {
@@ -32900,7 +32420,7 @@ exports.data = [
         "classId": 962,
         "label": "屠龙巨斧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "令巨龙都感到害怕的恐怖巨斧",
         "effectf": [
             {
@@ -32946,7 +32466,7 @@ exports.data = [
         "classId": 963,
         "label": "战争撕裂者",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "充满毁灭气息的杀戮工具",
         "effectf": [
             {
@@ -32991,7 +32511,7 @@ exports.data = [
         "classId": 964,
         "label": "战争撕裂者",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "充满毁灭气息的杀戮工具",
         "effectf": [
             {
@@ -33036,7 +32556,7 @@ exports.data = [
         "classId": 965,
         "label": "战争撕裂者",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "充满毁灭气息的杀戮工具",
         "effectf": [
             {
@@ -33081,7 +32601,7 @@ exports.data = [
         "classId": 966,
         "label": "战争撕裂者",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "充满毁灭气息的杀戮工具",
         "effectf": [
             {
@@ -33126,7 +32646,7 @@ exports.data = [
         "classId": 967,
         "label": "战争撕裂者",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "充满毁灭气息的杀戮工具",
         "effectf": [
             {
@@ -33171,7 +32691,7 @@ exports.data = [
         "classId": 968,
         "label": "战争撕裂者",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "充满毁灭气息的杀戮工具",
         "effectf": [
             {
@@ -33214,7 +32734,7 @@ exports.data = [
         "classId": 969,
         "label": "勇者大剑",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "拥有他，会获得勇往直前的力量",
         "effectf": [
             {
@@ -33254,7 +32774,7 @@ exports.data = [
         "classId": 970,
         "label": "勇者大剑",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "拥有他，会获得勇往直前的力量",
         "effectf": [
             {
@@ -33296,7 +32816,7 @@ exports.data = [
         "classId": 971,
         "label": "勇者大剑",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "拥有他，会获得勇往直前的力量",
         "effectf": [
             {
@@ -33338,7 +32858,7 @@ exports.data = [
         "classId": 972,
         "label": "勇者大剑",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "拥有他，会获得勇往直前的力量",
         "effectf": [
             {
@@ -33380,7 +32900,7 @@ exports.data = [
         "classId": 973,
         "label": "勇者大剑",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "拥有他，会获得勇往直前的力量",
         "effectf": [
             {
@@ -33422,7 +32942,7 @@ exports.data = [
         "classId": 974,
         "label": "勇者大剑",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "拥有他，会获得勇往直前的力量",
         "effectf": [
             {
@@ -33463,7 +32983,7 @@ exports.data = [
         "classId": 975,
         "label": "角斗士大剑",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "角斗士不可缺少的利器，能斩破一切阻碍",
         "effectf": [
             {
@@ -33503,7 +33023,7 @@ exports.data = [
         "classId": 976,
         "label": "角斗士大剑",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "角斗士不可缺少的利器，能斩破一切阻碍",
         "effectf": [
             {
@@ -33545,7 +33065,7 @@ exports.data = [
         "classId": 977,
         "label": "角斗士大剑",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "角斗士不可缺少的利器，能斩破一切阻碍",
         "effectf": [
             {
@@ -33587,7 +33107,7 @@ exports.data = [
         "classId": 978,
         "label": "角斗士大剑",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "角斗士不可缺少的利器，能斩破一切阻碍",
         "effectf": [
             {
@@ -33629,7 +33149,7 @@ exports.data = [
         "classId": 979,
         "label": "角斗士大剑",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "角斗士不可缺少的利器，能斩破一切阻碍",
         "effectf": [
             {
@@ -33671,7 +33191,7 @@ exports.data = [
         "classId": 980,
         "label": "角斗士大剑",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "角斗士不可缺少的利器，能斩破一切阻碍",
         "effectf": [
             {
@@ -33712,7 +33232,7 @@ exports.data = [
         "classId": 981,
         "label": "深渊之刃",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "一击之下，将敌人打进无尽深渊",
         "effectf": [
             {
@@ -33752,7 +33272,7 @@ exports.data = [
         "classId": 982,
         "label": "深渊之刃",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "一击之下，将敌人打进无尽深渊",
         "effectf": [
             {
@@ -33794,7 +33314,7 @@ exports.data = [
         "classId": 983,
         "label": "深渊之刃",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "一击之下，将敌人打进无尽深渊",
         "effectf": [
             {
@@ -33836,7 +33356,7 @@ exports.data = [
         "classId": 984,
         "label": "深渊之刃",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "一击之下，将敌人打进无尽深渊",
         "effectf": [
             {
@@ -33878,7 +33398,7 @@ exports.data = [
         "classId": 985,
         "label": "深渊之刃",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "一击之下，将敌人打进无尽深渊",
         "effectf": [
             {
@@ -33920,7 +33440,7 @@ exports.data = [
         "classId": 986,
         "label": "深渊之刃",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "一击之下，将敌人打进无尽深渊",
         "effectf": [
             {
@@ -33961,7 +33481,7 @@ exports.data = [
         "classId": 987,
         "label": "屠龙之刃",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "锋利至极，能轻易刺破龙鳞",
         "effectf": [
             {
@@ -34001,7 +33521,7 @@ exports.data = [
         "classId": 988,
         "label": "屠龙之刃",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "锋利至极，能轻易刺破龙鳞",
         "effectf": [
             {
@@ -34043,7 +33563,7 @@ exports.data = [
         "classId": 989,
         "label": "屠龙之刃",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "锋利至极，能轻易刺破龙鳞",
         "effectf": [
             {
@@ -34085,7 +33605,7 @@ exports.data = [
         "classId": 990,
         "label": "屠龙之刃",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "锋利至极，能轻易刺破龙鳞",
         "effectf": [
             {
@@ -34127,7 +33647,7 @@ exports.data = [
         "classId": 991,
         "label": "屠龙之刃",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "锋利至极，能轻易刺破龙鳞",
         "effectf": [
             {
@@ -34169,7 +33689,7 @@ exports.data = [
         "classId": 992,
         "label": "屠龙之刃",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "锋利至极，能轻易刺破龙鳞",
         "effectf": [
             {
@@ -34210,7 +33730,7 @@ exports.data = [
         "classId": 993,
         "label": "阿瑞斯之力",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "附有传说中战神力量的神器",
         "effectf": [
             {
@@ -34250,7 +33770,7 @@ exports.data = [
         "classId": 994,
         "label": "阿瑞斯之力",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "附有传说中战神力量的神器",
         "effectf": [
             {
@@ -34290,7 +33810,7 @@ exports.data = [
         "classId": 995,
         "label": "阿瑞斯之力",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "附有传说中战神力量的神器",
         "effectf": [
             {
@@ -34330,7 +33850,7 @@ exports.data = [
         "classId": 996,
         "label": "阿瑞斯之力",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "附有传说中战神力量的神器",
         "effectf": [
             {
@@ -34370,7 +33890,7 @@ exports.data = [
         "classId": 997,
         "label": "阿瑞斯之力",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "附有传说中战神力量的神器",
         "effectf": [
             {
@@ -34410,7 +33930,7 @@ exports.data = [
         "classId": 998,
         "label": "阿瑞斯之力",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "附有传说中战神力量的神器",
         "effectf": [
             {
@@ -35290,11 +34810,30 @@ exports.data = [
     },
     {
         "classId": 1029,
-        "label": "勇者之心",
-        "icon": "ewn011.png",
+        "label": "勇者头盔",
         "category": 1,
-        "subcategory": 5,
-        "description": "为消灭怪物的狂战士带来无穷的勇气",
+        "subcategory": 0,
+        "description": "被世人所认可的勇者穿戴的头盔",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35314,15 +34853,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet5.png",
+        "iconm": "m-w-helmet5.png"
     },
     {
         "classId": 1030,
-        "label": "勇者之心",
-        "icon": "ewn011.png",
+        "label": "勇者头盔",
         "category": 1,
-        "subcategory": 5,
-        "description": "为消灭怪物的狂战士带来无穷的勇气",
+        "subcategory": 0,
+        "description": "被世人所认可的勇者穿戴的头盔",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35344,15 +34904,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 49,
-        "forgeTarget": 1035
+        "forgeTarget": 1035,
+        "iconf": "f-w-helmet5.png",
+        "iconm": "m-w-helmet5.png"
     },
     {
         "classId": 1031,
-        "label": "勇者之心",
-        "icon": "ewn011.png",
+        "label": "勇者头盔",
         "category": 1,
-        "subcategory": 5,
-        "description": "为消灭怪物的狂战士带来无穷的勇气",
+        "subcategory": 0,
+        "description": "被世人所认可的勇者穿戴的头盔",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35374,15 +34955,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 49,
-        "forgeTarget": 1036
+        "forgeTarget": 1036,
+        "iconf": "f-w-helmet5.png",
+        "iconm": "m-w-helmet5.png"
     },
     {
         "classId": 1032,
-        "label": "勇者之心",
-        "icon": "ewn011.png",
+        "label": "勇者头盔",
         "category": 1,
-        "subcategory": 5,
-        "description": "为消灭怪物的狂战士带来无穷的勇气",
+        "subcategory": 0,
+        "description": "被世人所认可的勇者穿戴的头盔",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35404,15 +35006,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 49,
-        "forgeTarget": 1037
+        "forgeTarget": 1037,
+        "iconf": "f-w-helmet5.png",
+        "iconm": "m-w-helmet5.png"
     },
     {
         "classId": 1033,
-        "label": "勇者之心",
-        "icon": "ewn011.png",
+        "label": "勇者头盔",
         "category": 1,
-        "subcategory": 5,
-        "description": "为消灭怪物的狂战士带来无穷的勇气",
+        "subcategory": 0,
+        "description": "被世人所认可的勇者穿戴的头盔",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35434,15 +35057,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 49,
-        "forgeTarget": 1038
+        "forgeTarget": 1038,
+        "iconf": "f-w-helmet5.png",
+        "iconm": "m-w-helmet5.png"
     },
     {
         "classId": 1034,
-        "label": "勇者之心",
-        "icon": "ewn011.png",
+        "label": "勇者头盔",
         "category": 1,
-        "subcategory": 5,
-        "description": "为消灭怪物的狂战士带来无穷的勇气",
+        "subcategory": 0,
+        "description": "被世人所认可的勇者穿戴的头盔",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35463,15 +35107,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 49,
-        "forgeTarget": 1039
+        "forgeTarget": 1039,
+        "iconf": "f-w-helmet5.png",
+        "iconm": "m-w-helmet5.png"
     },
     {
         "classId": 1035,
-        "label": "角斗士之心",
-        "icon": "ewn021.png",
+        "label": "角斗士头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "角斗士的信念和力量的源泉",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35491,15 +35156,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet4.png",
+        "iconm": "m-w-helmet4.png"
     },
     {
         "classId": 1036,
-        "label": "角斗士之心",
-        "icon": "ewn021.png",
+        "label": "角斗士头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "角斗士的信念和力量的源泉",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35521,15 +35207,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 55,
-        "forgeTarget": 1041
+        "forgeTarget": 1041,
+        "iconf": "f-w-helmet4.png",
+        "iconm": "m-w-helmet4.png"
     },
     {
         "classId": 1037,
-        "label": "角斗士之心",
-        "icon": "ewn021.png",
+        "label": "角斗士头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "角斗士的信念和力量的源泉",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35551,15 +35258,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 55,
-        "forgeTarget": 1042
+        "forgeTarget": 1042,
+        "iconf": "f-w-helmet4.png",
+        "iconm": "m-w-helmet4.png"
     },
     {
         "classId": 1038,
-        "label": "角斗士之心",
-        "icon": "ewn021.png",
+        "label": "角斗士头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "角斗士的信念和力量的源泉",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35581,15 +35309,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 55,
-        "forgeTarget": 1043
+        "forgeTarget": 1043,
+        "iconf": "f-w-helmet4.png",
+        "iconm": "m-w-helmet4.png"
     },
     {
         "classId": 1039,
-        "label": "角斗士之心",
-        "icon": "ewn021.png",
+        "label": "角斗士头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "角斗士的信念和力量的源泉",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35611,15 +35360,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 55,
-        "forgeTarget": 1044
+        "forgeTarget": 1044,
+        "iconf": "f-w-helmet4.png",
+        "iconm": "m-w-helmet4.png"
     },
     {
         "classId": 1040,
-        "label": "角斗士之心",
-        "icon": "ewn021.png",
+        "label": "角斗士头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "角斗士的信念和力量的源泉",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35640,15 +35410,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 55,
-        "forgeTarget": 1045
+        "forgeTarget": 1045,
+        "iconf": "f-w-helmet4.png",
+        "iconm": "m-w-helmet4.png"
     },
     {
         "classId": 1041,
-        "label": "深渊之心",
-        "icon": "ewn031.png",
+        "label": "深渊头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "没有人可以挣脱深渊的引力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35668,15 +35459,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet3.png",
+        "iconm": "m-w-helmet3.png"
     },
     {
         "classId": 1042,
-        "label": "深渊之心",
-        "icon": "ewn031.png",
+        "label": "深渊头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "没有人可以挣脱深渊的引力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35698,15 +35510,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 61,
-        "forgeTarget": 1047
+        "forgeTarget": 1047,
+        "iconf": "f-w-helmet3.png",
+        "iconm": "m-w-helmet3.png"
     },
     {
         "classId": 1043,
-        "label": "深渊之心",
-        "icon": "ewn031.png",
+        "label": "深渊头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "没有人可以挣脱深渊的引力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35728,15 +35561,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 61,
-        "forgeTarget": 1048
+        "forgeTarget": 1048,
+        "iconf": "f-w-helmet3.png",
+        "iconm": "m-w-helmet3.png"
     },
     {
         "classId": 1044,
-        "label": "深渊之心",
-        "icon": "ewn031.png",
+        "label": "深渊头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "没有人可以挣脱深渊的引力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35758,15 +35612,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 61,
-        "forgeTarget": 1049
+        "forgeTarget": 1049,
+        "iconf": "f-w-helmet3.png",
+        "iconm": "m-w-helmet3.png"
     },
     {
         "classId": 1045,
-        "label": "深渊之心",
-        "icon": "ewn031.png",
+        "label": "深渊头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "没有人可以挣脱深渊的引力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35788,15 +35663,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 61,
-        "forgeTarget": 1050
+        "forgeTarget": 1050,
+        "iconf": "f-w-helmet3.png",
+        "iconm": "m-w-helmet3.png"
     },
     {
         "classId": 1046,
-        "label": "深渊之心",
-        "icon": "ewn031.png",
+        "label": "深渊头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "没有人可以挣脱深渊的引力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35817,15 +35713,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 61,
-        "forgeTarget": 1051
+        "forgeTarget": 1051,
+        "iconf": "f-w-helmet3.png",
+        "iconm": "m-w-helmet3.png"
     },
     {
         "classId": 1047,
-        "label": "屠龙之心",
-        "icon": "ewn041.png",
+        "label": "屠龙头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "力量的源泉，屠龙的保障",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35845,15 +35762,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet2.png",
+        "iconm": "m-w-helmet2.png"
     },
     {
         "classId": 1048,
-        "label": "屠龙之心",
-        "icon": "ewn041.png",
+        "label": "屠龙头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "力量的源泉，屠龙的保障",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35875,15 +35813,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 67,
-        "forgeTarget": 1053
+        "forgeTarget": 1053,
+        "iconf": "f-w-helmet2.png",
+        "iconm": "m-w-helmet2.png"
     },
     {
         "classId": 1049,
-        "label": "屠龙之心",
-        "icon": "ewn041.png",
+        "label": "屠龙头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "力量的源泉，屠龙的保障",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35905,15 +35864,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 67,
-        "forgeTarget": 1054
+        "forgeTarget": 1054,
+        "iconf": "f-w-helmet2.png",
+        "iconm": "m-w-helmet2.png"
     },
     {
         "classId": 1050,
-        "label": "屠龙之心",
-        "icon": "ewn041.png",
+        "label": "屠龙头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "力量的源泉，屠龙的保障",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35935,15 +35915,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 67,
-        "forgeTarget": 1055
+        "forgeTarget": 1055,
+        "iconf": "f-w-helmet2.png",
+        "iconm": "m-w-helmet2.png"
     },
     {
         "classId": 1051,
-        "label": "屠龙之心",
-        "icon": "ewn041.png",
+        "label": "屠龙头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "力量的源泉，屠龙的保障",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35965,15 +35966,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 67,
-        "forgeTarget": 1056
+        "forgeTarget": 1056,
+        "iconf": "f-w-helmet2.png",
+        "iconm": "m-w-helmet2.png"
     },
     {
         "classId": 1052,
-        "label": "屠龙之心",
-        "icon": "ewn041.png",
+        "label": "屠龙头盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "力量的源泉，屠龙的保障",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35994,15 +36016,36 @@ exports.data = [
         "enhanceID": 3,
         "hide": true,
         "forgeID": 67,
-        "forgeTarget": 1057
+        "forgeTarget": 1057,
+        "iconf": "f-w-helmet2.png",
+        "iconm": "m-w-helmet2.png"
     },
     {
         "classId": 1053,
-        "label": "阿瑞斯之心",
-        "icon": "ewn041.png",
+        "label": "战神圣盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "戴上它，你就能战神附体了",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -36022,15 +36065,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet1.png",
+        "iconm": "m-w-helmet1.png"
     },
     {
         "classId": 1054,
-        "label": "阿瑞斯之心",
-        "icon": "ewn041.png",
+        "label": "战神圣盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "戴上它，你就能战神附体了",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -36050,15 +36114,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet1.png",
+        "iconm": "m-w-helmet1.png"
     },
     {
         "classId": 1055,
-        "label": "阿瑞斯之心",
-        "icon": "ewn041.png",
+        "label": "战神圣盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "戴上它，你就能战神附体了",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -36078,15 +36163,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet1.png",
+        "iconm": "m-w-helmet1.png"
     },
     {
         "classId": 1056,
-        "label": "阿瑞斯之心",
-        "icon": "ewn041.png",
+        "label": "战神圣盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "戴上它，你就能战神附体了",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -36106,15 +36212,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet1.png",
+        "iconm": "m-w-helmet1.png"
     },
     {
         "classId": 1057,
-        "label": "阿瑞斯之心",
-        "icon": "ewn041.png",
+        "label": "战神圣盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "戴上它，你就能战神附体了",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -36134,15 +36261,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet1.png",
+        "iconm": "m-w-helmet1.png"
     },
     {
         "classId": 1058,
-        "label": "阿瑞斯之心",
-        "icon": "ewn041.png",
+        "label": "战神圣盔",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "戴上它，你就能战神附体了",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -36160,13 +36308,15 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet1.png",
+        "iconm": "m-w-helmet1.png"
     },
     {
         "classId": 1059,
         "label": "奥术长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "带有玄奥气息的长靴",
         "effectf": [
             {
@@ -36214,7 +36364,7 @@ exports.data = [
         "classId": 1060,
         "label": "奥术长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "带有玄奥气息的长靴",
         "effectf": [
             {
@@ -36264,7 +36414,7 @@ exports.data = [
         "classId": 1061,
         "label": "奥术长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "带有玄奥气息的长靴",
         "effectf": [
             {
@@ -36314,7 +36464,7 @@ exports.data = [
         "classId": 1062,
         "label": "奥术长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "带有玄奥气息的长靴",
         "effectf": [
             {
@@ -36364,7 +36514,7 @@ exports.data = [
         "classId": 1063,
         "label": "奥术长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "带有玄奥气息的长靴",
         "effectf": [
             {
@@ -36414,7 +36564,7 @@ exports.data = [
         "classId": 1064,
         "label": "奥术长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "带有玄奥气息的长靴",
         "effectf": [
             {
@@ -36463,7 +36613,7 @@ exports.data = [
         "classId": 1065,
         "label": "燃灵长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "拥有燃烧之力的精致长靴",
         "effectf": [
             {
@@ -36511,7 +36661,7 @@ exports.data = [
         "classId": 1066,
         "label": "燃灵长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "拥有燃烧之力的精致长靴",
         "effectf": [
             {
@@ -36561,7 +36711,7 @@ exports.data = [
         "classId": 1067,
         "label": "燃灵长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "拥有燃烧之力的精致长靴",
         "effectf": [
             {
@@ -36611,7 +36761,7 @@ exports.data = [
         "classId": 1068,
         "label": "燃灵长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "拥有燃烧之力的精致长靴",
         "effectf": [
             {
@@ -36661,7 +36811,7 @@ exports.data = [
         "classId": 1069,
         "label": "燃灵长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "拥有燃烧之力的精致长靴",
         "effectf": [
             {
@@ -36711,7 +36861,7 @@ exports.data = [
         "classId": 1070,
         "label": "燃灵长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "拥有燃烧之力的精致长靴",
         "effectf": [
             {
@@ -36760,7 +36910,7 @@ exports.data = [
         "classId": 1071,
         "label": "湮灭长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "毁灭的象征，魔力暴增",
         "effectf": [
             {
@@ -36808,7 +36958,7 @@ exports.data = [
         "classId": 1072,
         "label": "湮灭长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "毁灭的象征，魔力暴增",
         "effectf": [
             {
@@ -36858,7 +37008,7 @@ exports.data = [
         "classId": 1073,
         "label": "湮灭长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "毁灭的象征，魔力暴增",
         "effectf": [
             {
@@ -36908,7 +37058,7 @@ exports.data = [
         "classId": 1074,
         "label": "湮灭长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "毁灭的象征，魔力暴增",
         "effectf": [
             {
@@ -36958,7 +37108,7 @@ exports.data = [
         "classId": 1075,
         "label": "湮灭长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "毁灭的象征，魔力暴增",
         "effectf": [
             {
@@ -37008,7 +37158,7 @@ exports.data = [
         "classId": 1076,
         "label": "湮灭长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "毁灭的象征，魔力暴增",
         "effectf": [
             {
@@ -37057,7 +37207,7 @@ exports.data = [
         "classId": 1077,
         "label": "落日长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "散发着令人绝望气息的尊贵长靴",
         "effectf": [
             {
@@ -37105,7 +37255,7 @@ exports.data = [
         "classId": 1078,
         "label": "落日长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "散发着令人绝望气息的尊贵长靴",
         "effectf": [
             {
@@ -37155,7 +37305,7 @@ exports.data = [
         "classId": 1079,
         "label": "落日长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "散发着令人绝望气息的尊贵长靴",
         "effectf": [
             {
@@ -37205,7 +37355,7 @@ exports.data = [
         "classId": 1080,
         "label": "落日长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "散发着令人绝望气息的尊贵长靴",
         "effectf": [
             {
@@ -37255,7 +37405,7 @@ exports.data = [
         "classId": 1081,
         "label": "落日长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "散发着令人绝望气息的尊贵长靴",
         "effectf": [
             {
@@ -37305,7 +37455,7 @@ exports.data = [
         "classId": 1082,
         "label": "落日长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "散发着令人绝望气息的尊贵长靴",
         "effectf": [
             {
@@ -37354,7 +37504,7 @@ exports.data = [
         "classId": 1083,
         "label": "缚龙长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "巨龙环绕着这双长靴，汹涌磅礴的魔力令人目不能视",
         "effectf": [
             {
@@ -37402,7 +37552,7 @@ exports.data = [
         "classId": 1084,
         "label": "缚龙长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "巨龙环绕着这双长靴，汹涌磅礴的魔力令人目不能视",
         "effectf": [
             {
@@ -37450,7 +37600,7 @@ exports.data = [
         "classId": 1085,
         "label": "缚龙长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "巨龙环绕着这双长靴，汹涌磅礴的魔力令人目不能视",
         "effectf": [
             {
@@ -37498,7 +37648,7 @@ exports.data = [
         "classId": 1086,
         "label": "缚龙长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "巨龙环绕着这双长靴，汹涌磅礴的魔力令人目不能视",
         "effectf": [
             {
@@ -37546,7 +37696,7 @@ exports.data = [
         "classId": 1087,
         "label": "缚龙长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "巨龙环绕着这双长靴，汹涌磅礴的魔力令人目不能视",
         "effectf": [
             {
@@ -37594,7 +37744,7 @@ exports.data = [
         "classId": 1088,
         "label": "缚龙长靴",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "巨龙环绕着这双长靴，汹涌磅礴的魔力令人目不能视",
         "effectf": [
             {
@@ -37640,7 +37790,7 @@ exports.data = [
         "classId": 1089,
         "label": "奥术法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "尊贵的魔导师身份的象征",
         "effectf": [
             {
@@ -37658,14 +37808,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen5-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -37684,14 +37826,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen5-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -37719,7 +37853,7 @@ exports.data = [
         "classId": 1090,
         "label": "奥术法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "尊贵的魔导师身份的象征",
         "effectf": [
             {
@@ -37737,14 +37871,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen5-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -37763,14 +37889,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen5-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -37800,7 +37918,7 @@ exports.data = [
         "classId": 1091,
         "label": "奥术法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "尊贵的魔导师身份的象征",
         "effectf": [
             {
@@ -37818,14 +37936,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen5-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -37844,14 +37954,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen5-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -37881,7 +37983,7 @@ exports.data = [
         "classId": 1092,
         "label": "奥术法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "尊贵的魔导师身份的象征",
         "effectf": [
             {
@@ -37899,14 +38001,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen5-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -37925,14 +38019,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen5-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -37962,7 +38048,7 @@ exports.data = [
         "classId": 1093,
         "label": "奥术法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "尊贵的魔导师身份的象征",
         "effectf": [
             {
@@ -37980,14 +38066,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen5-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38006,14 +38084,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen5-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38043,7 +38113,7 @@ exports.data = [
         "classId": 1094,
         "label": "奥术法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "尊贵的魔导师身份的象征",
         "effectf": [
             {
@@ -38061,14 +38131,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen5-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38087,14 +38149,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen5-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38123,7 +38177,7 @@ exports.data = [
         "classId": 1095,
         "label": "燃灵法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "能让人感受到炽热气息的法袍",
         "effectf": [
             {
@@ -38141,14 +38195,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen4-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38167,14 +38213,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen4-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38202,7 +38240,7 @@ exports.data = [
         "classId": 1096,
         "label": "燃灵法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "能让人感受到炽热气息的法袍",
         "effectf": [
             {
@@ -38220,14 +38258,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen4-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38246,14 +38276,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen4-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38283,7 +38305,7 @@ exports.data = [
         "classId": 1097,
         "label": "燃灵法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "能让人感受到炽热气息的法袍",
         "effectf": [
             {
@@ -38301,14 +38323,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen4-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38327,14 +38341,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen4-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38364,7 +38370,7 @@ exports.data = [
         "classId": 1098,
         "label": "燃灵法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "能让人感受到炽热气息的法袍",
         "effectf": [
             {
@@ -38382,14 +38388,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen4-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38408,14 +38406,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen4-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38445,7 +38435,7 @@ exports.data = [
         "classId": 1099,
         "label": "燃灵法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "能让人感受到炽热气息的法袍",
         "effectf": [
             {
@@ -38463,14 +38453,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen4-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38489,14 +38471,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen4-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38526,7 +38500,7 @@ exports.data = [
         "classId": 1100,
         "label": "燃灵法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "能让人感受到炽热气息的法袍",
         "effectf": [
             {
@@ -38544,14 +38518,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen4-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38570,14 +38536,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen4-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38606,7 +38564,7 @@ exports.data = [
         "classId": 1101,
         "label": "湮灭法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "采用冥界材料制造而成的法袍,毁灭是它的主题",
         "effectf": [
             {
@@ -38624,14 +38582,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen3-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38650,14 +38600,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen3-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38685,7 +38627,7 @@ exports.data = [
         "classId": 1102,
         "label": "湮灭法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "采用冥界材料制造而成的法袍,毁灭是它的主题",
         "effectf": [
             {
@@ -38703,14 +38645,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen3-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38729,14 +38663,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen3-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38766,7 +38692,7 @@ exports.data = [
         "classId": 1103,
         "label": "湮灭法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "采用冥界材料制造而成的法袍,毁灭是它的主题",
         "effectf": [
             {
@@ -38784,14 +38710,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen3-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38810,14 +38728,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen3-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38847,7 +38757,7 @@ exports.data = [
         "classId": 1104,
         "label": "湮灭法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "采用冥界材料制造而成的法袍,毁灭是它的主题",
         "effectf": [
             {
@@ -38865,14 +38775,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen3-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38891,14 +38793,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen3-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38928,7 +38822,7 @@ exports.data = [
         "classId": 1105,
         "label": "湮灭法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "采用冥界材料制造而成的法袍,毁灭是它的主题",
         "effectf": [
             {
@@ -38946,14 +38840,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen3-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38972,14 +38858,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen3-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39009,7 +38887,7 @@ exports.data = [
         "classId": 1106,
         "label": "湮灭法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "采用冥界材料制造而成的法袍,毁灭是它的主题",
         "effectf": [
             {
@@ -39027,14 +38905,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen3-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39053,14 +38923,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen3-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39089,7 +38951,7 @@ exports.data = [
         "classId": 1107,
         "label": "落日法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "神秘的布料制作，带着落日熔金般的夺目光辉",
         "effectf": [
             {
@@ -39107,14 +38969,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen2-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39133,14 +38987,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen2-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39168,7 +39014,7 @@ exports.data = [
         "classId": 1108,
         "label": "落日法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "神秘的布料制作，带着落日熔金般的夺目光辉",
         "effectf": [
             {
@@ -39186,14 +39032,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen2-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39212,14 +39050,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen2-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39249,7 +39079,7 @@ exports.data = [
         "classId": 1109,
         "label": "落日法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "神秘的布料制作，带着落日熔金般的夺目光辉",
         "effectf": [
             {
@@ -39267,14 +39097,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen2-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39293,14 +39115,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen2-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39330,7 +39144,7 @@ exports.data = [
         "classId": 1110,
         "label": "落日法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "神秘的布料制作，带着落日熔金般的夺目光辉",
         "effectf": [
             {
@@ -39348,14 +39162,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen2-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39374,14 +39180,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen2-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39411,7 +39209,7 @@ exports.data = [
         "classId": 1111,
         "label": "落日法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "神秘的布料制作，带着落日熔金般的夺目光辉",
         "effectf": [
             {
@@ -39429,14 +39227,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen2-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39455,14 +39245,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen2-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39492,7 +39274,7 @@ exports.data = [
         "classId": 1112,
         "label": "落日法袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "神秘的布料制作，带着落日熔金般的夺目光辉",
         "effectf": [
             {
@@ -39510,14 +39292,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen2-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39536,14 +39310,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen2-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39572,7 +39338,7 @@ exports.data = [
         "classId": 1113,
         "label": "龙炎守护",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "穿戴者有如龙炎绕体，震慑人心",
         "effectf": [
             {
@@ -39590,14 +39356,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39616,14 +39374,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39651,7 +39401,7 @@ exports.data = [
         "classId": 1114,
         "label": "龙炎守护",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "穿戴者有如龙炎绕体，震慑人心",
         "effectf": [
             {
@@ -39669,14 +39419,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39695,14 +39437,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39730,7 +39464,7 @@ exports.data = [
         "classId": 1115,
         "label": "龙炎守护",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "穿戴者有如龙炎绕体，震慑人心",
         "effectf": [
             {
@@ -39748,14 +39482,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39774,14 +39500,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39809,7 +39527,7 @@ exports.data = [
         "classId": 1116,
         "label": "龙炎守护",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "穿戴者有如龙炎绕体，震慑人心",
         "effectf": [
             {
@@ -39827,14 +39545,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39853,14 +39563,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39888,7 +39590,7 @@ exports.data = [
         "classId": 1117,
         "label": "龙炎守护",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "穿戴者有如龙炎绕体，震慑人心",
         "effectf": [
             {
@@ -39906,14 +39608,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39932,14 +39626,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39967,7 +39653,7 @@ exports.data = [
         "classId": 1118,
         "label": "龙炎守护",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "穿戴者有如龙炎绕体，震慑人心",
         "effectf": [
             {
@@ -39985,14 +39671,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -40011,14 +39689,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -40044,7 +39714,7 @@ exports.data = [
         "classId": 1119,
         "label": "奥术之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "能凝聚魔力的小精灵",
         "effectf": [
             {
@@ -40082,7 +39752,7 @@ exports.data = [
         "classId": 1120,
         "label": "奥术之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "能凝聚魔力的小精灵",
         "effectf": [
             {
@@ -40122,7 +39792,7 @@ exports.data = [
         "classId": 1121,
         "label": "奥术之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "能凝聚魔力的小精灵",
         "effectf": [
             {
@@ -40162,7 +39832,7 @@ exports.data = [
         "classId": 1122,
         "label": "奥术之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "能凝聚魔力的小精灵",
         "effectf": [
             {
@@ -40202,7 +39872,7 @@ exports.data = [
         "classId": 1123,
         "label": "奥术之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "能凝聚魔力的小精灵",
         "effectf": [
             {
@@ -40242,7 +39912,7 @@ exports.data = [
         "classId": 1124,
         "label": "奥术之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "能凝聚魔力的小精灵",
         "effectf": [
             {
@@ -40281,7 +39951,7 @@ exports.data = [
         "classId": 1125,
         "label": "燃灵之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "炽热火焰凝聚而成的精灵",
         "effectf": [
             {
@@ -40319,7 +39989,7 @@ exports.data = [
         "classId": 1126,
         "label": "燃灵之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "炽热火焰凝聚而成的精灵",
         "effectf": [
             {
@@ -40359,7 +40029,7 @@ exports.data = [
         "classId": 1127,
         "label": "燃灵之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "炽热火焰凝聚而成的精灵",
         "effectf": [
             {
@@ -40399,7 +40069,7 @@ exports.data = [
         "classId": 1128,
         "label": "燃灵之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "炽热火焰凝聚而成的精灵",
         "effectf": [
             {
@@ -40439,7 +40109,7 @@ exports.data = [
         "classId": 1129,
         "label": "燃灵之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "炽热火焰凝聚而成的精灵",
         "effectf": [
             {
@@ -40479,7 +40149,7 @@ exports.data = [
         "classId": 1130,
         "label": "燃灵之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "炽热火焰凝聚而成的精灵",
         "effectf": [
             {
@@ -40518,7 +40188,7 @@ exports.data = [
         "classId": 1131,
         "label": "湮灭之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "破坏力惊人的毁灭之灵",
         "effectf": [
             {
@@ -40556,7 +40226,7 @@ exports.data = [
         "classId": 1132,
         "label": "湮灭之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "破坏力惊人的毁灭之灵",
         "effectf": [
             {
@@ -40596,7 +40266,7 @@ exports.data = [
         "classId": 1133,
         "label": "湮灭之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "破坏力惊人的毁灭之灵",
         "effectf": [
             {
@@ -40636,7 +40306,7 @@ exports.data = [
         "classId": 1134,
         "label": "湮灭之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "破坏力惊人的毁灭之灵",
         "effectf": [
             {
@@ -40676,7 +40346,7 @@ exports.data = [
         "classId": 1135,
         "label": "湮灭之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "破坏力惊人的毁灭之灵",
         "effectf": [
             {
@@ -40716,7 +40386,7 @@ exports.data = [
         "classId": 1136,
         "label": "湮灭之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "破坏力惊人的毁灭之灵",
         "effectf": [
             {
@@ -40755,7 +40425,7 @@ exports.data = [
         "classId": 1137,
         "label": "落日之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "吟唱着恐怖禁咒的陨日之灵",
         "effectf": [
             {
@@ -40793,7 +40463,7 @@ exports.data = [
         "classId": 1138,
         "label": "落日之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "吟唱着恐怖禁咒的陨日之灵",
         "effectf": [
             {
@@ -40833,7 +40503,7 @@ exports.data = [
         "classId": 1139,
         "label": "落日之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "吟唱着恐怖禁咒的陨日之灵",
         "effectf": [
             {
@@ -40873,7 +40543,7 @@ exports.data = [
         "classId": 1140,
         "label": "落日之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "吟唱着恐怖禁咒的陨日之灵",
         "effectf": [
             {
@@ -40913,7 +40583,7 @@ exports.data = [
         "classId": 1141,
         "label": "落日之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "吟唱着恐怖禁咒的陨日之灵",
         "effectf": [
             {
@@ -40953,7 +40623,7 @@ exports.data = [
         "classId": 1142,
         "label": "落日之魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "吟唱着恐怖禁咒的陨日之灵",
         "effectf": [
             {
@@ -40992,7 +40662,7 @@ exports.data = [
         "classId": 1143,
         "label": "龙灵战魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
         "effectf": [
             {
@@ -41030,7 +40700,7 @@ exports.data = [
         "classId": 1144,
         "label": "龙灵战魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
         "effectf": [
             {
@@ -41068,7 +40738,7 @@ exports.data = [
         "classId": 1145,
         "label": "龙灵战魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
         "effectf": [
             {
@@ -41106,7 +40776,7 @@ exports.data = [
         "classId": 1146,
         "label": "龙灵战魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
         "effectf": [
             {
@@ -41144,7 +40814,7 @@ exports.data = [
         "classId": 1147,
         "label": "龙灵战魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
         "effectf": [
             {
@@ -41182,7 +40852,7 @@ exports.data = [
         "classId": 1148,
         "label": "龙灵战魂",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
         "effectf": [
             {
@@ -41218,7 +40888,7 @@ exports.data = [
         "classId": 1149,
         "label": "奥术法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "蕴含魔法奥义的精巧法杖",
         "effectf": [
             {
@@ -41257,7 +40927,7 @@ exports.data = [
         "classId": 1150,
         "label": "奥术法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "蕴含魔法奥义的精巧法杖",
         "effectf": [
             {
@@ -41298,7 +40968,7 @@ exports.data = [
         "classId": 1151,
         "label": "奥术法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "蕴含魔法奥义的精巧法杖",
         "effectf": [
             {
@@ -41339,7 +41009,7 @@ exports.data = [
         "classId": 1152,
         "label": "奥术法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "蕴含魔法奥义的精巧法杖",
         "effectf": [
             {
@@ -41380,7 +41050,7 @@ exports.data = [
         "classId": 1153,
         "label": "奥术法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "蕴含魔法奥义的精巧法杖",
         "effectf": [
             {
@@ -41421,7 +41091,7 @@ exports.data = [
         "classId": 1154,
         "label": "奥术法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "蕴含魔法奥义的精巧法杖",
         "effectf": [
             {
@@ -41461,7 +41131,7 @@ exports.data = [
         "classId": 1155,
         "label": "燃灵法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "能将魔力燃烧的精致法杖",
         "effectf": [
             {
@@ -41500,7 +41170,7 @@ exports.data = [
         "classId": 1156,
         "label": "燃灵法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "能将魔力燃烧的精致法杖",
         "effectf": [
             {
@@ -41541,7 +41211,7 @@ exports.data = [
         "classId": 1157,
         "label": "燃灵法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "能将魔力燃烧的精致法杖",
         "effectf": [
             {
@@ -41582,7 +41252,7 @@ exports.data = [
         "classId": 1158,
         "label": "燃灵法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "能将魔力燃烧的精致法杖",
         "effectf": [
             {
@@ -41623,7 +41293,7 @@ exports.data = [
         "classId": 1159,
         "label": "燃灵法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "能将魔力燃烧的精致法杖",
         "effectf": [
             {
@@ -41664,7 +41334,7 @@ exports.data = [
         "classId": 1160,
         "label": "燃灵法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "能将魔力燃烧的精致法杖",
         "effectf": [
             {
@@ -41704,7 +41374,7 @@ exports.data = [
         "classId": 1161,
         "label": "湮灭法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "附有冥界之力的魔杖，能释放毁灭之光",
         "effectf": [
             {
@@ -41743,7 +41413,7 @@ exports.data = [
         "classId": 1162,
         "label": "湮灭法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "附有冥界之力的魔杖，能释放毁灭之光",
         "effectf": [
             {
@@ -41784,7 +41454,7 @@ exports.data = [
         "classId": 1163,
         "label": "湮灭法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "附有冥界之力的魔杖，能释放毁灭之光",
         "effectf": [
             {
@@ -41825,7 +41495,7 @@ exports.data = [
         "classId": 1164,
         "label": "湮灭法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "附有冥界之力的魔杖，能释放毁灭之光",
         "effectf": [
             {
@@ -41866,7 +41536,7 @@ exports.data = [
         "classId": 1165,
         "label": "湮灭法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "附有冥界之力的魔杖，能释放毁灭之光",
         "effectf": [
             {
@@ -41907,7 +41577,7 @@ exports.data = [
         "classId": 1166,
         "label": "湮灭法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "附有冥界之力的魔杖，能释放毁灭之光",
         "effectf": [
             {
@@ -41947,7 +41617,7 @@ exports.data = [
         "classId": 1167,
         "label": "落日法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "罕见的传世古杖，蕴含深不可测的魔力",
         "effectf": [
             {
@@ -41986,7 +41656,7 @@ exports.data = [
         "classId": 1168,
         "label": "落日法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "罕见的传世古杖，蕴含深不可测的魔力",
         "effectf": [
             {
@@ -42027,7 +41697,7 @@ exports.data = [
         "classId": 1169,
         "label": "落日法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "罕见的传世古杖，蕴含深不可测的魔力",
         "effectf": [
             {
@@ -42068,7 +41738,7 @@ exports.data = [
         "classId": 1170,
         "label": "落日法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "罕见的传世古杖，蕴含深不可测的魔力",
         "effectf": [
             {
@@ -42109,7 +41779,7 @@ exports.data = [
         "classId": 1171,
         "label": "落日法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "罕见的传世古杖，蕴含深不可测的魔力",
         "effectf": [
             {
@@ -42150,7 +41820,7 @@ exports.data = [
         "classId": 1172,
         "label": "落日法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "罕见的传世古杖，蕴含深不可测的魔力",
         "effectf": [
             {
@@ -42190,7 +41860,7 @@ exports.data = [
         "classId": 1173,
         "label": "缚龙法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
         "effectf": [
             {
@@ -42229,7 +41899,7 @@ exports.data = [
         "classId": 1174,
         "label": "缚龙法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
         "effectf": [
             {
@@ -42268,7 +41938,7 @@ exports.data = [
         "classId": 1175,
         "label": "缚龙法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
         "effectf": [
             {
@@ -42307,7 +41977,7 @@ exports.data = [
         "classId": 1176,
         "label": "缚龙法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
         "effectf": [
             {
@@ -42346,7 +42016,7 @@ exports.data = [
         "classId": 1177,
         "label": "缚龙法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
         "effectf": [
             {
@@ -42385,7 +42055,7 @@ exports.data = [
         "classId": 1178,
         "label": "缚龙法杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
         "effectf": [
             {
@@ -43234,11 +42904,30 @@ exports.data = [
     },
     {
         "classId": 1209,
-        "label": "奥术护符",
-        "icon": "ewn011.png",
+        "label": "奥术法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "描绘着玄奥符文的护符",
+        "subcategory": 0,
+        "description": "描绘着玄奥符文的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43257,15 +42946,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet5.png",
+        "iconm": "m-m-helmet5.png"
     },
     {
         "classId": 1210,
-        "label": "奥术护符",
-        "icon": "ewn011.png",
+        "label": "奥术法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "描绘着玄奥符文的护符",
+        "subcategory": 0,
+        "description": "描绘着玄奥符文的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43286,15 +42996,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 49,
-        "forgeTarget": 1215
+        "forgeTarget": 1215,
+        "iconf": "f-m-helmet5.png",
+        "iconm": "m-m-helmet5.png"
     },
     {
         "classId": 1211,
-        "label": "奥术护符",
-        "icon": "ewn011.png",
+        "label": "奥术法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "描绘着玄奥符文的护符",
+        "subcategory": 0,
+        "description": "描绘着玄奥符文的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43315,15 +43046,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 49,
-        "forgeTarget": 1216
+        "forgeTarget": 1216,
+        "iconf": "f-m-helmet5.png",
+        "iconm": "m-m-helmet5.png"
     },
     {
         "classId": 1212,
-        "label": "奥术护符",
-        "icon": "ewn011.png",
+        "label": "奥术法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "描绘着玄奥符文的护符",
+        "subcategory": 0,
+        "description": "描绘着玄奥符文的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43344,15 +43096,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 49,
-        "forgeTarget": 1217
+        "forgeTarget": 1217,
+        "iconf": "f-m-helmet5.png",
+        "iconm": "m-m-helmet5.png"
     },
     {
         "classId": 1213,
-        "label": "奥术护符",
-        "icon": "ewn011.png",
+        "label": "奥术法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "描绘着玄奥符文的护符",
+        "subcategory": 0,
+        "description": "描绘着玄奥符文的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43373,15 +43146,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 49,
-        "forgeTarget": 1218
+        "forgeTarget": 1218,
+        "iconf": "f-m-helmet5.png",
+        "iconm": "m-m-helmet5.png"
     },
     {
         "classId": 1214,
-        "label": "奥术护符",
-        "icon": "ewn011.png",
+        "label": "奥术法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "描绘着玄奥符文的护符",
+        "subcategory": 0,
+        "description": "描绘着玄奥符文的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43401,15 +43195,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 49,
-        "forgeTarget": 1219
+        "forgeTarget": 1219,
+        "iconf": "f-m-helmet5.png",
+        "iconm": "m-m-helmet5.png"
     },
     {
         "classId": 1215,
-        "label": "燃灵护符",
-        "icon": "ewn021.png",
+        "label": "燃灵法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "蕴含火焰力量的护符",
+        "subcategory": 0,
+        "description": "蕴含火焰力量的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43428,15 +43243,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet4.png",
+        "iconm": "m-m-helmet4.png"
     },
     {
         "classId": 1216,
-        "label": "燃灵护符",
-        "icon": "ewn021.png",
+        "label": "燃灵法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "蕴含火焰力量的护符",
+        "subcategory": 0,
+        "description": "蕴含火焰力量的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43457,15 +43293,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 55,
-        "forgeTarget": 1221
+        "forgeTarget": 1221,
+        "iconf": "f-m-helmet4.png",
+        "iconm": "m-m-helmet4.png"
     },
     {
         "classId": 1217,
-        "label": "燃灵护符",
-        "icon": "ewn021.png",
+        "label": "燃灵法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "蕴含火焰力量的护符",
+        "subcategory": 0,
+        "description": "蕴含火焰力量的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43486,15 +43343,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 55,
-        "forgeTarget": 1222
+        "forgeTarget": 1222,
+        "iconf": "f-m-helmet4.png",
+        "iconm": "m-m-helmet4.png"
     },
     {
         "classId": 1218,
-        "label": "燃灵护符",
-        "icon": "ewn021.png",
+        "label": "燃灵法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "蕴含火焰力量的护符",
+        "subcategory": 0,
+        "description": "蕴含火焰力量的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43515,15 +43393,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 55,
-        "forgeTarget": 1223
+        "forgeTarget": 1223,
+        "iconf": "f-m-helmet4.png",
+        "iconm": "m-m-helmet4.png"
     },
     {
         "classId": 1219,
-        "label": "燃灵护符",
-        "icon": "ewn021.png",
+        "label": "燃灵法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "蕴含火焰力量的护符",
+        "subcategory": 0,
+        "description": "蕴含火焰力量的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43544,15 +43443,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 55,
-        "forgeTarget": 1224
+        "forgeTarget": 1224,
+        "iconf": "f-m-helmet4.png",
+        "iconm": "m-m-helmet4.png"
     },
     {
         "classId": 1220,
-        "label": "燃灵护符",
-        "icon": "ewn021.png",
+        "label": "燃灵法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "蕴含火焰力量的护符",
+        "subcategory": 0,
+        "description": "蕴含火焰力量的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43572,15 +43492,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 55,
-        "forgeTarget": 1225
+        "forgeTarget": 1225,
+        "iconf": "f-m-helmet4.png",
+        "iconm": "m-m-helmet4.png"
     },
     {
         "classId": 1221,
-        "label": "湮灭护符",
-        "icon": "ewn031.png",
+        "label": "湮灭法帽",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "刻画了神秘的符文，似乎来自冥界",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43599,15 +43540,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet3.png",
+        "iconm": "m-m-helmet3.png"
     },
     {
         "classId": 1222,
-        "label": "湮灭护符",
-        "icon": "ewn031.png",
+        "label": "湮灭法帽",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "刻画了神秘的符文，似乎来自冥界",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43628,15 +43590,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 61,
-        "forgeTarget": 1227
+        "forgeTarget": 1227,
+        "iconf": "f-m-helmet3.png",
+        "iconm": "m-m-helmet3.png"
     },
     {
         "classId": 1223,
-        "label": "湮灭护符",
-        "icon": "ewn031.png",
+        "label": "湮灭法帽",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "刻画了神秘的符文，似乎来自冥界",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43657,15 +43640,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 61,
-        "forgeTarget": 1228
+        "forgeTarget": 1228,
+        "iconf": "f-m-helmet3.png",
+        "iconm": "m-m-helmet3.png"
     },
     {
         "classId": 1224,
-        "label": "湮灭护符",
-        "icon": "ewn031.png",
+        "label": "湮灭法帽",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "刻画了神秘的符文，似乎来自冥界",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43686,15 +43690,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 61,
-        "forgeTarget": 1229
+        "forgeTarget": 1229,
+        "iconf": "f-m-helmet3.png",
+        "iconm": "m-m-helmet3.png"
     },
     {
         "classId": 1225,
-        "label": "湮灭护符",
-        "icon": "ewn031.png",
+        "label": "湮灭法帽",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "刻画了神秘的符文，似乎来自冥界",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43715,15 +43740,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 61,
-        "forgeTarget": 1230
+        "forgeTarget": 1230,
+        "iconf": "f-m-helmet3.png",
+        "iconm": "m-m-helmet3.png"
     },
     {
         "classId": 1226,
-        "label": "湮灭护符",
-        "icon": "ewn031.png",
+        "label": "湮灭法帽",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "刻画了神秘的符文，似乎来自冥界",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43743,15 +43789,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 61,
-        "forgeTarget": 1231
+        "forgeTarget": 1231,
+        "iconf": "f-m-helmet3.png",
+        "iconm": "m-m-helmet3.png"
     },
     {
         "classId": 1227,
-        "label": "落日护符",
-        "icon": "ewn041.png",
+        "label": "落日法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "泛着诡异波纹，能让人堕入噩梦漩涡",
+        "subcategory": 0,
+        "description": "高贵的魔导士之帽，蕴藏着神秘力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43770,15 +43837,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet2.png",
+        "iconm": "m-m-helmet2.png"
     },
     {
         "classId": 1228,
-        "label": "落日护符",
-        "icon": "ewn041.png",
+        "label": "落日法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "泛着诡异波纹，能让人堕入噩梦漩涡",
+        "subcategory": 0,
+        "description": "高贵的魔导士之帽，蕴藏着神秘力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43799,15 +43887,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 67,
-        "forgeTarget": 1233
+        "forgeTarget": 1233,
+        "iconf": "f-m-helmet2.png",
+        "iconm": "m-m-helmet2.png"
     },
     {
         "classId": 1229,
-        "label": "落日护符",
-        "icon": "ewn041.png",
+        "label": "落日法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "泛着诡异波纹，能让人堕入噩梦漩涡",
+        "subcategory": 0,
+        "description": "高贵的魔导士之帽，蕴藏着神秘力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43828,15 +43937,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 67,
-        "forgeTarget": 1234
+        "forgeTarget": 1234,
+        "iconf": "f-m-helmet2.png",
+        "iconm": "m-m-helmet2.png"
     },
     {
         "classId": 1230,
-        "label": "落日护符",
-        "icon": "ewn041.png",
+        "label": "落日法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "泛着诡异波纹，能让人堕入噩梦漩涡",
+        "subcategory": 0,
+        "description": "高贵的魔导士之帽，蕴藏着神秘力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43857,15 +43987,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 67,
-        "forgeTarget": 1235
+        "forgeTarget": 1235,
+        "iconf": "f-m-helmet2.png",
+        "iconm": "m-m-helmet2.png"
     },
     {
         "classId": 1231,
-        "label": "落日护符",
-        "icon": "ewn041.png",
+        "label": "落日法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "泛着诡异波纹，能让人堕入噩梦漩涡",
+        "subcategory": 0,
+        "description": "高贵的魔导士之帽，蕴藏着神秘力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43886,15 +44037,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 67,
-        "forgeTarget": 1236
+        "forgeTarget": 1236,
+        "iconf": "f-m-helmet2.png",
+        "iconm": "m-m-helmet2.png"
     },
     {
         "classId": 1232,
-        "label": "落日护符",
-        "icon": "ewn041.png",
+        "label": "落日法帽",
         "category": 1,
-        "subcategory": 5,
-        "description": "泛着诡异波纹，能让人堕入噩梦漩涡",
+        "subcategory": 0,
+        "description": "高贵的魔导士之帽，蕴藏着神秘力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43914,15 +44086,36 @@ exports.data = [
         "enhanceID": 4,
         "hide": true,
         "forgeID": 67,
-        "forgeTarget": 1237
+        "forgeTarget": 1237,
+        "iconf": "f-m-helmet2.png",
+        "iconm": "m-m-helmet2.png"
     },
     {
         "classId": 1233,
-        "label": "龙灵护符",
-        "icon": "ewn041.png",
+        "label": "龙灵法帽",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "华美的纹理勾勒出永恒的绚烂，给予佩戴者龙之祝福",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43941,15 +44134,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet1.png",
+        "iconm": "m-m-helmet1.png"
     },
     {
         "classId": 1234,
-        "label": "龙灵护符",
-        "icon": "ewn041.png",
+        "label": "龙灵法帽",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "华美的纹理勾勒出永恒的绚烂，给予佩戴者龙之祝福",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43968,15 +44182,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet1.png",
+        "iconm": "m-m-helmet1.png"
     },
     {
         "classId": 1235,
-        "label": "龙灵护符",
-        "icon": "ewn041.png",
+        "label": "龙灵法帽",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "华美的纹理勾勒出永恒的绚烂，给予佩戴者龙之祝福",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43995,15 +44230,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet1.png",
+        "iconm": "m-m-helmet1.png"
     },
     {
         "classId": 1236,
-        "label": "龙灵护符",
-        "icon": "ewn041.png",
+        "label": "龙灵法帽",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "华美的纹理勾勒出永恒的绚烂，给予佩戴者龙之祝福",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -44022,15 +44278,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet1.png",
+        "iconm": "m-m-helmet1.png"
     },
     {
         "classId": 1237,
-        "label": "龙灵护符",
-        "icon": "ewn041.png",
+        "label": "龙灵法帽",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "华美的纹理勾勒出永恒的绚烂，给予佩戴者龙之祝福",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -44049,15 +44326,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet1.png",
+        "iconm": "m-m-helmet1.png"
     },
     {
         "classId": 1238,
-        "label": "龙灵护符",
-        "icon": "ewn041.png",
+        "label": "龙灵法帽",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "华美的纹理勾勒出永恒的绚烂，给予佩戴者龙之祝福",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -44074,13 +44372,15 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet1.png",
+        "iconm": "m-m-helmet1.png"
     },
     {
         "classId": 1239,
         "label": "圣徒之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "由裁缝精心制作的鞋子，看上去很舒适",
         "effectf": [
             {
@@ -44126,7 +44426,7 @@ exports.data = [
         "classId": 1240,
         "label": "圣徒之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "由裁缝精心制作的鞋子，看上去很舒适",
         "effectf": [
             {
@@ -44174,7 +44474,7 @@ exports.data = [
         "classId": 1241,
         "label": "圣徒之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "由裁缝精心制作的鞋子，看上去很舒适",
         "effectf": [
             {
@@ -44222,7 +44522,7 @@ exports.data = [
         "classId": 1242,
         "label": "圣徒之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "由裁缝精心制作的鞋子，看上去很舒适",
         "effectf": [
             {
@@ -44270,7 +44570,7 @@ exports.data = [
         "classId": 1243,
         "label": "圣徒之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "由裁缝精心制作的鞋子，看上去很舒适",
         "effectf": [
             {
@@ -44318,7 +44618,7 @@ exports.data = [
         "classId": 1244,
         "label": "圣徒之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "由裁缝精心制作的鞋子，看上去很舒适",
         "effectf": [
             {
@@ -44365,7 +44665,7 @@ exports.data = [
         "classId": 1245,
         "label": "祈求者之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "款式精美的鞋子，轻便耐用",
         "effectf": [
             {
@@ -44411,7 +44711,7 @@ exports.data = [
         "classId": 1246,
         "label": "祈求者之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "款式精美的鞋子，轻便耐用",
         "effectf": [
             {
@@ -44459,7 +44759,7 @@ exports.data = [
         "classId": 1247,
         "label": "祈求者之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "款式精美的鞋子，轻便耐用",
         "effectf": [
             {
@@ -44507,7 +44807,7 @@ exports.data = [
         "classId": 1248,
         "label": "祈求者之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "款式精美的鞋子，轻便耐用",
         "effectf": [
             {
@@ -44555,7 +44855,7 @@ exports.data = [
         "classId": 1249,
         "label": "祈求者之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "款式精美的鞋子，轻便耐用",
         "effectf": [
             {
@@ -44603,7 +44903,7 @@ exports.data = [
         "classId": 1250,
         "label": "祈求者之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "款式精美的鞋子，轻便耐用",
         "effectf": [
             {
@@ -44650,7 +44950,7 @@ exports.data = [
         "classId": 1251,
         "label": "神谕者之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "珍贵的鞋子，似乎是天神赏赐的",
         "effectf": [
             {
@@ -44696,7 +44996,7 @@ exports.data = [
         "classId": 1252,
         "label": "神谕者之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "珍贵的鞋子，似乎是天神赏赐的",
         "effectf": [
             {
@@ -44744,7 +45044,7 @@ exports.data = [
         "classId": 1253,
         "label": "神谕者之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "珍贵的鞋子，似乎是天神赏赐的",
         "effectf": [
             {
@@ -44792,7 +45092,7 @@ exports.data = [
         "classId": 1254,
         "label": "神谕者之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "珍贵的鞋子，似乎是天神赏赐的",
         "effectf": [
             {
@@ -44840,7 +45140,7 @@ exports.data = [
         "classId": 1255,
         "label": "神谕者之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "珍贵的鞋子，似乎是天神赏赐的",
         "effectf": [
             {
@@ -44888,7 +45188,7 @@ exports.data = [
         "classId": 1256,
         "label": "神谕者之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "珍贵的鞋子，似乎是天神赏赐的",
         "effectf": [
             {
@@ -44935,7 +45235,7 @@ exports.data = [
         "classId": 1257,
         "label": "神圣之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "特殊材料所制作，鞋身隐隐泛出神圣的气息",
         "effectf": [
             {
@@ -44981,7 +45281,7 @@ exports.data = [
         "classId": 1258,
         "label": "神圣之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "特殊材料所制作，鞋身隐隐泛出神圣的气息",
         "effectf": [
             {
@@ -45029,7 +45329,7 @@ exports.data = [
         "classId": 1259,
         "label": "神圣之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "特殊材料所制作，鞋身隐隐泛出神圣的气息",
         "effectf": [
             {
@@ -45077,7 +45377,7 @@ exports.data = [
         "classId": 1260,
         "label": "神圣之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "特殊材料所制作，鞋身隐隐泛出神圣的气息",
         "effectf": [
             {
@@ -45125,7 +45425,7 @@ exports.data = [
         "classId": 1261,
         "label": "神圣之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "特殊材料所制作，鞋身隐隐泛出神圣的气息",
         "effectf": [
             {
@@ -45173,7 +45473,7 @@ exports.data = [
         "classId": 1262,
         "label": "神圣之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "特殊材料所制作，鞋身隐隐泛出神圣的气息",
         "effectf": [
             {
@@ -45220,7 +45520,7 @@ exports.data = [
         "classId": 1263,
         "label": "光辉之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "洒下璀璨的光辉，带领我们通往光明之路",
         "effectf": [
             {
@@ -45266,7 +45566,7 @@ exports.data = [
         "classId": 1264,
         "label": "光辉之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "洒下璀璨的光辉，带领我们通往光明之路",
         "effectf": [
             {
@@ -45312,7 +45612,7 @@ exports.data = [
         "classId": 1265,
         "label": "光辉之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "洒下璀璨的光辉，带领我们通往光明之路",
         "effectf": [
             {
@@ -45358,7 +45658,7 @@ exports.data = [
         "classId": 1266,
         "label": "光辉之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "洒下璀璨的光辉，带领我们通往光明之路",
         "effectf": [
             {
@@ -45404,7 +45704,7 @@ exports.data = [
         "classId": 1267,
         "label": "光辉之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "洒下璀璨的光辉，带领我们通往光明之路",
         "effectf": [
             {
@@ -45450,7 +45750,7 @@ exports.data = [
         "classId": 1268,
         "label": "光辉之鞋",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 5,
         "description": "洒下璀璨的光辉，带领我们通往光明之路",
         "effectf": [
             {
@@ -45494,7 +45794,7 @@ exports.data = [
         "classId": 1269,
         "label": "圣徒长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "圣洁的白色外衣",
         "effectf": [
             {
@@ -45512,10 +45812,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn5-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45534,10 +45830,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn5-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45565,7 +45857,7 @@ exports.data = [
         "classId": 1270,
         "label": "圣徒长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "圣洁的白色外衣",
         "effectf": [
             {
@@ -45583,10 +45875,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn5-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45605,10 +45893,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn5-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45638,7 +45922,7 @@ exports.data = [
         "classId": 1271,
         "label": "圣徒长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "圣洁的白色外衣",
         "effectf": [
             {
@@ -45656,10 +45940,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn5-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45678,10 +45958,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn5-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45711,7 +45987,7 @@ exports.data = [
         "classId": 1272,
         "label": "圣徒长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "圣洁的白色外衣",
         "effectf": [
             {
@@ -45729,10 +46005,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn5-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45751,10 +46023,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn5-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45784,7 +46052,7 @@ exports.data = [
         "classId": 1273,
         "label": "圣徒长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "圣洁的白色外衣",
         "effectf": [
             {
@@ -45802,10 +46070,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn5-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45824,10 +46088,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn5-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45857,7 +46117,7 @@ exports.data = [
         "classId": 1274,
         "label": "圣徒长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "圣洁的白色外衣",
         "effectf": [
             {
@@ -45875,10 +46135,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn5-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45897,10 +46153,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn5-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45929,7 +46181,7 @@ exports.data = [
         "classId": 1275,
         "label": "祈求者长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "昂贵的真丝所织成的华美长袍",
         "effectf": [
             {
@@ -45947,10 +46199,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn4-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45969,10 +46217,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn4-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46000,7 +46244,7 @@ exports.data = [
         "classId": 1276,
         "label": "祈求者长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "昂贵的真丝所织成的华美长袍",
         "effectf": [
             {
@@ -46018,10 +46262,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn4-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46040,10 +46280,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn4-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46073,7 +46309,7 @@ exports.data = [
         "classId": 1277,
         "label": "祈求者长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "昂贵的真丝所织成的华美长袍",
         "effectf": [
             {
@@ -46091,10 +46327,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn4-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46113,10 +46345,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn4-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46146,7 +46374,7 @@ exports.data = [
         "classId": 1278,
         "label": "祈求者长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "昂贵的真丝所织成的华美长袍",
         "effectf": [
             {
@@ -46164,10 +46392,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn4-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46186,10 +46410,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn4-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46219,7 +46439,7 @@ exports.data = [
         "classId": 1279,
         "label": "祈求者长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "昂贵的真丝所织成的华美长袍",
         "effectf": [
             {
@@ -46237,10 +46457,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn4-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46259,10 +46475,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn4-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46292,7 +46504,7 @@ exports.data = [
         "classId": 1280,
         "label": "祈求者长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "昂贵的真丝所织成的华美长袍",
         "effectf": [
             {
@@ -46310,10 +46522,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn4-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46332,10 +46540,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn4-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46364,7 +46568,7 @@ exports.data = [
         "classId": 1281,
         "label": "神谕者长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
@@ -46382,10 +46586,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn3-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46404,10 +46604,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn3-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46435,7 +46631,7 @@ exports.data = [
         "classId": 1282,
         "label": "神谕者长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
@@ -46453,10 +46649,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn3-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46475,10 +46667,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn3-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46508,7 +46696,7 @@ exports.data = [
         "classId": 1283,
         "label": "神谕者长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
@@ -46526,10 +46714,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn3-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46548,10 +46732,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn3-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46581,7 +46761,7 @@ exports.data = [
         "classId": 1284,
         "label": "神谕者长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
@@ -46599,10 +46779,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn3-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46621,10 +46797,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn3-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46654,7 +46826,7 @@ exports.data = [
         "classId": 1285,
         "label": "神谕者长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
@@ -46672,10 +46844,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn3-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46694,10 +46862,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn3-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46727,7 +46891,7 @@ exports.data = [
         "classId": 1286,
         "label": "神谕者长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
@@ -46745,10 +46909,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn3-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46767,10 +46927,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn3-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46799,7 +46955,7 @@ exports.data = [
         "classId": 1287,
         "label": "神圣长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "高贵的长袍，神圣不可侵犯",
         "effectf": [
             {
@@ -46817,10 +46973,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn2-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46839,10 +46991,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn2-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46870,7 +47018,7 @@ exports.data = [
         "classId": 1288,
         "label": "神圣长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "高贵的长袍，神圣不可侵犯",
         "effectf": [
             {
@@ -46888,10 +47036,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn2-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46910,10 +47054,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn2-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46943,7 +47083,7 @@ exports.data = [
         "classId": 1289,
         "label": "神圣长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "高贵的长袍，神圣不可侵犯",
         "effectf": [
             {
@@ -46961,10 +47101,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn2-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46983,10 +47119,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn2-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -47016,7 +47148,7 @@ exports.data = [
         "classId": 1290,
         "label": "神圣长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "高贵的长袍，神圣不可侵犯",
         "effectf": [
             {
@@ -47034,10 +47166,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn2-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -47056,10 +47184,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn2-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -47089,7 +47213,7 @@ exports.data = [
         "classId": 1291,
         "label": "神圣长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "高贵的长袍，神圣不可侵犯",
         "effectf": [
             {
@@ -47107,10 +47231,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn2-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -47129,10 +47249,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn2-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -47162,7 +47278,7 @@ exports.data = [
         "classId": 1292,
         "label": "神圣长袍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "高贵的长袍，神圣不可侵犯",
         "effectf": [
             {
@@ -47180,10 +47296,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn2-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -47202,10 +47314,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn2-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -47234,7 +47342,7 @@ exports.data = [
         "classId": 1293,
         "label": "光辉圣衣",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "永恒不朽的圣衣，受到星辰之光的加持",
         "effectf": [
             {
@@ -47252,10 +47360,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -47274,10 +47378,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -47305,7 +47405,7 @@ exports.data = [
         "classId": 1294,
         "label": "光辉圣衣",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "永恒不朽的圣衣，受到星辰之光的加持",
         "effectf": [
             {
@@ -47323,10 +47423,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -47345,10 +47441,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -47376,7 +47468,7 @@ exports.data = [
         "classId": 1295,
         "label": "光辉圣衣",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "永恒不朽的圣衣，受到星辰之光的加持",
         "effectf": [
             {
@@ -47394,10 +47486,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -47416,10 +47504,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -47447,7 +47531,7 @@ exports.data = [
         "classId": 1296,
         "label": "光辉圣衣",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "永恒不朽的圣衣，受到星辰之光的加持",
         "effectf": [
             {
@@ -47465,10 +47549,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -47487,10 +47567,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -47518,7 +47594,7 @@ exports.data = [
         "classId": 1297,
         "label": "光辉圣衣",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "永恒不朽的圣衣，受到星辰之光的加持",
         "effectf": [
             {
@@ -47536,10 +47612,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -47558,10 +47630,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -47589,7 +47657,7 @@ exports.data = [
         "classId": 1298,
         "label": "光辉圣衣",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 1,
         "description": "永恒不朽的圣衣，受到星辰之光的加持",
         "effectf": [
             {
@@ -47607,10 +47675,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -47629,10 +47693,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -47658,7 +47718,7 @@ exports.data = [
         "classId": 1299,
         "label": "圣徒宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "能够治愈伤痛的宝典",
         "effectf": [
             {
@@ -47706,7 +47766,7 @@ exports.data = [
         "classId": 1300,
         "label": "圣徒宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "能够治愈伤痛的宝典",
         "effectf": [
             {
@@ -47756,7 +47816,7 @@ exports.data = [
         "classId": 1301,
         "label": "圣徒宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "能够治愈伤痛的宝典",
         "effectf": [
             {
@@ -47806,7 +47866,7 @@ exports.data = [
         "classId": 1302,
         "label": "圣徒宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "能够治愈伤痛的宝典",
         "effectf": [
             {
@@ -47856,7 +47916,7 @@ exports.data = [
         "classId": 1303,
         "label": "圣徒宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "能够治愈伤痛的宝典",
         "effectf": [
             {
@@ -47906,7 +47966,7 @@ exports.data = [
         "classId": 1304,
         "label": "圣徒宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "能够治愈伤痛的宝典",
         "effectf": [
             {
@@ -47955,7 +48015,7 @@ exports.data = [
         "classId": 1305,
         "label": "祈求者宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "获得祝福的宝典，让人远离灾难与恐惧",
         "effectf": [
             {
@@ -48003,7 +48063,7 @@ exports.data = [
         "classId": 1306,
         "label": "祈求者宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "获得祝福的宝典，让人远离灾难与恐惧",
         "effectf": [
             {
@@ -48053,7 +48113,7 @@ exports.data = [
         "classId": 1307,
         "label": "祈求者宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "获得祝福的宝典，让人远离灾难与恐惧",
         "effectf": [
             {
@@ -48103,7 +48163,7 @@ exports.data = [
         "classId": 1308,
         "label": "祈求者宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "获得祝福的宝典，让人远离灾难与恐惧",
         "effectf": [
             {
@@ -48153,7 +48213,7 @@ exports.data = [
         "classId": 1309,
         "label": "祈求者宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "获得祝福的宝典，让人远离灾难与恐惧",
         "effectf": [
             {
@@ -48203,7 +48263,7 @@ exports.data = [
         "classId": 1310,
         "label": "祈求者宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "获得祝福的宝典，让人远离灾难与恐惧",
         "effectf": [
             {
@@ -48252,7 +48312,7 @@ exports.data = [
         "classId": 1311,
         "label": "神谕者宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "凝聚着先知无穷智慧的宝典",
         "effectf": [
             {
@@ -48300,7 +48360,7 @@ exports.data = [
         "classId": 1312,
         "label": "神谕者宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "凝聚着先知无穷智慧的宝典",
         "effectf": [
             {
@@ -48350,7 +48410,7 @@ exports.data = [
         "classId": 1313,
         "label": "神谕者宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "凝聚着先知无穷智慧的宝典",
         "effectf": [
             {
@@ -48400,7 +48460,7 @@ exports.data = [
         "classId": 1314,
         "label": "神谕者宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "凝聚着先知无穷智慧的宝典",
         "effectf": [
             {
@@ -48450,7 +48510,7 @@ exports.data = [
         "classId": 1315,
         "label": "神谕者宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "凝聚着先知无穷智慧的宝典",
         "effectf": [
             {
@@ -48500,7 +48560,7 @@ exports.data = [
         "classId": 1316,
         "label": "神谕者宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "凝聚着先知无穷智慧的宝典",
         "effectf": [
             {
@@ -48549,7 +48609,7 @@ exports.data = [
         "classId": 1317,
         "label": "神圣宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "神圣的宝典，指引世人向善",
         "effectf": [
             {
@@ -48597,7 +48657,7 @@ exports.data = [
         "classId": 1318,
         "label": "神圣宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "神圣的宝典，指引世人向善",
         "effectf": [
             {
@@ -48647,7 +48707,7 @@ exports.data = [
         "classId": 1319,
         "label": "神圣宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "神圣的宝典，指引世人向善",
         "effectf": [
             {
@@ -48697,7 +48757,7 @@ exports.data = [
         "classId": 1320,
         "label": "神圣宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "神圣的宝典，指引世人向善",
         "effectf": [
             {
@@ -48747,7 +48807,7 @@ exports.data = [
         "classId": 1321,
         "label": "神圣宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "神圣的宝典，指引世人向善",
         "effectf": [
             {
@@ -48797,7 +48857,7 @@ exports.data = [
         "classId": 1322,
         "label": "神圣宝典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "神圣的宝典，指引世人向善",
         "effectf": [
             {
@@ -48846,7 +48906,7 @@ exports.data = [
         "classId": 1323,
         "label": "命运圣典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "传说它的光芒能够为世人指出命运的方向",
         "effectf": [
             {
@@ -48894,7 +48954,7 @@ exports.data = [
         "classId": 1324,
         "label": "命运圣典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "传说它的光芒能够为世人指出命运的方向",
         "effectf": [
             {
@@ -48942,7 +49002,7 @@ exports.data = [
         "classId": 1325,
         "label": "命运圣典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "传说它的光芒能够为世人指出命运的方向",
         "effectf": [
             {
@@ -48990,7 +49050,7 @@ exports.data = [
         "classId": 1326,
         "label": "命运圣典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "传说它的光芒能够为世人指出命运的方向",
         "effectf": [
             {
@@ -49038,7 +49098,7 @@ exports.data = [
         "classId": 1327,
         "label": "命运圣典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "传说它的光芒能够为世人指出命运的方向",
         "effectf": [
             {
@@ -49086,7 +49146,7 @@ exports.data = [
         "classId": 1328,
         "label": "命运圣典",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 4,
         "description": "传说它的光芒能够为世人指出命运的方向",
         "effectf": [
             {
@@ -49132,7 +49192,7 @@ exports.data = [
         "classId": 1329,
         "label": "圣徒权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "造型简单的权杖，拥有温暖人心的力量",
         "effectf": [
             {
@@ -49171,7 +49231,7 @@ exports.data = [
         "classId": 1330,
         "label": "圣徒权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "造型简单的权杖，拥有温暖人心的力量",
         "effectf": [
             {
@@ -49212,7 +49272,7 @@ exports.data = [
         "classId": 1331,
         "label": "圣徒权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "造型简单的权杖，拥有温暖人心的力量",
         "effectf": [
             {
@@ -49253,7 +49313,7 @@ exports.data = [
         "classId": 1332,
         "label": "圣徒权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "造型简单的权杖，拥有温暖人心的力量",
         "effectf": [
             {
@@ -49294,7 +49354,7 @@ exports.data = [
         "classId": 1333,
         "label": "圣徒权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "造型简单的权杖，拥有温暖人心的力量",
         "effectf": [
             {
@@ -49335,7 +49395,7 @@ exports.data = [
         "classId": 1334,
         "label": "圣徒权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "造型简单的权杖，拥有温暖人心的力量",
         "effectf": [
             {
@@ -49375,7 +49435,7 @@ exports.data = [
         "classId": 1335,
         "label": "祈求者权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "造型别致的权杖，能激发世人对光明的向往",
         "effectf": [
             {
@@ -49414,7 +49474,7 @@ exports.data = [
         "classId": 1336,
         "label": "祈求者权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "造型别致的权杖，能激发世人对光明的向往",
         "effectf": [
             {
@@ -49455,7 +49515,7 @@ exports.data = [
         "classId": 1337,
         "label": "祈求者权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "造型别致的权杖，能激发世人对光明的向往",
         "effectf": [
             {
@@ -49496,7 +49556,7 @@ exports.data = [
         "classId": 1338,
         "label": "祈求者权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "造型别致的权杖，能激发世人对光明的向往",
         "effectf": [
             {
@@ -49537,7 +49597,7 @@ exports.data = [
         "classId": 1339,
         "label": "祈求者权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "造型别致的权杖，能激发世人对光明的向往",
         "effectf": [
             {
@@ -49578,7 +49638,7 @@ exports.data = [
         "classId": 1340,
         "label": "祈求者权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "造型别致的权杖，能激发世人对光明的向往",
         "effectf": [
             {
@@ -49618,7 +49678,7 @@ exports.data = [
         "classId": 1341,
         "label": "神谕者权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "异常华贵的权杖，象征着权力",
         "effectf": [
             {
@@ -49657,7 +49717,7 @@ exports.data = [
         "classId": 1342,
         "label": "神谕者权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "异常华贵的权杖，象征着权力",
         "effectf": [
             {
@@ -49698,7 +49758,7 @@ exports.data = [
         "classId": 1343,
         "label": "神谕者权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "异常华贵的权杖，象征着权力",
         "effectf": [
             {
@@ -49739,7 +49799,7 @@ exports.data = [
         "classId": 1344,
         "label": "神谕者权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "异常华贵的权杖，象征着权力",
         "effectf": [
             {
@@ -49780,7 +49840,7 @@ exports.data = [
         "classId": 1345,
         "label": "神谕者权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "异常华贵的权杖，象征着权力",
         "effectf": [
             {
@@ -49821,7 +49881,7 @@ exports.data = [
         "classId": 1346,
         "label": "神谕者权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "异常华贵的权杖，象征着权力",
         "effectf": [
             {
@@ -49861,7 +49921,7 @@ exports.data = [
         "classId": 1347,
         "label": "神圣权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "能使亡魂得到救赎的神圣权杖",
         "effectf": [
             {
@@ -49900,7 +49960,7 @@ exports.data = [
         "classId": 1348,
         "label": "神圣权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "能使亡魂得到救赎的神圣权杖",
         "effectf": [
             {
@@ -49941,7 +50001,7 @@ exports.data = [
         "classId": 1349,
         "label": "神圣权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "能使亡魂得到救赎的神圣权杖",
         "effectf": [
             {
@@ -49982,7 +50042,7 @@ exports.data = [
         "classId": 1350,
         "label": "神圣权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "能使亡魂得到救赎的神圣权杖",
         "effectf": [
             {
@@ -50023,7 +50083,7 @@ exports.data = [
         "classId": 1351,
         "label": "神圣权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "能使亡魂得到救赎的神圣权杖",
         "effectf": [
             {
@@ -50064,7 +50124,7 @@ exports.data = [
         "classId": 1352,
         "label": "神圣权杖",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "能使亡魂得到救赎的神圣权杖",
         "effectf": [
             {
@@ -50104,7 +50164,7 @@ exports.data = [
         "classId": 1353,
         "label": "生命之树",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "饱含着生命的气息，凝聚着强大的自然之力",
         "effectf": [
             {
@@ -50143,7 +50203,7 @@ exports.data = [
         "classId": 1354,
         "label": "生命之树",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "饱含着生命的气息，凝聚着强大的自然之力",
         "effectf": [
             {
@@ -50182,7 +50242,7 @@ exports.data = [
         "classId": 1355,
         "label": "生命之树",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "饱含着生命的气息，凝聚着强大的自然之力",
         "effectf": [
             {
@@ -50221,7 +50281,7 @@ exports.data = [
         "classId": 1356,
         "label": "生命之树",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "饱含着生命的气息，凝聚着强大的自然之力",
         "effectf": [
             {
@@ -50260,7 +50320,7 @@ exports.data = [
         "classId": 1357,
         "label": "生命之树",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "饱含着生命的气息，凝聚着强大的自然之力",
         "effectf": [
             {
@@ -50299,7 +50359,7 @@ exports.data = [
         "classId": 1358,
         "label": "生命之树",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 2,
         "description": "饱含着生命的气息，凝聚着强大的自然之力",
         "effectf": [
             {
@@ -51178,11 +51238,22 @@ exports.data = [
     },
     {
         "classId": 1389,
-        "label": "圣徒之证",
-        "icon": "epn011.png",
+        "label": "圣徒头冠",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "赋予佩戴者专注之力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51201,15 +51272,28 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet5.png",
+        "iconm": "m-p-helmet5.png"
     },
     {
         "classId": 1390,
-        "label": "圣徒之证",
-        "icon": "epn011.png",
+        "label": "圣徒头冠",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "赋予佩戴者专注之力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51230,15 +51314,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 49,
-        "forgeTarget": 1395
+        "forgeTarget": 1395,
+        "iconf": "f-p-helmet5.png",
+        "iconm": "m-p-helmet5.png"
     },
     {
         "classId": 1391,
-        "label": "圣徒之证",
-        "icon": "epn011.png",
+        "label": "圣徒头冠",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "赋予佩戴者专注之力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51259,15 +51356,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 49,
-        "forgeTarget": 1396
+        "forgeTarget": 1396,
+        "iconf": "f-p-helmet5.png",
+        "iconm": "m-p-helmet5.png"
     },
     {
         "classId": 1392,
-        "label": "圣徒之证",
-        "icon": "epn011.png",
+        "label": "圣徒头冠",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "赋予佩戴者专注之力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51288,15 +51398,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 49,
-        "forgeTarget": 1397
+        "forgeTarget": 1397,
+        "iconf": "f-p-helmet5.png",
+        "iconm": "m-p-helmet5.png"
     },
     {
         "classId": 1393,
-        "label": "圣徒之证",
-        "icon": "epn011.png",
+        "label": "圣徒头冠",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "赋予佩戴者专注之力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51317,15 +51440,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 49,
-        "forgeTarget": 1398
+        "forgeTarget": 1398,
+        "iconf": "f-p-helmet5.png",
+        "iconm": "m-p-helmet5.png"
     },
     {
         "classId": 1394,
-        "label": "圣徒之证",
-        "icon": "epn011.png",
+        "label": "圣徒头冠",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "赋予佩戴者专注之力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51345,15 +51481,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 49,
-        "forgeTarget": 1399
+        "forgeTarget": 1399,
+        "iconf": "f-p-helmet5.png",
+        "iconm": "m-p-helmet5.png"
     },
     {
         "classId": 1395,
-        "label": "祈求者之证",
-        "icon": "epn021.png",
+        "label": "祈求者头冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "精致的项链，能带来好运",
+        "subcategory": 0,
+        "description": "精美的头盔，能带来好运",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51372,15 +51521,28 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet4.png",
+        "iconm": "m-p-helmet4.png"
     },
     {
         "classId": 1396,
-        "label": "祈求者之证",
-        "icon": "epn021.png",
+        "label": "祈求者头冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "精致的项链，能带来好运",
+        "subcategory": 0,
+        "description": "精美的头盔，能带来好运",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51401,15 +51563,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 55,
-        "forgeTarget": 1401
+        "forgeTarget": 1401,
+        "iconf": "f-p-helmet4.png",
+        "iconm": "m-p-helmet4.png"
     },
     {
         "classId": 1397,
-        "label": "祈求者之证",
-        "icon": "epn021.png",
+        "label": "祈求者头冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "精致的项链，能带来好运",
+        "subcategory": 0,
+        "description": "精美的头盔，能带来好运",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51430,15 +51605,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 55,
-        "forgeTarget": 1402
+        "forgeTarget": 1402,
+        "iconf": "f-p-helmet4.png",
+        "iconm": "m-p-helmet4.png"
     },
     {
         "classId": 1398,
-        "label": "祈求者之证",
-        "icon": "epn021.png",
+        "label": "祈求者头冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "精致的项链，能带来好运",
+        "subcategory": 0,
+        "description": "精美的头盔，能带来好运",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51459,15 +51647,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 55,
-        "forgeTarget": 1403
+        "forgeTarget": 1403,
+        "iconf": "f-p-helmet4.png",
+        "iconm": "m-p-helmet4.png"
     },
     {
         "classId": 1399,
-        "label": "祈求者之证",
-        "icon": "epn021.png",
+        "label": "祈求者头冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "精致的项链，能带来好运",
+        "subcategory": 0,
+        "description": "精美的头盔，能带来好运",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51488,15 +51689,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 55,
-        "forgeTarget": 1404
+        "forgeTarget": 1404,
+        "iconf": "f-p-helmet4.png",
+        "iconm": "m-p-helmet4.png"
     },
     {
         "classId": 1400,
-        "label": "祈求者之证",
-        "icon": "epn021.png",
+        "label": "祈求者头冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "精致的项链，能带来好运",
+        "subcategory": 0,
+        "description": "精美的头盔，能带来好运",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51516,15 +51730,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 55,
-        "forgeTarget": 1405
+        "forgeTarget": 1405,
+        "iconf": "f-p-helmet4.png",
+        "iconm": "m-p-helmet4.png"
     },
     {
         "classId": 1401,
-        "label": "神谕者之证",
-        "icon": "epn031.png",
+        "label": "神谕者头冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "获得神力庇护的项链，代表着圣洁与光明",
+        "subcategory": 0,
+        "description": "获得神力庇护的头盔，代表着圣洁与光明",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51543,15 +51770,28 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet3.png",
+        "iconm": "m-p-helmet3.png"
     },
     {
         "classId": 1402,
-        "label": "神谕者之证",
-        "icon": "epn031.png",
+        "label": "神谕者头冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "获得神力庇护的项链，代表着圣洁与光明",
+        "subcategory": 0,
+        "description": "获得神力庇护的头盔，代表着圣洁与光明",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51572,15 +51812,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 61,
-        "forgeTarget": 1407
+        "forgeTarget": 1407,
+        "iconf": "f-p-helmet3.png",
+        "iconm": "m-p-helmet3.png"
     },
     {
         "classId": 1403,
-        "label": "神谕者之证",
-        "icon": "epn031.png",
+        "label": "神谕者头冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "获得神力庇护的项链，代表着圣洁与光明",
+        "subcategory": 0,
+        "description": "获得神力庇护的头盔，代表着圣洁与光明",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51601,15 +51854,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 61,
-        "forgeTarget": 1408
+        "forgeTarget": 1408,
+        "iconf": "f-p-helmet3.png",
+        "iconm": "m-p-helmet3.png"
     },
     {
         "classId": 1404,
-        "label": "神谕者之证",
-        "icon": "epn031.png",
+        "label": "神谕者头冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "获得神力庇护的项链，代表着圣洁与光明",
+        "subcategory": 0,
+        "description": "获得神力庇护的头盔，代表着圣洁与光明",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51630,15 +51896,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 61,
-        "forgeTarget": 1409
+        "forgeTarget": 1409,
+        "iconf": "f-p-helmet3.png",
+        "iconm": "m-p-helmet3.png"
     },
     {
         "classId": 1405,
-        "label": "神谕者之证",
-        "icon": "epn031.png",
+        "label": "神谕者头冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "获得神力庇护的项链，代表着圣洁与光明",
+        "subcategory": 0,
+        "description": "获得神力庇护的头盔，代表着圣洁与光明",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51659,15 +51938,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 61,
-        "forgeTarget": 1410
+        "forgeTarget": 1410,
+        "iconf": "f-p-helmet3.png",
+        "iconm": "m-p-helmet3.png"
     },
     {
         "classId": 1406,
-        "label": "神谕者之证",
-        "icon": "epn031.png",
+        "label": "神谕者头冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "获得神力庇护的项链，代表着圣洁与光明",
+        "subcategory": 0,
+        "description": "获得神力庇护的头盔，代表着圣洁与光明",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51687,15 +51979,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 61,
-        "forgeTarget": 1411
+        "forgeTarget": 1411,
+        "iconf": "f-p-helmet3.png",
+        "iconm": "m-p-helmet3.png"
     },
     {
         "classId": 1407,
-        "label": "神圣之证",
-        "icon": "epn041.png",
+        "label": "神圣头冠",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "散发着圣洁的光辉，能驱散一切邪恶的力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51714,15 +52019,28 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet2.png",
+        "iconm": "m-p-helmet2.png"
     },
     {
         "classId": 1408,
-        "label": "神圣之证",
-        "icon": "epn041.png",
+        "label": "神圣头冠",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "散发着圣洁的光辉，能驱散一切邪恶的力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51743,15 +52061,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 67,
-        "forgeTarget": 1413
+        "forgeTarget": 1413,
+        "iconf": "f-p-helmet2.png",
+        "iconm": "m-p-helmet2.png"
     },
     {
         "classId": 1409,
-        "label": "神圣之证",
-        "icon": "epn041.png",
+        "label": "神圣头冠",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "散发着圣洁的光辉，能驱散一切邪恶的力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51772,15 +52103,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 67,
-        "forgeTarget": 1414
+        "forgeTarget": 1414,
+        "iconf": "f-p-helmet2.png",
+        "iconm": "m-p-helmet2.png"
     },
     {
         "classId": 1410,
-        "label": "神圣之证",
-        "icon": "epn041.png",
+        "label": "神圣头冠",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "散发着圣洁的光辉，能驱散一切邪恶的力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51801,15 +52145,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 67,
-        "forgeTarget": 1415
+        "forgeTarget": 1415,
+        "iconf": "f-p-helmet2.png",
+        "iconm": "m-p-helmet2.png"
     },
     {
         "classId": 1411,
-        "label": "神圣之证",
-        "icon": "epn041.png",
+        "label": "神圣头冠",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "散发着圣洁的光辉，能驱散一切邪恶的力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51830,15 +52187,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 67,
-        "forgeTarget": 1416
+        "forgeTarget": 1416,
+        "iconf": "f-p-helmet2.png",
+        "iconm": "m-p-helmet2.png"
     },
     {
         "classId": 1412,
-        "label": "神圣之证",
-        "icon": "epn041.png",
+        "label": "神圣头冠",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 0,
         "description": "散发着圣洁的光辉，能驱散一切邪恶的力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51858,15 +52228,28 @@ exports.data = [
         "enhanceID": 5,
         "hide": true,
         "forgeID": 67,
-        "forgeTarget": 1417
+        "forgeTarget": 1417,
+        "iconf": "f-p-helmet2.png",
+        "iconm": "m-p-helmet2.png"
     },
     {
         "classId": 1413,
-        "label": "黎明的曙光",
-        "icon": "epn041.png",
+        "label": "黎明圣冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "subcategory": 0,
+        "description": "镶嵌着晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51885,15 +52268,28 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet1.png",
+        "iconm": "m-p-helmet1.png"
     },
     {
         "classId": 1414,
-        "label": "黎明的曙光",
-        "icon": "epn041.png",
+        "label": "黎明圣冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "subcategory": 0,
+        "description": "镶嵌着晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51912,15 +52308,28 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet1.png",
+        "iconm": "m-p-helmet1.png"
     },
     {
         "classId": 1415,
-        "label": "黎明的曙光",
-        "icon": "epn041.png",
+        "label": "黎明圣冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "subcategory": 0,
+        "description": "镶嵌着晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51939,15 +52348,28 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet1.png",
+        "iconm": "m-p-helmet1.png"
     },
     {
         "classId": 1416,
-        "label": "黎明的曙光",
-        "icon": "epn041.png",
+        "label": "黎明圣冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "subcategory": 0,
+        "description": "镶嵌着晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51966,15 +52388,28 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet1.png",
+        "iconm": "m-p-helmet1.png"
     },
     {
         "classId": 1417,
-        "label": "黎明的曙光",
-        "icon": "epn041.png",
+        "label": "黎明圣冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "subcategory": 0,
+        "description": "镶嵌着晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51993,15 +52428,28 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet1.png",
+        "iconm": "m-p-helmet1.png"
     },
     {
         "classId": 1418,
-        "label": "黎明的曙光",
-        "icon": "epn041.png",
+        "label": "黎明圣冠",
         "category": 1,
-        "subcategory": 5,
-        "description": "晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "subcategory": 0,
+        "description": "镶嵌着晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -52018,7 +52466,9 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet1.png",
+        "iconm": "m-p-helmet1.png"
     },
     {
         "classId": 1419,
@@ -52640,5 +53090,132 @@ exports.data = [
         "sellprice": 800,
         "quality": 4,
         "synthesizeID": 72
+    },
+    {
+        "classId": 1475,
+        "label": "钢铁碎片",
+        "icon": "stone9.png",
+        "category": 2,
+        "subcategory": 1,
+        "description": "能过合成钢铁套装的碎片",
+        "stack": 99,
+        "sellprice": 500,
+        "quality": 1
+    },
+    {
+        "classId": 1476,
+        "label": "头饰图纸",
+        "icon": "pmage-subweapon4.png",
+        "category": 2,
+        "subcategory": 0,
+        "description": "能合成头饰的图纸",
+        "sellprice": 15,
+        "quality": 1,
+        "recipeTarget": 1477,
+        "recipeCost": 84
+    },
+    {
+        "classId": 1477,
+        "label": "头饰",
+        "category": 1,
+        "subcategory": 13,
+        "suitId": 1,
+        "description": "注重礼仪，设计考究的头饰。",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff3-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm3-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "iconf": "rfasion-female3-helmet.png",
+        "iconm": "rfasion-male3-helmet.png",
+        "recipePrize": [
+            {
+                "type": 0,
+                "value": 1475,
+                "count": 40
+            }
+        ]
+    },
+    {
+        "classId": 1478,
+        "label": "衣服图纸",
+        "icon": "pmage-chest4.png",
+        "category": 2,
+        "subcategory": 0,
+        "description": "能合成衣服的图纸",
+        "sellprice": 15,
+        "quality": 1,
+        "recipeTarget": 1479,
+        "recipeCost": 85
+    },
+    {
+        "classId": 1479,
+        "label": "衣服",
+        "category": 1,
+        "subcategory": 12,
+        "suitId": 1,
+        "description": "注重礼仪的服饰，能够给人舒心的感觉。",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff3-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "ff3-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff3-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "ff3-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff3-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm3-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "fm3-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm3-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "fm3-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm3-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "iconf": "rfasion-female3-cloth.png",
+        "iconm": "rfasion-male3-cloth.png",
+        "recipePrize": [
+            {
+                "type": 0,
+                "value": 1475,
+                "count": 25
+            }
+        ]
     }
 ]

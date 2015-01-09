@@ -355,11 +355,32 @@ exports.data = [
     {
         "effectId": 79,
         "skeleton": "effect-lockbox.json",
-        "atlas": "effect-lockbox.atlas"
+        "atlas": "effect-lockbox.atlas",
+        "onGround":true
     },
     {
         "effectId": 80,
         "skeleton": "effect-zdb.json",
-        "atlas": "effect-zdb.atlas"
+        "atlas": "effect-zdb.atlas",
+        "onGround":true,
+        "isRotatable": true,
+    },
+    {
+        "effectId": 81,
+        "skeleton": "effect-kj.json",
+        "atlas": "effect-kj.atlas"
+    },
+    {
+        "effectId": 82,
+        "loop": true,
+        "skeleton": "effect-elht.json",
+        "atlas": "effect-elht.atlas",
+        "onBack":true
+    },
+    {
+        "effectId": 83,
+        "loop": true,
+        "skeleton": "effect-jsht.json",
+        "atlas": "effect-jsht.atlas"
     }
 ]
