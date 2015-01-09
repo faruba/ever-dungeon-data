@@ -1435,7 +1435,7 @@ var data = [
                 "dungeon": 136,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.69.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.70.state"}, 2 ] }
                 ]
                 }
 
@@ -2357,7 +2357,7 @@ var data = [
                 "dungeon": 152,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.141"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.141.state"}, 2 ] }
                 ]
                 }
 
