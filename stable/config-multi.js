@@ -51,7 +51,6 @@ exports.data = {
             ID: 0,
             Name: "Develop",
             DB: "10.4.3.41",
-            IP: "10.4.3.41",
             DB_Prefix: "Develop"
         },
         "Master": {
