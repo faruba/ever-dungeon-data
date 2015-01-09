@@ -31,7 +31,14 @@ exports.data = {
             Role: { IP: "192.168.199.153", PORT: 6380 },
             Publisher: { IP: "192.168.199.153", PORT: 6380 },
             Subscriber: { IP: "192.168.199.153", PORT: 6380 }
+        },
+        "192.168.199.248": {
+            Account: { IP: "192.168.199.248", PORT: 6380 },
+            Role: { IP: "192.168.199.248", PORT: 6380 },
+            Publisher: { IP: "192.168.199.248", PORT: 6380 },
+            Subscriber: { IP: "192.168.199.248", PORT: 6380 }
         }
+ 
     },
 
     Server_Config: {
@@ -64,7 +71,14 @@ exports.data = {
             Name: "Dh-local",
             DB: "192.168.199.153",
             DB_Prefix: "Develop",
+        },
+        "qiang-test": {
+            ID: 0,
+            Name: "Develop",
+            DB: "192.168.199.248",
+            DB_Prefix: "Develop",
         }
+ 
     },
 
     IP_Config : {
@@ -87,6 +101,11 @@ exports.data = {
             Server: "Dh-local",
             Port: 7756
         } ],
+        "192.168.199.248": [ {
+            Server: "qiang-test",
+            Port: 7756
+        } ],
+ 
     },
     Gate_Config:{
         "10.4.3.41":[
