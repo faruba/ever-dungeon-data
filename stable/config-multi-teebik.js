@@ -1,53 +1,49 @@
 exports.data = {
-  "ServerID": 0,
-  "ServerName": "Develop",
-  "ServerConfig": [
-    {
-      "ID": 0,
-      "Name": "Develop",
-      "DB": {
-        "Account": { "IP": "192.168.128.9", "PORT": 6380 },
-        "Role": { "IP": "192.168.128.10", "PORT": 6380 },
-        "Publisher": { "IP": "192.168.128.9", "PORT": 6380 },
-        "Subscriber": { "IP": "192.168.128.9", "PORT": 6380 }
-      },
-      "Gate": [
-        {"ip": "192.168.128.9", "port": 7756},
-        {"ip": "192.168.128.10", "port": 7756},
-        {"ip": "192.168.128.11", "port": 7756}
-      ]
-    }
+    "Auth_API_Server": "192.168.128.11",
 
-  ],
-  "PayMethod": "PP",
-  "Enhance_Rate" : [1, 0.75, 0.70, 0.65, 0.6, 0.55, 0.50, 0.45, 0.40, 0.35],
-  "Product_List": [
-    {"rmb":0.99,"diamond":120},
-    {"rmb":1.99,"diamond":258},
-    {"rmb":4.99,"diamond":650},
-    {"rmb":9.99,"diamond":1310},
-    {"rmb":19.99,"diamond":2650},
-    {"rmb":29.99,"diamond":4340},
-    {"rmb":49.99,"diamond":7400},
-    {"rmb":99.99,"diamond":15420},
-    {"rmb":3.99,"diamond":0}
-  ],
-  "Global_Blue_Star_RewardTable" : [ ],
-  "Global_Recyclable_Enhancement" : [ 0, 1, 2, 3, 4, 5, 6 ],
-  "Global_Recycle_Config" : [
-    {"minimum" : 0, "delta" : 1},
-    {"minimum" : 1, "delta" : 1},
-    {"minimum" : 2, "delta" : 2},
-    {"minimum" : 3, "delta" : 3},
-    {"minimum" : 4, "delta" : 4},
-    {"minimum" : 5, "delta" : 5},
-    {"minimum" : 6, "delta" : 6},
-    {"minimum" : 7, "delta" : 7},
-    {"minimum" : 8, "delta" : 8},
-    {"minimum" : 9, "delta" : 9}
-  ],
+    DB_Config: {
+        "SEAsia": {
+            "Account": { "IP": "192.168.128.9", "PORT": 6380 },
+            "Role": { "IP": "192.168.128.10", "PORT": 6380 },
+            "Publisher": { "IP": "192.168.128.9", "PORT": 6380 },
+            "Subscriber": { "IP": "192.168.128.9", "PORT": 6380 }
+        }
+    },
 
-    "Global_Material_ID" : [558, 559, 560, 561, 562],
-    "Global_Enhancement_GEM_Index" : [3, 4, 5, 26, 27, 392, 393],
-  "Auth_API_Server": "192.168.128.11"
+    Server_Config: {
+        "Develop.9": {
+            ID: 0,
+            Name: "Develop",
+            DB: "SEAsia",
+            DB_Prefix: "Develop"
+        },
+ 
+        "Develop.10": {
+            ID: 0,
+            Name: "Develop",
+            DB: "SEAsia",
+            DB_Prefix: "Develop"
+        },
+		"Develop.11": {
+            ID: 0,
+            Name: "Develop",
+            DB: "SEAsia",
+            DB_Prefix: "Develop"
+        }
+ 
+    },
+
+    IP_Config : {
+        "192.168.128.9": [ { Server: "Develop.9", Port: 7756 } ],
+        "192.168.128.10": [ { Server: "Develop.10", Port: 7756 } ],
+        "192.168.128.11": [ { Server: "Develop.11", Port: 7756 } ],
+    },
+	Gate_Config:{
+		"192.168.128.10": [
+           {"ip": "192.168.128.9", "port": 7756},
+           {"ip": "192.168.128.10", "port": 7756},
+           {"ip": "192.168.128.11", "port": 7756}
+		]
+	}
+
 }
