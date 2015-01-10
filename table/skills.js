@@ -18357,7 +18357,7 @@ exports.data = [
   },
   {
     "skillId": 345,
-    "label": L("dic_skill_345_label"), //pk祈祷(队友)
+    "label": L("dic_skill_345_label"), //祈祷(队友)
     "icon": "skill-dzj1.png",
     "desc": L("dic_skill_345_desc"), //大主教对队伍中全体成员的生命值进行回复，回复值与命中值相关。
     "slotId": 0,
@@ -18711,66 +18711,6 @@ exports.data = [
           "type": "playEffect",
           "effect": 48,
           "pos": "self"
-        }
-      ]
-    }
-  },
-  {
-    "skillId": 352,
-    "label": L("dic_skill_352_label"), //魔力漩涡
-    "icon": "skill-mds2.png",
-    "desc": L("dic_skill_352_desc"), //场上敌人越多,魔导师的攻击力也随之增强。
-    "slotId": 100,
-    "config": {
-      "triggerCondition": [
-        {
-          "type": "event",
-          "event": "onMonsterShow"
-        },
-        {
-          "type": "alive"
-        }
-      ],
-      "targetSelection": {
-        "pool": "self",
-        "filter": [
-          {
-            "type": "alive"
-          },
-          {
-            "type": "visible"
-          }
-        ]
-      },
-      "installAction": [
-        {
-          "type": "installSpell",
-          "spell": 186,
-          "#level": [
-            1,
-            2,
-            3
-          ]
-        }
-      ],
-      "action": [
-        {
-          "type": "playEffect",
-          "effect": 69,
-          "act": "self"
-        },
-        {
-          "type": "removeSpell",
-          "spell": 203
-        },
-        {
-          "type": "installSpell",
-          "spell": 203,
-          "#level": [
-            1,
-            2,
-            3
-          ]
         }
       ]
     }
