@@ -64,8 +64,15 @@ exports.data = {
             Name: "Develop",
             DB: "192.168.199.153",
             DB_Prefix: "Develop",
-        }
-    },
+        },
+        "faruba": {
+            ID: 0,
+            Name: "Develop",
+            DB: "192.168.199.153",
+            DB_Prefix: "Develop",
+			Debug: true,
+        },
+     },
 
     IP_Config : {
         "192.168.1.4": [ {
@@ -87,7 +94,11 @@ exports.data = {
             Server: "Dh-local",
             Port: 7756
         } ],
-    },
+        "192.168.199.153": [ {
+            Server: "faruba",
+            Port: 7756
+        } ],
+     },
     Gate_Config:{
         "10.4.3.41":[
             {ip:"10.4.3.41", port:7756},
