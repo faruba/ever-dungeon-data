@@ -176,8 +176,8 @@ exports.intervalEvent = {
               { type: 2, count: 50 },
               { type: 0, value: 869, count: 1 }
             ],
-            tit: L("铁人试炼排行奖励"),
-            txt: L("恭喜你成为铁人试炼冠军，点击领取奖励。")
+            tit: L("RU_SupperMan"),
+            txt: L("RU_SupperMan_First")
           }
         }, {
           from: 1,
@@ -189,8 +189,8 @@ exports.intervalEvent = {
               { type: 2, count: 20 },
               { type: 0, value: 868, count: 1 }
             ],
-            tit: L("铁人试炼排行奖励"),
-            txt: L("恭喜你进入铁人试炼前五，点击领取奖励。")
+            tit: L("RU_SupperMan"),
+            txt: L("RU_SupperMan_Top5")
           }
         }, {
           from: 5,
@@ -202,8 +202,8 @@ exports.intervalEvent = {
               { type: 2, count: 10 },
               { type: 0, value: 867, count: 1 }
             ],
-            tit: L("铁人试炼排行奖励"),
-            txt: L("恭喜你进入铁人试炼前十，点击领取奖励。")
+            tit: L("RU_SupperMan"),
+            txt: L("RU_SupperMan_Top10")
           }
         }
       ];
@@ -240,8 +240,8 @@ exports.intervalEvent = {
             { type: 2, count: 50 },
             { type: 0, value: 866, count: 1 }
             ],
-            tit: L("狩猎任务排行奖励"),
-            txt: L("恭喜你成为狩猎任务冠军，点击领取奖励。")
+            tit: L("HuntingRank"),
+            txt: L("HuntingRank_Top1")
           }
         }, {
           from: 1,
@@ -253,8 +253,8 @@ exports.intervalEvent = {
               { type: 2, count: 20 },
               { type: 0, value: 865, count: 1 }
             ],
-            tit: L("狩猎任务排行奖励"),
-            txt: L("恭喜你进入狩猎任务前五，点击领取奖励。")
+            tit: L("HuntingRank"),
+            txt: L("HuntingRank_Top5")
           }
         }, {
           from: 5,
@@ -266,8 +266,8 @@ exports.intervalEvent = {
               { type: 2, count: 10 }, 
               { type: 0, value: 864, count: 1 }
             ],
-            tit: L("狩猎任务排行奖励"),
-            txt: L("恭喜你进入狩猎任务前十，点击领取奖励。")
+            tit: L("HuntingRank"),
+            txt: L("HuntingRank_Top10")
           }
         }
       ];
@@ -309,8 +309,8 @@ exports.intervalEvent = {
                 { type: 2, count: 100 },
                 { type: 0, value: 878, count: 1 }
               ],
-              tit: L("邪恶巫师的诡计"),
-              txt: L("恭喜你获得《邪恶巫师的诡计》第一名，点击领取奖励")
+              tit: L("evilWizard"),
+              txt: L("evilWizard_Top1")
             }
           }, {
             from: 1,
@@ -321,8 +321,8 @@ exports.intervalEvent = {
               prize: [
                 { type: 2, count: 100 }
               ],
-              tit: L("邪恶巫师的诡计"),
-              txt: L("恭喜你获得《邪恶巫师的诡计》奖励，点击领取")
+              tit: L("evilWizard"),
+              txt: L("evilWizard_else")
             }
           }, {
             from: 10,
@@ -333,8 +333,8 @@ exports.intervalEvent = {
               prize: [
                 { type: 2, count: 50 }
               ],
-              tit: L("邪恶巫师的诡计"),
-              txt: L("恭喜你获得《邪恶巫师的诡计》奖励，点击领取")
+              tit: L("evilWizard"),
+              txt: L("evilWizard_else")
             }
           }
         ];
