@@ -278,5 +278,30 @@ exports.data = {
         "dateDescription": "截止日期2016年12月25日24時",
         // iaplist.list will modify by initCampaignTable =>{award:[{type:2,count:60}}
         "objective" : iaplist
+    },
+    "serviceOpening": {
+        "show": true,
+        "title": "王者角逐",
+        "banner":"event-banner-wzjz.png",
+        "description": [
+            "開服第一個月內每週登上戰鬥力排行榜前20名都將獲得獎勵，在活動截止的時候登上戰鬥力排行榜榜第一會獲得額外的特殊獎勵",
+            "***獎勵內容：",
+            "** \n每週戰鬥力排行榜第一，即可獲得",
+            "##[{\"type\":2,\"count\":400},{\"type\":1,\"count\":6000},{\"type\":0,\"value\":871,\"count\":60}]",
+            "** \n每週戰鬥力排行榜第二，即可獲得",
+            "##[{\"type\":2,\"count\":150},{\"type\":1,\"count\":3000},{\"type\":0,\"value\":871,\"count\":30}]",
+            "** \n每週戰鬥力排行榜第三，即可獲得",
+            "##[{\"type\":2,\"count\":50},{\"type\":1,\"count\":2000},{\"type\":0,\"value\":871,\"count\":15}]",
+            "** \n每週戰鬥力排行榜第四到第十，即可獲得",
+            "##[{\"type\":1,\"count\":2000},{\"type\":0,\"value\":871,\"count\":5}]",
+            "** \n每週戰鬥力排行榜第十一到二十，即可獲得",
+            "##[{\"type\":0,\"value\":871,\"count\":5}]",
+            "** \n在活動截止的時候登上戰鬥力排行榜榜第一，即可獲得",
+            "##[{\"type\":2,\"count\":800},{\"type\":0,\"value\":871,\"count\":100},{\"type\":0,\"value\":0,\"count\":1}]"
+        ],
+        "mailTitle": "《王者角逐》活動獎勵",
+        "mailBody": "恭喜你完成活動，點擊領取活動獎勵！",
+        "date": "2015/02/12",
+        "dateDescription": "截止日期2015年2月12日24時"
     }
 };

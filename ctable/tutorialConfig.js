@@ -19,6 +19,10 @@ exports.data = {
         "tutorialStage": 6,
         "refuseDialogue": 59
     },
+    "pvp":{
+        "powerLimit": 1000,
+        "refuseDialogue": 76
+    },
     "dissolve":{
         "tutorialStage": 7,
         "refuseDialogue": 60

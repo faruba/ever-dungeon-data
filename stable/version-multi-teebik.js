@@ -8,6 +8,6 @@ exports.data = {
     "last_version":"1.1.29",
     "suggest_version":"1.1.29",
 
-    "url": "http://hotupdate.qiniudn.com",
+    "url": "http://7u2hr2.com1.z0.glb.clouddn.com",
     "bin_url": ""
 }
