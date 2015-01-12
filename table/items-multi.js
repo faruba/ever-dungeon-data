@@ -1,38 +1,62 @@
 exports.data = [
-	{
-		"classId": 0,
-		"label": "七色宝石",
-		"icon": "stone1.png",
-		"category": 2,
-		"subcategory": 0,
-		"description": "随机强化生命、攻击、暴击、韧性、命中、反应、速度7项基础属性的宝石。",
-		"stack": 99,
-		"sellprice": 50,
-		"transPrize": [
-			{
-				"type": 0,
-				"value": 853,
-				"count": 1
-			}
-		]
-	},
-	{
-		"classId": 1,
-		"label": "五彩宝石",
-		"icon": "stone2.png",
-		"category": 2,
-		"subcategory": 1,
-		"description": "随机强化吸血、暴击伤害、连击、反伤、击晕5项高阶属性的稀有宝石。",
-		"stack": 99,
-		"sellprice": 800,
-		"transPrize": [
-			{
-				"type": 0,
-				"value": 853,
-				"count": 2
-			}
-		]
-	},
+    {
+        "classId": 0,
+        "label": "神圣之翼",
+        "icon": "item-wing-sszy.png",
+        "category": 1,
+        "subcategory": 16,
+        "basic_properties": {
+            "health": 180,
+            "attack": 10,
+            "critical": 15,
+            "strong": 40,
+            "accuracy": 25,
+            "reactivity": 25,
+            "speed": 25
+        },
+        "description": "蕴含着神圣之力的羽翼，能够带来天使的祝福，并且是身份的象征",
+        "effecta": [
+            {
+                "part": "avatar-wing1",
+                "file": "wing-sszy.ccbi"
+            },
+            {
+                "part": "avatar-wing2",
+                "file": "wing-sszy.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1,
+        "label": "恶魔之翼",
+        "icon": "item-wing-emzy.png",
+        "category": 1,
+        "subcategory": 16,
+        "basic_properties": {
+            "health": 90,
+            "attack": 25,
+            "critical": 40,
+            "strong": 15,
+            "accuracy": 25,
+            "reactivity": 25,
+            "speed": 25
+        },
+        "description": "蕴含着邪恶之力的羽翼，能够带来恶魔的力量，并且是身份的象征",
+        "effecta": [
+            {
+                "part": "avatar-wing1",
+                "file": "wing-emzy.ccbi"
+            },
+            {
+                "part": "avatar-wing2",
+                "file": "wing-emzy.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "expiration": {day: 7}
+    },
 	{
 		"classId": 2,
 		"label": "三色宝石",
@@ -28565,7 +28589,7 @@ exports.data = [
         "label": "深渊战靴",
         "category": 1,
         "subcategory": 5,
-            "description": "工艺精良，设计华丽，且不失实用",
+        "description": "工艺精良，设计华丽，且不失实用",
         "effectf": [
             {
                 "part": "leftleg",

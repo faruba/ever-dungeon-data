@@ -2040,6 +2040,23 @@ exports.data = [
                 ]
             }
         ]
+    },
+    {
+        "dialogueId": 76,
+        "roles": [
+            {
+                "avatar": "dialogue-rolemaid.png",
+                "name": "凯特"
+            }
+        ],
+        "talks": [
+            {
+                "role":0 ,
+                "text": [
+                    "你需要将战斗力提升到1000才能进入竞技场"
+                ]
+            }
+        ]
     }
 
 

@@ -64,23 +64,22 @@ exports.data = {
             ID: 1,
             Name: "Master",
             DB: "10.4.4.188",
-            DB_Prefix: "Master",
+            DB_Prefix: "Master"
         },
         "Dh-local": {
             ID: 0,
-            Name: "Dh-local",
+            Name: "Develop",
             DB: "192.168.199.153",
-            DB_Prefix: "Develop",
+            DB_Prefix: "Develop"
         },
-        "qiang-test": {
+        "faruba": {
             ID: 0,
             Name: "Develop",
-            DB: "192.168.199.248",
+            DB: "192.168.199.153",
             DB_Prefix: "Develop",
-			Debug:true, // set this flag, don't check something
+			Debug: true
         }
- 
-    },
+     },
 
     IP_Config : {
         "192.168.1.4": [ {
@@ -102,18 +101,17 @@ exports.data = {
             Server: "Dh-local",
             Port: 7756
         } ],
-        "192.168.199.248": [ {
-            Server: "qiang-test",
+        "192.168.199.153": [ {
+            Server: "faruba",
             Port: 7756
-        } ],
- 
-    },
+        } ]
+     },
     Gate_Config:{
         "10.4.3.41":[
-            {ip:"10.4.3.41", port:7756},
+            {ip:"10.4.3.41", port:7756}
         ],
         "192.168.199.205":[
-            {ip:"92.168.199.205", port:7756},
-        ],
+            {ip:"192.168.199.205", port:7756}
+        ]
     }
 }

@@ -24,12 +24,14 @@ exports.data = [
                 "rate": 0.1,
                 "prize": [
                     {
+                        "rare":true,
                         "weight": 18,
                         "type": 0,
                         "value":1475,
                         "count": 1
                     },
                     {
+                        "rare":true,
                         "weight": 18,
                         "type": 0,
                         "value": 1478,
@@ -43,12 +45,14 @@ exports.data = [
                 "rate": 1,
                 "prize": [
                     {
+                        "rare":true,
                         "weight": 18,
                         "type": 0,
                         "value":1475,
                         "count": 1
                     },
                     {
+                        "rare":true,
                         "weight": 18,
                         "type": 0,
                         "value": 1478,
