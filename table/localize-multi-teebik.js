@@ -621,6 +621,13 @@ exports.data = {
 		"HuntingRank_Top5":"恭喜你進入狩獵任務前五，點擊領取獎勵。",
 		"HuntingRank_Top10":"恭喜你進入狩獵任務前十，點擊領取獎勵。",
 		"RU_SupperMan_Top5":"恭喜你進入鐵人試煉前五，點擊領取獎勵。",
-		"RU_SupperMan_Top10":"恭喜你進入鐵人試煉前十，點擊領取獎勵。"
+		"RU_SupperMan_Top10":"恭喜你進入鐵人試煉前十，點擊領取獎勵。",
+		"whoIsKing":"《王者角逐》活动奖励",
+		"justSoSo":"恭喜你完成活动，点击领取活动奖励！",
+		"battleForeNo1":"恭喜你成为战斗力冠军，点击领取奖励。",
+		"LongLiveTheKing":"恭喜你成为竞技场冠军，点击领取奖励。",
+		"just4Test":"测试服小福利",
+		"just4Test_txt":"祝各位2015万事如意",
+
     }
 };
