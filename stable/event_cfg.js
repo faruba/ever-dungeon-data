@@ -4,6 +4,7 @@ var diffDate = helperLib.diffDate;
 var checkBountyValidate =  helperLib.checkBountyValidate;
 var ConstValue = helperLib.ConstValue ;
 var dbLib = require('./db');
+var moment = require('moment');
 require('./globals');
 require('./define');
 var L = function(key) {
