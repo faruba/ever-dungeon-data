@@ -17,7 +17,7 @@ exports.data = [
 			"accuracy": 2,
 			"reactivity": 1,
 			"speed": 2,
-			"activeSpell": 0
+			"activeSpell": [0]
 		},
 		"defaultArmors": [
 			6,
@@ -39,7 +39,8 @@ exports.data = [
             {"type":0,"value":622,"count":1}
         ],
 		"levelId": 0,
-        "transId":197
+        "pkTransId":197,
+        "teammateTransId":256
 	},
 	{
 		"classId": 1,
@@ -59,7 +60,7 @@ exports.data = [
 			"accuracy": 2,
 			"reactivity": 2,
 			"speed": 2,
-			"activeSpell": 5
+			"activeSpell": [5]
 		},
 		"defaultArmors": [
 			6,
@@ -81,7 +82,8 @@ exports.data = [
             {"type":0,"value":652,"count":1}
         ],
 		"levelId": 0,
-        "transId":198
+        "TransId":198,
+        "teammateTransId":257
 
 	},
 	{
@@ -102,7 +104,7 @@ exports.data = [
 			"accuracy": 4,
 			"reactivity": 3,
 			"speed": 6,
-			"activeSpell": 8
+			"activeSpell": [8]
 		},
 		"defaultArmors": [
 			6,
@@ -124,7 +126,8 @@ exports.data = [
             {"type":0,"value":682,"count":1}
         ],
 		"levelId": 0,
-        "transId":199
+        "pkTransId":199,
+        "teammateTransId":258
 	},
 	{
 		"classId": 3,
@@ -6307,6 +6310,7 @@ exports.data = [
 			}
 		],
 		"animSpawn": "open",
+		"zOrderOffset": 100,
 		"bossFlag": true
 	},
 	{
@@ -7253,9 +7257,9 @@ exports.data = [
             712
         ],
         "property": {
-        "keyd":true,
-        "counterAttack": true
-    },
+            "keyd":true,
+            "counterAttack": true
+        },
         "levelId": 4
     },
     {
@@ -7307,9 +7311,9 @@ exports.data = [
             772
         ],
         "property": {
-        "keyd":true,
-        "counterAttack": true
-    },
+            "keyd":true,
+            "counterAttack": true
+        },
         "levelId": 6
     },
     {
@@ -8066,7 +8070,7 @@ exports.data = [
             "accuracy": 2,
             "reactivity": 1,
             "speed": 2,
-            "activeSpell": 195
+            "activeSpell": [195]
         },
         "defaultArmors": [
             6,
@@ -8088,7 +8092,8 @@ exports.data = [
             {"type":0,"value":1029,"count":1}
         ],
         "levelId": 0,
-        "transId":219
+        "pkTransId":219,
+        "teammateTransId":259
     },
     {
         "classId": 217,
@@ -8108,7 +8113,7 @@ exports.data = [
             "accuracy": 2,
             "reactivity": 2,
             "speed": 2,
-            "activeSpell": 201
+            "activeSpell": [201]
         },
         "defaultArmors": [
             6,
@@ -8130,7 +8135,8 @@ exports.data = [
             {"type":0,"value":1209,"count":1}
         ],
         "levelId": 0,
-        "transId":220
+        "pkTransId":220,
+        "teammateTransId":260
     },
     {
         "classId": 218,
@@ -8150,7 +8156,7 @@ exports.data = [
             "accuracy": 4,
             "reactivity": 3,
             "speed": 6,
-            "activeSpell": 207
+            "activeSpell": [207]
         },
         "defaultArmors": [
             6,
@@ -8172,7 +8178,8 @@ exports.data = [
             {"type":0,"value":1389,"count":1}
         ],
         "levelId": 0,
-        "transId":221
+        "pkTransId":221,
+        "teammateTransId":261
     },
     {
         "classId": 219,
@@ -8349,7 +8356,7 @@ exports.data = [
                 "level": 1
             },
             {
-                "id": 349,
+                "id": 350,
                 "level": 1
             }
         ]
@@ -9870,5 +9877,166 @@ exports.data = [
             }
         ],
         "scale": 1.2
+    },
+    {
+        "classId": 256,
+        "className": "战士(队友)",
+        "faction": "monster",
+        "classType": 4,
+        "avatar": "avatar.ccbi",
+        "emblem": [
+            "emblem-warrior.png",
+            "emblem-warrior2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            40,
+            41,
+            42,
+            43,
+            662,
+            712
+        ],
+        "property": {
+            "keyd":true,
+            "counterAttack": true
+        },
+        "levelId": 10
+    },
+    {
+        "classId": 257,
+        "className": "法师(队友)",
+        "faction": "monster",
+        "classType": 4,
+        "avatar": "avatar.ccbi",
+        "emblem": [
+            "emblem-mage.png",
+            "emblem-mage2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            32,
+            33,
+            34,
+            35,
+            652,
+            742
+        ],
+        "property": {
+            "keyd":true,
+            "counterAttack": true
+        },
+        "levelId": 10
+    },
+    {
+        "classId": 258,
+        "className": "牧师(队友)",
+        "faction": "monster",
+        "classType": 4,
+        "avatar": "avatar.ccbi",
+        "emblem": [
+            "emblem-priest.png",
+            "emblem-priest2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            36,
+            37,
+            38,
+            39,
+            682,
+            772
+        ],
+        "property": {
+            "keyd":true,
+            "counterAttack": true
+        },
+        "levelId": 10
+    },   {
+        "classId": 259,
+        "className": "狂战士(队友)",
+        "faction": "monster",
+        "classType": 4,
+        "avatar": "avatar1.ccbi",
+        "emblem": [
+            "emblem-warrior.png",
+            "emblem-warrior2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            879,
+            909,
+            939,
+            969,
+            999,
+            1029
+        ],
+        "property": {
+            "keyd":true,
+            "counterAttack": true
+        },
+        "levelId": 10
+    },
+    {
+        "classId": 260,
+        "className": "魔导师(队友)",
+        "faction": "monster",
+        "classType": 4,
+        "avatar": "avatar2.ccbi",
+        "emblem": [
+            "emblem-mage.png",
+            "emblem-mage2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            1059,
+            1089,
+            1119,
+            1149,
+            1179,
+            1209
+        ],
+        "property": {
+            "keyd":true,
+            "counterAttack": true
+        },
+        "levelId": 10
+    },
+    {
+        "classId": 261,
+        "className": "大主教(队友)",
+        "faction": "monster",
+        "classType": 4,
+        "avatar": "avatar3.ccbi",
+        "emblem": [
+            "emblem-priest.png",
+            "emblem-priest2.png"
+        ],
+        "defaultArmors": [
+            6,
+            10,
+            11,
+            1239,
+            1269,
+            1299,
+            1329,
+            1359,
+            1389
+        ],
+        "property": {
+            "keyd":true,
+            "counterAttack": true
+        },
+        "levelId": 10
     }
 ]

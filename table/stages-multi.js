@@ -444,6 +444,7 @@ var data = [
 	},
 	{
 		"chapterId": 3,
+        "powerLimit": 300,
 		"idx": 2,
         "style": "map-dungeon3",
 		"title":"dungeonname3.png",
@@ -566,6 +567,7 @@ var data = [
 	},
 	{
         "chapterId":4,
+        "powerLimit": 800,
 		"idx": 3,
         "style": "map-dungeon4",
 		"title":"dungeonname4.png",
@@ -688,6 +690,7 @@ var data = [
 	},
 	{
 		"chapterId": 5,
+        "powerLimit": 1300,
 		"idx": 4,
         "style": "map-dungeon5",
 		"title":"dungeonname5.png",
@@ -810,6 +813,7 @@ var data = [
 	},
 	{
 		"chapterId": 6,
+        "powerLimit": 2300,
 		"idx": 5,
         "style": "map-dungeon6",
 		"title":"dungeonname6.png",
@@ -932,6 +936,7 @@ var data = [
 	},
 	{
 		"chapterId": 7,
+        "powerLimit": 3200,
 		"idx": 6,
         "style": "map-dungeon7",
 		"title":"dungeonname7.png",
@@ -1054,6 +1059,7 @@ var data = [
 	},
 	{
 		"chapterId": 8,
+        "powerLimit": 3800,
 		"idx": 7,
         "style": "map-dungeon8",
 		"title":"dungeonname8.png",
@@ -1176,6 +1182,7 @@ var data = [
 	},
 	{
 		"chapterId": 9,
+        "powerLimit": 4400,
 		"idx": 8,
         "style": "map-dungeon9",
 		"title":"dungeonname9.png",
@@ -1298,6 +1305,7 @@ var data = [
 	},
 	{
 		"chapterId": 10,
+        "powerLimit": 5000,
 		"idx": 9,
         "style": "map-dungeon10",
 		"title":"dungeonname10.png",
@@ -1314,7 +1322,7 @@ var data = [
 				"dungeon": 128,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.63.state"}, 2 ] }
                 ]
                 }
 
@@ -1328,7 +1336,7 @@ var data = [
 				"dungeon": 129,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.64.state"}, 2 ] }
                 ]
                 }
 
@@ -1342,7 +1350,7 @@ var data = [
 				"dungeon": 130,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.65.state"}, 2 ] }
                 ]
                 }
 
@@ -1356,7 +1364,7 @@ var data = [
 				"dungeon": 131,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.66.state"}, 2 ] }
                 ]
                 }
 
@@ -1370,7 +1378,7 @@ var data = [
 				"dungeon": 132,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.67.state"}, 2 ] }
                 ]
                 }
 
@@ -1384,7 +1392,7 @@ var data = [
                 "dungeon":133,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.68.state"}, 2 ] }
                 ]
                 }
 
@@ -1398,7 +1406,7 @@ var data = [
                 "dungeon": 134,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.69.state"}, 2 ] }
                 ]
                 }
 
@@ -1419,6 +1427,7 @@ var data = [
 	},
 	{
 		"chapterId": 11,
+        "powerLimit": 5500,
 		"idx": 10,
         "style": "map-dungeon11",
 		"title":"dungeonname11.png",
@@ -1435,7 +1444,7 @@ var data = [
 				"dungeon": 136,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.70.state"}, 2 ] }
                 ]
                 }
 
@@ -1449,7 +1458,7 @@ var data = [
 				"dungeon": 137,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.71.state"}, 2 ] }
                 ]
                 }
 
@@ -1463,7 +1472,7 @@ var data = [
 				"dungeon": 138,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.72.state"}, 2 ] }
                 ]
                 }
 
@@ -1477,7 +1486,7 @@ var data = [
 				"dungeon": 139,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.73.state"}, 2 ] }
                 ]
                 }
 
@@ -1491,7 +1500,7 @@ var data = [
 			    "dungeon": 140,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.74.state"}, 2 ] }
                 ]
                 }
 
@@ -1505,7 +1514,7 @@ var data = [
                 "dungeon": 141,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.75.state"}, 2 ] }
                 ]
                 }
 
@@ -1519,7 +1528,7 @@ var data = [
                 "dungeon": 142,
                 "cond":
                 { "and": [
-                    { "==": [ { "type": "getProperty", "key": "stage.97.state"}, 2 ] }
+                    { "==": [ { "type": "getProperty", "key": "stage.76.state"}, 2 ] }
                 ]
                 }
 
