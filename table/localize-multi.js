@@ -145,6 +145,7 @@ exports.data = {
         "scenePVPNOPlayer":"PK对手不存在",
         "scenePVPNOTimeCoolDown":"PK冷却时间未到，需要使用{#1}宝石来立即恢复吗?",
         "scenePVPNotEnoughDia":"PK冷却时间未到，使用{#1}宝石来立即恢复吗?\n需要充值吗?",
+        "scenePVPCDNotDone":"PK冷却时间未到",
         "scenePVPCD":"PK冷却时间",
         "sceneRankNoData":"暂时还没有数据",
         "sceneRankFirstPage":"已经到第一页了",
