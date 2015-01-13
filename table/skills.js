@@ -18649,6 +18649,9 @@ exports.data = [
         {
           "type": "myMutex",
           "mutex": "Ahriman"
+        },
+        {
+          "type": "alive"
         }
       ],
       "action": [
@@ -18695,6 +18698,9 @@ exports.data = [
           "type": "event",
           "event": "onTurnEnd",
           "eventCount": 1
+        },
+        {
+          "type": "alive"
         }
       ],
       "targetSelection": {
