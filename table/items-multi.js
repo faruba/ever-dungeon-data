@@ -14,8 +14,28 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "蕴含着神圣之力的羽翼，能够带来天使的祝福，并且是身份的象征",
+        "description": "蕴含着神圣之力的羽翼，能够带来天使的祝福，并且是身份的象征。",
         "effecta": [
+            {
+                "part": "avatar-wing-1",
+                "file": "wing1-1.ccbi"
+            },
+            {
+                "part": "avatar-wing-2",
+                "file": "wing1-1.ccbi"
+            },
+            {
+                "part": "avatar-wing-3",
+                "file": "wing1-1.ccbi"
+            },
+            {
+                "part": "avatar-wing-4",
+                "file": "wing1-1.ccbi"
+            },
+            {
+                "part": "avatar-wing-5",
+                "file": "wing1-1.ccbi"
+            },
             {
                 "part": "avatar-wing1",
                 "file": "wing-sszy.ccbi"
@@ -25,8 +45,7 @@ exports.data = [
                 "file": "wing-sszy.ccbi"
             }
         ],
-        "storeOnly": true,
-        "expiration": {day: 7}
+        "storeOnly": true
     },
     {
         "classId": 1,
@@ -43,7 +62,7 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "蕴含着邪恶之力的羽翼，能够带来恶魔的力量，并且是身份的象征",
+        "description": "蕴含着邪恶之力的羽翼，能够带来恶魔的力量，并且是身份的象征。",
         "effecta": [
             {
                 "part": "avatar-wing1",
@@ -54,43 +73,39 @@ exports.data = [
                 "file": "wing-emzy.ccbi"
             }
         ],
-        "storeOnly": true,
-        "expiration": {day: 7}
+        "storeOnly": true
     },
-	{
-		"classId": 2,
-		"label": "三色宝石",
-		"icon": "stone3.png",
-		"category": 2,
-		"subcategory": 2,
-		"description": "随机强化经验、熟练、金币3项特殊属性的宝石。",
-		"stack": 99,
-		"sellprice": 300,
-		"transPrize": [
-			{
-				"type": 0,
-				"value": 853,
-				"count": 2
-			}
-		]
-	},
-	{
-		"classId": 3,
-		"label": "力量之石",
-		"icon": "stone4.png",
-		"category": 2,
-		"subcategory": 3,
-		"description": "能够强化攻击属性的宝石。",
-		"stack": 99,
-		"sellprice": 300,
-		"transPrize": [
-			{
-				"type": 0,
-				"value": 853,
-				"count": 2
-			}
-		]
-	},
+    {
+        "classId": 2,
+        "label": "妖精的加护",
+        "icon": "item-wing-emzy.png",
+        "category": 1,
+        "subcategory": 17,
+        "description": "由妖精利用稀有水晶打造，蕴含神秘的力量。",
+        "effecta": [
+            {
+                "part": "avatar-effect",
+                "file": "godring.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "autoUse": true
+    },
+    {
+        "classId": 3,
+        "label": "眼镜",
+        "icon": "rfashion-glass1.png",
+        "category": 1,
+        "subcategory": 15,
+        "description": "能让人看上去更有文化",
+        "effecta": [
+            {
+                "part": "avatar-glass",
+                "file": "rfashion-glass1.ccbi"
+            }
+        ],
+        "storeOnly": true
+    },
 	{
 		"classId": 4,
 		"label": "生命之石",
