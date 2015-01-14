@@ -3315,6 +3315,7 @@ exports.data = [
 			"speed": 1
 		},
 		"effectAttack": 9,
+        "collectId": 214001,
         "skill": [
             {
                 "id": 187,
@@ -8829,6 +8830,7 @@ exports.data = [
         "soundAttack": "liulangattack.mp3",
         "soundDie": "liulangdie.mp3",
         "effectAttack": 8,
+        "collectId": 220001,
         "skill": [
             {
                 "id": 185,
@@ -8998,6 +9000,7 @@ exports.data = [
         "soundAttack": "liulangattack.mp3",
         "soundDie": "liulangdie.mp3",
         "effectAttack": 9,
+        "collectId": 215001,
         "skill": [
             {
                 "id": 332,
@@ -9039,6 +9042,7 @@ exports.data = [
         "soundAttack": "shilaimuattack.mp3",
         "soundDie": "shilaimudie.mp3",
         "effectAttack": 9,
+        "collectId": 216001,
         "skill": [
             {
                 "id": 102,
@@ -9681,6 +9685,7 @@ exports.data = [
         "soundAttack": "shourenattack.mp3",
         "soundDie": "shourendie.mp3",
         "effectAttack": 9,
+        "collectId": 236001,
         "skill": [
             {
                 "id": 26,
@@ -9783,6 +9788,7 @@ exports.data = [
         "soundAttack": "shilaimuattack.mp3",
         "soundDie": "shilaimudie.mp3",
         "effectAttack": 9,
+        "collectId": 227001,
         "skill": [
             {
                 "id": 188,

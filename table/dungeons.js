@@ -41266,7 +41266,7 @@ exports.data = [
                 }
             ]}
         },
-        "collectId":196001,
+        "collectId":218001,
         "global": [
             {id: 211,from: 0, to: 2,dropPrize:179}],
         "levels" :[
@@ -41275,6 +41275,12 @@ exports.data = [
                     {"pool":"PoolS9","from":10,to:13,skill:[{id:154}],dropPrize:179},
                     {"pool":"PoolS9R","from":0,to:2,skill:[{id:154}],dropPrize:179},
                     {"pool":"bossPool","count":1},
+                    {
+                        "id": 161,
+                        "count":1,
+                        "collectId":219001,
+                        "questOnly":true
+                    },
                     {
                         "id": 149,
                         "count":2
@@ -41286,6 +41292,12 @@ exports.data = [
                     {"pool":"PoolS9","from":10,to:13,skill:[{id:154}],dropPrize:179},
                     {"pool":"PoolS9R","from":0,to:2,skill:[{id:154}],dropPrize:179},
                     {"pool":"bossPool","count":1,skill:[{id:153}],dropPrize:179},
+                    {
+                        "id": 161,
+                        "count":1,
+                        "collectId":219001,
+                        "questOnly":true
+                    },
                     {
                         "id": 149,
                         "count":2
@@ -41395,7 +41407,7 @@ exports.data = [
                 }
             ]}
         },
-        "collectId":196001,
+        "collectId":221001,
         "global": [
             {id: 211,from: 0, to: 2,dropPrize:180}],
         "levels" :[
@@ -41404,6 +41416,12 @@ exports.data = [
                     {"pool":"PoolS9","from":10,to:13,skill:[{id:154}],dropPrize:180},
                     {"pool":"PoolS9R","from":0,to:2,skill:[{id:154}],dropPrize:180},
                     {"pool":"bossPool","count":1},
+                    {
+                        "id": 157,
+                        "count":1,
+                        "collectId":222001,
+                        "questOnly":true
+                    },
                     {
                         "id": 149,
                         "count":2
@@ -41415,6 +41433,12 @@ exports.data = [
                     {"pool":"PoolS9","from":10,to:13,skill:[{id:154}],dropPrize:180},
                     {"pool":"PoolS9R","from":0,to:2,skill:[{id:154}],dropPrize:180},
                     {"pool":"bossPool","count":1,skill:[{id:153}],dropPrize:180},
+                    {
+                        "id": 157,
+                        "count":2,
+                        "collectId":222001,
+                        "questOnly":true
+                    },
                     {
                         "id": 149,
                         "count":2
@@ -41524,7 +41548,7 @@ exports.data = [
                 }
             ]}
         },
-        "collectId":196001,
+        "collectId":223001,
         "global": [
             {id: 211,from: 0, to: 2,dropPrize:181}],
         "levels" :[
@@ -41544,6 +41568,12 @@ exports.data = [
                     {"pool":"PoolS9","from":10,to:13,skill:[{id:154}],dropPrize:181},
                     {"pool":"PoolS9R","from":0,to:2,skill:[{id:154}],dropPrize:181},
                     {"pool":"bossPool","count":1,skill:[{id:153}],dropPrize:181},
+                    {
+                        "id": 115,
+                        "count":1,
+                        "collectId":224001,
+                        "questOnly":true
+                    },
                     {
                         "id": 149,
                         "count":2
@@ -41653,7 +41683,7 @@ exports.data = [
                 }
             ]}
         },
-        "collectId":196001,
+        "collectId":225001,
         "global": [
             {id: 211,from: 0, to: 2,dropPrize:182}],
         "levels" :[
@@ -41662,6 +41692,12 @@ exports.data = [
                     {"pool":"PoolS9","from":10,to:13,skill:[{id:154}],dropPrize:182},
                     {"pool":"PoolS9R","from":0,to:2,skill:[{id:154}],dropPrize:182},
                     {"pool":"bossPool","count":1},
+                    {
+                        "id": 151,
+                        "count":1,
+                        "collectId":226001,
+                        "questOnly":true
+                    },
                     {
                         "id": 149,
                         "count":2
@@ -41673,6 +41709,12 @@ exports.data = [
                     {"pool":"PoolS9","from":10,to:13,skill:[{id:154}],dropPrize:182},
                     {"pool":"PoolS9R","from":0,to:2,skill:[{id:154}],dropPrize:182},
                     {"pool":"bossPool","count":1,skill:[{id:153}],dropPrize:182},
+                    {
+                        "id": 151,
+                        "count":1,
+                        "collectId":226001,
+                        "questOnly":true
+                    },
                     {
                         "id": 149,
                         "count":2
@@ -41782,7 +41824,7 @@ exports.data = [
                 }
             ]}
         },
-        "collectId":196001,
+        "collectId":228001,
         "global": [
             {id: 211,from: 0, to: 2,dropPrize:183}],
         "levels" :[
@@ -41791,6 +41833,12 @@ exports.data = [
                     {"pool":"PoolS9","from":10,to:13,skill:[{id:154}],dropPrize:183},
                     {"pool":"PoolS9R","from":0,to:2,skill:[{id:154}],dropPrize:183},
                     {"pool":"bossPool","count":1},
+                    {
+                        "id": 152,
+                        "count":1,
+                        "collectId":229001,
+                        "questOnly":true
+                    },
                     {
                         "id": 149,
                         "count":2
@@ -41802,6 +41850,12 @@ exports.data = [
                     {"pool":"PoolS9","from":10,to:13,skill:[{id:154}],dropPrize:183},
                     {"pool":"PoolS9R","from":0,to:2,skill:[{id:154}],dropPrize:183},
                     {"pool":"bossPool","count":1,skill:[{id:153}],dropPrize:183},
+                    {
+                        "id": 152,
+                        "count":1,
+                        "collectId":229001,
+                        "questOnly":true
+                    },
                     {
                         "id": 149,
                         "count":2
@@ -41911,7 +41965,7 @@ exports.data = [
                 }
             ]}
         },
-        "collectId":196001,
+        "collectId":230001,
         "global": [
             {id: 211,from: 0, to: 2,dropPrize:184}],
         "levels" :[
@@ -41931,6 +41985,12 @@ exports.data = [
                     {"pool":"PoolS9","from":10,to:13,skill:[{id:154}],dropPrize:184},
                     {"pool":"PoolS9R","from":0,to:2,skill:[{id:154}],dropPrize:184},
                     {"pool":"bossPool","count":1,skill:[{id:153}],dropPrize:184},
+                    {
+                        "id": 115,
+                        "count":1,
+                        "collectId":231001,
+                        "questOnly":true
+                    },
                     {
                         "id": 149,
                         "count":2
@@ -42040,6 +42100,7 @@ exports.data = [
                 }
             ]}
         },
+        "collectId":232001,
         "global": [
             {id: 211,from: 0, to: 2,dropPrize:185}],
         "levels" :[
@@ -42048,6 +42109,12 @@ exports.data = [
                     {"pool":"PoolS9","from":10,to:13,skill:[{id:154}],dropPrize:185},
                     {"pool":"PoolS9R","from":0,to:2,skill:[{id:154}],dropPrize:185},
                     {"pool":"bossPool","count":1},
+                    {
+                        "id": 150,
+                        "count":1,
+                        "collectId":233001,
+                        "questOnly":true
+                    },
                     {
                         "id": 149,
                         "count":2
@@ -42424,7 +42491,7 @@ exports.data = [
                 }
             ]}
         },
-        "collectId":197001,
+        "collectId":234001,
         "global": [
             {id: 211,from: 0, to: 2,dropPrize:193}],
         "levels" :[
@@ -42444,6 +42511,12 @@ exports.data = [
                     {"pool":"PoolS9","from":10,to:13,skill:[{id:154}],dropPrize:193},
                     {"pool":"PoolS9R","from":0,to:2,skill:[{id:154}],dropPrize:193},
                     {"pool":"bossPool","count":1,skill:[{id:153}],dropPrize:193},
+                    {
+                        "id": 103,
+                        "count":1,
+                        "collectId":235001,
+                        "questOnly":true
+                    },
                     {
                         "id": 149,
                         "count":2
@@ -42547,7 +42620,7 @@ exports.data = [
                 }
             ]}
         },
-        "collectId":197001,
+        "collectId":237001,
         "global": [
             {id: 211,from: 0, to: 2,dropPrize:194}],
         "levels" :[
@@ -42567,6 +42640,12 @@ exports.data = [
                     {"pool":"PoolS9","from":10,to:13,skill:[{id:154}],dropPrize:194},
                     {"pool":"PoolS9R","from":0,to:2,skill:[{id:154}],dropPrize:194},
                     {"pool":"bossPool","count":1,skill:[{id:153}],dropPrize:194},
+                    {
+                        "id": 155,
+                        "count":1,
+                        "collectId":235001,
+                        "questOnly":true
+                    },
                     {
                         "id": 149,
                         "count":2

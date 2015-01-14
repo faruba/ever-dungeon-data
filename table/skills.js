@@ -18562,8 +18562,9 @@ exports.data = [
       },
       "action": [
         {
-          "type": "installSpell",
-          "spell": 349
+          "type": "playEffect",
+          "effect": 79,
+          "pos": "target"
         },
         {
           "type": "delay"
@@ -18577,6 +18578,10 @@ exports.data = [
           "type": "playEffect",
           "effect": 80,
           "pos": "self"
+        },
+        {
+          "type": "installSpell",
+          "spell": 349
         }
       ]
     }
@@ -18585,11 +18590,6 @@ exports.data = [
     "skillId": 349,
     "config": {
       "installAction": [
-        {
-          "type": "playEffect",
-          "effect": 79,
-          "pos": "self"
-        },
         {
           "type": "damage",
           "damageType": "Spell",
@@ -18720,5 +18720,209 @@ exports.data = [
         }
       ]
     }
-  }
+  },
+    {
+        "skillId": 352,
+        "label": L("dic_skill_348_label"), //加特林扫射
+        "config": {
+            "triggerCondition": [
+                {
+                    "type": "countDown",
+                    "cd": 15
+                }
+            ],
+            "targetSelection": {
+                "pool": "blocks",
+                "filter": [
+                    {
+                        "type": "anchor",
+                        "shape": 2,
+                        "length": 1,
+                        "startDistance": 1,
+                        "anchorPos": {
+                            "pool": "select-block",
+                            "filter": [
+                                {
+                                    "type": "anchor",
+                                    "shape": 1,
+                                    "length": 2,
+                                    "startDistance": 0,
+                                    "anchorPos": {
+                                        "pool": "self",
+                                        "filter": [
+                                            {
+                                                "type": "count",
+                                                "count": 1
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "action": [
+                {
+                    "type": "installSpell",
+                    "spell": 353
+                },
+                {
+                    "type": "playAction",
+                    "motion": "1",
+                    "pos": "self"
+                },
+                {
+                    "type": "playEffect",
+                    "effect": 80,
+                    "pos": "target"
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 353,
+        "config": {
+            "installAction": [
+                {
+                    "type": "damage",
+                    "damageType": "Spell",
+                    "isRange": true,
+                    "delay": 0.4,
+                    "formular": {
+                        "c": 300
+                    }
+                }
+            ],
+            "targetSelection": {
+                "pool": "objects",
+                "filter": [
+                    {
+                        "type": "same-block"
+                    },
+                    {
+                        "type": "same-faction",
+                        "faction": "hero"
+                    },
+                    {
+                        "type": "alive"
+                    },
+                    {
+                        "type": "visible"
+                    }
+                ]
+            },
+            "availableCondition": [
+                {
+                    "type": "effectCount",
+                    "count": 1
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 354,
+        "label": L("dic_skill_348_label"), //脉冲光束炮
+        "config": {
+            "triggerCondition": [
+                {
+                    "type": "countDown",
+                    "cd": 20
+                }
+            ],
+            "targetSelection": {
+                "pool": "select-object",
+                "filter": [
+                    {
+                        "type": "anchor",
+                        "shape": 1,
+                        "length": 3,
+                        "startDistance": 1,
+                        "anchorPos": {
+                            "pool": "self",
+                            "filter": [
+                                {
+                                    "type": "count",
+                                    "count": 1
+                                }
+                            ]
+                        },
+                        "anchorDirPos": {
+                            "pool": "select-object"
+                        }
+                    },
+                    {
+                        "type": "alive"
+                    },
+                    {
+                        "type": "visible"
+                    },
+                    {
+                        "type": "target-faction-with-flag",
+                        "flag": "attackable"
+                    },
+                    {
+                        "type": "count",
+                        "count": 1
+                    }
+                ]
+            },
+            "action": [
+                {
+                    "type": "playAction",
+                    "motion": "1",
+                    "pos": "self"
+                },
+                {
+                    "type": "playEffect",
+                    "effect": 80,
+                    "pos": "self"
+                },
+                {
+                    "type": "installSpell",
+                    "spell": 355
+                }
+            ]
+        }
+    },
+    {
+        "skillId": 355,
+        "config": {
+            "installAction": [
+                {
+                    "type": "damage",
+                    "damageType": "Spell",
+                    "isRange": true,
+                    "delay": 0.4,
+                    "formular": {
+                        "c": 300
+                    }
+                }
+            ],
+            "targetSelection": {
+                "pool": "objects",
+                "filter": [
+                    {
+                        "type": "same-block"
+                    },
+                    {
+                        "type": "same-faction",
+                        "faction": "hero"
+                    },
+                    {
+                        "type": "alive"
+                    },
+                    {
+                        "type": "visible"
+                    }
+                ]
+            },
+            "availableCondition": [
+                {
+                    "type": "effectCount",
+                    "count": 1
+                }
+            ]
+        }
+    }
 ]

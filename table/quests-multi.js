@@ -5030,7 +5030,7 @@ exports.data = [
         "prize":[
             {
                 "type":1,
-                "count":2500
+                "count":2000
             }
         ],
         "cond":
@@ -5055,7 +5055,7 @@ exports.data = [
         "prize":[
             {
                 "type":1,
-                "count":2500
+                "count":2200
             }
         ],
         "cond":
@@ -5080,7 +5080,7 @@ exports.data = [
         "prize":[
             {
                 "type":1,
-                "count":2500
+                "count":2400
             }
         ],
         "cond":
@@ -5105,7 +5105,7 @@ exports.data = [
         "prize":[
             {
                 "type":1,
-                "count":2500
+                "count":2600
             }
         ],
         "cond":
@@ -5130,7 +5130,7 @@ exports.data = [
         "prize":[
             {
                 "type":1,
-                "count":2500
+                "count":2800
             }
         ],
         "cond":
@@ -5155,7 +5155,7 @@ exports.data = [
         "prize":[
             {
                 "type":1,
-                "count":2500
+                "count":3000
             }
         ],
         "cond":
@@ -5180,7 +5180,7 @@ exports.data = [
         "prize":[
             {
                 "type":1,
-                "count":2500
+                "count":3200
             },
             {
                 "type":2,
@@ -5211,7 +5211,7 @@ exports.data = [
         "prize":[
             {
                 "type":1,
-                "count":3000
+                "count":2600
             }
         ],
         "cond":
@@ -5236,7 +5236,7 @@ exports.data = [
         "prize":[
             {
                 "type":1,
-                "count":3000
+                "count":2800
             }
         ],
         "cond":
@@ -5286,7 +5286,7 @@ exports.data = [
         "prize":[
             {
                 "type":1,
-                "count":3000
+                "count":3200
             }
         ],
         "cond":
@@ -5311,7 +5311,7 @@ exports.data = [
         "prize":[
             {
                 "type":1,
-                "count":3000
+                "count":3300
             }
         ],
         "cond":
@@ -5336,7 +5336,7 @@ exports.data = [
         "prize":[
             {
                 "type":1,
-                "count":3000
+                "count":3400
             }
         ],
         "cond":
@@ -5361,7 +5361,7 @@ exports.data = [
         "prize":[
             {
                 "type":1,
-                "count":3000
+                "count":3500
             },
             {
                 "type":2,
@@ -5822,5 +5822,716 @@ exports.data = [
             { "==": [ { "type": "getProperty", "key": "quests.212.complete"}, true ] }
         ]
         }
-    }
+    },
+    {
+        "questId":214,
+        "title":"考古学家的委托",
+        "desc":"断肠崖是曾经的古战场，因此有大量骷髅尸体，收集骷髅来做考古素材吧。",
+        "objects":[
+            {
+                "type":0,
+                "label":"收集骷髅",
+                "collect":214001,
+                "count":25
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":2500
+            },
+            {
+                "type":0,
+                "value":857,
+                "count":4
+            },
+            {
+                "type":0,
+                "value":538,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.124.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":215,
+        "title":"考古学家的委托",
+        "desc":"断肠崖是曾经的古战场，因此有大量骷髅尸体，收集骷髅来做考古素材吧。",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭吸血鬼",
+                "collect":215001,
+                "count":25
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":2500
+            },
+            {
+                "type":0,
+                "value":857,
+                "count":4
+            },
+            {
+                "type":0,
+                "value":538,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.187.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":216,
+        "title":"考古学家的委托",
+        "desc":"断肠崖是曾经的古战场，因此有大量骷髅尸体，收集骷髅来做考古素材吧。",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭水元素",
+                "collect":216001,
+                "count":25
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3000
+            },
+            {
+                "type":0,
+                "value":1470,
+                "count":4
+            },
+            {
+                "type":0,
+                "value":538,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.190.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":217,
+        "title":"考古学家的委托",
+        "desc":"断肠崖是曾经的古战场，因此有大量骷髅尸体，收集骷髅来做考古素材吧。",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭皇宫弩手",
+                "collect":217001,
+                "count":10
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3000
+            },
+            {
+                "type":0,
+                "value":1470,
+                "count":4
+            },
+            {
+                "type":0,
+                "value":538,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.193.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":218,
+        "questStage":135,
+        "title":"探索2-1I",
+        "desc":"对2-1I进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-1I",
+                "collect":218001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3500
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.197.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":219,
+        "title":"寻找神奇草药",
+        "desc":"答应卡琳帮她在【2-1I】中，寻找到医治父亲的神奇草药。",
+        "objects":[
+            {
+                "type":0,
+                "label":"采集3株神奇草药",
+                "collect":219001,
+                "count":2
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3000
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.197.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":220,
+        "title":"考古学家的委托",
+        "desc":"断肠崖是曾经的古战场，因此有大量骷髅尸体，收集骷髅来做考古素材吧。",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭剑兵",
+                "collect":220001,
+                "count":20
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3600
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.197.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":221,
+        "questStage":136,
+        "title":"探索2-1II",
+        "desc":"对2-1II进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-1II",
+                "collect":221001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3500
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.218.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":222,
+        "questStage":136,
+        "title":"拯救村民",
+        "desc":"佣兵抓走大量村民做人质，前去【2-2II】的前哨战搭救他们。",
+        "objects":[
+            {
+                "type":0,
+                "label":"救回被捉走的村民",
+                "collect":222001,
+                "count":2
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3000
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.218.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":223,
+        "questStage":137,
+        "title":"探索2-1II",
+        "desc":"对2-1III进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-1III",
+                "collect":223001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3700
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.221.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":224,
+        "questStage":137,
+        "title":"击破金属小史莱姆",
+        "desc":"有人发现哥布林与野狼携手，在【2-1III】伺机而动",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭金属小史莱姆",
+                "collect":224001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3500
+            },
+            {
+                "type":0,
+                "value":871,
+                "count":1
+            },
+            {
+                "type":0,
+                "value":540,
+                "count":1
+            }
+
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.221.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":225,
+        "questStage":138,
+        "title":"探索2-1IV",
+        "desc":"对2-1IV进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-1IV",
+                "collect":225001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3900
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.223.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":226,
+        "title":"寻找卡姆矿石",
+        "desc":"山姆大叔想要一些卡姆矿石，在【2-1IV】储量比较丰富哦",
+        "objects":[
+            {
+                "type":0,
+                "label":"采集2枚卡姆矿石",
+                "collect":226001,
+                "count":2
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3000
+            },
+            {
+                "type":0,
+                "value":1470,
+                "count":4
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.223.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":227,
+        "title":"考古学家的委托",
+        "desc":"断肠崖是曾经的古战场，因此有大量骷髅尸体，收集骷髅来做考古素材吧。",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭土元素",
+                "collect":227001,
+                "count":25
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3800
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.223.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":228,
+        "questStage":139,
+        "title":"探索2-1V",
+        "desc":"对2-1V进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-1V",
+                "collect":228001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4000
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.225.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":229,
+        "title":"寻找卡姆矿石",
+        "desc":"山姆大叔想要一些卡姆矿石，在【2-1IV】储量比较丰富哦",
+        "objects":[
+            {
+                "type":0,
+                "label":"采集3枚卡姆矿石",
+                "collect":229001,
+                "count":3
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3200
+            },
+            {
+                "type":0,
+                "value":1470,
+                "count":4
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.225.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":230,
+        "questStage":140,
+        "title":"探索2-1VI",
+        "desc":"对2-1VI进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-1VI",
+                "collect":230001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4200
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.228.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":231,
+        "questStage":140,
+        "title":"击破金属小史莱姆",
+        "desc":"有人发现哥布林与野狼携手，在【2-1VI】伺机而动",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭金属小史莱姆",
+                "collect":231001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3500
+            },
+            {
+                "type":0,
+                "value":871,
+                "count":1
+            },
+            {
+                "type":0,
+                "value":540,
+                "count":1
+            }
+
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.228.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":232,
+        "questStage":141,
+        "title":"探索2-1VII",
+        "desc":"对2-1VII进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-1VII",
+                "collect":232001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4800
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.230.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":233,
+        "questStage":141,
+        "title":"找寻失踪的宝箱",
+        "desc":"商队成员救回了，不过一起的宝箱还没找到，前往【VII】替他们找回宝箱。",
+        "objects":[
+            {
+                "type":0,
+                "label":"找回商队的宝箱",
+                "collect":233001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.230.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":234,
+        "questStage":143,
+        "title":"探索2-2I",
+        "desc":"对2-2I进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-12",
+                "collect":234001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":5200
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.232.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":235,
+        "questStage":143,
+        "title":"击破金属史莱姆",
+        "desc":"有人发现哥布林与野狼携手，在【2-2I】伺机而动",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭金属史莱姆",
+                "collect":235001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4500
+            },
+            {
+                "type":0,
+                "value":871,
+                "count":2
+            },
+            {
+                "type":0,
+                "value":540,
+                "count":1
+            }
+
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.232.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":236,
+        "title":"考古学家的委托",
+        "desc":"断肠崖是曾经的古战场，因此有大量骷髅尸体，收集骷髅来做考古素材吧。",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭蜥蜴射手",
+                "collect":236001,
+                "count":10
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3800
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.232.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":237,
+        "questStage":144,
+        "title":"探索2-2II",
+        "desc":"对2-2II进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-2II",
+                "collect":237001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":5400
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.234.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":238,
+        "questStage":144,
+        "title":"拯救村民",
+        "desc":"佣兵抓走大量村民做人质，前去【2-2II】的前哨战搭救他们。",
+        "objects":[
+            {
+                "type":0,
+                "label":"救回被捉走的村民",
+                "collect":238001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4000
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.234.complete"}, true ] }
+        ]
+        }
+
+    },
 ]
