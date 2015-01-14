@@ -2090,7 +2090,7 @@ var data = [
                 eventName: "event_goblin",
                 "formularId":1,
                 condition: function (obj, util) {
-                    return obj.counters.currentPKCount < obj.getTotalPkTimes();
+                    return obj.counters.currentPKCount < obj.getTotalPkTimes() + obj.getAddPkCount();
                 },
                 initialAction: function (obj) {
                     if (obj.counters.currentPKCount) {
