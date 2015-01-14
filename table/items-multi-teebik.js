@@ -14,8 +14,28 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "蘊含著神聖之力的羽翼，能夠帶來天使的祝福，並且是身份的象徵",
+        "description": "蘊含著神聖之力的羽翼，能夠帶來天使的祝福，並且是身份的象徵。",
         "effecta": [
+            {
+                "part": "avatar-wing-1",
+                "file": "wing1-1.ccbi"
+            },
+            {
+                "part": "avatar-wing-2",
+                "file": "wing1-1.ccbi"
+            },
+            {
+                "part": "avatar-wing-3",
+                "file": "wing1-1.ccbi"
+            },
+            {
+                "part": "avatar-wing-4",
+                "file": "wing1-1.ccbi"
+            },
+            {
+                "part": "avatar-wing-5",
+                "file": "wing1-1.ccbi"
+            },
             {
                 "part": "avatar-wing1",
                 "file": "wing-sszy.ccbi"
@@ -25,8 +45,7 @@ exports.data = [
                 "file": "wing-sszy.ccbi"
             }
         ],
-        "storeOnly": true,
-        "expiration": {day: 7}
+        "storeOnly": true
     },
     {
         "classId": 1,
@@ -43,7 +62,7 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "蘊含著邪惡之力的羽翼，能夠帶來惡魔的力量，並且是身份的象徵",
+        "description": "蘊含著邪惡之力的羽翼，能夠帶來惡魔的力量，並且是身份的象徵。",
         "effecta": [
             {
                 "part": "avatar-wing1",
@@ -54,42 +73,38 @@ exports.data = [
                 "file": "wing-emzy.ccbi"
             }
         ],
-        "storeOnly": true,
-        "expiration": {day: 7}
+        "storeOnly": true
     },
     {
         "classId": 2,
-        "label": "三色寶石",
-        "icon": "stone3.png",
-        "category": 2,
-        "subcategory": 2,
-        "description": "隨機強化經驗、熟練、金幣3項特殊屬性的寶石。",
-        "stack": 99,
-        "sellprice": 300,
-        "transPrize": [
+        "label": "妖精的加護",
+        "icon": "item-wing-emzy.png",
+        "category": 1,
+        "subcategory": 17,
+        "description": "由妖精利用稀有水晶打造，蘊含神秘的力量。",
+        "effecta": [
             {
-                "type": 0,
-                "value": 853,
-                "count": 2
+                "part": "avatar-effect",
+                "file": "godring.ccbi"
             }
-        ]
+        ],
+        "storeOnly": true,
+        "autoUse": true
     },
     {
         "classId": 3,
-        "label": "力量之石",
-        "icon": "stone4.png",
-        "category": 2,
-        "subcategory": 3,
-        "description": "能夠強化攻擊屬性的寶石。",
-        "stack": 99,
-        "sellprice": 300,
-        "transPrize": [
+        "label": "眼鏡",
+        "icon": "rfashion-glass1.png",
+        "category": 1,
+        "subcategory": 15,
+        "description": "能讓人看上去更有文化",
+        "effecta": [
             {
-                "type": 0,
-                "value": 853,
-                "count": 2
+                "part": "avatar-glass",
+                "file": "rfashion-glass1.ccbi"
             }
-        ]
+        ],
+        "storeOnly": true
     },
     {
         "classId": 4,
