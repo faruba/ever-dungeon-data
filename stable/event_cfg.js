@@ -155,6 +155,7 @@ exports.events = {
     reset: function(obj, util) {
       obj.timestamp.currentPKCount = util.currentTime();
       obj.counters.currentPKCount = 0;
+      obj.counters.addPKCount = 0;
       return obj.flags.rcvAward = false;
     }
   }
