@@ -14,7 +14,7 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "受到了大天使的加護的羽翼，能夠帶來強大的守護之力，是人類守護者身份的象徵。",
+        "description": "受到了大天使的加護的羽翼。",
         "effecta": [
             {
                 "part": "avatar-wing-1",
@@ -62,7 +62,7 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "與惡魔簽訂契約從而得到巨大的力量的羽翼，是最強勇者身份的象徵。",
+        "description": "與惡魔簽訂契約得到巨大的力量的羽翼。",
         "effecta": [
             {
                 "part": "avatar-wing1",
@@ -78,13 +78,13 @@ exports.data = [
     {
         "classId": 2,
         "label": "妖精的加護",
-        "icon": "rfashion-bjgh1.png",
+        "icon": "rfasion-bjgh1.png",
         "category": 1,
         "subcategory": 17,
-        "description": "相傳是由巨龍體內獲得的極其罕見的水晶打造，蘊含著強大且神秘的力量。",
+        "description": "妖精的水晶，蘊含著強大且神秘的力量。",
         "effecta": [
             {
-                "part": "avatar-effect",
+                "part": "effect",
                 "file": "godring.ccbi"
             }
         ],
@@ -93,14 +93,14 @@ exports.data = [
     {
         "classId": 3,
         "label": "萌系眼鏡",
-        "icon": "rfashion-glass1.png",
+        "icon": "rfasion-glass1.png",
         "category": 1,
         "subcategory": 15,
-        "description": "從商隊帶來的一種飾品，最初被文人使用，最近逐漸在勇者中也流行起來。",
+        "description": "最近在勇者中也流行的一种饰品。",
         "effecta": [
             {
-                "part": "avatar-glass",
-                "file": "rfashion-glass1.ccbi"
+                "part": "glass",
+                "file": "rfasion-glass1.ccbi"
             }
         ],
         "storeOnly": true
@@ -20248,7 +20248,7 @@ exports.data = [
         "label": "榮譽套裝",
         "category": 1,
         "subcategory": 12,
-        "description": "王國賜予VIP專屬的榮譽，鑲嵌著由奧拉夫斬殺魔龍的鱗片，並由頂級工匠打造。",
+        "description": "王國賜予VIP專屬的榮譽。",
         "sellprice": 1500,
         "effectf": [
             {
@@ -20307,7 +20307,7 @@ exports.data = [
         "label": "榮譽頭冠",
         "category": 1,
         "subcategory": 13,
-        "description": "王國賜予VIP專屬的榮譽，由人類英雄奧拉夫與工匠一同打造，蘊含神秘的力量。",
+        "description": "王國賜予VIP專屬的榮譽。",
         "sellprice": 500,
         "effectf": [
             {
@@ -21749,7 +21749,7 @@ exports.data = [
         "label": "榮譽套裝",
         "category": 1,
         "subcategory": 12,
-        "description": "王國賜予VIP專屬的榮譽，鑲嵌著由奧拉夫斬殺魔龍的鱗片，並由頂級工匠打造。",
+        "description": "王國賜予VIP專屬的榮譽。",
         "sellprice": 1500,
         "effectf": [
             {
@@ -21804,7 +21804,7 @@ exports.data = [
         "label": "榮譽頭冠",
         "category": 1,
         "subcategory": 13,
-        "description": "王國賜予VIP專屬的榮譽，由人類英雄奧拉夫與工匠一同打造，蘊含神秘的力量。",
+        "description": "王國賜予VIP專屬的榮譽。",
         "sellprice": 500,
         "effectf": [
             {
