@@ -9742,6 +9742,7 @@ exports.data = [
         "soundWound": "shourenwound.mp3",
         "soundAttack": "shourenattack.mp3",
         "soundDie": "shourendie.mp3",
+        "collectId": 243001,
         "skill": [
             {
                 "id": 335,

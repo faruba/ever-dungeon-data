@@ -6511,12 +6511,12 @@ exports.data = [
     {
         "questId":238,
         "questStage":144,
-        "title":"拯救村民",
+        "title":"拯救村姑",
         "desc":"佣兵抓走大量村民做人质，前去【2-2II】的前哨战搭救他们。",
         "objects":[
             {
                 "type":0,
-                "label":"救回被捉走的村民",
+                "label":"救回被捉走的村姑",
                 "collect":238001,
                 "count":1
             }
@@ -6534,4 +6534,306 @@ exports.data = [
         }
 
     },
+    {
+        "questId":239,
+        "questStage":145,
+        "title":"探索2-2III",
+        "desc":"对2-2III进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-2III",
+                "collect":239001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":5600
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.237.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":240,
+        "title":"寻找卡姆矿石",
+        "desc":"山姆大叔想要一些卡姆矿石，在【2-2III】储量比较丰富哦",
+        "objects":[
+            {
+                "type":0,
+                "label":"采集2枚卡姆矿石",
+                "collect":240001,
+                "count":2
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4000
+            },
+            {
+                "type":0,
+                "value":1471,
+                "count":4
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.237.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":241,
+        "questStage":146,
+        "title":"探索2-2IV",
+        "desc":"对2-2IV进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-2IV",
+                "collect":241001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":5800
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.239.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":242,
+        "questStage":146,
+        "title":"击破金属史莱姆BOSS",
+        "desc":"有人发现哥布林与野狼携手，在【2-2IV】伺机而动",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭金属史莱姆BOSS",
+                "collect":242001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":5500
+            },
+            {
+                "type":0,
+                "value":538,
+                "count":1
+            },
+            {
+                "type":0,
+                "value":871,
+                "count":3
+            },
+            {
+                "type":0,
+                "value":540,
+                "count":2
+            }
+
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.239.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":243,
+        "title":"考古学家的委托",
+        "desc":"断肠崖是曾经的古战场，因此有大量骷髅尸体，收集骷髅来做考古素材吧。",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭鳄鱼怪",
+                "collect":243001,
+                "count":25
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3800
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.239.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":244,
+        "questStage":147,
+        "title":"探索2-2V",
+        "desc":"对2-2V进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-2V",
+                "collect":244001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":6000
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.241.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":245,
+        "title":"寻找神奇草药",
+        "desc":"答应卡琳帮她在【2-2V】中，寻找到医治父亲的神奇草药。",
+        "objects":[
+            {
+                "type":0,
+                "label":"采集4株神奇草药",
+                "collect":245001,
+                "count":4
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4000
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.241.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":246,
+        "questStage":148,
+        "title":"探索2-2VI",
+        "desc":"对2-2VI进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-2VI",
+                "collect":246001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":6200
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.244.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":247,
+        "title":"寻找卡姆矿石",
+        "desc":"山姆大叔想要一些卡姆矿石，在【2-2VI】储量比较丰富哦",
+        "objects":[
+            {
+                "type":0,
+                "label":"采集2枚卡姆矿石",
+                "collect":247001,
+                "count":2
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4000
+            },
+            {
+                "type":0,
+                "value":1471,
+                "count":4
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.244.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":248,
+        "questStage":149,
+        "title":"探索2-2VII",
+        "desc":"对2-2VII进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-2VII",
+                "collect":248001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":6500
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.246.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":249,
+        "questStage":149,
+        "title":"找寻失踪的宝箱",
+        "desc":"商队成员救回了，不过一起的宝箱还没找到，前往【VII】替他们找回宝箱。",
+        "objects":[
+            {
+                "type":0,
+                "label":"找回商队的宝箱",
+                "collect":249001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.246.complete"}, true ] }
+        ]
+        }
+
+    }
 ]
