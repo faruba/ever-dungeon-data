@@ -95,8 +95,8 @@ exports.data = [
         "label": "萌系眼鏡",
         "icon": "rfasion-glass1.png",
         "category": 1,
-        "subcategory": 15,
-        "description": "最近在勇者中也流行的一种饰品。",
+        "subcategory": 18,
+        "description": "最近在勇者中流行的一种饰品。",
         "effecta": [
             {
                 "part": "glass",

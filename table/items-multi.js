@@ -95,7 +95,7 @@ exports.data = [
         "label": "眼镜",
         "icon": "rfashion-glass1.png",
         "category": 1,
-        "subcategory": 15,
+        "subcategory": 18,
         "description": "能让人看上去更有文化",
         "effecta": [
             {
