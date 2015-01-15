@@ -21749,7 +21749,7 @@ exports.data = [
         "label": "榮譽套裝",
         "category": 1,
         "subcategory": 12,
-        "description": "兼顧外形與力量，是榮譽的象徵。",
+        "description": "王國賜予VIP專屬的榮譽，鑲嵌著由奧拉夫斬殺魔龍的鱗片，並由頂級工匠打造。“我能感受到它耀眼的光芒”—奧拉夫",
         "sellprice": 1500,
         "effectf": [
             {
@@ -21804,7 +21804,7 @@ exports.data = [
         "label": "榮譽頭冠",
         "category": 1,
         "subcategory": 13,
-        "description": "王國賜予VIP專屬的榮譽，鑲嵌著由奧拉夫斬殺魔龍的鱗片，並由頂級工匠打造。“我能感受到它耀眼的光芒”—奧拉夫",
+        "description": "王國賜予VIP專屬的榮譽，由人類英雄奧拉夫與工匠一同打造，蘊含神秘的力量。“願這份榮譽永遠守護人類”—奧拉夫",
         "sellprice": 500,
         "effectf": [
             {
@@ -21827,7 +21827,7 @@ exports.data = [
         "label": "禮儀套裝",
         "category": 1,
         "subcategory": 12,
-        "description": "王國賜予VIP專屬的榮譽，由人類英雄奧拉夫與工匠一同打造，蘊含神秘的力量。“願這份榮譽永遠守護人類”—奧拉夫",
+        "description": "注重禮儀的服飾，能夠給人舒心的感覺。",
         "sellprice": 1500,
         "effectf": [
             {
