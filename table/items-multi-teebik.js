@@ -14,7 +14,7 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "充滿神聖之力的羽翼，受到了大天使的加護，能夠帶來強大的守護之力，是人類守護者身份的象徵。",
+        "description": "受到了大天使的加護的羽翼，能夠帶來強大的守護之力，是人類守護者身份的象徵。",
         "effecta": [
             {
                 "part": "avatar-wing-1",
@@ -62,7 +62,7 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "加入惡魔力量的羽翼，與惡魔簽訂契約借此獲得了巨大的破壞之力，一度成為探險者追逐的目標，是最強勇者身份的象徵。",
+        "description": "與惡魔簽訂契約從而得到巨大的力量的羽翼，是最強勇者身份的象徵。",
         "effecta": [
             {
                 "part": "avatar-wing1",
@@ -81,7 +81,7 @@ exports.data = [
         "icon": "rfashion-bjgh1.png",
         "category": 1,
         "subcategory": 17,
-        "description": "其來歷一直是個迷，相傳是由巨龍體內獲得的極其罕見的水晶打造，並且通過傳說中妖精魔力的提煉而成。蘊含著強大且神秘的力量。",
+        "description": "相傳是由巨龍體內獲得的極其罕見的水晶打造，蘊含著強大且神秘的力量。",
         "effecta": [
             {
                 "part": "avatar-effect",
@@ -20248,7 +20248,7 @@ exports.data = [
         "label": "榮譽套裝",
         "category": 1,
         "subcategory": 12,
-        "description": "王國賜予VIP專屬的榮譽，鑲嵌著由奧拉夫斬殺魔龍的鱗片，並由頂級工匠打造。“我能感受到它耀眼的光芒”—奧拉夫",
+        "description": "王國賜予VIP專屬的榮譽，鑲嵌著由奧拉夫斬殺魔龍的鱗片，並由頂級工匠打造。",
         "sellprice": 1500,
         "effectf": [
             {
@@ -20307,7 +20307,7 @@ exports.data = [
         "label": "榮譽頭冠",
         "category": 1,
         "subcategory": 13,
-        "description": "王國賜予VIP專屬的榮譽，由人類英雄奧拉夫與工匠一同打造，蘊含神秘的力量。“願這份榮譽永遠守護人類”—奧拉夫",
+        "description": "王國賜予VIP專屬的榮譽，由人類英雄奧拉夫與工匠一同打造，蘊含神秘的力量。",
         "sellprice": 500,
         "effectf": [
             {
@@ -21749,7 +21749,7 @@ exports.data = [
         "label": "榮譽套裝",
         "category": 1,
         "subcategory": 12,
-        "description": "王國賜予VIP專屬的榮譽，鑲嵌著由奧拉夫斬殺魔龍的鱗片，並由頂級工匠打造。“我能感受到它耀眼的光芒”—奧拉夫",
+        "description": "王國賜予VIP專屬的榮譽，鑲嵌著由奧拉夫斬殺魔龍的鱗片，並由頂級工匠打造。",
         "sellprice": 1500,
         "effectf": [
             {
@@ -21804,7 +21804,7 @@ exports.data = [
         "label": "榮譽頭冠",
         "category": 1,
         "subcategory": 13,
-        "description": "王國賜予VIP專屬的榮譽，由人類英雄奧拉夫與工匠一同打造，蘊含神秘的力量。“願這份榮譽永遠守護人類”—奧拉夫",
+        "description": "王國賜予VIP專屬的榮譽，由人類英雄奧拉夫與工匠一同打造，蘊含神秘的力量。",
         "sellprice": 500,
         "effectf": [
             {
