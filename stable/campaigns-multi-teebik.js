@@ -195,7 +195,7 @@ exports.data = {
         "mailBody": "VIP等級得到提升，您已經擁有購買相應VIP寶箱的許可權以及以禮品。",
         "level": [
             {
-                "count": 30,
+                "count": 0.99,
                 "award": [
                     {"type":2, "count":100 },
                     {"type":0,"value":540,"count":3},
@@ -203,7 +203,7 @@ exports.data = {
                 ]
             },
             {
-                "count": 100,
+                "count": 9.99,
                 "award": [
                     {"type":2, "count":300 },
                     {"type":0,"value":540,"count":3},
@@ -211,7 +211,7 @@ exports.data = {
                 ]
             },
             {
-                "count": 150,
+                "count": 49.99,
                 "award": [
                     {"type":0,"value":540,"count":3},
                     {"type":0,"value":539,"count":1},
@@ -219,30 +219,41 @@ exports.data = {
                 ]
             },
             {
-                "count": 250,
+                "count": 149.99,
                 "award": [
                     {"type":0,"value":540,"count":3},
                     {"type":0,"value":539,"count":1},
-                    {"type":0,"value":871,"count":20}
+                    {"type":0,"value":871,"count":20},
+                    {"type":0,"value":3,"count":1}
                 ]
             },
             {
-                "count": 400,
+                "count": 399.99,
                 "award": [
                     {"type":0,"value":540,"count":3},
-                    {"type":0,"value":871,"count":30}
+                    {"type":0,"value":871,"count":30},
+                    {"type":0,"value":552,"count":1}
                 ]
             },
             {
-                "count": 850,
+                "count": 999.99,
                 "award": [
-                    {"type":0,"value":540,"count":3}
+                    {"type":0,"value":540,"count":3},
+                    {"type":0,"value":871,"count":30},
+                    {"type":0,"value":551,"count":1}
                 ]
             },
             {
-                "count": 1400,
+                "count": 3999.99,
                 "award": [
-                    {"type":0,"value":540,"count":3}
+                    {"type":0,"value":540,"count":3},
+                    {"type":0,"value":0,"count":1}
+                ]
+            },
+            {
+                "count": 7999.99,
+                "award": [
+                    {"type":0,"value":2,"count":1}
                 ]
             }
         ]
