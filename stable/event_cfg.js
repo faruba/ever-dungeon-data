@@ -505,12 +505,11 @@ exports.newCampainTable = {
           }
         }],
         update: function (theData, util) {
-            var counter = theData.object.counters[this.counter.key].counter;
+            var key = this.counter.key;
+            var counter = theData.object.counters[key].counter;
             var prizeConfig = [];
-            var counter = theData.object.counters[this.counter.key].counter;
 
             var obj = theData.object;
-            var key = this.counter.key;
             dbLib.setServerProperty("counters", key, JSON.stringify(obj.counters[key]));
 
             if (counter % 7 && counter != 30) return false;
@@ -542,7 +541,7 @@ exports.newCampainTable = {
     startupServer_pvp : {
         storeType: "server",
         counter: {
-            key: 'startupReward_battle_force_week',
+            key: 'startupReward_pk_rank_week',
             initial_value: 0,
             uplimit: 31,
             count_down: { time: 'time@ThisCounter', units: 'day' }
