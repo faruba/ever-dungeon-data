@@ -78,7 +78,7 @@ exports.data = [
     {
         "classId": 2,
         "label": "妖精的加护",
-        "icon": "item-wing-emzy.png",
+        "icon": "rfashion-bjgh1.png",
         "category": 1,
         "subcategory": 17,
         "description": "由妖精利用稀有水晶打造，蕴含神秘的力量。",
@@ -88,15 +88,14 @@ exports.data = [
                 "file": "godring.ccbi"
             }
         ],
-        "storeOnly": true,
-        "autoUse": true
+        "storeOnly": true
     },
     {
         "classId": 3,
         "label": "眼镜",
-        "icon": "rfashion-glass1.png",
+        "icon": "rfashion-glass-icon.png",
         "category": 1,
-        "subcategory": 15,
+        "subcategory": 18,
         "description": "能让人看上去更有文化",
         "effecta": [
             {

@@ -14,7 +14,7 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "蘊含著神聖之力的羽翼，能夠帶來天使的祝福，並且是身份的象徵。",
+        "description": "受到了大天使的加護的羽翼。",
         "effecta": [
             {
                 "part": "avatar-wing-1",
@@ -62,7 +62,7 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "蘊含著邪惡之力的羽翼，能夠帶來惡魔的力量，並且是身份的象徵。",
+        "description": "與惡魔簽訂契約得到巨大的力量的羽翼。",
         "effecta": [
             {
                 "part": "avatar-wing1",
@@ -78,30 +78,29 @@ exports.data = [
     {
         "classId": 2,
         "label": "妖精的加護",
-        "icon": "item-wing-emzy.png",
+        "icon": "rfasion-bjgh1.png",
         "category": 1,
         "subcategory": 17,
-        "description": "由妖精利用稀有水晶打造，蘊含神秘的力量。",
+        "description": "妖精的水晶，蘊含著強大且神秘的力量。",
         "effecta": [
             {
-                "part": "avatar-effect",
+                "part": "effect",
                 "file": "godring.ccbi"
             }
         ],
-        "storeOnly": true,
-        "autoUse": true
+        "storeOnly": true
     },
     {
         "classId": 3,
-        "label": "眼鏡",
-        "icon": "rfashion-glass1.png",
+        "label": "萌系眼鏡",
+        "icon": "rfasion-glass-icon.png",
         "category": 1,
-        "subcategory": 15,
-        "description": "能讓人看上去更有文化",
+        "subcategory": 18,
+        "description": "最近在勇者中流行的一种饰品。",
         "effecta": [
             {
-                "part": "avatar-glass",
-                "file": "rfashion-glass1.ccbi"
+                "part": "glass",
+                "file": "rfasion-glass1.ccbi"
             }
         ],
         "storeOnly": true
@@ -20249,7 +20248,7 @@ exports.data = [
         "label": "榮譽套裝",
         "category": 1,
         "subcategory": 12,
-        "description": "兼顧外形與力量，是榮譽的象徵。",
+        "description": "王國賜予VIP專屬的榮譽。",
         "sellprice": 1500,
         "effectf": [
             {
@@ -20308,7 +20307,7 @@ exports.data = [
         "label": "榮譽頭冠",
         "category": 1,
         "subcategory": 13,
-        "description": "榮譽的象徵，並且擁有專注力量的祝福。",
+        "description": "王國賜予VIP專屬的榮譽。",
         "sellprice": 500,
         "effectf": [
             {
@@ -21750,7 +21749,7 @@ exports.data = [
         "label": "榮譽套裝",
         "category": 1,
         "subcategory": 12,
-        "description": "兼顧外形與力量，是榮譽的象徵。",
+        "description": "王國賜予VIP專屬的榮譽。",
         "sellprice": 1500,
         "effectf": [
             {
@@ -21805,7 +21804,7 @@ exports.data = [
         "label": "榮譽頭冠",
         "category": 1,
         "subcategory": 13,
-        "description": "榮譽的象徵，並且擁有專注力量的祝福。",
+        "description": "王國賜予VIP專屬的榮譽。",
         "sellprice": 500,
         "effectf": [
             {
