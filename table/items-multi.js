@@ -53119,7 +53119,7 @@ exports.data = [
         "classId": 1475,
         "label": "钢铁碎片",
         "icon": "stone9.png",
-        "category": 2,
+        "category": 3,
         "subcategory": 1,
         "description": "能过合成钢铁套装的碎片",
         "stack": 99,
@@ -53128,11 +53128,11 @@ exports.data = [
     },
     {
         "classId": 1476,
-        "label": "头饰图纸",
+        "label": "钢铁图纸（头）",
         "icon": "pmage-subweapon4.png",
-        "category": 2,
+        "category": 3,
         "subcategory": 0,
-        "description": "能合成头饰的图纸",
+        "description": "能合成钢铁头的图纸",
         "sellprice": 15,
         "quality": 1,
         "recipeTarget": 1477,
@@ -53140,8 +53140,8 @@ exports.data = [
     },
     {
         "classId": 1477,
-        "label": "头饰",
-        "category": 1,
+        "label": "钢铁头",
+        "category": 3,
         "subcategory": 13,
         "suitId": 1,
         "description": "注重礼仪，设计考究的头饰。",
@@ -53170,11 +53170,11 @@ exports.data = [
     },
     {
         "classId": 1478,
-        "label": "衣服图纸",
+        "label": "钢铁图纸（身）",
         "icon": "pmage-chest4.png",
-        "category": 2,
+        "category": 3,
         "subcategory": 0,
-        "description": "能合成衣服的图纸",
+        "description": "能合成钢铁身的图纸",
         "sellprice": 15,
         "quality": 1,
         "recipeTarget": 1479,
@@ -53182,8 +53182,8 @@ exports.data = [
     },
     {
         "classId": 1479,
-        "label": "衣服",
-        "category": 1,
+        "label": "钢铁身",
+        "category": 3,
         "subcategory": 12,
         "suitId": 1,
         "description": "注重礼仪的服饰，能够给人舒心的感觉。",
@@ -53191,7 +53191,45 @@ exports.data = [
             {
                 "part": "chest",
                 "file": "ff3-chest.ccbi"
-            },
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm3-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "iconf": "rfasion-female3-cloth.png",
+        "iconm": "rfasion-male3-cloth.png",
+        "recipePrize": [
+            {
+                "type": 0,
+                "value": 1475,
+                "count": 25
+            }
+        ]
+    },
+    {
+        "classId": 1480,
+        "label": "钢铁图纸（手）",
+        "icon": "pmage-chest4.png",
+        "category": 3,
+        "subcategory": 0,
+        "description": "能合成钢铁手的图纸",
+        "sellprice": 15,
+        "quality": 1,
+        "recipeTarget": 1481,
+        "recipeCost": 86
+    },
+    {
+        "classId": 1481,
+        "label": "钢铁手",
+        "category": 3,
+        "subcategory": 12,
+        "suitId": 1,
+        "description": "注重礼仪的服饰，能够给人舒心的感觉。",
+        "effectf": [
             {
                 "part": "righthand",
                 "file": "ff3-righthand.ccbi"
@@ -53199,7 +53237,49 @@ exports.data = [
             {
                 "part": "lefthand",
                 "file": "ff3-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm3-righthand.ccbi"
             },
+            {
+                "part": "lefthand",
+                "file": "fm3-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "iconf": "rfasion-female3-cloth.png",
+        "iconm": "rfasion-male3-cloth.png",
+        "recipePrize": [
+            {
+                "type": 0,
+                "value": 1475,
+                "count": 5
+            }
+        ]
+    },
+    {
+        "classId": 1482,
+        "label": "钢铁图纸（脚）",
+        "icon": "pmage-chest4.png",
+        "category": 3,
+        "subcategory": 0,
+        "description": "能合成钢铁脚的图纸",
+        "sellprice": 15,
+        "quality": 1,
+        "recipeTarget": 1483,
+        "recipeCost": 87
+    },
+    {
+        "classId": 1483,
+        "label": "钢铁脚",
+        "category": 3,
+        "subcategory": 12,
+        "suitId": 1,
+        "description": "注重礼仪的服饰，能够给人舒心的感觉。",
+        "effectf": [
             {
                 "part": "leftleg",
                 "file": "ff3-leftleg.ccbi"
@@ -53210,18 +53290,6 @@ exports.data = [
             }
         ],
         "effectm": [
-            {
-                "part": "chest",
-                "file": "fm3-chest.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "fm3-righthand.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "fm3-lefthand.ccbi"
-            },
             {
                 "part": "leftleg",
                 "file": "fm3-leftleg.ccbi"
@@ -53238,7 +53306,7 @@ exports.data = [
             {
                 "type": 0,
                 "value": 1475,
-                "count": 25
+                "count": 15
             }
         ]
     }
