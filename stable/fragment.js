@@ -1,6 +1,6 @@
 exports.data = [
     {//0
-        "interval":{"value":30,"unit":"second"},//second minite hour day month year
+        "interval":{"value":30,"unit":"second"},//second minite hour day
         "basic_times":3,
         "basic_prize":[
             {
