@@ -18924,5 +18924,129 @@ exports.data = [
                 }
             ]
         }
+    },
+  {
+    "skillId": 356,
+    "label": L("dic_skill_348_label"), //震荡波
+    "slotId": 100,
+    "config": {
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onTurnEnd",
+          "eventCount": 3,
+          "reset": true
+        },
+        {
+          "type": "visible"
+        },
+        {
+          "type": "alive"
+        }
+      ],
+      "targetSelection": {
+        "pool": "blocks",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 3,
+            "length": 2,
+            "startDistance": 1,
+            "anchorPos": {
+              "pool": "self",
+              "filter": [
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            },
+            "anchorDirPos": {
+              "pool": "objects",
+              "filter": [
+                {
+                  "type": "alive"
+                },
+                {
+                  "type": "visible"
+                },
+                {
+                  "type": "target-faction-with-flag",
+                  "flag": "attackable"
+                },
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "playEffect",
+          "effect": 79,
+          "pos": "target"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "playAction",
+          "motion": "1",
+          "pos": "self"
+        },
+        {
+          "type": "playEffect",
+          "effect": 80,
+          "pos": "self"
+        },
+        {
+          "type": "installSpell",
+          "spell": 357
+        }
+      ]
     }
+  },
+  {
+    "skillId": 357,
+    "config": {
+      "installAction": [
+        {
+          "type": "damage",
+          "damageType": "Spell",
+          "isRange": true,
+          "delay": 0.4,
+          "formular": {
+            "c": 300
+          }
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "same-block"
+          },
+          {
+            "type": "same-faction",
+            "faction": "hero"
+          },
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      "availableCondition": [
+        {
+          "type": "effectCount",
+          "count": 1
+        }
+      ]
+    }
+  }
 ]
