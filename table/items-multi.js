@@ -14,28 +14,8 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "蕴含着神圣之力的羽翼，能够带来天使的祝福，并且是身份的象征。",
+        "description": "蕴含着神圣之力的羽翼，能够带来天使的祝福，并且是身份的象征",
         "effecta": [
-            {
-                "part": "avatar-wing-1",
-                "file": "wing1-1.ccbi"
-            },
-            {
-                "part": "avatar-wing-2",
-                "file": "wing1-1.ccbi"
-            },
-            {
-                "part": "avatar-wing-3",
-                "file": "wing1-1.ccbi"
-            },
-            {
-                "part": "avatar-wing-4",
-                "file": "wing1-1.ccbi"
-            },
-            {
-                "part": "avatar-wing-5",
-                "file": "wing1-1.ccbi"
-            },
             {
                 "part": "avatar-wing1",
                 "file": "wing-sszy.ccbi"
@@ -45,7 +25,8 @@ exports.data = [
                 "file": "wing-sszy.ccbi"
             }
         ],
-        "storeOnly": true
+        "storeOnly": true,
+        "expiration": {day: 7}
     },
     {
         "classId": 1,
@@ -62,7 +43,7 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "蕴含着邪恶之力的羽翼，能够带来恶魔的力量，并且是身份的象征。",
+        "description": "蕴含着邪恶之力的羽翼，能够带来恶魔的力量，并且是身份的象征",
         "effecta": [
             {
                 "part": "avatar-wing1",
@@ -73,38 +54,43 @@ exports.data = [
                 "file": "wing-emzy.ccbi"
             }
         ],
-        "storeOnly": true
+        "storeOnly": true,
+        "expiration": {day: 7}
     },
-    {
-        "classId": 2,
-        "label": "妖精的加护",
-        "icon": "rfashion-bjgh1.png",
-        "category": 1,
-        "subcategory": 17,
-        "description": "由妖精利用稀有水晶打造，蕴含神秘的力量。",
-        "effecta": [
-            {
-                "part": "avatar-effect",
-                "file": "godring.ccbi"
-            }
-        ],
-        "storeOnly": true
-    },
-    {
-        "classId": 3,
-        "label": "眼镜",
-        "icon": "rfashion-glass-icon.png",
-        "category": 1,
-        "subcategory": 18,
-        "description": "能让人看上去更有文化",
-        "effecta": [
-            {
-                "part": "avatar-glass",
-                "file": "rfashion-glass1.ccbi"
-            }
-        ],
-        "storeOnly": true
-    },
+	{
+		"classId": 2,
+		"label": "三色宝石",
+		"icon": "stone3.png",
+		"category": 2,
+		"subcategory": 2,
+		"description": "随机强化经验、熟练、金币3项特殊属性的宝石。",
+		"stack": 99,
+		"sellprice": 300,
+		"transPrize": [
+			{
+				"type": 0,
+				"value": 853,
+				"count": 2
+			}
+		]
+	},
+	{
+		"classId": 3,
+		"label": "力量之石",
+		"icon": "stone4.png",
+		"category": 2,
+		"subcategory": 3,
+		"description": "能够强化攻击属性的宝石。",
+		"stack": 99,
+		"sellprice": 300,
+		"transPrize": [
+			{
+				"type": 0,
+				"value": 853,
+				"count": 2
+			}
+		]
+	},
 	{
 		"classId": 4,
 		"label": "生命之石",
@@ -53133,7 +53119,7 @@ exports.data = [
         "classId": 1475,
         "label": "钢铁碎片",
         "icon": "stone9.png",
-        "category": 2,
+        "category": 3,
         "subcategory": 1,
         "description": "能过合成钢铁套装的碎片",
         "stack": 99,
@@ -53142,11 +53128,11 @@ exports.data = [
     },
     {
         "classId": 1476,
-        "label": "头饰图纸",
-        "icon": "pmage-subweapon4.png",
-        "category": 2,
+        "label": "钢铁图纸（头盔）",
+		"icon": "pwarrior-foot3.png",
+        "category": 3,
         "subcategory": 0,
-        "description": "能合成头饰的图纸",
+        "description": "能合成钢铁头盔的图纸",
         "sellprice": 15,
         "quality": 1,
         "recipeTarget": 1477,
@@ -53154,21 +53140,21 @@ exports.data = [
     },
     {
         "classId": 1477,
-        "label": "头饰",
-        "category": 1,
+        "label": "钢铁头盔",
+        "category": 3,
         "subcategory": 13,
         "suitId": 1,
-        "description": "注重礼仪，设计考究的头饰。",
+        "description": "钢铁打造的头盔，十分威武霸气。",
         "effectf": [
             {
                 "part": "helmet",
-                "file": "ff3-helmet.ccbi"
+                "file": "ironsuit-female-helmet.ccbi"
             }
         ],
         "effectm": [
             {
                 "part": "helmet",
-                "file": "fm3-helmet.ccbi"
+                "file": "ironsuit-male-helmet.ccbi"
             }
         ],
         "storeOnly": true,
@@ -53184,11 +53170,11 @@ exports.data = [
     },
     {
         "classId": 1478,
-        "label": "衣服图纸",
-        "icon": "pmage-chest4.png",
-        "category": 2,
+        "label": "钢铁图纸（铠甲）",
+		"icon": "pwarrior-chest4.png",
+        "category": 3,
         "subcategory": 0,
-        "description": "能合成衣服的图纸",
+        "description": "能合成钢铁铠甲的图纸",
         "sellprice": 15,
         "quality": 1,
         "recipeTarget": 1479,
@@ -53196,55 +53182,33 @@ exports.data = [
     },
     {
         "classId": 1479,
-        "label": "衣服",
-        "category": 1,
+        "label": "钢铁铠甲",
+        "category": 3,
         "subcategory": 12,
         "suitId": 1,
-        "description": "注重礼仪的服饰，能够给人舒心的感觉。",
+        "description": "钢铁打造的铠甲，坚硬无比。",
         "effectf": [
             {
                 "part": "chest",
-                "file": "ff3-chest.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "ff3-righthand.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "ff3-lefthand.ccbi"
-            },
-            {
-                "part": "leftleg",
-                "file": "ff3-leftleg.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "ff3-rightleg.ccbi"
+                "file": "ironsuit-female-chest.ccbi"
             }
         ],
         "effectm": [
             {
                 "part": "chest",
-                "file": "fm3-chest.ccbi"
-            },
-            {
-                "part": "righthand",
-                "file": "fm3-righthand.ccbi"
-            },
-            {
-                "part": "lefthand",
-                "file": "fm3-lefthand.ccbi"
-            },
-            {
-                "part": "leftleg",
-                "file": "fm3-leftleg.ccbi"
-            },
-            {
-                "part": "rightleg",
-                "file": "fm3-rightleg.ccbi"
+                "file": "ironsuit-male-chest.ccbi"
             }
         ],
+		"effecta": [
+			{
+				"part": "ironjet-left",
+				"file": "ironsuit-jet.ccbi"
+			},
+			{
+				"part": "ironjet-right",
+				"file": "ironsuit-jet.ccbi"
+			}
+		],
         "storeOnly": true,
         "iconf": "rfasion-female3-cloth.png",
         "iconm": "rfasion-male3-cloth.png",
@@ -53253,6 +53217,106 @@ exports.data = [
                 "type": 0,
                 "value": 1475,
                 "count": 25
+            }
+        ]
+    },
+    {
+        "classId": 1480,
+        "label": "钢铁图纸（护臂）",
+		"icon": "pwarrior-subweapon4.png",
+        "category": 3,
+        "subcategory": 0,
+        "description": "能合成钢铁护臂的图纸",
+        "sellprice": 15,
+        "quality": 1,
+        "recipeTarget": 1481,
+        "recipeCost": 86
+    },
+    {
+        "classId": 1481,
+        "label": "钢铁护臂",
+        "category": 3,
+        "subcategory": 10,
+        "suitId": 1,
+        "description": "钢铁打造的护臂。",
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ironsuit-female-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ironsuit-female-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "ironsuit-male-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ironsuit-male-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+		"iconf": "f-w-helmet5.png",
+		"iconm": "m-w-helmet5.png",
+        "recipePrize": [
+            {
+                "type": 0,
+                "value": 1475,
+                "count": 5
+            }
+        ]
+    },
+    {
+        "classId": 1482,
+        "label": "钢铁图纸（腿铠）",
+		"icon": "pwarrior-foot4.png",
+        "category": 3,
+        "subcategory": 0,
+        "description": "能合成钢铁腿铠的图纸",
+        "sellprice": 15,
+        "quality": 1,
+        "recipeTarget": 1483,
+        "recipeCost": 87
+    },
+    {
+        "classId": 1483,
+        "label": "钢铁腿铠",
+        "category": 3,
+        "subcategory": 11,
+        "suitId": 1,
+        "description": "钢铁打造的腿铠。",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ironsuit-female-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ironsuit-female-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "ironsuit-male-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ironsuit-male-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+		"iconf": "f-w-foot5.png",
+		"iconm": "m-w-foot5.png",
+        "recipePrize": [
+            {
+                "type": 0,
+                "value": 1475,
+                "count": 15
             }
         ]
     }

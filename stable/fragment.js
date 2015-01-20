@@ -1,40 +1,68 @@
 exports.data = [
     {//0
-        "interval":{"value":5,"unit":"second"},//second minite hour day
+        "interval":{"value":5,"unit":"minite"},//second minite hour day
         "basic_times":3,
         "basic_prize":[
             {
                 "rate": 1,
                 "prize": [
                     {
-                        "weight": 18,
+                        "weight": 13,
                         "type": 0,
-                        "value":1477 ,
+                        "value":871 ,
+                        "count": 10
+                    },
+                    {
+                        "weight": 13,
+                        "type": 0,
+                        "value":538 ,
                         "count": 1
                     },
                     {
-                        "weight": 18,
+                        "weight": 13,
                         "type": 0,
-                        "value": 1480,
-                        "count": 1
-                    }
-                ]
-            },
-            {
-                "rate": 0.1,
-                "prize": [
+                        "value":540 ,
+                        "count": 2
+                    },
                     {
-                        "rare":true,
-                        "weight": 18,
+                        "weight": 13,
+                        "type": 1,
+                        "count": 800
+                    },
+                    {
+                        "weight": 12,
                         "type": 0,
-                        "value":1475,
+                        "value":1475 ,
                         "count": 1
                     },
                     {
-                        "rare":true,
-                        "weight": 18,
+                        "weight": 4,
                         "type": 0,
-                        "value": 1478,
+                        "value":1475 ,
+                        "count": 5
+                    },
+                    {
+                        "weight": 2,
+                        "type": 0,
+                        "value":1476 ,
+                        "count": 1
+                    },
+                    {
+                        "weight": 2,
+                        "type": 0,
+                        "value":1478 ,
+                        "count": 1
+                    },
+                    {
+                        "weight": 3,
+                        "type": 0,
+                        "value":1480 ,
+                        "count": 1
+                    },
+                    {
+                        "weight": 2,
+                        "type": 0,
+                        "value":1482 ,
                         "count": 1
                     }
                 ]
@@ -46,34 +74,31 @@ exports.data = [
                 "prize": [
                     {
                         "rare":true,
-                        "weight": 18,
+                        "weight": 1,
                         "type": 0,
-                        "value":1475,
+                        "value":1476 ,
                         "count": 1
                     },
                     {
                         "rare":true,
-                        "weight": 18,
+                        "weight": 2,
                         "type": 0,
-                        "value": 1478,
+                        "value":1478 ,
                         "count": 1
-                    }
-                ]
-            },
-            {
-                "rate": 0.08,
-                "prize": [
-                    {
-                        "weight": 18,
-                        "type": 0,
-                        "value":1477 ,
-                        "count": 5
                     },
                     {
-                        "weight": 18,
+                        "rare":true,
+                        "weight": 4,
                         "type": 0,
-                        "value": 1480,
-                        "count": 5
+                        "value":1480 ,
+                        "count": 1
+                    },
+                    {
+                        "rare":true,
+                        "weight": 3,
+                        "type": 0,
+                        "value":1482 ,
+                        "count": 1
                     }
                 ]
             }
