@@ -53141,7 +53141,7 @@ exports.data = [
     {
         "classId": 1477,
         "label": "钢铁头盔",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "suitId": 1,
         "description": "钢铁打造的头盔，十分威武霸气。",
@@ -53183,7 +53183,7 @@ exports.data = [
     {
         "classId": 1479,
         "label": "钢铁铠甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "suitId": 1,
         "description": "钢铁打造的铠甲，坚硬无比。",
@@ -53191,15 +53191,7 @@ exports.data = [
             {
                 "part": "chest",
                 "file": "ironsuit-female-chest.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "chest",
-                "file": "ironsuit-male-chest.ccbi"
-            }
-        ],
-		"effecta": [
+            },
 			{
 				"part": "ironjet-left",
 				"file": "ironsuit-jet.ccbi"
@@ -53208,7 +53200,21 @@ exports.data = [
 				"part": "ironjet-right",
 				"file": "ironsuit-jet.ccbi"
 			}
-		],
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "ironsuit-male-chest.ccbi"
+            },
+			{
+				"part": "ironjet-left",
+				"file": "ironsuit-jet.ccbi"
+			},
+			{
+				"part": "ironjet-right",
+				"file": "ironsuit-jet.ccbi"
+			}
+        ],
         "storeOnly": true,
         "iconf": "rfasion-female3-cloth.png",
         "iconm": "rfasion-male3-cloth.png",
@@ -53235,7 +53241,7 @@ exports.data = [
     {
         "classId": 1481,
         "label": "钢铁护臂",
-        "category": 3,
+        "category": 1,
         "subcategory": 10,
         "suitId": 1,
         "description": "钢铁打造的护臂。",
@@ -53285,7 +53291,7 @@ exports.data = [
     {
         "classId": 1483,
         "label": "钢铁腿铠",
-        "category": 3,
+        "category": 1,
         "subcategory": 11,
         "suitId": 1,
         "description": "钢铁打造的腿铠。",
