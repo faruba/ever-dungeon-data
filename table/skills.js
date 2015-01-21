@@ -18769,7 +18769,7 @@ exports.data = [
                 },
                 {
                     "type": "playAction",
-                    "motion": "1",
+                    "motion": "irongunfire",
                     "pos": "self"
                 },
                 {
@@ -18870,7 +18870,7 @@ exports.data = [
             "action": [
                 {
                     "type": "playAction",
-                    "motion": "1",
+                    "motion": "ironrayfire",
                     "pos": "self"
                 },
                 {

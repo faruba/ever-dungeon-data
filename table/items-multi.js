@@ -53242,7 +53242,7 @@ exports.data = [
         "classId": 1481,
         "label": "钢铁护臂",
         "category": 1,
-        "subcategory": 10,
+        "subcategory": 19,
         "suitId": 1,
         "description": "钢铁打造的护臂。",
         "effectf": [
@@ -53278,11 +53278,11 @@ exports.data = [
     },
     {
         "classId": 1482,
-        "label": "钢铁图纸（腿铠）",
+        "label": "钢铁图纸（腿甲）",
 		"icon": "pwarrior-foot4.png",
         "category": 3,
         "subcategory": 0,
-        "description": "能合成钢铁腿铠的图纸",
+        "description": "能合成钢铁腿甲的图纸",
         "sellprice": 15,
         "quality": 1,
         "recipeTarget": 1483,
@@ -53290,11 +53290,11 @@ exports.data = [
     },
     {
         "classId": 1483,
-        "label": "钢铁腿铠",
+        "label": "钢铁腿甲",
         "category": 1,
-        "subcategory": 11,
+        "subcategory": 20,
         "suitId": 1,
-        "description": "钢铁打造的腿铠。",
+        "description": "钢铁打造的腿甲。",
         "effectf": [
             {
                 "part": "leftleg",
