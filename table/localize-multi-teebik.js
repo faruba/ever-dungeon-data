@@ -89,6 +89,7 @@ exports.data = {
         "sceneDungeonPKFailed":"PK戰敗",
         "sceneDungeonUseRecovery":"隊伍成員已經全部犧牲\n是否要使用復活藥水繼續戰鬥？",
         "sceneDungeonDefeated":"玩家被擊敗",
+        "sceneDungeonUnSelectable":"沒有可選擇的目標",
         "sceneForgeChangeCoin":"金幣不足\n還需要{#1}金幣\n需要使用{#2}寶石來兌換嗎?",
         "sceneForgeCharge":"寶石不足，無法兌換\n需要充值嗎?",
         "sceneForgeCoin":"兌金幣",
