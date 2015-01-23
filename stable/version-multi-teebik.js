@@ -4,10 +4,10 @@ exports.data = {
     "stage": "0.1.5",
     "bin_version": "1.0.10",
     "bin_version_need": "1.0.10",
-    "needed_version":"1.1.35",
-    "last_version":"1.1.35",
-    "suggest_version":"1.1.35",
+    "needed_version":"1.1.44",
+    "last_version":"1.1.44",
+    "suggest_version":"1.1.44",
 
-    "url": "http://7u2hr2.com1.z0.glb.clouddn.com/",
+    "url": "http://7u2hr2.com5.z0.glb.clouddn.com/",
     "bin_url": ""
 }
