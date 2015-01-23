@@ -104,7 +104,12 @@ exports.data = {
         "192.168.199.153": [ {
             Server: "faruba",
             Port: 7756
-        } ]
+        } ],
+		"192.168.199.248": [ {
+            Server: "faruba",
+            Port: 7756
+        } ],
+
      },
     Gate_Config:{
         "10.4.3.41":[
