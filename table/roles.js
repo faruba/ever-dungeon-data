@@ -5258,7 +5258,6 @@ exports.data = [
 			"accuracy": 34,
 			"reactivity": 0.75,
 			"speed": 65,
-			"activeSpell": "WallOfSheild"
 		},
 		"defaultArmors": [
 			6,
@@ -5298,7 +5297,6 @@ exports.data = [
 			"accuracy": 49,
 			"reactivity": 1,
 			"speed": 24,
-			"activeSpell": "Lightning"
 		},
 		"defaultArmors": [
 			6,
