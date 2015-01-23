@@ -53325,5 +53325,879 @@ exports.data = [
                 "count": 15
             }
         ]
-    }
+    },
+	{
+		"classId": 1484,
+		"label": "荣誉套装",
+		"category": 1,
+		"subcategory": 12,
+		"description": "兼顾外形与力量，是荣誉的象征。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff1-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff1-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff1-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff1-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff1-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm1-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm1-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm1-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm1-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm1-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female1-cloth.png",
+		"iconm": "rfasion-male1-cloth.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1485,
+		"label": "荣誉头冠",
+		"category": 1,
+		"subcategory": 13,
+		"description": "荣誉的象征，并且拥有专注力量的祝福。",
+		"sellprice": 500,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff1-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm1-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female1-helmet.png",
+		"iconm": "rfasion-male1-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1486,
+		"label": "礼仪套装",
+		"category": 1,
+		"subcategory": 12,
+		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff3-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff3-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff3-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff3-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff3-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm3-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm3-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm3-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm3-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm3-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female3-cloth.png",
+		"iconm": "rfasion-male3-cloth.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1487,
+		"label": "礼仪头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "注重礼仪，设计考究的头饰。",
+		"sellprice": 500,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff3-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm3-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female3-helmet.png",
+		"iconm": "rfasion-male3-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1488,
+		"label": "和风套装",
+		"category": 1,
+		"subcategory": 12,
+		"description": "和风的气息扑面而来。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff4-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff4-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff4-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff4-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff4-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm4-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm4-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm4-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm4-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm4-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female4-cloth.png",
+		"iconm": "rfasion-male4-cloth.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1489,
+		"label": "和风头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "洋溢着东洋气息的头饰。",
+		"sellprice": 500,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff4-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm4-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female4-helmet.png",
+		"iconm": "rfasion-male4-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1490,
+		"label": "喵喵套装",
+		"category": 1,
+		"subcategory": 12,
+		"description": "懒洋洋套装，软软肉球招人喜爱。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff5-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff5-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff5-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff5-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff5-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm5-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm5-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm5-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm5-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm5-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female5-cloth.png",
+		"iconm": "rfasion-male5-cloth.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1491,
+		"label": "喵喵耳朵",
+		"category": 1,
+		"subcategory": 13,
+		"description": "让人把持不住想摸一下。",
+		"sellprice": 500,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff5-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm5-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female5-helmet.png",
+		"iconm": "rfasion-male5-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1492,
+		"label": "荣誉套装",
+		"category": 1,
+		"subcategory": 12,
+		"description": "兼顾外形与力量，是荣誉的象征。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff1-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff1-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff1-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff1-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff1-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm1-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm1-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm1-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm1-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm1-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female1-cloth.png",
+		"iconm": "rfasion-male1-cloth.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1493,
+		"label": "荣誉头冠",
+		"category": 1,
+		"subcategory": 13,
+		"description": "荣誉的象征，并且拥有专注力量的祝福。",
+		"sellprice": 500,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff1-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm1-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female1-helmet.png",
+		"iconm": "rfasion-male1-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1494,
+		"label": "礼仪套装",
+		"category": 1,
+		"subcategory": 12,
+		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff3-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff3-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff3-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff3-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff3-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm3-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm3-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm3-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm3-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm3-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female3-cloth.png",
+		"iconm": "rfasion-male3-cloth.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1495,
+		"label": "礼仪头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "注重礼仪，设计考究的头饰。",
+		"sellprice": 500,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff3-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm3-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female3-helmet.png",
+		"iconm": "rfasion-male3-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1496,
+		"label": "和风套装",
+		"category": 1,
+		"subcategory": 12,
+		"description": "和风的气息扑面而来。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff4-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff4-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff4-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff4-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff4-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm4-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm4-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm4-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm4-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm4-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female4-cloth.png",
+		"iconm": "rfasion-male4-cloth.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1497,
+		"label": "和风头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "洋溢着东洋气息的头饰。",
+		"sellprice": 500,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff4-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm4-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female4-helmet.png",
+		"iconm": "rfasion-male4-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1498,
+		"label": "喵喵套装",
+		"category": 1,
+		"subcategory": 12,
+		"description": "懒洋洋套装，软软肉球招人喜爱。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff5-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff5-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff5-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff5-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff5-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm5-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm5-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm5-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm5-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm5-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female5-cloth.png",
+		"iconm": "rfasion-male5-cloth.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1499,
+		"label": "喵喵耳朵",
+		"category": 1,
+		"subcategory": 13,
+		"description": "让人把持不住想摸一下。",
+		"sellprice": 500,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff5-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm5-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female5-helmet.png",
+		"iconm": "rfasion-male5-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1500,
+		"label": "礼仪套装",
+		"category": 1,
+		"subcategory": 12,
+		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff3-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff3-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff3-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff3-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff3-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm3-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm3-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm3-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm3-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm3-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female3-cloth.png",
+		"iconm": "rfasion-male3-cloth.png"
+	},
+	{
+		"classId": 1501,
+		"label": "礼仪头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "注重礼仪，设计考究的头饰。",
+		"sellprice": 500,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff3-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm3-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female3-helmet.png",
+		"iconm": "rfasion-male3-helmet.png"
+	},
+	{
+		"classId": 1502,
+		"label": "和风套装",
+		"category": 1,
+		"subcategory": 12,
+		"description": "和风的气息扑面而来。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff4-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff4-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff4-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff4-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff4-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm4-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm4-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm4-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm4-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm4-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female4-cloth.png",
+		"iconm": "rfasion-male4-cloth.png"
+	},
+	{
+		"classId": 1503,
+		"label": "和风头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "洋溢着东洋气息的头饰。",
+		"sellprice": 500,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff4-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm4-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female4-helmet.png",
+		"iconm": "rfasion-male4-helmet.png"
+	},
+	{
+		"classId": 1504,
+		"label": "喵喵套装",
+		"category": 1,
+		"subcategory": 12,
+		"description": "懒洋洋套装，软软肉球招人喜爱。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff5-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff5-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff5-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff5-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff5-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm5-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm5-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm5-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm5-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm5-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female5-cloth.png",
+		"iconm": "rfasion-male5-cloth.png"
+	},
+	{
+		"classId": 1504,
+		"label": "喵喵耳朵",
+		"category": 1,
+		"subcategory": 13,
+		"description": "让人把持不住想摸一下。",
+		"sellprice": 500,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff5-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm5-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female5-helmet.png",
+		"iconm": "rfasion-male5-helmet.png"
+	}
 ]
