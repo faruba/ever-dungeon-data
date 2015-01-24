@@ -2,6 +2,7 @@ var L = L || function(dummy) {return dummy;}
 exports.data = [
   {
     "skillId": 0,
+    "activeSpell": true,
     "label": L("dic_skill_0_label"), //盾墙
     "icon": "skill-warrior1.png",
     "desc": L("dic_skill_0_desc"), //用坚实的盾牌来格挡攻击，抵消伤害，格挡次数随等级增加。
@@ -310,6 +311,7 @@ exports.data = [
   },
   {
     "skillId": 5,
+    "activeSpell": true,
     "label": L("dic_skill_5_label"), //闪电
     "icon": "skill-mage1.png",
     "desc": L("dic_skill_5_desc"), //召唤闪电，对一名敌人造成伤害，伤害值与法师攻击力相关。
@@ -526,6 +528,7 @@ exports.data = [
   },
   {
     "skillId": 8,
+    "activeSpell": true,
     "label": L("dic_skill_8_label"), //治愈
     "icon": "skill-priest1.png",
     "desc": L("dic_skill_8_desc"), //对队伍中生命值最低的成员进行回复，回复值与命中值相关。
@@ -10504,6 +10507,7 @@ exports.data = [
   },
   {
     "skillId": 195,
+    "activeSpell": true,
     "label": L("dic_skill_195_label"), //怒之力
     "icon": "skill-kzs1.png",
     "desc": L("dic_skill_195_desc"), //狂战士进入狂怒状态，降低命中1回合，提高攻击力2回合。
@@ -10852,6 +10856,7 @@ exports.data = [
   },
   {
     "skillId": 201,
+    "activeSpell": true,
     "label": L("dic_skill_201_label"), //寒冰箭
     "icon": "skill-mds1.png",
     "desc": L("dic_skill_201_desc"), //魔导师释放寒冰箭对场上多个敌人造成伤害，伤害值与攻击力相关。
@@ -11211,6 +11216,7 @@ exports.data = [
   },
   {
     "skillId": 207,
+    "activeSpell": true,
     "label": L("dic_skill_207_label"), //祈祷
     "icon": "skill-dzj1.png",
     "desc": L("dic_skill_207_desc"), //大主教对队伍中全体成员的生命值进行回复，回复值与命中值相关。
@@ -18723,6 +18729,7 @@ exports.data = [
   },
     {
         "skillId": 352,
+        "activeSpell": true,
         "label": L("dic_skill_348_label"), //加特林扫射
         "config": {
             "triggerCondition": [
@@ -18822,6 +18829,7 @@ exports.data = [
     },
     {
         "skillId": 354,
+        "activeSpell": true,
         "label": L("dic_skill_348_label"), //脉冲光束炮
         "config": {
             "triggerCondition": [
@@ -18927,21 +18935,194 @@ exports.data = [
     },
   {
     "skillId": 356,
-    "label": L("dic_skill_348_label"), //震荡波
-    "slotId": 100,
+    "activeSpell": true,
+    "label": L("dic_skill_309_label"), //战技
+    "icon": "skill-warrior1.png",
+    "desc": L("dic_skill_309_desc"), //对目标实施多段攻击，攻击段数与等级挂钩
+    "slotId": 0,
     "config": {
       "triggerCondition": [
         {
+          "type": "countDown",
+          "cd": 10
+        }
+      ],
+      "targetSelection": {
+        "pool": "self"
+      },
+      "action": [
+        {
+          "type": "playAction",
+          "effect": 4,
+          "act": "self"
+        },
+        {
+          "type": "installSpell",
+          "spell": 357,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 357,
+    "slotId": -1,
+    "config": {
+      "basic": {
+        "buffEffect": 42,
+        "spellAction": 4,
+        "spellEffect": 46,
+        "spellDelay": 0.3
+      },
+      "triggerCondition": [
+        {
           "type": "event",
-          "event": "onTurnEnd",
-          "eventCount": 3,
-          "reset": true
+          "event": "onTarget"
+        }
+      ],
+      "availableCondition": [
+        {
+          "type": "effectCount",
+          "count": 1
+        }
+      ],
+      "action": [
+        {
+          "type": "ignoreAttack"
         },
         {
-          "type": "visible"
+          "type": "modifyVar",
+          "x": "damage",
+          "#formular": [
+            {
+              "src": {
+                "attack": 0.8
+              }
+            },
+            {
+              "src": {
+                "attack": 1
+              }
+            },
+            {
+              "src": {
+                "attack": 1.2
+              }
+            }
+          ]
         },
         {
-          "type": "alive"
+          "type": "blink",
+          "delay": 0.3,
+          "time": 0.08
+        },
+        {
+          "type": "shock",
+          "delay": 0.3,
+          "range": 5,
+          "time": 0.2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 358,
+    "label": L("dic_skill_0_label"), //击晕
+    "icon": "skill-warrior1.png",
+    "desc": L("dic_skill_0_desc"), //对怪物进行攻击，攻击力不高但会使其晕厥。
+    "slotId": 1,
+    "config": {
+      "basic": {
+        "spellAction": 2,
+        "spellEffect": 45,
+        "spellDelay": 0.3
+      },
+      "targetSelection": {
+        "pool": "self"
+      },
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 10
+        }
+      ],
+      "action": [
+        {
+          "type": "installSpell",
+          "spell": 359,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "shock",
+          "delay": 0.3,
+          "range": 5,
+          "time": 0.2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 359,
+    "slotId": -1,
+    "config": {
+      "basic": {
+        "buffEffect": 42,
+        "spellAction": 4,
+        "spellEffect": 46,
+        "spellDelay": 0.3
+      },
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onTarget"
+        }
+      ],
+      "availableCondition": [
+        {
+          "type": "effectCount",
+          "count": 1
+        }
+      ],
+      "action": [
+        {
+          "type": "modifyVar",
+          "x": "damage",
+          "formular": {
+            "environment": {
+              "damage": 0
+            }
+          }
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "reinforce",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 361,
+    "label": L("dic_skill_69_label"), //回旋斩
+    "icon": "skill-warrior1.png",
+    "desc": L("dic_skill_0_desc"), //对周围范围敌人造成伤害。
+    "slotId": 2,
+    "config": {
+      "basic": {
+        "spellAction": 1
+      },
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 10
         }
       ],
       "targetSelection": {
@@ -18949,31 +19130,12 @@ exports.data = [
         "filter": [
           {
             "type": "anchor",
-            "shape": 3,
-            "length": 2,
+            "shape": 1,
+            "length": 1,
             "startDistance": 1,
             "anchorPos": {
               "pool": "self",
               "filter": [
-                {
-                  "type": "count",
-                  "count": 1
-                }
-              ]
-            },
-            "anchorDirPos": {
-              "pool": "objects",
-              "filter": [
-                {
-                  "type": "alive"
-                },
-                {
-                  "type": "visible"
-                },
-                {
-                  "type": "target-faction-with-flag",
-                  "flag": "attackable"
-                },
                 {
                   "type": "count",
                   "count": 1
@@ -18985,42 +19147,26 @@ exports.data = [
       },
       "action": [
         {
-          "type": "playEffect",
-          "effect": 79,
-          "pos": "target"
-        },
-        {
-          "type": "delay"
-        },
-        {
-          "type": "playAction",
-          "motion": "1",
-          "pos": "self"
-        },
-        {
-          "type": "playEffect",
-          "effect": 80,
-          "pos": "self"
-        },
-        {
           "type": "installSpell",
-          "spell": 357
+          "spell": 362,
+          "delay": 0.3,
+          "#level": [
+            1,
+            2,
+            3
+          ]
         }
       ]
     }
   },
   {
-    "skillId": 357,
+    "skillId": 362,
     "config": {
       "installAction": [
         {
-          "type": "damage",
-          "damageType": "Spell",
-          "isRange": true,
-          "delay": 0.4,
-          "formular": {
-            "c": 300
-          }
+          "type": "playEffect",
+          "effect": 26,
+          "pos": "self"
         }
       ],
       "targetSelection": {
@@ -19031,7 +19177,7 @@ exports.data = [
           },
           {
             "type": "same-faction",
-            "faction": "hero"
+            "faction": "monster"
           },
           {
             "type": "alive"
@@ -19045,6 +19191,150 @@ exports.data = [
         {
           "type": "effectCount",
           "count": 1
+        }
+      ],
+      "action": [
+        {
+          "type": "damage",
+          "damageType": "Spell",
+          "isRange": true,
+          "#formular": [
+            {
+              "c": 150
+            },
+            {
+              "c": 300
+            },
+            {
+              "c": 450
+            }
+          ]
+        },
+        {
+          "type": "playEffect",
+          "effect": 25,
+          "pos": "self"
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 363,
+    "label": L("dic_skill_95_label"), //神圣护盾
+    "desc": L("dic_skill_95_desc"), //对我方全体施加无敌护盾。
+    "config": {
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 10
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "healable"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "delay"
+        },
+        {
+          "type": "installSpell",
+          "spell": 364,
+          "delay": 0.3,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "playAction",
+          "motion": 1,
+          "pos": "self"
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 364,
+    "config": {
+      "basic": {
+        "buffEffect": 42
+      },
+      "action": [
+        {
+          "type": "ignoreHurt"
+        },
+        {
+          "type": "playEffect",
+          "delay": 0.3,
+          "effect": 1,
+          "pos": "self"
+        },
+        {
+          "type": "modifyVar",
+          "x": "damage",
+          "formular": {
+            "environment": {
+              "c": 0
+            }
+          }
+        }
+      ],
+      "targetSelection": {
+        "pool": "self",
+        "filter": [
+          {
+            "type": "alive"
+          }
+        ]
+      },
+      "buffType": "RoleBuff",
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onBePhysicalDamage"
+        },
+        {
+          "type": "event",
+          "event": "onBePhysicalRangeDamage"
+        },
+        {
+          "type": "event",
+          "event": "onBeSpellDamage"
+        },
+        {
+          "type": "event",
+          "event": "onBeSpellRangeDamage"
+        },
+        {
+          "type": "targetMutex",
+          "mutex": "reinforce"
+        },
+        {
+          "type": "targetMutex",
+          "mutex": "lightOfMiracel"
+        }
+      ],
+      "availableCondition": [
+        {
+          "type": "effectCount",
+          "#count": [
+            1,
+            2,
+            3
+          ]
         }
       ]
     }

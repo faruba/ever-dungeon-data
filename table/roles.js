@@ -16,8 +16,7 @@ exports.data = [
 			"strong": 4,
 			"accuracy": 2,
 			"reactivity": 1,
-			"speed": 2,
-			"activeSpell": [0]
+			"speed": 2
 		},
 		"defaultArmors": [
 			6,
@@ -59,8 +58,7 @@ exports.data = [
 			"strong": 2,
 			"accuracy": 2,
 			"reactivity": 2,
-			"speed": 2,
-			"activeSpell": [5]
+			"speed": 2
 		},
 		"defaultArmors": [
 			6,
@@ -103,8 +101,7 @@ exports.data = [
 			"strong": 4,
 			"accuracy": 4,
 			"reactivity": 3,
-			"speed": 6,
-			"activeSpell": [8]
+			"speed": 6
 		},
 		"defaultArmors": [
 			6,
@@ -5261,7 +5258,6 @@ exports.data = [
 			"accuracy": 34,
 			"reactivity": 0.75,
 			"speed": 65,
-			"activeSpell": "WallOfSheild"
 		},
 		"defaultArmors": [
 			6,
@@ -5301,7 +5297,6 @@ exports.data = [
 			"accuracy": 49,
 			"reactivity": 1,
 			"speed": 24,
-			"activeSpell": "Lightning"
 		},
 		"defaultArmors": [
 			6,
@@ -8070,8 +8065,7 @@ exports.data = [
             "strong": 4,
             "accuracy": 2,
             "reactivity": 1,
-            "speed": 2,
-            "activeSpell": [195]
+            "speed": 2
         },
         "defaultArmors": [
             6,
@@ -8113,8 +8107,7 @@ exports.data = [
             "strong": 2,
             "accuracy": 2,
             "reactivity": 2,
-            "speed": 2,
-            "activeSpell": [201]
+            "speed": 2
         },
         "defaultArmors": [
             6,
@@ -8156,8 +8149,7 @@ exports.data = [
             "strong": 4,
             "accuracy": 4,
             "reactivity": 3,
-            "speed": 6,
-            "activeSpell": [207]
+            "speed": 6
         },
         "defaultArmors": [
             6,

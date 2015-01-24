@@ -89,6 +89,7 @@ exports.data = {
         "sceneDungeonPKFailed":"PK战败",
         "sceneDungeonUseRecovery":"队伍成员已经全部牺牲\n是否要使用复活药水继续战斗？",
         "sceneDungeonDefeated":"玩家被击败",
+        "sceneDungeonUnSelectable":"没有可选择的目标",
         "sceneForgeChangeCoin":"金币不足\n还需要{#1}金币\n需要使用{#2}宝石来兑换吗?",
         "sceneForgeCharge":"宝石不足，无法兑换\n需要充值吗?",
         "sceneForgeCoin":"兑金币",

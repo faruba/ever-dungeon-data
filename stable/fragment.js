@@ -1,6 +1,7 @@
 exports.data = [
     {//0
         "interval":{"value":30,"unit":"second"},//second minite hour day
+        "diamond":{"1":0},
         "basic_times":3,
         "basic_prize":[
             {
@@ -88,7 +89,8 @@ exports.data = [
         ]
     },
     { //1
-        "interval":{"value":10,"unit":"second"},
+        "interval":{"value":1,"unit":"second"},
+        "diamond":{"1":30,"10":290},
         "basic_times":3,
         "basic_prize":[
             {
