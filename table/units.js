@@ -6,9 +6,10 @@ exports.data = [
              {type: 'change_appearance', appearance: { head: 10 } },
              {type: 'install_skill', id: 3, level: 3 }]
     },
-    {//1
+    {//1（钢铁侠）
         'suitId':1,
-        '4':[{type: 'install_skill', id: 356, level: 1 }]
+        '2':[{type: 'install_skill', id: 352, level: 1 }],
+        '4':[{type: 'install_skill', id: 354, level: 1 }]
     },
     {//2（喵喵装）
         'suitId': 2,

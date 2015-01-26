@@ -18937,7 +18937,7 @@ exports.data = [
     "skillId": 356,
     "activeSpell": true,
     "label": L("dic_skill_356_label"), //战技
-    "icon": "skill-warrior1.png",
+    "icon": "skill-kzs1.png",
     "desc": L("dic_skill_356_desc"), //对目标实施多段攻击，攻击段数与等级挂钩。
     "slotId": 0,
     "config": {
@@ -18958,8 +18958,11 @@ exports.data = [
         },
         {
           "type": "playAction",
-          "effect": 1,
+          "effect": 2,
           "act": "self"
+        },
+        {
+          "type": "delay"
         },
         {
           "type": "installSpell",
@@ -19033,12 +19036,13 @@ exports.data = [
     "skillId": 358,
     "activeSpell": true,
     "label": L("dic_skill_358_label"), //击晕
-    "icon": "skill-warrior1.png",
+    "icon": "skill-kzs3.png",
     "desc": L("dic_skill_358_desc"), //对怪物进行攻击，攻击力不高但会使其晕厥。
     "slotId": 3,
     "config": {
       "basic": {
         "spellAction": 2,
+        "spellEffect": 87,
         "spellDelay": 0.3
       },
       "targetSelection": {
@@ -19074,9 +19078,7 @@ exports.data = [
     "slotId": -1,
     "config": {
       "basic": {
-        "buffEffect": 89,
-        "spellEffect": 87,
-        "spellDelay": 0.3
+        "buffEffect": 89
       },
       "triggerCondition": [
         {
@@ -19154,12 +19156,13 @@ exports.data = [
     "skillId": 361,
     "activeSpell": true,
     "label": L("dic_skill_361_label"), //回旋斩
-    "icon": "skill-warrior1.png",
+    "icon": "skill-warrior4.png",
     "desc": L("dic_skill_361_desc"), //对周围范围敌人造成伤害。
     "slotId": 4,
     "config": {
       "basic": {
-        "spellAction": 1
+        "spellAction": 1,
+        "spellEffect": 90
       },
       "triggerCondition": [
         {
@@ -19172,8 +19175,8 @@ exports.data = [
         "filter": [
           {
             "type": "anchor",
-            "shape": 1,
-            "length": 1,
+            "shape": 2,
+            "length": 0,
             "startDistance": 1,
             "anchorPos": {
               "pool": "self",
@@ -19206,9 +19209,21 @@ exports.data = [
     "config": {
       "installAction": [
         {
-          "type": "playEffect",
-          "effect": 79,
-          "pos": "self"
+          "type": "damage",
+          "damageType": "Spell",
+          "isRange": true,
+          "delay": 0.4,
+          "#formular": [
+            {
+              "c": 150
+            },
+            {
+              "c": 300
+            },
+            {
+              "c": 450
+            }
+          ]
         }
       ],
       "targetSelection": {
@@ -19233,32 +19248,6 @@ exports.data = [
         {
           "type": "effectCount",
           "count": 1
-        }
-      ],
-      "action": [
-        {
-          "type": "delay"
-        },
-        {
-          "type": "damage",
-          "damageType": "Spell",
-          "isRange": true,
-          "#formular": [
-            {
-              "c": 150
-            },
-            {
-              "c": 300
-            },
-            {
-              "c": 450
-            }
-          ]
-        },
-        {
-          "type": "playEffect",
-          "effect": 90,
-          "pos": "self"
         }
       ]
     }
@@ -19294,6 +19283,16 @@ exports.data = [
       },
       "action": [
         {
+          "type": "playAction",
+          "motion": 2,
+          "pos": "self"
+        },
+        {
+          "type": "playEffect",
+          "motion": 91,
+          "pos": "target"
+        },
+        {
           "type": "delay"
         },
         {
@@ -19305,16 +19304,6 @@ exports.data = [
             2,
             3
           ]
-        },
-        {
-          "type": "playAction",
-          "motion": 2,
-          "pos": "self"
-        },
-        {
-          "type": "playEffect",
-          "motion": 91,
-          "pos": "target"
         }
       ]
     }
@@ -19385,8 +19374,8 @@ exports.data = [
           "type": "effectCount",
           "#count": [
             1,
-            2,
-            3
+            1,
+            1
           ]
         }
       ]
