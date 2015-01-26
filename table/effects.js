@@ -363,7 +363,7 @@ exports.data = [
         "skeleton": "effect-zdb.json",
         "atlas": "effect-zdb.atlas",
         "onGround":true,
-        "isRotatable": true,
+        "isRotatable": true
     },
     {
         "effectId": 81,
@@ -382,5 +382,54 @@ exports.data = [
         "loop": true,
         "skeleton": "effect-jsht.json",
         "atlas": "effect-jsht.atlas"
+    },
+    {
+        "effectId": 84,
+        "skeleton": "effect-zhanji1.json",
+        "atlas": "effect-zhanji1.atlas"
+    },
+    {
+        "effectId": 85,
+        "skeleton": "effect-zhanji2.json",
+        "atlas": "effect-zhanji2.atlas"
+    },
+    {
+        "effectId": 86,
+        "loop": true,
+        "skeleton": "effect-zhanjibuff.json",
+        "atlas": "effect-zhanjibuff.atlas"
+    },
+    {
+        "effectId": 87,
+        "skeleton": "effect-jiyun.json",
+        "atlas": "effect-jiyun.atlas"
+    },
+    {
+        "effectId": 88,
+        "loop": true,
+        "skeleton": "effect-xuanyun.json",
+        "atlas": "effect-xuanyun.atlas"
+    },
+    {
+        "effectId": 89,
+        "loop": true,
+        "skeleton": "effect-jiyunbuff.json",
+        "atlas": "effect-jiyunbuff.atlas"
+    },
+    {
+        "effectId": 90,
+        "skeleton": "effect-huixuanzhan2.json",
+        "atlas": "effect-huixuanzhan2.atlas"
+    },
+    {
+        "effectId": 91,
+        "skeleton": "effect-shenshenghudun.json",
+        "atlas": "effect-shenshenghudun.atlas"
+    },
+    {
+        "effectId": 92,
+        "loop": true,
+        "skeleton": "effect-wudibuff.json",
+        "atlas": "effect-wudibuff.atlas"
     }
 ]

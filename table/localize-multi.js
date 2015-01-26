@@ -619,6 +619,16 @@ exports.data = {
 		"dic_skill_346_label":"巨石护体",
 		"dic_skill_348_label":"震荡波",
 		"dic_skill_350_label":"恶灵护体",
+        "dic_skill_352_label":"加特林扫射",
+        "dic_skill_354_label":"脉冲光束炮",
+        "dic_skill_356_label":"战技",
+        "dic_skill_356_desc":"对目标实施多段攻击，攻击段数与等级挂钩。",
+        "dic_skill_358_label":"击晕",
+        "dic_skill_358_desc":"对怪物进行攻击，攻击力不高但会使其晕厥。",
+        "dic_skill_361_label":"回旋斩",
+        "dic_skill_361_desc":"对周围范围敌人造成伤害。",
+        "dic_skill_363_label":"神圣护盾",
+        "dic_skill_363_desc":"对我方全体施加无敌护盾。",
         "evilWizard":"邪恶巫师的诡计",
         "evilWizard_else":"恭喜你获得《邪恶巫师的诡计》奖励，点击领取",
         "evilWizard_Top1":"恭喜你获得《邪恶巫师的诡计》第一名，点击领取奖励",
@@ -635,6 +645,6 @@ exports.data = {
 		"battleForeNo1":"恭喜你成为战斗力冠军，点击领取奖励。",
 		"LongLiveTheKing":"恭喜你成为竞技场冠军，点击领取奖励。",
 		"just4Test":"测试服小福利",
-		"just4Test_txt":"祝各位2015万事如意",
+		"just4Test_txt":"祝各位2015万事如意"
 	}
 };

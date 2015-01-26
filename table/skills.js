@@ -18730,7 +18730,7 @@ exports.data = [
     {
         "skillId": 352,
         "activeSpell": true,
-        "label": L("dic_skill_348_label"), //加特林扫射
+        "label": L("dic_skill_352_label"), //加特林扫射
         "config": {
             "triggerCondition": [
                 {
@@ -18830,7 +18830,7 @@ exports.data = [
     {
         "skillId": 354,
         "activeSpell": true,
-        "label": L("dic_skill_348_label"), //脉冲光束炮
+        "label": L("dic_skill_354_label"), //脉冲光束炮
         "config": {
             "triggerCondition": [
                 {
@@ -18936,9 +18936,9 @@ exports.data = [
   {
     "skillId": 356,
     "activeSpell": true,
-    "label": L("dic_skill_309_label"), //战技
+    "label": L("dic_skill_356_label"), //战技
     "icon": "skill-warrior1.png",
-    "desc": L("dic_skill_309_desc"), //对目标实施多段攻击，攻击段数与等级挂钩
+    "desc": L("dic_skill_356_desc"), //对目标实施多段攻击，攻击段数与等级挂钩。
     "slotId": 0,
     "config": {
       "triggerCondition": [
@@ -18952,8 +18952,13 @@ exports.data = [
       },
       "action": [
         {
+          "type": "playEffect",
+          "effect": 84,
+          "act": "self"
+        },
+        {
           "type": "playAction",
-          "effect": 4,
+          "effect": 1,
           "act": "self"
         },
         {
@@ -18973,10 +18978,8 @@ exports.data = [
     "slotId": -1,
     "config": {
       "basic": {
-        "buffEffect": 42,
-        "spellAction": 4,
-        "spellEffect": 46,
-        "spellDelay": 0.3
+        "buffEffect": 86,
+        "spellEffect": 85
       },
       "triggerCondition": [
         {
@@ -18991,9 +18994,6 @@ exports.data = [
         }
       ],
       "action": [
-        {
-          "type": "ignoreAttack"
-        },
         {
           "type": "modifyVar",
           "x": "damage",
@@ -19031,14 +19031,14 @@ exports.data = [
   },
   {
     "skillId": 358,
-    "label": L("dic_skill_0_label"), //击晕
+    "activeSpell": true,
+    "label": L("dic_skill_358_label"), //击晕
     "icon": "skill-warrior1.png",
-    "desc": L("dic_skill_0_desc"), //对怪物进行攻击，攻击力不高但会使其晕厥。
-    "slotId": 1,
+    "desc": L("dic_skill_358_desc"), //对怪物进行攻击，攻击力不高但会使其晕厥。
+    "slotId": 3,
     "config": {
       "basic": {
         "spellAction": 2,
-        "spellEffect": 45,
         "spellDelay": 0.3
       },
       "targetSelection": {
@@ -19074,9 +19074,8 @@ exports.data = [
     "slotId": -1,
     "config": {
       "basic": {
-        "buffEffect": 42,
-        "spellAction": 4,
-        "spellEffect": 46,
+        "buffEffect": 89,
+        "spellEffect": 87,
         "spellDelay": 0.3
       },
       "triggerCondition": [
@@ -19091,30 +19090,73 @@ exports.data = [
           "count": 1
         }
       ],
+      "targetSelection": {
+        "pool": "target",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          }
+        ]
+      },
       "action": [
         {
-          "type": "modifyVar",
-          "x": "damage",
-          "formular": {
-            "environment": {
-              "damage": 0
+          "type": "installSpell",
+          "spell": 360,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 360,
+    "config": {
+      "basic": {
+        "buffEffect": 88
+      },
+      "installAction": [
+        {
+          "type": "setProperty",
+          "modifications": {
+            "accuracy": {
+              "src": {
+                "accuracy": -2.0
+              }
             }
           }
-        },
+        }
+      ],
+      "uninstallAction": [
         {
-          "type": "setMyMutex",
-          "mutex": "reinforce",
-          "count": 1
+          "type": "resetProperty"
+        }
+      ],
+      "availableCondition": [
+        {
+          "type": "event",
+          "event": "onEndBattleTurn",
+          "#eventCount": [
+            1,
+            2,
+            3
+          ]
         }
       ]
     }
   },
   {
     "skillId": 361,
-    "label": L("dic_skill_69_label"), //回旋斩
+    "activeSpell": true,
+    "label": L("dic_skill_361_label"), //回旋斩
     "icon": "skill-warrior1.png",
-    "desc": L("dic_skill_0_desc"), //对周围范围敌人造成伤害。
-    "slotId": 2,
+    "desc": L("dic_skill_361_desc"), //对周围范围敌人造成伤害。
+    "slotId": 4,
     "config": {
       "basic": {
         "spellAction": 1
@@ -19165,7 +19207,7 @@ exports.data = [
       "installAction": [
         {
           "type": "playEffect",
-          "effect": 26,
+          "effect": 79,
           "pos": "self"
         }
       ],
@@ -19195,6 +19237,9 @@ exports.data = [
       ],
       "action": [
         {
+          "type": "delay"
+        },
+        {
           "type": "damage",
           "damageType": "Spell",
           "isRange": true,
@@ -19212,7 +19257,7 @@ exports.data = [
         },
         {
           "type": "playEffect",
-          "effect": 25,
+          "effect": 90,
           "pos": "self"
         }
       ]
@@ -19220,8 +19265,11 @@ exports.data = [
   },
   {
     "skillId": 363,
-    "label": L("dic_skill_95_label"), //神圣护盾
-    "desc": L("dic_skill_95_desc"), //对我方全体施加无敌护盾。
+    "activeSpell": true,
+    "label": L("dic_skill_363_label"), //神圣护盾
+    "icon": "skill-warrior1.png",
+    "desc": L("dic_skill_363_desc"), //对我方全体施加无敌护盾。
+    "slotId": 5,
     "config": {
       "triggerCondition": [
         {
@@ -19260,8 +19308,13 @@ exports.data = [
         },
         {
           "type": "playAction",
-          "motion": 1,
+          "motion": 2,
           "pos": "self"
+        },
+        {
+          "type": "playEffect",
+          "motion": 91,
+          "pos": "target"
         }
       ]
     }
@@ -19270,7 +19323,7 @@ exports.data = [
     "skillId": 364,
     "config": {
       "basic": {
-        "buffEffect": 42
+        "buffEffect": 92
       },
       "action": [
         {
