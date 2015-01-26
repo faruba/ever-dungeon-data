@@ -11004,15 +11004,27 @@ exports.data = [
         {
           "type": "setProperty",
           "#modifications": [
-            {
-              "attack": {}
+		    {
+			  "attack": {
+                func:function(env,source,target,cons) {
+                  return env.visibleMonsterCount*source.attack*0.03
+                }
+              }
             },
             {
-              "attack": {}
+              "attack": {
+                func:function(env,source,target,cons) {
+                  return env.visibleMonsterCount*source.attack*0.05
+                }
+              }
             },
             {
-              "attack": {}
-            }
+              "attack": {
+                func:function(env,source,target,cons) {
+                  return env.visibleMonsterCount*source.attack*0.08
+                }
+              }
+			},
           ]
         }
       ],
@@ -15082,12 +15094,20 @@ exports.data = [
           "type": "setProperty",
           "#modifications": [
             {
-              "attack": {}
+              "attack": {
+                func:function(env,source,target,cons) {
+                  return env.visibleMonsterCount*source.attack*0.03
+                }
+              }
             },
             {
-              "attack": {}
+              "attack": {
+                func:function(env,source,target,cons) {
+                  return env.visibleMonsterCount*source.attack*0.05
+                }
+              }
             }
-          ]
+		  ]
         }
       ],
       "uninstallAction": [
