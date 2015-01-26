@@ -431,5 +431,61 @@ exports.data = [
         "loop": true,
         "skeleton": "effect-wudibuff.json",
         "atlas": "effect-wudibuff.atlas"
+    },
+    {
+        "effectId": 93,
+        "skeleton": "irongunfire1.json",
+        "atlas": "irongunfire1.atlas"
+    },
+    {
+        "effectId": 94,
+        "skeleton": "irongunfire2.json",
+        "atlas": "irongunfire2.atlas"
+    },
+    {
+        "effectId": 95,
+        "skeleton": "ironrayfire1.json",
+        "atlas": "ironrayfire1.atlas"
+    },
+    {
+        "effectId": 96,
+        "skeleton": "ironrayfire2.json",
+        "atlas": "ironrayfire2.atlas"
+    },
+    {
+        "effectId": 97,
+        "skeleton": "effect-siwanglongjuan.json",
+        "atlas": "effect-siwanglongjuan.atlas"
+    },
+    {
+        "effectId": 98,
+        "skeleton": "effect-yunshi.json",
+        "atlas": "effect-yunshi.atlas"
+    },
+    {
+        "effectId": 99,
+        "skeleton": "effect-shenshengyiji1.json",
+        "atlas": "effect-shenshengyiji1.atlas"
+    },
+    {
+        "effectId": 100,
+        "loop": true,
+        "skeleton": "effect-shenshengyijibuff.json",
+        "atlas": "effect-shenshengyijibuff.atlas"
+    },
+    {
+        "effectId": 101,
+        "skeleton": "effect-shenshengyiji2.json",
+        "atlas": "effect-shenshengyiji2.atlas"
+    },
+    {
+        "effectId": 102,
+        "skeleton": "effect-chuandao.json",
+        "atlas": "effect-chuandao.atlas"
+    },
+    {
+        "effectId": 103,
+        "skeleton": "effect-shenshengtuxi.json",
+        "atlas": "effect-shenshengtuxi.atlas"
     }
 ]
