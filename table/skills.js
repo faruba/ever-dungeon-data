@@ -18751,6 +18751,7 @@ exports.data = [
     "skillId": 352,
     "activeSpell": true,
     "label": L("dic_skill_352_label"), //加特林扫射
+    "slotId": 100,
     "config": {
       "triggerCondition": [
         {
@@ -18860,6 +18861,7 @@ exports.data = [
     "skillId": 354,
     "activeSpell": true,
     "label": L("dic_skill_354_label"), //脉冲光束炮
+    "slotId": 101,
     "config": {
       "triggerCondition": [
         {
@@ -19321,7 +19323,7 @@ exports.data = [
         {
           "type": "playEffect",
           "motion": 91,
-          "pos": "target"
+          "pos": "self"
         },
         {
           "type": "delay"
@@ -19538,11 +19540,31 @@ exports.data = [
         "pool": "blocks",
         "filter": [
           {
+            "type": "anchor",
+            "shape": 2,
+            "length": 2,
+            "startDistance": 0,
+            "direction": 9,
+            "anchorPos": {
+              "pool": "self",
+              "filter": [
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
             "type": "shuffle"
           },
           {
             "type": "count",
-            "count": 10
+            "#count": [
+              2,
+              3,
+              4
+            ]
           }
         ]
       },
@@ -19566,6 +19588,30 @@ exports.data = [
           "delay": 0.6,
           "range": 5,
           "time": 0.5
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "castSpell",
+          "spell": 376,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "castSpell",
+          "spell": 377,
+          "#level": [
+            1,
+            2,
+            3
+          ]
         }
       ]
     }
@@ -19869,11 +19915,31 @@ exports.data = [
         "pool": "blocks",
         "filter": [
           {
+            "type": "anchor",
+            "shape": 2,
+            "length": 2,
+            "startDistance": 0,
+            "direction": 9,
+            "anchorPos": {
+              "pool": "self",
+              "filter": [
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
             "type": "shuffle"
           },
           {
             "type": "count",
-            "count": 10
+            "#count": [
+              2,
+              3,
+              4
+            ]
           }
         ]
       },
@@ -19911,6 +19977,30 @@ exports.data = [
           "delay": 0.6,
           "range": 5,
           "time": 0.5
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "castSpell",
+          "spell": 378,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "castSpell",
+          "spell": 379,
+          "#level": [
+            1,
+            2,
+            3
+          ]
         }
       ]
     }
@@ -20004,6 +20094,286 @@ exports.data = [
         {
           "type": "effectCount",
           "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 376,
+    "label": L("dic_skill_367_label"), //陨石召唤第二波
+    "config": {
+      "basic": {
+        "spellAction": 1
+      },
+      "targetSelection": {
+        "pool": "blocks",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 2,
+            "length": 2,
+            "startDistance": 0,
+            "direction": 9,
+            "anchorPos": {
+              "pool": "self",
+              "filter": [
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "type": "shuffle"
+          },
+          {
+            "type": "count",
+            "#count": [
+              2,
+              3,
+              4
+            ]
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "installSpell",
+          "spell": 368,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "blink",
+          "delay": 0.6,
+          "time": 0.08
+        },
+        {
+          "type": "shock",
+          "delay": 0.6,
+          "range": 5,
+          "time": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 377,
+    "label": L("dic_skill_367_label"), //陨石召唤第三波
+    "config": {
+      "basic": {
+        "spellAction": 1
+      },
+      "targetSelection": {
+        "pool": "blocks",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 2,
+            "length": 2,
+            "startDistance": 0,
+            "direction": 9,
+            "anchorPos": {
+              "pool": "self",
+              "filter": [
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "type": "shuffle"
+          },
+          {
+            "type": "count",
+            "#count": [
+              2,
+              3,
+              4
+            ]
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "installSpell",
+          "spell": 368,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "blink",
+          "delay": 0.6,
+          "time": 0.08
+        },
+        {
+          "type": "shock",
+          "delay": 0.6,
+          "range": 5,
+          "time": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 378,
+    "label": L("dic_skill_373_label"), //神圣突袭第二波
+    "config": {
+      "basic": {
+        "spellAction": 1
+      },
+      "targetSelection": {
+        "pool": "blocks",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 2,
+            "length": 2,
+            "startDistance": 0,
+            "direction": 9,
+            "anchorPos": {
+              "pool": "self",
+              "filter": [
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "type": "shuffle"
+          },
+          {
+            "type": "count",
+            "#count": [
+              2,
+              3,
+              4
+            ]
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "installSpell",
+          "spell": 374,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "installSpell",
+          "spell": 375,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "playEffect",
+          "effect": 103,
+          "pos": "target"
+        },
+        {
+          "type": "blink",
+          "delay": 0.6,
+          "time": 0.08
+        },
+        {
+          "type": "shock",
+          "delay": 0.6,
+          "range": 5,
+          "time": 0.5
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 379,
+    "label": L("dic_skill_373_label"), //神圣突袭第三波
+    "config": {
+      "basic": {
+        "spellAction": 1
+      },
+      "targetSelection": {
+        "pool": "blocks",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 2,
+            "length": 2,
+            "startDistance": 0,
+            "direction": 9,
+            "anchorPos": {
+              "pool": "self",
+              "filter": [
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "type": "shuffle"
+          },
+          {
+            "type": "count",
+            "#count": [
+              2,
+              3,
+              4
+            ]
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "installSpell",
+          "spell": 374,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "installSpell",
+          "spell": 375,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "playEffect",
+          "effect": 103,
+          "pos": "target"
+        },
+        {
+          "type": "blink",
+          "delay": 0.6,
+          "time": 0.08
+        },
+        {
+          "type": "shock",
+          "delay": 0.6,
+          "range": 5,
+          "time": 0.5
         }
       ]
     }
