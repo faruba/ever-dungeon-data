@@ -5257,7 +5257,7 @@ exports.data = [
 			"strong": 7,
 			"accuracy": 34,
 			"reactivity": 0.75,
-			"speed": 65,
+			"speed": 65
 		},
 		"defaultArmors": [
 			6,
@@ -5296,7 +5296,7 @@ exports.data = [
 			"strong": 66,
 			"accuracy": 49,
 			"reactivity": 1,
-			"speed": 24,
+			"speed": 24
 		},
 		"defaultArmors": [
 			6,

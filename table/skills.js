@@ -19579,6 +19579,26 @@ exports.data = [
           ]
         },
         {
+          "type": "installSpell",
+          "spell": 376,
+          "#level": [
+            1,
+            2,
+            3
+          ],
+          "target": {
+            "pool": "self",
+            "filter": [
+              {
+                "type": "alive"
+              },
+              {
+                "type": "visible"
+              }
+            ]
+          }
+        },
+        {
           "type": "blink",
           "delay": 0.6,
           "time": 0.08
@@ -19606,7 +19626,7 @@ exports.data = [
         },
         {
           "type": "castSpell",
-          "spell": 377,
+          "spell": 376,
           "#level": [
             1,
             2,
@@ -19632,13 +19652,13 @@ exports.data = [
           "delay": 0.4,
           "#formular": [
             {
-              "c": 150
+              "c": 1
             },
             {
-              "c": 300
+              "c": 2
             },
             {
-              "c": 450
+              "c": 3
             }
           ]
         }
@@ -19968,6 +19988,26 @@ exports.data = [
           "pos": "target"
         },
         {
+          "type": "installSpell",
+          "spell": 377,
+          "#level": [
+            1,
+            2,
+            3
+          ],
+          "target": {
+            "pool": "self",
+            "filter": [
+              {
+                "type": "alive"
+              },
+              {
+                "type": "visible"
+              }
+            ]
+          }
+        },
+        {
           "type": "blink",
           "delay": 0.6,
           "time": 0.08
@@ -19983,7 +20023,7 @@ exports.data = [
         },
         {
           "type": "castSpell",
-          "spell": 378,
+          "spell": 377,
           "#level": [
             1,
             2,
@@ -19995,7 +20035,7 @@ exports.data = [
         },
         {
           "type": "castSpell",
-          "spell": 379,
+          "spell": 377,
           "#level": [
             1,
             2,
@@ -20016,13 +20056,13 @@ exports.data = [
           "delay": 0.4,
           "#formular": [
             {
-              "c": 100
+              "c": 1
             },
             {
-              "c": 200
+              "c": 2
             },
             {
-              "c": 300
+              "c": 3
             }
           ]
         }
@@ -20163,147 +20203,7 @@ exports.data = [
   },
   {
     "skillId": 377,
-    "label": L("dic_skill_367_label"), //陨石召唤第三波
-    "config": {
-      "basic": {
-        "spellAction": 1
-      },
-      "targetSelection": {
-        "pool": "blocks",
-        "filter": [
-          {
-            "type": "anchor",
-            "shape": 2,
-            "length": 2,
-            "startDistance": 0,
-            "direction": 9,
-            "anchorPos": {
-              "pool": "self",
-              "filter": [
-                {
-                  "type": "count",
-                  "count": 1
-                }
-              ]
-            }
-          },
-          {
-            "type": "shuffle"
-          },
-          {
-            "type": "count",
-            "#count": [
-              2,
-              3,
-              4
-            ]
-          }
-        ]
-      },
-      "action": [
-        {
-          "type": "installSpell",
-          "spell": 368,
-          "#level": [
-            1,
-            2,
-            3
-          ]
-        },
-        {
-          "type": "blink",
-          "delay": 0.6,
-          "time": 0.08
-        },
-        {
-          "type": "shock",
-          "delay": 0.6,
-          "range": 5,
-          "time": 0.5
-        }
-      ]
-    }
-  },
-  {
-    "skillId": 378,
     "label": L("dic_skill_373_label"), //神圣突袭第二波
-    "config": {
-      "basic": {
-        "spellAction": 1
-      },
-      "targetSelection": {
-        "pool": "blocks",
-        "filter": [
-          {
-            "type": "anchor",
-            "shape": 2,
-            "length": 2,
-            "startDistance": 0,
-            "direction": 9,
-            "anchorPos": {
-              "pool": "self",
-              "filter": [
-                {
-                  "type": "count",
-                  "count": 1
-                }
-              ]
-            }
-          },
-          {
-            "type": "shuffle"
-          },
-          {
-            "type": "count",
-            "#count": [
-              2,
-              3,
-              4
-            ]
-          }
-        ]
-      },
-      "action": [
-        {
-          "type": "installSpell",
-          "spell": 374,
-          "#level": [
-            1,
-            2,
-            3
-          ]
-        },
-        {
-          "type": "installSpell",
-          "spell": 375,
-          "#level": [
-            1,
-            2,
-            3
-          ]
-        },
-        {
-          "type": "playEffect",
-          "effect": 103,
-          "pos": "target"
-        },
-        {
-          "type": "blink",
-          "delay": 0.6,
-          "time": 0.08
-        },
-        {
-          "type": "shock",
-          "delay": 0.6,
-          "range": 5,
-          "time": 0.5
-        }
-      ]
-    }
-  },
-  {
-    "skillId": 379,
-    "label": L("dic_skill_373_label"), //神圣突袭第三波
     "config": {
       "basic": {
         "spellAction": 1
