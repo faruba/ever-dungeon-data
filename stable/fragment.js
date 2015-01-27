@@ -1,8 +1,52 @@
 exports.data = [
     {//0
-        "interval":{"value":30,"unit":"second"},//second minite hour day
+        "interval":{"value":10,"unit":"second"},//second minite hour day
         "diamond":{"1":0},
         "basic_times":3,
+        "advanced_option":[//若存在，优先读取advanced_option
+            {
+                "condition":"less",//less 小于 equal 等于 more 大于
+                "count_value":[2],
+                "basic_prize": [
+                    {
+                        "type": 2,
+                        "count":5
+                    },
+                    {
+                        "type": 2,
+                        "count":10
+                    }
+                ]
+            },
+            {
+                "condition":"equal",//less 小于 equal 等于 more 大于
+                "count_value":[3,4],
+                "basic_prize": [
+                    {
+                        "type": 2,
+                        "count":15
+                    },
+                    {
+                        "type": 2,
+                        "count":20
+                    }
+                ]
+            },
+            {
+                "condition":"more",//less 小于 equal 等于 more 大于
+                "count_value":[7],
+                "basic_prize": [
+                    {
+                        "type": 2,
+                        "count":25
+                    },
+                    {
+                        "type": 2,
+                        "count":30
+                    }
+                ]
+            }
+        ],
         "basic_prize":[
             {
                 "rate": 1,
