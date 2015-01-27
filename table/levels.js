@@ -5,7 +5,7 @@ exports.data = [
             {
                 "xp":0,
                 "skill": [
-                    {"id":0, "level": 1,"classLimit":0},
+                    {"id":356, "level": 1,"classLimit":0},
                     {"id":5, "level": 1,"classLimit":1},
                     {"id":8, "level": 1,"classLimit":2},
                     {"id":76}
@@ -37,7 +37,7 @@ exports.data = [
                 "skill": [
                     {"id":2, "level": 1,"classLimit":0},
                     {"id":12, "level": 1,"classLimit":1},
-                    {"id":9, "level": 1,"classLimit":2}
+                    {"id":369, "level": 1,"classLimit":2}
                 ]
             },
             {
@@ -112,7 +112,7 @@ exports.data = [
                     "speed": 1
                 },
                 "skill": [
-                    {"id":0, "level": 2,"classLimit":0},
+                    {"id":356, "level": 2,"classLimit":0},
                     {"id":5, "level": 2,"classLimit":1},
                     {"id":8, "level": 2,"classLimit":2}
                 ]
@@ -208,7 +208,7 @@ exports.data = [
                 "skill": [
                     {"id":2, "level": 2,"classLimit":0},
                     {"id":12, "level": 2,"classLimit":1},
-                    {"id":9, "level": 2,"classLimit":2}
+                    {"id":369, "level": 2,"classLimit":2}
                 ]
             },
             {
@@ -295,9 +295,15 @@ exports.data = [
                     "speed": 1
                 },
                 "skill": [
-                    {"id":4, "level": 1,"classLimit":0},
-                    {"id":6, "level": 1,"classLimit":1},
-                    {"id":11, "level": 1,"classLimit":2}
+                    {"id":363, "level": 3,"classLimit":0},
+                    {"id":358, "level": 3,"classLimit":0},
+                    {"id":361, "level": 3,"classLimit":0},
+                    {"id":206, "level": 3,"classLimit":1},
+                    {"id":365, "level": 3,"classLimit":1},
+                    {"id":367, "level": 3,"classLimit":1},
+                    {"id":11, "level": 1,"classLimit":2},
+                    {"id":373, "level": 3,"classLimit":2},
+                    {"id":371, "level": 3,"classLimit":2}
                 ]
             },
             {
@@ -437,7 +443,7 @@ exports.data = [
                     "speed": 1
                 },
                 "skill": [
-                    {"id":0, "level": 3,"classLimit":0},
+                    {"id":356, "level": 3,"classLimit":0},
                     {"id":5, "level": 3,"classLimit":1},
                     {"id":8, "level": 3,"classLimit":2}
                 ]
@@ -504,7 +510,7 @@ exports.data = [
                 "skill": [
                     {"id":2, "level": 3,"classLimit":0},
                     {"id":12, "level": 3,"classLimit":1},
-                    {"id":9, "level":3,"classLimit":2}
+                    {"id":369, "level":3,"classLimit":2}
                 ]
             },
             {
@@ -2506,7 +2512,7 @@ exports.data = [
             }
         ]
     },
-    {   "levelId":1,
+    {   "levelId": 1,
         "levelData":[
             {
                 "xp":0,

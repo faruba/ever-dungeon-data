@@ -363,7 +363,7 @@ exports.data = [
         "skeleton": "effect-zdb.json",
         "atlas": "effect-zdb.atlas",
         "onGround":true,
-        "isRotatable": true,
+        "isRotatable": true
     },
     {
         "effectId": 81,
@@ -382,5 +382,110 @@ exports.data = [
         "loop": true,
         "skeleton": "effect-jsht.json",
         "atlas": "effect-jsht.atlas"
+    },
+    {
+        "effectId": 84,
+        "skeleton": "effect-zhanji1.json",
+        "atlas": "effect-zhanji1.atlas"
+    },
+    {
+        "effectId": 85,
+        "skeleton": "effect-zhanji2.json",
+        "atlas": "effect-zhanji2.atlas"
+    },
+    {
+        "effectId": 86,
+        "loop": true,
+        "skeleton": "effect-zhanjibuff.json",
+        "atlas": "effect-zhanjibuff.atlas"
+    },
+    {
+        "effectId": 87,
+        "skeleton": "effect-jiyun.json",
+        "atlas": "effect-jiyun.atlas"
+    },
+    {
+        "effectId": 88,
+        "loop": true,
+        "skeleton": "effect-xuanyun.json",
+        "atlas": "effect-xuanyun.atlas"
+    },
+    {
+        "effectId": 89,
+        "loop": true,
+        "skeleton": "effect-jiyunbuff.json",
+        "atlas": "effect-jiyunbuff.atlas"
+    },
+    {
+        "effectId": 90,
+        "skeleton": "effect-huixuanzhan2.json",
+        "atlas": "effect-huixuanzhan2.atlas"
+    },
+    {
+        "effectId": 91,
+        "skeleton": "effect-shenshenghudun.json",
+        "atlas": "effect-shenshenghudun.atlas"
+    },
+    {
+        "effectId": 92,
+        "loop": true,
+        "skeleton": "effect-wudibuff.json",
+        "atlas": "effect-wudibuff.atlas"
+    },
+    {
+        "effectId": 93,
+        "skeleton": "irongunfire1.json",
+        "atlas": "irongunfire1.atlas"
+    },
+    {
+        "effectId": 94,
+        "skeleton": "irongunfire2.json",
+        "atlas": "irongunfire2.atlas"
+    },
+    {
+        "effectId": 95,
+        "skeleton": "ironrayfire1.json",
+        "atlas": "ironrayfire1.atlas"
+    },
+    {
+        "effectId": 96,
+        "skeleton": "ironrayfire2.json",
+        "atlas": "ironrayfire2.atlas"
+    },
+    {
+        "effectId": 97,
+        "skeleton": "effect-siwanglongjuan.json",
+        "atlas": "effect-siwanglongjuan.atlas"
+    },
+    {
+        "effectId": 98,
+        "skeleton": "effect-yunshi.json",
+        "atlas": "effect-yunshi.atlas"
+    },
+    {
+        "effectId": 99,
+        "skeleton": "effect-shenshengyiji1.json",
+        "atlas": "effect-shenshengyiji1.atlas"
+    },
+    {
+        "effectId": 100,
+        "loop": true,
+        "skeleton": "effect-shenshengyijibuff.json",
+        "atlas": "effect-shenshengyijibuff.atlas"
+    },
+    {
+        "effectId": 101,
+        "skeleton": "effect-shenshengyiji2.json",
+        "atlas": "effect-shenshengyiji2.atlas"
+    },
+    {
+        "effectId": 102,
+        "skeleton": "effect-chuandao.json",
+        "atlas": "effect-chuandao.atlas"
+    },
+    {
+        "effectId": 103,
+        "skeleton": "effect-shenshengtuxi.json",
+        "atlas": "effect-shenshengtuxi.atlas"
     }
 ]
