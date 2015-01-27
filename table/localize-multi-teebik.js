@@ -260,7 +260,7 @@ exports.data = {
         "xitemExp":"經驗",
         "xitemProficiency":"熟練",
         "showCommentTitle": "評分送寶石",
-        "showCommentContent": "跳轉到商店頁面對我們的遊戲進行\n評價吧，評價完成之後可以免費獲\n得{#1}寶石哦！！",
+        "showCommentContent": "跳轉到商店頁面對我們的遊戲進行\n評價吧，記得給5星好評哦！\n完成好評後免費獲得{#1}寶石！",
         "showCommentBtnCancel": "下次再說",
         "showCommentBtnGo": "　現在就去評價！",
         "showCommentBtnNever": "很殘忍地拒絕",

@@ -260,7 +260,7 @@ exports.data = {
         "xitemExp":"经验",
         "xitemProficiency":"熟练",
         "showCommentTitle": "评分送宝石",
-        "showCommentContent": "跳转到商店页面对我们的游戏进行\n评价吧，评价完成之后可以免费获\n得{#1}宝石哦！！",
+        "showCommentContent": "跳转到商店页面对我们的游戏进行\n评价吧，记得给5星好评哦！\n完成好评后免费获得{#1}宝石！",
 		"showCommentBtnCancel": "下次再说",
 		"showCommentBtnGo": "　现在就去评价！",
         "showCommentBtnNever": "很残忍地拒绝",
