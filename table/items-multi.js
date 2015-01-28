@@ -53370,11 +53370,11 @@ exports.data = [
     },
 	{
 		"classId": 1484,
-		"label": "礼仪套装（身）",
+		"label": "礼仪上衣",
 		"category": 1,
 		"subcategory": 12,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "表示出礼仪的装扮，给人以安心的感觉",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "chest",
@@ -53394,11 +53394,11 @@ exports.data = [
 	},
 	{
 		"classId": 1485,
-		"label": "礼仪套装（手）",
+		"label": "礼仪手套",
 		"category": 1,
 		"subcategory": 19,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -53426,11 +53426,11 @@ exports.data = [
 	},
 	{
 		"classId": 1486,
-		"label": "礼仪套装（脚）",
+		"label": "礼仪鞋",
 		"category": 1,
 		"subcategory": 20,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -53461,8 +53461,8 @@ exports.data = [
 		"label": "礼仪头饰",
 		"category": 1,
 		"subcategory": 13,
-		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -53482,11 +53482,11 @@ exports.data = [
 	},
 	{
 		"classId": 1488,
-		"label": "和风套装（身）",
+		"label": "和风上衣",
 		"category": 1,
 		"subcategory": 12,
-		"description": "和风的气息扑面而来。",
-		"sellprice": 1500,
+		"description": "洋溢着东方韵味的装扮。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "chest",
@@ -53506,11 +53506,11 @@ exports.data = [
 	},
 	{
 		"classId": 1489,
-		"label": "和风套装（手）",
+		"label": "和风护手",
 		"category": 1,
 		"subcategory": 19,
-		"description": "和风的气息扑面而来。",
-		"sellprice": 1500,
+		"description": "洋溢着东方韵味的装扮。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -53538,11 +53538,11 @@ exports.data = [
 	},
 	{
 		"classId": 1490,
-		"label": "和风套装（脚）",
+		"label": "和风护腿",
 		"category": 1,
 		"subcategory": 20,
-		"description": "和风的气息扑面而来。",
-		"sellprice": 1500,
+		"description": "洋溢着东方韵味的装扮。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -53573,8 +53573,8 @@ exports.data = [
 		"label": "和风头饰",
 		"category": 1,
 		"subcategory": 13,
-		"description": "洋溢着东洋气息的头饰。",
-		"sellprice": 500,
+		"description": "洋溢着东方韵味的装扮。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -53594,11 +53594,11 @@ exports.data = [
 	},
 	{
 		"classId": 1492,
-		"label": "喵喵套装（身）",
+		"label": "喵喵衣服",
 		"category": 1,
 		"subcategory": 12,
-		"description": "懒洋洋套装，软软肉球招人喜爱。",
-		"sellprice": 1500,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "chest",
@@ -53618,11 +53618,11 @@ exports.data = [
 	},
 	{
 		"classId": 1493,
-		"label": "喵喵套装（手）",
+		"label": "喵喵爪子",
 		"category": 1,
 		"subcategory": 19,
-		"description": "懒洋洋套装，软软肉球招人喜爱。",
-		"sellprice": 1500,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -53650,11 +53650,11 @@ exports.data = [
 	},
 	{
 		"classId": 1494,
-		"label": "喵喵套装（脚）",
+		"label": "喵喵护腿",
 		"category": 1,
 		"subcategory": 20,
-		"description": "懒洋洋套装，软软肉球招人喜爱。",
-		"sellprice": 1500,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -53685,8 +53685,8 @@ exports.data = [
 		"label": "喵喵耳朵",
 		"category": 1,
 		"subcategory": 13,
-		"description": "让人把持不住想摸一下。",
-		"sellprice": 500,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -53706,11 +53706,11 @@ exports.data = [
 	},
 	{
 		"classId": 1496,
-		"label": "医院套装（身）",
+		"label": "护理大衣",
 		"category": 1,
 		"subcategory": 12,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "chest",
@@ -53730,11 +53730,11 @@ exports.data = [
 	},
 	{
 		"classId": 1497,
-		"label": "医院套装（手）",
+		"label": "护理手套",
 		"category": 1,
 		"subcategory": 19,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -53762,11 +53762,11 @@ exports.data = [
 	},
 	{
 		"classId": 1498,
-		"label": "医院套装（脚）",
+		"label": "护理鞋具",
 		"category": 1,
 		"subcategory": 20,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -53794,11 +53794,11 @@ exports.data = [
 	},
 	{
 		"classId": 1499,
-		"label": "医院头饰",
+		"label": "护理头饰",
 		"category": 1,
 		"subcategory": 13,
-		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -53818,11 +53818,11 @@ exports.data = [
 	},
 	{
 		"classId": 1500,
-		"label": "刺客套装（身）",
+		"label": "刺客服",
 		"category": 1,
 		"subcategory": 12,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "chest",
@@ -53842,11 +53842,11 @@ exports.data = [
 	},
 	{
 		"classId": 1501,
-		"label": "刺客套装（手）",
+		"label": "刺客护手",
 		"category": 1,
 		"subcategory": 19,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -53874,11 +53874,11 @@ exports.data = [
 	},
 	{
 		"classId": 1502,
-		"label": "刺客套装（脚）",
+		"label": "刺客鞋",
 		"category": 1,
 		"subcategory": 20,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -53906,11 +53906,11 @@ exports.data = [
 	},
 	{
 		"classId": 1503,
-		"label": "刺客头饰",
+		"label": "刺客面罩",
 		"category": 1,
 		"subcategory": 13,
-		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -53930,11 +53930,11 @@ exports.data = [
 	},
 	{
 		"classId": 1504,
-		"label": "军服套装（身）",
+		"label": "军官大衣",
 		"category": 1,
 		"subcategory": 12,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "chest",
@@ -53954,11 +53954,11 @@ exports.data = [
 	},
 	{
 		"classId": 1505,
-		"label": "军服套装（手）",
+		"label": "军官手套",
 		"category": 1,
 		"subcategory": 19,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -53986,11 +53986,11 @@ exports.data = [
 	},
 	{
 		"classId": 1506,
-		"label": "军服套装（脚）",
+		"label": "军官长靴",
 		"category": 1,
 		"subcategory": 20,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -54018,11 +54018,11 @@ exports.data = [
 	},
 	{
 		"classId": 1507,
-		"label": "军服头饰",
+		"label": "军官帽",
 		"category": 1,
 		"subcategory": 13,
-		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -54042,11 +54042,11 @@ exports.data = [
 	},
 	{
 		"classId": 1508,
-		"label": "铠甲套装（身）",
+		"label": "勇者铠甲",
 		"category": 1,
 		"subcategory": 12,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "chest",
@@ -54066,11 +54066,11 @@ exports.data = [
 	},
 	{
 		"classId": 1509,
-		"label": "铠甲套装（手）",
+		"label": "勇者手甲",
 		"category": 1,
 		"subcategory": 19,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -54098,11 +54098,11 @@ exports.data = [
 	},
 	{
 		"classId": 1510,
-		"label": "铠甲套装（脚）",
+		"label": "勇者腿甲",
 		"category": 1,
 		"subcategory": 20,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -54130,11 +54130,11 @@ exports.data = [
 	},
 	{
 		"classId": 1511,
-		"label": "铠甲头饰",
+		"label": "勇者头饰",
 		"category": 1,
 		"subcategory": 13,
-		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -54154,11 +54154,11 @@ exports.data = [
 	},
 	{
 		"classId": 1512,
-		"label": "忍者套装（身）",
+		"label": "忍者上衣",
 		"category": 1,
 		"subcategory": 12,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "chest",
@@ -54178,11 +54178,11 @@ exports.data = [
 	},
 	{
 		"classId": 1513,
-		"label": "忍者套装（手）",
+		"label": "忍者护手",
 		"category": 1,
 		"subcategory": 19,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -54210,11 +54210,11 @@ exports.data = [
 	},
 	{
 		"classId": 1514,
-		"label": "忍者套装（脚）",
+		"label": "忍者裹足",
 		"category": 1,
 		"subcategory": 20,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -54245,8 +54245,8 @@ exports.data = [
 		"label": "忍者头饰",
 		"category": 1,
 		"subcategory": 13,
-		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
+		"sellprice": 300,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -55131,11 +55131,18 @@ exports.data = [
 	{
 		"classId": 1548,
 		"suitId": 4,
-		"label": "礼仪套装（身）",
+		"label": "礼仪上衣",
 		"category": 3,
 		"subcategory": 12,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+90 攻击+5 暴击+15 \n" +
+		               "2件：生命+290 攻击+20 暴击+65 韧性+5\n" +
+		               "3件：生命+1090 攻击+65 暴击+205 韧性+30 回避+25\n" +
+		               "     速度+25\n" +
+		               "4件：生命+2290 攻击+135 暴击+425 韧性+110 回避+95\n" +
+		               "     速度+95\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "chest",
@@ -55156,11 +55163,18 @@ exports.data = [
 	{
 		"classId": 1549,
 		"suitId": 4,
-		"label": "礼仪套装（手）",
+		"label": "礼仪手套",
 		"category": 3,
 		"subcategory": 19,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+90 攻击+5 暴击+15 \n" +
+		               "2件：生命+290 攻击+20 暴击+65 韧性+5\n" +
+		               "3件：生命+1090 攻击+65 暴击+205 韧性+30 回避+25\n" +
+		               "     速度+25\n" +
+		               "4件：生命+2290 攻击+135 暴击+425 韧性+110 回避+95\n" +
+		               "     速度+95\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -55189,11 +55203,18 @@ exports.data = [
 	{
 		"classId": 1550,
 		"suitId": 4,
-		"label": "礼仪套装（脚）",
+		"label": "礼仪鞋",
 		"category": 3,
 		"subcategory": 20,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+90 攻击+5 暴击+15 \n" +
+		               "2件：生命+290 攻击+20 暴击+65 韧性+5\n" +
+		               "3件：生命+1090 攻击+65 暴击+205 韧性+30 回避+25\n" +
+		               "     速度+25\n" +
+		               "4件：生命+2290 攻击+135 暴击+425 韧性+110 回避+95\n" +
+		               "     速度+95\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -55225,8 +55246,15 @@ exports.data = [
 		"label": "礼仪头饰",
 		"category": 3,
 		"subcategory": 13,
-		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+90 攻击+5 暴击+15 \n" +
+		               "2件：生命+290 攻击+20 暴击+65 韧性+5\n" +
+		               "3件：生命+1090 攻击+65 暴击+205 韧性+30 回避+25\n" +
+		               "     速度+25\n" +
+		               "4件：生命+2290 攻击+135 暴击+425 韧性+110 回避+95\n" +
+		               "     速度+95\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -55247,11 +55275,19 @@ exports.data = [
 	{
 		"classId": 1552,
 		"suitId": 3,
-		"label": "和风套装（身）",
+		"label": "和风上衣",
 		"category": 3,
 		"subcategory": 12,
-		"description": "和风的气息扑面而来。",
-		"sellprice": 1500,
+		"description": "洋溢着东方韵味的装扮。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60攻击+10 命中+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10 韧性+10 命中+65\n" +
+		               "     速度+10\n" +
+		               "3件：生命+810 攻击+70 暴击+85 韧性+85 命中+205\n" +
+		               "     速度+35\n" +
+		               "4件：生命+1710 攻击+140 暴击+215 韧性+215 命中+455\n" +
+		               "     速度+115\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "chest",
@@ -55272,11 +55308,19 @@ exports.data = [
 	{
 		"classId": 1553,
 		"suitId": 3,
-		"label": "和风套装（手）",
+		"label": "和风护手",
 		"category": 3,
 		"subcategory": 19,
-		"description": "和风的气息扑面而来。",
-		"sellprice": 1500,
+		"description": "洋溢着东方韵味的装扮。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60攻击+10 命中+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10 韧性+10 命中+65\n" +
+		               "     速度+10\n" +
+		               "3件：生命+810 攻击+70 暴击+85 韧性+85 命中+205\n" +
+		               "     速度+35\n" +
+		               "4件：生命+1710 攻击+140 暴击+215 韧性+215 命中+455\n" +
+		               "     速度+115\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -55305,11 +55349,19 @@ exports.data = [
 	{
 		"classId": 1554,
 		"suitId": 3,
-		"label": "和风套装（脚）",
+		"label": "和风护腿",
 		"category": 3,
 		"subcategory": 20,
-		"description": "和风的气息扑面而来。",
-		"sellprice": 1500,
+		"description": "洋溢着东方韵味的装扮。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60攻击+10 命中+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10 韧性+10 命中+65\n" +
+		               "     速度+10\n" +
+		               "3件：生命+810 攻击+70 暴击+85 韧性+85 命中+205\n" +
+		               "     速度+35\n" +
+		               "4件：生命+1710 攻击+140 暴击+215 韧性+215 命中+455\n" +
+		               "     速度+115\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -55341,8 +55393,16 @@ exports.data = [
 		"label": "和风头饰",
 		"category": 3,
 		"subcategory": 13,
-		"description": "洋溢着东洋气息的头饰。",
-		"sellprice": 500,
+		"description": "洋溢着东方韵味的装扮。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60攻击+10 命中+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10 韧性+10 命中+65\n" +
+		               "     速度+10\n" +
+		               "3件：生命+810 攻击+70 暴击+85 韧性+85 命中+205\n" +
+		               "     速度+35\n" +
+		               "4件：生命+1710 攻击+140 暴击+215 韧性+215 命中+455\n" +
+		               "     速度+115\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -55363,11 +55423,19 @@ exports.data = [
 	{
 		"classId": 1556,
 		"suitId": 2,
-		"label": "喵喵套装（身）",
+		"label": "喵喵衣服",
 		"category": 3,
 		"subcategory": 12,
-		"description": "懒洋洋套装，软软肉球招人喜爱。",
-		"sellprice": 1500,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 速度+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10 命中+10 回避+10\n" +
+		               "     速度+65\n" +
+		               "3件：生命+810 攻击+70 暴击+35 命中+85 回避+85\n" +
+		               "     速度+205\n" +
+		               "4件：生命+1710 攻击+140 暴击+115命中+215 回避+215\n" +
+		               "     速度+455\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "chest",
@@ -55388,11 +55456,19 @@ exports.data = [
 	{
 		"classId": 1557,
 		"suitId": 2,
-		"label": "喵喵套装（手）",
+		"label": "喵喵爪子",
 		"category": 3,
 		"subcategory": 19,
-		"description": "懒洋洋套装，软软肉球招人喜爱。",
-		"sellprice": 1500,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 速度+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10 命中+10 回避+10\n" +
+		               "     速度+65\n" +
+		               "3件：生命+810 攻击+70 暴击+35 命中+85 回避+85\n" +
+		               "     速度+205\n" +
+		               "4件：生命+1710 攻击+140 暴击+115命中+215 回避+215\n" +
+		               "     速度+455\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -55421,11 +55497,19 @@ exports.data = [
 	{
 		"classId": 1558,
 		"suitId": 2,
-		"label": "喵喵套装（脚）",
+		"label": "喵喵护腿",
 		"category": 3,
 		"subcategory": 20,
-		"description": "懒洋洋套装，软软肉球招人喜爱。",
-		"sellprice": 1500,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 速度+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10 命中+10 回避+10\n" +
+		               "     速度+65\n" +
+		               "3件：生命+810 攻击+70 暴击+35 命中+85 回避+85\n" +
+		               "     速度+205\n" +
+		               "4件：生命+1710 攻击+140 暴击+115命中+215 回避+215\n" +
+		               "     速度+455\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -55457,8 +55541,16 @@ exports.data = [
 		"label": "喵喵耳朵",
 		"category": 3,
 		"subcategory": 13,
-		"description": "让人把持不住想摸一下。",
-		"sellprice": 500,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 速度+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10 命中+10 回避+10\n" +
+		               "     速度+65\n" +
+		               "3件：生命+810 攻击+70 暴击+35 命中+85 回避+85\n" +
+		               "     速度+205\n" +
+		               "4件：生命+1710 攻击+140 暴击+115命中+215 回避+215\n" +
+		               "     速度+455\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -55479,11 +55571,18 @@ exports.data = [
 	{
 		"classId": 1560,
 		"suitId": 5,
-		"label": "医院套装（身）",
+		"label": "护理大衣",
 		"category": 3,
 		"subcategory": 12,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+200 攻击+5 命中+10\n" +
+		               "2件：生命+700 攻击+20 命中+40\n" +
+		               "3件：生命+1620 攻击+50 暴击+40 命中+170 回避+40\n" +
+		               "     速度+40\n" +
+		               "4件：生命+3120 攻击+150 暴击+110 命中+410 回避+110\n" +
+		               "     速度+110\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "chest",
@@ -55504,11 +55603,18 @@ exports.data = [
 	{
 		"classId": 1561,
 		"suitId": 5,
-		"label": "医院套装（手）",
+		"label": "护理手套",
 		"category": 3,
 		"subcategory": 19,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+200 攻击+5 命中+10\n" +
+		               "2件：生命+700 攻击+20 命中+40\n" +
+		               "3件：生命+1620 攻击+50 暴击+40 命中+170 回避+40\n" +
+		               "     速度+40\n" +
+		               "4件：生命+3120 攻击+150 暴击+110 命中+410 回避+110\n" +
+		               "     速度+110\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -55537,11 +55643,18 @@ exports.data = [
 	{
 		"classId": 1562,
 		"suitId": 5,
-		"label": "医院套装（脚）",
+		"label": "护理鞋具",
 		"category": 3,
 		"subcategory": 20,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+200 攻击+5 命中+10\n" +
+		               "2件：生命+700 攻击+20 命中+40\n" +
+		               "3件：生命+1620 攻击+50 暴击+40 命中+170 回避+40\n" +
+		               "     速度+40\n" +
+		               "4件：生命+3120 攻击+150 暴击+110 命中+410 回避+110\n" +
+		               "     速度+110\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -55570,11 +55683,18 @@ exports.data = [
 	{
 		"classId": 1563,
 		"suitId": 5,
-		"label": "医院头饰",
+		"label": "护理头饰",
 		"category": 3,
 		"subcategory": 13,
-		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+200 攻击+5 命中+10\n" +
+		               "2件：生命+700 攻击+20 命中+40\n" +
+		               "3件：生命+1620 攻击+50 暴击+40 命中+170 回避+40\n" +
+		               "     速度+40\n" +
+		               "4件：生命+3120 攻击+150 暴击+110 命中+410 回避+110\n" +
+		               "     速度+110\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -55595,11 +55715,18 @@ exports.data = [
 	{
 		"classId": 1564,
 		"suitId": 6,
-		"label": "刺客套装（身）",
+		"label": "刺客服",
 		"category": 3,
 		"subcategory": 12,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+10 暴击+45 \n" +
+		               "2件：生命+400 攻击+30 暴击+120 速度+40\n" +
+		               "3件：生命+800 攻击+90 暴击+300 命中+60 回避+60\n" +
+		               "     速度+160\n" +
+		               "4件：生命+140 攻击+220 暴击+620 命中+210 回避+210\n" +
+		               "     速度+350\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "chest",
@@ -55620,11 +55747,18 @@ exports.data = [
 	{
 		"classId": 1565,
 		"suitId": 6,
-		"label": "刺客套装（手）",
+		"label": "刺客护手",
 		"category": 3,
 		"subcategory": 19,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+10 暴击+45 \n" +
+		               "2件：生命+400 攻击+30 暴击+120 速度+40\n" +
+		               "3件：生命+800 攻击+90 暴击+300 命中+60 回避+60\n" +
+		               "     速度+160\n" +
+		               "4件：生命+140 攻击+220 暴击+620 命中+210 回避+210\n" +
+		               "     速度+350\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -55653,11 +55787,18 @@ exports.data = [
 	{
 		"classId": 1566,
 		"suitId": 6,
-		"label": "刺客套装（脚）",
+		"label": "刺客鞋",
 		"category": 3,
 		"subcategory": 20,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+10 暴击+45 \n" +
+		               "2件：生命+400 攻击+30 暴击+120 速度+40\n" +
+		               "3件：生命+800 攻击+90 暴击+300 命中+60 回避+60\n" +
+		               "     速度+160\n" +
+		               "4件：生命+140 攻击+220 暴击+620 命中+210 回避+210\n" +
+		               "     速度+350\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -55686,11 +55827,18 @@ exports.data = [
 	{
 		"classId": 1567,
 		"suitId": 6,
-		"label": "刺客头饰",
+		"label": "刺客面罩",
 		"category": 3,
 		"subcategory": 13,
-		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+10 暴击+45 \n" +
+		               "2件：生命+400 攻击+30 暴击+120 速度+40\n" +
+		               "3件：生命+800 攻击+90 暴击+300 命中+60 回避+60\n" +
+		               "     速度+160\n" +
+		               "4件：生命+140 攻击+220 暴击+620 命中+210 回避+210\n" +
+		               "     速度+350\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -55711,11 +55859,16 @@ exports.data = [
 	{
 		"classId": 1568,
 		"suitId": 7,
-		"label": "军服套装（身）",
+		"label": "军官大衣",
 		"category": 3,
 		"subcategory": 12,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+20 暴击+15\n" +
+		               "2件：生命+400 攻击+60 暴击+55 韧性+15\n" +
+		               "3件：生命+100 攻击+180 暴击+175 韧性+35\n" +
+		               "4件：生命+1800 攻击+400 暴击+415 韧性+165 命中+70\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "chest",
@@ -55736,11 +55889,16 @@ exports.data = [
 	{
 		"classId": 1569,
 		"suitId": 7,
-		"label": "军服套装（手）",
+		"label": "军官手套",
 		"category": 3,
 		"subcategory": 19,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+20 暴击+15\n" +
+		               "2件：生命+400 攻击+60 暴击+55 韧性+15\n" +
+		               "3件：生命+100 攻击+180 暴击+175 韧性+35\n" +
+		               "4件：生命+1800 攻击+400 暴击+415 韧性+165 命中+70\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -55769,11 +55927,16 @@ exports.data = [
 	{
 		"classId": 1570,
 		"suitId": 7,
-		"label": "军服套装（脚）",
+		"label": "军官长靴",
 		"category": 3,
 		"subcategory": 20,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+20 暴击+15\n" +
+		               "2件：生命+400 攻击+60 暴击+55 韧性+15\n" +
+		               "3件：生命+100 攻击+180 暴击+175 韧性+35\n" +
+		               "4件：生命+1800 攻击+400 暴击+415 韧性+165 命中+70\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -55802,11 +55965,16 @@ exports.data = [
 	{
 		"classId": 1571,
 		"suitId": 7,
-		"label": "军服头饰",
+		"label": "军官帽",
 		"category": 3,
 		"subcategory": 13,
-		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+20 暴击+15\n" +
+		               "2件：生命+400 攻击+60 暴击+55 韧性+15\n" +
+		               "3件：生命+100 攻击+180 暴击+175 韧性+35\n" +
+		               "4件：生命+1800 攻击+400 暴击+415 韧性+165 命中+70\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -55827,11 +55995,16 @@ exports.data = [
 	{
 		"classId": 1572,
 		"suitId": 8,
-		"label": "铠甲套装（身）",
+		"label": "勇者铠甲",
 		"category": 3,
 		"subcategory": 12,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+250\n" +
+		               "2件：生命+800 攻击+10 韧性+20\n" +
+		               "3件：生命+2000 攻击+30 韧性+130 命中+30\n" +
+		               "4件：生命+4000 攻击+105 韧性+355 命中+80\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "chest",
@@ -55852,11 +56025,16 @@ exports.data = [
 	{
 		"classId": 1573,
 		"suitId": 8,
-		"label": "铠甲套装（手）",
+		"label": "勇者手甲",
 		"category": 3,
 		"subcategory": 19,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+250\n" +
+		               "2件：生命+800 攻击+10 韧性+20\n" +
+		               "3件：生命+2000 攻击+30 韧性+130 命中+30\n" +
+		               "4件：生命+4000 攻击+105 韧性+355 命中+80\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -55885,11 +56063,16 @@ exports.data = [
 	{
 		"classId": 1574,
 		"suitId": 8,
-		"label": "铠甲套装（脚）",
+		"label": "勇者腿甲",
 		"category": 3,
 		"subcategory": 20,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+250\n" +
+		               "2件：生命+800 攻击+10 韧性+20\n" +
+		               "3件：生命+2000 攻击+30 韧性+130 命中+30\n" +
+		               "4件：生命+4000 攻击+105 韧性+355 命中+80\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -55918,11 +56101,16 @@ exports.data = [
 	{
 		"classId": 1575,
 		"suitId": 8,
-		"label": "铠甲头饰",
+		"label": "勇者头饰",
 		"category": 3,
 		"subcategory": 13,
-		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+250\n" +
+		               "2件：生命+800 攻击+10 韧性+20\n" +
+		               "3件：生命+2000 攻击+30 韧性+130 命中+30\n" +
+		               "4件：生命+4000 攻击+105 韧性+355 命中+80\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -55943,11 +56131,18 @@ exports.data = [
 	{
 		"classId": 1576,
 		"suitId": 9,
-		"label": "忍者套装（身）",
+		"label": "忍者上衣",
 		"category": 3,
 		"subcategory": 12,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+5 回避+30 速度+30\n" +
+		               "2件：生命+400 攻击+20 回避+95 速度+95\n" +
+		               "3件：生命+800 攻击+75 暴击+40 命中+35 回避+275\n" +
+		               "     速度+275\n" +
+		               "4件：生命+140 攻击+175 暴击+190 命中+145 回避+595\n" +
+		               "     速度+595\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "chest",
@@ -55968,11 +56163,18 @@ exports.data = [
 	{
 		"classId": 1577,
 		"suitId": 9,
-		"label": "忍者套装（手）",
+		"label": "忍者护手",
 		"category": 3,
 		"subcategory": 19,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+5 回避+30 速度+30\n" +
+		               "2件：生命+400 攻击+20 回避+95 速度+95\n" +
+		               "3件：生命+800 攻击+75 暴击+40 命中+35 回避+275\n" +
+		               "     速度+275\n" +
+		               "4件：生命+140 攻击+175 暴击+190 命中+145 回避+595\n" +
+		               "     速度+595\n",
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -56001,10 +56203,17 @@ exports.data = [
 	{
 		"classId": 1578,
 		"suitId": 9,
-		"label": "忍者套装（脚）",
+		"label": "忍者裹足",
 		"category": 3,
 		"subcategory": 20,
-		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+5 回避+30 速度+30\n" +
+		               "2件：生命+400 攻击+20 回避+95 速度+95\n" +
+		               "3件：生命+800 攻击+75 暴击+40 命中+35 回避+275\n" +
+		               "     速度+275\n" +
+		               "4件：生命+140 攻击+175 暴击+190 命中+145 回避+595\n" +
+		               "     速度+595\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -56037,7 +56246,14 @@ exports.data = [
 		"label": "忍者头饰",
 		"category": 3,
 		"subcategory": 13,
-		"description": "注重礼仪，设计考究的头饰。",
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+5 回避+30 速度+30\n" +
+		               "2件：生命+400 攻击+20 回避+95 速度+95\n" +
+		               "3件：生命+800 攻击+75 暴击+40 命中+35 回避+275\n" +
+		               "     速度+275\n" +
+		               "4件：生命+140 攻击+175 暴击+190 命中+145 回避+595\n" +
+		               "     速度+595\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -56261,7 +56477,7 @@ exports.data = [
 	{
 		"classId": 1585,
 		"suitId": 3,
-		"label": "和风护手）",
+		"label": "和风护手",
 		"category": 3,
 		"subcategory": 19,
 		"description": "洋溢着东方韵味的装扮。\n" +
