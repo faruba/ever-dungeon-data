@@ -19572,6 +19572,10 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 368,
+          "delay": {
+            "base": 1.6,
+            "range": 5
+          },
           "#level": [
             1,
             2,
@@ -19738,7 +19742,7 @@ exports.data = [
     "config": {
       "basic": {
         "buffEffect": 100,
-        "spellEffect": 102
+        "spellEffect": 101
       },
       "triggerCondition": [
         {
@@ -19803,7 +19807,7 @@ exports.data = [
         }
       ],
       "targetSelection": {
-        "pool": "blocks",
+        "pool": "objects",
         "filter": [
           {
             "type": "anchor",
@@ -19829,6 +19833,14 @@ exports.data = [
           "pos": "self"
         },
         {
+          "type": "playEffect",
+          "effect": 102,
+          "pos": "playerChoice"
+        },
+        {
+          "type": "delay"
+        },
+        {
           "type": "installSpell",
           "spell": 372,
           "#level": [
@@ -19844,11 +19856,6 @@ exports.data = [
     "skillId": 372,
     "config": {
       "installAction": [
-        {
-          "type": "playEffect",
-          "effect": 102,
-          "pos": "self"
-        },
         {
           "type": "setProperty",
           "#modifications": [
@@ -19882,24 +19889,6 @@ exports.data = [
         }
       ],
       "buffType": "AttackDebuff",
-      "targetSelection": {
-        "pool": "objects",
-        "filter": [
-          {
-            "type": "same-block"
-          },
-          {
-            "type": "same-faction",
-            "faction": "monster"
-          },
-          {
-            "type": "alive"
-          },
-          {
-            "type": "visible"
-          }
-        ]
-      },
       "availableCondition": [
         {
           "type": "event",
@@ -19967,6 +19956,10 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 374,
+          "delay": {
+            "base": 1.6,
+            "range": 5
+          },
           "#level": [
             1,
             2,
@@ -19976,6 +19969,10 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 375,
+          "delay": {
+            "base": 1.6,
+            "range": 5
+          },
           "#level": [
             1,
             2,
@@ -20181,6 +20178,10 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 368,
+          "delay": {
+            "base": 1.6,
+            "range": 5
+          },
           "#level": [
             1,
             2,
@@ -20244,6 +20245,10 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 374,
+          "delay": {
+            "base": 1.6,
+            "range": 5
+          },
           "#level": [
             1,
             2,
@@ -20253,6 +20258,10 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 375,
+          "delay": {
+            "base": 1.6,
+            "range": 5
+          },
           "#level": [
             1,
             2,

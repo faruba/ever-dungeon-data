@@ -20234,6 +20234,7 @@ exports.data = [
 		"label": "荣誉套装",
 		"category": 1,
 		"subcategory": 12,
+		"extraSlots": [19,20],
 		"description": "兼顾外形与力量，是荣誉的象征。",
 		"sellprice": 1500,
 		"effectf": [
@@ -20281,8 +20282,10 @@ exports.data = [
 			}
 		],
 		"basic_properties": {
-			"health": 30,
-			"attack": 8
+			"health": 550,
+			"attack": 50,
+			"critical": 15,
+			"strong": 60
 		},
 		"storeOnly": true,
 		"iconf": "rfasion-female1-cloth.png",
@@ -20309,7 +20312,9 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"basic_properties": {
-			"accuracy": 10
+			"health": 200,
+			"attack": 30,
+			"accuracy": 60
 		},
 		"iconf": "rfasion-female1-helmet.png",
 		"iconm": "rfasion-male1-helmet.png"
@@ -21735,6 +21740,7 @@ exports.data = [
 		"label": "荣誉套装",
 		"category": 1,
 		"subcategory": 12,
+		"extraSlots": [19,20],
 		"description": "兼顾外形与力量，是荣誉的象征。",
 		"sellprice": 1500,
 		"effectf": [
@@ -21813,6 +21819,7 @@ exports.data = [
 		"label": "礼仪套装",
 		"category": 1,
 		"subcategory": 12,
+		"extraSlots": [19,20],
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
 		"sellprice": 1500,
 		"effectf": [
@@ -21891,6 +21898,7 @@ exports.data = [
 		"label": "和风套装",
 		"category": 1,
 		"subcategory": 12,
+		"extraSlots": [19,20],
 		"description": "和风的气息扑面而来。",
 		"sellprice": 1500,
 		"effectf": [
@@ -21969,6 +21977,7 @@ exports.data = [
 		"label": "喵喵套装",
 		"category": 1,
 		"subcategory": 12,
+		"extraSlots": [19,20],
 		"description": "懒洋洋套装，软软肉球招人喜爱。",
 		"sellprice": 1500,
 		"effectf": [

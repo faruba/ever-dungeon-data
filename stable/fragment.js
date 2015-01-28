@@ -1,48 +1,89 @@
 exports.data = [
     {//0
-        "interval":{"value":10,"unit":"second"},//second minite hour day
+        "interval":{"value":7,"unit":"hour"},//second minite hour day
         "diamond":{"1":0},
         "basic_times":3,
         "advanced_option":[//若存在，优先读取advanced_option
             {
-                "condition":"less",//less 小于 equal 等于 more 大于
+                "condition":"equal",//less 小于 equal 等于 more 大于
                 "count_value":[2],
                 "basic_prize": [
                     {
-                        "type": 2,
-                        "count":5
-                    },
-                    {
-                        "type": 2,
-                        "count":10
-                    }
-                ]
-            },
-            {
-                "condition":"equal",//less 小于 equal 等于 more 大于
-                "count_value":[3,4],
-                "basic_prize": [
-                    {
-                        "type": 2,
-                        "count":15
-                    },
-                    {
-                        "type": 2,
-                        "count":20
-                    }
-                ]
-            },
-            {
-                "condition":"more",//less 小于 equal 等于 more 大于
-                "count_value":[7],
-                "basic_prize": [
-                    {
-                        "type": 2,
-                        "count":25
-                    },
-                    {
-                        "type": 2,
-                        "count":30
+                        "rate": 1,
+                        "prize": [
+                            {
+                                "weight": 25,
+                                "type": 0,
+                                "value": 1557,
+                                "count": 1
+                            },
+                            {
+                                "weight": 25,
+                                "type": 0,
+                                "value": 1558,
+                                "count": 1
+                            },
+                            {
+                                "weight": 15,
+                                "type": 0,
+                                "value": 1559,
+                                "count": 1
+                            },
+                            {
+                                "weight": 15,
+                                "type": 0,
+                                "value": 1556,
+                                "count": 1
+                            },
+                            {
+                                "weight": 20,
+                                "type": 0,
+                                "value": 1555,
+                                "count": 1
+                            },
+                            {
+                                "weight": 20,
+                                "type": 0,
+                                "value": 1554,
+                                "count": 1
+                            },
+                            {
+                                "weight": 20,
+                                "type": 0,
+                                "value": 1553,
+                                "count": 1
+                            },
+                            {
+                                "weight": 20,
+                                "type": 0,
+                                "value": 1552,
+                                "count": 1
+                            },
+                            {
+                                "weight": 5,
+                                "type": 0,
+                                "value": 1551,
+                                "count": 1
+                            },
+                            {
+                                "weight": 5,
+                                "type": 0,
+                                "value": 1550,
+                                "count": 1
+                            },
+                            {
+                                "weight": 5,
+                                "type": 0,
+                                "value": 1549,
+                                "count": 1
+                            },
+                            {
+                                "weight": 5,
+                                "type": 0,
+                                "value": 1548,
+                                "count": 1
+                            }
+                        ]
                     }
                 ]
             }
@@ -398,8 +439,27 @@ exports.data = [
     },
     { //1
         "interval":{"value":1,"unit":"second"},
-        "diamond":{"1":30,"10":290},
-        "basic_times":3,
+        "diamond":{"1":300,"11":3000},
+        "basic_times":11,
+        "advanced_option":[//若存在，优先读取advanced_option
+            {
+                "condition":"equal",//less 小于 equal 等于 more 大于
+                "count_value":[3],
+                "basic_prize": [
+                    {
+                        "rate": 1,
+                        "prize": [
+                            {
+                                "weight": 1,
+                                "type": 0,
+                                "value": 1475,
+                                "count": 1
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
         "basic_prize":[
             {
                 "rate": 1,
