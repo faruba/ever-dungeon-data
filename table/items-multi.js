@@ -111,7 +111,7 @@ exports.data = [
 	{
 		"classId": 5,
 		"label": "万能碎片",
-		"icon": "item-piece1.png",
+		"icon": "rfasion-sp.png",
 		"category": 4,
 		"description": "神奇的物品，可以代替各种套装的碎片",
 		"stack": 99,
@@ -53127,7 +53127,8 @@ exports.data = [
     {
         "classId": 1475,
         "label": "X碎片",
-        "icon": "stone9.png",
+		"iconf": "rfasion-female-ironsuit-sp.png",
+		"iconm": "rfasion-male-ironsuit-sp.png",
         "category": 3,
         "subcategory": 1,
         "description": "神秘合金碎片",
@@ -53138,7 +53139,8 @@ exports.data = [
     {
         "classId": 1476,
         "label": "X头盔图纸",
-		"icon": "pwarrior-foot3.png",
+		"iconf": "rfasion-female-ironsuit-helmet-tz.png",
+		"iconm": "rfasion-male-ironsuit-helmet-tz.png",
         "category": 3,
         "subcategory": 0,
         "description": "能合成X头盔的图纸",
@@ -53174,8 +53176,8 @@ exports.data = [
             }
         ],
         "storeOnly": true,
-        "iconf": "rfasion-female3-helmet.png",
-        "iconm": "rfasion-male3-helmet.png",
+		"iconf": "rfasion-female-ironsuit-helmet.png",
+		"iconm": "rfasion-male-ironsuit-helmet.png",
         "recipePrize": [
             {
                 "type": 0,
@@ -53187,7 +53189,8 @@ exports.data = [
     {
         "classId": 1478,
         "label": "X胸甲图纸",
-		"icon": "pwarrior-chest4.png",
+		"iconf": "rfasion-female-ironsuit-chest-tz.png",
+		"iconm": "rfasion-male-ironsuit-chest-tz.png",
         "category": 3,
         "subcategory": 0,
         "description": "能合成X胸甲的图纸",
@@ -53239,8 +53242,8 @@ exports.data = [
 			}
         ],
         "storeOnly": true,
-        "iconf": "rfasion-female3-cloth.png",
-        "iconm": "rfasion-male3-cloth.png",
+		"iconf": "rfasion-female-ironsuit-chest.png",
+		"iconm": "rfasion-male-ironsuit-chest.png",
         "recipePrize": [
             {
                 "type": 0,
@@ -53252,7 +53255,8 @@ exports.data = [
     {
         "classId": 1480,
         "label": "X手甲图纸",
-		"icon": "pwarrior-subweapon4.png",
+		"iconf": "rfasion-female-ironsuit-hand-tz.png",
+		"iconm": "rfasion-male-ironsuit-hand-tz.png",
         "category": 3,
         "subcategory": 0,
         "description": "能合成X手甲的图纸",
@@ -53296,8 +53300,8 @@ exports.data = [
             }
         ],
         "storeOnly": true,
-		"iconf": "f-w-helmet5.png",
-		"iconm": "m-w-helmet5.png",
+		"iconf": "rfasion-female-ironsuit-hand.png",
+		"iconm": "rfasion-male-ironsuit-hand.png",
         "recipePrize": [
             {
                 "type": 0,
@@ -53309,7 +53313,8 @@ exports.data = [
     {
         "classId": 1482,
         "label": "X腿甲图纸",
-		"icon": "pwarrior-foot4.png",
+		"iconf": "rfasion-female-ironsuit-foot-tz.png",
+		"iconm": "rfasion-male-ironsuit-foot-tz.png",
         "category": 3,
         "subcategory": 0,
         "description": "能合成X腿甲的图纸",
@@ -53353,8 +53358,8 @@ exports.data = [
             }
         ],
         "storeOnly": true,
-		"iconf": "f-w-foot5.png",
-		"iconm": "m-w-foot5.png",
+		"iconf": "rfasion-female-ironsuit-foot.png",
+		"iconm": "rfasion-male-ironsuit-foot.png",
         "recipePrize": [
             {
                 "type": 0,
