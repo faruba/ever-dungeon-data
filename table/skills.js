@@ -18751,6 +18751,7 @@ exports.data = [
     "skillId": 352,
     "activeSpell": true,
     "label": L("dic_skill_352_label"), //加特林扫射
+    "icon": "skill-kzs1.png",
     "slotId": 100,
     "config": {
       "triggerCondition": [
@@ -18861,6 +18862,7 @@ exports.data = [
     "skillId": 354,
     "activeSpell": true,
     "label": L("dic_skill_354_label"), //脉冲光束炮
+    "icon": "skill-kzs2.png",
     "slotId": 101,
     "config": {
       "triggerCondition": [

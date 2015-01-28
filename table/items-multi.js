@@ -110,20 +110,20 @@ exports.data = [
 	},
 	{
 		"classId": 5,
-		"label": "迅敏之石",
-		"icon": "stone6.png",
-		"category": 2,
-		"subcategory": 5,
-		"description": "能够强化速度属性的宝石",
+		"label": "万能碎片",
+		"icon": "item-piece1.png",
+		"category": 4,
+		"description": "神奇的物品，可以代替各种套装的碎片",
 		"stack": 99,
-		"sellprice": 300,
+		"sellprice": 15,
 		"transPrize": [
 			{
-				"type": 0,
-				"value": 853,
+				"type": 2,
 				"count": 2
 			}
-		]
+		],
+		"quality": 0,
+		"sellGem": 2
 	},
 	{
 		"classId": 6,
@@ -53172,7 +53172,7 @@ exports.data = [
         "recipePrize": [
             {
                 "type": 0,
-                "value": 1475,
+                "value": 5,
                 "count": 3
             }
         ]
@@ -53230,7 +53230,7 @@ exports.data = [
         "recipePrize": [
             {
                 "type": 0,
-                "value": 1475,
+                "value": 5,
                 "count": 2
             }
         ]
@@ -53280,7 +53280,7 @@ exports.data = [
         "recipePrize": [
             {
                 "type": 0,
-                "value": 1475,
+                "value": 5,
                 "count": 1
             }
         ]
@@ -53330,7 +53330,7 @@ exports.data = [
         "recipePrize": [
             {
                 "type": 0,
-                "value": 1475,
+                "value": 5,
                 "count": 2
             }
         ]
@@ -55972,7 +55972,7 @@ exports.data = [
 		"category": 3,
 		"subcategory": 20,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -56005,7 +56005,7 @@ exports.data = [
 		"category": 3,
 		"subcategory": 13,
 		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
+		"sellprice": 800,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -56030,7 +56030,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 12,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "chest",
@@ -56045,7 +56044,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female3-cloth.png",
-		"iconm": "rfasion-male3-cloth.png"
+		"iconm": "rfasion-male3-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1581,
@@ -56054,7 +56060,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 19,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -56077,7 +56082,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female3-cloth.png",
-		"iconm": "rfasion-male3-cloth.png"
+		"iconm": "rfasion-male3-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1582,
@@ -56086,7 +56098,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 20,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -56109,7 +56120,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female3-cloth.png",
-		"iconm": "rfasion-male3-cloth.png"
+		"iconm": "rfasion-male3-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1583,
@@ -56118,7 +56136,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 13,
 		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -56133,7 +56150,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female3-helmet.png",
-		"iconm": "rfasion-male3-helmet.png"
+		"iconm": "rfasion-male3-helmet.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1584,
@@ -56142,7 +56166,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 12,
 		"description": "和风的气息扑面而来。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "chest",
@@ -56157,7 +56180,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female4-cloth.png",
-		"iconm": "rfasion-male4-cloth.png"
+		"iconm": "rfasion-male4-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1585,
@@ -56166,7 +56196,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 19,
 		"description": "和风的气息扑面而来。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -56189,7 +56218,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female4-cloth.png",
-		"iconm": "rfasion-male4-cloth.png"
+		"iconm": "rfasion-male4-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1586,
@@ -56198,7 +56234,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 20,
 		"description": "和风的气息扑面而来。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -56221,7 +56256,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female4-cloth.png",
-		"iconm": "rfasion-male4-cloth.png"
+		"iconm": "rfasion-male4-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1587,
@@ -56230,7 +56272,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 13,
 		"description": "洋溢着东洋气息的头饰。",
-		"sellprice": 500,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -56245,7 +56286,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female4-helmet.png",
-		"iconm": "rfasion-male4-helmet.png"
+		"iconm": "rfasion-male4-helmet.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1588,
@@ -56254,7 +56302,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 12,
 		"description": "懒洋洋套装，软软肉球招人喜爱。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "chest",
@@ -56269,7 +56316,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female5-cloth.png",
-		"iconm": "rfasion-male5-cloth.png"
+		"iconm": "rfasion-male5-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1589,
@@ -56278,7 +56332,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 19,
 		"description": "懒洋洋套装，软软肉球招人喜爱。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -56301,7 +56354,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female5-cloth.png",
-		"iconm": "rfasion-male5-cloth.png"
+		"iconm": "rfasion-male5-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1590,
@@ -56310,7 +56370,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 20,
 		"description": "懒洋洋套装，软软肉球招人喜爱。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -56333,7 +56392,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female5-cloth.png",
-		"iconm": "rfasion-male5-cloth.png"
+		"iconm": "rfasion-male5-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1591,
@@ -56342,7 +56408,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 13,
 		"description": "让人把持不住想摸一下。",
-		"sellprice": 500,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -56357,7 +56422,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female5-helmet.png",
-		"iconm": "rfasion-male5-helmet.png"
+		"iconm": "rfasion-male5-helmet.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1592,
@@ -56366,7 +56438,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 12,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "chest",
@@ -56381,7 +56452,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female6-cloth.png",
-		"iconm": "rfasion-male6-cloth.png"
+		"iconm": "rfasion-male6-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1593,
@@ -56390,7 +56468,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 19,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -56413,7 +56490,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female6-cloth.png",
-		"iconm": "rfasion-male6-cloth.png"
+		"iconm": "rfasion-male6-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1594,
@@ -56422,7 +56506,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 20,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -56445,7 +56528,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female6-cloth.png",
-		"iconm": "rfasion-male6-cloth.png"
+		"iconm": "rfasion-male6-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1595,
@@ -56454,7 +56544,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 13,
 		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -56469,7 +56558,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female6-helmet.png",
-		"iconm": "rfasion-male6-helmet.png"
+		"iconm": "rfasion-male6-helmet.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1596,
@@ -56478,7 +56574,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 12,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "chest",
@@ -56493,7 +56588,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female7-cloth.png",
-		"iconm": "rfasion-male7-cloth.png"
+		"iconm": "rfasion-male7-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1597,
@@ -56502,7 +56604,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 19,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -56525,7 +56626,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female7-cloth.png",
-		"iconm": "rfasion-male7-cloth.png"
+		"iconm": "rfasion-male7-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1598,
@@ -56534,7 +56642,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 20,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -56557,7 +56664,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female7-cloth.png",
-		"iconm": "rfasion-male7-cloth.png"
+		"iconm": "rfasion-male7-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1599,
@@ -56566,7 +56680,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 13,
 		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -56581,7 +56694,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female7-helmet.png",
-		"iconm": "rfasion-male7-helmet.png"
+		"iconm": "rfasion-male7-helmet.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1600,
@@ -56590,7 +56710,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 12,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "chest",
@@ -56605,7 +56724,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female8-cloth.png",
-		"iconm": "rfasion-male8-cloth.png"
+		"iconm": "rfasion-male8-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1601,
@@ -56614,7 +56740,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 19,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -56637,7 +56762,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female8-cloth.png",
-		"iconm": "rfasion-male8-cloth.png"
+		"iconm": "rfasion-male8-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1602,
@@ -56646,7 +56778,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 20,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -56669,7 +56800,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female8-cloth.png",
-		"iconm": "rfasion-male8-cloth.png"
+		"iconm": "rfasion-male8-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1603,
@@ -56678,7 +56816,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 13,
 		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -56693,7 +56830,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female8-helmet.png",
-		"iconm": "rfasion-male8-helmet.png"
+		"iconm": "rfasion-male8-helmet.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1604,
@@ -56702,7 +56846,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 12,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "chest",
@@ -56717,7 +56860,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female9-cloth.png",
-		"iconm": "rfasion-male9-cloth.png"
+		"iconm": "rfasion-male9-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1605,
@@ -56726,7 +56876,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 19,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -56749,7 +56898,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female9-cloth.png",
-		"iconm": "rfasion-male9-cloth.png"
+		"iconm": "rfasion-male9-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1606,
@@ -56758,7 +56914,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 20,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -56781,7 +56936,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female9-cloth.png",
-		"iconm": "rfasion-male9-cloth.png"
+		"iconm": "rfasion-male9-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1607,
@@ -56790,7 +56952,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 13,
 		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
 		"effectf": [
 			{
 				"part": "helmet",
@@ -56805,7 +56966,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female9-helmet.png",
-		"iconm": "rfasion-male9-helmet.png"
+		"iconm": "rfasion-male9-helmet.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1608,
@@ -56814,7 +56982,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 12,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "chest",
@@ -56829,7 +56996,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female10-cloth.png",
-		"iconm": "rfasion-male10-cloth.png"
+		"iconm": "rfasion-male10-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1609,
@@ -56838,7 +57012,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 19,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "righthand",
@@ -56861,7 +57034,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female10-cloth.png",
-		"iconm": "rfasion-male10-cloth.png"
+		"iconm": "rfasion-male10-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1610,
@@ -56870,7 +57050,6 @@ exports.data = [
 		"category": 3,
 		"subcategory": 20,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
-		"sellprice": 1500,
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -56893,7 +57072,14 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female10-cloth.png",
-		"iconm": "rfasion-male10-cloth.png"
+		"iconm": "rfasion-male10-cloth.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	},
 	{
 		"classId": 1611,
@@ -56901,8 +57087,14 @@ exports.data = [
 		"label": "忍者头饰",
 		"category": 3,
 		"subcategory": 13,
-		"description": "注重礼仪，设计考究的头饰。",
-		"sellprice": 500,
+		"description": "注重礼仪，设计考究的头饰。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+5 回避+30 速度+30\n" +
+		               "2件：生命+400 攻击+20 回避+95 速度+95\n" +
+		               "3件：生命+800 攻击+75 暴击+40 命中+35 回避+275\n" +
+		               "     速度+275\n" +
+		               "4件：生命+140 攻击+175 暴击+190 命中+145 回避+595\n" +
+		               "     速度+595\n",
 		"effectf": [
 			{
 				"part": "helmet",
@@ -56917,6 +57109,13 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"iconf": "rfasion-female10-helmet.png",
-		"iconm": "rfasion-male10-helmet.png"
+		"iconm": "rfasion-male10-helmet.png",
+		"recipePrize": [
+			{
+				"type": 0,
+				"value": 5,
+				"count": 1
+			}
+		]
 	}
 ]
