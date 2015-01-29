@@ -18751,6 +18751,7 @@ exports.data = [
     "skillId": 352,
     "activeSpell": true,
     "label": L("dic_skill_352_label"), //加特林扫射
+    "icon": "skill-ironsuit1.png",
     "slotId": 100,
     "config": {
       "triggerCondition": [
@@ -18796,10 +18797,6 @@ exports.data = [
       },
       "action": [
         {
-          "type": "installSpell",
-          "spell": 353
-        },
-        {
           "type": "playAction",
           "motion": "irongunfire",
           "pos": "self"
@@ -18807,12 +18804,19 @@ exports.data = [
         {
           "type": "playEffect",
           "effect": 93,
-          "pos": "self"
+          "act": "self"
         },
         {
           "type": "playEffect",
           "effect": 94,
           "pos": "target"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "installSpell",
+          "spell": 353
         }
       ]
     }
@@ -18825,7 +18829,6 @@ exports.data = [
           "type": "damage",
           "damageType": "Spell",
           "isRange": true,
-          "delay": 0.4,
           "formular": {
             "c": 300
           }
@@ -18861,6 +18864,7 @@ exports.data = [
     "skillId": 354,
     "activeSpell": true,
     "label": L("dic_skill_354_label"), //脉冲光束炮
+    "icon": "skill-ironsuit2.png",
     "slotId": 101,
     "config": {
       "triggerCondition": [
@@ -18912,12 +18916,15 @@ exports.data = [
         {
           "type": "playEffect",
           "effect": 95,
-          "pos": "self"
+          "act": "self"
         },
         {
           "type": "playEffect",
           "effect": 96,
           "pos": "target"
+        },
+        {
+          "type": "delay"
         },
         {
           "type": "installSpell",
@@ -19572,6 +19579,10 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 368,
+          "delay": {
+            "base": 1.6,
+            "range": 5
+          },
           "#level": [
             1,
             2,
@@ -19738,7 +19749,7 @@ exports.data = [
     "config": {
       "basic": {
         "buffEffect": 100,
-        "spellEffect": 102
+        "spellEffect": 101
       },
       "triggerCondition": [
         {
@@ -19803,7 +19814,7 @@ exports.data = [
         }
       ],
       "targetSelection": {
-        "pool": "blocks",
+        "pool": "objects",
         "filter": [
           {
             "type": "anchor",
@@ -19829,6 +19840,14 @@ exports.data = [
           "pos": "self"
         },
         {
+          "type": "playEffect",
+          "effect": 102,
+          "pos": "playerChoice"
+        },
+        {
+          "type": "delay"
+        },
+        {
           "type": "installSpell",
           "spell": 372,
           "#level": [
@@ -19844,11 +19863,6 @@ exports.data = [
     "skillId": 372,
     "config": {
       "installAction": [
-        {
-          "type": "playEffect",
-          "effect": 102,
-          "pos": "self"
-        },
         {
           "type": "setProperty",
           "#modifications": [
@@ -19882,24 +19896,6 @@ exports.data = [
         }
       ],
       "buffType": "AttackDebuff",
-      "targetSelection": {
-        "pool": "objects",
-        "filter": [
-          {
-            "type": "same-block"
-          },
-          {
-            "type": "same-faction",
-            "faction": "monster"
-          },
-          {
-            "type": "alive"
-          },
-          {
-            "type": "visible"
-          }
-        ]
-      },
       "availableCondition": [
         {
           "type": "event",
@@ -19967,6 +19963,10 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 374,
+          "delay": {
+            "base": 1.6,
+            "range": 5
+          },
           "#level": [
             1,
             2,
@@ -19976,6 +19976,10 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 375,
+          "delay": {
+            "base": 1.6,
+            "range": 5
+          },
           "#level": [
             1,
             2,
@@ -20181,6 +20185,10 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 368,
+          "delay": {
+            "base": 1.6,
+            "range": 5
+          },
           "#level": [
             1,
             2,
@@ -20244,6 +20252,10 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 374,
+          "delay": {
+            "base": 1.6,
+            "range": 5
+          },
           "#level": [
             1,
             2,
@@ -20253,6 +20265,10 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 375,
+          "delay": {
+            "base": 1.6,
+            "range": 5
+          },
           "#level": [
             1,
             2,
