@@ -97,7 +97,6 @@ exports.data = [
                     {
                         "rate": 1,
                         "prize": [
-
                             {
                                 "weight": 200,
                                 "type": 0,
@@ -162,7 +161,6 @@ exports.data = [
                     {
                         "rate": 1,
                         "prize": [
-
                             {
                                 "weight": 200,
                                 "type": 0,
@@ -274,7 +272,6 @@ exports.data = [
                     {
                         "rate": 1,
                         "prize": [
-
                             {
                                 "weight": 25,
                                 "type": 0,
@@ -320,26 +317,29 @@ exports.data = [
                     {
                         "rate": 1,
                         "prize": [
-
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1476,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1478,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1480,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1482,
@@ -366,26 +366,29 @@ exports.data = [
                     {
                         "rate": 1,
                         "prize": [
-
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1580,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1581,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1582,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1583,
@@ -500,24 +503,28 @@ exports.data = [
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1580,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1581,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1582,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1583,
@@ -530,24 +537,28 @@ exports.data = [
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 3,
                                 "type": 0,
                                 "value": 1476,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 3,
                                 "type": 0,
                                 "value": 1478,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 3,
                                 "type": 0,
                                 "value": 1480,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 3,
                                 "type": 0,
                                 "value": 1482,
@@ -650,24 +661,28 @@ exports.data = [
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1580,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1581,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1582,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 25,
                                 "type": 0,
                                 "value": 1583,
@@ -680,24 +695,28 @@ exports.data = [
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 3,
                                 "type": 0,
                                 "value": 1476,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 3,
                                 "type": 0,
                                 "value": 1478,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 3,
                                 "type": 0,
                                 "value": 1480,
                                 "count": 1
                             },
                             {
+                                "rare":true,
                                 "weight": 3,
                                 "type": 0,
                                 "value": 1482,
