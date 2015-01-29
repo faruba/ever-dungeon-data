@@ -18797,10 +18797,6 @@ exports.data = [
       },
       "action": [
         {
-          "type": "installSpell",
-          "spell": 353
-        },
-        {
           "type": "playAction",
           "motion": "irongunfire",
           "pos": "self"
@@ -18808,12 +18804,19 @@ exports.data = [
         {
           "type": "playEffect",
           "effect": 93,
-          "pos": "self"
+          "act": "self"
         },
         {
           "type": "playEffect",
           "effect": 94,
           "pos": "target"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "installSpell",
+          "spell": 353
         }
       ]
     }
@@ -18826,7 +18829,6 @@ exports.data = [
           "type": "damage",
           "damageType": "Spell",
           "isRange": true,
-          "delay": 0.4,
           "formular": {
             "c": 300
           }
@@ -18914,12 +18916,15 @@ exports.data = [
         {
           "type": "playEffect",
           "effect": 95,
-          "pos": "self"
+          "act": "self"
         },
         {
           "type": "playEffect",
           "effect": 96,
           "pos": "target"
+        },
+        {
+          "type": "delay"
         },
         {
           "type": "installSpell",
