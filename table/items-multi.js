@@ -53741,8 +53741,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female6-cloth.png",
-		"iconm": "rfasion-male6-cloth.png",
+		"iconf": "rfasion-female6-chest.png",
+		"iconm": "rfasion-male6-chest.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -53854,8 +53854,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female7-cloth.png",
-		"iconm": "rfasion-male7-cloth.png",
+		"iconf": "rfasion-female7-chest.png",
+		"iconm": "rfasion-male7-chest.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -53967,8 +53967,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female8-cloth.png",
-		"iconm": "rfasion-male8-cloth.png",
+		"iconf": "rfasion-female8-chest.png",
+		"iconm": "rfasion-male8-chest.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -54080,8 +54080,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female9-cloth.png",
-		"iconm": "rfasion-male9-cloth.png",
+		"iconf": "rfasion-female9-chest.png",
+		"iconm": "rfasion-male9-chest.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -54193,8 +54193,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female10-cloth.png",
-		"iconm": "rfasion-male10-cloth.png",
+		"iconf": "rfasion-female10-chest.png",
+		"iconm": "rfasion-male10-chest.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -54633,8 +54633,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female6-cloth.png",
-		"iconm": "rfasion-male6-cloth.png"
+		"iconf": "rfasion-female6-chest.png",
+		"iconm": "rfasion-male6-chest.png"
 	},
 	{
 		"classId": 1529,
@@ -54742,8 +54742,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female7-cloth.png",
-		"iconm": "rfasion-male7-cloth.png"
+		"iconf": "rfasion-female7-chest.png",
+		"iconm": "rfasion-male7-chest.png"
 	},
 	{
 		"classId": 1533,
@@ -54851,8 +54851,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female8-cloth.png",
-		"iconm": "rfasion-male8-cloth.png"
+		"iconf": "rfasion-female8-chest.png",
+		"iconm": "rfasion-male8-chest.png"
 	},
 	{
 		"classId": 1537,
@@ -54960,8 +54960,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female9-cloth.png",
-		"iconm": "rfasion-male9-cloth.png"
+		"iconf": "rfasion-female9-chest.png",
+		"iconm": "rfasion-male9-chest.png"
 	},
 	{
 		"classId": 1541,
@@ -55069,8 +55069,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female10-cloth.png",
-		"iconm": "rfasion-male10-cloth.png"
+		"iconf": "rfasion-female10-chest.png",
+		"iconm": "rfasion-male10-chest.png"
 	},
 	{
 		"classId": 1545,
@@ -55633,8 +55633,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female6-cloth.png",
-		"iconm": "rfasion-male6-cloth.png",
+		"iconf": "rfasion-female6-chest.png",
+		"iconm": "rfasion-male6-chest.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -55779,8 +55779,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female7-cloth.png",
-		"iconm": "rfasion-male7-cloth.png",
+		"iconf": "rfasion-female7-chest.png",
+		"iconm": "rfasion-male7-chest.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -55928,8 +55928,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female8-cloth.png",
-		"iconm": "rfasion-male8-cloth.png",
+		"iconf": "rfasion-female8-chest.png",
+		"iconm": "rfasion-male8-chest.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -56076,8 +56076,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female9-cloth.png",
-		"iconm": "rfasion-male9-cloth.png",
+		"iconf": "rfasion-female9-chest.png",
+		"iconm": "rfasion-male9-chest.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -56223,8 +56223,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female10-cloth.png",
-		"iconm": "rfasion-male10-cloth.png",
+		"iconf": "rfasion-female10-chest.png",
+		"iconm": "rfasion-male10-chest.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -56880,8 +56880,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female6-cloth.png",
-		"iconm": "rfasion-male6-cloth.png",
+		"iconf": "rfasion-female6-chest.png",
+		"iconm": "rfasion-male6-chest.png",
 		"recipePrize": [
 			{
 				"type": 0,
@@ -57046,8 +57046,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female7-cloth.png",
-		"iconm": "rfasion-male7-cloth.png",
+		"iconf": "rfasion-female7-chest.png",
+		"iconm": "rfasion-male7-chest.png",
 		"recipePrize": [
 			{
 				"type": 0,
@@ -57215,8 +57215,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female8-cloth.png",
-		"iconm": "rfasion-male8-cloth.png",
+		"iconf": "rfasion-female8-chest.png",
+		"iconm": "rfasion-male8-chest.png",
 		"recipePrize": [
 			{
 				"type": 0,
@@ -57383,8 +57383,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female9-cloth.png",
-		"iconm": "rfasion-male9-cloth.png",
+		"iconf": "rfasion-female9-chest.png",
+		"iconm": "rfasion-male9-chest.png",
 		"recipePrize": [
 			{
 				"type": 0,
@@ -57550,8 +57550,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female10-cloth.png",
-		"iconm": "rfasion-male10-cloth.png",
+		"iconf": "rfasion-female10-chest.png",
+		"iconm": "rfasion-male10-chest.png",
 		"recipePrize": [
 			{
 				"type": 0,
@@ -57745,8 +57745,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female6-cloth.png",
-		"iconm": "rfasion-male6-cloth.png"
+		"iconf": "rfasion-female6-chest.png",
+		"iconm": "rfasion-male6-chest.png"
 	},
 	{
 		"classId": 1613,
@@ -57800,8 +57800,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female7-cloth.png",
-		"iconm": "rfasion-male7-cloth.png"
+		"iconf": "rfasion-female7-chest.png",
+		"iconm": "rfasion-male7-chest.png"
 	},
 	{
 		"classId": 1614,
@@ -57855,8 +57855,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female8-cloth.png",
-		"iconm": "rfasion-male8-cloth.png"
+		"iconf": "rfasion-female8-chest.png",
+		"iconm": "rfasion-male8-chest.png"
 	},
 	{
 		"classId": 1615,
@@ -57910,8 +57910,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female9-cloth.png",
-		"iconm": "rfasion-male9-cloth.png"
+		"iconf": "rfasion-female9-chest.png",
+		"iconm": "rfasion-male9-chest.png"
 	},
 	{
 		"classId": 1616,
@@ -57965,7 +57965,7 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female10-cloth.png",
-		"iconm": "rfasion-male10-cloth.png"
+		"iconf": "rfasion-female10-chest.png",
+		"iconm": "rfasion-male10-chest.png"
 	}
 ]
