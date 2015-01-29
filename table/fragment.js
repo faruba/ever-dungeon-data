@@ -31,42 +31,50 @@ exports.data = [
                             {
                                 "weight": 80,
                                 "type": 0,
-                                "count": 1484
+                                "value": 1484,
+                                "count": 1
                             },
                             {
                                 "weight": 80,
                                 "type": 0,
-                                "count": 1485
+                                "value": 1485,
+                                "count": 1
                             },
                             {
                                 "weight": 80,
                                 "type": 0,
-                                "count": 1486
+                                "value": 1486,
+                                "count": 1
                             },
                             {
                                 "weight": 80,
                                 "type": 0,
-                                "count": 1487
+                                "value": 1487,
+                                "count": 1
                             },
                             {
                                 "weight": 80,
                                 "type": 0,
-                                "count": 1488
+                                "value": 1488,
+                                "count": 1
                             },
                             {
                                 "weight": 80,
                                 "type": 0,
-                                "count": 1489
+                                "value": 1489,
+                                "count": 1
                             },
                             {
                                 "weight": 80,
                                 "type": 0,
-                                "count": 1490
+                                "value": 1490,
+                                "count": 1
                             },
                             {
                                 "weight": 80,
                                 "type": 0,
-                                "count": 1491
+                                "value": 1491,
+                                "count": 1
                             }
                         ]
                     }
@@ -97,42 +105,50 @@ exports.data = [
                     {
                         "weight": 10,
                         "type": 0,
-                        "count": 1484
+                        "value": 1484,
+                        "count": 1
                     },
                     {
                         "weight": 10,
                         "type": 0,
-                        "count": 1485
+                        "value": 1485,
+                        "count": 1
                     },
                     {
                         "weight": 10,
                         "type": 0,
-                        "count": 1486
+                        "value": 1486,
+                        "count": 1
                     },
                     {
                         "weight": 10,
                         "type": 0,
-                        "count": 1487
+                        "value": 1487,
+                        "count": 1
                     },
                     {
                         "weight": 15,
                         "type": 0,
-                        "count": 1488
+                        "value": 1488,
+                        "count": 1
                     },
                     {
                         "weight": 15,
                         "type": 0,
-                        "count": 1489
+                        "value": 1489,
+                        "count": 1
                     },
                     {
                         "weight": 15,
                         "type": 0,
-                        "count": 1490
+                        "value": 1490,
+                        "count": 1
                     },
                     {
                         "weight": 15,
                         "type": 0,
-                        "count": 1491
+                        "value": 1491,
+                        "count": 1
                     }
                 ]
             }
@@ -161,42 +177,50 @@ exports.data = [
                     {
                         "weight": 10,
                         "type": 0,
-                        "count": 1484
+                        "value": 1484,
+                        "count": 1
                     },
                     {
                         "weight": 10,
                         "type": 0,
-                        "count": 1485
+                        "value": 1485,
+                        "count": 1
                     },
                     {
                         "weight": 10,
                         "type": 0,
-                        "count": 1486
+                        "value": 1486,
+                        "count": 1
                     },
                     {
                         "weight": 10,
                         "type": 0,
-                        "count": 1487
+                        "value": 1487,
+                        "count": 1
                     },
                     {
                         "weight": 15,
                         "type": 0,
-                        "count": 1488
+                        "value": 1488,
+                        "count": 1
                     },
                     {
                         "weight": 15,
                         "type": 0,
-                        "count": 1489
+                        "value": 1489,
+                        "count": 1
                     },
                     {
                         "weight": 15,
                         "type": 0,
-                        "count": 1490
+                        "value": 1490,
+                        "count": 1
                     },
                     {
                         "weight": 15,
                         "type": 0,
-                        "count": 1491
+                        "value": 1491,
+                        "count": 1
                     }
                 ]
             }
