@@ -137,6 +137,7 @@ exports.data = {
         "sceneLoginCannotConnect":"無法連接到服務器，請稍後再試",
         "sceneLoginRetry":"重試",
         "sceneLoginLoginingGame":"正在登入遊戲",
+        "sceneLotteryCost":"需要消耗{#1}寶石，確定繼續？",
         "sceneNewUserWarrior":"戰士：戰場上的中堅力量，擁有大量生命\n值以及不俗的爆發力，是團隊的守護神。",
         "sceneNewUserMage":"法師：擁有強大的輸出能力，配合群體傷\n害技能，能夠對敵人造成毀滅性的打擊。",
         "sceneNewUserPastor":"牧師：擁有恢復隊友生命值的神聖技能，\n使其在戰場上成為不可或缺的團隊後盾。",
