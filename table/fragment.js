@@ -252,8 +252,8 @@ exports.data = [
     },
     { //1
         "interval":{"value":1,"unit":"second"},
-        "diamond":{"1":300,"11":3000},
-        "basic_times":10,
+        "diamond":{"1":600,"11":6000},
+        "basic_times":11,
         "advanced_option":[//若存在，优先读取advanced_option
             {
                 "dateInterval":{
