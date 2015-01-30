@@ -58128,7 +58128,7 @@ exports.data = [
 		"iconm": "rfasion-male3-foot-tz.png",
 		"category": 3,
 		"subcategory": 0,
-		"description": "能合成礼仪鞋的图纸，需要5个X碎片",
+		"description": "能合成礼仪鞋的图纸，需要5个时装碎片",
 		"sellprice": 15,
 		"quality": 3,
 		"recipeTarget": 1550,
