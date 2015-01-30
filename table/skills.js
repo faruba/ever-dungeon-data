@@ -18756,6 +18756,7 @@ exports.data = [
     "activeSpell": true,
     "label": L("dic_skill_352_label"), //加特林扫射
     "icon": "skill-ironsuit1.png",
+    "desc": L("dic_skill_352_desc"), //由肩部的加特林机枪进行扫射，造成范围伤害。
     "slotId": 100,
     "config": {
       "triggerCondition": [
@@ -18834,7 +18835,9 @@ exports.data = [
           "damageType": "Spell",
           "isRange": true,
           "formular": {
-            "c": 300
+            func:function(env,source,target,cons) {
+              return env.battleForce*0.1+100
+            }
           }
         }
       ],
@@ -18869,6 +18872,7 @@ exports.data = [
     "activeSpell": true,
     "label": L("dic_skill_354_label"), //脉冲光束炮
     "icon": "skill-ironsuit2.png",
+    "desc": L("dic_skill_354_desc"), //由胸口射出高能光束炮，对指定位置敌人造成毁灭打击。
     "slotId": 101,
     "config": {
       "triggerCondition": [
@@ -18947,7 +18951,9 @@ exports.data = [
           "isRange": true,
           "delay": 0.4,
           "formular": {
-            "c": 300
+            func:function(env,source,target,cons) {
+              return env.battleForce*0.2+300
+            }
           }
         }
       ],
