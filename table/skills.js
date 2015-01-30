@@ -193,7 +193,7 @@ exports.data = [
     "label": L("dic_skill_3_label"), //自愈
     "icon": "skill-warrior3.png",
     "desc": L("dic_skill_3_desc"), //战士在受到治疗时，能够获得额外的生命值回复，回复值与韧性值有关。
-    "slotId": 2,
+    "slotId": 3,
     "config": {
       "basic": {},
       "triggerCondition": [
@@ -673,7 +673,7 @@ exports.data = [
     "label": L("dic_skill_10_label"), //救赎
     "icon": "skill-priest3.png",
     "desc": L("dic_skill_10_desc"), //牧师成功击杀敌人时，能够有一定概率短时间提升全体成员的攻击力。
-    "slotId": 2,
+    "slotId": 1,
     "config": {
       "basic": {
         "spellAction": 1,
@@ -761,7 +761,11 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 0.4
+          "#chance":[
+              0.2,
+              0.3,
+              0.4
+          ]
         },
         {
           "type": "targetMutex",
@@ -3098,7 +3102,7 @@ exports.data = [
               "item": 7
             },
             {
-              "weight": 5,
+              "weight": 0,
               "item": 8
             },
             {
@@ -8652,7 +8656,7 @@ exports.data = [
               "item": 7
             },
             {
-              "weight": 5,
+              "weight": 0,
               "item": 8
             },
             {
@@ -18999,7 +19003,7 @@ exports.data = [
         {
           "type": "playAction",
           "motion": 2,
-          "act": "self"
+          "pos": "self"
         },
         {
           "type": "delay"
@@ -19078,7 +19082,7 @@ exports.data = [
     "label": L("dic_skill_358_label"), //击晕
     "icon": "skill-kzs3.png",
     "desc": L("dic_skill_358_desc"), //对怪物进行攻击，攻击力不高但会使其晕厥。
-    "slotId": 3,
+    "slotId": 2,
     "config": {
       "basic": {
         "spellAction": 2,
@@ -19330,7 +19334,7 @@ exports.data = [
         {
           "type": "playEffect",
           "motion": 91,
-          "pos": "self"
+          "act": "self"
         },
         {
           "type": "delay"
@@ -19663,13 +19667,13 @@ exports.data = [
           "delay": 0.4,
           "#formular": [
             {
-              "c": 1
+              "c": 100
             },
             {
-              "c": 2
+              "c": 200
             },
             {
-              "c": 3
+              "c": 300
             }
           ]
         }
@@ -19706,8 +19710,13 @@ exports.data = [
     "label": L("dic_skill_369_label"), //神圣一击
     "icon": "skill-dzj2.png",
     "desc": L("dic_skill_369_desc"), //攻击时能够召唤出十字架造成额外伤害。
-    "slotId": 1,
+    "slotId": 2,
     "config": {
+      "basic": {
+        "spellAction": 2,
+        "spellEffect": 99,
+        "spellDelay": 0.3
+      },
       "triggerCondition": [
         {
           "type": "countDown",
@@ -19718,19 +19727,6 @@ exports.data = [
         "pool": "self"
       },
       "action": [
-        {
-          "type": "playEffect",
-          "effect": 99,
-          "act": "self"
-        },
-        {
-          "type": "playAction",
-          "motion": 2,
-          "act": "self"
-        },
-        {
-          "type": "delay"
-        },
         {
           "type": "installSpell",
           "spell": 370,
@@ -20060,13 +20056,13 @@ exports.data = [
           "delay": 0.4,
           "#formular": [
             {
-              "c": 1
+              "c": 100
             },
             {
-              "c": 2
+              "c": 200
             },
             {
-              "c": 3
+              "c": 300
             }
           ]
         }
@@ -20292,6 +20288,108 @@ exports.data = [
           "time": 0.5
         }
       ]
+    }
+  },
+  {
+    "skillId": 378,
+    "activeSpell": true,
+    "label": L("dic_skill_7_label"), //炎甲
+    "icon": "skill-mage3.png",
+    "desc": L("dic_skill_7_desc"), //法师使用一层火焰魔法保护自己，当受到攻击时，对敌人造成伤害，伤害值与攻击力有关。
+    "slotId": 2,
+    "config": {
+      "basic": {
+        "spellAction": 2,
+        "spellEffect": 104,
+        "spellDelay": 0.3
+      },
+      "targetSelection": {
+        "pool": "self"
+      },
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 10
+        }
+      ],
+      "action": [
+        {
+          "type": "installSpell",
+          "spell": 379,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "shock",
+          "delay": 0.3,
+          "range": 5,
+          "time": 0.2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 379,
+    "config": {
+      "basic": {
+        "buffEffect": 105,
+        "spellEffect": 32,
+        "targetEffect": 10,
+        "spellDelay": 0.3,
+        "targetDelay": 0.3
+      },
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onBePhysicalDamage"
+        }
+      ],
+      "availableCondition": [
+        {
+          "type": "effectCount",
+          "count": 3
+        }
+      ],
+      "action": [
+        {
+          "type": "damage",
+          "damageType": "Spell",
+          "#formular": [
+            {
+              "src": {
+                "attack": 0.2
+              },
+              "c": 2
+            },
+            {
+              "src": {
+                "attack": 0.3
+              },
+              "c": 10
+            },
+            {
+              "src": {
+                "attack": 0.4
+              },
+              "c": 15
+            }
+          ]
+        }
+      ],
+      "targetSelection": {
+        "pool": "source",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          }
+        ]
+      }
     }
   }
 ]

@@ -229,7 +229,7 @@ exports.data = [
     { //1
         "interval":{"value":1,"unit":"second"},
         "diamond":{"1":600,"11":6000},
-        "basic_times":100,
+        "basic_times":10,
         "advanced_option":[//若存在，优先读取advanced_option
             {
                 "condition":"equal",//less 小于 equal 等于 more 大于 interval 周期
@@ -265,6 +265,84 @@ exports.data = [
                         ]
                     }
                 ]
+            },
+            {
+                "condition":"interval",//less 小于 equal 等于 more 大于 interval 周期
+                "count_value":[750],
+                "basic_prize": [
+                    {
+                        "rate": 1,
+                        "prize": [
+                            {
+                                "rare":true,
+                                "weight": 25,
+                                "type": 0,
+                                "value": 1476,
+                                "count": 1
+                            },
+                            {
+                                "rare":true,
+                                "weight": 25,
+                                "type": 0,
+                                "value": 1478,
+                                "count": 1
+                            },
+                            {
+                                "rare":true,
+                                "weight": 25,
+                                "type": 0,
+                                "value": 1480,
+                                "count": 1
+                            },
+                            {
+                                "rare":true,
+                                "weight": 25,
+                                "type": 0,
+                                "value": 1482,
+                                "count": 1
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "condition":"interval",//less 小于 equal 等于 more 大于 interval 周期
+                "count_value":[100],
+                "basic_prize": [
+                    {
+                        "rate": 1,
+                        "prize": [
+                            {
+                                "rare":true,
+                                "weight": 25,
+                                "type": 0,
+                                "value": 1580,
+                                "count": 1
+                            },
+                            {
+                                "rare":true,
+                                "weight": 25,
+                                "type": 0,
+                                "value": 1581,
+                                "count": 1
+                            },
+                            {
+                                "rare":true,
+                                "weight": 25,
+                                "type": 0,
+                                "value": 1582,
+                                "count": 1
+                            },
+                            {
+                                "rare":true,
+                                "weight": 25,
+                                "type": 0,
+                                "value": 1583,
+                                "count": 1
+                            }
+                        ]
+                    }
+                ]
             }
         ],
         "basic_prize": [
@@ -272,19 +350,19 @@ exports.data = [
                 "rate": 1,
                 "prize": [
                     {
-                        "weight": 3000,
+                        "weight": 1500,
                         "type": 0,
                         "value": 871,
                         "count": 20
                     },
                     {
-                        "weight": 2500,
+                        "weight": 1000,
                         "type": 0,
                         "value": 540,
                         "count": 3
                     },
                     {
-                        "weight": 3000,
+                        "weight": 6000,
                         "type": 1,
                         "count": 3000
                     },
@@ -313,49 +391,49 @@ exports.data = [
                         "count": 1
                     },
                     {
-                        "weight": 250,
+                        "weight": 200,
                         "type": 0,
                         "value": 1520,
                         "count": 1
                     },
                     {
-                        "weight": 250,
+                        "weight": 200,
                         "type": 0,
                         "value": 1521,
                         "count": 1
                     },
                     {
-                        "weight": 250,
+                        "weight": 200,
                         "type": 0,
                         "value": 1522,
                         "count": 1
                     },
                     {
-                        "weight": 250,
+                        "weight": 200,
                         "type": 0,
                         "value": 1523,
                         "count": 1
                     },
                     {
-                        "weight": 50,
+                        "weight": 80,
                         "type": 0,
                         "value": 1548,
                         "count": 1
                     },
                     {
-                        "weight": 50,
+                        "weight": 80,
                         "type": 0,
                         "value": 1549,
                         "count": 1
                     },
                     {
-                        "weight": 50,
+                        "weight": 80,
                         "type": 0,
                         "value": 1550,
                         "count": 1
                     },
                     {
-                        "weight": 50,
+                        "weight": 80,
                         "type": 0,
                         "value": 1551,
                         "count": 1
@@ -430,31 +508,51 @@ exports.data = [
                 "rate": 1,
                 "prize": [
                     {
-                        "rare":true,
                         "weight": 25,
                         "type": 0,
-                        "value": 1580,
+                        "value": 1520,
                         "count": 1
                     },
                     {
-                        "rare":true,
                         "weight": 25,
                         "type": 0,
-                        "value": 1581,
+                        "value": 1521,
                         "count": 1
                     },
                     {
-                        "rare":true,
                         "weight": 25,
                         "type": 0,
-                        "value": 1582,
+                        "value": 1522,
                         "count": 1
                     },
                     {
-                        "rare":true,
                         "weight": 25,
                         "type": 0,
-                        "value": 1583,
+                        "value": 1523,
+                        "count": 1
+                    },
+                    {
+                        "weight": 15,
+                        "type": 0,
+                        "value": 1516,
+                        "count": 1
+                    },
+                    {
+                        "weight": 15,
+                        "type": 0,
+                        "value": 1517,
+                        "count": 1
+                    },
+                    {
+                        "weight": 15,
+                        "type": 0,
+                        "value": 1518,
+                        "count": 1
+                    },
+                    {
+                        "weight": 15,
+                        "type": 0,
+                        "value": 1519,
                         "count": 1
                     }
                 ]

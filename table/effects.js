@@ -487,5 +487,16 @@ exports.data = [
         "effectId": 103,
         "skeleton": "effect-shenshengtuxi.json",
         "atlas": "effect-shenshengtuxi.atlas"
+    },
+    {
+        "effectId": 104,
+        "skeleton": "effect-yanjia.json",
+        "atlas": "effect-yanjia.atlas"
+    },
+    {
+        "effectId": 105,
+        "loop": true,
+        "skeleton": "effect-yanjiabuff.json",
+        "atlas": "effect-yanjiabuff.atlas"
     }
 ]

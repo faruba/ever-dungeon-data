@@ -8229,5 +8229,60 @@ exports.data = [
                 }
             ]
         }
-    ]
+    ],
+	[//207
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"type": 0,
+					"value": 5,
+					"count": 3
+				}
+			]
+		}
+	],
+	[//208
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"type": 0,
+					"value": 5,
+					"count": 2
+				}
+			]
+		}
+	],
+	[//209
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"type": 0,
+					"value": 5,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//210
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 5,
+					"count": 1
+				},
+				{
+					"weight": 98,
+					"type": 0,
+					"value": 1617,
+					"count": 1
+				}
+			]
+		}
+	]
 ]
