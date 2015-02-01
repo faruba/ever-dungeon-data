@@ -60,6 +60,7 @@ exports.data = {
         "itemInfoDissolve":"确定要分解\n【{#1}】?",
         "itemInfoDissolveSuc":"装备分解成功",
         "itemInfoSell":"【{#1}】\n售价{#2}金币\n确定要卖出？",
+        "itemInfoUniversalFragInstead":"合成材料不足，是否需要使用万能碎片来代替？",
         "messageInfoAttachment":"附件",
         "messageInfoRefuseAll":"确定要拒绝所有好友邀请吗？",
         "openSceneText0":"很久很久以前，在怪物肆虐的时代，弱小的人类只能生活在不见天日的密林中以躲避各种怪物的欺凌。",
