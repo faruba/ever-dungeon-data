@@ -58,6 +58,8 @@ exports.data = {
         "itemInfoLessThanDay":"还剩不到1天",
         "itemInfoLeftNDay":"还剩{#1}天",
         "itemInfoDissolve":"确定要分解\n【{#1}】?",
+        "itemInfoDissolveNor":"确定要分解【{#1}】\n分解后可获得时装碎片或万能碎片?",
+        "itemInfoDissolveLuxury":"确定要分解【{#1}】\n分解后可获得万能碎片?",
         "itemInfoDissolveSuc":"装备分解成功",
         "itemInfoSell":"【{#1}】\n售价{#2}金币\n确定要卖出？",
         "itemInfoUniversalFragInstead":"合成材料不足，是否需要使用万能碎片来代替？",
