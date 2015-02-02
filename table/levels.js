@@ -2813,31 +2813,75 @@ exports.data = [
         "levelData":[
             {
                 "xp":0,
-                "skill": [{"id":27},{"id":152}]
+                "skill": [{"id":27},{"id":152},{"id":380, "level": 1}]
             },
             {
-                "xp":250,
-                "skill": [{"id":128, "level": 1}]
+                "xp":650,
+                "skill": [{"id":2, "level": 1}]
             },
             {
-                "xp":3000,
-                "skill": [{"id":130, "level": 1}]
+                "xp":1900,
+                "skill": [{"id":380, "level": 2}]
             },
             {
-                "xp":8000,
-                "skill": [{"id":131, "level": 1}]
+                "xp":3700,
+                "skill": [{"id":381, "level": 1}]
+            },
+            {
+                "xp":6300,
+                "skill": [{"id":2, "level": 2}]
+            },
+            {
+                "xp":9300,
+                "skill": [{"id":381, "level": 2}]
+            },
+            {
+                "xp":11300,
+                "skill": [{"id":3, "level": 1}]
+            },
+            {
+                "xp":13800,
+                "skill": [{"id":382, "level": 1}]
             },
             {
                 "xp":17000,
-                "skill": [{"id":128, "level": 2}]
+                "skill": [{"id":380, "level": 3}]
             },
             {
-                "xp":26000,
-                "skill": [{"id":130, "level": 2}]
+                "xp":21800,
+                "skill": [{"id":2, "level": 3}]
+            },
+            {
+                "xp":28100,
+                "skill": [{"id":3, "level": 2}]
+            },
+            {
+                "xp":35200,
+                "skill": [{"id":382, "level": 2}]
             },
             {
                 "xp":40000,
-                "skill": [{"id":131, "level": 2}]
+                "skill": [{"id":383, "level": 1}]
+            },
+            {
+                "xp":58000,
+                "skill": [{"id":381, "level": 3}]
+            },
+            {
+                "xp":75000,
+                "skill": [{"id":383, "level": 2}]
+            },
+            {
+                "xp":96000,
+                "skill": [{"id":3, "level": 3}]
+            },
+            {
+                "xp":121000,
+                "skill": [{"id":382, "level": 3}]
+            },
+            {
+                "xp":150000,
+                "skill": [{"id":383, "level": 3}]
             }
         ]
     },
@@ -2846,31 +2890,75 @@ exports.data = [
         "levelData":[
             {
                 "xp":0,
-                "skill": [{"id":27},{"id":152}]
+                "skill": [{"id":27},{"id":152},{"id":132, "level": 1}]
             },
             {
-                "xp":250,
-                "skill": [{"id":132, "level": 1}]
+                "xp":650,
+                "skill": [{"id":12, "level": 1}]
             },
             {
-                "xp":3000,
-                "skill": [{"id":134, "level": 1}]
-            },
-            {
-                "xp":8000,
-                "skill": [{"id":139, "level": 1}]
-            },
-            {
-                "xp":17000,
+                "xp":1900,
                 "skill": [{"id":132, "level": 2}]
             },
             {
-                "xp":26000,
-                "skill": [{"id":134, "level": 2}]
+                "xp":3700,
+                "skill": [{"id":384, "level": 1}]
+            },
+            {
+                "xp":6300,
+                "skill": [{"id":12, "level": 2}]
+            },
+            {
+                "xp":9300,
+                "skill": [{"id":384, "level": 2}]
+            },
+            {
+                "xp":11300,
+                "skill": [{"id":206, "level": 1}]
+            },
+            {
+                "xp":13800,
+                "skill": [{"id":385, "level": 1}]
+            },
+            {
+                "xp":17000,
+                "skill": [{"id":132, "level": 3}]
+            },
+            {
+                "xp":21800,
+                "skill": [{"id":12, "level": 3}]
+            },
+            {
+                "xp":28100,
+                "skill": [{"id":206, "level": 2}]
+            },
+            {
+                "xp":35200,
+                "skill": [{"id":385, "level": 2}]
             },
             {
                 "xp":40000,
-                "skill": [{"id":139, "level": 2}]
+                "skill": [{"id":386, "level": 1}]
+            },
+            {
+                "xp":58000,
+                "skill": [{"id":384, "level": 3}]
+            },
+            {
+                "xp":75000,
+                "skill": [{"id":386, "level": 2}]
+            },
+            {
+                "xp":96000,
+                "skill": [{"id":206, "level": 3}]
+            },
+            {
+                "xp":121000,
+                "skill": [{"id":385, "level": 3}]
+            },
+            {
+                "xp":150000,
+                "skill": [{"id":386, "level": 3}]
             }
         ]
     },
@@ -2879,31 +2967,75 @@ exports.data = [
         "levelData":[
             {
                 "xp":0,
-                "skill": [{"id":27},{"id":152}]
+                "skill": [{"id":27},{"id":152},{"id":135, "level": 1}]
             },
             {
-                "xp":250,
-                "skill": [{"id":135, "level": 1}]
+                "xp":650,
+                "skill": [{"id":8, "level": 1}]
             },
             {
-                "xp":3000,
-                "skill": [{"id":137, "level": 1}]
-            },
-            {
-                "xp":8000,
-                "skill": [{"id":138, "level": 1}]
-            },
-            {
-                "xp":17000,
+                "xp":1900,
                 "skill": [{"id":135, "level": 2}]
             },
             {
-                "xp":26000,
-                "skill": [{"id":137, "level": 2}]
+                "xp":3700,
+                "skill": [{"id":387, "level": 1}]
+            },
+            {
+                "xp":6300,
+                "skill": [{"id":8, "level": 2}]
+            },
+            {
+                "xp":9300,
+                "skill": [{"id":387, "level": 2}]
+            },
+            {
+                "xp":11300,
+                "skill": [{"id":11, "level": 1}]
+            },
+            {
+                "xp":13800,
+                "skill": [{"id":388, "level": 1}]
+            },
+            {
+                "xp":17000,
+                "skill": [{"id":135, "level": 3}]
+            },
+            {
+                "xp":21800,
+                "skill": [{"id":8, "level": 3}]
+            },
+            {
+                "xp":28100,
+                "skill": [{"id":11, "level": 2}]
+            },
+            {
+                "xp":35200,
+                "skill": [{"id":388, "level": 2}]
             },
             {
                 "xp":40000,
-                "skill": [{"id":138, "level": 2}]
+                "skill": [{"id":389, "level": 1}]
+            },
+            {
+                "xp":58000,
+                "skill": [{"id":387, "level": 3}]
+            },
+            {
+                "xp":75000,
+                "skill": [{"id":389, "level": 2}]
+            },
+            {
+                "xp":96000,
+                "skill": [{"id":11, "level": 3}]
+            },
+            {
+                "xp":121000,
+                "skill": [{"id":388, "level": 3}]
+            },
+            {
+                "xp":150000,
+                "skill": [{"id":389, "level": 3}]
             }
         ]
     },
