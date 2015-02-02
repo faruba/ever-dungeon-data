@@ -54294,7 +54294,7 @@ exports.data = [
 	{
 		"classId": 1516,
 		"label": "礼仪上衣",
-		"category": 1,
+		"category": 3,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "表示出礼仪的装扮，给人以安心的感觉。",
@@ -54319,7 +54319,7 @@ exports.data = [
 	{
 		"classId": 1517,
 		"label": "礼仪手套",
-		"category": 1,
+		"category": 3,
 		"subcategory": 19,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。",
 		"recipePrize": 210,
@@ -54351,7 +54351,7 @@ exports.data = [
 	{
 		"classId": 1518,
 		"label": "礼仪鞋",
-		"category": 1,
+		"category": 3,
 		"subcategory": 20,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
 		"recipePrize": 210,
@@ -54383,7 +54383,7 @@ exports.data = [
 	{
 		"classId": 1519,
 		"label": "礼仪头饰",
-		"category": 1,
+		"category": 3,
 		"subcategory": 13,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。",
 		"recipePrize": 210,
@@ -54407,7 +54407,7 @@ exports.data = [
 	{
 		"classId": 1520,
 		"label": "和风上衣",
-		"category": 1,
+		"category": 3,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "洋溢着东方韵味的装扮。",
@@ -54432,7 +54432,7 @@ exports.data = [
 	{
 		"classId": 1521,
 		"label": "和风护手",
-		"category": 1,
+		"category": 3,
 		"subcategory": 19,
 		"description": "洋溢着东方韵味的装扮。",
 		"recipePrize": 210,
@@ -54464,7 +54464,7 @@ exports.data = [
 	{
 		"classId": 1522,
 		"label": "和风护腿",
-		"category": 1,
+		"category": 3,
 		"subcategory": 20,
 		"description": "洋溢着东方韵味的装扮。",
 		"recipePrize": 210,
@@ -54496,7 +54496,7 @@ exports.data = [
 	{
 		"classId": 1523,
 		"label": "和风头饰",
-		"category": 1,
+		"category": 3,
 		"subcategory": 13,
 		"description": "洋溢着东方韵味的装扮。",
 		"recipePrize": 210,
@@ -54520,7 +54520,7 @@ exports.data = [
 	{
 		"classId": 1524,
 		"label": "喵喵衣服",
-		"category": 1,
+		"category": 3,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
@@ -54545,7 +54545,7 @@ exports.data = [
 	{
 		"classId": 1525,
 		"label": "喵喵爪子",
-		"category": 1,
+		"category": 3,
 		"subcategory": 19,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
 		"recipePrize": 210,
@@ -54577,7 +54577,7 @@ exports.data = [
 	{
 		"classId": 1526,
 		"label": "喵喵护腿",
-		"category": 1,
+		"category": 3,
 		"subcategory": 20,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
 		"recipePrize": 210,
@@ -54609,7 +54609,7 @@ exports.data = [
 	{
 		"classId": 1527,
 		"label": "喵喵耳朵",
-		"category": 1,
+		"category": 3,
 		"subcategory": 13,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
 		"recipePrize": 210,
@@ -54633,7 +54633,7 @@ exports.data = [
 	{
 		"classId": 1528,
 		"label": "护理大衣",
-		"category": 1,
+		"category": 3,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "医护人员穿戴的装扮，象征着白衣天使。",
@@ -54658,7 +54658,7 @@ exports.data = [
 	{
 		"classId": 1529,
 		"label": "护理手套",
-		"category": 1,
+		"category": 3,
 		"subcategory": 19,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。",
 		"recipePrize": 210,
@@ -54690,7 +54690,7 @@ exports.data = [
 	{
 		"classId": 1530,
 		"label": "护理鞋具",
-		"category": 1,
+		"category": 3,
 		"subcategory": 20,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。",
 		"recipePrize": 210,
@@ -54722,7 +54722,7 @@ exports.data = [
 	{
 		"classId": 1531,
 		"label": "护理头饰",
-		"category": 1,
+		"category": 3,
 		"subcategory": 13,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。",
 		"recipePrize": 210,
@@ -54746,7 +54746,7 @@ exports.data = [
 	{
 		"classId": 1532,
 		"label": "刺客服",
-		"category": 1,
+		"category": 3,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
@@ -54771,7 +54771,7 @@ exports.data = [
 	{
 		"classId": 1533,
 		"label": "刺客护手",
-		"category": 1,
+		"category": 3,
 		"subcategory": 19,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
 		"recipePrize": 210,
@@ -54803,7 +54803,7 @@ exports.data = [
 	{
 		"classId": 1534,
 		"label": "刺客鞋",
-		"category": 1,
+		"category": 3,
 		"subcategory": 20,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
 		"recipePrize": 210,
@@ -54835,7 +54835,7 @@ exports.data = [
 	{
 		"classId": 1535,
 		"label": "刺客面罩",
-		"category": 1,
+		"category": 3,
 		"subcategory": 13,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
 		"recipePrize": 210,
@@ -54859,7 +54859,7 @@ exports.data = [
 	{
 		"classId": 1536,
 		"label": "军官大衣",
-		"category": 1,
+		"category": 3,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
@@ -54884,7 +54884,7 @@ exports.data = [
 	{
 		"classId": 1537,
 		"label": "军官手套",
-		"category": 1,
+		"category": 3,
 		"subcategory": 19,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
 		"recipePrize": 210,
@@ -54916,7 +54916,7 @@ exports.data = [
 	{
 		"classId": 1538,
 		"label": "军官长靴",
-		"category": 1,
+		"category": 3,
 		"subcategory": 20,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
 		"recipePrize": 210,
@@ -54948,7 +54948,7 @@ exports.data = [
 	{
 		"classId": 1539,
 		"label": "军官帽",
-		"category": 1,
+		"category": 3,
 		"subcategory": 13,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
 		"recipePrize": 210,
@@ -54972,7 +54972,7 @@ exports.data = [
 	{
 		"classId": 1540,
 		"label": "勇者铠甲",
-		"category": 1,
+		"category": 3,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
@@ -54997,7 +54997,7 @@ exports.data = [
 	{
 		"classId": 1541,
 		"label": "勇者手甲",
-		"category": 1,
+		"category": 3,
 		"subcategory": 19,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
 		"recipePrize": 210,
@@ -55029,7 +55029,7 @@ exports.data = [
 	{
 		"classId": 1542,
 		"label": "勇者腿甲",
-		"category": 1,
+		"category": 3,
 		"subcategory": 20,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
 		"recipePrize": 210,
@@ -55061,7 +55061,7 @@ exports.data = [
 	{
 		"classId": 1543,
 		"label": "勇者头饰",
-		"category": 1,
+		"category": 3,
 		"subcategory": 13,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
 		"recipePrize": 210,
@@ -55085,7 +55085,7 @@ exports.data = [
 	{
 		"classId": 1544,
 		"label": "忍者上衣",
-		"category": 1,
+		"category": 3,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
@@ -55110,7 +55110,7 @@ exports.data = [
 	{
 		"classId": 1545,
 		"label": "忍者护手",
-		"category": 1,
+		"category": 3,
 		"subcategory": 19,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
 		"recipePrize": 210,
@@ -55142,7 +55142,7 @@ exports.data = [
 	{
 		"classId": 1546,
 		"label": "忍者裹足",
-		"category": 1,
+		"category": 3,
 		"subcategory": 20,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
 		"recipePrize": 210,
@@ -55174,7 +55174,7 @@ exports.data = [
 	{
 		"classId": 1547,
 		"label": "忍者头饰",
-		"category": 1,
+		"category": 3,
 		"subcategory": 13,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
 		"recipePrize": 210,

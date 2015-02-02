@@ -7341,7 +7341,7 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 5,
+          "eventCount": 10,
           "reset": true
         },
         {
@@ -7350,6 +7350,10 @@ exports.data = [
         },
         {
           "type": "alive"
+        },
+        {
+          "type": "myMutex",
+          "mutex": "master"
         }
       ],
       "targetSelection": {
@@ -7390,6 +7394,11 @@ exports.data = [
               "src": {
                 "attack": 1
               }
+            },
+            {
+              "src": {
+                "attack": 1.2
+              }
             }
           ]
         },
@@ -7414,6 +7423,11 @@ exports.data = [
           "delay": 0.6,
           "range": 5,
           "time": 0.2
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "master",
+          "count": 1
         }
       ]
     }
@@ -7534,7 +7548,7 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 5,
+          "eventCount": 10,
           "reset": true
         },
         {
@@ -7543,6 +7557,10 @@ exports.data = [
         },
         {
           "type": "alive"
+        },
+        {
+          "type": "myMutex",
+          "mutex": "minister"
         }
       ],
       "targetSelection": {
@@ -7574,12 +7592,25 @@ exports.data = [
             {
               "src": {
                 "accuracy": 0.15
-              }
+              },
+              "c": 5
             },
             {
               "src": {
-                "accuracy": 0.25
-              }
+                "accuracy": 0.15
+              },
+              "c": 10
+            },
+            {
+              "src": {
+                "accuracy": 0.15
+              },
+              "c": 20
+            },
+            {
+              "type": "setMyMutex",
+              "mutex": "minister",
+              "count": 1
             }
           ]
         }
@@ -20398,6 +20429,544 @@ exports.data = [
           }
         ]
       }
+    }
+  },
+  {
+    "skillId": 380,
+    "label": L("dic_skill_356_label"), //pk战技
+    "icon": "skill-kzs1.png",
+    "desc": L("dic_skill_356_desc"), //对目标实施多段攻击，攻击段数与等级挂钩。
+    "slotId": 0,
+    "config": {
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onTurnEnd",
+          "eventCount": 10,
+          "reset": true
+        },
+        {
+          "type": "chance",
+          "chance": 0.3
+        },
+        {
+          "type": "alive"
+        },
+        {
+          "type": "myMutex",
+          "mutex": "soldier"
+        }
+      ],
+      "targetSelection": {
+        "pool": "self"
+      },
+      "action": [
+        {
+          "type": "playEffect",
+          "effect": 84,
+          "act": "self"
+        },
+        {
+          "type": "playAction",
+          "motion": 2,
+          "pos": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "installSpell",
+          "spell": 357,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "soldier",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 381,
+    "label": L("dic_skill_358_label"), //击晕
+    "icon": "skill-kzs3.png",
+    "desc": L("dic_skill_358_desc"), //对怪物进行攻击，攻击力不高但会使其晕厥。
+    "slotId": 2,
+    "config": {
+      "basic": {
+        "spellAction": 2,
+        "spellEffect": 87,
+        "spellDelay": 0.3
+      },
+      "targetSelection": {
+        "pool": "self"
+      },
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onTurnEnd",
+          "eventCount": 10,
+          "reset": true
+        },
+        {
+          "type": "chance",
+          "chance": 0.3
+        },
+        {
+          "type": "alive"
+        },
+        {
+          "type": "myMutex",
+          "mutex": "soldier"
+        }
+      ],
+      "action": [
+        {
+          "type": "installSpell",
+          "spell": 359,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "shock",
+          "delay": 0.3,
+          "range": 5,
+          "time": 0.2
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "soldier",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 382,
+    "label": L("dic_skill_361_label"), //回旋斩
+    "icon": "skill-warrior4.png",
+    "desc": L("dic_skill_361_desc"), //对周围范围敌人造成伤害。
+    "slotId": 4,
+    "config": {
+      "basic": {
+        "spellAction": 1,
+        "spellEffect": 90
+      },
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onTurnEnd",
+          "eventCount": 15,
+          "reset": true
+        },
+        {
+          "type": "chance",
+          "chance": 0.3
+        },
+        {
+          "type": "alive"
+        },
+        {
+          "type": "myMutex",
+          "mutex": "soldier"
+        }
+      ],
+      "targetSelection": {
+        "pool": "blocks",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 2,
+            "length": 0,
+            "startDistance": 1,
+            "anchorPos": {
+              "pool": "self",
+              "filter": [
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "installSpell",
+          "spell": 362,
+          "delay": 0.3,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "soldier",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 383,
+    "label": L("dic_skill_363_label"), //神圣护盾
+    "icon": "skill-warrior1.png",
+    "desc": L("dic_skill_363_desc"), //对我方全体施加无敌护盾。
+    "slotId": 5,
+    "config": {
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onTurnEnd",
+          "eventCount": 20,
+          "reset": true
+        },
+        {
+          "type": "chance",
+          "chance": 0.3
+        },
+        {
+          "type": "alive"
+        },
+        {
+          "type": "myMutex",
+          "mutex": "soldier"
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "healable"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "playAction",
+          "motion": 2,
+          "pos": "self"
+        },
+        {
+          "type": "playEffect",
+          "motion": 91,
+          "act": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "installSpell",
+          "spell": 364,
+          "delay": 0.3,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "soldier",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 384,
+    "label": L("dic_skill_7_label"), //炎甲
+    "icon": "skill-mage3.png",
+    "desc": L("dic_skill_7_desc"), //法师使用一层火焰魔法保护自己，当受到攻击时，对敌人造成伤害，伤害值与攻击力有关。
+    "slotId": 2,
+    "config": {
+      "basic": {
+        "spellAction": 2,
+        "spellEffect": 104,
+        "spellDelay": 0.3
+      },
+      "targetSelection": {
+        "pool": "self"
+      },
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onTurnEnd",
+          "eventCount": 10,
+          "reset": true
+        },
+        {
+          "type": "chance",
+          "chance": 0.3
+        },
+        {
+          "type": "alive"
+        },
+        {
+          "type": "myMutex",
+          "mutex": "master"
+        }
+      ],
+      "action": [
+        {
+          "type": "installSpell",
+          "spell": 379,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "shock",
+          "delay": 0.3,
+          "range": 5,
+          "time": 0.2
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "master",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 385,
+    "label": L("dic_skill_365_label"), //死亡龙卷
+    "icon": "skill-mds2.png",
+    "desc": L("dic_skill_365_desc"), //对指定范围造成伤害。
+    "slotId": 4,
+    "config": {
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onTurnEnd",
+          "eventCount": 15,
+          "reset": true
+        },
+        {
+          "type": "chance",
+          "chance": 0.3
+        },
+        {
+          "type": "alive"
+        },
+        {
+          "type": "myMutex",
+          "mutex": "master"
+        }
+      ],
+      "targetSelection": {
+        "pool": "blocks",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 1,
+            "length": 1,
+            "startDistance": 0,
+            "anchorPos": {
+              "pool": "objects",
+              "filter": [
+                {
+                  "type": "alive"
+                },
+                {
+                  "type": "visible"
+                },
+                {
+                  "type": "target-faction-with-flag",
+                  "flag": "attackable"
+                },
+                {
+                  "type": "shuffle"
+                },
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "playAction",
+          "motion": "2",
+          "pos": "self"
+        },
+        {
+          "type": "installSpell",
+          "spell": 366,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "master",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 386,
+    "label": L("dic_skill_367_label"), //陨石召唤
+    "icon": "skill-mds3.png",
+    "desc": L("dic_skill_367_desc"), //召唤数波陨石对场上敌人进行伤害，位置随机。
+    "slotId": 5,
+    "config": {
+      "basic": {
+        "spellAction": 1
+      },
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onTurnEnd",
+          "eventCount": 20,
+          "reset": true
+        },
+        {
+          "type": "chance",
+          "chance": 0.3
+        },
+        {
+          "type": "alive"
+        },
+        {
+          "type": "myMutex",
+          "mutex": "master"
+        }
+      ],
+      "targetSelection": {
+        "pool": "blocks",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 2,
+            "length": 2,
+            "startDistance": 0,
+            "direction": 9,
+            "anchorPos": {
+              "pool": "self",
+              "filter": [
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "type": "shuffle"
+          },
+          {
+            "type": "count",
+            "#count": [
+              2,
+              3,
+              4
+            ]
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "installSpell",
+          "spell": 368,
+          "delay": {
+            "base": 1.6,
+            "range": 5
+          },
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "installSpell",
+          "spell": 376,
+          "#level": [
+            1,
+            2,
+            3
+          ],
+          "target": {
+            "pool": "self",
+            "filter": [
+              {
+                "type": "alive"
+              },
+              {
+                "type": "visible"
+              }
+            ]
+          }
+        },
+        {
+          "type": "blink",
+          "delay": 0.6,
+          "time": 0.08
+        },
+        {
+          "type": "shock",
+          "delay": 0.6,
+          "range": 5,
+          "time": 0.5
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "castSpell",
+          "spell": 376,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "castSpell",
+          "spell": 376,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "master",
+          "count": 1
+        }
+      ]
     }
   }
 ]

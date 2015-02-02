@@ -435,7 +435,8 @@ exports.data = [
     {
         "effectId": 93,
         "skeleton": "irongunfire1.json",
-        "atlas": "irongunfire1.atlas"
+        "atlas": "irongunfire1.atlas",
+        "sound": "irongunfire1.mp3"
     },
     {
         "effectId": 94,
@@ -445,7 +446,8 @@ exports.data = [
     {
         "effectId": 95,
         "skeleton": "ironrayfire1.json",
-        "atlas": "ironrayfire1.atlas"
+        "atlas": "ironrayfire1.atlas",
+        "sound": "ironrayfire1.mp3"
     },
     {
         "effectId": 96,
