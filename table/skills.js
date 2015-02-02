@@ -19865,6 +19865,16 @@ exports.data = [
                 }
               ]
             }
+          },
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "attackable"
           }
         ]
       },
