@@ -56447,13 +56447,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female3-cloth.png",
 		"iconm": "rfasion-male3-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1581,
@@ -56494,13 +56488,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female3-cloth.png",
 		"iconm": "rfasion-male3-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1582,
@@ -56541,13 +56529,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female3-cloth.png",
 		"iconm": "rfasion-male3-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1583,
@@ -56580,13 +56562,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female3-helmet.png",
 		"iconm": "rfasion-male3-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1584,
@@ -56620,13 +56596,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female4-cloth.png",
 		"iconm": "rfasion-male4-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1585,
@@ -56667,13 +56637,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female4-cloth.png",
 		"iconm": "rfasion-male4-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1586,
@@ -56714,13 +56678,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female4-cloth.png",
 		"iconm": "rfasion-male4-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1587,
@@ -56753,13 +56711,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female4-helmet.png",
 		"iconm": "rfasion-male4-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1588,
@@ -56793,13 +56745,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female5-cloth.png",
 		"iconm": "rfasion-male5-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1589,
@@ -56840,13 +56786,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female5-cloth.png",
 		"iconm": "rfasion-male5-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1590,
@@ -56887,13 +56827,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female5-cloth.png",
 		"iconm": "rfasion-male5-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1591,
@@ -56926,13 +56860,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female5-helmet.png",
 		"iconm": "rfasion-male5-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1592,
@@ -56965,13 +56893,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female6-chest.png",
 		"iconm": "rfasion-male6-chest.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1593,
@@ -57011,13 +56933,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female6-hand.png",
 		"iconm": "rfasion-male6-hand.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1594,
@@ -57057,13 +56973,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female6-foot.png",
 		"iconm": "rfasion-male6-foot.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1595,
@@ -57095,13 +57005,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female6-helmet.png",
 		"iconm": "rfasion-male6-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1596,
@@ -57135,13 +57039,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female7-chest.png",
 		"iconm": "rfasion-male7-chest.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1597,
@@ -57182,13 +57080,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female7-hand.png",
 		"iconm": "rfasion-male7-hand.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1598,
@@ -57229,13 +57121,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female7-foot.png",
 		"iconm": "rfasion-male7-foot.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1599,
@@ -57268,13 +57154,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female7-helmet.png",
 		"iconm": "rfasion-male7-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1600,
@@ -57308,13 +57188,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female8-chest.png",
 		"iconm": "rfasion-male8-chest.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1601,
@@ -57355,13 +57229,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female8-hand.png",
 		"iconm": "rfasion-male8-hand.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1602,
@@ -57402,13 +57270,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female8-foot.png",
 		"iconm": "rfasion-male8-foot.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1603,
@@ -57441,13 +57303,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female8-helmet.png",
 		"iconm": "rfasion-male8-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1604,
@@ -57480,13 +57336,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female9-chest.png",
 		"iconm": "rfasion-male9-chest.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1605,
@@ -57526,13 +57376,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female9-hand.png",
 		"iconm": "rfasion-male9-hand.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1606,
@@ -57572,13 +57416,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female9-foot.png",
 		"iconm": "rfasion-male9-foot.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1607,
@@ -57610,13 +57448,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female9-helmet.png",
 		"iconm": "rfasion-male9-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1608,
@@ -57651,13 +57483,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female10-chest.png",
 		"iconm": "rfasion-male10-chest.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1609,
@@ -57699,13 +57525,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female10-hand.png",
 		"iconm": "rfasion-male10-hand.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1610,
@@ -57747,13 +57567,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female10-foot.png",
 		"iconm": "rfasion-male10-foot.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1611,
@@ -57787,13 +57601,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female10-helmet.png",
 		"iconm": "rfasion-male10-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1612,

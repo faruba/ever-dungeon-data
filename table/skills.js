@@ -18817,7 +18817,8 @@ exports.data = [
           "pos": "target"
         },
         {
-          "type": "delay"
+          "type": "delay",
+          "delay": 1
         },
         {
           "type": "installSpell",
@@ -18932,7 +18933,8 @@ exports.data = [
           "pos": "target"
         },
         {
-          "type": "delay"
+          "type": "delay",
+          "delay": 0.6
         },
         {
           "type": "installSpell",
