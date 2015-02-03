@@ -7353,7 +7353,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -7560,7 +7560,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -19564,17 +19564,17 @@ exports.data = [
           "#formular": [
             {
               func:function(env,source,target,cons) {
-                return source.attack*0.7
+                return env.battleForce*0.3/18.5*0.7
               }
             },
             {
               func:function(env,source,target,cons) {
-                return source.attack*0.85
+                return env.battleForce*0.3/18.5*0.85
               }
             },
             {
               func:function(env,source,target,cons) {
-                return source.attack*1.1
+                return env.battleForce*0.3/18.5*1.1
               }
             }
           ]
@@ -19745,17 +19745,17 @@ exports.data = [
           "#formular": [
             {
               func:function(env,source,target,cons) {
-                return source.attack*1.2
+                return env.battleForce*0.3/18.5*1.2
               }
             },
             {
               func:function(env,source,target,cons) {
-                return source.attack*1.5
+                return env.battleForce*0.3/18.5*1.5
               }
             },
             {
               func:function(env,source,target,cons) {
-                return source.attack*2
+                return env.battleForce*0.3/18.5*2
               }
             }
           ]
@@ -19828,8 +19828,7 @@ exports.data = [
     "slotId": -1,
     "config": {
       "basic": {
-        "buffEffect": 100,
-        "targetEffect": 101
+        "buffEffect": 100
       },
       "triggerCondition": [
         {
@@ -19837,6 +19836,9 @@ exports.data = [
           "event": "onTarget"
         }
       ],
+      "targetSelection": {
+        "pool": "target"
+      },
       "availableCondition": [
         {
           "type": "effectCount",
@@ -19844,6 +19846,11 @@ exports.data = [
         }
       ],
       "action": [
+        {
+          "type": "playEffect",
+          "effect": 101,
+          "pos": "target"
+        },
         {
           "type": "modifyVar",
           "x": "damage",
@@ -20141,17 +20148,17 @@ exports.data = [
           "#formular": [
             {
               func:function(env,source,target,cons) {
-                return source.attack*0.8
+                return env.battleForce*0.3/18.5*0.8
               }
             },
             {
               func:function(env,source,target,cons) {
-                return source.attack*1
+                return env.battleForce*0.3/18.5*1
               }
             },
             {
               func:function(env,source,target,cons) {
-                return source.attack*1.2
+                return env.battleForce*0.3/18.5*1.2
               }
             }
           ]
@@ -20192,17 +20199,17 @@ exports.data = [
           "#formular": [
             {
               func:function(env,source,target,cons) {
-                return source.accuracy*0.15+5
+                return env.battleForce/18.5*0.15+5
               }
             },
             {
               func:function(env,source,target,cons) {
-                return source.accuracy*0.2+10
+                return env.battleForce/18.5*0.2+10
               }
             },
             {
               func:function(env,source,target,cons) {
-                return source.accuracy*0.25+20
+                return env.battleForce/18.5*0.25+20
               }
             }
           ]
@@ -20503,7 +20510,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -20571,7 +20578,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -20625,7 +20632,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -20685,7 +20692,7 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 3,
+          "eventCount": 4,
           "reset": true
         },
         {
@@ -20771,7 +20778,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -20821,7 +20828,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -20901,7 +20908,7 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 3,
+          "eventCount": 4,
           "reset": true
         },
         {
@@ -21046,7 +21053,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -21093,7 +21100,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -21168,7 +21175,7 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 3,
+          "eventCount": 4,
           "reset": true
         },
         {
