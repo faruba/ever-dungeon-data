@@ -19799,7 +19799,7 @@ exports.data = [
     "config": {
       "basic": {
         "buffEffect": 100,
-        "spellEffect": 101
+        "targetEffect": 101
       },
       "triggerCondition": [
         {
