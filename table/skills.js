@@ -3183,7 +3183,7 @@ exports.data = [
               "item": 7
             },
             {
-              "weight": 5,
+              "weight": 0,
               "item": 8
             },
             {
@@ -7348,7 +7348,7 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 2,
           "reset": true
         },
         {
@@ -7555,7 +7555,7 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 2,
           "reset": true
         },
         {
@@ -18856,12 +18856,9 @@ exports.data = [
           "pos": "target"
         },
         {
-          "type": "delay",
-          "delay": 1
-        },
-        {
           "type": "installSpell",
-          "spell": 353
+          "spell": 353,
+          "delay": 1
         }
       ]
     }
@@ -18972,12 +18969,9 @@ exports.data = [
           "pos": "target"
         },
         {
-          "type": "delay",
-          "delay": 0.6
-        },
-        {
           "type": "installSpell",
-          "spell": 355
+          "spell": 355,
+          "delay": 0.6
         }
       ]
     }
@@ -19385,7 +19379,7 @@ exports.data = [
         {
           "type": "playEffect",
           "motion": 91,
-          "act": "self"
+          "pos": "self"
         },
         {
           "type": "delay"
@@ -20014,9 +20008,9 @@ exports.data = [
           {
             "type": "count",
             "#count": [
-              2,
               3,
-              4
+              4,
+              5
             ]
           }
         ]
@@ -20083,18 +20077,6 @@ exports.data = [
           "delay": 0.6,
           "range": 5,
           "time": 0.5
-        },
-        {
-          "type": "delay"
-        },
-        {
-          "type": "castSpell",
-          "spell": 377,
-          "#level": [
-            1,
-            2,
-            3
-          ]
         },
         {
           "type": "delay"
@@ -20208,9 +20190,6 @@ exports.data = [
     "skillId": 376,
     "label": L("dic_skill_367_label"), //陨石召唤第二波
     "config": {
-      "basic": {
-        "spellAction": 1
-      },
       "targetSelection": {
         "pool": "blocks",
         "filter": [
@@ -20467,7 +20446,7 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 2,
           "reset": true
         },
         {
@@ -20535,7 +20514,7 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 2,
           "reset": true
         },
         {
@@ -20589,7 +20568,7 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 15,
+          "eventCount": 2,
           "reset": true
         },
         {
@@ -20654,12 +20633,12 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 20,
+          "eventCount": 3,
           "reset": true
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -20735,7 +20714,7 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 2,
           "reset": true
         },
         {
@@ -20785,7 +20764,7 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 15,
+          "eventCount": 2,
           "reset": true
         },
         {
@@ -20870,12 +20849,12 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 20,
+          "eventCount": 3,
           "reset": true
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -21010,7 +20989,7 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 2,
           "reset": true
         },
         {
@@ -21057,7 +21036,7 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 2,
           "reset": true
         },
         {
@@ -21137,12 +21116,12 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 3,
           "reset": true
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -21275,6 +21254,113 @@ exports.data = [
           "type": "setMyMutex",
           "mutex": "minister",
           "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 390,
+    "label": L("dic_skill_208_label"), //礼仪buff
+    "icon": "skill-dzj2.png",
+    "desc": L("dic_skill_208_desc"), //大幅度提升我方韧性、闪避和速度。
+    "slotId": 100,
+    "config": {
+      "basic": {
+        "spellAction": 1
+      },
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 20
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "healable"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "playEffect",
+          "effect": 106,
+          "pos": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "installSpell",
+          "spell": 391
+        },
+        {
+          "type": "playEffect",
+          "effect": 107,
+          "pos": "target"
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 391,
+    "config": {
+      "installAction": [
+        {
+          "type": "setProperty",
+          "modifications": {
+            "strong": {
+              "src": {
+                "strong": 0.5
+              }
+            }
+          }
+        },
+        {
+          "type": "setProperty",
+          "modifications": {
+            "reactivity": {
+              "src": {
+                "reactivity": 0.5
+              }
+            }
+          }
+        },
+        {
+          "type": "setProperty",
+          "modifications": {
+            "speed": {
+              "src": {
+                "speed": 0.5
+              }
+            }
+          }
+        }
+      ],
+      "uninstallAction": [
+        {
+          "type": "resetProperty"
+        }
+      ],
+      "buffType": "RoleBuff",
+      "availableCondition": [
+        {
+          "type": "event",
+          "event": "onEndBattleTurn",
+          "eventCount": 2
+        },
+        {
+          "type": "event",
+          "event": "onBeEndBattleTurn",
+          "eventCount": 2
         }
       ]
     }
