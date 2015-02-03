@@ -177,6 +177,7 @@ exports.data = {
         "sceneStageWorldWin":"世界闯关次数：{#1}/{#2}",
         "sceneStageWorldPersonsLimit":"人数限制：{#1}人",
         "sceneStageWorldReset":"重置时间：每周{#1} {#2}",
+        "sceneTeammateEnough":"队友数量已经达到上限。",
         "settingsTel":"客服电话:0571-85133085\n邮箱:support@tringame.com\n官方QQ交流群号:121017982",
         "settingsResetData":"数据出错时请重置数据\n重置数据不会有任何损失",
         "sharedErrorMsgs0":"操作成功",//0
