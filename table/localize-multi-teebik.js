@@ -178,6 +178,7 @@ exports.data = {
         "sceneStageWorldPersonsLimit":"人數限制：{#1}人",
         "sceneStageWorldReset":"重置時間：每周{#1} {#2}",
         "sceneTeammateEnough":"隊友數量已經達到上限。",
+        "sceneTeammateCountErr":"隊友數量未達到要求。",
         "settingsTel":"客服電話:0571-85133085\n郵箱:support@tringame.com\n官方QQ交流群號:121017982",
         "settingsResetData":"數據出錯時請重置數據\n重置數據不會有任何損失",
         "sharedErrorMsgs0":"操作成功",//0
