@@ -375,7 +375,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 1,
                     "speed": 1
-                },
+                }
             },
             {
                 "xp":12900,

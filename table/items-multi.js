@@ -20011,8 +20011,7 @@ exports.data = [
 		"category": 4,
 		"description": "在战斗中可以使全队复活的神奇药水。",
 		"stack": 25,
-		"sellprice": 300,
-		"storeOnly": true
+		"sellprice": 300
 	},
 	{
 		"classId": 541,
