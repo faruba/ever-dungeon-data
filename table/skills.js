@@ -104,7 +104,7 @@ exports.data = [
   {
     "skillId": 2,
     "label": L("dic_skill_2_label"), //援护
-    "icon": "skill-warrior2.png",
+    "icon": "skill-warrior5.png",
     "labelIcon": "warriorsk5.png",
     "desc": L("dic_skill_2_desc"), //战士运用自身厚实的装备保护队友，为其承受伤害，技能等级越高，所受伤害越少。
     "slotId": 1,
@@ -192,7 +192,7 @@ exports.data = [
   {
     "skillId": 3,
     "label": L("dic_skill_3_label"), //自愈
-    "icon": "skill-warrior4.png",
+    "icon": "skill-warrior6.png",
     "labelIcon": "warriorsk6.png",
     "desc": L("dic_skill_3_desc"), //战士在受到治疗时，能够获得额外的生命值回复，回复值与韧性值有关。
     "slotId": 3,
@@ -675,7 +675,7 @@ exports.data = [
   {
     "skillId": 10,
     "label": L("dic_skill_10_label"), //救赎
-    "icon": "skill-priest2.png",
+    "icon": "skill-priest5.png",
     "labelIcon": "priestsk5.png",
     "desc": L("dic_skill_10_desc"), //牧师成功击杀敌人时，能够有一定概率短时间提升全体成员的攻击力。
     "slotId": 1,
@@ -742,7 +742,7 @@ exports.data = [
   {
     "skillId": 11,
     "label": L("dic_skill_11_label"), //奇迹之光
-    "icon": "skill-priest4.png",
+    "icon": "skill-priest6.png",
     "labelIcon": "priestsk6.png",
     "desc": L("dic_skill_11_desc"), //当我方成员受到致命一击时，牧师能够一定概率召唤奇迹之光，使其吸收此次伤害。
     "slotId": 3,
@@ -833,7 +833,7 @@ exports.data = [
   {
     "skillId": 12,
     "label": L("dic_skill_12_label"), //元素爆发
-    "icon": "skill-mage2.png",
+    "icon": "skill-mage5.png",
     "labelIcon": "magesk5.png",
     "desc": L("dic_skill_12_desc"), //法师每次攻击能够增加自身暴击值，直至造成暴击后清空。
     "slotId": 1,
@@ -11211,7 +11211,7 @@ exports.data = [
   {
     "skillId": 206,
     "label": L("dic_skill_206_label"), //元素崩塌
-    "icon": "skill-mage4.png",
+    "icon": "skill-mage6.png",
     "labelIcon": "magesk6.png",
     "desc": L("dic_skill_206_desc"), //当魔导师对敌人造成暴击时，能够提升暴击伤害值。
     "slotId": 3,
@@ -19122,7 +19122,7 @@ exports.data = [
     "skillId": 358,
     "activeSpell": true,
     "label": L("dic_skill_358_label"), //击晕
-    "icon": "skill-warrior3.png",
+    "icon": "skill-warrior2.png",
     "labelIcon": "warriorsk2.png",
     "desc": L("dic_skill_358_desc"), //对怪物进行攻击，攻击力不高但会使其晕厥。
     "slotId": 2,
@@ -19243,7 +19243,7 @@ exports.data = [
     "skillId": 361,
     "activeSpell": true,
     "label": L("dic_skill_361_label"), //回旋斩
-    "icon": "skill-warrior5.png",
+    "icon": "skill-warrior3.png",
     "labelIcon": "warriorsk3.png",
     "desc": L("dic_skill_361_desc"), //对周围范围敌人造成伤害。
     "slotId": 4,
@@ -19344,7 +19344,7 @@ exports.data = [
     "skillId": 363,
     "activeSpell": true,
     "label": L("dic_skill_363_label"), //神圣护盾
-    "icon": "skill-warrior6.png",
+    "icon": "skill-warrior4.png",
     "labelIcon": "warriorsk4.png",
     "desc": L("dic_skill_363_desc"), //对我方全体施加无敌护盾。
     "slotId": 5,
@@ -19474,7 +19474,7 @@ exports.data = [
     "skillId": 365,
     "activeSpell": true,
     "label": L("dic_skill_365_label"), //死亡龙卷
-    "icon": "skill-mage5.png",
+    "icon": "skill-mage3.png",
     "labelIcon": "magesk3.png",
     "desc": L("dic_skill_365_desc"), //对指定范围造成伤害。
     "slotId": 4,
@@ -19580,7 +19580,7 @@ exports.data = [
     "skillId": 367,
     "activeSpell": true,
     "label": L("dic_skill_367_label"), //陨石召唤
-    "icon": "skill-mage6.png",
+    "icon": "skill-mage4.png",
     "labelIcon": "magesk4.png",
     "desc": L("dic_skill_367_desc"), //召唤数波陨石对场上敌人进行伤害，位置随机。
     "slotId": 5,
@@ -19755,7 +19755,7 @@ exports.data = [
     "skillId": 369,
     "activeSpell": true,
     "label": L("dic_skill_369_label"), //神圣一击
-    "icon": "skill-priest3.png",
+    "icon": "skill-priest2.png",
     "labelIcon": "priestsk2.png",
     "desc": L("dic_skill_369_desc"), //攻击时能够召唤出十字架造成额外伤害。
     "slotId": 2,
@@ -19847,7 +19847,7 @@ exports.data = [
     "skillId": 371,
     "activeSpell": true,
     "label": L("dic_skill_371_label"), //传道
-    "icon": "skill-priest5.png",
+    "icon": "skill-priest3.png",
     "labelIcon": "priestsk3.png",
     "desc": L("dic_skill_371_desc"), //降低所选范围内敌人攻击力。
     "slotId": 4,
@@ -19969,7 +19969,7 @@ exports.data = [
     "skillId": 373,
     "activeSpell": true,
     "label": L("dic_skill_373_label"), //神圣突袭
-    "icon": "skill-priest6.png",
+    "icon": "skill-priest4.png",
     "labelIcon": "priestsk4.png",
     "desc": L("dic_skill_373_desc"), //召唤圣光随机出现于场上，击中我方可补血，击中地方造成伤害。
     "slotId": 5,
@@ -20336,7 +20336,7 @@ exports.data = [
     "skillId": 378,
     "activeSpell": true,
     "label": L("dic_skill_7_label"), //炎甲
-    "icon": "skill-mage3.png",
+    "icon": "skill-mage2.png",
     "labelIcon": "magesk2.png",
     "desc": L("dic_skill_7_desc"), //法师使用一层火焰魔法保护自己，当受到攻击时，对敌人造成伤害，伤害值与攻击力有关。
     "slotId": 2,
@@ -20498,7 +20498,7 @@ exports.data = [
   {
     "skillId": 381,
     "label": L("dic_skill_358_label"), //pk击晕
-    "icon": "skill-warrior3.png",
+    "icon": "skill-warrior2.png",
     "desc": L("dic_skill_358_desc"), //对怪物进行攻击，攻击力不高但会使其晕厥。
     "slotId": 2,
     "config": {
@@ -20556,7 +20556,7 @@ exports.data = [
   {
     "skillId": 382,
     "label": L("dic_skill_361_label"), //pk回旋斩
-    "icon": "skill-warrior5.png",
+    "icon": "skill-warrior3.png",
     "desc": L("dic_skill_361_desc"), //对周围范围敌人造成伤害。
     "slotId": 4,
     "config": {
@@ -20625,7 +20625,7 @@ exports.data = [
   {
     "skillId": 383,
     "label": L("dic_skill_363_label"), //pk神圣护盾
-    "icon": "skill-warrior6.png",
+    "icon": "skill-warrior4.png",
     "desc": L("dic_skill_363_desc"), //对我方全体施加无敌护盾。
     "slotId": 5,
     "config": {
@@ -20698,7 +20698,7 @@ exports.data = [
   {
     "skillId": 384,
     "label": L("dic_skill_7_label"), //pk炎甲
-    "icon": "skill-mage3.png",
+    "icon": "skill-mage2.png",
     "desc": L("dic_skill_7_desc"), //法师使用一层火焰魔法保护自己，当受到攻击时，对敌人造成伤害，伤害值与攻击力有关。
     "slotId": 2,
     "config": {
@@ -20756,7 +20756,7 @@ exports.data = [
   {
     "skillId": 385,
     "label": L("dic_skill_365_label"), //pk死亡龙卷
-    "icon": "skill-mage5.png",
+    "icon": "skill-mage3.png",
     "desc": L("dic_skill_365_desc"), //对指定范围造成伤害。
     "slotId": 4,
     "config": {
@@ -20838,7 +20838,7 @@ exports.data = [
   {
     "skillId": 386,
     "label": L("dic_skill_367_label"), //pk陨石召唤
-    "icon": "skill-mage6.png",
+    "icon": "skill-mage4.png",
     "desc": L("dic_skill_367_desc"), //召唤数波陨石对场上敌人进行伤害，位置随机。
     "slotId": 5,
     "config": {
@@ -20976,7 +20976,7 @@ exports.data = [
   {
     "skillId": 387,
     "label": L("dic_skill_369_label"), //pk神圣一击
-    "icon": "skill-priest3.png",
+    "icon": "skill-priest2.png",
     "desc": L("dic_skill_369_desc"), //攻击时能够召唤出十字架造成额外伤害。
     "slotId": 2,
     "config": {
@@ -21028,7 +21028,7 @@ exports.data = [
   {
     "skillId": 388,
     "label": L("dic_skill_371_label"), //pk传道
-    "icon": "skill-priest5.png",
+    "icon": "skill-priest3.png",
     "desc": L("dic_skill_371_desc"), //降低所选范围内敌人攻击力。
     "slotId": 4,
     "config": {
@@ -21105,7 +21105,7 @@ exports.data = [
   {
     "skillId": 389,
     "label": L("dic_skill_373_label"), //pk神圣突袭
-    "icon": "skill-priest6.png",
+    "icon": "skill-priest4.png",
     "desc": L("dic_skill_373_desc"), //召唤圣光随机出现于场上，击中我方可补血，击中地方造成伤害。
     "slotId": 5,
     "config": {
