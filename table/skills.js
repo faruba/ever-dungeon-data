@@ -104,7 +104,7 @@ exports.data = [
   {
     "skillId": 2,
     "label": L("dic_skill_2_label"), //援护
-    "icon": "skill-warrior2.png",
+    "icon": "skill-warrior5.png",
     "labelIcon": "warriorsk5.png",
     "desc": L("dic_skill_2_desc"), //战士运用自身厚实的装备保护队友，为其承受伤害，技能等级越高，所受伤害越少。
     "slotId": 1,
@@ -192,7 +192,7 @@ exports.data = [
   {
     "skillId": 3,
     "label": L("dic_skill_3_label"), //自愈
-    "icon": "skill-warrior4.png",
+    "icon": "skill-warrior6.png",
     "labelIcon": "warriorsk6.png",
     "desc": L("dic_skill_3_desc"), //战士在受到治疗时，能够获得额外的生命值回复，回复值与韧性值有关。
     "slotId": 3,
@@ -586,13 +586,13 @@ exports.data = [
             },
             {
               "src": {
-                "accuracy": 0.15
+                "accuracy": 0.2
               },
               "c": 10
             },
             {
               "src": {
-                "accuracy": 0.15
+                "accuracy": 0.25
               },
               "c": 20
             }
@@ -675,7 +675,7 @@ exports.data = [
   {
     "skillId": 10,
     "label": L("dic_skill_10_label"), //救赎
-    "icon": "skill-priest2.png",
+    "icon": "skill-priest5.png",
     "labelIcon": "priestsk5.png",
     "desc": L("dic_skill_10_desc"), //牧师成功击杀敌人时，能够有一定概率短时间提升全体成员的攻击力。
     "slotId": 1,
@@ -742,7 +742,7 @@ exports.data = [
   {
     "skillId": 11,
     "label": L("dic_skill_11_label"), //奇迹之光
-    "icon": "skill-priest4.png",
+    "icon": "skill-priest6.png",
     "labelIcon": "priestsk6.png",
     "desc": L("dic_skill_11_desc"), //当我方成员受到致命一击时，牧师能够一定概率召唤奇迹之光，使其吸收此次伤害。
     "slotId": 3,
@@ -833,7 +833,7 @@ exports.data = [
   {
     "skillId": 12,
     "label": L("dic_skill_12_label"), //元素爆发
-    "icon": "skill-mage2.png",
+    "icon": "skill-mage5.png",
     "labelIcon": "magesk5.png",
     "desc": L("dic_skill_12_desc"), //法师每次攻击能够增加自身暴击值，直至造成暴击后清空。
     "slotId": 1,
@@ -965,7 +965,7 @@ exports.data = [
             {
               "attack": {
                 "src": {
-                  "attack": 0.5
+                  "attack": 0.4
                 },
                 "c": 2
               }
@@ -981,7 +981,7 @@ exports.data = [
             {
               "attack": {
                 "src": {
-                  "attack": 0.5
+                  "attack": 0.7
                 },
                 "c": 15
               }
@@ -3183,7 +3183,7 @@ exports.data = [
               "item": 7
             },
             {
-              "weight": 5,
+              "weight": 0,
               "item": 8
             },
             {
@@ -7348,12 +7348,12 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 2,
           "reset": true
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -7555,12 +7555,12 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 2,
           "reset": true
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -11066,7 +11066,7 @@ exports.data = [
                   return env.visibleMonsterCount*source.attack*0.08
                 }
               }
-			},
+			}
           ]
         }
       ],
@@ -11211,7 +11211,7 @@ exports.data = [
   {
     "skillId": 206,
     "label": L("dic_skill_206_label"), //元素崩塌
-    "icon": "skill-mage4.png",
+    "icon": "skill-mage6.png",
     "labelIcon": "magesk6.png",
     "desc": L("dic_skill_206_desc"), //当魔导师对敌人造成暴击时，能够提升暴击伤害值。
     "slotId": 3,
@@ -11240,17 +11240,17 @@ exports.data = [
           "#formular": [
             {
               "src": {
-                "attack": 2.3
+                "attack": 2.2
               }
             },
             {
               "src": {
-                "attack": 2.7
+                "attack": 2.4
               }
             },
             {
               "src": {
-                "attack": 3
+                "attack": 2.6
               }
             }
           ]
@@ -17383,7 +17383,7 @@ exports.data = [
           "type": "heal",
           "formular": {
             "src": {
-              "accuracy": 0.25
+              "accuracy": 0.4
             }
           }
         },
@@ -18801,7 +18801,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 15
+          "cd": 10
         }
       ],
       "targetSelection": {
@@ -18856,12 +18856,9 @@ exports.data = [
           "pos": "target"
         },
         {
-          "type": "delay",
-          "delay": 1
-        },
-        {
           "type": "installSpell",
-          "spell": 353
+          "spell": 353,
+          "delay": 1
         }
       ]
     }
@@ -18876,7 +18873,7 @@ exports.data = [
           "isRange": true,
           "formular": {
             func:function(env,source,target,cons) {
-              return env.battleForce*0.1+100
+              return env.battleForce*0.05+100
             }
           }
         }
@@ -18918,7 +18915,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 20
+          "cd": 25
         }
       ],
       "targetSelection": {
@@ -18972,12 +18969,9 @@ exports.data = [
           "pos": "target"
         },
         {
-          "type": "delay",
-          "delay": 0.6
-        },
-        {
           "type": "installSpell",
-          "spell": 355
+          "spell": 355,
+          "delay": 0.6
         }
       ]
     }
@@ -18993,7 +18987,7 @@ exports.data = [
           "delay": 0.4,
           "formular": {
             func:function(env,source,target,cons) {
-              return env.battleForce*0.2+300
+              return env.battleForce*0.06+400
             }
           }
         }
@@ -19128,7 +19122,7 @@ exports.data = [
     "skillId": 358,
     "activeSpell": true,
     "label": L("dic_skill_358_label"), //击晕
-    "icon": "skill-warrior3.png",
+    "icon": "skill-warrior2.png",
     "labelIcon": "warriorsk2.png",
     "desc": L("dic_skill_358_desc"), //对怪物进行攻击，攻击力不高但会使其晕厥。
     "slotId": 2,
@@ -19249,7 +19243,7 @@ exports.data = [
     "skillId": 361,
     "activeSpell": true,
     "label": L("dic_skill_361_label"), //回旋斩
-    "icon": "skill-warrior5.png",
+    "icon": "skill-warrior3.png",
     "labelIcon": "warriorsk3.png",
     "desc": L("dic_skill_361_desc"), //对周围范围敌人造成伤害。
     "slotId": 4,
@@ -19261,11 +19255,11 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 10
+          "cd": 15
         }
       ],
       "targetSelection": {
-        "pool": "blocks",
+        "pool": "objects",
         "filter": [
           {
             "type": "anchor",
@@ -19286,13 +19280,37 @@ exports.data = [
       },
       "action": [
         {
-          "type": "installSpell",
-          "spell": 362,
-          "delay": 0.3,
-          "#level": [
-            1,
-            2,
-            3
+          "type": "damage",
+          "damageType": "Spell",
+          "isRange": true,
+          "delay": 0.4,
+          "#formular": [
+            {
+              "src": {
+                "attack": 0.8
+              }
+            },
+            {
+              "src": {
+                "attack": 1
+              }
+            },
+            {
+              "src": {
+                "attack": 1.5
+              }
+            },
+            {
+              "type": "blink",
+              "delay": 0.6,
+              "time": 0.08
+            },
+            {
+              "type": "shock",
+              "delay": 0.6,
+              "range": 5,
+              "time": 0.2
+            }
           ]
         }
       ]
@@ -19350,7 +19368,7 @@ exports.data = [
     "skillId": 363,
     "activeSpell": true,
     "label": L("dic_skill_363_label"), //神圣护盾
-    "icon": "skill-warrior6.png",
+    "icon": "skill-warrior4.png",
     "labelIcon": "warriorsk4.png",
     "desc": L("dic_skill_363_desc"), //对我方全体施加无敌护盾。
     "slotId": 5,
@@ -19358,7 +19376,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 10
+          "cd": 30
         }
       ],
       "targetSelection": {
@@ -19385,7 +19403,7 @@ exports.data = [
         {
           "type": "playEffect",
           "motion": 91,
-          "act": "self"
+          "pos": "self"
         },
         {
           "type": "delay"
@@ -19469,8 +19487,8 @@ exports.data = [
           "type": "effectCount",
           "#count": [
             1,
-            1,
-            1
+            2,
+            3
           ]
         }
       ]
@@ -19480,7 +19498,7 @@ exports.data = [
     "skillId": 365,
     "activeSpell": true,
     "label": L("dic_skill_365_label"), //死亡龙卷
-    "icon": "skill-mage5.png",
+    "icon": "skill-mage3.png",
     "labelIcon": "magesk3.png",
     "desc": L("dic_skill_365_desc"), //对指定范围造成伤害。
     "slotId": 4,
@@ -19488,7 +19506,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 10
+          "cd": 15
         }
       ],
       "targetSelection": {
@@ -19545,13 +19563,19 @@ exports.data = [
           "delay": 0.4,
           "#formular": [
             {
-              "c": 150
+              func:function(env,source,target,cons) {
+                return env.battleForce*0.3/18.5*0.7
+              }
             },
             {
-              "c": 300
+              func:function(env,source,target,cons) {
+                return env.battleForce*0.3/18.5*0.85
+              }
             },
             {
-              "c": 450
+              func:function(env,source,target,cons) {
+                return env.battleForce*0.3/18.5*1.1
+              }
             }
           ]
         }
@@ -19586,7 +19610,7 @@ exports.data = [
     "skillId": 367,
     "activeSpell": true,
     "label": L("dic_skill_367_label"), //陨石召唤
-    "icon": "skill-mage6.png",
+    "icon": "skill-mage4.png",
     "labelIcon": "magesk4.png",
     "desc": L("dic_skill_367_desc"), //召唤数波陨石对场上敌人进行伤害，位置随机。
     "slotId": 5,
@@ -19597,7 +19621,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 10
+          "cd": 30
         }
       ],
       "targetSelection": {
@@ -19720,13 +19744,19 @@ exports.data = [
           "delay": 0.4,
           "#formular": [
             {
-              "c": 100
+              func:function(env,source,target,cons) {
+                return env.battleForce*0.3/18.5*1.2
+              }
             },
             {
-              "c": 200
+              func:function(env,source,target,cons) {
+                return env.battleForce*0.3/18.5*1.5
+              }
             },
             {
-              "c": 300
+              func:function(env,source,target,cons) {
+                return env.battleForce*0.3/18.5*2
+              }
             }
           ]
         }
@@ -19761,7 +19791,7 @@ exports.data = [
     "skillId": 369,
     "activeSpell": true,
     "label": L("dic_skill_369_label"), //神圣一击
-    "icon": "skill-priest3.png",
+    "icon": "skill-priest2.png",
     "labelIcon": "priestsk2.png",
     "desc": L("dic_skill_369_desc"), //攻击时能够召唤出十字架造成额外伤害。
     "slotId": 2,
@@ -19798,8 +19828,7 @@ exports.data = [
     "slotId": -1,
     "config": {
       "basic": {
-        "buffEffect": 100,
-        "targetEffect": 101
+        "buffEffect": 100
       },
       "triggerCondition": [
         {
@@ -19807,6 +19836,9 @@ exports.data = [
           "event": "onTarget"
         }
       ],
+      "targetSelection": {
+        "pool": "target"
+      },
       "availableCondition": [
         {
           "type": "effectCount",
@@ -19815,22 +19847,27 @@ exports.data = [
       ],
       "action": [
         {
+          "type": "playEffect",
+          "effect": 101,
+          "pos": "target"
+        },
+        {
           "type": "modifyVar",
           "x": "damage",
           "#formular": [
             {
               "src": {
-                "attack": 1.5
+                "attack": 1.4
+              }
+            },
+            {
+              "src": {
+                "attack": 1.7
               }
             },
             {
               "src": {
                 "attack": 2
-              }
-            },
-            {
-              "src": {
-                "attack": 2.5
               }
             }
           ]
@@ -19853,7 +19890,7 @@ exports.data = [
     "skillId": 371,
     "activeSpell": true,
     "label": L("dic_skill_371_label"), //传道
-    "icon": "skill-priest5.png",
+    "icon": "skill-priest3.png",
     "labelIcon": "priestsk3.png",
     "desc": L("dic_skill_371_desc"), //降低所选范围内敌人攻击力。
     "slotId": 4,
@@ -19861,7 +19898,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 10
+          "cd": 15
         }
       ],
       "targetSelection": {
@@ -19944,7 +19981,7 @@ exports.data = [
             {
               "attack": {
                 "src": {
-                  "attack": -0.3
+                  "attack": -0.5
                 }
               }
             }
@@ -19975,7 +20012,7 @@ exports.data = [
     "skillId": 373,
     "activeSpell": true,
     "label": L("dic_skill_373_label"), //神圣突袭
-    "icon": "skill-priest6.png",
+    "icon": "skill-priest4.png",
     "labelIcon": "priestsk4.png",
     "desc": L("dic_skill_373_desc"), //召唤圣光随机出现于场上，击中我方可补血，击中地方造成伤害。
     "slotId": 5,
@@ -19986,7 +20023,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 10
+          "cd": 25
         }
       ],
       "targetSelection": {
@@ -20014,9 +20051,9 @@ exports.data = [
           {
             "type": "count",
             "#count": [
-              2,
               3,
-              4
+              4,
+              5
             ]
           }
         ]
@@ -20095,18 +20132,6 @@ exports.data = [
             2,
             3
           ]
-        },
-        {
-          "type": "delay"
-        },
-        {
-          "type": "castSpell",
-          "spell": 377,
-          "#level": [
-            1,
-            2,
-            3
-          ]
         }
       ]
     }
@@ -20122,13 +20147,19 @@ exports.data = [
           "delay": 0.4,
           "#formular": [
             {
-              "c": 100
+              func:function(env,source,target,cons) {
+                return env.battleForce*0.3/18.5*0.8
+              }
             },
             {
-              "c": 200
+              func:function(env,source,target,cons) {
+                return env.battleForce*0.3/18.5*1
+              }
             },
             {
-              "c": 300
+              func:function(env,source,target,cons) {
+                return env.battleForce*0.3/18.5*1.2
+              }
             }
           ]
         }
@@ -20167,13 +20198,19 @@ exports.data = [
           "type": "heal",
           "#formular": [
             {
-              "c": 100
+              func:function(env,source,target,cons) {
+                return env.battleForce/18.5*0.15+5
+              }
             },
             {
-              "c": 200
+              func:function(env,source,target,cons) {
+                return env.battleForce/18.5*0.2+10
+              }
             },
             {
-              "c": 300
+              func:function(env,source,target,cons) {
+                return env.battleForce/18.5*0.25+20
+              }
             }
           ]
         }
@@ -20208,9 +20245,6 @@ exports.data = [
     "skillId": 376,
     "label": L("dic_skill_367_label"), //陨石召唤第二波
     "config": {
-      "basic": {
-        "spellAction": 1
-      },
       "targetSelection": {
         "pool": "blocks",
         "filter": [
@@ -20300,9 +20334,9 @@ exports.data = [
           {
             "type": "count",
             "#count": [
-              2,
               3,
-              4
+              4,
+              5
             ]
           }
         ]
@@ -20357,7 +20391,7 @@ exports.data = [
     "skillId": 378,
     "activeSpell": true,
     "label": L("dic_skill_7_label"), //炎甲
-    "icon": "skill-mage3.png",
+    "icon": "skill-mage2.png",
     "labelIcon": "magesk2.png",
     "desc": L("dic_skill_7_desc"), //法师使用一层火焰魔法保护自己，当受到攻击时，对敌人造成伤害，伤害值与攻击力有关。
     "slotId": 2,
@@ -20414,7 +20448,11 @@ exports.data = [
       "availableCondition": [
         {
           "type": "effectCount",
-          "count": 1
+          "#count": [
+              1,
+              2,
+              3
+          ]
         }
       ],
       "action": [
@@ -20430,13 +20468,13 @@ exports.data = [
             },
             {
               "src": {
-                "attack": 0.3
+                "attack": 0.4
               },
               "c": 10
             },
             {
               "src": {
-                "attack": 0.4
+                "attack": 0.7
               },
               "c": 15
             }
@@ -20467,12 +20505,12 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 2,
           "reset": true
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -20519,7 +20557,7 @@ exports.data = [
   {
     "skillId": 381,
     "label": L("dic_skill_358_label"), //pk击晕
-    "icon": "skill-warrior3.png",
+    "icon": "skill-warrior2.png",
     "desc": L("dic_skill_358_desc"), //对怪物进行攻击，攻击力不高但会使其晕厥。
     "slotId": 2,
     "config": {
@@ -20535,12 +20573,12 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 2,
           "reset": true
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -20577,7 +20615,7 @@ exports.data = [
   {
     "skillId": 382,
     "label": L("dic_skill_361_label"), //pk回旋斩
-    "icon": "skill-warrior5.png",
+    "icon": "skill-warrior3.png",
     "desc": L("dic_skill_361_desc"), //对周围范围敌人造成伤害。
     "slotId": 4,
     "config": {
@@ -20589,12 +20627,12 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 15,
+          "eventCount": 2,
           "reset": true
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -20646,7 +20684,7 @@ exports.data = [
   {
     "skillId": 383,
     "label": L("dic_skill_363_label"), //pk神圣护盾
-    "icon": "skill-warrior6.png",
+    "icon": "skill-warrior4.png",
     "desc": L("dic_skill_363_desc"), //对我方全体施加无敌护盾。
     "slotId": 5,
     "config": {
@@ -20654,12 +20692,12 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 20,
+          "eventCount": 4,
           "reset": true
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -20719,7 +20757,7 @@ exports.data = [
   {
     "skillId": 384,
     "label": L("dic_skill_7_label"), //pk炎甲
-    "icon": "skill-mage3.png",
+    "icon": "skill-mage2.png",
     "desc": L("dic_skill_7_desc"), //法师使用一层火焰魔法保护自己，当受到攻击时，对敌人造成伤害，伤害值与攻击力有关。
     "slotId": 2,
     "config": {
@@ -20735,12 +20773,12 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 2,
           "reset": true
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -20777,7 +20815,7 @@ exports.data = [
   {
     "skillId": 385,
     "label": L("dic_skill_365_label"), //pk死亡龙卷
-    "icon": "skill-mage5.png",
+    "icon": "skill-mage3.png",
     "desc": L("dic_skill_365_desc"), //对指定范围造成伤害。
     "slotId": 4,
     "config": {
@@ -20785,12 +20823,12 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 15,
+          "eventCount": 2,
           "reset": true
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -20859,7 +20897,7 @@ exports.data = [
   {
     "skillId": 386,
     "label": L("dic_skill_367_label"), //pk陨石召唤
-    "icon": "skill-mage6.png",
+    "icon": "skill-mage4.png",
     "desc": L("dic_skill_367_desc"), //召唤数波陨石对场上敌人进行伤害，位置随机。
     "slotId": 5,
     "config": {
@@ -20870,12 +20908,12 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 20,
+          "eventCount": 4,
           "reset": true
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -20997,7 +21035,7 @@ exports.data = [
   {
     "skillId": 387,
     "label": L("dic_skill_369_label"), //pk神圣一击
-    "icon": "skill-priest3.png",
+    "icon": "skill-priest2.png",
     "desc": L("dic_skill_369_desc"), //攻击时能够召唤出十字架造成额外伤害。
     "slotId": 2,
     "config": {
@@ -21010,12 +21048,12 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 2,
           "reset": true
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -21049,7 +21087,7 @@ exports.data = [
   {
     "skillId": 388,
     "label": L("dic_skill_371_label"), //pk传道
-    "icon": "skill-priest5.png",
+    "icon": "skill-priest3.png",
     "desc": L("dic_skill_371_desc"), //降低所选范围内敌人攻击力。
     "slotId": 4,
     "config": {
@@ -21057,12 +21095,12 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 2,
           "reset": true
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -21126,7 +21164,7 @@ exports.data = [
   {
     "skillId": 389,
     "label": L("dic_skill_373_label"), //pk神圣突袭
-    "icon": "skill-priest6.png",
+    "icon": "skill-priest4.png",
     "desc": L("dic_skill_373_desc"), //召唤圣光随机出现于场上，击中我方可补血，击中地方造成伤害。
     "slotId": 5,
     "config": {
@@ -21137,12 +21175,12 @@ exports.data = [
         {
           "type": "event",
           "event": "onTurnEnd",
-          "eventCount": 10,
+          "eventCount": 4,
           "reset": true
         },
         {
           "type": "chance",
-          "chance": 0.3
+          "chance": 0.1
         },
         {
           "type": "alive"
@@ -21275,6 +21313,113 @@ exports.data = [
           "type": "setMyMutex",
           "mutex": "minister",
           "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 390,
+    "label": L("dic_skill_208_label"), //礼仪buff
+    "icon": "skill-dzj2.png",
+    "desc": L("dic_skill_208_desc"), //大幅度提升我方韧性、闪避和速度。
+    "slotId": 100,
+    "config": {
+      "basic": {
+        "spellAction": 1
+      },
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 20
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "healable"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "playEffect",
+          "effect": 106,
+          "pos": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "installSpell",
+          "spell": 391
+        },
+        {
+          "type": "playEffect",
+          "effect": 107,
+          "pos": "target"
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 391,
+    "config": {
+      "installAction": [
+        {
+          "type": "setProperty",
+          "modifications": {
+            "strong": {
+              "src": {
+                "strong": 0.5
+              }
+            }
+          }
+        },
+        {
+          "type": "setProperty",
+          "modifications": {
+            "reactivity": {
+              "src": {
+                "reactivity": 0.5
+              }
+            }
+          }
+        },
+        {
+          "type": "setProperty",
+          "modifications": {
+            "speed": {
+              "src": {
+                "speed": 0.5
+              }
+            }
+          }
+        }
+      ],
+      "uninstallAction": [
+        {
+          "type": "resetProperty"
+        }
+      ],
+      "buffType": "RoleBuff",
+      "availableCondition": [
+        {
+          "type": "event",
+          "event": "onEndBattleTurn",
+          "eventCount": 2
+        },
+        {
+          "type": "event",
+          "event": "onBeEndBattleTurn",
+          "eventCount": 2
         }
       ]
     }

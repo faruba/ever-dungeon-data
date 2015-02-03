@@ -440,28 +440,28 @@ exports.data = [
                     },
                     {
                         "rare":true,
-                        "weight": 25,
+                        "weight": 15,
                         "type": 0,
                         "value": 1580,
                         "count": 1
                     },
                     {
                         "rare":true,
-                        "weight": 25,
+                        "weight": 15,
                         "type": 0,
                         "value": 1581,
                         "count": 1
                     },
                     {
                         "rare":true,
-                        "weight": 25,
+                        "weight": 15,
                         "type": 0,
                         "value": 1582,
                         "count": 1
                     },
                     {
                         "rare":true,
-                        "weight": 25,
+                        "weight": 15,
                         "type": 0,
                         "value": 1583,
                         "count": 1

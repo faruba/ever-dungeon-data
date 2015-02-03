@@ -2971,7 +2971,7 @@ exports.data = [
             },
             {
                 "xp":650,
-                "skill": [{"id":8, "level": 1}]
+                "skill": [{"id":10, "level": 1}]
             },
             {
                 "xp":1900,
@@ -2983,7 +2983,7 @@ exports.data = [
             },
             {
                 "xp":6300,
-                "skill": [{"id":8, "level": 2}]
+                "skill": [{"id":10, "level": 2}]
             },
             {
                 "xp":9300,
@@ -3003,7 +3003,7 @@ exports.data = [
             },
             {
                 "xp":21800,
-                "skill": [{"id":8, "level": 3}]
+                "skill": [{"id":10, "level": 3}]
             },
             {
                 "xp":28100,
