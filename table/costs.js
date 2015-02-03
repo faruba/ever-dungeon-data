@@ -879,7 +879,15 @@ exports.data = [
     {
         "costId":88,
         "material":[
-            {"type":0, "value":1617, "count":5}
+            {
+                "type":0,
+                "value":1617,
+                "count":5,
+                "instead": {
+                    "type":0,
+                    "value":5
+                }
+            }
         ]
     }
 ]
