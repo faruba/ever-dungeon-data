@@ -586,13 +586,13 @@ exports.data = [
             },
             {
               "src": {
-                "accuracy": 0.15
+                "accuracy": 0.2
               },
               "c": 10
             },
             {
               "src": {
-                "accuracy": 0.15
+                "accuracy": 0.25
               },
               "c": 20
             }
@@ -965,7 +965,7 @@ exports.data = [
             {
               "attack": {
                 "src": {
-                  "attack": 0.5
+                  "attack": 0.4
                 },
                 "c": 2
               }
@@ -981,7 +981,7 @@ exports.data = [
             {
               "attack": {
                 "src": {
-                  "attack": 0.5
+                  "attack": 0.7
                 },
                 "c": 15
               }
@@ -11066,7 +11066,7 @@ exports.data = [
                   return env.visibleMonsterCount*source.attack*0.08
                 }
               }
-			},
+			}
           ]
         }
       ],
@@ -11240,17 +11240,17 @@ exports.data = [
           "#formular": [
             {
               "src": {
-                "attack": 2.3
+                "attack": 2.2
               }
             },
             {
               "src": {
-                "attack": 2.7
+                "attack": 2.4
               }
             },
             {
               "src": {
-                "attack": 3
+                "attack": 2.6
               }
             }
           ]
@@ -17383,7 +17383,7 @@ exports.data = [
           "type": "heal",
           "formular": {
             "src": {
-              "accuracy": 0.25
+              "accuracy": 0.4
             }
           }
         },
@@ -18801,7 +18801,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 15
+          "cd": 10
         }
       ],
       "targetSelection": {
@@ -18873,7 +18873,7 @@ exports.data = [
           "isRange": true,
           "formular": {
             func:function(env,source,target,cons) {
-              return env.battleForce*0.1+100
+              return env.battleForce*0.05+100
             }
           }
         }
@@ -18915,7 +18915,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 20
+          "cd": 25
         }
       ],
       "targetSelection": {
@@ -18987,7 +18987,7 @@ exports.data = [
           "delay": 0.4,
           "formular": {
             func:function(env,source,target,cons) {
-              return env.battleForce*0.2+300
+              return env.battleForce*0.06+400
             }
           }
         }
@@ -19255,11 +19255,11 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 10
+          "cd": 15
         }
       ],
       "targetSelection": {
-        "pool": "blocks",
+        "pool": "objects",
         "filter": [
           {
             "type": "anchor",
@@ -19280,13 +19280,37 @@ exports.data = [
       },
       "action": [
         {
-          "type": "installSpell",
-          "spell": 362,
-          "delay": 0.3,
-          "#level": [
-            1,
-            2,
-            3
+          "type": "damage",
+          "damageType": "Spell",
+          "isRange": true,
+          "delay": 0.4,
+          "#formular": [
+            {
+              "src": {
+                "attack": 0.8
+              }
+            },
+            {
+              "src": {
+                "attack": 1
+              }
+            },
+            {
+              "src": {
+                "attack": 1.5
+              }
+            },
+            {
+              "type": "blink",
+              "delay": 0.6,
+              "time": 0.08
+            },
+            {
+              "type": "shock",
+              "delay": 0.6,
+              "range": 5,
+              "time": 0.2
+            }
           ]
         }
       ]
@@ -19352,7 +19376,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 10
+          "cd": 30
         }
       ],
       "targetSelection": {
@@ -19463,8 +19487,8 @@ exports.data = [
           "type": "effectCount",
           "#count": [
             1,
-            1,
-            1
+            2,
+            3
           ]
         }
       ]
@@ -19482,7 +19506,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 10
+          "cd": 15
         }
       ],
       "targetSelection": {
@@ -19539,13 +19563,19 @@ exports.data = [
           "delay": 0.4,
           "#formular": [
             {
-              "c": 150
+              func:function(env,source,target,cons) {
+                return source.attack*0.7
+              }
             },
             {
-              "c": 300
+              func:function(env,source,target,cons) {
+                return source.attack*0.85
+              }
             },
             {
-              "c": 450
+              func:function(env,source,target,cons) {
+                return source.attack*1.1
+              }
             }
           ]
         }
@@ -19591,7 +19621,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 10
+          "cd": 30
         }
       ],
       "targetSelection": {
@@ -19714,13 +19744,19 @@ exports.data = [
           "delay": 0.4,
           "#formular": [
             {
-              "c": 100
+              func:function(env,source,target,cons) {
+                return source.attack*1.2
+              }
             },
             {
-              "c": 200
+              func:function(env,source,target,cons) {
+                return source.attack*1.5
+              }
             },
             {
-              "c": 300
+              func:function(env,source,target,cons) {
+                return source.attack*2
+              }
             }
           ]
         }
@@ -19814,17 +19850,17 @@ exports.data = [
           "#formular": [
             {
               "src": {
-                "attack": 1.5
+                "attack": 1.4
+              }
+            },
+            {
+              "src": {
+                "attack": 1.7
               }
             },
             {
               "src": {
                 "attack": 2
-              }
-            },
-            {
-              "src": {
-                "attack": 2.5
               }
             }
           ]
@@ -19855,7 +19891,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 10
+          "cd": 15
         }
       ],
       "targetSelection": {
@@ -19938,7 +19974,7 @@ exports.data = [
             {
               "attack": {
                 "src": {
-                  "attack": -0.3
+                  "attack": -0.5
                 }
               }
             }
@@ -19980,7 +20016,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 10
+          "cd": 25
         }
       ],
       "targetSelection": {
@@ -20104,13 +20140,19 @@ exports.data = [
           "delay": 0.4,
           "#formular": [
             {
-              "c": 100
+              func:function(env,source,target,cons) {
+                return source.attack*0.8
+              }
             },
             {
-              "c": 200
+              func:function(env,source,target,cons) {
+                return source.attack*1
+              }
             },
             {
-              "c": 300
+              func:function(env,source,target,cons) {
+                return source.attack*1.2
+              }
             }
           ]
         }
@@ -20149,13 +20191,19 @@ exports.data = [
           "type": "heal",
           "#formular": [
             {
-              "c": 100
+              func:function(env,source,target,cons) {
+                return source.accuracy*0.15+5
+              }
             },
             {
-              "c": 200
+              func:function(env,source,target,cons) {
+                return source.accuracy*0.2+10
+              }
             },
             {
-              "c": 300
+              func:function(env,source,target,cons) {
+                return source.accuracy*0.25+20
+              }
             }
           ]
         }
@@ -20279,9 +20327,9 @@ exports.data = [
           {
             "type": "count",
             "#count": [
-              2,
               3,
-              4
+              4,
+              5
             ]
           }
         ]
@@ -20393,7 +20441,11 @@ exports.data = [
       "availableCondition": [
         {
           "type": "effectCount",
-          "count": 1
+          "#count": [
+              1,
+              2,
+              3
+          ]
         }
       ],
       "action": [
@@ -20409,13 +20461,13 @@ exports.data = [
             },
             {
               "src": {
-                "attack": 0.3
+                "attack": 0.4
               },
               "c": 10
             },
             {
               "src": {
-                "attack": 0.4
+                "attack": 0.7
               },
               "c": 15
             }
