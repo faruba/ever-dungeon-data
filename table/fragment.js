@@ -86,19 +86,19 @@ exports.data = [
                 "rate": 1,
                 "prize": [
                     {
-                        "weight": 200,
+                        "weight": 150,
                         "type": 0,
                         "value": 871,
                         "count": 5
                     },
                     {
-                        "weight": 150,
+                        "weight": 100,
                         "type": 0,
                         "value":540,
                         "count": 1
                     },
                     {
-                        "weight": 200,
+                        "weight": 300,
                         "type": 1,
                         "count": 1000
                     },
@@ -158,19 +158,19 @@ exports.data = [
                 "rate": 1,
                 "prize": [
                     {
-                        "weight": 200,
+                        "weight": 150,
                         "type": 0,
                         "value": 871,
                         "count": 5
                     },
                     {
-                        "weight": 150,
+                        "weight": 100,
                         "type": 0,
                         "value":540,
                         "count": 1
                     },
                     {
-                        "weight": 200,
+                        "weight": 300,
                         "type": 1,
                         "count": 1000
                     },
@@ -440,28 +440,28 @@ exports.data = [
                     },
                     {
                         "rare":true,
-                        "weight": 25,
+                        "weight": 15,
                         "type": 0,
                         "value": 1580,
                         "count": 1
                     },
                     {
                         "rare":true,
-                        "weight": 25,
+                        "weight": 15,
                         "type": 0,
                         "value": 1581,
                         "count": 1
                     },
                     {
                         "rare":true,
-                        "weight": 25,
+                        "weight": 15,
                         "type": 0,
                         "value": 1582,
                         "count": 1
                     },
                     {
                         "rare":true,
-                        "weight": 25,
+                        "weight": 15,
                         "type": 0,
                         "value": 1583,
                         "count": 1

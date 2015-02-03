@@ -20011,8 +20011,7 @@ exports.data = [
 		"category": 4,
 		"description": "在战斗中可以使全队复活的神奇药水。",
 		"stack": 25,
-		"sellprice": 300,
-		"storeOnly": true
+		"sellprice": 300
 	},
 	{
 		"classId": 541,
@@ -53146,20 +53145,20 @@ exports.data = [
     {
         "classId": 1477,
         "label": "X头盔",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "suitId": 1,
         "description": "由神秘合金配合顶尖黑科技打造而成的套装，拥有难以置信的力量。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+400 攻击+15  韧性+5\n" +
 		               "2件：生命+950 攻击+50 暴击+20\n" +
-		               "     韧性+65 命中+40\n" +
-		               "     特殊技能：加特林扫射\n" +
+		               " 　　韧性+65 命中+40\n" +
+		               " 　　特殊技能：加特林扫射\n" +
 		               "3件：生命+1750 攻击+115 暴击+50\n" +
-		               "     韧性+145 命中+85\n" +
+		               " 　　韧性+145 命中+85\n" +
 		               "4件：生命+3250 攻击+265 暴击+110\n" +
-		               "     韧性+285 命中+185 \n" +
-		               "     特殊技能：脉冲光束炮\n",
+		               " 　　韧性+285 命中+185 \n" +
+		               " 　　特殊技能：脉冲光束炮\n",
         "effectf": [
             {
                 "part": "helmet",
@@ -53194,7 +53193,7 @@ exports.data = [
     {
         "classId": 1479,
         "label": "X胸甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
 		"hideSlot": [2],
         "suitId": 1,
@@ -53202,13 +53201,13 @@ exports.data = [
 		               "套装属性：\n" +
 		               "1件：生命+400 攻击+15  韧性+5\n" +
 		               "2件：生命+950 攻击+50 暴击+20\n" +
-		               "     韧性+65 命中+40\n" +
-		               "     特殊技能：加特林扫射\n" +
+		               " 　　韧性+65 命中+40\n" +
+		               " 　　特殊技能：加特林扫射\n" +
 		               "3件：生命+1750 攻击+115 暴击+50\n" +
-		               "     韧性+145 命中+85\n" +
+		               " 　　韧性+145 命中+85\n" +
 		               "4件：生命+3250 攻击+265 暴击+110\n" +
-		               "     韧性+285 命中+185 \n" +
-		               "     特殊技能：脉冲光束炮\n",
+		               " 　　韧性+285 命中+185 \n" +
+		               " 　　特殊技能：脉冲光束炮\n",
         "effectf": [
             {
                 "part": "chest",
@@ -53259,20 +53258,20 @@ exports.data = [
     {
         "classId": 1481,
         "label": "X手甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "suitId": 1,
         "description": "由神秘合金配合顶尖黑科技打造而成的套装，拥有难以置信的力量。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+400 攻击+15  韧性+5\n" +
 		               "2件：生命+950 攻击+50 暴击+20\n" +
-		               "     韧性+65 命中+40\n" +
-		               "     特殊技能：加特林扫射\n" +
+		               " 　　韧性+65 命中+40\n" +
+		               " 　　特殊技能：加特林扫射\n" +
 		               "3件：生命+1750 攻击+115 暴击+50\n" +
-		               "     韧性+145 命中+85\n" +
+		               " 　　韧性+145 命中+85\n" +
 		               "4件：生命+3250 攻击+265 暴击+110\n" +
-		               "     韧性+285 命中+185 \n" +
-		               "     特殊技能：脉冲光束炮\n",
+		               " 　　韧性+285 命中+185 \n" +
+		               " 　　特殊技能：脉冲光束炮\n",
         "effectf": [
             {
                 "part": "righthand",
@@ -53315,20 +53314,20 @@ exports.data = [
     {
         "classId": 1483,
         "label": "X腿甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "suitId": 1,
         "description": "由神秘合金配合顶尖黑科技打造而成的套装，拥有难以置信的力量。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+400 攻击+15  韧性+5\n" +
 		               "2件：生命+950 攻击+50 暴击+20\n" +
-		               "     韧性+65 命中+40\n" +
-		               "     特殊技能：加特林扫射\n" +
+		               " 　　韧性+65 命中+40\n" +
+		               " 　　特殊技能：加特林扫射\n" +
 		               "3件：生命+1750 攻击+115 暴击+50\n" +
-		               "     韧性+145 命中+85\n" +
+		               " 　　韧性+145 命中+85\n" +
 		               "4件：生命+3250 攻击+265 暴击+110\n" +
-		               "     韧性+285 命中+185 \n" +
-		               "     特殊技能：脉冲光束炮\n",
+		               " 　　韧性+285 命中+185 \n" +
+		               " 　　特殊技能：脉冲光束炮\n",
         "effectf": [
             {
                 "part": "leftleg",
@@ -53377,8 +53376,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 0,
-		"iconf": "rfasion-female3-cloth.png",
-		"iconm": "rfasion-male3-cloth.png",
+		"iconf": "rfasion-female3-chest.png",
+		"iconm": "rfasion-male3-chest.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -53410,8 +53409,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 0,
-		"iconf": "rfasion-female3-cloth.png",
-		"iconm": "rfasion-male3-cloth.png",
+		"iconf": "rfasion-female3-hand.png",
+		"iconm": "rfasion-male3-hand.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -53443,8 +53442,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 0,
-		"iconf": "rfasion-female3-cloth.png",
-		"iconm": "rfasion-male3-cloth.png",
+		"iconf": "rfasion-female3-foot.png",
+		"iconm": "rfasion-male3-foot.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -53494,8 +53493,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 0,
-		"iconf": "rfasion-female4-cloth.png",
-		"iconm": "rfasion-male4-cloth.png",
+		"iconf": "rfasion-female4-chest.png",
+		"iconm": "rfasion-male4-chest.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -53527,8 +53526,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 0,
-		"iconf": "rfasion-female4-cloth.png",
-		"iconm": "rfasion-male4-cloth.png",
+		"iconf": "rfasion-female4-hand.png",
+		"iconm": "rfasion-male4-hand.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -53560,8 +53559,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 0,
-		"iconf": "rfasion-female4-cloth.png",
-		"iconm": "rfasion-male4-cloth.png",
+		"iconf": "rfasion-female4-foot.png",
+		"iconm": "rfasion-male4-foot.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -53611,8 +53610,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 0,
-		"iconf": "rfasion-female5-cloth.png",
-		"iconm": "rfasion-male5-cloth.png",
+		"iconf": "rfasion-female5-chest.png",
+		"iconm": "rfasion-male5-chest.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -53644,8 +53643,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 0,
-		"iconf": "rfasion-female5-cloth.png",
-		"iconm": "rfasion-male5-cloth.png",
+		"iconf": "rfasion-female5-hand.png",
+		"iconm": "rfasion-male5-hand.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -53677,8 +53676,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 0,
-		"iconf": "rfasion-female5-cloth.png",
-		"iconm": "rfasion-male5-cloth.png",
+		"iconf": "rfasion-female5-foot.png",
+		"iconm": "rfasion-male5-foot.png",
 		"expiration": {day: 7}
 	},
 	{
@@ -54313,8 +54312,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 1,
-		"iconf": "rfasion-female3-cloth.png",
-		"iconm": "rfasion-male3-cloth.png"
+		"iconf": "rfasion-female3-chest.png",
+		"iconm": "rfasion-male3-chest.png"
 	},
 	{
 		"classId": 1517,
@@ -54345,8 +54344,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 1,
-		"iconf": "rfasion-female3-cloth.png",
-		"iconm": "rfasion-male3-cloth.png"
+		"iconf": "rfasion-female3-hand.png",
+		"iconm": "rfasion-male3-hand.png"
 	},
 	{
 		"classId": 1518,
@@ -54377,8 +54376,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 1,
-		"iconf": "rfasion-female3-cloth.png",
-		"iconm": "rfasion-male3-cloth.png"
+		"iconf": "rfasion-female3-foot.png",
+		"iconm": "rfasion-male3-foot.png"
 	},
 	{
 		"classId": 1519,
@@ -54426,8 +54425,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 1,
-		"iconf": "rfasion-female4-cloth.png",
-		"iconm": "rfasion-male4-cloth.png"
+		"iconf": "rfasion-female4-chest.png",
+		"iconm": "rfasion-male4-chest.png"
 	},
 	{
 		"classId": 1521,
@@ -54458,8 +54457,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 1,
-		"iconf": "rfasion-female4-cloth.png",
-		"iconm": "rfasion-male4-cloth.png"
+		"iconf": "rfasion-female4-hand.png",
+		"iconm": "rfasion-male4-hand.png"
 	},
 	{
 		"classId": 1522,
@@ -54490,8 +54489,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 1,
-		"iconf": "rfasion-female4-cloth.png",
-		"iconm": "rfasion-male4-cloth.png"
+		"iconf": "rfasion-female4-foot.png",
+		"iconm": "rfasion-male4-foot.png"
 	},
 	{
 		"classId": 1523,
@@ -54539,8 +54538,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 1,
-		"iconf": "rfasion-female5-cloth.png",
-		"iconm": "rfasion-male5-cloth.png"
+		"iconf": "rfasion-female5-chest.png",
+		"iconm": "rfasion-male5-chest.png"
 	},
 	{
 		"classId": 1525,
@@ -54571,8 +54570,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 1,
-		"iconf": "rfasion-female5-cloth.png",
-		"iconm": "rfasion-male5-cloth.png"
+		"iconf": "rfasion-female5-hand.png",
+		"iconm": "rfasion-male5-hand.png"
 	},
 	{
 		"classId": 1526,
@@ -54603,8 +54602,8 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 1,
-		"iconf": "rfasion-female5-cloth.png",
-		"iconm": "rfasion-male5-cloth.png"
+		"iconf": "rfasion-female5-foot.png",
+		"iconm": "rfasion-male5-foot.png"
 	},
 	{
 		"classId": 1527,
@@ -55199,18 +55198,18 @@ exports.data = [
 		"classId": 1548,
 		"suitId": 4,
 		"label": "礼仪上衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+90 攻击+5 暴击+15 \n" +
 		               "2件：生命+290 攻击+20 暴击+65\n" +
-		               "     韧性+5\n" +
+		               " 　　韧性+5\n" +
 		               "3件：生命+1090 攻击+65 暴击+205\n" +
-		               "     韧性+30 回避+25 速度+25\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
 		               "4件：生命+2290 攻击+135 暴击+425\n" +
-		               "     韧性+110 回避+95 速度+95\n",
+		               " 　　韧性+110 回避+95 速度+95\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55226,25 +55225,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 2,
-		"iconf": "rfasion-female3-cloth.png",
-		"iconm": "rfasion-male3-cloth.png",
+		"iconf": "rfasion-female3-chest.png",
+		"iconm": "rfasion-male3-chest.png",
 		"expiration": {day: 7}
 	},
 	{
 		"classId": 1549,
 		"suitId": 4,
 		"label": "礼仪手套",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+90 攻击+5 暴击+15 \n" +
 		               "2件：生命+290 攻击+20 暴击+65\n" +
-		               "     韧性+5\n" +
+		               " 　　韧性+5\n" +
 		               "3件：生命+1090 攻击+65 暴击+205\n" +
-		               "     韧性+30 回避+25 速度+25\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
 		               "4件：生命+2290 攻击+135 暴击+425\n" +
-		               "     韧性+110 回避+95 速度+95\n",
+		               " 　　韧性+110 回避+95 速度+95\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55268,25 +55267,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 2,
-		"iconf": "rfasion-female3-cloth.png",
-		"iconm": "rfasion-male3-cloth.png",
+		"iconf": "rfasion-female3-hand.png",
+		"iconm": "rfasion-male3-hand.png",
 		"expiration": {day: 7}
 	},
 	{
 		"classId": 1550,
 		"suitId": 4,
 		"label": "礼仪鞋",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+90 攻击+5 暴击+15 \n" +
 		               "2件：生命+290 攻击+20 暴击+65\n" +
-		               "     韧性+5\n" +
+		               " 　　韧性+5\n" +
 		               "3件：生命+1090 攻击+65 暴击+205\n" +
-		               "     韧性+30 回避+25 速度+25\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
 		               "4件：生命+2290 攻击+135 暴击+425\n" +
-		               "     韧性+110 回避+95 速度+95\n",
+		               " 　　韧性+110 回避+95 速度+95\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55310,25 +55309,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 2,
-		"iconf": "rfasion-female3-cloth.png",
-		"iconm": "rfasion-male3-cloth.png",
+		"iconf": "rfasion-female3-foot.png",
+		"iconm": "rfasion-male3-foot.png",
 		"expiration": {day: 7}
 	},
 	{
 		"classId": 1551,
 		"suitId": 4,
 		"label": "礼仪头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+90 攻击+5 暴击+15 \n" +
 		               "2件：生命+290 攻击+20 暴击+65\n" +
-		               "     韧性+5\n" +
+		               " 　　韧性+5\n" +
 		               "3件：生命+1090 攻击+65 暴击+205\n" +
-		               "     韧性+30 回避+25 速度+25\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
 		               "4件：生命+2290 攻击+135 暴击+425\n" +
-		               "     韧性+110 回避+95 速度+95\n",
+		               " 　　韧性+110 回避+95 速度+95\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55352,18 +55351,18 @@ exports.data = [
 		"classId": 1552,
 		"suitId": 3,
 		"label": "和风上衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "洋溢着东方韵味的装扮。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 命中+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     韧性+10 命中+65 速度+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
 		               "3件：生命+810 攻击+70 暴击+85\n" +
-		               "     韧性+85 命中+205 速度+35\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
 		               "4件：生命+1710 攻击+140 暴击+215\n" +
-		               "     韧性+215 命中+455 速度+115\n",
+		               " 　　韧性+215 命中+455 速度+115\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55379,25 +55378,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 2,
-		"iconf": "rfasion-female4-cloth.png",
-		"iconm": "rfasion-male4-cloth.png",
+		"iconf": "rfasion-female4-chest.png",
+		"iconm": "rfasion-male4-chest.png",
 		"expiration": {day: 7}
 	},
 	{
 		"classId": 1553,
 		"suitId": 3,
 		"label": "和风护手",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "洋溢着东方韵味的装扮。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 命中+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     韧性+10 命中+65 速度+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
 		               "3件：生命+810 攻击+70 暴击+85\n" +
-		               "     韧性+85 命中+205 速度+35\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
 		               "4件：生命+1710 攻击+140 暴击+215\n" +
-		               "     韧性+215 命中+455 速度+115\n",
+		               " 　　韧性+215 命中+455 速度+115\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55421,25 +55420,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 2,
-		"iconf": "rfasion-female4-cloth.png",
-		"iconm": "rfasion-male4-cloth.png",
+		"iconf": "rfasion-female4-hand.png",
+		"iconm": "rfasion-male4-hand.png",
 		"expiration": {day: 7}
 	},
 	{
 		"classId": 1554,
 		"suitId": 3,
 		"label": "和风护腿",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "洋溢着东方韵味的装扮。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 命中+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     韧性+10 命中+65 速度+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
 		               "3件：生命+810 攻击+70 暴击+85\n" +
-		               "     韧性+85 命中+205 速度+35\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
 		               "4件：生命+1710 攻击+140 暴击+215\n" +
-		               "     韧性+215 命中+455 速度+115\n",
+		               " 　　韧性+215 命中+455 速度+115\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55463,25 +55462,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 2,
-		"iconf": "rfasion-female4-cloth.png",
-		"iconm": "rfasion-male4-cloth.png",
+		"iconf": "rfasion-female4-foot.png",
+		"iconm": "rfasion-male4-foot.png",
 		"expiration": {day: 7}
 	},
 	{
 		"classId": 1555,
 		"suitId": 3,
 		"label": "和风头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "洋溢着东方韵味的装扮。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 命中+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     韧性+10 命中+65 速度+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
 		               "3件：生命+810 攻击+70 暴击+85\n" +
-		               "     韧性+85 命中+205 速度+35\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
 		               "4件：生命+1710 攻击+140 暴击+215\n" +
-		               "     韧性+215 命中+455 速度+115\n",
+		               " 　　韧性+215 命中+455 速度+115\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55505,18 +55504,18 @@ exports.data = [
 		"classId": 1556,
 		"suitId": 2,
 		"label": "喵喵衣服",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 速度+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     命中+10 回避+10 速度+65\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
 		               "3件：生命+810 攻击+70 暴击+35\n" +
-		               "     命中+85 回避+85 速度+205\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
 		               "4件：生命+1710 攻击+140 暴击+115\n" +
-		               "     命中+215 回避+215 速度+455\n",
+		               " 　　命中+215 回避+215 速度+455\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55532,25 +55531,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 2,
-		"iconf": "rfasion-female5-cloth.png",
-		"iconm": "rfasion-male5-cloth.png",
+		"iconf": "rfasion-female5-chest.png",
+		"iconm": "rfasion-male5-chest.png",
 		"expiration": {day: 7}
 	},
 	{
 		"classId": 1557,
 		"suitId": 2,
 		"label": "喵喵爪子",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 速度+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     命中+10 回避+10 速度+65\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
 		               "3件：生命+810 攻击+70 暴击+35\n" +
-		               "     命中+85 回避+85 速度+205\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
 		               "4件：生命+1710 攻击+140 暴击+115\n" +
-		               "     命中+215 回避+215 速度+455\n",
+		               " 　　命中+215 回避+215 速度+455\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55574,25 +55573,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 2,
-		"iconf": "rfasion-female5-cloth.png",
-		"iconm": "rfasion-male5-cloth.png",
+		"iconf": "rfasion-female5-hand.png",
+		"iconm": "rfasion-male5-hand.png",
 		"expiration": {day: 7}
 	},
 	{
 		"classId": 1558,
 		"suitId": 2,
 		"label": "喵喵护腿",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 速度+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     命中+10 回避+10 速度+65\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
 		               "3件：生命+810 攻击+70 暴击+35\n" +
-		               "     命中+85 回避+85 速度+205\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
 		               "4件：生命+1710 攻击+140 暴击+115\n" +
-		               "     命中+215 回避+215 速度+455\n",
+		               " 　　命中+215 回避+215 速度+455\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55616,25 +55615,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 2,
-		"iconf": "rfasion-female5-cloth.png",
-		"iconm": "rfasion-male5-cloth.png",
+		"iconf": "rfasion-female5-foot.png",
+		"iconm": "rfasion-male5-foot.png",
 		"expiration": {day: 7}
 	},
 	{
 		"classId": 1559,
 		"suitId": 2,
 		"label": "喵喵耳朵",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 速度+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     命中+10 回避+10 速度+65\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
 		               "3件：生命+810 攻击+70 暴击+35\n" +
-		               "     命中+85 回避+85 速度+205\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
 		               "4件：生命+1710 攻击+140 暴击+115\n" +
-		               "     命中+215 回避+215 速度+455\n",
+		               " 　　命中+215 回避+215 速度+455\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55658,7 +55657,7 @@ exports.data = [
 		"classId": 1560,
 		"suitId": 5,
 		"label": "护理大衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
@@ -55666,9 +55665,9 @@ exports.data = [
 		               "1件：生命+200 攻击+5 命中+10\n" +
 		               "2件：生命+700 攻击+20 命中+40\n" +
 		               "3件：生命+1620 攻击+50 暴击+40\n" +
-		               "     命中+170 回避+40 速度+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
 		               "4件：生命+3120 攻击+150 暴击+110\n" +
-		               "     命中+410 回避+110 速度+110\n",
+		               " 　　命中+410 回避+110 速度+110\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55692,16 +55691,16 @@ exports.data = [
 		"classId": 1561,
 		"suitId": 5,
 		"label": "护理手套",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+200 攻击+5 命中+10\n" +
 		               "2件：生命+700 攻击+20 命中+40\n" +
 		               "3件：生命+1620 攻击+50 暴击+40\n" +
-		               "     命中+170 回避+40 速度+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
 		               "4件：生命+3120 攻击+150 暴击+110\n" +
-		               "     命中+410 回避+110 速度+110\n",
+		               " 　　命中+410 回避+110 速度+110\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55733,16 +55732,16 @@ exports.data = [
 		"classId": 1562,
 		"suitId": 5,
 		"label": "护理鞋具",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+200 攻击+5 命中+10\n" +
 		               "2件：生命+700 攻击+20 命中+40\n" +
 		               "3件：生命+1620 攻击+50 暴击+40\n" +
-		               "     命中+170 回避+40 速度+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
 		               "4件：生命+3120 攻击+150 暴击+110\n" +
-		               "     命中+410 回避+110 速度+110\n",
+		               " 　　命中+410 回避+110 速度+110\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55774,16 +55773,16 @@ exports.data = [
 		"classId": 1563,
 		"suitId": 5,
 		"label": "护理头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+200 攻击+5 命中+10\n" +
 		               "2件：生命+700 攻击+20 命中+40\n" +
 		               "3件：生命+1620 攻击+50 暴击+40\n" +
-		               "     命中+170 回避+40 速度+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
 		               "4件：生命+3120 攻击+150 暴击+110\n" +
-		               "     命中+410 回避+110 速度+110\n",
+		               " 　　命中+410 回避+110 速度+110\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55807,18 +55806,18 @@ exports.data = [
 		"classId": 1564,
 		"suitId": 6,
 		"label": "刺客服",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+10 暴击+45\n" +
 		               "2件：生命+400 攻击+30 暴击+120\n" +
-		               "     速度+40\n" +
+		               " 　　速度+40\n" +
 		               "3件：生命+800 攻击+90 暴击+300\n" +
-		               "     命中+60 回避+60 速度+160\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
 		               "4件：生命+140 攻击+220 暴击+620\n" +
-		               "     命中+210 回避+210 速度+350\n",
+		               " 　　命中+210 回避+210 速度+350\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55842,17 +55841,17 @@ exports.data = [
 		"classId": 1565,
 		"suitId": 6,
 		"label": "刺客护手",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+10 暴击+45\n" +
 		               "2件：生命+400 攻击+30 暴击+120\n" +
-		               "     速度+40\n" +
+		               " 　　速度+40\n" +
 		               "3件：生命+800 攻击+90 暴击+300\n" +
-		               "     命中+60 回避+60 速度+160\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
 		               "4件：生命+140 攻击+220 暴击+620\n" +
-		               "     命中+210 回避+210 速度+350\n",
+		               " 　　命中+210 回避+210 速度+350\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55884,17 +55883,17 @@ exports.data = [
 		"classId": 1566,
 		"suitId": 6,
 		"label": "刺客鞋",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+10 暴击+45\n" +
 		               "2件：生命+400 攻击+30 暴击+120\n" +
-		               "     速度+40\n" +
+		               " 　　速度+40\n" +
 		               "3件：生命+800 攻击+90 暴击+300\n" +
-		               "     命中+60 回避+60 速度+160\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
 		               "4件：生命+140 攻击+220 暴击+620\n" +
-		               "     命中+210 回避+210 速度+350\n",
+		               " 　　命中+210 回避+210 速度+350\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55926,17 +55925,17 @@ exports.data = [
 		"classId": 1567,
 		"suitId": 6,
 		"label": "刺客面罩",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+10 暴击+45\n" +
 		               "2件：生命+400 攻击+30 暴击+120\n" +
-		               "     速度+40\n" +
+		               " 　　速度+40\n" +
 		               "3件：生命+800 攻击+90 暴击+300\n" +
-		               "     命中+60 回避+60 速度+160\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
 		               "4件：生命+140 攻击+220 暴击+620\n" +
-		               "     命中+210 回避+210 速度+350\n",
+		               " 　　命中+210 回避+210 速度+350\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55960,18 +55959,18 @@ exports.data = [
 		"classId": 1568,
 		"suitId": 7,
 		"label": "军官大衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+20 暴击+15\n" +
 		               "2件：生命+400 攻击+60 暴击+55\n" +
-		               "     韧性+15\n" +
+		               " 　　韧性+15\n" +
 		               "3件：生命+100 攻击+180 暴击+175\n" +
-		               "     韧性+35\n" +
+		               " 　　韧性+35\n" +
 		               "4件：生命+1800 攻击+400 暴击+415\n" +
-		               "     韧性+165 命中+70\n",
+		               " 　　韧性+165 命中+70\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -55995,17 +55994,17 @@ exports.data = [
 		"classId": 1569,
 		"suitId": 7,
 		"label": "军官手套",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+20 暴击+15\n" +
 		               "2件：生命+400 攻击+60 暴击+55\n" +
-		               "     韧性+15\n" +
+		               " 　　韧性+15\n" +
 		               "3件：生命+100 攻击+180 暴击+175\n" +
-		               "     韧性+35\n" +
+		               " 　　韧性+35\n" +
 		               "4件：生命+1800 攻击+400 暴击+415\n" +
-		               "     韧性+165 命中+70\n",
+		               " 　　韧性+165 命中+70\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -56037,17 +56036,17 @@ exports.data = [
 		"classId": 1570,
 		"suitId": 7,
 		"label": "军官长靴",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+20 暴击+15\n" +
 		               "2件：生命+400 攻击+60 暴击+55\n" +
-		               "     韧性+15\n" +
+		               " 　　韧性+15\n" +
 		               "3件：生命+100 攻击+180 暴击+175\n" +
-		               "     韧性+35\n" +
+		               " 　　韧性+35\n" +
 		               "4件：生命+1800 攻击+400 暴击+415\n" +
-		               "     韧性+165 命中+70\n",
+		               " 　　韧性+165 命中+70\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -56079,17 +56078,17 @@ exports.data = [
 		"classId": 1571,
 		"suitId": 7,
 		"label": "军官帽",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+20 暴击+15\n" +
 		               "2件：生命+400 攻击+60 暴击+55\n" +
-		               "     韧性+15\n" +
+		               " 　　韧性+15\n" +
 		               "3件：生命+100 攻击+180 暴击+175\n" +
-		               "     韧性+35\n" +
+		               " 　　韧性+35\n" +
 		               "4件：生命+1800 攻击+400 暴击+415\n" +
-		               "     韧性+165 命中+70\n",
+		               " 　　韧性+165 命中+70\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -56113,7 +56112,7 @@ exports.data = [
 		"classId": 1572,
 		"suitId": 8,
 		"label": "勇者铠甲",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
@@ -56121,9 +56120,9 @@ exports.data = [
 		               "1件：生命+250\n" +
 		               "2件：生命+800 攻击+10 韧性+20\n" +
 		               "3件：生命+2000 攻击+30 韧性+130\n" +
-		               "     命中+30\n" +
+		               " 　　命中+30\n" +
 		               "4件：生命+4000 攻击+105 韧性+355\n" +
-		               "     命中+80\n",
+		               " 　　命中+80\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -56147,16 +56146,16 @@ exports.data = [
 		"classId": 1573,
 		"suitId": 8,
 		"label": "勇者手甲",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+250\n" +
 		               "2件：生命+800 攻击+10 韧性+20\n" +
 		               "3件：生命+2000 攻击+30 韧性+130\n" +
-		               "     命中+30\n" +
+		               " 　　命中+30\n" +
 		               "4件：生命+4000 攻击+105 韧性+355\n" +
-		               "     命中+80\n",
+		               " 　　命中+80\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -56188,16 +56187,16 @@ exports.data = [
 		"classId": 1574,
 		"suitId": 8,
 		"label": "勇者腿甲",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+250\n" +
 		               "2件：生命+800 攻击+10 韧性+20\n" +
 		               "3件：生命+2000 攻击+30 韧性+130\n" +
-		               "     命中+30\n" +
+		               " 　　命中+30\n" +
 		               "4件：生命+4000 攻击+105 韧性+355\n" +
-		               "     命中+80\n",
+		               " 　　命中+80\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -56229,16 +56228,16 @@ exports.data = [
 		"classId": 1575,
 		"suitId": 8,
 		"label": "勇者头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+250\n" +
 		               "2件：生命+800 攻击+10 韧性+20\n" +
 		               "3件：生命+2000 攻击+30 韧性+130\n" +
-		               "     命中+30\n" +
+		               " 　　命中+30\n" +
 		               "4件：生命+4000 攻击+105 韧性+355\n" +
-		               "     命中+80\n",
+		               " 　　命中+80\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -56262,19 +56261,19 @@ exports.data = [
 		"classId": 1576,
 		"suitId": 9,
 		"label": "忍者上衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+5 回避+30\n" +
-		               "     速度+30\n" +
+		               " 　　速度+30\n" +
 		               "2件：生命+400 攻击+20 回避+95\n" +
-		               "     速度+95\n" +
+		               " 　　速度+95\n" +
 		               "3件：生命+800 攻击+75 暴击+40\n" +
-		               "     命中+35 回避+275 速度+275\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
 		               "4件：生命+140 攻击+175 暴击+190\n" +
-		               "     命中+145 回避+595 速度+595\n",
+		               " 　　命中+145 回避+595 速度+595\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -56298,18 +56297,18 @@ exports.data = [
 		"classId": 1577,
 		"suitId": 9,
 		"label": "忍者护手",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+5 回避+30\n" +
-		               "     速度+30\n" +
+		               " 　　速度+30\n" +
 		               "2件：生命+400 攻击+20 回避+95\n" +
-		               "     速度+95\n" +
+		               " 　　速度+95\n" +
 		               "3件：生命+800 攻击+75 暴击+40\n" +
-		               "     命中+35 回避+275 速度+275\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
 		               "4件：生命+140 攻击+175 暴击+190\n" +
-		               "     命中+145 回避+595 速度+595\n",
+		               " 　　命中+145 回避+595 速度+595\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -56341,18 +56340,18 @@ exports.data = [
 		"classId": 1578,
 		"suitId": 9,
 		"label": "忍者裹足",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+5 回避+30\n" +
-		               "     速度+30\n" +
+		               " 　　速度+30\n" +
 		               "2件：生命+400 攻击+20 回避+95\n" +
-		               "     速度+95\n" +
+		               " 　　速度+95\n" +
 		               "3件：生命+800 攻击+75 暴击+40\n" +
-		               "     命中+35 回避+275 速度+275\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
 		               "4件：生命+140 攻击+175 暴击+190\n" +
-		               "     命中+145 回避+595 速度+595\n",
+		               " 　　命中+145 回避+595 速度+595\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -56384,18 +56383,18 @@ exports.data = [
 		"classId": 1579,
 		"suitId": 9,
 		"label": "忍者头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+5 回避+30\n" +
-		               "     速度+30\n" +
+		               " 　　速度+30\n" +
 		               "2件：生命+400 攻击+20 回避+95\n" +
-		               "     速度+95\n" +
+		               " 　　速度+95\n" +
 		               "3件：生命+800 攻击+75 暴击+40\n" +
-		               "     命中+35 回避+275 速度+275\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
 		               "4件：生命+140 攻击+175 暴击+190\n" +
-		               "     命中+145 回避+595 速度+595\n",
+		               " 　　命中+145 回避+595 速度+595\n",
 		"sellprice": 800,
 		"effectf": [
 			{
@@ -56419,18 +56418,18 @@ exports.data = [
 		"classId": 1580,
 		"suitId": 4,
 		"label": "礼仪上衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+90 攻击+5 暴击+15 \n" +
 		               "2件：生命+290 攻击+20 暴击+65\n" +
-		               "     韧性+5\n" +
+		               " 　　韧性+5\n" +
 		               "3件：生命+1090 攻击+65 暴击+205\n" +
-		               "     韧性+30 回避+25 速度+25\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
 		               "4件：生命+2290 攻击+135 暴击+425\n" +
-		               "     韧性+110 回避+95 速度+95\n",
+		               " 　　韧性+110 回避+95 速度+95\n",
 		"effectf": [
 			{
 				"part": "chest",
@@ -56445,31 +56444,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 3,
-		"iconf": "rfasion-female3-cloth.png",
-		"iconm": "rfasion-male3-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"iconf": "rfasion-female3-chest.png",
+		"iconm": "rfasion-male3-chest.png",
+		"recipePrize": 209
 	},
 	{
 		"classId": 1581,
 		"suitId": 4,
 		"label": "礼仪手套",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+90 攻击+5 暴击+15 \n" +
 		               "2件：生命+290 攻击+20 暴击+65\n" +
-		               "     韧性+5\n" +
+		               " 　　韧性+5\n" +
 		               "3件：生命+1090 攻击+65 暴击+205\n" +
-		               "     韧性+30 回避+25 速度+25\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
 		               "4件：生命+2290 攻击+135 暴击+425\n" +
-		               "     韧性+110 回避+95 速度+95\n",
+		               " 　　韧性+110 回避+95 速度+95\n",
 		"effectf": [
 			{
 				"part": "righthand",
@@ -56492,31 +56485,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 3,
-		"iconf": "rfasion-female3-cloth.png",
-		"iconm": "rfasion-male3-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"iconf": "rfasion-female3-hand.png",
+		"iconm": "rfasion-male3-hand.png",
+		"recipePrize": 209
 	},
 	{
 		"classId": 1582,
 		"suitId": 4,
 		"label": "礼仪鞋",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+90 攻击+5 暴击+15 \n" +
 		               "2件：生命+290 攻击+20 暴击+65\n" +
-		               "     韧性+5\n" +
+		               " 　　韧性+5\n" +
 		               "3件：生命+1090 攻击+65 暴击+205\n" +
-		               "     韧性+30 回避+25 速度+25\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
 		               "4件：生命+2290 攻击+135 暴击+425\n" +
-		               "     韧性+110 回避+95 速度+95\n",
+		               " 　　韧性+110 回避+95 速度+95\n",
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -56539,31 +56526,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 3,
-		"iconf": "rfasion-female3-cloth.png",
-		"iconm": "rfasion-male3-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"iconf": "rfasion-female3-foot.png",
+		"iconm": "rfasion-male3-foot.png",
+		"recipePrize": 209
 	},
 	{
 		"classId": 1583,
 		"suitId": 4,
 		"label": "礼仪头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+90 攻击+5 暴击+15 \n" +
 		               "2件：生命+290 攻击+20 暴击+65\n" +
-		               "     韧性+5\n" +
+		               " 　　韧性+5\n" +
 		               "3件：生命+1090 攻击+65 暴击+205\n" +
-		               "     韧性+30 回避+25 速度+25\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
 		               "4件：生命+2290 攻击+135 暴击+425\n" +
-		               "     韧性+110 回避+95 速度+95\n",
+		               " 　　韧性+110 回避+95 速度+95\n",
 		"effectf": [
 			{
 				"part": "helmet",
@@ -56580,30 +56561,24 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female3-helmet.png",
 		"iconm": "rfasion-male3-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1584,
 		"suitId": 3,
 		"label": "和风上衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "洋溢着东方韵味的装扮。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 命中+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     韧性+10 命中+65 速度+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
 		               "3件：生命+810 攻击+70 暴击+85\n" +
-		               "     韧性+85 命中+205 速度+35\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
 		               "4件：生命+1710 攻击+140 暴击+215\n" +
-		               "     韧性+215 命中+455 速度+115\n",
+		               " 　　韧性+215 命中+455 速度+115\n",
 		"effectf": [
 			{
 				"part": "chest",
@@ -56618,31 +56593,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 3,
-		"iconf": "rfasion-female4-cloth.png",
-		"iconm": "rfasion-male4-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"iconf": "rfasion-female4-chest.png",
+		"iconm": "rfasion-male4-chest.png",
+		"recipePrize": 209
 	},
 	{
 		"classId": 1585,
 		"suitId": 3,
 		"label": "和风护手",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "洋溢着东方韵味的装扮。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 命中+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     韧性+10 命中+65 速度+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
 		               "3件：生命+810 攻击+70 暴击+85\n" +
-		               "     韧性+85 命中+205 速度+35\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
 		               "4件：生命+1710 攻击+140 暴击+215\n" +
-		               "     韧性+215 命中+455 速度+115\n",
+		               " 　　韧性+215 命中+455 速度+115\n",
 		"effectf": [
 			{
 				"part": "righthand",
@@ -56665,31 +56634,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 3,
-		"iconf": "rfasion-female4-cloth.png",
-		"iconm": "rfasion-male4-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"iconf": "rfasion-female4-hand.png",
+		"iconm": "rfasion-male4-hand.png",
+		"recipePrize": 209
 	},
 	{
 		"classId": 1586,
 		"suitId": 3,
 		"label": "和风护腿",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "洋溢着东方韵味的装扮。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 命中+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     韧性+10 命中+65 速度+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
 		               "3件：生命+810 攻击+70 暴击+85\n" +
-		               "     韧性+85 命中+205 速度+35\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
 		               "4件：生命+1710 攻击+140 暴击+215\n" +
-		               "     韧性+215 命中+455 速度+115\n",
+		               " 　　韧性+215 命中+455 速度+115\n",
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -56712,31 +56675,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 3,
-		"iconf": "rfasion-female4-cloth.png",
-		"iconm": "rfasion-male4-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"iconf": "rfasion-female4-foot.png",
+		"iconm": "rfasion-male4-foot.png",
+		"recipePrize": 209
 	},
 	{
 		"classId": 1587,
 		"suitId": 3,
 		"label": "和风头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "洋溢着东方韵味的装扮。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 命中+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     韧性+10 命中+65 速度+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
 		               "3件：生命+810 攻击+70 暴击+85\n" +
-		               "     韧性+85 命中+205 速度+35\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
 		               "4件：生命+1710 攻击+140 暴击+215\n" +
-		               "     韧性+215 命中+455 速度+115\n",
+		               " 　　韧性+215 命中+455 速度+115\n",
 		"effectf": [
 			{
 				"part": "helmet",
@@ -56753,30 +56710,24 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female4-helmet.png",
 		"iconm": "rfasion-male4-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1588,
 		"suitId": 2,
 		"label": "喵喵衣服",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 速度+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     命中+10 回避+10 速度+65\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
 		               "3件：生命+810 攻击+70 暴击+35\n" +
-		               "     命中+85 回避+85 速度+205\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
 		               "4件：生命+1710 攻击+140 暴击+115\n" +
-		               "     命中+215 回避+215 速度+455\n",
+		               " 　　命中+215 回避+215 速度+455\n",
 		"effectf": [
 			{
 				"part": "chest",
@@ -56791,31 +56742,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 3,
-		"iconf": "rfasion-female5-cloth.png",
-		"iconm": "rfasion-male5-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"iconf": "rfasion-female5-chest.png",
+		"iconm": "rfasion-male5-chest.png",
+		"recipePrize": 209
 	},
 	{
 		"classId": 1589,
 		"suitId": 2,
 		"label": "喵喵爪子",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 速度+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     命中+10 回避+10 速度+65\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
 		               "3件：生命+810 攻击+70 暴击+35\n" +
-		               "     命中+85 回避+85 速度+205\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
 		               "4件：生命+1710 攻击+140 暴击+115\n" +
-		               "     命中+215 回避+215 速度+455\n",
+		               " 　　命中+215 回避+215 速度+455\n",
 		"effectf": [
 			{
 				"part": "righthand",
@@ -56838,31 +56783,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 3,
-		"iconf": "rfasion-female5-cloth.png",
-		"iconm": "rfasion-male5-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"iconf": "rfasion-female5-hand.png",
+		"iconm": "rfasion-male5-hand.png",
+		"recipePrize": 209
 	},
 	{
 		"classId": 1590,
 		"suitId": 2,
 		"label": "喵喵护腿",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 速度+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     命中+10 回避+10 速度+65\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
 		               "3件：生命+810 攻击+70 暴击+35\n" +
-		               "     命中+85 回避+85 速度+205\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
 		               "4件：生命+1710 攻击+140 暴击+115\n" +
-		               "     命中+215 回避+215 速度+455\n",
+		               " 　　命中+215 回避+215 速度+455\n",
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -56885,31 +56824,25 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"quality": 3,
-		"iconf": "rfasion-female5-cloth.png",
-		"iconm": "rfasion-male5-cloth.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"iconf": "rfasion-female5-foot.png",
+		"iconm": "rfasion-male5-foot.png",
+		"recipePrize": 209
 	},
 	{
 		"classId": 1591,
 		"suitId": 2,
 		"label": "喵喵耳朵",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+60 攻击+10 速度+15\n" +
 		               "2件：生命+210 攻击+25 暴击+10\n" +
-		               "     命中+10 回避+10 速度+65\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
 		               "3件：生命+810 攻击+70 暴击+35\n" +
-		               "     命中+85 回避+85 速度+205\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
 		               "4件：生命+1710 攻击+140 暴击+115\n" +
-		               "     命中+215 回避+215 速度+455\n",
+		               " 　　命中+215 回避+215 速度+455\n",
 		"effectf": [
 			{
 				"part": "helmet",
@@ -56926,19 +56859,13 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female5-helmet.png",
 		"iconm": "rfasion-male5-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1592,
 		"suitId": 5,
 		"label": "护理大衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
@@ -56946,9 +56873,9 @@ exports.data = [
 		               "1件：生命+200 攻击+5 命中+10\n" +
 		               "2件：生命+700 攻击+20 命中+40\n" +
 		               "3件：生命+1620 攻击+50 暴击+40\n" +
-		               "     命中+170 回避+40 速度+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
 		               "4件：生命+3120 攻击+150 暴击+110\n" +
-		               "     命中+410 回避+110 速度+110\n",
+		               " 　　命中+410 回避+110 速度+110\n",
 		"effectf": [
 			{
 				"part": "chest",
@@ -56965,28 +56892,22 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female6-chest.png",
 		"iconm": "rfasion-male6-chest.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1593,
 		"suitId": 5,
 		"label": "护理手套",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+200 攻击+5 命中+10\n" +
 		               "2件：生命+700 攻击+20 命中+40\n" +
 		               "3件：生命+1620 攻击+50 暴击+40\n" +
-		               "     命中+170 回避+40 速度+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
 		               "4件：生命+3120 攻击+150 暴击+110\n" +
-		               "     命中+410 回避+110 速度+110\n",
+		               " 　　命中+410 回避+110 速度+110\n",
 		"effectf": [
 			{
 				"part": "righthand",
@@ -57011,28 +56932,22 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female6-hand.png",
 		"iconm": "rfasion-male6-hand.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1594,
 		"suitId": 5,
 		"label": "护理鞋具",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+200 攻击+5 命中+10\n" +
 		               "2件：生命+700 攻击+20 命中+40\n" +
 		               "3件：生命+1620 攻击+50 暴击+40\n" +
-		               "     命中+170 回避+40 速度+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
 		               "4件：生命+3120 攻击+150 暴击+110\n" +
-		               "     命中+410 回避+110 速度+110\n",
+		               " 　　命中+410 回避+110 速度+110\n",
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -57057,28 +56972,22 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female6-foot.png",
 		"iconm": "rfasion-male6-foot.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1595,
 		"suitId": 5,
 		"label": "护理头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+200 攻击+5 命中+10\n" +
 		               "2件：生命+700 攻击+20 命中+40\n" +
 		               "3件：生命+1620 攻击+50 暴击+40\n" +
-		               "     命中+170 回避+40 速度+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
 		               "4件：生命+3120 攻击+150 暴击+110\n" +
-		               "     命中+410 回避+110 速度+110\n",
+		               " 　　命中+410 回避+110 速度+110\n",
 		"effectf": [
 			{
 				"part": "helmet",
@@ -57095,30 +57004,24 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female6-helmet.png",
 		"iconm": "rfasion-male6-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1596,
 		"suitId": 6,
 		"label": "刺客服",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+10 暴击+45\n" +
 		               "2件：生命+400 攻击+30 暴击+120\n" +
-		               "     速度+40\n" +
+		               " 　　速度+40\n" +
 		               "3件：生命+800 攻击+90 暴击+300\n" +
-		               "     命中+60 回避+60 速度+160\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
 		               "4件：生命+140 攻击+220 暴击+620\n" +
-		               "     命中+210 回避+210 速度+350\n",
+		               " 　　命中+210 回避+210 速度+350\n",
 		"effectf": [
 			{
 				"part": "chest",
@@ -57135,29 +57038,23 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female7-chest.png",
 		"iconm": "rfasion-male7-chest.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1597,
 		"suitId": 6,
 		"label": "刺客护手",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+10 暴击+45\n" +
 		               "2件：生命+400 攻击+30 暴击+120\n" +
-		               "     速度+40\n" +
+		               " 　　速度+40\n" +
 		               "3件：生命+800 攻击+90 暴击+300\n" +
-		               "     命中+60 回避+60 速度+160\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
 		               "4件：生命+140 攻击+220 暴击+620\n" +
-		               "     命中+210 回避+210 速度+350\n",
+		               " 　　命中+210 回避+210 速度+350\n",
 		"effectf": [
 			{
 				"part": "righthand",
@@ -57182,29 +57079,23 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female7-hand.png",
 		"iconm": "rfasion-male7-hand.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1598,
 		"suitId": 6,
 		"label": "刺客鞋",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+10 暴击+45\n" +
 		               "2件：生命+400 攻击+30 暴击+120\n" +
-		               "     速度+40\n" +
+		               " 　　速度+40\n" +
 		               "3件：生命+800 攻击+90 暴击+300\n" +
-		               "     命中+60 回避+60 速度+160\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
 		               "4件：生命+140 攻击+220 暴击+620\n" +
-		               "     命中+210 回避+210 速度+350\n",
+		               " 　　命中+210 回避+210 速度+350\n",
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -57229,29 +57120,23 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female7-foot.png",
 		"iconm": "rfasion-male7-foot.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1599,
 		"suitId": 6,
 		"label": "刺客面罩",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+10 暴击+45\n" +
 		               "2件：生命+400 攻击+30 暴击+120\n" +
-		               "     速度+40\n" +
+		               " 　　速度+40\n" +
 		               "3件：生命+800 攻击+90 暴击+300\n" +
-		               "     命中+60 回避+60 速度+160\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
 		               "4件：生命+140 攻击+220 暴击+620\n" +
-		               "     命中+210 回避+210 速度+350\n",
+		               " 　　命中+210 回避+210 速度+350\n",
 		"effectf": [
 			{
 				"part": "helmet",
@@ -57268,30 +57153,24 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female7-helmet.png",
 		"iconm": "rfasion-male7-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1600,
 		"suitId": 7,
 		"label": "军官大衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+20 暴击+15\n" +
 		               "2件：生命+400 攻击+60 暴击+55\n" +
-		               "     韧性+15\n" +
+		               " 　　韧性+15\n" +
 		               "3件：生命+100 攻击+180 暴击+175\n" +
-		               "     韧性+35\n" +
+		               " 　　韧性+35\n" +
 		               "4件：生命+1800 攻击+400 暴击+415\n" +
-		               "     韧性+165 命中+70\n",
+		               " 　　韧性+165 命中+70\n",
 		"effectf": [
 			{
 				"part": "chest",
@@ -57308,29 +57187,23 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female8-chest.png",
 		"iconm": "rfasion-male8-chest.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1601,
 		"suitId": 7,
 		"label": "军官手套",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+20 暴击+15\n" +
 		               "2件：生命+400 攻击+60 暴击+55\n" +
-		               "     韧性+15\n" +
+		               " 　　韧性+15\n" +
 		               "3件：生命+100 攻击+180 暴击+175\n" +
-		               "     韧性+35\n" +
+		               " 　　韧性+35\n" +
 		               "4件：生命+1800 攻击+400 暴击+415\n" +
-		               "     韧性+165 命中+70\n",
+		               " 　　韧性+165 命中+70\n",
 		"effectf": [
 			{
 				"part": "righthand",
@@ -57355,29 +57228,23 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female8-hand.png",
 		"iconm": "rfasion-male8-hand.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1602,
 		"suitId": 7,
 		"label": "军官长靴",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+20 暴击+15\n" +
 		               "2件：生命+400 攻击+60 暴击+55\n" +
-		               "     韧性+15\n" +
+		               " 　　韧性+15\n" +
 		               "3件：生命+100 攻击+180 暴击+175\n" +
-		               "     韧性+35\n" +
+		               " 　　韧性+35\n" +
 		               "4件：生命+1800 攻击+400 暴击+415\n" +
-		               "     韧性+165 命中+70\n",
+		               " 　　韧性+165 命中+70\n",
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -57402,29 +57269,23 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female8-foot.png",
 		"iconm": "rfasion-male8-foot.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1603,
 		"suitId": 7,
 		"label": "军官帽",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+20 暴击+15\n" +
 		               "2件：生命+400 攻击+60 暴击+55\n" +
-		               "     韧性+15\n" +
+		               " 　　韧性+15\n" +
 		               "3件：生命+100 攻击+180 暴击+175\n" +
-		               "     韧性+35\n" +
+		               " 　　韧性+35\n" +
 		               "4件：生命+1800 攻击+400 暴击+415\n" +
-		               "     韧性+165 命中+70\n",
+		               " 　　韧性+165 命中+70\n",
 		"effectf": [
 			{
 				"part": "helmet",
@@ -57441,19 +57302,13 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female8-helmet.png",
 		"iconm": "rfasion-male8-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1604,
 		"suitId": 8,
 		"label": "勇者铠甲",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
@@ -57461,9 +57316,9 @@ exports.data = [
 		               "1件：生命+250\n" +
 		               "2件：生命+800 攻击+10 韧性+20\n" +
 		               "3件：生命+2000 攻击+30 韧性+130\n" +
-		               "     命中+30\n" +
+		               " 　　命中+30\n" +
 		               "4件：生命+4000 攻击+105 韧性+355\n" +
-		               "     命中+80\n",
+		               " 　　命中+80\n",
 		"effectf": [
 			{
 				"part": "chest",
@@ -57480,28 +57335,22 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female9-chest.png",
 		"iconm": "rfasion-male9-chest.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1605,
 		"suitId": 8,
 		"label": "勇者手甲",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+250\n" +
 		               "2件：生命+800 攻击+10 韧性+20\n" +
 		               "3件：生命+2000 攻击+30 韧性+130\n" +
-		               "     命中+30\n" +
+		               " 　　命中+30\n" +
 		               "4件：生命+4000 攻击+105 韧性+355\n" +
-		               "     命中+80\n",
+		               " 　　命中+80\n",
 		"effectf": [
 			{
 				"part": "righthand",
@@ -57526,28 +57375,22 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female9-hand.png",
 		"iconm": "rfasion-male9-hand.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1606,
 		"suitId": 8,
 		"label": "勇者腿甲",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+250\n" +
 		               "2件：生命+800 攻击+10 韧性+20\n" +
 		               "3件：生命+2000 攻击+30 韧性+130\n" +
-		               "     命中+30\n" +
+		               " 　　命中+30\n" +
 		               "4件：生命+4000 攻击+105 韧性+355\n" +
-		               "     命中+80\n",
+		               " 　　命中+80\n",
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -57572,28 +57415,22 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female9-foot.png",
 		"iconm": "rfasion-male9-foot.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1607,
 		"suitId": 8,
 		"label": "勇者头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+250\n" +
 		               "2件：生命+800 攻击+10 韧性+20\n" +
 		               "3件：生命+2000 攻击+30 韧性+130\n" +
-		               "     命中+30\n" +
+		               " 　　命中+30\n" +
 		               "4件：生命+4000 攻击+105 韧性+355\n" +
-		               "     命中+80\n",
+		               " 　　命中+80\n",
 		"effectf": [
 			{
 				"part": "helmet",
@@ -57610,31 +57447,25 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female9-helmet.png",
 		"iconm": "rfasion-male9-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1608,
 		"suitId": 9,
 		"label": "忍者上衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+5 回避+30\n" +
-		               "     速度+30\n" +
+		               " 　　速度+30\n" +
 		               "2件：生命+400 攻击+20 回避+95\n" +
-		               "     速度+95\n" +
+		               " 　　速度+95\n" +
 		               "3件：生命+800 攻击+75 暴击+40\n" +
-		               "     命中+35 回避+275 速度+275\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
 		               "4件：生命+140 攻击+175 暴击+190\n" +
-		               "     命中+145 回避+595 速度+595\n",
+		               " 　　命中+145 回避+595 速度+595\n",
 		"effectf": [
 			{
 				"part": "chest",
@@ -57651,30 +57482,24 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female10-chest.png",
 		"iconm": "rfasion-male10-chest.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1609,
 		"suitId": 9,
 		"label": "忍者护手",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+5 回避+30\n" +
-		               "     速度+30\n" +
+		               " 　　速度+30\n" +
 		               "2件：生命+400 攻击+20 回避+95\n" +
-		               "     速度+95\n" +
+		               " 　　速度+95\n" +
 		               "3件：生命+800 攻击+75 暴击+40\n" +
-		               "     命中+35 回避+275 速度+275\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
 		               "4件：生命+140 攻击+175 暴击+190\n" +
-		               "     命中+145 回避+595 速度+595\n",
+		               " 　　命中+145 回避+595 速度+595\n",
 		"effectf": [
 			{
 				"part": "righthand",
@@ -57699,30 +57524,24 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female10-hand.png",
 		"iconm": "rfasion-male10-hand.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1610,
 		"suitId": 9,
 		"label": "忍者裹足",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+5 回避+30\n" +
-		               "     速度+30\n" +
+		               " 　　速度+30\n" +
 		               "2件：生命+400 攻击+20 回避+95\n" +
-		               "     速度+95\n" +
+		               " 　　速度+95\n" +
 		               "3件：生命+800 攻击+75 暴击+40\n" +
-		               "     命中+35 回避+275 速度+275\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
 		               "4件：生命+140 攻击+175 暴击+190\n" +
-		               "     命中+145 回避+595 速度+595\n",
+		               " 　　命中+145 回避+595 速度+595\n",
 		"effectf": [
 			{
 				"part": "leftleg",
@@ -57747,30 +57566,24 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female10-foot.png",
 		"iconm": "rfasion-male10-foot.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1611,
 		"suitId": 9,
 		"label": "忍者头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
 		               "套装属性：\n" +
 		               "1件：生命+100 攻击+5 回避+30\n" +
-		               "     速度+30\n" +
+		               " 　　速度+30\n" +
 		               "2件：生命+400 攻击+20 回避+95\n" +
-		               "     速度+95\n" +
+		               " 　　速度+95\n" +
 		               "3件：生命+800 攻击+75 暴击+40\n" +
-		               "     命中+35 回避+275 速度+275\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
 		               "4件：生命+140 攻击+175 暴击+190\n" +
-		               "     命中+145 回避+595 速度+595\n",
+		               " 　　命中+145 回避+595 速度+595\n",
 		"effectf": [
 			{
 				"part": "helmet",
@@ -57787,13 +57600,7 @@ exports.data = [
 		"quality": 3,
 		"iconf": "rfasion-female10-helmet.png",
 		"iconm": "rfasion-male10-helmet.png",
-		"recipePrize": [
-			{
-				"type": 0,
-				"value": 5,
-				"count": 1
-			}
-		]
+		"recipePrize": 209
 	},
 	{
 		"classId": 1612,

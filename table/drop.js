@@ -8235,6 +8235,7 @@ exports.data = [
 			"rate": 1,
 			"prize": [
 				{
+					"weight": 10,
 					"type": 0,
 					"value": 5,
 					"count": 3
@@ -8247,6 +8248,7 @@ exports.data = [
 			"rate": 1,
 			"prize": [
 				{
+					"weight": 10,
 					"type": 0,
 					"value": 5,
 					"count": 2
@@ -8259,6 +8261,7 @@ exports.data = [
 			"rate": 1,
 			"prize": [
 				{
+					"weight": 10,
 					"type": 0,
 					"value": 5,
 					"count": 1

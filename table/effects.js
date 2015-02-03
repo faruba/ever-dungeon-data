@@ -435,7 +435,8 @@ exports.data = [
     {
         "effectId": 93,
         "skeleton": "irongunfire1.json",
-        "atlas": "irongunfire1.atlas"
+        "atlas": "irongunfire1.atlas",
+        "sound": "irongunfire.mp3"
     },
     {
         "effectId": 94,
@@ -445,7 +446,8 @@ exports.data = [
     {
         "effectId": 95,
         "skeleton": "ironrayfire1.json",
-        "atlas": "ironrayfire1.atlas"
+        "atlas": "ironrayfire1.atlas",
+        "sound": "ironrayfire.mp3"
     },
     {
         "effectId": 96,
@@ -498,5 +500,15 @@ exports.data = [
         "loop": true,
         "skeleton": "effect-yanjiabuff.json",
         "atlas": "effect-yanjiabuff.atlas"
+    },
+    {
+        "effectId": 106,
+        "skeleton": "effect-guanjia.json",
+        "atlas": "effect-guanjia.atlas"
+    },
+    {
+        "effectId": 107,
+        "skeleton": "effect-guanjiabuff.json",
+        "atlas": "effect-guanjiabuff.atlas"
     }
 ]

@@ -9902,7 +9902,7 @@ exports.data = [
             "keyd":true,
             "counterAttack": true
         },
-        "levelId": 10
+        "levelId": 4
     },
     {
         "classId": 257,
@@ -9929,7 +9929,7 @@ exports.data = [
             "keyd":true,
             "counterAttack": true
         },
-        "levelId": 10
+        "levelId": 5
     },
     {
         "classId": 258,
@@ -9956,7 +9956,7 @@ exports.data = [
             "keyd":true,
             "counterAttack": true
         },
-        "levelId": 10
+        "levelId": 6
     },   {
         "classId": 259,
         "className": "狂战士(队友)",
