@@ -53145,7 +53145,7 @@ exports.data = [
     {
         "classId": 1477,
         "label": "X头盔",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "suitId": 1,
         "description": "由神秘合金配合顶尖黑科技打造而成的套装，拥有难以置信的力量。\n" +
@@ -53193,7 +53193,7 @@ exports.data = [
     {
         "classId": 1479,
         "label": "X胸甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
 		"hideSlot": [2],
         "suitId": 1,
@@ -53258,7 +53258,7 @@ exports.data = [
     {
         "classId": 1481,
         "label": "X手甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "suitId": 1,
         "description": "由神秘合金配合顶尖黑科技打造而成的套装，拥有难以置信的力量。\n" +
@@ -53314,7 +53314,7 @@ exports.data = [
     {
         "classId": 1483,
         "label": "X腿甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "suitId": 1,
         "description": "由神秘合金配合顶尖黑科技打造而成的套装，拥有难以置信的力量。\n" +
@@ -54293,7 +54293,7 @@ exports.data = [
 	{
 		"classId": 1516,
 		"label": "礼仪上衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "表示出礼仪的装扮，给人以安心的感觉。",
@@ -54318,7 +54318,7 @@ exports.data = [
 	{
 		"classId": 1517,
 		"label": "礼仪手套",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。",
 		"recipePrize": 210,
@@ -54350,7 +54350,7 @@ exports.data = [
 	{
 		"classId": 1518,
 		"label": "礼仪鞋",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
 		"recipePrize": 210,
@@ -54382,7 +54382,7 @@ exports.data = [
 	{
 		"classId": 1519,
 		"label": "礼仪头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。",
 		"recipePrize": 210,
@@ -54406,7 +54406,7 @@ exports.data = [
 	{
 		"classId": 1520,
 		"label": "和风上衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "洋溢着东方韵味的装扮。",
@@ -54431,7 +54431,7 @@ exports.data = [
 	{
 		"classId": 1521,
 		"label": "和风护手",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "洋溢着东方韵味的装扮。",
 		"recipePrize": 210,
@@ -54463,7 +54463,7 @@ exports.data = [
 	{
 		"classId": 1522,
 		"label": "和风护腿",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "洋溢着东方韵味的装扮。",
 		"recipePrize": 210,
@@ -54495,7 +54495,7 @@ exports.data = [
 	{
 		"classId": 1523,
 		"label": "和风头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "洋溢着东方韵味的装扮。",
 		"recipePrize": 210,
@@ -54519,7 +54519,7 @@ exports.data = [
 	{
 		"classId": 1524,
 		"label": "喵喵衣服",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
@@ -54544,7 +54544,7 @@ exports.data = [
 	{
 		"classId": 1525,
 		"label": "喵喵爪子",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
 		"recipePrize": 210,
@@ -54576,7 +54576,7 @@ exports.data = [
 	{
 		"classId": 1526,
 		"label": "喵喵护腿",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
 		"recipePrize": 210,
@@ -54608,7 +54608,7 @@ exports.data = [
 	{
 		"classId": 1527,
 		"label": "喵喵耳朵",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
 		"recipePrize": 210,
@@ -54632,7 +54632,7 @@ exports.data = [
 	{
 		"classId": 1528,
 		"label": "护理大衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "医护人员穿戴的装扮，象征着白衣天使。",
@@ -54657,7 +54657,7 @@ exports.data = [
 	{
 		"classId": 1529,
 		"label": "护理手套",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。",
 		"recipePrize": 210,
@@ -54689,7 +54689,7 @@ exports.data = [
 	{
 		"classId": 1530,
 		"label": "护理鞋具",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。",
 		"recipePrize": 210,
@@ -54721,7 +54721,7 @@ exports.data = [
 	{
 		"classId": 1531,
 		"label": "护理头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。",
 		"recipePrize": 210,
@@ -54745,7 +54745,7 @@ exports.data = [
 	{
 		"classId": 1532,
 		"label": "刺客服",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
@@ -54770,7 +54770,7 @@ exports.data = [
 	{
 		"classId": 1533,
 		"label": "刺客护手",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
 		"recipePrize": 210,
@@ -54802,7 +54802,7 @@ exports.data = [
 	{
 		"classId": 1534,
 		"label": "刺客鞋",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
 		"recipePrize": 210,
@@ -54834,7 +54834,7 @@ exports.data = [
 	{
 		"classId": 1535,
 		"label": "刺客面罩",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
 		"recipePrize": 210,
@@ -54858,7 +54858,7 @@ exports.data = [
 	{
 		"classId": 1536,
 		"label": "军官大衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
@@ -54883,7 +54883,7 @@ exports.data = [
 	{
 		"classId": 1537,
 		"label": "军官手套",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
 		"recipePrize": 210,
@@ -54915,7 +54915,7 @@ exports.data = [
 	{
 		"classId": 1538,
 		"label": "军官长靴",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
 		"recipePrize": 210,
@@ -54947,7 +54947,7 @@ exports.data = [
 	{
 		"classId": 1539,
 		"label": "军官帽",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
 		"recipePrize": 210,
@@ -54971,7 +54971,7 @@ exports.data = [
 	{
 		"classId": 1540,
 		"label": "勇者铠甲",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
@@ -54996,7 +54996,7 @@ exports.data = [
 	{
 		"classId": 1541,
 		"label": "勇者手甲",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
 		"recipePrize": 210,
@@ -55028,7 +55028,7 @@ exports.data = [
 	{
 		"classId": 1542,
 		"label": "勇者腿甲",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
 		"recipePrize": 210,
@@ -55060,7 +55060,7 @@ exports.data = [
 	{
 		"classId": 1543,
 		"label": "勇者头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
 		"recipePrize": 210,
@@ -55084,7 +55084,7 @@ exports.data = [
 	{
 		"classId": 1544,
 		"label": "忍者上衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
@@ -55109,7 +55109,7 @@ exports.data = [
 	{
 		"classId": 1545,
 		"label": "忍者护手",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
 		"recipePrize": 210,
@@ -55141,7 +55141,7 @@ exports.data = [
 	{
 		"classId": 1546,
 		"label": "忍者裹足",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
 		"recipePrize": 210,
@@ -55173,7 +55173,7 @@ exports.data = [
 	{
 		"classId": 1547,
 		"label": "忍者头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
 		"recipePrize": 210,
@@ -55198,7 +55198,7 @@ exports.data = [
 		"classId": 1548,
 		"suitId": 4,
 		"label": "礼仪上衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
@@ -55233,7 +55233,7 @@ exports.data = [
 		"classId": 1549,
 		"suitId": 4,
 		"label": "礼仪手套",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
 		               "套装属性：\n" +
@@ -55275,7 +55275,7 @@ exports.data = [
 		"classId": 1550,
 		"suitId": 4,
 		"label": "礼仪鞋",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
 		               "套装属性：\n" +
@@ -55317,7 +55317,7 @@ exports.data = [
 		"classId": 1551,
 		"suitId": 4,
 		"label": "礼仪头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
 		               "套装属性：\n" +
@@ -55351,7 +55351,7 @@ exports.data = [
 		"classId": 1552,
 		"suitId": 3,
 		"label": "和风上衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "洋溢着东方韵味的装扮。\n" +
@@ -55386,7 +55386,7 @@ exports.data = [
 		"classId": 1553,
 		"suitId": 3,
 		"label": "和风护手",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "洋溢着东方韵味的装扮。\n" +
 		               "套装属性：\n" +
@@ -55428,7 +55428,7 @@ exports.data = [
 		"classId": 1554,
 		"suitId": 3,
 		"label": "和风护腿",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "洋溢着东方韵味的装扮。\n" +
 		               "套装属性：\n" +
@@ -55470,7 +55470,7 @@ exports.data = [
 		"classId": 1555,
 		"suitId": 3,
 		"label": "和风头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "洋溢着东方韵味的装扮。\n" +
 		               "套装属性：\n" +
@@ -55504,7 +55504,7 @@ exports.data = [
 		"classId": 1556,
 		"suitId": 2,
 		"label": "喵喵衣服",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
@@ -55539,7 +55539,7 @@ exports.data = [
 		"classId": 1557,
 		"suitId": 2,
 		"label": "喵喵爪子",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
 		               "套装属性：\n" +
@@ -55581,7 +55581,7 @@ exports.data = [
 		"classId": 1558,
 		"suitId": 2,
 		"label": "喵喵护腿",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
 		               "套装属性：\n" +
@@ -55623,7 +55623,7 @@ exports.data = [
 		"classId": 1559,
 		"suitId": 2,
 		"label": "喵喵耳朵",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
 		               "套装属性：\n" +
@@ -55657,7 +55657,7 @@ exports.data = [
 		"classId": 1560,
 		"suitId": 5,
 		"label": "护理大衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
@@ -55691,7 +55691,7 @@ exports.data = [
 		"classId": 1561,
 		"suitId": 5,
 		"label": "护理手套",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
 		               "套装属性：\n" +
@@ -55732,7 +55732,7 @@ exports.data = [
 		"classId": 1562,
 		"suitId": 5,
 		"label": "护理鞋具",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
 		               "套装属性：\n" +
@@ -55773,7 +55773,7 @@ exports.data = [
 		"classId": 1563,
 		"suitId": 5,
 		"label": "护理头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
 		               "套装属性：\n" +
@@ -55806,7 +55806,7 @@ exports.data = [
 		"classId": 1564,
 		"suitId": 6,
 		"label": "刺客服",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
@@ -55841,7 +55841,7 @@ exports.data = [
 		"classId": 1565,
 		"suitId": 6,
 		"label": "刺客护手",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
 		               "套装属性：\n" +
@@ -55883,7 +55883,7 @@ exports.data = [
 		"classId": 1566,
 		"suitId": 6,
 		"label": "刺客鞋",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
 		               "套装属性：\n" +
@@ -55925,7 +55925,7 @@ exports.data = [
 		"classId": 1567,
 		"suitId": 6,
 		"label": "刺客面罩",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
 		               "套装属性：\n" +
@@ -55959,7 +55959,7 @@ exports.data = [
 		"classId": 1568,
 		"suitId": 7,
 		"label": "军官大衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
@@ -55994,7 +55994,7 @@ exports.data = [
 		"classId": 1569,
 		"suitId": 7,
 		"label": "军官手套",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
 		               "套装属性：\n" +
@@ -56036,7 +56036,7 @@ exports.data = [
 		"classId": 1570,
 		"suitId": 7,
 		"label": "军官长靴",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
 		               "套装属性：\n" +
@@ -56078,7 +56078,7 @@ exports.data = [
 		"classId": 1571,
 		"suitId": 7,
 		"label": "军官帽",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
 		               "套装属性：\n" +
@@ -56112,7 +56112,7 @@ exports.data = [
 		"classId": 1572,
 		"suitId": 8,
 		"label": "勇者铠甲",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
@@ -56146,7 +56146,7 @@ exports.data = [
 		"classId": 1573,
 		"suitId": 8,
 		"label": "勇者手甲",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
 		               "套装属性：\n" +
@@ -56187,7 +56187,7 @@ exports.data = [
 		"classId": 1574,
 		"suitId": 8,
 		"label": "勇者腿甲",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
 		               "套装属性：\n" +
@@ -56228,7 +56228,7 @@ exports.data = [
 		"classId": 1575,
 		"suitId": 8,
 		"label": "勇者头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
 		               "套装属性：\n" +
@@ -56261,7 +56261,7 @@ exports.data = [
 		"classId": 1576,
 		"suitId": 9,
 		"label": "忍者上衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
@@ -56297,7 +56297,7 @@ exports.data = [
 		"classId": 1577,
 		"suitId": 9,
 		"label": "忍者护手",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
 		               "套装属性：\n" +
@@ -56340,7 +56340,7 @@ exports.data = [
 		"classId": 1578,
 		"suitId": 9,
 		"label": "忍者裹足",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
 		               "套装属性：\n" +
@@ -56383,7 +56383,7 @@ exports.data = [
 		"classId": 1579,
 		"suitId": 9,
 		"label": "忍者头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
 		               "套装属性：\n" +
@@ -56418,7 +56418,7 @@ exports.data = [
 		"classId": 1580,
 		"suitId": 4,
 		"label": "礼仪上衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
@@ -56452,7 +56452,7 @@ exports.data = [
 		"classId": 1581,
 		"suitId": 4,
 		"label": "礼仪手套",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
 		               "套装属性：\n" +
@@ -56493,7 +56493,7 @@ exports.data = [
 		"classId": 1582,
 		"suitId": 4,
 		"label": "礼仪鞋",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
 		               "套装属性：\n" +
@@ -56534,7 +56534,7 @@ exports.data = [
 		"classId": 1583,
 		"suitId": 4,
 		"label": "礼仪头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
 		               "套装属性：\n" +
@@ -56567,7 +56567,7 @@ exports.data = [
 		"classId": 1584,
 		"suitId": 3,
 		"label": "和风上衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "洋溢着东方韵味的装扮。\n" +
@@ -56601,7 +56601,7 @@ exports.data = [
 		"classId": 1585,
 		"suitId": 3,
 		"label": "和风护手",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "洋溢着东方韵味的装扮。\n" +
 		               "套装属性：\n" +
@@ -56642,7 +56642,7 @@ exports.data = [
 		"classId": 1586,
 		"suitId": 3,
 		"label": "和风护腿",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "洋溢着东方韵味的装扮。\n" +
 		               "套装属性：\n" +
@@ -56683,7 +56683,7 @@ exports.data = [
 		"classId": 1587,
 		"suitId": 3,
 		"label": "和风头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "洋溢着东方韵味的装扮。\n" +
 		               "套装属性：\n" +
@@ -56716,7 +56716,7 @@ exports.data = [
 		"classId": 1588,
 		"suitId": 2,
 		"label": "喵喵衣服",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
@@ -56750,7 +56750,7 @@ exports.data = [
 		"classId": 1589,
 		"suitId": 2,
 		"label": "喵喵爪子",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
 		               "套装属性：\n" +
@@ -56791,7 +56791,7 @@ exports.data = [
 		"classId": 1590,
 		"suitId": 2,
 		"label": "喵喵护腿",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
 		               "套装属性：\n" +
@@ -56832,7 +56832,7 @@ exports.data = [
 		"classId": 1591,
 		"suitId": 2,
 		"label": "喵喵耳朵",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
 		               "套装属性：\n" +
@@ -56865,7 +56865,7 @@ exports.data = [
 		"classId": 1592,
 		"suitId": 5,
 		"label": "护理大衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
@@ -56898,7 +56898,7 @@ exports.data = [
 		"classId": 1593,
 		"suitId": 5,
 		"label": "护理手套",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
 		               "套装属性：\n" +
@@ -56938,7 +56938,7 @@ exports.data = [
 		"classId": 1594,
 		"suitId": 5,
 		"label": "护理鞋具",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
 		               "套装属性：\n" +
@@ -56978,7 +56978,7 @@ exports.data = [
 		"classId": 1595,
 		"suitId": 5,
 		"label": "护理头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
 		               "套装属性：\n" +
@@ -57010,7 +57010,7 @@ exports.data = [
 		"classId": 1596,
 		"suitId": 6,
 		"label": "刺客服",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
@@ -57044,7 +57044,7 @@ exports.data = [
 		"classId": 1597,
 		"suitId": 6,
 		"label": "刺客护手",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
 		               "套装属性：\n" +
@@ -57085,7 +57085,7 @@ exports.data = [
 		"classId": 1598,
 		"suitId": 6,
 		"label": "刺客鞋",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
 		               "套装属性：\n" +
@@ -57126,7 +57126,7 @@ exports.data = [
 		"classId": 1599,
 		"suitId": 6,
 		"label": "刺客面罩",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
 		               "套装属性：\n" +
@@ -57159,7 +57159,7 @@ exports.data = [
 		"classId": 1600,
 		"suitId": 7,
 		"label": "军官大衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
@@ -57193,7 +57193,7 @@ exports.data = [
 		"classId": 1601,
 		"suitId": 7,
 		"label": "军官手套",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
 		               "套装属性：\n" +
@@ -57234,7 +57234,7 @@ exports.data = [
 		"classId": 1602,
 		"suitId": 7,
 		"label": "军官长靴",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
 		               "套装属性：\n" +
@@ -57275,7 +57275,7 @@ exports.data = [
 		"classId": 1603,
 		"suitId": 7,
 		"label": "军官帽",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
 		               "套装属性：\n" +
@@ -57308,7 +57308,7 @@ exports.data = [
 		"classId": 1604,
 		"suitId": 8,
 		"label": "勇者铠甲",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
@@ -57341,7 +57341,7 @@ exports.data = [
 		"classId": 1605,
 		"suitId": 8,
 		"label": "勇者手甲",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
 		               "套装属性：\n" +
@@ -57381,7 +57381,7 @@ exports.data = [
 		"classId": 1606,
 		"suitId": 8,
 		"label": "勇者腿甲",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
 		               "套装属性：\n" +
@@ -57421,7 +57421,7 @@ exports.data = [
 		"classId": 1607,
 		"suitId": 8,
 		"label": "勇者头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
 		               "套装属性：\n" +
@@ -57453,7 +57453,7 @@ exports.data = [
 		"classId": 1608,
 		"suitId": 9,
 		"label": "忍者上衣",
-		"category": 3,
+		"category": 1,
 		"subcategory": 12,
 		"hideSlot": [2],
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
@@ -57488,7 +57488,7 @@ exports.data = [
 		"classId": 1609,
 		"suitId": 9,
 		"label": "忍者护手",
-		"category": 3,
+		"category": 1,
 		"subcategory": 19,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
 		               "套装属性：\n" +
@@ -57530,7 +57530,7 @@ exports.data = [
 		"classId": 1610,
 		"suitId": 9,
 		"label": "忍者裹足",
-		"category": 3,
+		"category": 1,
 		"subcategory": 20,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
 		               "套装属性：\n" +
@@ -57572,7 +57572,7 @@ exports.data = [
 		"classId": 1611,
 		"suitId": 9,
 		"label": "忍者头饰",
-		"category": 3,
+		"category": 1,
 		"subcategory": 13,
 		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
 		               "套装属性：\n" +
