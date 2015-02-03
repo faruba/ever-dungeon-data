@@ -34,7 +34,8 @@ exports.data = [
         '1':[{type: 'incress_property', property: {health:90,attack:5,critical:15}}],
         '2':[{type: 'incress_property', property: {health:200,attack:15,critical: 50,strong: 5}}],
         '3':[{type: 'incress_property', property: {health:800,attack:45,critical:140,strong:25,reactivity:25,speed:25}}],
-        '4':[{type: 'incress_property', property: {health:1200,attack:70,critical:220,strong:80,reactivity:70,speed:70}}]
+        '4':[{type: 'incress_property', property: {health:1200,attack:70,critical:220,strong:80,reactivity:70,speed:70}},
+             {type: 'install_skill', id: 390, level: 1 }]
     },
     {//5（医院装）
         'suitId': 5,

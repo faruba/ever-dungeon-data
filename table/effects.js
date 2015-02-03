@@ -500,5 +500,15 @@ exports.data = [
         "loop": true,
         "skeleton": "effect-yanjiabuff.json",
         "atlas": "effect-yanjiabuff.atlas"
+    },
+    {
+        "effectId": 106,
+        "skeleton": "effect-guanjia.json",
+        "atlas": "effect-guanjia.atlas"
+    },
+    {
+        "effectId": 107,
+        "skeleton": "effect-guanjiabuff.json",
+        "atlas": "effect-guanjiabuff.atlas"
     }
 ]
