@@ -62,7 +62,7 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "與惡魔簽訂契約得到巨大的力量的羽翼。",
+        "description": "與惡魔簽訂契約得到巨大的力量的羽翼",
         "effecta": [
             {
                 "part": "avatar-wing1",
@@ -96,7 +96,7 @@ exports.data = [
         "icon": "rfasion-glass-icon.png",
         "category": 1,
         "subcategory": 18,
-        "description": "最近在勇者中流行的一种饰品。",
+        "description": "最近在勇者中流行的一種飾品。",
         "effecta": [
             {
                 "part": "glass",
@@ -124,20 +124,14 @@ exports.data = [
     },
     {
         "classId": 5,
-        "label": "迅敏之石",
-        "icon": "stone6.png",
-        "category": 2,
-        "subcategory": 5,
-        "description": "能夠強化速度屬性的寶石",
+        "label": "萬能碎片",
+        "icon": "rfasion-sp.png",
+        "category": 0,
+        "subcategory": 1,
+        "description": "神奇的物品，可以代替高級套裝的碎片",
         "stack": 99,
-        "sellprice": 300,
-        "transPrize": [
-            {
-                "type": 0,
-                "value": 853,
-                "count": 2
-            }
-        ]
+        "sellprice": 500,
+        "quality": 4
     },
     {
         "classId": 6,
@@ -437,7 +431,7 @@ exports.data = [
     },
     {
         "classId": 24,
-        "label": "傳送卷軸",
+        "label": "傳送捲軸",
         "icon": "item-map.png",
         "category": 0,
         "description": "可以傳送到某個地下城中",
@@ -622,7 +616,7 @@ exports.data = [
         "icon": "emchest1.png",
         "category": 1,
         "subcategory": 2,
-        "description": "殘破的法袍，幾乎沒有任何抵禦攻擊的能力",
+        "description": "殘破的法袍，幾乎沒有任何抵御攻擊的能力",
         "transPrize": [
             {
                 "type": 2,
@@ -3328,7 +3322,7 @@ exports.data = [
         "icon": "emmainweapon6.png",
         "category": 1,
         "subcategory": 0,
-        "description": "佈滿歲月痕跡，但積攢了大量魔力的法杖",
+        "description": "布滿歲月痕跡，但積攢了大量魔力的法杖",
         "transPrize": [
             {
                 "type": 2,
@@ -3559,7 +3553,7 @@ exports.data = [
         "icon": "ewfoot6.png",
         "category": 1,
         "subcategory": 4,
-        "description": "沉重的鋼靴，能夠踐踏一切阻擋前進的敵人",
+        "description": "沈重的鋼靴，能夠踐踏一切阻擋前進的敵人",
         "transPrize": [
             {
                 "type": 2,
@@ -3694,7 +3688,7 @@ exports.data = [
         "icon": "ewmainweapon6.png",
         "category": 1,
         "subcategory": 0,
-        "description": "分量相當沉，普通人難以駕馭，但卻擁有巨大的破壞力",
+        "description": "分量相當沈，普通人難以駕馭，但卻擁有巨大的破壞力",
         "transPrize": [
             {
                 "type": 2,
@@ -5979,7 +5973,7 @@ exports.data = [
         "icon": "emmainweapon6.png",
         "category": 1,
         "subcategory": 0,
-        "description": "佈滿歲月痕跡，但積攢了大量魔力的法杖",
+        "description": "布滿歲月痕跡，但積攢了大量魔力的法杖",
         "transPrize": [
             {
                 "type": 2,
@@ -6216,7 +6210,7 @@ exports.data = [
         "icon": "ewfoot6.png",
         "category": 1,
         "subcategory": 4,
-        "description": "沉重的鋼靴，能夠踐踏一切阻擋前進的敵人",
+        "description": "沈重的鋼靴，能夠踐踏一切阻擋前進的敵人",
         "transPrize": [
             {
                 "type": 2,
@@ -6354,7 +6348,7 @@ exports.data = [
         "icon": "ewmainweapon6.png",
         "category": 1,
         "subcategory": 0,
-        "description": "分量相當沉，普通人難以駕馭，但卻擁有巨大的破壞力",
+        "description": "分量相當沈，普通人難以駕馭，但卻擁有巨大的破壞力",
         "transPrize": [
             {
                 "type": 2,
@@ -6869,7 +6863,7 @@ exports.data = [
         "label": "守護戰盾(優質)",
         "category": 1,
         "subcategory": 1,
-        "description": "為守護者配備的戰盾，能夠抵禦各種傷害",
+        "description": "為守護者配備的戰盾，能夠抵御各種傷害",
         "transPrize": [
             {
                 "type": 2,
@@ -8690,7 +8684,7 @@ exports.data = [
         "icon": "emmainweapon6.png",
         "category": 1,
         "subcategory": 0,
-        "description": "佈滿歲月痕跡，但積攢了大量魔力的法杖",
+        "description": "布滿歲月痕跡，但積攢了大量魔力的法杖",
         "transPrize": [
             {
                 "type": 2,
@@ -8926,7 +8920,7 @@ exports.data = [
         "icon": "ewfoot6.png",
         "category": 1,
         "subcategory": 4,
-        "description": "沉重的鋼靴，能夠踐踏一切阻擋前進的敵人",
+        "description": "沈重的鋼靴，能夠踐踏一切阻擋前進的敵人",
         "transPrize": [
             {
                 "type": 2,
@@ -9064,7 +9058,7 @@ exports.data = [
         "icon": "ewmainweapon6.png",
         "category": 1,
         "subcategory": 0,
-        "description": "分量相當沉，普通人難以駕馭，但卻擁有巨大的破壞力",
+        "description": "分量相當沈，普通人難以駕馭，但卻擁有巨大的破壞力",
         "transPrize": [
             {
                 "type": 2,
@@ -9589,7 +9583,7 @@ exports.data = [
         "label": "守護戰盾(稀有)",
         "category": 1,
         "subcategory": 1,
-        "description": "為守護者配備的戰盾，能夠抵禦各種傷害",
+        "description": "為守護者配備的戰盾，能夠抵御各種傷害",
         "transPrize": [
             {
                 "type": 2,
@@ -11450,7 +11444,7 @@ exports.data = [
         "icon": "emmainweapon6.png",
         "category": 1,
         "subcategory": 0,
-        "description": "佈滿歲月痕跡，但積攢了大量魔力的法杖",
+        "description": "布滿歲月痕跡，但積攢了大量魔力的法杖",
         "transPrize": [
             {
                 "type": 2,
@@ -11686,7 +11680,7 @@ exports.data = [
         "icon": "ewfoot6.png",
         "category": 1,
         "subcategory": 4,
-        "description": "沉重的鋼靴，能夠踐踏一切阻擋前進的敵人",
+        "description": "沈重的鋼靴，能夠踐踏一切阻擋前進的敵人",
         "transPrize": [
             {
                 "type": 2,
@@ -11824,7 +11818,7 @@ exports.data = [
         "icon": "ewmainweapon6.png",
         "category": 1,
         "subcategory": 0,
-        "description": "分量相當沉，普通人難以駕馭，但卻擁有巨大的破壞力",
+        "description": "分量相當沈，普通人難以駕馭，但卻擁有巨大的破壞力",
         "transPrize": [
             {
                 "type": 2,
@@ -12349,7 +12343,7 @@ exports.data = [
         "label": "守護戰盾(史詩)",
         "category": 1,
         "subcategory": 1,
-        "description": "為守護者配備的戰盾，能夠抵禦各種傷害",
+        "description": "為守護者配備的戰盾，能夠抵御各種傷害",
         "transPrize": [
             {
                 "type": 2,
@@ -14253,7 +14247,7 @@ exports.data = [
         "icon": "emmainweapon6.png",
         "category": 1,
         "subcategory": 0,
-        "description": "佈滿歲月痕跡，但積攢了大量魔力的法杖",
+        "description": "布滿歲月痕跡，但積攢了大量魔力的法杖",
         "transPrize": [
             {
                 "type": 2,
@@ -14479,7 +14473,7 @@ exports.data = [
         "icon": "ewfoot6.png",
         "category": 1,
         "subcategory": 4,
-        "description": "沉重的鋼靴，能夠踐踏一切阻擋前進的敵人",
+        "description": "沈重的鋼靴，能夠踐踏一切阻擋前進的敵人",
         "transPrize": [
             {
                 "type": 2,
@@ -14611,7 +14605,7 @@ exports.data = [
         "icon": "ewmainweapon6.png",
         "category": 1,
         "subcategory": 0,
-        "description": "分量相當沉，普通人難以駕馭，但卻擁有巨大的破壞力",
+        "description": "分量相當沈，普通人難以駕馭，但卻擁有巨大的破壞力",
         "transPrize": [
             {
                 "type": 2,
@@ -15114,7 +15108,7 @@ exports.data = [
         "label": "守護戰盾(傳奇)",
         "category": 1,
         "subcategory": 1,
-        "description": "為守護者配備的戰盾，能夠抵禦各種傷害",
+        "description": "為守護者配備的戰盾，能夠抵御各種傷害",
         "transPrize": [
             {
                 "type": 2,
@@ -16689,7 +16683,7 @@ exports.data = [
         "icon": "ewchest10.png",
         "category": 1,
         "subcategory": 2,
-        "description": "傳說中的聖甲，彙聚神聖力量，將一切傷害化為無形",
+        "description": "傳說中的聖甲，匯聚神聖力量，將一切傷害化為無形",
         "transPrize": [
             {
                 "type": 2,
@@ -20031,15 +20025,14 @@ exports.data = [
         "category": 4,
         "description": "在戰鬥中可以使全隊復活的神奇藥水。",
         "stack": 25,
-        "sellprice": 300,
-        "storeOnly": true
+        "sellprice": 300
     },
     {
         "classId": 541,
         "label": "法師時裝",
         "category": 1,
         "subcategory": 12,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "chest",
@@ -20102,7 +20095,7 @@ exports.data = [
         "label": "法師頭盔",
         "category": 1,
         "subcategory": 13,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "helmet",
@@ -20118,7 +20111,7 @@ exports.data = [
         "label": "法師頭髮",
         "category": 1,
         "subcategory": 14,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "hair",
@@ -20138,7 +20131,7 @@ exports.data = [
         "label": "法師其他",
         "category": 1,
         "subcategory": 15,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "eye",
@@ -20158,7 +20151,7 @@ exports.data = [
         "label": "戰士時裝",
         "category": 1,
         "subcategory": 12,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "chest",
@@ -20190,7 +20183,7 @@ exports.data = [
         "label": "戰士頭髮",
         "category": 1,
         "subcategory": 14,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "hair",
@@ -20206,7 +20199,7 @@ exports.data = [
         "label": "戰士其他",
         "category": 1,
         "subcategory": 15,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "eye",
@@ -20248,7 +20241,8 @@ exports.data = [
         "label": "榮譽套裝",
         "category": 1,
         "subcategory": 12,
-        "description": "王國賜予VIP專屬的榮譽。",
+        "extraSlots": [19,20],
+        "description": "兼顧外形與力量，是榮譽的象徵。",
         "sellprice": 1500,
         "effectf": [
             {
@@ -20295,8 +20289,10 @@ exports.data = [
             }
         ],
         "basic_properties": {
-            "health": 30,
-            "attack": 8
+            "health": 550,
+            "attack": 50,
+            "critical": 15,
+            "strong": 60
         },
         "storeOnly": true,
         "iconf": "rfasion-female1-cloth.png",
@@ -20307,7 +20303,7 @@ exports.data = [
         "label": "榮譽頭冠",
         "category": 1,
         "subcategory": 13,
-        "description": "王國賜予VIP專屬的榮譽。",
+        "description": "榮譽的象徵，並且擁有專注力量的祝福。",
         "sellprice": 500,
         "effectf": [
             {
@@ -20323,7 +20319,9 @@ exports.data = [
         ],
         "storeOnly": true,
         "basic_properties": {
-            "accuracy": 10
+            "health": 200,
+            "attack": 30,
+            "accuracy": 60
         },
         "iconf": "rfasion-female1-helmet.png",
         "iconm": "rfasion-male1-helmet.png"
@@ -20350,7 +20348,7 @@ exports.data = [
         "label": "牧師衣服",
         "category": 1,
         "subcategory": 12,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "chest",
@@ -20382,7 +20380,7 @@ exports.data = [
         "label": "牧師頭盔",
         "category": 1,
         "subcategory": 13,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "helmet",
@@ -20398,7 +20396,7 @@ exports.data = [
         "label": "牧師頭髮",
         "category": 1,
         "subcategory": 14,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "hair",
@@ -20418,7 +20416,7 @@ exports.data = [
         "label": "牧師其他",
         "category": 1,
         "subcategory": 15,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "eye",
@@ -21674,7 +21672,7 @@ exports.data = [
         "label": "法師翅膀",
         "category": 1,
         "subcategory": 16,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "avatar-wing-1",
@@ -21749,7 +21747,8 @@ exports.data = [
         "label": "榮譽套裝",
         "category": 1,
         "subcategory": 12,
-        "description": "王國賜予VIP專屬的榮譽。",
+        "extraSlots": [19,20],
+        "description": "兼顧外形與力量，是榮譽的象徵。",
         "sellprice": 1500,
         "effectf": [
             {
@@ -21804,7 +21803,7 @@ exports.data = [
         "label": "榮譽頭冠",
         "category": 1,
         "subcategory": 13,
-        "description": "王國賜予VIP專屬的榮譽。",
+        "description": "榮譽的象徵，並且擁有專注力量的祝福。",
         "sellprice": 500,
         "effectf": [
             {
@@ -21827,6 +21826,7 @@ exports.data = [
         "label": "禮儀套裝",
         "category": 1,
         "subcategory": 12,
+        "extraSlots": [19,20],
         "description": "注重禮儀的服飾，能夠給人舒心的感覺。",
         "sellprice": 1500,
         "effectf": [
@@ -21905,6 +21905,7 @@ exports.data = [
         "label": "和風套裝",
         "category": 1,
         "subcategory": 12,
+        "extraSlots": [19,20],
         "description": "和風的氣息撲面而來。",
         "sellprice": 1500,
         "effectf": [
@@ -21983,6 +21984,7 @@ exports.data = [
         "label": "喵喵套裝",
         "category": 1,
         "subcategory": 12,
+        "extraSlots": [19,20],
         "description": "懶洋洋套裝，軟軟肉球招人喜愛。",
         "sellprice": 1500,
         "effectf": [
@@ -27100,11 +27102,11 @@ exports.data = [
     },
     {
         "classId": 816,
-        "label": "羊皮卷軸",
+        "label": "羊皮捲軸",
         "icon": "item-sjg4.png",
         "category": 2,
         "subcategory": 0,
-        "description": "寫有內容的羊皮紙卷軸",
+        "description": "寫有內容的羊皮紙捲軸",
         "stack": 99,
         "sellprice": 100,
         "quality": 1
@@ -27144,11 +27146,11 @@ exports.data = [
     },
     {
         "classId": 820,
-        "label": "銹蝕金屬塊",
+        "label": "鏽蝕金屬塊",
         "icon": "item-sjg8.png",
         "category": 2,
         "subcategory": 0,
-        "description": "有些許銹蝕的金屬塊",
+        "description": "有些許鏽蝕的金屬塊",
         "stack": 99,
         "sellprice": 100,
         "quality": 1
@@ -27221,11 +27223,11 @@ exports.data = [
     },
     {
         "classId": 827,
-        "label": "神秘卷軸",
+        "label": "神秘捲軸",
         "icon": "item-sjb4.png",
         "category": 2,
         "subcategory": 0,
-        "description": "古老的神秘卷軸蘊含著強大的魔力",
+        "description": "古老的神秘捲軸蘊含著強大的魔力",
         "stack": 99,
         "sellprice": 200,
         "quality": 2
@@ -27346,7 +27348,7 @@ exports.data = [
         "icon": "item-sjp2.png",
         "category": 2,
         "subcategory": 0,
-        "description": "被人讚頌的榮耀勳章",
+        "description": "被人贊頌的榮耀勳章",
         "stack": 99,
         "sellprice": 400,
         "quality": 3
@@ -27357,7 +27359,7 @@ exports.data = [
         "icon": "item-sjp3.png",
         "category": 2,
         "subcategory": 0,
-        "description": "記錄了王者事蹟的書籍",
+        "description": "記錄了王者事跡的書籍",
         "stack": 99,
         "sellprice": 400,
         "quality": 3
@@ -27423,7 +27425,7 @@ exports.data = [
         "icon": "item-sjp9.png",
         "category": 2,
         "subcategory": 0,
-        "description": "遠古戰爭留下的靈魂，擁有巨大怨念以及難以想像的魔力",
+        "description": "遠古戰爭留下的靈魂，擁有巨大怨念以及難以想象的魔力",
         "stack": 99,
         "sellprice": 400,
         "quality": 3
@@ -27819,12 +27821,12 @@ exports.data = [
     },
     {
         "classId": 871,
-        "label": "掃蕩卷軸",
+        "label": "掃蕩捲軸",
         "icon": "item-sdjz.png",
         "category": 4,
         "stack": 99,
         "sellprice": 100,
-        "description": "可以用於掃蕩用的卷軸，只要符合關卡戰鬥力要求即可進行掃蕩。"
+        "description": "可以用於掃蕩用的捲軸，只要符合關卡戰鬥力要求即可進行掃蕩。"
     },
     {
         "classId": 872,
@@ -27832,7 +27834,7 @@ exports.data = [
         "icon": "item-vipbox3.png",
         "category": 0,
         "subcategory": 0,
-        "description": "內含金塊X15，掃蕩卷軸X20(每日限購1個)",
+        "description": "內含金塊X15，掃蕩捲軸X20(每日限購1個)",
         "quality": 1,
         "prize": [
             {
@@ -27854,7 +27856,7 @@ exports.data = [
         "icon": "item-vipbox4.png",
         "category": 0,
         "subcategory": 0,
-        "description": "內含金塊X20，掃蕩卷軸X30(每日限購1個)",
+        "description": "內含金塊X20，掃蕩捲軸X30(每日限購1個)",
         "quality": 1,
         "prize": [
             {
@@ -27876,7 +27878,7 @@ exports.data = [
         "icon": "item-vipbox5.png",
         "category": 0,
         "subcategory": 0,
-        "description": "內含金塊X25，掃蕩卷軸X40(每日限購1個)",
+        "description": "內含金塊X25，掃蕩捲軸X40(每日限購1個)",
         "quality": 1,
         "prize": [
             {
@@ -27898,7 +27900,7 @@ exports.data = [
         "icon": "item-vipbox6.png",
         "category": 0,
         "subcategory": 0,
-        "description": "內含金塊X32，掃蕩卷軸X50，大瓶精力藥劑X1(每日限購1個)",
+        "description": "內含金塊X32，掃蕩捲軸X50，大瓶精力藥劑X1(每日限購1個)",
         "quality": 1,
         "prize": [
             {
@@ -27925,7 +27927,7 @@ exports.data = [
         "icon": "item-vipbox7.png",
         "category": 0,
         "subcategory": 0,
-        "description": "內含金塊X40，掃蕩卷軸X50，大瓶精力藥劑X2(每日限購1個)",
+        "description": "內含金塊X40，掃蕩捲軸X50，大瓶精力藥劑X2(每日限購1個)",
         "quality": 1,
         "prize": [
             {
@@ -27952,7 +27954,7 @@ exports.data = [
         "icon": "item-vipbox8.png",
         "category": 0,
         "subcategory": 0,
-        "description": "內含金塊X65，掃蕩卷軸X70，大瓶精力藥劑X3(每日限購1個)",
+        "description": "內含金塊X65，掃蕩捲軸X70，大瓶精力藥劑X3(每日限購1個)",
         "quality": 1,
         "prize": [
             {
@@ -28020,7 +28022,7 @@ exports.data = [
         "classId": 879,
         "label": "勇者戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "賜予勇敢的戰士敏捷動作的戰靴",
         "effectf": [
             {
@@ -28067,7 +28069,7 @@ exports.data = [
         "classId": 880,
         "label": "勇者戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "賜予勇敢的戰士敏捷動作的戰靴",
         "effectf": [
             {
@@ -28116,7 +28118,7 @@ exports.data = [
         "classId": 881,
         "label": "勇者戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "賜予勇敢的戰士敏捷動作的戰靴",
         "effectf": [
             {
@@ -28165,7 +28167,7 @@ exports.data = [
         "classId": 882,
         "label": "勇者戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "賜予勇敢的戰士敏捷動作的戰靴",
         "effectf": [
             {
@@ -28214,7 +28216,7 @@ exports.data = [
         "classId": 883,
         "label": "勇者戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "賜予勇敢的戰士敏捷動作的戰靴",
         "effectf": [
             {
@@ -28263,7 +28265,7 @@ exports.data = [
         "classId": 884,
         "label": "勇者戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "賜予勇敢的戰士敏捷動作的戰靴",
         "effectf": [
             {
@@ -28311,8 +28313,8 @@ exports.data = [
         "classId": 885,
         "label": "角鬥士戰靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "沉重的鐵靴，角鬥士們的最愛",
+        "subcategory": 4,
+        "description": "沈重的鐵靴，角鬥士們的最愛",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28358,8 +28360,8 @@ exports.data = [
         "classId": 886,
         "label": "角鬥士戰靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "沉重的鐵靴，角鬥士們的最愛",
+        "subcategory": 4,
+        "description": "沈重的鐵靴，角鬥士們的最愛",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28407,8 +28409,8 @@ exports.data = [
         "classId": 887,
         "label": "角鬥士戰靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "沉重的鐵靴，角鬥士們的最愛",
+        "subcategory": 4,
+        "description": "沈重的鐵靴，角鬥士們的最愛",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28456,8 +28458,8 @@ exports.data = [
         "classId": 888,
         "label": "角鬥士戰靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "沉重的鐵靴，角鬥士們的最愛",
+        "subcategory": 4,
+        "description": "沈重的鐵靴，角鬥士們的最愛",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28505,8 +28507,8 @@ exports.data = [
         "classId": 889,
         "label": "角鬥士戰靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "沉重的鐵靴，角鬥士們的最愛",
+        "subcategory": 4,
+        "description": "沈重的鐵靴，角鬥士們的最愛",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28554,8 +28556,8 @@ exports.data = [
         "classId": 890,
         "label": "角鬥士戰靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "沉重的鐵靴，角鬥士們的最愛",
+        "subcategory": 4,
+        "description": "沈重的鐵靴，角鬥士們的最愛",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28602,7 +28604,7 @@ exports.data = [
         "classId": 891,
         "label": "深淵戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "工藝精良，設計華麗，且不失實用",
         "effectf": [
             {
@@ -28649,7 +28651,7 @@ exports.data = [
         "classId": 892,
         "label": "深淵戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "工藝精良，設計華麗，且不失實用",
         "effectf": [
             {
@@ -28698,7 +28700,7 @@ exports.data = [
         "classId": 893,
         "label": "深淵戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "工藝精良，設計華麗，且不失實用",
         "effectf": [
             {
@@ -28747,7 +28749,7 @@ exports.data = [
         "classId": 894,
         "label": "深淵戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "工藝精良，設計華麗，且不失實用",
         "effectf": [
             {
@@ -28796,7 +28798,7 @@ exports.data = [
         "classId": 895,
         "label": "深淵戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "工藝精良，設計華麗，且不失實用",
         "effectf": [
             {
@@ -28845,7 +28847,7 @@ exports.data = [
         "classId": 896,
         "label": "深淵戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "工藝精良，設計華麗，且不失實用",
         "effectf": [
             {
@@ -28893,7 +28895,7 @@ exports.data = [
         "classId": 897,
         "label": "屠龍者戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "穿上它，才能擁有與巨龍相抗衡的速度",
         "effectf": [
             {
@@ -28940,7 +28942,7 @@ exports.data = [
         "classId": 898,
         "label": "屠龍者戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "穿上它，才能擁有與巨龍相抗衡的速度",
         "effectf": [
             {
@@ -28989,7 +28991,7 @@ exports.data = [
         "classId": 899,
         "label": "屠龍者戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "穿上它，才能擁有與巨龍相抗衡的速度",
         "effectf": [
             {
@@ -29038,7 +29040,7 @@ exports.data = [
         "classId": 900,
         "label": "屠龍者戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "穿上它，才能擁有與巨龍相抗衡的速度",
         "effectf": [
             {
@@ -29087,7 +29089,7 @@ exports.data = [
         "classId": 901,
         "label": "屠龍者戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "穿上它，才能擁有與巨龍相抗衡的速度",
         "effectf": [
             {
@@ -29136,7 +29138,7 @@ exports.data = [
         "classId": 902,
         "label": "屠龍者戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "穿上它，才能擁有與巨龍相抗衡的速度",
         "effectf": [
             {
@@ -29184,7 +29186,7 @@ exports.data = [
         "classId": 903,
         "label": "凱旋之翼戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "戰爭女神賜予的戰靴，能帶來勝利",
         "effectf": [
             {
@@ -29231,7 +29233,7 @@ exports.data = [
         "classId": 904,
         "label": "凱旋之翼戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "戰爭女神賜予的戰靴，能帶來勝利",
         "effectf": [
             {
@@ -29278,7 +29280,7 @@ exports.data = [
         "classId": 905,
         "label": "凱旋之翼戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "戰爭女神賜予的戰靴，能帶來勝利",
         "effectf": [
             {
@@ -29325,7 +29327,7 @@ exports.data = [
         "classId": 906,
         "label": "凱旋之翼戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "戰爭女神賜予的戰靴，能帶來勝利",
         "effectf": [
             {
@@ -29372,7 +29374,7 @@ exports.data = [
         "classId": 907,
         "label": "凱旋之翼戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "戰爭女神賜予的戰靴，能帶來勝利",
         "effectf": [
             {
@@ -29419,7 +29421,7 @@ exports.data = [
         "classId": 908,
         "label": "凱旋之翼戰靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "戰爭女神賜予的戰靴，能帶來勝利",
         "effectf": [
             {
@@ -29464,7 +29466,7 @@ exports.data = [
         "classId": 909,
         "label": "勇者戰甲",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "被世人所認可的勇者穿戴的鎧甲",
         "effectf": [
             {
@@ -29527,7 +29529,7 @@ exports.data = [
         "classId": 910,
         "label": "勇者戰甲",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "被世人所認可的勇者穿戴的鎧甲",
         "effectf": [
             {
@@ -29592,7 +29594,7 @@ exports.data = [
         "classId": 911,
         "label": "勇者戰甲",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "被世人所認可的勇者穿戴的鎧甲",
         "effectf": [
             {
@@ -29657,7 +29659,7 @@ exports.data = [
         "classId": 912,
         "label": "勇者戰甲",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "被世人所認可的勇者穿戴的鎧甲",
         "effectf": [
             {
@@ -29722,7 +29724,7 @@ exports.data = [
         "classId": 913,
         "label": "勇者戰甲",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "被世人所認可的勇者穿戴的鎧甲",
         "effectf": [
             {
@@ -29787,7 +29789,7 @@ exports.data = [
         "classId": 914,
         "label": "勇者戰甲",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "被世人所認可的勇者穿戴的鎧甲",
         "effectf": [
             {
@@ -29851,7 +29853,7 @@ exports.data = [
         "classId": 915,
         "label": "角鬥士戰甲",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "厚重的戰甲，在戰場上角鬥士們的生存保障",
         "effectf": [
             {
@@ -29914,7 +29916,7 @@ exports.data = [
         "classId": 916,
         "label": "角鬥士戰甲",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "厚重的戰甲，在戰場上角鬥士們的生存保障",
         "effectf": [
             {
@@ -29979,7 +29981,7 @@ exports.data = [
         "classId": 917,
         "label": "角鬥士戰甲",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "厚重的戰甲，在戰場上角鬥士們的生存保障",
         "effectf": [
             {
@@ -30044,7 +30046,7 @@ exports.data = [
         "classId": 918,
         "label": "角鬥士戰甲",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "厚重的戰甲，在戰場上角鬥士們的生存保障",
         "effectf": [
             {
@@ -30109,7 +30111,7 @@ exports.data = [
         "classId": 919,
         "label": "角鬥士戰甲",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "厚重的戰甲，在戰場上角鬥士們的生存保障",
         "effectf": [
             {
@@ -30174,7 +30176,7 @@ exports.data = [
         "classId": 920,
         "label": "角鬥士戰甲",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "厚重的戰甲，在戰場上角鬥士們的生存保障",
         "effectf": [
             {
@@ -30238,8 +30240,8 @@ exports.data = [
         "classId": 921,
         "label": "深淵戰鎧",
         "category": 1,
-        "subcategory": 1,
-        "description": "未知的深淵材料打造，品質優異，可以應對各種戰鬥",
+        "subcategory": 2,
+        "description": "未知的深淵材料打造，質量優異，可以應對各種戰鬥",
         "effectf": [
             {
                 "part": "chest",
@@ -30301,8 +30303,8 @@ exports.data = [
         "classId": 922,
         "label": "深淵戰鎧",
         "category": 1,
-        "subcategory": 1,
-        "description": "未知的深淵材料打造，品質優異，可以應對各種戰鬥",
+        "subcategory": 2,
+        "description": "未知的深淵材料打造，質量優異，可以應對各種戰鬥",
         "effectf": [
             {
                 "part": "chest",
@@ -30366,8 +30368,8 @@ exports.data = [
         "classId": 923,
         "label": "深淵戰鎧",
         "category": 1,
-        "subcategory": 1,
-        "description": "未知的深淵材料打造，品質優異，可以應對各種戰鬥",
+        "subcategory": 2,
+        "description": "未知的深淵材料打造，質量優異，可以應對各種戰鬥",
         "effectf": [
             {
                 "part": "chest",
@@ -30431,8 +30433,8 @@ exports.data = [
         "classId": 924,
         "label": "深淵戰鎧",
         "category": 1,
-        "subcategory": 1,
-        "description": "未知的深淵材料打造，品質優異，可以應對各種戰鬥",
+        "subcategory": 2,
+        "description": "未知的深淵材料打造，質量優異，可以應對各種戰鬥",
         "effectf": [
             {
                 "part": "chest",
@@ -30496,8 +30498,8 @@ exports.data = [
         "classId": 925,
         "label": "深淵戰鎧",
         "category": 1,
-        "subcategory": 1,
-        "description": "未知的深淵材料打造，品質優異，可以應對各種戰鬥",
+        "subcategory": 2,
+        "description": "未知的深淵材料打造，質量優異，可以應對各種戰鬥",
         "effectf": [
             {
                 "part": "chest",
@@ -30561,8 +30563,8 @@ exports.data = [
         "classId": 926,
         "label": "深淵戰鎧",
         "category": 1,
-        "subcategory": 1,
-        "description": "未知的深淵材料打造，品質優異，可以應對各種戰鬥",
+        "subcategory": 2,
+        "description": "未知的深淵材料打造，質量優異，可以應對各種戰鬥",
         "effectf": [
             {
                 "part": "chest",
@@ -30625,7 +30627,7 @@ exports.data = [
         "classId": 927,
         "label": "屠龍者戰鎧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "威武非凡，屠龍者的身份證明",
         "effectf": [
             {
@@ -30688,7 +30690,7 @@ exports.data = [
         "classId": 928,
         "label": "屠龍者戰鎧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "威武非凡，屠龍者的身份證明",
         "effectf": [
             {
@@ -30753,7 +30755,7 @@ exports.data = [
         "classId": 929,
         "label": "屠龍者戰鎧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "威武非凡，屠龍者的身份證明",
         "effectf": [
             {
@@ -30818,7 +30820,7 @@ exports.data = [
         "classId": 930,
         "label": "屠龍者戰鎧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "威武非凡，屠龍者的身份證明",
         "effectf": [
             {
@@ -30883,7 +30885,7 @@ exports.data = [
         "classId": 931,
         "label": "屠龍者戰鎧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "威武非凡，屠龍者的身份證明",
         "effectf": [
             {
@@ -30948,7 +30950,7 @@ exports.data = [
         "classId": 932,
         "label": "屠龍者戰鎧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "威武非凡，屠龍者的身份證明",
         "effectf": [
             {
@@ -31012,7 +31014,7 @@ exports.data = [
         "classId": 933,
         "label": "凱旋之翼聖鎧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "榮耀的光輝凝聚而成的神聖鎧甲",
         "effectf": [
             {
@@ -31075,7 +31077,7 @@ exports.data = [
         "classId": 934,
         "label": "凱旋之翼聖鎧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "榮耀的光輝凝聚而成的神聖鎧甲",
         "effectf": [
             {
@@ -31138,7 +31140,7 @@ exports.data = [
         "classId": 935,
         "label": "凱旋之翼聖鎧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "榮耀的光輝凝聚而成的神聖鎧甲",
         "effectf": [
             {
@@ -31201,7 +31203,7 @@ exports.data = [
         "classId": 936,
         "label": "凱旋之翼聖鎧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "榮耀的光輝凝聚而成的神聖鎧甲",
         "effectf": [
             {
@@ -31264,7 +31266,7 @@ exports.data = [
         "classId": 937,
         "label": "凱旋之翼聖鎧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "榮耀的光輝凝聚而成的神聖鎧甲",
         "effectf": [
             {
@@ -31327,7 +31329,7 @@ exports.data = [
         "classId": 938,
         "label": "凱旋之翼聖鎧",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "榮耀的光輝凝聚而成的神聖鎧甲",
         "effectf": [
             {
@@ -31388,7 +31390,7 @@ exports.data = [
         "classId": 939,
         "label": "勇士利斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "只有勇敢的戰士才能揮舞的斧頭",
         "effectf": [
             {
@@ -31433,7 +31435,7 @@ exports.data = [
         "classId": 940,
         "label": "勇士利斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "只有勇敢的戰士才能揮舞的斧頭",
         "effectf": [
             {
@@ -31480,7 +31482,7 @@ exports.data = [
         "classId": 941,
         "label": "勇士利斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "只有勇敢的戰士才能揮舞的斧頭",
         "effectf": [
             {
@@ -31527,7 +31529,7 @@ exports.data = [
         "classId": 942,
         "label": "勇士利斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "只有勇敢的戰士才能揮舞的斧頭",
         "effectf": [
             {
@@ -31574,7 +31576,7 @@ exports.data = [
         "classId": 943,
         "label": "勇士利斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "只有勇敢的戰士才能揮舞的斧頭",
         "effectf": [
             {
@@ -31621,7 +31623,7 @@ exports.data = [
         "classId": 944,
         "label": "勇士利斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "只有勇敢的戰士才能揮舞的斧頭",
         "effectf": [
             {
@@ -31667,7 +31669,7 @@ exports.data = [
         "classId": 945,
         "label": "角鬥士巨斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "揮舞起來，能撕碎敵人",
         "effectf": [
             {
@@ -31712,7 +31714,7 @@ exports.data = [
         "classId": 946,
         "label": "角鬥士巨斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "揮舞起來，能撕碎敵人",
         "effectf": [
             {
@@ -31759,7 +31761,7 @@ exports.data = [
         "classId": 947,
         "label": "角鬥士巨斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "揮舞起來，能撕碎敵人",
         "effectf": [
             {
@@ -31806,7 +31808,7 @@ exports.data = [
         "classId": 948,
         "label": "角鬥士巨斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "揮舞起來，能撕碎敵人",
         "effectf": [
             {
@@ -31853,7 +31855,7 @@ exports.data = [
         "classId": 949,
         "label": "角鬥士巨斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "揮舞起來，能撕碎敵人",
         "effectf": [
             {
@@ -31900,7 +31902,7 @@ exports.data = [
         "classId": 950,
         "label": "角鬥士巨斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "揮舞起來，能撕碎敵人",
         "effectf": [
             {
@@ -31946,7 +31948,7 @@ exports.data = [
         "classId": 951,
         "label": "深淵之鐮",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "收割生命的利器",
         "effectf": [
             {
@@ -31991,7 +31993,7 @@ exports.data = [
         "classId": 952,
         "label": "深淵之鐮",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "收割生命的利器",
         "effectf": [
             {
@@ -32038,7 +32040,7 @@ exports.data = [
         "classId": 953,
         "label": "深淵之鐮",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "收割生命的利器",
         "effectf": [
             {
@@ -32085,7 +32087,7 @@ exports.data = [
         "classId": 954,
         "label": "深淵之鐮",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "收割生命的利器",
         "effectf": [
             {
@@ -32132,7 +32134,7 @@ exports.data = [
         "classId": 955,
         "label": "深淵之鐮",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "收割生命的利器",
         "effectf": [
             {
@@ -32179,7 +32181,7 @@ exports.data = [
         "classId": 956,
         "label": "深淵之鐮",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "收割生命的利器",
         "effectf": [
             {
@@ -32225,7 +32227,7 @@ exports.data = [
         "classId": 957,
         "label": "屠龍巨斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "令巨龍都感到害怕的恐怖巨斧",
         "effectf": [
             {
@@ -32270,7 +32272,7 @@ exports.data = [
         "classId": 958,
         "label": "屠龍巨斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "令巨龍都感到害怕的恐怖巨斧",
         "effectf": [
             {
@@ -32317,7 +32319,7 @@ exports.data = [
         "classId": 959,
         "label": "屠龍巨斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "令巨龍都感到害怕的恐怖巨斧",
         "effectf": [
             {
@@ -32364,7 +32366,7 @@ exports.data = [
         "classId": 960,
         "label": "屠龍巨斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "令巨龍都感到害怕的恐怖巨斧",
         "effectf": [
             {
@@ -32411,7 +32413,7 @@ exports.data = [
         "classId": 961,
         "label": "屠龍巨斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "令巨龍都感到害怕的恐怖巨斧",
         "effectf": [
             {
@@ -32458,7 +32460,7 @@ exports.data = [
         "classId": 962,
         "label": "屠龍巨斧",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "令巨龍都感到害怕的恐怖巨斧",
         "effectf": [
             {
@@ -32504,7 +32506,7 @@ exports.data = [
         "classId": 963,
         "label": "戰爭撕裂者",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "充滿毀滅氣息的殺戮工具",
         "effectf": [
             {
@@ -32549,7 +32551,7 @@ exports.data = [
         "classId": 964,
         "label": "戰爭撕裂者",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "充滿毀滅氣息的殺戮工具",
         "effectf": [
             {
@@ -32594,7 +32596,7 @@ exports.data = [
         "classId": 965,
         "label": "戰爭撕裂者",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "充滿毀滅氣息的殺戮工具",
         "effectf": [
             {
@@ -32639,7 +32641,7 @@ exports.data = [
         "classId": 966,
         "label": "戰爭撕裂者",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "充滿毀滅氣息的殺戮工具",
         "effectf": [
             {
@@ -32684,7 +32686,7 @@ exports.data = [
         "classId": 967,
         "label": "戰爭撕裂者",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "充滿毀滅氣息的殺戮工具",
         "effectf": [
             {
@@ -32729,7 +32731,7 @@ exports.data = [
         "classId": 968,
         "label": "戰爭撕裂者",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "充滿毀滅氣息的殺戮工具",
         "effectf": [
             {
@@ -32772,7 +32774,7 @@ exports.data = [
         "classId": 969,
         "label": "勇者大劍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "擁有他，會獲得勇往直前的力量",
         "effectf": [
             {
@@ -32812,7 +32814,7 @@ exports.data = [
         "classId": 970,
         "label": "勇者大劍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "擁有他，會獲得勇往直前的力量",
         "effectf": [
             {
@@ -32854,7 +32856,7 @@ exports.data = [
         "classId": 971,
         "label": "勇者大劍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "擁有他，會獲得勇往直前的力量",
         "effectf": [
             {
@@ -32896,7 +32898,7 @@ exports.data = [
         "classId": 972,
         "label": "勇者大劍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "擁有他，會獲得勇往直前的力量",
         "effectf": [
             {
@@ -32938,7 +32940,7 @@ exports.data = [
         "classId": 973,
         "label": "勇者大劍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "擁有他，會獲得勇往直前的力量",
         "effectf": [
             {
@@ -32980,7 +32982,7 @@ exports.data = [
         "classId": 974,
         "label": "勇者大劍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "擁有他，會獲得勇往直前的力量",
         "effectf": [
             {
@@ -33021,7 +33023,7 @@ exports.data = [
         "classId": 975,
         "label": "角鬥士大劍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "角鬥士不可缺少的利器，能斬破一切阻礙",
         "effectf": [
             {
@@ -33061,7 +33063,7 @@ exports.data = [
         "classId": 976,
         "label": "角鬥士大劍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "角鬥士不可缺少的利器，能斬破一切阻礙",
         "effectf": [
             {
@@ -33103,7 +33105,7 @@ exports.data = [
         "classId": 977,
         "label": "角鬥士大劍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "角鬥士不可缺少的利器，能斬破一切阻礙",
         "effectf": [
             {
@@ -33145,7 +33147,7 @@ exports.data = [
         "classId": 978,
         "label": "角鬥士大劍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "角鬥士不可缺少的利器，能斬破一切阻礙",
         "effectf": [
             {
@@ -33187,7 +33189,7 @@ exports.data = [
         "classId": 979,
         "label": "角鬥士大劍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "角鬥士不可缺少的利器，能斬破一切阻礙",
         "effectf": [
             {
@@ -33229,7 +33231,7 @@ exports.data = [
         "classId": 980,
         "label": "角鬥士大劍",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "角鬥士不可缺少的利器，能斬破一切阻礙",
         "effectf": [
             {
@@ -33270,7 +33272,7 @@ exports.data = [
         "classId": 981,
         "label": "深淵之刃",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "一擊之下，將敵人打進無盡深淵",
         "effectf": [
             {
@@ -33310,7 +33312,7 @@ exports.data = [
         "classId": 982,
         "label": "深淵之刃",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "一擊之下，將敵人打進無盡深淵",
         "effectf": [
             {
@@ -33352,7 +33354,7 @@ exports.data = [
         "classId": 983,
         "label": "深淵之刃",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "一擊之下，將敵人打進無盡深淵",
         "effectf": [
             {
@@ -33394,7 +33396,7 @@ exports.data = [
         "classId": 984,
         "label": "深淵之刃",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "一擊之下，將敵人打進無盡深淵",
         "effectf": [
             {
@@ -33436,7 +33438,7 @@ exports.data = [
         "classId": 985,
         "label": "深淵之刃",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "一擊之下，將敵人打進無盡深淵",
         "effectf": [
             {
@@ -33478,7 +33480,7 @@ exports.data = [
         "classId": 986,
         "label": "深淵之刃",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "一擊之下，將敵人打進無盡深淵",
         "effectf": [
             {
@@ -33519,7 +33521,7 @@ exports.data = [
         "classId": 987,
         "label": "屠龍之刃",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "鋒利至極，能輕易刺破龍鱗",
         "effectf": [
             {
@@ -33559,7 +33561,7 @@ exports.data = [
         "classId": 988,
         "label": "屠龍之刃",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "鋒利至極，能輕易刺破龍鱗",
         "effectf": [
             {
@@ -33601,7 +33603,7 @@ exports.data = [
         "classId": 989,
         "label": "屠龍之刃",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "鋒利至極，能輕易刺破龍鱗",
         "effectf": [
             {
@@ -33643,7 +33645,7 @@ exports.data = [
         "classId": 990,
         "label": "屠龍之刃",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "鋒利至極，能輕易刺破龍鱗",
         "effectf": [
             {
@@ -33685,7 +33687,7 @@ exports.data = [
         "classId": 991,
         "label": "屠龍之刃",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "鋒利至極，能輕易刺破龍鱗",
         "effectf": [
             {
@@ -33727,7 +33729,7 @@ exports.data = [
         "classId": 992,
         "label": "屠龍之刃",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "鋒利至極，能輕易刺破龍鱗",
         "effectf": [
             {
@@ -33768,7 +33770,7 @@ exports.data = [
         "classId": 993,
         "label": "阿瑞斯之力",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "附有傳說中戰神力量的神器",
         "effectf": [
             {
@@ -33808,7 +33810,7 @@ exports.data = [
         "classId": 994,
         "label": "阿瑞斯之力",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "附有傳說中戰神力量的神器",
         "effectf": [
             {
@@ -33848,7 +33850,7 @@ exports.data = [
         "classId": 995,
         "label": "阿瑞斯之力",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "附有傳說中戰神力量的神器",
         "effectf": [
             {
@@ -33888,7 +33890,7 @@ exports.data = [
         "classId": 996,
         "label": "阿瑞斯之力",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "附有傳說中戰神力量的神器",
         "effectf": [
             {
@@ -33928,7 +33930,7 @@ exports.data = [
         "classId": 997,
         "label": "阿瑞斯之力",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "附有傳說中戰神力量的神器",
         "effectf": [
             {
@@ -33968,7 +33970,7 @@ exports.data = [
         "classId": 998,
         "label": "阿瑞斯之力",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "附有傳說中戰神力量的神器",
         "effectf": [
             {
@@ -34850,7 +34852,7 @@ exports.data = [
         "classId": 1029,
         "label": "勇者頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "被世人所認可的勇者穿戴的頭盔",
         "effectf": [
             {
@@ -34899,7 +34901,7 @@ exports.data = [
         "classId": 1030,
         "label": "勇者頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "被世人所認可的勇者穿戴的頭盔",
         "effectf": [
             {
@@ -34950,7 +34952,7 @@ exports.data = [
         "classId": 1031,
         "label": "勇者頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "被世人所認可的勇者穿戴的頭盔",
         "effectf": [
             {
@@ -35001,7 +35003,7 @@ exports.data = [
         "classId": 1032,
         "label": "勇者頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "被世人所認可的勇者穿戴的頭盔",
         "effectf": [
             {
@@ -35052,7 +35054,7 @@ exports.data = [
         "classId": 1033,
         "label": "勇者頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "被世人所認可的勇者穿戴的頭盔",
         "effectf": [
             {
@@ -35103,7 +35105,7 @@ exports.data = [
         "classId": 1034,
         "label": "勇者頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "被世人所認可的勇者穿戴的頭盔",
         "effectf": [
             {
@@ -35153,7 +35155,7 @@ exports.data = [
         "classId": 1035,
         "label": "角鬥士頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "角鬥士的信念和力量的源泉",
         "effectf": [
             {
@@ -35202,7 +35204,7 @@ exports.data = [
         "classId": 1036,
         "label": "角鬥士頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "角鬥士的信念和力量的源泉",
         "effectf": [
             {
@@ -35253,7 +35255,7 @@ exports.data = [
         "classId": 1037,
         "label": "角鬥士頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "角鬥士的信念和力量的源泉",
         "effectf": [
             {
@@ -35304,7 +35306,7 @@ exports.data = [
         "classId": 1038,
         "label": "角鬥士頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "角鬥士的信念和力量的源泉",
         "effectf": [
             {
@@ -35355,7 +35357,7 @@ exports.data = [
         "classId": 1039,
         "label": "角鬥士頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "角鬥士的信念和力量的源泉",
         "effectf": [
             {
@@ -35406,7 +35408,7 @@ exports.data = [
         "classId": 1040,
         "label": "角鬥士頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "角鬥士的信念和力量的源泉",
         "effectf": [
             {
@@ -35456,7 +35458,7 @@ exports.data = [
         "classId": 1041,
         "label": "深淵頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "沒有人可以掙脫深淵的引力",
         "effectf": [
             {
@@ -35505,7 +35507,7 @@ exports.data = [
         "classId": 1042,
         "label": "深淵頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "沒有人可以掙脫深淵的引力",
         "effectf": [
             {
@@ -35556,7 +35558,7 @@ exports.data = [
         "classId": 1043,
         "label": "深淵頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "沒有人可以掙脫深淵的引力",
         "effectf": [
             {
@@ -35607,7 +35609,7 @@ exports.data = [
         "classId": 1044,
         "label": "深淵頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "沒有人可以掙脫深淵的引力",
         "effectf": [
             {
@@ -35658,7 +35660,7 @@ exports.data = [
         "classId": 1045,
         "label": "深淵頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "沒有人可以掙脫深淵的引力",
         "effectf": [
             {
@@ -35709,7 +35711,7 @@ exports.data = [
         "classId": 1046,
         "label": "深淵頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "沒有人可以掙脫深淵的引力",
         "effectf": [
             {
@@ -35759,7 +35761,7 @@ exports.data = [
         "classId": 1047,
         "label": "屠龍頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "力量的源泉，屠龍的保障",
         "effectf": [
             {
@@ -35808,7 +35810,7 @@ exports.data = [
         "classId": 1048,
         "label": "屠龍頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "力量的源泉，屠龍的保障",
         "effectf": [
             {
@@ -35859,7 +35861,7 @@ exports.data = [
         "classId": 1049,
         "label": "屠龍頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "力量的源泉，屠龍的保障",
         "effectf": [
             {
@@ -35910,7 +35912,7 @@ exports.data = [
         "classId": 1050,
         "label": "屠龍頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "力量的源泉，屠龍的保障",
         "effectf": [
             {
@@ -35961,7 +35963,7 @@ exports.data = [
         "classId": 1051,
         "label": "屠龍頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "力量的源泉，屠龍的保障",
         "effectf": [
             {
@@ -36012,7 +36014,7 @@ exports.data = [
         "classId": 1052,
         "label": "屠龍頭盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "力量的源泉，屠龍的保障",
         "effectf": [
             {
@@ -36062,7 +36064,7 @@ exports.data = [
         "classId": 1053,
         "label": "戰神聖盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "戴上它，你就能戰神附體了",
         "effectf": [
             {
@@ -36111,7 +36113,7 @@ exports.data = [
         "classId": 1054,
         "label": "戰神聖盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "戴上它，你就能戰神附體了",
         "effectf": [
             {
@@ -36160,7 +36162,7 @@ exports.data = [
         "classId": 1055,
         "label": "戰神聖盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "戴上它，你就能戰神附體了",
         "effectf": [
             {
@@ -36209,7 +36211,7 @@ exports.data = [
         "classId": 1056,
         "label": "戰神聖盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "戴上它，你就能戰神附體了",
         "effectf": [
             {
@@ -36258,7 +36260,7 @@ exports.data = [
         "classId": 1057,
         "label": "戰神聖盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "戴上它，你就能戰神附體了",
         "effectf": [
             {
@@ -36307,7 +36309,7 @@ exports.data = [
         "classId": 1058,
         "label": "戰神聖盔",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "戴上它，你就能戰神附體了",
         "effectf": [
             {
@@ -36354,7 +36356,7 @@ exports.data = [
         "classId": 1059,
         "label": "奧術長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "帶有玄奧氣息的長靴",
         "effectf": [
             {
@@ -36402,7 +36404,7 @@ exports.data = [
         "classId": 1060,
         "label": "奧術長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "帶有玄奧氣息的長靴",
         "effectf": [
             {
@@ -36452,7 +36454,7 @@ exports.data = [
         "classId": 1061,
         "label": "奧術長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "帶有玄奧氣息的長靴",
         "effectf": [
             {
@@ -36502,7 +36504,7 @@ exports.data = [
         "classId": 1062,
         "label": "奧術長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "帶有玄奧氣息的長靴",
         "effectf": [
             {
@@ -36552,7 +36554,7 @@ exports.data = [
         "classId": 1063,
         "label": "奧術長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "帶有玄奧氣息的長靴",
         "effectf": [
             {
@@ -36602,7 +36604,7 @@ exports.data = [
         "classId": 1064,
         "label": "奧術長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "帶有玄奧氣息的長靴",
         "effectf": [
             {
@@ -36651,7 +36653,7 @@ exports.data = [
         "classId": 1065,
         "label": "燃靈長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "擁有燃燒之力的精緻長靴",
         "effectf": [
             {
@@ -36699,7 +36701,7 @@ exports.data = [
         "classId": 1066,
         "label": "燃靈長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "擁有燃燒之力的精緻長靴",
         "effectf": [
             {
@@ -36749,7 +36751,7 @@ exports.data = [
         "classId": 1067,
         "label": "燃靈長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "擁有燃燒之力的精緻長靴",
         "effectf": [
             {
@@ -36799,7 +36801,7 @@ exports.data = [
         "classId": 1068,
         "label": "燃靈長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "擁有燃燒之力的精緻長靴",
         "effectf": [
             {
@@ -36849,7 +36851,7 @@ exports.data = [
         "classId": 1069,
         "label": "燃靈長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "擁有燃燒之力的精緻長靴",
         "effectf": [
             {
@@ -36899,7 +36901,7 @@ exports.data = [
         "classId": 1070,
         "label": "燃靈長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "擁有燃燒之力的精緻長靴",
         "effectf": [
             {
@@ -36948,7 +36950,7 @@ exports.data = [
         "classId": 1071,
         "label": "湮滅長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "毀滅的象徵，魔力暴增",
         "effectf": [
             {
@@ -36996,7 +36998,7 @@ exports.data = [
         "classId": 1072,
         "label": "湮滅長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "毀滅的象徵，魔力暴增",
         "effectf": [
             {
@@ -37046,7 +37048,7 @@ exports.data = [
         "classId": 1073,
         "label": "湮滅長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "毀滅的象徵，魔力暴增",
         "effectf": [
             {
@@ -37096,7 +37098,7 @@ exports.data = [
         "classId": 1074,
         "label": "湮滅長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "毀滅的象徵，魔力暴增",
         "effectf": [
             {
@@ -37146,7 +37148,7 @@ exports.data = [
         "classId": 1075,
         "label": "湮滅長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "毀滅的象徵，魔力暴增",
         "effectf": [
             {
@@ -37196,7 +37198,7 @@ exports.data = [
         "classId": 1076,
         "label": "湮滅長靴",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "毀滅的象徵，魔力暴增",
         "effectf": [
             {
@@ -37245,8 +37247,8 @@ exports.data = [
         "classId": 1077,
         "label": "落日長靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "散發著令人絕望氣息的尊貴長靴",
+        "subcategory": 4,
+        "description": "散髮著令人絕望氣息的尊貴長靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37293,8 +37295,8 @@ exports.data = [
         "classId": 1078,
         "label": "落日長靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "散發著令人絕望氣息的尊貴長靴",
+        "subcategory": 4,
+        "description": "散髮著令人絕望氣息的尊貴長靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37343,8 +37345,8 @@ exports.data = [
         "classId": 1079,
         "label": "落日長靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "散發著令人絕望氣息的尊貴長靴",
+        "subcategory": 4,
+        "description": "散髮著令人絕望氣息的尊貴長靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37393,8 +37395,8 @@ exports.data = [
         "classId": 1080,
         "label": "落日長靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "散發著令人絕望氣息的尊貴長靴",
+        "subcategory": 4,
+        "description": "散髮著令人絕望氣息的尊貴長靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37443,8 +37445,8 @@ exports.data = [
         "classId": 1081,
         "label": "落日長靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "散發著令人絕望氣息的尊貴長靴",
+        "subcategory": 4,
+        "description": "散髮著令人絕望氣息的尊貴長靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37493,8 +37495,8 @@ exports.data = [
         "classId": 1082,
         "label": "落日長靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "散發著令人絕望氣息的尊貴長靴",
+        "subcategory": 4,
+        "description": "散髮著令人絕望氣息的尊貴長靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37542,8 +37544,8 @@ exports.data = [
         "classId": 1083,
         "label": "縛龍長靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "巨龍環繞著這雙長靴，洶湧磅礴的魔力令人目不能視",
+        "subcategory": 4,
+        "description": "巨龍環繞著這雙長靴，洶湧磅礡的魔力令人目不能視",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37590,8 +37592,8 @@ exports.data = [
         "classId": 1084,
         "label": "縛龍長靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "巨龍環繞著這雙長靴，洶湧磅礴的魔力令人目不能視",
+        "subcategory": 4,
+        "description": "巨龍環繞著這雙長靴，洶湧磅礡的魔力令人目不能視",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37638,8 +37640,8 @@ exports.data = [
         "classId": 1085,
         "label": "縛龍長靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "巨龍環繞著這雙長靴，洶湧磅礴的魔力令人目不能視",
+        "subcategory": 4,
+        "description": "巨龍環繞著這雙長靴，洶湧磅礡的魔力令人目不能視",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37686,8 +37688,8 @@ exports.data = [
         "classId": 1086,
         "label": "縛龍長靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "巨龍環繞著這雙長靴，洶湧磅礴的魔力令人目不能視",
+        "subcategory": 4,
+        "description": "巨龍環繞著這雙長靴，洶湧磅礡的魔力令人目不能視",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37734,8 +37736,8 @@ exports.data = [
         "classId": 1087,
         "label": "縛龍長靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "巨龍環繞著這雙長靴，洶湧磅礴的魔力令人目不能視",
+        "subcategory": 4,
+        "description": "巨龍環繞著這雙長靴，洶湧磅礡的魔力令人目不能視",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37782,8 +37784,8 @@ exports.data = [
         "classId": 1088,
         "label": "縛龍長靴",
         "category": 1,
-        "subcategory": 5,
-        "description": "巨龍環繞著這雙長靴，洶湧磅礴的魔力令人目不能視",
+        "subcategory": 4,
+        "description": "巨龍環繞著這雙長靴，洶湧磅礡的魔力令人目不能視",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37828,7 +37830,7 @@ exports.data = [
         "classId": 1089,
         "label": "奧術法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "尊貴的魔導師身份的象徵",
         "effectf": [
             {
@@ -37891,7 +37893,7 @@ exports.data = [
         "classId": 1090,
         "label": "奧術法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "尊貴的魔導師身份的象徵",
         "effectf": [
             {
@@ -37956,7 +37958,7 @@ exports.data = [
         "classId": 1091,
         "label": "奧術法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "尊貴的魔導師身份的象徵",
         "effectf": [
             {
@@ -38021,7 +38023,7 @@ exports.data = [
         "classId": 1092,
         "label": "奧術法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "尊貴的魔導師身份的象徵",
         "effectf": [
             {
@@ -38086,7 +38088,7 @@ exports.data = [
         "classId": 1093,
         "label": "奧術法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "尊貴的魔導師身份的象徵",
         "effectf": [
             {
@@ -38151,7 +38153,7 @@ exports.data = [
         "classId": 1094,
         "label": "奧術法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "尊貴的魔導師身份的象徵",
         "effectf": [
             {
@@ -38215,7 +38217,7 @@ exports.data = [
         "classId": 1095,
         "label": "燃靈法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "能讓人感受到熾熱氣息的法袍",
         "effectf": [
             {
@@ -38278,7 +38280,7 @@ exports.data = [
         "classId": 1096,
         "label": "燃靈法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "能讓人感受到熾熱氣息的法袍",
         "effectf": [
             {
@@ -38343,7 +38345,7 @@ exports.data = [
         "classId": 1097,
         "label": "燃靈法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "能讓人感受到熾熱氣息的法袍",
         "effectf": [
             {
@@ -38408,7 +38410,7 @@ exports.data = [
         "classId": 1098,
         "label": "燃靈法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "能讓人感受到熾熱氣息的法袍",
         "effectf": [
             {
@@ -38473,7 +38475,7 @@ exports.data = [
         "classId": 1099,
         "label": "燃靈法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "能讓人感受到熾熱氣息的法袍",
         "effectf": [
             {
@@ -38538,7 +38540,7 @@ exports.data = [
         "classId": 1100,
         "label": "燃靈法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "能讓人感受到熾熱氣息的法袍",
         "effectf": [
             {
@@ -38602,7 +38604,7 @@ exports.data = [
         "classId": 1101,
         "label": "湮滅法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "採用冥界材料製造而成的法袍,毀滅是它的主題",
         "effectf": [
             {
@@ -38665,7 +38667,7 @@ exports.data = [
         "classId": 1102,
         "label": "湮滅法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "採用冥界材料製造而成的法袍,毀滅是它的主題",
         "effectf": [
             {
@@ -38730,7 +38732,7 @@ exports.data = [
         "classId": 1103,
         "label": "湮滅法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "採用冥界材料製造而成的法袍,毀滅是它的主題",
         "effectf": [
             {
@@ -38795,7 +38797,7 @@ exports.data = [
         "classId": 1104,
         "label": "湮滅法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "採用冥界材料製造而成的法袍,毀滅是它的主題",
         "effectf": [
             {
@@ -38860,7 +38862,7 @@ exports.data = [
         "classId": 1105,
         "label": "湮滅法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "採用冥界材料製造而成的法袍,毀滅是它的主題",
         "effectf": [
             {
@@ -38925,7 +38927,7 @@ exports.data = [
         "classId": 1106,
         "label": "湮滅法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "採用冥界材料製造而成的法袍,毀滅是它的主題",
         "effectf": [
             {
@@ -38989,7 +38991,7 @@ exports.data = [
         "classId": 1107,
         "label": "落日法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "神秘的布料製作，帶著落日熔金般的奪目光輝",
         "effectf": [
             {
@@ -39052,7 +39054,7 @@ exports.data = [
         "classId": 1108,
         "label": "落日法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "神秘的布料製作，帶著落日熔金般的奪目光輝",
         "effectf": [
             {
@@ -39117,7 +39119,7 @@ exports.data = [
         "classId": 1109,
         "label": "落日法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "神秘的布料製作，帶著落日熔金般的奪目光輝",
         "effectf": [
             {
@@ -39182,7 +39184,7 @@ exports.data = [
         "classId": 1110,
         "label": "落日法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "神秘的布料製作，帶著落日熔金般的奪目光輝",
         "effectf": [
             {
@@ -39247,7 +39249,7 @@ exports.data = [
         "classId": 1111,
         "label": "落日法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "神秘的布料製作，帶著落日熔金般的奪目光輝",
         "effectf": [
             {
@@ -39312,7 +39314,7 @@ exports.data = [
         "classId": 1112,
         "label": "落日法袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "神秘的布料製作，帶著落日熔金般的奪目光輝",
         "effectf": [
             {
@@ -39376,7 +39378,7 @@ exports.data = [
         "classId": 1113,
         "label": "龍炎守護",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "穿戴者有如龍炎繞體，震懾人心",
         "effectf": [
             {
@@ -39439,7 +39441,7 @@ exports.data = [
         "classId": 1114,
         "label": "龍炎守護",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "穿戴者有如龍炎繞體，震懾人心",
         "effectf": [
             {
@@ -39502,7 +39504,7 @@ exports.data = [
         "classId": 1115,
         "label": "龍炎守護",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "穿戴者有如龍炎繞體，震懾人心",
         "effectf": [
             {
@@ -39565,7 +39567,7 @@ exports.data = [
         "classId": 1116,
         "label": "龍炎守護",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "穿戴者有如龍炎繞體，震懾人心",
         "effectf": [
             {
@@ -39628,7 +39630,7 @@ exports.data = [
         "classId": 1117,
         "label": "龍炎守護",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "穿戴者有如龍炎繞體，震懾人心",
         "effectf": [
             {
@@ -39691,7 +39693,7 @@ exports.data = [
         "classId": 1118,
         "label": "龍炎守護",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "穿戴者有如龍炎繞體，震懾人心",
         "effectf": [
             {
@@ -39752,7 +39754,7 @@ exports.data = [
         "classId": 1119,
         "label": "奧術之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "能凝聚魔力的小精靈",
         "effectf": [
             {
@@ -39790,7 +39792,7 @@ exports.data = [
         "classId": 1120,
         "label": "奧術之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "能凝聚魔力的小精靈",
         "effectf": [
             {
@@ -39830,7 +39832,7 @@ exports.data = [
         "classId": 1121,
         "label": "奧術之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "能凝聚魔力的小精靈",
         "effectf": [
             {
@@ -39870,7 +39872,7 @@ exports.data = [
         "classId": 1122,
         "label": "奧術之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "能凝聚魔力的小精靈",
         "effectf": [
             {
@@ -39910,7 +39912,7 @@ exports.data = [
         "classId": 1123,
         "label": "奧術之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "能凝聚魔力的小精靈",
         "effectf": [
             {
@@ -39950,7 +39952,7 @@ exports.data = [
         "classId": 1124,
         "label": "奧術之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "能凝聚魔力的小精靈",
         "effectf": [
             {
@@ -39989,7 +39991,7 @@ exports.data = [
         "classId": 1125,
         "label": "燃靈之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "熾熱火焰凝聚而成的精靈",
         "effectf": [
             {
@@ -40027,7 +40029,7 @@ exports.data = [
         "classId": 1126,
         "label": "燃靈之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "熾熱火焰凝聚而成的精靈",
         "effectf": [
             {
@@ -40067,7 +40069,7 @@ exports.data = [
         "classId": 1127,
         "label": "燃靈之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "熾熱火焰凝聚而成的精靈",
         "effectf": [
             {
@@ -40107,7 +40109,7 @@ exports.data = [
         "classId": 1128,
         "label": "燃靈之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "熾熱火焰凝聚而成的精靈",
         "effectf": [
             {
@@ -40147,7 +40149,7 @@ exports.data = [
         "classId": 1129,
         "label": "燃靈之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "熾熱火焰凝聚而成的精靈",
         "effectf": [
             {
@@ -40187,7 +40189,7 @@ exports.data = [
         "classId": 1130,
         "label": "燃靈之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "熾熱火焰凝聚而成的精靈",
         "effectf": [
             {
@@ -40226,7 +40228,7 @@ exports.data = [
         "classId": 1131,
         "label": "湮滅之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "破壞力驚人的毀滅之靈",
         "effectf": [
             {
@@ -40264,7 +40266,7 @@ exports.data = [
         "classId": 1132,
         "label": "湮滅之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "破壞力驚人的毀滅之靈",
         "effectf": [
             {
@@ -40304,7 +40306,7 @@ exports.data = [
         "classId": 1133,
         "label": "湮滅之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "破壞力驚人的毀滅之靈",
         "effectf": [
             {
@@ -40344,7 +40346,7 @@ exports.data = [
         "classId": 1134,
         "label": "湮滅之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "破壞力驚人的毀滅之靈",
         "effectf": [
             {
@@ -40384,7 +40386,7 @@ exports.data = [
         "classId": 1135,
         "label": "湮滅之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "破壞力驚人的毀滅之靈",
         "effectf": [
             {
@@ -40424,7 +40426,7 @@ exports.data = [
         "classId": 1136,
         "label": "湮滅之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "破壞力驚人的毀滅之靈",
         "effectf": [
             {
@@ -40463,7 +40465,7 @@ exports.data = [
         "classId": 1137,
         "label": "落日之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "吟唱著恐怖禁咒的隕日之靈",
         "effectf": [
             {
@@ -40501,7 +40503,7 @@ exports.data = [
         "classId": 1138,
         "label": "落日之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "吟唱著恐怖禁咒的隕日之靈",
         "effectf": [
             {
@@ -40541,7 +40543,7 @@ exports.data = [
         "classId": 1139,
         "label": "落日之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "吟唱著恐怖禁咒的隕日之靈",
         "effectf": [
             {
@@ -40581,7 +40583,7 @@ exports.data = [
         "classId": 1140,
         "label": "落日之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "吟唱著恐怖禁咒的隕日之靈",
         "effectf": [
             {
@@ -40621,7 +40623,7 @@ exports.data = [
         "classId": 1141,
         "label": "落日之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "吟唱著恐怖禁咒的隕日之靈",
         "effectf": [
             {
@@ -40661,7 +40663,7 @@ exports.data = [
         "classId": 1142,
         "label": "落日之魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "吟唱著恐怖禁咒的隕日之靈",
         "effectf": [
             {
@@ -40700,7 +40702,7 @@ exports.data = [
         "classId": 1143,
         "label": "龍靈戰魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "巨龍亡靈所化，你甚至能聽見憤怒的咆哮",
         "effectf": [
             {
@@ -40738,7 +40740,7 @@ exports.data = [
         "classId": 1144,
         "label": "龍靈戰魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "巨龍亡靈所化，你甚至能聽見憤怒的咆哮",
         "effectf": [
             {
@@ -40776,7 +40778,7 @@ exports.data = [
         "classId": 1145,
         "label": "龍靈戰魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "巨龍亡靈所化，你甚至能聽見憤怒的咆哮",
         "effectf": [
             {
@@ -40814,7 +40816,7 @@ exports.data = [
         "classId": 1146,
         "label": "龍靈戰魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "巨龍亡靈所化，你甚至能聽見憤怒的咆哮",
         "effectf": [
             {
@@ -40852,7 +40854,7 @@ exports.data = [
         "classId": 1147,
         "label": "龍靈戰魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "巨龍亡靈所化，你甚至能聽見憤怒的咆哮",
         "effectf": [
             {
@@ -40890,7 +40892,7 @@ exports.data = [
         "classId": 1148,
         "label": "龍靈戰魂",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "巨龍亡靈所化，你甚至能聽見憤怒的咆哮",
         "effectf": [
             {
@@ -40926,7 +40928,7 @@ exports.data = [
         "classId": 1149,
         "label": "奧術法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "蘊含魔法奧義的精巧法杖",
         "effectf": [
             {
@@ -40965,7 +40967,7 @@ exports.data = [
         "classId": 1150,
         "label": "奧術法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "蘊含魔法奧義的精巧法杖",
         "effectf": [
             {
@@ -41006,7 +41008,7 @@ exports.data = [
         "classId": 1151,
         "label": "奧術法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "蘊含魔法奧義的精巧法杖",
         "effectf": [
             {
@@ -41047,7 +41049,7 @@ exports.data = [
         "classId": 1152,
         "label": "奧術法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "蘊含魔法奧義的精巧法杖",
         "effectf": [
             {
@@ -41088,7 +41090,7 @@ exports.data = [
         "classId": 1153,
         "label": "奧術法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "蘊含魔法奧義的精巧法杖",
         "effectf": [
             {
@@ -41129,7 +41131,7 @@ exports.data = [
         "classId": 1154,
         "label": "奧術法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "蘊含魔法奧義的精巧法杖",
         "effectf": [
             {
@@ -41169,7 +41171,7 @@ exports.data = [
         "classId": 1155,
         "label": "燃靈法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "能將魔力燃燒的精緻法杖",
         "effectf": [
             {
@@ -41208,7 +41210,7 @@ exports.data = [
         "classId": 1156,
         "label": "燃靈法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "能將魔力燃燒的精緻法杖",
         "effectf": [
             {
@@ -41249,7 +41251,7 @@ exports.data = [
         "classId": 1157,
         "label": "燃靈法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "能將魔力燃燒的精緻法杖",
         "effectf": [
             {
@@ -41290,7 +41292,7 @@ exports.data = [
         "classId": 1158,
         "label": "燃靈法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "能將魔力燃燒的精緻法杖",
         "effectf": [
             {
@@ -41331,7 +41333,7 @@ exports.data = [
         "classId": 1159,
         "label": "燃靈法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "能將魔力燃燒的精緻法杖",
         "effectf": [
             {
@@ -41372,7 +41374,7 @@ exports.data = [
         "classId": 1160,
         "label": "燃靈法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "能將魔力燃燒的精緻法杖",
         "effectf": [
             {
@@ -41412,7 +41414,7 @@ exports.data = [
         "classId": 1161,
         "label": "湮滅法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "附有冥界之力的魔杖，能釋放毀滅之光",
         "effectf": [
             {
@@ -41451,7 +41453,7 @@ exports.data = [
         "classId": 1162,
         "label": "湮滅法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "附有冥界之力的魔杖，能釋放毀滅之光",
         "effectf": [
             {
@@ -41492,7 +41494,7 @@ exports.data = [
         "classId": 1163,
         "label": "湮滅法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "附有冥界之力的魔杖，能釋放毀滅之光",
         "effectf": [
             {
@@ -41533,7 +41535,7 @@ exports.data = [
         "classId": 1164,
         "label": "湮滅法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "附有冥界之力的魔杖，能釋放毀滅之光",
         "effectf": [
             {
@@ -41574,7 +41576,7 @@ exports.data = [
         "classId": 1165,
         "label": "湮滅法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "附有冥界之力的魔杖，能釋放毀滅之光",
         "effectf": [
             {
@@ -41615,7 +41617,7 @@ exports.data = [
         "classId": 1166,
         "label": "湮滅法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "附有冥界之力的魔杖，能釋放毀滅之光",
         "effectf": [
             {
@@ -41655,7 +41657,7 @@ exports.data = [
         "classId": 1167,
         "label": "落日法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "罕見的傳世古杖，蘊含深不可測的魔力",
         "effectf": [
             {
@@ -41694,7 +41696,7 @@ exports.data = [
         "classId": 1168,
         "label": "落日法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "罕見的傳世古杖，蘊含深不可測的魔力",
         "effectf": [
             {
@@ -41735,7 +41737,7 @@ exports.data = [
         "classId": 1169,
         "label": "落日法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "罕見的傳世古杖，蘊含深不可測的魔力",
         "effectf": [
             {
@@ -41776,7 +41778,7 @@ exports.data = [
         "classId": 1170,
         "label": "落日法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "罕見的傳世古杖，蘊含深不可測的魔力",
         "effectf": [
             {
@@ -41817,7 +41819,7 @@ exports.data = [
         "classId": 1171,
         "label": "落日法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "罕見的傳世古杖，蘊含深不可測的魔力",
         "effectf": [
             {
@@ -41858,7 +41860,7 @@ exports.data = [
         "classId": 1172,
         "label": "落日法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "罕見的傳世古杖，蘊含深不可測的魔力",
         "effectf": [
             {
@@ -41898,7 +41900,7 @@ exports.data = [
         "classId": 1173,
         "label": "縛龍法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "封印著巨龍之力的法杖，擁有神秘的外觀和極致的魔力",
         "effectf": [
             {
@@ -41937,7 +41939,7 @@ exports.data = [
         "classId": 1174,
         "label": "縛龍法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "封印著巨龍之力的法杖，擁有神秘的外觀和極致的魔力",
         "effectf": [
             {
@@ -41976,7 +41978,7 @@ exports.data = [
         "classId": 1175,
         "label": "縛龍法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "封印著巨龍之力的法杖，擁有神秘的外觀和極致的魔力",
         "effectf": [
             {
@@ -42015,7 +42017,7 @@ exports.data = [
         "classId": 1176,
         "label": "縛龍法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "封印著巨龍之力的法杖，擁有神秘的外觀和極致的魔力",
         "effectf": [
             {
@@ -42054,7 +42056,7 @@ exports.data = [
         "classId": 1177,
         "label": "縛龍法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "封印著巨龍之力的法杖，擁有神秘的外觀和極致的魔力",
         "effectf": [
             {
@@ -42093,7 +42095,7 @@ exports.data = [
         "classId": 1178,
         "label": "縛龍法杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "封印著巨龍之力的法杖，擁有神秘的外觀和極致的魔力",
         "effectf": [
             {
@@ -42944,7 +42946,7 @@ exports.data = [
         "classId": 1209,
         "label": "奧術法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "描繪著玄奧符文的法帽",
         "effectf": [
             {
@@ -42992,7 +42994,7 @@ exports.data = [
         "classId": 1210,
         "label": "奧術法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "描繪著玄奧符文的法帽",
         "effectf": [
             {
@@ -43042,7 +43044,7 @@ exports.data = [
         "classId": 1211,
         "label": "奧術法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "描繪著玄奧符文的法帽",
         "effectf": [
             {
@@ -43092,7 +43094,7 @@ exports.data = [
         "classId": 1212,
         "label": "奧術法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "描繪著玄奧符文的法帽",
         "effectf": [
             {
@@ -43142,7 +43144,7 @@ exports.data = [
         "classId": 1213,
         "label": "奧術法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "描繪著玄奧符文的法帽",
         "effectf": [
             {
@@ -43192,7 +43194,7 @@ exports.data = [
         "classId": 1214,
         "label": "奧術法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "描繪著玄奧符文的法帽",
         "effectf": [
             {
@@ -43241,7 +43243,7 @@ exports.data = [
         "classId": 1215,
         "label": "燃靈法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "蘊含火焰力量的法帽",
         "effectf": [
             {
@@ -43289,7 +43291,7 @@ exports.data = [
         "classId": 1216,
         "label": "燃靈法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "蘊含火焰力量的法帽",
         "effectf": [
             {
@@ -43339,7 +43341,7 @@ exports.data = [
         "classId": 1217,
         "label": "燃靈法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "蘊含火焰力量的法帽",
         "effectf": [
             {
@@ -43389,7 +43391,7 @@ exports.data = [
         "classId": 1218,
         "label": "燃靈法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "蘊含火焰力量的法帽",
         "effectf": [
             {
@@ -43439,7 +43441,7 @@ exports.data = [
         "classId": 1219,
         "label": "燃靈法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "蘊含火焰力量的法帽",
         "effectf": [
             {
@@ -43489,7 +43491,7 @@ exports.data = [
         "classId": 1220,
         "label": "燃靈法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "蘊含火焰力量的法帽",
         "effectf": [
             {
@@ -43538,7 +43540,7 @@ exports.data = [
         "classId": 1221,
         "label": "湮滅法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "刻畫了神秘的符文，似乎來自冥界",
         "effectf": [
             {
@@ -43586,7 +43588,7 @@ exports.data = [
         "classId": 1222,
         "label": "湮滅法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "刻畫了神秘的符文，似乎來自冥界",
         "effectf": [
             {
@@ -43636,7 +43638,7 @@ exports.data = [
         "classId": 1223,
         "label": "湮滅法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "刻畫了神秘的符文，似乎來自冥界",
         "effectf": [
             {
@@ -43686,7 +43688,7 @@ exports.data = [
         "classId": 1224,
         "label": "湮滅法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "刻畫了神秘的符文，似乎來自冥界",
         "effectf": [
             {
@@ -43736,7 +43738,7 @@ exports.data = [
         "classId": 1225,
         "label": "湮滅法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "刻畫了神秘的符文，似乎來自冥界",
         "effectf": [
             {
@@ -43786,7 +43788,7 @@ exports.data = [
         "classId": 1226,
         "label": "湮滅法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "刻畫了神秘的符文，似乎來自冥界",
         "effectf": [
             {
@@ -43835,7 +43837,7 @@ exports.data = [
         "classId": 1227,
         "label": "落日法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "高貴的魔導士之帽，蘊藏著神秘力量",
         "effectf": [
             {
@@ -43883,7 +43885,7 @@ exports.data = [
         "classId": 1228,
         "label": "落日法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "高貴的魔導士之帽，蘊藏著神秘力量",
         "effectf": [
             {
@@ -43933,7 +43935,7 @@ exports.data = [
         "classId": 1229,
         "label": "落日法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "高貴的魔導士之帽，蘊藏著神秘力量",
         "effectf": [
             {
@@ -43983,7 +43985,7 @@ exports.data = [
         "classId": 1230,
         "label": "落日法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "高貴的魔導士之帽，蘊藏著神秘力量",
         "effectf": [
             {
@@ -44033,7 +44035,7 @@ exports.data = [
         "classId": 1231,
         "label": "落日法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "高貴的魔導士之帽，蘊藏著神秘力量",
         "effectf": [
             {
@@ -44083,7 +44085,7 @@ exports.data = [
         "classId": 1232,
         "label": "落日法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "高貴的魔導士之帽，蘊藏著神秘力量",
         "effectf": [
             {
@@ -44132,7 +44134,7 @@ exports.data = [
         "classId": 1233,
         "label": "龍靈法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "華美的紋理勾勒出永恆的絢爛，給予佩戴者龍之祝福",
         "effectf": [
             {
@@ -44180,7 +44182,7 @@ exports.data = [
         "classId": 1234,
         "label": "龍靈法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "華美的紋理勾勒出永恆的絢爛，給予佩戴者龍之祝福",
         "effectf": [
             {
@@ -44228,7 +44230,7 @@ exports.data = [
         "classId": 1235,
         "label": "龍靈法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "華美的紋理勾勒出永恆的絢爛，給予佩戴者龍之祝福",
         "effectf": [
             {
@@ -44276,7 +44278,7 @@ exports.data = [
         "classId": 1236,
         "label": "龍靈法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "華美的紋理勾勒出永恆的絢爛，給予佩戴者龍之祝福",
         "effectf": [
             {
@@ -44324,7 +44326,7 @@ exports.data = [
         "classId": 1237,
         "label": "龍靈法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "華美的紋理勾勒出永恆的絢爛，給予佩戴者龍之祝福",
         "effectf": [
             {
@@ -44372,7 +44374,7 @@ exports.data = [
         "classId": 1238,
         "label": "龍靈法帽",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "華美的紋理勾勒出永恆的絢爛，給予佩戴者龍之祝福",
         "effectf": [
             {
@@ -44418,7 +44420,7 @@ exports.data = [
         "classId": 1239,
         "label": "聖徒之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "由裁縫精心製作的鞋子，看上去很舒適",
         "effectf": [
             {
@@ -44464,7 +44466,7 @@ exports.data = [
         "classId": 1240,
         "label": "聖徒之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "由裁縫精心製作的鞋子，看上去很舒適",
         "effectf": [
             {
@@ -44512,7 +44514,7 @@ exports.data = [
         "classId": 1241,
         "label": "聖徒之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "由裁縫精心製作的鞋子，看上去很舒適",
         "effectf": [
             {
@@ -44560,7 +44562,7 @@ exports.data = [
         "classId": 1242,
         "label": "聖徒之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "由裁縫精心製作的鞋子，看上去很舒適",
         "effectf": [
             {
@@ -44608,7 +44610,7 @@ exports.data = [
         "classId": 1243,
         "label": "聖徒之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "由裁縫精心製作的鞋子，看上去很舒適",
         "effectf": [
             {
@@ -44656,7 +44658,7 @@ exports.data = [
         "classId": 1244,
         "label": "聖徒之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "由裁縫精心製作的鞋子，看上去很舒適",
         "effectf": [
             {
@@ -44703,7 +44705,7 @@ exports.data = [
         "classId": 1245,
         "label": "祈求者之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "款式精美的鞋子，輕便耐用",
         "effectf": [
             {
@@ -44749,7 +44751,7 @@ exports.data = [
         "classId": 1246,
         "label": "祈求者之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "款式精美的鞋子，輕便耐用",
         "effectf": [
             {
@@ -44797,7 +44799,7 @@ exports.data = [
         "classId": 1247,
         "label": "祈求者之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "款式精美的鞋子，輕便耐用",
         "effectf": [
             {
@@ -44845,7 +44847,7 @@ exports.data = [
         "classId": 1248,
         "label": "祈求者之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "款式精美的鞋子，輕便耐用",
         "effectf": [
             {
@@ -44893,7 +44895,7 @@ exports.data = [
         "classId": 1249,
         "label": "祈求者之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "款式精美的鞋子，輕便耐用",
         "effectf": [
             {
@@ -44941,7 +44943,7 @@ exports.data = [
         "classId": 1250,
         "label": "祈求者之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "款式精美的鞋子，輕便耐用",
         "effectf": [
             {
@@ -44988,7 +44990,7 @@ exports.data = [
         "classId": 1251,
         "label": "神諭者之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "珍貴的鞋子，似乎是天神賞賜的",
         "effectf": [
             {
@@ -45034,7 +45036,7 @@ exports.data = [
         "classId": 1252,
         "label": "神諭者之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "珍貴的鞋子，似乎是天神賞賜的",
         "effectf": [
             {
@@ -45082,7 +45084,7 @@ exports.data = [
         "classId": 1253,
         "label": "神諭者之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "珍貴的鞋子，似乎是天神賞賜的",
         "effectf": [
             {
@@ -45130,7 +45132,7 @@ exports.data = [
         "classId": 1254,
         "label": "神諭者之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "珍貴的鞋子，似乎是天神賞賜的",
         "effectf": [
             {
@@ -45178,7 +45180,7 @@ exports.data = [
         "classId": 1255,
         "label": "神諭者之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "珍貴的鞋子，似乎是天神賞賜的",
         "effectf": [
             {
@@ -45226,7 +45228,7 @@ exports.data = [
         "classId": 1256,
         "label": "神諭者之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "珍貴的鞋子，似乎是天神賞賜的",
         "effectf": [
             {
@@ -45273,7 +45275,7 @@ exports.data = [
         "classId": 1257,
         "label": "神聖之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "特殊材料所製作，鞋身隱隱泛出神聖的氣息",
         "effectf": [
             {
@@ -45319,7 +45321,7 @@ exports.data = [
         "classId": 1258,
         "label": "神聖之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "特殊材料所製作，鞋身隱隱泛出神聖的氣息",
         "effectf": [
             {
@@ -45367,7 +45369,7 @@ exports.data = [
         "classId": 1259,
         "label": "神聖之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "特殊材料所製作，鞋身隱隱泛出神聖的氣息",
         "effectf": [
             {
@@ -45415,7 +45417,7 @@ exports.data = [
         "classId": 1260,
         "label": "神聖之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "特殊材料所製作，鞋身隱隱泛出神聖的氣息",
         "effectf": [
             {
@@ -45463,7 +45465,7 @@ exports.data = [
         "classId": 1261,
         "label": "神聖之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "特殊材料所製作，鞋身隱隱泛出神聖的氣息",
         "effectf": [
             {
@@ -45511,7 +45513,7 @@ exports.data = [
         "classId": 1262,
         "label": "神聖之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "特殊材料所製作，鞋身隱隱泛出神聖的氣息",
         "effectf": [
             {
@@ -45558,7 +45560,7 @@ exports.data = [
         "classId": 1263,
         "label": "光輝之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "灑下璀璨的光輝，帶領我們通往光明之路",
         "effectf": [
             {
@@ -45604,7 +45606,7 @@ exports.data = [
         "classId": 1264,
         "label": "光輝之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "灑下璀璨的光輝，帶領我們通往光明之路",
         "effectf": [
             {
@@ -45650,7 +45652,7 @@ exports.data = [
         "classId": 1265,
         "label": "光輝之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "灑下璀璨的光輝，帶領我們通往光明之路",
         "effectf": [
             {
@@ -45696,7 +45698,7 @@ exports.data = [
         "classId": 1266,
         "label": "光輝之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "灑下璀璨的光輝，帶領我們通往光明之路",
         "effectf": [
             {
@@ -45742,7 +45744,7 @@ exports.data = [
         "classId": 1267,
         "label": "光輝之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "灑下璀璨的光輝，帶領我們通往光明之路",
         "effectf": [
             {
@@ -45788,7 +45790,7 @@ exports.data = [
         "classId": 1268,
         "label": "光輝之鞋",
         "category": 1,
-        "subcategory": 5,
+        "subcategory": 4,
         "description": "灑下璀璨的光輝，帶領我們通往光明之路",
         "effectf": [
             {
@@ -45832,7 +45834,7 @@ exports.data = [
         "classId": 1269,
         "label": "聖徒長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "聖潔的白色外衣",
         "effectf": [
             {
@@ -45895,7 +45897,7 @@ exports.data = [
         "classId": 1270,
         "label": "聖徒長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "聖潔的白色外衣",
         "effectf": [
             {
@@ -45960,7 +45962,7 @@ exports.data = [
         "classId": 1271,
         "label": "聖徒長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "聖潔的白色外衣",
         "effectf": [
             {
@@ -46025,7 +46027,7 @@ exports.data = [
         "classId": 1272,
         "label": "聖徒長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "聖潔的白色外衣",
         "effectf": [
             {
@@ -46090,7 +46092,7 @@ exports.data = [
         "classId": 1273,
         "label": "聖徒長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "聖潔的白色外衣",
         "effectf": [
             {
@@ -46155,7 +46157,7 @@ exports.data = [
         "classId": 1274,
         "label": "聖徒長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "聖潔的白色外衣",
         "effectf": [
             {
@@ -46219,7 +46221,7 @@ exports.data = [
         "classId": 1275,
         "label": "祈求者長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "昂貴的真絲所織成的華美長袍",
         "effectf": [
             {
@@ -46282,7 +46284,7 @@ exports.data = [
         "classId": 1276,
         "label": "祈求者長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "昂貴的真絲所織成的華美長袍",
         "effectf": [
             {
@@ -46347,7 +46349,7 @@ exports.data = [
         "classId": 1277,
         "label": "祈求者長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "昂貴的真絲所織成的華美長袍",
         "effectf": [
             {
@@ -46412,7 +46414,7 @@ exports.data = [
         "classId": 1278,
         "label": "祈求者長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "昂貴的真絲所織成的華美長袍",
         "effectf": [
             {
@@ -46477,7 +46479,7 @@ exports.data = [
         "classId": 1279,
         "label": "祈求者長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "昂貴的真絲所織成的華美長袍",
         "effectf": [
             {
@@ -46542,7 +46544,7 @@ exports.data = [
         "classId": 1280,
         "label": "祈求者長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "昂貴的真絲所織成的華美長袍",
         "effectf": [
             {
@@ -46606,7 +46608,7 @@ exports.data = [
         "classId": 1281,
         "label": "神諭者長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
@@ -46669,7 +46671,7 @@ exports.data = [
         "classId": 1282,
         "label": "神諭者長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
@@ -46734,7 +46736,7 @@ exports.data = [
         "classId": 1283,
         "label": "神諭者長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
@@ -46799,7 +46801,7 @@ exports.data = [
         "classId": 1284,
         "label": "神諭者長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
@@ -46864,7 +46866,7 @@ exports.data = [
         "classId": 1285,
         "label": "神諭者長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
@@ -46929,7 +46931,7 @@ exports.data = [
         "classId": 1286,
         "label": "神諭者長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
@@ -46993,7 +46995,7 @@ exports.data = [
         "classId": 1287,
         "label": "神聖長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "高貴的長袍，神聖不可侵犯",
         "effectf": [
             {
@@ -47056,7 +47058,7 @@ exports.data = [
         "classId": 1288,
         "label": "神聖長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "高貴的長袍，神聖不可侵犯",
         "effectf": [
             {
@@ -47121,7 +47123,7 @@ exports.data = [
         "classId": 1289,
         "label": "神聖長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "高貴的長袍，神聖不可侵犯",
         "effectf": [
             {
@@ -47186,7 +47188,7 @@ exports.data = [
         "classId": 1290,
         "label": "神聖長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "高貴的長袍，神聖不可侵犯",
         "effectf": [
             {
@@ -47251,7 +47253,7 @@ exports.data = [
         "classId": 1291,
         "label": "神聖長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "高貴的長袍，神聖不可侵犯",
         "effectf": [
             {
@@ -47316,7 +47318,7 @@ exports.data = [
         "classId": 1292,
         "label": "神聖長袍",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "高貴的長袍，神聖不可侵犯",
         "effectf": [
             {
@@ -47380,7 +47382,7 @@ exports.data = [
         "classId": 1293,
         "label": "光輝聖衣",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "永恆不朽的聖衣，受到星辰之光的加持",
         "effectf": [
             {
@@ -47443,7 +47445,7 @@ exports.data = [
         "classId": 1294,
         "label": "光輝聖衣",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "永恆不朽的聖衣，受到星辰之光的加持",
         "effectf": [
             {
@@ -47506,7 +47508,7 @@ exports.data = [
         "classId": 1295,
         "label": "光輝聖衣",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "永恆不朽的聖衣，受到星辰之光的加持",
         "effectf": [
             {
@@ -47569,7 +47571,7 @@ exports.data = [
         "classId": 1296,
         "label": "光輝聖衣",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "永恆不朽的聖衣，受到星辰之光的加持",
         "effectf": [
             {
@@ -47632,7 +47634,7 @@ exports.data = [
         "classId": 1297,
         "label": "光輝聖衣",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "永恆不朽的聖衣，受到星辰之光的加持",
         "effectf": [
             {
@@ -47695,7 +47697,7 @@ exports.data = [
         "classId": 1298,
         "label": "光輝聖衣",
         "category": 1,
-        "subcategory": 1,
+        "subcategory": 2,
         "description": "永恆不朽的聖衣，受到星辰之光的加持",
         "effectf": [
             {
@@ -47756,7 +47758,7 @@ exports.data = [
         "classId": 1299,
         "label": "聖徒寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "能夠治癒傷痛的寶典",
         "effectf": [
             {
@@ -47804,7 +47806,7 @@ exports.data = [
         "classId": 1300,
         "label": "聖徒寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "能夠治癒傷痛的寶典",
         "effectf": [
             {
@@ -47854,7 +47856,7 @@ exports.data = [
         "classId": 1301,
         "label": "聖徒寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "能夠治癒傷痛的寶典",
         "effectf": [
             {
@@ -47904,7 +47906,7 @@ exports.data = [
         "classId": 1302,
         "label": "聖徒寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "能夠治癒傷痛的寶典",
         "effectf": [
             {
@@ -47954,7 +47956,7 @@ exports.data = [
         "classId": 1303,
         "label": "聖徒寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "能夠治癒傷痛的寶典",
         "effectf": [
             {
@@ -48004,7 +48006,7 @@ exports.data = [
         "classId": 1304,
         "label": "聖徒寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "能夠治癒傷痛的寶典",
         "effectf": [
             {
@@ -48053,7 +48055,7 @@ exports.data = [
         "classId": 1305,
         "label": "祈求者寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "獲得祝福的寶典，讓人遠離災難與恐懼",
         "effectf": [
             {
@@ -48101,7 +48103,7 @@ exports.data = [
         "classId": 1306,
         "label": "祈求者寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "獲得祝福的寶典，讓人遠離災難與恐懼",
         "effectf": [
             {
@@ -48151,7 +48153,7 @@ exports.data = [
         "classId": 1307,
         "label": "祈求者寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "獲得祝福的寶典，讓人遠離災難與恐懼",
         "effectf": [
             {
@@ -48201,7 +48203,7 @@ exports.data = [
         "classId": 1308,
         "label": "祈求者寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "獲得祝福的寶典，讓人遠離災難與恐懼",
         "effectf": [
             {
@@ -48251,7 +48253,7 @@ exports.data = [
         "classId": 1309,
         "label": "祈求者寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "獲得祝福的寶典，讓人遠離災難與恐懼",
         "effectf": [
             {
@@ -48301,7 +48303,7 @@ exports.data = [
         "classId": 1310,
         "label": "祈求者寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "獲得祝福的寶典，讓人遠離災難與恐懼",
         "effectf": [
             {
@@ -48350,7 +48352,7 @@ exports.data = [
         "classId": 1311,
         "label": "神諭者寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "凝聚著先知無窮智慧的寶典",
         "effectf": [
             {
@@ -48398,7 +48400,7 @@ exports.data = [
         "classId": 1312,
         "label": "神諭者寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "凝聚著先知無窮智慧的寶典",
         "effectf": [
             {
@@ -48448,7 +48450,7 @@ exports.data = [
         "classId": 1313,
         "label": "神諭者寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "凝聚著先知無窮智慧的寶典",
         "effectf": [
             {
@@ -48498,7 +48500,7 @@ exports.data = [
         "classId": 1314,
         "label": "神諭者寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "凝聚著先知無窮智慧的寶典",
         "effectf": [
             {
@@ -48548,7 +48550,7 @@ exports.data = [
         "classId": 1315,
         "label": "神諭者寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "凝聚著先知無窮智慧的寶典",
         "effectf": [
             {
@@ -48598,7 +48600,7 @@ exports.data = [
         "classId": 1316,
         "label": "神諭者寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "凝聚著先知無窮智慧的寶典",
         "effectf": [
             {
@@ -48647,7 +48649,7 @@ exports.data = [
         "classId": 1317,
         "label": "神聖寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "神聖的寶典，指引世人向善",
         "effectf": [
             {
@@ -48695,7 +48697,7 @@ exports.data = [
         "classId": 1318,
         "label": "神聖寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "神聖的寶典，指引世人向善",
         "effectf": [
             {
@@ -48745,7 +48747,7 @@ exports.data = [
         "classId": 1319,
         "label": "神聖寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "神聖的寶典，指引世人向善",
         "effectf": [
             {
@@ -48795,7 +48797,7 @@ exports.data = [
         "classId": 1320,
         "label": "神聖寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "神聖的寶典，指引世人向善",
         "effectf": [
             {
@@ -48845,7 +48847,7 @@ exports.data = [
         "classId": 1321,
         "label": "神聖寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "神聖的寶典，指引世人向善",
         "effectf": [
             {
@@ -48895,7 +48897,7 @@ exports.data = [
         "classId": 1322,
         "label": "神聖寶典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "神聖的寶典，指引世人向善",
         "effectf": [
             {
@@ -48944,7 +48946,7 @@ exports.data = [
         "classId": 1323,
         "label": "命運聖典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "傳說它的光芒能夠為世人指出命運的方向",
         "effectf": [
             {
@@ -48992,7 +48994,7 @@ exports.data = [
         "classId": 1324,
         "label": "命運聖典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "傳說它的光芒能夠為世人指出命運的方向",
         "effectf": [
             {
@@ -49040,7 +49042,7 @@ exports.data = [
         "classId": 1325,
         "label": "命運聖典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "傳說它的光芒能夠為世人指出命運的方向",
         "effectf": [
             {
@@ -49088,7 +49090,7 @@ exports.data = [
         "classId": 1326,
         "label": "命運聖典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "傳說它的光芒能夠為世人指出命運的方向",
         "effectf": [
             {
@@ -49136,7 +49138,7 @@ exports.data = [
         "classId": 1327,
         "label": "命運聖典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "傳說它的光芒能夠為世人指出命運的方向",
         "effectf": [
             {
@@ -49184,7 +49186,7 @@ exports.data = [
         "classId": 1328,
         "label": "命運聖典",
         "category": 1,
-        "subcategory": 4,
+        "subcategory": 1,
         "description": "傳說它的光芒能夠為世人指出命運的方向",
         "effectf": [
             {
@@ -49230,7 +49232,7 @@ exports.data = [
         "classId": 1329,
         "label": "聖徒權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "造型簡單的權杖，擁有溫暖人心的力量",
         "effectf": [
             {
@@ -49269,7 +49271,7 @@ exports.data = [
         "classId": 1330,
         "label": "聖徒權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "造型簡單的權杖，擁有溫暖人心的力量",
         "effectf": [
             {
@@ -49310,7 +49312,7 @@ exports.data = [
         "classId": 1331,
         "label": "聖徒權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "造型簡單的權杖，擁有溫暖人心的力量",
         "effectf": [
             {
@@ -49351,7 +49353,7 @@ exports.data = [
         "classId": 1332,
         "label": "聖徒權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "造型簡單的權杖，擁有溫暖人心的力量",
         "effectf": [
             {
@@ -49392,7 +49394,7 @@ exports.data = [
         "classId": 1333,
         "label": "聖徒權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "造型簡單的權杖，擁有溫暖人心的力量",
         "effectf": [
             {
@@ -49433,7 +49435,7 @@ exports.data = [
         "classId": 1334,
         "label": "聖徒權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "造型簡單的權杖，擁有溫暖人心的力量",
         "effectf": [
             {
@@ -49473,8 +49475,8 @@ exports.data = [
         "classId": 1335,
         "label": "祈求者權杖",
         "category": 1,
-        "subcategory": 2,
-        "description": "造型別致的權杖，能激發世人對光明的嚮往",
+        "subcategory": 0,
+        "description": "造型別緻的權杖，能激發世人對光明的嚮往",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49512,8 +49514,8 @@ exports.data = [
         "classId": 1336,
         "label": "祈求者權杖",
         "category": 1,
-        "subcategory": 2,
-        "description": "造型別致的權杖，能激發世人對光明的嚮往",
+        "subcategory": 0,
+        "description": "造型別緻的權杖，能激發世人對光明的嚮往",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49553,8 +49555,8 @@ exports.data = [
         "classId": 1337,
         "label": "祈求者權杖",
         "category": 1,
-        "subcategory": 2,
-        "description": "造型別致的權杖，能激發世人對光明的嚮往",
+        "subcategory": 0,
+        "description": "造型別緻的權杖，能激發世人對光明的嚮往",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49594,8 +49596,8 @@ exports.data = [
         "classId": 1338,
         "label": "祈求者權杖",
         "category": 1,
-        "subcategory": 2,
-        "description": "造型別致的權杖，能激發世人對光明的嚮往",
+        "subcategory": 0,
+        "description": "造型別緻的權杖，能激發世人對光明的嚮往",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49635,8 +49637,8 @@ exports.data = [
         "classId": 1339,
         "label": "祈求者權杖",
         "category": 1,
-        "subcategory": 2,
-        "description": "造型別致的權杖，能激發世人對光明的嚮往",
+        "subcategory": 0,
+        "description": "造型別緻的權杖，能激發世人對光明的嚮往",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49676,8 +49678,8 @@ exports.data = [
         "classId": 1340,
         "label": "祈求者權杖",
         "category": 1,
-        "subcategory": 2,
-        "description": "造型別致的權杖，能激發世人對光明的嚮往",
+        "subcategory": 0,
+        "description": "造型別緻的權杖，能激發世人對光明的嚮往",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49716,7 +49718,7 @@ exports.data = [
         "classId": 1341,
         "label": "神諭者權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "異常華貴的權杖，象徵著權力",
         "effectf": [
             {
@@ -49755,7 +49757,7 @@ exports.data = [
         "classId": 1342,
         "label": "神諭者權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "異常華貴的權杖，象徵著權力",
         "effectf": [
             {
@@ -49796,7 +49798,7 @@ exports.data = [
         "classId": 1343,
         "label": "神諭者權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "異常華貴的權杖，象徵著權力",
         "effectf": [
             {
@@ -49837,7 +49839,7 @@ exports.data = [
         "classId": 1344,
         "label": "神諭者權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "異常華貴的權杖，象徵著權力",
         "effectf": [
             {
@@ -49878,7 +49880,7 @@ exports.data = [
         "classId": 1345,
         "label": "神諭者權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "異常華貴的權杖，象徵著權力",
         "effectf": [
             {
@@ -49919,7 +49921,7 @@ exports.data = [
         "classId": 1346,
         "label": "神諭者權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "異常華貴的權杖，象徵著權力",
         "effectf": [
             {
@@ -49959,7 +49961,7 @@ exports.data = [
         "classId": 1347,
         "label": "神聖權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "能使亡魂得到救贖的神聖權杖",
         "effectf": [
             {
@@ -49998,7 +50000,7 @@ exports.data = [
         "classId": 1348,
         "label": "神聖權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "能使亡魂得到救贖的神聖權杖",
         "effectf": [
             {
@@ -50039,7 +50041,7 @@ exports.data = [
         "classId": 1349,
         "label": "神聖權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "能使亡魂得到救贖的神聖權杖",
         "effectf": [
             {
@@ -50080,7 +50082,7 @@ exports.data = [
         "classId": 1350,
         "label": "神聖權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "能使亡魂得到救贖的神聖權杖",
         "effectf": [
             {
@@ -50121,7 +50123,7 @@ exports.data = [
         "classId": 1351,
         "label": "神聖權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "能使亡魂得到救贖的神聖權杖",
         "effectf": [
             {
@@ -50162,7 +50164,7 @@ exports.data = [
         "classId": 1352,
         "label": "神聖權杖",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "能使亡魂得到救贖的神聖權杖",
         "effectf": [
             {
@@ -50202,7 +50204,7 @@ exports.data = [
         "classId": 1353,
         "label": "生命之樹",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "飽含著生命的氣息，凝聚著強大的自然之力",
         "effectf": [
             {
@@ -50241,7 +50243,7 @@ exports.data = [
         "classId": 1354,
         "label": "生命之樹",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "飽含著生命的氣息，凝聚著強大的自然之力",
         "effectf": [
             {
@@ -50280,7 +50282,7 @@ exports.data = [
         "classId": 1355,
         "label": "生命之樹",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "飽含著生命的氣息，凝聚著強大的自然之力",
         "effectf": [
             {
@@ -50319,7 +50321,7 @@ exports.data = [
         "classId": 1356,
         "label": "生命之樹",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "飽含著生命的氣息，凝聚著強大的自然之力",
         "effectf": [
             {
@@ -50358,7 +50360,7 @@ exports.data = [
         "classId": 1357,
         "label": "生命之樹",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "飽含著生命的氣息，凝聚著強大的自然之力",
         "effectf": [
             {
@@ -50397,7 +50399,7 @@ exports.data = [
         "classId": 1358,
         "label": "生命之樹",
         "category": 1,
-        "subcategory": 2,
+        "subcategory": 0,
         "description": "飽含著生命的氣息，凝聚著強大的自然之力",
         "effectf": [
             {
@@ -50607,7 +50609,7 @@ exports.data = [
         "icon": "er023.png",
         "category": 1,
         "subcategory": 3,
-        "description": "凝聚了虔誠之力的戒指，散發出柔和的光芒",
+        "description": "凝聚了虔誠之力的戒指，散髮出柔和的光芒",
         "classLimit": [
             218
         ],
@@ -50634,7 +50636,7 @@ exports.data = [
         "icon": "er023.png",
         "category": 1,
         "subcategory": 3,
-        "description": "凝聚了虔誠之力的戒指，散發出柔和的光芒",
+        "description": "凝聚了虔誠之力的戒指，散髮出柔和的光芒",
         "classLimit": [
             218
         ],
@@ -50663,7 +50665,7 @@ exports.data = [
         "icon": "er023.png",
         "category": 1,
         "subcategory": 3,
-        "description": "凝聚了虔誠之力的戒指，散發出柔和的光芒",
+        "description": "凝聚了虔誠之力的戒指，散髮出柔和的光芒",
         "classLimit": [
             218
         ],
@@ -50692,7 +50694,7 @@ exports.data = [
         "icon": "er023.png",
         "category": 1,
         "subcategory": 3,
-        "description": "凝聚了虔誠之力的戒指，散發出柔和的光芒",
+        "description": "凝聚了虔誠之力的戒指，散髮出柔和的光芒",
         "classLimit": [
             218
         ],
@@ -50721,7 +50723,7 @@ exports.data = [
         "icon": "er023.png",
         "category": 1,
         "subcategory": 3,
-        "description": "凝聚了虔誠之力的戒指，散發出柔和的光芒",
+        "description": "凝聚了虔誠之力的戒指，散髮出柔和的光芒",
         "classLimit": [
             218
         ],
@@ -50750,7 +50752,7 @@ exports.data = [
         "icon": "er023.png",
         "category": 1,
         "subcategory": 3,
-        "description": "凝聚了虔誠之力的戒指，散發出柔和的光芒",
+        "description": "凝聚了虔誠之力的戒指，散髮出柔和的光芒",
         "classLimit": [
             218
         ],
@@ -51278,7 +51280,7 @@ exports.data = [
         "classId": 1389,
         "label": "聖徒頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "賦予佩戴者專注之力",
         "effectf": [
             {
@@ -51318,7 +51320,7 @@ exports.data = [
         "classId": 1390,
         "label": "聖徒頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "賦予佩戴者專注之力",
         "effectf": [
             {
@@ -51360,7 +51362,7 @@ exports.data = [
         "classId": 1391,
         "label": "聖徒頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "賦予佩戴者專注之力",
         "effectf": [
             {
@@ -51402,7 +51404,7 @@ exports.data = [
         "classId": 1392,
         "label": "聖徒頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "賦予佩戴者專注之力",
         "effectf": [
             {
@@ -51444,7 +51446,7 @@ exports.data = [
         "classId": 1393,
         "label": "聖徒頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "賦予佩戴者專注之力",
         "effectf": [
             {
@@ -51486,7 +51488,7 @@ exports.data = [
         "classId": 1394,
         "label": "聖徒頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "賦予佩戴者專注之力",
         "effectf": [
             {
@@ -51527,7 +51529,7 @@ exports.data = [
         "classId": 1395,
         "label": "祈求者頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "精美的頭盔，能帶來好運",
         "effectf": [
             {
@@ -51567,7 +51569,7 @@ exports.data = [
         "classId": 1396,
         "label": "祈求者頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "精美的頭盔，能帶來好運",
         "effectf": [
             {
@@ -51609,7 +51611,7 @@ exports.data = [
         "classId": 1397,
         "label": "祈求者頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "精美的頭盔，能帶來好運",
         "effectf": [
             {
@@ -51651,7 +51653,7 @@ exports.data = [
         "classId": 1398,
         "label": "祈求者頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "精美的頭盔，能帶來好運",
         "effectf": [
             {
@@ -51693,7 +51695,7 @@ exports.data = [
         "classId": 1399,
         "label": "祈求者頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "精美的頭盔，能帶來好運",
         "effectf": [
             {
@@ -51735,7 +51737,7 @@ exports.data = [
         "classId": 1400,
         "label": "祈求者頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "精美的頭盔，能帶來好運",
         "effectf": [
             {
@@ -51776,7 +51778,7 @@ exports.data = [
         "classId": 1401,
         "label": "神諭者頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "獲得神力庇護的頭盔，代表著聖潔與光明",
         "effectf": [
             {
@@ -51816,7 +51818,7 @@ exports.data = [
         "classId": 1402,
         "label": "神諭者頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "獲得神力庇護的頭盔，代表著聖潔與光明",
         "effectf": [
             {
@@ -51858,7 +51860,7 @@ exports.data = [
         "classId": 1403,
         "label": "神諭者頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "獲得神力庇護的頭盔，代表著聖潔與光明",
         "effectf": [
             {
@@ -51900,7 +51902,7 @@ exports.data = [
         "classId": 1404,
         "label": "神諭者頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "獲得神力庇護的頭盔，代表著聖潔與光明",
         "effectf": [
             {
@@ -51942,7 +51944,7 @@ exports.data = [
         "classId": 1405,
         "label": "神諭者頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "獲得神力庇護的頭盔，代表著聖潔與光明",
         "effectf": [
             {
@@ -51984,7 +51986,7 @@ exports.data = [
         "classId": 1406,
         "label": "神諭者頭冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "獲得神力庇護的頭盔，代表著聖潔與光明",
         "effectf": [
             {
@@ -52025,8 +52027,8 @@ exports.data = [
         "classId": 1407,
         "label": "神聖頭冠",
         "category": 1,
-        "subcategory": 0,
-        "description": "散發著聖潔的光輝，能驅散一切邪惡的力量",
+        "subcategory": 5,
+        "description": "散髮著聖潔的光輝，能驅散一切邪惡的力量",
         "effectf": [
             {
                 "part": "helmet",
@@ -52065,8 +52067,8 @@ exports.data = [
         "classId": 1408,
         "label": "神聖頭冠",
         "category": 1,
-        "subcategory": 0,
-        "description": "散發著聖潔的光輝，能驅散一切邪惡的力量",
+        "subcategory": 5,
+        "description": "散髮著聖潔的光輝，能驅散一切邪惡的力量",
         "effectf": [
             {
                 "part": "helmet",
@@ -52107,8 +52109,8 @@ exports.data = [
         "classId": 1409,
         "label": "神聖頭冠",
         "category": 1,
-        "subcategory": 0,
-        "description": "散發著聖潔的光輝，能驅散一切邪惡的力量",
+        "subcategory": 5,
+        "description": "散髮著聖潔的光輝，能驅散一切邪惡的力量",
         "effectf": [
             {
                 "part": "helmet",
@@ -52149,8 +52151,8 @@ exports.data = [
         "classId": 1410,
         "label": "神聖頭冠",
         "category": 1,
-        "subcategory": 0,
-        "description": "散發著聖潔的光輝，能驅散一切邪惡的力量",
+        "subcategory": 5,
+        "description": "散髮著聖潔的光輝，能驅散一切邪惡的力量",
         "effectf": [
             {
                 "part": "helmet",
@@ -52191,8 +52193,8 @@ exports.data = [
         "classId": 1411,
         "label": "神聖頭冠",
         "category": 1,
-        "subcategory": 0,
-        "description": "散發著聖潔的光輝，能驅散一切邪惡的力量",
+        "subcategory": 5,
+        "description": "散髮著聖潔的光輝，能驅散一切邪惡的力量",
         "effectf": [
             {
                 "part": "helmet",
@@ -52233,8 +52235,8 @@ exports.data = [
         "classId": 1412,
         "label": "神聖頭冠",
         "category": 1,
-        "subcategory": 0,
-        "description": "散發著聖潔的光輝，能驅散一切邪惡的力量",
+        "subcategory": 5,
+        "description": "散髮著聖潔的光輝，能驅散一切邪惡的力量",
         "effectf": [
             {
                 "part": "helmet",
@@ -52274,7 +52276,7 @@ exports.data = [
         "classId": 1413,
         "label": "黎明聖冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "鑲嵌著晶瑩的印記，指引我們搜尋黎明裡第一道曙光",
         "effectf": [
             {
@@ -52314,7 +52316,7 @@ exports.data = [
         "classId": 1414,
         "label": "黎明聖冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "鑲嵌著晶瑩的印記，指引我們搜尋黎明裡第一道曙光",
         "effectf": [
             {
@@ -52354,7 +52356,7 @@ exports.data = [
         "classId": 1415,
         "label": "黎明聖冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "鑲嵌著晶瑩的印記，指引我們搜尋黎明裡第一道曙光",
         "effectf": [
             {
@@ -52394,7 +52396,7 @@ exports.data = [
         "classId": 1416,
         "label": "黎明聖冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "鑲嵌著晶瑩的印記，指引我們搜尋黎明裡第一道曙光",
         "effectf": [
             {
@@ -52434,7 +52436,7 @@ exports.data = [
         "classId": 1417,
         "label": "黎明聖冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "鑲嵌著晶瑩的印記，指引我們搜尋黎明裡第一道曙光",
         "effectf": [
             {
@@ -52474,7 +52476,7 @@ exports.data = [
         "classId": 1418,
         "label": "黎明聖冠",
         "category": 1,
-        "subcategory": 0,
+        "subcategory": 5,
         "description": "鑲嵌著晶瑩的印記，指引我們搜尋黎明裡第一道曙光",
         "effectf": [
             {
@@ -52598,7 +52600,7 @@ exports.data = [
     },
     {
         "classId": 1427,
-        "label": "生銹銅戒",
+        "label": "生鏽銅戒",
         "icon": "item-sc9.png",
         "category": 2,
         "subcategory": 0,
@@ -52646,7 +52648,7 @@ exports.data = [
         "icon": "item-sc13.png",
         "category": 2,
         "subcategory": 0,
-        "description": "散發著清新的草木氣息的晶石",
+        "description": "散髮著清新的草木氣息的晶石",
         "stack": 99,
         "sellprice": 650,
         "quality": 1
@@ -52664,11 +52666,11 @@ exports.data = [
     },
     {
         "classId": 1433,
-        "label": "強化卷軸",
+        "label": "強化捲軸",
         "icon": "item-sc15.png",
         "category": 2,
         "subcategory": 0,
-        "description": "可以對裝備進行強化的卷軸",
+        "description": "可以對裝備進行強化的捲軸",
         "stack": 99,
         "sellprice": 650,
         "quality": 1
@@ -52778,7 +52780,7 @@ exports.data = [
         "icon": "item-sc25.png",
         "category": 2,
         "subcategory": 0,
-        "description": "經過千錘百煉後的金屬塊，十分優良的鍛造材料",
+        "description": "經過千錘百鍊後的金屬塊，十分優良的鍛造材料",
         "stack": 99,
         "sellprice": 850,
         "quality": 2
@@ -52939,7 +52941,7 @@ exports.data = [
     },
     {
         "classId": 1458,
-        "label": "潘朵拉魔盒",
+        "label": "潘多拉魔盒",
         "icon": "item-sc40.png",
         "category": 2,
         "subcategory": 0,
@@ -53053,7 +53055,7 @@ exports.data = [
         "icon": "item-sc50.png",
         "category": 2,
         "subcategory": 0,
-        "description": "散發著可怕氣息的珠子，據說是惡魔的眼珠",
+        "description": "散髮著可怕氣息的珠子，據說是惡魔的眼珠",
         "stack": 99,
         "sellprice": 1050,
         "quality": 3
@@ -53131,34 +53133,340 @@ exports.data = [
     },
     {
         "classId": 1475,
-        "label": "鋼鐵碎片",
-        "icon": "stone9.png",
-        "category": 2,
+        "label": "X碎片",
+        "iconf": "rfasion-female-ironsuit-sp.png",
+        "iconm": "rfasion-male-ironsuit-sp.png",
+        "category": 0,
         "subcategory": 1,
-        "description": "能過合成鋼鐵套裝的碎片",
+        "description": "神秘合金碎片，可以通過X圖紙合成時裝",
         "stack": 99,
         "sellprice": 500,
-        "quality": 1
+        "quality": 3
     },
     {
         "classId": 1476,
-        "label": "頭飾圖紙",
-        "icon": "pmage-subweapon4.png",
-        "category": 2,
+        "label": "X頭盔圖紙",
+        "iconf": "rfasion-female-ironsuit-helmet-tz.png",
+        "iconm": "rfasion-male-ironsuit-helmet-tz.png",
+        "category": 3,
         "subcategory": 0,
-        "description": "能合成頭飾的圖紙",
+        "description": "能合成X頭盔的圖紙，需要15個X碎片",
         "sellprice": 15,
-        "quality": 1,
+        "quality": 4,
         "recipeTarget": 1477,
         "recipeCost": 84
     },
     {
         "classId": 1477,
-        "label": "頭飾",
+        "label": "X頭盔",
         "category": 1,
         "subcategory": 13,
         "suitId": 1,
-        "description": "注重禮儀，設計考究的頭飾。",
+        "description": "由神秘合金配合頂尖黑科技打造而成的套裝，擁有難以置信的力量。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+400 攻擊+15  韌性+5\n" +
+                       "2件：生命+950 攻擊+50 暴擊+20\n" +
+                       " 　　韌性+65 命中+40\n" +
+                       " 　　特殊技能：加特林掃射\n" +
+                       "3件：生命+1750 攻擊+115 暴擊+50\n" +
+                       " 　　韌性+145 命中+85\n" +
+                       "4件：生命+3250 攻擊+265 暴擊+110\n" +
+                       " 　　韌性+285 命中+185 \n" +
+                       " 　　特殊技能：脈衝光束炮\n",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ironsuit-female-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "ironsuit-male-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 4,
+        "iconf": "rfasion-female-ironsuit-helmet.png",
+        "iconm": "rfasion-male-ironsuit-helmet.png",
+        "recipePrize": 207
+    },
+    {
+        "classId": 1478,
+        "label": "X胸甲圖紙",
+        "iconf": "rfasion-female-ironsuit-chest-tz.png",
+        "iconm": "rfasion-male-ironsuit-chest-tz.png",
+        "category": 3,
+        "subcategory": 0,
+        "description": "能合成X胸甲的圖紙，需要10個X碎片",
+        "sellprice": 15,
+        "quality": 4,
+        "recipeTarget": 1479,
+        "recipeCost": 85
+    },
+    {
+        "classId": 1479,
+        "label": "X胸甲",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "suitId": 1,
+        "description": "由神秘合金配合頂尖黑科技打造而成的套裝，擁有難以置信的力量。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+400 攻擊+15  韌性+5\n" +
+                       "2件：生命+950 攻擊+50 暴擊+20\n" +
+                       " 　　韌性+65 命中+40\n" +
+                       " 　　特殊技能：加特林掃射\n" +
+                       "3件：生命+1750 攻擊+115 暴擊+50\n" +
+                       " 　　韌性+145 命中+85\n" +
+                       "4件：生命+3250 攻擊+265 暴擊+110\n" +
+                       " 　　韌性+285 命中+185 \n" +
+                       " 　　特殊技能：脈衝光束炮\n",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ironsuit-female-chest.ccbi"
+            },
+            {
+                "part": "ironjet-left",
+                "file": "ironsuit-jet.ccbi"
+            },
+            {
+                "part": "ironjet-right",
+                "file": "ironsuit-jet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "ironsuit-male-chest.ccbi"
+            },
+            {
+                "part": "ironjet-left",
+                "file": "ironsuit-jet.ccbi"
+            },
+            {
+                "part": "ironjet-right",
+                "file": "ironsuit-jet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 4,
+        "iconf": "rfasion-female-ironsuit-chest.png",
+        "iconm": "rfasion-male-ironsuit-chest.png",
+        "recipePrize": 208
+    },
+    {
+        "classId": 1480,
+        "label": "X手甲圖紙",
+        "iconf": "rfasion-female-ironsuit-hand-tz.png",
+        "iconm": "rfasion-male-ironsuit-hand-tz.png",
+        "category": 3,
+        "subcategory": 0,
+        "description": "能合成X手甲的圖紙，需要5個X碎片",
+        "sellprice": 15,
+        "quality": 4,
+        "recipeTarget": 1481,
+        "recipeCost": 86
+    },
+    {
+        "classId": 1481,
+        "label": "X手甲",
+        "category": 1,
+        "subcategory": 19,
+        "suitId": 1,
+        "description": "由神秘合金配合頂尖黑科技打造而成的套裝，擁有難以置信的力量。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+400 攻擊+15  韌性+5\n" +
+                       "2件：生命+950 攻擊+50 暴擊+20\n" +
+                       " 　　韌性+65 命中+40\n" +
+                       " 　　特殊技能：加特林掃射\n" +
+                       "3件：生命+1750 攻擊+115 暴擊+50\n" +
+                       " 　　韌性+145 命中+85\n" +
+                       "4件：生命+3250 攻擊+265 暴擊+110\n" +
+                       " 　　韌性+285 命中+185 \n" +
+                       " 　　特殊技能：脈衝光束炮\n",
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ironsuit-female-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ironsuit-female-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "ironsuit-male-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ironsuit-male-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 4,
+        "iconf": "rfasion-female-ironsuit-hand.png",
+        "iconm": "rfasion-male-ironsuit-hand.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1482,
+        "label": "X腿甲圖紙",
+        "iconf": "rfasion-female-ironsuit-foot-tz.png",
+        "iconm": "rfasion-male-ironsuit-foot-tz.png",
+        "category": 3,
+        "subcategory": 0,
+        "description": "能合成X腿甲的圖紙，需要10個X碎片",
+        "sellprice": 15,
+        "quality": 4,
+        "recipeTarget": 1483,
+        "recipeCost": 87
+    },
+    {
+        "classId": 1483,
+        "label": "X腿甲",
+        "category": 1,
+        "subcategory": 20,
+        "suitId": 1,
+        "description": "由神秘合金配合頂尖黑科技打造而成的套裝，擁有難以置信的力量。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+400 攻擊+15  韌性+5\n" +
+                       "2件：生命+950 攻擊+50 暴擊+20\n" +
+                       " 　　韌性+65 命中+40\n" +
+                       " 　　特殊技能：加特林掃射\n" +
+                       "3件：生命+1750 攻擊+115 暴擊+50\n" +
+                       " 　　韌性+145 命中+85\n" +
+                       "4件：生命+3250 攻擊+265 暴擊+110\n" +
+                       " 　　韌性+285 命中+185 \n" +
+                       " 　　特殊技能：脈衝光束炮\n",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ironsuit-female-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ironsuit-female-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "ironsuit-male-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ironsuit-male-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 4,
+        "iconf": "rfasion-female-ironsuit-foot.png",
+        "iconm": "rfasion-male-ironsuit-foot.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1484,
+        "label": "禮儀上衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "表示出禮儀的裝扮，給人以安心的感覺。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff3-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm3-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female3-chest.png",
+        "iconm": "rfasion-male3-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1485,
+        "label": "禮儀手套",
+        "category": 1,
+        "subcategory": 19,
+        "description": "表示出禮儀的裝扮，給人以安心的感覺。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff3-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff3-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm3-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm3-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female3-hand.png",
+        "iconm": "rfasion-male3-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1486,
+        "label": "禮儀鞋",
+        "category": 1,
+        "subcategory": 20,
+        "description": "表示出禮儀的裝扮，給人以安心的感覺。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff3-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff3-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm3-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm3-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female3-foot.png",
+        "iconm": "rfasion-male3-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1487,
+        "label": "禮儀頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "表示出禮儀的裝扮，給人以安心的感覺。",
+        "sellprice": 300,
         "effectf": [
             {
                 "part": "helmet",
@@ -53172,40 +53480,863 @@ exports.data = [
             }
         ],
         "storeOnly": true,
+        "quality": 0,
         "iconf": "rfasion-female3-helmet.png",
         "iconm": "rfasion-male3-helmet.png",
-        "recipePrize": [
-            {
-                "type": 0,
-                "value": 1475,
-                "count": 40
-            }
-        ]
+        "expiration": {day: 7}
     },
     {
-        "classId": 1478,
-        "label": "衣服圖紙",
-        "icon": "pmage-chest4.png",
-        "category": 2,
-        "subcategory": 0,
-        "description": "能合成衣服的圖紙",
-        "sellprice": 15,
-        "quality": 1,
-        "recipeTarget": 1479,
-        "recipeCost": 85
-    },
-    {
-        "classId": 1479,
-        "label": "衣服",
+        "classId": 1488,
+        "label": "和風上衣",
         "category": 1,
         "subcategory": 12,
-        "suitId": 1,
-        "description": "注重禮儀的服飾，能夠給人舒心的感覺。",
+        "hideSlot": [2],
+        "description": "洋溢著東方韻味的裝扮。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff4-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm4-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female4-chest.png",
+        "iconm": "rfasion-male4-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1489,
+        "label": "和風護手",
+        "category": 1,
+        "subcategory": 19,
+        "description": "洋溢著東方韻味的裝扮。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff4-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff4-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm4-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm4-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female4-hand.png",
+        "iconm": "rfasion-male4-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1490,
+        "label": "和風護腿",
+        "category": 1,
+        "subcategory": 20,
+        "description": "洋溢著東方韻味的裝扮。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff4-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff4-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm4-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm4-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female4-foot.png",
+        "iconm": "rfasion-male4-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1491,
+        "label": "和風頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "洋溢著東方韻味的裝扮。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff4-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm4-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female4-helmet.png",
+        "iconm": "rfasion-male4-helmet.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1492,
+        "label": "喵喵衣服",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff5-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm5-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female5-chest.png",
+        "iconm": "rfasion-male5-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1493,
+        "label": "喵喵爪子",
+        "category": 1,
+        "subcategory": 19,
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff5-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff5-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm5-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm5-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female5-hand.png",
+        "iconm": "rfasion-male5-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1494,
+        "label": "喵喵護腿",
+        "category": 1,
+        "subcategory": 20,
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff5-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff5-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm5-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm5-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female5-foot.png",
+        "iconm": "rfasion-male5-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1495,
+        "label": "喵喵耳朵",
+        "category": 1,
+        "subcategory": 13,
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff5-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm5-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female5-helmet.png",
+        "iconm": "rfasion-male5-helmet.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1496,
+        "label": "護理大衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff6-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm6-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female6-chest.png",
+        "iconm": "rfasion-male6-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1497,
+        "label": "護理手套",
+        "category": 1,
+        "subcategory": 19,
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff6-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff6-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm6-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm6-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female6-hand.png",
+        "iconm": "rfasion-male6-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1498,
+        "label": "護理鞋具",
+        "category": 1,
+        "subcategory": 20,
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff6-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff6-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm6-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm6-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female6-foot.png",
+        "iconm": "rfasion-male6-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1499,
+        "label": "護理頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff6-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm6-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female6-helmet.png",
+        "iconm": "rfasion-male6-helmet.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1500,
+        "label": "刺客服",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff7-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm7-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female7-chest.png",
+        "iconm": "rfasion-male7-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1501,
+        "label": "刺客護手",
+        "category": 1,
+        "subcategory": 19,
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff7-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff7-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm7-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm7-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female7-hand.png",
+        "iconm": "rfasion-male7-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1502,
+        "label": "刺客鞋",
+        "category": 1,
+        "subcategory": 20,
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff7-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff7-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm7-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm7-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female7-foot.png",
+        "iconm": "rfasion-male7-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1503,
+        "label": "刺客面罩",
+        "category": 1,
+        "subcategory": 13,
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff7-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm7-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female7-helmet.png",
+        "iconm": "rfasion-male7-helmet.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1504,
+        "label": "軍官大衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff8-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm8-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female8-chest.png",
+        "iconm": "rfasion-male8-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1505,
+        "label": "軍官手套",
+        "category": 1,
+        "subcategory": 19,
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff8-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff8-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm8-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm8-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female8-hand.png",
+        "iconm": "rfasion-male8-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1506,
+        "label": "軍官長靴",
+        "category": 1,
+        "subcategory": 20,
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff8-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff8-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm8-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm8-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female8-foot.png",
+        "iconm": "rfasion-male8-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1507,
+        "label": "軍官帽",
+        "category": 1,
+        "subcategory": 13,
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff8-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm8-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female8-helmet.png",
+        "iconm": "rfasion-male8-helmet.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1508,
+        "label": "勇者鎧甲",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff9-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm9-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female9-chest.png",
+        "iconm": "rfasion-male9-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1509,
+        "label": "勇者手甲",
+        "category": 1,
+        "subcategory": 19,
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff9-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff9-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm9-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm9-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female9-hand.png",
+        "iconm": "rfasion-male9-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1510,
+        "label": "勇者腿甲",
+        "category": 1,
+        "subcategory": 20,
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff9-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff9-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm9-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm9-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female9-foot.png",
+        "iconm": "rfasion-male9-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1511,
+        "label": "勇者頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff9-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm9-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female9-helmet.png",
+        "iconm": "rfasion-male9-helmet.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1512,
+        "label": "忍者上衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff10-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm10-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female10-chest.png",
+        "iconm": "rfasion-male10-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1513,
+        "label": "忍者護手",
+        "category": 1,
+        "subcategory": 19,
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff10-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff10-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm10-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm10-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female10-hand.png",
+        "iconm": "rfasion-male10-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1514,
+        "label": "忍者裹足",
+        "category": 1,
+        "subcategory": 20,
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff10-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff10-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm10-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm10-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female10-foot.png",
+        "iconm": "rfasion-male10-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1515,
+        "label": "忍者頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。",
+        "sellprice": 300,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff10-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm10-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 0,
+        "iconf": "rfasion-female10-helmet.png",
+        "iconm": "rfasion-male10-helmet.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1516,
+        "label": "禮儀上衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "表示出禮儀的裝扮，給人以安心的感覺。",
+        "recipePrize": 210,
         "effectf": [
             {
                 "part": "chest",
                 "file": "ff3-chest.ccbi"
-            },
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm3-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female3-chest.png",
+        "iconm": "rfasion-male3-chest.png"
+    },
+    {
+        "classId": 1517,
+        "label": "禮儀手套",
+        "category": 1,
+        "subcategory": 19,
+        "description": "表示出禮儀的裝扮，給人以安心的感覺。",
+        "recipePrize": 210,
+        "effectf": [
             {
                 "part": "righthand",
                 "file": "ff3-righthand.ccbi"
@@ -53213,7 +54344,31 @@ exports.data = [
             {
                 "part": "lefthand",
                 "file": "ff3-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm3-righthand.ccbi"
             },
+            {
+                "part": "lefthand",
+                "file": "fm3-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female3-hand.png",
+        "iconm": "rfasion-male3-hand.png"
+    },
+    {
+        "classId": 1518,
+        "label": "禮儀鞋",
+        "category": 1,
+        "subcategory": 20,
+        "description": "注重禮儀的服飾，能夠給人舒心的感覺。",
+        "recipePrize": 210,
+        "effectf": [
             {
                 "part": "leftleg",
                 "file": "ff3-leftleg.ccbi"
@@ -53225,9 +54380,896 @@ exports.data = [
         ],
         "effectm": [
             {
+                "part": "leftleg",
+                "file": "fm3-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm3-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female3-foot.png",
+        "iconm": "rfasion-male3-foot.png"
+    },
+    {
+        "classId": 1519,
+        "label": "禮儀頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "表示出禮儀的裝扮，給人以安心的感覺。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff3-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm3-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female3-helmet.png",
+        "iconm": "rfasion-male3-helmet.png"
+    },
+    {
+        "classId": 1520,
+        "label": "和風上衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "洋溢著東方韻味的裝扮。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff4-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm4-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female4-chest.png",
+        "iconm": "rfasion-male4-chest.png"
+    },
+    {
+        "classId": 1521,
+        "label": "和風護手",
+        "category": 1,
+        "subcategory": 19,
+        "description": "洋溢著東方韻味的裝扮。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff4-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff4-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm4-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm4-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female4-hand.png",
+        "iconm": "rfasion-male4-hand.png"
+    },
+    {
+        "classId": 1522,
+        "label": "和風護腿",
+        "category": 1,
+        "subcategory": 20,
+        "description": "洋溢著東方韻味的裝扮。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff4-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff4-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm4-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm4-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female4-foot.png",
+        "iconm": "rfasion-male4-foot.png"
+    },
+    {
+        "classId": 1523,
+        "label": "和風頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "洋溢著東方韻味的裝扮。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff4-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm4-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female4-helmet.png",
+        "iconm": "rfasion-male4-helmet.png"
+    },
+    {
+        "classId": 1524,
+        "label": "喵喵衣服",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff5-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm5-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female5-chest.png",
+        "iconm": "rfasion-male5-chest.png"
+    },
+    {
+        "classId": 1525,
+        "label": "喵喵爪子",
+        "category": 1,
+        "subcategory": 19,
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff5-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff5-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm5-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm5-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female5-hand.png",
+        "iconm": "rfasion-male5-hand.png"
+    },
+    {
+        "classId": 1526,
+        "label": "喵喵護腿",
+        "category": 1,
+        "subcategory": 20,
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff5-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff5-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm5-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm5-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female5-foot.png",
+        "iconm": "rfasion-male5-foot.png"
+    },
+    {
+        "classId": 1527,
+        "label": "喵喵耳朵",
+        "category": 1,
+        "subcategory": 13,
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff5-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm5-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female5-helmet.png",
+        "iconm": "rfasion-male5-helmet.png"
+    },
+    {
+        "classId": 1528,
+        "label": "護理大衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff6-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm6-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female6-chest.png",
+        "iconm": "rfasion-male6-chest.png"
+    },
+    {
+        "classId": 1529,
+        "label": "護理手套",
+        "category": 1,
+        "subcategory": 19,
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff6-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff6-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm6-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm6-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female6-hand.png",
+        "iconm": "rfasion-male6-hand.png"
+    },
+    {
+        "classId": 1530,
+        "label": "護理鞋具",
+        "category": 1,
+        "subcategory": 20,
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff6-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff6-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm6-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm6-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female6-foot.png",
+        "iconm": "rfasion-male6-foot.png"
+    },
+    {
+        "classId": 1531,
+        "label": "護理頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff6-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm6-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female6-helmet.png",
+        "iconm": "rfasion-male6-helmet.png"
+    },
+    {
+        "classId": 1532,
+        "label": "刺客服",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff7-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm7-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female7-chest.png",
+        "iconm": "rfasion-male7-chest.png"
+    },
+    {
+        "classId": 1533,
+        "label": "刺客護手",
+        "category": 1,
+        "subcategory": 19,
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff7-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff7-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm7-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm7-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female7-hand.png",
+        "iconm": "rfasion-male7-hand.png"
+    },
+    {
+        "classId": 1534,
+        "label": "刺客鞋",
+        "category": 1,
+        "subcategory": 20,
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff7-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff7-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm7-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm7-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female7-foot.png",
+        "iconm": "rfasion-male7-foot.png"
+    },
+    {
+        "classId": 1535,
+        "label": "刺客面罩",
+        "category": 1,
+        "subcategory": 13,
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff7-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm7-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female7-helmet.png",
+        "iconm": "rfasion-male7-helmet.png"
+    },
+    {
+        "classId": 1536,
+        "label": "軍官大衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff8-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm8-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female8-chest.png",
+        "iconm": "rfasion-male8-chest.png"
+    },
+    {
+        "classId": 1537,
+        "label": "軍官手套",
+        "category": 1,
+        "subcategory": 19,
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff8-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff8-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm8-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm8-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female8-hand.png",
+        "iconm": "rfasion-male8-hand.png"
+    },
+    {
+        "classId": 1538,
+        "label": "軍官長靴",
+        "category": 1,
+        "subcategory": 20,
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff8-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff8-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm8-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm8-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female8-foot.png",
+        "iconm": "rfasion-male8-foot.png"
+    },
+    {
+        "classId": 1539,
+        "label": "軍官帽",
+        "category": 1,
+        "subcategory": 13,
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff8-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm8-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female8-helmet.png",
+        "iconm": "rfasion-male8-helmet.png"
+    },
+    {
+        "classId": 1540,
+        "label": "勇者鎧甲",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff9-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm9-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female9-chest.png",
+        "iconm": "rfasion-male9-chest.png"
+    },
+    {
+        "classId": 1541,
+        "label": "勇者手甲",
+        "category": 1,
+        "subcategory": 19,
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff9-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff9-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm9-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm9-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female9-hand.png",
+        "iconm": "rfasion-male9-hand.png"
+    },
+    {
+        "classId": 1542,
+        "label": "勇者腿甲",
+        "category": 1,
+        "subcategory": 20,
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff9-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff9-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm9-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm9-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female9-foot.png",
+        "iconm": "rfasion-male9-foot.png"
+    },
+    {
+        "classId": 1543,
+        "label": "勇者頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff9-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm9-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female9-helmet.png",
+        "iconm": "rfasion-male9-helmet.png"
+    },
+    {
+        "classId": 1544,
+        "label": "忍者上衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff10-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm10-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female10-chest.png",
+        "iconm": "rfasion-male10-chest.png"
+    },
+    {
+        "classId": 1545,
+        "label": "忍者護手",
+        "category": 1,
+        "subcategory": 19,
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff10-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff10-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm10-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm10-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female10-hand.png",
+        "iconm": "rfasion-male10-hand.png"
+    },
+    {
+        "classId": 1546,
+        "label": "忍者裹足",
+        "category": 1,
+        "subcategory": 20,
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff10-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff10-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm10-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm10-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female10-foot.png",
+        "iconm": "rfasion-male10-foot.png"
+    },
+    {
+        "classId": 1547,
+        "label": "忍者頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff10-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm10-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 1,
+        "iconf": "rfasion-female10-helmet.png",
+        "iconm": "rfasion-male10-helmet.png"
+    },
+    {
+        "classId": 1548,
+        "suitId": 4,
+        "label": "禮儀上衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+90 攻擊+5 暴擊+15 \n" +
+                       "2件：生命+290 攻擊+20 暴擊+65\n" +
+                       " 　　韌性+5\n" +
+                       "3件：生命+1090 攻擊+65 暴擊+205\n" +
+                       " 　　韌性+30 回避+25 速度+25\n" +
+                       "4件：生命+2290 攻擊+135 暴擊+425\n" +
+                       " 　　韌性+110 回避+95 速度+95\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff3-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
                 "part": "chest",
                 "file": "fm3-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female3-chest.png",
+        "iconm": "rfasion-male3-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1549,
+        "suitId": 4,
+        "label": "禮儀手套",
+        "category": 1,
+        "subcategory": 19,
+        "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+90 攻擊+5 暴擊+15 \n" +
+                       "2件：生命+290 攻擊+20 暴擊+65\n" +
+                       " 　　韌性+5\n" +
+                       "3件：生命+1090 攻擊+65 暴擊+205\n" +
+                       " 　　韌性+30 回避+25 速度+25\n" +
+                       "4件：生命+2290 攻擊+135 暴擊+425\n" +
+                       " 　　韌性+110 回避+95 速度+95\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff3-righthand.ccbi"
             },
+            {
+                "part": "lefthand",
+                "file": "ff3-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
             {
                 "part": "righthand",
                 "file": "fm3-righthand.ccbi"
@@ -53235,7 +55277,41 @@ exports.data = [
             {
                 "part": "lefthand",
                 "file": "fm3-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female3-hand.png",
+        "iconm": "rfasion-male3-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1550,
+        "suitId": 4,
+        "label": "禮儀鞋",
+        "category": 1,
+        "subcategory": 20,
+        "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+90 攻擊+5 暴擊+15 \n" +
+                       "2件：生命+290 攻擊+20 暴擊+65\n" +
+                       " 　　韌性+5\n" +
+                       "3件：生命+1090 攻擊+65 暴擊+205\n" +
+                       " 　　韌性+30 回避+25 速度+25\n" +
+                       "4件：生命+2290 攻擊+135 暴擊+425\n" +
+                       " 　　韌性+110 回避+95 速度+95\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff3-leftleg.ccbi"
             },
+            {
+                "part": "rightleg",
+                "file": "ff3-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
             {
                 "part": "leftleg",
                 "file": "fm3-leftleg.ccbi"
@@ -53246,14 +55322,2636 @@ exports.data = [
             }
         ],
         "storeOnly": true,
-        "iconf": "rfasion-female3-cloth.png",
-        "iconm": "rfasion-male3-cloth.png",
-        "recipePrize": [
+        "quality": 2,
+        "iconf": "rfasion-female3-foot.png",
+        "iconm": "rfasion-male3-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1551,
+        "suitId": 4,
+        "label": "禮儀頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+90 攻擊+5 暴擊+15 \n" +
+                       "2件：生命+290 攻擊+20 暴擊+65\n" +
+                       " 　　韌性+5\n" +
+                       "3件：生命+1090 攻擊+65 暴擊+205\n" +
+                       " 　　韌性+30 回避+25 速度+25\n" +
+                       "4件：生命+2290 攻擊+135 暴擊+425\n" +
+                       " 　　韌性+110 回避+95 速度+95\n",
+        "sellprice": 800,
+        "effectf": [
             {
-                "type": 0,
-                "value": 1475,
-                "count": 25
+                "part": "helmet",
+                "file": "ff3-helmet.ccbi"
             }
-        ]
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm3-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female3-helmet.png",
+        "iconm": "rfasion-male3-helmet.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1552,
+        "suitId": 3,
+        "label": "和風上衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "洋溢著東方韻味的裝扮。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 命中+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　韌性+10 命中+65 速度+10\n" +
+                       "3件：生命+810 攻擊+70 暴擊+85\n" +
+                       " 　　韌性+85 命中+205 速度+35\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+215\n" +
+                       " 　　韌性+215 命中+455 速度+115\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff4-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm4-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female4-chest.png",
+        "iconm": "rfasion-male4-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1553,
+        "suitId": 3,
+        "label": "和風護手",
+        "category": 1,
+        "subcategory": 19,
+        "description": "洋溢著東方韻味的裝扮。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 命中+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　韌性+10 命中+65 速度+10\n" +
+                       "3件：生命+810 攻擊+70 暴擊+85\n" +
+                       " 　　韌性+85 命中+205 速度+35\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+215\n" +
+                       " 　　韌性+215 命中+455 速度+115\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff4-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff4-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm4-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm4-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female4-hand.png",
+        "iconm": "rfasion-male4-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1554,
+        "suitId": 3,
+        "label": "和風護腿",
+        "category": 1,
+        "subcategory": 20,
+        "description": "洋溢著東方韻味的裝扮。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 命中+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　韌性+10 命中+65 速度+10\n" +
+                       "3件：生命+810 攻擊+70 暴擊+85\n" +
+                       " 　　韌性+85 命中+205 速度+35\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+215\n" +
+                       " 　　韌性+215 命中+455 速度+115\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff4-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff4-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm4-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm4-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female4-foot.png",
+        "iconm": "rfasion-male4-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1555,
+        "suitId": 3,
+        "label": "和風頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "洋溢著東方韻味的裝扮。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 命中+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　韌性+10 命中+65 速度+10\n" +
+                       "3件：生命+810 攻擊+70 暴擊+85\n" +
+                       " 　　韌性+85 命中+205 速度+35\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+215\n" +
+                       " 　　韌性+215 命中+455 速度+115\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff4-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm4-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female4-helmet.png",
+        "iconm": "rfasion-male4-helmet.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1556,
+        "suitId": 2,
+        "label": "喵喵衣服",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 速度+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　命中+10 回避+10 速度+65\n" +
+                       "3件：生命+810 攻擊+70 暴擊+35\n" +
+                       " 　　命中+85 回避+85 速度+205\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+115\n" +
+                       " 　　命中+215 回避+215 速度+455\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff5-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm5-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female5-chest.png",
+        "iconm": "rfasion-male5-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1557,
+        "suitId": 2,
+        "label": "喵喵爪子",
+        "category": 1,
+        "subcategory": 19,
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 速度+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　命中+10 回避+10 速度+65\n" +
+                       "3件：生命+810 攻擊+70 暴擊+35\n" +
+                       " 　　命中+85 回避+85 速度+205\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+115\n" +
+                       " 　　命中+215 回避+215 速度+455\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff5-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff5-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm5-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm5-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female5-hand.png",
+        "iconm": "rfasion-male5-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1558,
+        "suitId": 2,
+        "label": "喵喵護腿",
+        "category": 1,
+        "subcategory": 20,
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 速度+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　命中+10 回避+10 速度+65\n" +
+                       "3件：生命+810 攻擊+70 暴擊+35\n" +
+                       " 　　命中+85 回避+85 速度+205\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+115\n" +
+                       " 　　命中+215 回避+215 速度+455\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff5-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff5-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm5-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm5-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female5-foot.png",
+        "iconm": "rfasion-male5-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1559,
+        "suitId": 2,
+        "label": "喵喵耳朵",
+        "category": 1,
+        "subcategory": 13,
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 速度+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　命中+10 回避+10 速度+65\n" +
+                       "3件：生命+810 攻擊+70 暴擊+35\n" +
+                       " 　　命中+85 回避+85 速度+205\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+115\n" +
+                       " 　　命中+215 回避+215 速度+455\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff5-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm5-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female5-helmet.png",
+        "iconm": "rfasion-male5-helmet.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1560,
+        "suitId": 5,
+        "label": "護理大衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+200 攻擊+5 命中+10\n" +
+                       "2件：生命+700 攻擊+20 命中+40\n" +
+                       "3件：生命+1620 攻擊+50 暴擊+40\n" +
+                       " 　　命中+170 回避+40 速度+40\n" +
+                       "4件：生命+3120 攻擊+150 暴擊+110\n" +
+                       " 　　命中+410 回避+110 速度+110\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff6-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm6-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female6-chest.png",
+        "iconm": "rfasion-male6-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1561,
+        "suitId": 5,
+        "label": "護理手套",
+        "category": 1,
+        "subcategory": 19,
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+200 攻擊+5 命中+10\n" +
+                       "2件：生命+700 攻擊+20 命中+40\n" +
+                       "3件：生命+1620 攻擊+50 暴擊+40\n" +
+                       " 　　命中+170 回避+40 速度+40\n" +
+                       "4件：生命+3120 攻擊+150 暴擊+110\n" +
+                       " 　　命中+410 回避+110 速度+110\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff6-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff6-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm6-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm6-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female6-hand.png",
+        "iconm": "rfasion-male6-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1562,
+        "suitId": 5,
+        "label": "護理鞋具",
+        "category": 1,
+        "subcategory": 20,
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+200 攻擊+5 命中+10\n" +
+                       "2件：生命+700 攻擊+20 命中+40\n" +
+                       "3件：生命+1620 攻擊+50 暴擊+40\n" +
+                       " 　　命中+170 回避+40 速度+40\n" +
+                       "4件：生命+3120 攻擊+150 暴擊+110\n" +
+                       " 　　命中+410 回避+110 速度+110\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff6-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff6-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm6-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm6-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female6-foot.png",
+        "iconm": "rfasion-male6-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1563,
+        "suitId": 5,
+        "label": "護理頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+200 攻擊+5 命中+10\n" +
+                       "2件：生命+700 攻擊+20 命中+40\n" +
+                       "3件：生命+1620 攻擊+50 暴擊+40\n" +
+                       " 　　命中+170 回避+40 速度+40\n" +
+                       "4件：生命+3120 攻擊+150 暴擊+110\n" +
+                       " 　　命中+410 回避+110 速度+110\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff6-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm6-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female6-helmet.png",
+        "iconm": "rfasion-male6-helmet.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1564,
+        "suitId": 6,
+        "label": "刺客服",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+10 暴擊+45\n" +
+                       "2件：生命+400 攻擊+30 暴擊+120\n" +
+                       " 　　速度+40\n" +
+                       "3件：生命+800 攻擊+90 暴擊+300\n" +
+                       " 　　命中+60 回避+60 速度+160\n" +
+                       "4件：生命+140 攻擊+220 暴擊+620\n" +
+                       " 　　命中+210 回避+210 速度+350\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff7-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm7-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female7-chest.png",
+        "iconm": "rfasion-male7-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1565,
+        "suitId": 6,
+        "label": "刺客護手",
+        "category": 1,
+        "subcategory": 19,
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+10 暴擊+45\n" +
+                       "2件：生命+400 攻擊+30 暴擊+120\n" +
+                       " 　　速度+40\n" +
+                       "3件：生命+800 攻擊+90 暴擊+300\n" +
+                       " 　　命中+60 回避+60 速度+160\n" +
+                       "4件：生命+140 攻擊+220 暴擊+620\n" +
+                       " 　　命中+210 回避+210 速度+350\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff7-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff7-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm7-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm7-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female7-hand.png",
+        "iconm": "rfasion-male7-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1566,
+        "suitId": 6,
+        "label": "刺客鞋",
+        "category": 1,
+        "subcategory": 20,
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+10 暴擊+45\n" +
+                       "2件：生命+400 攻擊+30 暴擊+120\n" +
+                       " 　　速度+40\n" +
+                       "3件：生命+800 攻擊+90 暴擊+300\n" +
+                       " 　　命中+60 回避+60 速度+160\n" +
+                       "4件：生命+140 攻擊+220 暴擊+620\n" +
+                       " 　　命中+210 回避+210 速度+350\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff7-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff7-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm7-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm7-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female7-foot.png",
+        "iconm": "rfasion-male7-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1567,
+        "suitId": 6,
+        "label": "刺客面罩",
+        "category": 1,
+        "subcategory": 13,
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+10 暴擊+45\n" +
+                       "2件：生命+400 攻擊+30 暴擊+120\n" +
+                       " 　　速度+40\n" +
+                       "3件：生命+800 攻擊+90 暴擊+300\n" +
+                       " 　　命中+60 回避+60 速度+160\n" +
+                       "4件：生命+140 攻擊+220 暴擊+620\n" +
+                       " 　　命中+210 回避+210 速度+350\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff7-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm7-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female7-helmet.png",
+        "iconm": "rfasion-male7-helmet.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1568,
+        "suitId": 7,
+        "label": "軍官大衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+20 暴擊+15\n" +
+                       "2件：生命+400 攻擊+60 暴擊+55\n" +
+                       " 　　韌性+15\n" +
+                       "3件：生命+100 攻擊+180 暴擊+175\n" +
+                       " 　　韌性+35\n" +
+                       "4件：生命+1800 攻擊+400 暴擊+415\n" +
+                       " 　　韌性+165 命中+70\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff8-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm8-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female8-chest.png",
+        "iconm": "rfasion-male8-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1569,
+        "suitId": 7,
+        "label": "軍官手套",
+        "category": 1,
+        "subcategory": 19,
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+20 暴擊+15\n" +
+                       "2件：生命+400 攻擊+60 暴擊+55\n" +
+                       " 　　韌性+15\n" +
+                       "3件：生命+100 攻擊+180 暴擊+175\n" +
+                       " 　　韌性+35\n" +
+                       "4件：生命+1800 攻擊+400 暴擊+415\n" +
+                       " 　　韌性+165 命中+70\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff8-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff8-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm8-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm8-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female8-hand.png",
+        "iconm": "rfasion-male8-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1570,
+        "suitId": 7,
+        "label": "軍官長靴",
+        "category": 1,
+        "subcategory": 20,
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+20 暴擊+15\n" +
+                       "2件：生命+400 攻擊+60 暴擊+55\n" +
+                       " 　　韌性+15\n" +
+                       "3件：生命+100 攻擊+180 暴擊+175\n" +
+                       " 　　韌性+35\n" +
+                       "4件：生命+1800 攻擊+400 暴擊+415\n" +
+                       " 　　韌性+165 命中+70\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff8-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff8-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm8-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm8-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female8-foot.png",
+        "iconm": "rfasion-male8-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1571,
+        "suitId": 7,
+        "label": "軍官帽",
+        "category": 1,
+        "subcategory": 13,
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+20 暴擊+15\n" +
+                       "2件：生命+400 攻擊+60 暴擊+55\n" +
+                       " 　　韌性+15\n" +
+                       "3件：生命+100 攻擊+180 暴擊+175\n" +
+                       " 　　韌性+35\n" +
+                       "4件：生命+1800 攻擊+400 暴擊+415\n" +
+                       " 　　韌性+165 命中+70\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff8-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm8-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female8-helmet.png",
+        "iconm": "rfasion-male8-helmet.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1572,
+        "suitId": 8,
+        "label": "勇者鎧甲",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+250\n" +
+                       "2件：生命+800 攻擊+10 韌性+20\n" +
+                       "3件：生命+2000 攻擊+30 韌性+130\n" +
+                       " 　　命中+30\n" +
+                       "4件：生命+4000 攻擊+105 韌性+355\n" +
+                       " 　　命中+80\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff9-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm9-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female9-chest.png",
+        "iconm": "rfasion-male9-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1573,
+        "suitId": 8,
+        "label": "勇者手甲",
+        "category": 1,
+        "subcategory": 19,
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+250\n" +
+                       "2件：生命+800 攻擊+10 韌性+20\n" +
+                       "3件：生命+2000 攻擊+30 韌性+130\n" +
+                       " 　　命中+30\n" +
+                       "4件：生命+4000 攻擊+105 韌性+355\n" +
+                       " 　　命中+80\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff9-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff9-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm9-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm9-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female9-hand.png",
+        "iconm": "rfasion-male9-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1574,
+        "suitId": 8,
+        "label": "勇者腿甲",
+        "category": 1,
+        "subcategory": 20,
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+250\n" +
+                       "2件：生命+800 攻擊+10 韌性+20\n" +
+                       "3件：生命+2000 攻擊+30 韌性+130\n" +
+                       " 　　命中+30\n" +
+                       "4件：生命+4000 攻擊+105 韌性+355\n" +
+                       " 　　命中+80\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff9-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff9-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm9-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm9-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female9-foot.png",
+        "iconm": "rfasion-male9-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1575,
+        "suitId": 8,
+        "label": "勇者頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+250\n" +
+                       "2件：生命+800 攻擊+10 韌性+20\n" +
+                       "3件：生命+2000 攻擊+30 韌性+130\n" +
+                       " 　　命中+30\n" +
+                       "4件：生命+4000 攻擊+105 韌性+355\n" +
+                       " 　　命中+80\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff9-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm9-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female9-helmet.png",
+        "iconm": "rfasion-male9-helmet.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1576,
+        "suitId": 9,
+        "label": "忍者上衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+5 回避+30\n" +
+                       " 　　速度+30\n" +
+                       "2件：生命+400 攻擊+20 回避+95\n" +
+                       " 　　速度+95\n" +
+                       "3件：生命+800 攻擊+75 暴擊+40\n" +
+                       " 　　命中+35 回避+275 速度+275\n" +
+                       "4件：生命+140 攻擊+175 暴擊+190\n" +
+                       " 　　命中+145 回避+595 速度+595\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff10-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm10-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female10-chest.png",
+        "iconm": "rfasion-male10-chest.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1577,
+        "suitId": 9,
+        "label": "忍者護手",
+        "category": 1,
+        "subcategory": 19,
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+5 回避+30\n" +
+                       " 　　速度+30\n" +
+                       "2件：生命+400 攻擊+20 回避+95\n" +
+                       " 　　速度+95\n" +
+                       "3件：生命+800 攻擊+75 暴擊+40\n" +
+                       " 　　命中+35 回避+275 速度+275\n" +
+                       "4件：生命+140 攻擊+175 暴擊+190\n" +
+                       " 　　命中+145 回避+595 速度+595\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff10-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff10-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm10-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm10-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female10-hand.png",
+        "iconm": "rfasion-male10-hand.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1578,
+        "suitId": 9,
+        "label": "忍者裹足",
+        "category": 1,
+        "subcategory": 20,
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+5 回避+30\n" +
+                       " 　　速度+30\n" +
+                       "2件：生命+400 攻擊+20 回避+95\n" +
+                       " 　　速度+95\n" +
+                       "3件：生命+800 攻擊+75 暴擊+40\n" +
+                       " 　　命中+35 回避+275 速度+275\n" +
+                       "4件：生命+140 攻擊+175 暴擊+190\n" +
+                       " 　　命中+145 回避+595 速度+595\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff10-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff10-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm10-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm10-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female10-foot.png",
+        "iconm": "rfasion-male10-foot.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1579,
+        "suitId": 9,
+        "label": "忍者頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+5 回避+30\n" +
+                       " 　　速度+30\n" +
+                       "2件：生命+400 攻擊+20 回避+95\n" +
+                       " 　　速度+95\n" +
+                       "3件：生命+800 攻擊+75 暴擊+40\n" +
+                       " 　　命中+35 回避+275 速度+275\n" +
+                       "4件：生命+140 攻擊+175 暴擊+190\n" +
+                       " 　　命中+145 回避+595 速度+595\n",
+        "sellprice": 800,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff10-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm10-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 2,
+        "iconf": "rfasion-female10-helmet.png",
+        "iconm": "rfasion-male10-helmet.png",
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1580,
+        "suitId": 4,
+        "label": "禮儀上衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+90 攻擊+5 暴擊+15 \n" +
+                       "2件：生命+290 攻擊+20 暴擊+65\n" +
+                       " 　　韌性+5\n" +
+                       "3件：生命+1090 攻擊+65 暴擊+205\n" +
+                       " 　　韌性+30 回避+25 速度+25\n" +
+                       "4件：生命+2290 攻擊+135 暴擊+425\n" +
+                       " 　　韌性+110 回避+95 速度+95\n",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff3-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm3-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female3-chest.png",
+        "iconm": "rfasion-male3-chest.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1581,
+        "suitId": 4,
+        "label": "禮儀手套",
+        "category": 1,
+        "subcategory": 19,
+        "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+90 攻擊+5 暴擊+15 \n" +
+                       "2件：生命+290 攻擊+20 暴擊+65\n" +
+                       " 　　韌性+5\n" +
+                       "3件：生命+1090 攻擊+65 暴擊+205\n" +
+                       " 　　韌性+30 回避+25 速度+25\n" +
+                       "4件：生命+2290 攻擊+135 暴擊+425\n" +
+                       " 　　韌性+110 回避+95 速度+95\n",
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff3-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff3-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm3-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm3-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female3-hand.png",
+        "iconm": "rfasion-male3-hand.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1582,
+        "suitId": 4,
+        "label": "禮儀鞋",
+        "category": 1,
+        "subcategory": 20,
+        "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+90 攻擊+5 暴擊+15 \n" +
+                       "2件：生命+290 攻擊+20 暴擊+65\n" +
+                       " 　　韌性+5\n" +
+                       "3件：生命+1090 攻擊+65 暴擊+205\n" +
+                       " 　　韌性+30 回避+25 速度+25\n" +
+                       "4件：生命+2290 攻擊+135 暴擊+425\n" +
+                       " 　　韌性+110 回避+95 速度+95\n",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff3-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff3-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm3-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm3-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female3-foot.png",
+        "iconm": "rfasion-male3-foot.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1583,
+        "suitId": 4,
+        "label": "禮儀頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+90 攻擊+5 暴擊+15 \n" +
+                       "2件：生命+290 攻擊+20 暴擊+65\n" +
+                       " 　　韌性+5\n" +
+                       "3件：生命+1090 攻擊+65 暴擊+205\n" +
+                       " 　　韌性+30 回避+25 速度+25\n" +
+                       "4件：生命+2290 攻擊+135 暴擊+425\n" +
+                       " 　　韌性+110 回避+95 速度+95\n",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff3-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm3-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female3-helmet.png",
+        "iconm": "rfasion-male3-helmet.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1584,
+        "suitId": 3,
+        "label": "和風上衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "洋溢著東方韻味的裝扮。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 命中+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　韌性+10 命中+65 速度+10\n" +
+                       "3件：生命+810 攻擊+70 暴擊+85\n" +
+                       " 　　韌性+85 命中+205 速度+35\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+215\n" +
+                       " 　　韌性+215 命中+455 速度+115\n",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff4-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm4-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female4-chest.png",
+        "iconm": "rfasion-male4-chest.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1585,
+        "suitId": 3,
+        "label": "和風護手",
+        "category": 1,
+        "subcategory": 19,
+        "description": "洋溢著東方韻味的裝扮。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 命中+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　韌性+10 命中+65 速度+10\n" +
+                       "3件：生命+810 攻擊+70 暴擊+85\n" +
+                       " 　　韌性+85 命中+205 速度+35\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+215\n" +
+                       " 　　韌性+215 命中+455 速度+115\n",
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff4-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff4-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm4-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm4-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female4-hand.png",
+        "iconm": "rfasion-male4-hand.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1586,
+        "suitId": 3,
+        "label": "和風護腿",
+        "category": 1,
+        "subcategory": 20,
+        "description": "洋溢著東方韻味的裝扮。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 命中+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　韌性+10 命中+65 速度+10\n" +
+                       "3件：生命+810 攻擊+70 暴擊+85\n" +
+                       " 　　韌性+85 命中+205 速度+35\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+215\n" +
+                       " 　　韌性+215 命中+455 速度+115\n",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff4-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff4-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm4-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm4-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female4-foot.png",
+        "iconm": "rfasion-male4-foot.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1587,
+        "suitId": 3,
+        "label": "和風頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "洋溢著東方韻味的裝扮。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 命中+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　韌性+10 命中+65 速度+10\n" +
+                       "3件：生命+810 攻擊+70 暴擊+85\n" +
+                       " 　　韌性+85 命中+205 速度+35\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+215\n" +
+                       " 　　韌性+215 命中+455 速度+115\n",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff4-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm4-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female4-helmet.png",
+        "iconm": "rfasion-male4-helmet.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1588,
+        "suitId": 2,
+        "label": "喵喵衣服",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 速度+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　命中+10 回避+10 速度+65\n" +
+                       "3件：生命+810 攻擊+70 暴擊+35\n" +
+                       " 　　命中+85 回避+85 速度+205\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+115\n" +
+                       " 　　命中+215 回避+215 速度+455\n",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff5-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm5-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female5-chest.png",
+        "iconm": "rfasion-male5-chest.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1589,
+        "suitId": 2,
+        "label": "喵喵爪子",
+        "category": 1,
+        "subcategory": 19,
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 速度+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　命中+10 回避+10 速度+65\n" +
+                       "3件：生命+810 攻擊+70 暴擊+35\n" +
+                       " 　　命中+85 回避+85 速度+205\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+115\n" +
+                       " 　　命中+215 回避+215 速度+455\n",
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff5-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff5-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm5-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm5-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female5-hand.png",
+        "iconm": "rfasion-male5-hand.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1590,
+        "suitId": 2,
+        "label": "喵喵護腿",
+        "category": 1,
+        "subcategory": 20,
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 速度+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　命中+10 回避+10 速度+65\n" +
+                       "3件：生命+810 攻擊+70 暴擊+35\n" +
+                       " 　　命中+85 回避+85 速度+205\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+115\n" +
+                       " 　　命中+215 回避+215 速度+455\n",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff5-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff5-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm5-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm5-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female5-foot.png",
+        "iconm": "rfasion-male5-foot.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1591,
+        "suitId": 2,
+        "label": "喵喵耳朵",
+        "category": 1,
+        "subcategory": 13,
+        "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+60 攻擊+10 速度+15\n" +
+                       "2件：生命+210 攻擊+25 暴擊+10\n" +
+                       " 　　命中+10 回避+10 速度+65\n" +
+                       "3件：生命+810 攻擊+70 暴擊+35\n" +
+                       " 　　命中+85 回避+85 速度+205\n" +
+                       "4件：生命+1710 攻擊+140 暴擊+115\n" +
+                       " 　　命中+215 回避+215 速度+455\n",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff5-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm5-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female5-helmet.png",
+        "iconm": "rfasion-male5-helmet.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1592,
+        "suitId": 5,
+        "label": "護理大衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+200 攻擊+5 命中+10\n" +
+                       "2件：生命+700 攻擊+20 命中+40\n" +
+                       "3件：生命+1620 攻擊+50 暴擊+40\n" +
+                       " 　　命中+170 回避+40 速度+40\n" +
+                       "4件：生命+3120 攻擊+150 暴擊+110\n" +
+                       " 　　命中+410 回避+110 速度+110\n",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff6-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm6-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female6-chest.png",
+        "iconm": "rfasion-male6-chest.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1593,
+        "suitId": 5,
+        "label": "護理手套",
+        "category": 1,
+        "subcategory": 19,
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+200 攻擊+5 命中+10\n" +
+                       "2件：生命+700 攻擊+20 命中+40\n" +
+                       "3件：生命+1620 攻擊+50 暴擊+40\n" +
+                       " 　　命中+170 回避+40 速度+40\n" +
+                       "4件：生命+3120 攻擊+150 暴擊+110\n" +
+                       " 　　命中+410 回避+110 速度+110\n",
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff6-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff6-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm6-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm6-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female6-hand.png",
+        "iconm": "rfasion-male6-hand.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1594,
+        "suitId": 5,
+        "label": "護理鞋具",
+        "category": 1,
+        "subcategory": 20,
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+200 攻擊+5 命中+10\n" +
+                       "2件：生命+700 攻擊+20 命中+40\n" +
+                       "3件：生命+1620 攻擊+50 暴擊+40\n" +
+                       " 　　命中+170 回避+40 速度+40\n" +
+                       "4件：生命+3120 攻擊+150 暴擊+110\n" +
+                       " 　　命中+410 回避+110 速度+110\n",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff6-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff6-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm6-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm6-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female6-foot.png",
+        "iconm": "rfasion-male6-foot.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1595,
+        "suitId": 5,
+        "label": "護理頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+200 攻擊+5 命中+10\n" +
+                       "2件：生命+700 攻擊+20 命中+40\n" +
+                       "3件：生命+1620 攻擊+50 暴擊+40\n" +
+                       " 　　命中+170 回避+40 速度+40\n" +
+                       "4件：生命+3120 攻擊+150 暴擊+110\n" +
+                       " 　　命中+410 回避+110 速度+110\n",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff6-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm6-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female6-helmet.png",
+        "iconm": "rfasion-male6-helmet.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1596,
+        "suitId": 6,
+        "label": "刺客服",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+10 暴擊+45\n" +
+                       "2件：生命+400 攻擊+30 暴擊+120\n" +
+                       " 　　速度+40\n" +
+                       "3件：生命+800 攻擊+90 暴擊+300\n" +
+                       " 　　命中+60 回避+60 速度+160\n" +
+                       "4件：生命+140 攻擊+220 暴擊+620\n" +
+                       " 　　命中+210 回避+210 速度+350\n",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff7-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm7-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female7-chest.png",
+        "iconm": "rfasion-male7-chest.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1597,
+        "suitId": 6,
+        "label": "刺客護手",
+        "category": 1,
+        "subcategory": 19,
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+10 暴擊+45\n" +
+                       "2件：生命+400 攻擊+30 暴擊+120\n" +
+                       " 　　速度+40\n" +
+                       "3件：生命+800 攻擊+90 暴擊+300\n" +
+                       " 　　命中+60 回避+60 速度+160\n" +
+                       "4件：生命+140 攻擊+220 暴擊+620\n" +
+                       " 　　命中+210 回避+210 速度+350\n",
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff7-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff7-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm7-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm7-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female7-hand.png",
+        "iconm": "rfasion-male7-hand.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1598,
+        "suitId": 6,
+        "label": "刺客鞋",
+        "category": 1,
+        "subcategory": 20,
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+10 暴擊+45\n" +
+                       "2件：生命+400 攻擊+30 暴擊+120\n" +
+                       " 　　速度+40\n" +
+                       "3件：生命+800 攻擊+90 暴擊+300\n" +
+                       " 　　命中+60 回避+60 速度+160\n" +
+                       "4件：生命+140 攻擊+220 暴擊+620\n" +
+                       " 　　命中+210 回避+210 速度+350\n",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff7-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff7-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm7-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm7-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female7-foot.png",
+        "iconm": "rfasion-male7-foot.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1599,
+        "suitId": 6,
+        "label": "刺客面罩",
+        "category": 1,
+        "subcategory": 13,
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+10 暴擊+45\n" +
+                       "2件：生命+400 攻擊+30 暴擊+120\n" +
+                       " 　　速度+40\n" +
+                       "3件：生命+800 攻擊+90 暴擊+300\n" +
+                       " 　　命中+60 回避+60 速度+160\n" +
+                       "4件：生命+140 攻擊+220 暴擊+620\n" +
+                       " 　　命中+210 回避+210 速度+350\n",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff7-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm7-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female7-helmet.png",
+        "iconm": "rfasion-male7-helmet.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1600,
+        "suitId": 7,
+        "label": "軍官大衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+20 暴擊+15\n" +
+                       "2件：生命+400 攻擊+60 暴擊+55\n" +
+                       " 　　韌性+15\n" +
+                       "3件：生命+100 攻擊+180 暴擊+175\n" +
+                       " 　　韌性+35\n" +
+                       "4件：生命+1800 攻擊+400 暴擊+415\n" +
+                       " 　　韌性+165 命中+70\n",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff8-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm8-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female8-chest.png",
+        "iconm": "rfasion-male8-chest.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1601,
+        "suitId": 7,
+        "label": "軍官手套",
+        "category": 1,
+        "subcategory": 19,
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+20 暴擊+15\n" +
+                       "2件：生命+400 攻擊+60 暴擊+55\n" +
+                       " 　　韌性+15\n" +
+                       "3件：生命+100 攻擊+180 暴擊+175\n" +
+                       " 　　韌性+35\n" +
+                       "4件：生命+1800 攻擊+400 暴擊+415\n" +
+                       " 　　韌性+165 命中+70\n",
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff8-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff8-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm8-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm8-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female8-hand.png",
+        "iconm": "rfasion-male8-hand.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1602,
+        "suitId": 7,
+        "label": "軍官長靴",
+        "category": 1,
+        "subcategory": 20,
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+20 暴擊+15\n" +
+                       "2件：生命+400 攻擊+60 暴擊+55\n" +
+                       " 　　韌性+15\n" +
+                       "3件：生命+100 攻擊+180 暴擊+175\n" +
+                       " 　　韌性+35\n" +
+                       "4件：生命+1800 攻擊+400 暴擊+415\n" +
+                       " 　　韌性+165 命中+70\n",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff8-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff8-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm8-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm8-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female8-foot.png",
+        "iconm": "rfasion-male8-foot.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1603,
+        "suitId": 7,
+        "label": "軍官帽",
+        "category": 1,
+        "subcategory": 13,
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+20 暴擊+15\n" +
+                       "2件：生命+400 攻擊+60 暴擊+55\n" +
+                       " 　　韌性+15\n" +
+                       "3件：生命+100 攻擊+180 暴擊+175\n" +
+                       " 　　韌性+35\n" +
+                       "4件：生命+1800 攻擊+400 暴擊+415\n" +
+                       " 　　韌性+165 命中+70\n",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff8-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm8-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female8-helmet.png",
+        "iconm": "rfasion-male8-helmet.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1604,
+        "suitId": 8,
+        "label": "勇者鎧甲",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+250\n" +
+                       "2件：生命+800 攻擊+10 韌性+20\n" +
+                       "3件：生命+2000 攻擊+30 韌性+130\n" +
+                       " 　　命中+30\n" +
+                       "4件：生命+4000 攻擊+105 韌性+355\n" +
+                       " 　　命中+80\n",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff9-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm9-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female9-chest.png",
+        "iconm": "rfasion-male9-chest.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1605,
+        "suitId": 8,
+        "label": "勇者手甲",
+        "category": 1,
+        "subcategory": 19,
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+250\n" +
+                       "2件：生命+800 攻擊+10 韌性+20\n" +
+                       "3件：生命+2000 攻擊+30 韌性+130\n" +
+                       " 　　命中+30\n" +
+                       "4件：生命+4000 攻擊+105 韌性+355\n" +
+                       " 　　命中+80\n",
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff9-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff9-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm9-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm9-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female9-hand.png",
+        "iconm": "rfasion-male9-hand.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1606,
+        "suitId": 8,
+        "label": "勇者腿甲",
+        "category": 1,
+        "subcategory": 20,
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+250\n" +
+                       "2件：生命+800 攻擊+10 韌性+20\n" +
+                       "3件：生命+2000 攻擊+30 韌性+130\n" +
+                       " 　　命中+30\n" +
+                       "4件：生命+4000 攻擊+105 韌性+355\n" +
+                       " 　　命中+80\n",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff9-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff9-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm9-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm9-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female9-foot.png",
+        "iconm": "rfasion-male9-foot.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1607,
+        "suitId": 8,
+        "label": "勇者頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+250\n" +
+                       "2件：生命+800 攻擊+10 韌性+20\n" +
+                       "3件：生命+2000 攻擊+30 韌性+130\n" +
+                       " 　　命中+30\n" +
+                       "4件：生命+4000 攻擊+105 韌性+355\n" +
+                       " 　　命中+80\n",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff9-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm9-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female9-helmet.png",
+        "iconm": "rfasion-male9-helmet.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1608,
+        "suitId": 9,
+        "label": "忍者上衣",
+        "category": 1,
+        "subcategory": 12,
+        "hideSlot": [2],
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+5 回避+30\n" +
+                       " 　　速度+30\n" +
+                       "2件：生命+400 攻擊+20 回避+95\n" +
+                       " 　　速度+95\n" +
+                       "3件：生命+800 攻擊+75 暴擊+40\n" +
+                       " 　　命中+35 回避+275 速度+275\n" +
+                       "4件：生命+140 攻擊+175 暴擊+190\n" +
+                       " 　　命中+145 回避+595 速度+595\n",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff10-chest.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm10-chest.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female10-chest.png",
+        "iconm": "rfasion-male10-chest.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1609,
+        "suitId": 9,
+        "label": "忍者護手",
+        "category": 1,
+        "subcategory": 19,
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+5 回避+30\n" +
+                       " 　　速度+30\n" +
+                       "2件：生命+400 攻擊+20 回避+95\n" +
+                       " 　　速度+95\n" +
+                       "3件：生命+800 攻擊+75 暴擊+40\n" +
+                       " 　　命中+35 回避+275 速度+275\n" +
+                       "4件：生命+140 攻擊+175 暴擊+190\n" +
+                       " 　　命中+145 回避+595 速度+595\n",
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ff10-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff10-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "fm10-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm10-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female10-hand.png",
+        "iconm": "rfasion-male10-hand.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1610,
+        "suitId": 9,
+        "label": "忍者裹足",
+        "category": 1,
+        "subcategory": 20,
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+5 回避+30\n" +
+                       " 　　速度+30\n" +
+                       "2件：生命+400 攻擊+20 回避+95\n" +
+                       " 　　速度+95\n" +
+                       "3件：生命+800 攻擊+75 暴擊+40\n" +
+                       " 　　命中+35 回避+275 速度+275\n" +
+                       "4件：生命+140 攻擊+175 暴擊+190\n" +
+                       " 　　命中+145 回避+595 速度+595\n",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ff10-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff10-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "fm10-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm10-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female10-foot.png",
+        "iconm": "rfasion-male10-foot.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1611,
+        "suitId": 9,
+        "label": "忍者頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
+                       "套裝屬性：\n" +
+                       "1件：生命+100 攻擊+5 回避+30\n" +
+                       " 　　速度+30\n" +
+                       "2件：生命+400 攻擊+20 回避+95\n" +
+                       " 　　速度+95\n" +
+                       "3件：生命+800 攻擊+75 暴擊+40\n" +
+                       " 　　命中+35 回避+275 速度+275\n" +
+                       "4件：生命+140 攻擊+175 暴擊+190\n" +
+                       " 　　命中+145 回避+595 速度+595\n",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ff10-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "fm10-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "quality": 3,
+        "iconf": "rfasion-female10-helmet.png",
+        "iconm": "rfasion-male10-helmet.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1612,
+        "label": "護理套裝",
+        "category": 1,
+        "subcategory": 12,
+        "description": "醫護人員穿戴的裝扮，象徵著白衣天使。",
+        "sellprice": 1500,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff6-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "ff6-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff6-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "ff6-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff6-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm6-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "fm6-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm6-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "fm6-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm6-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "iconf": "rfasion-female6-chest.png",
+        "iconm": "rfasion-male6-chest.png"
+    },
+    {
+        "classId": 1613,
+        "label": "刺客套裝",
+        "category": 1,
+        "subcategory": 12,
+        "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。",
+        "sellprice": 1500,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff7-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "ff7-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff7-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "ff7-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff7-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm7-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "fm7-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm7-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "fm7-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm7-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "iconf": "rfasion-female7-chest.png",
+        "iconm": "rfasion-male7-chest.png"
+    },
+    {
+        "classId": 1614,
+        "label": "軍官套裝",
+        "category": 1,
+        "subcategory": 12,
+        "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。",
+        "sellprice": 1500,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff8-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "ff8-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff8-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "ff8-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff8-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm8-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "fm8-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm8-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "fm8-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm8-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "iconf": "rfasion-female8-chest.png",
+        "iconm": "rfasion-male8-chest.png"
+    },
+    {
+        "classId": 1615,
+        "label": "勇者鎧甲",
+        "category": 1,
+        "subcategory": 12,
+        "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。",
+        "sellprice": 1500,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff9-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "ff9-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff9-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "ff9-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff9-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm9-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "fm9-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm9-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "fm9-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm9-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "iconf": "rfasion-female9-chest.png",
+        "iconm": "rfasion-male9-chest.png"
+    },
+    {
+        "classId": 1616,
+        "label": "忍者上衣",
+        "category": 1,
+        "subcategory": 12,
+        "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。",
+        "sellprice": 1500,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ff10-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "ff10-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ff10-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "ff10-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ff10-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "fm10-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "fm10-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "fm10-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "fm10-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "fm10-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "iconf": "rfasion-female10-chest.png",
+        "iconm": "rfasion-male10-chest.png"
+    },
+    {
+        "classId": 1617,
+        "label": "時裝碎片",
+        "icon": "rfasion-sp2.png",
+        "category": 0,
+        "subcategory": 1,
+        "description": "可以通過圖紙合成限時有屬性的套裝",
+        "stack": 99,
+        "sellprice": 500,
+        "quality": 1
+    },
+    {
+        "classId": 1618,
+        "label": "頭飾圖紙",
+        "iconf": "rfasion-female3-helmet-tz.png",
+        "iconm": "rfasion-male3-helmet-tz.png",
+        "category": 3,
+        "subcategory": 0,
+        "description": "能合成禮儀頭飾的圖紙，需要5個時裝碎片",
+        "sellprice": 15,
+        "quality": 2,
+        "recipeTarget": 1551,
+        "recipeCost": 88
+    },
+    {
+        "classId": 1619,
+        "label": "上衣圖紙",
+        "iconf": "rfasion-female3-chest-tz.png",
+        "iconm": "rfasion-male3-chest-tz.png",
+        "category": 3,
+        "subcategory": 0,
+        "description": "能合成禮儀上衣的圖紙，需要5個時裝碎片",
+        "sellprice": 15,
+        "quality": 2,
+        "recipeTarget": 1548,
+        "recipeCost": 88
+    },
+    {
+        "classId": 1620,
+        "label": "手套圖紙",
+        "iconf": "rfasion-female3-hand-tz.png",
+        "iconm": "rfasion-male3-hand-tz.png",
+        "category": 3,
+        "subcategory": 0,
+        "description": "能合成禮儀手套的圖紙，需要5個時裝碎片",
+        "sellprice": 15,
+        "quality": 2,
+        "recipeTarget": 1549,
+        "recipeCost": 88
+    },
+    {
+        "classId": 1621,
+        "label": "鞋圖紙",
+        "iconf": "rfasion-female3-foot-tz.png",
+        "iconm": "rfasion-male3-foot-tz.png",
+        "category": 3,
+        "subcategory": 0,
+        "description": "能合成禮儀鞋的圖紙，需要5個時裝碎片",
+        "sellprice": 15,
+        "quality": 2,
+        "recipeTarget": 1550,
+        "recipeCost": 88
     }
 ]
