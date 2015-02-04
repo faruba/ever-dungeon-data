@@ -350,7 +350,7 @@ exports.data = {
         "description": [
             "開啟尊貴寶箱就有機會抽得X戰甲零件以及圖紙",
             "***零件以及圖紙：",
-            "##[{\"type\":0,\"count\":1475},{\"type\":0,\"value\":1476},{\"type\":0,\"value\":1478},{\"type\":0,\"value\":1480},{\"type\":0,\"value\":1482}]"
+            "##[{\"type\":0,\"count\":1475,,\"count\":1},{\"type\":0,\"value\":1476,\"count\":1},{\"type\":0,\"value\":1478,\"count\":1},{\"type\":0,\"value\":1480,\"count\":1},{\"type\":0,\"value\":1482,\"count\":1}]"
         ],
         "date": "2016/12/25",
         "dateDescription": "截止日期2016年12月25日24時"
