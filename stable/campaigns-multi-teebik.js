@@ -332,8 +332,8 @@ exports.data = {
         "title": "免費抽獎！抽不停！",
         "banner":"event-banner-mfcj.png",
         "description": ["幸運寶箱抽取冷卻時間減半，由24小時縮減為12小時。"],
-        "date": "2014/02/13",
-        "dateDescription": "截止日期2014年2月13日24時"
+        "date": "2015/02/13",
+        "dateDescription": "截止日期2015年2月13日24時"
     },
     "lottery2": {
         "show": true,
@@ -341,7 +341,7 @@ exports.data = {
         "banner":"event-banner-sylc.png",
         "description": ["購買尊貴寶箱X10即可額外獲贈一次"],
         "date": "2014/02/13",
-        "dateDescription": "截止日期2014年2月13日24時"
+        "dateDescription": "截止日期2015年2月13日24時"
     },
     "lottery3": {
         "show": true,
@@ -349,15 +349,18 @@ exports.data = {
         "banner":"event-banner-xzjs.png",
         "description": [
             "開啟尊貴寶箱就有機會抽得X戰甲零件以及圖紙",
+            "***零件以及圖紙：",
             "##[{\"type\":0,\"count\":1475},{\"type\":0,\"value\":1476},{\"type\":0,\"value\":1478},{\"type\":0,\"value\":1480},{\"type\":0,\"value\":1482}]"
-        ]
+        ],
+        "date": "2016/12/25",
+        "dateDescription": "截止日期2016年12月25日24時"
     },
     "lottery4": {
         "show": true,
         "title": "限時時裝強勢來襲",
         "banner":"event-banner-xssz.png",
         "description": ["開啟尊貴寶箱均有機會獲得帥氣時裝，低概率獲得永久屬性時裝"],
-        "date": "2014/02/13",
-        "dateDescription": "截止日期2014年2月13日24時"
+        "date": "2015/02/13",
+        "dateDescription": "截止日期2015年2月13日24時"
     }
 };
