@@ -18858,7 +18858,7 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 353,
-          "delay": 1.2
+          "delay": 1.8
         }
       ]
     }
