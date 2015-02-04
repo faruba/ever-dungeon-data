@@ -20,6 +20,6 @@ exports.data = {
         "7": "",
         "8": "itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=914818890",
         "9": "https://play.google.com/store/apps/details?id=org.kddxc.koudaidixiachengapk1",
-        "10": ""
+        "10": "https://play.google.com/store/apps/details?id=org.kddxc.koudaidixiachengapk1"
     }
 }
