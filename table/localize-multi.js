@@ -647,6 +647,8 @@ exports.data = {
         "dic_skill_371_desc":"降低所选范围内敌人攻击力。",
         "dic_skill_373_label":"神圣突袭",
         "dic_skill_373_desc":"召唤圣光随机出现于场上，击中我方可补血，击中地方造成伤害。",
+        "dic_skill_390_label":"礼仪之光",
+        "dic_skill_390_desc":"大幅度提升我方韧性、闪避和速度。",
         "evilWizard":"邪恶巫师的诡计",
         "evilWizard_else":"恭喜你获得《邪恶巫师的诡计》奖励，点击领取",
         "evilWizard_Top1":"恭喜你获得《邪恶巫师的诡计》第一名，点击领取奖励",
