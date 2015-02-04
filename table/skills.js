@@ -18858,7 +18858,7 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 353,
-          "delay": 1
+          "delay": 1.2
         }
       ]
     }
@@ -19275,6 +19275,16 @@ exports.data = [
                 }
               ]
             }
+          },
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "attackable"
           }
         ]
       },
@@ -19402,7 +19412,7 @@ exports.data = [
         },
         {
           "type": "playEffect",
-          "motion": 91,
+          "effect": 91,
           "pos": "self"
         },
         {
