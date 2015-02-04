@@ -647,6 +647,8 @@ exports.data = {
         "dic_skill_371_desc":"降低所選範圍內敵人攻擊力。",
         "dic_skill_373_label":"神聖突襲",
         "dic_skill_373_desc":"召喚聖光隨機出現於場上，擊中我方可補血，擊中地方造成傷害。",
+        "dic_skill_390_label":"禮儀之光",
+        "dic_skill_390_desc":"大幅度提升我方韌性、閃避和速度。",
         "evilWizard":"邪惡巫師的詭計",
 		"evilWizard_else":"恭喜你獲得《邪惡巫師的詭計》獎勵，點擊領取",
 		"evilWizard_Top1":"恭喜你獲得《邪惡巫師的詭計》第一名，點擊領取獎勵",

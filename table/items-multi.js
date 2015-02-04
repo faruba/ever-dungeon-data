@@ -112,7 +112,7 @@ exports.data = [
 		"classId": 5,
 		"label": "万能碎片",
 		"icon": "rfasion-sp.png",
-		"category": 3,
+		"category": 0,
 		"subcategory": 1,
 		"description": "神奇的物品，可以代替高级套装的碎片",
 		"stack": 99,
@@ -53122,8 +53122,8 @@ exports.data = [
         "label": "X碎片",
 		"iconf": "rfasion-female-ironsuit-sp.png",
 		"iconm": "rfasion-male-ironsuit-sp.png",
-        "category": 3,
-        "subcategory": 4,
+        "category": 0,
+        "subcategory": 1,
         "description": "神秘合金碎片，可以通过X图纸合成时装",
         "stack": 99,
         "sellprice": 500,
@@ -57882,12 +57882,12 @@ exports.data = [
 		"label": "时装碎片",
 		"iconf": "rfasion-female3-sp.png",
 		"iconm": "rfasion-male3-sp.png",
-		"category": 3,
+		"category": 0,
 		"subcategory": 1,
-		"description": "可以通过图纸合成限时有属性的礼仪套装",
+		"description": "可以通过图纸合成限时有属性的套装",
 		"stack": 99,
 		"sellprice": 500,
-		"quality": 3
+		"quality": 1
 	},
 	{
 		"classId": 1618,
@@ -57898,7 +57898,7 @@ exports.data = [
 		"subcategory": 0,
 		"description": "能合成礼仪头饰的图纸，需要5个时装碎片",
 		"sellprice": 15,
-		"quality": 3,
+		"quality": 2,
 		"recipeTarget": 1551,
 		"recipeCost": 88
 	},
@@ -57911,7 +57911,7 @@ exports.data = [
 		"subcategory": 0,
 		"description": "能合成礼仪上衣的图纸，需要5个时装碎片",
 		"sellprice": 15,
-		"quality": 3,
+		"quality": 2,
 		"recipeTarget": 1548,
 		"recipeCost": 88
 	},
@@ -57924,7 +57924,7 @@ exports.data = [
 		"subcategory": 0,
 		"description": "能合成礼仪手套的图纸，需要5个时装碎片",
 		"sellprice": 15,
-		"quality": 3,
+		"quality": 2,
 		"recipeTarget": 1549,
 		"recipeCost": 88
 	},
@@ -57937,7 +57937,7 @@ exports.data = [
 		"subcategory": 0,
 		"description": "能合成礼仪鞋的图纸，需要5个时装碎片",
 		"sellprice": 15,
-		"quality": 3,
+		"quality": 2,
 		"recipeTarget": 1550,
 		"recipeCost": 88
 	}

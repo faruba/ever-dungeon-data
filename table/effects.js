@@ -48,20 +48,20 @@ exports.data = [
         "file": "effect-attack3.ccbi"
     },
     {
-    		"effectId": 11,
-    		"file": "effect-win.ccbi",
-    		"attach":[
-    								{
-    									"name": "nodeLight",
-    									"file": "effect-winlight.ccbi"
-    								}
-    							]
+        "effectId": 11,
+        "file": "effect-win.ccbi",
+        "attach":[
+            {
+                "name": "nodeLight",
+                "file": "effect-winlight.ccbi"
+            }
+        ]
     },
     {		"effectId": 12,
-    		"file": "effect-lose.ccbi"
+        "file": "effect-lose.ccbi"
     },
     {		"effectId": 13,
-    		"file": "effect-gjts.ccbi"
+        "file": "effect-gjts.ccbi"
     },
     {		"effectId": 14,
         "file": "effect-hf.ccbi"
@@ -375,7 +375,7 @@ exports.data = [
         "loop": true,
         "skeleton": "effect-elht.json",
         "atlas": "effect-elht.atlas",
-        "onBack":true
+        "zLayer":"back"
     },
     {
         "effectId": 83,
@@ -391,7 +391,8 @@ exports.data = [
     {
         "effectId": 85,
         "skeleton": "effect-zhanji2.json",
-        "atlas": "effect-zhanji2.atlas"
+        "atlas": "effect-zhanji2.atlas",
+        "zLayer": "role"
     },
     {
         "effectId": 86,
@@ -436,7 +437,8 @@ exports.data = [
         "effectId": 93,
         "skeleton": "irongunfire1.json",
         "atlas": "irongunfire1.atlas",
-        "sound": "irongunfire.mp3"
+        "sound": "irongunfire.mp3",
+        "zLayer": "role"
     },
     {
         "effectId": 94,
@@ -447,7 +449,8 @@ exports.data = [
         "effectId": 95,
         "skeleton": "ironrayfire1.json",
         "atlas": "ironrayfire1.atlas",
-        "sound": "ironrayfire.mp3"
+        "sound": "ironrayfire.mp3",
+        "zLayer": "role"
     },
     {
         "effectId": 96,

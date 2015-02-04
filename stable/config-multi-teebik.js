@@ -18,13 +18,13 @@ exports.data = {
 
     Server_Config: {
         "Develop.9": {
-            ID: 0,
+            ID: 1,
             Name: "Test",
             DB: "SEAsiaTest",
             DB_Prefix: "Test"
         },
         "Develop.10": {
-            ID: 1,
+            ID: 0,
             Name: "Develop",
             DB: "SEAsia",
             DB_Prefix: "Develop"

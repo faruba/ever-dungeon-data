@@ -18858,7 +18858,7 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 353,
-          "delay": 1
+          "delay": 1.8
         }
       ]
     }
@@ -19275,6 +19275,16 @@ exports.data = [
                 }
               ]
             }
+          },
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "attackable"
           }
         ]
       },
@@ -19402,7 +19412,7 @@ exports.data = [
         },
         {
           "type": "playEffect",
-          "motion": 91,
+          "effect": 91,
           "pos": "self"
         },
         {
@@ -20153,7 +20163,7 @@ exports.data = [
             },
             {
               func:function(env,source,target,cons) {
-                return env.battleForce*0.3/18.5*1
+                return env.battleForce*0.3/18.5
               }
             },
             {
@@ -21319,9 +21329,10 @@ exports.data = [
   },
   {
     "skillId": 390,
-    "label": L("dic_skill_208_label"), //礼仪buff
+    "activeSpell": true,
+    "label": L("dic_skill_390_label"), //礼仪之光
     "icon": "skill-dzj2.png",
-    "desc": L("dic_skill_208_desc"), //大幅度提升我方韧性、闪避和速度。
+    "desc": L("dic_skill_390_desc"), //大幅度提升我方韧性、闪避和速度。
     "slotId": 100,
     "config": {
       "basic": {
