@@ -1,5 +1,5 @@
 exports.data = [
-    {"id":858, "price": {"type": "diamond", "amount": 40},"category":[{"id": 0, "index": 0]},
+    {"id":858, "price": {"type": "diamond", "amount": 40},"category":[{"id": 0, "index": 0}]},
     {"id":859, "price": {"type": "diamond", "amount": 90}, "category":[{"id": 0, "index": 1}]},
     {"id":860, "price": {"type": "diamond", "amount": 150}, "category":[{"id": 0, "index": 2}]},
     {"id":853, "price": {"type": "diamond", "amount": 10},"category":[{"id": 0, "index": 3}]},
