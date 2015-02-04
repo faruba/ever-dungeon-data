@@ -57894,8 +57894,7 @@ exports.data = [
 	{
 		"classId": 1617,
 		"label": "时装碎片",
-		"iconf": "rfasion-female3-sp.png",
-		"iconm": "rfasion-male3-sp.png",
+		"icon": "rfasion-sp2.png",
 		"category": 0,
 		"subcategory": 1,
 		"description": "可以通过图纸合成限时有属性的套装",
