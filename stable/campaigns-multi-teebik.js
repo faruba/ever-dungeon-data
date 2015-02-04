@@ -324,7 +324,40 @@ exports.data = {
         ],
         "mailTitle": "《王者角逐》活動獎勵",
         "mailBody": "恭喜你完成活動，點擊領取活動獎勵！",
-        "date": "2015/02/16",
-        "dateDescription": "截止日期2015年2月16日24時"
+        "date": "2015/02/28",
+        "dateDescription": "截止日期2015年2月28日24時"
+    },
+    "lottery1": {
+        "show": true,
+        "title": "免費抽獎！抽不停！",
+        "banner":"event-banner-zyqne.png",
+        "description": ["幸運寶箱抽取冷卻時間減半，由24小時縮減為12小時。"],
+        "date": "2014/02/13",
+        "dateDescription": "截止日期2014年2月13日24時"
+    },
+    "lottery2": {
+        "show": true,
+        "title": "十一連抽大優惠！",
+        "banner":"event-banner-zyqne.png",
+        "description": ["購買尊貴寶箱X10即可額外獲贈一次"],
+        "date": "2014/02/13",
+        "dateDescription": "截止日期2014年2月13日24時"
+    },
+    "lottery3": {
+        "show": true,
+        "title": "X戰甲神秘登場",
+        "banner":"event-banner-zyqne.png",
+        "description": [
+            "開啟尊貴寶箱就有機會抽得X戰甲零件以及圖紙",
+            "##[{\"type\":0,\"count\":1475},{\"type\":0,\"value\":1476},{\"type\":0,\"value\":1478},{\"type\":0,\"value\":1480},{\"type\":0,\"value\":1482}]"
+        ]
+    },
+    "lottery4": {
+        "show": true,
+        "title": "限時時裝強勢來襲",
+        "banner":"event-banner-zyqne.png",
+        "description": ["開啟尊貴寶箱均有機會獲得帥氣時裝，低概率獲得永久屬性時裝"],
+        "date": "2014/02/13",
+        "dateDescription": "截止日期2014年2月13日24時"
     }
 };
