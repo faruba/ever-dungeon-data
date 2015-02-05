@@ -90,7 +90,7 @@ exports.data = {
         "sceneDungeonWantGiveUp":"放弃战斗会立即使战斗失败，\n确定要放弃吗？",
         "sceneDungeonGiveUp":"玩家放弃",
         "sceneDungeonPKFailed":"PK战败",
-        "sceneDungeonUseRecovery":"队伍成员已经全部牺牲\n是否要使用复活药水继续战斗？",
+        "sceneDungeonUseRecovery":"队伍成员已经全部牺牲\n是否要使用复活药水继续战斗？\n（本关卡剩余复活次数：{#1}次）",
         "sceneDungeonDefeated":"玩家被击败",
         "sceneDungeonUnSelectable":"没有可选择的目标",
         "sceneForgeChangeCoin":"金币不足\n还需要{#1}金币\n需要使用{#2}宝石来兑换吗?",
