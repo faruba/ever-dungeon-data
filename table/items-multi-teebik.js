@@ -53162,7 +53162,7 @@ exports.data = [
     {
         "classId": 1477,
         "label": "X頭盔",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "suitId": 1,
         "description": "由神秘合金配合頂尖黑科技打造而成的套裝，擁有難以置信的力量。\n" +
@@ -53210,7 +53210,7 @@ exports.data = [
     {
         "classId": 1479,
         "label": "X胸甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "suitId": 1,
@@ -53275,7 +53275,7 @@ exports.data = [
     {
         "classId": 1481,
         "label": "X手甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "suitId": 1,
         "description": "由神秘合金配合頂尖黑科技打造而成的套裝，擁有難以置信的力量。\n" +
@@ -53331,7 +53331,7 @@ exports.data = [
     {
         "classId": 1483,
         "label": "X腿甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "suitId": 1,
         "description": "由神秘合金配合頂尖黑科技打造而成的套裝，擁有難以置信的力量。\n" +
@@ -54310,7 +54310,7 @@ exports.data = [
     {
         "classId": 1516,
         "label": "禮儀上衣",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "表示出禮儀的裝扮，給人以安心的感覺。",
@@ -54335,7 +54335,7 @@ exports.data = [
     {
         "classId": 1517,
         "label": "禮儀手套",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "表示出禮儀的裝扮，給人以安心的感覺。",
         "recipePrize": 210,
@@ -54367,7 +54367,7 @@ exports.data = [
     {
         "classId": 1518,
         "label": "禮儀鞋",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "注重禮儀的服飾，能夠給人舒心的感覺。",
         "recipePrize": 210,
@@ -54399,7 +54399,7 @@ exports.data = [
     {
         "classId": 1519,
         "label": "禮儀頭飾",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "表示出禮儀的裝扮，給人以安心的感覺。",
         "recipePrize": 210,
@@ -54423,7 +54423,7 @@ exports.data = [
     {
         "classId": 1520,
         "label": "和風上衣",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "洋溢著東方韻味的裝扮。",
@@ -54448,7 +54448,7 @@ exports.data = [
     {
         "classId": 1521,
         "label": "和風護手",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "洋溢著東方韻味的裝扮。",
         "recipePrize": 210,
@@ -54480,7 +54480,7 @@ exports.data = [
     {
         "classId": 1522,
         "label": "和風護腿",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "洋溢著東方韻味的裝扮。",
         "recipePrize": 210,
@@ -54512,7 +54512,7 @@ exports.data = [
     {
         "classId": 1523,
         "label": "和風頭飾",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "洋溢著東方韻味的裝扮。",
         "recipePrize": 210,
@@ -54536,7 +54536,7 @@ exports.data = [
     {
         "classId": 1524,
         "label": "喵喵衣服",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。",
@@ -54561,7 +54561,7 @@ exports.data = [
     {
         "classId": 1525,
         "label": "喵喵爪子",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。",
         "recipePrize": 210,
@@ -54593,7 +54593,7 @@ exports.data = [
     {
         "classId": 1526,
         "label": "喵喵護腿",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。",
         "recipePrize": 210,
@@ -54625,7 +54625,7 @@ exports.data = [
     {
         "classId": 1527,
         "label": "喵喵耳朵",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。",
         "recipePrize": 210,
@@ -54649,7 +54649,7 @@ exports.data = [
     {
         "classId": 1528,
         "label": "護理大衣",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "醫護人員穿戴的裝扮，象徵著白衣天使。",
@@ -54674,7 +54674,7 @@ exports.data = [
     {
         "classId": 1529,
         "label": "護理手套",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "醫護人員穿戴的裝扮，象徵著白衣天使。",
         "recipePrize": 210,
@@ -54706,7 +54706,7 @@ exports.data = [
     {
         "classId": 1530,
         "label": "護理鞋具",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "醫護人員穿戴的裝扮，象徵著白衣天使。",
         "recipePrize": 210,
@@ -54738,7 +54738,7 @@ exports.data = [
     {
         "classId": 1531,
         "label": "護理頭飾",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "醫護人員穿戴的裝扮，象徵著白衣天使。",
         "recipePrize": 210,
@@ -54762,7 +54762,7 @@ exports.data = [
     {
         "classId": 1532,
         "label": "刺客服",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。",
@@ -54787,7 +54787,7 @@ exports.data = [
     {
         "classId": 1533,
         "label": "刺客護手",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。",
         "recipePrize": 210,
@@ -54819,7 +54819,7 @@ exports.data = [
     {
         "classId": 1534,
         "label": "刺客鞋",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。",
         "recipePrize": 210,
@@ -54851,7 +54851,7 @@ exports.data = [
     {
         "classId": 1535,
         "label": "刺客面罩",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。",
         "recipePrize": 210,
@@ -54875,7 +54875,7 @@ exports.data = [
     {
         "classId": 1536,
         "label": "軍官大衣",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。",
@@ -54900,7 +54900,7 @@ exports.data = [
     {
         "classId": 1537,
         "label": "軍官手套",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。",
         "recipePrize": 210,
@@ -54932,7 +54932,7 @@ exports.data = [
     {
         "classId": 1538,
         "label": "軍官長靴",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。",
         "recipePrize": 210,
@@ -54964,7 +54964,7 @@ exports.data = [
     {
         "classId": 1539,
         "label": "軍官帽",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。",
         "recipePrize": 210,
@@ -54988,7 +54988,7 @@ exports.data = [
     {
         "classId": 1540,
         "label": "勇者鎧甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。",
@@ -55013,7 +55013,7 @@ exports.data = [
     {
         "classId": 1541,
         "label": "勇者手甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。",
         "recipePrize": 210,
@@ -55045,7 +55045,7 @@ exports.data = [
     {
         "classId": 1542,
         "label": "勇者腿甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。",
         "recipePrize": 210,
@@ -55077,7 +55077,7 @@ exports.data = [
     {
         "classId": 1543,
         "label": "勇者頭飾",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。",
         "recipePrize": 210,
@@ -55101,7 +55101,7 @@ exports.data = [
     {
         "classId": 1544,
         "label": "忍者上衣",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。",
@@ -55126,7 +55126,7 @@ exports.data = [
     {
         "classId": 1545,
         "label": "忍者護手",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。",
         "recipePrize": 210,
@@ -55158,7 +55158,7 @@ exports.data = [
     {
         "classId": 1546,
         "label": "忍者裹足",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。",
         "recipePrize": 210,
@@ -55190,7 +55190,7 @@ exports.data = [
     {
         "classId": 1547,
         "label": "忍者頭飾",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。",
         "recipePrize": 210,
@@ -55215,7 +55215,7 @@ exports.data = [
         "classId": 1548,
         "suitId": 4,
         "label": "禮儀上衣",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
@@ -55250,7 +55250,7 @@ exports.data = [
         "classId": 1549,
         "suitId": 4,
         "label": "禮儀手套",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
                        "套裝屬性：\n" +
@@ -55292,7 +55292,7 @@ exports.data = [
         "classId": 1550,
         "suitId": 4,
         "label": "禮儀鞋",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
                        "套裝屬性：\n" +
@@ -55334,7 +55334,7 @@ exports.data = [
         "classId": 1551,
         "suitId": 4,
         "label": "禮儀頭飾",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
                        "套裝屬性：\n" +
@@ -55368,7 +55368,7 @@ exports.data = [
         "classId": 1552,
         "suitId": 3,
         "label": "和風上衣",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "洋溢著東方韻味的裝扮。\n" +
@@ -55403,7 +55403,7 @@ exports.data = [
         "classId": 1553,
         "suitId": 3,
         "label": "和風護手",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "洋溢著東方韻味的裝扮。\n" +
                        "套裝屬性：\n" +
@@ -55445,7 +55445,7 @@ exports.data = [
         "classId": 1554,
         "suitId": 3,
         "label": "和風護腿",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "洋溢著東方韻味的裝扮。\n" +
                        "套裝屬性：\n" +
@@ -55487,7 +55487,7 @@ exports.data = [
         "classId": 1555,
         "suitId": 3,
         "label": "和風頭飾",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "洋溢著東方韻味的裝扮。\n" +
                        "套裝屬性：\n" +
@@ -55521,7 +55521,7 @@ exports.data = [
         "classId": 1556,
         "suitId": 2,
         "label": "喵喵衣服",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
@@ -55556,7 +55556,7 @@ exports.data = [
         "classId": 1557,
         "suitId": 2,
         "label": "喵喵爪子",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
                        "套裝屬性：\n" +
@@ -55598,7 +55598,7 @@ exports.data = [
         "classId": 1558,
         "suitId": 2,
         "label": "喵喵護腿",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
                        "套裝屬性：\n" +
@@ -55640,7 +55640,7 @@ exports.data = [
         "classId": 1559,
         "suitId": 2,
         "label": "喵喵耳朵",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
                        "套裝屬性：\n" +
@@ -55674,7 +55674,7 @@ exports.data = [
         "classId": 1560,
         "suitId": 5,
         "label": "護理大衣",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
@@ -55708,7 +55708,7 @@ exports.data = [
         "classId": 1561,
         "suitId": 5,
         "label": "護理手套",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
                        "套裝屬性：\n" +
@@ -55749,7 +55749,7 @@ exports.data = [
         "classId": 1562,
         "suitId": 5,
         "label": "護理鞋具",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
                        "套裝屬性：\n" +
@@ -55790,7 +55790,7 @@ exports.data = [
         "classId": 1563,
         "suitId": 5,
         "label": "護理頭飾",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
                        "套裝屬性：\n" +
@@ -55823,7 +55823,7 @@ exports.data = [
         "classId": 1564,
         "suitId": 6,
         "label": "刺客服",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
@@ -55858,7 +55858,7 @@ exports.data = [
         "classId": 1565,
         "suitId": 6,
         "label": "刺客護手",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
                        "套裝屬性：\n" +
@@ -55900,7 +55900,7 @@ exports.data = [
         "classId": 1566,
         "suitId": 6,
         "label": "刺客鞋",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
                        "套裝屬性：\n" +
@@ -55942,7 +55942,7 @@ exports.data = [
         "classId": 1567,
         "suitId": 6,
         "label": "刺客面罩",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
                        "套裝屬性：\n" +
@@ -55976,7 +55976,7 @@ exports.data = [
         "classId": 1568,
         "suitId": 7,
         "label": "軍官大衣",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
@@ -56011,7 +56011,7 @@ exports.data = [
         "classId": 1569,
         "suitId": 7,
         "label": "軍官手套",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
                        "套裝屬性：\n" +
@@ -56053,7 +56053,7 @@ exports.data = [
         "classId": 1570,
         "suitId": 7,
         "label": "軍官長靴",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
                        "套裝屬性：\n" +
@@ -56095,7 +56095,7 @@ exports.data = [
         "classId": 1571,
         "suitId": 7,
         "label": "軍官帽",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
                        "套裝屬性：\n" +
@@ -56129,7 +56129,7 @@ exports.data = [
         "classId": 1572,
         "suitId": 8,
         "label": "勇者鎧甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
@@ -56163,7 +56163,7 @@ exports.data = [
         "classId": 1573,
         "suitId": 8,
         "label": "勇者手甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
                        "套裝屬性：\n" +
@@ -56204,7 +56204,7 @@ exports.data = [
         "classId": 1574,
         "suitId": 8,
         "label": "勇者腿甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
                        "套裝屬性：\n" +
@@ -56245,7 +56245,7 @@ exports.data = [
         "classId": 1575,
         "suitId": 8,
         "label": "勇者頭飾",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
                        "套裝屬性：\n" +
@@ -56278,7 +56278,7 @@ exports.data = [
         "classId": 1576,
         "suitId": 9,
         "label": "忍者上衣",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
@@ -56314,7 +56314,7 @@ exports.data = [
         "classId": 1577,
         "suitId": 9,
         "label": "忍者護手",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
                        "套裝屬性：\n" +
@@ -56357,7 +56357,7 @@ exports.data = [
         "classId": 1578,
         "suitId": 9,
         "label": "忍者裹足",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
                        "套裝屬性：\n" +
@@ -56400,7 +56400,7 @@ exports.data = [
         "classId": 1579,
         "suitId": 9,
         "label": "忍者頭飾",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
                        "套裝屬性：\n" +
@@ -56435,7 +56435,7 @@ exports.data = [
         "classId": 1580,
         "suitId": 4,
         "label": "禮儀上衣",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
@@ -56469,7 +56469,7 @@ exports.data = [
         "classId": 1581,
         "suitId": 4,
         "label": "禮儀手套",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
                        "套裝屬性：\n" +
@@ -56510,7 +56510,7 @@ exports.data = [
         "classId": 1582,
         "suitId": 4,
         "label": "禮儀鞋",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
                        "套裝屬性：\n" +
@@ -56551,7 +56551,7 @@ exports.data = [
         "classId": 1583,
         "suitId": 4,
         "label": "禮儀頭飾",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "表示出禮儀的裝扮，給人以安心的感覺。\n" +
                        "套裝屬性：\n" +
@@ -56584,7 +56584,7 @@ exports.data = [
         "classId": 1584,
         "suitId": 3,
         "label": "和風上衣",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "洋溢著東方韻味的裝扮。\n" +
@@ -56618,7 +56618,7 @@ exports.data = [
         "classId": 1585,
         "suitId": 3,
         "label": "和風護手",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "洋溢著東方韻味的裝扮。\n" +
                        "套裝屬性：\n" +
@@ -56659,7 +56659,7 @@ exports.data = [
         "classId": 1586,
         "suitId": 3,
         "label": "和風護腿",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "洋溢著東方韻味的裝扮。\n" +
                        "套裝屬性：\n" +
@@ -56700,7 +56700,7 @@ exports.data = [
         "classId": 1587,
         "suitId": 3,
         "label": "和風頭飾",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "洋溢著東方韻味的裝扮。\n" +
                        "套裝屬性：\n" +
@@ -56733,7 +56733,7 @@ exports.data = [
         "classId": 1588,
         "suitId": 2,
         "label": "喵喵衣服",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
@@ -56767,7 +56767,7 @@ exports.data = [
         "classId": 1589,
         "suitId": 2,
         "label": "喵喵爪子",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
                        "套裝屬性：\n" +
@@ -56808,7 +56808,7 @@ exports.data = [
         "classId": 1590,
         "suitId": 2,
         "label": "喵喵護腿",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
                        "套裝屬性：\n" +
@@ -56849,7 +56849,7 @@ exports.data = [
         "classId": 1591,
         "suitId": 2,
         "label": "喵喵耳朵",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "擁有貓咪一樣柔軟的毛髮，讓人愛不釋手。\n" +
                        "套裝屬性：\n" +
@@ -56882,7 +56882,7 @@ exports.data = [
         "classId": 1592,
         "suitId": 5,
         "label": "護理大衣",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
@@ -56915,7 +56915,7 @@ exports.data = [
         "classId": 1593,
         "suitId": 5,
         "label": "護理手套",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
                        "套裝屬性：\n" +
@@ -56955,7 +56955,7 @@ exports.data = [
         "classId": 1594,
         "suitId": 5,
         "label": "護理鞋具",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
                        "套裝屬性：\n" +
@@ -56995,7 +56995,7 @@ exports.data = [
         "classId": 1595,
         "suitId": 5,
         "label": "護理頭飾",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "醫護人員穿戴的裝扮，象徵著白衣天使。\n" +
                        "套裝屬性：\n" +
@@ -57027,7 +57027,7 @@ exports.data = [
         "classId": 1596,
         "suitId": 6,
         "label": "刺客服",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
@@ -57061,7 +57061,7 @@ exports.data = [
         "classId": 1597,
         "suitId": 6,
         "label": "刺客護手",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
                        "套裝屬性：\n" +
@@ -57102,7 +57102,7 @@ exports.data = [
         "classId": 1598,
         "suitId": 6,
         "label": "刺客鞋",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
                        "套裝屬性：\n" +
@@ -57143,7 +57143,7 @@ exports.data = [
         "classId": 1599,
         "suitId": 6,
         "label": "刺客面罩",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "暗殺者貫穿的裝扮，穿上後能夠讓人冷靜找到敵人弱點。\n" +
                        "套裝屬性：\n" +
@@ -57176,7 +57176,7 @@ exports.data = [
         "classId": 1600,
         "suitId": 7,
         "label": "軍官大衣",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
@@ -57210,7 +57210,7 @@ exports.data = [
         "classId": 1601,
         "suitId": 7,
         "label": "軍官手套",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
                        "套裝屬性：\n" +
@@ -57251,7 +57251,7 @@ exports.data = [
         "classId": 1602,
         "suitId": 7,
         "label": "軍官長靴",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
                        "套裝屬性：\n" +
@@ -57292,7 +57292,7 @@ exports.data = [
         "classId": 1603,
         "suitId": 7,
         "label": "軍官帽",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "擁有長官的氣場，能夠最大化的體現軍人戰鬥力。\n" +
                        "套裝屬性：\n" +
@@ -57325,7 +57325,7 @@ exports.data = [
         "classId": 1604,
         "suitId": 8,
         "label": "勇者鎧甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
@@ -57358,7 +57358,7 @@ exports.data = [
         "classId": 1605,
         "suitId": 8,
         "label": "勇者手甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
                        "套裝屬性：\n" +
@@ -57398,7 +57398,7 @@ exports.data = [
         "classId": 1606,
         "suitId": 8,
         "label": "勇者腿甲",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
                        "套裝屬性：\n" +
@@ -57438,7 +57438,7 @@ exports.data = [
         "classId": 1607,
         "suitId": 8,
         "label": "勇者頭飾",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "屠龍勇士所穿著的套裝，擁有能夠抵擋龍炎的厚重裝甲。\n" +
                        "套裝屬性：\n" +
@@ -57470,7 +57470,7 @@ exports.data = [
         "classId": 1608,
         "suitId": 9,
         "label": "忍者上衣",
-        "category": 3,
+        "category": 1,
         "subcategory": 12,
         "hideSlot": [2],
         "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
@@ -57505,7 +57505,7 @@ exports.data = [
         "classId": 1609,
         "suitId": 9,
         "label": "忍者護手",
-        "category": 3,
+        "category": 1,
         "subcategory": 19,
         "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
                        "套裝屬性：\n" +
@@ -57547,7 +57547,7 @@ exports.data = [
         "classId": 1610,
         "suitId": 9,
         "label": "忍者裹足",
-        "category": 3,
+        "category": 1,
         "subcategory": 20,
         "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
                        "套裝屬性：\n" +
@@ -57589,7 +57589,7 @@ exports.data = [
         "classId": 1611,
         "suitId": 9,
         "label": "忍者頭飾",
-        "category": 3,
+        "category": 1,
         "subcategory": 13,
         "description": "東方神秘集團的裝扮，能夠在黑夜中藏匿行蹤。\n" +
                        "套裝屬性：\n" +
