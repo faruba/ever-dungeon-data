@@ -525,5 +525,25 @@ exports.data = [
         "effectId": 107,
         "skeleton": "effect-guanjiabuff.json",
         "atlas": "effect-guanjiabuff.atlas"
+    },
+    {
+        "effectId": 108,
+        "skeleton": "effect-miaomiao.json",
+        "atlas": "effect-miaomiao.atlas"
+    },
+    {
+        "effectId": 109,
+        "skeleton": "effect-huibitisheng.json",
+        "atlas": "effect-huibitisheng.atlas"
+    },
+    {
+        "effectId": 110,
+        "skeleton": "effect-hefu.json",
+        "atlas": "effect-hefu.atlas"
+    },
+    {
+        "effectId": 111,
+        "skeleton": "effect-baojitisheng.json",
+        "atlas": "effect-baojitisheng.atlas"
     }
 ]
