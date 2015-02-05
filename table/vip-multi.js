@@ -10,6 +10,14 @@ exports.data = {
               {
                   "name":"chest_vip",
                   "data":1
+              },
+              {
+                  "name":"dayEnergyBuyTimes",
+                  "data":2
+              },
+              {
+                  "name":"appendRevive",
+                  "data":1
               }
           ]
       },
@@ -19,6 +27,10 @@ exports.data = {
               {
                   "name":"chest_vip",
                   "data":2
+              },
+              {
+                  "name":"dayEnergyBuyTimes",
+                  "data":3
               }
           ]
       },
@@ -32,6 +44,14 @@ exports.data = {
                 {
                     "name":"ContinuousRaids",
                     "data":true
+                },
+                {
+                    "name":"dayEnergyBuyTimes",
+                    "data":4
+                },
+                {
+                    "name":"appendRevive",
+                    "data":2
                 }
             ]
         },

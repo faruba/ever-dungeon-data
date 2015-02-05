@@ -1583,6 +1583,7 @@ exports.data = [
     {
         "dungeonId": 8,
         "rank": 6,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool": {"objects": [
@@ -1695,6 +1696,7 @@ exports.data = [
     {
         "dungeonId": 9,
         "rank": 6,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool": {"objects":[
@@ -1796,6 +1798,7 @@ exports.data = [
     {
         "dungeonId": 10,
         "rank": 7,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -1906,6 +1909,7 @@ exports.data = [
     {
         "dungeonId": 11,
         "rank": 7,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -2018,6 +2022,7 @@ exports.data = [
     {
         "dungeonId": 12,
         "rank": 7,
+        "reviveLimit": 1,
         "levelCount" :2,
         "pool":{
             "normalPool":{"objects":[
@@ -2123,6 +2128,7 @@ exports.data = [
     {
         "dungeonId": 13,
         "rank": 8,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -2241,7 +2247,7 @@ exports.data = [
         "dungeonId": 14,
         "rank": 8,
         "levelCount" :2,
-        "reviveLimit": 3,
+        "reviveLimit": 1,
         "pool":{
             "normalPool":{"objects":[
                 {
@@ -2357,6 +2363,7 @@ exports.data = [
     {
         "dungeonId": 15,
         "rank": 18,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -2454,6 +2461,7 @@ exports.data = [
     {
         "dungeonId": 16,
         "rank": 20,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -2563,6 +2571,7 @@ exports.data = [
     {
         "dungeonId": 17,
         "rank": 22,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -2687,6 +2696,7 @@ exports.data = [
     {
         "dungeonId": 18,
         "rank": 24,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -2830,6 +2840,7 @@ exports.data = [
     {
         "dungeonId": 19,
         "rank": 26,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":
@@ -2934,6 +2945,7 @@ exports.data = [
     {
         "dungeonId": 20,
         "rank": 27,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -3044,7 +3056,7 @@ exports.data = [
         "dungeonId": 21,
         "rank": 30,
         "levelCount" : 2,
-        "reviveLimit": 3,
+        "reviveLimit": 1,
         "pool":{
             "normalPool":{"objects":[
                 {
@@ -3158,6 +3170,7 @@ exports.data = [
     {
         "dungeonId": 22,
         "rank": 38,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -3254,6 +3267,7 @@ exports.data = [
     {
         "dungeonId": 23,
         "rank": 40,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -3355,6 +3369,7 @@ exports.data = [
     {
         "dungeonId": 24,
         "rank": 42,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -3483,6 +3498,7 @@ exports.data = [
     {
         "dungeonId": 25,
         "rank": 50,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -3601,6 +3617,7 @@ exports.data = [
     {
         "dungeonId": 26,
         "rank": 55,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -3712,6 +3729,7 @@ exports.data = [
     {
         "dungeonId": 27,
         "rank": 60,
+        "reviveLimit": 1,
         "collectId":62001,
         "levelCount" : 2,
         "pool":{
@@ -3823,7 +3841,7 @@ exports.data = [
         "dungeonId": 28,
         "rank": 65,
         "levelCount" : 2,
-        "reviveLimit": 3,
+        "reviveLimit": 1,
         "pool":{
             "normalPool":{"objects":[
                 {
@@ -3950,6 +3968,7 @@ exports.data = [
         "dungeonId": 29,
         "collectId":65001,
         "rank": 70,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -4054,6 +4073,7 @@ exports.data = [
     {
         "dungeonId": 30,
         "rank": 75,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -4163,6 +4183,7 @@ exports.data = [
     {
         "dungeonId": 31,
         "rank": 80,
+        "reviveLimit": 1,
         "collectId":69001,
         "levelCount" : 2,
         "pool":{
@@ -4307,6 +4328,7 @@ exports.data = [
     {
         "dungeonId": 32,
         "rank": 85,
+        "reviveLimit": 1,
         "collectId":71001,
         "levelCount" : 2,
         "pool":{
@@ -4417,6 +4439,7 @@ exports.data = [
     {
         "dungeonId": 33,
         "rank": 90,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -4528,6 +4551,7 @@ exports.data = [
     {
         "dungeonId": 34,
         "rank": 95,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -4634,7 +4658,7 @@ exports.data = [
         "dungeonId": 35,
         "rank": 100,
         "levelCount" : 2,
-        "reviveLimit": 3,
+        "reviveLimit": 1,
         "pool":{
             "normalPool":{"objects":[
                 {
@@ -4749,6 +4773,7 @@ exports.data = [
     {
         "dungeonId": 36,
         "rank": 100,
+        "reviveLimit": 1,
         "collectId":77001,
         "levelCount" : 2,
         "pool":{
@@ -4853,6 +4878,7 @@ exports.data = [
     {
         "dungeonId": 37,
         "rank": 110,
+        "reviveLimit": 1,
         "collectId":79001,
         "levelCount" : 2,
         "pool":{
@@ -4968,6 +4994,7 @@ exports.data = [
     {
         "dungeonId": 38,
         "rank": 120,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -5078,6 +5105,7 @@ exports.data = [
     {
         "dungeonId": 39,
         "rank": 130,
+        "reviveLimit": 1,
         "collectId":83001,
         "levelCount" : 2,
         "pool":{
@@ -5187,6 +5215,7 @@ exports.data = [
     {
         "dungeonId": 40,
         "rank": 140,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -5303,6 +5332,7 @@ exports.data = [
     {
         "dungeonId": 41,
         "rank": 150,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -5431,7 +5461,7 @@ exports.data = [
         "dungeonId": 42,
         "rank": 160,
         "levelCount" : 2,
-        "reviveLimit": 3,
+        "reviveLimit": 1,
         "pool":{
             "normalPool":{"objects":[
                 {
@@ -5559,6 +5589,7 @@ exports.data = [
     {
         "dungeonId": 43,
         "rank": 160,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -5677,6 +5708,7 @@ exports.data = [
     {
         "dungeonId": 44,
         "rank": 170,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -5791,6 +5823,7 @@ exports.data = [
     {
         "dungeonId": 45,
         "rank": 180,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -5912,6 +5945,7 @@ exports.data = [
     {
         "dungeonId": 46,
         "rank": 190,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -6029,6 +6063,7 @@ exports.data = [
     {
         "dungeonId": 47,
         "rank": 200,
+        "reviveLimit": 1,
         "levelCount" :2,
         "pool":{
             "normalPool":{"objects":[
@@ -6137,6 +6172,7 @@ exports.data = [
     {
         "dungeonId": 48,
         "rank":210,
+        "reviveLimit": 1,
         "collectId":102001,
         "levelCount" : 2,
         "pool":{
@@ -6257,7 +6293,7 @@ exports.data = [
         "dungeonId": 49,
         "rank": 220,
         "levelCount" : 2,
-        "reviveLimit": 3,
+        "reviveLimit": 1,
         "pool":{
             "normalPool":{"objects":[
                 {
@@ -6360,6 +6396,7 @@ exports.data = [
     {
         "dungeonId": 50,
         "rank": 220,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -6464,6 +6501,7 @@ exports.data = [
     {
         "dungeonId": 51,
         "rank": 225,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -6579,6 +6617,7 @@ exports.data = [
     {
         "dungeonId": 52,
         "rank": 230,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -6689,6 +6728,7 @@ exports.data = [
     {
         "dungeonId": 53,
         "rank": 235,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -6799,6 +6839,7 @@ exports.data = [
     {
         "dungeonId": 54,
         "rank": 240,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -6909,6 +6950,7 @@ exports.data = [
     {
         "dungeonId": 55,
         "rank": 250,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -7019,7 +7061,7 @@ exports.data = [
         "dungeonId": 56,
         "rank": 260,
         "levelCount" : 2,
-        "reviveLimit": 3,
+        "reviveLimit": 1,
         "pool":{
             "normalPool":{"objects":[
                 {
@@ -7123,6 +7165,7 @@ exports.data = [
     {
         "dungeonId": 57,
         "rank": 260,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -7244,6 +7287,7 @@ exports.data = [
     {
         "dungeonId": 58,
         "rank": 265,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -7352,6 +7396,7 @@ exports.data = [
     {
         "dungeonId": 59,
         "rank": 270,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -7455,6 +7500,7 @@ exports.data = [
     {
         "dungeonId": 60,
         "rank": 275,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -7564,6 +7610,7 @@ exports.data = [
     {
         "dungeonId": 61,
         "rank": 280,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -7678,6 +7725,7 @@ exports.data = [
     {
         "dungeonId": 62,
         "rank": 290,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -7811,7 +7859,7 @@ exports.data = [
         "dungeonId": 63,
         "rank": 300,
         "levelCount" : 2,
-        "reviveLimit": 3,
+        "reviveLimit": 1,
         "pool":{
             "normalPool":{"objects":[
                 {
@@ -10958,6 +11006,7 @@ exports.data = [
     {
         "dungeonId": 76,
         "rank": 0,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -11079,6 +11128,7 @@ exports.data = [
     {
         "dungeonId": 77,
         "rank": 0,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -11223,6 +11273,7 @@ exports.data = [
     {
         "dungeonId": 78,
         "rank": 0,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -11371,6 +11422,7 @@ exports.data = [
     {
         "dungeonId": 79,
         "rank": 0,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -11497,6 +11549,7 @@ exports.data = [
     {
         "dungeonId": 80,
         "rank": 0,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -11631,6 +11684,7 @@ exports.data = [
     {
         "dungeonId": 81,
         "rank": 0,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -11772,6 +11826,7 @@ exports.data = [
     {
         "dungeonId": 82,
         "rank":0,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -11904,6 +11959,7 @@ exports.data = [
     {
         "dungeonId": 83,
         "rank": 0,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -13691,6 +13747,7 @@ exports.data = [
     {
 
         "dungeonId": 92,
+        "reviveLimit": 1,
         "levelCount" :2,
         "pool":{
             "normalPool":{"objects":[
@@ -13794,6 +13851,7 @@ exports.data = [
     {
         "dungeonId": 93,
         "rank": 2,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -13889,6 +13947,7 @@ exports.data = [
     },
     {
         "dungeonId": 94,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -13984,6 +14043,7 @@ exports.data = [
     },
     {
         "dungeonId": 95,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -14082,6 +14142,7 @@ exports.data = [
     },
     {
         "dungeonId": 96,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -14186,6 +14247,7 @@ exports.data = [
     {
         "dungeonId": 97,
         "rank": 6,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -14293,7 +14355,7 @@ exports.data = [
     {
         "dungeonId": 98,
         "levelCount" : 2,
-        "reviveLimit": 3,
+        "reviveLimit": 1,
         "pool":{
             "normalPool":{"objects":[
                 {
@@ -14749,6 +14811,7 @@ exports.data = [
     {
         "dungeonId": 102,
         "rank": 1,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "soldierPool":{"objects":[
@@ -15668,6 +15731,7 @@ exports.data = [
     {
         "dungeonId": 103,
         "rank": 90,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "soldierPool":{"objects":[
@@ -16587,6 +16651,7 @@ exports.data = [
     {
         "dungeonId": 104,
         "rank": 270,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "soldierPool":{"objects":[
@@ -17502,6 +17567,7 @@ exports.data = [
     {
         "dungeonId": 105,
         "rank": 10,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "soldierPool":{"objects":[
@@ -18426,6 +18492,7 @@ exports.data = [
     {
         "dungeonId": 106,
         "rank": 50,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "soldierPool":{"objects":[
@@ -19352,6 +19419,7 @@ exports.data = [
     {
         "dungeonId": 107,
         "rank": 140,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "soldierPool":{"objects":[
@@ -20277,6 +20345,7 @@ exports.data = [
     {
         "dungeonId": 108,
         "rank": 210,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "soldierPool":{"objects":[
@@ -21203,6 +21272,7 @@ exports.data = [
     {
         "dungeonId": 109,
         "rank": 320,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "soldierPool":{"objects":[
@@ -22128,6 +22198,7 @@ exports.data = [
     },
     {
         "dungeonId": 110,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "soldierPool":{"objects":[
@@ -23046,6 +23117,7 @@ exports.data = [
     {
         "dungeonId": 111,
         "rank": 90,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "soldierPool":{"objects":[
@@ -23962,6 +24034,7 @@ exports.data = [
     {
         "dungeonId": 112,
         "rank": 270,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "soldierPool":{"objects":[
@@ -38693,6 +38766,7 @@ exports.data = [
     {
         "dungeonId": 128,
         "rank": 300,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -38829,6 +38903,7 @@ exports.data = [
     {
         "dungeonId": 129,
         "rank": 305,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -38965,6 +39040,7 @@ exports.data = [
     {
         "dungeonId": 130,
         "rank": 310,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -39101,6 +39177,7 @@ exports.data = [
     {
         "dungeonId": 131,
         "rank": 315,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -39237,6 +39314,7 @@ exports.data = [
     {
         "dungeonId": 132,
         "rank": 320,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -39373,6 +39451,7 @@ exports.data = [
     {
         "dungeonId": 133,
         "rank": 330,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -39510,7 +39589,7 @@ exports.data = [
         "dungeonId": 134,
         "rank": 340,
         "levelCount" : 2,
-        "reviveLimit": 3,
+        "reviveLimit": 1,
         "pool":{
             "normalPool":{"objects":[
                 {
@@ -39922,6 +40001,7 @@ exports.data = [
     {
         "dungeonId": 136,
         "rank": 340,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -40063,6 +40143,7 @@ exports.data = [
     {
         "dungeonId": 137,
         "rank": 345,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -40204,6 +40285,7 @@ exports.data = [
     {
         "dungeonId": 138,
         "rank": 350,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -40345,6 +40427,7 @@ exports.data = [
     {
         "dungeonId": 139,
         "rank": 355,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -40486,6 +40569,7 @@ exports.data = [
     {
         "dungeonId": 140,
         "rank": 360,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -40627,6 +40711,7 @@ exports.data = [
     {
         "dungeonId": 141,
         "rank": 370,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -40769,7 +40854,7 @@ exports.data = [
         "dungeonId": 142,
         "rank": 380,
         "levelCount" : 2,
-        "reviveLimit": 3,
+        "reviveLimit": 1,
         "pool":{
             "normalPool":{"objects":[
                 {
@@ -41186,6 +41271,7 @@ exports.data = [
     {
         "dungeonId": 144,
         "rank": 360,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -41327,6 +41413,7 @@ exports.data = [
     {
         "dungeonId": 145,
         "rank": 370,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -41468,6 +41555,7 @@ exports.data = [
     {
         "dungeonId": 146,
         "rank": 380,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -41603,6 +41691,7 @@ exports.data = [
     {
         "dungeonId": 147,
         "rank": 390,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -41744,6 +41833,7 @@ exports.data = [
     {
         "dungeonId": 148,
         "rank": 400,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -41885,6 +41975,7 @@ exports.data = [
     {
         "dungeonId": 149,
         "rank": 410,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -42021,7 +42112,7 @@ exports.data = [
         "dungeonId": 150,
         "rank": 420,
         "levelCount" : 2,
-        "reviveLimit": 3,
+        "reviveLimit": 1,
         "pool":{
             "normalPool":{"objects":[
                 {
@@ -42418,6 +42509,7 @@ exports.data = [
     {
         "dungeonId": 152,
         "rank": 560,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -42547,6 +42639,7 @@ exports.data = [
     {
         "dungeonId": 153,
         "rank": 570,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -42676,6 +42769,7 @@ exports.data = [
     {
         "dungeonId": 154,
         "rank": 580,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -42811,6 +42905,7 @@ exports.data = [
     {
         "dungeonId": 155,
         "rank": 590,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -42940,6 +43035,7 @@ exports.data = [
     {
         "dungeonId": 156,
         "rank": 600,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -43075,6 +43171,7 @@ exports.data = [
     {
         "dungeonId": 157,
         "rank": 610,
+        "reviveLimit": 1,
         "levelCount" : 2,
         "pool":{
             "normalPool":{"objects":[
@@ -43211,7 +43308,7 @@ exports.data = [
         "dungeonId": 158,
         "rank": 620,
         "levelCount" : 2,
-        "reviveLimit": 3,
+        "reviveLimit": 1,
         "pool":{
             "normalPool":{"objects":[
                 {
