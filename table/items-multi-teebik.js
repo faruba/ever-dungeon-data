@@ -20242,7 +20242,9 @@ exports.data = [
         "category": 1,
         "subcategory": 12,
         "extraSlots": [19,20],
-        "description": "兼顧外形與力量，是榮譽的象徵。",
+        "description": "兼顧外形與力量，是榮譽的象徵。\n" +
+                       "屬性：生命+550 攻擊+50 暴擊+15\n" +
+                       "　　　韌性+60",
         "sellprice": 1500,
         "effectf": [
             {
@@ -20303,7 +20305,8 @@ exports.data = [
         "label": "榮譽頭冠",
         "category": 1,
         "subcategory": 13,
-        "description": "榮譽的象徵，並且擁有專注力量的祝福。",
+        "description": "榮譽的象徵，並且擁有專注力量的祝福。\n" +
+                       "屬性：生命+200 攻擊+30 命中+60",
         "sellprice": 500,
         "effectf": [
             {

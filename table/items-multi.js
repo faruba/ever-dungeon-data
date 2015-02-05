@@ -20242,7 +20242,9 @@ exports.data = [
 		"category": 1,
 		"subcategory": 12,
 		"extraSlots": [19,20],
-		"description": "兼顾外形与力量，是荣誉的象征。",
+		"description": "兼顾外形与力量，是荣誉的象征。\n" +
+		               "属性：生命+550 攻击+50 暴击+15\n" +
+		               "　　　韧性+60",
 		"sellprice": 1500,
 		"effectf": [
 			{
@@ -20303,7 +20305,8 @@ exports.data = [
 		"label": "荣誉头冠",
 		"category": 1,
 		"subcategory": 13,
-		"description": "荣誉的象征，并且拥有专注力量的祝福。",
+		"description": "荣誉的象征，并且拥有专注力量的祝福。\n" +
+		               "属性：生命+200 攻击+30 命中+60",
 		"sellprice": 500,
 		"effectf": [
 			{
