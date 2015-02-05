@@ -4,11 +4,11 @@ exports.data = {
     "stage": "0.1.5",
     "bin_version": "1.0.10",
     "bin_version_need": "1.0.10",
-    "needed_version":"1.1.42",
-    "last_version":"1.1.42",
-    "suggest_version":"1.1.42",
+    "needed_version":"1.1.45",
+    "last_version":"1.1.45",
+    "suggest_version":"1.1.45",
 
-    "url": "http://7u2hr2.com1.z0.glb.clouddn.com",
+    "url": "http://7u2hr2.com5.z0.glb.clouddn.com/",
     "bin_url": {
         "0": "",
         "1": "itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=708146165",

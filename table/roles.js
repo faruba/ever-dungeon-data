@@ -80,7 +80,7 @@ exports.data = [
             {"type":0,"value":652,"count":1}
         ],
 		"levelId": 0,
-        "TransId":198,
+        "pkTransId":198,
         "teammateTransId":257
 
 	},

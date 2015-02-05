@@ -386,12 +386,14 @@ exports.data = [
     {
         "effectId": 84,
         "skeleton": "effect-zhanji1.json",
-        "atlas": "effect-zhanji1.atlas"
+        "atlas": "effect-zhanji1.atlas",
+        "sound": "zhanji1.mp3"
     },
     {
         "effectId": 85,
         "skeleton": "effect-zhanji2.json",
         "atlas": "effect-zhanji2.atlas",
+        "sound": "zhanji2.mp3",
         "zLayer": "role"
     },
     {
@@ -403,7 +405,8 @@ exports.data = [
     {
         "effectId": 87,
         "skeleton": "effect-jiyun.json",
-        "atlas": "effect-jiyun.atlas"
+        "atlas": "effect-jiyun.atlas",
+        "sound": "jiyun1.mp3"
     },
     {
         "effectId": 88,
@@ -420,12 +423,14 @@ exports.data = [
     {
         "effectId": 90,
         "skeleton": "effect-huixuanzhan2.json",
-        "atlas": "effect-huixuanzhan2.atlas"
+        "atlas": "effect-huixuanzhan2.atlas",
+        "sound": "huixuanzhan2.mp3"
     },
     {
         "effectId": 91,
         "skeleton": "effect-shenshenghudun.json",
-        "atlas": "effect-shenshenghudun.atlas"
+        "atlas": "effect-shenshenghudun.atlas",
+        "sound": "shenshenghudun1.mp3"
     },
     {
         "effectId": 92,
@@ -460,17 +465,20 @@ exports.data = [
     {
         "effectId": 97,
         "skeleton": "effect-siwanglongjuan.json",
-        "atlas": "effect-siwanglongjuan.atlas"
+        "atlas": "effect-siwanglongjuan.atlas",
+        "sound": "longjuan.mp3"
     },
     {
         "effectId": 98,
         "skeleton": "effect-yunshi.json",
-        "atlas": "effect-yunshi.atlas"
+        "atlas": "effect-yunshi.atlas",
+        "sound": "yunshi.mp3"
     },
     {
         "effectId": 99,
         "skeleton": "effect-shenshengyiji1.json",
-        "atlas": "effect-shenshengyiji1.atlas"
+        "atlas": "effect-shenshengyiji1.atlas",
+        "sound": "shenshengyiji1.mp3"
     },
     {
         "effectId": 100,
@@ -481,22 +489,26 @@ exports.data = [
     {
         "effectId": 101,
         "skeleton": "effect-shenshengyiji2.json",
-        "atlas": "effect-shenshengyiji2.atlas"
+        "atlas": "effect-shenshengyiji2.atlas",
+        "sound": "shenshengyiji2.mp3"
     },
     {
         "effectId": 102,
         "skeleton": "effect-chuandao.json",
-        "atlas": "effect-chuandao.atlas"
+        "atlas": "effect-chuandao.atlas",
+        "sound": "chuandao.mp3"
     },
     {
         "effectId": 103,
         "skeleton": "effect-shenshengtuxi.json",
-        "atlas": "effect-shenshengtuxi.atlas"
+        "atlas": "effect-shenshengtuxi.atlas",
+        "sound": "shenshengtuxi.mp3"
     },
     {
         "effectId": 104,
         "skeleton": "effect-yanjia.json",
-        "atlas": "effect-yanjia.atlas"
+        "atlas": "effect-yanjia.atlas",
+        "sound": "yanjia2.mp3"
     },
     {
         "effectId": 105,

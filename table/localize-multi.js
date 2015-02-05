@@ -234,6 +234,7 @@ exports.data = {
         "uiWantLeave":"确认要退出游戏吗？",
         "uiNo":"点错了",
         "uiExit":"退出",
+        "uiUpdate":"更新",
         "uiChargeDiamond1":"6元",
         "uiChargeDiamond2":"12元",
         "uiChargeDiamond3":"30元",

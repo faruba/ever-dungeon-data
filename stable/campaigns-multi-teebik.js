@@ -195,7 +195,7 @@ exports.data = {
         "mailBody": "VIP等級得到提升，您已經擁有購買相應VIP寶箱的許可權以及以禮品。",
         "level": [
             {
-                "count": 30,
+                "count": 0.99,
                 "award": [
                     {"type":2, "count":100 },
                     {"type":0,"value":540,"count":3},
@@ -203,7 +203,7 @@ exports.data = {
                 ]
             },
             {
-                "count": 100,
+                "count": 9.99,
                 "award": [
                     {"type":2, "count":300 },
                     {"type":0,"value":540,"count":3},
@@ -211,7 +211,7 @@ exports.data = {
                 ]
             },
             {
-                "count": 150,
+                "count": 49.99,
                 "award": [
                     {"type":0,"value":540,"count":3},
                     {"type":0,"value":539,"count":1},
@@ -219,30 +219,41 @@ exports.data = {
                 ]
             },
             {
-                "count": 250,
+                "count": 149.99,
                 "award": [
                     {"type":0,"value":540,"count":3},
                     {"type":0,"value":539,"count":1},
-                    {"type":0,"value":871,"count":20}
+                    {"type":0,"value":871,"count":20},
+                    {"type":0,"value":3,"count":1}
                 ]
             },
             {
-                "count": 400,
+                "count": 399.99,
                 "award": [
                     {"type":0,"value":540,"count":3},
-                    {"type":0,"value":871,"count":30}
+                    {"type":0,"value":871,"count":30},
+                    {"type":0,"value":552,"count":1}
                 ]
             },
             {
-                "count": 850,
+                "count": 999.99,
                 "award": [
-                    {"type":0,"value":540,"count":3}
+                    {"type":0,"value":540,"count":3},
+                    {"type":0,"value":871,"count":30},
+                    {"type":0,"value":551,"count":1}
                 ]
             },
             {
-                "count": 1400,
+                "count": 3999.99,
                 "award": [
-                    {"type":0,"value":540,"count":3}
+                    {"type":0,"value":540,"count":3},
+                    {"type":0,"value":0,"count":1}
+                ]
+            },
+            {
+                "count": 7999.99,
+                "award": [
+                    {"type":0,"value":2,"count":1}
                 ]
             }
         ]
@@ -284,10 +295,12 @@ exports.data = {
         "title": "王者角逐",
         "banner":"event-banner-wzjz.png",
         "description": [
-            "開服第一個月內每週登上戰鬥力排行榜前20名都將獲得獎勵，在活動截止的時候登上戰鬥力排行榜榜第一會獲得額外的特殊獎勵",
+            "開服第一個月內每週登上戰鬥力排行榜前20名都將獲得獎勵，在活動截止的時候登上戰鬥力排行榜榜第一和PK排行榜第一分別會獲得額外的特殊獎勵",
             "***獎勵內容：",
-            "** \n在活動截止的時候登上戰鬥力排行榜榜第一，即可獲得",
+            "** \n在活動截止的時候登上戰鬥力排行榜第一，即可獲得",
             "##[{\"type\":2,\"count\":800},{\"type\":0,\"value\":871,\"count\":100},{\"type\":0,\"value\":0,\"count\":1}]",
+            "** \n在活動截止的時候登上PK排行榜第一，即可獲得",
+            "##[{\"type\":2,\"count\":800},{\"type\":0,\"value\":871,\"count\":100},{\"type\":0,\"value\":1,\"count\":1}]",
             "** \n每週戰鬥力排行榜第一，即可獲得",
             "##[{\"type\":2,\"count\":400},{\"type\":1,\"count\":6000},{\"type\":0,\"value\":871,\"count\":60}]",
             "** \n每週戰鬥力排行榜第二，即可獲得",
@@ -297,11 +310,57 @@ exports.data = {
             "** \n每週戰鬥力排行榜第四到第十，即可獲得",
             "##[{\"type\":1,\"count\":2000},{\"type\":0,\"value\":871,\"count\":5}]",
             "** \n每週戰鬥力排行榜第十一到二十，即可獲得",
+            "##[{\"type\":0,\"value\":871,\"count\":5}]",
+            "** \n每週PK排行榜第一，即可獲得",
+            "##[{\"type\":2,\"count\":500},{\"type\":1,\"count\":8000},{\"type\":0,\"value\":871,\"count\":70}]",
+            "** \n每週PK排行榜第二，即可獲得",
+            "##[{\"type\":2,\"count\":200},{\"type\":1,\"count\":4000},{\"type\":0,\"value\":871,\"count\":50}]",
+            "** \n每週PK排行榜第三，即可獲得",
+            "##[{\"type\":2,\"count\":100},{\"type\":1,\"count\":2500},{\"type\":0,\"value\":871,\"count\":20}]",
+            "** \n每週PK排行榜第四到第十，即可獲得",
+            "##[{\"type\":1,\"count\":2000},{\"type\":0,\"value\":871,\"count\":5}]",
+            "** \n每週PK排行榜第十一到二十，即可獲得",
             "##[{\"type\":0,\"value\":871,\"count\":5}]"
         ],
         "mailTitle": "《王者角逐》活動獎勵",
         "mailBody": "恭喜你完成活動，點擊領取活動獎勵！",
-        "date": "2015/02/12",
-        "dateDescription": "截止日期2015年2月12日24時"
+        "date": "2015/02/28",
+        "dateDescription": "截止日期2015年2月28日24時"
+    },
+    "lottery1": {
+        "show": true,
+        "title": "免費抽獎！抽不停！",
+        "banner":"event-banner-mfcj.png",
+        "description": ["幸運寶箱抽取冷卻時間減半，由24小時縮減為12小時。"],
+        "date": "2015/02/13",
+        "dateDescription": "截止日期2015年2月13日24時"
+    },
+    "lottery2": {
+        "show": true,
+        "title": "十一連抽大優惠！",
+        "banner":"event-banner-sylc.png",
+        "description": ["購買尊貴寶箱X10即可額外獲贈一次"],
+        "date": "2014/02/13",
+        "dateDescription": "截止日期2015年2月13日24時"
+    },
+    "lottery3": {
+        "show": true,
+        "title": "X戰甲神秘登場",
+        "banner":"event-banner-xzjs.png",
+        "description": [
+            "開啟尊貴寶箱就有機會抽得X戰甲零件以及圖紙",
+            "***零件以及圖紙：",
+            "##[{\"type\":0,\"value\":1475,\"count\":1},{\"type\":0,\"value\":1476,\"count\":1},{\"type\":0,\"value\":1478,\"count\":1},{\"type\":0,\"value\":1480,\"count\":1},{\"type\":0,\"value\":1482,\"count\":1}]"
+        ],
+        "date": "2016/12/25",
+        "dateDescription": "截止日期2016年12月25日24時"
+    },
+    "lottery4": {
+        "show": true,
+        "title": "限時時裝強勢來襲",
+        "banner":"event-banner-xssz.png",
+        "description": ["開啟尊貴寶箱均有機會獲得帥氣時裝，低概率獲得永久屬性時裝"],
+        "date": "2015/02/13",
+        "dateDescription": "截止日期2015年2月13日24時"
     }
 };
