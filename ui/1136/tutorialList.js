@@ -38,7 +38,7 @@ exports.data = [    {
             {"act": "pressclick", "pos":{"x":75, "y":966},"rect":{"x":0, "y":907, "width":120, "height": 140}},
             {"act": "dialogue", "index": 64,"ui":"role"},
             {"act": "dialogue", "index": 27,"ui":"main"},
-            {"act": "pressclick", "pos":{"x":175, "y":116}, "rect":{"x":114 , "y":88, "width":100, "height":100}},
+            {"act": "pressclick", "pos":{"x":75, "y":116}, "rect":{"x":14 , "y":88, "width":100, "height":100}},
             {"act": "dialogue", "index": 29,"ui":"main"},
             {"act": "pressclick", "pos":{"x":363, "y":127}, "rect":{"x":230 , "y":55, "width":180, "height":160}}
         ]
@@ -86,7 +86,8 @@ exports.data = [    {
         "tutorialId": 9,
         "actions":[
             {"act": "dialogue", "index": 22},
-            {"act": "pressslide", "pos":{"x":190, "y":146}, "rect":{"x":0 , "y":64, "width":640, "height":208}, "trigger":true  }
+            {"act": "pressclick", "pos":{"x":65, "y":165}, "rect":{"x":0 , "y":116, "width":640, "height":90}, "trigger":true  },
+            {"act": "pressclick", "pos":{"x":217, "y":265}, "rect":{"x":0 , "y":230, "width":640, "height":65}, "trigger":true}
 
 
         ]

@@ -49,8 +49,7 @@ exports.data = [
         { "and": [
             { "==": [ { "type": "getProperty", "key": "quests.0.complete"}, true ] }
         ]
-        }
-        ,
+        },
         "endDialogue":11
     },{
             "questId":1,
@@ -74,9 +73,7 @@ exports.data = [
             { "and": [
                 { "==": [ { "type": "getProperty", "key": "quests.0.complete"}, true ] }
             ]
-            }
-            ,
-
+            },
             "endDialogue":30
         }]},
     {
@@ -101,8 +98,7 @@ exports.data = [
         { "and": [
             { "==": [ { "type": "getProperty", "key": "quests.1.complete"}, true ] }
         ]
-        }
-        ,
+        },
         "endDialogue":17
     },
     {
@@ -153,8 +149,7 @@ exports.data = [
         { "and": [
             { "==": [ { "type": "getProperty", "key": "quests.2.complete"}, true ] }
         ]
-        }
-        ,
+        },
         "endDialogue":12
     },
     {
@@ -383,8 +378,7 @@ exports.data = [
         { "and": [
             { "==": [ { "type": "getProperty", "key": "quests.12.complete"}, true ] }
         ]
-        }
-        ,
+        },
         "startDialogue":13
     },
     {
@@ -4488,40 +4482,46 @@ exports.data = [
     {
         "questId":164,
         "title":"冒险征途的里程碑I",
-        "desc":"将角色升至5级",
+        "desc":"将角色升至4级",
         "objects":[
             {
                 "type":4,
-                "label":"升级至5级",
-                "count":5
+                "label":"升级至4级",
+                "count":4
             }
         ],
         "prize":[
             {
                 "type":1,
                 "count":500
+            },
+            {
+                "type":0,
+                "value":538,
+                "count":1
             }
         ]
     },
     {
         "questId":165,
         "title":"冒险征途的里程碑II",
-        "desc":"将角色升至25级",
+        "desc":"将角色升至8级",
         "objects":[
             {
                 "type":4,
-                "label":"升级至25级",
-                "count":25
+                "label":"升级至8级",
+                "count":8
             }
         ],
         "prize":[
             {
-                "type":1,
-                "count":1000
+                "type":0,
+                "value":853,
+                "count":5
             },
             {
                 "type":0,
-                "value":538,
+                "value":539,
                 "count":1
             }
         ],
@@ -4534,27 +4534,24 @@ exports.data = [
     {
         "questId":166,
         "title":"冒险征途的里程碑III",
-        "desc":"将角色升至35级",
+        "desc":"将角色升至12级",
         "objects":[
             {
                 "type":4,
-                "label":"升级至35级",
-                "count":35
+                "label":"升级至12级",
+                "count":12
             }
         ],
         "prize":[
             {
-                "type":1,
-                "count":1500
-            },
-            {
-                "type":2,
-                "count":100
+                "type":0,
+                "value":853,
+                "count":5
             },
             {
                 "type":0,
-                "value":538,
-                "count":5
+                "value":539,
+                "count":1
             }
         ],
         "cond":
@@ -4566,26 +4563,22 @@ exports.data = [
     {
         "questId":167,
         "title":"冒险征途的里程碑IV",
-        "desc":"将角色升至40级",
+        "desc":"将角色升至15级",
         "objects":[
             {
                 "type":4,
-                "label":"升级至40级",
-                "count":40
+                "label":"升级至15级",
+                "count":15
             }
         ],
         "prize":[
             {
                 "type":1,
-                "count":2000
-            },
-            {
-                "type":2,
-                "count":100
+                "count":1000
             },
             {
                 "type":0,
-                "value":538,
+                "value":539,
                 "count":1
             }
         ],
@@ -4598,26 +4591,22 @@ exports.data = [
     {
         "questId":168,
         "title":"冒险征途的里程碑V",
-        "desc":"将角色升至45级",
+        "desc":"将角色升至20级",
         "objects":[
             {
                 "type":4,
-                "label":"升级至45级",
-                "count":45
+                "label":"升级至20级",
+                "count":20
             }
         ],
         "prize":[
             {
                 "type":2,
-                "count":150
-            },
-            {
-                "type":1,
-                "count":5000
+                "count":50
             },
             {
                 "type":0,
-                "value":613,
+                "value":539,
                 "count":1
             }
         ],
@@ -5001,5 +4990,1850 @@ exports.data = [
             { "==": [ { "type": "getProperty", "key": "quests.181.complete"}, true ] }
         ]
         }
+    },
+    {
+        "questId":183,
+        "title":"评分送宝石",
+        "desc":"跳转到商店页面对我们的游戏进行评价吧，记得给5星好评哦！完成好评后免费获得100宝石！\n(注：每个玩家只能获得一次)",
+        "objects":[
+            {
+                "type":6,
+                "label":"求赞求好评！",
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.164.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":184,
+        "questStage":64,
+        "title":"探索死灵洞穴I",
+        "desc":"对死灵洞穴I进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索死灵洞穴I",
+                "collect":184001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":2000
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.124.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":185,
+        "questStage":65,
+        "title":"探索死灵洞穴II",
+        "desc":"对死灵洞穴II进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索死灵洞穴II",
+                "collect":185001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":2200
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.184.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":186,
+        "questStage":66,
+        "title":"探索死灵洞穴III",
+        "desc":"对死灵洞穴III进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索死灵洞穴III",
+                "collect":186001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":2400
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.185.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":187,
+        "questStage":67,
+        "title":"探索死灵洞穴IV",
+        "desc":"对死灵洞穴IV进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索死灵洞穴IV",
+                "collect":187001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":2600
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.186.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":188,
+        "questStage":68,
+        "title":"探索死灵洞穴V",
+        "desc":"对死灵洞穴V进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索死灵洞穴V",
+                "collect":188001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":2800
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.187.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":189,
+        "questStage":69,
+        "title":"探索死灵洞穴VI",
+        "desc":"对死灵洞穴VI进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索死灵洞穴VI",
+                "collect":189001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3000
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.188.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":190,
+        "questStage":70,
+        "title":"宗师的试炼",
+        "desc":"死灵洞穴深处出现神秘人，前往调查",
+        "objects":[
+            {
+                "type":0,
+                "label":"调查神秘人",
+                "collect":190001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3200
+            },
+            {
+                "type":2,
+                "count":100
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.189.complete"}, true ] }
+        ]
+        },
+        "startDialogue":70,
+        "endDialogue":72
+    },
+    {
+        "questId":191,
+        "questStage":71,
+        "title":"探索塔卡宫殿I",
+        "desc":"对塔卡宫殿I进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索塔卡宫殿I",
+                "collect":191001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":2600
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.190.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":192,
+        "questStage":72,
+        "title":"探索塔卡宫殿II",
+        "desc":"对塔卡宫殿II进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索塔卡宫殿II",
+                "collect":192001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":2800
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.191.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":193,
+        "questStage":73,
+        "title":"探索塔卡宫殿III",
+        "desc":"对塔卡宫殿III进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索塔卡宫殿III",
+                "collect":193001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3000
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.192.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":194,
+        "questStage":74,
+        "title":"探索塔卡宫殿IV",
+        "desc":"对塔卡宫殿IV进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索塔卡宫殿IV",
+                "collect":194001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3200
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.193.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":195,
+        "questStage":75,
+        "title":"探索塔卡宫殿V",
+        "desc":"对塔卡宫殿V进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索塔卡宫殿V",
+                "collect":195001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3300
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.194.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":196,
+        "questStage":76,
+        "title":"探索塔卡宫殿VI",
+        "desc":"对塔卡宫殿VI进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索塔卡宫殿VI",
+                "collect":196001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3400
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.195.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":197,
+        "questStage":77,
+        "title":"卡塔讨伐",
+        "desc":"将领主卡塔击败，给大陆带来和平",
+        "objects":[
+            {
+                "type":0,
+                "label":"击败卡塔",
+                "collect":197001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3500
+            },
+            {
+                "type":2,
+                "count":100
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.196.complete"}, true ] }
+        ]
+        },
+        "endDialogue":75
+    },
+    {
+        "questId":198,
+        "title":"冒险征途的里程碑VI",
+        "desc":"将角色升至25级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至25级",
+                "count":25
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":50
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.168.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":199,
+        "title":"冒险征途的里程碑VII",
+        "desc":"将角色升至30级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至30级",
+                "count":30
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":50
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.198.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":200,
+        "title":"冒险征途的里程碑VIII",
+        "desc":"将角色升至35级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至35级",
+                "count":35
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":50
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.199.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":201,
+        "title":"冒险征途的里程碑IX",
+        "desc":"将角色升至40级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至40级",
+                "count":40
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":50
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.200.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":202,
+        "title":"冒险征途的里程碑X",
+        "desc":"将角色升至45级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至45级",
+                "count":45
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":50
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.201.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":203,
+        "title":"冒险征途的里程碑XI",
+        "desc":"将角色升至50级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至50级",
+                "count":50
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.202.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":204,
+        "title":"冒险征途的里程碑XII",
+        "desc":"将角色升至55级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至55级",
+                "count":55
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.203.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":205,
+        "title":"冒险征途的里程碑XIII",
+        "desc":"将角色升至60级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至60级",
+                "count":60
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.204.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":206,
+        "title":"冒险征途的里程碑XIV",
+        "desc":"将角色升至65级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至65级",
+                "count":65
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.205.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":207,
+        "title":"冒险征途的里程碑XV",
+        "desc":"将角色升至70级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至70级",
+                "count":70
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.206.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":208,
+        "title":"冒险征途的里程碑XVI",
+        "desc":"将角色升至75级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至75级",
+                "count":75
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.207.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":209,
+        "title":"冒险征途的里程碑XVII",
+        "desc":"将角色升至80级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至80级",
+                "count":80
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.208.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":210,
+        "title":"冒险征途的里程碑XVIII",
+        "desc":"将角色升至85级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至85级",
+                "count":85
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.209.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":211,
+        "title":"冒险征途的里程碑XIX",
+        "desc":"将角色升至90级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至90级",
+                "count":90
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.210.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":212,
+        "title":"冒险征途的里程碑XX",
+        "desc":"将角色升至95级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至95级",
+                "count":95
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.211.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":213,
+        "title":"冒险征途的里程碑XXI",
+        "desc":"将角色升至100级",
+        "objects":[
+            {
+                "type":4,
+                "label":"升级至100级",
+                "count":100
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":150
+            },
+            {
+                "type":0,
+                "value":539,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.212.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":214,
+        "title":"考古素材",
+        "desc":"死灵洞穴有大量骷髅尸体，收集骷髅来做考古素材吧。",
+        "objects":[
+            {
+                "type":0,
+                "label":"收集骷髅",
+                "collect":214001,
+                "count":25
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":2500
+            },
+            {
+                "type":0,
+                "value":857,
+                "count":4
+            },
+            {
+                "type":0,
+                "value":538,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.124.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":215,
+        "title":"消灭吸血鬼",
+        "desc":"死灵洞穴有大量吸血鬼，前去消灭他们。",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭吸血鬼",
+                "collect":215001,
+                "count":25
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":2500
+            },
+            {
+                "type":0,
+                "value":857,
+                "count":4
+            },
+            {
+                "type":0,
+                "value":538,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.187.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":216,
+        "title":"消灭水元素",
+        "desc":"卡塔宫殿有大量水元素，前去击杀25只水元素。",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭水元素",
+                "collect":216001,
+                "count":25
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3000
+            },
+            {
+                "type":0,
+                "value":1470,
+                "count":4
+            },
+            {
+                "type":0,
+                "value":538,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.190.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":217,
+        "title":"消灭皇宫弩手",
+        "desc":"卡塔宫殿出现皇宫弩手，击杀10只皇宫弩手。",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭皇宫弩手",
+                "collect":217001,
+                "count":10
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3000
+            },
+            {
+                "type":0,
+                "value":1470,
+                "count":4
+            },
+            {
+                "type":0,
+                "value":538,
+                "count":1
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.193.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":218,
+        "questStage":135,
+        "title":"探索2-1I",
+        "desc":"对2-1I进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-1I",
+                "collect":218001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3500
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.197.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":219,
+        "title":"寻找神奇草药",
+        "desc":"答应卡琳帮她在【2-1I】中，寻找到医治父亲的神奇草药。",
+        "objects":[
+            {
+                "type":0,
+                "label":"采集3株神奇草药",
+                "collect":219001,
+                "count":2
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3000
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.197.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":220,
+        "title":"考古学家的委托",
+        "desc":"断肠崖是曾经的古战场，因此有大量骷髅尸体，收集骷髅来做考古素材吧。",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭剑兵",
+                "collect":220001,
+                "count":20
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3600
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.197.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":221,
+        "questStage":136,
+        "title":"探索2-1II",
+        "desc":"对2-1II进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-1II",
+                "collect":221001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3500
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.218.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":222,
+        "questStage":136,
+        "title":"拯救村民",
+        "desc":"佣兵抓走大量村民做人质，前去【2-2II】的前哨战搭救他们。",
+        "objects":[
+            {
+                "type":0,
+                "label":"救回被捉走的村民",
+                "collect":222001,
+                "count":2
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3000
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.218.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":223,
+        "questStage":137,
+        "title":"探索2-1II",
+        "desc":"对2-1III进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-1III",
+                "collect":223001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3700
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.221.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":224,
+        "questStage":137,
+        "title":"击破金属小史莱姆",
+        "desc":"有人发现哥布林与野狼携手，在【2-1III】伺机而动",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭金属小史莱姆",
+                "collect":224001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3500
+            },
+            {
+                "type":0,
+                "value":871,
+                "count":1
+            },
+            {
+                "type":0,
+                "value":540,
+                "count":1
+            }
+
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.221.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":225,
+        "questStage":138,
+        "title":"探索2-1IV",
+        "desc":"对2-1IV进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-1IV",
+                "collect":225001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3900
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.223.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":226,
+        "title":"寻找卡姆矿石",
+        "desc":"山姆大叔想要一些卡姆矿石，在【2-1IV】储量比较丰富哦",
+        "objects":[
+            {
+                "type":0,
+                "label":"采集2枚卡姆矿石",
+                "collect":226001,
+                "count":2
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3000
+            },
+            {
+                "type":0,
+                "value":1470,
+                "count":4
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.223.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":227,
+        "title":"考古学家的委托",
+        "desc":"断肠崖是曾经的古战场，因此有大量骷髅尸体，收集骷髅来做考古素材吧。",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭土元素",
+                "collect":227001,
+                "count":25
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3800
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.223.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":228,
+        "questStage":139,
+        "title":"探索2-1V",
+        "desc":"对2-1V进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-1V",
+                "collect":228001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4000
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.225.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":229,
+        "title":"寻找卡姆矿石",
+        "desc":"山姆大叔想要一些卡姆矿石，在【2-1IV】储量比较丰富哦",
+        "objects":[
+            {
+                "type":0,
+                "label":"采集3枚卡姆矿石",
+                "collect":229001,
+                "count":3
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3200
+            },
+            {
+                "type":0,
+                "value":1470,
+                "count":4
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.225.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":230,
+        "questStage":140,
+        "title":"探索2-1VI",
+        "desc":"对2-1VI进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-1VI",
+                "collect":230001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4200
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.228.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":231,
+        "questStage":140,
+        "title":"击破金属小史莱姆",
+        "desc":"有人发现哥布林与野狼携手，在【2-1VI】伺机而动",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭金属小史莱姆",
+                "collect":231001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3500
+            },
+            {
+                "type":0,
+                "value":871,
+                "count":1
+            },
+            {
+                "type":0,
+                "value":540,
+                "count":1
+            }
+
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.228.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":232,
+        "questStage":141,
+        "title":"探索2-1VII",
+        "desc":"对2-1VII进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-1VII",
+                "collect":232001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4800
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.230.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":233,
+        "questStage":141,
+        "title":"找寻失踪的宝箱",
+        "desc":"商队成员救回了，不过一起的宝箱还没找到，前往【VII】替他们找回宝箱。",
+        "objects":[
+            {
+                "type":0,
+                "label":"找回商队的宝箱",
+                "collect":233001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.230.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":234,
+        "questStage":143,
+        "title":"探索2-2I",
+        "desc":"对2-2I进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-12",
+                "collect":234001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":5200
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.232.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":235,
+        "questStage":143,
+        "title":"击破金属史莱姆",
+        "desc":"有人发现哥布林与野狼携手，在【2-2I】伺机而动",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭金属史莱姆",
+                "collect":235001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4500
+            },
+            {
+                "type":0,
+                "value":871,
+                "count":2
+            },
+            {
+                "type":0,
+                "value":540,
+                "count":1
+            }
+
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.232.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":236,
+        "title":"考古学家的委托",
+        "desc":"断肠崖是曾经的古战场，因此有大量骷髅尸体，收集骷髅来做考古素材吧。",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭蜥蜴射手",
+                "collect":236001,
+                "count":10
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3800
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.232.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":237,
+        "questStage":144,
+        "title":"探索2-2II",
+        "desc":"对2-2II进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-2II",
+                "collect":237001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":5400
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.234.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":238,
+        "questStage":144,
+        "title":"拯救村姑",
+        "desc":"佣兵抓走大量村民做人质，前去【2-2II】的前哨战搭救他们。",
+        "objects":[
+            {
+                "type":0,
+                "label":"救回被捉走的村姑",
+                "collect":238001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4000
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.234.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":239,
+        "questStage":145,
+        "title":"探索2-2III",
+        "desc":"对2-2III进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-2III",
+                "collect":239001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":5600
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.237.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":240,
+        "title":"寻找卡姆矿石",
+        "desc":"山姆大叔想要一些卡姆矿石，在【2-2III】储量比较丰富哦",
+        "objects":[
+            {
+                "type":0,
+                "label":"采集2枚卡姆矿石",
+                "collect":240001,
+                "count":2
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4000
+            },
+            {
+                "type":0,
+                "value":1471,
+                "count":4
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.237.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":241,
+        "questStage":146,
+        "title":"探索2-2IV",
+        "desc":"对2-2IV进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-2IV",
+                "collect":241001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":5800
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.239.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":242,
+        "questStage":146,
+        "title":"击破金属史莱姆BOSS",
+        "desc":"有人发现哥布林与野狼携手，在【2-2IV】伺机而动",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭金属史莱姆BOSS",
+                "collect":242001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":5500
+            },
+            {
+                "type":0,
+                "value":538,
+                "count":1
+            },
+            {
+                "type":0,
+                "value":871,
+                "count":3
+            },
+            {
+                "type":0,
+                "value":540,
+                "count":2
+            }
+
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.239.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":243,
+        "title":"考古学家的委托",
+        "desc":"断肠崖是曾经的古战场，因此有大量骷髅尸体，收集骷髅来做考古素材吧。",
+        "objects":[
+            {
+                "type":0,
+                "label":"消灭鳄鱼怪",
+                "collect":243001,
+                "count":25
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":3800
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.239.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":244,
+        "questStage":147,
+        "title":"探索2-2V",
+        "desc":"对2-2V进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-2V",
+                "collect":244001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":6000
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.241.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":245,
+        "title":"寻找神奇草药",
+        "desc":"答应卡琳帮她在【2-2V】中，寻找到医治父亲的神奇草药。",
+        "objects":[
+            {
+                "type":0,
+                "label":"采集4株神奇草药",
+                "collect":245001,
+                "count":4
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4000
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.241.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":246,
+        "questStage":148,
+        "title":"探索2-2VI",
+        "desc":"对2-2VI进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-2VI",
+                "collect":246001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":6200
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.244.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":247,
+        "title":"寻找卡姆矿石",
+        "desc":"山姆大叔想要一些卡姆矿石，在【2-2VI】储量比较丰富哦",
+        "objects":[
+            {
+                "type":0,
+                "label":"采集2枚卡姆矿石",
+                "collect":247001,
+                "count":2
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":4000
+            },
+            {
+                "type":0,
+                "value":1471,
+                "count":4
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.244.complete"}, true ] }
+        ]
+        }
+
+    },
+    {
+        "questId":248,
+        "questStage":149,
+        "title":"探索2-2VII",
+        "desc":"对2-2VII进行探索",
+        "objects":[
+            {
+                "type":0,
+                "label":"探索2-2VII",
+                "collect":248001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":1,
+                "count":6500
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.246.complete"}, true ] }
+        ]
+        }
+    },
+    {
+        "questId":249,
+        "questStage":149,
+        "title":"找寻失踪的宝箱",
+        "desc":"商队成员救回了，不过一起的宝箱还没找到，前往【VII】替他们找回宝箱。",
+        "objects":[
+            {
+                "type":0,
+                "label":"找回商队的宝箱",
+                "collect":249001,
+                "count":1
+            }
+        ],
+        "prize":[
+            {
+                "type":2,
+                "count":100
+            }
+        ],
+        "cond":
+        { "and": [
+            { "==": [ { "type": "getProperty", "key": "quests.246.complete"}, true ] }
+        ]
+        }
+
     }
 ]
