@@ -271,7 +271,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 0.15
+          "chance": 0.25
         }
       ],
       "targetSelection": {
