@@ -18845,6 +18845,24 @@ exports.data = [
           "act": "self"
         },
         {
+          "type": "shock",
+          "delay": 1.2,
+          "range": 5,
+          "time": 0.2
+        },
+        {
+          "type": "shock",
+          "delay": 1.5,
+          "range": 5,
+          "time": 0.2
+        },
+        {
+          "type": "shock",
+          "delay": 1.8,
+          "range": 5,
+          "time": 0.2
+        },
+        {
           "type": "playEffect",
           "effect": 94,
           "pos": "target"
@@ -18958,14 +18976,31 @@ exports.data = [
           "act": "self"
         },
         {
+          "type": "shock",
+          "delay": 1,
+          "range": 5,
+          "time": 0.2
+        },
+        {
           "type": "playEffect",
           "effect": 96,
-          "pos": "target"
+          "act": "target"
         },
         {
           "type": "installSpell",
           "spell": 355,
           "delay": 0.6
+        },
+        {
+          "type": "blink",
+          "delay": 1.5,
+          "time": 0.2
+        },
+        {
+          "type": "shock",
+          "delay": 1.5,
+          "range": 5,
+          "time": 0.2
         }
       ]
     }
