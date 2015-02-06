@@ -18869,13 +18869,12 @@ exports.data = [
           "time": 0.5
         },
         {
-          "type": "playEffect",
-          "effect": 94,
-          "pos": "target"
-        },
-        {
           "type": "installSpell",
-          "spell": 353
+          "spell": 353,
+          "delay": {
+            "base": 2.4,
+            "range": 2.1
+          }
         }
       ]
     }
@@ -18885,14 +18884,15 @@ exports.data = [
     "config": {
       "installAction": [
         {
-          "type": "installSpell",
-          "spell": 362
+          "type": "playEffect",
+          "effect": 94,
+          "pos": "self"
         },
         {
           "type": "damage",
           "damageType": "Spell",
           "isRange": true,
-          "delay": 3.9,
+          "delay": 0.2,
           "formular": {
             func:function(env,source,target,cons) {
               return env.battleForce*0.05+100
@@ -18994,7 +18994,7 @@ exports.data = [
         {
           "type": "playEffect",
           "effect": 96,
-          "act": "target",
+          "pos": "target",
           "delay": 0.2
         },
         {
