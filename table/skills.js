@@ -18846,21 +18846,27 @@ exports.data = [
         },
         {
           "type": "shock",
-          "delay": 1.2,
+          "delay": 2.4,
           "range": 5,
-          "time": 0.2
+          "time": 0.5
         },
         {
           "type": "shock",
-          "delay": 1.5,
+          "delay": 2.9,
           "range": 5,
-          "time": 0.2
+          "time": 0.5
         },
         {
           "type": "shock",
-          "delay": 1.8,
+          "delay": 3.4,
           "range": 5,
-          "time": 0.2
+          "time": 0.5
+        },
+        {
+          "type": "shock",
+          "delay": 3.9,
+          "range": 5,
+          "time": 0.5
         },
         {
           "type": "playEffect",
@@ -18870,7 +18876,7 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 353,
-          "delay": 1.8
+          "delay": 4
         }
       ]
     }
@@ -18977,7 +18983,7 @@ exports.data = [
         },
         {
           "type": "shock",
-          "delay": 1,
+          "delay": 1.86,
           "range": 5,
           "time": 0.2
         },
@@ -18989,16 +18995,16 @@ exports.data = [
         {
           "type": "installSpell",
           "spell": 355,
-          "delay": 0.6
+          "delay": 3.1
         },
         {
           "type": "blink",
-          "delay": 1.5,
+          "delay": 3.1,
           "time": 0.2
         },
         {
           "type": "shock",
-          "delay": 1.5,
+          "delay": 3.1,
           "range": 5,
           "time": 0.2
         }
@@ -19013,7 +19019,6 @@ exports.data = [
           "type": "damage",
           "damageType": "Spell",
           "isRange": true,
-          "delay": 0.4,
           "formular": {
             func:function(env,source,target,cons) {
               return env.battleForce*0.06+400
