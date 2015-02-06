@@ -18873,7 +18873,7 @@ exports.data = [
           "spell": 353,
           "delay": {
             "base": 2.4,
-            "range": 2.1
+            "range": 1.5
           }
         }
       ]
@@ -19011,7 +19011,7 @@ exports.data = [
           "type": "shock",
           "delay": 3.3,
           "range": 5,
-          "time": 0.2
+          "time": 0.5
         }
       ]
     }
