@@ -7613,13 +7613,13 @@ exports.data = [
                 "accuracy": 0.15
               },
               "c": 20
-            },
-            {
-              "type": "setMyMutex",
-              "mutex": "minister",
-              "count": 1
             }
           ]
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "minister",
+          "count": 1
         }
       ]
     }
@@ -18718,9 +18718,6 @@ exports.data = [
         {
           "type": "myMutex",
           "mutex": "Ahriman"
-        },
-        {
-          "type": "alive"
         }
       ],
       "action": [
@@ -18767,9 +18764,6 @@ exports.data = [
           "type": "event",
           "event": "onTurnEnd",
           "eventCount": 1
-        },
-        {
-          "type": "alive"
         }
       ],
       "targetSelection": {
@@ -19309,19 +19303,19 @@ exports.data = [
               "src": {
                 "attack": 1.5
               }
-            },
-            {
-              "type": "blink",
-              "delay": 0.6,
-              "time": 0.08
-            },
-            {
-              "type": "shock",
-              "delay": 0.6,
-              "range": 5,
-              "time": 0.2
             }
           ]
+        },
+        {
+          "type": "blink",
+          "delay": 0.6,
+          "time": 0.08
+        },
+        {
+          "type": "shock",
+          "delay": 0.6,
+          "range": 5,
+          "time": 0.2
         }
       ]
     }
@@ -20674,19 +20668,43 @@ exports.data = [
       },
       "action": [
         {
-          "type": "installSpell",
-          "spell": 362,
-          "delay": 0.3,
-          "#level": [
-            1,
-            2,
-            3
+          "type": "damage",
+          "damageType": "Spell",
+          "isRange": true,
+          "delay": 0.4,
+          "#formular": [
+            {
+              "src": {
+                "attack": 0.8
+              }
+            },
+            {
+              "src": {
+                "attack": 1
+              }
+            },
+            {
+              "src": {
+                "attack": 1.5
+              }
+            }
           ]
         },
         {
           "type": "setMyMutex",
           "mutex": "soldier",
           "count": 1
+        },
+        {
+          "type": "blink",
+          "delay": 0.6,
+          "time": 0.08
+        },
+        {
+          "type": "shock",
+          "delay": 0.6,
+          "range": 5,
+          "time": 0.2
         }
       ]
     }
@@ -21431,6 +21449,232 @@ exports.data = [
           "type": "event",
           "event": "onBeEndBattleTurn",
           "eventCount": 2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 392,
+    "activeSpell": true,
+    "label": L("dic_skill_390_label"), //喵喵
+    "icon": "skill-dzj2.png",
+    "desc": L("dic_skill_390_desc"), //大幅度提升我方闪避。
+    "slotId": 100,
+    "config": {
+      "basic": {
+        "spellAction": 1
+      },
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 20
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "healable"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "playEffect",
+          "effect": 108,
+          "pos": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "installSpell",
+          "spell": 393
+        },
+        {
+          "type": "playEffect",
+          "effect": 109,
+          "pos": "target"
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 393,
+    "config": {
+      "installAction": [
+        {
+          "type": "setProperty",
+          "modifications": {
+            "reactivity": {
+              "src": {
+                "reactivity": 1
+              }
+            }
+          }
+        }
+      ],
+      "uninstallAction": [
+        {
+          "type": "resetProperty"
+        }
+      ],
+      "buffType": "RoleBuff",
+      "availableCondition": [
+        {
+          "type": "event",
+          "event": "onEndBattleTurn",
+          "eventCount": 2
+        },
+        {
+          "type": "event",
+          "event": "onBeEndBattleTurn",
+          "eventCount": 2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 394,
+    "activeSpell": true,
+    "label": L("dic_skill_390_label"), //和风
+    "icon": "skill-dzj2.png",
+    "desc": L("dic_skill_390_desc"), //大幅度提升我方暴击率。
+    "slotId": 100,
+    "config": {
+      "basic": {
+        "spellAction": 1
+      },
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 20
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "healable"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "playEffect",
+          "effect": 110,
+          "pos": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "installSpell",
+          "spell": 395
+        },
+        {
+          "type": "playEffect",
+          "effect": 111,
+          "pos": "target"
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 395,
+    "config": {
+      "installAction": [
+        {
+          "type": "setProperty",
+          "modifications": {
+            "reactivity": {
+              "src": {
+                "critical": 1
+              }
+            }
+          }
+        }
+      ],
+      "uninstallAction": [
+        {
+          "type": "resetProperty"
+        }
+      ],
+      "buffType": "RoleBuff",
+      "availableCondition": [
+        {
+          "type": "event",
+          "event": "onEndBattleTurn",
+          "eventCount": 2
+        },
+        {
+          "type": "event",
+          "event": "onBeEndBattleTurn",
+          "eventCount": 2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 396,
+    "label": L("dic_skill_135_label"), //护理
+    "icon": "skill-priest1.png",
+    "desc": L("dic_skill_135_desc"), //对自己进行回复，回复值与命中值相关。
+    "slotId": 0,
+    "config": {
+      "basic": {
+        "spellAction": 1,
+        "spellEffect": 47,
+        "targetEffect": 48,
+        "spellDelay": 0.3,
+        "targetDelay": 0.7
+      },
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onTurnEnd",
+          "eventCount": 10,
+          "reset": true
+        },
+        {
+          "type": "alive"
+        }
+      ],
+      "targetSelection": {
+        "pool": "self",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "heal",
+          "#formular": [
+            {
+              "src": {
+                "accuracy": 0.2
+              }
+            }
+          ]
         }
       ]
     }

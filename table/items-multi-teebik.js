@@ -14,8 +14,28 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "蘊含著神聖之力的羽翼，能夠帶來天使的祝福，並且是身份的象徵",
+        "description": "受到了大天使的加護的羽翼。",
         "effecta": [
+            {
+                "part": "avatar-wing-1",
+                "file": "wing1-1.ccbi"
+            },
+            {
+                "part": "avatar-wing-2",
+                "file": "wing1-1.ccbi"
+            },
+            {
+                "part": "avatar-wing-3",
+                "file": "wing1-1.ccbi"
+            },
+            {
+                "part": "avatar-wing-4",
+                "file": "wing1-1.ccbi"
+            },
+            {
+                "part": "avatar-wing-5",
+                "file": "wing1-1.ccbi"
+            },
             {
                 "part": "avatar-wing1",
                 "file": "wing-sszy.ccbi"
@@ -25,8 +45,7 @@ exports.data = [
                 "file": "wing-sszy.ccbi"
             }
         ],
-        "storeOnly": true,
-        "expiration": {day: 7}
+        "storeOnly": true
     },
     {
         "classId": 1,
@@ -43,7 +62,7 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "蘊含著邪惡之力的羽翼，能夠帶來惡魔的力量，並且是身份的象徵",
+        "description": "與惡魔簽訂契約得到巨大的力量的羽翼",
         "effecta": [
             {
                 "part": "avatar-wing1",
@@ -54,42 +73,37 @@ exports.data = [
                 "file": "wing-emzy.ccbi"
             }
         ],
-        "storeOnly": true,
-        "expiration": {day: 7}
+        "storeOnly": true
     },
     {
         "classId": 2,
-        "label": "三色寶石",
-        "icon": "stone3.png",
-        "category": 2,
-        "subcategory": 2,
-        "description": "隨機強化經驗、熟練、金幣3項特殊屬性的寶石。",
-        "stack": 99,
-        "sellprice": 300,
-        "transPrize": [
+        "label": "妖精的加護",
+        "icon": "rfasion-bjgh1.png",
+        "category": 1,
+        "subcategory": 17,
+        "description": "妖精的水晶，蘊含著強大且神秘的力量。",
+        "effecta": [
             {
-                "type": 0,
-                "value": 853,
-                "count": 2
+                "part": "effect",
+                "file": "godring.ccbi"
             }
-        ]
+        ],
+        "storeOnly": true
     },
     {
         "classId": 3,
-        "label": "力量之石",
-        "icon": "stone4.png",
-        "category": 2,
-        "subcategory": 3,
-        "description": "能夠強化攻擊屬性的寶石。",
-        "stack": 99,
-        "sellprice": 300,
-        "transPrize": [
+        "label": "萌系眼鏡",
+        "icon": "rfasion-glass-icon.png",
+        "category": 1,
+        "subcategory": 18,
+        "description": "最近在勇者中流行的一種飾品。",
+        "effecta": [
             {
-                "type": 0,
-                "value": 853,
-                "count": 2
+                "part": "glass",
+                "file": "rfasion-glass1.ccbi"
             }
-        ]
+        ],
+        "storeOnly": true
     },
     {
         "classId": 4,
@@ -112,8 +126,7 @@ exports.data = [
         "classId": 5,
         "label": "萬能碎片",
         "icon": "rfasion-sp.png",
-        "category": 0,
-        "subcategory": 1,
+        "category": 4,
         "description": "神奇的物品，可以代替高級套裝的碎片",
         "stack": 99,
         "sellprice": 500,
@@ -20011,8 +20024,7 @@ exports.data = [
         "category": 4,
         "description": "在戰鬥中可以使全隊復活的神奇藥水。",
         "stack": 25,
-        "sellprice": 300,
-        "storeOnly": true
+        "sellprice": 300
     },
     {
         "classId": 541,
@@ -20229,7 +20241,9 @@ exports.data = [
         "category": 1,
         "subcategory": 12,
         "extraSlots": [19,20],
-        "description": "兼顧外形與力量，是榮譽的象徵。",
+        "description": "兼顧外形與力量，是榮譽的象徵。\n" +
+                       "屬性：生命+550 攻擊+50 暴擊+15\n" +
+                       "　　　韌性+60",
         "sellprice": 1500,
         "effectf": [
             {
@@ -20290,7 +20304,8 @@ exports.data = [
         "label": "榮譽頭冠",
         "category": 1,
         "subcategory": 13,
-        "description": "榮譽的象徵，並且擁有專注力量的祝福。",
+        "description": "榮譽的象徵，並且擁有專注力量的祝福。\n" +
+                       "屬性：生命+200 攻擊+30 命中+60",
         "sellprice": 500,
         "effectf": [
             {
@@ -53123,8 +53138,7 @@ exports.data = [
         "label": "X碎片",
         "iconf": "rfasion-female-ironsuit-sp.png",
         "iconm": "rfasion-male-ironsuit-sp.png",
-        "category": 0,
-        "subcategory": 1,
+        "category": 4,
         "description": "神秘合金碎片，可以通過X圖紙合成時裝",
         "stack": 99,
         "sellprice": 500,
@@ -53377,8 +53391,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 0,
-        "iconf": "rfasion-female3-cloth.png",
-        "iconm": "rfasion-male3-cloth.png",
+        "iconf": "rfasion-female3-chest.png",
+        "iconm": "rfasion-male3-chest.png",
         "expiration": {day: 7}
     },
     {
@@ -53410,8 +53424,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 0,
-        "iconf": "rfasion-female3-cloth.png",
-        "iconm": "rfasion-male3-cloth.png",
+        "iconf": "rfasion-female3-hand.png",
+        "iconm": "rfasion-male3-hand.png",
         "expiration": {day: 7}
     },
     {
@@ -53443,8 +53457,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 0,
-        "iconf": "rfasion-female3-cloth.png",
-        "iconm": "rfasion-male3-cloth.png",
+        "iconf": "rfasion-female3-foot.png",
+        "iconm": "rfasion-male3-foot.png",
         "expiration": {day: 7}
     },
     {
@@ -53494,8 +53508,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 0,
-        "iconf": "rfasion-female4-cloth.png",
-        "iconm": "rfasion-male4-cloth.png",
+        "iconf": "rfasion-female4-chest.png",
+        "iconm": "rfasion-male4-chest.png",
         "expiration": {day: 7}
     },
     {
@@ -53527,8 +53541,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 0,
-        "iconf": "rfasion-female4-cloth.png",
-        "iconm": "rfasion-male4-cloth.png",
+        "iconf": "rfasion-female4-hand.png",
+        "iconm": "rfasion-male4-hand.png",
         "expiration": {day: 7}
     },
     {
@@ -53560,8 +53574,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 0,
-        "iconf": "rfasion-female4-cloth.png",
-        "iconm": "rfasion-male4-cloth.png",
+        "iconf": "rfasion-female4-foot.png",
+        "iconm": "rfasion-male4-foot.png",
         "expiration": {day: 7}
     },
     {
@@ -53611,8 +53625,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 0,
-        "iconf": "rfasion-female5-cloth.png",
-        "iconm": "rfasion-male5-cloth.png",
+        "iconf": "rfasion-female5-chest.png",
+        "iconm": "rfasion-male5-chest.png",
         "expiration": {day: 7}
     },
     {
@@ -53644,8 +53658,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 0,
-        "iconf": "rfasion-female5-cloth.png",
-        "iconm": "rfasion-male5-cloth.png",
+        "iconf": "rfasion-female5-hand.png",
+        "iconm": "rfasion-male5-hand.png",
         "expiration": {day: 7}
     },
     {
@@ -53677,8 +53691,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 0,
-        "iconf": "rfasion-female5-cloth.png",
-        "iconm": "rfasion-male5-cloth.png",
+        "iconf": "rfasion-female5-foot.png",
+        "iconm": "rfasion-male5-foot.png",
         "expiration": {day: 7}
     },
     {
@@ -54313,8 +54327,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 1,
-        "iconf": "rfasion-female3-cloth.png",
-        "iconm": "rfasion-male3-cloth.png"
+        "iconf": "rfasion-female3-chest.png",
+        "iconm": "rfasion-male3-chest.png"
     },
     {
         "classId": 1517,
@@ -54345,8 +54359,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 1,
-        "iconf": "rfasion-female3-cloth.png",
-        "iconm": "rfasion-male3-cloth.png"
+        "iconf": "rfasion-female3-hand.png",
+        "iconm": "rfasion-male3-hand.png"
     },
     {
         "classId": 1518,
@@ -54377,8 +54391,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 1,
-        "iconf": "rfasion-female3-cloth.png",
-        "iconm": "rfasion-male3-cloth.png"
+        "iconf": "rfasion-female3-foot.png",
+        "iconm": "rfasion-male3-foot.png"
     },
     {
         "classId": 1519,
@@ -54426,8 +54440,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 1,
-        "iconf": "rfasion-female4-cloth.png",
-        "iconm": "rfasion-male4-cloth.png"
+        "iconf": "rfasion-female4-chest.png",
+        "iconm": "rfasion-male4-chest.png"
     },
     {
         "classId": 1521,
@@ -54458,8 +54472,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 1,
-        "iconf": "rfasion-female4-cloth.png",
-        "iconm": "rfasion-male4-cloth.png"
+        "iconf": "rfasion-female4-hand.png",
+        "iconm": "rfasion-male4-hand.png"
     },
     {
         "classId": 1522,
@@ -54490,8 +54504,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 1,
-        "iconf": "rfasion-female4-cloth.png",
-        "iconm": "rfasion-male4-cloth.png"
+        "iconf": "rfasion-female4-foot.png",
+        "iconm": "rfasion-male4-foot.png"
     },
     {
         "classId": 1523,
@@ -54539,8 +54553,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 1,
-        "iconf": "rfasion-female5-cloth.png",
-        "iconm": "rfasion-male5-cloth.png"
+        "iconf": "rfasion-female5-chest.png",
+        "iconm": "rfasion-male5-chest.png"
     },
     {
         "classId": 1525,
@@ -54571,8 +54585,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 1,
-        "iconf": "rfasion-female5-cloth.png",
-        "iconm": "rfasion-male5-cloth.png"
+        "iconf": "rfasion-female5-hand.png",
+        "iconm": "rfasion-male5-hand.png"
     },
     {
         "classId": 1526,
@@ -54603,8 +54617,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 1,
-        "iconf": "rfasion-female5-cloth.png",
-        "iconm": "rfasion-male5-cloth.png"
+        "iconf": "rfasion-female5-foot.png",
+        "iconm": "rfasion-male5-foot.png"
     },
     {
         "classId": 1527,
@@ -55226,8 +55240,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 2,
-        "iconf": "rfasion-female3-cloth.png",
-        "iconm": "rfasion-male3-cloth.png",
+        "iconf": "rfasion-female3-chest.png",
+        "iconm": "rfasion-male3-chest.png",
         "expiration": {day: 7}
     },
     {
@@ -55268,8 +55282,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 2,
-        "iconf": "rfasion-female3-cloth.png",
-        "iconm": "rfasion-male3-cloth.png",
+        "iconf": "rfasion-female3-hand.png",
+        "iconm": "rfasion-male3-hand.png",
         "expiration": {day: 7}
     },
     {
@@ -55310,8 +55324,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 2,
-        "iconf": "rfasion-female3-cloth.png",
-        "iconm": "rfasion-male3-cloth.png",
+        "iconf": "rfasion-female3-foot.png",
+        "iconm": "rfasion-male3-foot.png",
         "expiration": {day: 7}
     },
     {
@@ -55379,8 +55393,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 2,
-        "iconf": "rfasion-female4-cloth.png",
-        "iconm": "rfasion-male4-cloth.png",
+        "iconf": "rfasion-female4-chest.png",
+        "iconm": "rfasion-male4-chest.png",
         "expiration": {day: 7}
     },
     {
@@ -55421,8 +55435,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 2,
-        "iconf": "rfasion-female4-cloth.png",
-        "iconm": "rfasion-male4-cloth.png",
+        "iconf": "rfasion-female4-hand.png",
+        "iconm": "rfasion-male4-hand.png",
         "expiration": {day: 7}
     },
     {
@@ -55463,8 +55477,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 2,
-        "iconf": "rfasion-female4-cloth.png",
-        "iconm": "rfasion-male4-cloth.png",
+        "iconf": "rfasion-female4-foot.png",
+        "iconm": "rfasion-male4-foot.png",
         "expiration": {day: 7}
     },
     {
@@ -55532,8 +55546,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 2,
-        "iconf": "rfasion-female5-cloth.png",
-        "iconm": "rfasion-male5-cloth.png",
+        "iconf": "rfasion-female5-chest.png",
+        "iconm": "rfasion-male5-chest.png",
         "expiration": {day: 7}
     },
     {
@@ -55574,8 +55588,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 2,
-        "iconf": "rfasion-female5-cloth.png",
-        "iconm": "rfasion-male5-cloth.png",
+        "iconf": "rfasion-female5-hand.png",
+        "iconm": "rfasion-male5-hand.png",
         "expiration": {day: 7}
     },
     {
@@ -55616,8 +55630,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 2,
-        "iconf": "rfasion-female5-cloth.png",
-        "iconm": "rfasion-male5-cloth.png",
+        "iconf": "rfasion-female5-foot.png",
+        "iconm": "rfasion-male5-foot.png",
         "expiration": {day: 7}
     },
     {
@@ -56445,8 +56459,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 3,
-        "iconf": "rfasion-female3-cloth.png",
-        "iconm": "rfasion-male3-cloth.png",
+        "iconf": "rfasion-female3-chest.png",
+        "iconm": "rfasion-male3-chest.png",
         "recipePrize": 209
     },
     {
@@ -56486,8 +56500,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 3,
-        "iconf": "rfasion-female3-cloth.png",
-        "iconm": "rfasion-male3-cloth.png",
+        "iconf": "rfasion-female3-hand.png",
+        "iconm": "rfasion-male3-hand.png",
         "recipePrize": 209
     },
     {
@@ -56527,8 +56541,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 3,
-        "iconf": "rfasion-female3-cloth.png",
-        "iconm": "rfasion-male3-cloth.png",
+        "iconf": "rfasion-female3-foot.png",
+        "iconm": "rfasion-male3-foot.png",
         "recipePrize": 209
     },
     {
@@ -56594,8 +56608,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 3,
-        "iconf": "rfasion-female4-cloth.png",
-        "iconm": "rfasion-male4-cloth.png",
+        "iconf": "rfasion-female4-chest.png",
+        "iconm": "rfasion-male4-chest.png",
         "recipePrize": 209
     },
     {
@@ -56635,8 +56649,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 3,
-        "iconf": "rfasion-female4-cloth.png",
-        "iconm": "rfasion-male4-cloth.png",
+        "iconf": "rfasion-female4-hand.png",
+        "iconm": "rfasion-male4-hand.png",
         "recipePrize": 209
     },
     {
@@ -56676,8 +56690,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 3,
-        "iconf": "rfasion-female4-cloth.png",
-        "iconm": "rfasion-male4-cloth.png",
+        "iconf": "rfasion-female4-foot.png",
+        "iconm": "rfasion-male4-foot.png",
         "recipePrize": 209
     },
     {
@@ -56743,8 +56757,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 3,
-        "iconf": "rfasion-female5-cloth.png",
-        "iconm": "rfasion-male5-cloth.png",
+        "iconf": "rfasion-female5-chest.png",
+        "iconm": "rfasion-male5-chest.png",
         "recipePrize": 209
     },
     {
@@ -56784,8 +56798,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 3,
-        "iconf": "rfasion-female5-cloth.png",
-        "iconm": "rfasion-male5-cloth.png",
+        "iconf": "rfasion-female5-hand.png",
+        "iconm": "rfasion-male5-hand.png",
         "recipePrize": 209
     },
     {
@@ -56825,8 +56839,8 @@ exports.data = [
         ],
         "storeOnly": true,
         "quality": 3,
-        "iconf": "rfasion-female5-cloth.png",
-        "iconm": "rfasion-male5-cloth.png",
+        "iconf": "rfasion-female5-foot.png",
+        "iconm": "rfasion-male5-foot.png",
         "recipePrize": 209
     },
     {
@@ -57881,14 +57895,12 @@ exports.data = [
     {
         "classId": 1617,
         "label": "時裝碎片",
-        "iconf": "rfasion-female3-sp.png",
-        "iconm": "rfasion-male3-sp.png",
-        "category": 0,
-        "subcategory": 1,
-        "description": "可以通過圖紙合成限時有屬性的禮儀套裝",
+        "icon": "rfasion-sp2.png",
+        "category": 4,
+        "description": "可以通過圖紙合成限時有屬性的套裝",
         "stack": 99,
         "sellprice": 500,
-        "quality": 3
+        "quality": 1
     },
     {
         "classId": 1618,
@@ -57899,7 +57911,7 @@ exports.data = [
         "subcategory": 0,
         "description": "能合成禮儀頭飾的圖紙，需要5個時裝碎片",
         "sellprice": 15,
-        "quality": 3,
+        "quality": 2,
         "recipeTarget": 1551,
         "recipeCost": 88
     },
@@ -57912,7 +57924,7 @@ exports.data = [
         "subcategory": 0,
         "description": "能合成禮儀上衣的圖紙，需要5個時裝碎片",
         "sellprice": 15,
-        "quality": 3,
+        "quality": 2,
         "recipeTarget": 1548,
         "recipeCost": 88
     },
@@ -57925,7 +57937,7 @@ exports.data = [
         "subcategory": 0,
         "description": "能合成禮儀手套的圖紙，需要5個時裝碎片",
         "sellprice": 15,
-        "quality": 3,
+        "quality": 2,
         "recipeTarget": 1549,
         "recipeCost": 88
     },
@@ -57938,7 +57950,7 @@ exports.data = [
         "subcategory": 0,
         "description": "能合成禮儀鞋的圖紙，需要5個時裝碎片",
         "sellprice": 15,
-        "quality": 3,
+        "quality": 2,
         "recipeTarget": 1550,
         "recipeCost": 88
     }

@@ -1,6 +1,6 @@
 exports.data = [
     {//0
-        "interval":{"value":7,"unit":"hour"},//second minite hour day
+        "interval":{"value":12,"unit":"hour"},//second minite hour day
         "diamond":{"1":0},
         "basic_times":3,
         "advanced_option":[//若存在，优先读取advanced_option

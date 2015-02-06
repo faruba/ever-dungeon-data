@@ -14,19 +14,38 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "蕴含着神圣之力的羽翼，能够带来天使的祝福，并且是身份的象征",
+        "description": "受到了大天使的加护的羽翼。",
         "effecta": [
-            {
-                "part": "avatar-wing1",
-                "file": "wing-sszy.ccbi"
-            },
-            {
-                "part": "avatar-wing2",
-                "file": "wing-sszy.ccbi"
-            }
-        ],
-        "storeOnly": true,
-        "expiration": {day: 7}
+			{
+				"part": "avatar-wing-1",
+				"file": "wing1-1.ccbi"
+			},
+			{
+				"part": "avatar-wing-2",
+				"file": "wing1-1.ccbi"
+			},
+			{
+				"part": "avatar-wing-3",
+				"file": "wing1-1.ccbi"
+			},
+			{
+				"part": "avatar-wing-4",
+				"file": "wing1-1.ccbi"
+			},
+			{
+				"part": "avatar-wing-5",
+				"file": "wing1-1.ccbi"
+			},
+			{
+				"part": "avatar-wing1",
+				"file": "wing-sszy.ccbi"
+			},
+			{
+				"part": "avatar-wing2",
+				"file": "wing-sszy.ccbi"
+			}
+		],
+		"storeOnly": true
     },
     {
         "classId": 1,
@@ -43,7 +62,7 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "蕴含着邪恶之力的羽翼，能够带来恶魔的力量，并且是身份的象征",
+        "description": "与恶魔签订契约得到巨大的力量的羽翼",
         "effecta": [
             {
                 "part": "avatar-wing1",
@@ -54,42 +73,37 @@ exports.data = [
                 "file": "wing-emzy.ccbi"
             }
         ],
-        "storeOnly": true,
-        "expiration": {day: 7}
+        "storeOnly": true
     },
 	{
 		"classId": 2,
-		"label": "三色宝石",
-		"icon": "stone3.png",
-		"category": 2,
-		"subcategory": 2,
-		"description": "随机强化经验、熟练、金币3项特殊属性的宝石。",
-		"stack": 99,
-		"sellprice": 300,
-		"transPrize": [
+		"label": "妖精的加护",
+		"icon": "rfasion-bjgh1.png",
+		"category": 1,
+		"subcategory": 17,
+		"description": "妖精的水晶，蕴含着强大且神秘的力量。",
+		"effecta": [
 			{
-				"type": 0,
-				"value": 853,
-				"count": 2
+				"part": "effect",
+				"file": "godring.ccbi"
 			}
-		]
+		],
+		"storeOnly": true
 	},
 	{
 		"classId": 3,
-		"label": "力量之石",
-		"icon": "stone4.png",
-		"category": 2,
-		"subcategory": 3,
-		"description": "能够强化攻击属性的宝石。",
-		"stack": 99,
-		"sellprice": 300,
-		"transPrize": [
+		"label": "萌系眼镜",
+		"icon": "rfasion-glass-icon.png",
+		"category": 1,
+		"subcategory": 18,
+		"description": "最近在勇者中流行的一种饰品。",
+		"effecta": [
 			{
-				"type": 0,
-				"value": 853,
-				"count": 2
+				"part": "glass",
+				"file": "rfasion-glass1.ccbi"
 			}
-		]
+		],
+		"storeOnly": true
 	},
 	{
 		"classId": 4,
@@ -112,8 +126,7 @@ exports.data = [
 		"classId": 5,
 		"label": "万能碎片",
 		"icon": "rfasion-sp.png",
-		"category": 0,
-		"subcategory": 1,
+		"category": 4,
 		"description": "神奇的物品，可以代替高级套装的碎片",
 		"stack": 99,
 		"sellprice": 500,
@@ -20228,7 +20241,9 @@ exports.data = [
 		"category": 1,
 		"subcategory": 12,
 		"extraSlots": [19,20],
-		"description": "兼顾外形与力量，是荣誉的象征。",
+		"description": "兼顾外形与力量，是荣誉的象征。\n" +
+		               "属性：生命+550 攻击+50 暴击+15\n" +
+		               "　　　韧性+60",
 		"sellprice": 1500,
 		"effectf": [
 			{
@@ -20289,7 +20304,8 @@ exports.data = [
 		"label": "荣誉头冠",
 		"category": 1,
 		"subcategory": 13,
-		"description": "荣誉的象征，并且拥有专注力量的祝福。",
+		"description": "荣誉的象征，并且拥有专注力量的祝福。\n" +
+		               "属性：生命+200 攻击+30 命中+60",
 		"sellprice": 500,
 		"effectf": [
 			{
@@ -53122,8 +53138,7 @@ exports.data = [
         "label": "X碎片",
 		"iconf": "rfasion-female-ironsuit-sp.png",
 		"iconm": "rfasion-male-ironsuit-sp.png",
-        "category": 0,
-        "subcategory": 1,
+        "category": 4,
         "description": "神秘合金碎片，可以通过X图纸合成时装",
         "stack": 99,
         "sellprice": 500,
@@ -57880,10 +57895,8 @@ exports.data = [
 	{
 		"classId": 1617,
 		"label": "时装碎片",
-		"iconf": "rfasion-female3-sp.png",
-		"iconm": "rfasion-male3-sp.png",
-		"category": 0,
-		"subcategory": 1,
+		"icon": "rfasion-sp2.png",
+		"category": 4,
 		"description": "可以通过图纸合成限时有属性的套装",
 		"stack": 99,
 		"sellprice": 500,
