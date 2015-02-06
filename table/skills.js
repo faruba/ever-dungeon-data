@@ -18875,8 +18875,7 @@ exports.data = [
         },
         {
           "type": "installSpell",
-          "spell": 353,
-          "delay": 4
+          "spell": 353
         }
       ]
     }
@@ -18886,9 +18885,14 @@ exports.data = [
     "config": {
       "installAction": [
         {
+          "type": "installSpell",
+          "spell": 362
+        },
+        {
           "type": "damage",
           "damageType": "Spell",
           "isRange": true,
+          "delay": 3.9,
           "formular": {
             func:function(env,source,target,cons) {
               return env.battleForce*0.05+100
@@ -18990,21 +18994,22 @@ exports.data = [
         {
           "type": "playEffect",
           "effect": 96,
-          "act": "target"
+          "act": "target",
+          "delay": 0.2
         },
         {
           "type": "installSpell",
           "spell": 355,
-          "delay": 3.1
+          "delay": 3.3
         },
         {
           "type": "blink",
-          "delay": 3.1,
+          "delay": 3.3,
           "time": 0.2
         },
         {
           "type": "shock",
-          "delay": 3.1,
+          "delay": 3.3,
           "range": 5,
           "time": 0.2
         }
@@ -19365,40 +19370,26 @@ exports.data = [
     "config": {
       "installAction": [
         {
-          "type": "damage",
-          "damageType": "Spell",
-          "isRange": true,
-          "delay": 0.4,
-          "#formular": [
-            {
-              "c": 150
-            },
-            {
-              "c": 300
-            },
-            {
-              "c": 450
-            }
-          ]
+          "type": "playAction",
+          "motion": "wounded",
+          "pos": "self",
+          "delay": 2.4
+        },
+        {
+          "type": "playAction",
+          "motion": "wounded",
+          "pos": "self",
+          "delay": 2.9
+        },
+        {
+          "type": "playAction",
+          "motion": "wounded",
+          "pos": "self",
+          "delay": 3.4
         }
       ],
       "targetSelection": {
-        "pool": "objects",
-        "filter": [
-          {
-            "type": "same-block"
-          },
-          {
-            "type": "same-faction",
-            "faction": "monster"
-          },
-          {
-            "type": "alive"
-          },
-          {
-            "type": "visible"
-          }
-        ]
+        "pool": "self"
       },
       "availableCondition": [
         {
@@ -19447,7 +19438,7 @@ exports.data = [
         {
           "type": "playEffect",
           "effect": 91,
-          "pos": "self"
+          "act": "self"
         },
         {
           "type": "delay"
