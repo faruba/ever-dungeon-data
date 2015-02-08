@@ -16,8 +16,7 @@ exports.data = [
 			"strong": 4,
 			"accuracy": 2,
 			"reactivity": 1,
-			"speed": 2,
-			"activeSpell": [0]
+			"speed": 2
 		},
 		"defaultArmors": [
 			6,
@@ -59,8 +58,7 @@ exports.data = [
 			"strong": 2,
 			"accuracy": 2,
 			"reactivity": 2,
-			"speed": 2,
-			"activeSpell": [5]
+			"speed": 2
 		},
 		"defaultArmors": [
 			6,
@@ -103,8 +101,7 @@ exports.data = [
 			"strong": 4,
 			"accuracy": 4,
 			"reactivity": 3,
-			"speed": 6,
-			"activeSpell": [8]
+			"speed": 6
 		},
 		"defaultArmors": [
 			6,
@@ -3315,6 +3312,7 @@ exports.data = [
 			"speed": 1
 		},
 		"effectAttack": 9,
+        "collectId": 214001,
         "skill": [
             {
                 "id": 187,
@@ -5259,8 +5257,7 @@ exports.data = [
 			"strong": 7,
 			"accuracy": 34,
 			"reactivity": 0.75,
-			"speed": 65,
-			"activeSpell": "WallOfSheild"
+			"speed": 65
 		},
 		"defaultArmors": [
 			6,
@@ -5283,6 +5280,14 @@ exports.data = [
 			{
 				"id": 13,
 				"level": 1
+			},
+			{
+				"id": 382,
+				"level": 3
+			},
+			{
+				"id": 383,
+				"level": 3
 			}
 		]
 	},
@@ -5299,8 +5304,7 @@ exports.data = [
 			"strong": 66,
 			"accuracy": 49,
 			"reactivity": 1,
-			"speed": 24,
-			"activeSpell": "Lightning"
+			"speed": 24
 		},
 		"defaultArmors": [
 			6,
@@ -5322,6 +5326,14 @@ exports.data = [
 			{
 				"id": 6,
 				"level": 1
+			},
+			{
+				"id": 385,
+				"level": 3
+			},
+			{
+				"id": 386,
+				"level": 3
 			}
 		]
 	},
@@ -8069,8 +8081,7 @@ exports.data = [
             "strong": 4,
             "accuracy": 2,
             "reactivity": 1,
-            "speed": 2,
-            "activeSpell": [195]
+            "speed": 2
         },
         "defaultArmors": [
             6,
@@ -8112,8 +8123,7 @@ exports.data = [
             "strong": 2,
             "accuracy": 2,
             "reactivity": 2,
-            "speed": 2,
-            "activeSpell": [201]
+            "speed": 2
         },
         "defaultArmors": [
             6,
@@ -8155,8 +8165,7 @@ exports.data = [
             "strong": 4,
             "accuracy": 4,
             "reactivity": 3,
-            "speed": 6,
-            "activeSpell": [207]
+            "speed": 6
         },
         "defaultArmors": [
             6,
@@ -8829,6 +8838,7 @@ exports.data = [
         "soundAttack": "liulangattack.mp3",
         "soundDie": "liulangdie.mp3",
         "effectAttack": 8,
+        "collectId": 220001,
         "skill": [
             {
                 "id": 185,
@@ -8998,6 +9008,7 @@ exports.data = [
         "soundAttack": "liulangattack.mp3",
         "soundDie": "liulangdie.mp3",
         "effectAttack": 9,
+        "collectId": 215001,
         "skill": [
             {
                 "id": 332,
@@ -9039,6 +9050,7 @@ exports.data = [
         "soundAttack": "shilaimuattack.mp3",
         "soundDie": "shilaimudie.mp3",
         "effectAttack": 9,
+        "collectId": 216001,
         "skill": [
             {
                 "id": 102,
@@ -9681,6 +9693,7 @@ exports.data = [
         "soundAttack": "shourenattack.mp3",
         "soundDie": "shourendie.mp3",
         "effectAttack": 9,
+        "collectId": 236001,
         "skill": [
             {
                 "id": 26,
@@ -9737,6 +9750,7 @@ exports.data = [
         "soundWound": "shourenwound.mp3",
         "soundAttack": "shourenattack.mp3",
         "soundDie": "shourendie.mp3",
+        "collectId": 243001,
         "skill": [
             {
                 "id": 335,
@@ -9783,6 +9797,7 @@ exports.data = [
         "soundAttack": "shilaimuattack.mp3",
         "soundDie": "shilaimudie.mp3",
         "effectAttack": 9,
+        "collectId": 227001,
         "skill": [
             {
                 "id": 188,
@@ -9903,7 +9918,7 @@ exports.data = [
             "keyd":true,
             "counterAttack": true
         },
-        "levelId": 10
+        "levelId": 4
     },
     {
         "classId": 257,
@@ -9930,7 +9945,7 @@ exports.data = [
             "keyd":true,
             "counterAttack": true
         },
-        "levelId": 10
+        "levelId": 5
     },
     {
         "classId": 258,
@@ -9957,7 +9972,7 @@ exports.data = [
             "keyd":true,
             "counterAttack": true
         },
-        "levelId": 10
+        "levelId": 6
     },   {
         "classId": 259,
         "className": "狂战士(队友)",

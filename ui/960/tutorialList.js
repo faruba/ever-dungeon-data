@@ -79,7 +79,8 @@ exports.data = [    {
         "tutorialId": 9,
         "actions":[
             {"act": "dialogue", "index": 22},
-            {"act": "pressslide", "pos":{"x":190, "y":72}, "rect":{"x":0 , "y":0, "width":640, "height":177}, "trigger":true}
+            {"act": "pressclick", "pos":{"x":67, "y":75}, "rect":{"x":0 , "y":0, "width":640, "height":130}, "trigger":true},
+            {"act": "pressclick", "pos":{"x":215, "y":165}, "rect":{"x":0 , "y":130, "width":640, "height":65}, "trigger":true}
         ]
     },
     {

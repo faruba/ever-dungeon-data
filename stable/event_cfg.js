@@ -432,7 +432,7 @@ exports.newCampainTable = {
         counter: {
             key: 'startupReward_battle_force_week',
             initial_value: 0,
-            uplimit: 31,
+            uplimit: 47,
             count_down: { time: 'time@ThisCounter', units: 'day' }
         },
         available_condition: [ { type: 'counter', func: "notCounted" } ],
@@ -513,8 +513,8 @@ exports.newCampainTable = {
             var obj = theData.object;
             dbLib.setServerProperty("counters", key, JSON.stringify(obj.counters[key]));
 
-            if (counter % 7 && counter != 30) return false;
-            if (counter == 30) {
+            if (counter % 7 && counter != 47) return false;
+            if (counter == 47) {
                 prizeConfig = this.finalPrize;
             } else {
                 prizeConfig = this.prizeConfig;

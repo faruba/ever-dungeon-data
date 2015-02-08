@@ -823,15 +823,71 @@ exports.data = [
     {
         "costId":84,
         "material":[
-            { "type": 1, "count":100},
-            { "type":0,"value":1475,"count":5}
+            {
+                "type":0,
+                "value":1475,
+                "count":15,
+                "instead": {
+                    "type":0,
+                    "value":5
+                }
+            }
         ]
     },
     {
         "costId":85,
         "material":[
-            { "type": 1, "count":100},
-            { "type":0,"value":1475,"count":5}
+            {
+                "type":0,
+                "value":1475,
+                "count":10,
+                "instead": {
+                    "type":0,
+                    "value":5
+                }
+            }
+        ]
+    },
+    {
+        "costId":86,
+        "material":[
+            {
+                "type":0,
+                "value":1475,
+                "count":5,
+                "instead": {
+                    "type":0,
+                    "value":5
+                }
+            }
+        ]
+    },
+    {
+        "costId":87,
+        "material":[
+            {
+                "type":0,
+                "value":1475,
+                "count":10,
+                "instead": {
+                    "type":0,
+                    "value":5
+                }
+            }
+        ]
+    },
+    {
+        "costId":88,
+        "material":[
+            {
+                "type":0,
+                "value":1617,
+                "count":5,
+                "instead": {
+                    "type":0,
+                    "value":5
+                }
+            }
         ]
     }
 ]

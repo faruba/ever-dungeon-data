@@ -4,9 +4,9 @@ exports.data = {
     "stage": "0.1.5",
     "bin_version": "1.0.10",
     "bin_version_need": "1.0.10",
-    "needed_version":"1.1.44",
-    "last_version":"1.1.44",
-    "suggest_version":"1.1.44",
+    "needed_version":"1.1.45",
+    "last_version":"1.1.45",
+    "suggest_version":"1.1.45",
 
     "url": "http://7u2hr2.com5.z0.glb.clouddn.com/",
     "bin_url": {
@@ -20,6 +20,6 @@ exports.data = {
         "7": "",
         "8": "itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=914818890",
         "9": "https://play.google.com/store/apps/details?id=org.kddxc.koudaidixiachengapk1",
-        "10": ""
+        "10": "https://play.google.com/store/apps/details?id=org.kddxc.koudaidixiachengapk1"
     }
 }
