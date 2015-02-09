@@ -10753,30 +10753,42 @@ exports.data = [
         "spellDelay": 0,
         "targetDelay": 0
       },
-      "targetSelection": {
-        "pool": "target"
-      },
       "triggerCondition": [
         {
-          "type": "event",
-          "event": "onMonsterShow"
-        },
-        {
-          "type": "targetMutex",
-          "mutex": "paoxiao"
-        },
-        {
-          "type": "chance",
-          "#chance": [
-            0.2,
-            0.2,
-            0.25
-          ]
-        },
-        {
-          "type": "alive"
+          "type": "countDown",
+          "cd": 10
         }
       ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 2,
+            "length": 0,
+            "startDistance": 1,
+            "anchorPos": {
+              "pool": "self",
+              "filter": [
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "attackable"
+          }
+        ]
+      },
       "action": [
         {
           "type": "playEffect",
@@ -10803,13 +10815,12 @@ exports.data = [
   {
     "skillId": 200,
     "label": L("dic_skill_200_label"), //复仇之力
-    "icon": "skill-kzs4.png",
     "desc": L("dic_skill_200_desc"), //怪物攻击队友并造成伤害时，狂战士有几率立即报复攻击该生物。
-    "slotId": 3,
     "config": {
       "basic": {
+        "buffEffect": 125,
         "spellAction": 4,
-        "targetEffect": 7,
+        "targetEffect": 126,
         "spellDelay": 0.3,
         "targetDelay": 0.3
       },
@@ -10838,23 +10849,10 @@ exports.data = [
           "mutex": "revenge"
         },
         {
-          "type": "chance",
-          "#chance": [
-            0.2,
-            0.25,
-            0.3
-          ]
-        },
-        {
           "type": "alive"
         }
       ],
       "action": [
-        {
-          "type": "playEffect",
-          "effect": 4,
-          "act": "self"
-        },
         {
           "type": "damage",
           "damageType": "Spell",
@@ -10892,6 +10890,12 @@ exports.data = [
           "delay": 0.6,
           "range": 5,
           "time": 0.2
+        }
+      ],
+      "availableCondition": [
+        {
+          "type": "effectCount",
+          "count": 3
         }
       ]
     }
@@ -14517,6 +14521,13 @@ exports.data = [
         "pool": "self",
         "filter": [
           {
+            "type": "same-block"
+          },
+          {
+            "type": "same-faction",
+            "faction": "monster"
+          },
+          {
             "type": "alive"
           },
           {
@@ -14529,7 +14540,7 @@ exports.data = [
         {
           "type": "playEffect",
           "effect": 76,
-          "act": "self",
+          "act": "target",
           "delay": 0.6
         },
         {
@@ -14547,6 +14558,26 @@ exports.data = [
             },
             {
               "accuracy": {
+                "c": -35
+              }
+            }
+          ]
+        },
+        {
+          "type": "setProperty",
+          "#modifications": [
+            {
+              "critical": {
+                "c": -15
+              }
+            },
+            {
+              "critical": {
+                "c": -25
+              }
+            },
+            {
+              "critical": {
                 "c": -35
               }
             }
@@ -21634,7 +21665,7 @@ exports.data = [
     "label": L("dic_skill_135_label"), //护理
     "icon": "skill-priest1.png",
     "desc": L("dic_skill_135_desc"), //对自己进行回复，回复值与命中值相关。
-    "slotId": 0,
+    "slotId": 100,
     "config": {
       "basic": {
         "spellAction": 1,
@@ -21675,6 +21706,1278 @@ exports.data = [
               }
             }
           ]
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 397,
+    "activeSpell": true,
+    "label": L("dic_skill_207_label"), //全体护理
+    "icon": "skill-dzj1.png",
+    "desc": L("dic_skill_207_desc"), //对队伍中全体成员的生命值进行回复，回复值与命中值相关。
+    "slotId": 101,
+    "config": {
+      "basic": {
+        "spellAction": 1,
+        "spellEffect": 112,
+        "targetEffect": 48,
+        "spellDelay": 0.3,
+        "targetDelay": 0.7
+      },
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 20
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "healable"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "heal",
+          "#formular": [
+            {
+              "src": {
+                "accuracy": 0.1
+              }
+            },
+            {
+              "src": {
+                "accuracy": 0.15
+              }
+            },
+            {
+              "src": {
+                "accuracy": 0.25
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 398,
+    "label": L("dic_skill_207_label"), //刺
+    "icon": "skill-dzj1.png",
+    "desc": L("dic_skill_207_desc"), //降低敌方韧性
+    "slotId": 100,
+    "config": {
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onPhysicalDamage"
+        },
+        {
+          "type": "chance",
+          "chance": 0.1
+        },
+        {
+          "type": "alive"
+        }
+      ],
+      "targetSelection": {
+        "pool": "target",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "delay"
+        },
+        {
+          "type": "installSpell",
+          "spell": 399
+        },
+        {
+          "type": "playEffect",
+          "effect": 113,
+          "pos": "target"
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 399,
+    "config": {
+      "action": [
+        {
+          "type": "setProperty",
+          "modifications": {
+            "strong": {
+              "src": {
+                "strong": -1
+              }
+            }
+          }
+        }
+      ],
+      "targetSelection": {
+        "pool": "self",
+        "filter": [
+          {
+            "type": "alive"
+          }
+        ]
+      },
+      "buffType": "RoleDebuff",
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onEndBattleTurn"
+        }
+      ],
+      "availableCondition": [
+        {
+          "type": "event",
+          "event": "onEndBattleTurn",
+          "eventCount": 2
+        },
+        {
+          "type": "event",
+          "event": "onBeEndBattleTurn",
+          "eventCount": 2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 400,
+    "activeSpell": true,
+    "label": L("dic_skill_356_label"), //致命一击
+    "icon": "skill-warrior1.png",
+    "desc": L("dic_skill_356_desc"), //对目标进行高伤害的攻击。
+    "slotId": 101,
+    "config": {
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 20
+        }
+      ],
+      "targetSelection": {
+        "pool": "self"
+      },
+      "action": [
+        {
+          "type": "playEffect",
+          "effect": 114,
+          "act": "self"
+        },
+        {
+          "type": "playAction",
+          "motion": 2,
+          "pos": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "installSpell",
+          "spell": 401,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 401,
+    "slotId": -1,
+    "config": {
+      "basic": {
+        "buffEffect": 115,
+        "spellEffect": 116
+      },
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onTarget"
+        }
+      ],
+      "availableCondition": [
+        {
+          "type": "effectCount",
+          "count": 1
+        }
+      ],
+      "action": [
+        {
+          "type": "modifyVar",
+          "x": "damage",
+          "#formular": {
+              "src": {
+                "attack": 3
+              }
+            }
+        },
+        {
+          "type": "blink",
+          "delay": 0.3,
+          "time": 0.08
+        },
+        {
+          "type": "shock",
+          "delay": 0.3,
+          "range": 5,
+          "time": 0.2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 402,
+    "label": L("dic_skill_207_label"), //军
+    "icon": "skill-dzj1.png",
+    "desc": L("dic_skill_207_desc"), //降低敌方命中率
+    "slotId": 100,
+    "config": {
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onPhysicalDamage"
+        },
+        {
+          "type": "chance",
+          "chance": 0.1
+        },
+        {
+          "type": "alive"
+        }
+      ],
+      "targetSelection": {
+        "pool": "target",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "delay"
+        },
+        {
+          "type": "installSpell",
+          "spell": 403
+        },
+        {
+          "type": "playEffect",
+          "effect": 73,
+          "pos": "target"
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 403,
+    "config": {
+      "action": [
+        {
+          "type": "setProperty",
+          "modifications": {
+            "strong": {
+              "src": {
+                "accuracy": -1
+              }
+            }
+          }
+        }
+      ],
+      "targetSelection": {
+        "pool": "self",
+        "filter": [
+          {
+            "type": "alive"
+          }
+        ]
+      },
+      "buffType": "RoleDebuff",
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onEndBattleTurn"
+        }
+      ],
+      "availableCondition": [
+        {
+          "type": "event",
+          "event": "onEndBattleTurn",
+          "eventCount": 2
+        },
+        {
+          "type": "event",
+          "event": "onBeEndBattleTurn",
+          "eventCount": 2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 404,
+    "activeSpell": true,
+    "label": L("dic_skill_390_label"), //士气提升
+    "icon": "skill-dzj2.png",
+    "desc": L("dic_skill_390_desc"), //提升全体攻击力。
+    "slotId": 101,
+    "config": {
+      "basic": {
+        "spellAction": 1
+      },
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 20
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "healable"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "playEffect",
+          "effect": 117,
+          "pos": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "installSpell",
+          "spell": 405
+        },
+        {
+          "type": "playEffect",
+          "effect": 13,
+          "pos": "target"
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 405,
+    "config": {
+      "installAction": [
+        {
+          "type": "setProperty",
+          "modifications": {
+            "reactivity": {
+              "src": {
+                "attack": 1.5
+              }
+            }
+          }
+        }
+      ],
+      "uninstallAction": [
+        {
+          "type": "resetProperty"
+        }
+      ],
+      "buffType": "AttackBuff",
+      "availableCondition": [
+        {
+          "type": "event",
+          "event": "onEndBattleTurn",
+          "eventCount": 2
+        },
+        {
+          "type": "event",
+          "event": "onBeEndBattleTurn",
+          "eventCount": 2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 406,
+    "label": L("dic_skill_207_label"), //铠甲格挡
+    "icon": "skill-dzj1.png",
+    "desc": L("dic_skill_207_desc"), //一定几率格挡伤害
+    "slotId": 100,
+    "config": {
+      "basic": {
+        "spellAction": 4,
+        "spellEffect": 46,
+        "spellDelay": 0.3
+      },
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onBePhysicalDamage"
+        },
+        {
+          "type": "event",
+          "event": "onBePhysicalRangeDamage"
+        },
+        {
+          "type": "event",
+          "event": "onBeSpellDamage"
+        },
+        {
+          "type": "event",
+          "event": "onBeSpellRangeDamage"
+        },
+        {
+          "type": "chance",
+          "chance": 0.1
+        }
+      ],
+      "targetSelection": {
+        "pool": "self"
+      },
+      "action": [
+        {
+          "type": "modifyVar",
+          "x": "damage",
+          "formular": {
+            "environment": {
+              "damage": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 407,
+    "activeSpell": true,
+    "label": L("dic_skill_0_label"), //盾
+    "icon": "skill-warrior1.png",
+    "desc": L("dic_skill_0_desc"), //大幅降低所受伤害。
+    "slotId": 101,
+    "config": {
+      "basic": {
+        "spellAction": 2,
+        "spellEffect": 118,
+        "spellDelay": 0.3
+      },
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "healable"
+          }
+        ]
+      },
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 20
+        }
+      ],
+      "action": [
+        {
+          "type": "installSpell",
+          "spell": 408
+        },
+        {
+          "type": "playEffect",
+          "effect": 119,
+          "act": "target"
+        },
+        {
+          "type": "shock",
+          "delay": 0.3,
+          "range": 5,
+          "time": 0.2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 408,
+    "config": {
+      "basic": {
+        "buffEffect": 42,
+        "spellAction": 4,
+        "spellEffect": 46,
+        "spellDelay": 0.3
+      },
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onBePhysicalDamage"
+        },
+        {
+          "type": "event",
+          "event": "onBePhysicalRangeDamage"
+        },
+        {
+          "type": "event",
+          "event": "onBeSpellDamage"
+        },
+        {
+          "type": "event",
+          "event": "onBeSpellRangeDamage"
+        }
+      ],
+      "availableCondition": [
+        {
+          "type": "effectCount",
+          "#count": 3
+        }
+      ],
+      "action": [
+        {
+          "type": "modifyVar",
+          "x": "damage",
+          "formular": {
+            "environment": {
+              "damage": 0.5
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 409,
+    "label": L("dic_skill_207_label"), //忍者闪避
+    "icon": "skill-dzj1.png",
+    "desc": L("dic_skill_207_desc"), //一定几率回避伤害
+    "slotId": 100,
+    "config": {
+      "basic": {
+        "spellAction": 4,
+        "spellEffect": 46,
+        "spellDelay": 0.3
+      },
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onBePhysicalDamage"
+        },
+        {
+          "type": "event",
+          "event": "onBePhysicalRangeDamage"
+        },
+        {
+          "type": "event",
+          "event": "onBeSpellDamage"
+        },
+        {
+          "type": "event",
+          "event": "onBeSpellRangeDamage"
+        },
+        {
+          "type": "chance",
+          "chance": 0.1
+        }
+      ],
+      "targetSelection": {
+        "pool": "self"
+      },
+      "action": [
+        {
+          "type": "modifyVar",
+          "x": "damage",
+          "formular": {
+            "environment": {
+              "damage": 0
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 410,
+    "activeSpell": true,
+    "label": L("dic_skill_390_label"), //忍气
+    "icon": "skill-dzj2.png",
+    "desc": L("dic_skill_390_desc"), //一定回合提升暴击伤害。
+    "slotId": 101,
+    "config": {
+      "basic": {
+        "spellAction": 1
+      },
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 20
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "healable"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "playEffect",
+          "effect": 120,
+          "pos": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "installSpell",
+          "spell": 411
+        },
+        {
+          "type": "playEffect",
+          "effect": 111,
+          "pos": "target"
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 411,
+    "config": {
+      "installAction": [
+        {
+          "type": "setProperty",
+          "modifications": {
+            "reactivity": {
+              "src": {
+                "critical": 2
+              }
+            }
+          }
+        }
+      ],
+      "uninstallAction": [
+        {
+          "type": "resetProperty"
+        }
+      ],
+      "buffType": "RoleBuff",
+      "availableCondition": [
+        {
+          "type": "event",
+          "event": "onEndBattleTurn",
+          "eventCount": 2
+        },
+        {
+          "type": "event",
+          "event": "onBeEndBattleTurn",
+          "eventCount": 2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 412,
+    "activeSpell": true,
+    "label": L("dic_skill_390_label"), //妖精的守护
+    "icon": "skill-dzj2.png",
+    "desc": L("dic_skill_390_desc"), //每回合清除自身debuff。
+    "slotId": 102,
+    "config": {
+      "basic": {
+        "spellAction": 1
+      },
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onEnterLevel"
+        }
+      ],
+      "targetSelection": {
+        "pool": "self"
+      },
+      "action": [
+        {
+          "type": "playEffect",
+          "effect": 121,
+          "pos": "self"
+        },
+        {
+          "type": "installSpell",
+          "spell": 413
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 413,
+    "config": {
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onTurnEnd",
+          "eventCount": 3,
+          "reset": true
+        },
+        {
+          "type": "visible"
+        },
+        {
+          "type": "alive"
+        }
+      ]
+    },
+    "targetSelection": {
+      "pool": "self"
+    },
+    "action": [
+      {
+        "type": "clearDebuff"
+      }
+    ]
+  },
+  {
+    "skillId": 414,
+    "activeSpell": true,
+    "label": L("dic_skill_390_label"), //战斗凯歌
+    "icon": "skill-dzj2.png",
+    "desc": L("dic_skill_390_desc"), //到新一层时，提升我方全体攻击力与暴击值一定回合。
+    "slotId": 3,
+    "config": {
+      "basic": {
+        "spellAction": 1
+      },
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onEnterLevel"
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "healable"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "playEffect",
+          "effect": 122,
+          "pos": "self"
+        },
+        {
+          "type": "installSpell",
+          "spell": 415,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 415,
+    "config": {
+      "installAction": [
+        {
+          "type": "setProperty",
+          "modifications":[
+            {
+              "reactivity": {
+                "src": {
+                  "critical": 0.5
+                }
+              }
+            },
+            {
+              "reactivity": {
+                "src": {
+                  "critical": 1
+                }
+              }
+            },
+            {
+              "reactivity": {
+                "src": {
+                  "critical": 1.5
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "uninstallAction": [
+        {
+          "type": "resetProperty"
+        }
+      ],
+      "buffType": "RoleBuff",
+      "availableCondition": [
+        {
+          "type": "event",
+          "event": "onEndBattleTurn",
+          "eventCount": 3
+        },
+        {
+          "type": "event",
+          "event": "onBeEndBattleTurn",
+          "eventCount": 3
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 416,
+    "activeSpell": true,
+    "label": L("dic_skill_365_label"), //战争践踏
+    "icon": "skill-mage3.png",
+    "labelIcon": "magesk3.png",
+    "desc": L("dic_skill_365_desc"), //对周围敌人造成伤害，并降低其速度。
+    "slotId": 4,
+    "config": {
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 15
+        }
+      ],
+      "targetSelection": {
+        "pool": "blocks",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 2,
+            "length": 0,
+            "startDistance": 1,
+            "anchorPos": {
+              "pool": "self",
+              "filter": [
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "playAction",
+          "motion": "2",
+          "pos": "self"
+        },
+        {
+          "type": "playEffect",
+          "effect": 123,
+          "act": "self"
+        },
+        {
+          "type": "installSpell",
+          "spell": 417,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "installSpell",
+          "spell": 418,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 417,
+    "config": {
+      "installAction": [
+        {
+          "type": "damage",
+          "damageType": "Spell",
+          "isRange": true,
+          "delay": 0.4,
+          "#formular": [
+            {
+              func:function(env,source,target,cons) {
+                return env.battleForce*0.3/18.5*0.7
+              }
+            },
+            {
+              func:function(env,source,target,cons) {
+                return env.battleForce*0.3/18.5*0.85
+              }
+            },
+            {
+              func:function(env,source,target,cons) {
+                return env.battleForce*0.3/18.5*1.1
+              }
+            }
+          ]
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "same-block"
+          },
+          {
+            "type": "same-faction",
+            "faction": "monster"
+          },
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      "availableCondition": [
+        {
+          "type": "effectCount",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 418,
+    "config": {
+      "installAction": [
+        {
+          "type": "playEffect",
+          "effect": 17,
+          "act": "target"
+        },
+        {
+          "type": "setProperty",
+          "modifications":[
+            {
+              "reactivity": {
+                "src": {
+                  "speed": -0.5
+                }
+              }
+            },
+            {
+              "reactivity": {
+                "src": {
+                  "speed": -1
+                }
+              }
+            },
+            {
+              "reactivity": {
+                "src": {
+                  "speed": -1.5
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "uninstallAction": [
+        {
+          "type": "resetProperty"
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "same-block"
+          },
+          {
+            "type": "same-faction",
+            "faction": "monster"
+          },
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      "buffType": "RoleDebuff",
+      "availableCondition": [
+        {
+          "type": "event",
+          "event": "onEndBattleTurn",
+          "eventCount": 2
+        },
+        {
+          "type": "event",
+          "event": "onBeEndBattleTurn",
+          "eventCount": 2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 419,
+    "activeSpell": true,
+    "label": L("dic_skill_200_label"), //复仇之神
+    "icon": "skill-kzs4.png",
+    "labelIcon": "kzs4.png",
+    "desc": L("dic_skill_200_desc"), //怪物攻击队友并造成伤害时，狂战士有几率立即报复攻击该生物。
+    "slotId": 5,
+    "config": {
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 20
+        }
+      ],
+      "targetSelection": {
+        "pool": "self"
+      },
+      "action": [
+        {
+          "type": "playAction",
+          "motion": "1",
+          "pos": "self"
+        },
+        {
+          "type": "playEffect",
+          "effect": 124,
+          "act": "self"
+        },
+        {
+          "type": "installSpell",
+          "spell": 200,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 420,
+    "activeSpell": true,
+    "label": L("dic_skill_361_label"), //炎爆
+    "icon": "skill-warrior3.png",
+    "labelIcon": "warriorsk3.png",
+    "desc": L("dic_skill_361_desc"), //周围一圈进行魔法伤害。
+    "slotId": 2,
+    "config": {
+      "basic": {
+        "spellAction": 1,
+        "spellEffect": 90
+      },
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 15
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 2,
+            "length": 0,
+            "startDistance": 1,
+            "anchorPos": {
+              "pool": "self",
+              "filter": [
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "attackable"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "damage",
+          "damageType": "Spell",
+          "isRange": true,
+          "delay": 0.4,
+          "#formular": [
+            {
+              "src": {
+                "attack": 0.8
+              }
+            },
+            {
+              "src": {
+                "attack": 1
+              }
+            },
+            {
+              "src": {
+                "attack": 1.5
+              }
+            }
+          ]
+        },
+        {
+          "type": "blink",
+          "delay": 0.6,
+          "time": 0.08
+        },
+        {
+          "type": "shock",
+          "delay": 0.6,
+          "range": 5,
+          "time": 0.2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 421,
+    "label": L("dic_skill_354_label"), //脉冲光束炮
+    "icon": "skill-ironsuit2.png",
+    "desc": L("dic_skill_354_desc"), //由胸口射出高能光束炮，对指定位置敌人造成毁灭打击。
+    "slotId": 101,
+    "config": {
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onTurnEnd",
+          "eventCount": 4,
+          "reset": true
+        },
+        {
+          "type": "chance",
+          "chance": 1
+        },
+        {
+          "type": "alive"
+        },
+        {
+          "type": "myMutex",
+          "mutex": "master"
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 2,
+            "length": 2,
+            "startDistance": 1,
+            "anchorPos": {
+              "pool": "self",
+              "filter": [
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "attackable"
+          },
+          {
+            "type": "count",
+            "count": 1
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "playAction",
+          "motion": "ironrayfire",
+          "pos": "self"
+        },
+        {
+          "type": "playEffect",
+          "effect": 95,
+          "act": "self"
+        },
+        {
+          "type": "playEffect",
+          "effect": 96,
+          "pos": "target"
+        },
+        {
+          "type": "installSpell",
+          "spell": 355,
+          "delay": 0.6
         }
       ]
     }

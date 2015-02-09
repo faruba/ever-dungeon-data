@@ -545,5 +545,85 @@ exports.data = [
         "effectId": 111,
         "skeleton": "effect-baojitisheng.json",
         "atlas": "effect-baojitisheng.atlas"
+    },
+    {
+        "effectId": 112,
+        "skeleton": "effect-yisheng.json",
+        "atlas": "effect-yisheng.atlas"
+    },
+    {
+        "effectId": 113,
+        "skeleton": "effect-renxingjiangdi.json",
+        "atlas": "effect-renxingjiangdi.atlas"
+    },
+    {
+        "effectId": 114,
+        "skeleton": "effect-cike.json",
+        "atlas": "effect-cike.atlas"
+    },
+    {
+        "effectId": 115,
+        "loop": true,
+        "skeleton": "effect-cikebuff.json",
+        "atlas": "effect-cikebuff.atlas"
+    },
+    {
+        "effectId": 116,
+        "skeleton": "effect-zhimingyiji.json",
+        "atlas": "effect-zhimingyiji.atlas"
+    },
+    {
+        "effectId": 117,
+        "skeleton": "effect-junzhuang.json",
+        "atlas": "effect-junzhuang.atlas"
+    },
+    {
+        "effectId": 118,
+        "skeleton": "effect-kaijia.json",
+        "atlas": "effect-kaijia.atlas"
+    },
+    {
+        "effectId": 119,
+        "skeleton": "effect-fangyutisheng.json",
+        "atlas": "effect-fangyutisheng.atlas"
+    },
+    {
+        "effectId": 120,
+        "skeleton": "effect-ninja.json",
+        "atlas": "effect-ninja.atlas"
+    },
+    {
+        "effectId": 121,
+        "skeleton": "effect-elf.json",
+        "atlas": "effect-elf.atlas"
+    },
+    {
+        "effectId": 122,
+        "skeleton": "effect-zhandoukaige.json",
+        "atlas": "effect-zhandoukaige.atlas",
+        "sound": "zhandoukaige.mp3"
+    },
+    {
+        "effectId": 123,
+        "skeleton": "effect-zhanzhengjianta.json",
+        "atlas": "effect-zhanzhengjianta.atlas",
+        "sound": "zhanzhengjianta.mp3"
+    },
+    {
+        "effectId": 124,
+        "skeleton": "effect-fuchouzhishen1.json",
+        "atlas": "effect-fuchouzhishen1.atlas",
+        "sound": "fuchouzhishen1.mp3"
+    },
+    {
+        "effectId": 125,
+        "skeleton": "effect-fuchouzhishenbuff.json",
+        "atlas": "effect-fuchouzhishenbuff.atlas"
+    },
+    {
+        "effectId": 126,
+        "skeleton": "effect-fuchouzhishen2.json",
+        "atlas": "effect-fuchouzhishen2.atlas",
+        "sound": "zhanji2.mp3"
     }
 ]

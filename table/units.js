@@ -13,7 +13,7 @@ exports.data = [
              {type: 'install_skill', id: 352, level: 1 }],
         '3': [{type: 'incress_property', property: {health:800,attack:65,critical:30,strong:80,accuracy:45}}],
         '4':[{type: 'incress_property', property: {health:1500,attack:150,critical:60,strong:140,accuracy:100}},
-             {type: 'install_skill', id: 354, level: 1 }]
+             {type: 'install_skill', id: 354, level: 1, asTeammate: 421}]
     },
     {//2（喵喵装）
         'suitId': 2,
