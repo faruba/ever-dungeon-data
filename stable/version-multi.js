@@ -11,11 +11,11 @@ exports.data = {
     "url": "http://drhu.qiniudn.com/",
     "bin_url": {
         "0": "",
-        "1": "itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=708146165",
+        "1": "https://itunes.apple.com/cn/app/kou-dai-de-xia-cheng/id708146165?mt=8",
         "2": "",
         "3": "",
         "4": "",
-        "5": "itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=708146165",
+        "5": "https://itunes.apple.com/cn/app/kou-dai-de-xia-cheng/id708146165?mt=8",
         "6": "",
         "7": "",
         "8": "itms-apps://ax.itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=914818890",
