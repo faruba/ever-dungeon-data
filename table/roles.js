@@ -37,9 +37,9 @@ exports.data = [
             {"type":0,"value":40,"count":1},
             {"type":0,"value":622,"count":1}
         ],
-		"levelId": 0,
+		"levelId": 12,
         "pkTransId":197,
-        "teammateTransId":256
+        "teammateLevelId":11
 	},
 	{
 		"classId": 1,
@@ -79,10 +79,9 @@ exports.data = [
             {"type":0,"value":32,"count":1},
             {"type":0,"value":652,"count":1}
         ],
-		"levelId": 0,
+		"levelId": 12,
         "pkTransId":198,
-        "teammateTransId":257
-
+		"teammateLevelId":11
 	},
 	{
 		"classId": 2,
@@ -122,9 +121,9 @@ exports.data = [
             {"type":0,"value":36,"count":1},
             {"type":0,"value":682,"count":1}
         ],
-		"levelId": 0,
+		"levelId": 12,
         "pkTransId":199,
-        "teammateTransId":258
+		"teammateLevelId":11
 	},
 	{
 		"classId": 3,

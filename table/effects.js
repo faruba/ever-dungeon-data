@@ -519,7 +519,8 @@ exports.data = [
     {
         "effectId": 106,
         "skeleton": "effect-guanjia.json",
-        "atlas": "effect-guanjia.atlas"
+        "atlas": "effect-guanjia.atlas",
+        "sound": "guanjia.mp3"
     },
     {
         "effectId": 107,
@@ -529,7 +530,8 @@ exports.data = [
     {
         "effectId": 108,
         "skeleton": "effect-miaomiao.json",
-        "atlas": "effect-miaomiao.atlas"
+        "atlas": "effect-miaomiao.atlas",
+        "sound": "miaomiao.mp3"
     },
     {
         "effectId": 109,
@@ -539,7 +541,8 @@ exports.data = [
     {
         "effectId": 110,
         "skeleton": "effect-hefu.json",
-        "atlas": "effect-hefu.atlas"
+        "atlas": "effect-hefu.atlas",
+        "sound": "hefu.mp3"
     },
     {
         "effectId": 111,
@@ -549,7 +552,8 @@ exports.data = [
     {
         "effectId": 112,
         "skeleton": "effect-yisheng.json",
-        "atlas": "effect-yisheng.atlas"
+        "atlas": "effect-yisheng.atlas",
+        "sound": "yisheng.mp3"
     },
     {
         "effectId": 113,
@@ -559,7 +563,8 @@ exports.data = [
     {
         "effectId": 114,
         "skeleton": "effect-cike.json",
-        "atlas": "effect-cike.atlas"
+        "atlas": "effect-cike.atlas",
+        "sound": "cike.mp3"
     },
     {
         "effectId": 115,
@@ -575,12 +580,14 @@ exports.data = [
     {
         "effectId": 117,
         "skeleton": "effect-junzhuang.json",
-        "atlas": "effect-junzhuang.atlas"
+        "atlas": "effect-junzhuang.atlas",
+        "sound": "junzhuang.mp3"
     },
     {
         "effectId": 118,
         "skeleton": "effect-kaijia.json",
-        "atlas": "effect-kaijia.atlas"
+        "atlas": "effect-kaijia.atlas",
+        "sound": "kaijia.mp3"
     },
     {
         "effectId": 119,
@@ -590,12 +597,14 @@ exports.data = [
     {
         "effectId": 120,
         "skeleton": "effect-ninja.json",
-        "atlas": "effect-ninja.atlas"
+        "atlas": "effect-ninja.atlas",
+        "sound": "ninja.mp3"
     },
     {
         "effectId": 121,
         "skeleton": "effect-elf.json",
-        "atlas": "effect-elf.atlas"
+        "atlas": "effect-elf.atlas",
+        "sound": "elf.mp3"
     },
     {
         "effectId": 122,
@@ -625,5 +634,47 @@ exports.data = [
         "skeleton": "effect-fuchouzhishen2.json",
         "atlas": "effect-fuchouzhishen2.atlas",
         "sound": "zhanji2.mp3"
+    },
+    {
+        "effectId": 127,
+        "skeleton": "effect-yanbao.json",
+        "atlas": "effect-yanbao.atlas",
+        "sound": "yanbao.mp3"
+    },
+    {
+        "effectId": 128,
+        "skeleton": "effect-dazhao.json",
+        "atlas": "effect-dazhao.atlas",
+        "sound": "dazhao.mp3"
+    },
+    {
+        "effectId": 129,
+        "skeleton": "effect-shenshengliliang.json",
+        "atlas": "effect-shenshengliliang.atlas",
+        "sound": "shenshengliliang.mp3"
+    },
+    {
+        "effectId": 130,
+        "skeleton": "effect-shengguangbiyou.json",
+        "atlas": "effect-shengguangbiyou.atlas",
+        "sound": "shengguangbiyou.mp3"
+    },
+    {
+        "effectId": 131,
+        "loop": true,
+        "skeleton": "effect-shengguangbuff.json",
+        "atlas": "effect-shengguangbuff.atlas"
+    },
+    {
+        "effectId": 132,
+        "skeleton": "effect-quantihuifu.json",
+        "atlas": "effect-quantihuifu.atlas",
+        "sound": "shengguangbiyou.mp3"
+    },
+    {
+        "effectId": 133,
+        "loop": true,
+        "skeleton": "effect-huifubuff.json",
+        "atlas": "effect-huifubuff.atlas"
     }
 ]
