@@ -23008,7 +23008,7 @@ exports.data = [
     "icon": "skill-warrior3.png",
     "labelIcon": "warriorsk3.png",
     "desc": L("dic_skill_361_desc"), //集中魔法力量对一直线进行魔法伤害，攻击力随着击中敌人数量进行逐步衰减。
-    "slotId": 4,
+    "slotId": 5,
     "config": {
       "basic": {
         "spellAction": 1,
