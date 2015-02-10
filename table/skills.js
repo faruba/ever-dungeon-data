@@ -11087,7 +11087,7 @@ exports.data = [
     "label": L("dic_skill_204_label"), //死亡诅咒
     "icon": "skill-mds3.png",
     "desc": L("dic_skill_204_desc"), //被魔导师攻击的目标，有几率会承受额外的伤害一回合。
-    "slotId": 2,
+    "slotId": 3,
     "config": {
       "triggerCondition": [
         {
@@ -11469,7 +11469,7 @@ exports.data = [
     "label": L("dic_skill_210_label"), //庇佑
     "icon": "skill-dzj3.png",
     "desc": L("dic_skill_210_desc"), //发现怪物后，大主教有一定几率会对生命值最低的队友补血。
-    "slotId": 2,
+    "slotId": 1,
     "config": {
       "basic": {
         "spellAction": 1,
@@ -22822,12 +22822,12 @@ exports.data = [
     "config": {
       "basic": {
         "spellAction": 1,
-        "spellEffect": 90
+        "spellEffect": 127
       },
       "triggerCondition": [
         {
           "type": "countDown",
-          "cd": 15
+          "cd": 10
         }
       ],
       "targetSelection": {
@@ -22900,28 +22900,21 @@ exports.data = [
   },
   {
     "skillId": 421,
-    "label": L("dic_skill_354_label"), //脉冲光束炮
-    "icon": "skill-ironsuit2.png",
-    "desc": L("dic_skill_354_desc"), //由胸口射出高能光束炮，对指定位置敌人造成毁灭打击。
-    "slotId": 101,
+    "activeSpell": true,
+    "label": L("dic_skill_361_label"), //闪电奥爆
+    "icon": "skill-warrior3.png",
+    "labelIcon": "warriorsk3.png",
+    "desc": L("dic_skill_361_desc"), //对身前扇形区域进行闪电攻击。
+    "slotId": 4,
     "config": {
+      "basic": {
+        "spellAction": 1,
+        "spellEffect": 127
+      },
       "triggerCondition": [
         {
-          "type": "event",
-          "event": "onTurnEnd",
-          "eventCount": 4,
-          "reset": true
-        },
-        {
-          "type": "chance",
-          "chance": 1
-        },
-        {
-          "type": "alive"
-        },
-        {
-          "type": "myMutex",
-          "mutex": "master"
+          "type": "countDown",
+          "cd": 15
         }
       ],
       "targetSelection": {
@@ -22929,12 +22922,28 @@ exports.data = [
         "filter": [
           {
             "type": "anchor",
-            "shape": 2,
-            "length": 2,
-            "startDistance": 1,
+            "shape": 3,
+            "length": 1,
+            "startDistance": 0,
             "anchorPos": {
-              "pool": "self",
+              "pool": "select-block",
               "filter": [
+                {
+                  "type": "anchor",
+                  "shape": 2,
+                  "length": 0,
+                  "startDistance": 1,
+                  "direction": 9,
+                  "anchorPos": {
+                    "pool": "self",
+                    "filter": [
+                      {
+                        "type": "count",
+                        "count": 1
+                      }
+                    ]
+                  }
+                },
                 {
                   "type": "count",
                   "count": 1
@@ -22951,33 +22960,452 @@ exports.data = [
           {
             "type": "target-faction-with-flag",
             "flag": "attackable"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "damage",
+          "damageType": "Spell",
+          "isRange": true,
+          "delay": 0.4,
+          "#formular": [
+            {
+              "src": {
+                "attack": 0.8
+              }
+            },
+            {
+              "src": {
+                "attack": 1
+              }
+            },
+            {
+              "src": {
+                "attack": 1.5
+              }
+            }
+          ]
+        },
+        {
+          "type": "blink",
+          "delay": 0.6,
+          "time": 0.08
+        },
+        {
+          "type": "shock",
+          "delay": 0.6,
+          "range": 5,
+          "time": 0.2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 422,
+    "activeSpell": true,
+    "label": L("dic_skill_361_label"), //闪电奥爆
+    "icon": "skill-warrior3.png",
+    "labelIcon": "warriorsk3.png",
+    "desc": L("dic_skill_361_desc"), //集中魔法力量对一直线进行魔法伤害，攻击力随着击中敌人数量进行逐步衰减。
+    "slotId": 4,
+    "config": {
+      "basic": {
+        "spellAction": 1,
+        "spellEffect": 128
+      },
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 15
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 0,
+            "length": 3,
+            "startDistance": 0,
+            "anchorPos": {
+              "pool": "select-block",
+              "filter": [
+                {
+                  "type": "anchor",
+                  "shape": 2,
+                  "length": 0,
+                  "startDistance": 1,
+                  "direction": 9,
+                  "anchorPos": {
+                    "pool": "self",
+                    "filter": [
+                      {
+                        "type": "count",
+                        "count": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
           },
           {
-            "type": "count",
-            "count": 1
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "attackable"
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "damage",
+          "damageType": "Spell",
+          "isRange": true,
+          "delay": 0.4,
+          "#formular": [
+            {
+              "src": {
+                "attack": 0.8
+              }
+            },
+            {
+              "src": {
+                "attack": 1
+              }
+            },
+            {
+              "src": {
+                "attack": 1.5
+              }
+            }
+          ]
+        },
+        {
+          "type": "blink",
+          "delay": 0.6,
+          "time": 0.08
+        },
+        {
+          "type": "shock",
+          "delay": 0.6,
+          "range": 5,
+          "time": 0.2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 423,
+    "activeSpell": true,
+    "label": L("dic_skill_365_label"), //神圣力量
+    "icon": "skill-mage3.png",
+    "labelIcon": "magesk3.png",
+    "desc": L("dic_skill_365_desc"), //召唤圣十字对范围造成伤害。
+    "slotId": 2,
+    "config": {
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 15
+        }
+      ],
+      "targetSelection": {
+        "pool": "blocks",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 1,
+            "length": 1,
+            "startDistance": 0,
+            "anchorPos": {
+              "pool": "select-block",
+              "filter": [
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
           }
         ]
       },
       "action": [
         {
           "type": "playAction",
-          "motion": "ironrayfire",
+          "motion": "2",
           "pos": "self"
         },
         {
-          "type": "playEffect",
-          "effect": 95,
-          "act": "self"
-        },
+          "type": "installSpell",
+          "spell": 424,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 424,
+    "config": {
+      "installAction": [
         {
           "type": "playEffect",
-          "effect": 96,
-          "pos": "target"
+          "effect": 129,
+          "pos": "self"
         },
+        {
+          "type": "damage",
+          "damageType": "Spell",
+          "isRange": true,
+          "delay": 0.4,
+          "#formular": [
+            {
+              func:function(env,source,target,cons) {
+                return env.battleForce*0.3/18.5*0.7
+              }
+            },
+            {
+              func:function(env,source,target,cons) {
+                return env.battleForce*0.3/18.5*0.85
+              }
+            },
+            {
+              func:function(env,source,target,cons) {
+                return env.battleForce*0.3/18.5*1.1
+              }
+            }
+          ]
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "same-block"
+          },
+          {
+            "type": "same-faction",
+            "faction": "monster"
+          },
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          }
+        ]
+      },
+      "availableCondition": [
+        {
+          "type": "effectCount",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 425,
+    "activeSpell": true,
+    "label": L("dic_skill_0_label"), //圣光庇佑
+    "icon": "skill-warrior1.png",
+    "desc": L("dic_skill_0_desc"), //降低我方全体所受伤害。
+    "slotId": 4,
+    "config": {
+      "basic": {
+        "spellAction": 2,
+        "spellEffect": 130,
+        "spellDelay": 0.3
+      },
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "healable"
+          }
+        ]
+      },
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 15
+        }
+      ],
+      "action": [
         {
           "type": "installSpell",
-          "spell": 355,
-          "delay": 0.6
+          "spell": 426,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "shock",
+          "delay": 0.3,
+          "range": 5,
+          "time": 0.2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 426,
+    "config": {
+      "basic": {
+        "buffEffect": 131
+      },
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onBePhysicalDamage"
+        },
+        {
+          "type": "event",
+          "event": "onBePhysicalRangeDamage"
+        },
+        {
+          "type": "event",
+          "event": "onBeSpellDamage"
+        },
+        {
+          "type": "event",
+          "event": "onBeSpellRangeDamage"
+        }
+      ],
+      "availableCondition": [
+        {
+          "type": "effectCount",
+          "#count": [
+              1,
+              2,
+              3
+          ]
+        }
+      ],
+      "action": [
+        {
+          "type": "modifyVar",
+          "x": "damage",
+          "formular": {
+            "environment": {
+              "#damage":[
+                  0.8,
+                  0.7,
+                  0.5
+              ]
+            }
+          }
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 427,
+    "activeSpell": true,
+    "label": L("dic_skill_0_label"), //牧师大招
+    "icon": "skill-warrior1.png",
+    "desc": L("dic_skill_0_desc"), //全体n回合均获得生命值恢复。
+    "slotId": 5,
+    "config": {
+      "basic": {
+        "spellAction": 2,
+        "spellEffect": 132,
+        "spellDelay": 0.3
+      },
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "healable"
+          }
+        ]
+      },
+      "triggerCondition": [
+        {
+          "type": "countDown",
+          "cd": 25
+        }
+      ],
+      "action": [
+        {
+          "type": "installSpell",
+          "spell": 428,
+          "#level": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "type": "shock",
+          "delay": 0.3,
+          "range": 5,
+          "time": 0.2
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 428,
+    "config": {
+      "basic": {
+        "buffEffect": 133
+      },
+      "installAction": [
+        {
+          "type": "heal",
+          "#formular": [
+            {
+              "src": {
+                "accuracy": 0.1
+              }
+            },
+            {
+              "src": {
+                "accuracy": 0.15
+              }
+            },
+            {
+              "src": {
+                "accuracy": 0.25
+              }
+            }
+          ]
+        }
+      ],
+      "availableCondition": [
+        {
+          "type": "event",
+          "event": "onTurnEnd",
+          "eventCount": 3
         }
       ]
     }
