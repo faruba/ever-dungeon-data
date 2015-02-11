@@ -107,11 +107,15 @@ exports.data = [
 	},
 	{
 		"classId": 4,
-		"label": "眼睛",
+		"label": "浪漫之眼",
 		"icon": "rfasion-glass-icon.png",
 		"category": 1,
 		"subcategory": 15,
-		"description": "最近在勇者中流行的一种饰品。",
+		"description": "兼顾外形与力量，是荣誉的象征。\n" +
+		               "附加属性：生命+150 攻击+15 暴击+10\n" +
+		               "　　　　　韧性+10 命中+10 回避+10\n" +
+		               "　　　　　速度+10",
+		"recipePrize": 210,
 		"effectf": [
 			{
 				"part": "eye",
@@ -124,6 +128,15 @@ exports.data = [
 				"file": "avatar-eye-2.ccbi"
 			}
 		],
+		"basic_properties": {
+			"health": 150,
+			"attack": 15,
+			"critical": 10,
+			"strong": 10,
+			"accuracy": 10,
+			"reactivity": 10,
+			"speed": 10
+		},
 		"storeOnly": true
 	},
 	{
@@ -20246,8 +20259,8 @@ exports.data = [
 		"subcategory": 12,
 		"extraSlots": [19,20],
 		"description": "兼顾外形与力量，是荣誉的象征。\n" +
-		               "属性：生命+550 攻击+50 暴击+15\n" +
-		               "　　　韧性+60",
+		               "附加属性：生命+550 攻击+50 暴击+15\n" +
+		               "　　　　　韧性+60",
 		"sellprice": 1500,
 		"effectf": [
 			{
@@ -20309,7 +20322,7 @@ exports.data = [
 		"category": 1,
 		"subcategory": 13,
 		"description": "荣誉的象征，并且拥有专注力量的祝福。\n" +
-		               "属性：生命+200 攻击+30 命中+60",
+		               "附加属性：生命+200 攻击+30 命中+60",
 		"sellprice": 500,
 		"effectf": [
 			{
@@ -57957,5 +57970,101 @@ exports.data = [
 		"quality": 2,
 		"recipeTarget": 1550,
 		"recipeCost": 88
+	},
+	{
+		"classId": 1622,
+		"label": "浪漫套装",
+		"category": 1,
+		"subcategory": 12,
+		"extraSlots": [19,20],
+		"description": "情人节专有的套装。\n" +
+		               "附加属性：生命+200 攻击+20 暴击+10\n" +
+		               "　　　　　韧性+10 命中+10 回避+10\n" +
+		               "　　　　　速度+10",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff1-chest-c.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff1-righthand-c.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff1-lefthand-c.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff1-leftleg-c.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff1-rightleg-c.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm1-chest-c.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm1-righthand-c.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm1-lefthand-c.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm1-leftleg-c.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm1-rightleg-c.ccbi"
+			}
+		],
+		"basic_properties": {
+			"health": 200,
+			"attack": 20,
+			"critical": 10,
+			"strong": 10,
+			"accuracy": 10,
+			"reactivity": 10,
+			"speed": 10
+		},
+		"storeOnly": true,
+		"iconf": "rfasion-female1-cloth.png",
+		"iconm": "rfasion-male1-cloth.png"
+	},
+	{
+		"classId": 1623,
+		"label": "浪漫头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "情人节专有的头饰。\n" +
+		               "附加属性：生命+100 攻击+10",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff1-helmet-c.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm1-helmet-c.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"basic_properties": {
+			"health": 100,
+			"attack": 10
+		},
+		"iconf": "rfasion-female1-helmet.png",
+		"iconm": "rfasion-male1-helmet.png"
 	}
 ]

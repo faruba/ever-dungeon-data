@@ -350,6 +350,12 @@ exports.data = [
                 "rate": 1,
                 "prize": [
                     {
+                        "weight": 100,
+                        "type": 0,
+                        "value": 1622,
+                        "count": 1
+                    },
+                    {
                         "weight": 1500,
                         "type": 0,
                         "value": 871,
