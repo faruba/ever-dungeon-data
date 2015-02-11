@@ -384,5 +384,4 @@ exports.data = {
 			]
         }
     }
-o
 };
