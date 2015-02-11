@@ -366,9 +366,13 @@ exports.data = {
     },
     timeLimitAwardMsg:{
         "show": true,
+		"type":"timeLimitAward",
         "title":"",
         "banner":"event-banner-xssz.png",
         "description": ["開啟尊貴寶箱均有機會獲得帥氣時裝，低概率獲得永久屬性時裝"],
+        "date": "2015/02/13",
+        "dateDescription": "截止日期2015年2月13日24時",
+		"durationDesc":{beginTime:'2015-02-10 10:20:26',endTime:'2015-02-12 09:05:01'}
     },
 	timeLimitAward:{
         "show": false,
