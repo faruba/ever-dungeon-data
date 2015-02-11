@@ -364,17 +364,21 @@ exports.data = {
         "date": "2015/02/13",
         "dateDescription": "截止日期2015年2月13日24時"
     },
-    timeLimitAward:{
+    timeLimitAwardMsg:{
         "show": true,
-        "duration":{beginTime:'2015-02-10 10:20:26',endTime:'2015-02-12 09:05:01'}
         "title":"",
         "banner":"event-banner-xssz.png",
         "description": ["開啟尊貴寶箱均有機會獲得帥氣時裝，低概率獲得永久屬性時裝"],
+    },
+	timeLimitAward:{
+        "show": false,
+        "duration":{beginTime:'2015-02-10 10:20:26',endTime:'2015-02-12 09:05:01'}
         "generation":{
             "value":1, //add one for new LimitAward
             "awards":[
                 {"type":2, "count":300 },
-                ]
+			]
         }
     }
+o
 };
