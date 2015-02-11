@@ -44,7 +44,7 @@ exports.data = [
     {
         "name":"TopTenRich",
         "key":"counters.chargeDiamond",
-        "resetTime": { weekday: 90, minute: 5},
+        "resetTime": { weekday: 7, minute: 5},
         "reverse": false,
         "type":"player",
         "availableCondition":true,
@@ -53,7 +53,7 @@ exports.data = [
 	{
         "name":"BuyLikeWomen",
         "key":"counters.buyTreasureTimes",
-        "resetTime": { weekday: 90, minute: 5},
+        "resetTime": { weekday: 7, minute: 5},
         "reverse": false,
         "type":"player",
         "availableCondition":true,

@@ -10,6 +10,11 @@ require('./define');
 var L = function(key) {
  return translate_with("chinese", key);
 }
+// events:
+// ?when to run this cfg: search syncEvent()
+// ?the means of field
+//  id: bountyid, table/bounty.js 
+//     if id is null  only canReset and reset will be excute
 exports.events = {
   "event_daily": {
     "flag": "daily",
@@ -158,7 +163,32 @@ exports.events = {
       obj.counters.addPKCount = 0;
       return obj.flags.rcvAward = false;
     }
-  }
+  },
+  chargeDiamond:{
+    storeType: "player",
+    canReset: function(obj, util) {
+        return false;
+    },
+    reset: function(obj, util) {
+        obj.counters.chargeDiamond  = 0;
+    }
+  },
+  buyTreasureTimes:{
+    storeType: "player",
+    canReset: function(obj, util) {
+        if (obj.timestamp.buyTreasureTimes == null) {
+            obj.timestamp.buyTreasureTimes = 0;
+        }
+//        if (util.sameDay['2015-02-01 09:05:12','2015-02-01 09:05:12']
+        return false;
+    },
+    reset: function(obj, util) {
+        obj.counters.buyTreasureTimes = 0;
+        obj.timestamp.buyTreasureTimes = util.currentTime;
+        
+    }
+  },
+
 };
 
 exports.intervalEvent = {
@@ -367,6 +397,107 @@ exports.intervalEvent = {
           return libs.sObj.counters[stageId] = 0;
         });
       }
+    }
+  },
+  chargeDiamond: {
+    time: {
+      weekday: 2
+    },
+    func:function(libs){
+      cfg = [
+      {
+          from: 0,
+          to: 0,
+          mail: {
+              type: MESSAGE_TYPE_SystemReward,
+              src: MESSAGE_REWARD_TYPE_SYSTEM,
+              prize: [
+              { type: 2, count: 100 },
+              { type: 0, value: 878, count: 1 }
+              ],
+                  tit: L("chargeDiamondTitle"),
+                  txt: L("chargeDiamondTxt_1")
+          }
+      }, {
+          from: 1,
+          to: 9,
+          mail: {
+              type: MESSAGE_TYPE_SystemReward,
+              src: MESSAGE_REWARD_TYPE_SYSTEM,
+              prize: [
+              { type: 2, count: 100 }
+              ],
+                  tit: L("chargeDiamondTitle"),
+                  txt: L("chargeDiamondTxt_2")
+          }
+      },
+      ];
+      
+
+      return cfg.forEach(function(e) {
+        return libs.helper.getPositionOnLeaderboard(LeaderboardIdx.TopTenRich , 'nobody', e.from, e.to, function(err, result) {
+          return result.board.name.forEach(function(name, idx) {
+            var infoStr;
+            libs.db.deliverMessage(name, e.mail);
+            infoStr = ' from:' + e.from + ' to: ' + e.to + ' rank:' + result.board.score[idx];
+            return logInfo({
+              action: 'leadboradPrize',
+              index: 0,
+              msg: infoStr
+            });
+          });
+        });
+      });
+    }
+ 
+  },
+  openBox:{
+    time: {
+      day: 7
+    },
+    func:function(libs){
+      cfg = [
+      {
+          from: 0,
+          to: 0,
+          mail: {
+              type: MESSAGE_TYPE_SystemReward,
+              src: MESSAGE_REWARD_TYPE_SYSTEM,
+              prize: [
+              { type: 2, count: 100 },
+              { type: 0, value: 878, count: 1 }
+              ],
+                  tit: L("openBoxTitle"),
+                  txt: L("openBoxTxt1")
+          }
+      }, {
+          from: 1,
+          to: 9,
+          mail: {
+              type: MESSAGE_TYPE_SystemReward,
+              src: MESSAGE_REWARD_TYPE_SYSTEM,
+              prize: [
+              { type: 2, count: 100 }
+              ],
+                  tit: L("openBoxTitle"),
+                  txt: L("openBoxTxt2")
+          }
+      },
+      ];
+      return cfg.forEach(function(e) {
+        return libs.helper.getPositionOnLeaderboard(LeaderboardIdx.BuyLikeWomen, 'nobody', e.from, e.to, function(err, result) {
+          return result.board.name.forEach(function(name, idx) {
+            var infoStr;
+            libs.db.deliverMessage(name, e.mail);
+            infoStr = ' from:' + e.from + ' to: ' + e.to + ' rank:' + result.board.score[idx];
+            return logInfo({
+              action: 'leadboradPrize',
+              index: 0,
+              msg: infoStr
+            });
+          });
+        });
+      });
     }
   }
 };
