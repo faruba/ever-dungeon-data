@@ -10552,6 +10552,7 @@ exports.data = [
     "activeSpell": true,
     "label": L("dic_skill_195_label"), //怒之力
     "icon": "skill-kzs1.png",
+    "labelIcon": "kzssk1.png",
     "desc": L("dic_skill_195_desc"), //狂战士进入狂怒状态，降低命中1回合，提高攻击力2回合。
     "slotId": 0,
     "config": {
@@ -10676,7 +10677,8 @@ exports.data = [
   {
     "skillId": 198,
     "label": L("dic_skill_198_label"), //血之狂怒
-    "icon": "skill-kzs2.png",
+    "icon": "skill-kzs5.png",
+    "labelIcon": "kzssk5.png",
     "desc": L("dic_skill_198_desc"), //狂战士将累积受到的伤害在下一轮攻击中反馈给敌人。
     "slotId": 1,
     "config": {
@@ -10743,9 +10745,11 @@ exports.data = [
   },
   {
     "skillId": 199,
-    "label": L("dic_skill_199_label"), //咆哮
-    "icon": "skill-kzs3.png",
-    "desc": L("dic_skill_199_desc"), //当怪物出现时，狂战士有一定几率降低它的命中。
+    "activeSpell": true,
+    "label": L("dic_skill_199_label"), //战争咆哮
+    "icon": "skill-kzs2.png",
+    "labelIcon": "kzssk2.png",
+    "desc": L("dic_skill_199_desc"), //狂战士发出咆哮，大幅降低周围范围内敌人的命中率与暴击率。
     "slotId": 2,
     "config": {
       "basic": {
@@ -10905,6 +10909,7 @@ exports.data = [
     "activeSpell": true,
     "label": L("dic_skill_201_label"), //寒冰箭
     "icon": "skill-mds1.png",
+    "labelIcon": "mdssk1.png",
     "desc": L("dic_skill_201_desc"), //魔导师释放寒冰箭对场上多个敌人造成伤害，伤害值与攻击力相关。
     "slotId": 0,
     "config": {
@@ -10986,7 +10991,8 @@ exports.data = [
   {
     "skillId": 202,
     "label": L("dic_skill_202_label"), //魔力漩涡
-    "icon": "skill-mds2.png",
+    "icon": "skill-mds5.png",
+    "labelIcon": "mdssk5.png",
     "desc": L("dic_skill_202_desc"), //场上敌人越多,魔导师的攻击力也随之增强。
     "slotId": 1,
     "config": {
@@ -11085,7 +11091,8 @@ exports.data = [
   {
     "skillId": 204,
     "label": L("dic_skill_204_label"), //死亡诅咒
-    "icon": "skill-mds3.png",
+    "icon": "skill-mds6.png",
+    "labelIcon": "mdssk6.png",
     "desc": L("dic_skill_204_desc"), //被魔导师攻击的目标，有几率会承受额外的伤害一回合。
     "slotId": 3,
     "config": {
@@ -11278,6 +11285,7 @@ exports.data = [
     "activeSpell": true,
     "label": L("dic_skill_207_label"), //祈祷
     "icon": "skill-dzj1.png",
+    "labelIcon": "dzjsk1.png",
     "desc": L("dic_skill_207_desc"), //大主教对队伍中全体成员的生命值进行回复，回复值与命中值相关。
     "slotId": 0,
     "config": {
@@ -11466,8 +11474,9 @@ exports.data = [
   },
   {
     "skillId": 210,
-    "label": L("dic_skill_210_label"), //庇佑
-    "icon": "skill-dzj3.png",
+    "label": L("dic_skill_210_label"), //加护
+    "icon": "skill-dzj5.png",
+    "labelIcon": "dzjsk5.png",
     "desc": L("dic_skill_210_desc"), //发现怪物后，大主教有一定几率会对生命值最低的队友补血。
     "slotId": 1,
     "config": {
@@ -11551,7 +11560,8 @@ exports.data = [
   {
     "skillId": 211,
     "label": L("dic_skill_211_label"), //放逐
-    "icon": "skill-dzj4.png",
+    "icon": "skill-dzj6.png",
+    "labelIcon": "dzjsk6.png",
     "desc": L("dic_skill_211_desc"), //当大主教受到攻击时，有一定几率会降低伤害来源的攻击力，持续一定回合。
     "slotId": 3,
     "config": {
@@ -19274,8 +19284,7 @@ exports.data = [
     "slotId": 4,
     "config": {
       "basic": {
-        "spellAction": 1,
-        "spellEffect": 90
+        "spellAction": 1
       },
       "triggerCondition": [
         {
@@ -19314,6 +19323,19 @@ exports.data = [
         ]
       },
       "action": [
+        {
+          "type": "playEffect",
+          "effect": 134,
+          "act": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "playEffect",
+          "effect": 90,
+          "act": "self"
+        },
         {
           "type": "damage",
           "damageType": "Spell",
@@ -19566,6 +19588,14 @@ exports.data = [
       },
       "action": [
         {
+          "type": "playEffect",
+          "effect": 135,
+          "act": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
           "type": "playAction",
           "motion": "2",
           "pos": "self"
@@ -19692,6 +19722,14 @@ exports.data = [
         ]
       },
       "action": [
+        {
+          "type": "playEffect",
+          "effect": 136,
+          "act": "self"
+        },
+        {
+          "type": "delay"
+        },
         {
           "type": "installSpell",
           "spell": 368,
@@ -19968,6 +20006,14 @@ exports.data = [
       },
       "action": [
         {
+          "type": "playEffect",
+          "effect": 135,
+          "act": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
           "type": "playAction",
           "motion": "2",
           "pos": "self"
@@ -20094,6 +20140,14 @@ exports.data = [
         ]
       },
       "action": [
+        {
+          "type": "playEffect",
+          "effect": 135,
+          "act": "self"
+        },
+        {
+          "type": "delay"
+        },
         {
           "type": "installSpell",
           "spell": 374,
@@ -20655,8 +20709,7 @@ exports.data = [
     "slotId": 4,
     "config": {
       "basic": {
-        "spellAction": 1,
-        "spellEffect": 90
+        "spellAction": 1
       },
       "triggerCondition": [
         {
@@ -20698,6 +20751,19 @@ exports.data = [
         ]
       },
       "action": [
+        {
+          "type": "playEffect",
+          "effect": 134,
+          "act": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "playEffect",
+          "effect": 90,
+          "act": "self"
+        },
         {
           "type": "damage",
           "damageType": "Spell",
@@ -20932,6 +20998,14 @@ exports.data = [
       },
       "action": [
         {
+          "type": "playEffect",
+          "effect": 135,
+          "act": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
           "type": "playAction",
           "motion": "2",
           "pos": "self"
@@ -21015,6 +21089,14 @@ exports.data = [
         ]
       },
       "action": [
+        {
+          "type": "playEffect",
+          "effect": 135,
+          "act": "self"
+        },
+        {
+          "type": "delay"
+        },
         {
           "type": "installSpell",
           "spell": 368,
@@ -21191,6 +21273,14 @@ exports.data = [
       },
       "action": [
         {
+          "type": "playEffect",
+          "effect": 135,
+          "act": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
           "type": "playAction",
           "motion": "2",
           "pos": "self"
@@ -21282,6 +21372,14 @@ exports.data = [
         ]
       },
       "action": [
+        {
+          "type": "playEffect",
+          "effect": 135,
+          "act": "self"
+        },
+        {
+          "type": "delay"
+        },
         {
           "type": "installSpell",
           "spell": 374,
@@ -22476,10 +22574,10 @@ exports.data = [
   },
   {
     "skillId": 414,
-    "activeSpell": true,
-    "label": L("dic_skill_390_label"), //战斗凯歌
-    "icon": "skill-dzj2.png",
-    "desc": L("dic_skill_390_desc"), //到新一层时，提升我方全体攻击力与暴击值一定回合。
+    "label": L("dic_skill_414_label"), //战斗凯歌
+    "icon": "skill-kzs6.png",
+    "labelIcon": "kzssk6.png",
+    "desc": L("dic_skill_414_desc"), //到新一层时，提升我方全体攻击力与暴击值一定回合。
     "slotId": 3,
     "config": {
       "basic": {
@@ -22578,10 +22676,10 @@ exports.data = [
   {
     "skillId": 416,
     "activeSpell": true,
-    "label": L("dic_skill_365_label"), //战争践踏
-    "icon": "skill-mage3.png",
-    "labelIcon": "magesk3.png",
-    "desc": L("dic_skill_365_desc"), //对周围敌人造成伤害，并降低其速度。
+    "label": L("dic_skill_416_label"), //战争践踏
+    "icon": "skill-kzs3.png",
+    "labelIcon": "kzssk3.png",
+    "desc": L("dic_skill_416_desc"), //对周围敌人造成伤害，并降低其速度。
     "slotId": 4,
     "config": {
       "triggerCondition": [
@@ -22615,6 +22713,14 @@ exports.data = [
           "type": "playAction",
           "motion": "2",
           "pos": "self"
+        },
+        {
+          "type": "playEffect",
+          "effect": 137,
+          "act": "self"
+        },
+        {
+          "type": "delay"
         },
         {
           "type": "playEffect",
@@ -22814,15 +22920,14 @@ exports.data = [
   {
     "skillId": 420,
     "activeSpell": true,
-    "label": L("dic_skill_361_label"), //炎爆
-    "icon": "skill-warrior3.png",
-    "labelIcon": "warriorsk3.png",
-    "desc": L("dic_skill_361_desc"), //周围一圈进行魔法伤害。
+    "label": L("dic_skill_420_label"), //炎爆
+    "icon": "skill-mds2.png",
+    "labelIcon": "mdssk2.png",
+    "desc": L("dic_skill_420_desc"), //魔导师将高度凝聚的火元素释放，对周围一圈进行魔法伤害。
     "slotId": 2,
     "config": {
       "basic": {
-        "spellAction": 1,
-        "spellEffect": 127
+        "spellAction": 1
       },
       "triggerCondition": [
         {
@@ -22861,6 +22966,19 @@ exports.data = [
         ]
       },
       "action": [
+        {
+          "type": "playEffect",
+          "effect": 137,
+          "act": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "playEffect",
+          "effect": 127,
+          "act": "self"
+        },
         {
           "type": "damage",
           "damageType": "Spell",
@@ -22901,15 +23019,14 @@ exports.data = [
   {
     "skillId": 421,
     "activeSpell": true,
-    "label": L("dic_skill_361_label"), //闪电奥爆
-    "icon": "skill-warrior3.png",
-    "labelIcon": "warriorsk3.png",
-    "desc": L("dic_skill_361_desc"), //对身前扇形区域进行闪电攻击。
+    "label": L("dic_skill_421_label"), //闪电奥爆
+    "icon": "skill-mds3.png",
+    "labelIcon": "mdssk3.png",
+    "desc": L("dic_skill_421_desc"), //魔导师释放闪电，对身前扇形区域进行攻击。
     "slotId": 4,
     "config": {
       "basic": {
-        "spellAction": 1,
-        "spellEffect": 127
+        "spellAction": 1
       },
       "triggerCondition": [
         {
@@ -22965,6 +23082,19 @@ exports.data = [
       },
       "action": [
         {
+          "type": "playEffect",
+          "effect": 136,
+          "act": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "playEffect",
+          "effect": 138,
+          "pos": "playerChoice"
+        },
+        {
           "type": "damage",
           "damageType": "Spell",
           "isRange": true,
@@ -23004,15 +23134,14 @@ exports.data = [
   {
     "skillId": 422,
     "activeSpell": true,
-    "label": L("dic_skill_361_label"), //闪电奥爆
-    "icon": "skill-warrior3.png",
-    "labelIcon": "warriorsk3.png",
-    "desc": L("dic_skill_361_desc"), //集中魔法力量对一直线进行魔法伤害，攻击力随着击中敌人数量进行逐步衰减。
+    "label": L("dic_skill_422_label"), //终极闪光
+    "icon": "skill-mds4.png",
+    "labelIcon": "mdssk4.png",
+    "desc": L("dic_skill_422_desc"), //集中魔法力量对一直线进行魔法伤害，攻击力随着击中敌人数量进行逐步衰减。
     "slotId": 5,
     "config": {
       "basic": {
-        "spellAction": 1,
-        "spellEffect": 128
+        "spellAction": 1
       },
       "triggerCondition": [
         {
@@ -23068,6 +23197,19 @@ exports.data = [
       },
       "action": [
         {
+          "type": "playEffect",
+          "effect": 136,
+          "act": "self"
+        },
+        {
+          "type": "delay"
+        },
+        {
+          "type": "playEffect",
+          "effect": 128,
+          "pos": "playerChoice"
+        },
+        {
           "type": "damage",
           "damageType": "Spell",
           "isRange": true,
@@ -23107,10 +23249,10 @@ exports.data = [
   {
     "skillId": 423,
     "activeSpell": true,
-    "label": L("dic_skill_365_label"), //神圣力量
-    "icon": "skill-mage3.png",
-    "labelIcon": "magesk3.png",
-    "desc": L("dic_skill_365_desc"), //召唤圣十字对范围造成伤害。
+    "label": L("dic_skill_423_label"), //神圣力量
+    "icon": "skill-dzj2.png",
+    "labelIcon": "dzjsk2.png",
+    "desc": L("dic_skill_423_desc"), //主教召唤圣十字对指定的十字范围造成伤害。
     "slotId": 2,
     "config": {
       "triggerCondition": [
@@ -23144,6 +23286,14 @@ exports.data = [
           "type": "playAction",
           "motion": "2",
           "pos": "self"
+        },
+        {
+          "type": "playEffect",
+          "effect": 135,
+          "act": "self"
+        },
+        {
+          "type": "delay"
         },
         {
           "type": "installSpell",
@@ -23219,9 +23369,10 @@ exports.data = [
   {
     "skillId": 425,
     "activeSpell": true,
-    "label": L("dic_skill_0_label"), //圣光庇佑
-    "icon": "skill-warrior1.png",
-    "desc": L("dic_skill_0_desc"), //降低我方全体所受伤害。
+    "label": L("dic_skill_425_label"), //圣光庇佑
+    "icon": "skill-dzj3.png",
+    "labelIcon": "dzjsk3.png",
+    "desc": L("dic_skill_425_desc"), //主教召唤圣光加持我方全体队员，降低我方全体所受伤害。
     "slotId": 4,
     "config": {
       "basic": {
@@ -23323,9 +23474,10 @@ exports.data = [
   {
     "skillId": 427,
     "activeSpell": true,
-    "label": L("dic_skill_0_label"), //牧师大招
-    "icon": "skill-warrior1.png",
-    "desc": L("dic_skill_0_desc"), //全体n回合均获得生命值恢复。
+    "label": L("dic_skill_427_label"), //辉光降临
+    "icon": "skill-dzj4.png",
+    "labelIcon": "dzjsk4.png",
+    "desc": L("dic_skill_427_desc"), //主教通过辉光降临，让我放全体在一定回合均获得生命值恢复。
     "slotId": 5,
     "config": {
       "basic": {

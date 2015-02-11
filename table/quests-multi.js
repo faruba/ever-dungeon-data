@@ -5017,12 +5017,12 @@ exports.data = [
     {
         "questId":184,
         "questStage":64,
-        "title":"探索死灵洞穴I",
-        "desc":"对死灵洞穴I进行探索",
+        "title":"死灵洞穴I",
+        "desc":"有大量不死族徘徊着的洞穴，这里是亡者的国度。",
         "objects":[
             {
                 "type":0,
-                "label":"探索死灵洞穴I",
+                "label":"击破死灵洞穴I",
                 "collect":184001,
                 "count":1
             }
@@ -5042,12 +5042,12 @@ exports.data = [
     {
         "questId":185,
         "questStage":65,
-        "title":"探索死灵洞穴II",
-        "desc":"对死灵洞穴II进行探索",
+        "title":"死灵洞穴II",
+        "desc":"有大量不死族徘徊着的洞穴，这里是亡者的国度。",
         "objects":[
             {
                 "type":0,
-                "label":"探索死灵洞穴II",
+                "label":"击破死灵洞穴II",
                 "collect":185001,
                 "count":1
             }
@@ -5067,12 +5067,12 @@ exports.data = [
     {
         "questId":186,
         "questStage":66,
-        "title":"探索死灵洞穴III",
-        "desc":"对死灵洞穴III进行探索",
+        "title":"死灵洞穴III",
+        "desc":"有大量不死族徘徊着的洞穴，这里是亡者的国度。",
         "objects":[
             {
                 "type":0,
-                "label":"探索死灵洞穴III",
+                "label":"击破死灵洞穴III",
                 "collect":186001,
                 "count":1
             }
@@ -5092,12 +5092,12 @@ exports.data = [
     {
         "questId":187,
         "questStage":67,
-        "title":"探索死灵洞穴IV",
-        "desc":"对死灵洞穴IV进行探索",
+        "title":"死灵洞穴IV",
+        "desc":"有大量不死族徘徊着的洞穴，这里是亡者的国度。",
         "objects":[
             {
                 "type":0,
-                "label":"探索死灵洞穴IV",
+                "label":"击破死灵洞穴IV",
                 "collect":187001,
                 "count":1
             }
@@ -5117,12 +5117,12 @@ exports.data = [
     {
         "questId":188,
         "questStage":68,
-        "title":"探索死灵洞穴V",
-        "desc":"对死灵洞穴V进行探索",
+        "title":"死灵洞穴V",
+        "desc":"有大量不死族徘徊着的洞穴，这里是亡者的国度。",
         "objects":[
             {
                 "type":0,
-                "label":"探索死灵洞穴V",
+                "label":"击破死灵洞穴V",
                 "collect":188001,
                 "count":1
             }
@@ -5142,12 +5142,12 @@ exports.data = [
     {
         "questId":189,
         "questStage":69,
-        "title":"探索死灵洞穴VI",
-        "desc":"对死灵洞穴VI进行探索",
+        "title":"死灵洞穴VI",
+        "desc":"有大量不死族徘徊着的洞穴，这里是亡者的国度。",
         "objects":[
             {
                 "type":0,
-                "label":"探索死灵洞穴VI",
+                "label":"击破死灵洞穴VI",
                 "collect":189001,
                 "count":1
             }
@@ -5167,12 +5167,12 @@ exports.data = [
     {
         "questId":190,
         "questStage":70,
-        "title":"宗师的试炼",
-        "desc":"死灵洞穴深处出现神秘人，前往调查",
+        "title":"神秘人的试炼",
+        "desc":"一个神秘的人物出现在死灵洞穴的深处，似乎在等着某个人，前去调查",
         "objects":[
             {
                 "type":0,
-                "label":"调查神秘人",
+                "label":"完成神秘人的试炼",
                 "collect":190001,
                 "count":1
             }
@@ -5198,12 +5198,12 @@ exports.data = [
     {
         "questId":191,
         "questStage":71,
-        "title":"探索塔卡宫殿I",
-        "desc":"对塔卡宫殿I进行探索",
+        "title":"卡塔宫殿I",
+        "desc":"邪恶领主的大本营，其本尊就隐藏在深处。",
         "objects":[
             {
                 "type":0,
-                "label":"探索塔卡宫殿I",
+                "label":"击破卡塔宫殿I",
                 "collect":191001,
                 "count":1
             }
@@ -5223,12 +5223,12 @@ exports.data = [
     {
         "questId":192,
         "questStage":72,
-        "title":"探索塔卡宫殿II",
-        "desc":"对塔卡宫殿II进行探索",
+        "title":"卡塔宫殿II",
+        "desc":"邪恶领主的大本营，其本尊就隐藏在深处。",
         "objects":[
             {
                 "type":0,
-                "label":"探索塔卡宫殿II",
+                "label":"击破卡塔宫殿II",
                 "collect":192001,
                 "count":1
             }
@@ -5248,12 +5248,12 @@ exports.data = [
     {
         "questId":193,
         "questStage":73,
-        "title":"探索塔卡宫殿III",
-        "desc":"对塔卡宫殿III进行探索",
+        "title":"卡塔宫殿III",
+        "desc":"邪恶领主的大本营，其本尊就隐藏在深处。",
         "objects":[
             {
                 "type":0,
-                "label":"探索塔卡宫殿III",
+                "label":"击破卡塔宫殿III",
                 "collect":193001,
                 "count":1
             }
@@ -5273,12 +5273,12 @@ exports.data = [
     {
         "questId":194,
         "questStage":74,
-        "title":"探索塔卡宫殿IV",
-        "desc":"对塔卡宫殿IV进行探索",
+        "title":"卡塔宫殿IV",
+        "desc":"邪恶领主的大本营，其本尊就隐藏在深处。",
         "objects":[
             {
                 "type":0,
-                "label":"探索塔卡宫殿IV",
+                "label":"击破卡塔宫殿IV",
                 "collect":194001,
                 "count":1
             }
@@ -5298,12 +5298,12 @@ exports.data = [
     {
         "questId":195,
         "questStage":75,
-        "title":"探索塔卡宫殿V",
-        "desc":"对塔卡宫殿V进行探索",
+        "title":"卡塔宫殿V",
+        "desc":"邪恶领主的大本营，其本尊就隐藏在深处。",
         "objects":[
             {
                 "type":0,
-                "label":"探索塔卡宫殿V",
+                "label":"击破卡塔宫殿V",
                 "collect":195001,
                 "count":1
             }
@@ -5323,12 +5323,12 @@ exports.data = [
     {
         "questId":196,
         "questStage":76,
-        "title":"探索塔卡宫殿VI",
-        "desc":"对塔卡宫殿VI进行探索",
+        "title":"卡塔宫殿VI",
+        "desc":"邪恶领主的大本营，其本尊就隐藏在深处。",
         "objects":[
             {
                 "type":0,
-                "label":"探索塔卡宫殿VI",
+                "label":"击破卡塔宫殿VI",
                 "collect":196001,
                 "count":1
             }
@@ -5348,12 +5348,12 @@ exports.data = [
     {
         "questId":197,
         "questStage":77,
-        "title":"卡塔讨伐",
-        "desc":"将领主卡塔击败，给大陆带来和平",
+        "title":"邪恶领主的讨伐",
+        "desc":"终于找到邪恶领主卡塔，正在其宫殿深处，前去击倒他给大陆带来和平。",
         "objects":[
             {
                 "type":0,
-                "label":"击败卡塔",
+                "label":"打倒邪恶领主卡塔",
                 "collect":197001,
                 "count":1
             }
@@ -5825,12 +5825,12 @@ exports.data = [
     },
     {
         "questId":214,
-        "title":"考古素材",
-        "desc":"死灵洞穴有大量骷髅尸体，收集骷髅来做考古素材吧。",
+        "title":"不死亡灵",
+        "desc":"大量亡者聚集于此，使得洞穴变得异常危险，阻碍勇者前行。",
         "objects":[
             {
                 "type":0,
-                "label":"收集骷髅",
+                "label":"打到骷髅",
                 "collect":214001,
                 "count":25
             }
@@ -5860,12 +5860,12 @@ exports.data = [
     },
     {
         "questId":215,
-        "title":"消灭吸血鬼",
-        "desc":"死灵洞穴有大量吸血鬼，前去消灭他们。",
+        "title":"黑暗獠牙",
+        "desc":"残忍的吸血鬼大量出现，阻碍勇者。",
         "objects":[
             {
                 "type":0,
-                "label":"消灭吸血鬼",
+                "label":"打到吸血鬼",
                 "collect":215001,
                 "count":25
             }
@@ -5895,12 +5895,12 @@ exports.data = [
     },
     {
         "questId":216,
-        "title":"消灭水元素",
-        "desc":"卡塔宫殿有大量水元素，前去击杀25只水元素。",
+        "title":"邪恶的魔法之水",
+        "desc":"由卡塔所召唤出来的水元素，其神秘又强大，给勇者带来巨大威胁。",
         "objects":[
             {
                 "type":0,
-                "label":"消灭水元素",
+                "label":"打倒水元素",
                 "collect":216001,
                 "count":25
             }
@@ -5930,12 +5930,12 @@ exports.data = [
     },
     {
         "questId":217,
-        "title":"消灭皇宫弩手",
-        "desc":"卡塔宫殿出现皇宫弩手，击杀10只皇宫弩手。",
+        "title":"皇宫卫者",
+        "desc":"卡塔贴身的皇宫卫士，誓死守卫其领主，前去击倒他们。",
         "objects":[
             {
                 "type":0,
-                "label":"消灭皇宫弩手",
+                "label":"打倒皇宫弩手",
                 "collect":217001,
                 "count":10
             }
