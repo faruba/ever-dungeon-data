@@ -23537,17 +23537,17 @@ exports.data = [
           "#formular": [
             {
               "src": {
-                "accuracy": 0.1
+                "strong": 0.1
               }
             },
             {
               "src": {
-                "accuracy": 0.15
+                "strong": 0.3
               }
             },
             {
               "src": {
-                "accuracy": 0.25
+                "strong": 0.5
               }
             }
           ]
@@ -23558,6 +23558,228 @@ exports.data = [
           "type": "event",
           "event": "onTurnEnd",
           "eventCount": 3
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 429,
+    "label": L("dic_skill_352_label"), //加特林扫射
+    "icon": "skill-ironsuit1.png",
+    "desc": L("dic_skill_352_desc"), //由肩部的加特林机枪进行扫射，造成范围伤害。
+    "slotId": 100,
+    "config": {
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onTurnEnd",
+          "eventCount": 2,
+          "reset": true
+        },
+        {
+          "type": "chance",
+          "chance": 0.1
+        },
+        {
+          "type": "myMutex",
+          "mutex": "soldier"
+        },
+        {
+          "type": "myMutex",
+          "mutex": "master"
+        },
+        {
+          "type": "myMutex",
+          "mutex": "minister"
+        }
+      ],
+      "targetSelection": {
+        "pool": "blocks",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 1,
+            "length": 1,
+            "startDistance": 0,
+            "anchorPos": {
+              "pool": "objects",
+              "filter": [
+                {
+                  "type": "anchor",
+                  "shape": 2,
+                  "length": 1,
+                  "startDistance": 1,
+                  "anchorPos": {
+                    "pool": "self",
+                    "filter": [
+                      {
+                        "type": "count",
+                        "count": 1
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "alive"
+                },
+                {
+                  "type": "visible"
+                },
+                {
+                  "type": "target-faction-with-flag",
+                  "flag": "attackable"
+                },
+                {
+                  "type": "shuffle"
+                },
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "playAction",
+          "motion": "irongunfire",
+          "pos": "self"
+        },
+        {
+          "type": "playEffect",
+          "effect": 93,
+          "act": "self"
+        },
+        {
+          "type": "playEffect",
+          "effect": 94,
+          "pos": "target"
+        },
+        {
+          "type": "installSpell",
+          "spell": 353,
+          "delay": 1.8
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "soldier",
+          "count": 1
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "master",
+          "count": 1
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "minister",
+          "count": 1
+        }
+      ]
+    }
+  },
+  {
+    "skillId": 430,
+    "label": L("dic_skill_354_label"), //脉冲光束炮
+    "icon": "skill-ironsuit2.png",
+    "desc": L("dic_skill_354_desc"), //由胸口射出高能光束炮，对指定位置敌人造成毁灭打击。
+    "slotId": 101,
+    "config": {
+      "triggerCondition": [
+        {
+          "type": "event",
+          "event": "onTurnEnd",
+          "eventCount": 4,
+          "reset": true
+        },
+        {
+          "type": "chance",
+          "chance": 0.1
+        },
+        {
+          "type": "myMutex",
+          "mutex": "soldier"
+        },
+        {
+          "type": "myMutex",
+          "mutex": "master"
+        },
+        {
+          "type": "myMutex",
+          "mutex": "minister"
+        }
+      ],
+      "targetSelection": {
+        "pool": "objects",
+        "filter": [
+          {
+            "type": "anchor",
+            "shape": 2,
+            "length": 2,
+            "startDistance": 1,
+            "anchorPos": {
+              "pool": "self",
+              "filter": [
+                {
+                  "type": "count",
+                  "count": 1
+                }
+              ]
+            }
+          },
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "attackable"
+          },
+          {
+            "type": "count",
+            "count": 1
+          }
+        ]
+      },
+      "action": [
+        {
+          "type": "playAction",
+          "motion": "ironrayfire",
+          "pos": "self"
+        },
+        {
+          "type": "playEffect",
+          "effect": 95,
+          "act": "self"
+        },
+        {
+          "type": "playEffect",
+          "effect": 96,
+          "pos": "target"
+        },
+        {
+          "type": "installSpell",
+          "spell": 355,
+          "delay": 0.6
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "soldier",
+          "count": 1
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "master",
+          "count": 1
+        },
+        {
+          "type": "setMyMutex",
+          "mutex": "minister",
+          "count": 1
         }
       ]
     }

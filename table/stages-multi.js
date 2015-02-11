@@ -2205,7 +2205,7 @@ var data = [
               initialAction: function (obj) { }
           }
       ]
-  },
+    },
     {
         "chapterId": 16,
         "hidden": true,
