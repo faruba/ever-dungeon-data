@@ -376,7 +376,7 @@ exports.data = {
     },
 	timeLimitAward:{
         "show": false,
-        "duration":{beginTime:'2015-02-10 10:20:26',endTime:'2015-02-12 09:05:01'}
+        "duration":{beginTime:'2015-02-10 10:20:26',endTime:'2015-02-12 09:05:01'},
         "generation":{
             "value":1, //add one for new LimitAward
             "awards":[
