@@ -107,20 +107,24 @@ exports.data = [
 	},
 	{
 		"classId": 4,
-		"label": "生命之石",
-		"icon": "stone5.png",
-		"category": 2,
-		"subcategory": 4,
-		"description": "能够强化生命属性的宝石。",
-		"stack": 99,
-		"sellprice": 300,
-		"transPrize": [
+		"label": "眼睛",
+		"icon": "rfasion-glass-icon.png",
+		"category": 1,
+		"subcategory": 15,
+		"description": "最近在勇者中流行的一种饰品。",
+		"effectf": [
 			{
-				"type": 0,
-				"value": 853,
-				"count": 2
+				"part": "eye",
+				"file": "avatar-eye.ccbi"
 			}
-		]
+		],
+		"effectm": [
+			{
+				"part": "eye",
+				"file": "avatar-eye-2.ccbi"
+			}
+		],
+		"storeOnly": true
 	},
 	{
 		"classId": 5,

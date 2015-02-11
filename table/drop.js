@@ -8287,5 +8287,40 @@ exports.data = [
 				}
 			]
 		}
+	],
+	[//211
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 871,
+					"count": 10
+				},
+				{
+					"weight": 2,
+					"type": 0,
+					"value":540,
+					"count": 3
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value":538,
+					"count": 1
+				},
+				{
+					"weight": 4,
+					"type": 1,
+					"count": 1000
+				},
+				{
+					"weight": 5,
+					"type": 2,
+					"count": 80
+				}
+			]
+		}
 	]
 ]

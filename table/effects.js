@@ -626,6 +626,7 @@ exports.data = [
     },
     {
         "effectId": 125,
+        "loop": true,
         "skeleton": "effect-fuchouzhishenbuff.json",
         "atlas": "effect-fuchouzhishenbuff.atlas"
     },
