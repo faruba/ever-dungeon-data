@@ -2232,7 +2232,7 @@ var data = [
         "idx": 11,
         "style": "map-dungeon11",
         "title":"dungeonname11.png",
-        "label":"2-1",
+        "label":"邪恶巢穴",
         "desc":"领主塔卡的宫殿，卡塔不仅拥有强大的佣兵\n军团，据称他已经掌握了未知力量。",
         "icon":"mapicon6.png",
         "stage":[
@@ -2353,7 +2353,7 @@ var data = [
         "idx": 12,
         "style": "map-dungeon11",
         "title":"dungeonname11.png",
-        "label":"2-2",
+        "label":"地狱峡谷",
         "desc":"领主塔卡的宫殿，卡塔不仅拥有强大的佣兵\n军团，据称他已经掌握了未知力量。",
         "icon":"mapicon6.png",
         "stage":[

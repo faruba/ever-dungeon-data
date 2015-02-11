@@ -676,5 +676,35 @@ exports.data = [
         "loop": true,
         "skeleton": "effect-huifubuff.json",
         "atlas": "effect-huifubuff.atlas"
+    },
+    {
+        "effectId": 134,
+        "skeleton": "effect-common-red.json",
+        "atlas": "effect-common-red.atlas",
+        "sound": "effect-common.mp3"
+    },
+    {
+        "effectId": 135,
+        "skeleton": "effect-common-green.json",
+        "atlas": "effect-common-green.atlas",
+        "sound": "effect-common.mp3"
+    },
+    {
+        "effectId": 136,
+        "skeleton": "effect-common-blue.json",
+        "atlas": "effect-common-blue.atlas",
+        "sound": "effect-common.mp3"
+    },
+    {
+        "effectId": 137,
+        "skeleton": "effect-common-yellow.json",
+        "atlas": "effect-common-yellow.atlas",
+        "sound": "effect-common.mp3"
+    },
+    {
+        "effectId": 138,
+        "skeleton": "effect-shandianaobao.json",
+        "atlas": "effect-shandianaobao.atlas",
+        "sound": "shandianaobao.mp3"
     }
 ]
