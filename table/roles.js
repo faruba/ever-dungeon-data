@@ -10036,5 +10036,53 @@ exports.data = [
             "counterAttack": true
         },
         "levelId": 10
-    }
+    },
+	{
+		"classId": 262,
+		"className": "哥布林土豪",
+		"faction": "monster",
+		"classType": 1,
+		"avatar": "enemy-thgoblin3.ccbi",
+		"property": {
+			"health": 1.5,
+			"attack": 0.12,
+			"critical": 2,
+			"strong": 2,
+			"accuracy": 15,
+			"reactivity": 30,
+			"speed": 0,
+			"counterAttack": false,
+			"exp": 0,
+			"gold": 0
+		},
+		"xproperty": {
+			"balance": 0.1,
+			"health": 4,
+			"attack": 0.4,
+			"critical": 1,
+			"strong": 1,
+			"accuracy": 1,
+			"reactivity": 1,
+			"speed": 1
+		},
+		"soundSpawn": "gebulintou.mp3",
+		"soundWound": "gebulinwound.mp3",
+		"soundAttack": "shouren.mp3",
+		"soundDie": "gebulindie.mp3",
+		"effectAttack": 9,
+		"skill": [
+			{
+				"id": 122,
+				"level": 1
+			},
+			{
+				"id": 124,
+				"level": 1
+			},
+			{
+				"id": 125,
+				"level": 1
+			}
+		]
+	}
 ]

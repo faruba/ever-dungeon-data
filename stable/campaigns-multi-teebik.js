@@ -372,6 +372,7 @@ exports.data = {
         "description": ["開啟尊貴寶箱均有機會獲得帥氣時裝，低概率獲得永久屬性時裝"],
         "date": "2015/02/13",
         "dateDescription": "截止日期2015年2月13日24時",
+        "duration":{beginTime:'2015-02-10 10:20:26',endTime:'2015-02-12 09:05:01'},
 		"durationDesc":{beginTime:'2015-02-10 10:20:26',endTime:'2015-02-12 09:05:01'}
     },
 	timeLimitAward:{
@@ -380,7 +381,7 @@ exports.data = {
         "generation":{
             "value":1, //add one for new LimitAward
             "awards":[
-                {"type":2, "count":300 },
+                {"type":2, "count":300 }
 			]
         }
     }

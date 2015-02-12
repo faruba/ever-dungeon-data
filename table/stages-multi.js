@@ -2203,6 +2203,23 @@ var data = [
               "formularId":1,
               condition: function (obj, util) { return true; },
               initialAction: function (obj) { }
+          },
+          {
+              stageId: 151,
+              cost: 10,
+              team: 3,
+              hidden: true,
+              dungeon: 160,
+              description: "Goblin1",
+              eventName: "event_goblin",
+              condition: checkGoblin,
+              initialAction: function (obj) {
+                  if (obj.counters.goblin) {
+                      obj.counters.goblin++;
+                  } else {
+                      obj.counters['goblin'] = 1;
+                  }
+              }
           }
       ]
     },

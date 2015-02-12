@@ -44492,7 +44492,7 @@ exports.data = [
                     {"pool":"soldierPool","from":8,to:14},
                     {"pool":"rangePool","from":0,to:3},
                     {"id": 149,"from":0,to:2},
-                    {"id": 188,"from":0,to:2,skill:[{id:153}],dropPrize:211}
+                    {"id": 262,"from":0,to:2,skill:[{id:153}],dropPrize:211}
                 ]
             },
             {
@@ -44501,7 +44501,7 @@ exports.data = [
                     {"pool":"soldierPool","from":8,to:14},
                     {"pool":"rangePool","from":0,to:3},
                     {"id": 149,"from":0,to:2},
-                    {"id": 188,"from":0,to:2,skill:[{id:153}],dropPrize:211}
+                    {"id": 262,"from":0,to:2,skill:[{id:153}],dropPrize:211}
                 ]
             },
             {
@@ -44511,7 +44511,7 @@ exports.data = [
                     {"pool":"rangePool","from":0,to:3},
                     {"pool":"bossPool","count":1},
                     {"id": 149,"from":0,to:2},
-                    {"id": 188,"from":1,to:2,skill:[{id:153}],dropPrize:211}
+                    {"id": 262,"from":1,to:2,skill:[{id:153}],dropPrize:211}
                 ]
             }],
         "dropID":[
