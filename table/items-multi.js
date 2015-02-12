@@ -58234,7 +58234,7 @@ exports.data = [
 		"icon": "item-giftbox.png",
 		"category": 0,
 		"subcategory": 2,
-		"description": "打开即可获得宝石奖励。",
+		"description": "内含8~888宝石，打开即可获得随机宝石奖励。",
 		"stack": 99,
 		"quality": 1,
 		"sellGem": 15,
