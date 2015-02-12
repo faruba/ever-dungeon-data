@@ -107,20 +107,46 @@ exports.data = [
 	},
 	{
 		"classId": 4,
-		"label": "生命之石",
-		"icon": "stone5.png",
-		"category": 2,
-		"subcategory": 4,
-		"description": "能够强化生命属性的宝石。",
-		"stack": 99,
-		"sellprice": 300,
-		"transPrize": [
+		"label": "魅力之眼",
+		"category": 1,
+		"subcategory": 15,
+		"description": "具有魅惑之力的眼睛，能提高个人的魅力。\n" +
+		               "附加属性：生命+150 攻击+15 暴击+10\n" +
+		               "　　　　　韧性+10 命中+10 回避+10\n" +
+		               "　　　　　速度+10",
+		"recipePrize": 210,
+		"effectf": [
 			{
-				"type": 0,
-				"value": 853,
-				"count": 2
+				"part": "eye",
+				"file": "avatar-3-eye-blue.ccbi"
+			},
+			{
+				"part": "brow",
+				"file": "avatar-3-brow.ccbi"
 			}
-		]
+		],
+		"effectm": [
+			{
+				"part": "eye",
+				"file": "avatar-3-eye-blue-2.ccbi"
+			},
+			{
+				"part": "brow",
+				"file": "avatar-3-brow-2.ccbi"
+			}
+		],
+		"basic_properties": {
+			"health": 150,
+			"attack": 15,
+			"critical": 10,
+			"strong": 10,
+			"accuracy": 10,
+			"reactivity": 10,
+			"speed": 10
+		},
+		"storeOnly": true,
+		"iconf": "rfasion-female-valentine-eye.png",
+		"iconm": "rfasion-male-valentine-eye.png"
 	},
 	{
 		"classId": 5,
@@ -20242,8 +20268,8 @@ exports.data = [
 		"subcategory": 12,
 		"extraSlots": [19,20],
 		"description": "兼顾外形与力量，是荣誉的象征。\n" +
-		               "属性：生命+550 攻击+50 暴击+15\n" +
-		               "　　　韧性+60",
+		               "附加属性：生命+550 攻击+50 暴击+15\n" +
+		               "　　　　　韧性+60",
 		"sellprice": 1500,
 		"effectf": [
 			{
@@ -20305,7 +20331,7 @@ exports.data = [
 		"category": 1,
 		"subcategory": 13,
 		"description": "荣誉的象征，并且拥有专注力量的祝福。\n" +
-		               "属性：生命+200 攻击+30 命中+60",
+		               "附加属性：生命+200 攻击+30 命中+60",
 		"sellprice": 500,
 		"effectf": [
 			{
@@ -57953,5 +57979,265 @@ exports.data = [
 		"quality": 2,
 		"recipeTarget": 1550,
 		"recipeCost": 88
+	},
+	{
+		"classId": 1622,
+		"label": "浪漫套装",
+		"category": 1,
+		"subcategory": 12,
+		"extraSlots": [19,20],
+		"description": "情人节专有的套装，十分受情侣们钟爱。\n" +
+		               "附加属性：生命+200 攻击+20 暴击+10\n" +
+		               "　　　　　韧性+10 命中+10 回避+10\n" +
+		               "　　　　　速度+10",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "valentine-female-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "valentine-female-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "valentine-female-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "valentine-female-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "valentine-female-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "valentine-male-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "valentine-male-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "valentine-male-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "valentine-male-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "valentine-male-rightleg.ccbi"
+			}
+		],
+		"basic_properties": {
+			"health": 200,
+			"attack": 20,
+			"critical": 10,
+			"strong": 10,
+			"accuracy": 10,
+			"reactivity": 10,
+			"speed": 10
+		},
+		"storeOnly": true,
+		"iconf": "rfasion-female-valentine-chest.png",
+		"iconm": "rfasion-male-valentine-chest.png"
+	},
+	{
+		"classId": 1623,
+		"label": "浪漫头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "情人节专有的头饰，是送给爱人最好的礼物。\n" +
+		               "附加属性：生命+100 攻击+10",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "valentine-female-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "valentine-male-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"basic_properties": {
+			"health": 100,
+			"attack": 10
+		},
+		"iconf": "rfasion-female-valentine-helmet.png",
+		"iconm": "rfasion-male-valentine-helmet.png"
+	},
+	{
+		"classId": 1624,
+		"label": "帝皇守护",
+		"icon": "rfasion-xngh1.png",
+		"category": 1,
+		"subcategory": 17,
+		"description": "尊贵的光环，高贵的象征。",
+		"recipePrize": 207,
+		"effecta": [
+			{
+				"part": "effect",
+				"file": "godring2-1.ccbi"
+			}
+		],
+		"basic_properties": {
+			"health": 500,
+			"attack": 50,
+			"critical": 25,
+			"strong": 25,
+			"accuracy": 25,
+			"reactivity": 25,
+			"speed": 25
+		},
+		"storeOnly": true
+	},
+	{
+		"classId": 1625,
+		"label": "神圣守护",
+		"icon": "rfasion-xngh2.png",
+		"category": 1,
+		"subcategory": 17,
+		"description": "稀有的光环，具有神圣的力量。",
+		"recipePrize": 208,
+		"effecta": [
+			{
+				"part": "effect",
+				"file": "godring2-2.ccbi"
+			}
+		],
+		"basic_properties": {
+			"health": 250,
+			"attack": 25,
+			"critical": 10,
+			"strong": 10,
+			"accuracy": 10,
+			"reactivity": 10,
+			"speed": 10
+		},
+		"storeOnly": true
+	},
+	{
+		"classId": 1626,
+		"label": "圣光守护",
+		"icon": "rfasion-xnhg3.png",
+		"category": 1,
+		"subcategory": 17,
+		"description": "精致的光环，受到圣光庇佑。",
+		"recipePrize": 209,
+		"effecta": [
+			{
+				"part": "effect",
+				"file": "godring2-3.ccbi"
+			}
+		],
+		"basic_properties": {
+			"health": 150,
+			"attack": 10,
+			"critical": 5,
+			"accuracy": 5,
+			"reactivity": 5,
+			"speed": 5
+		},
+		"storeOnly": true
+	},
+	{
+		"classId": 1627,
+		"label": "神圣守护",
+		"icon": "rfasion-xngh2.png",
+		"category": 1,
+		"subcategory": 17,
+		"description": "稀有的光环，具有神圣的力量。",
+		"sellprice": 1500,
+		"effecta": [
+			{
+				"part": "effect",
+				"file": "godring2-2.ccbi"
+			}
+		],
+		"basic_properties": {
+			"health": 250,
+			"attack": 25,
+			"critical": 10,
+			"strong": 10,
+			"accuracy": 10,
+			"reactivity": 10,
+			"speed": 10
+		},
+		"storeOnly": true,
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1628,
+		"label": "圣光守护",
+		"icon": "rfasion-xngh3.png",
+		"category": 1,
+		"subcategory": 17,
+		"description": "精致的光环，受到圣光庇佑。",
+		"sellprice": 500,
+		"effecta": [
+			{
+				"part": "effect",
+				"file": "godring2-3.ccbi"
+			}
+		],
+		"basic_properties": {
+			"health": 150,
+			"attack": 10,
+			"critical": 5,
+			"accuracy": 5,
+			"reactivity": 5,
+			"speed": 5
+		},
+		"storeOnly": true,
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1629,
+		"label": "羊年大礼包",
+		"icon": "item-gift3.png",
+		"category": 0,
+		"subcategory": 0,
+		"description": "内含体力药水、复活药水、扫荡卷轴(每人限购1个)",
+		"quality": 1,
+		"prize": [
+			{
+				"type": 0,
+				"count": 1,
+				"value": 540
+			},
+			{
+				"type": 0,
+				"count": 1,
+				"value": 538
+			},
+			{
+				"type": 0,
+				"count": 5,
+				"value": 871
+			}
+		],
+		"storeOnly": true
+	},
+	{
+		"classId": 1630,
+		"label": "新年大红包",
+		"icon": "item-giftbox.png",
+		"category": 0,
+		"subcategory": 2,
+		"description": "打开即可获得宝石奖励。",
+		"stack": 99,
+		"quality": 1,
+		"sellGem": 15,
+		"dropId": 212
 	}
 ]

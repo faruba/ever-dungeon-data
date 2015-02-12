@@ -1,4 +1,5 @@
 iaplist = require('./iaplist').data.list;
+moment = require('moment');
 exports.data = {
     "Charge": {
         "show": true,
@@ -332,16 +333,16 @@ exports.data = {
         "title": "免費抽獎！抽不停！",
         "banner":"event-banner-mfcj.png",
         "description": ["幸運寶箱抽取冷卻時間減半，由24小時縮減為12小時。"],
-        "date": "2015/02/13",
-        "dateDescription": "截止日期2015年2月13日24時"
+        "date": "2015/03/05",
+        "dateDescription": "截止日期2015年3月5日24時"
     },
     "lottery2": {
         "show": true,
         "title": "十一連抽大優惠！",
         "banner":"event-banner-sylc.png",
         "description": ["購買尊貴寶箱X10即可額外獲贈一次"],
-        "date": "2014/02/13",
-        "dateDescription": "截止日期2015年2月13日24時"
+        "date": "2014/03/05",
+        "dateDescription": "截止日期2015年3月5日24時"
     },
     "lottery3": {
         "show": true,
@@ -360,7 +361,91 @@ exports.data = {
         "title": "限時時裝強勢來襲",
         "banner":"event-banner-xssz.png",
         "description": ["開啟尊貴寶箱均有機會獲得帥氣時裝，低概率獲得永久屬性時裝"],
+        "date": "2015/03/05",
+        "dateDescription": "截止日期2015年3月5日24時"
+    },
+    timeLimitAwardMsg:{
+        "show": true,
+		"type":"timeLimitAward",
+        "title":"",
+        "banner":"event-banner-xssz.png",
+        "description": ["開啟尊貴寶箱均有機會獲得帥氣時裝，低概率獲得永久屬性時裝"],
         "date": "2015/02/13",
-        "dateDescription": "截止日期2015年2月13日24時"
+        "dateDescription": "截止日期2015年2月13日24時",
+        "duration":{beginTime:'2015-02-10 10:20:26',endTime:'2015-02-12 09:05:01'},
+		"durationDesc":{beginTime:'2015-02-10 10:20:26',endTime:'2015-02-12 09:05:01'}
+    },
+	timeLimitAward:{
+        "show": false,
+        "duration":{beginTime:'2015-02-10 10:20:26',endTime:'2015-02-12 09:05:01'},
+        "generation":{
+            "value":1, //add one for new LimitAward
+            "awards":[
+                {"type":2, "count":300 }
+			]
+        }
+    },
+    "newYears1": {
+        "show": true,
+        "title": "新年大红包",
+        "banner":"event-banner-xssz.png",
+        "description": ["玩家每充值满888宝石，可获得口袋地下城新年大红包一个（8~888宝石）最高返利100%"],
+        "date": "2015/02/21",
+        "dateDescription": "截止日期2015年2月21日24時",
+        "duration":{beginTime:'2015-02-18 00:00:00',endTime:'2015-02-21 23:59:59'}
+    },
+    "newYears2": {
+        "show": true,
+        "title": "口袋陪你过新年",
+        "banner":"event-banner-xssz.png",
+        "description": ["每日限时开放奖励关卡，有机会获得复活药水、体力、宝石奖励"],
+        "date": "2015/02/25",
+        "dateDescription": "截止日期2015年2月25日24時",
+        "duration":{beginTime:'2015-02-18 00:00:00',endTime:'2015-02-25 23:59:59'}
+    },
+    "newYears3": {
+        "show": true,
+        "title": "羊年限定套装限时开放抽取",
+        "banner":"event-banner-xssz.png",
+        "description": ["活动期间。抽取宝箱有一定概率获得限时的羊年限定光环，抽取宝箱次数最高的玩家，直接获得羊年顶级限定光环。前10的玩家可以获得羊年普通限定光环"],
+        "date": "2015/02/25",
+        "dateDescription": "截止日期2015年2月25日24時",
+        "duration":{beginTime:'2015-02-18 00:00:00',endTime:'2015-02-25 23:59:59'}
+    },
+    "newYears4": {
+        "show": true,
+        "title": "新年“壕”不停",
+        "banner":"event-banner-xssz.png",
+        "description": ["活动期间，根据玩家储值金额的排名将获得巨额的奖励"],
+        "date": "2015/02/25",
+        "dateDescription": "截止日期2015年2月25日24時",
+        "duration":{beginTime:'2015-02-22 00:00:00',endTime:'2015-02-25 23:59:59'}
+    },
+    "newYears5": {
+        "show": true,
+        "title": "大礼包团购",
+        "banner":"event-banner-xssz.png",
+        "description": ["活动期间，根据玩家储值金额的排名将获得巨额的奖励"],
+        "date": "2015/03/05",
+        "dateDescription": "截止日期2015年3月5日24時",
+        "duration":{beginTime:'2015-02-25 00:00:00',endTime:'2015-03-05 23:59:59'}
+    },
+    "newYears6": {
+        "show": true,
+        "title": "宝藏几率UP",
+        "banner":"event-banner-xssz.png",
+        "description": ["活动期间，限定时装抽取概率提高"],
+        "date": "2015/02/25",
+        "dateDescription": "截止日期2015年2月25日24時",
+        "duration":{beginTime:'2015-02-18 00:00:00',endTime:'2015-02-25 23:59:59'}
+    },
+    "Valentine's day": {
+        "show": true,
+        "title": "情人节活动",
+        "banner":"event-banner-xssz.png",
+        "description": ["头饰整点送以及商店出售，身体抽宝箱可获得，抽取排行高者，获得美瞳"],
+        "date": "2015/02/17",
+        "dateDescription": "截止日期2015年2月17日24時",
+        "duration":{beginTime:'2015-02-13 00:00:00',endTime:'2015-02-17 23:59:59'}
     }
 };
