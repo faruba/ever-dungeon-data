@@ -10,6 +10,11 @@ require('./define');
 var L = function(key) {
  return translate_with("chinese", key);
 }
+// events:
+// ?when to run this cfg: search syncEvent()
+// ?the means of field
+//  id: bountyid, table/bounty.js 
+//     if id is null  only canReset and reset will be excute
 exports.events = {
   "event_daily": {
     "flag": "daily",
@@ -158,7 +163,43 @@ exports.events = {
       obj.counters.addPKCount = 0;
       return obj.flags.rcvAward = false;
     }
-  }
+  },
+  chargeDiamond:{
+    storeType: "player",
+    canReset: function(obj, util) {
+        if (obj.timestamp.chargeDiamond == null) {
+            obj.timestamp.chargeDiamond = util.moment(0);
+        }
+        var ret =  util.isFristInTime(['2015-02-22 00:00:00'],
+                obj.timestamp.chargeDiamond,
+                util.currentTime());
+
+        return ret;
+ 
+    },
+    reset: function(obj, util) {
+        obj.counters.chargeDiamond  = 0;
+        obj.timestamp.chargeDiamond = util.currentTime();
+    }
+  },
+  buyTreasureTimes:{
+    storeType: "player",
+    canReset: function(obj, util) {
+        if (obj.timestamp.buyTreasureTimes == null) {
+            obj.timestamp.buyTreasureTimes = util.moment(0);
+        }
+        var ret =  util.isFristInTime(['2015-02-12','2015-02-17 23:58:00'],
+                obj.timestamp.buyTreasureTimes,
+                util.currentTime());
+        return ret;
+    },
+    reset: function(obj, util) {
+        obj.counters.buyTreasureTimes = 0;
+        obj.timestamp.buyTreasureTimes = util.currentTime();
+        
+    }
+  },
+
 };
 
 exports.intervalEvent = {
@@ -367,6 +408,173 @@ exports.intervalEvent = {
           return libs.sObj.counters[stageId] = 0;
         });
       }
+    }
+  },
+  chargeDiamond: {
+    time: {
+      month: 1,
+      monthday: 25,
+      hour:20,
+    },
+    func:function(libs){
+      cfg = [
+      {
+          from: 0,
+          to: 0,
+          mail: {
+              type: MESSAGE_TYPE_SystemReward,
+              src: MESSAGE_REWARD_TYPE_SYSTEM,
+              prize: [
+              { type: 0, value: 1475, count: 1 }
+              ],
+                  tit: L("chargeDiamondTitle"),
+                  txt: L("chargeDiamondTxt_1")
+          }
+      }, {
+          from: 1,
+          to: 9,
+          mail: {
+              type: MESSAGE_TYPE_SystemReward,
+              src: MESSAGE_REWARD_TYPE_SYSTEM,
+              prize: [
+              { type: 0, value: 1480, count: 1 }
+              ],
+                  tit: L("chargeDiamondTitle"),
+                  txt: L("chargeDiamondTxt_2")
+          }
+      }, {
+          from: 10,
+          to: 49,
+          mail: {
+              type: MESSAGE_TYPE_SystemReward,
+              src: MESSAGE_REWARD_TYPE_SYSTEM,
+              prize: [
+              { type: 0, value: 1617, count: 1 }
+              ],
+                  tit: L("chargeDiamondTitle"),
+                  txt: L("chargeDiamondTxt_3")
+          }
+      },
+
+      ];
+      
+
+      return cfg.forEach(function(e) {
+        return libs.helper.getPositionOnLeaderboard(LeaderboardIdx.TopTenRich , 'nobody', e.from, e.to, function(err, result) {
+          return result.board.name.forEach(function(name, idx) {
+            var infoStr;
+            libs.db.deliverMessage(name, e.mail);
+            infoStr = ' from:' + e.from + ' to: ' + e.to + ' rank:' + result.board.score[idx];
+            return logInfo({
+              action: 'leadboradPrize',
+              index: 0,
+              msg: infoStr
+            });
+          });
+        });
+      });
+    }
+ 
+  },
+  openBox1:{
+    time: {
+        month: 1,
+        monthday: 17,
+        hour: 20,
+    },
+    func:function(libs){
+      cfg = [
+      {
+          from: 0,
+          to: 49,
+          mail: {
+              type: MESSAGE_TYPE_SystemReward,
+              src: MESSAGE_REWARD_TYPE_SYSTEM,
+              prize: [
+              { type: 0, value: 4, count: 1 }
+              ],
+                  tit: L("openBoxTitle1"),
+                  txt: L("openBoxTxt1")
+          }
+      },
+      ];
+      return cfg.forEach(function(e) {
+        return libs.helper.getPositionOnLeaderboard(LeaderboardIdx.BuyLikeWomen, 'nobody', e.from, e.to, function(err, result) {
+          return result.board.name.forEach(function(name, idx) {
+            var infoStr;
+            libs.db.deliverMessage(name, e.mail);
+            infoStr = ' from:' + e.from + ' to: ' + e.to + ' rank:' + result.board.score[idx];
+            return logInfo({
+              action: 'leadboradPrize',
+              index: 0,
+              msg: infoStr
+            });
+          });
+        });
+      });
+    }
+  },
+  openBox2:{
+    time: {
+        month:1,
+        monthday: 25,
+        hour:20,
+    },
+    func:function(libs){
+      cfg = [
+      {
+          from: 0,
+          to: 0,
+          mail: {
+              type: MESSAGE_TYPE_SystemReward,
+              src: MESSAGE_REWARD_TYPE_SYSTEM,
+              prize: [
+              { type: 0, value: 1624, count: 1 }
+              ],
+                  tit: L("openBoxTitle2"),
+                  txt: L("openBoxTxt21")
+          }
+      }, {
+          from: 1,
+          to: 9,
+          mail: {
+              type: MESSAGE_TYPE_SystemReward,
+              src: MESSAGE_REWARD_TYPE_SYSTEM,
+              prize: [
+              { type: 0, value: 1625,count: 1}
+              ],
+                  tit: L("openBoxTitle2"),
+                  txt: L("openBoxTxt22")
+          }
+      },{
+          from: 10,
+          to: 49,
+          mail: {
+              type: MESSAGE_TYPE_SystemReward,
+              src: MESSAGE_REWARD_TYPE_SYSTEM,
+              prize: [
+              { type: 0, value: 1626,count: 1}
+              ],
+                  tit: L("openBoxTitle2"),
+                  txt: L("openBoxTxt23")
+          }
+      },
+
+      ];
+      return cfg.forEach(function(e) {
+        return libs.helper.getPositionOnLeaderboard(LeaderboardIdx.BuyLikeWomen, 'nobody', e.from, e.to, function(err, result) {
+          return result.board.name.forEach(function(name, idx) {
+            var infoStr;
+            libs.db.deliverMessage(name, e.mail);
+            infoStr = ' from:' + e.from + ' to: ' + e.to + ' rank:' + result.board.score[idx];
+            return logInfo({
+              action: 'leadboradPrize',
+              index: 0,
+              msg: infoStr
+            });
+          });
+        });
+      });
     }
   }
 };

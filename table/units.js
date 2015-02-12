@@ -10,10 +10,10 @@ exports.data = [
         'suitId':1,
         '1':[{type: 'incress_property', property: {health:400,attack:15,strong:5}}],
         '2':[{type: 'incress_property', property: {health:550,attack:35,critical:20,strong:60,accuracy:40}},
-             {type: 'install_skill', id: 352, level: 1 }],
+             {type: 'install_skill', id: 352, level: 1, asTeammate: 429 }],
         '3': [{type: 'incress_property', property: {health:800,attack:65,critical:30,strong:80,accuracy:45}}],
         '4':[{type: 'incress_property', property: {health:1500,attack:150,critical:60,strong:140,accuracy:100}},
-             {type: 'install_skill', id: 354, level: 1 }]
+             {type: 'install_skill', id: 354, level: 1, asTeammate: 430 }]
     },
     {//2（喵喵装）
         'suitId': 2,
@@ -34,8 +34,7 @@ exports.data = [
         '1':[{type: 'incress_property', property: {health:90,attack:5,critical:15}}],
         '2':[{type: 'incress_property', property: {health:200,attack:15,critical: 50,strong: 5}}],
         '3':[{type: 'incress_property', property: {health:800,attack:45,critical:140,strong:25,reactivity:25,speed:25}}],
-        '4':[{type: 'incress_property', property: {health:1200,attack:70,critical:220,strong:80,reactivity:70,speed:70}},
-             {type: 'install_skill', id: 390, level: 1 }]
+        '4':[{type: 'incress_property', property: {health:1200,attack:70,critical:220,strong:80,reactivity:70,speed:70}}]
     },
     {//5（医院装）
         'suitId': 5,

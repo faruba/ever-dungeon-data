@@ -1,4 +1,5 @@
 iaplist = require('./iaplist').data.list;
+moment = require('moment');
 exports.data = {
     "Charge": {
         "show": true,
@@ -332,16 +333,16 @@ exports.data = {
         "title": "免費抽獎！抽不停！",
         "banner":"event-banner-mfcj.png",
         "description": ["幸運寶箱抽取冷卻時間減半，由24小時縮減為12小時。"],
-        "date": "2015/02/13",
-        "dateDescription": "截止日期2015年2月13日24時"
+        "date": "2015/03/05",
+        "dateDescription": "截止日期2015年3月5日24時"
     },
     "lottery2": {
         "show": true,
         "title": "十一連抽大優惠！",
         "banner":"event-banner-sylc.png",
         "description": ["購買尊貴寶箱X10即可額外獲贈一次"],
-        "date": "2014/02/13",
-        "dateDescription": "截止日期2015年2月13日24時"
+        "date": "2014/03/05",
+        "dateDescription": "截止日期2015年3月5日24時"
     },
     "lottery3": {
         "show": true,
@@ -360,7 +361,143 @@ exports.data = {
         "title": "限時時裝強勢來襲",
         "banner":"event-banner-xssz.png",
         "description": ["開啟尊貴寶箱均有機會獲得帥氣時裝，低概率獲得永久屬性時裝"],
-        "date": "2015/02/13",
-        "dateDescription": "截止日期2015年2月13日24時"
+        "date": "2015/03/05",
+        "dateDescription": "截止日期2015年3月5日24時"
+    },
+    timeLimitAwardMsg:{
+        "show": true,
+		"type":"timeLimitAward",
+		"poster":"",
+        "title":"",
+        "banner":"event-banner-xssz.png",
+        "description": ["開啟尊貴寶箱均有機會獲得帥氣時裝，低概率獲得永久屬性時裝"],
+        "dateDescription": "截止日期2015年2月13日24時",
+		"durationDesc":[{beginTime:'2015-02-13 18:00:00',endTime:'2015-02-13 19:00:00'},
+					{beginTime:'2015-02-14 18:00:00',endTime:'2015-02-14 19:00:00'},
+					{beginTime:'2015-02-15 18:00:00',endTime:'2015-02-15 19:00:00'},
+					{beginTime:'2015-02-16 18:00:00',endTime:'2015-02-16 19:00:00'},
+					{beginTime:'2015-02-17 18:00:00',endTime:'2015-02-17 19:00:00'}, ]
+    },
+	timeLimitAward:{
+        "show": false,
+        "duration":[{beginTime:'2015-02-13 18:00:00',endTime:'2015-02-13 19:00:00'},
+					{beginTime:'2015-02-14 18:00:00',endTime:'2015-02-14 19:00:00'},
+					{beginTime:'2015-02-15 18:00:00',endTime:'2015-02-15 19:00:00'},
+					{beginTime:'2015-02-16 18:00:00',endTime:'2015-02-16 19:00:00'},
+					{beginTime:'2015-02-17 18:00:00',endTime:'2015-02-17 19:00:00'},
+					],
+        "generation":{
+            "value":1, //add one for new LimitAward
+            "awards":[
+			{ "type":0,"value":1623, "count":1 }
+			]
+        }
+    },
+    "newYears1": {
+        "show": true,
+        "title": "新年红包送不停",
+        "banner":"event-banner-xssz.png",
+        "description": [
+            "口袋红包无限派送，最高返宝石100%",
+            "***活动期间每储值888宝石就有机会获得：",
+            "##[{\"type\":0,\"value\":1630,\"count\":1}]"
+        ],
+        "date": "2015/02/21",
+        "dateDescription": "截止日期2015年2月21日24時",
+        "duration":{beginTime:'2015-02-18 00:00:00',endTime:'2015-02-21 23:59:59'}
+    },
+    "newYears2": {
+        "show": true,
+        "title": "口袋陪你过新年",
+        "banner":"event-banner-xssz.png",
+        "description": [
+            "限时关卡每日挑战，众多奖励等你来拿",
+            "***每日开放高奖励关卡，击败土豪哥布林就有豪华奖励。"
+        ],
+        "date": "2015/02/25",
+        "dateDescription": "截止日期2015年2月25日24時",
+        "duration":{beginTime:'2015-02-18 00:00:00',endTime:'2015-02-25 23:59:59'}
+    },
+    "newYears3": {
+        "show": true,
+        "title": "羊年限定装扮强势登场",
+        "banner":"event-banner-xssz.png",
+        "description": [
+            "羊年限定专属装扮现已加入至尊宝箱，抽取排行前50更能获得超稀有的顶级装扮",
+            "***活动期间抽取宝箱有机会获得：",
+            "##[{\"type\":0,\"value\":1627,\"count\":1},{\"type\":0,\"value\":1628,\"count\":1}]",
+            "** \n排行第1名将获得",
+            "##[{\"type\":0,\"value\":1624,\"count\":1}]",
+            "** \n排行前10名将获得",
+            "##[{\"type\":0,\"value\":1625,\"count\":1}]",
+            "** \n排行前50名将获得",
+            "##[{\"type\":0,\"value\":1626,\"count\":1}]"
+        ],
+        "date": "2015/02/25",
+        "dateDescription": "截止日期2015年2月25日24時",
+        "duration":{beginTime:'2015-02-18 00:00:00',endTime:'2015-02-25 23:59:59'}
+    },
+    "newYears4": {
+        "show": true,
+        "title": "新年壕不停",
+        "banner":"event-banner-xssz.png",
+        "description": [
+            "充值有礼惊喜不断（涉及奖励 时装碎片 万能碎片 x手甲图纸）",
+            "** \n活动期间充值排行第1名将获得",
+            "##[{\"type\":0,\"value\":1480,\"count\":1},{\"type\":0,\"value\":5,\"count\":3},{\"type\":0,\"value\":1617,\"count\":5}]",
+            "** \n充值前10名将获得",
+            "##[{\"type\":0,\"value\":5,\"count\":1},{\"type\":0,\"value\":1617,\"count\":3}]",
+            "** \n充值前50名将获得",
+            "##[{\"type\":0,\"value\":1617,\"count\":3}]"
+        ],
+        "date": "2015/02/25",
+        "dateDescription": "截止日期2015年2月25日24時",
+        "duration":{beginTime:'2015-02-22 00:00:00',endTime:'2015-02-25 23:59:59'}
+    },
+    "newYears5": {
+        "show": true,
+        "title": "年货大礼包",
+        "banner":"event-banner-xssz.png",
+        "description": [
+            "新春大礼包限时团购，超值的道具绝不能错过",
+            "***新春大礼包开放团购，每日限购1次，内含体力药水、复活药水、扫荡卷轴",
+            "##[{\"type\":0,\"value\":1629,\"count\":1}]"
+        ],
+        "date": "2015/03/05",
+        "dateDescription": "截止日期2015年3月5日24時",
+        "duration":{beginTime:'2015-02-25 00:00:00',endTime:'2015-03-05 23:59:59'}
+    },
+    "newYears6": {
+        "show": true,
+        "title": "春节新衣大放送",
+        "banner":"event-banner-xssz.png",
+        "description": [
+            "高阶时装抽取几率提升500%",
+            "***新春高阶时装大放送",
+            "** \n2015/02/18-2015/02/21",
+            "##[{\"type\":0,\"value\":1588,\"count\":1},{\"type\":0,\"value\":1589,\"count\":1},{\"type\":0,\"value\":1590,\"count\":1},{\"type\":0,\"value\":1591,\"count\":1}]",
+            "** \n2015/02/22-2015/02/25",
+            "##[{\"type\":0,\"value\":1592,\"count\":1},{\"type\":0,\"value\":1593,\"count\":1},{\"type\":0,\"value\":1594,\"count\":1},{\"type\":0,\"value\":1595,\"count\":1}]"
+        ],
+        "date": "2015/02/25",
+        "dateDescription": "截止日期2015年2月25日24時",
+        "duration":{beginTime:'2015-02-18 00:00:00',endTime:'2015-02-25 23:59:59'}
+    },
+    "Valentine's day": {
+        "show": true,
+        "title": "情人节浪漫来袭",
+        "banner":"event-banner-qrj.png",
+        "description": [
+            "浪漫头饰限时送，浪漫套装、精美表情全面登场",
+            "** \n浪漫头饰每日18时免费抢",
+            "##[{\"type\":0,\"value\":1623,\"count\":1}]",
+            "** \n宝箱抽取有机会获得浪漫套装",
+            "##[{\"type\":0,\"value\":1622,\"count\":1}]",
+            "** \截止活动结束宝箱抽取排名前50名获得魅力之眼",
+            "##[{\"type\":0,\"value\":4,\"count\":1}]"
+        ],
+        "date": "2015/02/17",
+        "dateDescription": "截止日期2015年2月17日24時",
+        "duration":{beginTime:'2015-02-13 00:00:00',endTime:'2015-02-17 23:59:59'}
     }
 };
