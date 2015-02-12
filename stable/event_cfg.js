@@ -167,24 +167,35 @@ exports.events = {
   chargeDiamond:{
     storeType: "player",
     canReset: function(obj, util) {
-        return false;
+        if (obj.timestamp.chargeDiamond == null) {
+            obj.timestamp.chargeDiamond = util.moment(0);
+        }
+        var ret =  util.isFristInTime(['2015-02-22 00:00:00'],
+                obj.timestamp.chargeDiamond,
+                util.currentTime());
+
+        return ret;
+ 
     },
     reset: function(obj, util) {
         obj.counters.chargeDiamond  = 0;
+        obj.timestamp.chargeDiamond = util.currentTime();
     }
   },
   buyTreasureTimes:{
     storeType: "player",
     canReset: function(obj, util) {
         if (obj.timestamp.buyTreasureTimes == null) {
-            obj.timestamp.buyTreasureTimes = 0;
+            obj.timestamp.buyTreasureTimes = util.moment(0);
         }
-//        if (util.sameDay['2015-02-01 09:05:12','2015-02-01 09:05:12']
-        return false;
+        var ret =  util.isFristInTime(['2015-02-12','2015-02-17 23:58:00'],
+                obj.timestamp.buyTreasureTimes,
+                util.currentTime());
+        return ret;
     },
     reset: function(obj, util) {
         obj.counters.buyTreasureTimes = 0;
-        obj.timestamp.buyTreasureTimes = util.currentTime;
+        obj.timestamp.buyTreasureTimes = util.currentTime();
         
     }
   },
@@ -401,7 +412,9 @@ exports.intervalEvent = {
   },
   chargeDiamond: {
     time: {
-      weekday: 2
+      month: 1,
+      monthday: 25,
+      hour:20,
     },
     func:function(libs){
       cfg = [
@@ -412,8 +425,7 @@ exports.intervalEvent = {
               type: MESSAGE_TYPE_SystemReward,
               src: MESSAGE_REWARD_TYPE_SYSTEM,
               prize: [
-              { type: 2, count: 100 },
-              { type: 0, value: 878, count: 1 }
+              { type: 0, value: 1475, count: 1 }
               ],
                   tit: L("chargeDiamondTitle"),
                   txt: L("chargeDiamondTxt_1")
@@ -425,12 +437,25 @@ exports.intervalEvent = {
               type: MESSAGE_TYPE_SystemReward,
               src: MESSAGE_REWARD_TYPE_SYSTEM,
               prize: [
-              { type: 2, count: 100 }
+              { type: 0, value: 1480, count: 1 }
               ],
                   tit: L("chargeDiamondTitle"),
                   txt: L("chargeDiamondTxt_2")
           }
+      }, {
+          from: 10,
+          to: 49,
+          mail: {
+              type: MESSAGE_TYPE_SystemReward,
+              src: MESSAGE_REWARD_TYPE_SYSTEM,
+              prize: [
+              { type: 0, value: 1617, count: 1 }
+              ],
+                  tit: L("chargeDiamondTitle"),
+                  txt: L("chargeDiamondTxt_3")
+          }
       },
+
       ];
       
 
@@ -451,9 +476,49 @@ exports.intervalEvent = {
     }
  
   },
-  openBox:{
+  openBox1:{
     time: {
-      day: 7
+        month: 1,
+        monthday: 17,
+        hour: 20,
+    },
+    func:function(libs){
+      cfg = [
+      {
+          from: 0,
+          to: 49,
+          mail: {
+              type: MESSAGE_TYPE_SystemReward,
+              src: MESSAGE_REWARD_TYPE_SYSTEM,
+              prize: [
+              { type: 0, value: 4, count: 1 }
+              ],
+                  tit: L("openBoxTitle1"),
+                  txt: L("openBoxTxt1")
+          }
+      },
+      ];
+      return cfg.forEach(function(e) {
+        return libs.helper.getPositionOnLeaderboard(LeaderboardIdx.BuyLikeWomen, 'nobody', e.from, e.to, function(err, result) {
+          return result.board.name.forEach(function(name, idx) {
+            var infoStr;
+            libs.db.deliverMessage(name, e.mail);
+            infoStr = ' from:' + e.from + ' to: ' + e.to + ' rank:' + result.board.score[idx];
+            return logInfo({
+              action: 'leadboradPrize',
+              index: 0,
+              msg: infoStr
+            });
+          });
+        });
+      });
+    }
+  },
+  openBox2:{
+    time: {
+        month:1,
+        monthday: 25,
+        hour:20,
     },
     func:function(libs){
       cfg = [
@@ -464,11 +529,10 @@ exports.intervalEvent = {
               type: MESSAGE_TYPE_SystemReward,
               src: MESSAGE_REWARD_TYPE_SYSTEM,
               prize: [
-              { type: 2, count: 100 },
-              { type: 0, value: 878, count: 1 }
+              { type: 0, value: 1624, count: 1 }
               ],
-                  tit: L("openBoxTitle"),
-                  txt: L("openBoxTxt1")
+                  tit: L("openBoxTitle2"),
+                  txt: L("openBoxTxt21")
           }
       }, {
           from: 1,
@@ -477,12 +541,25 @@ exports.intervalEvent = {
               type: MESSAGE_TYPE_SystemReward,
               src: MESSAGE_REWARD_TYPE_SYSTEM,
               prize: [
-              { type: 2, count: 100 }
+              { type: 0, value: 1625,count: 1}
               ],
-                  tit: L("openBoxTitle"),
-                  txt: L("openBoxTxt2")
+                  tit: L("openBoxTitle2"),
+                  txt: L("openBoxTxt22")
+          }
+      },{
+          from: 10,
+          to: 49,
+          mail: {
+              type: MESSAGE_TYPE_SystemReward,
+              src: MESSAGE_REWARD_TYPE_SYSTEM,
+              prize: [
+              { type: 0, value: 1626,count: 1}
+              ],
+                  tit: L("openBoxTitle2"),
+                  txt: L("openBoxTxt23")
           }
       },
+
       ];
       return cfg.forEach(function(e) {
         return libs.helper.getPositionOnLeaderboard(LeaderboardIdx.BuyLikeWomen, 'nobody', e.from, e.to, function(err, result) {
