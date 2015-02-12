@@ -682,7 +682,17 @@ exports.data = {
         "battleForeNo1":"恭喜你成為戰鬥力冠軍，點擊領取獎勵。",
         "LongLiveTheKing":"恭喜你成為競技場冠軍，點擊領取獎勵。",
         "just4Test":"測試服小福利",
-        "just4Test_txt":"祝各位2015萬事如意"
+        "just4Test_txt":"祝各位2015萬事如意",
+        "chargeDiamondTitle":"",
+        "chargeDiamondTxt_1":"",
+        "chargeDiamondTxt_2":"",
+        "chargeDiamondTxt_3":"",
+        "openBoxTitle1":"",
+        "openBoxTxt1":"",
+        "openBoxTitle2":"",
+        "openBoxTxt21":"",
+        "openBoxTxt22":"",
+        "openBoxTxt23":"",
 
     }
 };
