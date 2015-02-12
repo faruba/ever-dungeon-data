@@ -683,16 +683,15 @@ exports.data = {
         "LongLiveTheKing":"恭喜你成為競技場冠軍，點擊領取獎勵。",
         "just4Test":"測試服小福利",
         "just4Test_txt":"祝各位2015萬事如意",
-        "chargeDiamondTitle":"",
-        "chargeDiamondTxt_1":"",
-        "chargeDiamondTxt_2":"",
-        "chargeDiamondTxt_3":"",
-        "openBoxTitle1":"",
-        "openBoxTxt1":"",
-        "openBoxTitle2":"",
-        "openBoxTxt21":"",
-        "openBoxTxt22":"",
-        "openBoxTxt23":"",
-
+        "chargeDiamondTitle":"新年“壕”不停獎勵",
+        "chargeDiamondTxt_1":"恭喜你儲值金額的排名第一，點擊領取獎勵",
+        "chargeDiamondTxt_2":"恭喜你儲值金額的排名前十，點擊領取獎勵",
+        "chargeDiamondTxt_3":"恭喜你儲值金額的排名前五十，點擊領取獎勵",
+        "openBoxTitle1":"情人節活動獎勵",
+        "openBoxTxt1":"恭喜你登上寶箱抽取排行榜前十，點擊領取獎勵",
+        "openBoxTitle2":"羊年寶箱抽取活動獎勵",
+        "openBoxTxt21":"恭喜你登上寶箱抽取排行榜第一，點擊領取獎勵",
+        "openBoxTxt22":"恭喜你登上寶箱抽取排行榜前十，點擊領取獎勵",
+        "openBoxTxt23":"恭喜你登上寶箱抽取排行榜前五十，點擊領取獎勵"
     }
 };

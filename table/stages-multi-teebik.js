@@ -2203,6 +2203,23 @@ var data = [
                 "formularId":1,
                 condition: function (obj, util) { return true; },
                 initialAction: function (obj) { }
+            },
+            {
+                stageId: 151,
+                cost: 10,
+                team: 3,
+                hidden: true,
+                dungeon: 160,
+                description: "Goblin1",
+                eventName: "event_goblin",
+                condition: checkGoblin,
+                initialAction: function (obj) {
+                    if (obj.counters.goblin) {
+                        obj.counters.goblin++;
+                    } else {
+                        obj.counters['goblin'] = 1;
+                    }
+                }
             }
         ]
     },
@@ -2232,7 +2249,7 @@ var data = [
         "idx": 11,
         "style": "map-dungeon11",
         "title":"dungeonname11.png",
-        "label":"2-1",
+        "label":"邪恶巢穴",
         "desc":"領主塔卡的宮殿，卡塔不僅擁有強大的傭兵\n軍團，據稱他已經掌握了未知力量。",
         "icon":"mapicon6.png",
         "stage":[
@@ -2353,7 +2370,7 @@ var data = [
         "idx": 12,
         "style": "map-dungeon11",
         "title":"dungeonname11.png",
-        "label":"2-2",
+        "label":"地狱峡谷",
         "desc":"領主塔卡的宮殿，卡塔不僅擁有強大的傭兵\n軍團，據稱他已經掌握了未知力量。",
         "icon":"mapicon6.png",
         "stage":[

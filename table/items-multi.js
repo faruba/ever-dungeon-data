@@ -108,7 +108,6 @@ exports.data = [
 	{
 		"classId": 4,
 		"label": "魅力之眼",
-		"icon": "rfasion-glass-icon.png",
 		"category": 1,
 		"subcategory": 15,
 		"description": "具有魅惑之力的眼睛，能提高个人的魅力。\n" +
@@ -119,13 +118,21 @@ exports.data = [
 		"effectf": [
 			{
 				"part": "eye",
-				"file": "avatar-eye.ccbi"
+				"file": "avatar-3-eye-blue.ccbi"
+			},
+			{
+				"part": "brow",
+				"file": "avatar-3-brow.ccbi"
 			}
 		],
 		"effectm": [
 			{
 				"part": "eye",
-				"file": "avatar-eye-2.ccbi"
+				"file": "avatar-3-eye-blue-2.ccbi"
+			},
+			{
+				"part": "brow",
+				"file": "avatar-3-brow-2.ccbi"
 			}
 		],
 		"basic_properties": {
@@ -137,7 +144,9 @@ exports.data = [
 			"reactivity": 10,
 			"speed": 10
 		},
-		"storeOnly": true
+		"storeOnly": true,
+		"iconf": "rfasion-female-valentine-eye.png",
+		"iconm": "rfasion-male-valentine-eye.png"
 	},
 	{
 		"classId": 5,
@@ -57985,45 +57994,45 @@ exports.data = [
 		"effectf": [
 			{
 				"part": "chest",
-				"file": "ff1-chest-c.ccbi"
+				"file": "valentine-female-chest.ccbi"
 			},
 			{
 				"part": "righthand",
-				"file": "ff1-righthand-c.ccbi"
+				"file": "valentine-female-righthand.ccbi"
 			},
 			{
 				"part": "lefthand",
-				"file": "ff1-lefthand-c.ccbi"
+				"file": "valentine-female-lefthand.ccbi"
 			},
 			{
 				"part": "leftleg",
-				"file": "ff1-leftleg-c.ccbi"
+				"file": "valentine-female-leftleg.ccbi"
 			},
 			{
 				"part": "rightleg",
-				"file": "ff1-rightleg-c.ccbi"
+				"file": "valentine-female-rightleg.ccbi"
 			}
 		],
 		"effectm": [
 			{
 				"part": "chest",
-				"file": "fm1-chest-c.ccbi"
+				"file": "valentine-male-chest.ccbi"
 			},
 			{
 				"part": "righthand",
-				"file": "fm1-righthand-c.ccbi"
+				"file": "valentine-male-righthand.ccbi"
 			},
 			{
 				"part": "lefthand",
-				"file": "fm1-lefthand-c.ccbi"
+				"file": "valentine-male-lefthand.ccbi"
 			},
 			{
 				"part": "leftleg",
-				"file": "fm1-leftleg-c.ccbi"
+				"file": "valentine-male-leftleg.ccbi"
 			},
 			{
 				"part": "rightleg",
-				"file": "fm1-rightleg-c.ccbi"
+				"file": "valentine-male-rightleg.ccbi"
 			}
 		],
 		"basic_properties": {
@@ -58036,8 +58045,8 @@ exports.data = [
 			"speed": 10
 		},
 		"storeOnly": true,
-		"iconf": "rfasion-female1-cloth.png",
-		"iconm": "rfasion-male1-cloth.png"
+		"iconf": "rfasion-female-valentine-chest.png",
+		"iconm": "rfasion-male-valentine-chest.png"
 	},
 	{
 		"classId": 1623,
@@ -58050,13 +58059,13 @@ exports.data = [
 		"effectf": [
 			{
 				"part": "helmet",
-				"file": "ff1-helmet-c.ccbi"
+				"file": "valentine-female-helmet.ccbi"
 			}
 		],
 		"effectm": [
 			{
 				"part": "helmet",
-				"file": "fm1-helmet-c.ccbi"
+				"file": "valentine-male-helmet.ccbi"
 			}
 		],
 		"storeOnly": true,
@@ -58064,13 +58073,13 @@ exports.data = [
 			"health": 100,
 			"attack": 10
 		},
-		"iconf": "rfasion-female1-helmet.png",
-		"iconm": "rfasion-male1-helmet.png"
+		"iconf": "rfasion-female-valentine-helmet.png",
+		"iconm": "rfasion-male-valentine-helmet.png"
 	},
 	{
 		"classId": 1624,
 		"label": "帝皇守护",
-		"icon": "rfasion-bjgh1.png",
+		"icon": "rfasion-xngh1.png",
 		"category": 1,
 		"subcategory": 17,
 		"description": "尊贵的光环，高贵的象征。",
@@ -58095,7 +58104,7 @@ exports.data = [
 	{
 		"classId": 1625,
 		"label": "神圣守护",
-		"icon": "rfasion-bjgh1.png",
+		"icon": "rfasion-xngh2.png",
 		"category": 1,
 		"subcategory": 17,
 		"description": "稀有的光环，具有神圣的力量。",
@@ -58120,7 +58129,7 @@ exports.data = [
 	{
 		"classId": 1626,
 		"label": "圣光守护",
-		"icon": "rfasion-bjgh1.png",
+		"icon": "rfasion-xnhg3.png",
 		"category": 1,
 		"subcategory": 17,
 		"description": "精致的光环，受到圣光庇佑。",
@@ -58144,7 +58153,7 @@ exports.data = [
 	{
 		"classId": 1627,
 		"label": "神圣守护",
-		"icon": "rfasion-bjgh1.png",
+		"icon": "rfasion-xngh2.png",
 		"category": 1,
 		"subcategory": 17,
 		"description": "稀有的光环，具有神圣的力量。",
@@ -58170,7 +58179,7 @@ exports.data = [
 	{
 		"classId": 1628,
 		"label": "圣光守护",
-		"icon": "rfasion-bjgh1.png",
+		"icon": "rfasion-xngh3.png",
 		"category": 1,
 		"subcategory": 17,
 		"description": "精致的光环，受到圣光庇佑。",
