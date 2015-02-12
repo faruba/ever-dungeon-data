@@ -58073,8 +58073,8 @@ exports.data = [
             "health": 100,
             "attack": 10
         },
-        "iconf": "rfasion-female-valentine-helmet.png",
-        "iconm": "rfasion-male-valentine-helmet.png"
+        "iconf": "rfasion-female-valentine-head.png",
+        "iconm": "rfasion-male-valentine-head.png"
     },
     {
         "classId": 1624,
@@ -58129,7 +58129,7 @@ exports.data = [
     {
         "classId": 1626,
         "label": "聖光守護",
-        "icon": "rfasion-xnhg3.png",
+        "icon": "rfasion-xngh3.png",
         "category": 1,
         "subcategory": 17,
         "description": "精緻的光環，受到聖光庇佑。",
