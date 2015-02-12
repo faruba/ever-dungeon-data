@@ -58234,7 +58234,7 @@ exports.data = [
         "icon": "item-giftbox.png",
         "category": 0,
         "subcategory": 2,
-        "description": "打開即可獲得寶石獎勵。",
+        "description": "內含8~888寶石，打開即可獲得隨機寶石獎勵。",
         "stack": 99,
         "quality": 1,
         "sellGem": 15,
