@@ -367,21 +367,29 @@ exports.data = {
     timeLimitAwardMsg:{
         "show": true,
 		"type":"timeLimitAward",
+		"poster":"",
         "title":"",
         "banner":"event-banner-xssz.png",
         "description": ["開啟尊貴寶箱均有機會獲得帥氣時裝，低概率獲得永久屬性時裝"],
-        "date": "2015/02/13",
         "dateDescription": "截止日期2015年2月13日24時",
-        "duration":{beginTime:'2015-02-10 10:20:26',endTime:'2015-02-12 09:05:01'},
-		"durationDesc":{beginTime:'2015-02-10 10:20:26',endTime:'2015-02-12 09:05:01'}
+		"durationDesc":[{beginTime:'2015-02-13 18:00:00',endTime:'2015-02-13 19:00:00'},
+					{beginTime:'2015-02-14 18:00:00',endTime:'2015-02-14 19:00:00'},
+					{beginTime:'2015-02-15 18:00:00',endTime:'2015-02-15 19:00:00'},
+					{beginTime:'2015-02-16 18:00:00',endTime:'2015-02-16 19:00:00'},
+					{beginTime:'2015-02-17 18:00:00',endTime:'2015-02-17 19:00:00'}, ]
     },
 	timeLimitAward:{
         "show": false,
-        "duration":{beginTime:'2015-02-10 10:20:26',endTime:'2015-02-12 09:05:01'},
+        "duration":[{beginTime:'2015-02-13 18:00:00',endTime:'2015-02-13 19:00:00'},
+					{beginTime:'2015-02-14 18:00:00',endTime:'2015-02-14 19:00:00'},
+					{beginTime:'2015-02-15 18:00:00',endTime:'2015-02-15 19:00:00'},
+					{beginTime:'2015-02-16 18:00:00',endTime:'2015-02-16 19:00:00'},
+					{beginTime:'2015-02-17 18:00:00',endTime:'2015-02-17 19:00:00'},
+					],
         "generation":{
             "value":1, //add one for new LimitAward
             "awards":[
-                {"type":2, "count":300 }
+			{ "type":0,"value":1623, "count":1 }
 			]
         }
     }
