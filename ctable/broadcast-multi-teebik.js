@@ -36,7 +36,7 @@ exports.data = [
     },
     {
         "broadcastId": 7,
-        "textFormat": "{N:who}剛剛{N:what}",
+        "textFormat": "{N:who}剛剛獲得了{N:what}",
         "repeat": 3
     }
 

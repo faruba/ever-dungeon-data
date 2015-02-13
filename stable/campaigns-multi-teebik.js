@@ -97,17 +97,18 @@ exports.data = {
         "show": true,
         "type":"timeLimitAward",
         "poster":"baozang-bg2-valentine",
-        "title":"情人节浪漫来袭",
+        "title":"情人節浪漫來襲",
         "banner":"event-banner-qrj.png",
         "description": [
-            "浪漫头饰限时送，浪漫套装、精美表情全面登场",
-            "** \n浪漫头饰每日18时免费抢",
+            "浪漫頭飾限時送，浪漫套裝、精美表情全面登場",
+            "** \n浪漫頭飾每日18時免費搶",
             "##[{\"type\":0,\"value\":1623,\"count\":1}]",
-            "** \n宝箱抽取有机会获得浪漫套装",
+            "** \n寶箱抽取有機會獲得浪漫套裝",
             "##[{\"type\":0,\"value\":1622,\"count\":1}]",
-            "** \n截止活动结束宝箱抽取排名前50名获得魅力之眼",
+            "** \n截止活動結束寶箱抽取排名前50名獲得魅力之眼",
             "##[{\"type\":0,\"value\":4,\"count\":1}]"
         ],
+        "date": "2015/02/17",
         "dateDescription": "截止日期2015年2月17日24時",
         "durationDesc":[{beginTime:'2015-02-13 18:00:00',endTime:'2015-02-13 19:00:00'},
             {beginTime:'2015-02-14 18:00:00',endTime:'2015-02-14 19:00:00'},
@@ -399,15 +400,16 @@ exports.data = {
         "banner":"event-banner-xssz.png",
         "description": ["開啟尊貴寶箱均有機會獲得帥氣時裝，低概率獲得永久屬性時裝"],
         "date": "2015/02/12",
-        "dateDescription": "截止日期2015年2月12日24時"
+        "dateDescription": "截止日期2015年2月12日24時",
+        "duration":{beginTime:'2015-02-26 00:00:00',endTime:'2015-03-05 23:59:59'}
     },
     "newYears1": {
         "show": true,
-        "title": "新年红包送不停",
-        "banner":"event-banner-xssz.png",
+        "title": "新年紅包送不停",
+        "banner":"event-banner-xn6.png",
         "description": [
-            "口袋红包无限派送，最高返宝石100%",
-            "***活动期间每储值888宝石就有机会获得：",
+            "口袋紅包無限派送，最高返寶石100%",
+            "***活動期間每儲值888寶石就會獲得：",
             "##[{\"type\":0,\"value\":1630,\"count\":1}]"
         ],
         "date": "2015/02/21",
@@ -416,11 +418,11 @@ exports.data = {
     },
     "newYears2": {
         "show": true,
-        "title": "口袋陪你过新年",
-        "banner":"event-banner-xssz.png",
+        "title": "口袋陪你過新年",
+        "banner":"event-banner-xn5.png",
         "description": [
-            "限时关卡每日挑战，众多奖励等你来拿",
-            "***每日开放高奖励关卡，击败土豪哥布林就有豪华奖励。"
+            "限時關卡每日挑戰，眾多獎勵等你來拿",
+            "***每日開放高獎勵關卡，擊敗土豪哥布林就有豪華獎勵。"
         ],
         "date": "2015/02/25",
         "dateDescription": "截止日期2015年2月25日24時",
@@ -428,17 +430,17 @@ exports.data = {
     },
     "newYears3": {
         "show": true,
-        "title": "羊年限定装扮强势登场",
-        "banner":"event-banner-xssz.png",
+        "title": "羊年限定裝扮強勢登場",
+        "banner":"event-banner-xn4.png",
         "description": [
-            "羊年限定专属装扮现已加入至尊宝箱，抽取排行前50更能获得超稀有的顶级装扮",
-            "***活动期间抽取宝箱有机会获得：",
+            "羊年限定專屬裝扮現已加入至尊寶箱，抽取排行前50更能獲得超稀有的頂級裝扮",
+            "***活動期間抽取寶箱有機會獲得：",
             "##[{\"type\":0,\"value\":1627,\"count\":1},{\"type\":0,\"value\":1628,\"count\":1}]",
-            "** \n排行第1名将获得",
+            "** \n排行第1名將獲得",
             "##[{\"type\":0,\"value\":1624,\"count\":1}]",
-            "** \n排行前10名将获得",
+            "** \n排行前10名將獲得",
             "##[{\"type\":0,\"value\":1625,\"count\":1}]",
-            "** \n排行前50名将获得",
+            "** \n排行前50名將獲得",
             "##[{\"type\":0,\"value\":1626,\"count\":1}]"
         ],
         "date": "2015/02/25",
@@ -448,14 +450,14 @@ exports.data = {
     "newYears4": {
         "show": true,
         "title": "新年壕不停",
-        "banner":"event-banner-xssz.png",
+        "banner":"event-banner-xn3.png",
         "description": [
-            "充值有礼惊喜不断（涉及奖励 时装碎片 万能碎片 x手甲图纸）",
-            "** \n活动期间充值排行第1名将获得",
+            "充值有禮驚喜不斷（涉及獎勵 時裝碎片 萬能碎片 x手甲圖紙）",
+            "** \n活動期間充值排行第1名將獲得",
             "##[{\"type\":0,\"value\":1480,\"count\":1},{\"type\":0,\"value\":5,\"count\":3},{\"type\":0,\"value\":1617,\"count\":5}]",
-            "** \n充值前10名将获得",
+            "** \n充值前10名將獲得",
             "##[{\"type\":0,\"value\":5,\"count\":1},{\"type\":0,\"value\":1617,\"count\":3}]",
-            "** \n充值前50名将获得",
+            "** \n充值前50名將獲得",
             "##[{\"type\":0,\"value\":1617,\"count\":3}]"
         ],
         "date": "2015/02/25",
@@ -464,11 +466,11 @@ exports.data = {
     },
     "newYears5": {
         "show": true,
-        "title": "年货大礼包",
-        "banner":"event-banner-xssz.png",
+        "title": "年貨大禮包",
+        "banner":"event-banner-xn2.png",
         "description": [
-            "新春大礼包限时团购，超值的道具绝不能错过",
-            "***新春大礼包开放团购，每日限购1次，内含体力药水、复活药水、扫荡卷轴",
+            "新春大禮包限時團購，超值的道具絕不能錯過",
+            "***新春大禮包開放團購，每日限購1次，內含體力藥水、復活藥水、掃蕩卷軸",
             "##[{\"type\":0,\"value\":1629,\"count\":1}]"
         ],
         "date": "2015/03/05",
@@ -477,18 +479,30 @@ exports.data = {
     },
     "newYears6": {
         "show": true,
-        "title": "春节新衣大放送",
-        "banner":"event-banner-xssz.png",
+        "poster":"baozang-bg2-ironsuit3",
+        "title": "春節新衣大放送",
+        "banner":"event-banner-xn1.png",
         "description": [
-            "高阶时装抽取几率提升500%",
-            "***新春高阶时装大放送",
-            "** \n2015/02/18-2015/02/21",
-            "##[{\"type\":0,\"value\":1588,\"count\":1},{\"type\":0,\"value\":1589,\"count\":1},{\"type\":0,\"value\":1590,\"count\":1},{\"type\":0,\"value\":1591,\"count\":1}]",
-            "** \n2015/02/22-2015/02/25",
+            "高階時裝抽取幾率提升500%",
+            "***新春高階時裝大放送",
+            "##[{\"type\":0,\"value\":1588,\"count\":1},{\"type\":0,\"value\":1589,\"count\":1},{\"type\":0,\"value\":1590,\"count\":1},{\"type\":0,\"value\":1591,\"count\":1}]"
+        ],
+        "date": "2015/02/25",
+        "dateDescription": "截止日期2015年2月21日24時",
+        "duration":{beginTime:'2015-02-18 00:00:00',endTime:'2015-02-21 23:59:59'}
+    },
+    "newYears7": {
+        "show": true,
+        "poster":"baozang-bg2-ironsuit4",
+        "title": "春節新衣大放送",
+        "banner":"event-banner-xn1.png",
+        "description": [
+            "高階時裝抽取幾率提升500%",
+            "***新春高階時裝大放送",
             "##[{\"type\":0,\"value\":1592,\"count\":1},{\"type\":0,\"value\":1593,\"count\":1},{\"type\":0,\"value\":1594,\"count\":1},{\"type\":0,\"value\":1595,\"count\":1}]"
         ],
         "date": "2015/02/25",
         "dateDescription": "截止日期2015年2月25日24時",
-        "duration":{beginTime:'2015-02-18 00:00:00',endTime:'2015-02-25 23:59:59'}
+        "duration":{beginTime:'2015-02-22 00:00:00',endTime:'2015-02-25 23:59:59'}
     }
 };
