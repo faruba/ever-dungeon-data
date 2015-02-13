@@ -45,7 +45,8 @@ exports.data = [
 				"file": "wing-sszy.ccbi"
 			}
 		],
-		"storeOnly": true
+		"storeOnly": true,
+		"quality": 3
     },
     {
         "classId": 1,
@@ -73,7 +74,8 @@ exports.data = [
                 "file": "wing-emzy.ccbi"
             }
         ],
-        "storeOnly": true
+        "storeOnly": true,
+		"quality": 3
     },
 	{
 		"classId": 2,
@@ -88,7 +90,8 @@ exports.data = [
 				"file": "godring.ccbi"
 			}
 		],
-		"storeOnly": true
+		"storeOnly": true,
+		"quality": 3
 	},
 	{
 		"classId": 3,
@@ -20351,8 +20354,8 @@ exports.data = [
 			"attack": 30,
 			"accuracy": 60
 		},
-		"iconf": "rfasion-female1-helmet.png",
-		"iconm": "rfasion-male1-helmet.png"
+		"iconf": "rfasion-female1-hat.png",
+		"iconm": "rfasion-male1-hat.png"
 	},
 	{
 		"classId": 553,
@@ -21846,8 +21849,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female1-helmet.png",
-		"iconm": "rfasion-male1-helmet.png"
+		"iconf": "rfasion-female1-hat.png",
+		"iconm": "rfasion-male1-hat.png"
 	},
 	{
 		"classId": 616,
@@ -21925,8 +21928,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female3-helmet.png",
-		"iconm": "rfasion-male3-helmet.png"
+		"iconf": "rfasion-female3-hat.png",
+		"iconm": "rfasion-male3-hat.png"
 	},
 	{
 		"classId": 618,
@@ -22004,8 +22007,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female4-helmet.png",
-		"iconm": "rfasion-male4-helmet.png"
+		"iconf": "rfasion-female4-hat.png",
+		"iconm": "rfasion-male4-hat.png"
 	},
 	{
 		"classId": 620,
@@ -22083,8 +22086,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female5-helmet.png",
-		"iconm": "rfasion-male5-helmet.png"
+		"iconf": "rfasion-female5-hat.png",
+		"iconm": "rfasion-male5-hat.png"
 	},
 	{
 		"classId": 622,
@@ -58045,8 +58048,8 @@ exports.data = [
 			"speed": 10
 		},
 		"storeOnly": true,
-		"iconf": "rfasion-female-valentine-chest.png",
-		"iconm": "rfasion-male-valentine-chest.png"
+		"iconf": "rfasion-female-valentine-cloth.png",
+		"iconm": "rfasion-male-valentine-cloth.png"
 	},
 	{
 		"classId": 1623,
@@ -58073,8 +58076,8 @@ exports.data = [
 			"health": 100,
 			"attack": 10
 		},
-		"iconf": "rfasion-female-valentine-head.png",
-		"iconm": "rfasion-male-valentine-head.png"
+		"iconf": "rfasion-female-valentine-hat.png",
+		"iconm": "rfasion-male-valentine-hat.png"
 	},
 	{
 		"classId": 1624,
@@ -58099,7 +58102,8 @@ exports.data = [
 			"reactivity": 25,
 			"speed": 25
 		},
-		"storeOnly": true
+		"storeOnly": true,
+		"quality": 4
 	},
 	{
 		"classId": 1625,
@@ -58124,7 +58128,8 @@ exports.data = [
 			"reactivity": 10,
 			"speed": 10
 		},
-		"storeOnly": true
+		"storeOnly": true,
+		"quality": 3
 	},
 	{
 		"classId": 1626,
@@ -58148,7 +58153,8 @@ exports.data = [
 			"reactivity": 5,
 			"speed": 5
 		},
-		"storeOnly": true
+		"storeOnly": true,
+		"quality": 2
 	},
 	{
 		"classId": 1627,
@@ -58174,6 +58180,7 @@ exports.data = [
 			"speed": 10
 		},
 		"storeOnly": true,
+		"quality": 2,
 		"expiration": {day: 7}
 	},
 	{
@@ -58199,6 +58206,7 @@ exports.data = [
 			"speed": 5
 		},
 		"storeOnly": true,
+		"quality": 1,
 		"expiration": {day: 7}
 	},
 	{

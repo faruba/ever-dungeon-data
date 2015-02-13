@@ -44586,25 +44586,25 @@ exports.data = [
             {
                 "objects" :[
                     {"pool":"normalPool","from":0,to:4},
-                    {"pool":"soldierPool","from":8,to:14},
+                    {"pool":"soldierPool","from":6,to:12},
                     {"pool":"rangePool","from":0,to:3},
                     {"id": 149,"from":0,to:2},
-                    {"id": 262,"from":0,to:2,skill:[{id:153}],dropPrize:211}
+                    {"id": 262,"from":0,to:1,skill:[{id:153}],dropPrize:211}
                 ]
             },
             {
                 "objects" :[
                     {"pool":"normalPool","from":0,to:4},
-                    {"pool":"soldierPool","from":8,to:14},
+                    {"pool":"soldierPool","from":6,to:12},
                     {"pool":"rangePool","from":0,to:3},
                     {"id": 149,"from":0,to:2},
-                    {"id": 262,"from":0,to:2,skill:[{id:153}],dropPrize:211}
+                    {"id": 262,"from":0,to:1,skill:[{id:153}],dropPrize:211}
                 ]
             },
             {
                 "objects" :[
                     {"pool":"normalPool","from":0,to:4},
-                    {"pool":"soldierPool","from":8,to:14},
+                    {"pool":"soldierPool","from":6,to:12},
                     {"pool":"rangePool","from":0,to:3},
                     {"pool":"bossPool","count":1},
                     {"id": 149,"from":0,to:2},
@@ -44614,7 +44614,7 @@ exports.data = [
         "dropID":[
 
         ],
-        "prizeWxp":0,"prizeGold":0,
+        "prizeWxp":0,"prizeGold":3000,
         "prizeXp":0,
         "wxpRate":1,"goldRate":0.5,
         "xpRate":1

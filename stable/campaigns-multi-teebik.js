@@ -93,6 +93,42 @@ exports.data = {
             }
         }
     },
+    timeLimitAwardMsg:{
+        "show": true,
+        "type":"timeLimitAward",
+        "poster":"baozang-bg2-valentine",
+        "title":"情人节浪漫来袭",
+        "banner":"event-banner-qrj.png",
+        "description": [
+            "浪漫头饰限时送，浪漫套装、精美表情全面登场",
+            "** \n浪漫头饰每日18时免费抢",
+            "##[{\"type\":0,\"value\":1623,\"count\":1}]",
+            "** \n宝箱抽取有机会获得浪漫套装",
+            "##[{\"type\":0,\"value\":1622,\"count\":1}]",
+            "** \n截止活动结束宝箱抽取排名前50名获得魅力之眼",
+            "##[{\"type\":0,\"value\":4,\"count\":1}]"
+        ],
+        "dateDescription": "截止日期2015年2月17日24時",
+        "durationDesc":[{beginTime:'2015-02-13 18:00:00',endTime:'2015-02-13 19:00:00'},
+            {beginTime:'2015-02-14 18:00:00',endTime:'2015-02-14 19:00:00'},
+            {beginTime:'2015-02-15 18:00:00',endTime:'2015-02-15 19:00:00'},
+            {beginTime:'2015-02-16 18:00:00',endTime:'2015-02-16 19:00:00'},
+            {beginTime:'2015-02-17 18:00:00',endTime:'2015-02-17 19:00:00'}]
+    },
+    timeLimitAward:{
+        "show": false,
+        "duration":[{beginTime:'2015-02-13 18:00:00',endTime:'2015-02-13 19:00:00'},
+            {beginTime:'2015-02-14 18:00:00',endTime:'2015-02-14 19:00:00'},
+            {beginTime:'2015-02-15 18:00:00',endTime:'2015-02-15 19:00:00'},
+            {beginTime:'2015-02-16 18:00:00',endTime:'2015-02-16 19:00:00'},
+            {beginTime:'2015-02-17 18:00:00',endTime:'2015-02-17 19:00:00'}],
+        "generation":{
+            "value":1, //add one for new LimitAward
+            "awards":[
+                { "type":0,"value":1623, "count":1 }
+            ]
+        }
+    },
     "DuanwuCharge": {
         "show": true,
         "title": "端午粽子派送",
@@ -364,42 +400,6 @@ exports.data = {
         "description": ["開啟尊貴寶箱均有機會獲得帥氣時裝，低概率獲得永久屬性時裝"],
         "date": "2015/02/12",
         "dateDescription": "截止日期2015年2月12日24時"
-    },
-    timeLimitAwardMsg:{
-        "show": true,
-		"type":"timeLimitAward",
-		"poster":"baozang-bg2-valentine",
-        "title":"情人节浪漫来袭",
-        "banner":"event-banner-qrj.png",
-        "description": [
-            "浪漫头饰限时送，浪漫套装、精美表情全面登场",
-            "** \n浪漫头饰每日18时免费抢",
-            "##[{\"type\":0,\"value\":1623,\"count\":1}]",
-            "** \n宝箱抽取有机会获得浪漫套装",
-            "##[{\"type\":0,\"value\":1622,\"count\":1}]",
-            "** \n截止活动结束宝箱抽取排名前50名获得魅力之眼",
-            "##[{\"type\":0,\"value\":4,\"count\":1}]"
-        ],
-        "dateDescription": "截止日期2015年2月17日24時",
-		"durationDesc":[{beginTime:'2015-02-13 18:00:00',endTime:'2015-02-13 19:00:00'},
-					    {beginTime:'2015-02-14 18:00:00',endTime:'2015-02-14 19:00:00'},
-					    {beginTime:'2015-02-15 18:00:00',endTime:'2015-02-15 19:00:00'},
-					    {beginTime:'2015-02-16 18:00:00',endTime:'2015-02-16 19:00:00'},
-					    {beginTime:'2015-02-17 18:00:00',endTime:'2015-02-17 19:00:00'}]
-    },
-	timeLimitAward:{
-        "show": false,
-        "duration":[{beginTime:'2015-02-13 18:00:00',endTime:'2015-02-13 19:00:00'},
-					{beginTime:'2015-02-14 18:00:00',endTime:'2015-02-14 19:00:00'},
-					{beginTime:'2015-02-15 18:00:00',endTime:'2015-02-15 19:00:00'},
-					{beginTime:'2015-02-16 18:00:00',endTime:'2015-02-16 19:00:00'},
-					{beginTime:'2015-02-17 18:00:00',endTime:'2015-02-17 19:00:00'}],
-        "generation":{
-            "value":1, //add one for new LimitAward
-            "awards":[
-			{ "type":0,"value":1623, "count":1 }
-			]
-        }
     },
     "newYears1": {
         "show": true,
