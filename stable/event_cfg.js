@@ -556,7 +556,7 @@ exports.intervalEvent = {
           }
       }, {
           from: 1,
-          to: 9,
+          to: 4,
           mail: {
               type: MESSAGE_TYPE_SystemReward,
               src: MESSAGE_REWARD_TYPE_SYSTEM,
@@ -567,8 +567,8 @@ exports.intervalEvent = {
                   txt: L("openBoxTxt22")
           }
       },{
-          from: 10,
-          to: 49,
+          from: 5,
+          to: 19,
           mail: {
               type: MESSAGE_TYPE_SystemReward,
               src: MESSAGE_REWARD_TYPE_SYSTEM,

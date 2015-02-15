@@ -14,7 +14,10 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "受到了大天使的加護的羽翼。",
+        "description": "受到了大天使的加護的羽翼。\n" +
+                       "附加屬性：生命+180 攻擊+10 暴擊+15\n" +
+                       "　　　　　韌性+40 命中+25 回避+25\n" +
+                       "　　　　　速度+25",
         "effecta": [
             {
                 "part": "avatar-wing-1",
@@ -63,7 +66,10 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "與惡魔簽訂契約得到巨大的力量的羽翼",
+        "description": "與惡魔簽訂契約得到巨大的力量的羽翼。\n" +
+                       "附加屬性：生命+90 攻擊+25 暴擊+40\n" +
+                       "　　　　　韌性+15 命中+25 回避+25\n" +
+                       "　　　　　速度+25",
         "effecta": [
             {
                 "part": "avatar-wing1",
@@ -20060,7 +20066,7 @@ exports.data = [
         "label": "法師時裝",
         "category": 1,
         "subcategory": 12,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "chest",
@@ -20123,7 +20129,7 @@ exports.data = [
         "label": "法師頭盔",
         "category": 1,
         "subcategory": 13,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "helmet",
@@ -20139,7 +20145,7 @@ exports.data = [
         "label": "法師頭髮",
         "category": 1,
         "subcategory": 14,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "hair",
@@ -20159,7 +20165,7 @@ exports.data = [
         "label": "法師其他",
         "category": 1,
         "subcategory": 15,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "eye",
@@ -20179,7 +20185,7 @@ exports.data = [
         "label": "戰士時裝",
         "category": 1,
         "subcategory": 12,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "chest",
@@ -20211,7 +20217,7 @@ exports.data = [
         "label": "戰士頭髮",
         "category": 1,
         "subcategory": 14,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "hair",
@@ -20227,7 +20233,7 @@ exports.data = [
         "label": "戰士其他",
         "category": 1,
         "subcategory": 15,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "eye",
@@ -20379,7 +20385,7 @@ exports.data = [
         "label": "牧師衣服",
         "category": 1,
         "subcategory": 12,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "chest",
@@ -20411,7 +20417,7 @@ exports.data = [
         "label": "牧師頭盔",
         "category": 1,
         "subcategory": 13,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "helmet",
@@ -20427,7 +20433,7 @@ exports.data = [
         "label": "牧師頭髮",
         "category": 1,
         "subcategory": 14,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "hair",
@@ -20447,7 +20453,7 @@ exports.data = [
         "label": "牧師其他",
         "category": 1,
         "subcategory": 15,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "eye",
@@ -21703,7 +21709,7 @@ exports.data = [
         "label": "法師翅膀",
         "category": 1,
         "subcategory": 16,
-        "description": "光明的意思是會發光的，不是透明的的⋯⋯",
+        "description": "光明的意思是會發光的，不是透明的的……",
         "effecta": [
             {
                 "part": "avatar-wing-1",
@@ -58145,7 +58151,7 @@ exports.data = [
         "subcategory": 17,
         "description": "精緻的光環，受到聖光庇佑。\n" +
                        "附加屬性：生命+150 攻擊+10 暴擊+5\n" +
-                       "　　　　　速度+5 命中+5 回避+5\n",
+                       "　　　　　命中+5 回避+5 速度+5",
         "recipePrize": 209,
         "effecta": [
             {
@@ -58170,10 +58176,10 @@ exports.data = [
         "icon": "rfasion-xngh2.png",
         "category": 1,
         "subcategory": 17,
-        "description":  "稀有的光環，具有神聖的力量。\n" +
-                        "附加屬性：生命+250 攻擊+25 暴擊+10\n" +
-                        "　　　　　韌性+10 命中+10 回避+10\n" +
-                        "　　　　　速度+10",
+        "description": "稀有的光環，具有神聖的力量。\n" +
+                       "附加屬性：生命+250 攻擊+25 暴擊+10\n" +
+                       "　　　　　韌性+10 命中+10 回避+10\n" +
+                       "　　　　　速度+10",
         "sellprice": 1500,
         "effecta": [
             {
@@ -58202,7 +58208,7 @@ exports.data = [
         "subcategory": 17,
         "description": "精緻的光環，受到聖光庇佑。\n" +
                        "附加屬性：生命+150 攻擊+10 暴擊+5\n" +
-                       "　　　　　速度+5 命中+5 回避+5\n",
+                       "　　　　　命中+5 回避+5 速度+5",
         "sellprice": 500,
         "effecta": [
             {
