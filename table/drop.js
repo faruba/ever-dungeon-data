@@ -8338,12 +8338,12 @@ exports.data = [
 					"count": 388
 				},
 				{
-					"weight": 10,
+					"weight": 30,
 					"type": 2,
 					"count": 188
 				},
 				{
-					"weight": 6,
+					"weight": 30,
 					"type": 2,
 					"count": 88
 				},
