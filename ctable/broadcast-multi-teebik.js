@@ -33,6 +33,13 @@ exports.data = [
         "broadcastId": 6,
         "textFormat": "公告{N:data}",
         "repeat": 5
+    },
+    {
+        "broadcastId": 7,
+        "textFormat": "{N:who}剛剛{N:what}",
+        "repeat": 3
     }
+
+
 
 ];

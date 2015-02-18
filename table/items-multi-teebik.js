@@ -58082,7 +58082,10 @@ exports.data = [
         "icon": "rfasion-xngh1.png",
         "category": 1,
         "subcategory": 17,
-        "description": "尊貴的光環，高貴的象徵。",
+        "description": "尊貴的光環，高貴的象徵。\n" +
+                       "附加屬性：生命+500 攻擊+50 暴擊+25\n" +
+                       "　　　　　韌性+25 命中+25 回避+25\n" +
+                       "　　　　　速度+25",
         "recipePrize": 207,
         "effecta": [
             {
@@ -58107,7 +58110,10 @@ exports.data = [
         "icon": "rfasion-xngh2.png",
         "category": 1,
         "subcategory": 17,
-        "description": "稀有的光環，具有神聖的力量。",
+        "description": "稀有的光環，具有神聖的力量。\n" +
+                       "附加屬性：生命+250 攻擊+25 暴擊+10\n" +
+                       "　　　　　韌性+10 命中+10 回避+10\n" +
+                       "　　　　　速度+10",
         "recipePrize": 208,
         "effecta": [
             {
@@ -58132,7 +58138,9 @@ exports.data = [
         "icon": "rfasion-xngh3.png",
         "category": 1,
         "subcategory": 17,
-        "description": "精緻的光環，受到聖光庇佑。",
+        "description": "精緻的光環，受到聖光庇佑。\n" +
+                       "附加屬性：生命+150 攻擊+10 暴擊+5\n" +
+                       "　　　　　速度+5 命中+5 回避+5\n",
         "recipePrize": 209,
         "effecta": [
             {
@@ -58156,7 +58164,10 @@ exports.data = [
         "icon": "rfasion-xngh2.png",
         "category": 1,
         "subcategory": 17,
-        "description": "稀有的光環，具有神聖的力量。",
+        "description":  "稀有的光環，具有神聖的力量。\n" +
+                        "附加屬性：生命+250 攻擊+25 暴擊+10\n" +
+                        "　　　　　韌性+10 命中+10 回避+10\n" +
+                        "　　　　　速度+10",
         "sellprice": 1500,
         "effecta": [
             {
@@ -58182,7 +58193,9 @@ exports.data = [
         "icon": "rfasion-xngh3.png",
         "category": 1,
         "subcategory": 17,
-        "description": "精緻的光環，受到聖光庇佑。",
+        "description": "精緻的光環，受到聖光庇佑。\n" +
+                       "附加屬性：生命+150 攻擊+10 暴擊+5\n" +
+                       "　　　　　速度+5 命中+5 回避+5\n",
         "sellprice": 500,
         "effecta": [
             {
