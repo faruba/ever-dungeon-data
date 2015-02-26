@@ -289,5 +289,53 @@ exports.data = [
             }
 
         ]
+    },
+    {
+        "bountyId":5,
+        "title":"口袋陪你过新年",
+        "desc":"哥布林中的土豪出现了！趁他们逃跑之前击倒，有机会获得复活药水、体力、宝石奖励!",
+        "count":2,
+        "date":{
+            "year":[2015],
+            "month":[1],
+            "date":[18,19,20,21,22,23,24,25],
+            "segment":[
+                {
+                    "start":"16:00",
+                    "end":"23:59"
+                }
+            ]
+        },
+        "begin":1,
+        "titlePic":"bounty-icon3.png",
+        "timePic":"bounty-time3.png",
+        "prizePic":"bounty-iconjb.png",
+        "notify":1,
+        "notifyButton":"拿下",
+        "notifyText":"报⋯⋯！发现一群哥布林土豪，请老大立刻拿下它们！",
+        "level":[
+            {
+                "powerLimit":0,
+                "stage":151,
+                "prize":[
+                    {
+                        "type": 0,
+                        "value": 871
+                    },
+                    {
+                        "type": 0,
+                        "value":540
+                    },
+                    {
+                        "type": 0,
+                        "value":538
+                    },
+                    {
+                        "type": 2
+                    }
+                ]
+
+            }
+        ]
     }
 ]

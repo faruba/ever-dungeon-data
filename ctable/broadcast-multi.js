@@ -28,5 +28,10 @@ exports.data = [
         "broadcastId": 5,
         "textFormat": "{N:who}成功打造出了{I:out}！",
         "repeat": 3
+    },
+    {
+        "broadcastId": 6,
+        "textFormat": "公告{N:data}",
+        "repeat": 3
     }
 ];

@@ -5646,5 +5646,2713 @@ exports.data = [
                 }
             ]
         }
-    ]
+    ],
+    [ //149
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 5,
+                    "func": "setFlag",
+                    "flag": "horizonChange",
+                    "value": true
+                }
+            ]
+        }
+    ],
+    [ //150
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 5,
+                    "func": "setFlag",
+                    "flag": "verticalChange",
+                    "value": true
+                }
+            ]
+        }
+    ],
+    [ //151
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 1800
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 837,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 849,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //152
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 1800
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 838,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 849,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //153
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 1800
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 839,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 850,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //154
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 1800
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 840,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 850,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [//155
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 1800
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 841,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 851,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //156
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 1800
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 842,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 851,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //157
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 1800
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 843,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 852,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //158
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 450
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 837,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 849,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //159
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 450
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 838,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 849,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //160
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 450
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 839,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 850,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //161
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 450
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 840,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 850,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [//162
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 450
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 841,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 851,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //163
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 450
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 842,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 851,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //164
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 450
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 843,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 852,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //165
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 400
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 837,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 849,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 857,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //166
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 400
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 838,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 849,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 857,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //167
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 400
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 839,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 850,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 857,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //168
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 400
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 840,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 850,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 857,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [//169
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 400
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 841,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 851,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 857,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //170
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 400
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 842,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 851,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 857,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //171
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 400
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 843,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 852,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 857,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //172
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 1600
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 837,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 849,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 857,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 857,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 857,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //173
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 1600
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 838,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 849,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 857,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 857,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 857,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //174
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 1600
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 839,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 850,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 857,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 857,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 857,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //175
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 1600
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 840,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 850,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 857,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 857,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 857,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [//176
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 1600
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 841,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 851,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 857,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 857,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 857,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //177
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 1600
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 842,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 851,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 857,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 857,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 857,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //178
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 1600
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 843,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 852,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 857,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 857,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 857,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //179
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 1100
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1419,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1423,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //180
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 1100
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1420,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1423,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //181
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 1100
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1421,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1424,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //182
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 1100
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1422,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1424,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //183
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 1100
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1419,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1425,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //184
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 1100
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1420,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1425,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //185
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 1100
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1421,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1426,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //186
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 4500
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1419,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1423,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //187
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 4500
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1420,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1423,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //188
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 4500
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1421,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1424,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //189
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 4500
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1422,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1424,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //190
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 4500
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1419,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1425,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //191
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 4500
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1420,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1425,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //192
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 4500
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1421,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1426,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1470,
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //193
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 1600
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1422,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1426,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //194
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 1600
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1419,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1427,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //195
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 1600
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1420,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1427,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //196
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 1600
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1421,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1428,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //197
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 1600
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1422,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1428,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //198
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 1600
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1419,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1429,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //199
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 20,
+                    "type": 1,
+                    "count": 1600
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1420,
+                    "count": 1
+                },
+                {
+                    "weight": 5,
+                    "type": 0,
+                    "value": 1429,
+                    "count": 1
+                },
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                }
+            ]
+        }
+    ],
+    [ //200
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 6500
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1422,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1426,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //201
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 6500
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1419,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1427,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //202
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 6500
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1420,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1427,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //203
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 6500
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1421,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1428,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //204
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 6500
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1422,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1428,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //205
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 6500
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1421,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1429,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+    [ //206
+        {
+            "rate": 1,
+            "prize": [
+                {
+                    "weight": 1,
+                    "type": 1,
+                    "count": 6500
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1422,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.1,
+            "prize": [
+                {
+                    "weight": 2,
+                    "type": 0,
+                    "value": 1429,
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "rate": 0.4,
+            "prize": [
+                {
+                    "weight": 10,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 1
+                },
+                {
+                    "weight": 3,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 3
+                },
+                {
+                    "weight": 1,
+                    "type": 0,
+                    "value": 1471,
+                    "count": 5
+                }
+            ]
+        }
+    ],
+	[//207
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 5,
+					"count": 3
+				}
+			]
+		}
+	],
+	[//208
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 5,
+					"count": 2
+				}
+			]
+		}
+	],
+	[//209
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 5,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//210
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 5,
+					"count": 1
+				},
+				{
+					"weight": 98,
+					"type": 0,
+					"value": 1617,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//211
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 871,
+					"count": 3
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value":540,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value":538,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 2,
+					"count": 50
+				}
+			]
+		}
+	],
+	[//212
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 2,
+					"count": 888
+				},
+				{
+					"weight": 2,
+					"type": 2,
+					"count": 668
+				},
+				{
+					"weight": 10,
+					"type": 2,
+					"count": 388
+				},
+				{
+					"weight": 30,
+					"type": 2,
+					"count": 188
+				},
+				{
+					"weight": 30,
+					"type": 2,
+					"count": 88
+				},
+				{
+					"weight": 4,
+					"type": 2,
+					"count": 8
+				}
+			]
+		}
+	]
 ]

@@ -19,6 +19,10 @@ exports.data = {
         "tutorialStage": 6,
         "refuseDialogue": 59
     },
+    "pvp":{
+        "powerLimit": 1000,
+        "refuseDialogue": 76
+    },
     "dissolve":{
         "tutorialStage": 7,
         "refuseDialogue": 60
@@ -30,6 +34,14 @@ exports.data = {
     "dailyQuest":{
         "flag":"daily",
         "refuseDialogue":66
+    },
+    "horizonChange":{
+        "flag":"horizonChange",
+        "refuseDialogue":68
+    },
+    "verticalChange":{
+        "flag":"verticalChange",
+        "refuseDialogue":69
     },
     "tutorialTriggers":{
         "1":{

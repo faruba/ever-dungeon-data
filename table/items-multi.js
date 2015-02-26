@@ -1,105 +1,171 @@
 exports.data = [
-	{
-		"classId": 0,
-		"label": "七色宝石",
-		"icon": "stone1.png",
-		"category": 2,
-		"subcategory": 0,
-		"description": "随机强化生命、攻击、暴击、韧性、命中、反应、速度7项基础属性的宝石。",
-		"stack": 99,
-		"sellprice": 50,
-		"transPrize": [
+    {
+        "classId": 0,
+        "label": "神圣之翼",
+        "icon": "item-wing-sszy.png",
+        "category": 1,
+        "subcategory": 16,
+        "basic_properties": {
+            "health": 180,
+            "attack": 10,
+            "critical": 15,
+            "strong": 40,
+            "accuracy": 25,
+            "reactivity": 25,
+            "speed": 25
+        },
+        "description": "受到了大天使的加护的羽翼。\n" +
+					   "附加属性：生命+180 攻击+10 暴击+15\n" +
+					   "　　　　　韧性+40 命中+25 回避+25\n" +
+					   "　　　　　速度+25",
+        "effecta": [
 			{
-				"type": 0,
-				"value": 853,
-				"count": 1
-			}
-		]
-	},
-	{
-		"classId": 1,
-		"label": "五彩宝石",
-		"icon": "stone2.png",
-		"category": 2,
-		"subcategory": 1,
-		"description": "随机强化吸血、暴击伤害、连击、反伤、击晕5项高阶属性的稀有宝石。",
-		"stack": 99,
-		"sellprice": 800,
-		"transPrize": [
+				"part": "avatar-wing-1",
+				"file": "wing1-1.ccbi"
+			},
 			{
-				"type": 0,
-				"value": 853,
-				"count": 2
+				"part": "avatar-wing-2",
+				"file": "wing1-1.ccbi"
+			},
+			{
+				"part": "avatar-wing-3",
+				"file": "wing1-1.ccbi"
+			},
+			{
+				"part": "avatar-wing-4",
+				"file": "wing1-1.ccbi"
+			},
+			{
+				"part": "avatar-wing-5",
+				"file": "wing1-1.ccbi"
+			},
+			{
+				"part": "avatar-wing1",
+				"file": "wing-sszy.ccbi"
+			},
+			{
+				"part": "avatar-wing2",
+				"file": "wing-sszy.ccbi"
 			}
-		]
-	},
+		],
+		"storeOnly": true,
+		"quality": 3
+    },
+    {
+        "classId": 1,
+        "label": "恶魔之翼",
+        "icon": "item-wing-emzy.png",
+        "category": 1,
+        "subcategory": 16,
+        "basic_properties": {
+            "health": 90,
+            "attack": 25,
+            "critical": 40,
+            "strong": 15,
+            "accuracy": 25,
+            "reactivity": 25,
+            "speed": 25
+        },
+        "description": "与恶魔签订契约得到巨大的力量的羽翼。\n" +
+					   "附加属性：生命+90 攻击+25 暴击+40\n" +
+					   "　　　　　韧性+15 命中+25 回避+25\n" +
+					   "　　　　　速度+25",
+        "effecta": [
+            {
+                "part": "avatar-wing1",
+                "file": "wing-emzy.ccbi"
+            },
+            {
+                "part": "avatar-wing2",
+                "file": "wing-emzy.ccbi"
+            }
+        ],
+        "storeOnly": true,
+		"quality": 3
+    },
 	{
 		"classId": 2,
-		"label": "三色宝石",
-		"icon": "stone3.png",
-		"category": 2,
-		"subcategory": 2,
-		"description": "随机强化经验、熟练、金币3项特殊属性的宝石。",
-		"stack": 99,
-		"sellprice": 300,
-		"transPrize": [
+		"label": "妖精的加护",
+		"icon": "rfasion-bjgh1.png",
+		"category": 1,
+		"subcategory": 17,
+		"description": "妖精的水晶，蕴含着强大且神秘的力量。",
+		"effecta": [
 			{
-				"type": 0,
-				"value": 853,
-				"count": 2
+				"part": "effect",
+				"file": "godring.ccbi"
 			}
-		]
+		],
+		"storeOnly": true,
+		"quality": 3
 	},
 	{
 		"classId": 3,
-		"label": "力量之石",
-		"icon": "stone4.png",
-		"category": 2,
-		"subcategory": 3,
-		"description": "能够强化攻击属性的宝石。",
-		"stack": 99,
-		"sellprice": 300,
-		"transPrize": [
+		"label": "萌系眼镜",
+		"icon": "rfasion-glass-icon.png",
+		"category": 1,
+		"subcategory": 18,
+		"description": "最近在勇者中流行的一种饰品。",
+		"effecta": [
 			{
-				"type": 0,
-				"value": 853,
-				"count": 2
+				"part": "glass",
+				"file": "rfasion-glass1.ccbi"
 			}
-		]
+		],
+		"storeOnly": true
 	},
 	{
 		"classId": 4,
-		"label": "生命之石",
-		"icon": "stone5.png",
-		"category": 2,
-		"subcategory": 4,
-		"description": "能够强化生命属性的宝石。",
-		"stack": 99,
-		"sellprice": 300,
-		"transPrize": [
+		"label": "魅力之眼",
+		"category": 1,
+		"subcategory": 15,
+		"description": "具有魅惑之力的眼睛，能提高个人的魅力。\n" +
+		               "附加属性：生命+150 攻击+15 暴击+10\n" +
+		               "　　　　　韧性+10 命中+10 回避+10\n" +
+		               "　　　　　速度+10",
+		"recipePrize": 210,
+		"effectf": [
 			{
-				"type": 0,
-				"value": 853,
-				"count": 2
+				"part": "eye",
+				"file": "avatar-3-eye-blue.ccbi"
+			},
+			{
+				"part": "brow",
+				"file": "avatar-3-brow.ccbi"
 			}
-		]
+		],
+		"effectm": [
+			{
+				"part": "eye",
+				"file": "avatar-3-eye-blue-2.ccbi"
+			},
+			{
+				"part": "brow",
+				"file": "avatar-3-brow-2.ccbi"
+			}
+		],
+		"basic_properties": {
+			"health": 150,
+			"attack": 15,
+			"critical": 10,
+			"strong": 10,
+			"accuracy": 10,
+			"reactivity": 10,
+			"speed": 10
+		},
+		"storeOnly": true,
+		"iconf": "rfasion-female-valentine-eye.png",
+		"iconm": "rfasion-male-valentine-eye.png"
 	},
 	{
 		"classId": 5,
-		"label": "迅敏之石",
-		"icon": "stone6.png",
-		"category": 2,
-		"subcategory": 5,
-		"description": "能够强化速度属性的宝石",
+		"label": "万能碎片",
+		"icon": "rfasion-sp.png",
+		"category": 4,
+		"description": "神奇的物品，可以代替高级套装的碎片",
 		"stack": 99,
-		"sellprice": 300,
-		"transPrize": [
-			{
-				"type": 0,
-				"value": 853,
-				"count": 2
-			}
-		]
+		"sellprice": 500,
+		"quality": 4
 	},
 	{
 		"classId": 6,
@@ -14781,7 +14847,7 @@ exports.data = [
 		"classLimit": [
 			1
 		],
-		"quality": 3,
+		"quality": 4,
 		"rank": 7,
 		"upgradeTarget": 359,
 		"basic_properties": {
@@ -19993,8 +20059,7 @@ exports.data = [
 		"category": 4,
 		"description": "在战斗中可以使全队复活的神奇药水。",
 		"stack": 25,
-		"sellprice": 300,
-		"storeOnly": true
+		"sellprice": 300
 	},
 	{
 		"classId": 541,
@@ -20210,7 +20275,10 @@ exports.data = [
 		"label": "荣誉套装",
 		"category": 1,
 		"subcategory": 12,
-		"description": "兼顾外形与力量，是荣誉的象征。",
+		"extraSlots": [19,20],
+		"description": "兼顾外形与力量，是荣誉的象征。\n" +
+		               "附加属性：生命+550 攻击+50 暴击+15\n" +
+		               "　　　　　韧性+60",
 		"sellprice": 1500,
 		"effectf": [
 			{
@@ -20257,8 +20325,10 @@ exports.data = [
 			}
 		],
 		"basic_properties": {
-			"health": 30,
-			"attack": 8
+			"health": 550,
+			"attack": 50,
+			"critical": 15,
+			"strong": 60
 		},
 		"storeOnly": true,
 		"iconf": "rfasion-female1-cloth.png",
@@ -20269,7 +20339,8 @@ exports.data = [
 		"label": "荣誉头冠",
 		"category": 1,
 		"subcategory": 13,
-		"description": "荣誉的象征，并且拥有专注力量的祝福。",
+		"description": "荣誉的象征，并且拥有专注力量的祝福。\n" +
+		               "附加属性：生命+200 攻击+30 命中+60",
 		"sellprice": 500,
 		"effectf": [
 			{
@@ -20285,10 +20356,12 @@ exports.data = [
 		],
 		"storeOnly": true,
 		"basic_properties": {
-			"accuracy": 10
+			"health": 200,
+			"attack": 30,
+			"accuracy": 60
 		},
-		"iconf": "rfasion-female1-helmet.png",
-		"iconm": "rfasion-male1-helmet.png"
+		"iconf": "rfasion-female1-hat.png",
+		"iconm": "rfasion-male1-hat.png"
 	},
 	{
 		"classId": 553,
@@ -21711,6 +21784,7 @@ exports.data = [
 		"label": "荣誉套装",
 		"category": 1,
 		"subcategory": 12,
+		"extraSlots": [19,20],
 		"description": "兼顾外形与力量，是荣誉的象征。",
 		"sellprice": 1500,
 		"effectf": [
@@ -21781,14 +21855,15 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female1-helmet.png",
-		"iconm": "rfasion-male1-helmet.png"
+		"iconf": "rfasion-female1-hat.png",
+		"iconm": "rfasion-male1-hat.png"
 	},
 	{
 		"classId": 616,
 		"label": "礼仪套装",
 		"category": 1,
 		"subcategory": 12,
+		"extraSlots": [19,20],
 		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
 		"sellprice": 1500,
 		"effectf": [
@@ -21859,14 +21934,15 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female3-helmet.png",
-		"iconm": "rfasion-male3-helmet.png"
+		"iconf": "rfasion-female3-hat.png",
+		"iconm": "rfasion-male3-hat.png"
 	},
 	{
 		"classId": 618,
 		"label": "和风套装",
 		"category": 1,
 		"subcategory": 12,
+		"extraSlots": [19,20],
 		"description": "和风的气息扑面而来。",
 		"sellprice": 1500,
 		"effectf": [
@@ -21937,14 +22013,15 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female4-helmet.png",
-		"iconm": "rfasion-male4-helmet.png"
+		"iconf": "rfasion-female4-hat.png",
+		"iconm": "rfasion-male4-hat.png"
 	},
 	{
 		"classId": 620,
 		"label": "喵喵套装",
 		"category": 1,
 		"subcategory": 12,
+		"extraSlots": [19,20],
 		"description": "懒洋洋套装，软软肉球招人喜爱。",
 		"sellprice": 1500,
 		"effectf": [
@@ -22015,8 +22092,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female5-helmet.png",
-		"iconm": "rfasion-male5-helmet.png"
+		"iconf": "rfasion-female5-hat.png",
+		"iconm": "rfasion-male5-hat.png"
 	},
 	{
 		"classId": 622,
@@ -28009,6 +28086,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 880,
         "basic_properties": {
             "health": 300,
@@ -28055,6 +28133,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 881,
         "basic_properties": {
             "health": 306,
@@ -28067,7 +28146,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 17,
+        "forgeID": 45,
         "forgeTarget": 885,
         "iconf": "f-w-foot5.png",
         "iconm": "m-w-foot5.png"
@@ -28103,6 +28182,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 882,
         "basic_properties": {
             "health": 312,
@@ -28115,7 +28195,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 17,
+        "forgeID": 45,
         "forgeTarget": 886,
         "iconf": "f-w-foot5.png",
         "iconm": "m-w-foot5.png"
@@ -28151,6 +28231,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 883,
         "basic_properties": {
             "health": 318,
@@ -28163,7 +28244,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 17,
+        "forgeID": 45,
         "forgeTarget": 887,
         "iconf": "f-w-foot5.png",
         "iconm": "m-w-foot5.png"
@@ -28199,6 +28280,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 884,
         "basic_properties": {
             "health": 324,
@@ -28211,7 +28293,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 17,
+        "forgeID": 45,
         "forgeTarget": 888,
         "iconf": "f-w-foot5.png",
         "iconm": "m-w-foot5.png"
@@ -28247,6 +28329,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 330,
             "attack": 45,
@@ -28258,7 +28341,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 17,
+        "forgeID": 45,
         "forgeTarget": 889,
         "iconf": "f-w-foot5.png",
         "iconm": "m-w-foot5.png"
@@ -28294,6 +28377,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 886,
         "basic_properties": {
             "health": 312,
@@ -28340,6 +28424,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 887,
         "basic_properties": {
             "health": 318,
@@ -28352,7 +28437,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 23,
+        "forgeID": 51,
         "forgeTarget": 891,
         "iconf": "f-w-foot4.png",
         "iconm": "m-w-foot4.png"
@@ -28388,6 +28473,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 888,
         "basic_properties": {
             "health": 324,
@@ -28400,7 +28486,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 23,
+        "forgeID": 51,
         "forgeTarget": 892,
         "iconf": "f-w-foot4.png",
         "iconm": "m-w-foot4.png"
@@ -28436,6 +28522,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 889,
         "basic_properties": {
             "health": 330,
@@ -28448,7 +28535,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 23,
+        "forgeID": 51,
         "forgeTarget": 893,
         "iconf": "f-w-foot4.png",
         "iconm": "m-w-foot4.png"
@@ -28484,6 +28571,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 890,
         "basic_properties": {
             "health": 336,
@@ -28496,7 +28584,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 23,
+        "forgeID": 51,
         "forgeTarget": 894,
         "iconf": "f-w-foot4.png",
         "iconm": "m-w-foot4.png"
@@ -28532,6 +28620,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 342,
             "attack": 47,
@@ -28543,7 +28632,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 23,
+        "forgeID": 51,
         "forgeTarget": 895,
         "iconf": "f-w-foot4.png",
         "iconm": "m-w-foot4.png"
@@ -28553,7 +28642,7 @@ exports.data = [
         "label": "深渊战靴",
         "category": 1,
         "subcategory": 4,
-            "description": "工艺精良，设计华丽，且不失实用",
+		"description": "工艺精良，设计华丽，且不失实用",
         "effectf": [
             {
                 "part": "leftleg",
@@ -28579,6 +28668,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 892,
         "basic_properties": {
             "health": 324,
@@ -28625,6 +28715,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 893,
         "basic_properties": {
             "health": 330,
@@ -28637,7 +28728,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 29,
+        "forgeID": 57,
         "forgeTarget": 897,
         "iconf": "f-w-foot3.png",
         "iconm": "m-w-foot3.png"
@@ -28673,6 +28764,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 894,
         "basic_properties": {
             "health": 336,
@@ -28685,7 +28777,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 29,
+        "forgeID": 57,
         "forgeTarget": 898,
         "iconf": "f-w-foot3.png",
         "iconm": "m-w-foot3.png"
@@ -28721,6 +28813,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 895,
         "basic_properties": {
             "health": 342,
@@ -28733,7 +28826,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 29,
+        "forgeID": 57,
         "forgeTarget": 899,
         "iconf": "f-w-foot3.png",
         "iconm": "m-w-foot3.png"
@@ -28769,6 +28862,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 896,
         "basic_properties": {
             "health": 348,
@@ -28781,7 +28875,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 29,
+        "forgeID": 57,
         "forgeTarget": 900,
         "iconf": "f-w-foot3.png",
         "iconm": "m-w-foot3.png"
@@ -28817,6 +28911,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 354,
             "attack": 49,
@@ -28828,7 +28923,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 29,
+        "forgeID": 57,
         "forgeTarget": 901,
         "iconf": "f-w-foot3.png",
         "iconm": "m-w-foot3.png"
@@ -28864,6 +28959,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 898,
         "basic_properties": {
             "health": 336,
@@ -28910,6 +29006,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 899,
         "basic_properties": {
             "health": 342,
@@ -28922,7 +29019,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 35,
+        "forgeID": 63,
         "forgeTarget": 903,
         "iconf": "f-w-foot2.png",
         "iconm": "m-w-foot2.png"
@@ -28958,6 +29055,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 900,
         "basic_properties": {
             "health": 348,
@@ -28970,7 +29068,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 35,
+        "forgeID": 63,
         "forgeTarget": 904,
         "iconf": "f-w-foot2.png",
         "iconm": "m-w-foot2.png"
@@ -29006,6 +29104,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 901,
         "basic_properties": {
             "health": 354,
@@ -29018,7 +29117,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 35,
+        "forgeID": 63,
         "forgeTarget": 905,
         "iconf": "f-w-foot2.png",
         "iconm": "m-w-foot2.png"
@@ -29054,6 +29153,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 902,
         "basic_properties": {
             "health": 360,
@@ -29066,7 +29166,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 35,
+        "forgeID": 63,
         "forgeTarget": 906,
         "iconf": "f-w-foot2.png",
         "iconm": "m-w-foot2.png"
@@ -29102,6 +29202,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 366,
             "attack": 51,
@@ -29113,7 +29214,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 35,
+        "forgeID": 63,
         "forgeTarget": 907,
         "iconf": "f-w-foot2.png",
         "iconm": "m-w-foot2.png"
@@ -29149,6 +29250,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 904,
         "basic_properties": {
             "health": 348,
@@ -29195,6 +29297,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 905,
         "basic_properties": {
             "health": 354,
@@ -29241,6 +29344,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 906,
         "basic_properties": {
             "health": 360,
@@ -29287,6 +29391,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 907,
         "basic_properties": {
             "health": 366,
@@ -29333,6 +29438,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 908,
         "basic_properties": {
             "health": 372,
@@ -29415,14 +29521,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn5-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -29441,14 +29539,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn5-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -29456,6 +29546,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 910,
         "basic_properties": {
             "health": 500,
@@ -29493,14 +29584,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn5-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -29519,14 +29602,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn5-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -29534,6 +29609,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 911,
         "basic_properties": {
             "health": 508,
@@ -29546,7 +29622,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 18,
+        "forgeID": 46,
         "forgeTarget": 915,
         "iconf": "f-w-chest5.png",
         "iconm": "m-w-chest5.png"
@@ -29573,14 +29649,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn5-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -29599,14 +29667,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn5-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -29614,6 +29674,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 912,
         "basic_properties": {
             "health": 516,
@@ -29626,7 +29687,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 18,
+        "forgeID": 46,
         "forgeTarget": 916,
         "iconf": "f-w-chest5.png",
         "iconm": "m-w-chest5.png"
@@ -29653,14 +29714,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn5-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -29679,14 +29732,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn5-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -29694,6 +29739,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 913,
         "basic_properties": {
             "health": 524,
@@ -29706,7 +29752,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 18,
+        "forgeID": 46,
         "forgeTarget": 917,
         "iconf": "f-w-chest5.png",
         "iconm": "m-w-chest5.png"
@@ -29733,14 +29779,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn5-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -29759,14 +29797,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn5-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -29774,6 +29804,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 914,
         "basic_properties": {
             "health": 532,
@@ -29786,7 +29817,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 18,
+        "forgeID": 46,
         "forgeTarget": 918,
         "iconf": "f-w-chest5.png",
         "iconm": "m-w-chest5.png"
@@ -29813,14 +29844,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn5-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -29839,14 +29862,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn5-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -29854,6 +29869,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 540,
             "attack": 35,
@@ -29865,7 +29881,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 18,
+        "forgeID": 46,
         "forgeTarget": 919,
         "iconf": "f-w-chest5.png",
         "iconm": "m-w-chest5.png"
@@ -29892,14 +29908,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn4-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -29918,14 +29926,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn4-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -29933,6 +29933,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 916,
         "basic_properties": {
             "health": 516,
@@ -29970,14 +29971,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn4-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -29996,14 +29989,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn4-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30011,6 +29996,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 917,
         "basic_properties": {
             "health": 524,
@@ -30023,7 +30009,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 24,
+        "forgeID": 52,
         "forgeTarget": 921,
         "iconf": "f-w-chest4.png",
         "iconm": "m-w-chest4.png"
@@ -30050,14 +30036,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn4-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30076,14 +30054,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn4-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30091,6 +30061,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 918,
         "basic_properties": {
             "health": 532,
@@ -30103,7 +30074,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 24,
+        "forgeID": 52,
         "forgeTarget": 922,
         "iconf": "f-w-chest4.png",
         "iconm": "m-w-chest4.png"
@@ -30130,14 +30101,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn4-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30156,14 +30119,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn4-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30171,6 +30126,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 919,
         "basic_properties": {
             "health": 540,
@@ -30183,7 +30139,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 24,
+        "forgeID": 52,
         "forgeTarget": 923,
         "iconf": "f-w-chest4.png",
         "iconm": "m-w-chest4.png"
@@ -30210,14 +30166,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn4-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30236,14 +30184,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn4-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30251,6 +30191,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 920,
         "basic_properties": {
             "health": 548,
@@ -30263,7 +30204,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 24,
+        "forgeID": 52,
         "forgeTarget": 924,
         "iconf": "f-w-chest4.png",
         "iconm": "m-w-chest4.png"
@@ -30290,14 +30231,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn4-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30316,14 +30249,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn4-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30331,6 +30256,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 556,
             "attack": 36,
@@ -30342,7 +30268,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 24,
+        "forgeID": 52,
         "forgeTarget": 925,
         "iconf": "f-w-chest4.png",
         "iconm": "m-w-chest4.png"
@@ -30369,14 +30295,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn3-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30395,14 +30313,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn3-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30410,6 +30320,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 922,
         "basic_properties": {
             "health": 532,
@@ -30422,8 +30333,6 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 24,
-        "forgeTarget": 921,
         "iconf": "f-w-chest3.png",
         "iconm": "m-w-chest3.png"
     },
@@ -30449,14 +30358,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn3-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30475,14 +30376,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn3-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30490,6 +30383,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 923,
         "basic_properties": {
             "health": 540,
@@ -30502,7 +30396,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 30,
+        "forgeID": 58,
         "forgeTarget": 927,
         "iconf": "f-w-chest3.png",
         "iconm": "m-w-chest3.png"
@@ -30529,14 +30423,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn3-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30555,14 +30441,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn3-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30570,6 +30448,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 924,
         "basic_properties": {
             "health": 548,
@@ -30582,7 +30461,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 30,
+        "forgeID": 58,
         "forgeTarget": 928,
         "iconf": "f-w-chest3.png",
         "iconm": "m-w-chest3.png"
@@ -30609,14 +30488,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn3-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30635,14 +30506,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn3-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30650,6 +30513,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 925,
         "basic_properties": {
             "health": 556,
@@ -30662,7 +30526,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 30,
+        "forgeID": 58,
         "forgeTarget": 929,
         "iconf": "f-w-chest3.png",
         "iconm": "m-w-chest3.png"
@@ -30689,14 +30553,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn3-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30715,14 +30571,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn3-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30730,6 +30578,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 926,
         "basic_properties": {
             "health": 564,
@@ -30742,7 +30591,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 30,
+        "forgeID": 58,
         "forgeTarget": 930,
         "iconf": "f-w-chest3.png",
         "iconm": "m-w-chest3.png"
@@ -30769,14 +30618,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn3-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30795,14 +30636,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn3-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30810,6 +30643,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 572,
             "attack": 37,
@@ -30821,7 +30655,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 30,
+        "forgeID": 58,
         "forgeTarget": 931,
         "iconf": "f-w-chest3.png",
         "iconm": "m-w-chest3.png"
@@ -30848,14 +30682,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn2-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30874,14 +30700,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30889,6 +30707,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 928,
         "basic_properties": {
             "health": 548,
@@ -30926,14 +30745,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn2-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -30952,14 +30763,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -30967,6 +30770,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 929,
         "basic_properties": {
             "health": 556,
@@ -30979,7 +30783,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 36,
+        "forgeID": 64,
         "forgeTarget": 933,
         "iconf": "f-w-chest2.png",
         "iconm": "m-w-chest2.png"
@@ -31006,14 +30810,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn2-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31032,14 +30828,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31047,6 +30835,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 930,
         "basic_properties": {
             "health": 564,
@@ -31059,7 +30848,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 36,
+        "forgeID": 64,
         "forgeTarget": 934,
         "iconf": "f-w-chest2.png",
         "iconm": "m-w-chest2.png"
@@ -31086,14 +30875,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn2-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31112,14 +30893,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31127,6 +30900,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 931,
         "basic_properties": {
             "health": 572,
@@ -31139,7 +30913,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 36,
+        "forgeID": 64,
         "forgeTarget": 935,
         "iconf": "f-w-chest2.png",
         "iconm": "m-w-chest2.png"
@@ -31166,14 +30940,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn2-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31192,14 +30958,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31207,6 +30965,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 932,
         "basic_properties": {
             "health": 580,
@@ -31219,7 +30978,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 36,
+        "forgeID": 64,
         "forgeTarget": 936,
         "iconf": "f-w-chest2.png",
         "iconm": "m-w-chest2.png"
@@ -31246,14 +31005,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn2-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31272,14 +31023,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31287,6 +31030,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 588,
             "attack": 39,
@@ -31298,7 +31042,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 36,
+        "forgeID": 64,
         "forgeTarget": 937,
         "iconf": "f-w-chest2.png",
         "iconm": "m-w-chest2.png"
@@ -31325,14 +31069,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31351,14 +31087,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31366,6 +31094,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 934,
         "basic_properties": {
             "health": 564,
@@ -31403,14 +31132,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31429,14 +31150,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31444,6 +31157,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 935,
         "basic_properties": {
             "health": 572,
@@ -31481,14 +31195,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31507,14 +31213,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31522,6 +31220,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 936,
         "basic_properties": {
             "health": 580,
@@ -31559,14 +31258,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31585,14 +31276,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31600,6 +31283,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 937,
         "basic_properties": {
             "health": 588,
@@ -31637,14 +31321,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31663,14 +31339,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31678,6 +31346,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 938,
         "basic_properties": {
             "health": 596,
@@ -31715,14 +31384,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "f-warriorn-helmet1-2.ccbi"
             }
         ],
         "effectm": [
@@ -31741,14 +31402,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-warriorn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-warriorn-helmet1.ccbi"
-            },
-            {
-                "part": "helmet2",
-                "file": "m-warriorn2-helmet1-2.ccbi"
             }
         ],
         "classLimit": [
@@ -31801,6 +31454,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 940,
         "basic_properties": {
             "health": 300,
@@ -31845,6 +31499,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 941,
         "basic_properties": {
             "health": 306,
@@ -31855,7 +31510,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 19,
+        "forgeID": 47,
         "forgeTarget": 945,
         "iconf": "f-w-mainweapon2-5.png",
         "iconm": "m-w-mainweapon2-5.png"
@@ -31891,6 +31546,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 942,
         "basic_properties": {
             "health": 312,
@@ -31901,7 +31557,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 19,
+        "forgeID": 47,
         "forgeTarget": 946,
         "iconf": "f-w-mainweapon2-5.png",
         "iconm": "m-w-mainweapon2-5.png"
@@ -31937,6 +31593,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 943,
         "basic_properties": {
             "health": 318,
@@ -31947,7 +31604,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 19,
+        "forgeID": 47,
         "forgeTarget": 947,
         "iconf": "f-w-mainweapon2-5.png",
         "iconm": "m-w-mainweapon2-5.png"
@@ -31983,6 +31640,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 944,
         "basic_properties": {
             "health": 324,
@@ -31993,7 +31651,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 19,
+        "forgeID": 47,
         "forgeTarget": 948,
         "iconf": "f-w-mainweapon2-5.png",
         "iconm": "m-w-mainweapon2-5.png"
@@ -32029,6 +31687,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 330,
             "attack": 68,
@@ -32038,7 +31697,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 19,
+        "forgeID": 47,
         "forgeTarget": 949,
         "iconf": "f-w-mainweapon2-5.png",
         "iconm": "m-w-mainweapon2-5.png"
@@ -32074,6 +31733,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 946,
         "basic_properties": {
             "health": 312,
@@ -32118,6 +31778,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 947,
         "basic_properties": {
             "health": 318,
@@ -32128,7 +31789,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 25,
+        "forgeID": 53,
         "forgeTarget": 951,
         "iconf": "f-w-mainweapon2-4.png",
         "iconm": "m-w-mainweapon2-4.png"
@@ -32164,6 +31825,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 948,
         "basic_properties": {
             "health": 324,
@@ -32174,7 +31836,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 25,
+        "forgeID": 53,
         "forgeTarget": 952,
         "iconf": "f-w-mainweapon2-4.png",
         "iconm": "m-w-mainweapon2-4.png"
@@ -32210,6 +31872,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 949,
         "basic_properties": {
             "health": 330,
@@ -32220,7 +31883,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 25,
+        "forgeID": 53,
         "forgeTarget": 953,
         "iconf": "f-w-mainweapon2-4.png",
         "iconm": "m-w-mainweapon2-4.png"
@@ -32256,6 +31919,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 950,
         "basic_properties": {
             "health": 336,
@@ -32266,7 +31930,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 25,
+        "forgeID": 53,
         "forgeTarget": 954,
         "iconf": "f-w-mainweapon2-4.png",
         "iconm": "m-w-mainweapon2-4.png"
@@ -32302,6 +31966,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 342,
             "attack": 71,
@@ -32311,7 +31976,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 25,
+        "forgeID": 53,
         "forgeTarget": 955,
         "iconf": "f-w-mainweapon2-4.png",
         "iconm": "m-w-mainweapon2-4.png"
@@ -32347,6 +32012,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 952,
         "basic_properties": {
             "health": 324,
@@ -32391,6 +32057,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 953,
         "basic_properties": {
             "health": 330,
@@ -32401,7 +32068,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 31,
+        "forgeID": 59,
         "forgeTarget": 957,
         "iconf": "f-w-mainweapon2-3.png",
         "iconm": "m-w-mainweapon2-3.png"
@@ -32437,6 +32104,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 954,
         "basic_properties": {
             "health": 336,
@@ -32447,7 +32115,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 31,
+        "forgeID": 59,
         "forgeTarget": 958,
         "iconf": "f-w-mainweapon2-3.png",
         "iconm": "m-w-mainweapon2-3.png"
@@ -32483,6 +32151,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 955,
         "basic_properties": {
             "health": 342,
@@ -32493,7 +32162,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 31,
+        "forgeID": 59,
         "forgeTarget": 959,
         "iconf": "f-w-mainweapon2-3.png",
         "iconm": "m-w-mainweapon2-3.png"
@@ -32529,6 +32198,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 956,
         "basic_properties": {
             "health": 348,
@@ -32539,7 +32209,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 31,
+        "forgeID": 59,
         "forgeTarget": 960,
         "iconf": "f-w-mainweapon2-3.png",
         "iconm": "m-w-mainweapon2-3.png"
@@ -32575,6 +32245,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 354,
             "attack": 75,
@@ -32584,7 +32255,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 31,
+        "forgeID": 59,
         "forgeTarget": 961,
         "iconf": "f-w-mainweapon2-3.png",
         "iconm": "m-w-mainweapon2-3.png"
@@ -32620,6 +32291,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 958,
         "basic_properties": {
             "health": 336,
@@ -32664,6 +32336,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 959,
         "basic_properties": {
             "health": 342,
@@ -32674,7 +32347,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 37,
+        "forgeID": 65,
         "forgeTarget": 963,
         "iconf": "f-w-mainweapon2-2.png",
         "iconm": "m-w-mainweapon2-2.png"
@@ -32710,6 +32383,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 960,
         "basic_properties": {
             "health": 348,
@@ -32720,7 +32394,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 37,
+        "forgeID": 65,
         "forgeTarget": 964,
         "iconf": "f-w-mainweapon2-2.png",
         "iconm": "m-w-mainweapon2-2.png"
@@ -32756,6 +32430,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 961,
         "basic_properties": {
             "health": 354,
@@ -32766,7 +32441,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 37,
+        "forgeID": 65,
         "forgeTarget": 965,
         "iconf": "f-w-mainweapon2-2.png",
         "iconm": "m-w-mainweapon2-2.png"
@@ -32802,6 +32477,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 962,
         "basic_properties": {
             "health": 360,
@@ -32812,7 +32488,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 37,
+        "forgeID": 65,
         "forgeTarget": 966,
         "iconf": "f-w-mainweapon2-2.png",
         "iconm": "m-w-mainweapon2-2.png"
@@ -32848,6 +32524,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 366,
             "attack": 78,
@@ -32857,7 +32534,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 37,
+        "forgeID": 65,
         "forgeTarget": 967,
         "iconf": "f-w-mainweapon2-2.png",
         "iconm": "m-w-mainweapon2-2.png"
@@ -32893,6 +32570,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 964,
         "basic_properties": {
             "health": 348,
@@ -32937,6 +32615,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 965,
         "basic_properties": {
             "health": 354,
@@ -32981,6 +32660,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 966,
         "basic_properties": {
             "health": 360,
@@ -33025,6 +32705,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 967,
         "basic_properties": {
             "health": 366,
@@ -33069,6 +32750,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 968,
         "basic_properties": {
             "health": 372,
@@ -33150,6 +32832,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 970,
         "basic_properties": {
             "health": 300,
@@ -33189,6 +32872,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 971,
         "basic_properties": {
             "health": 306,
@@ -33200,7 +32884,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 20,
+        "forgeID": 48,
         "forgeTarget": 975,
         "iconf": "f-w-mainweapon1-5.png",
         "iconm": "m-w-mainweapon1-5.png"
@@ -33230,6 +32914,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 972,
         "basic_properties": {
             "health": 312,
@@ -33241,7 +32926,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 20,
+        "forgeID": 48,
         "forgeTarget": 976,
         "iconf": "f-w-mainweapon1-5.png",
         "iconm": "m-w-mainweapon1-5.png"
@@ -33271,6 +32956,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 973,
         "basic_properties": {
             "health": 318,
@@ -33282,7 +32968,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 20,
+        "forgeID": 48,
         "forgeTarget": 977,
         "iconf": "f-w-mainweapon1-5.png",
         "iconm": "m-w-mainweapon1-5.png"
@@ -33312,6 +32998,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 974,
         "basic_properties": {
             "health": 324,
@@ -33323,7 +33010,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 20,
+        "forgeID": 48,
         "forgeTarget": 978,
         "iconf": "f-w-mainweapon1-5.png",
         "iconm": "m-w-mainweapon1-5.png"
@@ -33353,6 +33040,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 330,
             "attack": 90,
@@ -33363,7 +33051,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 20,
+        "forgeID": 48,
         "forgeTarget": 979,
         "iconf": "f-w-mainweapon1-5.png",
         "iconm": "m-w-mainweapon1-5.png"
@@ -33393,6 +33081,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 976,
         "basic_properties": {
             "health": 312,
@@ -33432,6 +33121,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 977,
         "basic_properties": {
             "health": 318,
@@ -33443,7 +33133,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 26,
+        "forgeID": 54,
         "forgeTarget": 981,
         "iconf": "f-w-mainweapon1-4.png",
         "iconm": "m-w-mainweapon1-4.png"
@@ -33473,6 +33163,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 978,
         "basic_properties": {
             "health": 324,
@@ -33484,7 +33175,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 26,
+        "forgeID": 54,
         "forgeTarget": 982,
         "iconf": "f-w-mainweapon1-4.png",
         "iconm": "m-w-mainweapon1-4.png"
@@ -33514,6 +33205,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 979,
         "basic_properties": {
             "health": 330,
@@ -33525,7 +33217,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 26,
+        "forgeID": 54,
         "forgeTarget": 983,
         "iconf": "f-w-mainweapon1-4.png",
         "iconm": "m-w-mainweapon1-4.png"
@@ -33555,6 +33247,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 980,
         "basic_properties": {
             "health": 336,
@@ -33566,7 +33259,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 26,
+        "forgeID": 54,
         "forgeTarget": 984,
         "iconf": "f-w-mainweapon1-4.png",
         "iconm": "m-w-mainweapon1-4.png"
@@ -33596,6 +33289,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 342,
             "attack": 94,
@@ -33606,7 +33300,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 26,
+        "forgeID": 54,
         "forgeTarget": 985,
         "iconf": "f-w-mainweapon1-4.png",
         "iconm": "m-w-mainweapon1-4.png"
@@ -33636,6 +33330,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 982,
         "basic_properties": {
             "health": 324,
@@ -33675,6 +33370,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 983,
         "basic_properties": {
             "health": 330,
@@ -33686,7 +33382,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 32,
+        "forgeID": 60,
         "forgeTarget": 987,
         "iconf": "f-w-mainweapon1-3.png",
         "iconm": "m-w-mainweapon1-3.png"
@@ -33716,6 +33412,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 984,
         "basic_properties": {
             "health": 336,
@@ -33727,7 +33424,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 32,
+        "forgeID": 60,
         "forgeTarget": 988,
         "iconf": "f-w-mainweapon1-3.png",
         "iconm": "m-w-mainweapon1-3.png"
@@ -33757,6 +33454,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 985,
         "basic_properties": {
             "health": 342,
@@ -33768,7 +33466,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 32,
+        "forgeID": 60,
         "forgeTarget": 989,
         "iconf": "f-w-mainweapon1-3.png",
         "iconm": "m-w-mainweapon1-3.png"
@@ -33798,6 +33496,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 986,
         "basic_properties": {
             "health": 348,
@@ -33809,7 +33508,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 32,
+        "forgeID": 60,
         "forgeTarget": 990,
         "iconf": "f-w-mainweapon1-3.png",
         "iconm": "m-w-mainweapon1-3.png"
@@ -33839,6 +33538,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 354,
             "attack": 98,
@@ -33849,7 +33549,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 32,
+        "forgeID": 60,
         "forgeTarget": 991,
         "iconf": "f-w-mainweapon1-3.png",
         "iconm": "m-w-mainweapon1-3.png"
@@ -33879,6 +33579,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 988,
         "basic_properties": {
             "health": 336,
@@ -33918,6 +33619,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 989,
         "basic_properties": {
             "health": 342,
@@ -33929,7 +33631,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 38,
+        "forgeID": 66,
         "forgeTarget": 993,
         "iconf": "f-w-mainweapon1-2.png",
         "iconm": "m-w-mainweapon1-2.png"
@@ -33959,6 +33661,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 990,
         "basic_properties": {
             "health": 348,
@@ -33970,7 +33673,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 38,
+        "forgeID": 66,
         "forgeTarget": 994,
         "iconf": "f-w-mainweapon1-2.png",
         "iconm": "m-w-mainweapon1-2.png"
@@ -34000,6 +33703,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 991,
         "basic_properties": {
             "health": 354,
@@ -34011,7 +33715,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 38,
+        "forgeID": 66,
         "forgeTarget": 995,
         "iconf": "f-w-mainweapon1-2.png",
         "iconm": "m-w-mainweapon1-2.png"
@@ -34041,6 +33745,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 992,
         "basic_properties": {
             "health": 360,
@@ -34052,7 +33757,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 38,
+        "forgeID": 66,
         "forgeTarget": 996,
         "iconf": "f-w-mainweapon1-2.png",
         "iconm": "m-w-mainweapon1-2.png"
@@ -34082,6 +33787,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 366,
             "attack": 102,
@@ -34092,7 +33798,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 38,
+        "forgeID": 66,
         "forgeTarget": 997,
         "iconf": "f-w-mainweapon1-2.png",
         "iconm": "m-w-mainweapon1-2.png"
@@ -34122,6 +33828,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 994,
         "basic_properties": {
             "health": 348,
@@ -34161,6 +33868,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 995,
         "basic_properties": {
             "health": 354,
@@ -34200,6 +33908,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 996,
         "basic_properties": {
             "health": 360,
@@ -34239,6 +33948,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 997,
         "basic_properties": {
             "health": 366,
@@ -34278,6 +33988,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 998,
         "basic_properties": {
             "health": 372,
@@ -34342,6 +34053,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1000,
         "basic_properties": {
             "health": 300,
@@ -34368,6 +34080,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1001,
         "basic_properties": {
             "health": 306,
@@ -34381,7 +34094,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 22,
+        "forgeID": 50,
         "forgeTarget": 1005
     },
     {
@@ -34396,6 +34109,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1002,
         "basic_properties": {
             "health": 312,
@@ -34409,7 +34123,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 22,
+        "forgeID": 50,
         "forgeTarget": 1006
     },
     {
@@ -34424,6 +34138,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1003,
         "basic_properties": {
             "health": 318,
@@ -34437,7 +34152,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 22,
+        "forgeID": 50,
         "forgeTarget": 1007
     },
     {
@@ -34452,6 +34167,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1004,
         "basic_properties": {
             "health": 324,
@@ -34465,7 +34181,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 22,
+        "forgeID": 50,
         "forgeTarget": 1008
     },
     {
@@ -34480,6 +34196,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 330,
             "attack": 35,
@@ -34492,7 +34209,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 22,
+        "forgeID": 50,
         "forgeTarget": 1009
     },
     {
@@ -34507,6 +34224,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1006,
         "basic_properties": {
             "health": 312,
@@ -34533,6 +34251,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1007,
         "basic_properties": {
             "health": 318,
@@ -34546,7 +34265,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 28,
+        "forgeID": 56,
         "forgeTarget": 1011
     },
     {
@@ -34561,6 +34280,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1008,
         "basic_properties": {
             "health": 324,
@@ -34574,7 +34294,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 28,
+        "forgeID": 56,
         "forgeTarget": 1012
     },
     {
@@ -34589,6 +34309,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1009,
         "basic_properties": {
             "health": 330,
@@ -34602,7 +34323,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 28,
+        "forgeID": 56,
         "forgeTarget": 1013
     },
     {
@@ -34617,6 +34338,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1010,
         "basic_properties": {
             "health": 336,
@@ -34630,7 +34352,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 28,
+        "forgeID": 56,
         "forgeTarget": 1014
     },
     {
@@ -34645,6 +34367,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 342,
             "attack": 37,
@@ -34657,7 +34380,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 28,
+        "forgeID": 56,
         "forgeTarget": 1015
     },
     {
@@ -34672,6 +34395,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1012,
         "basic_properties": {
             "health": 324,
@@ -34698,6 +34422,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1013,
         "basic_properties": {
             "health": 330,
@@ -34711,7 +34436,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 34,
+        "forgeID": 62,
         "forgeTarget": 1017
     },
     {
@@ -34726,6 +34451,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1014,
         "basic_properties": {
             "health": 336,
@@ -34739,7 +34465,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 34,
+        "forgeID": 62,
         "forgeTarget": 1018
     },
     {
@@ -34754,6 +34480,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1015,
         "basic_properties": {
             "health": 342,
@@ -34767,7 +34494,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 34,
+        "forgeID": 62,
         "forgeTarget": 1019
     },
     {
@@ -34782,6 +34509,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1016,
         "basic_properties": {
             "health": 348,
@@ -34795,7 +34523,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 34,
+        "forgeID": 62,
         "forgeTarget": 1020
     },
     {
@@ -34810,6 +34538,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 354,
             "attack": 39,
@@ -34822,7 +34551,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 34,
+        "forgeID": 62,
         "forgeTarget": 1021
     },
     {
@@ -34837,6 +34566,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1018,
         "basic_properties": {
             "health": 336,
@@ -34863,6 +34593,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1019,
         "basic_properties": {
             "health": 342,
@@ -34876,7 +34607,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 40,
+        "forgeID": 68,
         "forgeTarget": 1023
     },
     {
@@ -34891,6 +34622,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1020,
         "basic_properties": {
             "health": 348,
@@ -34904,7 +34636,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 40,
+        "forgeID": 68,
         "forgeTarget": 1024
     },
     {
@@ -34919,6 +34651,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1021,
         "basic_properties": {
             "health": 354,
@@ -34932,7 +34665,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 40,
+        "forgeID": 68,
         "forgeTarget": 1025
     },
     {
@@ -34947,6 +34680,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1022,
         "basic_properties": {
             "health": 360,
@@ -34960,7 +34694,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 40,
+        "forgeID": 68,
         "forgeTarget": 1026
     },
     {
@@ -34975,6 +34709,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 366,
             "attack": 40,
@@ -34987,7 +34722,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 40,
+        "forgeID": 68,
         "forgeTarget": 1027
     },
     {
@@ -35002,6 +34737,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1024,
         "basic_properties": {
             "health": 348,
@@ -35028,6 +34764,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1025,
         "basic_properties": {
             "health": 354,
@@ -35054,6 +34791,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1026,
         "basic_properties": {
             "health": 360,
@@ -35080,6 +34818,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1027,
         "basic_properties": {
             "health": 366,
@@ -35106,6 +34845,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1028,
         "basic_properties": {
             "health": 372,
@@ -35147,16 +34887,36 @@ exports.data = [
     },
     {
         "classId": 1029,
-        "label": "勇者之心",
-        "icon": "ewn011.png",
+        "label": "勇者头盔",
         "category": 1,
         "subcategory": 5,
-        "description": "为消灭怪物的狂战士带来无穷的勇气",
+        "description": "被世人所认可的勇者穿戴的头盔",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1030,
         "basic_properties": {
             "health": 300,
@@ -35170,20 +34930,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet5.png",
+        "iconm": "m-w-helmet5.png"
     },
     {
         "classId": 1030,
-        "label": "勇者之心",
-        "icon": "ewn011.png",
+        "label": "勇者头盔",
         "category": 1,
         "subcategory": 5,
-        "description": "为消灭怪物的狂战士带来无穷的勇气",
+        "description": "被世人所认可的勇者穿戴的头盔",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1031,
         "basic_properties": {
             "health": 306,
@@ -35198,21 +34980,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 21,
-        "forgeTarget": 1035
+        "forgeID": 49,
+        "forgeTarget": 1035,
+        "iconf": "f-w-helmet5.png",
+        "iconm": "m-w-helmet5.png"
     },
     {
         "classId": 1031,
-        "label": "勇者之心",
-        "icon": "ewn011.png",
+        "label": "勇者头盔",
         "category": 1,
         "subcategory": 5,
-        "description": "为消灭怪物的狂战士带来无穷的勇气",
+        "description": "被世人所认可的勇者穿戴的头盔",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1032,
         "basic_properties": {
             "health": 312,
@@ -35227,21 +35031,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 21,
-        "forgeTarget": 1036
+        "forgeID": 49,
+        "forgeTarget": 1036,
+        "iconf": "f-w-helmet5.png",
+        "iconm": "m-w-helmet5.png"
     },
     {
         "classId": 1032,
-        "label": "勇者之心",
-        "icon": "ewn011.png",
+        "label": "勇者头盔",
         "category": 1,
         "subcategory": 5,
-        "description": "为消灭怪物的狂战士带来无穷的勇气",
+        "description": "被世人所认可的勇者穿戴的头盔",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1033,
         "basic_properties": {
             "health": 318,
@@ -35256,21 +35082,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 21,
-        "forgeTarget": 1037
+        "forgeID": 49,
+        "forgeTarget": 1037,
+        "iconf": "f-w-helmet5.png",
+        "iconm": "m-w-helmet5.png"
     },
     {
         "classId": 1033,
-        "label": "勇者之心",
-        "icon": "ewn011.png",
+        "label": "勇者头盔",
         "category": 1,
         "subcategory": 5,
-        "description": "为消灭怪物的狂战士带来无穷的勇气",
+        "description": "被世人所认可的勇者穿戴的头盔",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1034,
         "basic_properties": {
             "health": 324,
@@ -35285,21 +35133,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 21,
-        "forgeTarget": 1038
+        "forgeID": 49,
+        "forgeTarget": 1038,
+        "iconf": "f-w-helmet5.png",
+        "iconm": "m-w-helmet5.png"
     },
     {
         "classId": 1034,
-        "label": "勇者之心",
-        "icon": "ewn011.png",
+        "label": "勇者头盔",
         "category": 1,
         "subcategory": 5,
-        "description": "为消灭怪物的狂战士带来无穷的勇气",
+        "description": "被世人所认可的勇者穿戴的头盔",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn5-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn5-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 330,
             "attack": 32,
@@ -35313,21 +35183,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 21,
-        "forgeTarget": 1039
+        "forgeID": 49,
+        "forgeTarget": 1039,
+        "iconf": "f-w-helmet5.png",
+        "iconm": "m-w-helmet5.png"
     },
     {
         "classId": 1035,
-        "label": "角斗士之心",
-        "icon": "ewn021.png",
+        "label": "角斗士头盔",
         "category": 1,
         "subcategory": 5,
         "description": "角斗士的信念和力量的源泉",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1036,
         "basic_properties": {
             "health": 312,
@@ -35341,20 +35233,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet4.png",
+        "iconm": "m-w-helmet4.png"
     },
     {
         "classId": 1036,
-        "label": "角斗士之心",
-        "icon": "ewn021.png",
+        "label": "角斗士头盔",
         "category": 1,
         "subcategory": 5,
         "description": "角斗士的信念和力量的源泉",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1037,
         "basic_properties": {
             "health": 318,
@@ -35369,21 +35283,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 27,
-        "forgeTarget": 1041
+        "forgeID": 55,
+        "forgeTarget": 1041,
+        "iconf": "f-w-helmet4.png",
+        "iconm": "m-w-helmet4.png"
     },
     {
         "classId": 1037,
-        "label": "角斗士之心",
-        "icon": "ewn021.png",
+        "label": "角斗士头盔",
         "category": 1,
         "subcategory": 5,
         "description": "角斗士的信念和力量的源泉",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1038,
         "basic_properties": {
             "health": 324,
@@ -35398,21 +35334,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 27,
-        "forgeTarget": 1042
+        "forgeID": 55,
+        "forgeTarget": 1042,
+        "iconf": "f-w-helmet4.png",
+        "iconm": "m-w-helmet4.png"
     },
     {
         "classId": 1038,
-        "label": "角斗士之心",
-        "icon": "ewn021.png",
+        "label": "角斗士头盔",
         "category": 1,
         "subcategory": 5,
         "description": "角斗士的信念和力量的源泉",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1039,
         "basic_properties": {
             "health": 330,
@@ -35427,21 +35385,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 27,
-        "forgeTarget": 1043
+        "forgeID": 55,
+        "forgeTarget": 1043,
+        "iconf": "f-w-helmet4.png",
+        "iconm": "m-w-helmet4.png"
     },
     {
         "classId": 1039,
-        "label": "角斗士之心",
-        "icon": "ewn021.png",
+        "label": "角斗士头盔",
         "category": 1,
         "subcategory": 5,
         "description": "角斗士的信念和力量的源泉",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1040,
         "basic_properties": {
             "health": 336,
@@ -35456,21 +35436,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 27,
-        "forgeTarget": 1044
+        "forgeID": 55,
+        "forgeTarget": 1044,
+        "iconf": "f-w-helmet4.png",
+        "iconm": "m-w-helmet4.png"
     },
     {
         "classId": 1040,
-        "label": "角斗士之心",
-        "icon": "ewn021.png",
+        "label": "角斗士头盔",
         "category": 1,
         "subcategory": 5,
         "description": "角斗士的信念和力量的源泉",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn4-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn4-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 342,
             "attack": 34,
@@ -35484,21 +35486,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 27,
-        "forgeTarget": 1045
+        "forgeID": 55,
+        "forgeTarget": 1045,
+        "iconf": "f-w-helmet4.png",
+        "iconm": "m-w-helmet4.png"
     },
     {
         "classId": 1041,
-        "label": "深渊之心",
-        "icon": "ewn031.png",
+        "label": "深渊头盔",
         "category": 1,
         "subcategory": 5,
         "description": "没有人可以挣脱深渊的引力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1042,
         "basic_properties": {
             "health": 324,
@@ -35512,20 +35536,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet3.png",
+        "iconm": "m-w-helmet3.png"
     },
     {
         "classId": 1042,
-        "label": "深渊之心",
-        "icon": "ewn031.png",
+        "label": "深渊头盔",
         "category": 1,
         "subcategory": 5,
         "description": "没有人可以挣脱深渊的引力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1043,
         "basic_properties": {
             "health": 330,
@@ -35540,21 +35586,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 33,
-        "forgeTarget": 1047
+        "forgeID": 61,
+        "forgeTarget": 1047,
+        "iconf": "f-w-helmet3.png",
+        "iconm": "m-w-helmet3.png"
     },
     {
         "classId": 1043,
-        "label": "深渊之心",
-        "icon": "ewn031.png",
+        "label": "深渊头盔",
         "category": 1,
         "subcategory": 5,
         "description": "没有人可以挣脱深渊的引力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1044,
         "basic_properties": {
             "health": 336,
@@ -35569,21 +35637,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 33,
-        "forgeTarget": 1048
+        "forgeID": 61,
+        "forgeTarget": 1048,
+        "iconf": "f-w-helmet3.png",
+        "iconm": "m-w-helmet3.png"
     },
     {
         "classId": 1044,
-        "label": "深渊之心",
-        "icon": "ewn031.png",
+        "label": "深渊头盔",
         "category": 1,
         "subcategory": 5,
         "description": "没有人可以挣脱深渊的引力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1045,
         "basic_properties": {
             "health": 342,
@@ -35598,21 +35688,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 33,
-        "forgeTarget": 1049
+        "forgeID": 61,
+        "forgeTarget": 1049,
+        "iconf": "f-w-helmet3.png",
+        "iconm": "m-w-helmet3.png"
     },
     {
         "classId": 1045,
-        "label": "深渊之心",
-        "icon": "ewn031.png",
+        "label": "深渊头盔",
         "category": 1,
         "subcategory": 5,
         "description": "没有人可以挣脱深渊的引力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1046,
         "basic_properties": {
             "health": 348,
@@ -35627,21 +35739,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 33,
-        "forgeTarget": 1050
+        "forgeID": 61,
+        "forgeTarget": 1050,
+        "iconf": "f-w-helmet3.png",
+        "iconm": "m-w-helmet3.png"
     },
     {
         "classId": 1046,
-        "label": "深渊之心",
-        "icon": "ewn031.png",
+        "label": "深渊头盔",
         "category": 1,
         "subcategory": 5,
         "description": "没有人可以挣脱深渊的引力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn3-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn3-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 354,
             "attack": 35,
@@ -35655,21 +35789,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 33,
-        "forgeTarget": 1051
+        "forgeID": 61,
+        "forgeTarget": 1051,
+        "iconf": "f-w-helmet3.png",
+        "iconm": "m-w-helmet3.png"
     },
     {
         "classId": 1047,
-        "label": "屠龙之心",
-        "icon": "ewn041.png",
+        "label": "屠龙头盔",
         "category": 1,
         "subcategory": 5,
         "description": "力量的源泉，屠龙的保障",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1048,
         "basic_properties": {
             "health": 336,
@@ -35683,20 +35839,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet2.png",
+        "iconm": "m-w-helmet2.png"
     },
     {
         "classId": 1048,
-        "label": "屠龙之心",
-        "icon": "ewn041.png",
+        "label": "屠龙头盔",
         "category": 1,
         "subcategory": 5,
         "description": "力量的源泉，屠龙的保障",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1049,
         "basic_properties": {
             "health": 342,
@@ -35711,21 +35889,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 39,
-        "forgeTarget": 1053
+        "forgeID": 67,
+        "forgeTarget": 1053,
+        "iconf": "f-w-helmet2.png",
+        "iconm": "m-w-helmet2.png"
     },
     {
         "classId": 1049,
-        "label": "屠龙之心",
-        "icon": "ewn041.png",
+        "label": "屠龙头盔",
         "category": 1,
         "subcategory": 5,
         "description": "力量的源泉，屠龙的保障",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1050,
         "basic_properties": {
             "health": 348,
@@ -35740,21 +35940,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 39,
-        "forgeTarget": 1054
+        "forgeID": 67,
+        "forgeTarget": 1054,
+        "iconf": "f-w-helmet2.png",
+        "iconm": "m-w-helmet2.png"
     },
     {
         "classId": 1050,
-        "label": "屠龙之心",
-        "icon": "ewn041.png",
+        "label": "屠龙头盔",
         "category": 1,
         "subcategory": 5,
         "description": "力量的源泉，屠龙的保障",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1051,
         "basic_properties": {
             "health": 354,
@@ -35769,21 +35991,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 39,
-        "forgeTarget": 1055
+        "forgeID": 67,
+        "forgeTarget": 1055,
+        "iconf": "f-w-helmet2.png",
+        "iconm": "m-w-helmet2.png"
     },
     {
         "classId": 1051,
-        "label": "屠龙之心",
-        "icon": "ewn041.png",
+        "label": "屠龙头盔",
         "category": 1,
         "subcategory": 5,
         "description": "力量的源泉，屠龙的保障",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1052,
         "basic_properties": {
             "health": 360,
@@ -35798,21 +36042,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 39,
-        "forgeTarget": 1056
+        "forgeID": 67,
+        "forgeTarget": 1056,
+        "iconf": "f-w-helmet2.png",
+        "iconm": "m-w-helmet2.png"
     },
     {
         "classId": 1052,
-        "label": "屠龙之心",
-        "icon": "ewn041.png",
+        "label": "屠龙头盔",
         "category": 1,
         "subcategory": 5,
         "description": "力量的源泉，屠龙的保障",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn2-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 366,
             "attack": 37,
@@ -35826,21 +36092,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 3,
         "hide": true,
-        "forgeID": 39,
-        "forgeTarget": 1057
+        "forgeID": 67,
+        "forgeTarget": 1057,
+        "iconf": "f-w-helmet2.png",
+        "iconm": "m-w-helmet2.png"
     },
     {
         "classId": 1053,
-        "label": "阿瑞斯之心",
-        "icon": "ewn041.png",
+        "label": "战神圣盔",
         "category": 1,
         "subcategory": 5,
         "description": "戴上它，你就能战神附体了",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1054,
         "basic_properties": {
             "health": 348,
@@ -35854,20 +36142,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet1.png",
+        "iconm": "m-w-helmet1.png"
     },
     {
         "classId": 1054,
-        "label": "阿瑞斯之心",
-        "icon": "ewn041.png",
+        "label": "战神圣盔",
         "category": 1,
         "subcategory": 5,
         "description": "戴上它，你就能战神附体了",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1055,
         "basic_properties": {
             "health": 354,
@@ -35881,20 +36191,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet1.png",
+        "iconm": "m-w-helmet1.png"
     },
     {
         "classId": 1055,
-        "label": "阿瑞斯之心",
-        "icon": "ewn041.png",
+        "label": "战神圣盔",
         "category": 1,
         "subcategory": 5,
         "description": "戴上它，你就能战神附体了",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1056,
         "basic_properties": {
             "health": 360,
@@ -35908,20 +36240,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet1.png",
+        "iconm": "m-w-helmet1.png"
     },
     {
         "classId": 1056,
-        "label": "阿瑞斯之心",
-        "icon": "ewn041.png",
+        "label": "战神圣盔",
         "category": 1,
         "subcategory": 5,
         "description": "戴上它，你就能战神附体了",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1057,
         "basic_properties": {
             "health": 366,
@@ -35935,20 +36289,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet1.png",
+        "iconm": "m-w-helmet1.png"
     },
     {
         "classId": 1057,
-        "label": "阿瑞斯之心",
-        "icon": "ewn041.png",
+        "label": "战神圣盔",
         "category": 1,
         "subcategory": 5,
         "description": "戴上它，你就能战神附体了",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1058,
         "basic_properties": {
             "health": 372,
@@ -35962,15 +36338,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet1.png",
+        "iconm": "m-w-helmet1.png"
     },
     {
         "classId": 1058,
-        "label": "阿瑞斯之心",
-        "icon": "ewn041.png",
+        "label": "战神圣盔",
         "category": 1,
         "subcategory": 5,
         "description": "戴上它，你就能战神附体了",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "f-warriorn-helmet1-2.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-warriorn-helmet1.ccbi"
+            },
+            {
+                "part": "helmet2",
+                "file": "m-warriorn2-helmet1-2.ccbi"
+            }
+        ],
         "classLimit": [
             216
         ],
@@ -35988,7 +36385,9 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 3,
-        "hide": true
+        "hide": true,
+        "iconf": "f-w-helmet1.png",
+        "iconm": "m-w-helmet1.png"
     },
     {
         "classId": 1059,
@@ -36021,6 +36420,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1060,
         "basic_properties": {
             "health": 250,
@@ -36068,6 +36468,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1061,
         "basic_properties": {
             "health": 255,
@@ -36081,7 +36482,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 17,
+        "forgeID": 45,
         "forgeTarget": 1065,
         "iconf": "f-m-foot5.png",
         "iconm": "m-m-foot5.png"
@@ -36117,6 +36518,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1062,
         "basic_properties": {
             "health": 260,
@@ -36130,7 +36532,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 17,
+        "forgeID": 45,
         "forgeTarget": 1066,
         "iconf": "f-m-foot5.png",
         "iconm": "m-m-foot5.png"
@@ -36166,6 +36568,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1063,
         "basic_properties": {
             "health": 265,
@@ -36179,7 +36582,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 17,
+        "forgeID": 45,
         "forgeTarget": 1067,
         "iconf": "f-m-foot5.png",
         "iconm": "m-m-foot5.png"
@@ -36215,6 +36618,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1064,
         "basic_properties": {
             "health": 270,
@@ -36228,7 +36632,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 17,
+        "forgeID": 45,
         "forgeTarget": 1068,
         "iconf": "f-m-foot5.png",
         "iconm": "m-m-foot5.png"
@@ -36264,6 +36668,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 275,
             "attack": 56,
@@ -36276,7 +36681,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 17,
+        "forgeID": 45,
         "forgeTarget": 1069,
         "iconf": "f-m-foot5.png",
         "iconm": "m-m-foot5.png"
@@ -36286,7 +36691,7 @@ exports.data = [
         "label": "燃灵长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "燃灵长靴lv2",
+        "description": "拥有燃烧之力的精致长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36312,6 +36717,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1066,
         "basic_properties": {
             "health": 260,
@@ -36333,7 +36739,7 @@ exports.data = [
         "label": "燃灵长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "燃灵长靴lv3",
+        "description": "拥有燃烧之力的精致长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36359,6 +36765,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1067,
         "basic_properties": {
             "health": 265,
@@ -36372,7 +36779,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 23,
+        "forgeID": 51,
         "forgeTarget": 1071,
         "iconf": "f-m-foot4.png",
         "iconm": "m-m-foot4.png"
@@ -36382,7 +36789,7 @@ exports.data = [
         "label": "燃灵长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "燃灵长靴lv4",
+        "description": "拥有燃烧之力的精致长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36408,6 +36815,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1068,
         "basic_properties": {
             "health": 270,
@@ -36421,7 +36829,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 23,
+        "forgeID": 51,
         "forgeTarget": 1072,
         "iconf": "f-m-foot4.png",
         "iconm": "m-m-foot4.png"
@@ -36431,7 +36839,7 @@ exports.data = [
         "label": "燃灵长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "燃灵长靴lv5",
+        "description": "拥有燃烧之力的精致长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36457,6 +36865,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1069,
         "basic_properties": {
             "health": 275,
@@ -36470,7 +36879,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 23,
+        "forgeID": 51,
         "forgeTarget": 1073,
         "iconf": "f-m-foot4.png",
         "iconm": "m-m-foot4.png"
@@ -36480,7 +36889,7 @@ exports.data = [
         "label": "燃灵长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "燃灵长靴lv6",
+        "description": "拥有燃烧之力的精致长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36506,6 +36915,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1070,
         "basic_properties": {
             "health": 280,
@@ -36519,7 +36929,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 23,
+        "forgeID": 51,
         "forgeTarget": 1074,
         "iconf": "f-m-foot4.png",
         "iconm": "m-m-foot4.png"
@@ -36529,7 +36939,7 @@ exports.data = [
         "label": "燃灵长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "燃灵长靴lv7",
+        "description": "拥有燃烧之力的精致长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36555,6 +36965,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 285,
             "attack": 59,
@@ -36567,7 +36978,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 23,
+        "forgeID": 51,
         "forgeTarget": 1075,
         "iconf": "f-m-foot4.png",
         "iconm": "m-m-foot4.png"
@@ -36577,7 +36988,7 @@ exports.data = [
         "label": "湮灭长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "湮灭长靴lv3",
+        "description": "毁灭的象征，魔力暴增",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36603,6 +37014,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1072,
         "basic_properties": {
             "health": 270,
@@ -36624,7 +37036,7 @@ exports.data = [
         "label": "湮灭长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "湮灭长靴lv4",
+        "description": "毁灭的象征，魔力暴增",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36650,6 +37062,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1073,
         "basic_properties": {
             "health": 275,
@@ -36663,7 +37076,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 29,
+        "forgeID": 57,
         "forgeTarget": 1077,
         "iconf": "f-m-foot3.png",
         "iconm": "m-m-foot3.png"
@@ -36673,7 +37086,7 @@ exports.data = [
         "label": "湮灭长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "湮灭长靴lv5",
+        "description": "毁灭的象征，魔力暴增",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36699,6 +37112,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1074,
         "basic_properties": {
             "health": 280,
@@ -36712,7 +37126,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 29,
+        "forgeID": 57,
         "forgeTarget": 1078,
         "iconf": "f-m-foot3.png",
         "iconm": "m-m-foot3.png"
@@ -36722,7 +37136,7 @@ exports.data = [
         "label": "湮灭长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "湮灭长靴lv6",
+        "description": "毁灭的象征，魔力暴增",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36748,6 +37162,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1075,
         "basic_properties": {
             "health": 285,
@@ -36761,7 +37176,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 29,
+        "forgeID": 57,
         "forgeTarget": 1079,
         "iconf": "f-m-foot3.png",
         "iconm": "m-m-foot3.png"
@@ -36771,7 +37186,7 @@ exports.data = [
         "label": "湮灭长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "湮灭长靴lv7",
+        "description": "毁灭的象征，魔力暴增",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36797,6 +37212,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1076,
         "basic_properties": {
             "health": 290,
@@ -36810,7 +37226,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 29,
+        "forgeID": 57,
         "forgeTarget": 1080,
         "iconf": "f-m-foot3.png",
         "iconm": "m-m-foot3.png"
@@ -36820,7 +37236,7 @@ exports.data = [
         "label": "湮灭长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "湮灭长靴lv8",
+        "description": "毁灭的象征，魔力暴增",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36846,6 +37262,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 295,
             "attack": 61,
@@ -36858,7 +37275,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 29,
+        "forgeID": 57,
         "forgeTarget": 1081,
         "iconf": "f-m-foot3.png",
         "iconm": "m-m-foot3.png"
@@ -36868,7 +37285,7 @@ exports.data = [
         "label": "落日长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "落日长靴lv4",
+        "description": "散发着令人绝望气息的尊贵长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36894,6 +37311,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1078,
         "basic_properties": {
             "health": 280,
@@ -36915,7 +37333,7 @@ exports.data = [
         "label": "落日长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "落日长靴lv5",
+        "description": "散发着令人绝望气息的尊贵长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36941,6 +37359,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1079,
         "basic_properties": {
             "health": 285,
@@ -36954,7 +37373,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 35,
+        "forgeID": 63,
         "forgeTarget": 1083,
         "iconf": "f-m-foot2.png",
         "iconm": "m-m-foot2.png"
@@ -36964,7 +37383,7 @@ exports.data = [
         "label": "落日长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "落日长靴lv6",
+        "description": "散发着令人绝望气息的尊贵长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -36990,6 +37409,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1080,
         "basic_properties": {
             "health": 290,
@@ -37003,7 +37423,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 35,
+        "forgeID": 63,
         "forgeTarget": 1084,
         "iconf": "f-m-foot2.png",
         "iconm": "m-m-foot2.png"
@@ -37013,7 +37433,7 @@ exports.data = [
         "label": "落日长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "落日长靴lv7",
+        "description": "散发着令人绝望气息的尊贵长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37039,6 +37459,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1081,
         "basic_properties": {
             "health": 295,
@@ -37052,7 +37473,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 35,
+        "forgeID": 63,
         "forgeTarget": 1085,
         "iconf": "f-m-foot2.png",
         "iconm": "m-m-foot2.png"
@@ -37062,7 +37483,7 @@ exports.data = [
         "label": "落日长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "落日长靴lv8",
+        "description": "散发着令人绝望气息的尊贵长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37088,6 +37509,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1082,
         "basic_properties": {
             "health": 300,
@@ -37101,7 +37523,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 35,
+        "forgeID": 63,
         "forgeTarget": 1086,
         "iconf": "f-m-foot2.png",
         "iconm": "m-m-foot2.png"
@@ -37111,7 +37533,7 @@ exports.data = [
         "label": "落日长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "落日长靴lv9",
+        "description": "散发着令人绝望气息的尊贵长靴",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37137,6 +37559,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 305,
             "attack": 64,
@@ -37149,7 +37572,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 35,
+        "forgeID": 63,
         "forgeTarget": 1087,
         "iconf": "f-m-foot2.png",
         "iconm": "m-m-foot2.png"
@@ -37159,7 +37582,7 @@ exports.data = [
         "label": "缚龙长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "缚龙长靴lv5",
+        "description": "巨龙环绕着这双长靴，汹涌磅礴的魔力令人目不能视",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37185,6 +37608,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1084,
         "basic_properties": {
             "health": 290,
@@ -37206,7 +37630,7 @@ exports.data = [
         "label": "缚龙长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "缚龙长靴lv6",
+        "description": "巨龙环绕着这双长靴，汹涌磅礴的魔力令人目不能视",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37232,6 +37656,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1085,
         "basic_properties": {
             "health": 295,
@@ -37253,7 +37678,7 @@ exports.data = [
         "label": "缚龙长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "缚龙长靴lv7",
+        "description": "巨龙环绕着这双长靴，汹涌磅礴的魔力令人目不能视",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37279,6 +37704,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1086,
         "basic_properties": {
             "health": 300,
@@ -37300,7 +37726,7 @@ exports.data = [
         "label": "缚龙长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "缚龙长靴lv8",
+        "description": "巨龙环绕着这双长靴，汹涌磅礴的魔力令人目不能视",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37326,6 +37752,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1087,
         "basic_properties": {
             "health": 305,
@@ -37347,7 +37774,7 @@ exports.data = [
         "label": "缚龙长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "缚龙长靴lv9",
+        "description": "巨龙环绕着这双长靴，汹涌磅礴的魔力令人目不能视",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37373,6 +37800,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1088,
         "basic_properties": {
             "health": 310,
@@ -37394,7 +37822,7 @@ exports.data = [
         "label": "缚龙长靴",
         "category": 1,
         "subcategory": 4,
-        "description": "缚龙长靴lv10",
+        "description": "巨龙环绕着这双长靴，汹涌磅礴的魔力令人目不能视",
         "effectf": [
             {
                 "part": "leftleg",
@@ -37457,14 +37885,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen5-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -37483,14 +37903,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen5-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -37498,6 +37910,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1090,
         "basic_properties": {
             "health": 320,
@@ -37535,14 +37948,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen5-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -37561,14 +37966,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen5-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -37576,6 +37973,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1091,
         "basic_properties": {
             "health": 325,
@@ -37588,7 +37986,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 18,
+        "forgeID": 46,
         "forgeTarget": 1095,
         "iconf": "f-m-chest5.png",
         "iconm": "m-m-chest5.png"
@@ -37615,14 +38013,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen5-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -37641,14 +38031,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen5-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -37656,6 +38038,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1092,
         "basic_properties": {
             "health": 330,
@@ -37668,7 +38051,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 18,
+        "forgeID": 46,
         "forgeTarget": 1096,
         "iconf": "f-m-chest5.png",
         "iconm": "m-m-chest5.png"
@@ -37695,14 +38078,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen5-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -37721,14 +38096,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen5-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -37736,6 +38103,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1093,
         "basic_properties": {
             "health": 335,
@@ -37748,7 +38116,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 18,
+        "forgeID": 46,
         "forgeTarget": 1097,
         "iconf": "f-m-chest5.png",
         "iconm": "m-m-chest5.png"
@@ -37775,14 +38143,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen5-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -37801,14 +38161,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen5-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -37816,6 +38168,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1094,
         "basic_properties": {
             "health": 340,
@@ -37828,7 +38181,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 18,
+        "forgeID": 46,
         "forgeTarget": 1098,
         "iconf": "f-m-chest5.png",
         "iconm": "m-m-chest5.png"
@@ -37855,14 +38208,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen5-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -37881,14 +38226,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen5-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen5-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -37896,6 +38233,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 345,
             "attack": 57,
@@ -37907,7 +38245,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 18,
+        "forgeID": 46,
         "forgeTarget": 1099,
         "iconf": "f-m-chest5.png",
         "iconm": "m-m-chest5.png"
@@ -37917,7 +38255,7 @@ exports.data = [
         "label": "燃灵法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "燃灵法袍lv2",
+        "description": "能让人感受到炽热气息的法袍",
         "effectf": [
             {
                 "part": "chest",
@@ -37934,14 +38272,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen4-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -37960,14 +38290,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen4-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -37975,6 +38297,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1096,
         "basic_properties": {
             "health": 330,
@@ -37995,7 +38318,7 @@ exports.data = [
         "label": "燃灵法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "燃灵法袍lv3",
+        "description": "能让人感受到炽热气息的法袍",
         "effectf": [
             {
                 "part": "chest",
@@ -38012,14 +38335,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen4-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38038,14 +38353,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen4-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38053,6 +38360,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1097,
         "basic_properties": {
             "health": 335,
@@ -38065,7 +38373,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 24,
+        "forgeID": 52,
         "forgeTarget": 1101,
         "iconf": "f-m-chest4.png",
         "iconm": "m-m-chest4.png"
@@ -38075,7 +38383,7 @@ exports.data = [
         "label": "燃灵法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "燃灵法袍lv4",
+        "description": "能让人感受到炽热气息的法袍",
         "effectf": [
             {
                 "part": "chest",
@@ -38092,14 +38400,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen4-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38118,14 +38418,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen4-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38133,6 +38425,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1098,
         "basic_properties": {
             "health": 340,
@@ -38145,7 +38438,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 24,
+        "forgeID": 52,
         "forgeTarget": 1102,
         "iconf": "f-m-chest4.png",
         "iconm": "m-m-chest4.png"
@@ -38155,7 +38448,7 @@ exports.data = [
         "label": "燃灵法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "燃灵法袍lv5",
+        "description": "能让人感受到炽热气息的法袍",
         "effectf": [
             {
                 "part": "chest",
@@ -38172,14 +38465,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen4-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38198,14 +38483,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen4-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38213,6 +38490,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1099,
         "basic_properties": {
             "health": 345,
@@ -38225,7 +38503,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 24,
+        "forgeID": 52,
         "forgeTarget": 1103,
         "iconf": "f-m-chest4.png",
         "iconm": "m-m-chest4.png"
@@ -38235,7 +38513,7 @@ exports.data = [
         "label": "燃灵法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "燃灵法袍lv6",
+        "description": "能让人感受到炽热气息的法袍",
         "effectf": [
             {
                 "part": "chest",
@@ -38252,14 +38530,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen4-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38278,14 +38548,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen4-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38293,6 +38555,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1100,
         "basic_properties": {
             "health": 350,
@@ -38305,7 +38568,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 24,
+        "forgeID": 52,
         "forgeTarget": 1104,
         "iconf": "f-m-chest4.png",
         "iconm": "m-m-chest4.png"
@@ -38315,7 +38578,7 @@ exports.data = [
         "label": "燃灵法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "燃灵法袍lv7",
+        "description": "能让人感受到炽热气息的法袍",
         "effectf": [
             {
                 "part": "chest",
@@ -38332,14 +38595,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen4-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38358,14 +38613,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen4-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen4-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38373,6 +38620,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 355,
             "attack": 59,
@@ -38384,7 +38632,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 24,
+        "forgeID": 52,
         "forgeTarget": 1105,
         "iconf": "f-m-chest4.png",
         "iconm": "m-m-chest4.png"
@@ -38394,7 +38642,7 @@ exports.data = [
         "label": "湮灭法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "湮灭法袍lv3",
+        "description": "采用冥界材料制造而成的法袍,毁灭是它的主题",
         "effectf": [
             {
                 "part": "chest",
@@ -38411,14 +38659,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen3-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38437,14 +38677,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen3-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38452,6 +38684,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1102,
         "basic_properties": {
             "health": 340,
@@ -38472,7 +38705,7 @@ exports.data = [
         "label": "湮灭法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "湮灭法袍lv4",
+        "description": "采用冥界材料制造而成的法袍,毁灭是它的主题",
         "effectf": [
             {
                 "part": "chest",
@@ -38489,14 +38722,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen3-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38515,14 +38740,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen3-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38530,6 +38747,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1103,
         "basic_properties": {
             "health": 345,
@@ -38542,7 +38760,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 30,
+        "forgeID": 58,
         "forgeTarget": 1107,
         "iconf": "f-m-chest3.png",
         "iconm": "m-m-chest3.png"
@@ -38552,7 +38770,7 @@ exports.data = [
         "label": "湮灭法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "湮灭法袍lv5",
+        "description": "采用冥界材料制造而成的法袍,毁灭是它的主题",
         "effectf": [
             {
                 "part": "chest",
@@ -38569,14 +38787,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen3-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38595,14 +38805,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen3-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38610,6 +38812,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1104,
         "basic_properties": {
             "health": 350,
@@ -38622,7 +38825,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 30,
+        "forgeID": 58,
         "forgeTarget": 1108,
         "iconf": "f-m-chest3.png",
         "iconm": "m-m-chest3.png"
@@ -38632,7 +38835,7 @@ exports.data = [
         "label": "湮灭法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "湮灭法袍lv6",
+        "description": "采用冥界材料制造而成的法袍,毁灭是它的主题",
         "effectf": [
             {
                 "part": "chest",
@@ -38649,14 +38852,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen3-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38675,14 +38870,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen3-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38690,6 +38877,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1105,
         "basic_properties": {
             "health": 355,
@@ -38702,7 +38890,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 30,
+        "forgeID": 58,
         "forgeTarget": 1109,
         "iconf": "f-m-chest3.png",
         "iconm": "m-m-chest3.png"
@@ -38712,7 +38900,7 @@ exports.data = [
         "label": "湮灭法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "湮灭法袍lv7",
+        "description": "采用冥界材料制造而成的法袍,毁灭是它的主题",
         "effectf": [
             {
                 "part": "chest",
@@ -38729,14 +38917,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen3-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38755,14 +38935,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen3-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38770,6 +38942,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1106,
         "basic_properties": {
             "health": 360,
@@ -38782,7 +38955,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 30,
+        "forgeID": 58,
         "forgeTarget": 1110,
         "iconf": "f-m-chest3.png",
         "iconm": "m-m-chest3.png"
@@ -38792,7 +38965,7 @@ exports.data = [
         "label": "湮灭法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "湮灭法袍lv8",
+        "description": "采用冥界材料制造而成的法袍,毁灭是它的主题",
         "effectf": [
             {
                 "part": "chest",
@@ -38809,14 +38982,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen3-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38835,14 +39000,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen3-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen3-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38850,6 +39007,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 365,
             "attack": 62,
@@ -38861,7 +39019,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 30,
+        "forgeID": 58,
         "forgeTarget": 1111,
         "iconf": "f-m-chest3.png",
         "iconm": "m-m-chest3.png"
@@ -38871,7 +39029,7 @@ exports.data = [
         "label": "落日法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "落日法袍lv4",
+        "description": "神秘的布料制作，带着落日熔金般的夺目光辉",
         "effectf": [
             {
                 "part": "chest",
@@ -38888,14 +39046,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen2-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38914,14 +39064,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen2-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -38929,6 +39071,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1108,
         "basic_properties": {
             "health": 350,
@@ -38949,7 +39092,7 @@ exports.data = [
         "label": "落日法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "落日法袍lv5",
+        "description": "神秘的布料制作，带着落日熔金般的夺目光辉",
         "effectf": [
             {
                 "part": "chest",
@@ -38966,14 +39109,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen2-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -38992,14 +39127,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen2-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39007,6 +39134,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1109,
         "basic_properties": {
             "health": 355,
@@ -39019,7 +39147,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 36,
+        "forgeID": 64,
         "forgeTarget": 1113,
         "iconf": "f-m-chest2.png",
         "iconm": "m-m-chest2.png"
@@ -39029,7 +39157,7 @@ exports.data = [
         "label": "落日法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "落日法袍lv6",
+        "description": "神秘的布料制作，带着落日熔金般的夺目光辉",
         "effectf": [
             {
                 "part": "chest",
@@ -39046,14 +39174,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen2-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39072,14 +39192,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen2-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39087,6 +39199,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1110,
         "basic_properties": {
             "health": 360,
@@ -39099,7 +39212,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 36,
+        "forgeID": 64,
         "forgeTarget": 1114,
         "iconf": "f-m-chest2.png",
         "iconm": "m-m-chest2.png"
@@ -39109,7 +39222,7 @@ exports.data = [
         "label": "落日法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "落日法袍lv7",
+        "description": "神秘的布料制作，带着落日熔金般的夺目光辉",
         "effectf": [
             {
                 "part": "chest",
@@ -39126,14 +39239,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen2-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39152,14 +39257,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen2-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39167,6 +39264,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1111,
         "basic_properties": {
             "health": 365,
@@ -39179,7 +39277,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 36,
+        "forgeID": 64,
         "forgeTarget": 1115,
         "iconf": "f-m-chest2.png",
         "iconm": "m-m-chest2.png"
@@ -39189,7 +39287,7 @@ exports.data = [
         "label": "落日法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "落日法袍lv8",
+        "description": "神秘的布料制作，带着落日熔金般的夺目光辉",
         "effectf": [
             {
                 "part": "chest",
@@ -39206,14 +39304,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen2-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39232,14 +39322,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen2-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39247,6 +39329,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1112,
         "basic_properties": {
             "health": 370,
@@ -39259,7 +39342,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 36,
+        "forgeID": 64,
         "forgeTarget": 1116,
         "iconf": "f-m-chest2.png",
         "iconm": "m-m-chest2.png"
@@ -39269,7 +39352,7 @@ exports.data = [
         "label": "落日法袍",
         "category": 1,
         "subcategory": 2,
-        "description": "落日法袍lv9",
+        "description": "神秘的布料制作，带着落日熔金般的夺目光辉",
         "effectf": [
             {
                 "part": "chest",
@@ -39286,14 +39369,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen2-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39312,14 +39387,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen2-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen2-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39327,6 +39394,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 375,
             "attack": 64,
@@ -39338,7 +39406,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 36,
+        "forgeID": 64,
         "forgeTarget": 1117,
         "iconf": "f-m-chest2.png",
         "iconm": "m-m-chest2.png"
@@ -39348,7 +39416,7 @@ exports.data = [
         "label": "龙炎守护",
         "category": 1,
         "subcategory": 2,
-        "description": "龙炎守护lv5",
+        "description": "穿戴者有如龙炎绕体，震慑人心",
         "effectf": [
             {
                 "part": "chest",
@@ -39365,14 +39433,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39391,14 +39451,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39406,6 +39458,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1114,
         "basic_properties": {
             "health": 360,
@@ -39426,7 +39479,7 @@ exports.data = [
         "label": "龙炎守护",
         "category": 1,
         "subcategory": 2,
-        "description": "龙炎守护lv6",
+        "description": "穿戴者有如龙炎绕体，震慑人心",
         "effectf": [
             {
                 "part": "chest",
@@ -39443,14 +39496,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39469,14 +39514,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39484,6 +39521,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1115,
         "basic_properties": {
             "health": 365,
@@ -39504,7 +39542,7 @@ exports.data = [
         "label": "龙炎守护",
         "category": 1,
         "subcategory": 2,
-        "description": "龙炎守护lv7",
+        "description": "穿戴者有如龙炎绕体，震慑人心",
         "effectf": [
             {
                 "part": "chest",
@@ -39521,14 +39559,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39547,14 +39577,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39562,6 +39584,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1116,
         "basic_properties": {
             "health": 370,
@@ -39582,7 +39605,7 @@ exports.data = [
         "label": "龙炎守护",
         "category": 1,
         "subcategory": 2,
-        "description": "龙炎守护lv8",
+        "description": "穿戴者有如龙炎绕体，震慑人心",
         "effectf": [
             {
                 "part": "chest",
@@ -39599,14 +39622,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39625,14 +39640,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39640,6 +39647,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1117,
         "basic_properties": {
             "health": 375,
@@ -39660,7 +39668,7 @@ exports.data = [
         "label": "龙炎守护",
         "category": 1,
         "subcategory": 2,
-        "description": "龙炎守护lv9",
+        "description": "穿戴者有如龙炎绕体，震慑人心",
         "effectf": [
             {
                 "part": "chest",
@@ -39677,14 +39685,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39703,14 +39703,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39718,6 +39710,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1118,
         "basic_properties": {
             "health": 380,
@@ -39738,7 +39731,7 @@ exports.data = [
         "label": "龙炎守护",
         "category": 1,
         "subcategory": 2,
-        "description": "龙炎守护lv10",
+        "description": "穿戴者有如龙炎绕体，震慑人心",
         "effectf": [
             {
                 "part": "chest",
@@ -39755,14 +39748,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "f-magen-helmet1-3.ccbi"
             }
         ],
         "effectm": [
@@ -39781,14 +39766,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-magen-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-magen-helmet1.ccbi"
-            },
-            {
-                "part": "helmet3",
-                "file": "m-magen-helmet1-3.ccbi"
             }
         ],
         "classLimit": [
@@ -39833,6 +39810,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1120,
         "basic_properties": {
             "health": 180,
@@ -39870,6 +39848,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1121,
         "basic_properties": {
             "health": 184,
@@ -39881,7 +39860,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 19,
+        "forgeID": 47,
         "forgeTarget": 1125,
         "iconf": "f-m-mainweapon2-5.png",
         "iconm": "m-m-mainweapon2-5.png"
@@ -39909,6 +39888,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1122,
         "basic_properties": {
             "health": 188,
@@ -39920,7 +39900,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 19,
+        "forgeID": 47,
         "forgeTarget": 1126,
         "iconf": "f-m-mainweapon2-5.png",
         "iconm": "m-m-mainweapon2-5.png"
@@ -39948,6 +39928,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1123,
         "basic_properties": {
             "health": 192,
@@ -39959,7 +39940,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 19,
+        "forgeID": 47,
         "forgeTarget": 1127,
         "iconf": "f-m-mainweapon2-5.png",
         "iconm": "m-m-mainweapon2-5.png"
@@ -39987,6 +39968,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1124,
         "basic_properties": {
             "health": 196,
@@ -39998,7 +39980,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 19,
+        "forgeID": 47,
         "forgeTarget": 1128,
         "iconf": "f-m-mainweapon2-5.png",
         "iconm": "m-m-mainweapon2-5.png"
@@ -40026,6 +40008,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 200,
             "attack": 70,
@@ -40036,7 +40019,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 19,
+        "forgeID": 47,
         "forgeTarget": 1129,
         "iconf": "f-m-mainweapon2-5.png",
         "iconm": "m-m-mainweapon2-5.png"
@@ -40046,7 +40029,7 @@ exports.data = [
         "label": "燃灵之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "燃灵之魂lv2",
+        "description": "炽热火焰凝聚而成的精灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40064,6 +40047,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1126,
         "basic_properties": {
             "health": 188,
@@ -40083,7 +40067,7 @@ exports.data = [
         "label": "燃灵之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "燃灵之魂lv3",
+        "description": "炽热火焰凝聚而成的精灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40101,6 +40085,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1127,
         "basic_properties": {
             "health": 192,
@@ -40112,7 +40097,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 25,
+        "forgeID": 53,
         "forgeTarget": 1131,
         "iconf": "f-m-mainweapon2-4.png",
         "iconm": "m-m-mainweapon2-4.png"
@@ -40122,7 +40107,7 @@ exports.data = [
         "label": "燃灵之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "燃灵之魂lv4",
+        "description": "炽热火焰凝聚而成的精灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40140,6 +40125,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1128,
         "basic_properties": {
             "health": 196,
@@ -40151,7 +40137,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 25,
+        "forgeID": 53,
         "forgeTarget": 1132,
         "iconf": "f-m-mainweapon2-4.png",
         "iconm": "m-m-mainweapon2-4.png"
@@ -40161,7 +40147,7 @@ exports.data = [
         "label": "燃灵之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "燃灵之魂lv5",
+        "description": "炽热火焰凝聚而成的精灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40179,6 +40165,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1129,
         "basic_properties": {
             "health": 200,
@@ -40190,7 +40177,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 25,
+        "forgeID": 53,
         "forgeTarget": 1133,
         "iconf": "f-m-mainweapon2-4.png",
         "iconm": "m-m-mainweapon2-4.png"
@@ -40200,7 +40187,7 @@ exports.data = [
         "label": "燃灵之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "燃灵之魂lv6",
+        "description": "炽热火焰凝聚而成的精灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40218,6 +40205,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1130,
         "basic_properties": {
             "health": 204,
@@ -40229,7 +40217,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 25,
+        "forgeID": 53,
         "forgeTarget": 1134,
         "iconf": "f-m-mainweapon2-4.png",
         "iconm": "m-m-mainweapon2-4.png"
@@ -40239,7 +40227,7 @@ exports.data = [
         "label": "燃灵之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "燃灵之魂lv7",
+        "description": "炽热火焰凝聚而成的精灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40257,6 +40245,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 208,
             "attack": 74,
@@ -40267,7 +40256,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 25,
+        "forgeID": 53,
         "forgeTarget": 1135,
         "iconf": "f-m-mainweapon2-4.png",
         "iconm": "m-m-mainweapon2-4.png"
@@ -40277,7 +40266,7 @@ exports.data = [
         "label": "湮灭之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "湮灭之魂lv3",
+        "description": "破坏力惊人的毁灭之灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40295,6 +40284,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1132,
         "basic_properties": {
             "health": 196,
@@ -40314,7 +40304,7 @@ exports.data = [
         "label": "湮灭之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "湮灭之魂lv4",
+        "description": "破坏力惊人的毁灭之灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40332,6 +40322,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1133,
         "basic_properties": {
             "health": 200,
@@ -40343,7 +40334,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 31,
+        "forgeID": 59,
         "forgeTarget": 1137,
         "iconf": "f-m-mainweapon2-3.png",
         "iconm": "m-m-mainweapon2-3.png"
@@ -40353,7 +40344,7 @@ exports.data = [
         "label": "湮灭之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "湮灭之魂lv5",
+        "description": "破坏力惊人的毁灭之灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40371,6 +40362,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1134,
         "basic_properties": {
             "health": 204,
@@ -40382,7 +40374,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 31,
+        "forgeID": 59,
         "forgeTarget": 1138,
         "iconf": "f-m-mainweapon2-3.png",
         "iconm": "m-m-mainweapon2-3.png"
@@ -40392,7 +40384,7 @@ exports.data = [
         "label": "湮灭之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "湮灭之魂lv6",
+        "description": "破坏力惊人的毁灭之灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40410,6 +40402,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1135,
         "basic_properties": {
             "health": 208,
@@ -40421,7 +40414,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 31,
+        "forgeID": 59,
         "forgeTarget": 1139,
         "iconf": "f-m-mainweapon2-3.png",
         "iconm": "m-m-mainweapon2-3.png"
@@ -40431,7 +40424,7 @@ exports.data = [
         "label": "湮灭之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "湮灭之魂lv7",
+        "description": "破坏力惊人的毁灭之灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40449,6 +40442,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1136,
         "basic_properties": {
             "health": 212,
@@ -40460,7 +40454,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 31,
+        "forgeID": 59,
         "forgeTarget": 1140,
         "iconf": "f-m-mainweapon2-3.png",
         "iconm": "m-m-mainweapon2-3.png"
@@ -40470,7 +40464,7 @@ exports.data = [
         "label": "湮灭之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "湮灭之魂lv8",
+        "description": "破坏力惊人的毁灭之灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40488,6 +40482,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 216,
             "attack": 78,
@@ -40498,7 +40493,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 31,
+        "forgeID": 59,
         "forgeTarget": 1141,
         "iconf": "f-m-mainweapon2-3.png",
         "iconm": "m-m-mainweapon2-3.png"
@@ -40508,7 +40503,7 @@ exports.data = [
         "label": "落日之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "落日之魂lv4",
+        "description": "吟唱着恐怖禁咒的陨日之灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40526,6 +40521,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1138,
         "basic_properties": {
             "health": 204,
@@ -40545,7 +40541,7 @@ exports.data = [
         "label": "落日之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "落日之魂lv5",
+        "description": "吟唱着恐怖禁咒的陨日之灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40563,6 +40559,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1139,
         "basic_properties": {
             "health": 208,
@@ -40574,7 +40571,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 37,
+        "forgeID": 65,
         "forgeTarget": 1143,
         "iconf": "f-m-mainweapon2-2.png",
         "iconm": "m-m-mainweapon2-2.png"
@@ -40584,7 +40581,7 @@ exports.data = [
         "label": "落日之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "落日之魂lv6",
+        "description": "吟唱着恐怖禁咒的陨日之灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40602,6 +40599,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1140,
         "basic_properties": {
             "health": 212,
@@ -40613,7 +40611,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 37,
+        "forgeID": 65,
         "forgeTarget": 1144,
         "iconf": "f-m-mainweapon2-2.png",
         "iconm": "m-m-mainweapon2-2.png"
@@ -40623,7 +40621,7 @@ exports.data = [
         "label": "落日之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "落日之魂lv7",
+        "description": "吟唱着恐怖禁咒的陨日之灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40641,6 +40639,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1141,
         "basic_properties": {
             "health": 216,
@@ -40652,7 +40651,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 37,
+        "forgeID": 65,
         "forgeTarget": 1145,
         "iconf": "f-m-mainweapon2-2.png",
         "iconm": "m-m-mainweapon2-2.png"
@@ -40662,7 +40661,7 @@ exports.data = [
         "label": "落日之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "落日之魂lv8",
+        "description": "吟唱着恐怖禁咒的陨日之灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40680,6 +40679,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1142,
         "basic_properties": {
             "health": 220,
@@ -40691,7 +40691,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 37,
+        "forgeID": 65,
         "forgeTarget": 1146,
         "iconf": "f-m-mainweapon2-2.png",
         "iconm": "m-m-mainweapon2-2.png"
@@ -40701,7 +40701,7 @@ exports.data = [
         "label": "落日之魂",
         "category": 1,
         "subcategory": 1,
-        "description": "落日之魂lv9",
+        "description": "吟唱着恐怖禁咒的陨日之灵",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40719,6 +40719,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 224,
             "attack": 82,
@@ -40729,7 +40730,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 37,
+        "forgeID": 65,
         "forgeTarget": 1147,
         "iconf": "f-m-mainweapon2-2.png",
         "iconm": "m-m-mainweapon2-2.png"
@@ -40739,7 +40740,7 @@ exports.data = [
         "label": "龙灵战魂",
         "category": 1,
         "subcategory": 1,
-        "description": "龙灵战魂lv5",
+        "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40757,6 +40758,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1144,
         "basic_properties": {
             "health": 212,
@@ -40776,7 +40778,7 @@ exports.data = [
         "label": "龙灵战魂",
         "category": 1,
         "subcategory": 1,
-        "description": "龙灵战魂lv6",
+        "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40794,6 +40796,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1145,
         "basic_properties": {
             "health": 216,
@@ -40813,7 +40816,7 @@ exports.data = [
         "label": "龙灵战魂",
         "category": 1,
         "subcategory": 1,
-        "description": "龙灵战魂lv7",
+        "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40831,6 +40834,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1146,
         "basic_properties": {
             "health": 220,
@@ -40850,7 +40854,7 @@ exports.data = [
         "label": "龙灵战魂",
         "category": 1,
         "subcategory": 1,
-        "description": "龙灵战魂lv8",
+        "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40868,6 +40872,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1147,
         "basic_properties": {
             "health": 224,
@@ -40887,7 +40892,7 @@ exports.data = [
         "label": "龙灵战魂",
         "category": 1,
         "subcategory": 1,
-        "description": "龙灵战魂lv9",
+        "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40905,6 +40910,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1148,
         "basic_properties": {
             "health": 228,
@@ -40924,7 +40930,7 @@ exports.data = [
         "label": "龙灵战魂",
         "category": 1,
         "subcategory": 1,
-        "description": "龙灵战魂lv10",
+        "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
         "effectf": [
             {
                 "part": "weapon4",
@@ -40960,7 +40966,7 @@ exports.data = [
         "label": "奥术法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "蕴含魔法奥义的精致法杖",
+        "description": "蕴含魔法奥义的精巧法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -40980,6 +40986,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1150,
         "basic_properties": {
             "attack": 120,
@@ -40998,7 +41005,7 @@ exports.data = [
         "label": "奥术法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "蕴含魔法奥义的精致法杖",
+        "description": "蕴含魔法奥义的精巧法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41018,6 +41025,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1151,
         "basic_properties": {
             "attack": 123,
@@ -41028,7 +41036,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 20,
+        "forgeID": 48,
         "forgeTarget": 1155,
         "iconf": "f-m-mainweapon1-5.png",
         "iconm": "m-m-mainweapon1-5.png"
@@ -41038,7 +41046,7 @@ exports.data = [
         "label": "奥术法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "蕴含魔法奥义的精致法杖",
+        "description": "蕴含魔法奥义的精巧法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41058,6 +41066,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1152,
         "basic_properties": {
             "attack": 126,
@@ -41068,7 +41077,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 20,
+        "forgeID": 48,
         "forgeTarget": 1156,
         "iconf": "f-m-mainweapon1-5.png",
         "iconm": "m-m-mainweapon1-5.png"
@@ -41078,7 +41087,7 @@ exports.data = [
         "label": "奥术法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "蕴含魔法奥义的精致法杖",
+        "description": "蕴含魔法奥义的精巧法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41098,6 +41107,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1153,
         "basic_properties": {
             "attack": 129,
@@ -41108,7 +41118,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 20,
+        "forgeID": 48,
         "forgeTarget": 1157,
         "iconf": "f-m-mainweapon1-5.png",
         "iconm": "m-m-mainweapon1-5.png"
@@ -41118,7 +41128,7 @@ exports.data = [
         "label": "奥术法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "蕴含魔法奥义的精致法杖",
+        "description": "蕴含魔法奥义的精巧法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41138,6 +41148,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1154,
         "basic_properties": {
             "attack": 132,
@@ -41148,7 +41159,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 20,
+        "forgeID": 48,
         "forgeTarget": 1158,
         "iconf": "f-m-mainweapon1-5.png",
         "iconm": "m-m-mainweapon1-5.png"
@@ -41158,7 +41169,7 @@ exports.data = [
         "label": "奥术法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "蕴含魔法奥义的精致法杖",
+        "description": "蕴含魔法奥义的精巧法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41178,6 +41189,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "attack": 135,
             "accuracy": 130,
@@ -41187,7 +41199,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 20,
+        "forgeID": 48,
         "forgeTarget": 1159,
         "iconf": "f-m-mainweapon1-5.png",
         "iconm": "m-m-mainweapon1-5.png"
@@ -41197,7 +41209,7 @@ exports.data = [
         "label": "燃灵法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "燃灵法杖lv2",
+        "description": "能将魔力燃烧的精致法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41217,6 +41229,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1156,
         "basic_properties": {
             "attack": 126,
@@ -41235,7 +41248,7 @@ exports.data = [
         "label": "燃灵法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "燃灵法杖lv3",
+        "description": "能将魔力燃烧的精致法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41255,6 +41268,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1157,
         "basic_properties": {
             "attack": 129,
@@ -41265,7 +41279,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 26,
+        "forgeID": 54,
         "forgeTarget": 1161,
         "iconf": "f-m-mainweapon1-4.png",
         "iconm": "m-m-mainweapon1-4.png"
@@ -41275,7 +41289,7 @@ exports.data = [
         "label": "燃灵法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "燃灵法杖lv4",
+        "description": "能将魔力燃烧的精致法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41292,6 +41306,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1158,
         "basic_properties": {
             "attack": 132,
@@ -41305,7 +41320,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 26,
+        "forgeID": 54,
         "forgeTarget": 1162,
         "iconf": "f-m-mainweapon1-4.png",
         "iconm": "m-m-mainweapon1-4.png"
@@ -41315,7 +41330,7 @@ exports.data = [
         "label": "燃灵法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "燃灵法杖lv5",
+        "description": "能将魔力燃烧的精致法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41335,6 +41350,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1159,
         "basic_properties": {
             "attack": 135,
@@ -41345,7 +41361,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 26,
+        "forgeID": 54,
         "forgeTarget": 1163,
         "iconf": "f-m-mainweapon1-4.png",
         "iconm": "m-m-mainweapon1-4.png"
@@ -41355,7 +41371,7 @@ exports.data = [
         "label": "燃灵法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "燃灵法杖lv6",
+        "description": "能将魔力燃烧的精致法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41375,6 +41391,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1160,
         "basic_properties": {
             "attack": 138,
@@ -41385,7 +41402,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 26,
+        "forgeID": 54,
         "forgeTarget": 1164,
         "iconf": "f-m-mainweapon1-4.png",
         "iconm": "m-m-mainweapon1-4.png"
@@ -41395,7 +41412,7 @@ exports.data = [
         "label": "燃灵法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "燃灵法杖lv7",
+        "description": "能将魔力燃烧的精致法杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41415,6 +41432,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "attack": 141,
             "accuracy": 134,
@@ -41424,7 +41442,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 26,
+        "forgeID": 54,
         "forgeTarget": 1165,
         "iconf": "f-m-mainweapon1-4.png",
         "iconm": "m-m-mainweapon1-4.png"
@@ -41434,7 +41452,7 @@ exports.data = [
         "label": "湮灭法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "湮灭法杖lv3",
+        "description": "附有冥界之力的魔杖，能释放毁灭之光",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41454,6 +41472,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1162,
         "basic_properties": {
             "attack": 132,
@@ -41472,7 +41491,7 @@ exports.data = [
         "label": "湮灭法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "湮灭法杖lv4",
+        "description": "附有冥界之力的魔杖，能释放毁灭之光",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41492,6 +41511,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1163,
         "basic_properties": {
             "attack": 135,
@@ -41502,7 +41522,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 32,
+        "forgeID": 60,
         "forgeTarget": 1167,
         "iconf": "f-m-mainweapon1-3.png",
         "iconm": "m-m-mainweapon1-3.png"
@@ -41512,7 +41532,7 @@ exports.data = [
         "label": "湮灭法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "湮灭法杖lv5",
+        "description": "附有冥界之力的魔杖，能释放毁灭之光",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41532,6 +41552,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1164,
         "basic_properties": {
             "attack": 138,
@@ -41542,7 +41563,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 32,
+        "forgeID": 60,
         "forgeTarget": 1168,
         "iconf": "f-m-mainweapon1-3.png",
         "iconm": "m-m-mainweapon1-3.png"
@@ -41552,7 +41573,7 @@ exports.data = [
         "label": "湮灭法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "湮灭法杖lv6",
+        "description": "附有冥界之力的魔杖，能释放毁灭之光",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41572,6 +41593,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1165,
         "basic_properties": {
             "attack": 141,
@@ -41582,7 +41604,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 32,
+        "forgeID": 60,
         "forgeTarget": 1169,
         "iconf": "f-m-mainweapon1-3.png",
         "iconm": "m-m-mainweapon1-3.png"
@@ -41592,7 +41614,7 @@ exports.data = [
         "label": "湮灭法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "湮灭法杖lv7",
+        "description": "附有冥界之力的魔杖，能释放毁灭之光",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41612,6 +41634,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1166,
         "basic_properties": {
             "attack": 144,
@@ -41622,7 +41645,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 32,
+        "forgeID": 60,
         "forgeTarget": 1170,
         "iconf": "f-m-mainweapon1-3.png",
         "iconm": "m-m-mainweapon1-3.png"
@@ -41632,7 +41655,7 @@ exports.data = [
         "label": "湮灭法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "湮灭法杖lv8",
+        "description": "附有冥界之力的魔杖，能释放毁灭之光",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41652,6 +41675,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "attack": 147,
             "accuracy": 138,
@@ -41661,7 +41685,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 32,
+        "forgeID": 60,
         "forgeTarget": 1171,
         "iconf": "f-m-mainweapon1-3.png",
         "iconm": "m-m-mainweapon1-3.png"
@@ -41671,7 +41695,7 @@ exports.data = [
         "label": "落日法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "落日法杖lv4",
+        "description": "罕见的传世古杖，蕴含深不可测的魔力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41691,6 +41715,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1168,
         "basic_properties": {
             "attack": 138,
@@ -41709,7 +41734,7 @@ exports.data = [
         "label": "落日法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "落日法杖lv5",
+        "description": "罕见的传世古杖，蕴含深不可测的魔力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41729,6 +41754,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1169,
         "basic_properties": {
             "attack": 141,
@@ -41739,7 +41765,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 38,
+        "forgeID": 66,
         "forgeTarget": 1173,
         "iconf": "f-m-mainweapon1-2.png",
         "iconm": "m-m-mainweapon1-2.png"
@@ -41749,7 +41775,7 @@ exports.data = [
         "label": "落日法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "落日法杖lv6",
+        "description": "罕见的传世古杖，蕴含深不可测的魔力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41769,6 +41795,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1170,
         "basic_properties": {
             "attack": 144,
@@ -41779,7 +41806,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 38,
+        "forgeID": 66,
         "forgeTarget": 1174,
         "iconf": "f-m-mainweapon1-2.png",
         "iconm": "m-m-mainweapon1-2.png"
@@ -41789,7 +41816,7 @@ exports.data = [
         "label": "落日法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "落日法杖lv7",
+        "description": "罕见的传世古杖，蕴含深不可测的魔力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41809,6 +41836,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1171,
         "basic_properties": {
             "attack": 147,
@@ -41819,7 +41847,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 38,
+        "forgeID": 66,
         "forgeTarget": 1175,
         "iconf": "f-m-mainweapon1-2.png",
         "iconm": "m-m-mainweapon1-2.png"
@@ -41829,7 +41857,7 @@ exports.data = [
         "label": "落日法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "落日法杖lv8",
+        "description": "罕见的传世古杖，蕴含深不可测的魔力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41849,6 +41877,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1172,
         "basic_properties": {
             "attack": 150,
@@ -41859,7 +41888,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 38,
+        "forgeID": 66,
         "forgeTarget": 1176,
         "iconf": "f-m-mainweapon1-2.png",
         "iconm": "m-m-mainweapon1-2.png"
@@ -41869,7 +41898,7 @@ exports.data = [
         "label": "落日法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "落日法杖lv9",
+        "description": "罕见的传世古杖，蕴含深不可测的魔力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41889,6 +41918,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "attack": 153,
             "accuracy": 142,
@@ -41898,7 +41928,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 38,
+        "forgeID": 66,
         "forgeTarget": 1177,
         "iconf": "f-m-mainweapon1-2.png",
         "iconm": "m-m-mainweapon1-2.png"
@@ -41908,7 +41938,7 @@ exports.data = [
         "label": "缚龙法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "缚龙法杖lv5",
+        "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41928,6 +41958,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1174,
         "basic_properties": {
             "attack": 144,
@@ -41946,7 +41977,7 @@ exports.data = [
         "label": "缚龙法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "缚龙法杖lv6",
+        "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -41966,6 +41997,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1175,
         "basic_properties": {
             "attack": 147,
@@ -41984,7 +42016,7 @@ exports.data = [
         "label": "缚龙法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "缚龙法杖lv7",
+        "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -42004,6 +42036,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1176,
         "basic_properties": {
             "attack": 150,
@@ -42022,7 +42055,7 @@ exports.data = [
         "label": "缚龙法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "缚龙法杖lv8",
+        "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -42042,6 +42075,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1177,
         "basic_properties": {
             "attack": 153,
@@ -42060,7 +42094,7 @@ exports.data = [
         "label": "缚龙法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "缚龙法杖lv9",
+        "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -42080,6 +42114,7 @@ exports.data = [
         "soundAttack": "attackzhanshi.mp3",
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1178,
         "basic_properties": {
             "attack": 156,
@@ -42098,7 +42133,7 @@ exports.data = [
         "label": "缚龙法杖",
         "category": 1,
         "subcategory": 0,
-        "description": "缚龙法杖lv10",
+        "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -42142,6 +42177,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1180,
         "basic_properties": {
             "health": 220,
@@ -42167,6 +42203,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1181,
         "basic_properties": {
             "health": 225,
@@ -42179,7 +42216,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 22,
+        "forgeID": 50,
         "forgeTarget": 1185
     },
     {
@@ -42194,6 +42231,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1182,
         "basic_properties": {
             "health": 230,
@@ -42206,7 +42244,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 22,
+        "forgeID": 50,
         "forgeTarget": 1186
     },
     {
@@ -42221,6 +42259,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1183,
         "basic_properties": {
             "health": 235,
@@ -42233,7 +42272,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 22,
+        "forgeID": 50,
         "forgeTarget": 1187
     },
     {
@@ -42248,6 +42287,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1184,
         "basic_properties": {
             "health": 240,
@@ -42260,7 +42300,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 22,
+        "forgeID": 50,
         "forgeTarget": 1188
     },
     {
@@ -42275,6 +42315,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 245,
             "attack": 56,
@@ -42286,7 +42327,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 22,
+        "forgeID": 50,
         "forgeTarget": 1189
     },
     {
@@ -42295,12 +42336,13 @@ exports.data = [
         "icon": "er022.png",
         "category": 1,
         "subcategory": 3,
-        "description": "燃灵戒指lv2",
+        "description": "凝聚了庞大魔力的戒指",
         "classLimit": [
             217
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1186,
         "basic_properties": {
             "health": 230,
@@ -42320,12 +42362,13 @@ exports.data = [
         "icon": "er022.png",
         "category": 1,
         "subcategory": 3,
-        "description": "燃灵戒指lv3",
+        "description": "凝聚了庞大魔力的戒指",
         "classLimit": [
             217
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1187,
         "basic_properties": {
             "health": 235,
@@ -42338,7 +42381,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 28,
+        "forgeID": 56,
         "forgeTarget": 1191
     },
     {
@@ -42347,12 +42390,13 @@ exports.data = [
         "icon": "er022.png",
         "category": 1,
         "subcategory": 3,
-        "description": "燃灵戒指lv4",
+        "description": "凝聚了庞大魔力的戒指",
         "classLimit": [
             217
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1188,
         "basic_properties": {
             "health": 240,
@@ -42365,7 +42409,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 28,
+        "forgeID": 56,
         "forgeTarget": 1192
     },
     {
@@ -42374,12 +42418,13 @@ exports.data = [
         "icon": "er022.png",
         "category": 1,
         "subcategory": 3,
-        "description": "燃灵戒指lv5",
+        "description": "凝聚了庞大魔力的戒指",
         "classLimit": [
             217
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1189,
         "basic_properties": {
             "health": 245,
@@ -42392,7 +42437,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 28,
+        "forgeID": 56,
         "forgeTarget": 1193
     },
     {
@@ -42401,12 +42446,13 @@ exports.data = [
         "icon": "er022.png",
         "category": 1,
         "subcategory": 3,
-        "description": "燃灵戒指lv6",
+        "description": "凝聚了庞大魔力的戒指",
         "classLimit": [
             217
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1190,
         "basic_properties": {
             "health": 250,
@@ -42419,7 +42465,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 28,
+        "forgeID": 56,
         "forgeTarget": 1194
     },
     {
@@ -42428,12 +42474,13 @@ exports.data = [
         "icon": "er022.png",
         "category": 1,
         "subcategory": 3,
-        "description": "燃灵戒指lv7",
+        "description": "凝聚了庞大魔力的戒指",
         "classLimit": [
             217
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 255,
             "attack": 58,
@@ -42445,7 +42492,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 28,
+        "forgeID": 56,
         "forgeTarget": 1195
     },
     {
@@ -42454,12 +42501,13 @@ exports.data = [
         "icon": "er032.png",
         "category": 1,
         "subcategory": 3,
-        "description": "湮灭戒指lv3",
+        "description": "能大幅度提升破坏力的魔戒",
         "classLimit": [
             217
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1192,
         "basic_properties": {
             "health": 240,
@@ -42479,12 +42527,13 @@ exports.data = [
         "icon": "er032.png",
         "category": 1,
         "subcategory": 3,
-        "description": "湮灭戒指lv4",
+        "description": "能大幅度提升破坏力的魔戒",
         "classLimit": [
             217
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1193,
         "basic_properties": {
             "health": 245,
@@ -42497,7 +42546,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 34,
+        "forgeID": 62,
         "forgeTarget": 1197
     },
     {
@@ -42506,12 +42555,13 @@ exports.data = [
         "icon": "er032.png",
         "category": 1,
         "subcategory": 3,
-        "description": "湮灭戒指lv5",
+        "description": "能大幅度提升破坏力的魔戒",
         "classLimit": [
             217
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1194,
         "basic_properties": {
             "health": 250,
@@ -42524,7 +42574,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 34,
+        "forgeID": 62,
         "forgeTarget": 1198
     },
     {
@@ -42533,12 +42583,13 @@ exports.data = [
         "icon": "er032.png",
         "category": 1,
         "subcategory": 3,
-        "description": "湮灭戒指lv6",
+        "description": "能大幅度提升破坏力的魔戒",
         "classLimit": [
             217
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1195,
         "basic_properties": {
             "health": 255,
@@ -42551,7 +42602,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 34,
+        "forgeID": 62,
         "forgeTarget": 1199
     },
     {
@@ -42560,12 +42611,13 @@ exports.data = [
         "icon": "er032.png",
         "category": 1,
         "subcategory": 3,
-        "description": "湮灭戒指lv4",
+        "description": "能大幅度提升破坏力的魔戒",
         "classLimit": [
             217
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1196,
         "basic_properties": {
             "health": 260,
@@ -42578,7 +42630,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 34,
+        "forgeID": 62,
         "forgeTarget": 1200
     },
     {
@@ -42587,12 +42639,13 @@ exports.data = [
         "icon": "er032.png",
         "category": 1,
         "subcategory": 3,
-        "description": "湮灭戒指lv4",
+        "description": "能大幅度提升破坏力的魔戒",
         "classLimit": [
             217
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 265,
             "attack": 61,
@@ -42604,7 +42657,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 34,
+        "forgeID": 62,
         "forgeTarget": 1201
     },
     {
@@ -42613,12 +42666,13 @@ exports.data = [
         "icon": "er042.png",
         "category": 1,
         "subcategory": 3,
-        "description": "落日戒指lv4",
+        "description": "凝聚落日绝望之力的法戒",
         "classLimit": [
             217
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1198,
         "basic_properties": {
             "health": 250,
@@ -42638,12 +42692,13 @@ exports.data = [
         "icon": "er042.png",
         "category": 1,
         "subcategory": 3,
-        "description": "落日戒指lv5",
+        "description": "凝聚落日绝望之力的法戒",
         "classLimit": [
             217
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1199,
         "basic_properties": {
             "health": 255,
@@ -42656,7 +42711,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 40,
+        "forgeID": 68,
         "forgeTarget": 1203
     },
     {
@@ -42665,12 +42720,13 @@ exports.data = [
         "icon": "er042.png",
         "category": 1,
         "subcategory": 3,
-        "description": "落日戒指lv6",
+        "description": "凝聚落日绝望之力的法戒",
         "classLimit": [
             217
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1200,
         "basic_properties": {
             "health": 260,
@@ -42683,7 +42739,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 40,
+        "forgeID": 68,
         "forgeTarget": 1204
     },
     {
@@ -42692,12 +42748,13 @@ exports.data = [
         "icon": "er042.png",
         "category": 1,
         "subcategory": 3,
-        "description": "落日戒指lv7",
+        "description": "凝聚落日绝望之力的法戒",
         "classLimit": [
             217
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1201,
         "basic_properties": {
             "health": 265,
@@ -42710,7 +42767,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 40,
+        "forgeID": 68,
         "forgeTarget": 1205
     },
     {
@@ -42719,12 +42776,13 @@ exports.data = [
         "icon": "er042.png",
         "category": 1,
         "subcategory": 3,
-        "description": "落日戒指lv8",
+        "description": "凝聚落日绝望之力的法戒",
         "classLimit": [
             217
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1202,
         "basic_properties": {
             "health": 270,
@@ -42737,7 +42795,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 40,
+        "forgeID": 68,
         "forgeTarget": 1206
     },
     {
@@ -42746,12 +42804,13 @@ exports.data = [
         "icon": "er042.png",
         "category": 1,
         "subcategory": 3,
-        "description": "落日戒指lv9",
+        "description": "凝聚落日绝望之力的法戒",
         "classLimit": [
             217
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 275,
             "attack": 63,
@@ -42763,7 +42822,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 40,
+        "forgeID": 68,
         "forgeTarget": 1207
     },
     {
@@ -42772,12 +42831,13 @@ exports.data = [
         "icon": "er042.png",
         "category": 1,
         "subcategory": 3,
-        "description": "龙灵法戒lv5",
+        "description": "神秘莫测的光晕环绕着，透射出永恒梦境般深邃的魔力",
         "classLimit": [
             217
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1204,
         "basic_properties": {
             "health": 260,
@@ -42797,12 +42857,13 @@ exports.data = [
         "icon": "er042.png",
         "category": 1,
         "subcategory": 3,
-        "description": "龙灵法戒lv6",
+        "description": "神秘莫测的光晕环绕着，透射出永恒梦境般深邃的魔力",
         "classLimit": [
             217
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1205,
         "basic_properties": {
             "health": 265,
@@ -42822,12 +42883,13 @@ exports.data = [
         "icon": "er042.png",
         "category": 1,
         "subcategory": 3,
-        "description": "龙灵法戒lv7",
+        "description": "神秘莫测的光晕环绕着，透射出永恒梦境般深邃的魔力",
         "classLimit": [
             217
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1206,
         "basic_properties": {
             "health": 270,
@@ -42847,12 +42909,13 @@ exports.data = [
         "icon": "er042.png",
         "category": 1,
         "subcategory": 3,
-        "description": "龙灵法戒lv8",
+        "description": "神秘莫测的光晕环绕着，透射出永恒梦境般深邃的魔力",
         "classLimit": [
             217
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1207,
         "basic_properties": {
             "health": 275,
@@ -42872,12 +42935,13 @@ exports.data = [
         "icon": "er042.png",
         "category": 1,
         "subcategory": 3,
-        "description": "龙灵法戒lv9",
+        "description": "神秘莫测的光晕环绕着，透射出永恒梦境般深邃的魔力",
         "classLimit": [
             217
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1208,
         "basic_properties": {
             "health": 280,
@@ -42897,7 +42961,7 @@ exports.data = [
         "icon": "er042.png",
         "category": 1,
         "subcategory": 3,
-        "description": "龙灵法戒lv10",
+        "description": "神秘莫测的光晕环绕着，透射出永恒梦境般深邃的魔力",
         "classLimit": [
             217
         ],
@@ -42917,16 +42981,36 @@ exports.data = [
     },
     {
         "classId": 1209,
-        "label": "奥术护符",
-        "icon": "ewn011.png",
+        "label": "奥术法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "描绘着玄奥符文的护符",
+        "description": "描绘着玄奥符文的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1210,
         "basic_properties": {
             "health": 250,
@@ -42939,20 +43023,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet5.png",
+        "iconm": "m-m-helmet5.png"
     },
     {
         "classId": 1210,
-        "label": "奥术护符",
-        "icon": "ewn011.png",
+        "label": "奥术法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "描绘着玄奥符文的护符",
+        "description": "描绘着玄奥符文的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1211,
         "basic_properties": {
             "health": 255,
@@ -42966,21 +43072,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 21,
-        "forgeTarget": 1215
+        "forgeID": 49,
+        "forgeTarget": 1215,
+        "iconf": "f-m-helmet5.png",
+        "iconm": "m-m-helmet5.png"
     },
     {
         "classId": 1211,
-        "label": "奥术护符",
-        "icon": "ewn011.png",
+        "label": "奥术法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "描绘着玄奥符文的护符",
+        "description": "描绘着玄奥符文的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1212,
         "basic_properties": {
             "health": 260,
@@ -42994,21 +43122,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 21,
-        "forgeTarget": 1216
+        "forgeID": 49,
+        "forgeTarget": 1216,
+        "iconf": "f-m-helmet5.png",
+        "iconm": "m-m-helmet5.png"
     },
     {
         "classId": 1212,
-        "label": "奥术护符",
-        "icon": "ewn011.png",
+        "label": "奥术法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "描绘着玄奥符文的护符",
+        "description": "描绘着玄奥符文的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1213,
         "basic_properties": {
             "health": 265,
@@ -43022,21 +43172,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 21,
-        "forgeTarget": 1217
+        "forgeID": 49,
+        "forgeTarget": 1217,
+        "iconf": "f-m-helmet5.png",
+        "iconm": "m-m-helmet5.png"
     },
     {
         "classId": 1213,
-        "label": "奥术护符",
-        "icon": "ewn011.png",
+        "label": "奥术法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "描绘着玄奥符文的护符",
+        "description": "描绘着玄奥符文的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1214,
         "basic_properties": {
             "health": 270,
@@ -43050,21 +43222,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 21,
-        "forgeTarget": 1218
+        "forgeID": 49,
+        "forgeTarget": 1218,
+        "iconf": "f-m-helmet5.png",
+        "iconm": "m-m-helmet5.png"
     },
     {
         "classId": 1214,
-        "label": "奥术护符",
-        "icon": "ewn011.png",
+        "label": "奥术法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "描绘着玄奥符文的护符",
+        "description": "描绘着玄奥符文的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen5-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen5-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen5-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 275,
             "attack": 56,
@@ -43077,21 +43271,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 21,
-        "forgeTarget": 1219
+        "forgeID": 49,
+        "forgeTarget": 1219,
+        "iconf": "f-m-helmet5.png",
+        "iconm": "m-m-helmet5.png"
     },
     {
         "classId": 1215,
-        "label": "燃灵护符",
-        "icon": "ewn021.png",
+        "label": "燃灵法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "燃灵护符lv2",
+        "description": "蕴含火焰力量的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1216,
         "basic_properties": {
             "health": 260,
@@ -43104,20 +43320,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet4.png",
+        "iconm": "m-m-helmet4.png"
     },
     {
         "classId": 1216,
-        "label": "燃灵护符",
-        "icon": "ewn021.png",
+        "label": "燃灵法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "燃灵护符lv3",
+        "description": "蕴含火焰力量的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1217,
         "basic_properties": {
             "health": 265,
@@ -43131,21 +43369,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 27,
-        "forgeTarget": 1221
+        "forgeID": 55,
+        "forgeTarget": 1221,
+        "iconf": "f-m-helmet4.png",
+        "iconm": "m-m-helmet4.png"
     },
     {
         "classId": 1217,
-        "label": "燃灵护符",
-        "icon": "ewn021.png",
+        "label": "燃灵法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "燃灵护符lv4",
+        "description": "蕴含火焰力量的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1218,
         "basic_properties": {
             "health": 270,
@@ -43159,21 +43419,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 27,
-        "forgeTarget": 1222
+        "forgeID": 55,
+        "forgeTarget": 1222,
+        "iconf": "f-m-helmet4.png",
+        "iconm": "m-m-helmet4.png"
     },
     {
         "classId": 1218,
-        "label": "燃灵护符",
-        "icon": "ewn021.png",
+        "label": "燃灵法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "燃灵护符lv5",
+        "description": "蕴含火焰力量的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1219,
         "basic_properties": {
             "health": 275,
@@ -43187,21 +43469,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 27,
-        "forgeTarget": 1223
+        "forgeID": 55,
+        "forgeTarget": 1223,
+        "iconf": "f-m-helmet4.png",
+        "iconm": "m-m-helmet4.png"
     },
     {
         "classId": 1219,
-        "label": "燃灵护符",
-        "icon": "ewn021.png",
+        "label": "燃灵法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "燃灵护符lv6",
+        "description": "蕴含火焰力量的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1220,
         "basic_properties": {
             "health": 280,
@@ -43215,21 +43519,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 27,
-        "forgeTarget": 1224
+        "forgeID": 55,
+        "forgeTarget": 1224,
+        "iconf": "f-m-helmet4.png",
+        "iconm": "m-m-helmet4.png"
     },
     {
         "classId": 1220,
-        "label": "燃灵护符",
-        "icon": "ewn021.png",
+        "label": "燃灵法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "燃灵护符lv7",
+        "description": "蕴含火焰力量的法帽",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen4-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen4-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen4-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 285,
             "attack": 59,
@@ -43242,21 +43568,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 27,
-        "forgeTarget": 1225
+        "forgeID": 55,
+        "forgeTarget": 1225,
+        "iconf": "f-m-helmet4.png",
+        "iconm": "m-m-helmet4.png"
     },
     {
         "classId": 1221,
-        "label": "湮灭护符",
-        "icon": "ewn031.png",
+        "label": "湮灭法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "湮灭护符lv3",
+        "description": "刻画了神秘的符文，似乎来自冥界",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1222,
         "basic_properties": {
             "health": 270,
@@ -43269,20 +43617,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet3.png",
+        "iconm": "m-m-helmet3.png"
     },
     {
         "classId": 1222,
-        "label": "湮灭护符",
-        "icon": "ewn031.png",
+        "label": "湮灭法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "湮灭护符lv4",
+        "description": "刻画了神秘的符文，似乎来自冥界",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1223,
         "basic_properties": {
             "health": 275,
@@ -43296,21 +43666,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 33,
-        "forgeTarget": 1227
+        "forgeID": 61,
+        "forgeTarget": 1227,
+        "iconf": "f-m-helmet3.png",
+        "iconm": "m-m-helmet3.png"
     },
     {
         "classId": 1223,
-        "label": "湮灭护符",
-        "icon": "ewn031.png",
+        "label": "湮灭法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "湮灭护符lv5",
+        "description": "刻画了神秘的符文，似乎来自冥界",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1224,
         "basic_properties": {
             "health": 280,
@@ -43324,21 +43716,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 33,
-        "forgeTarget": 1228
+        "forgeID": 61,
+        "forgeTarget": 1228,
+        "iconf": "f-m-helmet3.png",
+        "iconm": "m-m-helmet3.png"
     },
     {
         "classId": 1224,
-        "label": "湮灭护符",
-        "icon": "ewn031.png",
+        "label": "湮灭法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "湮灭护符lv6",
+        "description": "刻画了神秘的符文，似乎来自冥界",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1225,
         "basic_properties": {
             "health": 285,
@@ -43352,21 +43766,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 33,
-        "forgeTarget": 1229
+        "forgeID": 61,
+        "forgeTarget": 1229,
+        "iconf": "f-m-helmet3.png",
+        "iconm": "m-m-helmet3.png"
     },
     {
         "classId": 1225,
-        "label": "湮灭护符",
-        "icon": "ewn031.png",
+        "label": "湮灭法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "湮灭护符lv7",
+        "description": "刻画了神秘的符文，似乎来自冥界",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1226,
         "basic_properties": {
             "health": 290,
@@ -43380,21 +43816,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 33,
-        "forgeTarget": 1230
+        "forgeID": 61,
+        "forgeTarget": 1230,
+        "iconf": "f-m-helmet3.png",
+        "iconm": "m-m-helmet3.png"
     },
     {
         "classId": 1226,
-        "label": "湮灭护符",
-        "icon": "ewn031.png",
+        "label": "湮灭法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "湮灭护符lv8",
+        "description": "刻画了神秘的符文，似乎来自冥界",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen3-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen3-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen3-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 295,
             "attack": 61,
@@ -43407,21 +43865,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 33,
-        "forgeTarget": 1231
+        "forgeID": 61,
+        "forgeTarget": 1231,
+        "iconf": "f-m-helmet3.png",
+        "iconm": "m-m-helmet3.png"
     },
     {
         "classId": 1227,
-        "label": "落日护符",
-        "icon": "ewn041.png",
+        "label": "落日法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "落日护符lv4",
+        "description": "高贵的魔导士之帽，蕴藏着神秘力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1228,
         "basic_properties": {
             "health": 280,
@@ -43434,20 +43914,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet2.png",
+        "iconm": "m-m-helmet2.png"
     },
     {
         "classId": 1228,
-        "label": "落日护符",
-        "icon": "ewn041.png",
+        "label": "落日法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "落日护符lv5",
+        "description": "高贵的魔导士之帽，蕴藏着神秘力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1229,
         "basic_properties": {
             "health": 285,
@@ -43461,21 +43963,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 39,
-        "forgeTarget": 1233
+        "forgeID": 67,
+        "forgeTarget": 1233,
+        "iconf": "f-m-helmet2.png",
+        "iconm": "m-m-helmet2.png"
     },
     {
         "classId": 1229,
-        "label": "落日护符",
-        "icon": "ewn041.png",
+        "label": "落日法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "落日护符lv6",
+        "description": "高贵的魔导士之帽，蕴藏着神秘力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1230,
         "basic_properties": {
             "health": 290,
@@ -43489,21 +44013,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 39,
-        "forgeTarget": 1234
+        "forgeID": 67,
+        "forgeTarget": 1234,
+        "iconf": "f-m-helmet2.png",
+        "iconm": "m-m-helmet2.png"
     },
     {
         "classId": 1230,
-        "label": "落日护符",
-        "icon": "ewn041.png",
+        "label": "落日法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "落日护符lv7",
+        "description": "高贵的魔导士之帽，蕴藏着神秘力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1231,
         "basic_properties": {
             "health": 295,
@@ -43517,21 +44063,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 39,
-        "forgeTarget": 1235
+        "forgeID": 67,
+        "forgeTarget": 1235,
+        "iconf": "f-m-helmet2.png",
+        "iconm": "m-m-helmet2.png"
     },
     {
         "classId": 1231,
-        "label": "落日护符",
-        "icon": "ewn041.png",
+        "label": "落日法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "落日护符lv8",
+        "description": "高贵的魔导士之帽，蕴藏着神秘力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1232,
         "basic_properties": {
             "health": 300,
@@ -43545,21 +44113,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 39,
-        "forgeTarget": 1236
+        "forgeID": 67,
+        "forgeTarget": 1236,
+        "iconf": "f-m-helmet2.png",
+        "iconm": "m-m-helmet2.png"
     },
     {
         "classId": 1232,
-        "label": "落日护符",
-        "icon": "ewn041.png",
+        "label": "落日法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "落日护符lv9",
+        "description": "高贵的魔导士之帽，蕴藏着神秘力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen2-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen2-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen2-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 305,
             "attack": 64,
@@ -43572,21 +44162,43 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 4,
         "hide": true,
-        "forgeID": 39,
-        "forgeTarget": 1237
+        "forgeID": 67,
+        "forgeTarget": 1237,
+        "iconf": "f-m-helmet2.png",
+        "iconm": "m-m-helmet2.png"
     },
     {
         "classId": 1233,
-        "label": "龙灵护符",
-        "icon": "ewn041.png",
+        "label": "龙灵法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "龙灵护符lv5",
+        "description": "华美的纹理勾勒出永恒的绚烂，给予佩戴者龙之祝福",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1234,
         "basic_properties": {
             "health": 290,
@@ -43599,20 +44211,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet1.png",
+        "iconm": "m-m-helmet1.png"
     },
     {
         "classId": 1234,
-        "label": "龙灵护符",
-        "icon": "ewn041.png",
+        "label": "龙灵法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "龙灵护符lv6",
+        "description": "华美的纹理勾勒出永恒的绚烂，给予佩戴者龙之祝福",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1235,
         "basic_properties": {
             "health": 295,
@@ -43625,20 +44259,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet1.png",
+        "iconm": "m-m-helmet1.png"
     },
     {
         "classId": 1235,
-        "label": "龙灵护符",
-        "icon": "ewn041.png",
+        "label": "龙灵法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "龙灵护符lv7",
+        "description": "华美的纹理勾勒出永恒的绚烂，给予佩戴者龙之祝福",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1236,
         "basic_properties": {
             "health": 300,
@@ -43651,20 +44307,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet1.png",
+        "iconm": "m-m-helmet1.png"
     },
     {
         "classId": 1236,
-        "label": "龙灵护符",
-        "icon": "ewn041.png",
+        "label": "龙灵法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "龙灵护符lv8",
+        "description": "华美的纹理勾勒出永恒的绚烂，给予佩戴者龙之祝福",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1237,
         "basic_properties": {
             "health": 305,
@@ -43677,20 +44355,42 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet1.png",
+        "iconm": "m-m-helmet1.png"
     },
     {
         "classId": 1237,
-        "label": "龙灵护符",
-        "icon": "ewn041.png",
+        "label": "龙灵法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "龙灵护符lv9",
+        "description": "华美的纹理勾勒出永恒的绚烂，给予佩戴者龙之祝福",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1238,
         "basic_properties": {
             "health": 310,
@@ -43703,15 +44403,36 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet1.png",
+        "iconm": "m-m-helmet1.png"
     },
     {
         "classId": 1238,
-        "label": "龙灵护符",
-        "icon": "ewn041.png",
+        "label": "龙灵法帽",
         "category": 1,
         "subcategory": 5,
-        "description": "龙灵护符lv10",
+        "description": "华美的纹理勾勒出永恒的绚烂，给予佩戴者龙之祝福",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "f-magen-helmet1-3.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-magen-helmet1.ccbi"
+            },
+            {
+                "part": "helmet3",
+                "file": "m-magen-helmet1-3.ccbi"
+            }
+        ],
         "classLimit": [
             217
         ],
@@ -43728,14 +44449,16 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 4,
-        "hide": true
+        "hide": true,
+        "iconf": "f-m-helmet1.png",
+        "iconm": "m-m-helmet1.png"
     },
     {
         "classId": 1239,
         "label": "圣徒之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "圣徒之鞋lv1",
+        "description": "由裁缝精心制作的鞋子，看上去很舒适",
         "effectf": [
             {
                 "part": "leftleg",
@@ -43761,6 +44484,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1240,
         "basic_properties": {
             "health": 260,
@@ -43780,7 +44504,7 @@ exports.data = [
         "label": "圣徒之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "圣徒之鞋lv2",
+        "description": "由裁缝精心制作的鞋子，看上去很舒适",
         "effectf": [
             {
                 "part": "leftleg",
@@ -43806,6 +44530,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1241,
         "basic_properties": {
             "health": 265,
@@ -43817,7 +44542,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 17,
+        "forgeID": 45,
         "forgeTarget": 1245,
         "iconf": "f-p-foot5.png",
         "iconm": "m-p-foot5.png"
@@ -43827,7 +44552,7 @@ exports.data = [
         "label": "圣徒之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "圣徒之鞋lv3",
+        "description": "由裁缝精心制作的鞋子，看上去很舒适",
         "effectf": [
             {
                 "part": "leftleg",
@@ -43853,6 +44578,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1242,
         "basic_properties": {
             "health": 270,
@@ -43864,7 +44590,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 17,
+        "forgeID": 45,
         "forgeTarget": 1246,
         "iconf": "f-p-foot5.png",
         "iconm": "m-p-foot5.png"
@@ -43874,7 +44600,7 @@ exports.data = [
         "label": "圣徒之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "圣徒之鞋lv4",
+        "description": "由裁缝精心制作的鞋子，看上去很舒适",
         "effectf": [
             {
                 "part": "leftleg",
@@ -43900,6 +44626,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1243,
         "basic_properties": {
             "health": 275,
@@ -43911,7 +44638,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 17,
+        "forgeID": 45,
         "forgeTarget": 1247,
         "iconf": "f-p-foot5.png",
         "iconm": "m-p-foot5.png"
@@ -43921,7 +44648,7 @@ exports.data = [
         "label": "圣徒之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "圣徒之鞋lv5",
+        "description": "由裁缝精心制作的鞋子，看上去很舒适",
         "effectf": [
             {
                 "part": "leftleg",
@@ -43947,6 +44674,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1244,
         "basic_properties": {
             "health": 280,
@@ -43958,7 +44686,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 17,
+        "forgeID": 45,
         "forgeTarget": 1248,
         "iconf": "f-p-foot5.png",
         "iconm": "m-p-foot5.png"
@@ -43968,7 +44696,7 @@ exports.data = [
         "label": "圣徒之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "圣徒之鞋lv6",
+        "description": "由裁缝精心制作的鞋子，看上去很舒适",
         "effectf": [
             {
                 "part": "leftleg",
@@ -43994,6 +44722,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 285,
             "attack": 53,
@@ -44004,7 +44733,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 17,
+        "forgeID": 45,
         "forgeTarget": 1249,
         "iconf": "f-p-foot5.png",
         "iconm": "m-p-foot5.png"
@@ -44014,7 +44743,7 @@ exports.data = [
         "label": "祈求者之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "祈求者之鞋lv2",
+        "description": "款式精美的鞋子，轻便耐用",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44040,6 +44769,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1246,
         "basic_properties": {
             "health": 270,
@@ -44059,7 +44789,7 @@ exports.data = [
         "label": "祈求者之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "祈求者之鞋lv3",
+        "description": "款式精美的鞋子，轻便耐用",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44085,6 +44815,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1247,
         "basic_properties": {
             "health": 275,
@@ -44096,7 +44827,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 23,
+        "forgeID": 51,
         "forgeTarget": 1251,
         "iconf": "f-p-foot4.png",
         "iconm": "m-p-foot4.png"
@@ -44106,7 +44837,7 @@ exports.data = [
         "label": "祈求者之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "祈求者之鞋lv4",
+        "description": "款式精美的鞋子，轻便耐用",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44132,6 +44863,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1248,
         "basic_properties": {
             "health": 280,
@@ -44143,7 +44875,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 23,
+        "forgeID": 51,
         "forgeTarget": 1252,
         "iconf": "f-p-foot4.png",
         "iconm": "m-p-foot4.png"
@@ -44153,7 +44885,7 @@ exports.data = [
         "label": "祈求者之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "祈求者之鞋lv5",
+        "description": "款式精美的鞋子，轻便耐用",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44179,6 +44911,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1249,
         "basic_properties": {
             "health": 285,
@@ -44190,7 +44923,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 23,
+        "forgeID": 51,
         "forgeTarget": 1253,
         "iconf": "f-p-foot4.png",
         "iconm": "m-p-foot4.png"
@@ -44200,7 +44933,7 @@ exports.data = [
         "label": "祈求者之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "祈求者之鞋lv6",
+        "description": "款式精美的鞋子，轻便耐用",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44226,6 +44959,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1250,
         "basic_properties": {
             "health": 290,
@@ -44237,7 +44971,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 23,
+        "forgeID": 51,
         "forgeTarget": 1254,
         "iconf": "f-p-foot4.png",
         "iconm": "m-p-foot4.png"
@@ -44247,7 +44981,7 @@ exports.data = [
         "label": "祈求者之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "祈求者之鞋lv7",
+        "description": "款式精美的鞋子，轻便耐用",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44273,6 +45007,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 295,
             "attack": 56,
@@ -44283,7 +45018,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 23,
+        "forgeID": 51,
         "forgeTarget": 1255,
         "iconf": "f-p-foot4.png",
         "iconm": "m-p-foot4.png"
@@ -44293,7 +45028,7 @@ exports.data = [
         "label": "神谕者之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "神谕者之鞋lv3",
+        "description": "珍贵的鞋子，似乎是天神赏赐的",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44319,6 +45054,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1252,
         "basic_properties": {
             "health": 280,
@@ -44338,7 +45074,7 @@ exports.data = [
         "label": "神谕者之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "神谕者之鞋lv4",
+        "description": "珍贵的鞋子，似乎是天神赏赐的",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44364,6 +45100,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1253,
         "basic_properties": {
             "health": 285,
@@ -44375,7 +45112,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 29,
+        "forgeID": 57,
         "forgeTarget": 1257,
         "iconf": "f-p-foot3.png",
         "iconm": "m-p-foot3.png"
@@ -44385,7 +45122,7 @@ exports.data = [
         "label": "神谕者之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "神谕者之鞋lv5",
+        "description": "珍贵的鞋子，似乎是天神赏赐的",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44411,6 +45148,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1254,
         "basic_properties": {
             "health": 290,
@@ -44422,7 +45160,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 29,
+        "forgeID": 57,
         "forgeTarget": 1258,
         "iconf": "f-p-foot3.png",
         "iconm": "m-p-foot3.png"
@@ -44432,7 +45170,7 @@ exports.data = [
         "label": "神谕者之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "神谕者之鞋lv6",
+        "description": "珍贵的鞋子，似乎是天神赏赐的",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44458,6 +45196,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1255,
         "basic_properties": {
             "health": 295,
@@ -44469,7 +45208,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 29,
+        "forgeID": 57,
         "forgeTarget": 1259,
         "iconf": "f-p-foot3.png",
         "iconm": "m-p-foot3.png"
@@ -44479,7 +45218,7 @@ exports.data = [
         "label": "神谕者之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "神谕者之鞋lv7",
+        "description": "珍贵的鞋子，似乎是天神赏赐的",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44505,6 +45244,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1256,
         "basic_properties": {
             "health": 300,
@@ -44516,7 +45256,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 29,
+        "forgeID": 57,
         "forgeTarget": 1260,
         "iconf": "f-p-foot3.png",
         "iconm": "m-p-foot3.png"
@@ -44526,7 +45266,7 @@ exports.data = [
         "label": "神谕者之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "神谕者之鞋lv8",
+        "description": "珍贵的鞋子，似乎是天神赏赐的",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44552,6 +45292,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 305,
             "attack": 59,
@@ -44562,7 +45303,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 29,
+        "forgeID": 57,
         "forgeTarget": 1261,
         "iconf": "f-p-foot3.png",
         "iconm": "m-p-foot3.png"
@@ -44572,7 +45313,7 @@ exports.data = [
         "label": "神圣之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "神圣之鞋lv4",
+        "description": "特殊材料所制作，鞋身隐隐泛出神圣的气息",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44598,6 +45339,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1258,
         "basic_properties": {
             "health": 290,
@@ -44617,7 +45359,7 @@ exports.data = [
         "label": "神圣之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "神圣之鞋lv5",
+        "description": "特殊材料所制作，鞋身隐隐泛出神圣的气息",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44643,6 +45385,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1259,
         "basic_properties": {
             "health": 295,
@@ -44654,7 +45397,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 35,
+        "forgeID": 63,
         "forgeTarget": 1263,
         "iconf": "f-p-foot2.png",
         "iconm": "m-p-foot2.png"
@@ -44664,7 +45407,7 @@ exports.data = [
         "label": "神圣之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "神圣之鞋lv6",
+        "description": "特殊材料所制作，鞋身隐隐泛出神圣的气息",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44690,6 +45433,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1260,
         "basic_properties": {
             "health": 300,
@@ -44701,7 +45445,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 35,
+        "forgeID": 63,
         "forgeTarget": 1264,
         "iconf": "f-p-foot2.png",
         "iconm": "m-p-foot2.png"
@@ -44711,7 +45455,7 @@ exports.data = [
         "label": "神圣之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "神圣之鞋lv7",
+        "description": "特殊材料所制作，鞋身隐隐泛出神圣的气息",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44737,6 +45481,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1261,
         "basic_properties": {
             "health": 305,
@@ -44748,7 +45493,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 35,
+        "forgeID": 63,
         "forgeTarget": 1265,
         "iconf": "f-p-foot2.png",
         "iconm": "m-p-foot2.png"
@@ -44758,7 +45503,7 @@ exports.data = [
         "label": "神圣之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "神圣之鞋lv8",
+        "description": "特殊材料所制作，鞋身隐隐泛出神圣的气息",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44784,6 +45529,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1262,
         "basic_properties": {
             "health": 310,
@@ -44795,7 +45541,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 35,
+        "forgeID": 63,
         "forgeTarget": 1266,
         "iconf": "f-p-foot2.png",
         "iconm": "m-p-foot2.png"
@@ -44805,7 +45551,7 @@ exports.data = [
         "label": "神圣之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "神圣之鞋lv9",
+        "description": "特殊材料所制作，鞋身隐隐泛出神圣的气息",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44831,6 +45577,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 315,
             "attack": 62,
@@ -44841,7 +45588,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 35,
+        "forgeID": 63,
         "forgeTarget": 1267,
         "iconf": "f-p-foot2.png",
         "iconm": "m-p-foot2.png"
@@ -44851,7 +45598,7 @@ exports.data = [
         "label": "光辉之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "光辉之鞋lv5",
+        "description": "洒下璀璨的光辉，带领我们通往光明之路",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44877,6 +45624,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1264,
         "basic_properties": {
             "health": 300,
@@ -44896,7 +45644,7 @@ exports.data = [
         "label": "光辉之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "光辉之鞋lv6",
+        "description": "洒下璀璨的光辉，带领我们通往光明之路",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44922,6 +45670,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1265,
         "basic_properties": {
             "health": 305,
@@ -44941,7 +45690,7 @@ exports.data = [
         "label": "光辉之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "光辉之鞋lv7",
+        "description": "洒下璀璨的光辉，带领我们通往光明之路",
         "effectf": [
             {
                 "part": "leftleg",
@@ -44967,6 +45716,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1266,
         "basic_properties": {
             "health": 310,
@@ -44986,7 +45736,7 @@ exports.data = [
         "label": "光辉之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "光辉之鞋lv8",
+        "description": "洒下璀璨的光辉，带领我们通往光明之路",
         "effectf": [
             {
                 "part": "leftleg",
@@ -45012,6 +45762,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1267,
         "basic_properties": {
             "health": 315,
@@ -45031,7 +45782,7 @@ exports.data = [
         "label": "光辉之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "光辉之鞋lv9",
+        "description": "洒下璀璨的光辉，带领我们通往光明之路",
         "effectf": [
             {
                 "part": "leftleg",
@@ -45057,6 +45808,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1268,
         "basic_properties": {
             "health": 320,
@@ -45076,7 +45828,7 @@ exports.data = [
         "label": "光辉之鞋",
         "category": 1,
         "subcategory": 4,
-        "description": "光辉之鞋lv10",
+        "description": "洒下璀璨的光辉，带领我们通往光明之路",
         "effectf": [
             {
                 "part": "leftleg",
@@ -45120,7 +45872,7 @@ exports.data = [
         "label": "圣徒长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "圣徒长袍lv1",
+        "description": "圣洁的白色外衣",
         "effectf": [
             {
                 "part": "chest",
@@ -45137,10 +45889,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn5-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45159,10 +45907,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn5-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45170,6 +45914,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1270,
         "basic_properties": {
             "health": 380,
@@ -45190,7 +45935,7 @@ exports.data = [
         "label": "圣徒长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "圣徒长袍lv2",
+        "description": "圣洁的白色外衣",
         "effectf": [
             {
                 "part": "chest",
@@ -45207,10 +45952,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn5-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45229,10 +45970,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn5-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45240,6 +45977,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1271,
         "basic_properties": {
             "health": 387,
@@ -45252,7 +45990,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 18,
+        "forgeID": 46,
         "forgeTarget": 1275,
         "iconf": "f-p-chest5.png",
         "iconm": "m-p-chest5.png"
@@ -45262,7 +46000,7 @@ exports.data = [
         "label": "圣徒长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "圣徒长袍lv3",
+        "description": "圣洁的白色外衣",
         "effectf": [
             {
                 "part": "chest",
@@ -45279,10 +46017,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn5-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45301,10 +46035,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn5-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45312,6 +46042,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1272,
         "basic_properties": {
             "health": 394,
@@ -45324,7 +46055,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 18,
+        "forgeID": 46,
         "forgeTarget": 1276,
         "iconf": "f-p-chest5.png",
         "iconm": "m-p-chest5.png"
@@ -45334,7 +46065,7 @@ exports.data = [
         "label": "圣徒长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "圣徒长袍lv4",
+        "description": "圣洁的白色外衣",
         "effectf": [
             {
                 "part": "chest",
@@ -45351,10 +46082,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn5-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45373,10 +46100,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn5-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45384,6 +46107,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1273,
         "basic_properties": {
             "health": 401,
@@ -45396,7 +46120,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 18,
+        "forgeID": 46,
         "forgeTarget": 1277,
         "iconf": "f-p-chest5.png",
         "iconm": "m-p-chest5.png"
@@ -45406,7 +46130,7 @@ exports.data = [
         "label": "圣徒长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "圣徒长袍lv5",
+        "description": "圣洁的白色外衣",
         "effectf": [
             {
                 "part": "chest",
@@ -45423,10 +46147,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn5-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45445,10 +46165,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn5-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45456,6 +46172,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1274,
         "basic_properties": {
             "health": 408,
@@ -45468,7 +46185,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 18,
+        "forgeID": 46,
         "forgeTarget": 1278,
         "iconf": "f-p-chest5.png",
         "iconm": "m-p-chest5.png"
@@ -45478,7 +46195,7 @@ exports.data = [
         "label": "圣徒长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "圣徒长袍lv6",
+        "description": "圣洁的白色外衣",
         "effectf": [
             {
                 "part": "chest",
@@ -45495,10 +46212,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn5-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45517,10 +46230,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn5-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn5-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45528,6 +46237,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 415,
             "attack": 45,
@@ -45539,7 +46249,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 18,
+        "forgeID": 46,
         "forgeTarget": 1279,
         "iconf": "f-p-chest5.png",
         "iconm": "m-p-chest5.png"
@@ -45549,7 +46259,7 @@ exports.data = [
         "label": "祈求者长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "祈求者长袍lv2",
+        "description": "昂贵的真丝所织成的华美长袍",
         "effectf": [
             {
                 "part": "chest",
@@ -45566,10 +46276,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn4-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45588,10 +46294,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn4-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45599,6 +46301,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1276,
         "basic_properties": {
             "health": 394,
@@ -45619,7 +46322,7 @@ exports.data = [
         "label": "祈求者长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "祈求者长袍lv3",
+        "description": "昂贵的真丝所织成的华美长袍",
         "effectf": [
             {
                 "part": "chest",
@@ -45636,10 +46339,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn4-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45658,10 +46357,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn4-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45669,6 +46364,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1277,
         "basic_properties": {
             "health": 401,
@@ -45681,7 +46377,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 24,
+        "forgeID": 52,
         "forgeTarget": 1281,
         "iconf": "f-p-chest4.png",
         "iconm": "m-p-chest4.png"
@@ -45691,7 +46387,7 @@ exports.data = [
         "label": "祈求者长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "祈求者长袍lv4",
+        "description": "昂贵的真丝所织成的华美长袍",
         "effectf": [
             {
                 "part": "chest",
@@ -45708,10 +46404,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn4-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45730,10 +46422,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn4-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45741,6 +46429,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1278,
         "basic_properties": {
             "health": 408,
@@ -45753,7 +46442,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 24,
+        "forgeID": 52,
         "forgeTarget": 1282,
         "iconf": "f-p-chest4.png",
         "iconm": "m-p-chest4.png"
@@ -45763,7 +46452,7 @@ exports.data = [
         "label": "祈求者长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "祈求者长袍lv5",
+        "description": "昂贵的真丝所织成的华美长袍",
         "effectf": [
             {
                 "part": "chest",
@@ -45780,10 +46469,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn4-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45802,10 +46487,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn4-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45813,6 +46494,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1279,
         "basic_properties": {
             "health": 415,
@@ -45825,7 +46507,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 24,
+        "forgeID": 52,
         "forgeTarget": 1283,
         "iconf": "f-p-chest4.png",
         "iconm": "m-p-chest4.png"
@@ -45835,7 +46517,7 @@ exports.data = [
         "label": "祈求者长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "祈求者长袍lv6",
+        "description": "昂贵的真丝所织成的华美长袍",
         "effectf": [
             {
                 "part": "chest",
@@ -45852,10 +46534,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn4-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45874,10 +46552,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn4-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45885,6 +46559,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1280,
         "basic_properties": {
             "health": 422,
@@ -45897,7 +46572,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 24,
+        "forgeID": 52,
         "forgeTarget": 1284,
         "iconf": "f-p-chest4.png",
         "iconm": "m-p-chest4.png"
@@ -45907,7 +46582,7 @@ exports.data = [
         "label": "祈求者长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "祈求者长袍lv7",
+        "description": "昂贵的真丝所织成的华美长袍",
         "effectf": [
             {
                 "part": "chest",
@@ -45924,10 +46599,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn4-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -45946,10 +46617,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn4-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn4-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -45957,6 +46624,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 429,
             "attack": 47,
@@ -45968,7 +46636,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 24,
+        "forgeID": 52,
         "forgeTarget": 1285,
         "iconf": "f-p-chest4.png",
         "iconm": "m-p-chest4.png"
@@ -45978,7 +46646,7 @@ exports.data = [
         "label": "神谕者长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "神谕者长袍lv3",
+        "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
                 "part": "chest",
@@ -45995,10 +46663,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn3-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46017,10 +46681,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn3-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46028,6 +46688,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1282,
         "basic_properties": {
             "health": 408,
@@ -46048,7 +46709,7 @@ exports.data = [
         "label": "神谕者长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "神谕者长袍lv4",
+        "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
                 "part": "chest",
@@ -46065,10 +46726,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn3-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46087,10 +46744,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn3-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46098,6 +46751,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1283,
         "basic_properties": {
             "health": 415,
@@ -46110,7 +46764,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 30,
+        "forgeID": 58,
         "forgeTarget": 1287,
         "iconf": "f-p-chest3.png",
         "iconm": "m-p-chest3.png"
@@ -46120,7 +46774,7 @@ exports.data = [
         "label": "神谕者长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "神谕者长袍lv5",
+        "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
                 "part": "chest",
@@ -46137,10 +46791,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn3-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46159,10 +46809,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn3-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46170,6 +46816,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1284,
         "basic_properties": {
             "health": 422,
@@ -46182,7 +46829,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 30,
+        "forgeID": 58,
         "forgeTarget": 1288,
         "iconf": "f-p-chest3.png",
         "iconm": "m-p-chest3.png"
@@ -46192,7 +46839,7 @@ exports.data = [
         "label": "神谕者长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "神谕者长袍lv6",
+        "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
                 "part": "chest",
@@ -46209,10 +46856,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn3-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46231,10 +46874,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn3-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46242,6 +46881,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1285,
         "basic_properties": {
             "health": 429,
@@ -46254,7 +46894,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 30,
+        "forgeID": 58,
         "forgeTarget": 1289,
         "iconf": "f-p-chest3.png",
         "iconm": "m-p-chest3.png"
@@ -46264,7 +46904,7 @@ exports.data = [
         "label": "神谕者长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "神谕者长袍lv7",
+        "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
                 "part": "chest",
@@ -46281,10 +46921,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn3-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46303,10 +46939,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn3-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46314,6 +46946,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1286,
         "basic_properties": {
             "health": 436,
@@ -46326,7 +46959,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 30,
+        "forgeID": 58,
         "forgeTarget": 1290,
         "iconf": "f-p-chest3.png",
         "iconm": "m-p-chest3.png"
@@ -46336,7 +46969,7 @@ exports.data = [
         "label": "神谕者长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "神谕者长袍lv8",
+        "description": "穿上它，你就是神的代言人",
         "effectf": [
             {
                 "part": "chest",
@@ -46353,10 +46986,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn3-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46375,10 +47004,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn3-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn3-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46386,6 +47011,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 443,
             "attack": 49,
@@ -46397,7 +47023,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 30,
+        "forgeID": 58,
         "forgeTarget": 1291,
         "iconf": "f-p-chest3.png",
         "iconm": "m-p-chest3.png"
@@ -46407,7 +47033,7 @@ exports.data = [
         "label": "神圣长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "神圣长袍lv4",
+        "description": "高贵的长袍，神圣不可侵犯",
         "effectf": [
             {
                 "part": "chest",
@@ -46424,10 +47050,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn2-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46446,10 +47068,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn2-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46457,6 +47075,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1288,
         "basic_properties": {
             "health": 422,
@@ -46477,7 +47096,7 @@ exports.data = [
         "label": "神圣长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "神圣长袍lv5",
+        "description": "高贵的长袍，神圣不可侵犯",
         "effectf": [
             {
                 "part": "chest",
@@ -46494,10 +47113,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn2-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46516,10 +47131,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn2-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46527,6 +47138,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1289,
         "basic_properties": {
             "health": 429,
@@ -46539,7 +47151,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 36,
+        "forgeID": 64,
         "forgeTarget": 1293,
         "iconf": "f-p-chest2.png",
         "iconm": "m-p-chest2.png"
@@ -46549,7 +47161,7 @@ exports.data = [
         "label": "神圣长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "神圣长袍lv6",
+        "description": "高贵的长袍，神圣不可侵犯",
         "effectf": [
             {
                 "part": "chest",
@@ -46566,10 +47178,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn2-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46588,10 +47196,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn2-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46599,6 +47203,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1290,
         "basic_properties": {
             "health": 436,
@@ -46611,7 +47216,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 36,
+        "forgeID": 64,
         "forgeTarget": 1294,
         "iconf": "f-p-chest2.png",
         "iconm": "m-p-chest2.png"
@@ -46621,7 +47226,7 @@ exports.data = [
         "label": "神圣长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "神圣长袍lv7",
+        "description": "高贵的长袍，神圣不可侵犯",
         "effectf": [
             {
                 "part": "chest",
@@ -46638,10 +47243,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn2-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46660,10 +47261,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn2-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46671,6 +47268,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1291,
         "basic_properties": {
             "health": 443,
@@ -46683,7 +47281,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 36,
+        "forgeID": 64,
         "forgeTarget": 1295,
         "iconf": "f-p-chest2.png",
         "iconm": "m-p-chest2.png"
@@ -46693,7 +47291,7 @@ exports.data = [
         "label": "神圣长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "神圣长袍lv8",
+        "description": "高贵的长袍，神圣不可侵犯",
         "effectf": [
             {
                 "part": "chest",
@@ -46710,10 +47308,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn2-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46732,10 +47326,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn2-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46743,6 +47333,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1292,
         "basic_properties": {
             "health": 450,
@@ -46755,7 +47346,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 36,
+        "forgeID": 64,
         "forgeTarget": 1296,
         "iconf": "f-p-chest2.png",
         "iconm": "m-p-chest2.png"
@@ -46765,7 +47356,7 @@ exports.data = [
         "label": "神圣长袍",
         "category": 1,
         "subcategory": 2,
-        "description": "神圣长袍lv9",
+        "description": "高贵的长袍，神圣不可侵犯",
         "effectf": [
             {
                 "part": "chest",
@@ -46782,10 +47373,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn2-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46804,10 +47391,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn2-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn2-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46815,6 +47398,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 457,
             "attack": 51,
@@ -46826,7 +47410,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 36,
+        "forgeID": 64,
         "forgeTarget": 1297,
         "iconf": "f-p-chest2.png",
         "iconm": "m-p-chest2.png"
@@ -46836,7 +47420,7 @@ exports.data = [
         "label": "光辉圣衣",
         "category": 1,
         "subcategory": 2,
-        "description": "光辉圣衣lv5",
+        "description": "永恒不朽的圣衣，受到星辰之光的加持",
         "effectf": [
             {
                 "part": "chest",
@@ -46853,10 +47437,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46875,10 +47455,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46886,6 +47462,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1294,
         "basic_properties": {
             "health": 436,
@@ -46906,7 +47483,7 @@ exports.data = [
         "label": "光辉圣衣",
         "category": 1,
         "subcategory": 2,
-        "description": "光辉圣衣lv6",
+        "description": "永恒不朽的圣衣，受到星辰之光的加持",
         "effectf": [
             {
                 "part": "chest",
@@ -46923,10 +47500,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -46945,10 +47518,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -46956,6 +47525,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1295,
         "basic_properties": {
             "health": 443,
@@ -46976,7 +47546,7 @@ exports.data = [
         "label": "光辉圣衣",
         "category": 1,
         "subcategory": 2,
-        "description": "光辉圣衣lv7",
+        "description": "永恒不朽的圣衣，受到星辰之光的加持",
         "effectf": [
             {
                 "part": "chest",
@@ -46993,10 +47563,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -47015,10 +47581,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -47026,6 +47588,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1296,
         "basic_properties": {
             "health": 450,
@@ -47046,7 +47609,7 @@ exports.data = [
         "label": "光辉圣衣",
         "category": 1,
         "subcategory": 2,
-        "description": "光辉圣衣lv8",
+        "description": "永恒不朽的圣衣，受到星辰之光的加持",
         "effectf": [
             {
                 "part": "chest",
@@ -47063,10 +47626,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -47085,10 +47644,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -47096,6 +47651,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1297,
         "basic_properties": {
             "health": 457,
@@ -47116,7 +47672,7 @@ exports.data = [
         "label": "光辉圣衣",
         "category": 1,
         "subcategory": 2,
-        "description": "光辉圣衣lv9",
+        "description": "永恒不朽的圣衣，受到星辰之光的加持",
         "effectf": [
             {
                 "part": "chest",
@@ -47133,10 +47689,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -47155,10 +47707,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -47166,6 +47714,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1298,
         "basic_properties": {
             "health": 464,
@@ -47186,7 +47735,7 @@ exports.data = [
         "label": "光辉圣衣",
         "category": 1,
         "subcategory": 2,
-        "description": "光辉圣衣lv10",
+        "description": "永恒不朽的圣衣，受到星辰之光的加持",
         "effectf": [
             {
                 "part": "chest",
@@ -47203,10 +47752,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "f-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "f-priestn-helmet1.ccbi"
             }
         ],
         "effectm": [
@@ -47225,10 +47770,6 @@ exports.data = [
             {
                 "part": "lefthand2",
                 "file": "m-priestn-lefthand1.ccbi"
-            },
-            {
-                "part": "helmet",
-                "file": "m-priestn-helmet1.ccbi"
             }
         ],
         "classLimit": [
@@ -47255,7 +47796,7 @@ exports.data = [
         "label": "圣徒宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "圣徒宝典lv1",
+        "description": "能够治愈伤痛的宝典",
         "effectf": [
             {
                 "part": "weapon4",
@@ -47281,6 +47822,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1300,
         "basic_properties": {
             "health": 250,
@@ -47294,7 +47836,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2-5.png",
+        "iconf": "m-p-mainweapon2-5.png",
         "iconm": "m-p-mainweapon2-5.png"
     },
     {
@@ -47302,7 +47844,7 @@ exports.data = [
         "label": "圣徒宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "圣徒宝典lv2",
+        "description": "能够治愈伤痛的宝典",
         "effectf": [
             {
                 "part": "weapon4",
@@ -47328,6 +47870,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1301,
         "basic_properties": {
             "health": 255,
@@ -47341,9 +47884,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 19,
+        "forgeID": 47,
         "forgeTarget": 1305,
-        "iconf": "f-p-mainweapon2-5.png",
+        "iconf": "m-p-mainweapon2-5.png",
         "iconm": "m-p-mainweapon2-5.png"
     },
     {
@@ -47351,7 +47894,7 @@ exports.data = [
         "label": "圣徒宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "圣徒宝典lv3",
+        "description": "能够治愈伤痛的宝典",
         "effectf": [
             {
                 "part": "weapon4",
@@ -47377,6 +47920,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1302,
         "basic_properties": {
             "health": 260,
@@ -47390,9 +47934,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 19,
+        "forgeID": 47,
         "forgeTarget": 1306,
-        "iconf": "f-p-mainweapon2-5.png",
+        "iconf": "m-p-mainweapon2-5.png",
         "iconm": "m-p-mainweapon2-5.png"
     },
     {
@@ -47400,7 +47944,7 @@ exports.data = [
         "label": "圣徒宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "圣徒宝典lv4",
+        "description": "能够治愈伤痛的宝典",
         "effectf": [
             {
                 "part": "weapon4",
@@ -47426,6 +47970,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1303,
         "basic_properties": {
             "health": 265,
@@ -47439,9 +47984,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 19,
+        "forgeID": 47,
         "forgeTarget": 1307,
-        "iconf": "f-p-mainweapon2-5.png",
+        "iconf": "m-p-mainweapon2-5.png",
         "iconm": "m-p-mainweapon2-5.png"
     },
     {
@@ -47449,7 +47994,7 @@ exports.data = [
         "label": "圣徒宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "圣徒宝典lv5",
+        "description": "能够治愈伤痛的宝典",
         "effectf": [
             {
                 "part": "weapon4",
@@ -47475,6 +48020,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1304,
         "basic_properties": {
             "health": 270,
@@ -47488,9 +48034,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 19,
+        "forgeID": 47,
         "forgeTarget": 1308,
-        "iconf": "f-p-mainweapon2-5.png",
+        "iconf": "m-p-mainweapon2-5.png",
         "iconm": "m-p-mainweapon2-5.png"
     },
     {
@@ -47498,7 +48044,7 @@ exports.data = [
         "label": "圣徒宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "圣徒宝典lv6",
+        "description": "能够治愈伤痛的宝典",
         "effectf": [
             {
                 "part": "weapon4",
@@ -47524,6 +48070,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 275,
             "attack": 45,
@@ -47536,9 +48083,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 19,
+        "forgeID": 47,
         "forgeTarget": 1309,
-        "iconf": "f-p-mainweapon2-5.png",
+        "iconf": "m-p-mainweapon2-5.png",
         "iconm": "m-p-mainweapon2-5.png"
     },
     {
@@ -47546,7 +48093,7 @@ exports.data = [
         "label": "祈求者宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "祈求者宝典lv2",
+        "description": "获得祝福的宝典，让人远离灾难与恐惧",
         "effectf": [
             {
                 "part": "weapon4",
@@ -47572,6 +48119,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1306,
         "basic_properties": {
             "health": 260,
@@ -47585,7 +48133,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2-4.png",
+        "iconf": "m-p-mainweapon2-4.png",
         "iconm": "m-p-mainweapon2-4.png"
     },
     {
@@ -47593,7 +48141,7 @@ exports.data = [
         "label": "祈求者宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "祈求者宝典lv3",
+        "description": "获得祝福的宝典，让人远离灾难与恐惧",
         "effectf": [
             {
                 "part": "weapon4",
@@ -47619,6 +48167,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1307,
         "basic_properties": {
             "health": 265,
@@ -47632,9 +48181,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 25,
+        "forgeID": 53,
         "forgeTarget": 1311,
-        "iconf": "f-p-mainweapon2-4.png",
+        "iconf": "m-p-mainweapon2-4.png",
         "iconm": "m-p-mainweapon2-4.png"
     },
     {
@@ -47642,7 +48191,7 @@ exports.data = [
         "label": "祈求者宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "祈求者宝典lv4",
+        "description": "获得祝福的宝典，让人远离灾难与恐惧",
         "effectf": [
             {
                 "part": "weapon4",
@@ -47668,6 +48217,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1308,
         "basic_properties": {
             "health": 270,
@@ -47681,9 +48231,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 25,
+        "forgeID": 53,
         "forgeTarget": 1312,
-        "iconf": "f-p-mainweapon2-4.png",
+        "iconf": "m-p-mainweapon2-4.png",
         "iconm": "m-p-mainweapon2-4.png"
     },
     {
@@ -47691,7 +48241,7 @@ exports.data = [
         "label": "祈求者宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "祈求者宝典lv5",
+        "description": "获得祝福的宝典，让人远离灾难与恐惧",
         "effectf": [
             {
                 "part": "weapon4",
@@ -47717,6 +48267,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1309,
         "basic_properties": {
             "health": 275,
@@ -47730,9 +48281,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 25,
+        "forgeID": 53,
         "forgeTarget": 1313,
-        "iconf": "f-p-mainweapon2-4.png",
+        "iconf": "m-p-mainweapon2-4.png",
         "iconm": "m-p-mainweapon2-4.png"
     },
     {
@@ -47740,7 +48291,7 @@ exports.data = [
         "label": "祈求者宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "祈求者宝典lv6",
+        "description": "获得祝福的宝典，让人远离灾难与恐惧",
         "effectf": [
             {
                 "part": "weapon4",
@@ -47766,6 +48317,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1310,
         "basic_properties": {
             "health": 280,
@@ -47779,9 +48331,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 25,
+        "forgeID": 53,
         "forgeTarget": 1314,
-        "iconf": "f-p-mainweapon2-4.png",
+        "iconf": "m-p-mainweapon2-4.png",
         "iconm": "m-p-mainweapon2-4.png"
     },
     {
@@ -47789,7 +48341,7 @@ exports.data = [
         "label": "祈求者宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "祈求者宝典lv7",
+        "description": "获得祝福的宝典，让人远离灾难与恐惧",
         "effectf": [
             {
                 "part": "weapon4",
@@ -47815,6 +48367,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 285,
             "attack": 47,
@@ -47827,9 +48380,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 25,
+        "forgeID": 53,
         "forgeTarget": 1315,
-        "iconf": "f-p-mainweapon2-4.png",
+        "iconf": "m-p-mainweapon2-4.png",
         "iconm": "m-p-mainweapon2-4.png"
     },
     {
@@ -47837,7 +48390,7 @@ exports.data = [
         "label": "神谕者宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "神谕者宝典lv3",
+        "description": "凝聚着先知无穷智慧的宝典",
         "effectf": [
             {
                 "part": "weapon4",
@@ -47863,6 +48416,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1312,
         "basic_properties": {
             "health": 270,
@@ -47876,7 +48430,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2-3.png",
+        "iconf": "m-p-mainweapon2-3.png",
         "iconm": "m-p-mainweapon2-3.png"
     },
     {
@@ -47884,7 +48438,7 @@ exports.data = [
         "label": "神谕者宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "神谕者宝典lv4",
+        "description": "凝聚着先知无穷智慧的宝典",
         "effectf": [
             {
                 "part": "weapon4",
@@ -47910,6 +48464,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1313,
         "basic_properties": {
             "health": 275,
@@ -47923,9 +48478,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 31,
+        "forgeID": 59,
         "forgeTarget": 1317,
-        "iconf": "f-p-mainweapon2-3.png",
+        "iconf": "m-p-mainweapon2-3.png",
         "iconm": "m-p-mainweapon2-3.png"
     },
     {
@@ -47933,7 +48488,7 @@ exports.data = [
         "label": "神谕者宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "神谕者宝典lv5",
+        "description": "凝聚着先知无穷智慧的宝典",
         "effectf": [
             {
                 "part": "weapon4",
@@ -47959,6 +48514,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1314,
         "basic_properties": {
             "health": 280,
@@ -47972,9 +48528,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 31,
+        "forgeID": 59,
         "forgeTarget": 1318,
-        "iconf": "f-p-mainweapon2-3.png",
+        "iconf": "m-p-mainweapon2-3.png",
         "iconm": "m-p-mainweapon2-3.png"
     },
     {
@@ -47982,7 +48538,7 @@ exports.data = [
         "label": "神谕者宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "神谕者宝典lv6",
+        "description": "凝聚着先知无穷智慧的宝典",
         "effectf": [
             {
                 "part": "weapon4",
@@ -48008,6 +48564,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1315,
         "basic_properties": {
             "health": 285,
@@ -48021,9 +48578,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 31,
+        "forgeID": 59,
         "forgeTarget": 1319,
-        "iconf": "f-p-mainweapon2-3.png",
+        "iconf": "m-p-mainweapon2-3.png",
         "iconm": "m-p-mainweapon2-3.png"
     },
     {
@@ -48031,7 +48588,7 @@ exports.data = [
         "label": "神谕者宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "神谕者宝典lv7",
+        "description": "凝聚着先知无穷智慧的宝典",
         "effectf": [
             {
                 "part": "weapon4",
@@ -48057,6 +48614,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1316,
         "basic_properties": {
             "health": 290,
@@ -48070,9 +48628,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 31,
+        "forgeID": 59,
         "forgeTarget": 1320,
-        "iconf": "f-p-mainweapon2-3.png",
+        "iconf": "m-p-mainweapon2-3.png",
         "iconm": "m-p-mainweapon2-3.png"
     },
     {
@@ -48080,7 +48638,7 @@ exports.data = [
         "label": "神谕者宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "神谕者宝典lv8",
+        "description": "凝聚着先知无穷智慧的宝典",
         "effectf": [
             {
                 "part": "weapon4",
@@ -48106,6 +48664,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 295,
             "attack": 49,
@@ -48118,9 +48677,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 31,
+        "forgeID": 59,
         "forgeTarget": 1321,
-        "iconf": "f-p-mainweapon2-3.png",
+        "iconf": "m-p-mainweapon2-3.png",
         "iconm": "m-p-mainweapon2-3.png"
     },
     {
@@ -48128,7 +48687,7 @@ exports.data = [
         "label": "神圣宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "神圣宝典lv4",
+        "description": "神圣的宝典，指引世人向善",
         "effectf": [
             {
                 "part": "weapon4",
@@ -48154,6 +48713,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1318,
         "basic_properties": {
             "health": 280,
@@ -48167,7 +48727,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2-2.png",
+        "iconf": "m-p-mainweapon2-2.png",
         "iconm": "m-p-mainweapon2-2.png"
     },
     {
@@ -48175,7 +48735,7 @@ exports.data = [
         "label": "神圣宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "神圣宝典lv5",
+        "description": "神圣的宝典，指引世人向善",
         "effectf": [
             {
                 "part": "weapon4",
@@ -48201,6 +48761,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1319,
         "basic_properties": {
             "health": 285,
@@ -48214,9 +48775,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 37,
+        "forgeID": 65,
         "forgeTarget": 1323,
-        "iconf": "f-p-mainweapon2-2.png",
+        "iconf": "m-p-mainweapon2-2.png",
         "iconm": "m-p-mainweapon2-2.png"
     },
     {
@@ -48224,7 +48785,7 @@ exports.data = [
         "label": "神圣宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "神圣宝典lv6",
+        "description": "神圣的宝典，指引世人向善",
         "effectf": [
             {
                 "part": "weapon4",
@@ -48250,6 +48811,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1320,
         "basic_properties": {
             "health": 290,
@@ -48263,9 +48825,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 37,
+        "forgeID": 65,
         "forgeTarget": 1324,
-        "iconf": "f-p-mainweapon2-2.png",
+        "iconf": "m-p-mainweapon2-2.png",
         "iconm": "m-p-mainweapon2-2.png"
     },
     {
@@ -48273,7 +48835,7 @@ exports.data = [
         "label": "神圣宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "神圣宝典lv7",
+        "description": "神圣的宝典，指引世人向善",
         "effectf": [
             {
                 "part": "weapon4",
@@ -48299,6 +48861,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1321,
         "basic_properties": {
             "health": 295,
@@ -48312,9 +48875,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 37,
+        "forgeID": 65,
         "forgeTarget": 1325,
-        "iconf": "f-p-mainweapon2-2.png",
+        "iconf": "m-p-mainweapon2-2.png",
         "iconm": "m-p-mainweapon2-2.png"
     },
     {
@@ -48322,7 +48885,7 @@ exports.data = [
         "label": "神圣宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "神圣宝典lv8",
+        "description": "神圣的宝典，指引世人向善",
         "effectf": [
             {
                 "part": "weapon4",
@@ -48348,6 +48911,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1322,
         "basic_properties": {
             "health": 300,
@@ -48361,9 +48925,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 37,
+        "forgeID": 65,
         "forgeTarget": 1326,
-        "iconf": "f-p-mainweapon2-2.png",
+        "iconf": "m-p-mainweapon2-2.png",
         "iconm": "m-p-mainweapon2-2.png"
     },
     {
@@ -48371,7 +48935,7 @@ exports.data = [
         "label": "神圣宝典",
         "category": 1,
         "subcategory": 1,
-        "description": "神圣宝典lv9",
+        "description": "神圣的宝典，指引世人向善",
         "effectf": [
             {
                 "part": "weapon4",
@@ -48397,6 +48961,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 305,
             "attack": 51,
@@ -48409,9 +48974,9 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 37,
+        "forgeID": 65,
         "forgeTarget": 1327,
-        "iconf": "f-p-mainweapon2-2.png",
+        "iconf": "m-p-mainweapon2-2.png",
         "iconm": "m-p-mainweapon2-2.png"
     },
     {
@@ -48419,7 +48984,7 @@ exports.data = [
         "label": "命运圣典",
         "category": 1,
         "subcategory": 1,
-        "description": "命运圣典lv5",
+        "description": "传说它的光芒能够为世人指出命运的方向",
         "effectf": [
             {
                 "part": "weapon4",
@@ -48445,6 +49010,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1324,
         "basic_properties": {
             "health": 290,
@@ -48458,7 +49024,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2.png",
+        "iconf": "m-p-mainweapon2.png",
         "iconm": "m-p-mainweapon2.png"
     },
     {
@@ -48466,7 +49032,7 @@ exports.data = [
         "label": "命运圣典",
         "category": 1,
         "subcategory": 1,
-        "description": "命运圣典lv6",
+        "description": "传说它的光芒能够为世人指出命运的方向",
         "effectf": [
             {
                 "part": "weapon4",
@@ -48492,6 +49058,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1325,
         "basic_properties": {
             "health": 295,
@@ -48505,7 +49072,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2.png",
+        "iconf": "m-p-mainweapon2.png",
         "iconm": "m-p-mainweapon2.png"
     },
     {
@@ -48513,7 +49080,7 @@ exports.data = [
         "label": "命运圣典",
         "category": 1,
         "subcategory": 1,
-        "description": "命运圣典lv7",
+        "description": "传说它的光芒能够为世人指出命运的方向",
         "effectf": [
             {
                 "part": "weapon4",
@@ -48539,6 +49106,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1326,
         "basic_properties": {
             "health": 300,
@@ -48552,7 +49120,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2.png",
+        "iconf": "m-p-mainweapon2.png",
         "iconm": "m-p-mainweapon2.png"
     },
     {
@@ -48560,7 +49128,7 @@ exports.data = [
         "label": "命运圣典",
         "category": 1,
         "subcategory": 1,
-        "description": "命运圣典lv8",
+        "description": "传说它的光芒能够为世人指出命运的方向",
         "effectf": [
             {
                 "part": "weapon4",
@@ -48586,6 +49154,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1327,
         "basic_properties": {
             "health": 305,
@@ -48599,7 +49168,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2.png",
+        "iconf": "m-p-mainweapon2.png",
         "iconm": "m-p-mainweapon2.png"
     },
     {
@@ -48607,7 +49176,7 @@ exports.data = [
         "label": "命运圣典",
         "category": 1,
         "subcategory": 1,
-        "description": "命运圣典lv9",
+        "description": "传说它的光芒能够为世人指出命运的方向",
         "effectf": [
             {
                 "part": "weapon4",
@@ -48633,6 +49202,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1328,
         "basic_properties": {
             "health": 310,
@@ -48646,7 +49216,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2.png",
+        "iconf": "m-p-mainweapon2.png",
         "iconm": "m-p-mainweapon2.png"
     },
     {
@@ -48654,7 +49224,7 @@ exports.data = [
         "label": "命运圣典",
         "category": 1,
         "subcategory": 1,
-        "description": "命运圣典lv10",
+        "description": "传说它的光芒能够为世人指出命运的方向",
         "effectf": [
             {
                 "part": "weapon4",
@@ -48692,7 +49262,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "iconf": "f-p-mainweapon2.png",
+        "iconf": "m-p-mainweapon2.png",
         "iconm": "m-p-mainweapon2.png"
     },
     {
@@ -48700,7 +49270,7 @@ exports.data = [
         "label": "圣徒权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "圣徒权杖lv1",
+        "description": "造型简单的权杖，拥有温暖人心的力量",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -48720,6 +49290,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1330,
         "basic_properties": {
             "health": 200,
@@ -48738,7 +49309,7 @@ exports.data = [
         "label": "圣徒权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "圣徒权杖lv2",
+        "description": "造型简单的权杖，拥有温暖人心的力量",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -48758,6 +49329,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1331,
         "basic_properties": {
             "health": 205,
@@ -48768,7 +49340,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 20,
+        "forgeID": 48,
         "forgeTarget": 1335,
         "iconf": "f-p-mainweapon1-5.png",
         "iconm": "m-p-mainweapon1-5.png"
@@ -48778,7 +49350,7 @@ exports.data = [
         "label": "圣徒权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "圣徒权杖lv3",
+        "description": "造型简单的权杖，拥有温暖人心的力量",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -48798,6 +49370,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1332,
         "basic_properties": {
             "health": 210,
@@ -48808,7 +49381,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 20,
+        "forgeID": 48,
         "forgeTarget": 1336,
         "iconf": "f-p-mainweapon1-5.png",
         "iconm": "m-p-mainweapon1-5.png"
@@ -48818,7 +49391,7 @@ exports.data = [
         "label": "圣徒权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "圣徒权杖lv4",
+        "description": "造型简单的权杖，拥有温暖人心的力量",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -48838,6 +49411,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1333,
         "basic_properties": {
             "health": 215,
@@ -48848,7 +49422,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 20,
+        "forgeID": 48,
         "forgeTarget": 1337,
         "iconf": "f-p-mainweapon1-5.png",
         "iconm": "m-p-mainweapon1-5.png"
@@ -48858,7 +49432,7 @@ exports.data = [
         "label": "圣徒权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "圣徒权杖lv5",
+        "description": "造型简单的权杖，拥有温暖人心的力量",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -48878,6 +49452,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1334,
         "basic_properties": {
             "health": 220,
@@ -48888,7 +49463,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 20,
+        "forgeID": 48,
         "forgeTarget": 1338,
         "iconf": "f-p-mainweapon1-5.png",
         "iconm": "m-p-mainweapon1-5.png"
@@ -48898,7 +49473,7 @@ exports.data = [
         "label": "圣徒权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "圣徒权杖lv6",
+        "description": "造型简单的权杖，拥有温暖人心的力量",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -48918,6 +49493,7 @@ exports.data = [
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 225,
             "attack": 92,
@@ -48927,7 +49503,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 20,
+        "forgeID": 48,
         "forgeTarget": 1339,
         "iconf": "f-p-mainweapon1-5.png",
         "iconm": "m-p-mainweapon1-5.png"
@@ -48937,7 +49513,7 @@ exports.data = [
         "label": "祈求者权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "祈求者权杖lv2",
+        "description": "造型别致的权杖，能激发世人对光明的向往",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -48957,6 +49533,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1336,
         "basic_properties": {
             "health": 210,
@@ -48975,7 +49552,7 @@ exports.data = [
         "label": "祈求者权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "祈求者权杖lv3",
+        "description": "造型别致的权杖，能激发世人对光明的向往",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -48995,6 +49572,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1337,
         "basic_properties": {
             "health": 215,
@@ -49005,7 +49583,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 26,
+        "forgeID": 54,
         "forgeTarget": 1341,
         "iconf": "f-p-mainweapon1-4.png",
         "iconm": "m-p-mainweapon1-4.png"
@@ -49015,7 +49593,7 @@ exports.data = [
         "label": "祈求者权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "祈求者权杖lv4",
+        "description": "造型别致的权杖，能激发世人对光明的向往",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49035,6 +49613,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1338,
         "basic_properties": {
             "health": 220,
@@ -49045,7 +49624,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 26,
+        "forgeID": 54,
         "forgeTarget": 1342,
         "iconf": "f-p-mainweapon1-4.png",
         "iconm": "m-p-mainweapon1-4.png"
@@ -49055,7 +49634,7 @@ exports.data = [
         "label": "祈求者权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "祈求者权杖lv5",
+        "description": "造型别致的权杖，能激发世人对光明的向往",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49075,6 +49654,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1339,
         "basic_properties": {
             "health": 225,
@@ -49085,7 +49665,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 26,
+        "forgeID": 54,
         "forgeTarget": 1343,
         "iconf": "f-p-mainweapon1-4.png",
         "iconm": "m-p-mainweapon1-4.png"
@@ -49095,7 +49675,7 @@ exports.data = [
         "label": "祈求者权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "祈求者权杖lv6",
+        "description": "造型别致的权杖，能激发世人对光明的向往",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49115,6 +49695,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1340,
         "basic_properties": {
             "health": 230,
@@ -49125,7 +49706,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 26,
+        "forgeID": 54,
         "forgeTarget": 1344,
         "iconf": "f-p-mainweapon1-4.png",
         "iconm": "m-p-mainweapon1-4.png"
@@ -49135,7 +49716,7 @@ exports.data = [
         "label": "祈求者权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "祈求者权杖lv7",
+        "description": "造型别致的权杖，能激发世人对光明的向往",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49155,6 +49736,7 @@ exports.data = [
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 235,
             "attack": 97,
@@ -49164,7 +49746,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 26,
+        "forgeID": 54,
         "forgeTarget": 1345,
         "iconf": "f-p-mainweapon1-4.png",
         "iconm": "m-p-mainweapon1-4.png"
@@ -49174,7 +49756,7 @@ exports.data = [
         "label": "神谕者权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "神谕者权杖lv3",
+        "description": "异常华贵的权杖，象征着权力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49194,6 +49776,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1342,
         "basic_properties": {
             "health": 220,
@@ -49212,7 +49795,7 @@ exports.data = [
         "label": "神谕者权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "神谕者权杖lv4",
+        "description": "异常华贵的权杖，象征着权力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49232,6 +49815,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1343,
         "basic_properties": {
             "health": 225,
@@ -49242,7 +49826,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 32,
+        "forgeID": 60,
         "forgeTarget": 1347,
         "iconf": "f-p-mainweapon1-3.png",
         "iconm": "m-p-mainweapon1-3.png"
@@ -49252,7 +49836,7 @@ exports.data = [
         "label": "神谕者权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "神谕者权杖lv5",
+        "description": "异常华贵的权杖，象征着权力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49272,6 +49856,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1344,
         "basic_properties": {
             "health": 230,
@@ -49282,7 +49867,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 32,
+        "forgeID": 60,
         "forgeTarget": 1348,
         "iconf": "f-p-mainweapon1-3.png",
         "iconm": "m-p-mainweapon1-3.png"
@@ -49292,7 +49877,7 @@ exports.data = [
         "label": "神谕者权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "神谕者权杖lv6",
+        "description": "异常华贵的权杖，象征着权力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49312,6 +49897,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1345,
         "basic_properties": {
             "health": 235,
@@ -49322,7 +49908,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 32,
+        "forgeID": 60,
         "forgeTarget": 1349,
         "iconf": "f-p-mainweapon1-3.png",
         "iconm": "m-p-mainweapon1-3.png"
@@ -49332,7 +49918,7 @@ exports.data = [
         "label": "神谕者权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "神谕者权杖lv7",
+        "description": "异常华贵的权杖，象征着权力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49352,6 +49938,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1346,
         "basic_properties": {
             "health": 240,
@@ -49362,7 +49949,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 32,
+        "forgeID": 60,
         "forgeTarget": 1350,
         "iconf": "f-p-mainweapon1-3.png",
         "iconm": "m-p-mainweapon1-3.png"
@@ -49372,7 +49959,7 @@ exports.data = [
         "label": "神谕者权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "神谕者权杖lv8",
+        "description": "异常华贵的权杖，象征着权力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49392,6 +49979,7 @@ exports.data = [
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 245,
             "attack": 102,
@@ -49401,7 +49989,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 32,
+        "forgeID": 60,
         "forgeTarget": 1351,
         "iconf": "f-p-mainweapon1-3.png",
         "iconm": "m-p-mainweapon1-3.png"
@@ -49411,7 +49999,7 @@ exports.data = [
         "label": "神圣权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "神圣权杖lv4",
+        "description": "能使亡魂得到救赎的神圣权杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49431,6 +50019,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1348,
         "basic_properties": {
             "health": 230,
@@ -49449,7 +50038,7 @@ exports.data = [
         "label": "神圣权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "神圣权杖lv5",
+        "description": "能使亡魂得到救赎的神圣权杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49469,6 +50058,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1349,
         "basic_properties": {
             "health": 235,
@@ -49479,7 +50069,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 38,
+        "forgeID": 66,
         "forgeTarget": 1353,
         "iconf": "f-p-mainweapon1-2.png",
         "iconm": "m-p-mainweapon1-2.png"
@@ -49489,7 +50079,7 @@ exports.data = [
         "label": "神圣权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "神圣权杖lv6",
+        "description": "能使亡魂得到救赎的神圣权杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49509,6 +50099,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1350,
         "basic_properties": {
             "health": 240,
@@ -49519,7 +50110,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 38,
+        "forgeID": 66,
         "forgeTarget": 1354,
         "iconf": "f-p-mainweapon1-2.png",
         "iconm": "m-p-mainweapon1-2.png"
@@ -49529,7 +50120,7 @@ exports.data = [
         "label": "神圣权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "神圣权杖lv7",
+        "description": "能使亡魂得到救赎的神圣权杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49549,6 +50140,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1351,
         "basic_properties": {
             "health": 245,
@@ -49559,7 +50151,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 38,
+        "forgeID": 66,
         "forgeTarget": 1355,
         "iconf": "f-p-mainweapon1-2.png",
         "iconm": "m-p-mainweapon1-2.png"
@@ -49569,7 +50161,7 @@ exports.data = [
         "label": "神圣权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "神圣权杖lv8",
+        "description": "能使亡魂得到救赎的神圣权杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49589,6 +50181,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1352,
         "basic_properties": {
             "health": 250,
@@ -49599,7 +50192,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 38,
+        "forgeID": 66,
         "forgeTarget": 1356,
         "iconf": "f-p-mainweapon1-2.png",
         "iconm": "m-p-mainweapon1-2.png"
@@ -49609,7 +50202,7 @@ exports.data = [
         "label": "神圣权杖",
         "category": 1,
         "subcategory": 0,
-        "description": "神圣权杖lv9",
+        "description": "能使亡魂得到救赎的神圣权杖",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49629,6 +50222,7 @@ exports.data = [
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 255,
             "attack": 107,
@@ -49638,7 +50232,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 38,
+        "forgeID": 66,
         "forgeTarget": 1357,
         "iconf": "f-p-mainweapon1-2.png",
         "iconm": "m-p-mainweapon1-2.png"
@@ -49648,7 +50242,7 @@ exports.data = [
         "label": "生命之树",
         "category": 1,
         "subcategory": 0,
-        "description": "生命之树lv5",
+        "description": "饱含着生命的气息，凝聚着强大的自然之力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49668,6 +50262,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1354,
         "basic_properties": {
             "health": 240,
@@ -49686,7 +50281,7 @@ exports.data = [
         "label": "生命之树",
         "category": 1,
         "subcategory": 0,
-        "description": "生命之树lv6",
+        "description": "饱含着生命的气息，凝聚着强大的自然之力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49706,6 +50301,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1355,
         "basic_properties": {
             "health": 245,
@@ -49724,7 +50320,7 @@ exports.data = [
         "label": "生命之树",
         "category": 1,
         "subcategory": 0,
-        "description": "生命之树lv7",
+        "description": "饱含着生命的气息，凝聚着强大的自然之力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49744,6 +50340,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1356,
         "basic_properties": {
             "health": 250,
@@ -49762,7 +50359,7 @@ exports.data = [
         "label": "生命之树",
         "category": 1,
         "subcategory": 0,
-        "description": "生命之树lv8",
+        "description": "饱含着生命的气息，凝聚着强大的自然之力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49782,6 +50379,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1357,
         "basic_properties": {
             "health": 255,
@@ -49800,7 +50398,7 @@ exports.data = [
         "label": "生命之树",
         "category": 1,
         "subcategory": 0,
-        "description": "生命之树lv9",
+        "description": "饱含着生命的气息，凝聚着强大的自然之力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49820,6 +50418,7 @@ exports.data = [
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1358,
         "basic_properties": {
             "health": 260,
@@ -49838,7 +50437,7 @@ exports.data = [
         "label": "生命之树",
         "category": 1,
         "subcategory": 0,
-        "description": "生命之树lv10",
+        "description": "饱含着生命的气息，凝聚着强大的自然之力",
         "effectf": [
             {
                 "part": "mainweapon",
@@ -49876,12 +50475,13 @@ exports.data = [
         "icon": "er013.png",
         "category": 1,
         "subcategory": 3,
-        "description": "圣徒之戒lv1",
+        "description": "虔诚的教徒才能佩戴的戒指",
         "classLimit": [
             218
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1360,
         "basic_properties": {
             "health": 240,
@@ -49902,12 +50502,13 @@ exports.data = [
         "icon": "er013.png",
         "category": 1,
         "subcategory": 3,
-        "description": "圣徒之戒lv2",
+        "description": "虔诚的教徒才能佩戴的戒指",
         "classLimit": [
             218
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1361,
         "basic_properties": {
             "health": 245,
@@ -49921,7 +50522,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 22,
+        "forgeID": 50,
         "forgeTarget": 1365
     },
     {
@@ -49930,12 +50531,13 @@ exports.data = [
         "icon": "er013.png",
         "category": 1,
         "subcategory": 3,
-        "description": "圣徒之戒lv3",
+        "description": "虔诚的教徒才能佩戴的戒指",
         "classLimit": [
             218
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1362,
         "basic_properties": {
             "health": 250,
@@ -49949,7 +50551,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 22,
+        "forgeID": 50,
         "forgeTarget": 1366
     },
     {
@@ -49958,12 +50560,13 @@ exports.data = [
         "icon": "er013.png",
         "category": 1,
         "subcategory": 3,
-        "description": "圣徒之戒lv4",
+        "description": "虔诚的教徒才能佩戴的戒指",
         "classLimit": [
             218
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1363,
         "basic_properties": {
             "health": 255,
@@ -49977,7 +50580,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 22,
+        "forgeID": 50,
         "forgeTarget": 1367
     },
     {
@@ -49986,12 +50589,13 @@ exports.data = [
         "icon": "er013.png",
         "category": 1,
         "subcategory": 3,
-        "description": "圣徒之戒lv5",
+        "description": "虔诚的教徒才能佩戴的戒指",
         "classLimit": [
             218
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1364,
         "basic_properties": {
             "health": 260,
@@ -50005,7 +50609,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 22,
+        "forgeID": 50,
         "forgeTarget": 1368
     },
     {
@@ -50014,12 +50618,13 @@ exports.data = [
         "icon": "er013.png",
         "category": 1,
         "subcategory": 3,
-        "description": "圣徒之戒lv6",
+        "description": "虔诚的教徒才能佩戴的戒指",
         "classLimit": [
             218
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 265,
             "attack": 45,
@@ -50032,7 +50637,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 22,
+        "forgeID": 50,
         "forgeTarget": 1369
     },
     {
@@ -50041,12 +50646,13 @@ exports.data = [
         "icon": "er023.png",
         "category": 1,
         "subcategory": 3,
-        "description": "祈求者之戒lv2",
+        "description": "凝聚了虔诚之力的戒指，散发出柔和的光芒",
         "classLimit": [
             218
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1366,
         "basic_properties": {
             "health": 250,
@@ -50067,12 +50673,13 @@ exports.data = [
         "icon": "er023.png",
         "category": 1,
         "subcategory": 3,
-        "description": "祈求者之戒lv3",
+        "description": "凝聚了虔诚之力的戒指，散发出柔和的光芒",
         "classLimit": [
             218
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1367,
         "basic_properties": {
             "health": 255,
@@ -50086,7 +50693,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 28,
+        "forgeID": 56,
         "forgeTarget": 1371
     },
     {
@@ -50095,12 +50702,13 @@ exports.data = [
         "icon": "er023.png",
         "category": 1,
         "subcategory": 3,
-        "description": "祈求者之戒lv4",
+        "description": "凝聚了虔诚之力的戒指，散发出柔和的光芒",
         "classLimit": [
             218
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1368,
         "basic_properties": {
             "health": 260,
@@ -50114,7 +50722,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 28,
+        "forgeID": 56,
         "forgeTarget": 1372
     },
     {
@@ -50123,12 +50731,13 @@ exports.data = [
         "icon": "er023.png",
         "category": 1,
         "subcategory": 3,
-        "description": "祈求者之戒lv5",
+        "description": "凝聚了虔诚之力的戒指，散发出柔和的光芒",
         "classLimit": [
             218
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1369,
         "basic_properties": {
             "health": 265,
@@ -50142,7 +50751,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 28,
+        "forgeID": 56,
         "forgeTarget": 1373
     },
     {
@@ -50151,12 +50760,13 @@ exports.data = [
         "icon": "er023.png",
         "category": 1,
         "subcategory": 3,
-        "description": "祈求者之戒lv6",
+        "description": "凝聚了虔诚之力的戒指，散发出柔和的光芒",
         "classLimit": [
             218
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1370,
         "basic_properties": {
             "health": 270,
@@ -50170,7 +50780,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 28,
+        "forgeID": 56,
         "forgeTarget": 1374
     },
     {
@@ -50179,12 +50789,13 @@ exports.data = [
         "icon": "er023.png",
         "category": 1,
         "subcategory": 3,
-        "description": "祈求者之戒lv7",
+        "description": "凝聚了虔诚之力的戒指，散发出柔和的光芒",
         "classLimit": [
             218
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 275,
             "attack": 47,
@@ -50197,7 +50808,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 28,
+        "forgeID": 56,
         "forgeTarget": 1375
     },
     {
@@ -50206,12 +50817,13 @@ exports.data = [
         "icon": "er033.png",
         "category": 1,
         "subcategory": 3,
-        "description": "祈求者之戒lv3",
+        "description": "得到诸神祝福的戒指，佩戴者拥有绝对单纯的内心与思想",
         "classLimit": [
             218
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1372,
         "basic_properties": {
             "health": 260,
@@ -50232,12 +50844,13 @@ exports.data = [
         "icon": "er033.png",
         "category": 1,
         "subcategory": 3,
-        "description": "祈求者之戒lv4",
+        "description": "得到诸神祝福的戒指，佩戴者拥有绝对单纯的内心与思想",
         "classLimit": [
             218
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1373,
         "basic_properties": {
             "health": 265,
@@ -50251,7 +50864,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 34,
+        "forgeID": 62,
         "forgeTarget": 1377
     },
     {
@@ -50260,12 +50873,13 @@ exports.data = [
         "icon": "er033.png",
         "category": 1,
         "subcategory": 3,
-        "description": "祈求者之戒lv5",
+        "description": "得到诸神祝福的戒指，佩戴者拥有绝对单纯的内心与思想",
         "classLimit": [
             218
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1374,
         "basic_properties": {
             "health": 270,
@@ -50279,7 +50893,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 34,
+        "forgeID": 62,
         "forgeTarget": 1378
     },
     {
@@ -50288,12 +50902,13 @@ exports.data = [
         "icon": "er033.png",
         "category": 1,
         "subcategory": 3,
-        "description": "祈求者之戒lv6",
+        "description": "得到诸神祝福的戒指，佩戴者拥有绝对单纯的内心与思想",
         "classLimit": [
             218
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1375,
         "basic_properties": {
             "health": 275,
@@ -50307,7 +50922,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 34,
+        "forgeID": 62,
         "forgeTarget": 1379
     },
     {
@@ -50316,12 +50931,13 @@ exports.data = [
         "icon": "er033.png",
         "category": 1,
         "subcategory": 3,
-        "description": "祈求者之戒lv7",
+        "description": "得到诸神祝福的戒指，佩戴者拥有绝对单纯的内心与思想",
         "classLimit": [
             218
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1376,
         "basic_properties": {
             "health": 280,
@@ -50335,7 +50951,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 34,
+        "forgeID": 62,
         "forgeTarget": 1380
     },
     {
@@ -50344,12 +50960,13 @@ exports.data = [
         "icon": "er033.png",
         "category": 1,
         "subcategory": 3,
-        "description": "祈求者之戒lv8",
+        "description": "得到诸神祝福的戒指，佩戴者拥有绝对单纯的内心与思想",
         "classLimit": [
             218
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 285,
             "attack": 49,
@@ -50362,7 +50979,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 34,
+        "forgeID": 62,
         "forgeTarget": 1381
     },
     {
@@ -50371,12 +50988,13 @@ exports.data = [
         "icon": "er043.png",
         "category": 1,
         "subcategory": 3,
-        "description": "神圣之戒lv4",
+        "description": "远古圣灵将神力的碎片熔铸而成，凝聚着信仰之力",
         "classLimit": [
             218
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1378,
         "basic_properties": {
             "health": 270,
@@ -50397,12 +51015,13 @@ exports.data = [
         "icon": "er043.png",
         "category": 1,
         "subcategory": 3,
-        "description": "神圣之戒lv5",
+        "description": "远古圣灵将神力的碎片熔铸而成，凝聚着信仰之力",
         "classLimit": [
             218
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1379,
         "basic_properties": {
             "health": 275,
@@ -50416,7 +51035,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 40,
+        "forgeID": 68,
         "forgeTarget": 1383
     },
     {
@@ -50425,12 +51044,13 @@ exports.data = [
         "icon": "er043.png",
         "category": 1,
         "subcategory": 3,
-        "description": "神圣之戒lv6",
+        "description": "远古圣灵将神力的碎片熔铸而成，凝聚着信仰之力",
         "classLimit": [
             218
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1380,
         "basic_properties": {
             "health": 280,
@@ -50444,7 +51064,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 40,
+        "forgeID": 68,
         "forgeTarget": 1384
     },
     {
@@ -50453,12 +51073,13 @@ exports.data = [
         "icon": "er043.png",
         "category": 1,
         "subcategory": 3,
-        "description": "神圣之戒lv7",
+        "description": "远古圣灵将神力的碎片熔铸而成，凝聚着信仰之力",
         "classLimit": [
             218
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1381,
         "basic_properties": {
             "health": 285,
@@ -50472,7 +51093,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 40,
+        "forgeID": 68,
         "forgeTarget": 1385
     },
     {
@@ -50481,12 +51102,13 @@ exports.data = [
         "icon": "er043.png",
         "category": 1,
         "subcategory": 3,
-        "description": "神圣之戒lv8",
+        "description": "远古圣灵将神力的碎片熔铸而成，凝聚着信仰之力",
         "classLimit": [
             218
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1382,
         "basic_properties": {
             "health": 290,
@@ -50500,7 +51122,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 40,
+        "forgeID": 68,
         "forgeTarget": 1386
     },
     {
@@ -50509,12 +51131,13 @@ exports.data = [
         "icon": "er043.png",
         "category": 1,
         "subcategory": 3,
-        "description": "神圣之戒lv9",
+        "description": "远古圣灵将神力的碎片熔铸而成，凝聚着信仰之力",
         "classLimit": [
             218
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 295,
             "attack": 51,
@@ -50527,7 +51150,7 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 40,
+        "forgeID": 68,
         "forgeTarget": 1387
     },
     {
@@ -50536,12 +51159,13 @@ exports.data = [
         "icon": "er043.png",
         "category": 1,
         "subcategory": 3,
-        "description": "生命指轮lv5",
+        "description": "镌刻着神秘的纹章，无尽的生命之力喷涌而出",
         "classLimit": [
             218
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1384,
         "basic_properties": {
             "health": 280,
@@ -50562,12 +51186,13 @@ exports.data = [
         "icon": "er043.png",
         "category": 1,
         "subcategory": 3,
-        "description": "生命指轮lv6",
+        "description": "镌刻着神秘的纹章，无尽的生命之力喷涌而出",
         "classLimit": [
             218
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1385,
         "basic_properties": {
             "health": 285,
@@ -50588,12 +51213,13 @@ exports.data = [
         "icon": "er043.png",
         "category": 1,
         "subcategory": 3,
-        "description": "生命指轮lv7",
+        "description": "镌刻着神秘的纹章，无尽的生命之力喷涌而出",
         "classLimit": [
             218
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1386,
         "basic_properties": {
             "health": 290,
@@ -50614,12 +51240,13 @@ exports.data = [
         "icon": "er043.png",
         "category": 1,
         "subcategory": 3,
-        "description": "生命指轮lv8",
+        "description": "镌刻着神秘的纹章，无尽的生命之力喷涌而出",
         "classLimit": [
             218
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1387,
         "basic_properties": {
             "health": 295,
@@ -50640,12 +51267,13 @@ exports.data = [
         "icon": "er043.png",
         "category": 1,
         "subcategory": 3,
-        "description": "生命指轮lv9",
+        "description": "镌刻着神秘的纹章，无尽的生命之力喷涌而出",
         "classLimit": [
             218
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1388,
         "basic_properties": {
             "health": 300,
@@ -50666,7 +51294,7 @@ exports.data = [
         "icon": "er043.png",
         "category": 1,
         "subcategory": 3,
-        "description": "生命指轮lv10",
+        "description": "镌刻着神秘的纹章，无尽的生命之力喷涌而出",
         "classLimit": [
             218
         ],
@@ -50687,16 +51315,28 @@ exports.data = [
     },
     {
         "classId": 1389,
-        "label": "圣徒之证",
-        "icon": "epn011.png",
+        "label": "圣徒头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "圣徒之证lv1",
+        "description": "赋予佩戴者专注之力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 0,
         "rank": 1,
+		"upgradeId": 11,
         "upgradeTarget": 1390,
         "basic_properties": {
             "health": 280,
@@ -50709,20 +51349,34 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet5.png",
+        "iconm": "m-p-helmet5.png"
     },
     {
         "classId": 1390,
-        "label": "圣徒之证",
-        "icon": "epn011.png",
+        "label": "圣徒头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "圣徒之证lv2",
+        "description": "赋予佩戴者专注之力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 0,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1391,
         "basic_properties": {
             "health": 285,
@@ -50736,21 +51390,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 21,
-        "forgeTarget": 1395
+        "forgeID": 49,
+        "forgeTarget": 1395,
+        "iconf": "f-p-helmet5.png",
+        "iconm": "m-p-helmet5.png"
     },
     {
         "classId": 1391,
-        "label": "圣徒之证",
-        "icon": "epn011.png",
+        "label": "圣徒头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "圣徒之证lv3",
+        "description": "赋予佩戴者专注之力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 0,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1392,
         "basic_properties": {
             "health": 290,
@@ -50764,21 +51432,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 21,
-        "forgeTarget": 1396
+        "forgeID": 49,
+        "forgeTarget": 1396,
+        "iconf": "f-p-helmet5.png",
+        "iconm": "m-p-helmet5.png"
     },
     {
         "classId": 1392,
-        "label": "圣徒之证",
-        "icon": "epn011.png",
+        "label": "圣徒头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "圣徒之证lv4",
+        "description": "赋予佩戴者专注之力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 0,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1393,
         "basic_properties": {
             "health": 295,
@@ -50792,21 +51474,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 21,
-        "forgeTarget": 1397
+        "forgeID": 49,
+        "forgeTarget": 1397,
+        "iconf": "f-p-helmet5.png",
+        "iconm": "m-p-helmet5.png"
     },
     {
         "classId": 1393,
-        "label": "圣徒之证",
-        "icon": "epn011.png",
+        "label": "圣徒头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "圣徒之证lv5",
+        "description": "赋予佩戴者专注之力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 0,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1394,
         "basic_properties": {
             "health": 300,
@@ -50820,21 +51516,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 21,
-        "forgeTarget": 1398
+        "forgeID": 49,
+        "forgeTarget": 1398,
+        "iconf": "f-p-helmet5.png",
+        "iconm": "m-p-helmet5.png"
     },
     {
         "classId": 1394,
-        "label": "圣徒之证",
-        "icon": "epn011.png",
+        "label": "圣徒头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "圣徒之证lv6",
+        "description": "赋予佩戴者专注之力",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn5-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn5-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 0,
         "rank": 6,
+		"upgradeId": 16,
         "basic_properties": {
             "health": 305,
             "attack": 45,
@@ -50847,21 +51557,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 21,
-        "forgeTarget": 1399
+        "forgeID": 49,
+        "forgeTarget": 1399,
+        "iconf": "f-p-helmet5.png",
+        "iconm": "m-p-helmet5.png"
     },
     {
         "classId": 1395,
-        "label": "祈求者之证",
-        "icon": "epn021.png",
+        "label": "祈求者头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "祈求者之证lv2",
+        "description": "精美的头盔，能带来好运",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 1,
         "rank": 2,
+		"upgradeId": 12,
         "upgradeTarget": 1396,
         "basic_properties": {
             "health": 290,
@@ -50874,20 +51598,34 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet4.png",
+        "iconm": "m-p-helmet4.png"
     },
     {
         "classId": 1396,
-        "label": "祈求者之证",
-        "icon": "epn021.png",
+        "label": "祈求者头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "祈求者之证lv3",
+        "description": "精美的头盔，能带来好运",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 1,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1397,
         "basic_properties": {
             "health": 295,
@@ -50901,21 +51639,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 27,
-        "forgeTarget": 1401
+        "forgeID": 55,
+        "forgeTarget": 1401,
+        "iconf": "f-p-helmet4.png",
+        "iconm": "m-p-helmet4.png"
     },
     {
         "classId": 1397,
-        "label": "祈求者之证",
-        "icon": "epn021.png",
+        "label": "祈求者头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "祈求者之证lv4",
+        "description": "精美的头盔，能带来好运",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 1,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1398,
         "basic_properties": {
             "health": 300,
@@ -50929,21 +51681,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 27,
-        "forgeTarget": 1402
+        "forgeID": 55,
+        "forgeTarget": 1402,
+        "iconf": "f-p-helmet4.png",
+        "iconm": "m-p-helmet4.png"
     },
     {
         "classId": 1398,
-        "label": "祈求者之证",
-        "icon": "epn021.png",
+        "label": "祈求者头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "祈求者之证lv5",
+        "description": "精美的头盔，能带来好运",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 1,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1399,
         "basic_properties": {
             "health": 305,
@@ -50957,21 +51723,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 27,
-        "forgeTarget": 1403
+        "forgeID": 55,
+        "forgeTarget": 1403,
+        "iconf": "f-p-helmet4.png",
+        "iconm": "m-p-helmet4.png"
     },
     {
         "classId": 1399,
-        "label": "祈求者之证",
-        "icon": "epn021.png",
+        "label": "祈求者头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "祈求者之证lv6",
+        "description": "精美的头盔，能带来好运",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 1,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1400,
         "basic_properties": {
             "health": 310,
@@ -50985,21 +51765,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 27,
-        "forgeTarget": 1404
+        "forgeID": 55,
+        "forgeTarget": 1404,
+        "iconf": "f-p-helmet4.png",
+        "iconm": "m-p-helmet4.png"
     },
     {
         "classId": 1400,
-        "label": "祈求者之证",
-        "icon": "epn021.png",
+        "label": "祈求者头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "祈求者之证lv7",
+        "description": "精美的头盔，能带来好运",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn4-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn4-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 1,
         "rank": 7,
+		"upgradeId": 17,
         "basic_properties": {
             "health": 315,
             "attack": 47,
@@ -51012,21 +51806,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 27,
-        "forgeTarget": 1405
+        "forgeID": 55,
+        "forgeTarget": 1405,
+        "iconf": "f-p-helmet4.png",
+        "iconm": "m-p-helmet4.png"
     },
     {
         "classId": 1401,
-        "label": "神谕者之证",
-        "icon": "epn031.png",
+        "label": "神谕者头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "神谕者之证lv3",
+        "description": "获得神力庇护的头盔，代表着圣洁与光明",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 2,
         "rank": 3,
+		"upgradeId": 13,
         "upgradeTarget": 1402,
         "basic_properties": {
             "health": 300,
@@ -51039,20 +51847,34 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet3.png",
+        "iconm": "m-p-helmet3.png"
     },
     {
         "classId": 1402,
-        "label": "神谕者之证",
-        "icon": "epn031.png",
+        "label": "神谕者头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "神谕者之证lv4",
+        "description": "获得神力庇护的头盔，代表着圣洁与光明",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 2,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1403,
         "basic_properties": {
             "health": 305,
@@ -51066,21 +51888,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 33,
-        "forgeTarget": 1407
+        "forgeID": 61,
+        "forgeTarget": 1407,
+        "iconf": "f-p-helmet3.png",
+        "iconm": "m-p-helmet3.png"
     },
     {
         "classId": 1403,
-        "label": "神谕者之证",
-        "icon": "epn031.png",
+        "label": "神谕者头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "神谕者之证lv5",
+        "description": "获得神力庇护的头盔，代表着圣洁与光明",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 2,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1404,
         "basic_properties": {
             "health": 310,
@@ -51094,21 +51930,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 33,
-        "forgeTarget": 1408
+        "forgeID": 61,
+        "forgeTarget": 1408,
+        "iconf": "f-p-helmet3.png",
+        "iconm": "m-p-helmet3.png"
     },
     {
         "classId": 1404,
-        "label": "神谕者之证",
-        "icon": "epn031.png",
+        "label": "神谕者头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "神谕者之证lv6",
+        "description": "获得神力庇护的头盔，代表着圣洁与光明",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 2,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1405,
         "basic_properties": {
             "health": 315,
@@ -51122,21 +51972,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 33,
-        "forgeTarget": 1409
+        "forgeID": 61,
+        "forgeTarget": 1409,
+        "iconf": "f-p-helmet3.png",
+        "iconm": "m-p-helmet3.png"
     },
     {
         "classId": 1405,
-        "label": "神谕者之证",
-        "icon": "epn031.png",
+        "label": "神谕者头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "神谕者之证lv7",
+        "description": "获得神力庇护的头盔，代表着圣洁与光明",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 2,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1406,
         "basic_properties": {
             "health": 320,
@@ -51150,21 +52014,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 33,
-        "forgeTarget": 1410
+        "forgeID": 61,
+        "forgeTarget": 1410,
+        "iconf": "f-p-helmet3.png",
+        "iconm": "m-p-helmet3.png"
     },
     {
         "classId": 1406,
-        "label": "神谕者之证",
-        "icon": "epn031.png",
+        "label": "神谕者头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "神谕者之证lv8",
+        "description": "获得神力庇护的头盔，代表着圣洁与光明",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn3-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn3-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 2,
         "rank": 8,
+		"upgradeId": 18,
         "basic_properties": {
             "health": 325,
             "attack": 49,
@@ -51177,21 +52055,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 33,
-        "forgeTarget": 1411
+        "forgeID": 61,
+        "forgeTarget": 1411,
+        "iconf": "f-p-helmet3.png",
+        "iconm": "m-p-helmet3.png"
     },
     {
         "classId": 1407,
-        "label": "神圣之证",
-        "icon": "epn041.png",
+        "label": "神圣头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "神圣之证lv4",
+        "description": "散发着圣洁的光辉，能驱散一切邪恶的力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 3,
         "rank": 4,
+		"upgradeId": 14,
         "upgradeTarget": 1408,
         "basic_properties": {
             "health": 310,
@@ -51204,20 +52096,34 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet2.png",
+        "iconm": "m-p-helmet2.png"
     },
     {
         "classId": 1408,
-        "label": "神圣之证",
-        "icon": "epn041.png",
+        "label": "神圣头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "神圣之证lv5",
+        "description": "散发着圣洁的光辉，能驱散一切邪恶的力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 3,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1409,
         "basic_properties": {
             "health": 315,
@@ -51231,21 +52137,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 39,
-        "forgeTarget": 1413
+        "forgeID": 67,
+        "forgeTarget": 1413,
+        "iconf": "f-p-helmet2.png",
+        "iconm": "m-p-helmet2.png"
     },
     {
         "classId": 1409,
-        "label": "神圣之证",
-        "icon": "epn041.png",
+        "label": "神圣头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "神圣之证lv6",
+        "description": "散发着圣洁的光辉，能驱散一切邪恶的力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 3,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1410,
         "basic_properties": {
             "health": 320,
@@ -51259,21 +52179,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 39,
-        "forgeTarget": 1414
+        "forgeID": 67,
+        "forgeTarget": 1414,
+        "iconf": "f-p-helmet2.png",
+        "iconm": "m-p-helmet2.png"
     },
     {
         "classId": 1410,
-        "label": "神圣之证",
-        "icon": "epn041.png",
+        "label": "神圣头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "神圣之证lv7",
+        "description": "散发着圣洁的光辉，能驱散一切邪恶的力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 3,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1411,
         "basic_properties": {
             "health": 325,
@@ -51287,21 +52221,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 39,
-        "forgeTarget": 1415
+        "forgeID": 67,
+        "forgeTarget": 1415,
+        "iconf": "f-p-helmet2.png",
+        "iconm": "m-p-helmet2.png"
     },
     {
         "classId": 1411,
-        "label": "神圣之证",
-        "icon": "epn041.png",
+        "label": "神圣头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "神圣之证lv8",
+        "description": "散发着圣洁的光辉，能驱散一切邪恶的力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 3,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1412,
         "basic_properties": {
             "health": 330,
@@ -51315,21 +52263,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 39,
-        "forgeTarget": 1416
+        "forgeID": 67,
+        "forgeTarget": 1416,
+        "iconf": "f-p-helmet2.png",
+        "iconm": "m-p-helmet2.png"
     },
     {
         "classId": 1412,
-        "label": "神圣之证",
-        "icon": "epn041.png",
+        "label": "神圣头冠",
         "category": 1,
         "subcategory": 5,
-        "description": "神圣之证lv9",
+        "description": "散发着圣洁的光辉，能驱散一切邪恶的力量",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn2-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn2-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 3,
         "rank": 9,
+		"upgradeId": 19,
         "basic_properties": {
             "health": 335,
             "attack": 51,
@@ -51342,21 +52304,35 @@ exports.data = [
         "autoUse": true,
         "enhanceID": 5,
         "hide": true,
-        "forgeID": 39,
-        "forgeTarget": 1417
+        "forgeID": 67,
+        "forgeTarget": 1417,
+        "iconf": "f-p-helmet2.png",
+        "iconm": "m-p-helmet2.png"
     },
     {
         "classId": 1413,
-        "label": "黎明的曙光",
-        "icon": "epn041.png",
+        "label": "黎明圣冠",
         "category": 1,
         "subcategory": 5,
-        "description": "黎明的曙光lv5",
+        "description": "镶嵌着晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 4,
         "rank": 5,
+		"upgradeId": 15,
         "upgradeTarget": 1414,
         "basic_properties": {
             "health": 320,
@@ -51369,20 +52345,34 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet1.png",
+        "iconm": "m-p-helmet1.png"
     },
     {
         "classId": 1414,
-        "label": "黎明的曙光",
-        "icon": "epn041.png",
+        "label": "黎明圣冠",
         "category": 1,
         "subcategory": 5,
-        "description": "黎明的曙光lv6",
+        "description": "镶嵌着晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 4,
         "rank": 6,
+		"upgradeId": 16,
         "upgradeTarget": 1415,
         "basic_properties": {
             "health": 325,
@@ -51395,20 +52385,34 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet1.png",
+        "iconm": "m-p-helmet1.png"
     },
     {
         "classId": 1415,
-        "label": "黎明的曙光",
-        "icon": "epn041.png",
+        "label": "黎明圣冠",
         "category": 1,
         "subcategory": 5,
-        "description": "黎明的曙光lv7",
+        "description": "镶嵌着晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 4,
         "rank": 7,
+		"upgradeId": 17,
         "upgradeTarget": 1416,
         "basic_properties": {
             "health": 330,
@@ -51421,20 +52425,34 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet1.png",
+        "iconm": "m-p-helmet1.png"
     },
     {
         "classId": 1416,
-        "label": "黎明的曙光",
-        "icon": "epn041.png",
+        "label": "黎明圣冠",
         "category": 1,
         "subcategory": 5,
-        "description": "黎明的曙光lv8",
+        "description": "镶嵌着晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 4,
         "rank": 8,
+		"upgradeId": 18,
         "upgradeTarget": 1417,
         "basic_properties": {
             "health": 335,
@@ -51447,20 +52465,34 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet1.png",
+        "iconm": "m-p-helmet1.png"
     },
     {
         "classId": 1417,
-        "label": "黎明的曙光",
-        "icon": "epn041.png",
+        "label": "黎明圣冠",
         "category": 1,
         "subcategory": 5,
-        "description": "黎明的曙光lv9",
+        "description": "镶嵌着晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
         "quality": 4,
         "rank": 9,
+		"upgradeId": 19,
         "upgradeTarget": 1418,
         "basic_properties": {
             "health": 340,
@@ -51473,15 +52505,28 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet1.png",
+        "iconm": "m-p-helmet1.png"
     },
     {
         "classId": 1418,
-        "label": "黎明的曙光",
-        "icon": "epn041.png",
+        "label": "黎明圣冠",
         "category": 1,
         "subcategory": 5,
-        "description": "黎明的曙光lv10",
+        "description": "镶嵌着晶莹的印记，指引我们搜寻黎明里第一道曙光",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "f-priestn-helmet1.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "m-priestn-helmet1.ccbi"
+            }
+        ],
         "classLimit": [
             218
         ],
@@ -51498,567 +52543,5728 @@ exports.data = [
         "storeOnly": true,
         "autoUse": true,
         "enhanceID": 5,
-        "hide": true
+        "hide": true,
+        "iconf": "f-p-helmet1.png",
+        "iconm": "m-p-helmet1.png"
     },
     {
         "classId": 1419,
         "label": "狼牙粉末",
-        "icon": "item-sjw1.png",
+        "icon": "item-sc1.png",
         "category": 2,
         "subcategory": 0,
         "description": "土狼牙齿碾碎后的粉末",
         "stack": 99,
-        "sellprice": 50,
+        "sellprice": 500,
         "quality": 0
     },
     {
         "classId": 1420,
-        "label": "黄铜块",
-        "icon": "item-sjw2.png",
+        "label": "铜块",
+        "icon": "item-sc2.png",
         "category": 2,
         "subcategory": 0,
-        "description": "一整块黄铜，可以用来锻造装备",
+        "description": "一整块铜，可以用来锻造装备",
         "stack": 99,
-        "sellprice": 50,
+        "sellprice": 500,
         "quality": 0
     },
     {
         "classId": 1421,
         "label": "土狼皮",
-        "icon": "item-sjw3.png",
+        "icon": "item-sc3.png",
         "category": 2,
         "subcategory": 0,
         "description": "土狼被杀死后剥下来的皮，似乎记录些什么",
         "stack": 99,
-        "sellprice": 50,
+        "sellprice": 500,
         "quality": 0
     },
     {
         "classId": 1422,
         "label": "普通木块",
-        "icon": "item-sjw4.png",
+        "icon": "item-sc4.png",
         "category": 2,
         "subcategory": 0,
         "description": "一块比较好的锻造原料",
         "stack": 99,
-        "sellprice": 50,
+        "sellprice": 500,
         "quality": 0
     },
     {
         "classId": 1423,
-        "label": "紫色粉末",
-        "icon": "item-sjw5.png",
+        "label": "绿色粉末",
+        "icon": "item-sc5.png",
         "category": 2,
         "subcategory": 0,
         "description": "蕴含特殊力量的粉末",
         "stack": 99,
-        "sellprice": 50,
+        "sellprice": 500,
         "quality": 0
     },
     {
         "classId": 1424,
         "label": "麻布",
-        "icon": "item-sjw6.png",
+        "icon": "item-sc6.png",
         "category": 2,
         "subcategory": 0,
         "description": "不知道被谁掉落在地下城的麻布",
         "stack": 99,
-        "sellprice": 50,
+        "sellprice": 500,
         "quality": 0
     },
     {
         "classId": 1425,
         "label": "结实的绳子",
-        "icon": "item-sjw7.png",
+        "icon": "item-sc7.png",
         "category": 2,
         "subcategory": 0,
         "description": "非常结实、坚韧的绳子",
         "stack": 99,
-        "sellprice": 50,
+        "sellprice": 500,
         "quality": 0
     },
     {
         "classId": 1426,
         "label": "狼尾草",
-        "icon": "item-sjw8.png",
+        "icon": "item-sc8.png",
         "category": 2,
         "subcategory": 0,
         "description": "一种生长在土狼窝附近的植物",
         "stack": 99,
-        "sellprice": 50,
+        "sellprice": 500,
         "quality": 0
     },
     {
         "classId": 1427,
-        "label": "生锈黄铜戒",
-        "icon": "item-sjw9.png",
+        "label": "生锈铜戒",
+        "icon": "item-sc9.png",
         "category": 2,
         "subcategory": 0,
-        "description": "一枚古老的黄铜戒指，已经可以看到上面的锈迹",
+        "description": "一枚古老的铜戒，已经可以看到上面的锈迹",
         "stack": 99,
-        "sellprice": 50,
+        "sellprice": 500,
         "quality": 0
     },
     {
         "classId": 1428,
-        "label": "斑驳蓝水晶",
-        "icon": "item-sjw10.png",
+        "label": "斑驳红水晶",
+        "icon": "item-sc10.png",
         "category": 2,
         "subcategory": 0,
-        "description": "蕴含少量魔力的蓝水晶",
+        "description": "蕴含少量魔力的红水晶",
         "stack": 99,
-        "sellprice": 50,
+        "sellprice": 500,
         "quality": 0
     },
     {
         "classId": 1429,
-        "label": "血色战旗",
-        "icon": "item-sjw11.png",
+        "label": "胜利战旗",
+        "icon": "item-sc11.png",
         "category": 2,
         "subcategory": 0,
-        "description": "被鲜血染红的旗子",
+        "description": "象征胜利的战旗",
         "stack": 99,
-        "sellprice": 50,
+        "sellprice": 500,
         "quality": 0
     },
     {
         "classId": 1430,
-        "label": "黑曜石",
-        "icon": "item-sjg1.png",
+        "label": "石榴石",
+        "icon": "item-sc12.png",
         "category": 2,
         "subcategory": 0,
         "description": "具有特殊用途的宝石",
         "stack": 99,
-        "sellprice": 100,
+        "sellprice": 650,
         "quality": 1
     },
     {
         "classId": 1431,
         "label": "草木之晶",
-        "icon": "item-sjg2.png",
+        "icon": "item-sc13.png",
         "category": 2,
         "subcategory": 0,
         "description": "散发着清新的草木气息的晶石",
         "stack": 99,
-        "sellprice": 100,
+        "sellprice": 650,
         "quality": 1
     },
     {
         "classId": 1432,
         "label": "魔力水晶",
-        "icon": "item-sjg3.png",
+        "icon": "item-sc14.png",
         "category": 2,
         "subcategory": 0,
         "description": "蕴含较多魔力的水晶",
         "stack": 99,
-        "sellprice": 100,
+        "sellprice": 650,
         "quality": 1
     },
     {
         "classId": 1433,
         "label": "强化卷轴",
-        "icon": "item-sjg4.png",
+        "icon": "item-sc15.png",
         "category": 2,
         "subcategory": 0,
         "description": "可以对装备进行强化的卷轴",
         "stack": 99,
-        "sellprice": 100,
+        "sellprice": 650,
         "quality": 1
     },
     {
         "classId": 1434,
         "label": "捆兽绳",
-        "icon": "item-sjg5.png",
+        "icon": "item-sc16.png",
         "category": 2,
         "subcategory": 0,
         "description": "附加了魔法的绳子，可以用来捕捉强大的野兽",
         "stack": 99,
-        "sellprice": 100,
+        "sellprice": 650,
         "quality": 1
     },
     {
         "classId": 1435,
         "label": "梧桐木",
-        "icon": "item-sjg6.png",
+        "icon": "item-sc17.png",
         "category": 2,
         "subcategory": 0,
         "description": "较好的锻造原料",
         "stack": 99,
-        "sellprice": 100,
+        "sellprice": 650,
         "quality": 1
     },
     {
         "classId": 1436,
         "label": "魔纹兽皮",
-        "icon": "item-sjg7.png",
+        "icon": "item-sc18.png",
         "category": 2,
         "subcategory": 0,
         "description": "强大的法师从魔兽上剥下来的皮毛，并在上面描绘了魔纹",
         "stack": 99,
-        "sellprice": 100,
+        "sellprice": 650,
         "quality": 1
     },
     {
         "classId": 1437,
         "label": "精铁戒指",
-        "icon": "item-sjg8.png",
+        "icon": "item-sc19.png",
         "category": 2,
         "subcategory": 0,
         "description": "精铁打造的戒指，有很大的利用价值",
         "stack": 99,
-        "sellprice": 100,
+        "sellprice": 650,
         "quality": 1
     },
     {
         "classId": 1438,
         "label": "魔法师日记",
-        "icon": "item-sjg9.png",
+        "icon": "item-sc20.png",
         "category": 2,
         "subcategory": 0,
         "description": "记录着魔法心得的日记残页",
         "stack": 99,
-        "sellprice": 100,
+        "sellprice": 650,
         "quality": 1
     },
     {
         "classId": 1439,
         "label": "药剂瓶",
-        "icon": "item-sjg10.png",
+        "icon": "item-sc21.png",
         "category": 2,
         "subcategory": 0,
         "description": "装有魔法师实验药剂的瓶子",
         "stack": 99,
-        "sellprice": 100,
+        "sellprice": 650,
         "quality": 1
     },
     {
         "classId": 1440,
         "label": "魔法吊坠",
-        "icon": "item-sjg11.png",
+        "icon": "item-sc22.png",
         "category": 2,
         "subcategory": 0,
         "description": "负载魔力的银质吊坠",
         "stack": 99,
-        "sellprice": 100,
+        "sellprice": 850,
         "quality": 1
     },
     {
         "classId": 1441,
         "label": "华贵胸针",
-        "icon": "item-sjb1.png",
+        "icon": "item-sc23.png",
         "category": 2,
         "subcategory": 0,
         "description": "非常昂贵的胸针，应该是古老贵族的物品",
         "stack": 99,
-        "sellprice": 200,
+        "sellprice": 850,
         "quality": 2
     },
     {
         "classId": 1442,
         "label": "精美丝绸",
-        "icon": "item-sjb2.png",
+        "icon": "item-sc24.png",
         "category": 2,
         "subcategory": 0,
         "description": "来自遥远东方的布料，异常珍贵",
         "stack": 99,
-        "sellprice": 200,
+        "sellprice": 850,
         "quality": 2
     },
     {
         "classId": 1443,
         "label": "真钢锭",
-        "icon": "item-sjb3.png",
+        "icon": "item-sc25.png",
         "category": 2,
         "subcategory": 0,
         "description": "经过千锤百炼后的金属块，十分优良的锻造材料",
         "stack": 99,
-        "sellprice": 200,
+        "sellprice": 850,
         "quality": 2
     },
     {
         "classId": 1444,
         "label": "邪恶笔记",
-        "icon": "item-sjb4.png",
+        "icon": "item-sc26.png",
         "category": 2,
         "subcategory": 0,
         "description": "邪恶法师的笔记，记录着邪恶法师所有的魔法",
         "stack": 99,
-        "sellprice": 200,
+        "sellprice": 850,
         "quality": 2
     },
     {
         "classId": 1445,
-        "label": "深海之晶",
-        "icon": "item-sjb5.png",
+        "label": "火焰之晶",
+        "icon": "item-sc27.png",
         "category": 2,
         "subcategory": 0,
-        "description": "深海里的结晶，可以感受得到里面汹涌澎湃的水元素",
+        "description": "蕴含着火焰的晶体，可以感受得到里面澎湃的火元素",
         "stack": 99,
-        "sellprice": 200,
+        "sellprice": 850,
         "quality": 2
     },
     {
         "classId": 1446,
         "label": "奇美拉之眼",
-        "icon": "item-sjb6.png",
+        "icon": "item-sc28.png",
         "category": 2,
         "subcategory": 0,
         "description": "可怕的双头怪物的眼睛",
         "stack": 99,
-        "sellprice": 200,
+        "sellprice": 850,
         "quality": 2
     },
     {
         "classId": 1447,
         "label": "万年古木",
-        "icon": "item-sjb7.png",
+        "icon": "item-sc29.png",
         "category": 2,
         "subcategory": 0,
         "description": "从远古时代就存在的老树上掉落的树枝",
         "stack": 99,
-        "sellprice": 200,
+        "sellprice": 850,
         "quality": 2
     },
     {
         "classId": 1448,
         "label": "生命之种",
-        "icon": "item-sjb8.png",
+        "icon": "item-sc30.png",
         "category": 2,
         "subcategory": 0,
         "description": "生命之树的种子",
         "stack": 99,
-        "sellprice": 200,
+        "sellprice": 850,
         "quality": 2
     },
     {
         "classId": 1449,
         "label": "烈焰花",
-        "icon": "item-sjb9.png",
+        "icon": "item-sc31.png",
         "category": 2,
         "subcategory": 0,
         "description": "绽放时会燃起火焰的花朵",
         "stack": 99,
-        "sellprice": 200,
+        "sellprice": 850,
         "quality": 2
     },
     {
         "classId": 1450,
-        "label": "精金块",
-        "icon": "item-sjb10.png",
+        "label": "魔金块",
+        "icon": "item-sc32.png",
         "category": 2,
         "subcategory": 0,
         "description": "非常稀少的锻造材料，本身就价值连城",
         "stack": 99,
-        "sellprice": 200,
+        "sellprice": 850,
         "quality": 2
     },
     {
         "classId": 1451,
         "label": "邪恶之珠",
-        "icon": "item-sjb11.png",
+        "icon": "item-sc33.png",
         "category": 2,
         "subcategory": 0,
         "description": "拥有邪恶气息的宝珠",
         "stack": 99,
-        "sellprice": 200,
+        "sellprice": 850,
         "quality": 2
     },
     {
         "classId": 1452,
-        "label": "光明宝典",
-        "icon": "item-sjb12.png",
+        "label": "战争宝典",
+        "icon": "item-sc34.png",
         "category": 2,
         "subcategory": 0,
-        "description": "能给人们带来温暖的宝书，象征着希望",
+        "description": "军事家们梦寐以求的宝典，象征着胜利和荣耀",
         "stack": 99,
-        "sellprice": 200,
+        "sellprice": 850,
         "quality": 2
     },
     {
         "classId": 1453,
         "label": "不死鸟羽毛",
-        "icon": "item-sjb13.png",
+        "icon": "item-sc35.png",
         "category": 2,
         "subcategory": 0,
         "description": "传说中不死鸟掉落的羽毛，蕴含强大的力量",
         "stack": 99,
-        "sellprice": 200,
+        "sellprice": 850,
         "quality": 2
     },
     {
         "classId": 1454,
-        "label": "大地之晶",
-        "icon": "item-sjp1.png",
+        "label": "夜之石",
+        "icon": "item-sc36.png",
         "category": 2,
         "subcategory": 0,
-        "description": "蕴含着大地之力的晶体，能感受到一股厚重的气息",
+        "description": "能吸收月光力量的神秘宝石",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
     },
     {
         "classId": 1455,
         "label": "屠龙勋章",
-        "icon": "item-sjp2.png",
+        "icon": "item-sc37.png",
         "category": 2,
         "subcategory": 0,
         "description": "能力的证明，象征着拥有战胜龙的力量",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
     },
     {
         "classId": 1456,
-        "label": "战争圣典",
-        "icon": "item-sjp3.png",
+        "label": "光明圣典",
+        "icon": "item-sc38.png",
         "category": 2,
         "subcategory": 0,
-        "description": "军事家们梦寐以求的圣书，象征着胜利和荣耀",
+        "description": "能给人们带来温暖的圣书，象征着希望",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
     },
     {
         "classId": 1457,
         "label": "女皇头冠",
-        "icon": "item-sjp4.png",
+        "icon": "item-sc39.png",
         "category": 2,
         "subcategory": 0,
         "description": "历史上唯一一位女皇的皇冠",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
     },
     {
         "classId": 1458,
         "label": "潘多拉魔盒",
-        "icon": "item-sjp5.png",
+        "icon": "item-sc40.png",
         "category": 2,
         "subcategory": 0,
         "description": "传说中打开后能释放人世间所有的邪恶的盒子",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
     },
     {
         "classId": 1459,
         "label": "撒旦之心",
-        "icon": "item-sjp6.png",
+        "icon": "item-sc41.png",
         "category": 2,
         "subcategory": 0,
         "description": "据说是强大恶魔的心脏，拥有强大的力量",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
     },
     {
         "classId": 1460,
         "label": "君主腰牌",
-        "icon": "item-sjp7.png",
+        "icon": "item-sc42.png",
         "category": 2,
         "subcategory": 0,
         "description": "能统帅千军万马的腰牌，拥有无上权威",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
     },
     {
         "classId": 1461,
-        "label": "火焰之晶",
-        "icon": "item-sjp8.png",
+        "label": "幽冥石",
+        "icon": "item-sc43.png",
         "category": 2,
         "subcategory": 0,
-        "description": "蕴含着火焰的晶体，具有毁灭一切的力量",
+        "description": "蕴含着诡异气息的宝石，具有毁灭一切的力量",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
     },
     {
         "classId": 1462,
         "label": "怨灵魔珠",
-        "icon": "item-sjp9.png",
+        "icon": "item-sc44.png",
         "category": 2,
         "subcategory": 0,
         "description": "远古时期邪恶的法师为了获得强大力量而用来在战场上收集灵魂的珠子",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
     },
     {
         "classId": 1463,
-        "label": "永恒夜之石",
-        "icon": "item-sjp10.png",
+        "label": "永恒日之石",
+        "icon": "item-sc45.png",
         "category": 2,
         "subcategory": 0,
-        "description": "可以吸收月光的神奇宝石，具有神秘的力量",
+        "description": "可以吸收日光的神奇宝石，能折射出耀眼的光芒",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
     },
     {
         "classId": 1464,
         "label": "缚龙索",
-        "icon": "item-sjp11.png",
+        "icon": "item-sc46.png",
         "category": 2,
         "subcategory": 0,
         "description": "连强大的龙都能束缚的缎带",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
     },
     {
         "classId": 1465,
         "label": "胜利皇冠",
-        "icon": "item-sjp12.png",
+        "icon": "item-sc47.png",
         "category": 2,
         "subcategory": 0,
         "description": "胜利女神的皇冠,象征着智慧与胜利",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
     },
     {
         "classId": 1466,
         "label": "恶龙之齿",
-        "icon": "item-sjp13.png",
+        "icon": "item-sc48.png",
         "category": 2,
         "subcategory": 0,
         "description": "消灭恶龙后获得的牙齿，依旧拥有令人心悸的气息",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
     },
     {
         "classId": 1467,
         "label": "恐怖利刃",
-        "icon": "item-sjp14.png",
+        "icon": "item-sc49.png",
         "category": 2,
         "subcategory": 0,
         "description": "据说是恶魔所使用的武器，不知为何遗留在地下城",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
     },
     {
         "classId": 1468,
         "label": "恶魔之眼",
-        "icon": "item-sjp15.png",
+        "icon": "item-sc50.png",
         "category": 2,
         "subcategory": 0,
         "description": "散发着可怕气息的珠子，据说是恶魔的眼珠",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
     },
     {
         "classId": 1469,
         "label": "龙血之瓶",
-        "icon": "item-sjp16.png",
+        "icon": "item-sc51.png",
         "category": 2,
         "subcategory": 0,
         "description": "装有龙的精血的瓶子",
         "stack": 99,
-        "sellprice": 400,
+        "sellprice": 1050,
         "quality": 3
-    }
+    },
+    {
+        "classId": 1470,
+        "label": "进阶强化宝珠",
+        "icon": "stone6.png",
+        "category": 2,
+        "subcategory": 1,
+        "description": "能够强化白色普通进阶装备的宝珠",
+        "stack": 99,
+        "sellprice": 400,
+        "quality": 0,
+        "synthesizeID": 73
+    },
+    {
+        "classId": 1471,
+        "label": "强化宝石",
+        "icon": "stone7.png",
+        "category": 2,
+        "subcategory": 1,
+        "description": "能够强化绿色优质进阶装备的宝石",
+        "stack": 99,
+        "sellprice": 500,
+        "quality": 1,
+        "synthesizeID": 69
+    },
+    {
+        "classId": 1472,
+        "label": "进阶强化宝石",
+        "icon": "stone8.png",
+        "category": 2,
+        "subcategory": 1,
+        "description": "能够强化蓝色稀有进阶装备的宝石",
+        "stack": 99,
+        "sellprice": 600,
+        "quality": 2,
+        "synthesizeID": 70
+    },
+    {
+        "classId": 1473,
+        "label": "强化宝晶",
+        "icon": "stone9.png",
+        "category": 2,
+        "subcategory": 1,
+        "description": "能够强化紫色史诗进阶装备的宝晶",
+        "stack": 99,
+        "sellprice": 700,
+        "quality": 3,
+        "synthesizeID": 71
+    },
+    {
+        "classId": 1474,
+        "label": "进阶强化宝晶",
+        "icon": "stone10.png",
+        "category": 2,
+        "subcategory": 1,
+        "description": "能够强化橙色传奇进阶装备的宝晶",
+        "stack": 99,
+        "sellprice": 800,
+        "quality": 4,
+        "synthesizeID": 72
+    },
+    {
+        "classId": 1475,
+        "label": "X碎片",
+		"iconf": "rfasion-female-ironsuit-sp.png",
+		"iconm": "rfasion-male-ironsuit-sp.png",
+        "category": 4,
+        "description": "神秘合金碎片，可以通过X图纸合成时装",
+        "stack": 99,
+        "sellprice": 500,
+        "quality": 3
+    },
+    {
+        "classId": 1476,
+        "label": "X头盔图纸",
+		"iconf": "rfasion-female-ironsuit-helmet-tz.png",
+		"iconm": "rfasion-male-ironsuit-helmet-tz.png",
+        "category": 3,
+        "subcategory": 0,
+        "description": "能合成X头盔的图纸，需要15个X碎片",
+        "sellprice": 15,
+        "quality": 4,
+        "recipeTarget": 1477,
+        "recipeCost": 84
+    },
+    {
+        "classId": 1477,
+        "label": "X头盔",
+        "category": 1,
+        "subcategory": 13,
+        "suitId": 1,
+        "description": "由神秘合金配合顶尖黑科技打造而成的套装，拥有难以置信的力量。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+400 攻击+15  韧性+5\n" +
+		               "2件：生命+950 攻击+50 暴击+20\n" +
+		               " 　　韧性+65 命中+40\n" +
+		               " 　　特殊技能：加特林扫射\n" +
+		               "3件：生命+1750 攻击+115 暴击+50\n" +
+		               " 　　韧性+145 命中+85\n" +
+		               "4件：生命+3250 攻击+265 暴击+110\n" +
+		               " 　　韧性+285 命中+185 \n" +
+		               " 　　特殊技能：脉冲光束炮\n",
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "ironsuit-female-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "ironsuit-male-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+		"quality": 4,
+		"iconf": "rfasion-female-ironsuit-helmet.png",
+		"iconm": "rfasion-male-ironsuit-helmet.png",
+        "recipePrize": 207
+    },
+    {
+        "classId": 1478,
+        "label": "X胸甲图纸",
+		"iconf": "rfasion-female-ironsuit-chest-tz.png",
+		"iconm": "rfasion-male-ironsuit-chest-tz.png",
+        "category": 3,
+        "subcategory": 0,
+        "description": "能合成X胸甲的图纸，需要10个X碎片",
+        "sellprice": 15,
+        "quality": 4,
+        "recipeTarget": 1479,
+        "recipeCost": 85
+    },
+    {
+        "classId": 1479,
+        "label": "X胸甲",
+        "category": 1,
+        "subcategory": 12,
+		"hideSlot": [2],
+        "suitId": 1,
+        "description": "由神秘合金配合顶尖黑科技打造而成的套装，拥有难以置信的力量。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+400 攻击+15  韧性+5\n" +
+		               "2件：生命+950 攻击+50 暴击+20\n" +
+		               " 　　韧性+65 命中+40\n" +
+		               " 　　特殊技能：加特林扫射\n" +
+		               "3件：生命+1750 攻击+115 暴击+50\n" +
+		               " 　　韧性+145 命中+85\n" +
+		               "4件：生命+3250 攻击+265 暴击+110\n" +
+		               " 　　韧性+285 命中+185 \n" +
+		               " 　　特殊技能：脉冲光束炮\n",
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "ironsuit-female-chest.ccbi"
+            },
+			{
+				"part": "ironjet-left",
+				"file": "ironsuit-jet.ccbi"
+			},
+			{
+				"part": "ironjet-right",
+				"file": "ironsuit-jet.ccbi"
+			}
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "ironsuit-male-chest.ccbi"
+            },
+			{
+				"part": "ironjet-left",
+				"file": "ironsuit-jet.ccbi"
+			},
+			{
+				"part": "ironjet-right",
+				"file": "ironsuit-jet.ccbi"
+			}
+        ],
+        "storeOnly": true,
+		"quality": 4,
+		"iconf": "rfasion-female-ironsuit-chest.png",
+		"iconm": "rfasion-male-ironsuit-chest.png",
+        "recipePrize": 208
+    },
+    {
+        "classId": 1480,
+        "label": "X手甲图纸",
+		"iconf": "rfasion-female-ironsuit-hand-tz.png",
+		"iconm": "rfasion-male-ironsuit-hand-tz.png",
+        "category": 3,
+        "subcategory": 0,
+        "description": "能合成X手甲的图纸，需要5个X碎片",
+        "sellprice": 15,
+        "quality": 4,
+        "recipeTarget": 1481,
+        "recipeCost": 86
+    },
+    {
+        "classId": 1481,
+        "label": "X手甲",
+        "category": 1,
+        "subcategory": 19,
+        "suitId": 1,
+        "description": "由神秘合金配合顶尖黑科技打造而成的套装，拥有难以置信的力量。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+400 攻击+15  韧性+5\n" +
+		               "2件：生命+950 攻击+50 暴击+20\n" +
+		               " 　　韧性+65 命中+40\n" +
+		               " 　　特殊技能：加特林扫射\n" +
+		               "3件：生命+1750 攻击+115 暴击+50\n" +
+		               " 　　韧性+145 命中+85\n" +
+		               "4件：生命+3250 攻击+265 暴击+110\n" +
+		               " 　　韧性+285 命中+185 \n" +
+		               " 　　特殊技能：脉冲光束炮\n",
+        "effectf": [
+            {
+                "part": "righthand",
+                "file": "ironsuit-female-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ironsuit-female-lefthand.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "righthand",
+                "file": "ironsuit-male-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "ironsuit-male-lefthand.ccbi"
+            }
+        ],
+        "storeOnly": true,
+		"quality": 4,
+		"iconf": "rfasion-female-ironsuit-hand.png",
+		"iconm": "rfasion-male-ironsuit-hand.png",
+        "recipePrize": 209
+    },
+    {
+        "classId": 1482,
+        "label": "X腿甲图纸",
+		"iconf": "rfasion-female-ironsuit-foot-tz.png",
+		"iconm": "rfasion-male-ironsuit-foot-tz.png",
+        "category": 3,
+        "subcategory": 0,
+        "description": "能合成X腿甲的图纸，需要10个X碎片",
+        "sellprice": 15,
+        "quality": 4,
+        "recipeTarget": 1483,
+        "recipeCost": 87
+    },
+    {
+        "classId": 1483,
+        "label": "X腿甲",
+        "category": 1,
+        "subcategory": 20,
+        "suitId": 1,
+        "description": "由神秘合金配合顶尖黑科技打造而成的套装，拥有难以置信的力量。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+400 攻击+15  韧性+5\n" +
+		               "2件：生命+950 攻击+50 暴击+20\n" +
+		               " 　　韧性+65 命中+40\n" +
+		               " 　　特殊技能：加特林扫射\n" +
+		               "3件：生命+1750 攻击+115 暴击+50\n" +
+		               " 　　韧性+145 命中+85\n" +
+		               "4件：生命+3250 攻击+265 暴击+110\n" +
+		               " 　　韧性+285 命中+185 \n" +
+		               " 　　特殊技能：脉冲光束炮\n",
+        "effectf": [
+            {
+                "part": "leftleg",
+                "file": "ironsuit-female-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ironsuit-female-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "leftleg",
+                "file": "ironsuit-male-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "ironsuit-male-rightleg.ccbi"
+            }
+        ],
+        "storeOnly": true,
+		"quality": 4,
+		"iconf": "rfasion-female-ironsuit-foot.png",
+		"iconm": "rfasion-male-ironsuit-foot.png",
+        "recipePrize": 209
+    },
+	{
+		"classId": 1484,
+		"label": "礼仪上衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "表示出礼仪的装扮，给人以安心的感觉。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff3-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm3-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female3-chest.png",
+		"iconm": "rfasion-male3-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1485,
+		"label": "礼仪手套",
+		"category": 1,
+		"subcategory": 19,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff3-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff3-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm3-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm3-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female3-hand.png",
+		"iconm": "rfasion-male3-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1486,
+		"label": "礼仪鞋",
+		"category": 1,
+		"subcategory": 20,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff3-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff3-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm3-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm3-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female3-foot.png",
+		"iconm": "rfasion-male3-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1487,
+		"label": "礼仪头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff3-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm3-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female3-helmet.png",
+		"iconm": "rfasion-male3-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1488,
+		"label": "和风上衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "洋溢着东方韵味的装扮。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff4-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm4-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female4-chest.png",
+		"iconm": "rfasion-male4-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1489,
+		"label": "和风护手",
+		"category": 1,
+		"subcategory": 19,
+		"description": "洋溢着东方韵味的装扮。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff4-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff4-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm4-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm4-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female4-hand.png",
+		"iconm": "rfasion-male4-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1490,
+		"label": "和风护腿",
+		"category": 1,
+		"subcategory": 20,
+		"description": "洋溢着东方韵味的装扮。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff4-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff4-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm4-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm4-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female4-foot.png",
+		"iconm": "rfasion-male4-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1491,
+		"label": "和风头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "洋溢着东方韵味的装扮。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff4-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm4-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female4-helmet.png",
+		"iconm": "rfasion-male4-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1492,
+		"label": "喵喵衣服",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff5-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm5-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female5-chest.png",
+		"iconm": "rfasion-male5-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1493,
+		"label": "喵喵爪子",
+		"category": 1,
+		"subcategory": 19,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff5-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff5-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm5-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm5-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female5-hand.png",
+		"iconm": "rfasion-male5-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1494,
+		"label": "喵喵护腿",
+		"category": 1,
+		"subcategory": 20,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff5-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff5-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm5-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm5-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female5-foot.png",
+		"iconm": "rfasion-male5-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1495,
+		"label": "喵喵耳朵",
+		"category": 1,
+		"subcategory": 13,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff5-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm5-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female5-helmet.png",
+		"iconm": "rfasion-male5-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1496,
+		"label": "护理大衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "医护人员穿戴的装扮，象征着白衣天使。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff6-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm6-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female6-chest.png",
+		"iconm": "rfasion-male6-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1497,
+		"label": "护理手套",
+		"category": 1,
+		"subcategory": 19,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff6-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff6-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm6-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm6-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female6-hand.png",
+		"iconm": "rfasion-male6-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1498,
+		"label": "护理鞋具",
+		"category": 1,
+		"subcategory": 20,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff6-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff6-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm6-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm6-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female6-foot.png",
+		"iconm": "rfasion-male6-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1499,
+		"label": "护理头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff6-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm6-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female6-helmet.png",
+		"iconm": "rfasion-male6-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1500,
+		"label": "刺客服",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff7-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm7-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female7-chest.png",
+		"iconm": "rfasion-male7-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1501,
+		"label": "刺客护手",
+		"category": 1,
+		"subcategory": 19,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff7-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff7-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm7-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm7-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female7-hand.png",
+		"iconm": "rfasion-male7-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1502,
+		"label": "刺客鞋",
+		"category": 1,
+		"subcategory": 20,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff7-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff7-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm7-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm7-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female7-foot.png",
+		"iconm": "rfasion-male7-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1503,
+		"label": "刺客面罩",
+		"category": 1,
+		"subcategory": 13,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff7-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm7-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female7-helmet.png",
+		"iconm": "rfasion-male7-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1504,
+		"label": "军官大衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff8-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm8-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female8-chest.png",
+		"iconm": "rfasion-male8-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1505,
+		"label": "军官手套",
+		"category": 1,
+		"subcategory": 19,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff8-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff8-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm8-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm8-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female8-hand.png",
+		"iconm": "rfasion-male8-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1506,
+		"label": "军官长靴",
+		"category": 1,
+		"subcategory": 20,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff8-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff8-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm8-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm8-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female8-foot.png",
+		"iconm": "rfasion-male8-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1507,
+		"label": "军官帽",
+		"category": 1,
+		"subcategory": 13,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff8-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm8-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female8-helmet.png",
+		"iconm": "rfasion-male8-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1508,
+		"label": "勇者铠甲",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff9-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm9-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female9-chest.png",
+		"iconm": "rfasion-male9-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1509,
+		"label": "勇者手甲",
+		"category": 1,
+		"subcategory": 19,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff9-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff9-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm9-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm9-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female9-hand.png",
+		"iconm": "rfasion-male9-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1510,
+		"label": "勇者腿甲",
+		"category": 1,
+		"subcategory": 20,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff9-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff9-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm9-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm9-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female9-foot.png",
+		"iconm": "rfasion-male9-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1511,
+		"label": "勇者头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff9-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm9-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female9-helmet.png",
+		"iconm": "rfasion-male9-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1512,
+		"label": "忍者上衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff10-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm10-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female10-chest.png",
+		"iconm": "rfasion-male10-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1513,
+		"label": "忍者护手",
+		"category": 1,
+		"subcategory": 19,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff10-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff10-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm10-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm10-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female10-hand.png",
+		"iconm": "rfasion-male10-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1514,
+		"label": "忍者裹足",
+		"category": 1,
+		"subcategory": 20,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff10-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff10-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm10-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm10-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female10-foot.png",
+		"iconm": "rfasion-male10-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1515,
+		"label": "忍者头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
+		"sellprice": 300,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff10-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm10-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 0,
+		"iconf": "rfasion-female10-helmet.png",
+		"iconm": "rfasion-male10-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1516,
+		"label": "礼仪上衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "表示出礼仪的装扮，给人以安心的感觉。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff3-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm3-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female3-chest.png",
+		"iconm": "rfasion-male3-chest.png"
+	},
+	{
+		"classId": 1517,
+		"label": "礼仪手套",
+		"category": 1,
+		"subcategory": 19,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff3-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff3-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm3-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm3-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female3-hand.png",
+		"iconm": "rfasion-male3-hand.png"
+	},
+	{
+		"classId": 1518,
+		"label": "礼仪鞋",
+		"category": 1,
+		"subcategory": 20,
+		"description": "注重礼仪的服饰，能够给人舒心的感觉。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff3-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff3-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm3-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm3-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female3-foot.png",
+		"iconm": "rfasion-male3-foot.png"
+	},
+	{
+		"classId": 1519,
+		"label": "礼仪头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff3-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm3-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female3-helmet.png",
+		"iconm": "rfasion-male3-helmet.png"
+	},
+	{
+		"classId": 1520,
+		"label": "和风上衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "洋溢着东方韵味的装扮。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff4-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm4-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female4-chest.png",
+		"iconm": "rfasion-male4-chest.png"
+	},
+	{
+		"classId": 1521,
+		"label": "和风护手",
+		"category": 1,
+		"subcategory": 19,
+		"description": "洋溢着东方韵味的装扮。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff4-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff4-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm4-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm4-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female4-hand.png",
+		"iconm": "rfasion-male4-hand.png"
+	},
+	{
+		"classId": 1522,
+		"label": "和风护腿",
+		"category": 1,
+		"subcategory": 20,
+		"description": "洋溢着东方韵味的装扮。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff4-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff4-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm4-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm4-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female4-foot.png",
+		"iconm": "rfasion-male4-foot.png"
+	},
+	{
+		"classId": 1523,
+		"label": "和风头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "洋溢着东方韵味的装扮。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff4-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm4-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female4-helmet.png",
+		"iconm": "rfasion-male4-helmet.png"
+	},
+	{
+		"classId": 1524,
+		"label": "喵喵衣服",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff5-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm5-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female5-chest.png",
+		"iconm": "rfasion-male5-chest.png"
+	},
+	{
+		"classId": 1525,
+		"label": "喵喵爪子",
+		"category": 1,
+		"subcategory": 19,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff5-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff5-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm5-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm5-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female5-hand.png",
+		"iconm": "rfasion-male5-hand.png"
+	},
+	{
+		"classId": 1526,
+		"label": "喵喵护腿",
+		"category": 1,
+		"subcategory": 20,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff5-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff5-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm5-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm5-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female5-foot.png",
+		"iconm": "rfasion-male5-foot.png"
+	},
+	{
+		"classId": 1527,
+		"label": "喵喵耳朵",
+		"category": 1,
+		"subcategory": 13,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff5-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm5-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female5-helmet.png",
+		"iconm": "rfasion-male5-helmet.png"
+	},
+	{
+		"classId": 1528,
+		"label": "护理大衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "医护人员穿戴的装扮，象征着白衣天使。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff6-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm6-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female6-chest.png",
+		"iconm": "rfasion-male6-chest.png"
+	},
+	{
+		"classId": 1529,
+		"label": "护理手套",
+		"category": 1,
+		"subcategory": 19,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff6-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff6-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm6-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm6-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female6-hand.png",
+		"iconm": "rfasion-male6-hand.png"
+	},
+	{
+		"classId": 1530,
+		"label": "护理鞋具",
+		"category": 1,
+		"subcategory": 20,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff6-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff6-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm6-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm6-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female6-foot.png",
+		"iconm": "rfasion-male6-foot.png"
+	},
+	{
+		"classId": 1531,
+		"label": "护理头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff6-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm6-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female6-helmet.png",
+		"iconm": "rfasion-male6-helmet.png"
+	},
+	{
+		"classId": 1532,
+		"label": "刺客服",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff7-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm7-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female7-chest.png",
+		"iconm": "rfasion-male7-chest.png"
+	},
+	{
+		"classId": 1533,
+		"label": "刺客护手",
+		"category": 1,
+		"subcategory": 19,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff7-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff7-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm7-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm7-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female7-hand.png",
+		"iconm": "rfasion-male7-hand.png"
+	},
+	{
+		"classId": 1534,
+		"label": "刺客鞋",
+		"category": 1,
+		"subcategory": 20,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff7-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff7-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm7-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm7-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female7-foot.png",
+		"iconm": "rfasion-male7-foot.png"
+	},
+	{
+		"classId": 1535,
+		"label": "刺客面罩",
+		"category": 1,
+		"subcategory": 13,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff7-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm7-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female7-helmet.png",
+		"iconm": "rfasion-male7-helmet.png"
+	},
+	{
+		"classId": 1536,
+		"label": "军官大衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff8-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm8-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female8-chest.png",
+		"iconm": "rfasion-male8-chest.png"
+	},
+	{
+		"classId": 1537,
+		"label": "军官手套",
+		"category": 1,
+		"subcategory": 19,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff8-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff8-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm8-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm8-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female8-hand.png",
+		"iconm": "rfasion-male8-hand.png"
+	},
+	{
+		"classId": 1538,
+		"label": "军官长靴",
+		"category": 1,
+		"subcategory": 20,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff8-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff8-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm8-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm8-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female8-foot.png",
+		"iconm": "rfasion-male8-foot.png"
+	},
+	{
+		"classId": 1539,
+		"label": "军官帽",
+		"category": 1,
+		"subcategory": 13,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff8-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm8-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female8-helmet.png",
+		"iconm": "rfasion-male8-helmet.png"
+	},
+	{
+		"classId": 1540,
+		"label": "勇者铠甲",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff9-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm9-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female9-chest.png",
+		"iconm": "rfasion-male9-chest.png"
+	},
+	{
+		"classId": 1541,
+		"label": "勇者手甲",
+		"category": 1,
+		"subcategory": 19,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff9-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff9-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm9-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm9-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female9-hand.png",
+		"iconm": "rfasion-male9-hand.png"
+	},
+	{
+		"classId": 1542,
+		"label": "勇者腿甲",
+		"category": 1,
+		"subcategory": 20,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff9-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff9-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm9-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm9-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female9-foot.png",
+		"iconm": "rfasion-male9-foot.png"
+	},
+	{
+		"classId": 1543,
+		"label": "勇者头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff9-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm9-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female9-helmet.png",
+		"iconm": "rfasion-male9-helmet.png"
+	},
+	{
+		"classId": 1544,
+		"label": "忍者上衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff10-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm10-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female10-chest.png",
+		"iconm": "rfasion-male10-chest.png"
+	},
+	{
+		"classId": 1545,
+		"label": "忍者护手",
+		"category": 1,
+		"subcategory": 19,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff10-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff10-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm10-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm10-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female10-hand.png",
+		"iconm": "rfasion-male10-hand.png"
+	},
+	{
+		"classId": 1546,
+		"label": "忍者裹足",
+		"category": 1,
+		"subcategory": 20,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff10-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff10-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm10-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm10-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female10-foot.png",
+		"iconm": "rfasion-male10-foot.png"
+	},
+	{
+		"classId": 1547,
+		"label": "忍者头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff10-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm10-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 1,
+		"iconf": "rfasion-female10-helmet.png",
+		"iconm": "rfasion-male10-helmet.png"
+	},
+	{
+		"classId": 1548,
+		"suitId": 4,
+		"label": "礼仪上衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+90 攻击+5 暴击+15 \n" +
+		               "2件：生命+290 攻击+20 暴击+65\n" +
+		               " 　　韧性+5\n" +
+		               "3件：生命+1090 攻击+65 暴击+205\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
+		               "4件：生命+2290 攻击+135 暴击+425\n" +
+		               " 　　韧性+110 回避+95 速度+95\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff3-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm3-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female3-chest.png",
+		"iconm": "rfasion-male3-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1549,
+		"suitId": 4,
+		"label": "礼仪手套",
+		"category": 1,
+		"subcategory": 19,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+90 攻击+5 暴击+15 \n" +
+		               "2件：生命+290 攻击+20 暴击+65\n" +
+		               " 　　韧性+5\n" +
+		               "3件：生命+1090 攻击+65 暴击+205\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
+		               "4件：生命+2290 攻击+135 暴击+425\n" +
+		               " 　　韧性+110 回避+95 速度+95\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff3-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff3-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm3-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm3-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female3-hand.png",
+		"iconm": "rfasion-male3-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1550,
+		"suitId": 4,
+		"label": "礼仪鞋",
+		"category": 1,
+		"subcategory": 20,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+90 攻击+5 暴击+15 \n" +
+		               "2件：生命+290 攻击+20 暴击+65\n" +
+		               " 　　韧性+5\n" +
+		               "3件：生命+1090 攻击+65 暴击+205\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
+		               "4件：生命+2290 攻击+135 暴击+425\n" +
+		               " 　　韧性+110 回避+95 速度+95\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff3-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff3-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm3-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm3-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female3-foot.png",
+		"iconm": "rfasion-male3-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1551,
+		"suitId": 4,
+		"label": "礼仪头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+90 攻击+5 暴击+15 \n" +
+		               "2件：生命+290 攻击+20 暴击+65\n" +
+		               " 　　韧性+5\n" +
+		               "3件：生命+1090 攻击+65 暴击+205\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
+		               "4件：生命+2290 攻击+135 暴击+425\n" +
+		               " 　　韧性+110 回避+95 速度+95\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff3-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm3-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female3-helmet.png",
+		"iconm": "rfasion-male3-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1552,
+		"suitId": 3,
+		"label": "和风上衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "洋溢着东方韵味的装扮。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 命中+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
+		               "3件：生命+810 攻击+70 暴击+85\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
+		               "4件：生命+1710 攻击+140 暴击+215\n" +
+		               " 　　韧性+215 命中+455 速度+115\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff4-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm4-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female4-chest.png",
+		"iconm": "rfasion-male4-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1553,
+		"suitId": 3,
+		"label": "和风护手",
+		"category": 1,
+		"subcategory": 19,
+		"description": "洋溢着东方韵味的装扮。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 命中+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
+		               "3件：生命+810 攻击+70 暴击+85\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
+		               "4件：生命+1710 攻击+140 暴击+215\n" +
+		               " 　　韧性+215 命中+455 速度+115\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff4-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff4-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm4-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm4-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female4-hand.png",
+		"iconm": "rfasion-male4-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1554,
+		"suitId": 3,
+		"label": "和风护腿",
+		"category": 1,
+		"subcategory": 20,
+		"description": "洋溢着东方韵味的装扮。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 命中+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
+		               "3件：生命+810 攻击+70 暴击+85\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
+		               "4件：生命+1710 攻击+140 暴击+215\n" +
+		               " 　　韧性+215 命中+455 速度+115\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff4-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff4-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm4-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm4-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female4-foot.png",
+		"iconm": "rfasion-male4-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1555,
+		"suitId": 3,
+		"label": "和风头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "洋溢着东方韵味的装扮。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 命中+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
+		               "3件：生命+810 攻击+70 暴击+85\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
+		               "4件：生命+1710 攻击+140 暴击+215\n" +
+		               " 　　韧性+215 命中+455 速度+115\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff4-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm4-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female4-helmet.png",
+		"iconm": "rfasion-male4-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1556,
+		"suitId": 2,
+		"label": "喵喵衣服",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 速度+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
+		               "3件：生命+810 攻击+70 暴击+35\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
+		               "4件：生命+1710 攻击+140 暴击+115\n" +
+		               " 　　命中+215 回避+215 速度+455\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff5-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm5-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female5-chest.png",
+		"iconm": "rfasion-male5-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1557,
+		"suitId": 2,
+		"label": "喵喵爪子",
+		"category": 1,
+		"subcategory": 19,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 速度+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
+		               "3件：生命+810 攻击+70 暴击+35\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
+		               "4件：生命+1710 攻击+140 暴击+115\n" +
+		               " 　　命中+215 回避+215 速度+455\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff5-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff5-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm5-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm5-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female5-hand.png",
+		"iconm": "rfasion-male5-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1558,
+		"suitId": 2,
+		"label": "喵喵护腿",
+		"category": 1,
+		"subcategory": 20,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 速度+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
+		               "3件：生命+810 攻击+70 暴击+35\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
+		               "4件：生命+1710 攻击+140 暴击+115\n" +
+		               " 　　命中+215 回避+215 速度+455\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff5-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff5-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm5-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm5-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female5-foot.png",
+		"iconm": "rfasion-male5-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1559,
+		"suitId": 2,
+		"label": "喵喵耳朵",
+		"category": 1,
+		"subcategory": 13,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 速度+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
+		               "3件：生命+810 攻击+70 暴击+35\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
+		               "4件：生命+1710 攻击+140 暴击+115\n" +
+		               " 　　命中+215 回避+215 速度+455\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff5-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm5-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female5-helmet.png",
+		"iconm": "rfasion-male5-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1560,
+		"suitId": 5,
+		"label": "护理大衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+200 攻击+5 命中+10\n" +
+		               "2件：生命+700 攻击+20 命中+40\n" +
+		               "3件：生命+1620 攻击+50 暴击+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
+		               "4件：生命+3120 攻击+150 暴击+110\n" +
+		               " 　　命中+410 回避+110 速度+110\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff6-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm6-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female6-chest.png",
+		"iconm": "rfasion-male6-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1561,
+		"suitId": 5,
+		"label": "护理手套",
+		"category": 1,
+		"subcategory": 19,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+200 攻击+5 命中+10\n" +
+		               "2件：生命+700 攻击+20 命中+40\n" +
+		               "3件：生命+1620 攻击+50 暴击+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
+		               "4件：生命+3120 攻击+150 暴击+110\n" +
+		               " 　　命中+410 回避+110 速度+110\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff6-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff6-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm6-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm6-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female6-hand.png",
+		"iconm": "rfasion-male6-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1562,
+		"suitId": 5,
+		"label": "护理鞋具",
+		"category": 1,
+		"subcategory": 20,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+200 攻击+5 命中+10\n" +
+		               "2件：生命+700 攻击+20 命中+40\n" +
+		               "3件：生命+1620 攻击+50 暴击+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
+		               "4件：生命+3120 攻击+150 暴击+110\n" +
+		               " 　　命中+410 回避+110 速度+110\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff6-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff6-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm6-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm6-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female6-foot.png",
+		"iconm": "rfasion-male6-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1563,
+		"suitId": 5,
+		"label": "护理头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+200 攻击+5 命中+10\n" +
+		               "2件：生命+700 攻击+20 命中+40\n" +
+		               "3件：生命+1620 攻击+50 暴击+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
+		               "4件：生命+3120 攻击+150 暴击+110\n" +
+		               " 　　命中+410 回避+110 速度+110\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff6-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm6-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female6-helmet.png",
+		"iconm": "rfasion-male6-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1564,
+		"suitId": 6,
+		"label": "刺客服",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+10 暴击+45\n" +
+		               "2件：生命+400 攻击+30 暴击+120\n" +
+		               " 　　速度+40\n" +
+		               "3件：生命+800 攻击+90 暴击+300\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
+		               "4件：生命+140 攻击+220 暴击+620\n" +
+		               " 　　命中+210 回避+210 速度+350\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff7-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm7-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female7-chest.png",
+		"iconm": "rfasion-male7-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1565,
+		"suitId": 6,
+		"label": "刺客护手",
+		"category": 1,
+		"subcategory": 19,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+10 暴击+45\n" +
+		               "2件：生命+400 攻击+30 暴击+120\n" +
+		               " 　　速度+40\n" +
+		               "3件：生命+800 攻击+90 暴击+300\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
+		               "4件：生命+140 攻击+220 暴击+620\n" +
+		               " 　　命中+210 回避+210 速度+350\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff7-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff7-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm7-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm7-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female7-hand.png",
+		"iconm": "rfasion-male7-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1566,
+		"suitId": 6,
+		"label": "刺客鞋",
+		"category": 1,
+		"subcategory": 20,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+10 暴击+45\n" +
+		               "2件：生命+400 攻击+30 暴击+120\n" +
+		               " 　　速度+40\n" +
+		               "3件：生命+800 攻击+90 暴击+300\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
+		               "4件：生命+140 攻击+220 暴击+620\n" +
+		               " 　　命中+210 回避+210 速度+350\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff7-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff7-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm7-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm7-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female7-foot.png",
+		"iconm": "rfasion-male7-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1567,
+		"suitId": 6,
+		"label": "刺客面罩",
+		"category": 1,
+		"subcategory": 13,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+10 暴击+45\n" +
+		               "2件：生命+400 攻击+30 暴击+120\n" +
+		               " 　　速度+40\n" +
+		               "3件：生命+800 攻击+90 暴击+300\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
+		               "4件：生命+140 攻击+220 暴击+620\n" +
+		               " 　　命中+210 回避+210 速度+350\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff7-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm7-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female7-helmet.png",
+		"iconm": "rfasion-male7-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1568,
+		"suitId": 7,
+		"label": "军官大衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+20 暴击+15\n" +
+		               "2件：生命+400 攻击+60 暴击+55\n" +
+		               " 　　韧性+15\n" +
+		               "3件：生命+100 攻击+180 暴击+175\n" +
+		               " 　　韧性+35\n" +
+		               "4件：生命+1800 攻击+400 暴击+415\n" +
+		               " 　　韧性+165 命中+70\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff8-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm8-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female8-chest.png",
+		"iconm": "rfasion-male8-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1569,
+		"suitId": 7,
+		"label": "军官手套",
+		"category": 1,
+		"subcategory": 19,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+20 暴击+15\n" +
+		               "2件：生命+400 攻击+60 暴击+55\n" +
+		               " 　　韧性+15\n" +
+		               "3件：生命+100 攻击+180 暴击+175\n" +
+		               " 　　韧性+35\n" +
+		               "4件：生命+1800 攻击+400 暴击+415\n" +
+		               " 　　韧性+165 命中+70\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff8-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff8-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm8-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm8-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female8-hand.png",
+		"iconm": "rfasion-male8-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1570,
+		"suitId": 7,
+		"label": "军官长靴",
+		"category": 1,
+		"subcategory": 20,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+20 暴击+15\n" +
+		               "2件：生命+400 攻击+60 暴击+55\n" +
+		               " 　　韧性+15\n" +
+		               "3件：生命+100 攻击+180 暴击+175\n" +
+		               " 　　韧性+35\n" +
+		               "4件：生命+1800 攻击+400 暴击+415\n" +
+		               " 　　韧性+165 命中+70\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff8-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff8-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm8-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm8-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female8-foot.png",
+		"iconm": "rfasion-male8-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1571,
+		"suitId": 7,
+		"label": "军官帽",
+		"category": 1,
+		"subcategory": 13,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+20 暴击+15\n" +
+		               "2件：生命+400 攻击+60 暴击+55\n" +
+		               " 　　韧性+15\n" +
+		               "3件：生命+100 攻击+180 暴击+175\n" +
+		               " 　　韧性+35\n" +
+		               "4件：生命+1800 攻击+400 暴击+415\n" +
+		               " 　　韧性+165 命中+70\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff8-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm8-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female8-helmet.png",
+		"iconm": "rfasion-male8-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1572,
+		"suitId": 8,
+		"label": "勇者铠甲",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+250\n" +
+		               "2件：生命+800 攻击+10 韧性+20\n" +
+		               "3件：生命+2000 攻击+30 韧性+130\n" +
+		               " 　　命中+30\n" +
+		               "4件：生命+4000 攻击+105 韧性+355\n" +
+		               " 　　命中+80\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff9-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm9-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female9-chest.png",
+		"iconm": "rfasion-male9-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1573,
+		"suitId": 8,
+		"label": "勇者手甲",
+		"category": 1,
+		"subcategory": 19,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+250\n" +
+		               "2件：生命+800 攻击+10 韧性+20\n" +
+		               "3件：生命+2000 攻击+30 韧性+130\n" +
+		               " 　　命中+30\n" +
+		               "4件：生命+4000 攻击+105 韧性+355\n" +
+		               " 　　命中+80\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff9-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff9-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm9-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm9-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female9-hand.png",
+		"iconm": "rfasion-male9-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1574,
+		"suitId": 8,
+		"label": "勇者腿甲",
+		"category": 1,
+		"subcategory": 20,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+250\n" +
+		               "2件：生命+800 攻击+10 韧性+20\n" +
+		               "3件：生命+2000 攻击+30 韧性+130\n" +
+		               " 　　命中+30\n" +
+		               "4件：生命+4000 攻击+105 韧性+355\n" +
+		               " 　　命中+80\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff9-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff9-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm9-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm9-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female9-foot.png",
+		"iconm": "rfasion-male9-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1575,
+		"suitId": 8,
+		"label": "勇者头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+250\n" +
+		               "2件：生命+800 攻击+10 韧性+20\n" +
+		               "3件：生命+2000 攻击+30 韧性+130\n" +
+		               " 　　命中+30\n" +
+		               "4件：生命+4000 攻击+105 韧性+355\n" +
+		               " 　　命中+80\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff9-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm9-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female9-helmet.png",
+		"iconm": "rfasion-male9-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1576,
+		"suitId": 9,
+		"label": "忍者上衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+5 回避+30\n" +
+		               " 　　速度+30\n" +
+		               "2件：生命+400 攻击+20 回避+95\n" +
+		               " 　　速度+95\n" +
+		               "3件：生命+800 攻击+75 暴击+40\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
+		               "4件：生命+140 攻击+175 暴击+190\n" +
+		               " 　　命中+145 回避+595 速度+595\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff10-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm10-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female10-chest.png",
+		"iconm": "rfasion-male10-chest.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1577,
+		"suitId": 9,
+		"label": "忍者护手",
+		"category": 1,
+		"subcategory": 19,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+5 回避+30\n" +
+		               " 　　速度+30\n" +
+		               "2件：生命+400 攻击+20 回避+95\n" +
+		               " 　　速度+95\n" +
+		               "3件：生命+800 攻击+75 暴击+40\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
+		               "4件：生命+140 攻击+175 暴击+190\n" +
+		               " 　　命中+145 回避+595 速度+595\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff10-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff10-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm10-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm10-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female10-hand.png",
+		"iconm": "rfasion-male10-hand.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1578,
+		"suitId": 9,
+		"label": "忍者裹足",
+		"category": 1,
+		"subcategory": 20,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+5 回避+30\n" +
+		               " 　　速度+30\n" +
+		               "2件：生命+400 攻击+20 回避+95\n" +
+		               " 　　速度+95\n" +
+		               "3件：生命+800 攻击+75 暴击+40\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
+		               "4件：生命+140 攻击+175 暴击+190\n" +
+		               " 　　命中+145 回避+595 速度+595\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff10-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff10-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm10-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm10-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female10-foot.png",
+		"iconm": "rfasion-male10-foot.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1579,
+		"suitId": 9,
+		"label": "忍者头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+5 回避+30\n" +
+		               " 　　速度+30\n" +
+		               "2件：生命+400 攻击+20 回避+95\n" +
+		               " 　　速度+95\n" +
+		               "3件：生命+800 攻击+75 暴击+40\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
+		               "4件：生命+140 攻击+175 暴击+190\n" +
+		               " 　　命中+145 回避+595 速度+595\n",
+		"sellprice": 800,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff10-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm10-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 2,
+		"iconf": "rfasion-female10-helmet.png",
+		"iconm": "rfasion-male10-helmet.png",
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1580,
+		"suitId": 4,
+		"label": "礼仪上衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+90 攻击+5 暴击+15 \n" +
+		               "2件：生命+290 攻击+20 暴击+65\n" +
+		               " 　　韧性+5\n" +
+		               "3件：生命+1090 攻击+65 暴击+205\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
+		               "4件：生命+2290 攻击+135 暴击+425\n" +
+		               " 　　韧性+110 回避+95 速度+95\n",
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff3-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm3-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female3-chest.png",
+		"iconm": "rfasion-male3-chest.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1581,
+		"suitId": 4,
+		"label": "礼仪手套",
+		"category": 1,
+		"subcategory": 19,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+90 攻击+5 暴击+15 \n" +
+		               "2件：生命+290 攻击+20 暴击+65\n" +
+		               " 　　韧性+5\n" +
+		               "3件：生命+1090 攻击+65 暴击+205\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
+		               "4件：生命+2290 攻击+135 暴击+425\n" +
+		               " 　　韧性+110 回避+95 速度+95\n",
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff3-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff3-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm3-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm3-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female3-hand.png",
+		"iconm": "rfasion-male3-hand.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1582,
+		"suitId": 4,
+		"label": "礼仪鞋",
+		"category": 1,
+		"subcategory": 20,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+90 攻击+5 暴击+15 \n" +
+		               "2件：生命+290 攻击+20 暴击+65\n" +
+		               " 　　韧性+5\n" +
+		               "3件：生命+1090 攻击+65 暴击+205\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
+		               "4件：生命+2290 攻击+135 暴击+425\n" +
+		               " 　　韧性+110 回避+95 速度+95\n",
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff3-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff3-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm3-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm3-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female3-foot.png",
+		"iconm": "rfasion-male3-foot.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1583,
+		"suitId": 4,
+		"label": "礼仪头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "表示出礼仪的装扮，给人以安心的感觉。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+90 攻击+5 暴击+15 \n" +
+		               "2件：生命+290 攻击+20 暴击+65\n" +
+		               " 　　韧性+5\n" +
+		               "3件：生命+1090 攻击+65 暴击+205\n" +
+		               " 　　韧性+30 回避+25 速度+25\n" +
+		               "4件：生命+2290 攻击+135 暴击+425\n" +
+		               " 　　韧性+110 回避+95 速度+95\n",
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff3-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm3-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female3-helmet.png",
+		"iconm": "rfasion-male3-helmet.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1584,
+		"suitId": 3,
+		"label": "和风上衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "洋溢着东方韵味的装扮。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 命中+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
+		               "3件：生命+810 攻击+70 暴击+85\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
+		               "4件：生命+1710 攻击+140 暴击+215\n" +
+		               " 　　韧性+215 命中+455 速度+115\n",
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff4-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm4-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female4-chest.png",
+		"iconm": "rfasion-male4-chest.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1585,
+		"suitId": 3,
+		"label": "和风护手",
+		"category": 1,
+		"subcategory": 19,
+		"description": "洋溢着东方韵味的装扮。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 命中+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
+		               "3件：生命+810 攻击+70 暴击+85\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
+		               "4件：生命+1710 攻击+140 暴击+215\n" +
+		               " 　　韧性+215 命中+455 速度+115\n",
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff4-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff4-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm4-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm4-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female4-hand.png",
+		"iconm": "rfasion-male4-hand.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1586,
+		"suitId": 3,
+		"label": "和风护腿",
+		"category": 1,
+		"subcategory": 20,
+		"description": "洋溢着东方韵味的装扮。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 命中+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
+		               "3件：生命+810 攻击+70 暴击+85\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
+		               "4件：生命+1710 攻击+140 暴击+215\n" +
+		               " 　　韧性+215 命中+455 速度+115\n",
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff4-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff4-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm4-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm4-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female4-foot.png",
+		"iconm": "rfasion-male4-foot.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1587,
+		"suitId": 3,
+		"label": "和风头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "洋溢着东方韵味的装扮。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 命中+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　韧性+10 命中+65 速度+10\n" +
+		               "3件：生命+810 攻击+70 暴击+85\n" +
+		               " 　　韧性+85 命中+205 速度+35\n" +
+		               "4件：生命+1710 攻击+140 暴击+215\n" +
+		               " 　　韧性+215 命中+455 速度+115\n",
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff4-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm4-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female4-helmet.png",
+		"iconm": "rfasion-male4-helmet.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1588,
+		"suitId": 2,
+		"label": "喵喵衣服",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 速度+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
+		               "3件：生命+810 攻击+70 暴击+35\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
+		               "4件：生命+1710 攻击+140 暴击+115\n" +
+		               " 　　命中+215 回避+215 速度+455\n",
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff5-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm5-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female5-chest.png",
+		"iconm": "rfasion-male5-chest.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1589,
+		"suitId": 2,
+		"label": "喵喵爪子",
+		"category": 1,
+		"subcategory": 19,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 速度+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
+		               "3件：生命+810 攻击+70 暴击+35\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
+		               "4件：生命+1710 攻击+140 暴击+115\n" +
+		               " 　　命中+215 回避+215 速度+455\n",
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff5-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff5-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm5-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm5-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female5-hand.png",
+		"iconm": "rfasion-male5-hand.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1590,
+		"suitId": 2,
+		"label": "喵喵护腿",
+		"category": 1,
+		"subcategory": 20,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 速度+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
+		               "3件：生命+810 攻击+70 暴击+35\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
+		               "4件：生命+1710 攻击+140 暴击+115\n" +
+		               " 　　命中+215 回避+215 速度+455\n",
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff5-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff5-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm5-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm5-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female5-foot.png",
+		"iconm": "rfasion-male5-foot.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1591,
+		"suitId": 2,
+		"label": "喵喵耳朵",
+		"category": 1,
+		"subcategory": 13,
+		"description": "拥有猫咪一样柔软的毛发，让人爱不释手。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+60 攻击+10 速度+15\n" +
+		               "2件：生命+210 攻击+25 暴击+10\n" +
+		               " 　　命中+10 回避+10 速度+65\n" +
+		               "3件：生命+810 攻击+70 暴击+35\n" +
+		               " 　　命中+85 回避+85 速度+205\n" +
+		               "4件：生命+1710 攻击+140 暴击+115\n" +
+		               " 　　命中+215 回避+215 速度+455\n",
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff5-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm5-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female5-helmet.png",
+		"iconm": "rfasion-male5-helmet.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1592,
+		"suitId": 5,
+		"label": "护理大衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+200 攻击+5 命中+10\n" +
+		               "2件：生命+700 攻击+20 命中+40\n" +
+		               "3件：生命+1620 攻击+50 暴击+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
+		               "4件：生命+3120 攻击+150 暴击+110\n" +
+		               " 　　命中+410 回避+110 速度+110\n",
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff6-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm6-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female6-chest.png",
+		"iconm": "rfasion-male6-chest.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1593,
+		"suitId": 5,
+		"label": "护理手套",
+		"category": 1,
+		"subcategory": 19,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+200 攻击+5 命中+10\n" +
+		               "2件：生命+700 攻击+20 命中+40\n" +
+		               "3件：生命+1620 攻击+50 暴击+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
+		               "4件：生命+3120 攻击+150 暴击+110\n" +
+		               " 　　命中+410 回避+110 速度+110\n",
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff6-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff6-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm6-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm6-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female6-hand.png",
+		"iconm": "rfasion-male6-hand.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1594,
+		"suitId": 5,
+		"label": "护理鞋具",
+		"category": 1,
+		"subcategory": 20,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+200 攻击+5 命中+10\n" +
+		               "2件：生命+700 攻击+20 命中+40\n" +
+		               "3件：生命+1620 攻击+50 暴击+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
+		               "4件：生命+3120 攻击+150 暴击+110\n" +
+		               " 　　命中+410 回避+110 速度+110\n",
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff6-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff6-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm6-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm6-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female6-foot.png",
+		"iconm": "rfasion-male6-foot.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1595,
+		"suitId": 5,
+		"label": "护理头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+200 攻击+5 命中+10\n" +
+		               "2件：生命+700 攻击+20 命中+40\n" +
+		               "3件：生命+1620 攻击+50 暴击+40\n" +
+		               " 　　命中+170 回避+40 速度+40\n" +
+		               "4件：生命+3120 攻击+150 暴击+110\n" +
+		               " 　　命中+410 回避+110 速度+110\n",
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff6-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm6-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female6-helmet.png",
+		"iconm": "rfasion-male6-helmet.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1596,
+		"suitId": 6,
+		"label": "刺客服",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+10 暴击+45\n" +
+		               "2件：生命+400 攻击+30 暴击+120\n" +
+		               " 　　速度+40\n" +
+		               "3件：生命+800 攻击+90 暴击+300\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
+		               "4件：生命+140 攻击+220 暴击+620\n" +
+		               " 　　命中+210 回避+210 速度+350\n",
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff7-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm7-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female7-chest.png",
+		"iconm": "rfasion-male7-chest.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1597,
+		"suitId": 6,
+		"label": "刺客护手",
+		"category": 1,
+		"subcategory": 19,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+10 暴击+45\n" +
+		               "2件：生命+400 攻击+30 暴击+120\n" +
+		               " 　　速度+40\n" +
+		               "3件：生命+800 攻击+90 暴击+300\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
+		               "4件：生命+140 攻击+220 暴击+620\n" +
+		               " 　　命中+210 回避+210 速度+350\n",
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff7-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff7-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm7-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm7-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female7-hand.png",
+		"iconm": "rfasion-male7-hand.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1598,
+		"suitId": 6,
+		"label": "刺客鞋",
+		"category": 1,
+		"subcategory": 20,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+10 暴击+45\n" +
+		               "2件：生命+400 攻击+30 暴击+120\n" +
+		               " 　　速度+40\n" +
+		               "3件：生命+800 攻击+90 暴击+300\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
+		               "4件：生命+140 攻击+220 暴击+620\n" +
+		               " 　　命中+210 回避+210 速度+350\n",
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff7-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff7-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm7-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm7-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female7-foot.png",
+		"iconm": "rfasion-male7-foot.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1599,
+		"suitId": 6,
+		"label": "刺客面罩",
+		"category": 1,
+		"subcategory": 13,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+10 暴击+45\n" +
+		               "2件：生命+400 攻击+30 暴击+120\n" +
+		               " 　　速度+40\n" +
+		               "3件：生命+800 攻击+90 暴击+300\n" +
+		               " 　　命中+60 回避+60 速度+160\n" +
+		               "4件：生命+140 攻击+220 暴击+620\n" +
+		               " 　　命中+210 回避+210 速度+350\n",
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff7-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm7-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female7-helmet.png",
+		"iconm": "rfasion-male7-helmet.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1600,
+		"suitId": 7,
+		"label": "军官大衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+20 暴击+15\n" +
+		               "2件：生命+400 攻击+60 暴击+55\n" +
+		               " 　　韧性+15\n" +
+		               "3件：生命+100 攻击+180 暴击+175\n" +
+		               " 　　韧性+35\n" +
+		               "4件：生命+1800 攻击+400 暴击+415\n" +
+		               " 　　韧性+165 命中+70\n",
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff8-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm8-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female8-chest.png",
+		"iconm": "rfasion-male8-chest.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1601,
+		"suitId": 7,
+		"label": "军官手套",
+		"category": 1,
+		"subcategory": 19,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+20 暴击+15\n" +
+		               "2件：生命+400 攻击+60 暴击+55\n" +
+		               " 　　韧性+15\n" +
+		               "3件：生命+100 攻击+180 暴击+175\n" +
+		               " 　　韧性+35\n" +
+		               "4件：生命+1800 攻击+400 暴击+415\n" +
+		               " 　　韧性+165 命中+70\n",
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff8-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff8-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm8-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm8-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female8-hand.png",
+		"iconm": "rfasion-male8-hand.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1602,
+		"suitId": 7,
+		"label": "军官长靴",
+		"category": 1,
+		"subcategory": 20,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+20 暴击+15\n" +
+		               "2件：生命+400 攻击+60 暴击+55\n" +
+		               " 　　韧性+15\n" +
+		               "3件：生命+100 攻击+180 暴击+175\n" +
+		               " 　　韧性+35\n" +
+		               "4件：生命+1800 攻击+400 暴击+415\n" +
+		               " 　　韧性+165 命中+70\n",
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff8-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff8-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm8-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm8-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female8-foot.png",
+		"iconm": "rfasion-male8-foot.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1603,
+		"suitId": 7,
+		"label": "军官帽",
+		"category": 1,
+		"subcategory": 13,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+20 暴击+15\n" +
+		               "2件：生命+400 攻击+60 暴击+55\n" +
+		               " 　　韧性+15\n" +
+		               "3件：生命+100 攻击+180 暴击+175\n" +
+		               " 　　韧性+35\n" +
+		               "4件：生命+1800 攻击+400 暴击+415\n" +
+		               " 　　韧性+165 命中+70\n",
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff8-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm8-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female8-helmet.png",
+		"iconm": "rfasion-male8-helmet.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1604,
+		"suitId": 8,
+		"label": "勇者铠甲",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+250\n" +
+		               "2件：生命+800 攻击+10 韧性+20\n" +
+		               "3件：生命+2000 攻击+30 韧性+130\n" +
+		               " 　　命中+30\n" +
+		               "4件：生命+4000 攻击+105 韧性+355\n" +
+		               " 　　命中+80\n",
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff9-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm9-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female9-chest.png",
+		"iconm": "rfasion-male9-chest.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1605,
+		"suitId": 8,
+		"label": "勇者手甲",
+		"category": 1,
+		"subcategory": 19,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+250\n" +
+		               "2件：生命+800 攻击+10 韧性+20\n" +
+		               "3件：生命+2000 攻击+30 韧性+130\n" +
+		               " 　　命中+30\n" +
+		               "4件：生命+4000 攻击+105 韧性+355\n" +
+		               " 　　命中+80\n",
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff9-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff9-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm9-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm9-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female9-hand.png",
+		"iconm": "rfasion-male9-hand.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1606,
+		"suitId": 8,
+		"label": "勇者腿甲",
+		"category": 1,
+		"subcategory": 20,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+250\n" +
+		               "2件：生命+800 攻击+10 韧性+20\n" +
+		               "3件：生命+2000 攻击+30 韧性+130\n" +
+		               " 　　命中+30\n" +
+		               "4件：生命+4000 攻击+105 韧性+355\n" +
+		               " 　　命中+80\n",
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff9-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff9-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm9-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm9-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female9-foot.png",
+		"iconm": "rfasion-male9-foot.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1607,
+		"suitId": 8,
+		"label": "勇者头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+250\n" +
+		               "2件：生命+800 攻击+10 韧性+20\n" +
+		               "3件：生命+2000 攻击+30 韧性+130\n" +
+		               " 　　命中+30\n" +
+		               "4件：生命+4000 攻击+105 韧性+355\n" +
+		               " 　　命中+80\n",
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff9-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm9-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female9-helmet.png",
+		"iconm": "rfasion-male9-helmet.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1608,
+		"suitId": 9,
+		"label": "忍者上衣",
+		"category": 1,
+		"subcategory": 12,
+		"hideSlot": [2],
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+5 回避+30\n" +
+		               " 　　速度+30\n" +
+		               "2件：生命+400 攻击+20 回避+95\n" +
+		               " 　　速度+95\n" +
+		               "3件：生命+800 攻击+75 暴击+40\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
+		               "4件：生命+140 攻击+175 暴击+190\n" +
+		               " 　　命中+145 回避+595 速度+595\n",
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff10-chest.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm10-chest.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female10-chest.png",
+		"iconm": "rfasion-male10-chest.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1609,
+		"suitId": 9,
+		"label": "忍者护手",
+		"category": 1,
+		"subcategory": 19,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+5 回避+30\n" +
+		               " 　　速度+30\n" +
+		               "2件：生命+400 攻击+20 回避+95\n" +
+		               " 　　速度+95\n" +
+		               "3件：生命+800 攻击+75 暴击+40\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
+		               "4件：生命+140 攻击+175 暴击+190\n" +
+		               " 　　命中+145 回避+595 速度+595\n",
+		"effectf": [
+			{
+				"part": "righthand",
+				"file": "ff10-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff10-lefthand.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "righthand",
+				"file": "fm10-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm10-lefthand.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female10-hand.png",
+		"iconm": "rfasion-male10-hand.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1610,
+		"suitId": 9,
+		"label": "忍者裹足",
+		"category": 1,
+		"subcategory": 20,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+5 回避+30\n" +
+		               " 　　速度+30\n" +
+		               "2件：生命+400 攻击+20 回避+95\n" +
+		               " 　　速度+95\n" +
+		               "3件：生命+800 攻击+75 暴击+40\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
+		               "4件：生命+140 攻击+175 暴击+190\n" +
+		               " 　　命中+145 回避+595 速度+595\n",
+		"effectf": [
+			{
+				"part": "leftleg",
+				"file": "ff10-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff10-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "leftleg",
+				"file": "fm10-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm10-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female10-foot.png",
+		"iconm": "rfasion-male10-foot.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1611,
+		"suitId": 9,
+		"label": "忍者头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。\n" +
+		               "套装属性：\n" +
+		               "1件：生命+100 攻击+5 回避+30\n" +
+		               " 　　速度+30\n" +
+		               "2件：生命+400 攻击+20 回避+95\n" +
+		               " 　　速度+95\n" +
+		               "3件：生命+800 攻击+75 暴击+40\n" +
+		               " 　　命中+35 回避+275 速度+275\n" +
+		               "4件：生命+140 攻击+175 暴击+190\n" +
+		               " 　　命中+145 回避+595 速度+595\n",
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "ff10-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "fm10-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"quality": 3,
+		"iconf": "rfasion-female10-helmet.png",
+		"iconm": "rfasion-male10-helmet.png",
+		"recipePrize": 209
+	},
+	{
+		"classId": 1612,
+		"label": "护理套装",
+		"category": 1,
+		"subcategory": 12,
+		"description": "医护人员穿戴的装扮，象征着白衣天使。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff6-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff6-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff6-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff6-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff6-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm6-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm6-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm6-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm6-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm6-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female6-chest.png",
+		"iconm": "rfasion-male6-chest.png"
+	},
+	{
+		"classId": 1613,
+		"label": "刺客套装",
+		"category": 1,
+		"subcategory": 12,
+		"description": "暗杀者贯穿的装扮，穿上后能够让人冷静找到敌人弱点。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff7-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff7-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff7-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff7-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff7-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm7-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm7-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm7-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm7-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm7-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female7-chest.png",
+		"iconm": "rfasion-male7-chest.png"
+	},
+	{
+		"classId": 1614,
+		"label": "军官套装",
+		"category": 1,
+		"subcategory": 12,
+		"description": "拥有长官的气场，能够最大化的体现军人战斗力。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff8-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff8-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff8-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff8-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff8-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm8-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm8-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm8-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm8-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm8-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female8-chest.png",
+		"iconm": "rfasion-male8-chest.png"
+	},
+	{
+		"classId": 1615,
+		"label": "勇者铠甲",
+		"category": 1,
+		"subcategory": 12,
+		"description": "屠龙勇士所穿着的套装，拥有能够抵挡龙炎的厚重装甲。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff9-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff9-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff9-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff9-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff9-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm9-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm9-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm9-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm9-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm9-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female9-chest.png",
+		"iconm": "rfasion-male9-chest.png"
+	},
+	{
+		"classId": 1616,
+		"label": "忍者上衣",
+		"category": 1,
+		"subcategory": 12,
+		"description": "东方神秘集团的装扮，能够在黑夜中藏匿行踪。",
+		"sellprice": 1500,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "ff10-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "ff10-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "ff10-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "ff10-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "ff10-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "fm10-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "fm10-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "fm10-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "fm10-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "fm10-rightleg.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female10-chest.png",
+		"iconm": "rfasion-male10-chest.png"
+	},
+	{
+		"classId": 1617,
+		"label": "时装碎片",
+		"icon": "rfasion-sp2.png",
+		"category": 4,
+		"description": "可以通过图纸合成限时有属性的套装",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 1
+	},
+	{
+		"classId": 1618,
+		"label": "头饰图纸",
+		"iconf": "rfasion-female3-helmet-tz.png",
+		"iconm": "rfasion-male3-helmet-tz.png",
+		"category": 3,
+		"subcategory": 0,
+		"description": "能合成礼仪头饰的图纸，需要5个时装碎片",
+		"sellprice": 15,
+		"quality": 2,
+		"recipeTarget": 1551,
+		"recipeCost": 88
+	},
+	{
+		"classId": 1619,
+		"label": "上衣图纸",
+		"iconf": "rfasion-female3-chest-tz.png",
+		"iconm": "rfasion-male3-chest-tz.png",
+		"category": 3,
+		"subcategory": 0,
+		"description": "能合成礼仪上衣的图纸，需要5个时装碎片",
+		"sellprice": 15,
+		"quality": 2,
+		"recipeTarget": 1548,
+		"recipeCost": 88
+	},
+	{
+		"classId": 1620,
+		"label": "手套图纸",
+		"iconf": "rfasion-female3-hand-tz.png",
+		"iconm": "rfasion-male3-hand-tz.png",
+		"category": 3,
+		"subcategory": 0,
+		"description": "能合成礼仪手套的图纸，需要5个时装碎片",
+		"sellprice": 15,
+		"quality": 2,
+		"recipeTarget": 1549,
+		"recipeCost": 88
+	},
+	{
+		"classId": 1621,
+		"label": "鞋图纸",
+		"iconf": "rfasion-female3-foot-tz.png",
+		"iconm": "rfasion-male3-foot-tz.png",
+		"category": 3,
+		"subcategory": 0,
+		"description": "能合成礼仪鞋的图纸，需要5个时装碎片",
+		"sellprice": 15,
+		"quality": 2,
+		"recipeTarget": 1550,
+		"recipeCost": 88
+	},
+	{
+		"classId": 1622,
+		"label": "浪漫套装",
+		"category": 1,
+		"subcategory": 12,
+		"extraSlots": [19,20],
+		"description": "情人节专有的套装，十分受情侣们钟爱。\n" +
+		               "附加属性：生命+200 攻击+20 暴击+10\n" +
+		               "　　　　　韧性+10 命中+10 回避+10\n" +
+		               "　　　　　速度+10",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "chest",
+				"file": "valentine-female-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "valentine-female-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "valentine-female-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "valentine-female-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "valentine-female-rightleg.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "chest",
+				"file": "valentine-male-chest.ccbi"
+			},
+			{
+				"part": "righthand",
+				"file": "valentine-male-righthand.ccbi"
+			},
+			{
+				"part": "lefthand",
+				"file": "valentine-male-lefthand.ccbi"
+			},
+			{
+				"part": "leftleg",
+				"file": "valentine-male-leftleg.ccbi"
+			},
+			{
+				"part": "rightleg",
+				"file": "valentine-male-rightleg.ccbi"
+			}
+		],
+		"basic_properties": {
+			"health": 200,
+			"attack": 20,
+			"critical": 10,
+			"strong": 10,
+			"accuracy": 10,
+			"reactivity": 10,
+			"speed": 10
+		},
+		"storeOnly": true,
+		"iconf": "rfasion-female-valentine-cloth.png",
+		"iconm": "rfasion-male-valentine-cloth.png"
+	},
+	{
+		"classId": 1623,
+		"label": "浪漫头饰",
+		"category": 1,
+		"subcategory": 13,
+		"description": "情人节专有的头饰，是送给爱人最好的礼物。\n" +
+		               "附加属性：生命+100 攻击+10",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "helmet",
+				"file": "valentine-female-helmet.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "helmet",
+				"file": "valentine-male-helmet.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"basic_properties": {
+			"health": 100,
+			"attack": 10
+		},
+		"iconf": "rfasion-female-valentine-hat.png",
+		"iconm": "rfasion-male-valentine-hat.png"
+	},
+	{
+		"classId": 1624,
+		"label": "帝皇守护",
+		"icon": "rfasion-xngh1.png",
+		"category": 1,
+		"subcategory": 17,
+		"description": "尊贵的光环，高贵的象征。\n" +
+					   "附加属性：生命+500 攻击+50 暴击+25\n" +
+					   "　　　　　韧性+25 命中+25 回避+25\n" +
+					   "　　　　　速度+25",
+		"recipePrize": 207,
+		"effecta": [
+			{
+				"part": "effect",
+				"file": "godring2-1.ccbi"
+			}
+		],
+		"basic_properties": {
+			"health": 500,
+			"attack": 50,
+			"critical": 25,
+			"strong": 25,
+			"accuracy": 25,
+			"reactivity": 25,
+			"speed": 25
+		},
+		"storeOnly": true,
+		"quality": 4
+	},
+	{
+		"classId": 1625,
+		"label": "神圣守护",
+		"icon": "rfasion-xngh2.png",
+		"category": 1,
+		"subcategory": 17,
+		"description": "稀有的光环，具有神圣的力量。\n" +
+					   "附加属性：生命+250 攻击+25 暴击+10\n" +
+					   "　　　　　韧性+10 命中+10 回避+10\n" +
+					   "　　　　　速度+10",
+		"recipePrize": 208,
+		"effecta": [
+			{
+				"part": "effect",
+				"file": "godring2-2.ccbi"
+			}
+		],
+		"basic_properties": {
+			"health": 250,
+			"attack": 25,
+			"critical": 10,
+			"strong": 10,
+			"accuracy": 10,
+			"reactivity": 10,
+			"speed": 10
+		},
+		"storeOnly": true,
+		"quality": 3
+	},
+	{
+		"classId": 1626,
+		"label": "圣光守护",
+		"icon": "rfasion-xngh3.png",
+		"category": 1,
+		"subcategory": 17,
+		"description": "精致的光环，受到圣光庇佑。\n" +
+					   "附加属性：生命+150 攻击+10 暴击+5\n" +
+					   "　　　　　命中+5 回避+5 速度+5",
+		"recipePrize": 209,
+		"effecta": [
+			{
+				"part": "effect",
+				"file": "godring2-3.ccbi"
+			}
+		],
+		"basic_properties": {
+			"health": 150,
+			"attack": 10,
+			"critical": 5,
+			"accuracy": 5,
+			"reactivity": 5,
+			"speed": 5
+		},
+		"storeOnly": true,
+		"quality": 2
+	},
+	{
+		"classId": 1627,
+		"label": "神圣守护",
+		"icon": "rfasion-xngh2.png",
+		"category": 1,
+		"subcategory": 17,
+		"description": "稀有的光环，具有神圣的力量。\n" +
+					   "附加属性：生命+250 攻击+25 暴击+10\n" +
+					   "　　　　　韧性+10 命中+10 回避+10\n" +
+					   "　　　　　速度+10",
+		"sellprice": 1500,
+		"effecta": [
+			{
+				"part": "effect",
+				"file": "godring2-2.ccbi"
+			}
+		],
+		"basic_properties": {
+			"health": 250,
+			"attack": 25,
+			"critical": 10,
+			"strong": 10,
+			"accuracy": 10,
+			"reactivity": 10,
+			"speed": 10
+		},
+		"storeOnly": true,
+		"quality": 2,
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1628,
+		"label": "圣光守护",
+		"icon": "rfasion-xngh3.png",
+		"category": 1,
+		"subcategory": 17,
+		"description": "精致的光环，受到圣光庇佑。\n" +
+					   "附加属性：生命+150 攻击+10 暴击+5\n" +
+					   "　　　　　命中+5 回避+5 速度+5",
+		"sellprice": 500,
+		"effecta": [
+			{
+				"part": "effect",
+				"file": "godring2-3.ccbi"
+			}
+		],
+		"basic_properties": {
+			"health": 150,
+			"attack": 10,
+			"critical": 5,
+			"accuracy": 5,
+			"reactivity": 5,
+			"speed": 5
+		},
+		"storeOnly": true,
+		"quality": 1,
+		"expiration": {day: 7}
+	},
+	{
+		"classId": 1629,
+		"label": "羊年大礼包",
+		"icon": "item-gift3.png",
+		"category": 0,
+		"subcategory": 0,
+		"description": "内含体力药水、复活药水、扫荡卷轴(每人限购1个)",
+		"quality": 1,
+		"prize": [
+			{
+				"type": 0,
+				"count": 1,
+				"value": 540
+			},
+			{
+				"type": 0,
+				"count": 1,
+				"value": 538
+			},
+			{
+				"type": 0,
+				"count": 5,
+				"value": 871
+			}
+		],
+		"storeOnly": true
+	},
+	{
+		"classId": 1630,
+		"label": "新年大红包",
+		"icon": "item-giftbox.png",
+		"category": 0,
+		"subcategory": 2,
+		"description": "内含8~888宝石，打开即可获得随机宝石奖励。",
+		"stack": 99,
+		"quality": 1,
+		"sellGem": 15,
+		"dropId": 212
+	}
 ]
