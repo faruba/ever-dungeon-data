@@ -14,7 +14,10 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "受到了大天使的加护的羽翼。",
+        "description": "受到了大天使的加护的羽翼。\n" +
+					   "附加属性：生命+180 攻击+10 暴击+15\n" +
+					   "　　　　　韧性+40 命中+25 回避+25\n" +
+					   "　　　　　速度+25",
         "effecta": [
 			{
 				"part": "avatar-wing-1",
@@ -45,7 +48,8 @@ exports.data = [
 				"file": "wing-sszy.ccbi"
 			}
 		],
-		"storeOnly": true
+		"storeOnly": true,
+		"quality": 3
     },
     {
         "classId": 1,
@@ -62,7 +66,10 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "与恶魔签订契约得到巨大的力量的羽翼",
+        "description": "与恶魔签订契约得到巨大的力量的羽翼。\n" +
+					   "附加属性：生命+90 攻击+25 暴击+40\n" +
+					   "　　　　　韧性+15 命中+25 回避+25\n" +
+					   "　　　　　速度+25",
         "effecta": [
             {
                 "part": "avatar-wing1",
@@ -73,7 +80,8 @@ exports.data = [
                 "file": "wing-emzy.ccbi"
             }
         ],
-        "storeOnly": true
+        "storeOnly": true,
+		"quality": 3
     },
 	{
 		"classId": 2,
@@ -88,7 +96,8 @@ exports.data = [
 				"file": "godring.ccbi"
 			}
 		],
-		"storeOnly": true
+		"storeOnly": true,
+		"quality": 3
 	},
 	{
 		"classId": 3,
@@ -20351,8 +20360,8 @@ exports.data = [
 			"attack": 30,
 			"accuracy": 60
 		},
-		"iconf": "rfasion-female1-helmet.png",
-		"iconm": "rfasion-male1-helmet.png"
+		"iconf": "rfasion-female1-hat.png",
+		"iconm": "rfasion-male1-hat.png"
 	},
 	{
 		"classId": 553,
@@ -21846,8 +21855,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female1-helmet.png",
-		"iconm": "rfasion-male1-helmet.png"
+		"iconf": "rfasion-female1-hat.png",
+		"iconm": "rfasion-male1-hat.png"
 	},
 	{
 		"classId": 616,
@@ -21925,8 +21934,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female3-helmet.png",
-		"iconm": "rfasion-male3-helmet.png"
+		"iconf": "rfasion-female3-hat.png",
+		"iconm": "rfasion-male3-hat.png"
 	},
 	{
 		"classId": 618,
@@ -22004,8 +22013,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female4-helmet.png",
-		"iconm": "rfasion-male4-helmet.png"
+		"iconf": "rfasion-female4-hat.png",
+		"iconm": "rfasion-male4-hat.png"
 	},
 	{
 		"classId": 620,
@@ -22083,8 +22092,8 @@ exports.data = [
 			}
 		],
 		"storeOnly": true,
-		"iconf": "rfasion-female5-helmet.png",
-		"iconm": "rfasion-male5-helmet.png"
+		"iconf": "rfasion-female5-hat.png",
+		"iconm": "rfasion-male5-hat.png"
 	},
 	{
 		"classId": 622,
@@ -58045,8 +58054,8 @@ exports.data = [
 			"speed": 10
 		},
 		"storeOnly": true,
-		"iconf": "rfasion-female-valentine-chest.png",
-		"iconm": "rfasion-male-valentine-chest.png"
+		"iconf": "rfasion-female-valentine-cloth.png",
+		"iconm": "rfasion-male-valentine-cloth.png"
 	},
 	{
 		"classId": 1623,
@@ -58073,8 +58082,8 @@ exports.data = [
 			"health": 100,
 			"attack": 10
 		},
-		"iconf": "rfasion-female-valentine-helmet.png",
-		"iconm": "rfasion-male-valentine-helmet.png"
+		"iconf": "rfasion-female-valentine-hat.png",
+		"iconm": "rfasion-male-valentine-hat.png"
 	},
 	{
 		"classId": 1624,
@@ -58082,7 +58091,10 @@ exports.data = [
 		"icon": "rfasion-xngh1.png",
 		"category": 1,
 		"subcategory": 17,
-		"description": "尊贵的光环，高贵的象征。",
+		"description": "尊贵的光环，高贵的象征。\n" +
+					   "附加属性：生命+500 攻击+50 暴击+25\n" +
+					   "　　　　　韧性+25 命中+25 回避+25\n" +
+					   "　　　　　速度+25",
 		"recipePrize": 207,
 		"effecta": [
 			{
@@ -58099,7 +58111,8 @@ exports.data = [
 			"reactivity": 25,
 			"speed": 25
 		},
-		"storeOnly": true
+		"storeOnly": true,
+		"quality": 4
 	},
 	{
 		"classId": 1625,
@@ -58107,7 +58120,10 @@ exports.data = [
 		"icon": "rfasion-xngh2.png",
 		"category": 1,
 		"subcategory": 17,
-		"description": "稀有的光环，具有神圣的力量。",
+		"description": "稀有的光环，具有神圣的力量。\n" +
+					   "附加属性：生命+250 攻击+25 暴击+10\n" +
+					   "　　　　　韧性+10 命中+10 回避+10\n" +
+					   "　　　　　速度+10",
 		"recipePrize": 208,
 		"effecta": [
 			{
@@ -58124,15 +58140,18 @@ exports.data = [
 			"reactivity": 10,
 			"speed": 10
 		},
-		"storeOnly": true
+		"storeOnly": true,
+		"quality": 3
 	},
 	{
 		"classId": 1626,
 		"label": "圣光守护",
-		"icon": "rfasion-xnhg3.png",
+		"icon": "rfasion-xngh3.png",
 		"category": 1,
 		"subcategory": 17,
-		"description": "精致的光环，受到圣光庇佑。",
+		"description": "精致的光环，受到圣光庇佑。\n" +
+					   "附加属性：生命+150 攻击+10 暴击+5\n" +
+					   "　　　　　命中+5 回避+5 速度+5",
 		"recipePrize": 209,
 		"effecta": [
 			{
@@ -58148,7 +58167,8 @@ exports.data = [
 			"reactivity": 5,
 			"speed": 5
 		},
-		"storeOnly": true
+		"storeOnly": true,
+		"quality": 2
 	},
 	{
 		"classId": 1627,
@@ -58156,7 +58176,10 @@ exports.data = [
 		"icon": "rfasion-xngh2.png",
 		"category": 1,
 		"subcategory": 17,
-		"description": "稀有的光环，具有神圣的力量。",
+		"description": "稀有的光环，具有神圣的力量。\n" +
+					   "附加属性：生命+250 攻击+25 暴击+10\n" +
+					   "　　　　　韧性+10 命中+10 回避+10\n" +
+					   "　　　　　速度+10",
 		"sellprice": 1500,
 		"effecta": [
 			{
@@ -58174,6 +58197,7 @@ exports.data = [
 			"speed": 10
 		},
 		"storeOnly": true,
+		"quality": 2,
 		"expiration": {day: 7}
 	},
 	{
@@ -58182,7 +58206,9 @@ exports.data = [
 		"icon": "rfasion-xngh3.png",
 		"category": 1,
 		"subcategory": 17,
-		"description": "精致的光环，受到圣光庇佑。",
+		"description": "精致的光环，受到圣光庇佑。\n" +
+					   "附加属性：生命+150 攻击+10 暴击+5\n" +
+					   "　　　　　命中+5 回避+5 速度+5",
 		"sellprice": 500,
 		"effecta": [
 			{
@@ -58199,6 +58225,7 @@ exports.data = [
 			"speed": 5
 		},
 		"storeOnly": true,
+		"quality": 1,
 		"expiration": {day: 7}
 	},
 	{

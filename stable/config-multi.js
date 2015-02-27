@@ -117,6 +117,11 @@ exports.data = {
         ],
         "192.168.199.205":[
             {ip:"192.168.199.205", port:7756},
-        ]
+        ],
+    },
+
+    Redeem_Config: {
+        ip: "localhost",
+        port: 3100
     }
 }

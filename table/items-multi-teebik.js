@@ -14,7 +14,10 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "受到了大天使的加護的羽翼。",
+        "description": "受到了大天使的加護的羽翼。\n" +
+                       "附加屬性：生命+180 攻擊+10 暴擊+15\n" +
+                       "　　　　　韌性+40 命中+25 回避+25\n" +
+                       "　　　　　速度+25",
         "effecta": [
             {
                 "part": "avatar-wing-1",
@@ -45,7 +48,8 @@ exports.data = [
                 "file": "wing-sszy.ccbi"
             }
         ],
-        "storeOnly": true
+        "storeOnly": true,
+        "quality": 3
     },
     {
         "classId": 1,
@@ -62,7 +66,10 @@ exports.data = [
             "reactivity": 25,
             "speed": 25
         },
-        "description": "與惡魔簽訂契約得到巨大的力量的羽翼",
+        "description": "與惡魔簽訂契約得到巨大的力量的羽翼。\n" +
+                       "附加屬性：生命+90 攻擊+25 暴擊+40\n" +
+                       "　　　　　韌性+15 命中+25 回避+25\n" +
+                       "　　　　　速度+25",
         "effecta": [
             {
                 "part": "avatar-wing1",
@@ -73,7 +80,8 @@ exports.data = [
                 "file": "wing-emzy.ccbi"
             }
         ],
-        "storeOnly": true
+        "storeOnly": true,
+        "quality": 3
     },
     {
         "classId": 2,
@@ -88,7 +96,8 @@ exports.data = [
                 "file": "godring.ccbi"
             }
         ],
-        "storeOnly": true
+        "storeOnly": true,
+        "quality": 3
     },
     {
         "classId": 3,
@@ -107,20 +116,46 @@ exports.data = [
     },
     {
         "classId": 4,
-        "label": "生命之石",
-        "icon": "stone5.png",
-        "category": 2,
-        "subcategory": 4,
-        "description": "能夠強化生命屬性的寶石。",
-        "stack": 99,
-        "sellprice": 300,
-        "transPrize": [
+        "label": "魅力之眼",
+        "category": 1,
+        "subcategory": 15,
+        "description": "具有魅惑之力的眼睛，能提高個人的魅力。\n" +
+                       "附加屬性：生命+150 攻擊+15 暴擊+10\n" +
+                       "　　　　　韌性+10 命中+10 回避+10\n" +
+                       "　　　　　速度+10",
+        "recipePrize": 210,
+        "effectf": [
             {
-                "type": 0,
-                "value": 853,
-                "count": 2
+                "part": "eye",
+                "file": "avatar-3-eye-blue.ccbi"
+            },
+            {
+                "part": "brow",
+                "file": "avatar-3-brow.ccbi"
             }
-        ]
+        ],
+        "effectm": [
+            {
+                "part": "eye",
+                "file": "avatar-3-eye-blue-2.ccbi"
+            },
+            {
+                "part": "brow",
+                "file": "avatar-3-brow-2.ccbi"
+            }
+        ],
+        "basic_properties": {
+            "health": 150,
+            "attack": 15,
+            "critical": 10,
+            "strong": 10,
+            "accuracy": 10,
+            "reactivity": 10,
+            "speed": 10
+        },
+        "storeOnly": true,
+        "iconf": "rfasion-female-valentine-eye.png",
+        "iconm": "rfasion-male-valentine-eye.png"
     },
     {
         "classId": 5,
@@ -20242,8 +20277,8 @@ exports.data = [
         "subcategory": 12,
         "extraSlots": [19,20],
         "description": "兼顧外形與力量，是榮譽的象徵。\n" +
-                       "屬性：生命+550 攻擊+50 暴擊+15\n" +
-                       "　　　韌性+60",
+                       "附加屬性：生命+550 攻擊+50 暴擊+15\n" +
+                       "　　　　　韌性+60",
         "sellprice": 1500,
         "effectf": [
             {
@@ -20305,7 +20340,7 @@ exports.data = [
         "category": 1,
         "subcategory": 13,
         "description": "榮譽的象徵，並且擁有專注力量的祝福。\n" +
-                       "屬性：生命+200 攻擊+30 命中+60",
+                       "附加屬性：生命+200 攻擊+30 命中+60",
         "sellprice": 500,
         "effectf": [
             {
@@ -20325,8 +20360,8 @@ exports.data = [
             "attack": 30,
             "accuracy": 60
         },
-        "iconf": "rfasion-female1-helmet.png",
-        "iconm": "rfasion-male1-helmet.png"
+        "iconf": "rfasion-female1-hat.png",
+        "iconm": "rfasion-male1-hat.png"
     },
     {
         "classId": 553,
@@ -21820,8 +21855,8 @@ exports.data = [
             }
         ],
         "storeOnly": true,
-        "iconf": "rfasion-female1-helmet.png",
-        "iconm": "rfasion-male1-helmet.png"
+        "iconf": "rfasion-female1-hat.png",
+        "iconm": "rfasion-male1-hat.png"
     },
     {
         "classId": 616,
@@ -21899,8 +21934,8 @@ exports.data = [
             }
         ],
         "storeOnly": true,
-        "iconf": "rfasion-female3-helmet.png",
-        "iconm": "rfasion-male3-helmet.png"
+        "iconf": "rfasion-female3-hat.png",
+        "iconm": "rfasion-male3-hat.png"
     },
     {
         "classId": 618,
@@ -21978,8 +22013,8 @@ exports.data = [
             }
         ],
         "storeOnly": true,
-        "iconf": "rfasion-female4-helmet.png",
-        "iconm": "rfasion-male4-helmet.png"
+        "iconf": "rfasion-female4-hat.png",
+        "iconm": "rfasion-male4-hat.png"
     },
     {
         "classId": 620,
@@ -22057,8 +22092,8 @@ exports.data = [
             }
         ],
         "storeOnly": true,
-        "iconf": "rfasion-female5-helmet.png",
-        "iconm": "rfasion-male5-helmet.png"
+        "iconf": "rfasion-female5-hat.png",
+        "iconm": "rfasion-male5-hat.png"
     },
     {
         "classId": 622,
@@ -57953,5 +57988,283 @@ exports.data = [
         "quality": 2,
         "recipeTarget": 1550,
         "recipeCost": 88
+    },
+    {
+        "classId": 1622,
+        "label": "浪漫套裝",
+        "category": 1,
+        "subcategory": 12,
+        "extraSlots": [19,20],
+        "description": "情人節專有的套裝，十分受情侶們鍾愛。\n" +
+                       "附加屬性：生命+200 攻擊+20 暴擊+10\n" +
+                       "　　　　　韌性+10 命中+10 回避+10\n" +
+                       "　　　　　速度+10",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "chest",
+                "file": "valentine-female-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "valentine-female-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "valentine-female-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "valentine-female-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "valentine-female-rightleg.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "chest",
+                "file": "valentine-male-chest.ccbi"
+            },
+            {
+                "part": "righthand",
+                "file": "valentine-male-righthand.ccbi"
+            },
+            {
+                "part": "lefthand",
+                "file": "valentine-male-lefthand.ccbi"
+            },
+            {
+                "part": "leftleg",
+                "file": "valentine-male-leftleg.ccbi"
+            },
+            {
+                "part": "rightleg",
+                "file": "valentine-male-rightleg.ccbi"
+            }
+        ],
+        "basic_properties": {
+            "health": 200,
+            "attack": 20,
+            "critical": 10,
+            "strong": 10,
+            "accuracy": 10,
+            "reactivity": 10,
+            "speed": 10
+        },
+        "storeOnly": true,
+        "iconf": "rfasion-female-valentine-cloth.png",
+        "iconm": "rfasion-male-valentine-cloth.png"
+    },
+    {
+        "classId": 1623,
+        "label": "浪漫頭飾",
+        "category": 1,
+        "subcategory": 13,
+        "description": "情人節專有的頭飾，是送給愛人最好的禮物。\n" +
+                       "附加屬性：生命+100 攻擊+10",
+        "recipePrize": 210,
+        "effectf": [
+            {
+                "part": "helmet",
+                "file": "valentine-female-helmet.ccbi"
+            }
+        ],
+        "effectm": [
+            {
+                "part": "helmet",
+                "file": "valentine-male-helmet.ccbi"
+            }
+        ],
+        "storeOnly": true,
+        "basic_properties": {
+            "health": 100,
+            "attack": 10
+        },
+        "iconf": "rfasion-female-valentine-hat.png",
+        "iconm": "rfasion-male-valentine-hat.png"
+    },
+    {
+        "classId": 1624,
+        "label": "帝皇守護",
+        "icon": "rfasion-xngh1.png",
+        "category": 1,
+        "subcategory": 17,
+        "description": "尊貴的光環，高貴的象徵。\n" +
+                       "附加屬性：生命+500 攻擊+50 暴擊+25\n" +
+                       "　　　　　韌性+25 命中+25 回避+25\n" +
+                       "　　　　　速度+25",
+        "recipePrize": 207,
+        "effecta": [
+            {
+                "part": "effect",
+                "file": "godring2-1.ccbi"
+            }
+        ],
+        "basic_properties": {
+            "health": 500,
+            "attack": 50,
+            "critical": 25,
+            "strong": 25,
+            "accuracy": 25,
+            "reactivity": 25,
+            "speed": 25
+        },
+        "storeOnly": true,
+        "quality": 4
+    },
+    {
+        "classId": 1625,
+        "label": "神聖守護",
+        "icon": "rfasion-xngh2.png",
+        "category": 1,
+        "subcategory": 17,
+        "description": "稀有的光環，具有神聖的力量。\n" +
+                       "附加屬性：生命+250 攻擊+25 暴擊+10\n" +
+                       "　　　　　韌性+10 命中+10 回避+10\n" +
+                       "　　　　　速度+10",
+        "recipePrize": 208,
+        "effecta": [
+            {
+                "part": "effect",
+                "file": "godring2-2.ccbi"
+            }
+        ],
+        "basic_properties": {
+            "health": 250,
+            "attack": 25,
+            "critical": 10,
+            "strong": 10,
+            "accuracy": 10,
+            "reactivity": 10,
+            "speed": 10
+        },
+        "storeOnly": true,
+        "quality": 3
+    },
+    {
+        "classId": 1626,
+        "label": "聖光守護",
+        "icon": "rfasion-xngh3.png",
+        "category": 1,
+        "subcategory": 17,
+        "description": "精緻的光環，受到聖光庇佑。\n" +
+                       "附加屬性：生命+150 攻擊+10 暴擊+5\n" +
+                       "　　　　　命中+5 回避+5 速度+5",
+        "recipePrize": 209,
+        "effecta": [
+            {
+                "part": "effect",
+                "file": "godring2-3.ccbi"
+            }
+        ],
+        "basic_properties": {
+            "health": 150,
+            "attack": 10,
+            "critical": 5,
+            "accuracy": 5,
+            "reactivity": 5,
+            "speed": 5
+        },
+        "storeOnly": true,
+        "quality": 2
+    },
+    {
+        "classId": 1627,
+        "label": "神聖守護",
+        "icon": "rfasion-xngh2.png",
+        "category": 1,
+        "subcategory": 17,
+        "description": "稀有的光環，具有神聖的力量。\n" +
+                       "附加屬性：生命+250 攻擊+25 暴擊+10\n" +
+                       "　　　　　韌性+10 命中+10 回避+10\n" +
+                       "　　　　　速度+10",
+        "sellprice": 1500,
+        "effecta": [
+            {
+                "part": "effect",
+                "file": "godring2-2.ccbi"
+            }
+        ],
+        "basic_properties": {
+            "health": 250,
+            "attack": 25,
+            "critical": 10,
+            "strong": 10,
+            "accuracy": 10,
+            "reactivity": 10,
+            "speed": 10
+        },
+        "storeOnly": true,
+        "quality": 2,
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1628,
+        "label": "聖光守護",
+        "icon": "rfasion-xngh3.png",
+        "category": 1,
+        "subcategory": 17,
+        "description": "精緻的光環，受到聖光庇佑。\n" +
+                       "附加屬性：生命+150 攻擊+10 暴擊+5\n" +
+                       "　　　　　命中+5 回避+5 速度+5",
+        "sellprice": 500,
+        "effecta": [
+            {
+                "part": "effect",
+                "file": "godring2-3.ccbi"
+            }
+        ],
+        "basic_properties": {
+            "health": 150,
+            "attack": 10,
+            "critical": 5,
+            "accuracy": 5,
+            "reactivity": 5,
+            "speed": 5
+        },
+        "storeOnly": true,
+        "quality": 1,
+        "expiration": {day: 7}
+    },
+    {
+        "classId": 1629,
+        "label": "羊年大禮包",
+        "icon": "item-gift3.png",
+        "category": 0,
+        "subcategory": 0,
+        "description": "內含體力藥水、復活藥水、掃蕩捲軸(每人限購1個)",
+        "quality": 1,
+        "prize": [
+            {
+                "type": 0,
+                "count": 1,
+                "value": 540
+            },
+            {
+                "type": 0,
+                "count": 1,
+                "value": 538
+            },
+            {
+                "type": 0,
+                "count": 5,
+                "value": 871
+            }
+        ],
+        "storeOnly": true
+    },
+    {
+        "classId": 1630,
+        "label": "新年大紅包",
+        "icon": "item-giftbox.png",
+        "category": 0,
+        "subcategory": 2,
+        "description": "內含8~888寶石，打開即可獲得隨機寶石獎勵。",
+        "stack": 99,
+        "quality": 1,
+        "sellGem": 15,
+        "dropId": 212
     }
 ]

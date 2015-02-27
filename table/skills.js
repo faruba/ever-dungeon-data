@@ -271,7 +271,7 @@ exports.data = [
         },
         {
           "type": "chance",
-          "chance": 0.15
+          "chance": 0.25
         }
       ],
       "targetSelection": {
@@ -11707,7 +11707,9 @@ exports.data = [
           "type": "setProperty",
           "modifications": {
             "attack": {
-              "c": -30
+              "src": {
+                "attack": -0.5
+              }
             }
           }
         },
@@ -11715,7 +11717,9 @@ exports.data = [
           "type": "heal",
           "delay": 1.3,
           "formular": {
-            "c": 300
+            "src": {
+              "strong": 2
+            }
           }
         }
       ],
@@ -11785,8 +11789,8 @@ exports.data = [
         {
           "type": "setProperty",
           "modifications": {
-            "attack": {
-              "c": 50
+            "src": {
+              "attack": 1
             }
           }
         },
@@ -11794,7 +11798,9 @@ exports.data = [
           "type": "damage",
           "delay": 1.3,
           "formular": {
-            "c": 300
+            "src": {
+              "strong": 1
+            }
           }
         }
       ],
@@ -11826,8 +11832,8 @@ exports.data = [
         {
           "type": "setProperty",
           "modifications": {
-            "attack": {
-              "c": 30
+            "src": {
+              "attack": 0.5
             }
           }
         },
@@ -11835,7 +11841,9 @@ exports.data = [
           "type": "heal",
           "delay": 1.3,
           "formular": {
-            "c": 300
+            "src": {
+              "strong": 1
+            }
           }
         }
       ],
@@ -18886,14 +18894,36 @@ exports.data = [
           "act": "self"
         },
         {
-          "type": "playEffect",
-          "effect": 94,
-          "pos": "target"
+          "type": "shock",
+          "delay": 2.4,
+          "range": 5,
+          "time": 0.5
+        },
+        {
+          "type": "shock",
+          "delay": 2.9,
+          "range": 5,
+          "time": 0.5
+        },
+        {
+          "type": "shock",
+          "delay": 3.4,
+          "range": 5,
+          "time": 0.5
+        },
+        {
+          "type": "shock",
+          "delay": 3.9,
+          "range": 5,
+          "time": 0.5
         },
         {
           "type": "installSpell",
           "spell": 353,
-          "delay": 1.8
+          "delay": {
+            "base": 2.4,
+            "range": 1.5
+          }
         }
       ]
     }
@@ -18903,9 +18933,15 @@ exports.data = [
     "config": {
       "installAction": [
         {
+          "type": "playEffect",
+          "effect": 94,
+          "pos": "self"
+        },
+        {
           "type": "damage",
           "damageType": "Spell",
           "isRange": true,
+          "delay": 0.2,
           "formular": {
             func:function(env,source,target,cons) {
               return env.battleForce*0.05+100
@@ -18999,14 +19035,32 @@ exports.data = [
           "act": "self"
         },
         {
+          "type": "shock",
+          "delay": 1.86,
+          "range": 5,
+          "time": 0.2
+        },
+        {
           "type": "playEffect",
           "effect": 96,
-          "pos": "target"
+          "pos": "target",
+          "delay": 0.2
         },
         {
           "type": "installSpell",
           "spell": 355,
-          "delay": 0.6
+          "delay": 3.3
+        },
+        {
+          "type": "blink",
+          "delay": 3.3,
+          "time": 0.2
+        },
+        {
+          "type": "shock",
+          "delay": 3.3,
+          "range": 5,
+          "time": 0.5
         }
       ]
     }
@@ -19019,7 +19073,6 @@ exports.data = [
           "type": "damage",
           "damageType": "Spell",
           "isRange": true,
-          "delay": 0.4,
           "formular": {
             func:function(env,source,target,cons) {
               return env.battleForce*0.06+400
@@ -19378,40 +19431,26 @@ exports.data = [
     "config": {
       "installAction": [
         {
-          "type": "damage",
-          "damageType": "Spell",
-          "isRange": true,
-          "delay": 0.4,
-          "#formular": [
-            {
-              "c": 150
-            },
-            {
-              "c": 300
-            },
-            {
-              "c": 450
-            }
-          ]
+          "type": "playAction",
+          "motion": "wounded",
+          "pos": "self",
+          "delay": 2.4
+        },
+        {
+          "type": "playAction",
+          "motion": "wounded",
+          "pos": "self",
+          "delay": 2.9
+        },
+        {
+          "type": "playAction",
+          "motion": "wounded",
+          "pos": "self",
+          "delay": 3.4
         }
       ],
       "targetSelection": {
-        "pool": "objects",
-        "filter": [
-          {
-            "type": "same-block"
-          },
-          {
-            "type": "same-faction",
-            "faction": "monster"
-          },
-          {
-            "type": "alive"
-          },
-          {
-            "type": "visible"
-          }
-        ]
+        "pool": "self"
       },
       "availableCondition": [
         {
@@ -19460,7 +19499,7 @@ exports.data = [
         {
           "type": "playEffect",
           "effect": 91,
-          "pos": "self"
+          "act": "self"
         },
         {
           "type": "delay"

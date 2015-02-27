@@ -8333,22 +8333,22 @@ exports.data = [
 					"count": 668
 				},
 				{
-					"weight": 4,
+					"weight": 10,
 					"type": 2,
 					"count": 388
 				},
 				{
-					"weight": 4,
+					"weight": 30,
 					"type": 2,
 					"count": 188
 				},
 				{
-					"weight": 2,
+					"weight": 30,
 					"type": 2,
 					"count": 88
 				},
 				{
-					"weight": 1,
+					"weight": 4,
 					"type": 2,
 					"count": 8
 				}

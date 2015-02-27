@@ -2211,13 +2211,15 @@ var data = [
                 hidden: true,
                 dungeon: 160,
                 description: "Goblin1",
-                eventName: "event_goblin",
-                condition: checkGoblin,
+                eventName: "happyNewYear",
+                condition: function(obj) {
+                    return obj.counters.happyNewYear<2;
+                },
                 initialAction: function (obj) {
-                    if (obj.counters.goblin) {
-                        obj.counters.goblin++;
+                    if (obj.counters.happyNewYear) {
+                        obj.counters.happyNewYear++;
                     } else {
-                        obj.counters['goblin'] = 1;
+                        obj.counters['happyNewYear'] = 1;
                     }
                 }
             }

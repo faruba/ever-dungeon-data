@@ -135,6 +135,26 @@ exports.events = {
       });
     }
   },
+  happyNewYear: {
+    storeType: "player",
+    id: 5,
+    actived: function(obj, util) {
+        var today =  util.today;
+        var isOpen = today.isBefore('2015-02-25') && today.isAfter('2015-2-18');
+        return isOpen ? 1: 0;
+    },
+    count: function(obj, util) {
+      return 2;
+    },
+ 
+    canReset: function(obj, util) {
+        return (util.diffDay(obj.timestamp.happyNewYear, util.today)) 
+    },
+    reset: function(obj, util) {
+        obj.timestamp['happyNewYear'] = util.currentTime();
+        return obj.counters['happyNewYear'] = 0;
+    }
+  },
   monthCard: {
     storeType: "player",
     id: -1,
@@ -536,7 +556,7 @@ exports.intervalEvent = {
           }
       }, {
           from: 1,
-          to: 9,
+          to: 4,
           mail: {
               type: MESSAGE_TYPE_SystemReward,
               src: MESSAGE_REWARD_TYPE_SYSTEM,
@@ -547,8 +567,8 @@ exports.intervalEvent = {
                   txt: L("openBoxTxt22")
           }
       },{
-          from: 10,
-          to: 49,
+          from: 5,
+          to: 19,
           mail: {
               type: MESSAGE_TYPE_SystemReward,
               src: MESSAGE_REWARD_TYPE_SYSTEM,
