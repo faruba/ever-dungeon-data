@@ -11707,7 +11707,9 @@ exports.data = [
           "type": "setProperty",
           "modifications": {
             "attack": {
-              "c": -30
+              "src": {
+                "attack": -0.5
+              }
             }
           }
         },
@@ -11715,7 +11717,9 @@ exports.data = [
           "type": "heal",
           "delay": 1.3,
           "formular": {
-            "c": 300
+            "src": {
+              "strong": 2
+            }
           }
         }
       ],
@@ -11785,8 +11789,8 @@ exports.data = [
         {
           "type": "setProperty",
           "modifications": {
-            "attack": {
-              "c": 50
+            "src": {
+              "attack": 1
             }
           }
         },
@@ -11794,7 +11798,9 @@ exports.data = [
           "type": "damage",
           "delay": 1.3,
           "formular": {
-            "c": 300
+            "src": {
+              "strong": 1
+            }
           }
         }
       ],
@@ -11826,8 +11832,8 @@ exports.data = [
         {
           "type": "setProperty",
           "modifications": {
-            "attack": {
-              "c": 30
+            "src": {
+              "attack": 0.5
             }
           }
         },
@@ -11835,7 +11841,9 @@ exports.data = [
           "type": "heal",
           "delay": 1.3,
           "formular": {
-            "c": 300
+            "src": {
+              "strong": 1
+            }
           }
         }
       ],
