@@ -5981,11 +5981,6 @@ exports.data = [
       },
       "action": [
         {
-          "type": "playAction",
-          "motion": "dead",
-          "pos": "self"
-        },
-        {
           "type": "delay"
         },
         {
@@ -10198,11 +10193,6 @@ exports.data = [
         ]
       },
       "action": [
-        {
-          "type": "playAction",
-          "motion": "dead",
-          "pos": "self"
-        },
         {
           "type": "delay"
         },
