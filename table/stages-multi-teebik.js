@@ -1861,7 +1861,7 @@ var data = [
         "stage":[
             {
                 stageId: 108,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 105,
@@ -1874,7 +1874,7 @@ var data = [
             },
             {
                 stageId: 109,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 106,
@@ -1887,7 +1887,7 @@ var data = [
             },
             {
                 stageId: 110,
-                cost: 15,
+                cost: [15],
                 team: 3,
                 hidden: true,
                 dungeon: 107,
@@ -1900,7 +1900,7 @@ var data = [
             },
             {
                 stageId: 111,
-                cost: 15,
+                cost: [15],
                 team: 3,
                 hidden: true,
                 dungeon: 108,
@@ -1913,7 +1913,7 @@ var data = [
             },
             {
                 stageId: 112,
-                cost: 20,
+                cost: [20],
                 team: 3,
                 hidden: true,
                 dungeon: 109,
@@ -1929,7 +1929,7 @@ var data = [
             },
             {
                 stageId: 114,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 102,
@@ -1946,7 +1946,7 @@ var data = [
             },
             {
                 stageId: 115,
-                cost: 15,
+                cost: [15],
                 team: 3,
                 hidden: true,
                 dungeon: 103,
@@ -1963,7 +1963,7 @@ var data = [
             },
             {
                 stageId: 116,
-                cost: 20,
+                cost: [20],
                 team: 3,
                 hidden: true,
                 dungeon: 104,
@@ -1980,7 +1980,7 @@ var data = [
             },
             {
                 stageId: 117,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 110,
@@ -1993,7 +1993,7 @@ var data = [
             },
             {
                 stageId: 118,
-                cost: 15,
+                cost: [15],
                 team: 3,
                 hidden: true,
                 dungeon: 111,
@@ -2006,7 +2006,7 @@ var data = [
             },
             {
                 stageId: 119,
-                cost: 20,
+                cost: [20],
                 team: 3,
                 hidden: true,
                 dungeon: 112,
@@ -2019,7 +2019,7 @@ var data = [
             },
             {
                 stageId: 120,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 113,
@@ -2034,7 +2034,7 @@ var data = [
             },
             {
                 stageId: 121,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 114,
@@ -2055,7 +2055,7 @@ var data = [
             },
             {
                 stageId: 122,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 115,
@@ -2068,7 +2068,7 @@ var data = [
             },
             {
                 stageId: 123,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 116,
@@ -2081,7 +2081,7 @@ var data = [
             },
             {
                 stageId: 124,
-                cost: 10,
+                cost: [10],
                 team: 1,
                 pvp: true,
                 hidden: true,
@@ -2102,7 +2102,7 @@ var data = [
             },
             {
                 stageId: 125,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 119,
@@ -2115,7 +2115,7 @@ var data = [
             },
             {
                 stageId: 126,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 120,
@@ -2128,7 +2128,7 @@ var data = [
             },
             {
                 stageId: 127,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 121,
@@ -2141,7 +2141,7 @@ var data = [
             },
             {
                 stageId: 128,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 122,
@@ -2154,7 +2154,7 @@ var data = [
             },
             {
                 stageId: 129,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 123,
@@ -2167,7 +2167,7 @@ var data = [
             },
             {
                 stageId: 130,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 124,
@@ -2180,7 +2180,7 @@ var data = [
             },
             {
                 stageId: 131,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 125,
@@ -2193,7 +2193,7 @@ var data = [
             },
             {
                 stageId: 132,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 126,
@@ -2206,7 +2206,7 @@ var data = [
             },
             {
                 stageId: 151,
-                cost: 10,
+                cost: [10],
                 team: 3,
                 hidden: true,
                 dungeon: 160,
