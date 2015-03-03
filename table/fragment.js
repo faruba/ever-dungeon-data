@@ -9,11 +9,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[5,6,7,8,9,10,11,12]
+                            "month":2,
+                            "date":[2,3,4,5,6,7,8]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "condition":"less",//less 小于 equal 等于 more 大于 interval 周期
                 "count_value":[4],
@@ -95,11 +95,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[5,6,7,8,9,10,11,12]
+                            "month":2,
+                            "date":[2,3,4,5,6,7,8]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "basic_prize": [
                     {
@@ -251,11 +251,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[13,14,15,16,17]
+                            "month":2,
+                            "date":[9,10,11,12,13,14,15]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "condition":"less",//less 小于 equal 等于 more 大于 interval 周期
                 "count_value":[4],
@@ -337,11 +337,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[13,14,15,16,17]
+                            "month":2,
+                            "date":[9,10,11,12,13,14,15]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "basic_prize": [
                     {
@@ -493,11 +493,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[18,19,20,21]
+                            "month":2,
+                            "date":[16,17,18,19,20,21,22]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "condition":"less",//less 小于 equal 等于 more 大于 interval 周期
                 "count_value":[4],
@@ -579,11 +579,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[18,19,20,21]
+                            "month":2,
+                            "date":[16,17,18,19,20,21,22]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "basic_prize": [
                     {
@@ -735,11 +735,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[22,23,24,25]
+                            "month":2,
+                            "date":[23,24,25,26,27,28,29]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "condition":"less",//less 小于 equal 等于 more 大于 interval 周期
                 "count_value":[4],
@@ -821,11 +821,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[22,23,24,25]
+                            "month":2,
+                            "date":[23,24,25,26,27,28,29]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "basic_prize": [
                     {
@@ -1167,11 +1167,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[5,6,7,8,9,10,11,12]
+                            "month":2,
+                            "date":[2,3,4,5,6,7,8]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "condition":"equal",//less 小于 equal 等于 more 大于 interval 周期
                 "count_value":[5],
@@ -1212,11 +1212,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[5,6,7,8,9,10,11,12]
+                            "month":2,
+                            "date":[2,3,4,5,6,7,8]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "condition":"interval",//less 小于 equal 等于 more 大于 interval 周期
                 "count_value":[100],
@@ -1261,12 +1261,13 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[5,6,7,8,9,10,11,12]
+                            "month":2,
+                            "date":[2,3,4,5,6,7,8]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
+                "poster":"baozang-bg2",
                 "basic_prize": [
                     {
                         "rate": 1,
@@ -1486,11 +1487,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[13,14,15,16,17]
+                            "month":2,
+                            "date":[9,10,11,12,13,14,15]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "condition":"equal",//less 小于 equal 等于 more 大于 interval 周期
                 "count_value":[5],
@@ -1531,11 +1532,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[13,14,15,16,17]
+                            "month":2,
+                            "date":[9,10,11,12,13,14,15]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "condition":"interval",//less 小于 equal 等于 more 大于 interval 周期
                 "count_value":[100],
@@ -1580,22 +1581,17 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[13,14,15,16,17]
+                            "month":2,
+                            "date":[9,10,11,12,13,14,15]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
+                "poster":"baozang-bg2-ironsuit2",
                 "basic_prize": [
                     {
                         "rate": 1,
                         "prize": [
-                            {
-                                "weight": 100,
-                                "type": 0,
-                                "value": 1622,
-                                "count": 1
-                            },
                             {
                                 "weight": 1500,
                                 "type": 0,
@@ -1811,11 +1807,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[18,19,20,21]
+                            "month":2,
+                            "date":[16,17,18,19,20,21,22]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "condition":"equal",//less 小于 equal 等于 more 大于 interval 周期
                 "count_value":[5],
@@ -1856,11 +1852,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[18,19,20,21]
+                            "month":2,
+                            "date":[16,17,18,19,20,21,22]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "condition":"interval",//less 小于 equal 等于 more 大于 interval 周期
                 "count_value":[100],
@@ -1905,28 +1901,17 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[18,19,20,21]
+                            "month":2,
+                            "date":[16,17,18,19,20,21,22]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
+                "poster":"baozang-bg2-ironsuit3",
                 "basic_prize": [
                     {
                         "rate": 1,
                         "prize": [
-                            {
-                                "weight": 200,
-                                "type": 0,
-                                "value": 1627,
-                                "count": 1
-                            },
-                            {
-                                "weight": 400,
-                                "type": 0,
-                                "value": 1628,
-                                "count": 1
-                            },
                             {
                                 "weight": 1500,
                                 "type": 0,
@@ -2142,11 +2127,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[22,23,24,25]
+                            "month":2,
+                            "date":[23,24,25,26,27,28,29]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "condition":"equal",//less 小于 equal 等于 more 大于 interval 周期
                 "count_value":[5],
@@ -2187,11 +2172,11 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[22,23,24,25]
+                            "month":2,
+                            "date":[23,24,25,26,27,28,29]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
                 "condition":"interval",//less 小于 equal 等于 more 大于 interval 周期
                 "count_value":[100],
@@ -2236,28 +2221,17 @@ exports.data = [
                     "startDate":[
                         {
                             "year":2015,
-                            "month":1,
-                            "date":[22,23,24,25]
+                            "month":2,
+                            "date":[23,24,25,26,27,28,29]
                         }
                     ],
-                    "interval":21
+                    "interval":28
                 },
+                "poster":"baozang-bg2-ironsuit4",
                 "basic_prize": [
                     {
                         "rate": 1,
                         "prize": [
-                            {
-                                "weight": 200,
-                                "type": 0,
-                                "value": 1627,
-                                "count": 1
-                            },
-                            {
-                                "weight": 400,
-                                "type": 0,
-                                "value": 1628,
-                                "count": 1
-                            },
                             {
                                 "weight": 1500,
                                 "type": 0,
@@ -2473,12 +2447,6 @@ exports.data = [
             {
                 "rate": 1,
                 "prize": [
-                    {
-                        "weight": 100,
-                        "type": 0,
-                        "value": 1622,
-                        "count": 1
-                    },
                     {
                         "weight": 1500,
                         "type": 0,

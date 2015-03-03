@@ -93,10 +93,20 @@ exports.data = {
             }
         }
     },
+    lovelyExpression:{
+        "show": true,
+        "title":"可愛表情！限時開放！",
+        "banner":"event-banner-pinkeye.png",
+        "description": [
+            "活動期間，玩家可在商店直接購買魅惑之眼",
+            "##[{\"type\":0,\"value\":1632,\"count\":1}]"
+        ],
+        "date": "2015/03/15",
+        "dateDescription": "截止日期2015年3月15日24時"
+    },
     timeLimitAwardMsg:{
         "show": true,
         "type":"timeLimitAward",
-        "poster":"baozang-bg2-valentine",
         "title":"情人節浪漫來襲",
         "banner":"event-banner-qrj.png",
         "description": [
@@ -323,6 +333,22 @@ exports.data = {
         "description":["首次充值即可獲得寶石翻倍的獎勵，充多少送多少，媽媽再也不用擔心我的寶石了！"],
         "mailTitle": "《首充翻倍大行動》活動獎勵",
         "mailBody": "恭喜你完成活動，點擊領取活動獎勵！",
+        "date": "2014/12/25",
+        "dateDescription": "截止日期2014年12月25日24時",
+        // iaplist.list will modify by initCampaignTable =>{award:[{type:2,count:60}}
+        "objective" : iaplist
+    },
+    "FirstCharge2": {
+        "show": true,
+        "title": "首充大禮包",
+        "banner":"event-banner-scdlb.png",
+        "description":[
+            "首次充值即可獲首充大禮包",
+            "***首充大禮包內含：",
+            "##[{\"type\":0,\"value\":1538,\"count\":1},{\"type\":0,\"value\":1617,\"count\":1},{\"type\":0,\"value\":1619,\"count\":1},{\"type\":0,\"value\":1620,\"count\":1},{\"type\":0,\"value\":1621,\"count\":1},{\"type\":0,\"value\":871,\"count\":15},{\"type\":0,\"value\":540,\"count\":2},{\"type\":1,\"count\":20000}]"
+        ],
+        "mailTitle": "《首充大禮包》活動獎勵",
+        "mailBody": "恭喜你完成活動，點擊領取活動獎勵！",
         "date": "2016/12/25",
         "dateDescription": "截止日期2016年12月25日24時",
         // iaplist.list will modify by initCampaignTable =>{award:[{type:2,count:60}}
@@ -370,16 +396,16 @@ exports.data = {
         "title": "免費抽獎！抽不停！",
         "banner":"event-banner-mfcj.png",
         "description": ["幸運寶箱抽取冷卻時間減半，由24小時縮減為12小時。"],
-        "date": "2015/03/05",
-        "dateDescription": "截止日期2015年3月5日24時"
+        "date": "2015/04/05",
+        "dateDescription": "截止日期2015年4月5日24時"
     },
     "lottery2": {
         "show": true,
         "title": "十一連抽大優惠！",
         "banner":"event-banner-sylc.png",
         "description": ["購買尊貴寶箱X10即可額外獲贈一次"],
-        "date": "2014/03/05",
-        "dateDescription": "截止日期2015年3月5日24時"
+        "date": "2015/04/05",
+        "dateDescription": "截止日期2015年4月5日24時"
     },
     "lottery3": {
         "show": true,
@@ -395,13 +421,12 @@ exports.data = {
     },
     "lottery4": {
         "show": true,
-        "poster":"baozang-bg2",
         "title": "限時時裝強勢來襲",
         "banner":"event-banner-xssz.png",
         "description": ["開啟尊貴寶箱均有機會獲得帥氣時裝，低概率獲得永久屬性時裝"],
-        "date": "2015/02/12",
-        "dateDescription": "截止日期2015年2月12日24時",
-        "duration":{beginTime:'2015-02-26 00:00:00',endTime:'2015-03-05 23:59:59'}
+        "date": "2015/04/05",
+        "dateDescription": "截止日期2015年4月5日24時",
+        "duration":{beginTime:'2015-02-26 00:00:00',endTime:'2015-04-05 23:59:59'}
     },
     "newYears1": {
         "show": true,
@@ -479,7 +504,6 @@ exports.data = {
     },
     "newYears6": {
         "show": true,
-        "poster":"baozang-bg2-ironsuit3",
         "title": "春節新衣大放送",
         "banner":"event-banner-xn1.png",
         "description": [
@@ -493,7 +517,6 @@ exports.data = {
     },
     "newYears7": {
         "show": true,
-        "poster":"baozang-bg2-ironsuit4",
         "title": "春節新衣大放送",
         "banner":"event-banner-xn1.png",
         "description": [
