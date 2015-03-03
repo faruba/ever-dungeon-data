@@ -58320,7 +58320,7 @@ exports.data = [
     },
     {
         "classId": 1632,
-        "label": "魅力之眼",
+        "label": "魅惑之眼",
         "category": 1,
         "subcategory": 15,
         "description": "漂亮的粉色眼睛，能夠魅惑人心。",
