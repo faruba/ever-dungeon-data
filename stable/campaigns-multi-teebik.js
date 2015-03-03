@@ -348,7 +348,7 @@ exports.data = {
             "***首儲大禮包內含：",
             "##[{\"type\":0,\"value\":1583,\"count\":1},{\"type\":0,\"value\":1617,\"count\":15},{\"type\":0,\"value\":1619,\"count\":1},{\"type\":0,\"value\":1620,\"count\":1},{\"type\":0,\"value\":1621,\"count\":1},{\"type\":0,\"value\":871,\"count\":15},{\"type\":0,\"value\":540,\"count\":2},{\"type\":1,\"count\":20000}]"
         ],
-        "mailTitle": "《首儲大禮包》活動獎勵",
+        "mailTitle": "《首儲好康！》活動獎勵",
         "mailBody": "恭喜你完成活動，點擊領取活動獎勵！",
         "date": "2016/12/25",
         "dateDescription": "截止日期2016年12月25日24時",
