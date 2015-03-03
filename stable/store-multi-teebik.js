@@ -12,7 +12,7 @@ exports.data = [
     {"id":1472, "price": {"type": "diamond", "amount": 340},"category":[{"id": 0, "index": 10}]},
     {"id":1473, "price": {"type": "diamond", "amount": 400},"category":[{"id": 0, "index": 11}]},
     {"id":1474, "price": {"type": "diamond", "amount": 440},"category":[{"id": 0, "index": 12}]},
-    {"id":1632, "limit": {"date": {"begin":"2015/3/1", "end":"2015/3/15"}},"price": {"type": "diamond", "amount": 6000},"category":[{"id": 1, "index": 0}]},
+    {"id":1632, "limit": {"date": {"begin":"2015/3/6", "end":"2015/3/20"}},"price": {"type": "diamond", "amount": 6000},"category":[{"id": 1, "index": 0}]},
     {"id":1629, "limit": {"count": 1, "date": {"begin":"2015/2/25", "end":"2015/3/5"}},"price": {"type": "diamond", "amount": 100},"category":[{"id": 1, "index": 1}]},
     {"id":614, "limit": {"vip": 20, "count": 1}, "price": {"type": "diamond", "amount": 88888},"category":[{"id": 1, "index": 2}]},
     {"id":615, "limit": {"vip": 20, "count": 1}, "price": {"type": "diamond", "amount": 66666},"category":[{"id": 1, "index": 3}]},

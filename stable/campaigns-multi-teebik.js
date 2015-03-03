@@ -101,8 +101,9 @@ exports.data = {
             "活動期間，玩家可在商店直接購買魅惑之眼",
             "##[{\"type\":0,\"value\":1632,\"count\":1}]"
         ],
-        "date": "2015/03/15",
-        "dateDescription": "截止日期2015年3月15日24時"
+        "date": "2015/03/20",
+        "dateDescription": "截止日期2015年3月20日24時",
+        "duration":{beginTime:'2015-03-06 00:00:00',endTime:'2015-03-20 23:59:59'}
     },
     timeLimitAwardMsg:{
         "show": true,
@@ -326,7 +327,7 @@ exports.data = {
             }
         ]
     },
-    "FirstCharge": {
+    "FirstCharge2": {
         "show": true,
         "title": "首充翻倍大行動",
         "banner":"event-banner-scfb.png",
@@ -338,14 +339,14 @@ exports.data = {
         // iaplist.list will modify by initCampaignTable =>{award:[{type:2,count:60}}
         "objective" : iaplist
     },
-    "FirstCharge2": {
+    "FirstCharge": {
         "show": true,
         "title": "首充大禮包",
         "banner":"event-banner-scdlb.png",
         "description":[
             "首次充值即可獲首充大禮包",
             "***首充大禮包內含：",
-            "##[{\"type\":0,\"value\":1538,\"count\":1},{\"type\":0,\"value\":1617,\"count\":1},{\"type\":0,\"value\":1619,\"count\":1},{\"type\":0,\"value\":1620,\"count\":1},{\"type\":0,\"value\":1621,\"count\":1},{\"type\":0,\"value\":871,\"count\":15},{\"type\":0,\"value\":540,\"count\":2},{\"type\":1,\"count\":20000}]"
+            "##[{\"type\":0,\"value\":1583,\"count\":1},{\"type\":0,\"value\":1617,\"count\":15},{\"type\":0,\"value\":1619,\"count\":1},{\"type\":0,\"value\":1620,\"count\":1},{\"type\":0,\"value\":1621,\"count\":1},{\"type\":0,\"value\":871,\"count\":15},{\"type\":0,\"value\":540,\"count\":2},{\"type\":1,\"count\":20000}]"
         ],
         "mailTitle": "《首充大禮包》活動獎勵",
         "mailBody": "恭喜你完成活動，點擊領取活動獎勵！",
