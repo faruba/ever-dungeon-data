@@ -20,6 +20,12 @@ exports.data = {
             Publisher: { IP: "192.168.199.153", PORT: 6380 },
             Subscriber: { IP: "192.168.199.153", PORT: 6380 }
         },
+        "SEAsiaTest2": {
+            "Account": { "IP": "148.251.128.9", "PORT": 6380 },
+            "Role": { "IP": "148.251.128.9", "PORT": 6381 },
+            "Publisher": { "IP": "148.251.128.9", "PORT": 6380 },
+            "Subscriber": { "IP": "148.251.128.9", "PORT": 6380 }
+        },
  
     },
 
@@ -36,7 +42,7 @@ exports.data = {
             DB: "SEAsia",
             DB_Prefix: "Develop"
         },
-		"Develop.11": {
+        "Develop.11": {
             ID: 2,
             Name: "Develop",
             DB: "SEAsia",
@@ -47,7 +53,14 @@ exports.data = {
             Name: "Develop",
             DB: "192.168.199.153",
             DB_Prefix: "Develop",
-			Debug: true
+            Debug: true
+        },
+        "jovi": {
+            ID: 1,
+            Name: "Test",
+            DB: "SEAsiaTest2",
+            DB_Prefix: "Test",
+            Debug: true
         }
  
     },
@@ -56,20 +69,21 @@ exports.data = {
         "192.168.128.9": [ { Server: "Develop.9", Port: 7756 } ],
         "192.168.128.10": [ { Server: "Develop.10", Port: 7756 } ],
         "192.168.128.11": [ { Server: "Develop.11", Port: 7756 } ],
-		"192.168.199.248": [ { Server: "faruba", Port: 7756 } ],
+        "192.168.199.248": [ { Server: "faruba", Port: 7756 } ],
+        "192.168.199.206": [ { Server: "jovi", Port: 7756 } ],
     },
-	Gate_Config:{
-		"192.168.128.10": [
+    Gate_Config:{
+        "192.168.128.10": [
            // {"ip": "192.168.128.9", "port": 7756},
            {"ip": "192.168.128.10", "port": 7756},
            // {"ip": "192.168.128.11", "port": 7756}
-		],
+        ],
         "192.168.128.9": [
            {"ip": "192.168.128.9", "port": 7756},
            // {"ip": "192.168.128.10", "port": 7756},
            // {"ip": "192.168.128.11", "port": 7756}
         ]
-	},
+    },
 
     Redeem_Config: {
         ip: "192.168.128.10",
