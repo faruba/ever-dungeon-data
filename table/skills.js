@@ -7356,6 +7356,9 @@ exports.data = [
         {
           "type": "myMutex",
           "mutex": "master"
+        },
+        {
+          "type": "needTarget"
         }
       ],
       "targetSelection": {
