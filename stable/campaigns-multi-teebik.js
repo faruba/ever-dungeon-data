@@ -3,29 +3,29 @@ moment = require('moment');
 exports.data = {
     "Charge": {
         "show": true,
-        "title": "中秋充值獎勵",
+        "title": "中秋儲值獎勵",
         "banner":"event-banner-wzydr.png",
         "description": [
-            "單筆充值達到6元，12元，30元，68元，128元，198元，328元，648元分別得到獎勵。",
+            "單筆儲值達到6元，12元，30元，68元，128元，198元，328元，648元分別得到獎勵。",
             "***獎勵內容：",
-            "** \n充值6元，即可獲得",
+            "** \n儲值6元，即可獲得",
             "##[{\"type\":2,\"count\":60},{\"type\":0,\"value\":853,\"count\":5},{\"type\":0,\"value\":540,\"count\":2}]",
-            "** \n充值12元，即可獲得",
+            "** \n儲值12元，即可獲得",
             "##[{\"type\":2,\"count\":130},{\"type\":0,\"value\":853,\"count\":10},{\"type\":0,\"value\":540,\"count\":2},{\"type\":0,\"value\":538,\"count\":1}]",
-            "** \n充值30元，即可獲得",
+            "** \n儲值30元，即可獲得",
             "##[{\"type\":2,\"count\":330},{\"type\":0,\"value\":871,\"count\":5},{\"type\":0,\"value\":540,\"count\":3},{\"type\":0,\"value\":538,\"count\":1}]",
-            "** \n充值68元，即可獲得",
+            "** \n儲值68元，即可獲得",
             "##[{\"type\":2,\"count\":760},{\"type\":0,\"value\":871,\"count\":5},{\"type\":0,\"value\":538,\"count\":1},{\"type\":0,\"value\":540,\"count\":3},{\"type\":0,\"value\":860,\"count\":1}]",
-            "** \n充值128元，即可獲得",
+            "** \n儲值128元，即可獲得",
             "##[{\"type\":2,\"count\":1460},{\"type\":0,\"value\":871,\"count\":10},{\"type\":0,\"value\":539,\"count\":1},{\"type\":0,\"value\":860,\"count\":3},{\"type\":0,\"value\":552,\"count\":1}]",
-            "** \n充值198元，即可獲得",
+            "** \n儲值198元，即可獲得",
             "##[{\"type\":2,\"count\":2260},{\"type\":0,\"value\":871,\"count\":20},{\"type\":0,\"value\":539,\"count\":1},{\"type\":0,\"value\":552,\"count\":1},{\"type\":0,\"value\":860,\"count\":6}]",
-            "** \n充值328元，即可獲得",
+            "** \n儲值328元，即可獲得",
             "##[{\"type\":2,\"count\":3760},{\"type\":0,\"value\":871,\"count\":20},{\"type\":0,\"value\":28,\"count\":4},{\"type\":0,\"value\":551,\"count\":1},{\"type\":0,\"value\":860,\"count\":10}]",
-            "** \n充值648元，即可獲得",
+            "** \n儲值648元，即可獲得",
             "##[{\"type\":2,\"count\":7480}, {\"type\":0,\"value\":871,\"count\":30},{\"type\":0,\"value\":28,\"count\":10},{\"type\":0,\"value\":552,\"count\":1},{\"type\":0,\"value\":551,\"count\":1},{\"type\":0,\"value\":860,\"count\":20}]"
         ],
-        "mailTitle": "《中秋充值》活動獎勵",
+        "mailTitle": "《中秋儲值》活動獎勵",
         "mailBody": "恭喜你完成活動，點擊領取活動獎勵！",
         "date": "2014/09/15",
         "dateDescription": "截止日期2014年9月15日24時",
@@ -93,10 +93,21 @@ exports.data = {
             }
         }
     },
+    lovelyExpression:{
+        "show": true,
+        "title":"可愛表情！限時開放！",
+        "banner":"event-banner-pinkeye.png",
+        "description": [
+            "活動期間，玩家可在商店直接購買魅惑之眼",
+            "##[{\"type\":0,\"value\":1632,\"count\":1}]"
+        ],
+        "date": "2015/03/20",
+        "dateDescription": "截止日期2015年3月20日24時",
+        "duration":{beginTime:'2015-03-06 00:00:00',endTime:'2015-03-20 23:59:59'}
+    },
     timeLimitAwardMsg:{
         "show": true,
         "type":"timeLimitAward",
-        "poster":"baozang-bg2-valentine",
         "title":"情人節浪漫來襲",
         "banner":"event-banner-qrj.png",
         "description": [
@@ -135,23 +146,23 @@ exports.data = {
         "title": "端午粽子派送",
         "banner":"event-banner-dwj.png",
         "description": [
-            "單筆充值達到6元，12元，30元，68元，128元，198元，328元，648元分別得到獎勵。",
+            "單筆儲值達到6元，12元，30元，68元，128元，198元，328元，648元分別得到獎勵。",
             "***獎勵內容：",
-            "充值6元，即可獲得",
+            "儲值6元，即可獲得",
             "##[{\"type\":2,\"count\":60},{\"type\":0,\"value\":862,\"count\":1}]",
-            "** \n充值12元，即可獲得",
+            "** \n儲值12元，即可獲得",
             "##[{\"type\":2,\"count\":130},{\"type\":0,\"value\":862,\"count\":3}]",
-            "** \n充值30元，即可獲得",
+            "** \n儲值30元，即可獲得",
             "##[{\"type\":2,\"count\":330},{\"type\":0,\"value\":862,\"count\":7}]",
-            "** \n充值68元，即可獲得",
+            "** \n儲值68元，即可獲得",
             "##[{\"type\":2,\"count\":760},{\"type\":0,\"value\":862,\"count\":10}]",
-            "** \n充值128元，即可獲得",
+            "** \n儲值128元，即可獲得",
             "##[{\"type\":2,\"count\":1460},{\"type\":0,\"value\":862,\"count\":10},{\"type\":0,\"value\":863,\"count\":3}]",
-            "** \n充值198元，即可獲得",
+            "** \n儲值198元，即可獲得",
             "##[{\"type\":2,\"count\":2260},{\"type\":0,\"value\":862,\"count\":12},{\"type\":0,\"value\":863,\"count\":6}]",
-            "** \n充值328元，即可獲得",
+            "** \n儲值328元，即可獲得",
             "##[{\"type\":2,\"count\":3760},{\"type\":0,\"value\":862,\"count\":15},{\"type\":0,\"value\":863,\"count\":9}]",
-            "** \n充值648元，即可獲得",
+            "** \n儲值648元，即可獲得",
             "##[{\"type\":2,\"count\":7480}, {\"type\":0,\"value\":862,\"count\":17},{\"type\":0,\"value\":863,\"count\":11}]"
         ],
         "mailTitle": "《端午送粽子》活動獎勵",
@@ -228,7 +239,7 @@ exports.data = {
     "TotalCharge": {
         "show": false,
         "title": "累充活動",
-        "description": ["累積充值達到指定數值，即可獲得相應禮包！"],
+        "description": ["累積儲值達到指定數值，即可獲得相應禮包！"],
         "mailTitle": "VIP等級提升",
         "mailBody": "VIP等級得到提升，您已經擁有購買相應VIP寶箱的許可權以及以禮品。",
         "level": [
@@ -316,12 +327,28 @@ exports.data = {
             }
         ]
     },
-    "FirstCharge": {
+    "FirstCharge2": {
         "show": true,
         "title": "首充翻倍大行動",
         "banner":"event-banner-scfb.png",
-        "description":["首次充值即可獲得寶石翻倍的獎勵，充多少送多少，媽媽再也不用擔心我的寶石了！"],
+        "description":["首次儲值即可獲得寶石翻倍的獎勵，充多少送多少，媽媽再也不用擔心我的寶石了！"],
         "mailTitle": "《首充翻倍大行動》活動獎勵",
+        "mailBody": "恭喜你完成活動，點擊領取活動獎勵！",
+        "date": "2014/12/25",
+        "dateDescription": "截止日期2014年12月25日24時",
+        // iaplist.list will modify by initCampaignTable =>{award:[{type:2,count:60}}
+        "objective" : iaplist
+    },
+    "FirstCharge": {
+        "show": true,
+        "title": "首儲好康！",
+        "banner":"event-banner-scdlb.png",
+        "description":[
+            "首次儲值任意金额即可獲首儲大禮包",
+            "***首儲大禮包內含：",
+            "##[{\"type\":0,\"value\":1583,\"count\":1},{\"type\":0,\"value\":1617,\"count\":15},{\"type\":0,\"value\":1619,\"count\":1},{\"type\":0,\"value\":1620,\"count\":1},{\"type\":0,\"value\":1621,\"count\":1},{\"type\":0,\"value\":871,\"count\":15},{\"type\":0,\"value\":540,\"count\":2},{\"type\":1,\"count\":20000}]"
+        ],
+        "mailTitle": "《首儲好康！》活動獎勵",
         "mailBody": "恭喜你完成活動，點擊領取活動獎勵！",
         "date": "2016/12/25",
         "dateDescription": "截止日期2016年12月25日24時",
@@ -370,16 +397,16 @@ exports.data = {
         "title": "免費抽獎！抽不停！",
         "banner":"event-banner-mfcj.png",
         "description": ["幸運寶箱抽取冷卻時間減半，由24小時縮減為12小時。"],
-        "date": "2015/03/05",
-        "dateDescription": "截止日期2015年3月5日24時"
+        "date": "2015/04/05",
+        "dateDescription": "截止日期2015年4月5日24時"
     },
     "lottery2": {
         "show": true,
         "title": "十一連抽大優惠！",
         "banner":"event-banner-sylc.png",
         "description": ["購買尊貴寶箱X10即可額外獲贈一次"],
-        "date": "2014/03/05",
-        "dateDescription": "截止日期2015年3月5日24時"
+        "date": "2015/04/05",
+        "dateDescription": "截止日期2015年4月5日24時"
     },
     "lottery3": {
         "show": true,
@@ -395,13 +422,12 @@ exports.data = {
     },
     "lottery4": {
         "show": true,
-        "poster":"baozang-bg2",
         "title": "限時時裝強勢來襲",
         "banner":"event-banner-xssz.png",
         "description": ["開啟尊貴寶箱均有機會獲得帥氣時裝，低概率獲得永久屬性時裝"],
-        "date": "2015/02/12",
-        "dateDescription": "截止日期2015年2月12日24時",
-        "duration":{beginTime:'2015-02-26 00:00:00',endTime:'2015-03-05 23:59:59'}
+        "date": "2015/04/05",
+        "dateDescription": "截止日期2015年4月5日24時",
+        "duration":{beginTime:'2015-02-26 00:00:00',endTime:'2015-04-05 23:59:59'}
     },
     "newYears1": {
         "show": true,
@@ -452,12 +478,12 @@ exports.data = {
         "title": "新年壕不停",
         "banner":"event-banner-xn3.png",
         "description": [
-            "充值有禮驚喜不斷（涉及獎勵 時裝碎片 萬能碎片 x手甲圖紙）",
-            "** \n活動期間充值排行第1名將獲得",
+            "儲值有禮驚喜不斷（涉及獎勵 時裝碎片 萬能碎片 x手甲圖紙）",
+            "** \n活動期間儲值排行第1名將獲得",
             "##[{\"type\":0,\"value\":1480,\"count\":1},{\"type\":0,\"value\":5,\"count\":3},{\"type\":0,\"value\":1617,\"count\":5}]",
-            "** \n充值前10名將獲得",
+            "** \n儲值前10名將獲得",
             "##[{\"type\":0,\"value\":5,\"count\":1},{\"type\":0,\"value\":1617,\"count\":3}]",
-            "** \n充值前50名將獲得",
+            "** \n儲值前50名將獲得",
             "##[{\"type\":0,\"value\":1617,\"count\":3}]"
         ],
         "date": "2015/02/25",
@@ -479,7 +505,6 @@ exports.data = {
     },
     "newYears6": {
         "show": true,
-        "poster":"baozang-bg2-ironsuit3",
         "title": "春節新衣大放送",
         "banner":"event-banner-xn1.png",
         "description": [
@@ -493,7 +518,6 @@ exports.data = {
     },
     "newYears7": {
         "show": true,
-        "poster":"baozang-bg2-ironsuit4",
         "title": "春節新衣大放送",
         "banner":"event-banner-xn1.png",
         "description": [

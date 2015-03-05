@@ -7356,6 +7356,9 @@ exports.data = [
         {
           "type": "myMutex",
           "mutex": "master"
+        },
+        {
+          "type": "needTarget"
         }
       ],
       "targetSelection": {
@@ -20990,6 +20993,9 @@ exports.data = [
         {
           "type": "myMutex",
           "mutex": "master"
+        },
+        {
+          "type": "needTarget"
         }
       ],
       "targetSelection": {
@@ -21278,6 +21284,9 @@ exports.data = [
         {
           "type": "myMutex",
           "mutex": "minister"
+        },
+        {
+          "type": "needTarget"
         }
       ],
       "targetSelection": {
@@ -21289,8 +21298,21 @@ exports.data = [
             "length": 1,
             "startDistance": 0,
             "anchorPos": {
-              "pool": "select-block",
+              "pool": "objects",
               "filter": [
+                {
+                  "type": "alive"
+                },
+                {
+                  "type": "visible"
+                },
+                {
+                  "type": "target-faction-with-flag",
+                  "flag": "attackable"
+                },
+                {
+                  "type": "shuffle"
+                },
                 {
                   "type": "count",
                   "count": 1
@@ -23738,6 +23760,9 @@ exports.data = [
         {
           "type": "myMutex",
           "mutex": "minister"
+        },
+        {
+          "type": "needTarget"
         }
       ],
       "targetSelection": {

@@ -58266,5 +58266,87 @@ exports.data = [
 		"quality": 1,
 		"sellGem": 15,
 		"dropId": 212
+	},
+	{
+		"classId": 1631,
+		"label": "首冲大礼包",
+		"icon": "item-gift3.png",
+		"category": 0,
+		"subcategory": 0,
+		"description": "内含属性时装、复活药水、扫荡卷轴",
+		"quality": 1,
+		"prize": [
+			{
+				"type": 0,
+				"count": 1,
+				"value": 1583
+			},
+			{
+				"type": 0,
+				"count": 15,
+				"value": 1617
+			},
+			{
+				"type": 0,
+				"count": 1,
+				"value": 1619
+			},
+			{
+				"type": 0,
+				"count": 1,
+				"value": 1620
+			},
+			{
+				"type": 0,
+				"count": 1,
+				"value": 1621
+			},
+			{
+				"type": 0,
+				"count": 15,
+				"value": 871
+			},
+			{
+				"type": 0,
+				"count": 2,
+				"value": 540
+			},
+			{
+				"type": 1,
+				"count": 20000
+			}
+		],
+		"storeOnly": true
+	},
+	{
+		"classId": 1632,
+		"label": "魅惑之眼",
+		"category": 1,
+		"subcategory": 15,
+		"description": "漂亮的粉色眼睛，能够魅惑人心。",
+		"recipePrize": 210,
+		"effectf": [
+			{
+				"part": "eye",
+				"file": "avatar-3-eye-pink.ccbi"
+			},
+			{
+				"part": "brow",
+				"file": "avatar-3-brow.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "eye",
+				"file": "avatar-3-eye-pink-2.ccbi"
+			},
+			{
+				"part": "brow",
+				"file": "avatar-3-brow-2.ccbi"
+			}
+		],
+		"storeOnly": true,
+		"iconf": "rfasion-female-pink-eye.png",
+		"iconm": "rfasion-male-pink-eye.png"
 	}
 ]
