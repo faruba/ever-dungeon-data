@@ -38867,7 +38867,7 @@ exports.data = [
         },
         "collectId":184001,
         "global": [
-            {id: 211,from: 0, to: 2,dropPrize:[141]}],
+            {id: 211,from: 0, to: 2,dropPrize:[165]}],
         "levels" :[
             {
                 "objects" :[{"pool":"normalPool","from":0,to:4},
@@ -39004,7 +39004,7 @@ exports.data = [
         },
         "collectId":185001,
         "global": [
-            {id: 211,from: 0, to: 2,dropPrize:[142]}],
+            {id: 211,from: 0, to: 2,dropPrize:[166]}],
         "levels" :[
             {
                 "objects" :[{"pool":"normalPool","from":0,to:4},
@@ -39141,7 +39141,7 @@ exports.data = [
         },
         "collectId":186001,
         "global": [
-            {id: 211,from: 0, to: 2,dropPrize:[143]}],
+            {id: 211,from: 0, to: 2,dropPrize:[167]}],
         "levels" :[
             {
                 "objects" :[{"pool":"normalPool","from":0,to:4},
@@ -39278,7 +39278,7 @@ exports.data = [
         },
         "collectId":187001,
         "global": [
-            {id: 211,from: 0, to: 2,dropPrize:[144]}],
+            {id: 211,from: 0, to: 2,dropPrize:[168]}],
         "levels" :[
             {
                 "objects" :[{"pool":"normalPool","from":0,to:4},
@@ -39415,7 +39415,7 @@ exports.data = [
         },
         "collectId":188001,
         "global": [
-            {id: 211,from: 0, to: 2,dropPrize:[145]}],
+            {id: 211,from: 0, to: 2,dropPrize:[169]}],
         "levels" :[
             {
                 "objects" :[{"pool":"normalPool","from":0,to:4},
@@ -39552,7 +39552,7 @@ exports.data = [
         },
         "collectId":189001,
         "global": [
-            {id: 211,from: 0, to: 2,dropPrize:[146]}],
+            {id: 211,from: 0, to: 2,dropPrize:[170]}],
         "levels" :[
             {
                 "objects" :[{"pool":"normalPool","from":0,to:4},
@@ -39688,7 +39688,7 @@ exports.data = [
             ]}
         },
         "global": [
-            {id: 211,from: 0, to: 2,dropPrize:[147]}],
+            {id: 211,from: 0, to: 2,dropPrize:[171]}],
         "levels" :[
             {
                 "objects" :[{"pool":"normalPool","from":0,to:4},
