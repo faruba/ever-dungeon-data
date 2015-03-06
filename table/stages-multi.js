@@ -824,7 +824,7 @@ var data = [
         "label":"野蛮哨站",
 		"desc":"兽人的哨站，存放着兽人抢夺村庄的战利品，\n重兵把守，勇者们几乎都是有去无回。",
 		"icon":"mapicon5.png",
-        "theme":2
+        "theme":2,
         "eliteFixCfg":[{rank:1.3,energyCost: 1.3, sweepCost:1.3,sweepPower:1.3}],
 		"stage":[
 			{
