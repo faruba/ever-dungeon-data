@@ -179,6 +179,12 @@ exports.data = {
         "sceneStageWorldReset":"重置时间：每周{#1} {#2}",
         "sceneTeammateEnough":"队友数量已经达到上限。",
         "sceneTeammateCountErr":"队友数量未达到要求。",
+        "sceneRedeemInstruction":"功能说明\n" +
+                                 "　　邀请码：每个玩家都有自己唯一的一个8位邀请码，在此页面输入他人的邀请码并提交，则视他为邀请您来到口袋地下城的介绍人。每位玩家只能绑定一名介绍人且不可更改，但能邀请多名玩家。当有玩家充值成功后，他的介绍人和所有他邀请的玩家都可以获得一定比例的宝石奖励。\n" +
+                                 "　　兑换码：在此页面输入8位兑换码并提交，可直接获得相应的奖励。兑换码可由官方各种活动提供。\n" +
+                                 "　　提醒：邀请码/兑换码为8位英文字母或数字，不区分大小写；点击上方自己的邀请码可进入编辑模式来选中并拷贝" ,
+        "sceneRedeemInviter":"邀请我的玩家：\n　　{#1}\n",
+        "sceneRedeemInvitee":"我邀请的玩家：\n　　{#1}\n",
         "settingsTel":"客服电话:0571-85133085\n邮箱:support@tringame.com\n官方QQ交流群号:121017982",
         "settingsResetData":"数据出错时请重置数据\n重置数据不会有任何损失",
         "sharedErrorMsgs0":"操作成功",//0

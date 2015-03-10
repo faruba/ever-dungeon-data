@@ -179,6 +179,12 @@ exports.data = {
         "sceneStageWorldReset":"重置時間：每周{#1} {#2}",
         "sceneTeammateEnough":"隊友數量已經達到上限。",
         "sceneTeammateCountErr":"隊友數量未達到要求。",
+        "sceneRedeemInstruction":"功能說明\n" +
+                                 "　　邀請碼：每個玩家都有自己唯一的一個8位邀請碼，在此頁面輸入他人的邀請碼並提交，則視他為邀請您來到口袋地下城的介紹人。每位玩家只能綁定一名介紹人且不可更改，但能邀請多名玩家。當有玩家儲值成功後，他的介紹人和所有他邀請的玩家都可以獲得一定比例的寶石獎勵。\n" +
+                                 "　　兌換碼：在此頁面輸入8位兌換碼並提交，可直接獲得相應的獎勵。兌換碼可由官方各種活動提供。\n" +
+                                 "　　提醒：邀請碼/兌換碼為8位英文字母或數字，不區分大小寫；點擊上方自己的邀請碼可進入編輯模式來選中並拷貝" ,
+        "sceneRedeemInviter":"邀請我的玩家：\n　　{#1}\n",
+        "sceneRedeemInvitee":"我邀請的玩家：\n　　{#1}\n",
         "settingsTel":"客服電話:0571-85133085\n郵箱:support@tringame.com\n官方QQ交流群號:121017982",
         "settingsResetData":"數據出錯時請重置數據\n重置數據不會有任何損失",
         "sharedErrorMsgs0":"操作成功",//0
