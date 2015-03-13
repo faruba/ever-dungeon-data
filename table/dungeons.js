@@ -25861,104 +25861,41 @@ exports.data = [
 
             ],
         "infinityPrize":
-            [
-                {
-                    "level":1,
+        {
+                '3':[{
                     "type":0,
                     "value":538,
                     "count": 1
-                },
-                {
-                    "level":2,
+                }],
+                '4':[{
                     "type":2,
                     "count": 5
-                },
-                {
-                    "level":5,
+                }],
+                '5':[{
                     "type":1,
                     "count": 500
-                },
-                {
-                    "level":7,
+                }],
+                '10':[{
                     "type":0,
                     "value":853,
                     "count": 2
-                },
-                {
-                    "level":9,
+                }],
+                '20':[{
                     "type":0,
                     "value":854,
                     "count": 2
-                },
-                {
+                }],
+                '30':[{
                     "level":10,
                     "type":0,
                     "value":855,
                     "count": 2
-                },
-                {
-                    "level":15,
-                    "type":1,
-                    "count": 2000
-                },
-                {
-                    "level":20,
-                    "type":0,
-                    "value":856,
-                    "count": 2
-                },
-                {
-                    "level":25,
-                    "type":0,
-                    "value":540,
-                    "count": 1
-                },
-                {
-                    "level":30,
-                    "type":0,
-                    "value":538,
-                    "count": 1
-                },
-                {
-                    "level":35,
-                    "type":1,
-                    "count": 5500
-                },
-                {
-                    "level":45,
-                    "type":2,
-                    "count": 10
-                },
-                {
-                    "level":55,
-                    "type":2,
-                    "count": 10
-                },
-                {
-                    "level":65,
-                    "type":2,
-                    "count": 10
-                },
-                {
-                    "level":75,
-                    "type":2,
-                    "count": 15
-                },
-                {
-                    "level":85,
-                    "type":2,
-                    "count": 15
-                },
-                {
-                    "level":95,
-                    "type":2,
-                    "count": 15
-                }
-            ],
+                }],
+        },
         "infinity_a":0,
         "infinity_b":0,
-        "prizeWxp":0,"prizeGold":0, "prizeXp":0,
-        "wxpRate":1,"goldRate":0.5, "xpRate":1,
+        "prizeWxp":1,"prizeGold":100, "prizeXp":0,
+        //"wxpRate":0,"goldRate":0, "xpRate":0,
         "rank":15
     },
     {
