@@ -24,17 +24,21 @@ TABLE_CAMPAIGN = "campaigns";
 TABLE_VIP = "vip";
 TABLE_TRIGGER = "triggers";
 TABLE_BROADCAST = "broadcast";
+TABLE_TUTORIAL = "tutorialList";
+TABLE_TUTORIAL_CONFIG = "tutorialConfig";
+TABLE_BAN = "bans";
 TABLE_LEADBOARD = "leadboard";
 TABLE_FACTION = "faction";
 TABLE_COSTS = "costs";
 TABLE_DP = "dailyPrize";
 TABLE_ARENA = "arena";
-TABLE_BOUNTY = "bounty";
-TABLE_IAP = "iaplist";
+TABLE_LOCALIZE = "localize";
+TABLE_PRELOAD = "preload";
+TABLE_IAPLIST = "iaplist";
 TABLE_SERVERLIST = "serverlist";
 TABLE_PKREWARD = "pkReward";
-TABLE_LOCALIZE = "localize";
 TABLE_FRAGMENT = "fragment";
+TABLE_BOUNTY = "bounty";
 TABLE_UNIT = "units";
 /*** GAME CONSTANTS ***/
 ItemId_RevivePotion = 540;
@@ -163,12 +167,13 @@ ErrorMsgs = [
     "缺少材料",
     "付费信息错误，请联系工作人员",
     "战斗力不足",
-    "挑战次数以用尽",//50
+    "挑战次数已用尽",//50
     "无法领取PK奖励",
     "奖励已领取",
     "任务不存在",
     "任务未领取",
-    "任务未完成",//55
+    //"任务未完成\n可能是由于数据未同步，请尝试点\n击设置界面中的清空数据缓存按钮",//55
+    "任务未完成\n即将进行数据同步",//55
     "任务已完成",
     "使用物品失败",
     "目标不存在",
@@ -179,8 +184,10 @@ ErrorMsgs = [
     "获取排名信息失败",
     "商店版本不匹配",
     "参数不正确",
-    "you have already sent this message",
-    "Revive Limit ",
+	"请求已发送",
+	"复活次数已用尽",
+	"购买体力次数已用尽",
+    "兑换失败"
 ];
 
 /*** ITEM CATEGORY ***/
@@ -210,6 +217,10 @@ EquipSlot_StoreHead = 13;//头盔
 EquipSlot_StoreHair = 14;//发型
 EquipSlot_StoreGear = 15;//头饰
 EquipSlot_StoreBack = 16;//背部
+EquipSlot_StoreHallows = 17;//圣器
+EquipSlot_StoreGlasses = 18;//眼镜
+EquipSlot_StoreArms = 19;//护臂
+EquipSlot_StoreLegs = 20;//腿甲
 
 /*** 装备类型 ***/
 ITEMSTATUS_NONE = 0;
@@ -273,6 +284,10 @@ MonthCardID = 8;
 QUESTSTATUS_ONGOING = 0;
 QUESTSTATUS_COMPLETE = 1;
 
+/*** Bounty Status ***/
+BOUNTYSTATUS_ONGOING = 0;
+BOUNTYSTATUS_COMPLETE = 1;
+
 /*** Prize Type ***/
 PRIZETYPE_ITEM = 0;
 PRIZETYPE_GOLD = 1;
@@ -331,3 +346,46 @@ Global_Card_Drop_Config = {
   ]
 };
 
+EquipSlotDesc = [
+        "主武器",//0
+        "副武器",
+        "胸甲",
+        "戒指",
+        "腿甲",
+        "饰品",//5
+        "脸部",
+        "眼部",
+        "眉毛",
+        "头发",
+        "主手装饰",//10
+        "副手装饰",
+        "外套",
+        "头盔",
+        "发型",
+        "头饰",//15
+        "翅膀",
+        "圣器",
+        "眼镜",
+        "护臂",
+        "腿甲"
+    ];
+
+ServerPropertyTable ={
+        health: "生命",
+        speed: "速度",
+        attack: "攻击",
+        critical: "暴击",
+        strong: "韧性",
+        accuracy: "命中",
+        reactivity: "反应"
+    };
+
+Rate_Gold_Diamond = 10/1;
+
+CONFIG_FOR_BIN = {
+    teebikGuestLogin: true,
+    transformEnabled: true,
+    treasureLottery: true
+};
+
+DEF_CHANNEL = "AppStore";
