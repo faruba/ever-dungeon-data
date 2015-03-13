@@ -27113,7 +27113,7 @@ exports.data = [
 		"description": "能够提炼铁的原石",
 		"stack": 99,
 		"sellprice": 100,
-		"quality": 1
+		"quality": 0
 	},
 	{
 		"classId": 814,
@@ -27124,7 +27124,7 @@ exports.data = [
 		"description": "闪耀着绿色光芒的晶石",
 		"stack": 99,
 		"sellprice": 100,
-		"quality": 1
+		"quality": 0
 	},
 	{
 		"classId": 815,
@@ -27135,7 +27135,7 @@ exports.data = [
 		"description": "蕴含魔力的碎块",
 		"stack": 99,
 		"sellprice": 100,
-		"quality": 1
+		"quality": 0
 	},
 	{
 		"classId": 816,
@@ -27146,7 +27146,7 @@ exports.data = [
 		"description": "写有内容的羊皮纸卷轴",
 		"stack": 99,
 		"sellprice": 100,
-		"quality": 1
+		"quality": 0
 	},
 	{
 		"classId": 817,
@@ -27157,7 +27157,7 @@ exports.data = [
 		"description": "亚麻制成的绳子",
 		"stack": 99,
 		"sellprice": 100,
-		"quality": 1
+		"quality": 0
 	},
 	{
 		"classId": 818,
@@ -27168,7 +27168,7 @@ exports.data = [
 		"description": "整个的木块，是上好的原料",
 		"stack": 99,
 		"sellprice": 100,
-		"quality": 1
+		"quality": 0
 	},
 	{
 		"classId": 819,
@@ -27179,7 +27179,7 @@ exports.data = [
 		"description": "野兽身上拔下的皮毛",
 		"stack": 99,
 		"sellprice": 100,
-		"quality": 1
+		"quality": 0
 	},
 	{
 		"classId": 820,
@@ -27190,7 +27190,7 @@ exports.data = [
 		"description": "有些许锈蚀的金属块",
 		"stack": 99,
 		"sellprice": 100,
-		"quality": 1
+		"quality": 0
 	},
 	{
 		"classId": 821,
@@ -27201,7 +27201,7 @@ exports.data = [
 		"description": "写有神秘魔法的书籍",
 		"stack": 99,
 		"sellprice": 100,
-		"quality": 1
+		"quality": 0
 	},
 	{
 		"classId": 822,
@@ -27212,7 +27212,7 @@ exports.data = [
 		"description": "晶莹剔透的玻璃瓶子",
 		"stack": 99,
 		"sellprice": 100,
-		"quality": 1
+		"quality": 0
 	},
 	{
 		"classId": 823,
@@ -27223,7 +27223,7 @@ exports.data = [
 		"description": "秘银制成的精巧吊坠",
 		"stack": 99,
 		"sellprice": 100,
-		"quality": 1
+		"quality": 0
 	},
 	{
 		"classId": 824,
@@ -27234,7 +27234,7 @@ exports.data = [
 		"description": "制作非常精美的胸针",
 		"stack": 99,
 		"sellprice": 200,
-		"quality": 2
+		"quality": 0
 	},
 	{
 		"classId": 825,
@@ -27245,7 +27245,7 @@ exports.data = [
 		"description": "顶级的蚕丝，摸上去非常柔顺",
 		"stack": 99,
 		"sellprice": 200,
-		"quality": 2
+		"quality": 0
 	},
 	{
 		"classId": 826,
@@ -27256,7 +27256,7 @@ exports.data = [
 		"description": "精炼过的钢铁，性能优越",
 		"stack": 99,
 		"sellprice": 200,
-		"quality": 2
+		"quality": 0
 	},
 	{
 		"classId": 827,
@@ -27267,7 +27267,7 @@ exports.data = [
 		"description": "古老的神秘卷轴蕴含着强大的魔力",
 		"stack": 99,
 		"sellprice": 200,
-		"quality": 2
+		"quality": 0
 	},
 	{
 		"classId": 828,
@@ -27278,7 +27278,7 @@ exports.data = [
 		"description": "陨石坑中发现的结晶，十分稀有",
 		"stack": 99,
 		"sellprice": 200,
-		"quality": 2
+		"quality": 0
 	},
 	{
 		"classId": 829,
@@ -27289,7 +27289,7 @@ exports.data = [
 		"description": "蕴含魔力的宝石",
 		"stack": 99,
 		"sellprice": 200,
-		"quality": 2
+		"quality": 0
 	},
 	{
 		"classId": 830,
@@ -27300,7 +27300,7 @@ exports.data = [
 		"description": "红杉的纸条，精美且耐用",
 		"stack": 99,
 		"sellprice": 200,
-		"quality": 2
+		"quality": 0
 	},
 	{
 		"classId": 831,
@@ -27311,7 +27311,7 @@ exports.data = [
 		"description": "古老大树的根部，经得住岁月的侵蚀",
 		"stack": 99,
 		"sellprice": 200,
-		"quality": 2
+		"quality": 0
 	},
 	{
 		"classId": 832,
@@ -27322,7 +27322,7 @@ exports.data = [
 		"description": "不断冒出火星的神奇花朵",
 		"stack": 99,
 		"sellprice": 200,
-		"quality": 2
+		"quality": 0
 	},
 	{
 		"classId": 833,
@@ -27333,7 +27333,7 @@ exports.data = [
 		"description": "蕴含魔力的金块，是地精们的宝物",
 		"stack": 99,
 		"sellprice": 200,
-		"quality": 2
+		"quality": 0
 	},
 	{
 		"classId": 834,
@@ -27344,7 +27344,7 @@ exports.data = [
 		"description": "可以看到七种颜色的宝珠，蕴含强大的魔力",
 		"stack": 99,
 		"sellprice": 200,
-		"quality": 2
+		"quality": 0
 	},
 	{
 		"classId": 835,
@@ -27355,7 +27355,7 @@ exports.data = [
 		"description": "写有神圣经文的宝书，能够驱散黑暗",
 		"stack": 99,
 		"sellprice": 200,
-		"quality": 2
+		"quality": 0
 	},
 	{
 		"classId": 836,
@@ -27366,7 +27366,7 @@ exports.data = [
 		"description": "闪烁耀眼夺目光芒的羽毛，似乎是来自天使的翅膀",
 		"stack": 99,
 		"sellprice": 200,
-		"quality": 2
+		"quality": 0
 	},
 	{
 		"classId": 837,
@@ -27377,7 +27377,7 @@ exports.data = [
 		"description": "象征帝王地位的石头",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 838,
@@ -27388,7 +27388,7 @@ exports.data = [
 		"description": "被人赞颂的荣耀勋章",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 839,
@@ -27399,7 +27399,7 @@ exports.data = [
 		"description": "记录了王者事迹的书籍",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 840,
@@ -27410,7 +27410,7 @@ exports.data = [
 		"description": "只有君主才被允许戴上的皇冠",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 841,
@@ -27421,7 +27421,7 @@ exports.data = [
 		"description": "被上古魔法封印的魔盒，里面有非常危险的东西",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 842,
@@ -27432,7 +27432,7 @@ exports.data = [
 		"description": "与恶魔签订契约过的心脏，蕴含着强大的魔力",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 843,
@@ -27443,7 +27443,7 @@ exports.data = [
 		"description": "证明王者的印记，拥有号令天下的能力",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 844,
@@ -27454,7 +27454,7 @@ exports.data = [
 		"description": "从地狱火山喷发出来的石头，传说是恶魔的配饰",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 845,
@@ -27465,7 +27465,7 @@ exports.data = [
 		"description": "远古战争留下的灵魂，拥有巨大怨念以及难以想象的魔力",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 846,
@@ -27476,7 +27476,7 @@ exports.data = [
 		"description": "蕴含灵魂能量的神秘宝石",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 847,
@@ -27487,7 +27487,7 @@ exports.data = [
 		"description": "闪耀着神秘光芒的缎带",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 848,
@@ -27498,7 +27498,7 @@ exports.data = [
 		"description": "来自圣灵头上的皇冠，拥有非常强大的力量",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 849,
@@ -27509,7 +27509,7 @@ exports.data = [
 		"description": "从恶魔口中拔出的恶魔之牙，带有强大的魔力",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 850,
@@ -27520,7 +27520,7 @@ exports.data = [
 		"description": "几代人使用过的利刃，非常渴望鲜血",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 851,
@@ -27531,7 +27531,7 @@ exports.data = [
 		"description": "蕴含雷电力量的宝珠",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 852,
@@ -27542,7 +27542,7 @@ exports.data = [
 		"description": "凝聚魔力的精华",
 		"stack": 99,
 		"sellprice": 400,
-		"quality": 3
+		"quality": 0
 	},
 	{
 		"classId": 853,
@@ -52677,7 +52677,7 @@ exports.data = [
         "description": "具有特殊用途的宝石",
         "stack": 99,
         "sellprice": 650,
-        "quality": 1
+        "quality": 0
     },
     {
         "classId": 1431,
@@ -52688,7 +52688,7 @@ exports.data = [
         "description": "散发着清新的草木气息的晶石",
         "stack": 99,
         "sellprice": 650,
-        "quality": 1
+        "quality": 0
     },
     {
         "classId": 1432,
@@ -52699,7 +52699,7 @@ exports.data = [
         "description": "蕴含较多魔力的水晶",
         "stack": 99,
         "sellprice": 650,
-        "quality": 1
+        "quality": 0
     },
     {
         "classId": 1433,
@@ -52710,7 +52710,7 @@ exports.data = [
         "description": "可以对装备进行强化的卷轴",
         "stack": 99,
         "sellprice": 650,
-        "quality": 1
+        "quality": 0
     },
     {
         "classId": 1434,
@@ -52721,7 +52721,7 @@ exports.data = [
         "description": "附加了魔法的绳子，可以用来捕捉强大的野兽",
         "stack": 99,
         "sellprice": 650,
-        "quality": 1
+        "quality": 0
     },
     {
         "classId": 1435,
@@ -52732,7 +52732,7 @@ exports.data = [
         "description": "较好的锻造原料",
         "stack": 99,
         "sellprice": 650,
-        "quality": 1
+        "quality": 0
     },
     {
         "classId": 1436,
@@ -52743,7 +52743,7 @@ exports.data = [
         "description": "强大的法师从魔兽上剥下来的皮毛，并在上面描绘了魔纹",
         "stack": 99,
         "sellprice": 650,
-        "quality": 1
+        "quality": 0
     },
     {
         "classId": 1437,
@@ -52754,7 +52754,7 @@ exports.data = [
         "description": "精铁打造的戒指，有很大的利用价值",
         "stack": 99,
         "sellprice": 650,
-        "quality": 1
+        "quality": 0
     },
     {
         "classId": 1438,
@@ -52765,7 +52765,7 @@ exports.data = [
         "description": "记录着魔法心得的日记残页",
         "stack": 99,
         "sellprice": 650,
-        "quality": 1
+        "quality": 0
     },
     {
         "classId": 1439,
@@ -52776,7 +52776,7 @@ exports.data = [
         "description": "装有魔法师实验药剂的瓶子",
         "stack": 99,
         "sellprice": 650,
-        "quality": 1
+        "quality": 0
     },
     {
         "classId": 1440,
@@ -52787,7 +52787,7 @@ exports.data = [
         "description": "负载魔力的银质吊坠",
         "stack": 99,
         "sellprice": 850,
-        "quality": 1
+        "quality": 0
     },
     {
         "classId": 1441,
@@ -52798,7 +52798,7 @@ exports.data = [
         "description": "非常昂贵的胸针，应该是古老贵族的物品",
         "stack": 99,
         "sellprice": 850,
-        "quality": 2
+        "quality": 0
     },
     {
         "classId": 1442,
@@ -52809,7 +52809,7 @@ exports.data = [
         "description": "来自遥远东方的布料，异常珍贵",
         "stack": 99,
         "sellprice": 850,
-        "quality": 2
+        "quality": 0
     },
     {
         "classId": 1443,
@@ -52820,7 +52820,7 @@ exports.data = [
         "description": "经过千锤百炼后的金属块，十分优良的锻造材料",
         "stack": 99,
         "sellprice": 850,
-        "quality": 2
+        "quality": 0
     },
     {
         "classId": 1444,
@@ -52831,7 +52831,7 @@ exports.data = [
         "description": "邪恶法师的笔记，记录着邪恶法师所有的魔法",
         "stack": 99,
         "sellprice": 850,
-        "quality": 2
+        "quality": 0
     },
     {
         "classId": 1445,
@@ -52842,7 +52842,7 @@ exports.data = [
         "description": "蕴含着火焰的晶体，可以感受得到里面澎湃的火元素",
         "stack": 99,
         "sellprice": 850,
-        "quality": 2
+        "quality": 0
     },
     {
         "classId": 1446,
@@ -52853,7 +52853,7 @@ exports.data = [
         "description": "可怕的双头怪物的眼睛",
         "stack": 99,
         "sellprice": 850,
-        "quality": 2
+        "quality": 0
     },
     {
         "classId": 1447,
@@ -52864,7 +52864,7 @@ exports.data = [
         "description": "从远古时代就存在的老树上掉落的树枝",
         "stack": 99,
         "sellprice": 850,
-        "quality": 2
+        "quality": 0
     },
     {
         "classId": 1448,
@@ -52875,7 +52875,7 @@ exports.data = [
         "description": "生命之树的种子",
         "stack": 99,
         "sellprice": 850,
-        "quality": 2
+        "quality": 0
     },
     {
         "classId": 1449,
@@ -52886,7 +52886,7 @@ exports.data = [
         "description": "绽放时会燃起火焰的花朵",
         "stack": 99,
         "sellprice": 850,
-        "quality": 2
+        "quality": 0
     },
     {
         "classId": 1450,
@@ -52897,7 +52897,7 @@ exports.data = [
         "description": "非常稀少的锻造材料，本身就价值连城",
         "stack": 99,
         "sellprice": 850,
-        "quality": 2
+        "quality": 0
     },
     {
         "classId": 1451,
@@ -52908,7 +52908,7 @@ exports.data = [
         "description": "拥有邪恶气息的宝珠",
         "stack": 99,
         "sellprice": 850,
-        "quality": 2
+        "quality": 0
     },
     {
         "classId": 1452,
@@ -52919,7 +52919,7 @@ exports.data = [
         "description": "军事家们梦寐以求的宝典，象征着胜利和荣耀",
         "stack": 99,
         "sellprice": 850,
-        "quality": 2
+        "quality": 0
     },
     {
         "classId": 1453,
@@ -52930,7 +52930,7 @@ exports.data = [
         "description": "传说中不死鸟掉落的羽毛，蕴含强大的力量",
         "stack": 99,
         "sellprice": 850,
-        "quality": 2
+        "quality": 0
     },
     {
         "classId": 1454,
@@ -52941,7 +52941,7 @@ exports.data = [
         "description": "能吸收月光力量的神秘宝石",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1455,
@@ -52952,7 +52952,7 @@ exports.data = [
         "description": "能力的证明，象征着拥有战胜龙的力量",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1456,
@@ -52963,7 +52963,7 @@ exports.data = [
         "description": "能给人们带来温暖的圣书，象征着希望",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1457,
@@ -52974,7 +52974,7 @@ exports.data = [
         "description": "历史上唯一一位女皇的皇冠",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1458,
@@ -52985,7 +52985,7 @@ exports.data = [
         "description": "传说中打开后能释放人世间所有的邪恶的盒子",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1459,
@@ -52996,7 +52996,7 @@ exports.data = [
         "description": "据说是强大恶魔的心脏，拥有强大的力量",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1460,
@@ -53007,7 +53007,7 @@ exports.data = [
         "description": "能统帅千军万马的腰牌，拥有无上权威",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1461,
@@ -53018,7 +53018,7 @@ exports.data = [
         "description": "蕴含着诡异气息的宝石，具有毁灭一切的力量",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1462,
@@ -53029,7 +53029,7 @@ exports.data = [
         "description": "远古时期邪恶的法师为了获得强大力量而用来在战场上收集灵魂的珠子",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1463,
@@ -53040,7 +53040,7 @@ exports.data = [
         "description": "可以吸收日光的神奇宝石，能折射出耀眼的光芒",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1464,
@@ -53051,7 +53051,7 @@ exports.data = [
         "description": "连强大的龙都能束缚的缎带",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1465,
@@ -53062,7 +53062,7 @@ exports.data = [
         "description": "胜利女神的皇冠,象征着智慧与胜利",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1466,
@@ -53073,7 +53073,7 @@ exports.data = [
         "description": "消灭恶龙后获得的牙齿，依旧拥有令人心悸的气息",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1467,
@@ -53084,7 +53084,7 @@ exports.data = [
         "description": "据说是恶魔所使用的武器，不知为何遗留在地下城",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1468,
@@ -53095,7 +53095,7 @@ exports.data = [
         "description": "散发着可怕气息的珠子，据说是恶魔的眼珠",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1469,
@@ -53106,7 +53106,7 @@ exports.data = [
         "description": "装有龙的精血的瓶子",
         "stack": 99,
         "sellprice": 1050,
-        "quality": 3
+        "quality": 0
     },
     {
         "classId": 1470,
@@ -58348,5 +58348,3932 @@ exports.data = [
 		"storeOnly": true,
 		"iconf": "rfasion-female-pink-eye.png",
 		"iconm": "rfasion-male-pink-eye.png"
+	},
+	{
+		"classId": 1633,
+		"label": "猫眼石粉末",
+		"icon": "item-sjw1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "碾碎后的猫眼石",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 1
+	},
+	{
+		"classId": 1634,
+		"label": "碎铜块",
+		"icon": "item-sjw2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "碎掉的铜块",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 1
+	},
+	{
+		"classId": 1635,
+		"label": "羊皮纸残骸",
+		"icon": "item-sjw3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "羊皮纸的残页",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 1
+	},
+	{
+		"classId": 1636,
+		"label": "碎木头",
+		"icon": "item-sjw4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "零碎的木头",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 1
+	},
+	{
+		"classId": 1637,
+		"label": "魔力粉末",
+		"icon": "item-sjw5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的小粉末",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 1
+	},
+	{
+		"classId": 1638,
+		"label": "破碎布料",
+		"icon": "item-sjw6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "用剩下的布匹",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 1
+	},
+	{
+		"classId": 1639,
+		"label": "残旧麻绳",
+		"icon": "item-sjw7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "已经老化的麻绳",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 1
+	},
+	{
+		"classId": 1640,
+		"label": "银叶草",
+		"icon": "item-sjw8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "常见的植物",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 1
+	},
+	{
+		"classId": 1641,
+		"label": "破旧金属",
+		"icon": "item-sjw9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "已经锈迹斑斑的金属",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 1
+	},
+	{
+		"classId": 1642,
+		"label": "水晶碎石",
+		"icon": "item-sjw10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "水晶的碎片",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 1
+	},
+	{
+		"classId": 1643,
+		"label": "残破战旗",
+		"icon": "item-sjw11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "破旧的战旗，能够看出岁月的痕迹",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 1
+	},
+	{
+		"classId": 1644,
+		"label": "铁矿石",
+		"icon": "item-sjg1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能够提炼铁的原石",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 1
+	},
+	{
+		"classId": 1645,
+		"label": "绿水晶",
+		"icon": "item-sjg2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "闪耀着绿色光芒的晶石",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 1
+	},
+	{
+		"classId": 1646,
+		"label": "魔法碎块",
+		"icon": "item-sjg3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的碎块",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 1
+	},
+	{
+		"classId": 1647,
+		"label": "羊皮卷轴",
+		"icon": "item-sjg4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "写有内容的羊皮纸卷轴",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 1
+	},
+	{
+		"classId": 1648,
+		"label": "亚麻绳",
+		"icon": "item-sjg5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "亚麻制成的绳子",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 1
+	},
+	{
+		"classId": 1649,
+		"label": "木块",
+		"icon": "item-sjg6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "整个的木块，是上好的原料",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 1
+	},
+	{
+		"classId": 1650,
+		"label": "兽皮",
+		"icon": "item-sjg7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "野兽身上拔下的皮毛",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 1
+	},
+	{
+		"classId": 1651,
+		"label": "锈蚀金属块",
+		"icon": "item-sjg8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "有些许锈蚀的金属块",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 1
+	},
+	{
+		"classId": 1652,
+		"label": "魔法书残页",
+		"icon": "item-sjg9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "写有神秘魔法的书籍",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 1
+	},
+	{
+		"classId": 1653,
+		"label": "玻璃瓶",
+		"icon": "item-sjg10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "晶莹剔透的玻璃瓶子",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 1
+	},
+	{
+		"classId": 1654,
+		"label": "秘银吊坠",
+		"icon": "item-sjg11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "秘银制成的精巧吊坠",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 1
+	},
+	{
+		"classId": 1655,
+		"label": "精巧胸针",
+		"icon": "item-sjb1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "制作非常精美的胸针",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 1
+	},
+	{
+		"classId": 1656,
+		"label": "天蚕丝",
+		"icon": "item-sjb2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "顶级的蚕丝，摸上去非常柔顺",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 1
+	},
+	{
+		"classId": 1657,
+		"label": "精钢",
+		"icon": "item-sjb3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "精炼过的钢铁，性能优越",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 1
+	},
+	{
+		"classId": 1658,
+		"label": "神秘卷轴",
+		"icon": "item-sjb4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "古老的神秘卷轴蕴含着强大的魔力",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 1
+	},
+	{
+		"classId": 1659,
+		"label": "星辰结晶",
+		"icon": "item-sjb5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "陨石坑中发现的结晶，十分稀有",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 1
+	},
+	{
+		"classId": 1660,
+		"label": "魔法宝石",
+		"icon": "item-sjb6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的宝石",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 1
+	},
+	{
+		"classId": 1661,
+		"label": "红衫木",
+		"icon": "item-sjb7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "红杉的纸条，精美且耐用",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 1
+	},
+	{
+		"classId": 1662,
+		"label": "古树之根",
+		"icon": "item-sjb8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "古老大树的根部，经得住岁月的侵蚀",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 1
+	},
+	{
+		"classId": 1663,
+		"label": "火焰花",
+		"icon": "item-sjb9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "不断冒出火星的神奇花朵",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 1
+	},
+	{
+		"classId": 1664,
+		"label": "魔力金块",
+		"icon": "item-sjb10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的金块，是地精们的宝物",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 1
+	},
+	{
+		"classId": 1665,
+		"label": "七色宝珠",
+		"icon": "item-sjb11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "可以看到七种颜色的宝珠，蕴含强大的魔力",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 1
+	},
+	{
+		"classId": 1666,
+		"label": "神圣之书",
+		"icon": "item-sjb12.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "写有神圣经文的宝书，能够驱散黑暗",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 1
+	},
+	{
+		"classId": 1667,
+		"label": "光之羽毛",
+		"icon": "item-sjb13.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "闪烁耀眼夺目光芒的羽毛，似乎是来自天使的翅膀",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 1
+	},
+	{
+		"classId": 1668,
+		"label": "帝王石",
+		"icon": "item-sjp1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "象征帝王地位的石头",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1669,
+		"label": "辉煌勋章",
+		"icon": "item-sjp2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "被人赞颂的荣耀勋章",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1670,
+		"label": "王者之书",
+		"icon": "item-sjp3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "记录了王者事迹的书籍",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1671,
+		"label": "君主皇冠",
+		"icon": "item-sjp4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "只有君主才被允许戴上的皇冠",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1672,
+		"label": "封印魔盒",
+		"icon": "item-sjp5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "被上古魔法封印的魔盒，里面有非常危险的东西",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1673,
+		"label": "罪恶之心",
+		"icon": "item-sjp6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "与恶魔签订契约过的心脏，蕴含着强大的魔力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1674,
+		"label": "王者印记",
+		"icon": "item-sjp7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "证明王者的印记，拥有号令天下的能力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1675,
+		"label": "地狱之石",
+		"icon": "item-sjp8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "从地狱火山喷发出来的石头，传说是恶魔的配饰",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1676,
+		"label": "战争之灵",
+		"icon": "item-sjp9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "远古战争留下的灵魂，拥有巨大怨念以及难以想象的魔力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1677,
+		"label": "灵魂宝石",
+		"icon": "item-sjp10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含灵魂能量的神秘宝石",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1678,
+		"label": "神秘缎带",
+		"icon": "item-sjp11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "闪耀着神秘光芒的缎带",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1679,
+		"label": "圣灵头冠",
+		"icon": "item-sjp12.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "来自圣灵头上的皇冠，拥有非常强大的力量",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1680,
+		"label": "恶魔之牙",
+		"icon": "item-sjp13.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "从恶魔口中拔出的恶魔之牙，带有强大的魔力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1681,
+		"label": "嗜血利刃",
+		"icon": "item-sjp14.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "几代人使用过的利刃，非常渴望鲜血",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1682,
+		"label": "雷霆宝珠",
+		"icon": "item-sjp15.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含雷电力量的宝珠",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1683,
+		"label": "魔法精华",
+		"icon": "item-sjp16.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "凝聚魔力的精华",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 1
+	},
+	{
+		"classId": 1684,
+		"label": "猫眼石粉末",
+		"icon": "item-sjw1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "碾碎后的猫眼石",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 2
+	},
+	{
+		"classId": 1685,
+		"label": "碎铜块",
+		"icon": "item-sjw2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "碎掉的铜块",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 2
+	},
+	{
+		"classId": 1686,
+		"label": "羊皮纸残骸",
+		"icon": "item-sjw3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "羊皮纸的残页",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 2
+	},
+	{
+		"classId": 1687,
+		"label": "碎木头",
+		"icon": "item-sjw4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "零碎的木头",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 2
+	},
+	{
+		"classId": 1688,
+		"label": "魔力粉末",
+		"icon": "item-sjw5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的小粉末",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 2
+	},
+	{
+		"classId": 1689,
+		"label": "破碎布料",
+		"icon": "item-sjw6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "用剩下的布匹",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 2
+	},
+	{
+		"classId": 1690,
+		"label": "残旧麻绳",
+		"icon": "item-sjw7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "已经老化的麻绳",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 2
+	},
+	{
+		"classId": 1691,
+		"label": "银叶草",
+		"icon": "item-sjw8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "常见的植物",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 2
+	},
+	{
+		"classId": 1692,
+		"label": "破旧金属",
+		"icon": "item-sjw9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "已经锈迹斑斑的金属",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 2
+	},
+	{
+		"classId": 1693,
+		"label": "水晶碎石",
+		"icon": "item-sjw10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "水晶的碎片",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 2
+	},
+	{
+		"classId": 1694,
+		"label": "残破战旗",
+		"icon": "item-sjw11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "破旧的战旗，能够看出岁月的痕迹",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 2
+	},
+	{
+		"classId": 1695,
+		"label": "铁矿石",
+		"icon": "item-sjg1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能够提炼铁的原石",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 2
+	},
+	{
+		"classId": 1696,
+		"label": "绿水晶",
+		"icon": "item-sjg2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "闪耀着绿色光芒的晶石",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 2
+	},
+	{
+		"classId": 1697,
+		"label": "魔法碎块",
+		"icon": "item-sjg3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的碎块",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 2
+	},
+	{
+		"classId": 1698,
+		"label": "羊皮卷轴",
+		"icon": "item-sjg4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "写有内容的羊皮纸卷轴",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 2
+	},
+	{
+		"classId": 1699,
+		"label": "亚麻绳",
+		"icon": "item-sjg5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "亚麻制成的绳子",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 2
+	},
+	{
+		"classId": 1700,
+		"label": "木块",
+		"icon": "item-sjg6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "整个的木块，是上好的原料",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 2
+	},
+	{
+		"classId": 1701,
+		"label": "兽皮",
+		"icon": "item-sjg7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "野兽身上拔下的皮毛",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 2
+	},
+	{
+		"classId": 1702,
+		"label": "锈蚀金属块",
+		"icon": "item-sjg8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "有些许锈蚀的金属块",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 2
+	},
+	{
+		"classId": 1703,
+		"label": "魔法书残页",
+		"icon": "item-sjg9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "写有神秘魔法的书籍",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 2
+	},
+	{
+		"classId": 1704,
+		"label": "玻璃瓶",
+		"icon": "item-sjg10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "晶莹剔透的玻璃瓶子",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 2
+	},
+	{
+		"classId": 1705,
+		"label": "秘银吊坠",
+		"icon": "item-sjg11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "秘银制成的精巧吊坠",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 2
+	},
+	{
+		"classId": 1706,
+		"label": "精巧胸针",
+		"icon": "item-sjb1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "制作非常精美的胸针",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 2
+	},
+	{
+		"classId": 1707,
+		"label": "天蚕丝",
+		"icon": "item-sjb2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "顶级的蚕丝，摸上去非常柔顺",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 2
+	},
+	{
+		"classId": 1708,
+		"label": "精钢",
+		"icon": "item-sjb3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "精炼过的钢铁，性能优越",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 2
+	},
+	{
+		"classId": 1709,
+		"label": "神秘卷轴",
+		"icon": "item-sjb4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "古老的神秘卷轴蕴含着强大的魔力",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 2
+	},
+	{
+		"classId": 1710,
+		"label": "星辰结晶",
+		"icon": "item-sjb5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "陨石坑中发现的结晶，十分稀有",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 2
+	},
+	{
+		"classId": 1711,
+		"label": "魔法宝石",
+		"icon": "item-sjb6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的宝石",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 2
+	},
+	{
+		"classId": 1712,
+		"label": "红衫木",
+		"icon": "item-sjb7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "红杉的纸条，精美且耐用",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 2
+	},
+	{
+		"classId": 1713,
+		"label": "古树之根",
+		"icon": "item-sjb8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "古老大树的根部，经得住岁月的侵蚀",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 2
+	},
+	{
+		"classId": 1714,
+		"label": "火焰花",
+		"icon": "item-sjb9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "不断冒出火星的神奇花朵",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 2
+	},
+	{
+		"classId": 1715,
+		"label": "魔力金块",
+		"icon": "item-sjb10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的金块，是地精们的宝物",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 2
+	},
+	{
+		"classId": 1716,
+		"label": "七色宝珠",
+		"icon": "item-sjb11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "可以看到七种颜色的宝珠，蕴含强大的魔力",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 2
+	},
+	{
+		"classId": 1717,
+		"label": "神圣之书",
+		"icon": "item-sjb12.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "写有神圣经文的宝书，能够驱散黑暗",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 2
+	},
+	{
+		"classId": 1718,
+		"label": "光之羽毛",
+		"icon": "item-sjb13.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "闪烁耀眼夺目光芒的羽毛，似乎是来自天使的翅膀",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 2
+	},
+	{
+		"classId": 1719,
+		"label": "帝王石",
+		"icon": "item-sjp1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "象征帝王地位的石头",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1720,
+		"label": "辉煌勋章",
+		"icon": "item-sjp2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "被人赞颂的荣耀勋章",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1721,
+		"label": "王者之书",
+		"icon": "item-sjp3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "记录了王者事迹的书籍",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1722,
+		"label": "君主皇冠",
+		"icon": "item-sjp4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "只有君主才被允许戴上的皇冠",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1723,
+		"label": "封印魔盒",
+		"icon": "item-sjp5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "被上古魔法封印的魔盒，里面有非常危险的东西",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1724,
+		"label": "罪恶之心",
+		"icon": "item-sjp6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "与恶魔签订契约过的心脏，蕴含着强大的魔力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1725,
+		"label": "王者印记",
+		"icon": "item-sjp7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "证明王者的印记，拥有号令天下的能力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1726,
+		"label": "地狱之石",
+		"icon": "item-sjp8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "从地狱火山喷发出来的石头，传说是恶魔的配饰",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1727,
+		"label": "战争之灵",
+		"icon": "item-sjp9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "远古战争留下的灵魂，拥有巨大怨念以及难以想象的魔力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1728,
+		"label": "灵魂宝石",
+		"icon": "item-sjp10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含灵魂能量的神秘宝石",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1729,
+		"label": "神秘缎带",
+		"icon": "item-sjp11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "闪耀着神秘光芒的缎带",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1730,
+		"label": "圣灵头冠",
+		"icon": "item-sjp12.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "来自圣灵头上的皇冠，拥有非常强大的力量",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1731,
+		"label": "恶魔之牙",
+		"icon": "item-sjp13.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "从恶魔口中拔出的恶魔之牙，带有强大的魔力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1732,
+		"label": "嗜血利刃",
+		"icon": "item-sjp14.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "几代人使用过的利刃，非常渴望鲜血",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1733,
+		"label": "雷霆宝珠",
+		"icon": "item-sjp15.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含雷电力量的宝珠",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1734,
+		"label": "魔法精华",
+		"icon": "item-sjp16.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "凝聚魔力的精华",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 2
+	},
+	{
+		"classId": 1735,
+		"label": "猫眼石粉末",
+		"icon": "item-sjw1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "碾碎后的猫眼石",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 3
+	},
+	{
+		"classId": 1736,
+		"label": "碎铜块",
+		"icon": "item-sjw2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "碎掉的铜块",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 3
+	},
+	{
+		"classId": 1737,
+		"label": "羊皮纸残骸",
+		"icon": "item-sjw3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "羊皮纸的残页",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 3
+	},
+	{
+		"classId": 1738,
+		"label": "碎木头",
+		"icon": "item-sjw4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "零碎的木头",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 3
+	},
+	{
+		"classId": 1739,
+		"label": "魔力粉末",
+		"icon": "item-sjw5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的小粉末",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 3
+	},
+	{
+		"classId": 1740,
+		"label": "破碎布料",
+		"icon": "item-sjw6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "用剩下的布匹",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 3
+	},
+	{
+		"classId": 1741,
+		"label": "残旧麻绳",
+		"icon": "item-sjw7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "已经老化的麻绳",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 3
+	},
+	{
+		"classId": 1742,
+		"label": "银叶草",
+		"icon": "item-sjw8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "常见的植物",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 3
+	},
+	{
+		"classId": 1743,
+		"label": "破旧金属",
+		"icon": "item-sjw9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "已经锈迹斑斑的金属",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 3
+	},
+	{
+		"classId": 1744,
+		"label": "水晶碎石",
+		"icon": "item-sjw10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "水晶的碎片",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 3
+	},
+	{
+		"classId": 1745,
+		"label": "残破战旗",
+		"icon": "item-sjw11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "破旧的战旗，能够看出岁月的痕迹",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 3
+	},
+	{
+		"classId": 1746,
+		"label": "铁矿石",
+		"icon": "item-sjg1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能够提炼铁的原石",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 3
+	},
+	{
+		"classId": 1747,
+		"label": "绿水晶",
+		"icon": "item-sjg2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "闪耀着绿色光芒的晶石",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 3
+	},
+	{
+		"classId": 1748,
+		"label": "魔法碎块",
+		"icon": "item-sjg3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的碎块",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 3
+	},
+	{
+		"classId": 1749,
+		"label": "羊皮卷轴",
+		"icon": "item-sjg4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "写有内容的羊皮纸卷轴",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 3
+	},
+	{
+		"classId": 1750,
+		"label": "亚麻绳",
+		"icon": "item-sjg5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "亚麻制成的绳子",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 3
+	},
+	{
+		"classId": 1751,
+		"label": "木块",
+		"icon": "item-sjg6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "整个的木块，是上好的原料",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 3
+	},
+	{
+		"classId": 1752,
+		"label": "兽皮",
+		"icon": "item-sjg7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "野兽身上拔下的皮毛",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 3
+	},
+	{
+		"classId": 1753,
+		"label": "锈蚀金属块",
+		"icon": "item-sjg8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "有些许锈蚀的金属块",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 3
+	},
+	{
+		"classId": 1754,
+		"label": "魔法书残页",
+		"icon": "item-sjg9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "写有神秘魔法的书籍",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 3
+	},
+	{
+		"classId": 1755,
+		"label": "玻璃瓶",
+		"icon": "item-sjg10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "晶莹剔透的玻璃瓶子",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 3
+	},
+	{
+		"classId": 1756,
+		"label": "秘银吊坠",
+		"icon": "item-sjg11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "秘银制成的精巧吊坠",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 3
+	},
+	{
+		"classId": 1757,
+		"label": "精巧胸针",
+		"icon": "item-sjb1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "制作非常精美的胸针",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 3
+	},
+	{
+		"classId": 1758,
+		"label": "天蚕丝",
+		"icon": "item-sjb2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "顶级的蚕丝，摸上去非常柔顺",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 3
+	},
+	{
+		"classId": 1759,
+		"label": "精钢",
+		"icon": "item-sjb3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "精炼过的钢铁，性能优越",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 3
+	},
+	{
+		"classId": 1760,
+		"label": "神秘卷轴",
+		"icon": "item-sjb4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "古老的神秘卷轴蕴含着强大的魔力",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 3
+	},
+	{
+		"classId": 1761,
+		"label": "星辰结晶",
+		"icon": "item-sjb5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "陨石坑中发现的结晶，十分稀有",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 3
+	},
+	{
+		"classId": 1762,
+		"label": "魔法宝石",
+		"icon": "item-sjb6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的宝石",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 3
+	},
+	{
+		"classId": 1763,
+		"label": "红衫木",
+		"icon": "item-sjb7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "红杉的纸条，精美且耐用",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 3
+	},
+	{
+		"classId": 1764,
+		"label": "古树之根",
+		"icon": "item-sjb8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "古老大树的根部，经得住岁月的侵蚀",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 3
+	},
+	{
+		"classId": 1765,
+		"label": "火焰花",
+		"icon": "item-sjb9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "不断冒出火星的神奇花朵",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 3
+	},
+	{
+		"classId": 1766,
+		"label": "魔力金块",
+		"icon": "item-sjb10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的金块，是地精们的宝物",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 3
+	},
+	{
+		"classId": 1767,
+		"label": "七色宝珠",
+		"icon": "item-sjb11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "可以看到七种颜色的宝珠，蕴含强大的魔力",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 3
+	},
+	{
+		"classId": 1768,
+		"label": "神圣之书",
+		"icon": "item-sjb12.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "写有神圣经文的宝书，能够驱散黑暗",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 3
+	},
+	{
+		"classId": 1769,
+		"label": "光之羽毛",
+		"icon": "item-sjb13.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "闪烁耀眼夺目光芒的羽毛，似乎是来自天使的翅膀",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 3
+	},
+	{
+		"classId": 1770,
+		"label": "帝王石",
+		"icon": "item-sjp1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "象征帝王地位的石头",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1771,
+		"label": "辉煌勋章",
+		"icon": "item-sjp2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "被人赞颂的荣耀勋章",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1772,
+		"label": "王者之书",
+		"icon": "item-sjp3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "记录了王者事迹的书籍",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1773,
+		"label": "君主皇冠",
+		"icon": "item-sjp4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "只有君主才被允许戴上的皇冠",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1774,
+		"label": "封印魔盒",
+		"icon": "item-sjp5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "被上古魔法封印的魔盒，里面有非常危险的东西",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1775,
+		"label": "罪恶之心",
+		"icon": "item-sjp6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "与恶魔签订契约过的心脏，蕴含着强大的魔力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1776,
+		"label": "王者印记",
+		"icon": "item-sjp7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "证明王者的印记，拥有号令天下的能力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1777,
+		"label": "地狱之石",
+		"icon": "item-sjp8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "从地狱火山喷发出来的石头，传说是恶魔的配饰",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1778,
+		"label": "战争之灵",
+		"icon": "item-sjp9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "远古战争留下的灵魂，拥有巨大怨念以及难以想象的魔力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1779,
+		"label": "灵魂宝石",
+		"icon": "item-sjp10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含灵魂能量的神秘宝石",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1780,
+		"label": "神秘缎带",
+		"icon": "item-sjp11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "闪耀着神秘光芒的缎带",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1781,
+		"label": "圣灵头冠",
+		"icon": "item-sjp12.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "来自圣灵头上的皇冠，拥有非常强大的力量",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1782,
+		"label": "恶魔之牙",
+		"icon": "item-sjp13.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "从恶魔口中拔出的恶魔之牙，带有强大的魔力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1783,
+		"label": "嗜血利刃",
+		"icon": "item-sjp14.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "几代人使用过的利刃，非常渴望鲜血",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1784,
+		"label": "雷霆宝珠",
+		"icon": "item-sjp15.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含雷电力量的宝珠",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1785,
+		"label": "魔法精华",
+		"icon": "item-sjp16.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "凝聚魔力的精华",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 3
+	},
+	{
+		"classId": 1786,
+		"label": "猫眼石粉末",
+		"icon": "item-sjw1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "碾碎后的猫眼石",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 4
+	},
+	{
+		"classId": 1787,
+		"label": "碎铜块",
+		"icon": "item-sjw2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "碎掉的铜块",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 4
+	},
+	{
+		"classId": 1788,
+		"label": "羊皮纸残骸",
+		"icon": "item-sjw3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "羊皮纸的残页",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 4
+	},
+	{
+		"classId": 1789,
+		"label": "碎木头",
+		"icon": "item-sjw4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "零碎的木头",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 4
+	},
+	{
+		"classId": 1790,
+		"label": "魔力粉末",
+		"icon": "item-sjw5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的小粉末",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 4
+	},
+	{
+		"classId": 1791,
+		"label": "破碎布料",
+		"icon": "item-sjw6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "用剩下的布匹",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 4
+	},
+	{
+		"classId": 1792,
+		"label": "残旧麻绳",
+		"icon": "item-sjw7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "已经老化的麻绳",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 4
+	},
+	{
+		"classId": 1793,
+		"label": "银叶草",
+		"icon": "item-sjw8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "常见的植物",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 4
+	},
+	{
+		"classId": 1794,
+		"label": "破旧金属",
+		"icon": "item-sjw9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "已经锈迹斑斑的金属",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 4
+	},
+	{
+		"classId": 1795,
+		"label": "水晶碎石",
+		"icon": "item-sjw10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "水晶的碎片",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 4
+	},
+	{
+		"classId": 1796,
+		"label": "残破战旗",
+		"icon": "item-sjw11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "破旧的战旗，能够看出岁月的痕迹",
+		"stack": 99,
+		"sellprice": 50,
+		"quality": 4
+	},
+	{
+		"classId": 1797,
+		"label": "铁矿石",
+		"icon": "item-sjg1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能够提炼铁的原石",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 4
+	},
+	{
+		"classId": 1798,
+		"label": "绿水晶",
+		"icon": "item-sjg2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "闪耀着绿色光芒的晶石",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 4
+	},
+	{
+		"classId": 1799,
+		"label": "魔法碎块",
+		"icon": "item-sjg3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的碎块",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 4
+	},
+	{
+		"classId": 1800,
+		"label": "羊皮卷轴",
+		"icon": "item-sjg4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "写有内容的羊皮纸卷轴",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 4
+	},
+	{
+		"classId": 1801,
+		"label": "亚麻绳",
+		"icon": "item-sjg5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "亚麻制成的绳子",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 4
+	},
+	{
+		"classId": 1802,
+		"label": "木块",
+		"icon": "item-sjg6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "整个的木块，是上好的原料",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 4
+	},
+	{
+		"classId": 1803,
+		"label": "兽皮",
+		"icon": "item-sjg7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "野兽身上拔下的皮毛",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 4
+	},
+	{
+		"classId": 1804,
+		"label": "锈蚀金属块",
+		"icon": "item-sjg8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "有些许锈蚀的金属块",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 4
+	},
+	{
+		"classId": 1805,
+		"label": "魔法书残页",
+		"icon": "item-sjg9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "写有神秘魔法的书籍",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 4
+	},
+	{
+		"classId": 1806,
+		"label": "玻璃瓶",
+		"icon": "item-sjg10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "晶莹剔透的玻璃瓶子",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 4
+	},
+	{
+		"classId": 1807,
+		"label": "秘银吊坠",
+		"icon": "item-sjg11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "秘银制成的精巧吊坠",
+		"stack": 99,
+		"sellprice": 100,
+		"quality": 4
+	},
+	{
+		"classId": 1808,
+		"label": "精巧胸针",
+		"icon": "item-sjb1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "制作非常精美的胸针",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 4
+	},
+	{
+		"classId": 1809,
+		"label": "天蚕丝",
+		"icon": "item-sjb2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "顶级的蚕丝，摸上去非常柔顺",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 4
+	},
+	{
+		"classId": 1810,
+		"label": "精钢",
+		"icon": "item-sjb3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "精炼过的钢铁，性能优越",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 4
+	},
+	{
+		"classId": 1811,
+		"label": "神秘卷轴",
+		"icon": "item-sjb4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "古老的神秘卷轴蕴含着强大的魔力",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 4
+	},
+	{
+		"classId": 1812,
+		"label": "星辰结晶",
+		"icon": "item-sjb5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "陨石坑中发现的结晶，十分稀有",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 4
+	},
+	{
+		"classId": 1813,
+		"label": "魔法宝石",
+		"icon": "item-sjb6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的宝石",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 4
+	},
+	{
+		"classId": 1814,
+		"label": "红衫木",
+		"icon": "item-sjb7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "红杉的纸条，精美且耐用",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 4
+	},
+	{
+		"classId": 1815,
+		"label": "古树之根",
+		"icon": "item-sjb8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "古老大树的根部，经得住岁月的侵蚀",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 4
+	},
+	{
+		"classId": 1816,
+		"label": "火焰花",
+		"icon": "item-sjb9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "不断冒出火星的神奇花朵",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 4
+	},
+	{
+		"classId": 1817,
+		"label": "魔力金块",
+		"icon": "item-sjb10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含魔力的金块，是地精们的宝物",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 4
+	},
+	{
+		"classId": 1818,
+		"label": "七色宝珠",
+		"icon": "item-sjb11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "可以看到七种颜色的宝珠，蕴含强大的魔力",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 4
+	},
+	{
+		"classId": 1819,
+		"label": "神圣之书",
+		"icon": "item-sjb12.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "写有神圣经文的宝书，能够驱散黑暗",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 4
+	},
+	{
+		"classId": 1820,
+		"label": "光之羽毛",
+		"icon": "item-sjb13.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "闪烁耀眼夺目光芒的羽毛，似乎是来自天使的翅膀",
+		"stack": 99,
+		"sellprice": 200,
+		"quality": 4
+	},
+	{
+		"classId": 1821,
+		"label": "帝王石",
+		"icon": "item-sjp1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "象征帝王地位的石头",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1822,
+		"label": "辉煌勋章",
+		"icon": "item-sjp2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "被人赞颂的荣耀勋章",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1823,
+		"label": "王者之书",
+		"icon": "item-sjp3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "记录了王者事迹的书籍",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1824,
+		"label": "君主皇冠",
+		"icon": "item-sjp4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "只有君主才被允许戴上的皇冠",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1825,
+		"label": "封印魔盒",
+		"icon": "item-sjp5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "被上古魔法封印的魔盒，里面有非常危险的东西",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1826,
+		"label": "罪恶之心",
+		"icon": "item-sjp6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "与恶魔签订契约过的心脏，蕴含着强大的魔力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1827,
+		"label": "王者印记",
+		"icon": "item-sjp7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "证明王者的印记，拥有号令天下的能力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1828,
+		"label": "地狱之石",
+		"icon": "item-sjp8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "从地狱火山喷发出来的石头，传说是恶魔的配饰",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1829,
+		"label": "战争之灵",
+		"icon": "item-sjp9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "远古战争留下的灵魂，拥有巨大怨念以及难以想象的魔力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1830,
+		"label": "灵魂宝石",
+		"icon": "item-sjp10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含灵魂能量的神秘宝石",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1831,
+		"label": "神秘缎带",
+		"icon": "item-sjp11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "闪耀着神秘光芒的缎带",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1832,
+		"label": "圣灵头冠",
+		"icon": "item-sjp12.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "来自圣灵头上的皇冠，拥有非常强大的力量",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1833,
+		"label": "恶魔之牙",
+		"icon": "item-sjp13.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "从恶魔口中拔出的恶魔之牙，带有强大的魔力",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1834,
+		"label": "嗜血利刃",
+		"icon": "item-sjp14.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "几代人使用过的利刃，非常渴望鲜血",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1835,
+		"label": "雷霆宝珠",
+		"icon": "item-sjp15.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含雷电力量的宝珠",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1836,
+		"label": "魔法精华",
+		"icon": "item-sjp16.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "凝聚魔力的精华",
+		"stack": 99,
+		"sellprice": 400,
+		"quality": 4
+	},
+	{
+		"classId": 1837,
+		"label": "狼牙粉末",
+		"icon": "item-sc1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "土狼牙齿碾碎后的粉末",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 1
+	},
+	{
+		"classId": 1838,
+		"label": "铜块",
+		"icon": "item-sc2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "一整块铜，可以用来锻造装备",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 1
+	},
+	{
+		"classId": 1839,
+		"label": "土狼皮",
+		"icon": "item-sc3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "土狼被杀死后剥下来的皮，似乎记录些什么",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 1
+	},
+	{
+		"classId": 1840,
+		"label": "普通木块",
+		"icon": "item-sc4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "一块比较好的锻造原料",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 1
+	},
+	{
+		"classId": 1841,
+		"label": "绿色粉末",
+		"icon": "item-sc5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含特殊力量的粉末",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 1
+	},
+	{
+		"classId": 1842,
+		"label": "麻布",
+		"icon": "item-sc6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "不知道被谁掉落在地下城的麻布",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 1
+	},
+	{
+		"classId": 1843,
+		"label": "结实的绳子",
+		"icon": "item-sc7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "非常结实、坚韧的绳子",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 1
+	},
+	{
+		"classId": 1844,
+		"label": "狼尾草",
+		"icon": "item-sc8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "一种生长在土狼窝附近的植物",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 1
+	},
+	{
+		"classId": 1845,
+		"label": "生锈铜戒",
+		"icon": "item-sc9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "一枚古老的铜戒，已经可以看到上面的锈迹",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 1
+	},
+	{
+		"classId": 1846,
+		"label": "斑驳红水晶",
+		"icon": "item-sc10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含少量魔力的红水晶",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 1
+	},
+	{
+		"classId": 1847,
+		"label": "胜利战旗",
+		"icon": "item-sc11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "象征胜利的战旗",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 1
+	},
+	{
+		"classId": 1848,
+		"label": "石榴石",
+		"icon": "item-sc12.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "具有特殊用途的宝石",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 1
+	},
+	{
+		"classId": 1849,
+		"label": "草木之晶",
+		"icon": "item-sc13.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "散发着清新的草木气息的晶石",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 1
+	},
+	{
+		"classId": 1850,
+		"label": "魔力水晶",
+		"icon": "item-sc14.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含较多魔力的水晶",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 1
+	},
+	{
+		"classId": 1851,
+		"label": "强化卷轴",
+		"icon": "item-sc15.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "可以对装备进行强化的卷轴",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 1
+	},
+	{
+		"classId": 1852,
+		"label": "捆兽绳",
+		"icon": "item-sc16.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "附加了魔法的绳子，可以用来捕捉强大的野兽",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 1
+	},
+	{
+		"classId": 1853,
+		"label": "梧桐木",
+		"icon": "item-sc17.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "较好的锻造原料",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 1
+	},
+	{
+		"classId": 1854,
+		"label": "魔纹兽皮",
+		"icon": "item-sc18.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "强大的法师从魔兽上剥下来的皮毛，并在上面描绘了魔纹",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 1
+	},
+	{
+		"classId": 1855,
+		"label": "精铁戒指",
+		"icon": "item-sc19.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "精铁打造的戒指，有很大的利用价值",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 1
+	},
+	{
+		"classId": 1856,
+		"label": "魔法师日记",
+		"icon": "item-sc20.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "记录着魔法心得的日记残页",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 1
+	},
+	{
+		"classId": 1857,
+		"label": "药剂瓶",
+		"icon": "item-sc21.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "装有魔法师实验药剂的瓶子",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 1
+	},
+	{
+		"classId": 1858,
+		"label": "魔法吊坠",
+		"icon": "item-sc22.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "负载魔力的银质吊坠",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 1
+	},
+	{
+		"classId": 1859,
+		"label": "华贵胸针",
+		"icon": "item-sc23.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "非常昂贵的胸针，应该是古老贵族的物品",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 1
+	},
+	{
+		"classId": 1860,
+		"label": "精美丝绸",
+		"icon": "item-sc24.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "来自遥远东方的布料，异常珍贵",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 1
+	},
+	{
+		"classId": 1861,
+		"label": "真钢锭",
+		"icon": "item-sc25.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "经过千锤百炼后的金属块，十分优良的锻造材料",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 1
+	},
+	{
+		"classId": 1862,
+		"label": "邪恶笔记",
+		"icon": "item-sc26.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "邪恶法师的笔记，记录着邪恶法师所有的魔法",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 1
+	},
+	{
+		"classId": 1863,
+		"label": "火焰之晶",
+		"icon": "item-sc27.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含着火焰的晶体，可以感受得到里面澎湃的火元素",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 1
+	},
+	{
+		"classId": 1864,
+		"label": "奇美拉之眼",
+		"icon": "item-sc28.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "可怕的双头怪物的眼睛",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 1
+	},
+	{
+		"classId": 1865,
+		"label": "万年古木",
+		"icon": "item-sc29.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "从远古时代就存在的老树上掉落的树枝",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 1
+	},
+	{
+		"classId": 1866,
+		"label": "生命之种",
+		"icon": "item-sc30.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "生命之树的种子",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 1
+	},
+	{
+		"classId": 1867,
+		"label": "烈焰花",
+		"icon": "item-sc31.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "绽放时会燃起火焰的花朵",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 1
+	},
+	{
+		"classId": 1868,
+		"label": "魔金块",
+		"icon": "item-sc32.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "非常稀少的锻造材料，本身就价值连城",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 1
+	},
+	{
+		"classId": 1869,
+		"label": "邪恶之珠",
+		"icon": "item-sc33.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "拥有邪恶气息的宝珠",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 1
+	},
+	{
+		"classId": 1870,
+		"label": "战争宝典",
+		"icon": "item-sc34.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "军事家们梦寐以求的宝典，象征着胜利和荣耀",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 1
+	},
+	{
+		"classId": 1871,
+		"label": "不死鸟羽毛",
+		"icon": "item-sc35.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "传说中不死鸟掉落的羽毛，蕴含强大的力量",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 1
+	},
+	{
+		"classId": 1872,
+		"label": "夜之石",
+		"icon": "item-sc36.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能吸收月光力量的神秘宝石",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1873,
+		"label": "屠龙勋章",
+		"icon": "item-sc37.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能力的证明，象征着拥有战胜龙的力量",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1874,
+		"label": "光明圣典",
+		"icon": "item-sc38.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能给人们带来温暖的圣书，象征着希望",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1875,
+		"label": "女皇头冠",
+		"icon": "item-sc39.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "历史上唯一一位女皇的皇冠",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1876,
+		"label": "潘多拉魔盒",
+		"icon": "item-sc40.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "传说中打开后能释放人世间所有的邪恶的盒子",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1877,
+		"label": "撒旦之心",
+		"icon": "item-sc41.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "据说是强大恶魔的心脏，拥有强大的力量",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1878,
+		"label": "君主腰牌",
+		"icon": "item-sc42.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能统帅千军万马的腰牌，拥有无上权威",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1879,
+		"label": "幽冥石",
+		"icon": "item-sc43.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含着诡异气息的宝石，具有毁灭一切的力量",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1880,
+		"label": "怨灵魔珠",
+		"icon": "item-sc44.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "远古时期邪恶的法师为了获得强大力量而用来在战场上收集灵魂的珠子",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1881,
+		"label": "永恒日之石",
+		"icon": "item-sc45.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "可以吸收日光的神奇宝石，能折射出耀眼的光芒",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1882,
+		"label": "缚龙索",
+		"icon": "item-sc46.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "连强大的龙都能束缚的缎带",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1883,
+		"label": "胜利皇冠",
+		"icon": "item-sc47.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "胜利女神的皇冠,象征着智慧与胜利",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1884,
+		"label": "恶龙之齿",
+		"icon": "item-sc48.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "消灭恶龙后获得的牙齿，依旧拥有令人心悸的气息",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1885,
+		"label": "恐怖利刃",
+		"icon": "item-sc49.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "据说是恶魔所使用的武器，不知为何遗留在地下城",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1886,
+		"label": "恶魔之眼",
+		"icon": "item-sc50.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "散发着可怕气息的珠子，据说是恶魔的眼珠",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1887,
+		"label": "龙血之瓶",
+		"icon": "item-sc51.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "装有龙的精血的瓶子",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 1
+	},
+	{
+		"classId": 1888,
+		"label": "狼牙粉末",
+		"icon": "item-sc1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "土狼牙齿碾碎后的粉末",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 2
+	},
+	{
+		"classId": 1889,
+		"label": "铜块",
+		"icon": "item-sc2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "一整块铜，可以用来锻造装备",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 2
+	},
+	{
+		"classId": 1890,
+		"label": "土狼皮",
+		"icon": "item-sc3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "土狼被杀死后剥下来的皮，似乎记录些什么",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 2
+	},
+	{
+		"classId": 1891,
+		"label": "普通木块",
+		"icon": "item-sc4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "一块比较好的锻造原料",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 2
+	},
+	{
+		"classId": 1892,
+		"label": "绿色粉末",
+		"icon": "item-sc5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含特殊力量的粉末",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 2
+	},
+	{
+		"classId": 1893,
+		"label": "麻布",
+		"icon": "item-sc6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "不知道被谁掉落在地下城的麻布",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 2
+	},
+	{
+		"classId": 1894,
+		"label": "结实的绳子",
+		"icon": "item-sc7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "非常结实、坚韧的绳子",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 2
+	},
+	{
+		"classId": 1895,
+		"label": "狼尾草",
+		"icon": "item-sc8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "一种生长在土狼窝附近的植物",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 2
+	},
+	{
+		"classId": 1896,
+		"label": "生锈铜戒",
+		"icon": "item-sc9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "一枚古老的铜戒，已经可以看到上面的锈迹",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 2
+	},
+	{
+		"classId": 1897,
+		"label": "斑驳红水晶",
+		"icon": "item-sc10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含少量魔力的红水晶",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 2
+	},
+	{
+		"classId": 1898,
+		"label": "胜利战旗",
+		"icon": "item-sc11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "象征胜利的战旗",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 2
+	},
+	{
+		"classId": 1899,
+		"label": "石榴石",
+		"icon": "item-sc12.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "具有特殊用途的宝石",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 2
+	},
+	{
+		"classId": 1900,
+		"label": "草木之晶",
+		"icon": "item-sc13.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "散发着清新的草木气息的晶石",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 2
+	},
+	{
+		"classId": 1901,
+		"label": "魔力水晶",
+		"icon": "item-sc14.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含较多魔力的水晶",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 2
+	},
+	{
+		"classId": 1902,
+		"label": "强化卷轴",
+		"icon": "item-sc15.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "可以对装备进行强化的卷轴",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 2
+	},
+	{
+		"classId": 1903,
+		"label": "捆兽绳",
+		"icon": "item-sc16.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "附加了魔法的绳子，可以用来捕捉强大的野兽",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 2
+	},
+	{
+		"classId": 1904,
+		"label": "梧桐木",
+		"icon": "item-sc17.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "较好的锻造原料",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 2
+	},
+	{
+		"classId": 1905,
+		"label": "魔纹兽皮",
+		"icon": "item-sc18.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "强大的法师从魔兽上剥下来的皮毛，并在上面描绘了魔纹",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 2
+	},
+	{
+		"classId": 1906,
+		"label": "精铁戒指",
+		"icon": "item-sc19.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "精铁打造的戒指，有很大的利用价值",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 2
+	},
+	{
+		"classId": 1907,
+		"label": "魔法师日记",
+		"icon": "item-sc20.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "记录着魔法心得的日记残页",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 2
+	},
+	{
+		"classId": 1908,
+		"label": "药剂瓶",
+		"icon": "item-sc21.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "装有魔法师实验药剂的瓶子",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 2
+	},
+	{
+		"classId": 1909,
+		"label": "魔法吊坠",
+		"icon": "item-sc22.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "负载魔力的银质吊坠",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 2
+	},
+	{
+		"classId": 1910,
+		"label": "华贵胸针",
+		"icon": "item-sc23.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "非常昂贵的胸针，应该是古老贵族的物品",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 2
+	},
+	{
+		"classId": 1911,
+		"label": "精美丝绸",
+		"icon": "item-sc24.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "来自遥远东方的布料，异常珍贵",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 2
+	},
+	{
+		"classId": 1912,
+		"label": "真钢锭",
+		"icon": "item-sc25.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "经过千锤百炼后的金属块，十分优良的锻造材料",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 2
+	},
+	{
+		"classId": 1913,
+		"label": "邪恶笔记",
+		"icon": "item-sc26.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "邪恶法师的笔记，记录着邪恶法师所有的魔法",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 2
+	},
+	{
+		"classId": 1914,
+		"label": "火焰之晶",
+		"icon": "item-sc27.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含着火焰的晶体，可以感受得到里面澎湃的火元素",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 2
+	},
+	{
+		"classId": 1915,
+		"label": "奇美拉之眼",
+		"icon": "item-sc28.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "可怕的双头怪物的眼睛",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 2
+	},
+	{
+		"classId": 1916,
+		"label": "万年古木",
+		"icon": "item-sc29.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "从远古时代就存在的老树上掉落的树枝",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 2
+	},
+	{
+		"classId": 1917,
+		"label": "生命之种",
+		"icon": "item-sc30.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "生命之树的种子",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 2
+	},
+	{
+		"classId": 1918,
+		"label": "烈焰花",
+		"icon": "item-sc31.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "绽放时会燃起火焰的花朵",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 2
+	},
+	{
+		"classId": 1919,
+		"label": "魔金块",
+		"icon": "item-sc32.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "非常稀少的锻造材料，本身就价值连城",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 2
+	},
+	{
+		"classId": 1920,
+		"label": "邪恶之珠",
+		"icon": "item-sc33.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "拥有邪恶气息的宝珠",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 2
+	},
+	{
+		"classId": 1921,
+		"label": "战争宝典",
+		"icon": "item-sc34.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "军事家们梦寐以求的宝典，象征着胜利和荣耀",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 2
+	},
+	{
+		"classId": 1922,
+		"label": "不死鸟羽毛",
+		"icon": "item-sc35.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "传说中不死鸟掉落的羽毛，蕴含强大的力量",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 2
+	},
+	{
+		"classId": 1923,
+		"label": "夜之石",
+		"icon": "item-sc36.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能吸收月光力量的神秘宝石",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1924,
+		"label": "屠龙勋章",
+		"icon": "item-sc37.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能力的证明，象征着拥有战胜龙的力量",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1925,
+		"label": "光明圣典",
+		"icon": "item-sc38.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能给人们带来温暖的圣书，象征着希望",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1926,
+		"label": "女皇头冠",
+		"icon": "item-sc39.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "历史上唯一一位女皇的皇冠",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1927,
+		"label": "潘多拉魔盒",
+		"icon": "item-sc40.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "传说中打开后能释放人世间所有的邪恶的盒子",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1928,
+		"label": "撒旦之心",
+		"icon": "item-sc41.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "据说是强大恶魔的心脏，拥有强大的力量",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1929,
+		"label": "君主腰牌",
+		"icon": "item-sc42.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能统帅千军万马的腰牌，拥有无上权威",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1930,
+		"label": "幽冥石",
+		"icon": "item-sc43.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含着诡异气息的宝石，具有毁灭一切的力量",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1931,
+		"label": "怨灵魔珠",
+		"icon": "item-sc44.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "远古时期邪恶的法师为了获得强大力量而用来在战场上收集灵魂的珠子",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1932,
+		"label": "永恒日之石",
+		"icon": "item-sc45.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "可以吸收日光的神奇宝石，能折射出耀眼的光芒",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1933,
+		"label": "缚龙索",
+		"icon": "item-sc46.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "连强大的龙都能束缚的缎带",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1934,
+		"label": "胜利皇冠",
+		"icon": "item-sc47.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "胜利女神的皇冠,象征着智慧与胜利",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1935,
+		"label": "恶龙之齿",
+		"icon": "item-sc48.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "消灭恶龙后获得的牙齿，依旧拥有令人心悸的气息",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1936,
+		"label": "恐怖利刃",
+		"icon": "item-sc49.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "据说是恶魔所使用的武器，不知为何遗留在地下城",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1937,
+		"label": "恶魔之眼",
+		"icon": "item-sc50.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "散发着可怕气息的珠子，据说是恶魔的眼珠",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1938,
+		"label": "龙血之瓶",
+		"icon": "item-sc51.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "装有龙的精血的瓶子",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 2
+	},
+	{
+		"classId": 1939,
+		"label": "狼牙粉末",
+		"icon": "item-sc1.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "土狼牙齿碾碎后的粉末",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 3
+	},
+	{
+		"classId": 1940,
+		"label": "铜块",
+		"icon": "item-sc2.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "一整块铜，可以用来锻造装备",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 3
+	},
+	{
+		"classId": 1941,
+		"label": "土狼皮",
+		"icon": "item-sc3.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "土狼被杀死后剥下来的皮，似乎记录些什么",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 3
+	},
+	{
+		"classId": 1942,
+		"label": "普通木块",
+		"icon": "item-sc4.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "一块比较好的锻造原料",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 3
+	},
+	{
+		"classId": 1943,
+		"label": "绿色粉末",
+		"icon": "item-sc5.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含特殊力量的粉末",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 3
+	},
+	{
+		"classId": 1944,
+		"label": "麻布",
+		"icon": "item-sc6.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "不知道被谁掉落在地下城的麻布",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 3
+	},
+	{
+		"classId": 1945,
+		"label": "结实的绳子",
+		"icon": "item-sc7.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "非常结实、坚韧的绳子",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 3
+	},
+	{
+		"classId": 1946,
+		"label": "狼尾草",
+		"icon": "item-sc8.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "一种生长在土狼窝附近的植物",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 3
+	},
+	{
+		"classId": 1947,
+		"label": "生锈铜戒",
+		"icon": "item-sc9.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "一枚古老的铜戒，已经可以看到上面的锈迹",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 3
+	},
+	{
+		"classId": 1948,
+		"label": "斑驳红水晶",
+		"icon": "item-sc10.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含少量魔力的红水晶",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 3
+	},
+	{
+		"classId": 1949,
+		"label": "胜利战旗",
+		"icon": "item-sc11.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "象征胜利的战旗",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 3
+	},
+	{
+		"classId": 1950,
+		"label": "石榴石",
+		"icon": "item-sc12.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "具有特殊用途的宝石",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 3
+	},
+	{
+		"classId": 1951,
+		"label": "草木之晶",
+		"icon": "item-sc13.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "散发着清新的草木气息的晶石",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 3
+	},
+	{
+		"classId": 1952,
+		"label": "魔力水晶",
+		"icon": "item-sc14.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含较多魔力的水晶",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 3
+	},
+	{
+		"classId": 1953,
+		"label": "强化卷轴",
+		"icon": "item-sc15.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "可以对装备进行强化的卷轴",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 3
+	},
+	{
+		"classId": 1954,
+		"label": "捆兽绳",
+		"icon": "item-sc16.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "附加了魔法的绳子，可以用来捕捉强大的野兽",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 3
+	},
+	{
+		"classId": 1955,
+		"label": "梧桐木",
+		"icon": "item-sc17.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "较好的锻造原料",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 3
+	},
+	{
+		"classId": 1956,
+		"label": "魔纹兽皮",
+		"icon": "item-sc18.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "强大的法师从魔兽上剥下来的皮毛，并在上面描绘了魔纹",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 3
+	},
+	{
+		"classId": 1957,
+		"label": "精铁戒指",
+		"icon": "item-sc19.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "精铁打造的戒指，有很大的利用价值",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 3
+	},
+	{
+		"classId": 1958,
+		"label": "魔法师日记",
+		"icon": "item-sc20.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "记录着魔法心得的日记残页",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 3
+	},
+	{
+		"classId": 1959,
+		"label": "药剂瓶",
+		"icon": "item-sc21.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "装有魔法师实验药剂的瓶子",
+		"stack": 99,
+		"sellprice": 650,
+		"quality": 3
+	},
+	{
+		"classId": 1960,
+		"label": "魔法吊坠",
+		"icon": "item-sc22.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "负载魔力的银质吊坠",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 3
+	},
+	{
+		"classId": 1961,
+		"label": "华贵胸针",
+		"icon": "item-sc23.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "非常昂贵的胸针，应该是古老贵族的物品",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 3
+	},
+	{
+		"classId": 1962,
+		"label": "精美丝绸",
+		"icon": "item-sc24.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "来自遥远东方的布料，异常珍贵",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 3
+	},
+	{
+		"classId": 1963,
+		"label": "真钢锭",
+		"icon": "item-sc25.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "经过千锤百炼后的金属块，十分优良的锻造材料",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 3
+	},
+	{
+		"classId": 1964,
+		"label": "邪恶笔记",
+		"icon": "item-sc26.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "邪恶法师的笔记，记录着邪恶法师所有的魔法",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 3
+	},
+	{
+		"classId": 1965,
+		"label": "火焰之晶",
+		"icon": "item-sc27.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含着火焰的晶体，可以感受得到里面澎湃的火元素",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 3
+	},
+	{
+		"classId": 1966,
+		"label": "奇美拉之眼",
+		"icon": "item-sc28.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "可怕的双头怪物的眼睛",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 3
+	},
+	{
+		"classId": 1967,
+		"label": "万年古木",
+		"icon": "item-sc29.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "从远古时代就存在的老树上掉落的树枝",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 3
+	},
+	{
+		"classId": 1968,
+		"label": "生命之种",
+		"icon": "item-sc30.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "生命之树的种子",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 3
+	},
+	{
+		"classId": 1969,
+		"label": "烈焰花",
+		"icon": "item-sc31.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "绽放时会燃起火焰的花朵",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 3
+	},
+	{
+		"classId": 1970,
+		"label": "魔金块",
+		"icon": "item-sc32.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "非常稀少的锻造材料，本身就价值连城",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 3
+	},
+	{
+		"classId": 1971,
+		"label": "邪恶之珠",
+		"icon": "item-sc33.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "拥有邪恶气息的宝珠",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 3
+	},
+	{
+		"classId": 1972,
+		"label": "战争宝典",
+		"icon": "item-sc34.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "军事家们梦寐以求的宝典，象征着胜利和荣耀",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 3
+	},
+	{
+		"classId": 1973,
+		"label": "不死鸟羽毛",
+		"icon": "item-sc35.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "传说中不死鸟掉落的羽毛，蕴含强大的力量",
+		"stack": 99,
+		"sellprice": 850,
+		"quality": 3
+	},
+	{
+		"classId": 1974,
+		"label": "夜之石",
+		"icon": "item-sc36.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能吸收月光力量的神秘宝石",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
+	},
+	{
+		"classId": 1975,
+		"label": "屠龙勋章",
+		"icon": "item-sc37.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能力的证明，象征着拥有战胜龙的力量",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
+	},
+	{
+		"classId": 1976,
+		"label": "光明圣典",
+		"icon": "item-sc38.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能给人们带来温暖的圣书，象征着希望",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
+	},
+	{
+		"classId": 1977,
+		"label": "女皇头冠",
+		"icon": "item-sc39.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "历史上唯一一位女皇的皇冠",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
+	},
+	{
+		"classId": 1978,
+		"label": "潘多拉魔盒",
+		"icon": "item-sc40.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "传说中打开后能释放人世间所有的邪恶的盒子",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
+	},
+	{
+		"classId": 1979,
+		"label": "撒旦之心",
+		"icon": "item-sc41.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "据说是强大恶魔的心脏，拥有强大的力量",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
+	},
+	{
+		"classId": 1980,
+		"label": "君主腰牌",
+		"icon": "item-sc42.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "能统帅千军万马的腰牌，拥有无上权威",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
+	},
+	{
+		"classId": 1981,
+		"label": "幽冥石",
+		"icon": "item-sc43.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "蕴含着诡异气息的宝石，具有毁灭一切的力量",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
+	},
+	{
+		"classId": 1982,
+		"label": "怨灵魔珠",
+		"icon": "item-sc44.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "远古时期邪恶的法师为了获得强大力量而用来在战场上收集灵魂的珠子",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
+	},
+	{
+		"classId": 1983,
+		"label": "永恒日之石",
+		"icon": "item-sc45.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "可以吸收日光的神奇宝石，能折射出耀眼的光芒",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
+	},
+	{
+		"classId": 1984,
+		"label": "缚龙索",
+		"icon": "item-sc46.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "连强大的龙都能束缚的缎带",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
+	},
+	{
+		"classId": 1985,
+		"label": "胜利皇冠",
+		"icon": "item-sc47.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "胜利女神的皇冠,象征着智慧与胜利",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
+	},
+	{
+		"classId": 1986,
+		"label": "恶龙之齿",
+		"icon": "item-sc48.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "消灭恶龙后获得的牙齿，依旧拥有令人心悸的气息",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
+	},
+	{
+		"classId": 1987,
+		"label": "恐怖利刃",
+		"icon": "item-sc49.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "据说是恶魔所使用的武器，不知为何遗留在地下城",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
+	},
+	{
+		"classId": 1988,
+		"label": "恶魔之眼",
+		"icon": "item-sc50.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "散发着可怕气息的珠子，据说是恶魔的眼珠",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
+	},
+	{
+		"classId": 1989,
+		"label": "龙血之瓶",
+		"icon": "item-sc51.png",
+		"category": 2,
+		"subcategory": 0,
+		"description": "装有龙的精血的瓶子",
+		"stack": 99,
+		"sellprice": 1050,
+		"quality": 3
 	}
 ]

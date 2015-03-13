@@ -313,7 +313,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 807,
+					"value": 809,
 					"count": 1
 				}
 			]
@@ -370,7 +370,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 807,
+					"value": 810,
 					"count": 1
 				}
 			]
@@ -427,7 +427,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 807,
+					"value": 811,
 					"count": 1
 				}
 			]
@@ -484,7 +484,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 808,
+					"value": 812,
 					"count": 1
 				}
 			]
@@ -541,7 +541,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 808,
+					"value": 813,
 					"count": 1
 				}
 			]
@@ -587,7 +587,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 802,
+					"value": 807,
 					"count": 1
 				}
 			]
@@ -598,7 +598,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 809,
+					"value": 814,
 					"count": 1
 				}
 			]
@@ -644,7 +644,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 803,
+					"value": 808,
 					"count": 1
 				}
 			]
@@ -655,7 +655,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 809,
+					"value": 815,
 					"count": 1
 				}
 			]
@@ -701,7 +701,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 804,
+					"value": 816,
 					"count": 1
 				}
 			]
@@ -712,7 +712,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 810,
+					"value": 823,
 					"count": 1
 				}
 			]
@@ -758,7 +758,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 805,
+					"value": 817,
 					"count": 1
 				}
 			]
@@ -769,7 +769,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 810,
+					"value": 824,
 					"count": 1
 				}
 			]
@@ -815,7 +815,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 806,
+					"value": 818,
 					"count": 1
 				}
 			]
@@ -826,7 +826,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 810,
+					"value": 825,
 					"count": 1
 				}
 			]
@@ -872,7 +872,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 802,
+					"value": 819,
 					"count": 1
 				}
 			]
@@ -883,7 +883,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 811,
+					"value": 826,
 					"count": 1
 				}
 			]
@@ -929,7 +929,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 803,
+					"value": 820,
 					"count": 1
 				}
 			]
@@ -940,7 +940,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 811,
+					"value": 827,
 					"count": 1
 				}
 			]
@@ -986,7 +986,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 804,
+					"value": 821,
 					"count": 1
 				}
 			]
@@ -997,7 +997,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 812,
+					"value": 828,
 					"count": 1
 				}
 			]
@@ -1043,7 +1043,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 805,
+					"value": 822,
 					"count": 1
 				}
 			]
@@ -1054,7 +1054,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 812,
+					"value": 829,
 					"count": 1
 				}
 			]
@@ -1100,7 +1100,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 813,
+					"value": 1633,
 					"count": 1
 				}
 			]
@@ -1111,7 +1111,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 818,
+					"value": 1640,
 					"count": 1
 				}
 			]
@@ -1157,7 +1157,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 814,
+					"value": 1634,
 					"count": 1
 				}
 			]
@@ -1168,7 +1168,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 818,
+					"value": 1641,
 					"count": 1
 				}
 			]
@@ -1214,7 +1214,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 815,
+					"value": 1635,
 					"count": 1
 				}
 			]
@@ -1225,7 +1225,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 818,
+					"value": 1642,
 					"count": 1
 				}
 			]
@@ -1271,7 +1271,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 816,
+					"value": 1636,
 					"count": 1
 				}
 			]
@@ -1282,7 +1282,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 819,
+					"value": 1643,
 					"count": 1
 				}
 			]
@@ -1328,7 +1328,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 817,
+					"value": 1637,
 					"count": 1
 				}
 			]
@@ -1339,7 +1339,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 819,
+					"value": 1644,
 					"count": 1
 				}
 			]
@@ -1385,7 +1385,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 813,
+					"value": 1638,
 					"count": 1
 				}
 			]
@@ -1396,7 +1396,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 820,
+					"value": 1645,
 					"count": 1
 				}
 			]
@@ -1442,7 +1442,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 814,
+					"value": 1639,
 					"count": 1
 				}
 			]
@@ -1453,7 +1453,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 820,
+					"value": 1646,
 					"count": 1
 				}
 			]
@@ -1499,7 +1499,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 815,
+					"value": 1647,
 					"count": 1
 				}
 			]
@@ -1510,7 +1510,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 821,
+					"value": 1654,
 					"count": 1
 				}
 			]
@@ -1521,19 +1521,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 5
 				}
 			]
@@ -1556,7 +1556,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 816,
+					"value": 1648,
 					"count": 1
 				}
 			]
@@ -1567,7 +1567,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 821,
+					"value": 1655,
 					"count": 1
 				}
 			]
@@ -1578,19 +1578,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 5
 				}
 			]
@@ -1613,7 +1613,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 817,
+					"value": 1649,
 					"count": 1
 				}
 			]
@@ -1624,7 +1624,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 821,
+					"value": 1656,
 					"count": 1
 				}
 			]
@@ -1635,19 +1635,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 5
 				}
 			]
@@ -1670,7 +1670,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 813,
+					"value": 1650,
 					"count": 1
 				}
 			]
@@ -1681,7 +1681,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 822,
+					"value": 1657,
 					"count": 1
 				}
 			]
@@ -1692,19 +1692,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 5
 				}
 			]
@@ -1727,7 +1727,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 814,
+					"value": 1651,
 					"count": 1
 				}
 			]
@@ -1738,7 +1738,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 822,
+					"value": 1658,
 					"count": 1
 				}
 			]
@@ -1749,19 +1749,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 5
 				}
 			]
@@ -1784,7 +1784,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 815,
+					"value": 1652,
 					"count": 1
 				}
 			]
@@ -1795,7 +1795,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 823,
+					"value": 1659,
 					"count": 1
 				}
 			]
@@ -1806,19 +1806,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 5
 				}
 			]
@@ -1841,7 +1841,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 816,
+					"value": 1653,
 					"count": 1
 				}
 			]
@@ -1852,7 +1852,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 823,
+					"value": 1660,
 					"count": 1
 				}
 			]
@@ -1863,19 +1863,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 855,
+					"value": 854,
 					"count": 5
 				}
 			]
@@ -1898,7 +1898,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 824,
+					"value": 1668,
 					"count": 1
 				}
 			]
@@ -1909,7 +1909,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 830,
+					"value": 1675,
 					"count": 1
 				}
 			]
@@ -1955,7 +1955,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 825,
+					"value": 1669,
 					"count": 1
 				}
 			]
@@ -1966,7 +1966,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 830,
+					"value": 1676,
 					"count": 1
 				}
 			]
@@ -2012,7 +2012,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 826,
+					"value": 1670,
 					"count": 1
 				}
 			]
@@ -2023,7 +2023,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 831,
+					"value": 1677,
 					"count": 1
 				}
 			]
@@ -2069,7 +2069,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 827,
+					"value": 1671,
 					"count": 1
 				}
 			]
@@ -2080,7 +2080,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 831,
+					"value": 1678,
 					"count": 1
 				}
 			]
@@ -2126,7 +2126,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 828,
+					"value": 1672,
 					"count": 1
 				}
 			]
@@ -2137,7 +2137,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 832,
+					"value": 1679,
 					"count": 1
 				}
 			]
@@ -2183,7 +2183,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 829,
+					"value": 1673,
 					"count": 1
 				}
 			]
@@ -2194,7 +2194,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 832,
+					"value": 1684,
 					"count": 1
 				}
 			]
@@ -2240,7 +2240,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 824,
+					"value": 1674,
 					"count": 1
 				}
 			]
@@ -2251,7 +2251,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 833,
+					"value": 1685,
 					"count": 1
 				}
 			]
@@ -2297,7 +2297,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 825,
+					"value": 1686,
 					"count": 1
 				}
 			]
@@ -2308,7 +2308,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 834,
+					"value": 1693,
 					"count": 1
 				}
 			]
@@ -2319,19 +2319,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 5
 				}
 			]
@@ -2354,7 +2354,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 826,
+					"value": 1687,
 					"count": 1
 				}
 			]
@@ -2365,7 +2365,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 834,
+					"value": 1694,
 					"count": 1
 				}
 			]
@@ -2376,19 +2376,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 5
 				}
 			]
@@ -2411,7 +2411,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 827,
+					"value": 1688,
 					"count": 1
 				}
 			]
@@ -2422,7 +2422,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 835,
+					"value": 1695,
 					"count": 1
 				}
 			]
@@ -2433,19 +2433,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 5
 				}
 			]
@@ -2468,7 +2468,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 828,
+					"value": 1689,
 					"count": 1
 				}
 			]
@@ -2479,7 +2479,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 835,
+					"value": 1696,
 					"count": 1
 				}
 			]
@@ -2490,19 +2490,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 5
 				}
 			]
@@ -2525,7 +2525,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 829,
+					"value": 1690,
 					"count": 1
 				}
 			]
@@ -2536,7 +2536,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 836,
+					"value": 1697,
 					"count": 1
 				}
 			]
@@ -2547,19 +2547,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 5
 				}
 			]
@@ -2582,7 +2582,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 824,
+					"value": 1691,
 					"count": 1
 				}
 			]
@@ -2593,7 +2593,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 836,
+					"value": 1698,
 					"count": 1
 				}
 			]
@@ -2604,19 +2604,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 5
 				}
 			]
@@ -2639,7 +2639,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 825,
+					"value": 1692,
 					"count": 1
 				}
 			]
@@ -2650,7 +2650,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 833,
+					"value": 1699,
 					"count": 1
 				}
 			]
@@ -2661,19 +2661,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 5
 				}
 			]
@@ -2696,7 +2696,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 837,
+					"value": 1700,
 					"count": 1
 				}
 			]
@@ -2707,7 +2707,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 844,
+					"value": 1707,
 					"count": 1
 				}
 			]
@@ -2718,19 +2718,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 5
 				}
 			]
@@ -2753,7 +2753,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 838,
+					"value": 1701,
 					"count": 1
 				}
 			]
@@ -2764,7 +2764,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 844,
+					"value": 1708,
 					"count": 1
 				}
 			]
@@ -2775,19 +2775,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 5
 				}
 			]
@@ -2810,7 +2810,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 839,
+					"value": 1702,
 					"count": 1
 				}
 			]
@@ -2821,7 +2821,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 845,
+					"value": 1709,
 					"count": 1
 				}
 			]
@@ -2832,19 +2832,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 5
 				}
 			]
@@ -2867,7 +2867,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 840,
+					"value": 1703,
 					"count": 1
 				}
 			]
@@ -2878,7 +2878,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 845,
+					"value": 1710,
 					"count": 1
 				}
 			]
@@ -2889,19 +2889,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 5
 				}
 			]
@@ -2924,7 +2924,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 841,
+					"value": 1704,
 					"count": 1
 				}
 			]
@@ -2935,7 +2935,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 846,
+					"value": 1711,
 					"count": 1
 				}
 			]
@@ -2946,19 +2946,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 5
 				}
 			]
@@ -2981,7 +2981,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 842,
+					"value": 1705,
 					"count": 1
 				}
 			]
@@ -2992,7 +2992,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 847,
+					"value": 1712,
 					"count": 1
 				}
 			]
@@ -3003,19 +3003,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 5
 				}
 			]
@@ -3038,7 +3038,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 843,
+					"value": 1706,
 					"count": 1
 				}
 			]
@@ -3049,7 +3049,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 848,
+					"value": 1713,
 					"count": 1
 				}
 			]
@@ -3060,19 +3060,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 856,
+					"value": 855,
 					"count": 5
 				}
 			]
@@ -3095,7 +3095,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 837,
+					"value": 1714,
 					"count": 1
 				}
 			]
@@ -3106,7 +3106,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 849,
+					"value": 1721,
 					"count": 1
 				}
 			]
@@ -3117,19 +3117,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 5
 				}
 			]
@@ -3152,7 +3152,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 838,
+					"value": 1715,
 					"count": 1
 				}
 			]
@@ -3163,7 +3163,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 849,
+					"value": 1722,
 					"count": 1
 				}
 			]
@@ -3174,19 +3174,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 5
 				}
 			]
@@ -3209,7 +3209,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 839,
+					"value": 1716,
 					"count": 1
 				}
 			]
@@ -3220,7 +3220,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 850,
+					"value": 1723,
 					"count": 1
 				}
 			]
@@ -3231,19 +3231,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 5
 				}
 			]
@@ -3266,7 +3266,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 840,
+					"value": 1717,
 					"count": 1
 				}
 			]
@@ -3277,7 +3277,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 850,
+					"value": 1724,
 					"count": 1
 				}
 			]
@@ -3288,19 +3288,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 5
 				}
 			]
@@ -3323,7 +3323,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 841,
+					"value": 1718,
 					"count": 1
 				}
 			]
@@ -3334,7 +3334,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 851,
+					"value": 1725,
 					"count": 1
 				}
 			]
@@ -3345,19 +3345,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 5
 				}
 			]
@@ -3380,7 +3380,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 842,
+					"value": 1719,
 					"count": 1
 				}
 			]
@@ -3391,7 +3391,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 851,
+					"value": 1726,
 					"count": 1
 				}
 			]
@@ -3402,19 +3402,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 5
 				}
 			]
@@ -3437,7 +3437,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 843,
+					"value": 1720,
 					"count": 1
 				}
 			]
@@ -3448,7 +3448,7 @@ exports.data = [
 				{
 					"weight": 2,
 					"type": 0,
-					"value": 852,
+					"value": 1727,
 					"count": 1
 				}
 			]
@@ -3459,19 +3459,19 @@ exports.data = [
 				{
 					"weight": 10,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 1
 				},
 				{
 					"weight": 3,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 3
 				},
 				{
 					"weight": 1,
 					"type": 0,
-					"value": 857,
+					"value": 856,
 					"count": 5
 				}
 			]
@@ -3958,7 +3958,7 @@ exports.data = [
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 807,
+                    "value": 809,
                     "count": 1
                 },
                 {
@@ -3988,7 +3988,7 @@ exports.data = [
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 807,
+                    "value": 810,
                     "count": 1
                 },
                 {
@@ -4018,7 +4018,7 @@ exports.data = [
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 807,
+                    "value": 811,
                     "count": 1
                 },
                 {
@@ -4048,7 +4048,7 @@ exports.data = [
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 808,
+                    "value": 812,
                     "count": 1
                 },
                 {
@@ -4078,7 +4078,7 @@ exports.data = [
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 808,
+                    "value": 813,
                     "count": 1
                 },
                 {
@@ -4102,13 +4102,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 802,
+                    "value": 807,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 809,
+                    "value": 814,
                     "count": 1
                 },
                 {
@@ -4132,13 +4132,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 803,
+                    "value": 808,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 809,
+                    "value": 815,
                     "count": 1
                 },
                 {
@@ -4162,13 +4162,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 804,
+                    "value": 816,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 810,
+                    "value": 823,
                     "count": 1
                 },
                 {
@@ -4192,13 +4192,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 805,
+                    "value": 817,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 810,
+                    "value": 824,
                     "count": 1
                 },
                 {
@@ -4222,13 +4222,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 806,
+                    "value": 818,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 810,
+                    "value": 825,
                     "count": 1
                 },
                 {
@@ -4252,13 +4252,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 802,
+                    "value": 819,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 811,
+                    "value": 826,
                     "count": 1
                 },
                 {
@@ -4282,13 +4282,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 803,
+                    "value": 820,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 811,
+                    "value": 827,
                     "count": 1
                 },
                 {
@@ -4312,13 +4312,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 804,
+                    "value": 821,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 812,
+                    "value": 828,
                     "count": 1
                 },
                 {
@@ -4342,13 +4342,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 805,
+                    "value": 822,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 812,
+                    "value": 829,
                     "count": 1
                 },
                 {
@@ -4372,13 +4372,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 813,
+                    "value": 1633,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 818,
+                    "value": 1640,
                     "count": 1
                 },
                 {
@@ -4402,13 +4402,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 814,
+                    "value": 1634,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 818,
+                    "value": 1641,
                     "count": 1
                 },
                 {
@@ -4432,13 +4432,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 815,
+                    "value": 1635,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 818,
+                    "value": 1642,
                     "count": 1
                 },
                 {
@@ -4462,13 +4462,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 816,
+                    "value": 1636,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 819,
+                    "value": 1643,
                     "count": 1
                 },
                 {
@@ -4492,13 +4492,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 817,
+                    "value": 1637,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 819,
+                    "value": 1644,
                     "count": 1
                 },
                 {
@@ -4522,13 +4522,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 813,
+                    "value": 1638,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 820,
+                    "value": 1645,
                     "count": 1
                 },
                 {
@@ -4552,13 +4552,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 814,
+                    "value": 1639,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 820,
+                    "value": 1646,
                     "count": 1
                 },
                 {
@@ -4582,19 +4582,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 815,
+                    "value": 1647,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 821,
+                    "value": 1654,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 855,
+                    "value": 854,
                     "count": 1
                 }
             ]
@@ -4612,19 +4612,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 816,
+                    "value": 1648,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 821,
+                    "value": 1655,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 855,
+                    "value": 854,
                     "count": 1
                 }
             ]
@@ -4642,19 +4642,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 817,
+                    "value": 1649,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 821,
+                    "value": 1656,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 855,
+                    "value": 854,
                     "count": 1
                 }
             ]
@@ -4672,19 +4672,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 813,
+                    "value": 1650,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 822,
+                    "value": 1657,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 855,
+                    "value": 854,
                     "count": 1
                 }
             ]
@@ -4702,19 +4702,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 814,
+                    "value": 1651,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 822,
+                    "value": 1658,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 855,
+                    "value": 854,
                     "count": 1
                 }
             ]
@@ -4732,19 +4732,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 815,
+                    "value": 1652,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 823,
+                    "value": 1659,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 855,
+                    "value": 854,
                     "count": 1
                 }
             ]
@@ -4762,19 +4762,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 816,
+                    "value": 1653,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 823,
+                    "value": 1660,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 855,
+                    "value": 854,
                     "count": 1
                 }
             ]
@@ -4792,13 +4792,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 824,
+                    "value": 1668,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 830,
+                    "value": 1675,
                     "count": 1
                 },
                 {
@@ -4822,13 +4822,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 825,
+                    "value": 1669,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 830,
+                    "value": 1676,
                     "count": 1
                 },
                 {
@@ -4852,13 +4852,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 826,
+                    "value": 1670,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 831,
+                    "value": 1677,
                     "count": 1
                 },
                 {
@@ -4882,13 +4882,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 827,
+                    "value": 1671,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 831,
+                    "value": 1678,
                     "count": 1
                 },
                 {
@@ -4912,13 +4912,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 828,
+                    "value": 1672,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 832,
+                    "value": 1679,
                     "count": 1
                 },
                 {
@@ -4942,13 +4942,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 829,
+                    "value": 1673,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 832,
+                    "value": 1684,
                     "count": 1
                 },
                 {
@@ -4972,13 +4972,13 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 824,
+                    "value": 1674,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 833,
+                    "value": 1685,
                     "count": 1
                 },
                 {
@@ -5002,19 +5002,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 825,
+                    "value": 1686,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 834,
+                    "value": 1693,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 856,
+                    "value": 855,
                     "count": 1
                 }
             ]
@@ -5032,19 +5032,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 826,
+                    "value": 1687,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 834,
+                    "value": 1694,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 856,
+                    "value": 855,
                     "count": 1
                 }
             ]
@@ -5062,19 +5062,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 827,
+                    "value": 1688,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 835,
+                    "value": 1695,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 856,
+                    "value": 855,
                     "count": 1
                 }
             ]
@@ -5092,19 +5092,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 828,
+                    "value": 1689,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 835,
+                    "value": 1696,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 856,
+                    "value": 855,
                     "count": 1
                 }
             ]
@@ -5122,19 +5122,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 829,
+                    "value": 1690,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 836,
+                    "value": 1697,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 856,
+                    "value": 855,
                     "count": 1
                 }
             ]
@@ -5152,19 +5152,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 824,
+                    "value": 1691,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 836,
+                    "value": 1698,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 856,
+                    "value": 855,
                     "count": 1
                 }
             ]
@@ -5182,19 +5182,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 825,
+                    "value": 1692,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 833,
+                    "value": 1699,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 856,
+                    "value": 855,
                     "count": 1
                 }
             ]
@@ -5212,19 +5212,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 837,
+                    "value": 1700,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 844,
+                    "value": 1707,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 856,
+                    "value": 855,
                     "count": 1
                 }
             ]
@@ -5242,19 +5242,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 838,
+                    "value": 1701,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 844,
+                    "value": 1708,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 856,
+                    "value": 855,
                     "count": 1
                 }
             ]
@@ -5272,19 +5272,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 839,
+                    "value": 1702,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 845,
+                    "value": 1709,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 856,
+                    "value": 855,
                     "count": 1
                 }
             ]
@@ -5302,19 +5302,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 840,
+                    "value": 1703,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 845,
+                    "value": 1710,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 856,
+                    "value": 855,
                     "count": 1
                 }
             ]
@@ -5332,19 +5332,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 841,
+                    "value": 1704,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 846,
+                    "value": 1711,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 856,
+                    "value": 855,
                     "count": 1
                 }
             ]
@@ -5362,19 +5362,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 842,
+                    "value": 1705,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 847,
+                    "value": 1712,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 856,
+                    "value": 855,
                     "count": 1
                 }
             ]
@@ -5392,19 +5392,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 843,
+                    "value": 1706,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 848,
+                    "value": 1713,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 856,
+                    "value": 855,
                     "count": 1
                 }
             ]
@@ -5422,19 +5422,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 837,
+                    "value": 1714,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 849,
+                    "value": 1721,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -5452,19 +5452,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 838,
+                    "value": 1715,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 849,
+                    "value": 1722,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -5482,19 +5482,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 839,
+                    "value": 1716,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 850,
+                    "value": 1723,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -5512,19 +5512,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 840,
+                    "value": 1717,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 850,
+                    "value": 1724,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -5542,19 +5542,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 841,
+                    "value": 1718,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 851,
+                    "value": 1725,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -5572,19 +5572,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 842,
+                    "value": 1719,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 851,
+                    "value": 1726,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -5602,19 +5602,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 843,
+                    "value": 1720,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 852,
+                    "value": 1727,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -5714,19 +5714,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 1
                 },
                 {
                     "weight": 3,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 3
                 },
                 {
                     "weight": 1,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 5
                 }
             ]
@@ -5771,19 +5771,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 1
                 },
                 {
                     "weight": 3,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 3
                 },
                 {
                     "weight": 1,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 5
                 }
             ]
@@ -5828,19 +5828,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 1
                 },
                 {
                     "weight": 3,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 3
                 },
                 {
                     "weight": 1,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 5
                 }
             ]
@@ -5885,19 +5885,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 1
                 },
                 {
                     "weight": 3,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 3
                 },
                 {
                     "weight": 1,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 5
                 }
             ]
@@ -5942,19 +5942,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 1
                 },
                 {
                     "weight": 3,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 3
                 },
                 {
                     "weight": 1,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 5
                 }
             ]
@@ -5999,19 +5999,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 1
                 },
                 {
                     "weight": 3,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 3
                 },
                 {
                     "weight": 1,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 5
                 }
             ]
@@ -6056,19 +6056,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 1
                 },
                 {
                     "weight": 3,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 3
                 },
                 {
                     "weight": 1,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 5
                 }
             ]
@@ -6086,19 +6086,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 837,
+                    "value": 1746,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 849,
+                    "value": 1753,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -6116,19 +6116,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 838,
+                    "value": 1747,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 849,
+                    "value": 1754,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -6146,19 +6146,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 839,
+                    "value": 1748,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 850,
+                    "value": 1755,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -6176,19 +6176,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 840,
+                    "value": 1749,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 850,
+                    "value": 1756,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -6206,19 +6206,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 841,
+                    "value": 1750,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 851,
+                    "value": 1757,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -6236,19 +6236,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 842,
+                    "value": 1751,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 851,
+                    "value": 1758,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -6266,19 +6266,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 843,
+                    "value": 1752,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 852,
+                    "value": 1759,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 1470,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -6296,19 +6296,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 837,
+                    "value": 1728,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 849,
+                    "value": 1739,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -6326,19 +6326,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 838,
+                    "value": 1729,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 849,
+                    "value": 1740,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -6356,19 +6356,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 839,
+                    "value": 1730,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 850,
+                    "value": 1741,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -6386,19 +6386,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 840,
+                    "value": 1735,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 850,
+                    "value": 1742,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -6416,19 +6416,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 841,
+                    "value": 1736,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 851,
+                    "value": 1743,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -6446,19 +6446,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 842,
+                    "value": 1737,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 851,
+                    "value": 1744,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -6476,19 +6476,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 843,
+                    "value": 1738,
                     "count": 1
                 },
                 {
                     "weight": 5,
                     "type": 0,
-                    "value": 852,
+                    "value": 1745,
                     "count": 1
                 },
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 }
             ]
@@ -6511,7 +6511,7 @@ exports.data = [
                 {
                     "weight": 2,
                     "type": 0,
-                    "value": 837,
+                    "value": 1728,
                     "count": 1
                 }
             ]
@@ -6522,7 +6522,7 @@ exports.data = [
                 {
                     "weight": 2,
                     "type": 0,
-                    "value": 849,
+                    "value": 1739,
                     "count": 1
                 }
             ]
@@ -6533,19 +6533,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 },
                 {
                     "weight": 3,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 3
                 },
                 {
                     "weight": 1,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 5
                 }
             ]
@@ -6568,7 +6568,7 @@ exports.data = [
                 {
                     "weight": 2,
                     "type": 0,
-                    "value": 838,
+                    "value": 1729,
                     "count": 1
                 }
             ]
@@ -6579,7 +6579,7 @@ exports.data = [
                 {
                     "weight": 2,
                     "type": 0,
-                    "value": 849,
+                    "value": 1740,
                     "count": 1
                 }
             ]
@@ -6590,19 +6590,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 },
                 {
                     "weight": 3,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 3
                 },
                 {
                     "weight": 1,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 5
                 }
             ]
@@ -6625,7 +6625,7 @@ exports.data = [
                 {
                     "weight": 2,
                     "type": 0,
-                    "value": 839,
+                    "value": 1730,
                     "count": 1
                 }
             ]
@@ -6636,7 +6636,7 @@ exports.data = [
                 {
                     "weight": 2,
                     "type": 0,
-                    "value": 850,
+                    "value": 1741,
                     "count": 1
                 }
             ]
@@ -6647,19 +6647,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 },
                 {
                     "weight": 3,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 3
                 },
                 {
                     "weight": 1,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 5
                 }
             ]
@@ -6682,7 +6682,7 @@ exports.data = [
                 {
                     "weight": 2,
                     "type": 0,
-                    "value": 840,
+                    "value": 1735,
                     "count": 1
                 }
             ]
@@ -6693,7 +6693,7 @@ exports.data = [
                 {
                     "weight": 2,
                     "type": 0,
-                    "value": 850,
+                    "value": 1742,
                     "count": 1
                 }
             ]
@@ -6704,19 +6704,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 },
                 {
                     "weight": 3,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 3
                 },
                 {
                     "weight": 1,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 5
                 }
             ]
@@ -6739,7 +6739,7 @@ exports.data = [
                 {
                     "weight": 2,
                     "type": 0,
-                    "value": 841,
+                    "value": 1736,
                     "count": 1
                 }
             ]
@@ -6750,7 +6750,7 @@ exports.data = [
                 {
                     "weight": 2,
                     "type": 0,
-                    "value": 851,
+                    "value": 1743,
                     "count": 1
                 }
             ]
@@ -6761,19 +6761,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 },
                 {
                     "weight": 3,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 3
                 },
                 {
                     "weight": 1,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 5
                 }
             ]
@@ -6796,7 +6796,7 @@ exports.data = [
                 {
                     "weight": 2,
                     "type": 0,
-                    "value": 842,
+                    "value": 1737,
                     "count": 1
                 }
             ]
@@ -6807,7 +6807,7 @@ exports.data = [
                 {
                     "weight": 2,
                     "type": 0,
-                    "value": 851,
+                    "value": 1744,
                     "count": 1
                 }
             ]
@@ -6818,19 +6818,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 },
                 {
                     "weight": 3,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 3
                 },
                 {
                     "weight": 1,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 5
                 }
             ]
@@ -6853,7 +6853,7 @@ exports.data = [
                 {
                     "weight": 2,
                     "type": 0,
-                    "value": 843,
+                    "value": 1738,
                     "count": 1
                 }
             ]
@@ -6864,7 +6864,7 @@ exports.data = [
                 {
                     "weight": 2,
                     "type": 0,
-                    "value": 852,
+                    "value": 1745,
                     "count": 1
                 }
             ]
@@ -6875,19 +6875,19 @@ exports.data = [
                 {
                     "weight": 10,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 1
                 },
                 {
                     "weight": 3,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 3
                 },
                 {
                     "weight": 1,
                     "type": 0,
-                    "value": 857,
+                    "value": 856,
                     "count": 5
                 }
             ]
@@ -8351,6 +8351,6096 @@ exports.data = [
 					"weight": 4,
 					"type": 2,
 					"count": 8
+				}
+			]
+		}
+	],
+	[//213
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 35
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 809,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 816,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 853,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//214
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 35
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 810,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 817,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 853,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//215
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 35
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 811,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 818,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 853,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//216
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 35
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 812,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 819,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 853,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//217
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 35
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 813,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 820,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 853,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//218
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 35
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 814,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 821,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 853,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//219
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 35
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 815,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 822,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 853,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//220
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 55
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 830,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 837,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//221
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 55
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 831,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 837,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//222
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 55
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 832,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 837,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//223
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 55
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 833,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 837,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//224
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 55
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 834,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 837,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//225
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 55
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 835,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 837,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//226
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 55
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 836,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 837,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//227
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 95
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1640,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1647,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//228
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 95
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1641,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1648,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//229
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 95
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1642,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1649,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//230
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 95
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1643,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1650,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//231
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 95
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1644,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1651,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//232
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 95
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1645,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1652,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//233
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 95
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1646,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1653,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//234
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 130
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1661,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1668,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//235
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 130
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1662,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1669,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//236
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 130
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1663,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1670,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//237
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 130
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1664,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1671,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//238
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 130
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1665,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1672,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//239
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 130
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1666,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1673,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//240
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 130
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1667,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1674,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//241
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 195
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1675,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1686,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//242
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 195
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1676,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1687,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//243
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 195
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1677,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1688,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//244
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 195
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1678,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1689,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//245
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 195
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1679,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1690,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//246
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 195
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1684,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1691,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//247
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 195
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1685,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1692,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//248
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 260
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1693,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1700,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//249
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 260
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1694,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1701,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//250
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 260
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1695,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1702,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//251
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 260
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1696,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1703,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//252
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 260
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1697,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1704,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//253
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 260
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1698,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1705,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//254
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 260
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1699,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1706,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//255
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 340
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1707,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1714,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//256
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 340
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1708,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1715,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//257
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 340
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1709,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1716,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//258
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 340
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1710,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1717,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//259
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 340
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1711,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1718,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//260
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 340
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1712,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1719,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//261
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 340
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1713,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1720,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//262
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 455
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1721,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1728,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//263
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 455
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1722,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1729,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//264
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 455
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1723,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1730,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//265
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 455
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1724,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1735,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//266
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 455
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1725,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1736,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//267
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 455
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1726,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1737,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//268
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 455
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1727,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1738,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//269
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 520
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1739,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1746,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//270
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 520
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1740,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1747,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//271
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 520
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1741,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1748,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//272
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 520
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1742,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1749,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//273
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 520
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1743,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1750,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//274
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 520
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1744,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1751,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//275
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 520
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1745,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1752,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//276
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 585
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1753,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1760,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//277
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 585
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1754,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1761,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//278
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 585
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1755,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1762,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//279
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 585
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1756,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1763,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//280
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 585
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1757,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1764,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//281
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 585
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1758,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1765,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//282
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 20,
+					"type": 1,
+					"count": 585
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 1759,
+					"count": 1
+				},
+				{
+					"weight": 5,
+					"type": 0,
+					"value": 1766,
+					"count": 1
+				},
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//283
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 195
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 809,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 816,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 853,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 853,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 853,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//284
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 195
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 810,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 817,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 853,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 853,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 853,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//285
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 195
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 811,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 818,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 853,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 853,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 853,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//286
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 195
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 812,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 819,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 853,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 853,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 853,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//287
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 195
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 813,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 820,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 853,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 853,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 853,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//288
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 195
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 814,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 821,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 853,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 853,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 853,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//289
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 195
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 815,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 822,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 853,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 853,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 853,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//290
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 260
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 830,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 837,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//291
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 260
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 831,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 837,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//292
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 260
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 832,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 837,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//293
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 260
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 833,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 837,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//294
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 260
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 834,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 837,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//295
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 260
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 835,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 837,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//296
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 260
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 836,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 837,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//297
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 390
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1640,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1647,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//298
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 390
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1641,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1648,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//299
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 390
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1642,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1649,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//300
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 390
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1643,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1650,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//301
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 390
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1644,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1651,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//302
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 390
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1645,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1652,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//303
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 390
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1646,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1653,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//304
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 520
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1661,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1668,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//305
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 520
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1662,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1669,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//306
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 520
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1663,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1670,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//307
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 520
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1664,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1671,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//308
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 520
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1665,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1672,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//309
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 520
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1666,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1673,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//310
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 520
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1667,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1674,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 854,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 854,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 854,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//311
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 780
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1675,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1686,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//312
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 780
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1676,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1687,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//313
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 780
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1677,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1688,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//314
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 780
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1678,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1689,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//315
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 780
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1679,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1690,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//316
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 780
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1684,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1691,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//317
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 780
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1685,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1692,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//318
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1040
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1693,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1700,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//319
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1040
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1694,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1701,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//320
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1040
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1695,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1702,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//321
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1040
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1696,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1703,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//322
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1040
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1697,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1704,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//323
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1040
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1698,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1705,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//324
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1040
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1699,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1706,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//325
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1360
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1707,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1714,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//326
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1360
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1708,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1715,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//327
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1360
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1709,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1716,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//328
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1360
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1710,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1717,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//329
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1360
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1711,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1718,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//330
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1360
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1712,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1719,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//331
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1360
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1713,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1720,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 855,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 855,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 855,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//332
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1820
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1721,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1728,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//333
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1820
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1722,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1729,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//334
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1820
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1723,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1730,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//335
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1820
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1724,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1735,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//336
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1820
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1725,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1736,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//337
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1820
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1726,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1737,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//338
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 1820
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1727,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1738,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//339
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 2080
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1739,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1746,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//340
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 2080
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1740,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1747,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//341
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 2080
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1741,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1748,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//342
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 2080
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1742,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1749,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//343
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 2080
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1743,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1750,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//344
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 2080
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1744,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1751,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//345
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 2080
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1745,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1752,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//346
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 2340
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1753,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1760,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//347
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 2340
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1754,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1761,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//348
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 2340
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1755,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1762,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//349
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 2340
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1756,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1763,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//350
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 2340
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1757,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1764,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//351
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 2340
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1758,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1765,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
+				}
+			]
+		}
+	],
+	[//352
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 1,
+					"count": 2340
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1759,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.1,
+			"prize": [
+				{
+					"weight": 2,
+					"type": 0,
+					"value": 1766,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.4,
+			"prize": [
+				{
+					"weight": 10,
+					"type": 0,
+					"value": 856,
+					"count": 1
+				},
+				{
+					"weight": 3,
+					"type": 0,
+					"value": 856,
+					"count": 3
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 856,
+					"count": 5
 				}
 			]
 		}
