@@ -25761,7 +25761,7 @@ exports.data = [
                     "type":0,
                     "value":855,
                     "count": 2
-                }],
+                }]
         },
         "infinity_a":0,
         "infinity_b":0,
