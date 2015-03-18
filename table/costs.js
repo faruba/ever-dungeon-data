@@ -115,72 +115,72 @@ exports.data = [
         "costId":17,
         "material":[
             { "type": 1, "count":2000},
-            { "type":0,"value":826,"count":1},
-            { "type":0,"value":827,"count":1},
-            { "type":0,"value":828,"count":1},
-            { "type":0,"value":829,"count":1},
-            { "type":0,"value":830,"count":1},
-            { "type":0,"value":831,"count":1}
+            { "type":0,"value":826,"count":3},
+            { "type":0,"value":827,"count":3},
+            { "type":0,"value":828,"count":3},
+            { "type":0,"value":829,"count":3},
+            { "type":0,"value":830,"count":3},
+            { "type":0,"value":831,"count":3}
         ]
     },
     {
         "costId":18,
         "material":[
             { "type": 1, "count":2000},
-            { "type":0,"value":802,"count":1},
-            { "type":0,"value":803,"count":1},
-            { "type":0,"value":804,"count":1},
-            { "type":0,"value":805,"count":1},
-            { "type":0,"value":806,"count":1},
-            { "type":0,"value":807,"count":1}
+            { "type":0,"value":802,"count":3},
+            { "type":0,"value":803,"count":3},
+            { "type":0,"value":804,"count":3},
+            { "type":0,"value":805,"count":3},
+            { "type":0,"value":806,"count":3},
+            { "type":0,"value":807,"count":3}
         ]
     },
     {
         "costId":19,
         "material":[
             { "type": 1, "count":2000},
-            { "type":0,"value":832,"count":1},
-            { "type":0,"value":833,"count":1},
-            { "type":0,"value":834,"count":1},
-            { "type":0,"value":835,"count":1},
-            { "type":0,"value":836,"count":1},
-            { "type":0,"value":837,"count":1}
+            { "type":0,"value":832,"count":3},
+            { "type":0,"value":833,"count":3},
+            { "type":0,"value":834,"count":3},
+            { "type":0,"value":835,"count":3},
+            { "type":0,"value":836,"count":3},
+            { "type":0,"value":837,"count":3}
         ]
     },
     {
         "costId":20,
         "material":[
             { "type": 1, "count":2000},
-            { "type":0,"value":814,"count":1},
-            { "type":0,"value":815,"count":1},
-            { "type":0,"value":816,"count":1},
-            { "type":0,"value":817,"count":1},
-            { "type":0,"value":818,"count":1},
-            { "type":0,"value":819,"count":1}
+            { "type":0,"value":814,"count":3},
+            { "type":0,"value":815,"count":3},
+            { "type":0,"value":816,"count":3},
+            { "type":0,"value":817,"count":3},
+            { "type":0,"value":818,"count":3},
+            { "type":0,"value":819,"count":3}
         ]
     },
     {
         "costId":21,
         "material":[
             { "type": 1, "count":2000},
-            { "type":0,"value":808,"count":1},
-            { "type":0,"value":809,"count":1},
-            { "type":0,"value":810,"count":1},
-            { "type":0,"value":811,"count":1},
-            { "type":0,"value":812,"count":1},
-            { "type":0,"value":813,"count":1}
+            { "type":0,"value":808,"count":3},
+            { "type":0,"value":809,"count":3},
+            { "type":0,"value":810,"count":3},
+            { "type":0,"value":811,"count":3},
+            { "type":0,"value":812,"count":3},
+            { "type":0,"value":813,"count":3}
         ]
     },
     {
         "costId":22,
         "material":[
             { "type": 1, "count":2000},
-            { "type":0,"value":820,"count":1},
-            { "type":0,"value":821,"count":1},
-            { "type":0,"value":822,"count":1},
-            { "type":0,"value":823,"count":1},
-            { "type":0,"value":824,"count":1},
-            { "type":0,"value":825,"count":1}
+            { "type":0,"value":820,"count":3},
+            { "type":0,"value":821,"count":3},
+            { "type":0,"value":822,"count":3},
+            { "type":0,"value":823,"count":3},
+            { "type":0,"value":824,"count":3},
+            { "type":0,"value":825,"count":3}
         ]
     },
     {
@@ -431,72 +431,72 @@ exports.data = [
         "costId":45,
         "material":[
             { "type": 1, "count":100000},
-            { "type":0,"value":1705,"count":1},
-            { "type":0,"value":1708,"count":1},
-            { "type":0,"value":1711,"count":1},
-            { "type":0,"value":1714,"count":1},
-            { "type":0,"value":1717,"count":1},
-            { "type":0,"value":1720,"count":1}
+            { "type":0,"value":1705,"count":3},
+            { "type":0,"value":1708,"count":3},
+            { "type":0,"value":1711,"count":3},
+            { "type":0,"value":1714,"count":3},
+            { "type":0,"value":1717,"count":3},
+            { "type":0,"value":1720,"count":3}
         ]
     },
     {
         "costId":46,
         "material":[
             { "type": 1, "count":100000},
-            { "type":0,"value":1686,"count":1},
-            { "type":0,"value":1687,"count":1},
-            { "type":0,"value":1688,"count":1},
-            { "type":0,"value":1689,"count":1},
-            { "type":0,"value":1690,"count":1},
-            { "type":0,"value":1691,"count":1}
+            { "type":0,"value":1686,"count":3},
+            { "type":0,"value":1687,"count":3},
+            { "type":0,"value":1688,"count":3},
+            { "type":0,"value":1689,"count":3},
+            { "type":0,"value":1690,"count":3},
+            { "type":0,"value":1691,"count":3}
         ]
     },
     {
         "costId":47,
         "material":[
             { "type": 1, "count":100000},
-            { "type":0,"value":1706,"count":1},
-            { "type":0,"value":1707,"count":1},
-            { "type":0,"value":1712,"count":1},
-            { "type":0,"value":1713,"count":1},
-            { "type":0,"value":1718,"count":1},
-            { "type":0,"value":1719,"count":1}
+            { "type":0,"value":1706,"count":3},
+            { "type":0,"value":1707,"count":3},
+            { "type":0,"value":1712,"count":3},
+            { "type":0,"value":1713,"count":3},
+            { "type":0,"value":1718,"count":3},
+            { "type":0,"value":1719,"count":3}
         ]
     },
     {
         "costId":48,
         "material":[
             { "type": 1, "count":100000},
-            { "type":0,"value":1693,"count":1},
-            { "type":0,"value":1694,"count":1},
-            { "type":0,"value":1697,"count":1},
-            { "type":0,"value":1698,"count":1},
-            { "type":0,"value":1701,"count":1},
-            { "type":0,"value":1702,"count":1}
+            { "type":0,"value":1693,"count":3},
+            { "type":0,"value":1694,"count":3},
+            { "type":0,"value":1697,"count":3},
+            { "type":0,"value":1698,"count":3},
+            { "type":0,"value":1701,"count":3},
+            { "type":0,"value":1702,"count":3}
         ]
     },
     {
         "costId":49,
         "material":[
             { "type": 1, "count":100000},
-            { "type":0,"value":1692,"count":1},
-            { "type":0,"value":1695,"count":1},
-            { "type":0,"value":1696,"count":1},
-            { "type":0,"value":1699,"count":1},
-            { "type":0,"value":1700,"count":1},
-            { "type":0,"value":1703,"count":1}
+            { "type":0,"value":1692,"count":3},
+            { "type":0,"value":1695,"count":3},
+            { "type":0,"value":1696,"count":3},
+            { "type":0,"value":1699,"count":3},
+            { "type":0,"value":1700,"count":3},
+            { "type":0,"value":1703,"count":3}
         ]
     },
     {
         "costId":50,
         "material":[
             { "type": 1, "count":100000},
-            { "type":0,"value":1704,"count":1},
-            { "type":0,"value":1709,"count":1},
-            { "type":0,"value":1710,"count":1},
-            { "type":0,"value":1715,"count":1},
-            { "type":0,"value":1716,"count":1},
-            { "type":0,"value":1721,"count":1}
+            { "type":0,"value":1704,"count":3},
+            { "type":0,"value":1709,"count":3},
+            { "type":0,"value":1710,"count":3},
+            { "type":0,"value":1715,"count":3},
+            { "type":0,"value":1716,"count":3},
+            { "type":0,"value":1721,"count":3}
         ]
     },
     {
