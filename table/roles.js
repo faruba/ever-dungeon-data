@@ -10100,5 +10100,253 @@ exports.data = [
 				"level": 1
 			}
 		]
+	},
+	{
+		"classId": 263,
+		"className": "火元素",
+		"faction": "monster",
+		"classType": 1,
+		"skeleton": "water.json",
+		"atlas": "water.atlas",
+		"property": {
+			"health": 0.4,
+			"attack": 0.4,
+			"critical": 0,
+			"strong": -10,
+			"accuracy": 30,
+			"reactivity": -50,
+			"speed": -30,
+			"counterAttack": true,
+			"exp": 0,
+			"gold": 0
+		},
+		"xproperty": {
+			"balance": 0.1,
+			"health": 1.5,
+			"attack": 0.4,
+			"critical": 1,
+			"strong": 1,
+			"accuracy": 1,
+			"reactivity": 1,
+			"speed": 1
+		},
+		"soundSpawn": "shilaimu.mp3",
+		"soundWound": "shilaimuwound.mp3",
+		"soundAttack": "shilaimuattack.mp3",
+		"soundDie": "shilaimudie.mp3",
+		"effectAttack": 9,
+		"collectId": 216001,
+		"skill": [
+			{
+				"id": 101,
+				"level": 1
+			}
+		]
+	},
+	{
+		"classId": 264,
+		"className": "火元素BOSS",
+		"faction": "monster",
+		"classType": 1,
+		"skeleton": "water.json",
+		"atlas": "water.atlas",
+		"property": {
+			"health": 3,
+			"attack": 0.6,
+			"critical": 0,
+			"strong": -10,
+			"accuracy": 60,
+			"reactivity": -50,
+			"speed": -20,
+			"counterAttack": true,
+			"exp": 0,
+			"gold": 0
+		},
+		"xproperty": {
+			"balance": 0.1,
+			"health": 1.5,
+			"attack": 0.4,
+			"critical": 1,
+			"strong": 1,
+			"accuracy": 1,
+			"reactivity": 1,
+			"speed": 1
+		},
+		"soundSpawn": "shilaimu.mp3",
+		"soundWound": "shilaimuwound.mp3",
+		"soundAttack": "shilaimuattack.mp3",
+		"soundDie": "shilaimudie.mp3",
+		"effectAttack": 9,
+		"skill": [
+			{
+				"id": 101,
+				"level": 1
+			}
+		],
+		"scale": 1.2
+	},
+	{
+		"classId": 265,
+		"className": "风元素",
+		"faction": "monster",
+		"classType": 1,
+		"skeleton": "water.json",
+		"atlas": "water.atlas",
+		"property": {
+			"health": 0.3,
+			"attack": 0.25,
+			"critical": 40,
+			"strong": -20,
+			"accuracy": 70,
+			"reactivity": -20,
+			"speed": 10,
+			"counterAttack": true,
+			"exp": 0,
+			"gold": 0
+		},
+		"xproperty": {
+			"balance": 0.1,
+			"health": 1.5,
+			"attack": 0.4,
+			"critical": 1,
+			"strong": 1,
+			"accuracy": 1,
+			"reactivity": 1,
+			"speed": 1
+		},
+		"soundSpawn": "shilaimu.mp3",
+		"soundWound": "shilaimuwound.mp3",
+		"soundAttack": "shilaimuattack.mp3",
+		"soundDie": "shilaimudie.mp3",
+		"effectAttack": 9,
+		"collectId": 216001,
+		"skill": [
+			{
+				"id": 104,
+				"level": 1
+			}
+		]
+	},
+	{
+		"classId": 266,
+		"className": "风元素BOSS",
+		"faction": "monster",
+		"classType": 1,
+		"skeleton": "water.json",
+		"atlas": "water.atlas",
+		"property": {
+			"health": 3,
+			"attack": 0.45,
+			"critical": 50,
+			"strong": -20,
+			"accuracy": 60,
+			"reactivity": -30,
+			"speed": 0,
+			"counterAttack": true,
+			"exp": 0,
+			"gold": 0
+		},
+		"xproperty": {
+			"balance": 0.1,
+			"health": 1.5,
+			"attack": 0.4,
+			"critical": 1,
+			"strong": 1,
+			"accuracy": 1,
+			"reactivity": 1,
+			"speed": 1
+		},
+		"soundSpawn": "shilaimu.mp3",
+		"soundWound": "shilaimuwound.mp3",
+		"soundAttack": "shilaimuattack.mp3",
+		"soundDie": "shilaimudie.mp3",
+		"effectAttack": 9,
+		"skill": [
+			{
+				"id": 104,
+				"level": 1
+			}
+		],
+		"scale": 1.2
+	},
+	{
+		"classId": 267,
+		"className": "剑兵3BOSS",
+		"faction": "monster",
+		"classType": 1,
+		"avatar": "enemy-sword13.ccbi",
+		"property": {
+			"health": 3,
+			"attack": 0.45,
+			"critical": 20,
+			"strong": 0,
+			"accuracy": 50,
+			"reactivity": -50,
+			"speed": -20,
+			"counterAttack": true,
+			"exp": 0,
+			"gold": 0
+		},
+		"xproperty": {
+			"balance": 0.1,
+			"health": 1.5,
+			"attack": 0.4,
+			"critical": 1,
+			"strong": 1,
+			"accuracy": 1,
+			"reactivity": 1,
+			"speed": 1
+		},
+		"soundWound": "liulangwound.mp3",
+		"soundAttack": "liulangattack.mp3",
+		"soundDie": "liulangdie.mp3",
+		"effectAttack": 8,
+		"skill": [
+			{
+				"id": 185,
+				"level": 1
+			}
+		],
+		"scale": 1.2
+	},
+	{
+		"classId": 268,
+		"className": "剑兵4BOSS",
+		"faction": "monster",
+		"classType": 1,
+		"avatar": "enemy-sword14.ccbi",
+		"property": {
+			"health": 3,
+			"attack": 0.45,
+			"critical": 20,
+			"strong": 0,
+			"accuracy": 50,
+			"reactivity": -50,
+			"speed": -20,
+			"counterAttack": true,
+			"exp": 0,
+			"gold": 0
+		},
+		"xproperty": {
+			"balance": 0.1,
+			"health": 1.5,
+			"attack": 0.4,
+			"critical": 1,
+			"strong": 1,
+			"accuracy": 1,
+			"reactivity": 1,
+			"speed": 1
+		},
+		"soundWound": "liulangwound.mp3",
+		"soundAttack": "liulangattack.mp3",
+		"soundDie": "liulangdie.mp3",
+		"effectAttack": 8,
+		"skill": [
+			{
+				"id": 185,
+				"level": 1
+			}
+		],
+		"scale": 1.2
 	}
 ]

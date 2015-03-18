@@ -2263,6 +2263,7 @@ var data = [
         "label":"邪恶巢穴",
         "desc":"领主塔卡的宫殿，卡塔不仅拥有强大的佣兵\n军团，据称他已经掌握了未知力量。",
         "icon":"mapicon6.png",
+        "eliteFixCfg":[{rank:1.3,energyCost: 1.3, sweepCost:1.3,sweepPower:1.3}],
         "stage":[
             {
                 "stageId": 135,
@@ -2384,6 +2385,7 @@ var data = [
         "label":"地狱峡谷",
         "desc":"领主塔卡的宫殿，卡塔不仅拥有强大的佣兵\n军团，据称他已经掌握了未知力量。",
         "icon":"mapicon6.png",
+        "eliteFixCfg":[{rank:1.3,energyCost: 1.3, sweepCost:1.3,sweepPower:1.3}],
         "stage":[
             {
                 "stageId": 143,
@@ -2491,6 +2493,556 @@ var data = [
                 "cond":
                 { "and": [
                     { "==": [ { "type": "getProperty", "key": "stage.149.state"}, 2 ] }
+                ]
+                }
+
+            }
+        ]
+    },
+    {
+        "chapterId": 19,
+        "idx": 13,
+        "style": "map-dungeon11",
+        "title":"dungeonname11.png",
+        "label":"深渊哨站",
+        "desc":"领主塔卡的宫殿，卡塔不仅拥有强大的佣兵\n军团，据称他已经掌握了未知力量。",
+        "icon":"mapicon6.png",
+        "eliteFixCfg":[{rank:1.3,energyCost: 1.3, sweepCost:1.3,sweepPower:1.3}],
+        "stage":[
+            {
+                "stageId": 151,
+                "sweepPower":11600,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 152,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.149.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 152,
+                "sweepPower":11800,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 153,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.151.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 153,
+                "sweepPower":12000,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 154,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.152.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 154,
+                "sweepPower":12200,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 155,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.153.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 155,
+                "sweepPower":12400,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 156,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.154.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 156,
+                "sweepPower":12600,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 157,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.155.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 157,
+                "sweepPower":12800,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 158,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.156.state"}, 2 ] }
+                ]
+                }
+
+            }
+        ]
+    },
+    {
+        "chapterId": 20,
+        "idx": 14,
+        "style": "map-dungeon11",
+        "title":"dungeonname11.png",
+        "label":"恶魔营地",
+        "desc":"领主塔卡的宫殿，卡塔不仅拥有强大的佣兵\n军团，据称他已经掌握了未知力量。",
+        "icon":"mapicon6.png",
+        "eliteFixCfg":[{rank:1.3,energyCost: 1.3, sweepCost:1.3,sweepPower:1.3}],
+        "stage":[
+            {
+                "stageId": 158,
+                "sweepPower":11600,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 152,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.157.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 159,
+                "sweepPower":11800,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 153,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.158.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 160,
+                "sweepPower":12000,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 154,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.159.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 161,
+                "sweepPower":12200,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 155,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.160.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 162,
+                "sweepPower":12400,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 156,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.161.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 163,
+                "sweepPower":12600,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 157,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.162.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 164,
+                "sweepPower":12800,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 158,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.163.state"}, 2 ] }
+                ]
+                }
+
+            }
+        ]
+    },
+    {
+        "chapterId": 21,
+        "idx": 15,
+        "style": "map-dungeon11",
+        "title":"dungeonname11.png",
+        "label":"绝望洞窟",
+        "desc":"领主塔卡的宫殿，卡塔不仅拥有强大的佣兵\n军团，据称他已经掌握了未知力量。",
+        "icon":"mapicon6.png",
+        "eliteFixCfg":[{rank:1.3,energyCost: 1.3, sweepCost:1.3,sweepPower:1.3}],
+        "stage":[
+            {
+                "stageId": 165,
+                "sweepPower":11600,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 152,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.164.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 166,
+                "sweepPower":11800,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 153,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.165.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 167,
+                "sweepPower":12000,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 154,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.166.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 168,
+                "sweepPower":12200,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 155,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.167.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 169,
+                "sweepPower":12400,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 156,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.168.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 170,
+                "sweepPower":12600,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 157,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.169.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 171,
+                "sweepPower":12800,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 158,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.170.state"}, 2 ] }
+                ]
+                }
+
+            }
+        ]
+    },
+    {
+        "chapterId": 22,
+        "idx": 16,
+        "style": "map-dungeon11",
+        "title":"dungeonname11.png",
+        "label":"鬼魅洞穴",
+        "desc":"领主塔卡的宫殿，卡塔不仅拥有强大的佣兵\n军团，据称他已经掌握了未知力量。",
+        "icon":"mapicon6.png",
+        "eliteFixCfg":[{rank:1.3,energyCost: 1.3, sweepCost:1.3,sweepPower:1.3}],
+        "stage":[
+            {
+                "stageId": 172,
+                "sweepPower":11600,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 152,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.171.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 173,
+                "sweepPower":11800,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 153,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.172.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 174,
+                "sweepPower":12000,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 154,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.173.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 175,
+                "sweepPower":12200,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 155,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.174.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 176,
+                "sweepPower":12400,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 156,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.175.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 177,
+                "sweepPower":12600,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 157,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.176.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 178,
+                "sweepPower":12800,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 158,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.177.state"}, 2 ] }
+                ]
+                }
+
+            }
+        ]
+    },
+    {
+        "chapterId": 23,
+        "idx": 17,
+        "style": "map-dungeon11",
+        "title":"dungeonname11.png",
+        "label":"黑暗古堡",
+        "desc":"领主塔卡的宫殿，卡塔不仅拥有强大的佣兵\n军团，据称他已经掌握了未知力量。",
+        "icon":"mapicon6.png",
+        "eliteFixCfg":[{rank:1.3,energyCost: 1.3, sweepCost:1.3,sweepPower:1.3}],
+        "stage":[
+            {
+                "stageId": 179,
+                "sweepPower":11600,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 152,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.178.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 180,
+                "sweepPower":11800,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 153,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.179.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 181,
+                "sweepPower":12000,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 154,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.180.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 182,
+                "sweepPower":12200,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 155,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.181.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 183,
+                "sweepPower":12400,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 156,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.182.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 184,
+                "sweepPower":12600,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 157,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.183.state"}, 2 ] }
+                ]
+                }
+
+            },
+            {
+                "stageId": 185,
+                "sweepPower":12800,
+                "cost": [15],
+                "team": 3,
+                "hidden":false,
+                "dungeon": 158,
+                "cond":
+                { "and": [
+                    { "==": [ { "type": "getProperty", "key": "stage.184.state"}, 2 ] }
                 ]
                 }
 
