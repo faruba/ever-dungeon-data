@@ -5916,7 +5916,7 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "event",
-          "event": "onkill"
+          "event": "onBeDeathStrike"
         }
       ],
       "targetSelection": {
@@ -5936,18 +5936,15 @@ exports.data = [
       },
       "action": [
         {
+          "type": "delay"
+        },
+        {
           "type": "damage",
           "formular": {
             "src": {
               "strong": 0.5
             }
           }
-        },
-        {
-          "type": "playEffect"
-        },
-        {
-          "type": "delay"
         }
       ]
     }
@@ -6034,17 +6031,33 @@ exports.data = [
       "triggerCondition": [
         {
           "type": "event",
-          "event": "onKill"
+          "event": "onBeDeathStrike"
         }
       ],
       "targetSelection": {
-        "pool": "Enemy",
+        "pool": "objects",
         "filter": [
-          "alive",
-          "visible"
+          {
+            "type": "alive"
+          },
+          {
+            "type": "visible"
+          },
+          {
+            "type": "target-faction-with-flag",
+            "flag": "attackable"
+          }
         ]
       },
       "action": [
+        {
+          "type": "delay"
+        },
+        {
+          "type": "playEffect",
+          "effect": 17,
+          "pos": "target"
+        },
         {
           "type": "installSpell",
           "spell": 105
@@ -6061,9 +6074,8 @@ exports.data = [
           "modifications": {
             "speed": {
               "src": {
-                "speed": 3
-              },
-              "c": 20
+                "speed": -0.5
+              }
             }
           }
         }
@@ -6073,7 +6085,7 @@ exports.data = [
           "type": "resetProperty"
         }
       ],
-      "buffType": "DeBuff",
+      "buffType": "RoleDebuff",
       "availableCondition": [
         {
           "type": "event",
