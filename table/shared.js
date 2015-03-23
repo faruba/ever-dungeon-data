@@ -190,8 +190,8 @@ ErrorMsgs = [
 	"请求已发送",
 	"复活次数已用尽",
 	"购买体力次数已用尽",
-    "兑换失败"
-    "RET_NothingTodo", 
+    "兑换失败",
+    "RET_NothingTodo",//70
     "RET_NotEnough", 
     "RET_ClassNotUnlock",
 ];
