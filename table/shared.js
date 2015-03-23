@@ -111,6 +111,9 @@ RET_SameMessageExist = 66;
 RET_ReviveLimit = 67;
 RET_EnergyLimit = 68;
 RET_RedeemFailed = 69;
+RET_NothingTodo = 70;
+RET_NotEnough = 71;
+RET_ClassNotUnlock = 72;
 
 ErrorMsgs = [
     "操作成功",//0
@@ -178,9 +181,15 @@ ErrorMsgs = [
     "好友不存在",
     "获取排名信息失败",
     "商店版本不匹配",
-    "参数不正确",
+    "参数不正确", //65,
     "you have already sent this message",
     "Revive Limit ",
+    "RET_ReviveLimit", 
+    "RET_EnergyLimit", 
+    "RET_RedeemFailed", 
+    "RET_NothingTodo", 
+    "RET_NotEnough", 
+    "RET_ClassNotUnlock",
 ];
 
 /*** ITEM CATEGORY ***/
