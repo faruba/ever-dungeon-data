@@ -103,6 +103,7 @@ exports.data = [
   },
   {
     "skillId": 2,
+    "level-upgrage-cost":[235,236,237],
     "label": L("dic_skill_2_label"), //援护
     "icon": "skill-warrior5.png",
     "labelIcon": "warriorsk5.png",
@@ -191,6 +192,7 @@ exports.data = [
   },
   {
     "skillId": 3,
+    "level-upgrage-cost":[241,242,243],
     "label": L("dic_skill_3_label"), //自愈
     "icon": "skill-warrior6.png",
     "labelIcon": "warriorsk6.png",
@@ -314,6 +316,7 @@ exports.data = [
   {
     "skillId": 5,
     "activeSpell": true,
+    "level-upgrage-cost":[-1,250,251],
     "label": L("dic_skill_5_label"), //闪电闪电
     "icon": "skill-mage1.png",
     "labelIcon": "magesk1.png",
@@ -532,6 +535,7 @@ exports.data = [
   {
     "skillId": 8,
     "activeSpell": true,
+    "level-upgrage-cost":[-1,267,268],
     "label": L("dic_skill_8_label"), //治愈
     "icon": "skill-priest1.png",
     "labelIcon": "priestsk1.png",
@@ -674,6 +678,7 @@ exports.data = [
   },
   {
     "skillId": 10,
+    "level-upgrage-cost":[269,270,271],
     "label": L("dic_skill_10_label"), //救赎
     "icon": "skill-priest5.png",
     "labelIcon": "priestsk5.png",
@@ -741,6 +746,7 @@ exports.data = [
   },
   {
     "skillId": 11,
+    "level-upgrage-cost":[275,276,277],
     "label": L("dic_skill_11_label"), //奇迹之光
     "icon": "skill-priest6.png",
     "labelIcon": "priestsk6.png",
@@ -832,6 +838,7 @@ exports.data = [
   },
   {
     "skillId": 12,
+    "level-upgrage-cost":[252,253,254],
     "label": L("dic_skill_12_label"), //元素爆发
     "icon": "skill-mage5.png",
     "labelIcon": "magesk5.png",
@@ -10555,6 +10562,7 @@ exports.data = [
   {
     "skillId": 195,
     "activeSpell": true,
+    "level-upgrage-cost":[-1,284,285],
     "label": L("dic_skill_195_label"), //怒之力
     "icon": "skill-kzs1.png",
     "labelIcon": "kzssk1.png",
@@ -10681,6 +10689,7 @@ exports.data = [
   },
   {
     "skillId": 198,
+    "level-upgrage-cost":[286,287,288],
     "label": L("dic_skill_198_label"), //血之狂怒
     "icon": "skill-kzs5.png",
     "labelIcon": "kzssk5.png",
@@ -10751,6 +10760,7 @@ exports.data = [
   {
     "skillId": 199,
     "activeSpell": true,
+    "level-upgrage-cost":[289,290,291],
     "label": L("dic_skill_199_label"), //战争咆哮
     "icon": "skill-kzs2.png",
     "labelIcon": "kzssk2.png",
@@ -10912,6 +10922,7 @@ exports.data = [
   {
     "skillId": 201,
     "activeSpell": true,
+    "level-upgrage-cost":[-1,302,303],
     "label": L("dic_skill_201_label"), //寒冰箭
     "icon": "skill-mds1.png",
     "labelIcon": "mdssk1.png",
@@ -10995,6 +11006,7 @@ exports.data = [
   },
   {
     "skillId": 202,
+    "level-upgrage-cost":[304,305,306],
     "label": L("dic_skill_202_label"), //魔力漩涡
     "icon": "skill-mds5.png",
     "labelIcon": "mdssk5.png",
@@ -11095,6 +11107,7 @@ exports.data = [
   },
   {
     "skillId": 204,
+    "level-upgrage-cost":[310,311,312],
     "label": L("dic_skill_204_label"), //死亡诅咒
     "icon": "skill-mds6.png",
     "labelIcon": "mdssk6.png",
@@ -11226,6 +11239,7 @@ exports.data = [
   },
   {
     "skillId": 206,
+    "level-upgrage-cost":[258,259,260],
     "label": L("dic_skill_206_label"), //元素崩塌
     "icon": "skill-mage6.png",
     "labelIcon": "magesk6.png",
@@ -11288,6 +11302,7 @@ exports.data = [
   {
     "skillId": 207,
     "activeSpell": true,
+    "level-upgrage-cost":[-1,319,320],
     "label": L("dic_skill_207_label"), //祈祷
     "icon": "skill-dzj1.png",
     "labelIcon": "dzjsk1.png",
@@ -11479,6 +11494,7 @@ exports.data = [
   },
   {
     "skillId": 210,
+    "level-upgrage-cost":[321,322,323],
     "label": L("dic_skill_210_label"), //加护
     "icon": "skill-dzj5.png",
     "labelIcon": "dzjsk5.png",
@@ -11564,6 +11580,7 @@ exports.data = [
   },
   {
     "skillId": 211,
+    "level-upgrage-cost":[327,328,329],
     "label": L("dic_skill_211_label"), //放逐
     "icon": "skill-dzj6.png",
     "labelIcon": "dzjsk6.png",
@@ -19114,6 +19131,7 @@ exports.data = [
   {
     "skillId": 356,
     "activeSpell": true,
+    "level-upgrage-cost":[-1,233,234],
     "label": L("dic_skill_356_label"), //战技
     "icon": "skill-warrior1.png",
     "labelIcon": "warriorsk1.png",
@@ -19214,6 +19232,7 @@ exports.data = [
   {
     "skillId": 358,
     "activeSpell": true,
+    "level-upgrage-cost":[238,239,240],
     "label": L("dic_skill_358_label"), //击晕
     "icon": "skill-warrior2.png",
     "labelIcon": "warriorsk2.png",
@@ -19335,6 +19354,7 @@ exports.data = [
   {
     "skillId": 361,
     "activeSpell": true,
+    "level-upgrage-cost":[244,245,246],
     "label": L("dic_skill_361_label"), //回旋斩
     "icon": "skill-warrior3.png",
     "labelIcon": "warriorsk3.png",
@@ -19468,6 +19488,7 @@ exports.data = [
   {
     "skillId": 363,
     "activeSpell": true,
+    "level-upgrage-cost":[247,248,249],
     "label": L("dic_skill_363_label"), //神圣护盾
     "icon": "skill-warrior4.png",
     "labelIcon": "warriorsk4.png",
@@ -19598,6 +19619,7 @@ exports.data = [
   {
     "skillId": 365,
     "activeSpell": true,
+    "level-upgrage-cost":[261,262,263],
     "label": L("dic_skill_365_label"), //死亡龙卷
     "icon": "skill-mage3.png",
     "labelIcon": "magesk3.png",
@@ -19718,6 +19740,7 @@ exports.data = [
   {
     "skillId": 367,
     "activeSpell": true,
+    "level-upgrage-cost":[264,265,266],
     "label": L("dic_skill_367_label"), //陨石召唤
     "icon": "skill-mage4.png",
     "labelIcon": "magesk4.png",
@@ -19907,6 +19930,7 @@ exports.data = [
   {
     "skillId": 369,
     "activeSpell": true,
+    "level-upgrage-cost":[272,273,274],
     "label": L("dic_skill_369_label"), //神圣一击
     "icon": "skill-priest2.png",
     "labelIcon": "priestsk2.png",
@@ -20006,6 +20030,7 @@ exports.data = [
   {
     "skillId": 371,
     "activeSpell": true,
+    "level-upgrage-cost":[278,279,280],
     "label": L("dic_skill_371_label"), //传道
     "icon": "skill-priest3.png",
     "labelIcon": "priestsk3.png",
@@ -20136,6 +20161,7 @@ exports.data = [
   {
     "skillId": 373,
     "activeSpell": true,
+    "level-upgrage-cost":[281,282,283],
     "label": L("dic_skill_373_label"), //神圣突袭
     "icon": "skill-priest4.png",
     "labelIcon": "priestsk4.png",
@@ -20523,6 +20549,7 @@ exports.data = [
   {
     "skillId": 378,
     "activeSpell": true,
+    "level-upgrage-cost":[255,256,257],
     "label": L("dic_skill_7_label"), //炎甲
     "icon": "skill-mage2.png",
     "labelIcon": "magesk2.png",
@@ -22637,6 +22664,7 @@ exports.data = [
   },
   {
     "skillId": 414,
+    "level-upgrage-cost":[292,293,294],
     "label": L("dic_skill_414_label"), //战斗凯歌
     "icon": "skill-kzs6.png",
     "labelIcon": "kzssk6.png",
@@ -22739,6 +22767,7 @@ exports.data = [
   {
     "skillId": 416,
     "activeSpell": true,
+    "level-upgrage-cost":[295,296,297],
     "label": L("dic_skill_416_label"), //战争践踏
     "icon": "skill-kzs3.png",
     "labelIcon": "kzssk3.png",
@@ -22942,6 +22971,7 @@ exports.data = [
   {
     "skillId": 419,
     "activeSpell": true,
+    "level-upgrage-cost":[298,299,300],
     "label": L("dic_skill_200_label"), //复仇之神
     "icon": "skill-kzs4.png",
     "labelIcon": "kzs4.png",
@@ -22983,6 +23013,7 @@ exports.data = [
   {
     "skillId": 420,
     "activeSpell": true,
+    "level-upgrage-cost":[307,308,309],
     "label": L("dic_skill_420_label"), //炎爆
     "icon": "skill-mds2.png",
     "labelIcon": "mdssk2.png",
@@ -23082,6 +23113,7 @@ exports.data = [
   {
     "skillId": 421,
     "activeSpell": true,
+    "level-upgrage-cost":[313,314,315],
     "label": L("dic_skill_421_label"), //闪电奥爆
     "icon": "skill-mds3.png",
     "labelIcon": "mdssk3.png",
@@ -23197,6 +23229,7 @@ exports.data = [
   {
     "skillId": 422,
     "activeSpell": true,
+    "level-upgrage-cost":[316,317,318],
     "label": L("dic_skill_422_label"), //终极闪光
     "icon": "skill-mds4.png",
     "labelIcon": "mdssk4.png",
@@ -23312,6 +23345,7 @@ exports.data = [
   {
     "skillId": 423,
     "activeSpell": true,
+    "level-upgrage-cost":[324,325,326],
     "label": L("dic_skill_423_label"), //神圣力量
     "icon": "skill-dzj2.png",
     "labelIcon": "dzjsk2.png",
@@ -23432,6 +23466,7 @@ exports.data = [
   {
     "skillId": 425,
     "activeSpell": true,
+    "level-upgrage-cost":[330,331,332],
     "label": L("dic_skill_425_label"), //圣光庇佑
     "icon": "skill-dzj3.png",
     "labelIcon": "dzjsk3.png",
@@ -23537,6 +23572,7 @@ exports.data = [
   {
     "skillId": 427,
     "activeSpell": true,
+    "level-upgrage-cost":[333,334,335],
     "label": L("dic_skill_427_label"), //辉光降临
     "icon": "skill-dzj4.png",
     "labelIcon": "dzjsk4.png",

@@ -18,6 +18,7 @@ exports.data = [
 			"reactivity": 1,
 			"speed": 2
 		},
+		"availableSkillList":[356,2,358,3,361,363],
 		"defaultArmors": [
 			6,
 			10,
@@ -60,6 +61,7 @@ exports.data = [
 			"reactivity": 2,
 			"speed": 2
 		},
+		"availableSkillList":[5,12,378,206,365,367],
 		"defaultArmors": [
 			6,
 			10,
@@ -102,6 +104,7 @@ exports.data = [
 			"reactivity": 3,
 			"speed": 6
 		},
+		"availableSkillList":[8,10,369,11,371,373],
 		"defaultArmors": [
 			6,
 			10,
@@ -8082,6 +8085,7 @@ exports.data = [
             "reactivity": 1,
             "speed": 2
         },
+		"availableSkillList":[195,198,199,414,416,419],
         "defaultArmors": [
             6,
             10,
@@ -8124,6 +8128,7 @@ exports.data = [
             "reactivity": 2,
             "speed": 2
         },
+		"availableSkillList":[201,202,420,204,421,422],
         "defaultArmors": [
             6,
             10,
@@ -8166,6 +8171,7 @@ exports.data = [
             "reactivity": 3,
             "speed": 6
         },
+		"availableSkillList":[207,210,423,211,425,427],
         "defaultArmors": [
             6,
             10,
