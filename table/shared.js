@@ -115,8 +115,11 @@ RET_SameMessageExist = 66;
 RET_ReviveLimit = 67;
 RET_EnergyLimit = 68;
 RET_RedeemFailed = 69;
-RET_GetInfoFailed = 70;
-RET_PurchaseFailed = 71;
+RET_NothingTodo = 70;
+RET_NotEnough = 71;
+RET_ClassNotUnlock = 72;
+RET_GetInfoFailed = 73;
+RET_PurchaseFailed = 74;
 
 ErrorMsgs = [
     "操作成功",//0
@@ -190,6 +193,9 @@ ErrorMsgs = [
 	"复活次数已用尽",
 	"购买体力次数已用尽",
     "兑换失败",
+    "RET_NothingTodo",//70
+    "RET_NotEnough", 
+    "RET_ClassNotUnlock",
     "信息获取失败",
     "购买失败"
 ];
