@@ -115,6 +115,8 @@ RET_SameMessageExist = 66;
 RET_ReviveLimit = 67;
 RET_EnergyLimit = 68;
 RET_RedeemFailed = 69;
+RET_GetInfoFailed = 70;
+RET_PurchaseFailed = 71;
 
 ErrorMsgs = [
     "操作成功",//0
@@ -183,11 +185,13 @@ ErrorMsgs = [
     "好友不存在",
     "获取排名信息失败",
     "商店版本不匹配",
-    "参数不正确",
+    "参数不正确",//65
 	"请求已发送",
 	"复活次数已用尽",
 	"购买体力次数已用尽",
-    "兑换失败"
+    "兑换失败",
+    "信息获取失败",
+    "购买失败"
 ];
 
 /*** ITEM CATEGORY ***/
