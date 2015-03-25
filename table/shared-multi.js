@@ -40,6 +40,8 @@ TABLE_PKREWARD = "pkReward";
 TABLE_FRAGMENT = "fragment";
 TABLE_BOUNTY = "bounty";
 TABLE_UNIT = "units";
+TABLE_SHOP_MASTER = "shop_master";
+
 /*** GAME CONSTANTS ***/
 ItemId_RevivePotion = 540;
 

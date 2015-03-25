@@ -161,6 +161,7 @@ exports.data = {
         "sceneRoleLev":"级",
         "sceneShopCoin":"金币数量不足",
         "sceneShopDia":"宝石数量不足",
+        "sceneShopNotEnough":"钱币数量不足",
         "sceneShopOrdinaryEquip":"这是一件普普通通的道具",
         "sceneShopBuySuccess":"购买成功。",
         "sceneStageTeamPersons":"队伍人数：{#1}人",
