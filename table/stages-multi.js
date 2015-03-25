@@ -3048,6 +3048,93 @@ var data = [
 
             }
         ]
+    },
+    {
+        "chapterId": 24,
+        "label":"职业试炼",
+        "hidden": true,
+        "eliteFixCfg":[{rank:1.3,energyCost: 1.3, sweepCost:1.3,sweepPower:1.3}],
+        "stage":[
+            {
+                "stageId": 187,
+                "cost": [15],
+                "team": 1,
+                "hidden":true,
+                "dungeon": 161,
+                "event":"event_daily"
+            },
+            {
+                "stageId": 188,
+                "cost": [15],
+                "team": 1,
+                "hidden":true,
+                "dungeon": 162,
+                "event":"event_daily"
+            },
+            {
+                "stageId": 189,
+                "cost": [15],
+                "team": 1,
+                "hidden":true,
+                "dungeon": 163,
+                "event":"event_daily"
+            },
+            {
+                "stageId": 190,
+                "cost": [15],
+                "team": 1,
+                "hidden":true,
+                "dungeon": 164,
+                "event":"event_daily"
+            },
+            {
+                "stageId": 191,
+                "cost": [15],
+                "team": 1,
+                "hidden":true,
+                "dungeon": 165,
+                "event":"event_daily"
+            },
+            {
+                "stageId": 192,
+                "cost": [15],
+                "team": 1,
+                "hidden":true,
+                "dungeon": 166 ,
+                "event":"event_daily"
+            }
+        ]
+    },
+    {
+        "chapterId": 25,
+        "label":"转职试炼",
+        "hidden": true,
+        "stage":[
+            {
+                "stageId": 193,
+                "cost": [15],
+                "team": 1,
+                "hidden":true,
+                "dungeon": 167,
+                "event":"event_daily"
+            },
+            {
+                "stageId": 194,
+                "cost": [15],
+                "team": 1,
+                "hidden":true,
+                "dungeon": 168,
+                "event":"event_daily"
+            },
+            {
+                "stageId": 195,
+                "cost": [15],
+                "team": 1,
+                "hidden":true,
+                "dungeon": 169,
+                "event":"event_daily"
+            }
+        ]
     }
 ];
 for (k in data) {

@@ -10354,5 +10354,242 @@ exports.data = [
 			}
 		],
 		"scale": 1.2
+	},
+	{
+		"classId": 269,
+		"className": "试炼战士",
+		"faction": "monster",
+		"classType": 1,
+		"avatar": "avatar1.ccbi",
+		"emblem": [
+			"emblem-warrior.png",
+			"emblem-warrior2.png"
+		],
+		"defaultArmors": [
+			6,
+			10,
+			11,
+			879,
+			909,
+			939,
+			969,
+			999,
+			1029
+		],
+		"property": {
+			"health": 4.5,
+			"attack": 0.45,
+			"critical": 0,
+			"strong": 10,
+			"accuracy": 50,
+			"reactivity": -30,
+			"speed": 0,
+			"counterAttack": true,
+			"exp": 0,
+			"gold": 0
+		},
+		"xproperty": {
+			"balance": 0.1,
+			"health": 1.5,
+			"attack": 0.4,
+			"critical": 1,
+			"strong": 1,
+			"accuracy": 1,
+			"reactivity": 1,
+			"speed": 1
+		},
+		"soundAttack": "attackcut.mp3",
+		"skill": [
+			{
+				"id": 27,
+				"level": 1
+			},
+			{
+				"id": 152,
+				"level": 1
+			},
+			{
+				"id": 380,
+				"level": 3
+			},
+			{
+				"id": 2,
+				"level": 3
+			},
+			{
+				"id": 381,
+				"level": 3
+			},
+			{
+				"id": 3,
+				"level": 3
+			},
+			{
+				"id": 382,
+				"level": 3
+			},
+			{
+				"id": 383,
+				"level": 3
+			}
+		]
+	},
+	{
+		"classId": 270,
+		"className": "试炼法师",
+		"faction": "monster",
+		"classType": 1,
+		"avatar": "avatar2.ccbi",
+		"emblem": [
+			"emblem-mage.png",
+			"emblem-mage2.png"
+		],
+		"defaultArmors": [
+			6,
+			10,
+			11,
+			1059,
+			1089,
+			1119,
+			1149,
+			1179,
+			1209
+		],
+		"property": {
+			"health": 2.5,
+			"attack": 0.8,
+			"critical": 20,
+			"strong": -30,
+			"accuracy": 40,
+			"reactivity": -40,
+			"speed": 0,
+			"counterAttack": true,
+			"exp": 0,
+			"gold": 0
+		},
+		"xproperty": {
+			"balance": 0.1,
+			"health": 1.5,
+			"attack": 0.4,
+			"critical": 1,
+			"strong": 1,
+			"accuracy": 1,
+			"reactivity": 1,
+			"speed": 1
+		},
+		"soundAttack": "attackfire.mp3",
+		"skill": [
+			{
+				"id": 27,
+				"level": 3
+			},
+			{
+				"id": 152,
+				"level": 1
+			},
+			{
+				"id": 132,
+				"level": 3
+			},
+			{
+				"id": 12,
+				"level": 3
+			},
+			{
+				"id": 384,
+				"level": 3
+			},
+			{
+				"id": 206,
+				"level": 3
+			},
+			{
+				"id": 385,
+				"level": 3
+			},
+			{
+				"id": 386,
+				"level": 3
+			}
+		]
+	},
+	{
+		"classId": 271,
+		"className": "试炼牧师",
+		"faction": "monster",
+		"classType": 1,
+		"avatar": "avatar3.ccbi",
+		"emblem": [
+			"emblem-priest.png",
+			"emblem-priest2.png"
+		],
+		"defaultArmors": [
+			6,
+			10,
+			11,
+			1239,
+			1269,
+			1299,
+			1329,
+			1359,
+			1389
+		],
+		"property": {
+			"health": 3,
+			"attack": 0.4,
+			"critical": -20,
+			"strong": -10,
+			"accuracy": 60,
+			"reactivity": -10,
+			"speed": 20,
+			"counterAttack": true,
+			"exp": 0,
+			"gold": 0
+		},
+		"xproperty": {
+			"balance": 0.1,
+			"health": 1.5,
+			"attack": 0.4,
+			"critical": 1,
+			"strong": 1,
+			"accuracy": 1,
+			"reactivity": 1,
+			"speed": 1
+		},
+		"soundAttack": "attackhit.mp3",
+		"skill": [
+			{
+				"id": 27,
+				"level": 1
+			},
+			{
+				"id": 152,
+				"level": 1
+			},
+			{
+				"id": 135,
+				"level": 3
+			},
+			{
+				"id": 10,
+				"level": 3
+			},
+			{
+				"id": 387,
+				"level": 3
+			},
+			{
+				"id": 11,
+				"level": 3
+			},
+			{
+				"id": 388,
+				"level": 3
+			},
+			{
+				"id": 389,
+				"level": 3
+			}
+		]
 	}
 ]
