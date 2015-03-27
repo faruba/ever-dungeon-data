@@ -316,7 +316,7 @@ exports.data = [
         "level":[
             {
                 "powerLimit":0,
-                "stage":151,
+                "stage":186,
                 "prize":[
                     {
                         "type": 0,

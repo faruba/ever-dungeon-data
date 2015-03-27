@@ -20,7 +20,7 @@ TABLE_STORE = "store";
 TABLE_CONFIG = "config";
 TABLE_DROP = "drop";
 TABLE_DIALOGUE = "dialogue";
-TABLE_CAMPAIGN = "campaigns";
+TABLE_CAMPAIGN = "campaign";
 TABLE_VIP = "vip";
 TABLE_TRIGGER = "triggers";
 TABLE_BROADCAST = "broadcast";
@@ -29,7 +29,8 @@ TABLE_TUTORIAL_CONFIG = "tutorialConfig";
 TABLE_BAN = "bans";
 TABLE_LEADBOARD = "leadboard";
 TABLE_FACTION = "faction";
-TABLE_COSTS = "costs";
+TABLE_BOUNTY = "bounty";
+TABLE_COST = "costs";
 TABLE_DP = "dailyPrize";
 TABLE_ARENA = "arena";
 TABLE_LOCALIZE = "localize";
@@ -37,9 +38,11 @@ TABLE_PRELOAD = "preload";
 TABLE_IAPLIST = "iaplist";
 TABLE_SERVERLIST = "serverlist";
 TABLE_PKREWARD = "pkReward";
+TABLE_LOCALIZE = "localize";
 TABLE_FRAGMENT = "fragment";
-TABLE_BOUNTY = "bounty";
+TABLE_IAP = "iaplist";
 TABLE_UNIT = "units";
+
 /*** GAME CONSTANTS ***/
 ItemId_RevivePotion = 540;
 
@@ -118,90 +121,94 @@ RET_RedeemFailed = 69;
 RET_NothingTodo = 70;
 RET_NotEnough = 71;
 RET_ClassNotUnlock = 72;
+RET_GetInfoFailed = 73;
+RET_PurchaseFailed = 74;
 
 ErrorMsgs = [
     "操作成功",//0
-    "金币数量不足",
-    "宝石数量不足",
+    "金幣數量不足",
+    "寶石數量不足",
     "精力值不足",
-    "角色职业不符合要求",
-    "角色等级不符合要求",//5
+    "角色職業不符合要求",
+    "角色等級不符合要求",//5
     "玩家不存在",
     "道具不存在",
-    "背包已满",
-    "装备熟练度不足",
-    "缺少装备",//10
-    "缺少强化宝石",
-    "装备无法再次升级",
-    "玩家数据有误",
-    "道具数量不足",
-    "聊天信息发送过于频繁，请稍等片刻",//15
-    "服务器状态异常，请稍后再试",
-    "你的好友列表已经满了",
-    "对方的好友列表已经满了",
-    "这个属性不能再强化了",
-    "与服务器数据同步出错，请重新登陆",//20
-    "强化失败",
+    "背包已滿",
+    "裝備熟練度不足",
+    "缺少裝備",//10
+    "缺少強化寶石",
+    "裝備無法再次升級",
+    "玩家數據有誤",
+    "道具數量不足",
+    "聊天信息發送過於頻繁，請稍等片刻",//15
+    "服務器狀態異常，請稍後再試",
+    "你的好友列表已經滿了",
+    "對方的好友列表已經滿了",
+    "這個屬性不能再強化了",
+    "與服務器數據同步出錯，請重新登陸",//20
+    "強化失敗",
     "副本不存在",
-    "关卡尚未解锁",
+    "關卡尚未解鎖",
     "程序版本不匹配",
-    "资源版本不匹配",//25
-    "需要创建角色",
-    "错误的登录信息",
-    "不允许的名字",
+    "資源版本不匹配",//25
+    "需要創建角色",
+    "錯誤的登錄信息",
+    "不允許的名字",
     "角色不存在",
-    "名字已被占用",//30
-    "没有匹配的钥匙",
-    "无法添加对方为好友",
-    "错误:33",
-    "登录失败",
-    "雇佣队友失败",//35
-    "获取队友列表失败",
-    "错误:37",
-    "错误:38",
-    "VIP等级不足",
-    "物品已经售完",//40
-    "错误:41",
-    "从另外一个设备登录",
-    "有新版本更新，请重新登录",
-    "与服务器断开连接",
+    "名字已被佔用",//30
+    "沒有匹配的鑰匙",
+    "無法添加對方為好友",
+    "錯誤:33",
+    "登錄失敗",
+    "雇傭隊友失敗",//35
+    "獲取隊友列表失敗",
+    "錯誤:37",
+    "錯誤:38",
+    "VIP等級不足",
+    "物品已經售完",//40
+    "錯誤:41",
+    "從另外一個設備登錄",
+    "有新版本更新，請重新登錄",
+    "與服務器斷開連接",
     "Need Teammate",//45
     "缺少配方",
     "缺少材料",
-    "付费信息错误，请联系工作人员",
-    "战斗力不足",
-    "挑战次数已用尽",//50
-    "无法领取PK奖励",
-    "奖励已领取",
-    "任务不存在",
-    "任务未领取",
-    //"任务未完成\n可能是由于数据未同步，请尝试点\n击设置界面中的清空数据缓存按钮",//55
-    "任务未完成\n即将进行数据同步",//55
-    "任务已完成",
-    "使用物品失败",
-    "目标不存在",
-    "已装备的道具无法出售",
-    "道具出售失败",//60
-    "获取材料失败",
+    "付費信息錯誤，請聯繫工作人員",
+    "戰鬥力不足",
+    "挑戰次數以用盡",//50
+    "無法領取PK獎勵",
+    "獎勵已領取",
+    "任務不存在",
+    "任務未領取",
+    //"任務未完成\n可能是由於數據未同步，請嘗試點\n擊設置界面中的清空數據緩存按鈕",//55
+    "任務未完成\n即將進行數據同步",//55
+    "任務已完成",
+    "使用物品失敗",
+    "目標不存在",
+    "已裝備的道具無法出售",
+    "道具出售失敗",//60
+    "獲取材料失敗",
     "好友不存在",
-    "获取排名信息失败",
+    "獲取排名信息失敗",
     "商店版本不匹配",
-    "参数不正确", //65,
-	"请求已发送",
-	"复活次数已用尽",
-	"购买体力次数已用尽",
-    "兑换失败"
-    "RET_NothingTodo", 
-    "RET_NotEnough", 
+    "參數不正確",
+    "請求已發送",
+    "復活次數已用盡",
+    "購買體力次數已用盡",
+    "兌換失敗",
+    "RET_NothingTodo",//70
+    "RET_NotEnough",
     "RET_ClassNotUnlock",
+    "信息获取失败",
+    "购买失败"
 ];
 
 /*** ITEM CATEGORY ***/
-ITEM_USE = 0;//使用（无）
-ITEM_EQUIPMENT = 1;//装备 (绿）
-ITEM_GEM = 2;//宝石（紫）
-ITEM_RECIPE = 3;//配方（蓝）
-ITEM_USELESS = 4;//无用的（灰）
+ITEM_USE = 0;//使用（無）
+ITEM_EQUIPMENT = 1;//裝備 (綠）
+ITEM_GEM = 2;//寶石（紫）
+ITEM_RECIPE = 3;//配方（藍）
+ITEM_USELESS = 4;//無用的（灰）
 
 /*** Subcategory of ITEM_EQUIPMENT ***/
 EquipSlot_MainHand = 0;//主手装备
@@ -209,9 +216,9 @@ EquipSlot_SecondHand = 1;//副手装备
 EquipSlot_Chest = 2;//胸甲装备
 EquipSlot_Finger = 3;//戒指装备
 EquipSlot_Legs = 4;//腿甲装备
-EquipSlot_Neck = 5;//护符装备
+EquipSlot_Neck = 5;//护符装备或帽子
 EquipSlot_Face = 6;//脸
-EquipSlot_Eye = 7;//眼镜
+EquipSlot_Eye = 7;//眼睛
 EquipSlot_Brow = 8;//眉毛
 EquipSlot_Hair = 9;//头发
 
@@ -228,7 +235,7 @@ EquipSlot_StoreGlasses = 18;//眼镜
 EquipSlot_StoreArms = 19;//护臂
 EquipSlot_StoreLegs = 20;//腿甲
 
-/*** 装备类型 ***/
+/*** 裝備類型 ***/
 ITEMSTATUS_NONE = 0;
 ITEMSTATUS_EQUIPED = 1;
 
@@ -273,14 +280,9 @@ Sweep_Vip_Level = 3;
 LOGIN_ACCOUNT_TYPE_TG = 0;
 LOGIN_ACCOUNT_TYPE_AD = 1;
 LOGIN_ACCOUNT_TYPE_PP =  2;
-LOGIN_ACCOUNT_TYPE_91_iOS =  3;
+LOGIN_ACCOUNT_TYPE_91 =  3;
 LOGIN_ACCOUNT_TYPE_KY =  4;
 LOGIN_ACCOUNT_TYPE_GAMECENTER =  5;
-LOGIN_ACCOUNT_TYPE_91_Android =  6;
-LOGIN_ACCOUNT_TYPE_DK_Android =  7;
-LOGIN_ACCOUNT_TYPE_TB_IOS =  8;
-LOGIN_ACCOUNT_TYPE_TB_Android =  10;
-LOGIN_ACCOUNT_TYPE_Android =  9;
 
 Max_tutorialStage = 3;
 
@@ -321,8 +323,6 @@ BROADCAST_ENHANCE = 2;
 BROADCAST_ITEM_LEVEL = 3;
 BROADCAST_PLAYER_LEVEL = 4;
 BROADCAST_CRAFT = 5;
-BROADCAST_SYSTEM_MSG = 6;
-BROADCAST_ITEM_HIGHT_QULITY = 7; 
 
 /*** FEATURES ***/
 FEATURE_ENERGY_RECOVER = 0;
@@ -331,7 +331,6 @@ FEATURE_FRIEND_STROAGE = 2;
 FEATURE_FRIEND_GOLD = 3;
 FEATURE_PK_COOLDOWN = 4;
 FEATURE_PK_COUNT = 5;
-FEATURE_REVIVE = 6;
 
 /*** NOTIOFICATION OP ID ***/
 NTFOP_ACCEPT = 1;
@@ -358,40 +357,41 @@ EquipSlotDesc = [
         "胸甲",
         "戒指",
         "腿甲",
-        "饰品",//5
-        "脸部",
+        "飾品",//5
+        "臉部",
         "眼部",
         "眉毛",
-        "头发",
-        "主手装饰",//10
-        "副手装饰",
+        "頭髮",
+        "主手裝飾",//10
+        "副手裝飾",
         "外套",
-        "头盔",
-        "发型",
-        "头饰",//15
+        "頭盔",
+        "髮型",
+        "頭飾",//15
         "翅膀",
-        "圣器",
-        "眼镜",
-        "护臂",
+        "聖器",
+        "眼鏡",
+        "護臂",
         "腿甲"
     ];
 
 ServerPropertyTable ={
         health: "生命",
         speed: "速度",
-        attack: "攻击",
-        critical: "暴击",
-        strong: "韧性",
+        attack: "攻擊",
+        critical: "暴擊",
+        strong: "韌性",
         accuracy: "命中",
-        reactivity: "反应"
+        reactivity: "反應"
     };
 
-Rate_Gold_Diamond = 10/1;
+Rate_Gold_Diamond = 5/1;
 
 CONFIG_FOR_BIN = {
-    teebikGuestLogin: true,
-    transformEnabled: true,
+    teebikGuestLogin: false,
+    transformEnabled: false,
     treasureLottery: true
 };
 
-DEF_CHANNEL = "AppStore";
+DEF_CHANNEL = "Teebik";
+

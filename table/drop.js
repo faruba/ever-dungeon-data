@@ -14444,5 +14444,1661 @@ exports.data = [
 				}
 			]
 		}
+	],
+	[//353
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 1990,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 1995,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 1991,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 1996,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//354
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 1990,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 1995,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 1993,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 1998,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//355
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2020,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2025,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2021,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2026,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//356
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2020,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2025,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2023,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2028,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//357
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2050,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2055,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2051,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2056,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//358
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2050,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2055,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2053,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2058,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//359
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2000,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2005,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2001,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2006,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//360
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2000,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2005,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2003,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2008,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//361
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2030,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2035,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2031,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2036,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//362
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2030,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2035,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2033,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2038,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//363
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2060,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2065,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2061,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2066,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//364
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2060,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2065,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2063,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2068,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//365
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2010,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2015,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2011,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2016,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//366
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2010,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2015,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2013,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2018,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//367
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2040,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2045,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2041,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2046,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//368
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2040,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2045,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2043,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2048,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//369
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2070,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2075,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2071,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2076,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//370
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2070,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2075,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2073,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2078,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//371
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2080,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2085,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2081,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2086,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//372
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2080,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2085,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2083,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2088,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//373
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2110,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2115,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2111,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2116,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//374
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2110,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2115,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2113,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2118,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//375
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2140,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2145,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2141,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2146,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//376
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2140,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2145,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2143,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2148,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//377
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2090,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2095,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2091,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2096,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//378
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2090,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2095,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2093,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2098,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//379
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2120,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2125,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2121,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2126,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//380
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2120,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2125,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2123,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2128,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//381
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2150,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2155,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2151,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2156,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//382
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2150,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2155,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2153,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2158,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//383
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2100,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2105,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2101,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2106,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//384
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2100,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2105,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2103,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2108,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//385
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2130,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2135,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2131,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2136,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//386
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2130,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2135,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2133,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2138,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//387
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 0.5,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2160,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2165,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2161,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2166,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//388
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 6,
+					"count": 100
+				}
+			]
+		},
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2160,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2165,
+					"count": 1
+				}
+			]
+		},
+		{
+			"rate": 0.3,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2163,
+					"count": 1
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2168,
+					"count": 1
+				}
+			]
+		}
 	]
 ]
