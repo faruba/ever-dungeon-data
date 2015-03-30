@@ -57,12 +57,7 @@ exports.data = [
                     "accuracy": 0,
                     "reactivity": 1,
                     "speed":1
-                },
-                "skill": [
-                    {"id":2, "level": 1,"classLimit":0},
-                    {"id":12, "level": 1,"classLimit":1},
-                    {"id":10, "level": 1,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":850,
@@ -122,12 +117,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 0,
                     "speed": 0
-                },
-                "skill": [
-                    {"id":356, "level": 2,"classLimit":0},
-                    {"id":5, "level": 2,"classLimit":1},
-                    {"id":8, "level": 2,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":2200,
@@ -187,12 +177,7 @@ exports.data = [
                     "accuracy": 0,
                     "reactivity": 1,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":358, "level": 1,"classLimit":0},
-                    {"id":378, "level": 1,"classLimit":1},
-                    {"id":369, "level": 1,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":4200,
@@ -252,12 +237,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 0,
                     "speed": 0
-                },
-                "skill": [
-                    {"id":2, "level": 2,"classLimit":0},
-                    {"id":12, "level": 2,"classLimit":1},
-                    {"id":10, "level": 2,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":6850,
@@ -317,12 +297,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 1,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":358, "level": 2,"classLimit":0},
-                    {"id":378, "level": 2,"classLimit":1},
-                    {"id":369, "level": 2,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":9950,
@@ -358,12 +333,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 1,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":3, "level": 1,"classLimit":0},
-                    {"id":206, "level": 1,"classLimit":1},
-                    {"id":11, "level": 1,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":12000,
@@ -399,12 +369,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 1,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":361, "level": 1,"classLimit":0},
-                    {"id":365, "level": 1,"classLimit":1},
-                    {"id":371, "level": 1,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":14800,
@@ -440,12 +405,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 1,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":356, "level": 3,"classLimit":0},
-                    {"id":5, "level": 3,"classLimit":1},
-                    {"id":8, "level": 3,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":18400,
@@ -481,12 +441,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 1,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":2, "level": 3,"classLimit":0},
-                    {"id":12, "level": 3,"classLimit":1},
-                    {"id":10, "level": 3,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":23800,
@@ -522,12 +477,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 1,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":3, "level": 2,"classLimit":0},
-                    {"id":206, "level": 2,"classLimit":1},
-                    {"id":11, "level": 2,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":30400,
@@ -563,12 +513,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 1,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":361, "level": 2,"classLimit":0},
-                    {"id":365, "level": 2,"classLimit":1},
-                    {"id":371, "level": 2,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":37600,
@@ -592,12 +537,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 1,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":363, "level": 1,"classLimit":0},
-                    {"id":367, "level": 1,"classLimit":1},
-                    {"id":373, "level": 1,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":45000,
@@ -633,12 +573,7 @@ exports.data = [
                     "accuracy": 2,
                     "reactivity": 1,
                     "speed": 2
-                },
-                "skill": [
-                    {"id":358, "level": 3,"classLimit":0},
-                    {"id":378, "level": 3,"classLimit":1},
-                    {"id":369, "level": 3,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":66000,
@@ -662,12 +597,7 @@ exports.data = [
                     "accuracy": 2,
                     "reactivity": 1,
                     "speed": 2
-                },
-                "skill": [
-                    {"id":363, "level": 2,"classLimit":0},
-                    {"id":367, "level": 2,"classLimit":1},
-                    {"id":373, "level": 2,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":85000,
@@ -691,12 +621,7 @@ exports.data = [
                     "accuracy": 2,
                     "reactivity": 1,
                     "speed": 2
-                },
-                "skill": [
-                    {"id":3, "level": 3,"classLimit":0},
-                    {"id":206, "level": 3,"classLimit":1},
-                    {"id":11, "level": 3,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":108000,
@@ -720,12 +645,7 @@ exports.data = [
                     "accuracy": 2,
                     "reactivity": 1,
                     "speed": 2
-                },
-                "skill": [
-                    {"id":361, "level": 3,"classLimit":0},
-                    {"id":365, "level": 3,"classLimit":1},
-                    {"id":371, "level": 3,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":135000,
@@ -749,12 +669,7 @@ exports.data = [
                     "accuracy": 2,
                     "reactivity": 1,
                     "speed": 2
-                },
-                "skill": [
-                    {"id":363, "level": 3,"classLimit":0},
-                    {"id":367, "level": 3,"classLimit":1},
-                    {"id":373, "level": 3,"classLimit":2}
-                ]
+                }
             },
             {
                 "xp":166000,
@@ -802,12 +717,7 @@ exports.data = [
                     "accuracy": 2,
                     "reactivity": 1,
                     "speed": 2
-                },
-                "skill": [
-                    {"id":195, "level": 1,"classLimit":216},
-                    {"id":201, "level": 1,"classLimit":217},
-                    {"id":207, "level": 1,"classLimit":218}
-                ]
+                }
             },
             {
                 "xp":240000,
@@ -819,12 +729,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 2,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":198, "level": 1,"classLimit":216},
-                    {"id":202, "level": 1,"classLimit":217},
-                    {"id":208, "level": 1,"classLimit":218}
-                ]
+                }
             },
             {
                 "xp":263000,
@@ -836,12 +741,7 @@ exports.data = [
                     "accuracy": 2,
                     "reactivity": 1,
                     "speed": 2
-                },
-                "skill": [
-                    {"id":199, "level": 1,"classLimit":216},
-                    {"id":204, "level": 1,"classLimit":217},
-                    {"id":210, "level": 1,"classLimit":218}
-                ]
+                }
             },
             {
                 "xp":289000,
@@ -853,12 +753,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 2,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":200, "level": 1,"classLimit":216},
-                    {"id":206, "level": 1,"classLimit":217},
-                    {"id":211, "level": 1,"classLimit":218}
-                ]
+                }
             },
             {
                 "xp":318000,
@@ -882,12 +777,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 2,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":195, "level": 2,"classLimit":216},
-                    {"id":201, "level": 2,"classLimit":217},
-                    {"id":207, "level": 2,"classLimit":218}
-                ]
+                }
             },
             {
                 "xp":385000,
@@ -911,12 +801,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 2,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":198, "level": 2,"classLimit":216},
-                    {"id":202, "level": 2,"classLimit":217},
-                    {"id":208, "level": 2,"classLimit":218}
-                ]
+                }
             },
             {
                 "xp":464000,
@@ -940,12 +825,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 2,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":199, "level": 2,"classLimit":216},
-                    {"id":204, "level": 2,"classLimit":217},
-                    {"id":210, "level": 2,"classLimit":218}
-                ]
+                }
             },
             {
                 "xp":555000,
@@ -969,12 +849,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 2,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":200, "level": 2,"classLimit":216},
-                    {"id":206, "level": 2,"classLimit":217},
-                    {"id":211, "level": 2,"classLimit":218}
-                ]
+                }
             },
             {
                 "xp":660000,
@@ -998,12 +873,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 2,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":195, "level": 3,"classLimit":216},
-                    {"id":201, "level": 3,"classLimit":217},
-                    {"id":207, "level": 3,"classLimit":218}
-                ]
+                }
             },
             {
                 "xp":785000,
@@ -1027,12 +897,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 2,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":198, "level": 3,"classLimit":216},
-                    {"id":202, "level": 3,"classLimit":217},
-                    {"id":208, "level": 3,"classLimit":218}
-                ]
+                }
             },
             {
                 "xp":930000,
@@ -1056,12 +921,7 @@ exports.data = [
                     "accuracy": 1,
                     "reactivity": 2,
                     "speed": 1
-                },
-                "skill": [
-                    {"id":199, "level": 3,"classLimit":216},
-                    {"id":204, "level": 3,"classLimit":217},
-                    {"id":210, "level": 3,"classLimit":218}
-                ]
+                }
             },
             {
                 "xp":1095000,
@@ -1097,12 +957,7 @@ exports.data = [
                     "accuracy": 2,
                     "reactivity": 1,
                     "speed": 2
-                },
-                "skill": [
-                    {"id":200, "level": 3,"classLimit":216},
-                    {"id":206, "level": 3,"classLimit":217},
-                    {"id":211, "level": 3,"classLimit":218}
-                ]
+                }
             },
             {
                 "xp":1380000,
