@@ -30,6 +30,7 @@ TABLE_BAN = "bans";
 TABLE_LEADBOARD = "leadboard";
 TABLE_FACTION = "faction";
 TABLE_COSTS = "costs";
+TABLE_COST = "costs";
 TABLE_DP = "dailyPrize";
 TABLE_ARENA = "arena";
 TABLE_LOCALIZE = "localize";
@@ -39,6 +40,7 @@ TABLE_SERVERLIST = "serverlist";
 TABLE_PKREWARD = "pkReward";
 TABLE_FRAGMENT = "fragment";
 TABLE_BOUNTY = "bounty";
+TABLE_IAP = "iaplist";
 TABLE_UNIT = "units";
 TABLE_SHOP_MASTER = "shop_master";
 
