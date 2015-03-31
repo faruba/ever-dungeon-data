@@ -41,6 +41,7 @@ TABLE_FRAGMENT = "fragment";
 TABLE_BOUNTY = "bounty";
 TABLE_UNIT = "units";
 TABLE_SHOP_MASTER = "shop_master";
+TABLE_PRENTICE = "prentices"
 
 /*** GAME CONSTANTS ***/
 ItemId_RevivePotion = 540;
@@ -122,7 +123,8 @@ RET_NotEnough = 71;
 RET_ClassNotUnlock = 72;
 RET_GetInfoFailed = 73;
 RET_PurchaseFailed = 74;
-
+RET_PrenticeUplimit = 75;
+RET_PrenticeNotExist = 76;
 ErrorMsgs = [
     "操作成功",//0
     "金币数量不足",
