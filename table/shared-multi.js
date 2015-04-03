@@ -127,6 +127,10 @@ RET_GetInfoFailed = 73;
 RET_PurchaseFailed = 74;
 RET_PrenticeUplimit = 75;
 RET_PrenticeNotExist = 76;
+RET_PrenticeUplimit = 77;
+RET_PrenticeClassLock = 78;
+RET_PrenticeUpdateLimit = 79;
+RET_PrenticeInvalidate = 80;
 ErrorMsgs = [
     "操作成功",//0
     "金币数量不足",
@@ -203,7 +207,13 @@ ErrorMsgs = [
     "RET_NotEnough", 
     "RET_ClassNotUnlock",
     "信息获取失败",
-    "购买失败"
+    "购买失败",
+    "RET_PrenticeUplimit", // = 75;
+    "RET_PrenticeNotExist",
+    "RET_PrenticeUplimit",
+    "RET_PrenticeClassLock",
+    "RET_PrenticeUpdateLimit",
+    "RET_PrenticeInvalidate", // 80;,
 ];
 
 /*** ITEM CATEGORY ***/
