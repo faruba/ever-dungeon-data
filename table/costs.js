@@ -1757,7 +1757,7 @@ exports.data = [
     {
         "costId":161,
         "material":[
-            { "type":0,"value":1990,"count":5}
+            { "type":0,"value":1990,"count":2}
         ]
     },
     {
@@ -1769,7 +1769,7 @@ exports.data = [
     {
         "costId":163,
         "material":[
-            { "type":0,"value":1995,"count":5}
+            { "type":0,"value":1995,"count":2}
         ]
     },
     {
@@ -1781,55 +1781,55 @@ exports.data = [
     {
         "costId":165,
         "material":[
-            { "type":0,"value":2000,"count":5}
+            { "type":0,"value":2000,"count":3}
         ]
     },
     {
         "costId":166,
         "material":[
-            { "type":0,"value":2002,"count":5}
+            { "type":0,"value":2002,"count":6}
         ]
     },
     {
         "costId":167,
         "material":[
-            { "type":0,"value":2005,"count":5}
+            { "type":0,"value":2005,"count":3}
         ]
     },
     {
         "costId":168,
         "material":[
-            { "type":0,"value":2007,"count":5}
+            { "type":0,"value":2007,"count":6}
         ]
     },
     {
         "costId":169,
         "material":[
-            { "type":0,"value":2010,"count":5}
+            { "type":0,"value":2010,"count":4}
         ]
     },
     {
         "costId":170,
         "material":[
-            { "type":0,"value":2012,"count":5}
+            { "type":0,"value":2012,"count":7}
         ]
     },
     {
         "costId":171,
         "material":[
-            { "type":0,"value":2015,"count":5}
+            { "type":0,"value":2015,"count":4}
         ]
     },
     {
         "costId":172,
         "material":[
-            { "type":0,"value":2017,"count":5}
+            { "type":0,"value":2017,"count":7}
         ]
     },
     {
         "costId":173,
         "material":[
-            { "type":0,"value":2020,"count":5}
+            { "type":0,"value":2020,"count":2}
         ]
     },
     {
@@ -1841,7 +1841,7 @@ exports.data = [
     {
         "costId":175,
         "material":[
-            { "type":0,"value":2025,"count":5}
+            { "type":0,"value":2025,"count":2}
         ]
     },
     {
@@ -1853,955 +1853,253 @@ exports.data = [
     {
         "costId":177,
         "material":[
-            { "type":0,"value":2030,"count":5}
+            { "type":0,"value":2030,"count":3}
         ]
     },
     {
         "costId":178,
         "material":[
-            { "type":0,"value":2032,"count":5}
+            { "type":0,"value":2032,"count":6}
         ]
     },
     {
         "costId":179,
         "material":[
-            { "type":0,"value":2035,"count":5}
+            { "type":0,"value":2035,"count":3}
         ]
     },
     {
         "costId":180,
         "material":[
-            { "type":0,"value":2037,"count":5}
+            { "type":0,"value":2037,"count":6}
         ]
     },
     {
         "costId":181,
         "material":[
-            { "type":0,"value":2040,"count":5}
+            { "type":0,"value":2040,"count":4}
         ]
     },
     {
         "costId":182,
         "material":[
-            { "type":0,"value":2042,"count":5}
+            { "type":0,"value":2042,"count":7}
         ]
     },
     {
         "costId":183,
         "material":[
-            { "type":0,"value":2045,"count":5}
+            { "type":0,"value":2045,"count":4}
         ]
     },
     {
         "costId":184,
         "material":[
-            { "type":0,"value":2047,"count":5}
+            { "type":0,"value":2047,"count":7}
         ]
     },
     {
         "costId":185,
         "material":[
-            { "type":0,"value":2050,"count":5}
+            { "type":0,"value":1992,"count":10}
         ]
     },
     {
         "costId":186,
         "material":[
-            { "type":0,"value":2052,"count":5}
+            { "type":0,"value":1994,"count":10}
         ]
     },
     {
         "costId":187,
         "material":[
-            { "type":0,"value":2055,"count":5}
+            { "type":0,"value":1995,"count":10}
         ]
     },
     {
         "costId":188,
         "material":[
-            { "type":0,"value":2057,"count":5}
+            { "type":0,"value":1997,"count":10}
         ]
     },
     {
         "costId":189,
         "material":[
-            { "type":0,"value":2060,"count":5}
+            { "type":0,"value":1999,"count":10}
         ]
     },
     {
         "costId":190,
         "material":[
-            { "type":0,"value":2062,"count":5}
+            { "type":0,"value":2000,"count":10}
         ]
     },
     {
         "costId":191,
         "material":[
-            { "type":0,"value":2065,"count":5}
+            { "type":0,"value":2002,"count":10}
         ]
     },
     {
         "costId":192,
         "material":[
-            { "type":0,"value":2067,"count":5}
+            { "type":0,"value":2004,"count":10}
         ]
     },
     {
         "costId":193,
         "material":[
-            { "type":0,"value":2070,"count":5}
+            { "type":0,"value":2005,"count":10}
         ]
     },
     {
         "costId":194,
         "material":[
-            { "type":0,"value":2072,"count":5}
+            { "type":0,"value":2007,"count":10}
         ]
     },
     {
         "costId":195,
         "material":[
-            { "type":0,"value":2075,"count":5}
+            { "type":0,"value":2009,"count":10}
         ]
     },
     {
         "costId":196,
         "material":[
-            { "type":0,"value":2077,"count":5}
+            { "type":0,"value":2010,"count":10}
         ]
     },
     {
         "costId":197,
         "material":[
-            { "type":0,"value":2080,"count":5}
+            { "type":0,"value":2012,"count":10}
         ]
     },
     {
         "costId":198,
         "material":[
-            { "type":0,"value":2082,"count":5}
+            { "type":0,"value":2014,"count":10}
         ]
     },
     {
         "costId":199,
         "material":[
-            { "type":0,"value":2085,"count":5}
+            { "type":0,"value":2015,"count":10}
         ]
     },
     {
         "costId":200,
         "material":[
-            { "type":0,"value":2087,"count":5}
+            { "type":0,"value":2017,"count":10}
         ]
     },
     {
         "costId":201,
         "material":[
-            { "type":0,"value":2090,"count":5}
+            { "type":0,"value":2019,"count":10}
         ]
     },
     {
         "costId":202,
         "material":[
-            { "type":0,"value":2092,"count":5}
+            { "type":0,"value":2022,"count":10}
         ]
     },
     {
         "costId":203,
         "material":[
-            { "type":0,"value":2095,"count":5}
+            { "type":0,"value":2024,"count":10}
         ]
     },
     {
         "costId":204,
         "material":[
-            { "type":0,"value":2097,"count":5}
+            { "type":0,"value":2025,"count":10}
         ]
     },
     {
         "costId":205,
         "material":[
-            { "type":0,"value":2100,"count":5}
+            { "type":0,"value":2027,"count":10}
         ]
     },
     {
         "costId":206,
         "material":[
-            { "type":0,"value":2102,"count":5}
+            { "type":0,"value":2029,"count":10}
         ]
     },
     {
         "costId":207,
         "material":[
-            { "type":0,"value":2105,"count":5}
+            { "type":0,"value":2030,"count":10}
         ]
     },
     {
         "costId":208,
         "material":[
-            { "type":0,"value":2107,"count":5}
+            { "type":0,"value":2032,"count":10}
         ]
     },
     {
         "costId":209,
         "material":[
-            { "type":0,"value":2110,"count":5}
+            { "type":0,"value":2034,"count":10}
         ]
     },
     {
         "costId":210,
         "material":[
-            { "type":0,"value":2112,"count":5}
+            { "type":0,"value":2035,"count":10}
         ]
     },
     {
         "costId":211,
         "material":[
-            { "type":0,"value":2115,"count":5}
+            { "type":0,"value":2037,"count":10}
         ]
     },
     {
         "costId":212,
         "material":[
-            { "type":0,"value":2117,"count":5}
+            { "type":0,"value":2039,"count":10}
         ]
     },
     {
         "costId":213,
         "material":[
-            { "type":0,"value":2120,"count":5}
+            { "type":0,"value":2040,"count":10}
         ]
     },
     {
         "costId":214,
         "material":[
-            { "type":0,"value":2122,"count":5}
+            { "type":0,"value":2042,"count":10}
         ]
     },
     {
         "costId":215,
         "material":[
-            { "type":0,"value":2125,"count":5}
+            { "type":0,"value":2044,"count":10}
         ]
     },
     {
         "costId":216,
         "material":[
-            { "type":0,"value":2127,"count":5}
+            { "type":0,"value":2045,"count":10}
         ]
     },
     {
         "costId":217,
         "material":[
-            { "type":0,"value":2130,"count":5}
+            { "type":0,"value":2047,"count":10}
         ]
     },
     {
         "costId":218,
         "material":[
-            { "type":0,"value":2132,"count":5}
-        ]
-    },
-    {
-        "costId":219,
-        "material":[
-            { "type":0,"value":2135,"count":5}
-        ]
-    },
-    {
-        "costId":220,
-        "material":[
-            { "type":0,"value":2137,"count":5}
-        ]
-    },
-    {
-        "costId":221,
-        "material":[
-            { "type":0,"value":2140,"count":5}
-        ]
-    },
-    {
-        "costId":222,
-        "material":[
-            { "type":0,"value":2142,"count":5}
-        ]
-    },
-    {
-        "costId":223,
-        "material":[
-            { "type":0,"value":2145,"count":5}
-        ]
-    },
-    {
-        "costId":224,
-        "material":[
-            { "type":0,"value":2147,"count":5}
-        ]
-    },
-    {
-        "costId":225,
-        "material":[
-            { "type":0,"value":2150,"count":5}
-        ]
-    },
-    {
-        "costId":226,
-        "material":[
-            { "type":0,"value":2152,"count":5}
-        ]
-    },
-    {
-        "costId":227,
-        "material":[
-            { "type":0,"value":2155,"count":5}
-        ]
-    },
-    {
-        "costId":228,
-        "material":[
-            { "type":0,"value":2157,"count":5}
-        ]
-    },
-    {
-        "costId":229,
-        "material":[
-            { "type":0,"value":2160,"count":5}
-        ]
-    },
-    {
-        "costId":230,
-        "material":[
-            { "type":0,"value":2162,"count":5}
-        ]
-    },
-    {
-        "costId":231,
-        "material":[
-            { "type":0,"value":2165,"count":5}
-        ]
-    },
-    {
-        "costId":232,
-        "material":[
-            { "type":0,"value":2167,"count":5}
-        ]
-    },
-    {
-        "costId":233,
-        "material":[
-            { "type":0,"value":1992,"count":10}
-        ]
-    },
-    {
-        "costId":234,
-        "material":[
-            { "type":0,"value":1994,"count":10}
-        ]
-    },
-    {
-        "costId":235,
-        "material":[
-            { "type":0,"value":1995,"count":10}
-        ]
-    },
-    {
-        "costId":236,
-        "material":[
-            { "type":0,"value":1997,"count":10}
-        ]
-    },
-    {
-        "costId":237,
-        "material":[
-            { "type":0,"value":1999,"count":10}
-        ]
-    },
-    {
-        "costId":238,
-        "material":[
-            { "type":0,"value":2000,"count":10}
-        ]
-    },
-    {
-        "costId":239,
-        "material":[
-            { "type":0,"value":2002,"count":10}
-        ]
-    },
-    {
-        "costId":240,
-        "material":[
-            { "type":0,"value":2004,"count":10}
-        ]
-    },
-    {
-        "costId":241,
-        "material":[
-            { "type":0,"value":2005,"count":10}
-        ]
-    },
-    {
-        "costId":242,
-        "material":[
-            { "type":0,"value":2007,"count":10}
-        ]
-    },
-    {
-        "costId":243,
-        "material":[
-            { "type":0,"value":2009,"count":10}
-        ]
-    },
-    {
-        "costId":244,
-        "material":[
-            { "type":0,"value":2010,"count":10}
-        ]
-    },
-    {
-        "costId":245,
-        "material":[
-            { "type":0,"value":2012,"count":10}
-        ]
-    },
-    {
-        "costId":246,
-        "material":[
-            { "type":0,"value":2014,"count":10}
-        ]
-    },
-    {
-        "costId":247,
-        "material":[
-            { "type":0,"value":2015,"count":10}
-        ]
-    },
-    {
-        "costId":248,
-        "material":[
-            { "type":0,"value":2017,"count":10}
-        ]
-    },
-    {
-        "costId":249,
-        "material":[
-            { "type":0,"value":2019,"count":10}
-        ]
-    },
-    {
-        "costId":250,
-        "material":[
-            { "type":0,"value":2022,"count":10}
-        ]
-    },
-    {
-        "costId":251,
-        "material":[
-            { "type":0,"value":2024,"count":10}
-        ]
-    },
-    {
-        "costId":252,
-        "material":[
-            { "type":0,"value":2025,"count":10}
-        ]
-    },
-    {
-        "costId":253,
-        "material":[
-            { "type":0,"value":2027,"count":10}
-        ]
-    },
-    {
-        "costId":254,
-        "material":[
-            { "type":0,"value":2029,"count":10}
-        ]
-    },
-    {
-        "costId":255,
-        "material":[
-            { "type":0,"value":2030,"count":10}
-        ]
-    },
-    {
-        "costId":256,
-        "material":[
-            { "type":0,"value":2032,"count":10}
-        ]
-    },
-    {
-        "costId":257,
-        "material":[
-            { "type":0,"value":2034,"count":10}
-        ]
-    },
-    {
-        "costId":258,
-        "material":[
-            { "type":0,"value":2035,"count":10}
-        ]
-    },
-    {
-        "costId":259,
-        "material":[
-            { "type":0,"value":2037,"count":10}
-        ]
-    },
-    {
-        "costId":260,
-        "material":[
-            { "type":0,"value":2039,"count":10}
-        ]
-    },
-    {
-        "costId":261,
-        "material":[
-            { "type":0,"value":2040,"count":10}
-        ]
-    },
-    {
-        "costId":262,
-        "material":[
-            { "type":0,"value":2042,"count":10}
-        ]
-    },
-    {
-        "costId":263,
-        "material":[
-            { "type":0,"value":2044,"count":10}
-        ]
-    },
-    {
-        "costId":264,
-        "material":[
-            { "type":0,"value":2045,"count":10}
-        ]
-    },
-    {
-        "costId":265,
-        "material":[
-            { "type":0,"value":2047,"count":10}
-        ]
-    },
-    {
-        "costId":266,
-        "material":[
             { "type":0,"value":2049,"count":10}
-        ]
-    },
-    {
-        "costId":267,
-        "material":[
-            { "type":0,"value":2052,"count":10}
-        ]
-    },
-    {
-        "costId":268,
-        "material":[
-            { "type":0,"value":2054,"count":10}
-        ]
-    },
-    {
-        "costId":269,
-        "material":[
-            { "type":0,"value":2055,"count":10}
-        ]
-    },
-    {
-        "costId":270,
-        "material":[
-            { "type":0,"value":2057,"count":10}
-        ]
-    },
-    {
-        "costId":271,
-        "material":[
-            { "type":0,"value":2059,"count":10}
-        ]
-    },
-    {
-        "costId":272,
-        "material":[
-            { "type":0,"value":2060,"count":10}
-        ]
-    },
-    {
-        "costId":273,
-        "material":[
-            { "type":0,"value":2062,"count":10}
-        ]
-    },
-    {
-        "costId":274,
-        "material":[
-            { "type":0,"value":2064,"count":10}
-        ]
-    },
-    {
-        "costId":275,
-        "material":[
-            { "type":0,"value":2065,"count":10}
-        ]
-    },
-    {
-        "costId":276,
-        "material":[
-            { "type":0,"value":2067,"count":10}
-        ]
-    },
-    {
-        "costId":277,
-        "material":[
-            { "type":0,"value":2069,"count":10}
-        ]
-    },
-    {
-        "costId":278,
-        "material":[
-            { "type":0,"value":2070,"count":10}
-        ]
-    },
-    {
-        "costId":279,
-        "material":[
-            { "type":0,"value":2072,"count":10}
-        ]
-    },
-    {
-        "costId":280,
-        "material":[
-            { "type":0,"value":2074,"count":10}
-        ]
-    },
-    {
-        "costId":281,
-        "material":[
-            { "type":0,"value":2075,"count":10}
-        ]
-    },
-    {
-        "costId":282,
-        "material":[
-            { "type":0,"value":2077,"count":10}
-        ]
-    },
-    {
-        "costId":283,
-        "material":[
-            { "type":0,"value":2079,"count":10}
-        ]
-    },
-    {
-        "costId":284,
-        "material":[
-            { "type":0,"value":2082,"count":10}
-        ]
-    },
-    {
-        "costId":285,
-        "material":[
-            { "type":0,"value":2084,"count":10}
-        ]
-    },
-    {
-        "costId":286,
-        "material":[
-            { "type":0,"value":2085,"count":10}
-        ]
-    },
-    {
-        "costId":287,
-        "material":[
-            { "type":0,"value":2087,"count":10}
-        ]
-    },
-    {
-        "costId":288,
-        "material":[
-            { "type":0,"value":2089,"count":10}
-        ]
-    },
-    {
-        "costId":289,
-        "material":[
-            { "type":0,"value":2090,"count":10}
-        ]
-    },
-    {
-        "costId":290,
-        "material":[
-            { "type":0,"value":2092,"count":10}
-        ]
-    },
-    {
-        "costId":291,
-        "material":[
-            { "type":0,"value":2094,"count":10}
-        ]
-    },
-    {
-        "costId":292,
-        "material":[
-            { "type":0,"value":2095,"count":10}
-        ]
-    },
-    {
-        "costId":293,
-        "material":[
-            { "type":0,"value":2097,"count":10}
-        ]
-    },
-    {
-        "costId":294,
-        "material":[
-            { "type":0,"value":2099,"count":10}
-        ]
-    },
-    {
-        "costId":295,
-        "material":[
-            { "type":0,"value":2100,"count":10}
-        ]
-    },
-    {
-        "costId":296,
-        "material":[
-            { "type":0,"value":2102,"count":10}
-        ]
-    },
-    {
-        "costId":297,
-        "material":[
-            { "type":0,"value":2104,"count":10}
-        ]
-    },
-    {
-        "costId":298,
-        "material":[
-            { "type":0,"value":2105,"count":10}
-        ]
-    },
-    {
-        "costId":299,
-        "material":[
-            { "type":0,"value":2107,"count":10}
-        ]
-    },
-    {
-        "costId":300,
-        "material":[
-            { "type":0,"value":2109,"count":10}
-        ]
-    },
-    {
-        "costId":301,
-        "material":[
-            { "type":0,"value":2110,"count":10}
-        ]
-    },
-    {
-        "costId":302,
-        "material":[
-            { "type":0,"value":2112,"count":10}
-        ]
-    },
-    {
-        "costId":303,
-        "material":[
-            { "type":0,"value":2114,"count":10}
-        ]
-    },
-    {
-        "costId":304,
-        "material":[
-            { "type":0,"value":2115,"count":10}
-        ]
-    },
-    {
-        "costId":305,
-        "material":[
-            { "type":0,"value":2117,"count":10}
-        ]
-    },
-    {
-        "costId":306,
-        "material":[
-            { "type":0,"value":2119,"count":10}
-        ]
-    },
-    {
-        "costId":307,
-        "material":[
-            { "type":0,"value":2120,"count":10}
-        ]
-    },
-    {
-        "costId":308,
-        "material":[
-            { "type":0,"value":2122,"count":10}
-        ]
-    },
-    {
-        "costId":309,
-        "material":[
-            { "type":0,"value":2124,"count":10}
-        ]
-    },
-    {
-        "costId":310,
-        "material":[
-            { "type":0,"value":2125,"count":10}
-        ]
-    },
-    {
-        "costId":311,
-        "material":[
-            { "type":0,"value":2127,"count":10}
-        ]
-    },
-    {
-        "costId":312,
-        "material":[
-            { "type":0,"value":2129,"count":10}
-        ]
-    },
-    {
-        "costId":313,
-        "material":[
-            { "type":0,"value":2130,"count":10}
-        ]
-    },
-    {
-        "costId":314,
-        "material":[
-            { "type":0,"value":2132,"count":10}
-        ]
-    },
-    {
-        "costId":315,
-        "material":[
-            { "type":0,"value":2134,"count":10}
-        ]
-    },
-    {
-        "costId":316,
-        "material":[
-            { "type":0,"value":2135,"count":10}
-        ]
-    },
-    {
-        "costId":317,
-        "material":[
-            { "type":0,"value":2137,"count":10}
-        ]
-    },
-    {
-        "costId":318,
-        "material":[
-            { "type":0,"value":2139,"count":10}
-        ]
-    },
-    {
-        "costId":319,
-        "material":[
-            { "type":0,"value":2142,"count":10}
-        ]
-    },
-    {
-        "costId":320,
-        "material":[
-            { "type":0,"value":2144,"count":10}
-        ]
-    },
-    {
-        "costId":321,
-        "material":[
-            { "type":0,"value":2145,"count":10}
-        ]
-    },
-    {
-        "costId":322,
-        "material":[
-            { "type":0,"value":2147,"count":10}
-        ]
-    },
-    {
-        "costId":323,
-        "material":[
-            { "type":0,"value":2149,"count":10}
-        ]
-    },
-    {
-        "costId":324,
-        "material":[
-            { "type":0,"value":2150,"count":10}
-        ]
-    },
-    {
-        "costId":325,
-        "material":[
-            { "type":0,"value":2152,"count":10}
-        ]
-    },
-    {
-        "costId":326,
-        "material":[
-            { "type":0,"value":2154,"count":10}
-        ]
-    },
-    {
-        "costId":327,
-        "material":[
-            { "type":0,"value":2155,"count":10}
-        ]
-    },
-    {
-        "costId":328,
-        "material":[
-            { "type":0,"value":2157,"count":10}
-        ]
-    },
-    {
-        "costId":329,
-        "material":[
-            { "type":0,"value":2159,"count":10}
-        ]
-    },
-    {
-        "costId":330,
-        "material":[
-            { "type":0,"value":2160,"count":10}
-        ]
-    },
-    {
-        "costId":331,
-        "material":[
-            { "type":0,"value":2162,"count":10}
-        ]
-    },
-    {
-        "costId":332,
-        "material":[
-            { "type":0,"value":2164,"count":10}
-        ]
-    },
-    {
-        "costId":333,
-        "material":[
-            { "type":0,"value":2165,"count":10}
-        ]
-    },
-    {
-        "costId":334,
-        "material":[
-            { "type":0,"value":2167,"count":10}
-        ]
-    },
-    {
-        "costId":335,
-        "material":[
-            { "type":0,"value":2169,"count":10}
         ]
     }
 ]

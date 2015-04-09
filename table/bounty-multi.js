@@ -49,7 +49,7 @@ exports.data = [
                 ]
             }
         ]
-    } ,
+    },
     {
         "bountyId":1,
         "title":"邪恶头领讨伐令",
