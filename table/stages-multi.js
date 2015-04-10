@@ -2101,13 +2101,17 @@ var data = [
               eventName: "event_goblin",
               "formularId":1,
               condition: function (obj, util) { 
-                  return obj.counters.currentPKCount < obj.getTotalPkTimes() + obj.getAddPkCount();
+                  return (obj.getPkCoolDown() == 0 || getAddPkCount() > 0) &&
+                  (obj.counters.currentPKCount < obj.getTotalPkTimes() + obj.getAddPkCount());
               },
               initialAction: function (obj) { 
                   if (obj.counters.currentPKCount) {
                       obj.counters.currentPKCount++;
                   } else {
                       obj.counters['currentPKCount'] = 1;
+                  }
+                  if (obj.getAddPkCount() == 0){
+                    obj.timestamp.pkCoolDown = util.currentTime()
                   }
               }
           },
