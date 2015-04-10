@@ -2104,7 +2104,7 @@ var data = [
                   return (obj.getPkCoolDown() == 0 || getAddPkCount() > 0) &&
                   (obj.counters.currentPKCount < obj.getTotalPkTimes() + obj.getAddPkCount());
               },
-              initialAction: function (obj) { 
+              initialAction: function (obj, util) { 
                   if (obj.counters.currentPKCount) {
                       obj.counters.currentPKCount++;
                   } else {
