@@ -85,6 +85,7 @@ exports.data = {
         "sceneBountyLimitClass":"職業可以做。",
         "sceneBountyNone":"無。",
         "sceneBountyMissonPrize":"任務獎勵",
+        "sceneChallengeBountyGetCHC":"當前挑戰幣池中有{#1}挑戰幣，可擁有挑戰幣上限為{#2}，領取後擁有挑戰幣{#3}",
         "sceneDungeonBuyRecovery":"你沒有復活藥水\n是否立即花{#1}寶石購買一瓶？",
         "sceneDungeonCharge":"你沒有復活藥水\n也沒有足夠的寶石購買一瓶\n是否要立即充值？",
         "sceneDungeonWantGiveUp":"放棄戰鬥會立即使戰鬥失敗，\n確定要放棄嗎？",

@@ -85,6 +85,7 @@ exports.data = {
         "sceneBountyLimitClass":"职业可以做。",
         "sceneBountyNone":"无。",
         "sceneBountyMissonPrize":"任务奖励",
+        "sceneChallengeBountyGetCHC":"当前挑战币池中有{#1}挑战币，可拥有挑战币上限为{#2}，领取后拥有挑战币{#3}",
         "sceneDungeonBuyRecovery":"你没有复活药水\n是否立即花{#1}宝石购买一瓶？",
         "sceneDungeonCharge":"你没有复活药水\n也没有足够的宝石购买一瓶\n是否要立即充值？",
         "sceneDungeonWantGiveUp":"放弃战斗会立即使战斗失败，\n确定要放弃吗？",
