@@ -14876,5 +14876,16 @@ exports.data = [
 				}
 			]
 		}
-	]
+	],
+    [//365
+        {
+            "rate":1,
+            "prize":[ {
+				"weight": 4,
+                "type": 5,
+                "func": 'rob',
+                "count": 1,
+                }]
+        }
+    ]
 ]
