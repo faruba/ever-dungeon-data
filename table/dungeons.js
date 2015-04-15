@@ -52867,7 +52867,7 @@ exports.data = [
                         property:{
                             "keyed":true,
                             skill:[{id:153}],
-                            dropPrize:[365]}
+                            dropPrize:[366]}
                     }
                 ]
             },
@@ -52883,7 +52883,7 @@ exports.data = [
                         property:{
                             "keyed":true,
                             skill:[{id:153}],
-                            dropPrize:[365]}
+                            dropPrize:[366]}
                     },
                     {
                         "id": 215,
@@ -52891,7 +52891,7 @@ exports.data = [
                         property:{
                             "keyed":true,
                             skill:[{id:153}],
-                            dropPrize:[366]}
+                            dropPrize:[367]}
                     }
                 ]
             }

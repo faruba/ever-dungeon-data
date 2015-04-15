@@ -14879,6 +14879,19 @@ exports.data = [
 	],
 	[//365
 		{
+			"rate":1,
+			"prize":[
+				{
+					"weight": 4,
+					"type": 5,
+					"func": 'rob',
+					"count": 1
+				}
+			]
+		}
+	],
+	[//366
+		{
 			"rate": 1,
 			"prize": [
 				{
@@ -14895,7 +14908,7 @@ exports.data = [
 			]
 		}
 	],
-	[//366
+	[//367
 		{
 			"rate": 1,
 			"prize": [
