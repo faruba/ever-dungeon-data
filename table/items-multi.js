@@ -62923,5 +62923,15 @@ exports.data = [
 		"stack": 99,
 		"sellprice": 500,
 		"quality": 2
+	},
+	{
+		"classId": 2050,
+		"label": "职业碎片",
+		"icon": "rfasion-sp.png",
+		"category": 4,
+		"description": "可以用来进行转职、进阶和提高分身品阶的碎片。",
+		"stack": 99,
+		"sellprice": 500,
+		"quality": 0
 	}
 ]

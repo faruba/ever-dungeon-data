@@ -3062,7 +3062,8 @@ var data = [
             {
                 "stageId": 187,
                 "cost": [15],
-                "team": 1,
+                "teamType": "onlyPrentice",
+                "team": 3,
                 "hidden":true,
                 "dungeon": 161,
                 "event":"event_daily"
@@ -3070,7 +3071,8 @@ var data = [
             {
                 "stageId": 188,
                 "cost": [15],
-                "team": 1,
+                "teamType": "onlyPrentice",
+                "team": 3,
                 "hidden":true,
                 "dungeon": 162,
                 "event":"event_daily"
@@ -3078,7 +3080,8 @@ var data = [
             {
                 "stageId": 189,
                 "cost": [15],
-                "team": 1,
+                "teamType": "onlyPrentice",
+                "team": 3,
                 "hidden":true,
                 "dungeon": 163,
                 "event":"event_daily"
@@ -3086,7 +3089,8 @@ var data = [
             {
                 "stageId": 190,
                 "cost": [15],
-                "team": 1,
+                "teamType": "onlyPrentice",
+                "team": 3,
                 "hidden":true,
                 "dungeon": 164,
                 "event":"event_daily"
@@ -3094,7 +3098,8 @@ var data = [
             {
                 "stageId": 191,
                 "cost": [15],
-                "team": 1,
+                "teamType": "onlyPrentice",
+                "team": 3,
                 "hidden":true,
                 "dungeon": 165,
                 "event":"event_daily"
@@ -3102,7 +3107,8 @@ var data = [
             {
                 "stageId": 192,
                 "cost": [15],
-                "team": 1,
+                "teamType": "onlyPrentice",
+                "team": 3,
                 "hidden":true,
                 "dungeon": 166 ,
                 "event":"event_daily"
@@ -3117,7 +3123,8 @@ var data = [
             {
                 "stageId": 193,
                 "cost": [15],
-                "team": 1,
+                "teamType": "onlyPrentice",
+                "team": 3,
                 "hidden":true,
                 "dungeon": 167,
                 "event":"event_daily"
@@ -3125,7 +3132,8 @@ var data = [
             {
                 "stageId": 194,
                 "cost": [15],
-                "team": 1,
+                "teamType": "onlyPrentice",
+                "team": 3,
                 "hidden":true,
                 "dungeon": 168,
                 "event":"event_daily"
@@ -3133,7 +3141,8 @@ var data = [
             {
                 "stageId": 195,
                 "cost": [15],
-                "team": 1,
+                "teamType": "onlyPrentice",
+                "team": 3,
                 "hidden":true,
                 "dungeon": 169,
                 "event":"event_daily"

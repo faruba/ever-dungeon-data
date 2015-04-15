@@ -14876,5 +14876,36 @@ exports.data = [
 				}
 			]
 		}
+	],
+	[//365
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 19,
+					"type": 6,
+					"count": 20
+				},
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2050,
+					"count": 1
+				}
+			]
+		}
+	],
+	[//366
+		{
+			"rate": 1,
+			"prize": [
+				{
+					"weight": 1,
+					"type": 0,
+					"value": 2050,
+					"count": 1
+				}
+			]
+		}
 	]
 ]

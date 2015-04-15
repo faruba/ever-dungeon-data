@@ -2101,6 +2101,66 @@ exports.data = [
         "material":[
             { "type":0,"value":2049,"count":10}
         ]
+    },
+    {
+        "costId":219,
+        "material":[
+            { "type":0,"value":2050,"count":5}
+        ]
+    },
+    {
+        "costId":220,
+        "material":[
+            { "type":0,"value":2050,"count":15}
+        ]
+    },
+    {
+        "costId":221,
+        "material":[
+            { "type":0,"value":2050,"count":25}
+        ]
+    },
+    {
+        "costId":222,
+        "material":[
+            { "type":0,"value":2050,"count":30}
+        ]
+    },
+    {
+        "costId":223,
+        "material":[
+            { "type":0,"value":2050,"count":40}
+        ]
+    },
+    {
+        "costId":224,
+        "material":[
+            { "type":0,"value":2050,"count":1}
+        ]
+    },
+    {
+        "costId":225,
+        "material":[
+            { "type":0,"value":2050,"count":10}
+        ]
+    },
+    {
+        "costId":226,
+        "material":[
+            { "type":0,"value":2050,"count":30}
+        ]
+    },
+    {
+        "costId":227,
+        "material":[
+            { "type":0,"value":2050,"count":60}
+        ]
+    },
+    {
+        "costId":228,
+        "material":[
+            { "type":0,"value":2050,"count":100}
+        ]
     }
 ]
 
