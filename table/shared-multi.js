@@ -43,7 +43,8 @@ TABLE_BOUNTY = "bounty";
 TABLE_IAP = "iaplist";
 TABLE_UNIT = "units";
 TABLE_SHOP_MASTER = "shop_master";
-TABLE_PRENTICE = "prentices"
+TABLE_PRENTICE = "prentices";
+TABLE_GUILD = "guilds";
 
 /*** GAME CONSTANTS ***/
 ItemId_RevivePotion = 540;
