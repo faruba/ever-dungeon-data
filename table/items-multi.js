@@ -127,7 +127,7 @@ exports.data = [
 		"effectf": [
 			{
 				"part": "eye",
-				"file": "avatar-3-eye-blue.ccbi"
+				"file": "avatar-3-eye-blue-new.ccbi"
 			},
 			{
 				"part": "brow",
@@ -137,7 +137,7 @@ exports.data = [
 		"effectm": [
 			{
 				"part": "eye",
-				"file": "avatar-3-eye-blue-2.ccbi"
+				"file": "avatar-3-eye-blue-2-new.ccbi"
 			},
 			{
 				"part": "brow",
@@ -250,13 +250,13 @@ exports.data = [
 		"effectf": [
 			{
 				"part": "eye",
-				"file": "avatar-eye.ccbi"
+				"file": "avatar-eye-new.ccbi"
 			}
 		],
 		"effectm": [
 			{
 				"part": "eye",
-				"file": "avatar-eye-2.ccbi"
+				"file": "avatar-eye-2-new.ccbi"
 			}
 		]
 	},
@@ -300,7 +300,11 @@ exports.data = [
 				"file": "mage-righthand0.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand0.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand0.ccbi"
 			}
 		]
@@ -311,7 +315,7 @@ exports.data = [
 		"subcategory": 1,
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon20.ccbi"
 			}
 		]
@@ -358,7 +362,11 @@ exports.data = [
 				"file": "priest-righthand0.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand0.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand0.ccbi"
 			}
 		]
@@ -369,7 +377,11 @@ exports.data = [
 		"subcategory": 1,
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon20.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon20.ccbi"
 			}
 		],
@@ -425,7 +437,11 @@ exports.data = [
 				"file": "warrior-righthand0.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand0.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand0.ccbi"
 			}
 		],
@@ -439,7 +455,7 @@ exports.data = [
 		"subcategory": 1,
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon20.ccbi"
 			}
 		],
@@ -667,7 +683,11 @@ exports.data = [
 				"file": "mage-righthand1.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand1.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand1.ccbi"
 			}
 		],
@@ -704,7 +724,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon21.ccbi"
 			}
 		],
@@ -828,7 +848,11 @@ exports.data = [
 				"file": "priest-righthand1.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand1.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand1.ccbi"
 			}
 		],
@@ -865,7 +889,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon21.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon21.ccbi"
 			}
 		],
@@ -990,7 +1018,11 @@ exports.data = [
 				"file": "warrior-righthand1.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand1.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand1.ccbi"
 			}
 		],
@@ -1026,7 +1058,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon21.ccbi"
 			}
 		],
@@ -1153,7 +1185,11 @@ exports.data = [
 				"file": "mage-righthand2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand2.ccbi"
 			}
 		],
@@ -1192,7 +1228,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon22.ccbi"
 			}
 		],
@@ -1322,7 +1358,11 @@ exports.data = [
 				"file": "priest-righthand2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand2.ccbi"
 			}
 		],
@@ -1361,7 +1401,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon22.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon22.ccbi"
 			}
 		],
@@ -1493,7 +1537,11 @@ exports.data = [
 				"file": "warrior-righthand2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand2.ccbi"
 			}
 		],
@@ -1532,7 +1580,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon22.ccbi"
 			}
 		],
@@ -1664,7 +1712,11 @@ exports.data = [
 				"file": "mage-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand3.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand3.ccbi"
 			}
 		],
@@ -1704,7 +1756,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon23.ccbi"
 			}
 		],
@@ -1834,7 +1886,11 @@ exports.data = [
 				"file": "priest-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand3.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand3.ccbi"
 			}
 		],
@@ -1874,7 +1930,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon23.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon23.ccbi"
 			}
 		],
@@ -2006,7 +2066,11 @@ exports.data = [
 				"file": "warrior-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand3.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand3.ccbi"
 			}
 		],
@@ -2045,7 +2109,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon23.ccbi"
 			}
 		],
@@ -2177,7 +2241,11 @@ exports.data = [
 				"file": "mage-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand4.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand4.ccbi"
 			}
 		],
@@ -2217,7 +2285,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon24.ccbi"
 			}
 		],
@@ -2347,7 +2415,11 @@ exports.data = [
 				"file": "priest-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand4.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand4.ccbi"
 			}
 		],
@@ -2387,7 +2459,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon24.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon24.ccbi"
 			}
 		],
@@ -2519,7 +2595,11 @@ exports.data = [
 				"file": "warrior-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand4.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand4.ccbi"
 			}
 		],
@@ -2559,7 +2639,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon24.ccbi"
 			}
 		],
@@ -2701,7 +2781,11 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand5.ccbi"
 			}
 		],
@@ -2715,7 +2799,11 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand5.ccbi"
 			}
 		],
@@ -2757,7 +2845,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon25.ccbi"
 			}
 		],
@@ -2896,7 +2984,11 @@ exports.data = [
 				"file": "priest-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand5.ccbi"
 			}
 		],
@@ -2910,7 +3002,11 @@ exports.data = [
 				"file": "priest-righthand5-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand5-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand5-2.ccbi"
 			}
 		],
@@ -2952,7 +3048,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon25.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon25.ccbi"
 			}
 		],
@@ -3084,7 +3184,11 @@ exports.data = [
 				"file": "warrior-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand5.ccbi"
 			}
 		],
@@ -3123,13 +3227,13 @@ exports.data = [
 		],
 		"effectf": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon25.ccbi"
 			}
 		],
 		"effectm": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon25-2.ccbi"
 			}
 		],
@@ -3272,7 +3376,11 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand6.ccbi"
 			}
 		],
@@ -3286,7 +3394,11 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand6.ccbi"
 			}
 		],
@@ -3327,7 +3439,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon26.ccbi"
 			}
 		],
@@ -3463,7 +3575,11 @@ exports.data = [
 				"file": "priest-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand6.ccbi"
 			}
 		],
@@ -3477,7 +3593,11 @@ exports.data = [
 				"file": "priest-righthand6-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand6-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand6-2.ccbi"
 			}
 		],
@@ -3518,7 +3638,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon26.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon26.ccbi"
 			}
 		],
@@ -3647,7 +3771,11 @@ exports.data = [
 				"file": "warrior-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand6.ccbi"
 			}
 		],
@@ -3685,13 +3813,13 @@ exports.data = [
 		],
 		"effectf": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon26.ccbi"
 			}
 		],
 		"effectm": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon26-2.ccbi"
 			}
 		],
@@ -3822,7 +3950,11 @@ exports.data = [
 				"file": "mage-righthand2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand2.ccbi"
 			}
 		],
@@ -3860,7 +3992,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon22.ccbi"
 			}
 		],
@@ -3984,7 +4116,11 @@ exports.data = [
 				"file": "priest-righthand2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand2.ccbi"
 			}
 		],
@@ -4022,7 +4158,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon22.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon22.ccbi"
 			}
 		],
@@ -4148,7 +4288,11 @@ exports.data = [
 				"file": "warrior-righthand2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand2.ccbi"
 			}
 		],
@@ -4185,7 +4329,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon22.ccbi"
 			}
 		],
@@ -4313,7 +4457,11 @@ exports.data = [
 				"file": "mage-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand3.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand3.ccbi"
 			}
 		],
@@ -4353,7 +4501,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon23.ccbi"
 			}
 		],
@@ -4483,7 +4631,11 @@ exports.data = [
 				"file": "priest-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand3.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand3.ccbi"
 			}
 		],
@@ -4523,7 +4675,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon23.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon23.ccbi"
 			}
 		],
@@ -4655,7 +4811,11 @@ exports.data = [
 				"file": "warrior-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand3.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand3.ccbi"
 			}
 		],
@@ -4695,7 +4855,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon23.ccbi"
 			}
 		],
@@ -4828,7 +4988,11 @@ exports.data = [
 				"file": "mage-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand4.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand4.ccbi"
 			}
 		],
@@ -4868,7 +5032,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon24.ccbi"
 			}
 		],
@@ -4998,7 +5162,11 @@ exports.data = [
 				"file": "priest-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand4.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand4.ccbi"
 			}
 		],
@@ -5038,7 +5206,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon24.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon24.ccbi"
 			}
 		],
@@ -5170,7 +5342,11 @@ exports.data = [
 				"file": "warrior-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand4.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand4.ccbi"
 			}
 		],
@@ -5210,7 +5386,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon24.ccbi"
 			}
 		],
@@ -5352,7 +5528,11 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand5.ccbi"
 			}
 		],
@@ -5366,7 +5546,11 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand5.ccbi"
 			}
 		],
@@ -5408,7 +5592,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon25.ccbi"
 			}
 		],
@@ -5547,7 +5731,11 @@ exports.data = [
 				"file": "priest-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand5.ccbi"
 			}
 		],
@@ -5561,7 +5749,11 @@ exports.data = [
 				"file": "priest-righthand5-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand5-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand5-2.ccbi"
 			}
 		],
@@ -5603,7 +5795,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon25.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon25.ccbi"
 			}
 		],
@@ -5735,7 +5931,11 @@ exports.data = [
 				"file": "warrior-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand5.ccbi"
 			}
 		],
@@ -5774,13 +5974,13 @@ exports.data = [
 		],
 		"effectf": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon25.ccbi"
 			}
 		],
 		"effectm": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon25-2.ccbi"
 			}
 		],
@@ -5924,7 +6124,11 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand6.ccbi"
 			}
 		],
@@ -5938,7 +6142,11 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand6.ccbi"
 			}
 		],
@@ -5980,7 +6188,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon26.ccbi"
 			}
 		],
@@ -6117,7 +6325,11 @@ exports.data = [
 				"file": "priest-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand6.ccbi"
 			}
 		],
@@ -6131,7 +6343,11 @@ exports.data = [
 				"file": "priest-righthand6-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand6-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand6-2.ccbi"
 			}
 		],
@@ -6173,7 +6389,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon26.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon26.ccbi"
 			}
 		],
@@ -6305,7 +6525,11 @@ exports.data = [
 				"file": "warrior-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand6.ccbi"
 			}
 		],
@@ -6344,13 +6568,13 @@ exports.data = [
 		],
 		"effectf": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon26.ccbi"
 			}
 		],
 		"effectm": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon26-2.ccbi"
 			}
 		],
@@ -6493,7 +6717,11 @@ exports.data = [
 				"file": "mage-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand7.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand7.ccbi"
 			}
 		],
@@ -6507,7 +6735,11 @@ exports.data = [
 				"file": "mage-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand7-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand7-2.ccbi"
 			}
 		],
@@ -6548,7 +6780,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon27.ccbi"
 			}
 		],
@@ -6684,7 +6916,11 @@ exports.data = [
 				"file": "priest-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand7.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand7.ccbi"
 			}
 		],
@@ -6698,7 +6934,11 @@ exports.data = [
 				"file": "priest-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand7-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand7-2.ccbi"
 			}
 		],
@@ -6739,7 +6979,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon27.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon27.ccbi"
 			}
 		],
@@ -6868,7 +7112,11 @@ exports.data = [
 				"file": "warrior-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand7.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand7.ccbi"
 			}
 		],
@@ -6906,13 +7154,13 @@ exports.data = [
 		],
 		"effectf": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon27.ccbi"
 			}
 		],
 		"effectm": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon27-2.ccbi"
 			}
 		],
@@ -7043,7 +7291,11 @@ exports.data = [
 				"file": "mage-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand3.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand3.ccbi"
 			}
 		],
@@ -7081,7 +7333,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon23.ccbi"
 			}
 		],
@@ -7205,7 +7457,11 @@ exports.data = [
 				"file": "priest-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand3.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand3.ccbi"
 			}
 		],
@@ -7243,7 +7499,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon23.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon23.ccbi"
 			}
 		],
@@ -7369,7 +7629,11 @@ exports.data = [
 				"file": "warrior-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand3.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand3.ccbi"
 			}
 		],
@@ -7407,7 +7671,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon23.ccbi"
 			}
 		],
@@ -7536,7 +7800,11 @@ exports.data = [
 				"file": "mage-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand4.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand4.ccbi"
 			}
 		],
@@ -7576,7 +7844,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon24.ccbi"
 			}
 		],
@@ -7706,7 +7974,11 @@ exports.data = [
 				"file": "priest-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand4.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand4.ccbi"
 			}
 		],
@@ -7746,7 +8018,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon24.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon24.ccbi"
 			}
 		],
@@ -7878,7 +8154,11 @@ exports.data = [
 				"file": "warrior-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand4.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand4.ccbi"
 			}
 		],
@@ -7918,7 +8198,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon24.ccbi"
 			}
 		],
@@ -8060,7 +8340,11 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand5.ccbi"
 			}
 		],
@@ -8074,7 +8358,11 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand5.ccbi"
 			}
 		],
@@ -8116,7 +8404,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon25.ccbi"
 			}
 		],
@@ -8255,7 +8543,11 @@ exports.data = [
 				"file": "priest-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand5.ccbi"
 			}
 		],
@@ -8269,7 +8561,11 @@ exports.data = [
 				"file": "priest-righthand5-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand5-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand5-2.ccbi"
 			}
 		],
@@ -8311,7 +8607,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon25.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon25.ccbi"
 			}
 		],
@@ -8443,7 +8743,11 @@ exports.data = [
 				"file": "warrior-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand5.ccbi"
 			}
 		],
@@ -8482,13 +8786,13 @@ exports.data = [
 		],
 		"effectf": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon25.ccbi"
 			}
 		],
 		"effectm": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon25-2.ccbi"
 			}
 		],
@@ -8632,7 +8936,11 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand6.ccbi"
 			}
 		],
@@ -8646,7 +8954,11 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand6.ccbi"
 			}
 		],
@@ -8688,7 +9000,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon26.ccbi"
 			}
 		],
@@ -8827,7 +9139,11 @@ exports.data = [
 				"file": "priest-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand6.ccbi"
 			}
 		],
@@ -8841,7 +9157,11 @@ exports.data = [
 				"file": "priest-righthand6-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand6-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand6-2.ccbi"
 			}
 		],
@@ -8883,7 +9203,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon26.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon26.ccbi"
 			}
 		],
@@ -9015,7 +9339,11 @@ exports.data = [
 				"file": "warrior-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand6.ccbi"
 			}
 		],
@@ -9054,13 +9382,13 @@ exports.data = [
 		],
 		"effectf": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon26.ccbi"
 			}
 		],
 		"effectm": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon26-2.ccbi"
 			}
 		],
@@ -9204,7 +9532,11 @@ exports.data = [
 				"file": "mage-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand7.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand7.ccbi"
 			}
 		],
@@ -9218,7 +9550,11 @@ exports.data = [
 				"file": "mage-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand7-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand7-2.ccbi"
 			}
 		],
@@ -9260,7 +9596,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon27.ccbi"
 			}
 		],
@@ -9399,7 +9735,11 @@ exports.data = [
 				"file": "priest-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand7.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand7.ccbi"
 			}
 		],
@@ -9413,7 +9753,11 @@ exports.data = [
 				"file": "priest-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand7-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand7-2.ccbi"
 			}
 		],
@@ -9455,7 +9799,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon27.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon27.ccbi"
 			}
 		],
@@ -9587,7 +9935,11 @@ exports.data = [
 				"file": "warrior-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand7.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand7.ccbi"
 			}
 		],
@@ -9626,13 +9978,13 @@ exports.data = [
 		],
 		"effectf": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon27.ccbi"
 			}
 		],
 		"effectm": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon27-2.ccbi"
 			}
 		],
@@ -9775,7 +10127,11 @@ exports.data = [
 				"file": "mage-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand8.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand8.ccbi"
 			}
 		],
@@ -9789,7 +10145,11 @@ exports.data = [
 				"file": "mage-righthand8-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand8-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand8-2.ccbi"
 			}
 		],
@@ -9830,7 +10190,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon28.ccbi"
 			}
 		],
@@ -9966,7 +10326,11 @@ exports.data = [
 				"file": "priest-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand8.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand8.ccbi"
 			}
 		],
@@ -9980,7 +10344,11 @@ exports.data = [
 				"file": "priest-righthand8-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand8-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand8-2.ccbi"
 			}
 		],
@@ -10021,7 +10389,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon28.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon28.ccbi"
 			}
 		],
@@ -10150,7 +10522,11 @@ exports.data = [
 				"file": "warrior-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand8.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand8.ccbi"
 			}
 		],
@@ -10189,7 +10565,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon28.ccbi"
 			}
 		],
@@ -10318,7 +10694,11 @@ exports.data = [
 				"file": "mage-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand4.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand4.ccbi"
 			}
 		],
@@ -10356,7 +10736,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon24.ccbi"
 			}
 		],
@@ -10480,7 +10860,11 @@ exports.data = [
 				"file": "priest-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand4.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand4.ccbi"
 			}
 		],
@@ -10518,7 +10902,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon24.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon24.ccbi"
 			}
 		],
@@ -10644,7 +11032,11 @@ exports.data = [
 				"file": "warrior-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand4.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand4.ccbi"
 			}
 		],
@@ -10682,7 +11074,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon24.ccbi"
 			}
 		],
@@ -10820,7 +11212,11 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand5.ccbi"
 			}
 		],
@@ -10834,7 +11230,11 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand5.ccbi"
 			}
 		],
@@ -10876,7 +11276,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon25.ccbi"
 			}
 		],
@@ -11015,7 +11415,11 @@ exports.data = [
 				"file": "priest-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand5.ccbi"
 			}
 		],
@@ -11029,7 +11433,11 @@ exports.data = [
 				"file": "priest-righthand5-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand5-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand5-2.ccbi"
 			}
 		],
@@ -11071,7 +11479,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon25.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon25.ccbi"
 			}
 		],
@@ -11203,7 +11615,11 @@ exports.data = [
 				"file": "warrior-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand5.ccbi"
 			}
 		],
@@ -11242,13 +11658,13 @@ exports.data = [
 		],
 		"effectf": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon25.ccbi"
 			}
 		],
 		"effectm": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon25-2.ccbi"
 			}
 		],
@@ -11392,7 +11808,11 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand6.ccbi"
 			}
 		],
@@ -11406,7 +11826,11 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand6.ccbi"
 			}
 		],
@@ -11448,7 +11872,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon26.ccbi"
 			}
 		],
@@ -11587,7 +12011,11 @@ exports.data = [
 				"file": "priest-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand6.ccbi"
 			}
 		],
@@ -11601,7 +12029,11 @@ exports.data = [
 				"file": "priest-righthand6-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand6-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand6-2.ccbi"
 			}
 		],
@@ -11643,7 +12075,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon26.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon26.ccbi"
 			}
 		],
@@ -11775,7 +12211,11 @@ exports.data = [
 				"file": "warrior-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand6.ccbi"
 			}
 		],
@@ -11814,13 +12254,13 @@ exports.data = [
 		],
 		"effectf": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon26.ccbi"
 			}
 		],
 		"effectm": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon26-2.ccbi"
 			}
 		],
@@ -11964,7 +12404,11 @@ exports.data = [
 				"file": "mage-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand7.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand7.ccbi"
 			}
 		],
@@ -11978,7 +12422,11 @@ exports.data = [
 				"file": "mage-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand7-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand7-2.ccbi"
 			}
 		],
@@ -12020,7 +12468,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon27.ccbi"
 			}
 		],
@@ -12159,7 +12607,11 @@ exports.data = [
 				"file": "priest-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand7.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand7.ccbi"
 			}
 		],
@@ -12173,7 +12625,11 @@ exports.data = [
 				"file": "priest-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand7-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand7-2.ccbi"
 			}
 		],
@@ -12215,7 +12671,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon27.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon27.ccbi"
 			}
 		],
@@ -12347,7 +12807,11 @@ exports.data = [
 				"file": "warrior-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand7.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand7.ccbi"
 			}
 		],
@@ -12386,13 +12850,13 @@ exports.data = [
 		],
 		"effectf": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon27.ccbi"
 			}
 		],
 		"effectm": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon27-2.ccbi"
 			}
 		],
@@ -12536,7 +13000,11 @@ exports.data = [
 				"file": "mage-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand8.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand8.ccbi"
 			}
 		],
@@ -12550,7 +13018,11 @@ exports.data = [
 				"file": "mage-righthand8-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand8-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand8-2.ccbi"
 			}
 		],
@@ -12592,7 +13064,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon28.ccbi"
 			}
 		],
@@ -12731,7 +13203,11 @@ exports.data = [
 				"file": "priest-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand8.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand8.ccbi"
 			}
 		],
@@ -12745,7 +13221,11 @@ exports.data = [
 				"file": "priest-righthand8-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand8-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand8-2.ccbi"
 			}
 		],
@@ -12787,7 +13267,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon28.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon28.ccbi"
 			}
 		],
@@ -12919,7 +13403,11 @@ exports.data = [
 				"file": "warrior-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand8.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand8.ccbi"
 			}
 		],
@@ -12959,7 +13447,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon28.ccbi"
 			}
 		],
@@ -13100,7 +13588,11 @@ exports.data = [
 				"file": "mage-righthand9.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand9.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand9.ccbi"
 			}
 		],
@@ -13114,7 +13606,11 @@ exports.data = [
 				"file": "mage-righthand9-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand9-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand9-2.ccbi"
 			}
 		],
@@ -13155,7 +13651,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon29.ccbi"
 			}
 		],
@@ -13291,7 +13787,11 @@ exports.data = [
 				"file": "priest-righthand9.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand9.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand9.ccbi"
 			}
 		],
@@ -13305,7 +13805,11 @@ exports.data = [
 				"file": "priest-righthand9-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand9-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand9-2.ccbi"
 			}
 		],
@@ -13345,7 +13849,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon29.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon29.ccbi"
 			}
 		],
@@ -13474,7 +13982,11 @@ exports.data = [
 				"file": "warrior-righthand9.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand9.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand9.ccbi"
 			}
 		],
@@ -13513,7 +14025,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon29.ccbi"
 			}
 		],
@@ -13651,7 +14163,11 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand5.ccbi"
 			}
 		],
@@ -13665,7 +14181,11 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand5.ccbi"
 			}
 		],
@@ -13705,7 +14225,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon25.ccbi"
 			}
 		],
@@ -13838,7 +14358,11 @@ exports.data = [
 				"file": "priest-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand5.ccbi"
 			}
 		],
@@ -13852,7 +14376,11 @@ exports.data = [
 				"file": "priest-righthand5-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand5-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand5-2.ccbi"
 			}
 		],
@@ -13892,7 +14420,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon25.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon25.ccbi"
 			}
 		],
@@ -14018,7 +14550,11 @@ exports.data = [
 				"file": "warrior-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand5.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand5.ccbi"
 			}
 		],
@@ -14055,13 +14591,13 @@ exports.data = [
 		],
 		"effectf": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon25.ccbi"
 			}
 		],
 		"effectm": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon25-2.ccbi"
 			}
 		],
@@ -14199,7 +14735,11 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand6.ccbi"
 			}
 		],
@@ -14213,7 +14753,11 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand6.ccbi"
 			}
 		],
@@ -14253,7 +14797,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon26.ccbi"
 			}
 		],
@@ -14386,7 +14930,11 @@ exports.data = [
 				"file": "priest-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand6.ccbi"
 			}
 		],
@@ -14400,7 +14948,11 @@ exports.data = [
 				"file": "priest-righthand6-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand6-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand6-2.ccbi"
 			}
 		],
@@ -14440,7 +14992,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon26.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon26.ccbi"
 			}
 		],
@@ -14566,7 +15122,11 @@ exports.data = [
 				"file": "warrior-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand6.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand6.ccbi"
 			}
 		],
@@ -14603,13 +15163,13 @@ exports.data = [
 		],
 		"effectf": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon26.ccbi"
 			}
 		],
 		"effectm": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon26-2.ccbi"
 			}
 		],
@@ -14747,7 +15307,11 @@ exports.data = [
 				"file": "mage-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand7.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand7.ccbi"
 			}
 		],
@@ -14761,7 +15325,11 @@ exports.data = [
 				"file": "mage-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand7-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand7-2.ccbi"
 			}
 		],
@@ -14801,7 +15369,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon27.ccbi"
 			}
 		],
@@ -14934,7 +15502,11 @@ exports.data = [
 				"file": "priest-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand7.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand7.ccbi"
 			}
 		],
@@ -14948,7 +15520,11 @@ exports.data = [
 				"file": "priest-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand7-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand7-2.ccbi"
 			}
 		],
@@ -14988,7 +15564,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon27.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon27.ccbi"
 			}
 		],
@@ -15114,7 +15694,11 @@ exports.data = [
 				"file": "warrior-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand7.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand7.ccbi"
 			}
 		],
@@ -15151,13 +15735,13 @@ exports.data = [
 		],
 		"effectf": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon27.ccbi"
 			}
 		],
 		"effectm": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon27-2.ccbi"
 			}
 		],
@@ -15295,7 +15879,11 @@ exports.data = [
 				"file": "mage-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand8.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand8.ccbi"
 			}
 		],
@@ -15309,7 +15897,11 @@ exports.data = [
 				"file": "mage-righthand8-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand8-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand8-2.ccbi"
 			}
 		],
@@ -15349,7 +15941,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon28.ccbi"
 			}
 		],
@@ -15482,7 +16074,11 @@ exports.data = [
 				"file": "priest-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand8.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand8.ccbi"
 			}
 		],
@@ -15496,7 +16092,11 @@ exports.data = [
 				"file": "priest-righthand8-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand8-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand8-2.ccbi"
 			}
 		],
@@ -15536,7 +16136,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon28.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon28.ccbi"
 			}
 		],
@@ -15662,7 +16266,11 @@ exports.data = [
 				"file": "warrior-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand8.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand8.ccbi"
 			}
 		],
@@ -15700,7 +16308,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon28.ccbi"
 			}
 		],
@@ -15836,7 +16444,11 @@ exports.data = [
 				"file": "mage-righthand9.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand9.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand9.ccbi"
 			}
 		],
@@ -15850,7 +16462,11 @@ exports.data = [
 				"file": "mage-righthand9-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand9-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand9-2.ccbi"
 			}
 		],
@@ -15890,7 +16506,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon29.ccbi"
 			}
 		],
@@ -16023,7 +16639,11 @@ exports.data = [
 				"file": "priest-righthand9.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand9.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand9.ccbi"
 			}
 		],
@@ -16037,7 +16657,11 @@ exports.data = [
 				"file": "priest-righthand9-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand9-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand9-2.ccbi"
 			}
 		],
@@ -16077,7 +16701,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon29.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon29.ccbi"
 			}
 		],
@@ -16203,7 +16831,11 @@ exports.data = [
 				"file": "warrior-righthand9.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand9.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand9.ccbi"
 			}
 		],
@@ -16241,7 +16873,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon29.ccbi"
 			}
 		],
@@ -16375,7 +17007,11 @@ exports.data = [
 				"file": "mage-righthand10.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand10.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand10.ccbi"
 			}
 		],
@@ -16389,7 +17025,11 @@ exports.data = [
 				"file": "mage-righthand10-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "mage-lefthand10-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "mage-lefthand10-2.ccbi"
 			}
 		],
@@ -16428,7 +17068,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "book1",
 				"file": "mage-weapon210.ccbi"
 			}
 		],
@@ -16558,7 +17198,11 @@ exports.data = [
 				"file": "priest-righthand10.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand10.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand10.ccbi"
 			}
 		],
@@ -16572,7 +17216,11 @@ exports.data = [
 				"file": "priest-righthand10-2.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "priest-lefthand10-2.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "priest-lefthand10-2.ccbi"
 			}
 		],
@@ -16611,7 +17259,11 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon210.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon210.ccbi"
 			}
 		],
@@ -16734,7 +17386,11 @@ exports.data = [
 				"file": "warrior-righthand10.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "warrior-lefthand10.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "warrior-lefthand10.ccbi"
 			}
 		],
@@ -16771,7 +17427,7 @@ exports.data = [
 		],
 		"effecta": [
 			{
-				"part": "secondaryweapon",
+				"part": "shield",
 				"file": "warrior-weapon210.ccbi"
 			}
 		],
@@ -20077,7 +20733,11 @@ exports.data = [
 				"file": "ff1-righthand-c.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff1-lefthand-c.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff1-lefthand-c.ccbi"
 			},
 			{
@@ -20102,7 +20762,11 @@ exports.data = [
 		"description": "寄宿着光明之神力量的传奇十字架",
 		"effecta": [
 			{
-				"part": "secondaryweapon2",
+				"part": "cross1",
+				"file": "priest-weapon29.ccbi"
+			},
+			{
+				"part": "cross2",
 				"file": "priest-weapon29.ccbi"
 			}
 		],
@@ -20169,7 +20833,7 @@ exports.data = [
 		"effecta": [
 			{
 				"part": "eye",
-				"file": "avatar-2-eye-yellow.ccbi"
+				"file": "avatar-2-eye-yellow-new.ccbi"
 			},
 			{
 				"part": "brow",
@@ -20196,7 +20860,11 @@ exports.data = [
 				"file": "fm1-righthand-c.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm1-lefthand-c.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm1-lefthand-c.ccbi"
 			},
 			{
@@ -20237,7 +20905,7 @@ exports.data = [
 		"effecta": [
 			{
 				"part": "eye",
-				"file": "avatar-2-eye-green-2.ccbi"
+				"file": "avatar-2-eye-green-2-new.ccbi"
 			},
 			{
 				"part": "brow",
@@ -20290,7 +20958,11 @@ exports.data = [
 				"file": "ff1-righthand-c.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff1-lefthand-c.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff1-lefthand-c.ccbi"
 			},
 			{
@@ -20312,7 +20984,11 @@ exports.data = [
 				"file": "fm1-righthand-c.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm1-lefthand-c.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm1-lefthand-c.ccbi"
 			},
 			{
@@ -20396,7 +21072,11 @@ exports.data = [
 				"file": "ff2-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff2-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff2-lefthand.ccbi"
 			},
 			{
@@ -20457,7 +21137,7 @@ exports.data = [
 		"effecta": [
 			{
 				"part": "eye",
-				"file": "avatar-2-eye-blue.ccbi"
+				"file": "avatar-2-eye-blue-new.ccbi"
 			},
 			{
 				"part": "brow",
@@ -21797,7 +22477,11 @@ exports.data = [
 				"file": "ff1-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff1-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff1-lefthand.ccbi"
 			},
 			{
@@ -21819,7 +22503,11 @@ exports.data = [
 				"file": "fm1-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm1-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm1-lefthand.ccbi"
 			},
 			{
@@ -21876,7 +22564,11 @@ exports.data = [
 				"file": "ff3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff3-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff3-lefthand.ccbi"
 			},
 			{
@@ -21898,7 +22590,11 @@ exports.data = [
 				"file": "fm3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm3-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm3-lefthand.ccbi"
 			},
 			{
@@ -21955,7 +22651,11 @@ exports.data = [
 				"file": "ff4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff4-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff4-lefthand.ccbi"
 			},
 			{
@@ -21977,7 +22677,11 @@ exports.data = [
 				"file": "fm4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm4-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm4-lefthand.ccbi"
 			},
 			{
@@ -22034,7 +22738,11 @@ exports.data = [
 				"file": "ff5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff5-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff5-lefthand.ccbi"
 			},
 			{
@@ -22056,7 +22764,11 @@ exports.data = [
 				"file": "fm5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm5-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm5-lefthand.ccbi"
 			},
 			{
@@ -29515,7 +30227,7 @@ exports.data = [
                 "file": "f-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn5-lefthand1.ccbi"
             },
             {
@@ -29533,7 +30245,7 @@ exports.data = [
                 "file": "m-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn5-lefthand1.ccbi"
             },
             {
@@ -29578,7 +30290,7 @@ exports.data = [
                 "file": "f-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn5-lefthand1.ccbi"
             },
             {
@@ -29596,7 +30308,7 @@ exports.data = [
                 "file": "m-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn5-lefthand1.ccbi"
             },
             {
@@ -29643,7 +30355,7 @@ exports.data = [
                 "file": "f-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn5-lefthand1.ccbi"
             },
             {
@@ -29661,7 +30373,7 @@ exports.data = [
                 "file": "m-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn5-lefthand1.ccbi"
             },
             {
@@ -29708,7 +30420,7 @@ exports.data = [
                 "file": "f-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn5-lefthand1.ccbi"
             },
             {
@@ -29726,7 +30438,7 @@ exports.data = [
                 "file": "m-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn5-lefthand1.ccbi"
             },
             {
@@ -29773,7 +30485,7 @@ exports.data = [
                 "file": "f-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn5-lefthand1.ccbi"
             },
             {
@@ -29791,7 +30503,7 @@ exports.data = [
                 "file": "m-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn5-lefthand1.ccbi"
             },
             {
@@ -29838,7 +30550,7 @@ exports.data = [
                 "file": "f-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn5-lefthand1.ccbi"
             },
             {
@@ -29856,7 +30568,7 @@ exports.data = [
                 "file": "m-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn5-lefthand1.ccbi"
             },
             {
@@ -29902,7 +30614,7 @@ exports.data = [
                 "file": "f-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn4-lefthand1.ccbi"
             },
             {
@@ -29920,7 +30632,7 @@ exports.data = [
                 "file": "m-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn4-lefthand1.ccbi"
             },
             {
@@ -29965,7 +30677,7 @@ exports.data = [
                 "file": "f-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn4-lefthand1.ccbi"
             },
             {
@@ -29983,7 +30695,7 @@ exports.data = [
                 "file": "m-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30030,7 +30742,7 @@ exports.data = [
                 "file": "f-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30048,7 +30760,7 @@ exports.data = [
                 "file": "m-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30095,7 +30807,7 @@ exports.data = [
                 "file": "f-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30113,7 +30825,7 @@ exports.data = [
                 "file": "m-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30160,7 +30872,7 @@ exports.data = [
                 "file": "f-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30178,7 +30890,7 @@ exports.data = [
                 "file": "m-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30225,7 +30937,7 @@ exports.data = [
                 "file": "f-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30243,7 +30955,7 @@ exports.data = [
                 "file": "m-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30289,7 +31001,7 @@ exports.data = [
                 "file": "f-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn3-lefthand1.ccbi"
             },
             {
@@ -30307,7 +31019,7 @@ exports.data = [
                 "file": "m-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn3-lefthand1.ccbi"
             },
             {
@@ -30352,7 +31064,7 @@ exports.data = [
                 "file": "f-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn3-lefthand1.ccbi"
             },
             {
@@ -30370,7 +31082,7 @@ exports.data = [
                 "file": "m-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn3-lefthand1.ccbi"
             },
             {
@@ -30417,7 +31129,7 @@ exports.data = [
                 "file": "f-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn3-lefthand1.ccbi"
             },
             {
@@ -30435,7 +31147,7 @@ exports.data = [
                 "file": "m-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn3-lefthand1.ccbi"
             },
             {
@@ -30482,7 +31194,7 @@ exports.data = [
                 "file": "f-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn3-lefthand1.ccbi"
             },
             {
@@ -30500,7 +31212,7 @@ exports.data = [
                 "file": "m-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn3-lefthand1.ccbi"
             },
             {
@@ -30547,7 +31259,7 @@ exports.data = [
                 "file": "f-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn3-lefthand1.ccbi"
             },
             {
@@ -30565,7 +31277,7 @@ exports.data = [
                 "file": "m-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn3-lefthand1.ccbi"
             },
             {
@@ -30612,7 +31324,7 @@ exports.data = [
                 "file": "f-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn3-lefthand1.ccbi"
             },
             {
@@ -30630,7 +31342,7 @@ exports.data = [
                 "file": "m-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn3-lefthand1.ccbi"
             },
             {
@@ -30676,7 +31388,7 @@ exports.data = [
                 "file": "f-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn2-lefthand1.ccbi"
             },
             {
@@ -30694,7 +31406,7 @@ exports.data = [
                 "file": "m-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn2-lefthand1.ccbi"
             },
             {
@@ -30739,7 +31451,7 @@ exports.data = [
                 "file": "f-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn2-lefthand1.ccbi"
             },
             {
@@ -30757,7 +31469,7 @@ exports.data = [
                 "file": "m-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn2-lefthand1.ccbi"
             },
             {
@@ -30804,7 +31516,7 @@ exports.data = [
                 "file": "f-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn2-lefthand1.ccbi"
             },
             {
@@ -30822,7 +31534,7 @@ exports.data = [
                 "file": "m-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn2-lefthand1.ccbi"
             },
             {
@@ -30869,7 +31581,7 @@ exports.data = [
                 "file": "f-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn2-lefthand1.ccbi"
             },
             {
@@ -30887,7 +31599,7 @@ exports.data = [
                 "file": "m-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn2-lefthand1.ccbi"
             },
             {
@@ -30934,7 +31646,7 @@ exports.data = [
                 "file": "f-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn2-lefthand1.ccbi"
             },
             {
@@ -30952,7 +31664,7 @@ exports.data = [
                 "file": "m-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn2-lefthand1.ccbi"
             },
             {
@@ -30999,7 +31711,7 @@ exports.data = [
                 "file": "f-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn2-lefthand1.ccbi"
             },
             {
@@ -31017,7 +31729,7 @@ exports.data = [
                 "file": "m-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn2-lefthand1.ccbi"
             },
             {
@@ -31063,7 +31775,7 @@ exports.data = [
                 "file": "f-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn-lefthand1.ccbi"
             },
             {
@@ -31081,7 +31793,7 @@ exports.data = [
                 "file": "m-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn-lefthand1.ccbi"
             },
             {
@@ -31126,7 +31838,7 @@ exports.data = [
                 "file": "f-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn-lefthand1.ccbi"
             },
             {
@@ -31144,7 +31856,7 @@ exports.data = [
                 "file": "m-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn-lefthand1.ccbi"
             },
             {
@@ -31189,7 +31901,7 @@ exports.data = [
                 "file": "f-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn-lefthand1.ccbi"
             },
             {
@@ -31207,7 +31919,7 @@ exports.data = [
                 "file": "m-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn-lefthand1.ccbi"
             },
             {
@@ -31252,7 +31964,7 @@ exports.data = [
                 "file": "f-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn-lefthand1.ccbi"
             },
             {
@@ -31270,7 +31982,7 @@ exports.data = [
                 "file": "m-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn-lefthand1.ccbi"
             },
             {
@@ -31315,7 +32027,7 @@ exports.data = [
                 "file": "f-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn-lefthand1.ccbi"
             },
             {
@@ -31333,7 +32045,7 @@ exports.data = [
                 "file": "m-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn-lefthand1.ccbi"
             },
             {
@@ -31378,7 +32090,7 @@ exports.data = [
                 "file": "f-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-warriorn-lefthand1.ccbi"
             },
             {
@@ -31396,7 +32108,7 @@ exports.data = [
                 "file": "m-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-warriorn-lefthand1.ccbi"
             },
             {
@@ -31437,7 +32149,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn5-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn5-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -31447,7 +32163,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn5-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn5-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -31482,7 +32202,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn5-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn5-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -31492,7 +32216,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn5-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn5-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -31529,7 +32257,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn5-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn5-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -31539,7 +32271,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn5-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn5-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -31576,7 +32312,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn5-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn5-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -31586,7 +32326,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn5-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn5-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -31623,7 +32367,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn5-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn5-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -31633,7 +32381,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn5-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn5-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -31670,7 +32422,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn5-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn5-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -31680,7 +32436,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn5-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn5-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -31716,7 +32476,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn4-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn4-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -31726,7 +32490,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn4-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn4-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -31761,7 +32529,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn4-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn4-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -31771,7 +32543,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn4-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn4-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -31808,7 +32584,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn4-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn4-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -31818,7 +32598,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn4-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn4-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -31855,7 +32639,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn4-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn4-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -31865,7 +32653,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn4-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn4-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -31902,7 +32694,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn4-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn4-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -31912,7 +32708,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn4-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn4-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -31949,7 +32749,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn4-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn4-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -31959,7 +32763,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn4-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn4-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -31995,7 +32803,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn3-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn3-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32005,7 +32817,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn3-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn3-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32040,7 +32856,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn3-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn3-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32050,7 +32870,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn3-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn3-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32087,7 +32911,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn3-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn3-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32097,7 +32925,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn3-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn3-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32134,7 +32966,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn3-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn3-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32144,7 +32980,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn3-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn3-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32181,7 +33021,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn3-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn3-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32191,7 +33035,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn3-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn3-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32228,7 +33076,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn3-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn3-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32238,7 +33090,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn3-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn3-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32274,7 +33130,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn2-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn2-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32284,7 +33144,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn2-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn2-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32319,7 +33183,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn2-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn2-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32329,7 +33197,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn2-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn2-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32366,7 +33238,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn2-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn2-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32376,7 +33252,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn2-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn2-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32413,7 +33293,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn2-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn2-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32423,7 +33307,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn2-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn2-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32460,7 +33348,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn2-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn2-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32470,7 +33362,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn2-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn2-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32507,7 +33403,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn2-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn2-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32517,7 +33417,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn2-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn2-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32553,7 +33457,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32563,7 +33471,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32598,7 +33510,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32608,7 +33524,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32643,7 +33563,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32653,7 +33577,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32688,7 +33616,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32698,7 +33630,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32733,7 +33669,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32743,7 +33683,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32778,7 +33722,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "f-warriorn-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "f-warriorn-weapon21.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -32788,7 +33736,11 @@ exports.data = [
             {
                 "part": "secondaryweapon2-2",
                 "file": "m-warriorn-weapon21.ccbi"
-            }
+            },
+			{
+				"part": "secondaryweapon2-1",
+				"file": "m-warriorn-weapon21.ccbi"
+			}
         ],
         "classLimit": [
             216
@@ -32817,13 +33769,21 @@ exports.data = [
             {
                 "part": "mainweapon",
                 "file": "f-warriorn5-mainweapon1.ccbi"
-            }
+            },
+			{
+				"part": "slashlight",
+				"file": "f-warriorn5-mainweapontx.ccbi"
+			}
         ],
         "effectm": [
             {
                 "part": "mainweapon",
                 "file": "m-warriorn5-mainweapon1.ccbi"
-            }
+            },
+			{
+				"part": "slashlight",
+				"file": "m-warriorn5-mainweapontx.ccbi"
+			}
         ],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
@@ -32853,18 +33813,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "拥有他，会获得勇往直前的力量",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn5-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn5-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn5-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -32895,18 +33863,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "拥有他，会获得勇往直前的力量",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn5-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn5-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn5-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -32937,18 +33913,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "拥有他，会获得勇往直前的力量",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn5-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn5-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn5-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -32979,18 +33963,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "拥有他，会获得勇往直前的力量",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn5-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn5-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn5-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33021,18 +34013,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "拥有他，会获得勇往直前的力量",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn5-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn5-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn5-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33062,18 +34062,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "角斗士不可缺少的利器，能斩破一切阻碍",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn4-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33102,18 +34110,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "角斗士不可缺少的利器，能斩破一切阻碍",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn4-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33144,18 +34160,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "角斗士不可缺少的利器，能斩破一切阻碍",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn4-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33186,18 +34210,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "角斗士不可缺少的利器，能斩破一切阻碍",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn4-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33228,18 +34260,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "角斗士不可缺少的利器，能斩破一切阻碍",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn4-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33270,18 +34310,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "角斗士不可缺少的利器，能斩破一切阻碍",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn4-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33311,18 +34359,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "一击之下，将敌人打进无尽深渊",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn3-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33351,18 +34407,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "一击之下，将敌人打进无尽深渊",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn3-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33393,18 +34457,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "一击之下，将敌人打进无尽深渊",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn3-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33435,18 +34507,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "一击之下，将敌人打进无尽深渊",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn3-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33477,18 +34557,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "一击之下，将敌人打进无尽深渊",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn3-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33519,18 +34607,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "一击之下，将敌人打进无尽深渊",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn3-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33560,18 +34656,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "锋利至极，能轻易刺破龙鳞",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn2-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33600,18 +34704,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "锋利至极，能轻易刺破龙鳞",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn2-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33642,18 +34754,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "锋利至极，能轻易刺破龙鳞",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn2-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33684,18 +34804,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "锋利至极，能轻易刺破龙鳞",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn2-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33726,18 +34854,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "锋利至极，能轻易刺破龙鳞",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn2-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33768,18 +34904,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "锋利至极，能轻易刺破龙鳞",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn2-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33809,18 +34953,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "附有传说中战神力量的神器",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33849,18 +35001,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "附有传说中战神力量的神器",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33889,18 +35049,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "附有传说中战神力量的神器",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33929,18 +35097,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "附有传说中战神力量的神器",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -33969,18 +35145,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "附有传说中战神力量的神器",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -34009,18 +35193,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "附有传说中战神力量的神器",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-warriorn-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-warriorn-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-warriorn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-warriorn-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-warriorn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-warriorn-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 8,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -37879,7 +39071,7 @@ exports.data = [
                 "file": "f-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen5-lefthand1.ccbi"
             },
             {
@@ -37897,7 +39089,7 @@ exports.data = [
                 "file": "m-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen5-lefthand1.ccbi"
             },
             {
@@ -37942,7 +39134,7 @@ exports.data = [
                 "file": "f-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen5-lefthand1.ccbi"
             },
             {
@@ -37960,7 +39152,7 @@ exports.data = [
                 "file": "m-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen5-lefthand1.ccbi"
             },
             {
@@ -38007,7 +39199,7 @@ exports.data = [
                 "file": "f-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen5-lefthand1.ccbi"
             },
             {
@@ -38025,7 +39217,7 @@ exports.data = [
                 "file": "m-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen5-lefthand1.ccbi"
             },
             {
@@ -38072,7 +39264,7 @@ exports.data = [
                 "file": "f-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen5-lefthand1.ccbi"
             },
             {
@@ -38090,7 +39282,7 @@ exports.data = [
                 "file": "m-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen5-lefthand1.ccbi"
             },
             {
@@ -38137,7 +39329,7 @@ exports.data = [
                 "file": "f-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen5-lefthand1.ccbi"
             },
             {
@@ -38155,7 +39347,7 @@ exports.data = [
                 "file": "m-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen5-lefthand1.ccbi"
             },
             {
@@ -38202,7 +39394,7 @@ exports.data = [
                 "file": "f-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen5-lefthand1.ccbi"
             },
             {
@@ -38220,7 +39412,7 @@ exports.data = [
                 "file": "m-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen5-lefthand1.ccbi"
             },
             {
@@ -38266,7 +39458,7 @@ exports.data = [
                 "file": "f-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen4-lefthand1.ccbi"
             },
             {
@@ -38284,7 +39476,7 @@ exports.data = [
                 "file": "m-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen4-lefthand1.ccbi"
             },
             {
@@ -38329,7 +39521,7 @@ exports.data = [
                 "file": "f-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen4-lefthand1.ccbi"
             },
             {
@@ -38347,7 +39539,7 @@ exports.data = [
                 "file": "m-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen4-lefthand1.ccbi"
             },
             {
@@ -38394,7 +39586,7 @@ exports.data = [
                 "file": "f-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen4-lefthand1.ccbi"
             },
             {
@@ -38412,7 +39604,7 @@ exports.data = [
                 "file": "m-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen4-lefthand1.ccbi"
             },
             {
@@ -38459,7 +39651,7 @@ exports.data = [
                 "file": "f-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen4-lefthand1.ccbi"
             },
             {
@@ -38477,7 +39669,7 @@ exports.data = [
                 "file": "m-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen4-lefthand1.ccbi"
             },
             {
@@ -38524,7 +39716,7 @@ exports.data = [
                 "file": "f-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen4-lefthand1.ccbi"
             },
             {
@@ -38542,7 +39734,7 @@ exports.data = [
                 "file": "m-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen4-lefthand1.ccbi"
             },
             {
@@ -38589,7 +39781,7 @@ exports.data = [
                 "file": "f-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen4-lefthand1.ccbi"
             },
             {
@@ -38607,7 +39799,7 @@ exports.data = [
                 "file": "m-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen4-lefthand1.ccbi"
             },
             {
@@ -38653,7 +39845,7 @@ exports.data = [
                 "file": "f-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen3-lefthand1.ccbi"
             },
             {
@@ -38671,7 +39863,7 @@ exports.data = [
                 "file": "m-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen3-lefthand1.ccbi"
             },
             {
@@ -38716,7 +39908,7 @@ exports.data = [
                 "file": "f-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen3-lefthand1.ccbi"
             },
             {
@@ -38734,7 +39926,7 @@ exports.data = [
                 "file": "m-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen3-lefthand1.ccbi"
             },
             {
@@ -38781,7 +39973,7 @@ exports.data = [
                 "file": "f-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen3-lefthand1.ccbi"
             },
             {
@@ -38799,7 +39991,7 @@ exports.data = [
                 "file": "m-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen3-lefthand1.ccbi"
             },
             {
@@ -38846,7 +40038,7 @@ exports.data = [
                 "file": "f-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen3-lefthand1.ccbi"
             },
             {
@@ -38864,7 +40056,7 @@ exports.data = [
                 "file": "m-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen3-lefthand1.ccbi"
             },
             {
@@ -38911,7 +40103,7 @@ exports.data = [
                 "file": "f-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen3-lefthand1.ccbi"
             },
             {
@@ -38929,7 +40121,7 @@ exports.data = [
                 "file": "m-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen3-lefthand1.ccbi"
             },
             {
@@ -38976,7 +40168,7 @@ exports.data = [
                 "file": "f-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen3-lefthand1.ccbi"
             },
             {
@@ -38994,7 +40186,7 @@ exports.data = [
                 "file": "m-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen3-lefthand1.ccbi"
             },
             {
@@ -39040,7 +40232,7 @@ exports.data = [
                 "file": "f-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen2-lefthand1.ccbi"
             },
             {
@@ -39058,7 +40250,7 @@ exports.data = [
                 "file": "m-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen2-lefthand1.ccbi"
             },
             {
@@ -39103,7 +40295,7 @@ exports.data = [
                 "file": "f-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen2-lefthand1.ccbi"
             },
             {
@@ -39121,7 +40313,7 @@ exports.data = [
                 "file": "m-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen2-lefthand1.ccbi"
             },
             {
@@ -39168,7 +40360,7 @@ exports.data = [
                 "file": "f-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen2-lefthand1.ccbi"
             },
             {
@@ -39186,7 +40378,7 @@ exports.data = [
                 "file": "m-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen2-lefthand1.ccbi"
             },
             {
@@ -39233,7 +40425,7 @@ exports.data = [
                 "file": "f-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen2-lefthand1.ccbi"
             },
             {
@@ -39251,7 +40443,7 @@ exports.data = [
                 "file": "m-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen2-lefthand1.ccbi"
             },
             {
@@ -39298,7 +40490,7 @@ exports.data = [
                 "file": "f-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen2-lefthand1.ccbi"
             },
             {
@@ -39316,7 +40508,7 @@ exports.data = [
                 "file": "m-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen2-lefthand1.ccbi"
             },
             {
@@ -39363,7 +40555,7 @@ exports.data = [
                 "file": "f-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen2-lefthand1.ccbi"
             },
             {
@@ -39381,7 +40573,7 @@ exports.data = [
                 "file": "m-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen2-lefthand1.ccbi"
             },
             {
@@ -39427,7 +40619,7 @@ exports.data = [
                 "file": "f-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen-lefthand1.ccbi"
             },
             {
@@ -39445,7 +40637,7 @@ exports.data = [
                 "file": "m-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen-lefthand1.ccbi"
             },
             {
@@ -39490,7 +40682,7 @@ exports.data = [
                 "file": "f-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen-lefthand1.ccbi"
             },
             {
@@ -39508,7 +40700,7 @@ exports.data = [
                 "file": "m-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen-lefthand1.ccbi"
             },
             {
@@ -39553,7 +40745,7 @@ exports.data = [
                 "file": "f-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen-lefthand1.ccbi"
             },
             {
@@ -39571,7 +40763,7 @@ exports.data = [
                 "file": "m-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen-lefthand1.ccbi"
             },
             {
@@ -39616,7 +40808,7 @@ exports.data = [
                 "file": "f-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen-lefthand1.ccbi"
             },
             {
@@ -39634,7 +40826,7 @@ exports.data = [
                 "file": "m-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen-lefthand1.ccbi"
             },
             {
@@ -39679,7 +40871,7 @@ exports.data = [
                 "file": "f-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen-lefthand1.ccbi"
             },
             {
@@ -39697,7 +40889,7 @@ exports.data = [
                 "file": "m-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen-lefthand1.ccbi"
             },
             {
@@ -39742,7 +40934,7 @@ exports.data = [
                 "file": "f-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-magen-lefthand1.ccbi"
             },
             {
@@ -39760,7 +40952,7 @@ exports.data = [
                 "file": "m-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-magen-lefthand1.ccbi"
             },
             {
@@ -39795,15 +40987,55 @@ exports.data = [
         "description": "能凝聚魔力的小精灵",
         "effectf": [
             {
-                "part": "weapon4",
-                "file": "f-magen5-weapon41.ccbi"
-            }
+                "part": "elf-body",
+                "file": "f-magen5-weapon4body.ccbi"
+            },
+			{
+				"part": "elf-eye",
+				"file": "f-magen5-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen5-mainweapontxb02.ccbi"
+			}
         ],
         "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen5-weapon41.ccbi"
-            }
+			{
+				"part": "elf-body",
+				"file": "m-magen5-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen5-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen5-mainweapontxb02.ccbi"
+			}
         ],
         "classLimit": [
             217
@@ -39831,18 +41063,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "能凝聚魔力的小精灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen5-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen5-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen5-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen5-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen5-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen5-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen5-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen5-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -39871,18 +41143,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "能凝聚魔力的小精灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen5-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen5-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen5-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen5-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen5-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen5-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen5-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen5-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -39911,18 +41223,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "能凝聚魔力的小精灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen5-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen5-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen5-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen5-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen5-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen5-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen5-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen5-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -39951,18 +41303,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "能凝聚魔力的小精灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen5-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen5-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen5-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen5-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen5-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen5-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen5-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen5-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -39991,18 +41383,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "能凝聚魔力的小精灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen5-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen5-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen5-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen5-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen5-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen5-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen5-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen5-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen5-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40030,18 +41462,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "炽热火焰凝聚而成的精灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen4-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen4-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen4-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen4-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen4-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen4-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen4-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen4-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40068,18 +41540,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "炽热火焰凝聚而成的精灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen4-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen4-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen4-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen4-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen4-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen4-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen4-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen4-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40108,18 +41620,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "炽热火焰凝聚而成的精灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen4-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen4-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen4-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen4-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen4-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen4-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen4-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen4-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40148,18 +41700,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "炽热火焰凝聚而成的精灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen4-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen4-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen4-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen4-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen4-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen4-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen4-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen4-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40188,18 +41780,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "炽热火焰凝聚而成的精灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen4-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen4-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen4-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen4-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen4-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen4-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen4-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen4-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40228,18 +41860,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "炽热火焰凝聚而成的精灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen4-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen4-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen4-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen4-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen4-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen4-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen4-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen4-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen4-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40267,18 +41939,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "破坏力惊人的毁灭之灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen3-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen3-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen3-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen3-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen3-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen3-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen3-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen3-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40305,18 +42017,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "破坏力惊人的毁灭之灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen3-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen3-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen3-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen3-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen3-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen3-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen3-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen3-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40345,18 +42097,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "破坏力惊人的毁灭之灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen3-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen3-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen3-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen3-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen3-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen3-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen3-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen3-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40385,18 +42177,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "破坏力惊人的毁灭之灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen3-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen3-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen3-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen3-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen3-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen3-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen3-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen3-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40425,18 +42257,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "破坏力惊人的毁灭之灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen3-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen3-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen3-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen3-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen3-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen3-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen3-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen3-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40465,18 +42337,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "破坏力惊人的毁灭之灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen3-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen3-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen3-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen3-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen3-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen3-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen3-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen3-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen3-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40504,18 +42416,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "吟唱着恐怖禁咒的陨日之灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen2-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen2-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen2-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen2-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen2-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen2-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen2-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen2-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40542,18 +42494,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "吟唱着恐怖禁咒的陨日之灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen2-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen2-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen2-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen2-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen2-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen2-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen2-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen2-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40582,18 +42574,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "吟唱着恐怖禁咒的陨日之灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen2-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen2-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen2-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen2-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen2-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen2-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen2-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen2-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40622,18 +42654,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "吟唱着恐怖禁咒的陨日之灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen2-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen2-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen2-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen2-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen2-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen2-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen2-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen2-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40662,18 +42734,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "吟唱着恐怖禁咒的陨日之灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen2-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen2-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen2-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen2-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen2-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen2-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen2-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen2-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40702,18 +42814,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "吟唱着恐怖禁咒的陨日之灵",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen2-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen2-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen2-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen2-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen2-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen2-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen2-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen2-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen2-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40741,18 +42893,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40779,18 +42971,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40817,18 +43049,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40855,18 +43127,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40893,18 +43205,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40931,18 +43283,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "巨龙亡灵所化，你甚至能听见愤怒的咆哮",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-magen-weapon41.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-magen-weapon41.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "elf-body",
+				"file": "f-magen-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "f-magen-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "f-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "f-magen-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "elf-body",
+				"file": "m-magen-weapon4body.ccbi"
+			},
+			{
+				"part": "elf-eye",
+				"file": "m-magen-weapon4eye.ccbi"
+			},
+			{
+				"part": "elf-star1",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star2",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-star3",
+				"file": "m-magen-weapon4star.ccbi"
+			},
+			{
+				"part": "elf-effect",
+				"file": "m-magen-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -40971,13 +43363,21 @@ exports.data = [
             {
                 "part": "mainweapon",
                 "file": "f-magen5-mainweapon1.ccbi"
-            }
+            },
+			{
+				"part": "slashlight",
+				"file": "f-magen5-mainweapontx.ccbi"
+			}
         ],
         "effectm": [
             {
                 "part": "mainweapon",
                 "file": "m-magen5-mainweapon1.ccbi"
-            }
+            },
+			{
+				"part": "slashlight",
+				"file": "m-magen5-mainweapontx.ccbi"
+			}
         ],
         "classLimit": [
             217
@@ -41006,18 +43406,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "蕴含魔法奥义的精巧法杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen5-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen5-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen5-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41047,18 +43455,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "蕴含魔法奥义的精巧法杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen5-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen5-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen5-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41088,18 +43504,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "蕴含魔法奥义的精巧法杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen5-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen5-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen5-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41129,18 +43553,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "蕴含魔法奥义的精巧法杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen5-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen5-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen5-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41170,18 +43602,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "蕴含魔法奥义的精巧法杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen5-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen5-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen5-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41210,18 +43650,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "能将魔力燃烧的精致法杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen4-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41249,18 +43697,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "能将魔力燃烧的精致法杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen4-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41290,18 +43746,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "能将魔力燃烧的精致法杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen4-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 10,
         "soundAttack": "attackzhanshi.mp3",
         "quality": 1,
@@ -41331,18 +43795,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "能将魔力燃烧的精致法杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen4-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41372,18 +43844,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "能将魔力燃烧的精致法杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen4-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41413,18 +43893,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "能将魔力燃烧的精致法杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen4-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41453,18 +43941,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "附有冥界之力的魔杖，能释放毁灭之光",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen3-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41492,18 +43988,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "附有冥界之力的魔杖，能释放毁灭之光",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen3-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41533,18 +44037,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "附有冥界之力的魔杖，能释放毁灭之光",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen3-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41574,18 +44086,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "附有冥界之力的魔杖，能释放毁灭之光",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen3-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41615,18 +44135,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "附有冥界之力的魔杖，能释放毁灭之光",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen3-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41656,18 +44184,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "附有冥界之力的魔杖，能释放毁灭之光",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen3-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41696,18 +44232,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "罕见的传世古杖，蕴含深不可测的魔力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen2-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41735,18 +44279,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "罕见的传世古杖，蕴含深不可测的魔力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen2-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41776,18 +44328,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "罕见的传世古杖，蕴含深不可测的魔力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen2-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41817,18 +44377,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "罕见的传世古杖，蕴含深不可测的魔力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen2-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41858,18 +44426,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "罕见的传世古杖，蕴含深不可测的魔力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen2-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41899,18 +44475,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "罕见的传世古杖，蕴含深不可测的魔力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen2-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41939,18 +44523,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -41978,18 +44570,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -42017,18 +44617,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -42056,18 +44664,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -42095,18 +44711,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -42134,18 +44758,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "封印着巨龙之力的法杖，拥有神秘的外观和极致的魔力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-magen-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-magen-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-magen-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-magen-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-magen-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-magen-mainweapontx.ccbi"
+			}
+		],
         "classLimit": [
             217
         ],
@@ -45883,7 +48515,7 @@ exports.data = [
                 "file": "f-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn5-lefthand1.ccbi"
             },
             {
@@ -45901,7 +48533,7 @@ exports.data = [
                 "file": "m-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn5-lefthand1.ccbi"
             },
             {
@@ -45946,7 +48578,7 @@ exports.data = [
                 "file": "f-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn5-lefthand1.ccbi"
             },
             {
@@ -45964,7 +48596,7 @@ exports.data = [
                 "file": "m-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn5-lefthand1.ccbi"
             },
             {
@@ -46011,7 +48643,7 @@ exports.data = [
                 "file": "f-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn5-lefthand1.ccbi"
             },
             {
@@ -46029,7 +48661,7 @@ exports.data = [
                 "file": "m-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn5-lefthand1.ccbi"
             },
             {
@@ -46076,7 +48708,7 @@ exports.data = [
                 "file": "f-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn5-lefthand1.ccbi"
             },
             {
@@ -46094,7 +48726,7 @@ exports.data = [
                 "file": "m-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn5-lefthand1.ccbi"
             },
             {
@@ -46141,7 +48773,7 @@ exports.data = [
                 "file": "f-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn5-lefthand1.ccbi"
             },
             {
@@ -46159,7 +48791,7 @@ exports.data = [
                 "file": "m-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn5-lefthand1.ccbi"
             },
             {
@@ -46206,7 +48838,7 @@ exports.data = [
                 "file": "f-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn5-lefthand1.ccbi"
             },
             {
@@ -46224,7 +48856,7 @@ exports.data = [
                 "file": "m-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn5-lefthand1.ccbi"
             },
             {
@@ -46270,7 +48902,7 @@ exports.data = [
                 "file": "f-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn4-lefthand1.ccbi"
             },
             {
@@ -46288,7 +48920,7 @@ exports.data = [
                 "file": "m-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn4-lefthand1.ccbi"
             },
             {
@@ -46333,7 +48965,7 @@ exports.data = [
                 "file": "f-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn4-lefthand1.ccbi"
             },
             {
@@ -46351,7 +48983,7 @@ exports.data = [
                 "file": "m-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn4-lefthand1.ccbi"
             },
             {
@@ -46398,7 +49030,7 @@ exports.data = [
                 "file": "f-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn4-lefthand1.ccbi"
             },
             {
@@ -46416,7 +49048,7 @@ exports.data = [
                 "file": "m-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn4-lefthand1.ccbi"
             },
             {
@@ -46463,7 +49095,7 @@ exports.data = [
                 "file": "f-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn4-lefthand1.ccbi"
             },
             {
@@ -46481,7 +49113,7 @@ exports.data = [
                 "file": "m-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn4-lefthand1.ccbi"
             },
             {
@@ -46528,7 +49160,7 @@ exports.data = [
                 "file": "f-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn4-lefthand1.ccbi"
             },
             {
@@ -46546,7 +49178,7 @@ exports.data = [
                 "file": "m-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn4-lefthand1.ccbi"
             },
             {
@@ -46593,7 +49225,7 @@ exports.data = [
                 "file": "f-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn4-lefthand1.ccbi"
             },
             {
@@ -46611,7 +49243,7 @@ exports.data = [
                 "file": "m-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn4-lefthand1.ccbi"
             },
             {
@@ -46657,7 +49289,7 @@ exports.data = [
                 "file": "f-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn3-lefthand1.ccbi"
             },
             {
@@ -46675,7 +49307,7 @@ exports.data = [
                 "file": "m-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn3-lefthand1.ccbi"
             },
             {
@@ -46720,7 +49352,7 @@ exports.data = [
                 "file": "f-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn3-lefthand1.ccbi"
             },
             {
@@ -46738,7 +49370,7 @@ exports.data = [
                 "file": "m-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn3-lefthand1.ccbi"
             },
             {
@@ -46785,7 +49417,7 @@ exports.data = [
                 "file": "f-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn3-lefthand1.ccbi"
             },
             {
@@ -46803,7 +49435,7 @@ exports.data = [
                 "file": "m-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn3-lefthand1.ccbi"
             },
             {
@@ -46850,7 +49482,7 @@ exports.data = [
                 "file": "f-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn3-lefthand1.ccbi"
             },
             {
@@ -46868,7 +49500,7 @@ exports.data = [
                 "file": "m-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn3-lefthand1.ccbi"
             },
             {
@@ -46915,7 +49547,7 @@ exports.data = [
                 "file": "f-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn3-lefthand1.ccbi"
             },
             {
@@ -46933,7 +49565,7 @@ exports.data = [
                 "file": "m-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn3-lefthand1.ccbi"
             },
             {
@@ -46980,7 +49612,7 @@ exports.data = [
                 "file": "f-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn3-lefthand1.ccbi"
             },
             {
@@ -46998,7 +49630,7 @@ exports.data = [
                 "file": "m-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn3-lefthand1.ccbi"
             },
             {
@@ -47044,7 +49676,7 @@ exports.data = [
                 "file": "f-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn2-lefthand1.ccbi"
             },
             {
@@ -47062,7 +49694,7 @@ exports.data = [
                 "file": "m-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn2-lefthand1.ccbi"
             },
             {
@@ -47107,7 +49739,7 @@ exports.data = [
                 "file": "f-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn2-lefthand1.ccbi"
             },
             {
@@ -47125,7 +49757,7 @@ exports.data = [
                 "file": "m-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn2-lefthand1.ccbi"
             },
             {
@@ -47172,7 +49804,7 @@ exports.data = [
                 "file": "f-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn2-lefthand1.ccbi"
             },
             {
@@ -47190,7 +49822,7 @@ exports.data = [
                 "file": "m-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn2-lefthand1.ccbi"
             },
             {
@@ -47237,7 +49869,7 @@ exports.data = [
                 "file": "f-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn2-lefthand1.ccbi"
             },
             {
@@ -47255,7 +49887,7 @@ exports.data = [
                 "file": "m-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn2-lefthand1.ccbi"
             },
             {
@@ -47302,7 +49934,7 @@ exports.data = [
                 "file": "f-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn2-lefthand1.ccbi"
             },
             {
@@ -47320,7 +49952,7 @@ exports.data = [
                 "file": "m-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn2-lefthand1.ccbi"
             },
             {
@@ -47367,7 +49999,7 @@ exports.data = [
                 "file": "f-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn2-lefthand1.ccbi"
             },
             {
@@ -47385,7 +50017,7 @@ exports.data = [
                 "file": "m-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn2-lefthand1.ccbi"
             },
             {
@@ -47431,7 +50063,7 @@ exports.data = [
                 "file": "f-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn-lefthand1.ccbi"
             },
             {
@@ -47449,7 +50081,7 @@ exports.data = [
                 "file": "m-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn-lefthand1.ccbi"
             },
             {
@@ -47494,7 +50126,7 @@ exports.data = [
                 "file": "f-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn-lefthand1.ccbi"
             },
             {
@@ -47512,7 +50144,7 @@ exports.data = [
                 "file": "m-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn-lefthand1.ccbi"
             },
             {
@@ -47557,7 +50189,7 @@ exports.data = [
                 "file": "f-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn-lefthand1.ccbi"
             },
             {
@@ -47575,7 +50207,7 @@ exports.data = [
                 "file": "m-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn-lefthand1.ccbi"
             },
             {
@@ -47620,7 +50252,7 @@ exports.data = [
                 "file": "f-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn-lefthand1.ccbi"
             },
             {
@@ -47638,7 +50270,7 @@ exports.data = [
                 "file": "m-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn-lefthand1.ccbi"
             },
             {
@@ -47683,7 +50315,7 @@ exports.data = [
                 "file": "f-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn-lefthand1.ccbi"
             },
             {
@@ -47701,7 +50333,7 @@ exports.data = [
                 "file": "m-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn-lefthand1.ccbi"
             },
             {
@@ -47746,7 +50378,7 @@ exports.data = [
                 "file": "f-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "f-priestn-lefthand1.ccbi"
             },
             {
@@ -47764,7 +50396,7 @@ exports.data = [
                 "file": "m-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "m-priestn-lefthand1.ccbi"
             },
             {
@@ -47799,23 +50431,55 @@ exports.data = [
         "description": "能够治愈伤痛的宝典",
         "effectf": [
             {
-                "part": "weapon4",
+                "part": "book-turnpage",
                 "file": "f-priestn5-weapon41.ccbi"
             },
             {
-                "part": "weapon4-2",
-                "file": "f-priestn5-weapon41-2.ccbi"
-            }
+                "part": "book-body",
+                "file": "f-priestn5-weapon41-3.ccbi"
+            },
+			{
+				"part": "book-star1",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn5-mainweapontxb02.ccbi"
+			}
         ],
         "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn5-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn5-weapon41-2.ccbi"
-            }
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn5-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn5-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn5-mainweapontxb02.ccbi"
+			}
         ],
         "classLimit": [
             218
@@ -47845,26 +50509,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "能够治愈伤痛的宝典",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn5-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn5-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn5-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn5-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn5-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn5-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn5-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn5-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn5-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn5-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -47895,26 +50591,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "能够治愈伤痛的宝典",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn5-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn5-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn5-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn5-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn5-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn5-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn5-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn5-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn5-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn5-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -47945,26 +50673,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "能够治愈伤痛的宝典",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn5-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn5-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn5-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn5-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn5-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn5-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn5-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn5-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn5-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn5-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -47995,26 +50755,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "能够治愈伤痛的宝典",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn5-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn5-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn5-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn5-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn5-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn5-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn5-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn5-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn5-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn5-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48045,26 +50837,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "能够治愈伤痛的宝典",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn5-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn5-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn5-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn5-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn5-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn5-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn5-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn5-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn5-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn5-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn5-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48094,26 +50918,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "获得祝福的宝典，让人远离灾难与恐惧",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn4-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn4-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn4-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn4-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn4-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn4-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn4-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn4-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn4-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn4-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48142,26 +50998,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "获得祝福的宝典，让人远离灾难与恐惧",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn4-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn4-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn4-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn4-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn4-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn4-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn4-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn4-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn4-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn4-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48192,26 +51080,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "获得祝福的宝典，让人远离灾难与恐惧",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn4-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn4-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn4-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn4-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn4-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn4-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn4-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn4-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn4-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn4-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48242,26 +51162,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "获得祝福的宝典，让人远离灾难与恐惧",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn4-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn4-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn4-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn4-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn4-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn4-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn4-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn4-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn4-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn4-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48292,26 +51244,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "获得祝福的宝典，让人远离灾难与恐惧",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn4-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn4-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn4-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn4-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn4-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn4-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn4-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn4-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn4-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn4-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48342,26 +51326,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "获得祝福的宝典，让人远离灾难与恐惧",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn4-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn4-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn4-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn4-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn4-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn4-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn4-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn4-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn4-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn4-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn4-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48391,26 +51407,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "凝聚着先知无穷智慧的宝典",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn3-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn3-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn3-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn3-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn3-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn3-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn3-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn3-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn3-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn3-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48439,26 +51487,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "凝聚着先知无穷智慧的宝典",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn3-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn3-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn3-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn3-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn3-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn3-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn3-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn3-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn3-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn3-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48489,26 +51569,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "凝聚着先知无穷智慧的宝典",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn3-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn3-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn3-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn3-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn3-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn3-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn3-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn3-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn3-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn3-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48539,26 +51651,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "凝聚着先知无穷智慧的宝典",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn3-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn3-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn3-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn3-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn3-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn3-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn3-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn3-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn3-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn3-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48589,26 +51733,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "凝聚着先知无穷智慧的宝典",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn3-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn3-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn3-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn3-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn3-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn3-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn3-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn3-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn3-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn3-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48639,26 +51815,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "凝聚着先知无穷智慧的宝典",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn3-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn3-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn3-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn3-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn3-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn3-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn3-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn3-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn3-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn3-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn3-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48688,26 +51896,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "神圣的宝典，指引世人向善",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn2-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn2-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn2-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn2-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn2-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn2-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn2-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn2-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn2-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn2-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48736,26 +51976,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "神圣的宝典，指引世人向善",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn2-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn2-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn2-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn2-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn2-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn2-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn2-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn2-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn2-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn2-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48786,26 +52058,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "神圣的宝典，指引世人向善",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn2-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn2-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn2-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn2-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn2-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn2-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn2-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn2-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn2-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn2-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48836,26 +52140,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "神圣的宝典，指引世人向善",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn2-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn2-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn2-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn2-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn2-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn2-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn2-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn2-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn2-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn2-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48886,26 +52222,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "神圣的宝典，指引世人向善",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn2-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn2-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn2-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn2-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn2-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn2-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn2-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn2-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn2-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn2-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48936,26 +52304,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "神圣的宝典，指引世人向善",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn2-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn2-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn2-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn2-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn2-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn2-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn2-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn2-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn2-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn2-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn2-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -48985,26 +52385,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "传说它的光芒能够为世人指出命运的方向",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -49033,26 +52465,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "传说它的光芒能够为世人指出命运的方向",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -49081,26 +52545,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "传说它的光芒能够为世人指出命运的方向",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -49129,26 +52625,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "传说它的光芒能够为世人指出命运的方向",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -49177,26 +52705,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "传说它的光芒能够为世人指出命运的方向",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -49225,26 +52785,58 @@ exports.data = [
         "category": 1,
         "subcategory": 1,
         "description": "传说它的光芒能够为世人指出命运的方向",
-        "effectf": [
-            {
-                "part": "weapon4",
-                "file": "f-priestn-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "f-priestn-weapon41-2.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "weapon4",
-                "file": "m-priestn-weapon41.ccbi"
-            },
-            {
-                "part": "weapon4-2",
-                "file": "m-priestn-weapon41-2.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "book-turnpage",
+				"file": "f-priestn-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "f-priestn-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "f-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "f-priestn-mainweapontxb02.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "book-turnpage",
+				"file": "m-priestn-weapon41.ccbi"
+			},
+			{
+				"part": "book-body",
+				"file": "m-priestn-weapon41-3.ccbi"
+			},
+			{
+				"part": "book-star1",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star2",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-star3",
+				"file": "m-priestn-weapon4star.ccbi"
+			},
+			{
+				"part": "book-effect",
+				"file": "m-priestn-mainweapontxb02.ccbi"
+			}
+		],
         "classLimit": [
             218
         ],
@@ -49275,13 +52867,21 @@ exports.data = [
             {
                 "part": "mainweapon",
                 "file": "f-priestn5-mainweapon1.ccbi"
-            }
+            },
+			{
+				"part": "slashlight",
+				"file": "f-priestn5-mainweapontx.ccbi"
+			}
         ],
         "effectm": [
             {
                 "part": "mainweapon",
                 "file": "m-priestn5-mainweapon1.ccbi"
-            }
+            },
+			{
+				"part": "slashlight",
+				"file": "m-priestn5-mainweapontx.ccbi"
+			}
         ],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
@@ -49310,18 +52910,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "造型简单的权杖，拥有温暖人心的力量",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn5-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn5-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn5-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49351,18 +52959,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "造型简单的权杖，拥有温暖人心的力量",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn5-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn5-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn5-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49392,18 +53008,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "造型简单的权杖，拥有温暖人心的力量",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn5-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn5-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn5-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49433,18 +53057,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "造型简单的权杖，拥有温暖人心的力量",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn5-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn5-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn5-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49474,18 +53106,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "造型简单的权杖，拥有温暖人心的力量",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn5-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn5-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn5-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn5-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn5-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49514,18 +53154,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "造型别致的权杖，能激发世人对光明的向往",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn4-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49553,18 +53201,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "造型别致的权杖，能激发世人对光明的向往",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn4-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49594,18 +53250,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "造型别致的权杖，能激发世人对光明的向往",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn4-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49635,18 +53299,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "造型别致的权杖，能激发世人对光明的向往",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn4-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49676,18 +53348,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "造型别致的权杖，能激发世人对光明的向往",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn4-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49717,18 +53397,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "造型别致的权杖，能激发世人对光明的向往",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn4-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn4-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn4-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn4-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn4-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49757,18 +53445,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "异常华贵的权杖，象征着权力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn3-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49796,18 +53492,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "异常华贵的权杖，象征着权力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn3-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49837,18 +53541,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "异常华贵的权杖，象征着权力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn3-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49878,18 +53590,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "异常华贵的权杖，象征着权力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn3-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49919,18 +53639,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "异常华贵的权杖，象征着权力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn3-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -49960,18 +53688,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "异常华贵的权杖，象征着权力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn3-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn3-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn3-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn3-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn3-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -50000,18 +53736,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "能使亡魂得到救赎的神圣权杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn2-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -50039,18 +53783,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "能使亡魂得到救赎的神圣权杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn2-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -50080,18 +53832,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "能使亡魂得到救赎的神圣权杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn2-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -50121,18 +53881,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "能使亡魂得到救赎的神圣权杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn2-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -50162,18 +53930,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "能使亡魂得到救赎的神圣权杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn2-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -50203,18 +53979,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "能使亡魂得到救赎的神圣权杖",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn2-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn2-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn2-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn2-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn2-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -50243,18 +54027,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "饱含着生命的气息，凝聚着强大的自然之力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -50282,18 +54074,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "饱含着生命的气息，凝聚着强大的自然之力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -50321,18 +54121,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "饱含着生命的气息，凝聚着强大的自然之力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -50360,18 +54168,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "饱含着生命的气息，凝聚着强大的自然之力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -50399,18 +54215,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "饱含着生命的气息，凝聚着强大的自然之力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -50438,18 +54262,26 @@ exports.data = [
         "category": 1,
         "subcategory": 0,
         "description": "饱含着生命的气息，凝聚着强大的自然之力",
-        "effectf": [
-            {
-                "part": "mainweapon",
-                "file": "f-priestn-mainweapon1.ccbi"
-            }
-        ],
-        "effectm": [
-            {
-                "part": "mainweapon",
-                "file": "m-priestn-mainweapon1.ccbi"
-            }
-        ],
+		"effectf": [
+			{
+				"part": "mainweapon",
+				"file": "f-priestn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "f-priestn-mainweapontx.ccbi"
+			}
+		],
+		"effectm": [
+			{
+				"part": "mainweapon",
+				"file": "m-priestn-mainweapon1.ccbi"
+			},
+			{
+				"part": "slashlight",
+				"file": "m-priestn-mainweapontx.ccbi"
+			}
+		],
         "effectAttack": 9,
         "soundAttack": "attackzhanshi.mp3",
         "classLimit": [
@@ -53328,9 +57160,13 @@ exports.data = [
                 "file": "ironsuit-female-righthand.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "ironsuit-female-lefthand.ccbi"
-            }
+            },
+			{
+				"part": "lefthand2",
+				"file": "ironsuit-female-lefthand.ccbi"
+			}
         ],
         "effectm": [
             {
@@ -53338,9 +57174,13 @@ exports.data = [
                 "file": "ironsuit-male-righthand.ccbi"
             },
             {
-                "part": "lefthand",
+                "part": "lefthand1",
                 "file": "ironsuit-male-lefthand.ccbi"
-            }
+            },
+			{
+				"part": "lefthand2",
+				"file": "ironsuit-male-lefthand.ccbi"
+			}
         ],
         "storeOnly": true,
 		"quality": 4,
@@ -53443,7 +57283,11 @@ exports.data = [
 				"file": "ff3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff3-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff3-lefthand.ccbi"
 			}
 		],
@@ -53453,7 +57297,11 @@ exports.data = [
 				"file": "fm3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm3-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm3-lefthand.ccbi"
 			}
 		],
@@ -53560,7 +57408,11 @@ exports.data = [
 				"file": "ff4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff4-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff4-lefthand.ccbi"
 			}
 		],
@@ -53570,7 +57422,11 @@ exports.data = [
 				"file": "fm4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm4-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm4-lefthand.ccbi"
 			}
 		],
@@ -53677,7 +57533,11 @@ exports.data = [
 				"file": "ff5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff5-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff5-lefthand.ccbi"
 			}
 		],
@@ -53687,7 +57547,11 @@ exports.data = [
 				"file": "fm5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm5-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm5-lefthand.ccbi"
 			}
 		],
@@ -53794,7 +57658,11 @@ exports.data = [
 				"file": "ff6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff6-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff6-lefthand.ccbi"
 			}
 		],
@@ -53804,7 +57672,11 @@ exports.data = [
 				"file": "fm6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm6-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm6-lefthand.ccbi"
 			}
 		],
@@ -53911,7 +57783,11 @@ exports.data = [
 				"file": "ff7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff7-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff7-lefthand.ccbi"
 			}
 		],
@@ -53921,7 +57797,11 @@ exports.data = [
 				"file": "fm7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm7-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm7-lefthand.ccbi"
 			}
 		],
@@ -54028,7 +57908,11 @@ exports.data = [
 				"file": "ff8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff8-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff8-lefthand.ccbi"
 			}
 		],
@@ -54038,7 +57922,11 @@ exports.data = [
 				"file": "fm8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm8-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm8-lefthand.ccbi"
 			}
 		],
@@ -54145,7 +58033,11 @@ exports.data = [
 				"file": "ff9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff9-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff9-lefthand.ccbi"
 			}
 		],
@@ -54155,7 +58047,11 @@ exports.data = [
 				"file": "fm9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm9-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm9-lefthand.ccbi"
 			}
 		],
@@ -54262,7 +58158,11 @@ exports.data = [
 				"file": "ff10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff10-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff10-lefthand.ccbi"
 			}
 		],
@@ -54272,7 +58172,11 @@ exports.data = [
 				"file": "fm10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm10-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm10-lefthand.ccbi"
 			}
 		],
@@ -54378,7 +58282,11 @@ exports.data = [
 				"file": "ff3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff3-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff3-lefthand.ccbi"
 			}
 		],
@@ -54388,7 +58296,11 @@ exports.data = [
 				"file": "fm3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm3-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm3-lefthand.ccbi"
 			}
 		],
@@ -54491,7 +58403,11 @@ exports.data = [
 				"file": "ff4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff4-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff4-lefthand.ccbi"
 			}
 		],
@@ -54501,7 +58417,11 @@ exports.data = [
 				"file": "fm4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm4-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm4-lefthand.ccbi"
 			}
 		],
@@ -54604,7 +58524,11 @@ exports.data = [
 				"file": "ff5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff5-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff5-lefthand.ccbi"
 			}
 		],
@@ -54614,7 +58538,11 @@ exports.data = [
 				"file": "fm5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm5-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm5-lefthand.ccbi"
 			}
 		],
@@ -54717,7 +58645,11 @@ exports.data = [
 				"file": "ff6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff6-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff6-lefthand.ccbi"
 			}
 		],
@@ -54727,7 +58659,11 @@ exports.data = [
 				"file": "fm6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm6-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm6-lefthand.ccbi"
 			}
 		],
@@ -54830,7 +58766,11 @@ exports.data = [
 				"file": "ff7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff7-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff7-lefthand.ccbi"
 			}
 		],
@@ -54840,7 +58780,11 @@ exports.data = [
 				"file": "fm7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm7-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm7-lefthand.ccbi"
 			}
 		],
@@ -54943,7 +58887,11 @@ exports.data = [
 				"file": "ff8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff8-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff8-lefthand.ccbi"
 			}
 		],
@@ -54953,7 +58901,11 @@ exports.data = [
 				"file": "fm8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm8-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm8-lefthand.ccbi"
 			}
 		],
@@ -55056,7 +59008,11 @@ exports.data = [
 				"file": "ff9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff9-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff9-lefthand.ccbi"
 			}
 		],
@@ -55066,7 +59022,11 @@ exports.data = [
 				"file": "fm9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm9-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm9-lefthand.ccbi"
 			}
 		],
@@ -55169,7 +59129,11 @@ exports.data = [
 				"file": "ff10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff10-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff10-lefthand.ccbi"
 			}
 		],
@@ -55179,7 +59143,11 @@ exports.data = [
 				"file": "fm10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm10-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm10-lefthand.ccbi"
 			}
 		],
@@ -55301,7 +59269,11 @@ exports.data = [
 				"file": "ff3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff3-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff3-lefthand.ccbi"
 			}
 		],
@@ -55311,7 +59283,11 @@ exports.data = [
 				"file": "fm3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm3-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm3-lefthand.ccbi"
 			}
 		],
@@ -55454,7 +59430,11 @@ exports.data = [
 				"file": "ff4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff4-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff4-lefthand.ccbi"
 			}
 		],
@@ -55464,7 +59444,11 @@ exports.data = [
 				"file": "fm4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm4-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm4-lefthand.ccbi"
 			}
 		],
@@ -55607,7 +59591,11 @@ exports.data = [
 				"file": "ff5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff5-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff5-lefthand.ccbi"
 			}
 		],
@@ -55617,7 +59605,11 @@ exports.data = [
 				"file": "fm5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm5-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm5-lefthand.ccbi"
 			}
 		],
@@ -55758,7 +59750,11 @@ exports.data = [
 				"file": "ff6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff6-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff6-lefthand.ccbi"
 			}
 		],
@@ -55768,7 +59764,11 @@ exports.data = [
 				"file": "fm6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm6-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm6-lefthand.ccbi"
 			}
 		],
@@ -55909,7 +59909,11 @@ exports.data = [
 				"file": "ff7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff7-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff7-lefthand.ccbi"
 			}
 		],
@@ -55919,7 +59923,11 @@ exports.data = [
 				"file": "fm7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm7-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm7-lefthand.ccbi"
 			}
 		],
@@ -56062,7 +60070,11 @@ exports.data = [
 				"file": "ff8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff8-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff8-lefthand.ccbi"
 			}
 		],
@@ -56072,7 +60084,11 @@ exports.data = [
 				"file": "fm8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm8-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm8-lefthand.ccbi"
 			}
 		],
@@ -56213,7 +60229,11 @@ exports.data = [
 				"file": "ff9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff9-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff9-lefthand.ccbi"
 			}
 		],
@@ -56223,7 +60243,11 @@ exports.data = [
 				"file": "fm9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm9-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm9-lefthand.ccbi"
 			}
 		],
@@ -56366,7 +60390,11 @@ exports.data = [
 				"file": "ff10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff10-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff10-lefthand.ccbi"
 			}
 		],
@@ -56376,7 +60404,11 @@ exports.data = [
 				"file": "fm10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm10-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm10-lefthand.ccbi"
 			}
 		],
@@ -56519,7 +60551,11 @@ exports.data = [
 				"file": "ff3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff3-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff3-lefthand.ccbi"
 			}
 		],
@@ -56529,7 +60565,11 @@ exports.data = [
 				"file": "fm3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm3-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm3-lefthand.ccbi"
 			}
 		],
@@ -56668,7 +60708,11 @@ exports.data = [
 				"file": "ff4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff4-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff4-lefthand.ccbi"
 			}
 		],
@@ -56678,7 +60722,11 @@ exports.data = [
 				"file": "fm4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm4-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm4-lefthand.ccbi"
 			}
 		],
@@ -56817,7 +60865,11 @@ exports.data = [
 				"file": "ff5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff5-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff5-lefthand.ccbi"
 			}
 		],
@@ -56827,7 +60879,11 @@ exports.data = [
 				"file": "fm5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm5-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm5-lefthand.ccbi"
 			}
 		],
@@ -56964,7 +61020,11 @@ exports.data = [
 				"file": "ff6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff6-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff6-lefthand.ccbi"
 			}
 		],
@@ -56974,7 +61034,11 @@ exports.data = [
 				"file": "fm6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm6-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm6-lefthand.ccbi"
 			}
 		],
@@ -57111,7 +61175,11 @@ exports.data = [
 				"file": "ff7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff7-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff7-lefthand.ccbi"
 			}
 		],
@@ -57121,7 +61189,11 @@ exports.data = [
 				"file": "fm7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm7-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm7-lefthand.ccbi"
 			}
 		],
@@ -57260,7 +61332,11 @@ exports.data = [
 				"file": "ff8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff8-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff8-lefthand.ccbi"
 			}
 		],
@@ -57270,7 +61346,11 @@ exports.data = [
 				"file": "fm8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm8-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm8-lefthand.ccbi"
 			}
 		],
@@ -57407,7 +61487,11 @@ exports.data = [
 				"file": "ff9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff9-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff9-lefthand.ccbi"
 			}
 		],
@@ -57417,7 +61501,11 @@ exports.data = [
 				"file": "fm9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm9-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm9-lefthand.ccbi"
 			}
 		],
@@ -57556,7 +61644,11 @@ exports.data = [
 				"file": "ff10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff10-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff10-lefthand.ccbi"
 			}
 		],
@@ -57566,7 +61658,11 @@ exports.data = [
 				"file": "fm10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm10-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm10-lefthand.ccbi"
 			}
 		],
@@ -57669,7 +61765,11 @@ exports.data = [
 				"file": "ff6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff6-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff6-lefthand.ccbi"
 			},
 			{
@@ -57691,7 +61791,11 @@ exports.data = [
 				"file": "fm6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm6-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm6-lefthand.ccbi"
 			},
 			{
@@ -57724,7 +61828,11 @@ exports.data = [
 				"file": "ff7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff7-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff7-lefthand.ccbi"
 			},
 			{
@@ -57746,7 +61854,11 @@ exports.data = [
 				"file": "fm7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm7-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm7-lefthand.ccbi"
 			},
 			{
@@ -57779,7 +61891,11 @@ exports.data = [
 				"file": "ff8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff8-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff8-lefthand.ccbi"
 			},
 			{
@@ -57801,7 +61917,11 @@ exports.data = [
 				"file": "fm8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm8-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm8-lefthand.ccbi"
 			},
 			{
@@ -57834,7 +61954,11 @@ exports.data = [
 				"file": "ff9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff9-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff9-lefthand.ccbi"
 			},
 			{
@@ -57856,7 +61980,11 @@ exports.data = [
 				"file": "fm9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm9-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm9-lefthand.ccbi"
 			},
 			{
@@ -57889,7 +62017,11 @@ exports.data = [
 				"file": "ff10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "ff10-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "ff10-lefthand.ccbi"
 			},
 			{
@@ -57911,7 +62043,11 @@ exports.data = [
 				"file": "fm10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "fm10-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "fm10-lefthand.ccbi"
 			},
 			{
@@ -58010,7 +62146,11 @@ exports.data = [
 				"file": "valentine-female-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "valentine-female-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "valentine-female-lefthand.ccbi"
 			},
 			{
@@ -58032,7 +62172,11 @@ exports.data = [
 				"file": "valentine-male-righthand.ccbi"
 			},
 			{
-				"part": "lefthand",
+				"part": "lefthand1",
+				"file": "valentine-male-lefthand.ccbi"
+			},
+			{
+				"part": "lefthand2",
 				"file": "valentine-male-lefthand.ccbi"
 			},
 			{
@@ -58328,7 +62472,7 @@ exports.data = [
 		"effectf": [
 			{
 				"part": "eye",
-				"file": "avatar-3-eye-pink.ccbi"
+				"file": "avatar-3-eye-pink-new.ccbi"
 			},
 			{
 				"part": "brow",
@@ -58338,7 +62482,7 @@ exports.data = [
 		"effectm": [
 			{
 				"part": "eye",
-				"file": "avatar-3-eye-pink-2.ccbi"
+				"file": "avatar-3-eye-pink-2-new.ccbi"
 			},
 			{
 				"part": "brow",
