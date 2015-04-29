@@ -300,7 +300,7 @@ exports.data = [
 				"file": "mage-righthand0.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand0.ccbi"
 			},
 			{
@@ -362,7 +362,7 @@ exports.data = [
 				"file": "priest-righthand0.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand0.ccbi"
 			},
 			{
@@ -437,7 +437,7 @@ exports.data = [
 				"file": "warrior-righthand0.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand0.ccbi"
 			},
 			{
@@ -683,7 +683,7 @@ exports.data = [
 				"file": "mage-righthand1.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand1.ccbi"
 			},
 			{
@@ -848,7 +848,7 @@ exports.data = [
 				"file": "priest-righthand1.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand1.ccbi"
 			},
 			{
@@ -1018,7 +1018,7 @@ exports.data = [
 				"file": "warrior-righthand1.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand1.ccbi"
 			},
 			{
@@ -1185,7 +1185,7 @@ exports.data = [
 				"file": "mage-righthand2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand2.ccbi"
 			},
 			{
@@ -1358,7 +1358,7 @@ exports.data = [
 				"file": "priest-righthand2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand2.ccbi"
 			},
 			{
@@ -1537,7 +1537,7 @@ exports.data = [
 				"file": "warrior-righthand2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand2.ccbi"
 			},
 			{
@@ -1712,7 +1712,7 @@ exports.data = [
 				"file": "mage-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand3.ccbi"
 			},
 			{
@@ -1886,7 +1886,7 @@ exports.data = [
 				"file": "priest-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand3.ccbi"
 			},
 			{
@@ -2066,7 +2066,7 @@ exports.data = [
 				"file": "warrior-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand3.ccbi"
 			},
 			{
@@ -2241,7 +2241,7 @@ exports.data = [
 				"file": "mage-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand4.ccbi"
 			},
 			{
@@ -2415,7 +2415,7 @@ exports.data = [
 				"file": "priest-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand4.ccbi"
 			},
 			{
@@ -2595,7 +2595,7 @@ exports.data = [
 				"file": "warrior-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand4.ccbi"
 			},
 			{
@@ -2781,7 +2781,7 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand5.ccbi"
 			},
 			{
@@ -2799,7 +2799,7 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand5.ccbi"
 			},
 			{
@@ -2984,7 +2984,7 @@ exports.data = [
 				"file": "priest-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand5.ccbi"
 			},
 			{
@@ -3002,7 +3002,7 @@ exports.data = [
 				"file": "priest-righthand5-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand5-2.ccbi"
 			},
 			{
@@ -3184,7 +3184,7 @@ exports.data = [
 				"file": "warrior-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand5.ccbi"
 			},
 			{
@@ -3376,7 +3376,7 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand6.ccbi"
 			},
 			{
@@ -3394,7 +3394,7 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand6.ccbi"
 			},
 			{
@@ -3575,7 +3575,7 @@ exports.data = [
 				"file": "priest-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand6.ccbi"
 			},
 			{
@@ -3593,7 +3593,7 @@ exports.data = [
 				"file": "priest-righthand6-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand6-2.ccbi"
 			},
 			{
@@ -3771,7 +3771,7 @@ exports.data = [
 				"file": "warrior-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand6.ccbi"
 			},
 			{
@@ -3950,7 +3950,7 @@ exports.data = [
 				"file": "mage-righthand2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand2.ccbi"
 			},
 			{
@@ -4116,7 +4116,7 @@ exports.data = [
 				"file": "priest-righthand2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand2.ccbi"
 			},
 			{
@@ -4288,7 +4288,7 @@ exports.data = [
 				"file": "warrior-righthand2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand2.ccbi"
 			},
 			{
@@ -4457,7 +4457,7 @@ exports.data = [
 				"file": "mage-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand3.ccbi"
 			},
 			{
@@ -4631,7 +4631,7 @@ exports.data = [
 				"file": "priest-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand3.ccbi"
 			},
 			{
@@ -4811,7 +4811,7 @@ exports.data = [
 				"file": "warrior-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand3.ccbi"
 			},
 			{
@@ -4988,7 +4988,7 @@ exports.data = [
 				"file": "mage-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand4.ccbi"
 			},
 			{
@@ -5162,7 +5162,7 @@ exports.data = [
 				"file": "priest-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand4.ccbi"
 			},
 			{
@@ -5342,7 +5342,7 @@ exports.data = [
 				"file": "warrior-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand4.ccbi"
 			},
 			{
@@ -5528,7 +5528,7 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand5.ccbi"
 			},
 			{
@@ -5546,7 +5546,7 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand5.ccbi"
 			},
 			{
@@ -5731,7 +5731,7 @@ exports.data = [
 				"file": "priest-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand5.ccbi"
 			},
 			{
@@ -5749,7 +5749,7 @@ exports.data = [
 				"file": "priest-righthand5-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand5-2.ccbi"
 			},
 			{
@@ -5931,7 +5931,7 @@ exports.data = [
 				"file": "warrior-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand5.ccbi"
 			},
 			{
@@ -6124,7 +6124,7 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand6.ccbi"
 			},
 			{
@@ -6142,7 +6142,7 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand6.ccbi"
 			},
 			{
@@ -6325,7 +6325,7 @@ exports.data = [
 				"file": "priest-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand6.ccbi"
 			},
 			{
@@ -6343,7 +6343,7 @@ exports.data = [
 				"file": "priest-righthand6-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand6-2.ccbi"
 			},
 			{
@@ -6525,7 +6525,7 @@ exports.data = [
 				"file": "warrior-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand6.ccbi"
 			},
 			{
@@ -6717,7 +6717,7 @@ exports.data = [
 				"file": "mage-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand7.ccbi"
 			},
 			{
@@ -6735,7 +6735,7 @@ exports.data = [
 				"file": "mage-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand7-2.ccbi"
 			},
 			{
@@ -6916,7 +6916,7 @@ exports.data = [
 				"file": "priest-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand7.ccbi"
 			},
 			{
@@ -6934,7 +6934,7 @@ exports.data = [
 				"file": "priest-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand7-2.ccbi"
 			},
 			{
@@ -7112,7 +7112,7 @@ exports.data = [
 				"file": "warrior-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand7.ccbi"
 			},
 			{
@@ -7291,7 +7291,7 @@ exports.data = [
 				"file": "mage-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand3.ccbi"
 			},
 			{
@@ -7457,7 +7457,7 @@ exports.data = [
 				"file": "priest-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand3.ccbi"
 			},
 			{
@@ -7629,7 +7629,7 @@ exports.data = [
 				"file": "warrior-righthand3.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand3.ccbi"
 			},
 			{
@@ -7800,7 +7800,7 @@ exports.data = [
 				"file": "mage-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand4.ccbi"
 			},
 			{
@@ -7974,7 +7974,7 @@ exports.data = [
 				"file": "priest-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand4.ccbi"
 			},
 			{
@@ -8154,7 +8154,7 @@ exports.data = [
 				"file": "warrior-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand4.ccbi"
 			},
 			{
@@ -8340,7 +8340,7 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand5.ccbi"
 			},
 			{
@@ -8358,7 +8358,7 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand5.ccbi"
 			},
 			{
@@ -8543,7 +8543,7 @@ exports.data = [
 				"file": "priest-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand5.ccbi"
 			},
 			{
@@ -8561,7 +8561,7 @@ exports.data = [
 				"file": "priest-righthand5-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand5-2.ccbi"
 			},
 			{
@@ -8743,7 +8743,7 @@ exports.data = [
 				"file": "warrior-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand5.ccbi"
 			},
 			{
@@ -8936,7 +8936,7 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand6.ccbi"
 			},
 			{
@@ -8954,7 +8954,7 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand6.ccbi"
 			},
 			{
@@ -9139,7 +9139,7 @@ exports.data = [
 				"file": "priest-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand6.ccbi"
 			},
 			{
@@ -9157,7 +9157,7 @@ exports.data = [
 				"file": "priest-righthand6-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand6-2.ccbi"
 			},
 			{
@@ -9339,7 +9339,7 @@ exports.data = [
 				"file": "warrior-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand6.ccbi"
 			},
 			{
@@ -9532,7 +9532,7 @@ exports.data = [
 				"file": "mage-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand7.ccbi"
 			},
 			{
@@ -9550,7 +9550,7 @@ exports.data = [
 				"file": "mage-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand7-2.ccbi"
 			},
 			{
@@ -9735,7 +9735,7 @@ exports.data = [
 				"file": "priest-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand7.ccbi"
 			},
 			{
@@ -9753,7 +9753,7 @@ exports.data = [
 				"file": "priest-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand7-2.ccbi"
 			},
 			{
@@ -9935,7 +9935,7 @@ exports.data = [
 				"file": "warrior-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand7.ccbi"
 			},
 			{
@@ -10127,7 +10127,7 @@ exports.data = [
 				"file": "mage-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand8.ccbi"
 			},
 			{
@@ -10145,7 +10145,7 @@ exports.data = [
 				"file": "mage-righthand8-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand8-2.ccbi"
 			},
 			{
@@ -10326,7 +10326,7 @@ exports.data = [
 				"file": "priest-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand8.ccbi"
 			},
 			{
@@ -10344,7 +10344,7 @@ exports.data = [
 				"file": "priest-righthand8-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand8-2.ccbi"
 			},
 			{
@@ -10522,7 +10522,7 @@ exports.data = [
 				"file": "warrior-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand8.ccbi"
 			},
 			{
@@ -10694,7 +10694,7 @@ exports.data = [
 				"file": "mage-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand4.ccbi"
 			},
 			{
@@ -10860,7 +10860,7 @@ exports.data = [
 				"file": "priest-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand4.ccbi"
 			},
 			{
@@ -11032,7 +11032,7 @@ exports.data = [
 				"file": "warrior-righthand4.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand4.ccbi"
 			},
 			{
@@ -11212,7 +11212,7 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand5.ccbi"
 			},
 			{
@@ -11230,7 +11230,7 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand5.ccbi"
 			},
 			{
@@ -11415,7 +11415,7 @@ exports.data = [
 				"file": "priest-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand5.ccbi"
 			},
 			{
@@ -11433,7 +11433,7 @@ exports.data = [
 				"file": "priest-righthand5-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand5-2.ccbi"
 			},
 			{
@@ -11615,7 +11615,7 @@ exports.data = [
 				"file": "warrior-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand5.ccbi"
 			},
 			{
@@ -11808,7 +11808,7 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand6.ccbi"
 			},
 			{
@@ -11826,7 +11826,7 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand6.ccbi"
 			},
 			{
@@ -12011,7 +12011,7 @@ exports.data = [
 				"file": "priest-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand6.ccbi"
 			},
 			{
@@ -12029,7 +12029,7 @@ exports.data = [
 				"file": "priest-righthand6-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand6-2.ccbi"
 			},
 			{
@@ -12211,7 +12211,7 @@ exports.data = [
 				"file": "warrior-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand6.ccbi"
 			},
 			{
@@ -12404,7 +12404,7 @@ exports.data = [
 				"file": "mage-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand7.ccbi"
 			},
 			{
@@ -12422,7 +12422,7 @@ exports.data = [
 				"file": "mage-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand7-2.ccbi"
 			},
 			{
@@ -12607,7 +12607,7 @@ exports.data = [
 				"file": "priest-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand7.ccbi"
 			},
 			{
@@ -12625,7 +12625,7 @@ exports.data = [
 				"file": "priest-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand7-2.ccbi"
 			},
 			{
@@ -12807,7 +12807,7 @@ exports.data = [
 				"file": "warrior-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand7.ccbi"
 			},
 			{
@@ -13000,7 +13000,7 @@ exports.data = [
 				"file": "mage-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand8.ccbi"
 			},
 			{
@@ -13018,7 +13018,7 @@ exports.data = [
 				"file": "mage-righthand8-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand8-2.ccbi"
 			},
 			{
@@ -13203,7 +13203,7 @@ exports.data = [
 				"file": "priest-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand8.ccbi"
 			},
 			{
@@ -13221,7 +13221,7 @@ exports.data = [
 				"file": "priest-righthand8-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand8-2.ccbi"
 			},
 			{
@@ -13403,7 +13403,7 @@ exports.data = [
 				"file": "warrior-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand8.ccbi"
 			},
 			{
@@ -13588,7 +13588,7 @@ exports.data = [
 				"file": "mage-righthand9.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand9.ccbi"
 			},
 			{
@@ -13606,7 +13606,7 @@ exports.data = [
 				"file": "mage-righthand9-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand9-2.ccbi"
 			},
 			{
@@ -13787,7 +13787,7 @@ exports.data = [
 				"file": "priest-righthand9.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand9.ccbi"
 			},
 			{
@@ -13805,7 +13805,7 @@ exports.data = [
 				"file": "priest-righthand9-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand9-2.ccbi"
 			},
 			{
@@ -13982,7 +13982,7 @@ exports.data = [
 				"file": "warrior-righthand9.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand9.ccbi"
 			},
 			{
@@ -14163,7 +14163,7 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand5.ccbi"
 			},
 			{
@@ -14181,7 +14181,7 @@ exports.data = [
 				"file": "mage-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand5.ccbi"
 			},
 			{
@@ -14358,7 +14358,7 @@ exports.data = [
 				"file": "priest-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand5.ccbi"
 			},
 			{
@@ -14376,7 +14376,7 @@ exports.data = [
 				"file": "priest-righthand5-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand5-2.ccbi"
 			},
 			{
@@ -14550,7 +14550,7 @@ exports.data = [
 				"file": "warrior-righthand5.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand5.ccbi"
 			},
 			{
@@ -14735,7 +14735,7 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand6.ccbi"
 			},
 			{
@@ -14753,7 +14753,7 @@ exports.data = [
 				"file": "mage-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand6.ccbi"
 			},
 			{
@@ -14930,7 +14930,7 @@ exports.data = [
 				"file": "priest-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand6.ccbi"
 			},
 			{
@@ -14948,7 +14948,7 @@ exports.data = [
 				"file": "priest-righthand6-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand6-2.ccbi"
 			},
 			{
@@ -15122,7 +15122,7 @@ exports.data = [
 				"file": "warrior-righthand6.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand6.ccbi"
 			},
 			{
@@ -15307,7 +15307,7 @@ exports.data = [
 				"file": "mage-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand7.ccbi"
 			},
 			{
@@ -15325,7 +15325,7 @@ exports.data = [
 				"file": "mage-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand7-2.ccbi"
 			},
 			{
@@ -15502,7 +15502,7 @@ exports.data = [
 				"file": "priest-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand7.ccbi"
 			},
 			{
@@ -15520,7 +15520,7 @@ exports.data = [
 				"file": "priest-righthand7-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand7-2.ccbi"
 			},
 			{
@@ -15694,7 +15694,7 @@ exports.data = [
 				"file": "warrior-righthand7.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand7.ccbi"
 			},
 			{
@@ -15879,7 +15879,7 @@ exports.data = [
 				"file": "mage-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand8.ccbi"
 			},
 			{
@@ -15897,7 +15897,7 @@ exports.data = [
 				"file": "mage-righthand8-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand8-2.ccbi"
 			},
 			{
@@ -16074,7 +16074,7 @@ exports.data = [
 				"file": "priest-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand8.ccbi"
 			},
 			{
@@ -16092,7 +16092,7 @@ exports.data = [
 				"file": "priest-righthand8-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand8-2.ccbi"
 			},
 			{
@@ -16266,7 +16266,7 @@ exports.data = [
 				"file": "warrior-righthand8.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand8.ccbi"
 			},
 			{
@@ -16444,7 +16444,7 @@ exports.data = [
 				"file": "mage-righthand9.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand9.ccbi"
 			},
 			{
@@ -16462,7 +16462,7 @@ exports.data = [
 				"file": "mage-righthand9-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand9-2.ccbi"
 			},
 			{
@@ -16639,7 +16639,7 @@ exports.data = [
 				"file": "priest-righthand9.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand9.ccbi"
 			},
 			{
@@ -16657,7 +16657,7 @@ exports.data = [
 				"file": "priest-righthand9-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand9-2.ccbi"
 			},
 			{
@@ -16831,7 +16831,7 @@ exports.data = [
 				"file": "warrior-righthand9.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand9.ccbi"
 			},
 			{
@@ -17007,7 +17007,7 @@ exports.data = [
 				"file": "mage-righthand10.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand10.ccbi"
 			},
 			{
@@ -17025,7 +17025,7 @@ exports.data = [
 				"file": "mage-righthand10-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "mage-lefthand10-2.ccbi"
 			},
 			{
@@ -17198,7 +17198,7 @@ exports.data = [
 				"file": "priest-righthand10.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand10.ccbi"
 			},
 			{
@@ -17216,7 +17216,7 @@ exports.data = [
 				"file": "priest-righthand10-2.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "priest-lefthand10-2.ccbi"
 			},
 			{
@@ -17386,7 +17386,7 @@ exports.data = [
 				"file": "warrior-righthand10.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "warrior-lefthand10.ccbi"
 			},
 			{
@@ -20733,7 +20733,7 @@ exports.data = [
 				"file": "ff1-righthand-c.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff1-lefthand-c.ccbi"
 			},
 			{
@@ -20860,7 +20860,7 @@ exports.data = [
 				"file": "fm1-righthand-c.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm1-lefthand-c.ccbi"
 			},
 			{
@@ -20958,7 +20958,7 @@ exports.data = [
 				"file": "ff1-righthand-c.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff1-lefthand-c.ccbi"
 			},
 			{
@@ -20984,7 +20984,7 @@ exports.data = [
 				"file": "fm1-righthand-c.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm1-lefthand-c.ccbi"
 			},
 			{
@@ -21072,7 +21072,7 @@ exports.data = [
 				"file": "ff2-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff2-lefthand.ccbi"
 			},
 			{
@@ -22477,7 +22477,7 @@ exports.data = [
 				"file": "ff1-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff1-lefthand.ccbi"
 			},
 			{
@@ -22503,7 +22503,7 @@ exports.data = [
 				"file": "fm1-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm1-lefthand.ccbi"
 			},
 			{
@@ -22564,7 +22564,7 @@ exports.data = [
 				"file": "ff3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff3-lefthand.ccbi"
 			},
 			{
@@ -22590,7 +22590,7 @@ exports.data = [
 				"file": "fm3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm3-lefthand.ccbi"
 			},
 			{
@@ -22651,7 +22651,7 @@ exports.data = [
 				"file": "ff4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff4-lefthand.ccbi"
 			},
 			{
@@ -22677,7 +22677,7 @@ exports.data = [
 				"file": "fm4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm4-lefthand.ccbi"
 			},
 			{
@@ -22738,7 +22738,7 @@ exports.data = [
 				"file": "ff5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff5-lefthand.ccbi"
 			},
 			{
@@ -22764,7 +22764,7 @@ exports.data = [
 				"file": "fm5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm5-lefthand.ccbi"
 			},
 			{
@@ -30227,7 +30227,7 @@ exports.data = [
                 "file": "f-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn5-lefthand1.ccbi"
             },
             {
@@ -30245,7 +30245,7 @@ exports.data = [
                 "file": "m-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn5-lefthand1.ccbi"
             },
             {
@@ -30290,7 +30290,7 @@ exports.data = [
                 "file": "f-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn5-lefthand1.ccbi"
             },
             {
@@ -30308,7 +30308,7 @@ exports.data = [
                 "file": "m-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn5-lefthand1.ccbi"
             },
             {
@@ -30355,7 +30355,7 @@ exports.data = [
                 "file": "f-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn5-lefthand1.ccbi"
             },
             {
@@ -30373,7 +30373,7 @@ exports.data = [
                 "file": "m-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn5-lefthand1.ccbi"
             },
             {
@@ -30420,7 +30420,7 @@ exports.data = [
                 "file": "f-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn5-lefthand1.ccbi"
             },
             {
@@ -30438,7 +30438,7 @@ exports.data = [
                 "file": "m-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn5-lefthand1.ccbi"
             },
             {
@@ -30485,7 +30485,7 @@ exports.data = [
                 "file": "f-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn5-lefthand1.ccbi"
             },
             {
@@ -30503,7 +30503,7 @@ exports.data = [
                 "file": "m-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn5-lefthand1.ccbi"
             },
             {
@@ -30550,7 +30550,7 @@ exports.data = [
                 "file": "f-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn5-lefthand1.ccbi"
             },
             {
@@ -30568,7 +30568,7 @@ exports.data = [
                 "file": "m-warriorn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn5-lefthand1.ccbi"
             },
             {
@@ -30614,7 +30614,7 @@ exports.data = [
                 "file": "f-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30632,7 +30632,7 @@ exports.data = [
                 "file": "m-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30677,7 +30677,7 @@ exports.data = [
                 "file": "f-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30695,7 +30695,7 @@ exports.data = [
                 "file": "m-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30742,7 +30742,7 @@ exports.data = [
                 "file": "f-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30760,7 +30760,7 @@ exports.data = [
                 "file": "m-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30807,7 +30807,7 @@ exports.data = [
                 "file": "f-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30825,7 +30825,7 @@ exports.data = [
                 "file": "m-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30872,7 +30872,7 @@ exports.data = [
                 "file": "f-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30890,7 +30890,7 @@ exports.data = [
                 "file": "m-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30937,7 +30937,7 @@ exports.data = [
                 "file": "f-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn4-lefthand1.ccbi"
             },
             {
@@ -30955,7 +30955,7 @@ exports.data = [
                 "file": "m-warriorn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn4-lefthand1.ccbi"
             },
             {
@@ -31001,7 +31001,7 @@ exports.data = [
                 "file": "f-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn3-lefthand1.ccbi"
             },
             {
@@ -31019,7 +31019,7 @@ exports.data = [
                 "file": "m-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn3-lefthand1.ccbi"
             },
             {
@@ -31064,7 +31064,7 @@ exports.data = [
                 "file": "f-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn3-lefthand1.ccbi"
             },
             {
@@ -31082,7 +31082,7 @@ exports.data = [
                 "file": "m-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn3-lefthand1.ccbi"
             },
             {
@@ -31129,7 +31129,7 @@ exports.data = [
                 "file": "f-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn3-lefthand1.ccbi"
             },
             {
@@ -31147,7 +31147,7 @@ exports.data = [
                 "file": "m-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn3-lefthand1.ccbi"
             },
             {
@@ -31194,7 +31194,7 @@ exports.data = [
                 "file": "f-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn3-lefthand1.ccbi"
             },
             {
@@ -31212,7 +31212,7 @@ exports.data = [
                 "file": "m-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn3-lefthand1.ccbi"
             },
             {
@@ -31259,7 +31259,7 @@ exports.data = [
                 "file": "f-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn3-lefthand1.ccbi"
             },
             {
@@ -31277,7 +31277,7 @@ exports.data = [
                 "file": "m-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn3-lefthand1.ccbi"
             },
             {
@@ -31324,7 +31324,7 @@ exports.data = [
                 "file": "f-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn3-lefthand1.ccbi"
             },
             {
@@ -31342,7 +31342,7 @@ exports.data = [
                 "file": "m-warriorn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn3-lefthand1.ccbi"
             },
             {
@@ -31388,7 +31388,7 @@ exports.data = [
                 "file": "f-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn2-lefthand1.ccbi"
             },
             {
@@ -31406,7 +31406,7 @@ exports.data = [
                 "file": "m-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn2-lefthand1.ccbi"
             },
             {
@@ -31451,7 +31451,7 @@ exports.data = [
                 "file": "f-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn2-lefthand1.ccbi"
             },
             {
@@ -31469,7 +31469,7 @@ exports.data = [
                 "file": "m-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn2-lefthand1.ccbi"
             },
             {
@@ -31516,7 +31516,7 @@ exports.data = [
                 "file": "f-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn2-lefthand1.ccbi"
             },
             {
@@ -31534,7 +31534,7 @@ exports.data = [
                 "file": "m-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn2-lefthand1.ccbi"
             },
             {
@@ -31581,7 +31581,7 @@ exports.data = [
                 "file": "f-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn2-lefthand1.ccbi"
             },
             {
@@ -31599,7 +31599,7 @@ exports.data = [
                 "file": "m-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn2-lefthand1.ccbi"
             },
             {
@@ -31646,7 +31646,7 @@ exports.data = [
                 "file": "f-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn2-lefthand1.ccbi"
             },
             {
@@ -31664,7 +31664,7 @@ exports.data = [
                 "file": "m-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn2-lefthand1.ccbi"
             },
             {
@@ -31711,7 +31711,7 @@ exports.data = [
                 "file": "f-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn2-lefthand1.ccbi"
             },
             {
@@ -31729,7 +31729,7 @@ exports.data = [
                 "file": "m-warriorn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn2-lefthand1.ccbi"
             },
             {
@@ -31775,7 +31775,7 @@ exports.data = [
                 "file": "f-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn-lefthand1.ccbi"
             },
             {
@@ -31793,7 +31793,7 @@ exports.data = [
                 "file": "m-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn-lefthand1.ccbi"
             },
             {
@@ -31838,7 +31838,7 @@ exports.data = [
                 "file": "f-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn-lefthand1.ccbi"
             },
             {
@@ -31856,7 +31856,7 @@ exports.data = [
                 "file": "m-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn-lefthand1.ccbi"
             },
             {
@@ -31901,7 +31901,7 @@ exports.data = [
                 "file": "f-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn-lefthand1.ccbi"
             },
             {
@@ -31919,7 +31919,7 @@ exports.data = [
                 "file": "m-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn-lefthand1.ccbi"
             },
             {
@@ -31964,7 +31964,7 @@ exports.data = [
                 "file": "f-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn-lefthand1.ccbi"
             },
             {
@@ -31982,7 +31982,7 @@ exports.data = [
                 "file": "m-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn-lefthand1.ccbi"
             },
             {
@@ -32027,7 +32027,7 @@ exports.data = [
                 "file": "f-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn-lefthand1.ccbi"
             },
             {
@@ -32045,7 +32045,7 @@ exports.data = [
                 "file": "m-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn-lefthand1.ccbi"
             },
             {
@@ -32090,7 +32090,7 @@ exports.data = [
                 "file": "f-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-warriorn-lefthand1.ccbi"
             },
             {
@@ -32108,7 +32108,7 @@ exports.data = [
                 "file": "m-warriorn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-warriorn-lefthand1.ccbi"
             },
             {
@@ -39071,7 +39071,7 @@ exports.data = [
                 "file": "f-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen5-lefthand1.ccbi"
             },
             {
@@ -39089,7 +39089,7 @@ exports.data = [
                 "file": "m-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen5-lefthand1.ccbi"
             },
             {
@@ -39134,7 +39134,7 @@ exports.data = [
                 "file": "f-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen5-lefthand1.ccbi"
             },
             {
@@ -39152,7 +39152,7 @@ exports.data = [
                 "file": "m-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen5-lefthand1.ccbi"
             },
             {
@@ -39199,7 +39199,7 @@ exports.data = [
                 "file": "f-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen5-lefthand1.ccbi"
             },
             {
@@ -39217,7 +39217,7 @@ exports.data = [
                 "file": "m-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen5-lefthand1.ccbi"
             },
             {
@@ -39264,7 +39264,7 @@ exports.data = [
                 "file": "f-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen5-lefthand1.ccbi"
             },
             {
@@ -39282,7 +39282,7 @@ exports.data = [
                 "file": "m-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen5-lefthand1.ccbi"
             },
             {
@@ -39329,7 +39329,7 @@ exports.data = [
                 "file": "f-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen5-lefthand1.ccbi"
             },
             {
@@ -39347,7 +39347,7 @@ exports.data = [
                 "file": "m-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen5-lefthand1.ccbi"
             },
             {
@@ -39394,7 +39394,7 @@ exports.data = [
                 "file": "f-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen5-lefthand1.ccbi"
             },
             {
@@ -39412,7 +39412,7 @@ exports.data = [
                 "file": "m-magen5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen5-lefthand1.ccbi"
             },
             {
@@ -39458,7 +39458,7 @@ exports.data = [
                 "file": "f-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen4-lefthand1.ccbi"
             },
             {
@@ -39476,7 +39476,7 @@ exports.data = [
                 "file": "m-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen4-lefthand1.ccbi"
             },
             {
@@ -39521,7 +39521,7 @@ exports.data = [
                 "file": "f-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen4-lefthand1.ccbi"
             },
             {
@@ -39539,7 +39539,7 @@ exports.data = [
                 "file": "m-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen4-lefthand1.ccbi"
             },
             {
@@ -39586,7 +39586,7 @@ exports.data = [
                 "file": "f-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen4-lefthand1.ccbi"
             },
             {
@@ -39604,7 +39604,7 @@ exports.data = [
                 "file": "m-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen4-lefthand1.ccbi"
             },
             {
@@ -39651,7 +39651,7 @@ exports.data = [
                 "file": "f-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen4-lefthand1.ccbi"
             },
             {
@@ -39669,7 +39669,7 @@ exports.data = [
                 "file": "m-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen4-lefthand1.ccbi"
             },
             {
@@ -39716,7 +39716,7 @@ exports.data = [
                 "file": "f-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen4-lefthand1.ccbi"
             },
             {
@@ -39734,7 +39734,7 @@ exports.data = [
                 "file": "m-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen4-lefthand1.ccbi"
             },
             {
@@ -39781,7 +39781,7 @@ exports.data = [
                 "file": "f-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen4-lefthand1.ccbi"
             },
             {
@@ -39799,7 +39799,7 @@ exports.data = [
                 "file": "m-magen4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen4-lefthand1.ccbi"
             },
             {
@@ -39845,7 +39845,7 @@ exports.data = [
                 "file": "f-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen3-lefthand1.ccbi"
             },
             {
@@ -39863,7 +39863,7 @@ exports.data = [
                 "file": "m-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen3-lefthand1.ccbi"
             },
             {
@@ -39908,7 +39908,7 @@ exports.data = [
                 "file": "f-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen3-lefthand1.ccbi"
             },
             {
@@ -39926,7 +39926,7 @@ exports.data = [
                 "file": "m-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen3-lefthand1.ccbi"
             },
             {
@@ -39973,7 +39973,7 @@ exports.data = [
                 "file": "f-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen3-lefthand1.ccbi"
             },
             {
@@ -39991,7 +39991,7 @@ exports.data = [
                 "file": "m-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen3-lefthand1.ccbi"
             },
             {
@@ -40038,7 +40038,7 @@ exports.data = [
                 "file": "f-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen3-lefthand1.ccbi"
             },
             {
@@ -40056,7 +40056,7 @@ exports.data = [
                 "file": "m-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen3-lefthand1.ccbi"
             },
             {
@@ -40103,7 +40103,7 @@ exports.data = [
                 "file": "f-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen3-lefthand1.ccbi"
             },
             {
@@ -40121,7 +40121,7 @@ exports.data = [
                 "file": "m-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen3-lefthand1.ccbi"
             },
             {
@@ -40168,7 +40168,7 @@ exports.data = [
                 "file": "f-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen3-lefthand1.ccbi"
             },
             {
@@ -40186,7 +40186,7 @@ exports.data = [
                 "file": "m-magen3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen3-lefthand1.ccbi"
             },
             {
@@ -40232,7 +40232,7 @@ exports.data = [
                 "file": "f-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen2-lefthand1.ccbi"
             },
             {
@@ -40250,7 +40250,7 @@ exports.data = [
                 "file": "m-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen2-lefthand1.ccbi"
             },
             {
@@ -40295,7 +40295,7 @@ exports.data = [
                 "file": "f-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen2-lefthand1.ccbi"
             },
             {
@@ -40313,7 +40313,7 @@ exports.data = [
                 "file": "m-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen2-lefthand1.ccbi"
             },
             {
@@ -40360,7 +40360,7 @@ exports.data = [
                 "file": "f-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen2-lefthand1.ccbi"
             },
             {
@@ -40378,7 +40378,7 @@ exports.data = [
                 "file": "m-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen2-lefthand1.ccbi"
             },
             {
@@ -40425,7 +40425,7 @@ exports.data = [
                 "file": "f-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen2-lefthand1.ccbi"
             },
             {
@@ -40443,7 +40443,7 @@ exports.data = [
                 "file": "m-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen2-lefthand1.ccbi"
             },
             {
@@ -40490,7 +40490,7 @@ exports.data = [
                 "file": "f-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen2-lefthand1.ccbi"
             },
             {
@@ -40508,7 +40508,7 @@ exports.data = [
                 "file": "m-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen2-lefthand1.ccbi"
             },
             {
@@ -40555,7 +40555,7 @@ exports.data = [
                 "file": "f-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen2-lefthand1.ccbi"
             },
             {
@@ -40573,7 +40573,7 @@ exports.data = [
                 "file": "m-magen2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen2-lefthand1.ccbi"
             },
             {
@@ -40619,7 +40619,7 @@ exports.data = [
                 "file": "f-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen-lefthand1.ccbi"
             },
             {
@@ -40637,7 +40637,7 @@ exports.data = [
                 "file": "m-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen-lefthand1.ccbi"
             },
             {
@@ -40682,7 +40682,7 @@ exports.data = [
                 "file": "f-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen-lefthand1.ccbi"
             },
             {
@@ -40700,7 +40700,7 @@ exports.data = [
                 "file": "m-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen-lefthand1.ccbi"
             },
             {
@@ -40745,7 +40745,7 @@ exports.data = [
                 "file": "f-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen-lefthand1.ccbi"
             },
             {
@@ -40763,7 +40763,7 @@ exports.data = [
                 "file": "m-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen-lefthand1.ccbi"
             },
             {
@@ -40808,7 +40808,7 @@ exports.data = [
                 "file": "f-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen-lefthand1.ccbi"
             },
             {
@@ -40826,7 +40826,7 @@ exports.data = [
                 "file": "m-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen-lefthand1.ccbi"
             },
             {
@@ -40871,7 +40871,7 @@ exports.data = [
                 "file": "f-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen-lefthand1.ccbi"
             },
             {
@@ -40889,7 +40889,7 @@ exports.data = [
                 "file": "m-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen-lefthand1.ccbi"
             },
             {
@@ -40934,7 +40934,7 @@ exports.data = [
                 "file": "f-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-magen-lefthand1.ccbi"
             },
             {
@@ -40952,7 +40952,7 @@ exports.data = [
                 "file": "m-magen-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-magen-lefthand1.ccbi"
             },
             {
@@ -48515,7 +48515,7 @@ exports.data = [
                 "file": "f-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn5-lefthand1.ccbi"
             },
             {
@@ -48533,7 +48533,7 @@ exports.data = [
                 "file": "m-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn5-lefthand1.ccbi"
             },
             {
@@ -48578,7 +48578,7 @@ exports.data = [
                 "file": "f-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn5-lefthand1.ccbi"
             },
             {
@@ -48596,7 +48596,7 @@ exports.data = [
                 "file": "m-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn5-lefthand1.ccbi"
             },
             {
@@ -48643,7 +48643,7 @@ exports.data = [
                 "file": "f-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn5-lefthand1.ccbi"
             },
             {
@@ -48661,7 +48661,7 @@ exports.data = [
                 "file": "m-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn5-lefthand1.ccbi"
             },
             {
@@ -48708,7 +48708,7 @@ exports.data = [
                 "file": "f-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn5-lefthand1.ccbi"
             },
             {
@@ -48726,7 +48726,7 @@ exports.data = [
                 "file": "m-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn5-lefthand1.ccbi"
             },
             {
@@ -48773,7 +48773,7 @@ exports.data = [
                 "file": "f-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn5-lefthand1.ccbi"
             },
             {
@@ -48791,7 +48791,7 @@ exports.data = [
                 "file": "m-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn5-lefthand1.ccbi"
             },
             {
@@ -48838,7 +48838,7 @@ exports.data = [
                 "file": "f-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn5-lefthand1.ccbi"
             },
             {
@@ -48856,7 +48856,7 @@ exports.data = [
                 "file": "m-priestn5-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn5-lefthand1.ccbi"
             },
             {
@@ -48902,7 +48902,7 @@ exports.data = [
                 "file": "f-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn4-lefthand1.ccbi"
             },
             {
@@ -48920,7 +48920,7 @@ exports.data = [
                 "file": "m-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn4-lefthand1.ccbi"
             },
             {
@@ -48965,7 +48965,7 @@ exports.data = [
                 "file": "f-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn4-lefthand1.ccbi"
             },
             {
@@ -48983,7 +48983,7 @@ exports.data = [
                 "file": "m-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn4-lefthand1.ccbi"
             },
             {
@@ -49030,7 +49030,7 @@ exports.data = [
                 "file": "f-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn4-lefthand1.ccbi"
             },
             {
@@ -49048,7 +49048,7 @@ exports.data = [
                 "file": "m-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn4-lefthand1.ccbi"
             },
             {
@@ -49095,7 +49095,7 @@ exports.data = [
                 "file": "f-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn4-lefthand1.ccbi"
             },
             {
@@ -49113,7 +49113,7 @@ exports.data = [
                 "file": "m-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn4-lefthand1.ccbi"
             },
             {
@@ -49160,7 +49160,7 @@ exports.data = [
                 "file": "f-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn4-lefthand1.ccbi"
             },
             {
@@ -49178,7 +49178,7 @@ exports.data = [
                 "file": "m-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn4-lefthand1.ccbi"
             },
             {
@@ -49225,7 +49225,7 @@ exports.data = [
                 "file": "f-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn4-lefthand1.ccbi"
             },
             {
@@ -49243,7 +49243,7 @@ exports.data = [
                 "file": "m-priestn4-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn4-lefthand1.ccbi"
             },
             {
@@ -49289,7 +49289,7 @@ exports.data = [
                 "file": "f-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn3-lefthand1.ccbi"
             },
             {
@@ -49307,7 +49307,7 @@ exports.data = [
                 "file": "m-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn3-lefthand1.ccbi"
             },
             {
@@ -49352,7 +49352,7 @@ exports.data = [
                 "file": "f-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn3-lefthand1.ccbi"
             },
             {
@@ -49370,7 +49370,7 @@ exports.data = [
                 "file": "m-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn3-lefthand1.ccbi"
             },
             {
@@ -49417,7 +49417,7 @@ exports.data = [
                 "file": "f-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn3-lefthand1.ccbi"
             },
             {
@@ -49435,7 +49435,7 @@ exports.data = [
                 "file": "m-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn3-lefthand1.ccbi"
             },
             {
@@ -49482,7 +49482,7 @@ exports.data = [
                 "file": "f-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn3-lefthand1.ccbi"
             },
             {
@@ -49500,7 +49500,7 @@ exports.data = [
                 "file": "m-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn3-lefthand1.ccbi"
             },
             {
@@ -49547,7 +49547,7 @@ exports.data = [
                 "file": "f-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn3-lefthand1.ccbi"
             },
             {
@@ -49565,7 +49565,7 @@ exports.data = [
                 "file": "m-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn3-lefthand1.ccbi"
             },
             {
@@ -49612,7 +49612,7 @@ exports.data = [
                 "file": "f-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn3-lefthand1.ccbi"
             },
             {
@@ -49630,7 +49630,7 @@ exports.data = [
                 "file": "m-priestn3-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn3-lefthand1.ccbi"
             },
             {
@@ -49676,7 +49676,7 @@ exports.data = [
                 "file": "f-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn2-lefthand1.ccbi"
             },
             {
@@ -49694,7 +49694,7 @@ exports.data = [
                 "file": "m-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn2-lefthand1.ccbi"
             },
             {
@@ -49739,7 +49739,7 @@ exports.data = [
                 "file": "f-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn2-lefthand1.ccbi"
             },
             {
@@ -49757,7 +49757,7 @@ exports.data = [
                 "file": "m-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn2-lefthand1.ccbi"
             },
             {
@@ -49804,7 +49804,7 @@ exports.data = [
                 "file": "f-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn2-lefthand1.ccbi"
             },
             {
@@ -49822,7 +49822,7 @@ exports.data = [
                 "file": "m-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn2-lefthand1.ccbi"
             },
             {
@@ -49869,7 +49869,7 @@ exports.data = [
                 "file": "f-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn2-lefthand1.ccbi"
             },
             {
@@ -49887,7 +49887,7 @@ exports.data = [
                 "file": "m-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn2-lefthand1.ccbi"
             },
             {
@@ -49934,7 +49934,7 @@ exports.data = [
                 "file": "f-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn2-lefthand1.ccbi"
             },
             {
@@ -49952,7 +49952,7 @@ exports.data = [
                 "file": "m-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn2-lefthand1.ccbi"
             },
             {
@@ -49999,7 +49999,7 @@ exports.data = [
                 "file": "f-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn2-lefthand1.ccbi"
             },
             {
@@ -50017,7 +50017,7 @@ exports.data = [
                 "file": "m-priestn2-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn2-lefthand1.ccbi"
             },
             {
@@ -50063,7 +50063,7 @@ exports.data = [
                 "file": "f-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn-lefthand1.ccbi"
             },
             {
@@ -50081,7 +50081,7 @@ exports.data = [
                 "file": "m-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn-lefthand1.ccbi"
             },
             {
@@ -50126,7 +50126,7 @@ exports.data = [
                 "file": "f-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn-lefthand1.ccbi"
             },
             {
@@ -50144,7 +50144,7 @@ exports.data = [
                 "file": "m-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn-lefthand1.ccbi"
             },
             {
@@ -50189,7 +50189,7 @@ exports.data = [
                 "file": "f-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn-lefthand1.ccbi"
             },
             {
@@ -50207,7 +50207,7 @@ exports.data = [
                 "file": "m-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn-lefthand1.ccbi"
             },
             {
@@ -50252,7 +50252,7 @@ exports.data = [
                 "file": "f-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn-lefthand1.ccbi"
             },
             {
@@ -50270,7 +50270,7 @@ exports.data = [
                 "file": "m-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn-lefthand1.ccbi"
             },
             {
@@ -50315,7 +50315,7 @@ exports.data = [
                 "file": "f-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn-lefthand1.ccbi"
             },
             {
@@ -50333,7 +50333,7 @@ exports.data = [
                 "file": "m-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn-lefthand1.ccbi"
             },
             {
@@ -50378,7 +50378,7 @@ exports.data = [
                 "file": "f-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "f-priestn-lefthand1.ccbi"
             },
             {
@@ -50396,7 +50396,7 @@ exports.data = [
                 "file": "m-priestn-righthand1.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "m-priestn-lefthand1.ccbi"
             },
             {
@@ -57160,7 +57160,7 @@ exports.data = [
                 "file": "ironsuit-female-righthand.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "ironsuit-female-lefthand.ccbi"
             },
 			{
@@ -57174,7 +57174,7 @@ exports.data = [
                 "file": "ironsuit-male-righthand.ccbi"
             },
             {
-                "part": "lefthand1",
+                "part": "lefthand",
                 "file": "ironsuit-male-lefthand.ccbi"
             },
 			{
@@ -57283,7 +57283,7 @@ exports.data = [
 				"file": "ff3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff3-lefthand.ccbi"
 			},
 			{
@@ -57297,7 +57297,7 @@ exports.data = [
 				"file": "fm3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm3-lefthand.ccbi"
 			},
 			{
@@ -57408,7 +57408,7 @@ exports.data = [
 				"file": "ff4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff4-lefthand.ccbi"
 			},
 			{
@@ -57422,7 +57422,7 @@ exports.data = [
 				"file": "fm4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm4-lefthand.ccbi"
 			},
 			{
@@ -57533,7 +57533,7 @@ exports.data = [
 				"file": "ff5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff5-lefthand.ccbi"
 			},
 			{
@@ -57547,7 +57547,7 @@ exports.data = [
 				"file": "fm5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm5-lefthand.ccbi"
 			},
 			{
@@ -57658,7 +57658,7 @@ exports.data = [
 				"file": "ff6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff6-lefthand.ccbi"
 			},
 			{
@@ -57672,7 +57672,7 @@ exports.data = [
 				"file": "fm6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm6-lefthand.ccbi"
 			},
 			{
@@ -57783,7 +57783,7 @@ exports.data = [
 				"file": "ff7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff7-lefthand.ccbi"
 			},
 			{
@@ -57797,7 +57797,7 @@ exports.data = [
 				"file": "fm7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm7-lefthand.ccbi"
 			},
 			{
@@ -57908,7 +57908,7 @@ exports.data = [
 				"file": "ff8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff8-lefthand.ccbi"
 			},
 			{
@@ -57922,7 +57922,7 @@ exports.data = [
 				"file": "fm8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm8-lefthand.ccbi"
 			},
 			{
@@ -58033,7 +58033,7 @@ exports.data = [
 				"file": "ff9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff9-lefthand.ccbi"
 			},
 			{
@@ -58047,7 +58047,7 @@ exports.data = [
 				"file": "fm9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm9-lefthand.ccbi"
 			},
 			{
@@ -58158,7 +58158,7 @@ exports.data = [
 				"file": "ff10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff10-lefthand.ccbi"
 			},
 			{
@@ -58172,7 +58172,7 @@ exports.data = [
 				"file": "fm10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm10-lefthand.ccbi"
 			},
 			{
@@ -58282,7 +58282,7 @@ exports.data = [
 				"file": "ff3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff3-lefthand.ccbi"
 			},
 			{
@@ -58296,7 +58296,7 @@ exports.data = [
 				"file": "fm3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm3-lefthand.ccbi"
 			},
 			{
@@ -58403,7 +58403,7 @@ exports.data = [
 				"file": "ff4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff4-lefthand.ccbi"
 			},
 			{
@@ -58417,7 +58417,7 @@ exports.data = [
 				"file": "fm4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm4-lefthand.ccbi"
 			},
 			{
@@ -58524,7 +58524,7 @@ exports.data = [
 				"file": "ff5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff5-lefthand.ccbi"
 			},
 			{
@@ -58538,7 +58538,7 @@ exports.data = [
 				"file": "fm5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm5-lefthand.ccbi"
 			},
 			{
@@ -58645,7 +58645,7 @@ exports.data = [
 				"file": "ff6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff6-lefthand.ccbi"
 			},
 			{
@@ -58659,7 +58659,7 @@ exports.data = [
 				"file": "fm6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm6-lefthand.ccbi"
 			},
 			{
@@ -58766,7 +58766,7 @@ exports.data = [
 				"file": "ff7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff7-lefthand.ccbi"
 			},
 			{
@@ -58780,7 +58780,7 @@ exports.data = [
 				"file": "fm7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm7-lefthand.ccbi"
 			},
 			{
@@ -58887,7 +58887,7 @@ exports.data = [
 				"file": "ff8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff8-lefthand.ccbi"
 			},
 			{
@@ -58901,7 +58901,7 @@ exports.data = [
 				"file": "fm8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm8-lefthand.ccbi"
 			},
 			{
@@ -59008,7 +59008,7 @@ exports.data = [
 				"file": "ff9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff9-lefthand.ccbi"
 			},
 			{
@@ -59022,7 +59022,7 @@ exports.data = [
 				"file": "fm9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm9-lefthand.ccbi"
 			},
 			{
@@ -59129,7 +59129,7 @@ exports.data = [
 				"file": "ff10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff10-lefthand.ccbi"
 			},
 			{
@@ -59143,7 +59143,7 @@ exports.data = [
 				"file": "fm10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm10-lefthand.ccbi"
 			},
 			{
@@ -59269,7 +59269,7 @@ exports.data = [
 				"file": "ff3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff3-lefthand.ccbi"
 			},
 			{
@@ -59283,7 +59283,7 @@ exports.data = [
 				"file": "fm3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm3-lefthand.ccbi"
 			},
 			{
@@ -59430,7 +59430,7 @@ exports.data = [
 				"file": "ff4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff4-lefthand.ccbi"
 			},
 			{
@@ -59444,7 +59444,7 @@ exports.data = [
 				"file": "fm4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm4-lefthand.ccbi"
 			},
 			{
@@ -59591,7 +59591,7 @@ exports.data = [
 				"file": "ff5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff5-lefthand.ccbi"
 			},
 			{
@@ -59605,7 +59605,7 @@ exports.data = [
 				"file": "fm5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm5-lefthand.ccbi"
 			},
 			{
@@ -59750,7 +59750,7 @@ exports.data = [
 				"file": "ff6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff6-lefthand.ccbi"
 			},
 			{
@@ -59764,7 +59764,7 @@ exports.data = [
 				"file": "fm6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm6-lefthand.ccbi"
 			},
 			{
@@ -59909,7 +59909,7 @@ exports.data = [
 				"file": "ff7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff7-lefthand.ccbi"
 			},
 			{
@@ -59923,7 +59923,7 @@ exports.data = [
 				"file": "fm7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm7-lefthand.ccbi"
 			},
 			{
@@ -60070,7 +60070,7 @@ exports.data = [
 				"file": "ff8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff8-lefthand.ccbi"
 			},
 			{
@@ -60084,7 +60084,7 @@ exports.data = [
 				"file": "fm8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm8-lefthand.ccbi"
 			},
 			{
@@ -60229,7 +60229,7 @@ exports.data = [
 				"file": "ff9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff9-lefthand.ccbi"
 			},
 			{
@@ -60243,7 +60243,7 @@ exports.data = [
 				"file": "fm9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm9-lefthand.ccbi"
 			},
 			{
@@ -60390,7 +60390,7 @@ exports.data = [
 				"file": "ff10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff10-lefthand.ccbi"
 			},
 			{
@@ -60404,7 +60404,7 @@ exports.data = [
 				"file": "fm10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm10-lefthand.ccbi"
 			},
 			{
@@ -60551,7 +60551,7 @@ exports.data = [
 				"file": "ff3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff3-lefthand.ccbi"
 			},
 			{
@@ -60565,7 +60565,7 @@ exports.data = [
 				"file": "fm3-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm3-lefthand.ccbi"
 			},
 			{
@@ -60708,7 +60708,7 @@ exports.data = [
 				"file": "ff4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff4-lefthand.ccbi"
 			},
 			{
@@ -60722,7 +60722,7 @@ exports.data = [
 				"file": "fm4-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm4-lefthand.ccbi"
 			},
 			{
@@ -60865,7 +60865,7 @@ exports.data = [
 				"file": "ff5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff5-lefthand.ccbi"
 			},
 			{
@@ -60879,7 +60879,7 @@ exports.data = [
 				"file": "fm5-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm5-lefthand.ccbi"
 			},
 			{
@@ -61020,7 +61020,7 @@ exports.data = [
 				"file": "ff6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff6-lefthand.ccbi"
 			},
 			{
@@ -61034,7 +61034,7 @@ exports.data = [
 				"file": "fm6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm6-lefthand.ccbi"
 			},
 			{
@@ -61175,7 +61175,7 @@ exports.data = [
 				"file": "ff7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff7-lefthand.ccbi"
 			},
 			{
@@ -61189,7 +61189,7 @@ exports.data = [
 				"file": "fm7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm7-lefthand.ccbi"
 			},
 			{
@@ -61332,7 +61332,7 @@ exports.data = [
 				"file": "ff8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff8-lefthand.ccbi"
 			},
 			{
@@ -61346,7 +61346,7 @@ exports.data = [
 				"file": "fm8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm8-lefthand.ccbi"
 			},
 			{
@@ -61487,7 +61487,7 @@ exports.data = [
 				"file": "ff9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff9-lefthand.ccbi"
 			},
 			{
@@ -61501,7 +61501,7 @@ exports.data = [
 				"file": "fm9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm9-lefthand.ccbi"
 			},
 			{
@@ -61644,7 +61644,7 @@ exports.data = [
 				"file": "ff10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff10-lefthand.ccbi"
 			},
 			{
@@ -61658,7 +61658,7 @@ exports.data = [
 				"file": "fm10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm10-lefthand.ccbi"
 			},
 			{
@@ -61765,7 +61765,7 @@ exports.data = [
 				"file": "ff6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff6-lefthand.ccbi"
 			},
 			{
@@ -61791,7 +61791,7 @@ exports.data = [
 				"file": "fm6-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm6-lefthand.ccbi"
 			},
 			{
@@ -61828,7 +61828,7 @@ exports.data = [
 				"file": "ff7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff7-lefthand.ccbi"
 			},
 			{
@@ -61854,7 +61854,7 @@ exports.data = [
 				"file": "fm7-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm7-lefthand.ccbi"
 			},
 			{
@@ -61891,7 +61891,7 @@ exports.data = [
 				"file": "ff8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff8-lefthand.ccbi"
 			},
 			{
@@ -61917,7 +61917,7 @@ exports.data = [
 				"file": "fm8-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm8-lefthand.ccbi"
 			},
 			{
@@ -61954,7 +61954,7 @@ exports.data = [
 				"file": "ff9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff9-lefthand.ccbi"
 			},
 			{
@@ -61980,7 +61980,7 @@ exports.data = [
 				"file": "fm9-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm9-lefthand.ccbi"
 			},
 			{
@@ -62017,7 +62017,7 @@ exports.data = [
 				"file": "ff10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "ff10-lefthand.ccbi"
 			},
 			{
@@ -62043,7 +62043,7 @@ exports.data = [
 				"file": "fm10-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "fm10-lefthand.ccbi"
 			},
 			{
@@ -62146,7 +62146,7 @@ exports.data = [
 				"file": "valentine-female-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "valentine-female-lefthand.ccbi"
 			},
 			{
@@ -62172,7 +62172,7 @@ exports.data = [
 				"file": "valentine-male-righthand.ccbi"
 			},
 			{
-				"part": "lefthand1",
+				"part": "lefthand",
 				"file": "valentine-male-lefthand.ccbi"
 			},
 			{
