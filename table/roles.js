@@ -5462,7 +5462,7 @@ exports.data = [
 		"className": "导演",
 		"faction": "monster",
 		"classType": 1,
-		"avatar": "avatar-new02.ccbi",
+		"avatar": "avatar.ccbi",
 		"property": {
 			"health": 1.5,
 			"attack": 3,
@@ -6205,7 +6205,7 @@ exports.data = [
 		"className": "牧师+npc",
 		"faction": "npc",
 		"classType": 2,
-		"avatar": "avatar-new02.ccbi",
+		"avatar": "avatar.ccbi",
 		"property": {
 			"health": 50,
 			"hairColor": 15
@@ -6332,7 +6332,7 @@ exports.data = [
 		"className": "导演",
 		"faction": "monster",
 		"classType": 1,
-		"avatar": "avatar-new02.ccbi",
+		"avatar": "avatar.ccbi",
 		"property": {
 			"health": 1.5,
 			"attack": 3,
@@ -6367,7 +6367,7 @@ exports.data = [
 		"className": "导演0",
 		"faction": "monster",
 		"classType": 1,
-		"avatar": "avatar-new02.ccbi",
+		"avatar": "avatar.ccbi",
 		"property": {
 			"health": 1.5,
 			"attack": 3,
@@ -8071,7 +8071,7 @@ exports.data = [
         "className": "狂战士",
         "faction": "hero",
         "classType": 0,
-        "avatar": "avatar1.ccbi",
+        "avatar": "avatar-new02.ccbi",
         "emblem": [
             "emblem-warrior.png",
             "emblem-warrior2.png"
@@ -8114,7 +8114,7 @@ exports.data = [
         "className": "魔导师",
         "faction": "hero",
         "classType": 0,
-        "avatar": "avatar2.ccbi",
+        "avatar": "avatar-new02.ccbi",
         "emblem": [
             "emblem-mage.png",
             "emblem-mage2.png"
@@ -8157,7 +8157,7 @@ exports.data = [
         "className": "大主教",
         "faction": "hero",
         "classType": 0,
-        "avatar": "avatar3.ccbi",
+        "avatar": "avatar-new02.ccbi",
         "emblem": [
             "emblem-priest.png",
             "emblem-priest2.png"
@@ -8200,7 +8200,7 @@ exports.data = [
         "className": "pk狂战士",
         "faction": "monster",
         "classType": 4,
-        "avatar": "avatar1.ccbi",
+        "avatar": "avatar-new02.ccbi",
         "emblem": [
             "emblem-warrior.png",
             "emblem-warrior2.png"
@@ -8227,7 +8227,7 @@ exports.data = [
         "className": "pk魔导师",
         "faction": "monster",
         "classType": 4,
-        "avatar": "avatar2.ccbi",
+        "avatar": "avatar-new02.ccbi",
         "emblem": [
             "emblem-mage.png",
             "emblem-mage2.png"
@@ -8254,7 +8254,7 @@ exports.data = [
         "className": "pk大主教",
         "faction": "monster",
         "classType": 4,
-        "avatar": "avatar3.ccbi",
+        "avatar": "avatar-new02.ccbi",
         "emblem": [
             "emblem-priest.png",
             "emblem-priest2.png"
@@ -9441,7 +9441,7 @@ exports.data = [
         "className": "卡塔狂战士",
         "faction": "monster",
         "classType": 1,
-        "avatar": "avatar1.ccbi",
+        "avatar": "avatar-new02.ccbi",
         "emblem": [
             "emblem-warrior.png",
             "emblem-warrior2.png"
@@ -9504,7 +9504,7 @@ exports.data = [
         "className": "卡塔魔导师",
         "faction": "monster",
         "classType": 1,
-        "avatar": "avatar2.ccbi",
+        "avatar": "avatar-new02.ccbi",
         "emblem": [
             "emblem-mage.png",
             "emblem-mage2.png"
@@ -9567,7 +9567,7 @@ exports.data = [
         "className": "卡塔主教",
         "faction": "monster",
         "classType": 1,
-        "avatar": "avatar3.ccbi",
+        "avatar": "avatar-new02.ccbi",
         "emblem": [
             "emblem-priest.png",
             "emblem-priest2.png"
@@ -9930,7 +9930,7 @@ exports.data = [
         "className": "法师(队友)",
         "faction": "monster",
         "classType": 4,
-        "avatar": "avatar-new02.ccbi",
+        "avatar": "avatar.ccbi",
         "emblem": [
             "emblem-mage.png",
             "emblem-mage2.png"
@@ -9957,7 +9957,7 @@ exports.data = [
         "className": "牧师(队友)",
         "faction": "monster",
         "classType": 4,
-        "avatar": "avatar-new02.ccbi",
+        "avatar": "avatar.ccbi",
         "emblem": [
             "emblem-priest.png",
             "emblem-priest2.png"
@@ -9983,7 +9983,7 @@ exports.data = [
         "className": "狂战士(队友)",
         "faction": "monster",
         "classType": 4,
-        "avatar": "avatar1.ccbi",
+        "avatar": "avatar-new02.ccbi",
         "emblem": [
             "emblem-warrior.png",
             "emblem-warrior2.png"
@@ -10010,7 +10010,7 @@ exports.data = [
         "className": "魔导师(队友)",
         "faction": "monster",
         "classType": 4,
-        "avatar": "avatar2.ccbi",
+        "avatar": "avatar-new02.ccbi",
         "emblem": [
             "emblem-mage.png",
             "emblem-mage2.png"
@@ -10037,7 +10037,7 @@ exports.data = [
         "className": "大主教(队友)",
         "faction": "monster",
         "classType": 4,
-        "avatar": "avatar3.ccbi",
+        "avatar": "avatar-new02.ccbi",
         "emblem": [
             "emblem-priest.png",
             "emblem-priest2.png"
@@ -10360,7 +10360,7 @@ exports.data = [
 		"className": "试炼战士",
 		"faction": "monster",
 		"classType": 1,
-		"avatar": "avatar1.ccbi",
+		"avatar": "avatar-new02.ccbi",
 		"emblem": [
 			"emblem-warrior.png",
 			"emblem-warrior2.png"
@@ -10439,7 +10439,7 @@ exports.data = [
 		"className": "试炼法师",
 		"faction": "monster",
 		"classType": 1,
-		"avatar": "avatar2.ccbi",
+		"avatar": "avatar-new02.ccbi",
 		"emblem": [
 			"emblem-mage.png",
 			"emblem-mage2.png"
@@ -10518,7 +10518,7 @@ exports.data = [
 		"className": "试炼牧师",
 		"faction": "monster",
 		"classType": 1,
-		"avatar": "avatar3.ccbi",
+		"avatar": "avatar-new02.ccbi",
 		"emblem": [
 			"emblem-priest.png",
 			"emblem-priest2.png"
